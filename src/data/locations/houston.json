@@ -41,7 +41,7 @@
       ],
       "certifications": [
         "ISA member",
-        "Master’s in Fine Arts",
+        "Master's in Fine Arts",
         "USPAP-compliant"
       ],
       "years_in_business": "",
@@ -53,7 +53,7 @@
     },
     {
       "name": "Lorraine Anne Davis",
-      "specialties": "General fine art appraisals",
+      "specialties": ["General fine art appraisals"],
       "pricing": "",
       "services_offered": [],
       "certifications": [

@@ -81,11 +81,21 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
           <span class="text-sm truncate">${appraiser.address}</span>
         </div>
         <div class="flex flex-wrap gap-2 mt-3">
-          ${appraiser.specialties?.map(specialty => `
-            <span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
-              ${specialty}
-            </span>
-          `).join('') || ''}
+          ${(() => {
+            // Handle case where specialties could be a string instead of an array
+            if (typeof appraiser.specialties === 'string') {
+              return `<span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                ${appraiser.specialties}
+              </span>`;
+            }
+            
+            // Handle normal array case
+            return appraiser.specialties?.map(specialty => `
+              <span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                ${specialty}
+              </span>
+            `).join('') || '';
+          })()}
         </div>
       </div>
     </a>
@@ -195,11 +205,21 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
                 <div class="mt-8">
                   <h2 class="text-2xl font-semibold mb-4">Specialties</h2>
                   <div class="flex flex-wrap gap-2">
-                    ${appraiser.specialties?.map(specialty => `
-                      <span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
-                        ${specialty}
-                      </span>
-                    `).join('') || ''}
+                    ${(() => {
+                      // Handle case where specialties could be a string instead of an array
+                      if (typeof appraiser.specialties === 'string') {
+                        return `<span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                          ${appraiser.specialties}
+                        </span>`;
+                      }
+                      
+                      // Handle normal array case
+                      return appraiser.specialties?.map(specialty => `
+                        <span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
+                          ${specialty}
+                        </span>
+                      `).join('') || '';
+                    })()}
                   </div>
                 </div>
               </div>
