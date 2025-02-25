@@ -16,8 +16,8 @@ const cssFile = assetFiles.find(file => file.endsWith('.css'));
 const jsFile = assetFiles.find(file => file.endsWith('.js'));
 
 // Construct the relative asset paths
-const cssPath = `../assets/${cssFile}`;
-const jsPath = `../assets/${jsFile}`;
+const cssPath = `/assets/${cssFile}`;
+const jsPath = `/assets/${jsFile}`;
 
 // Read all location JSON files
 const locationFiles = fs.readdirSync(LOCATIONS_DIR)

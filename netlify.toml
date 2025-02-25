@@ -5,7 +5,26 @@
   publish = "dist"
   command = "npm run build"
 
-# Redirect all routes to index.html for client-side routing
+# Make sure assets are served correctly
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/:splat"
+  status = 200
+
+# Don't redirect for static HTML pages that exist
+[[redirects]]
+  from = "/location/*"
+  to = "/location/:splat/index.html"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/appraiser/*"
+  to = "/appraiser/:splat/index.html"
+  status = 200
+  force = false
+
+# Redirect all remaining routes to index.html for client-side routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
