@@ -1,6 +1,7 @@
 {
   "appraisers": [
     {
+      "id": "fruitcocktail-collectables",
       "name": "Fruitcocktail Collectables",
       "specialties": [
         "Estate sales",
@@ -24,6 +25,7 @@
       "notes": "Based in the Seattle/Bellevue area; hours not specified."
     },
     {
+      "id": "ernie-kitsap-antique-show",
       "name": "Ernie (Kitsap Antique Show)",
       "specialties": [
         "On-site oral appraisals",
@@ -46,6 +48,7 @@
       "notes": "Regular participant at Kitsap Antique Show; operational near Seattle."
     },
     {
+      "id": "prestige-estate-services-national",
       "name": "Prestige Estate Services (National Network)",
       "specialties": [
         "Fine art appraisals",

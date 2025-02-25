@@ -1,6 +1,7 @@
 {
   "appraisers": [
     {
+      "id": "prestige-estate-services-boston",
       "name": "Prestige Estate Services",
       "specialties": [
         "Fine Art",
@@ -26,6 +27,7 @@
       "notes": "Serves greater Boston area including Cambridge, Somerville, Newton, Brookline, and Medford."
     },
     {
+      "id": "new-york-fine-art-appraisers-boston",
       "name": "New York Fine Art Appraisers (Boston Office)",
       "specialties": [
         "Americana",

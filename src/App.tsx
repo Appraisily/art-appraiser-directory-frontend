@@ -86,7 +86,7 @@ function App() {
         <h2 className="text-3xl font-bold mb-10 text-center">Featured Art Appraisers</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Example Appraiser Card - Enhanced */}
-          <a href="/appraiser/metropolitan-art-appraisers" className="group">
+          <a href="/appraiser/metropolitan-art-appraisers-chicago" className="group">
             <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
               <div className="relative">
                 <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>

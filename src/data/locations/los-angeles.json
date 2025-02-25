@@ -1,6 +1,7 @@
 {
   "appraisers": [
     {
+      "id": "amanda-mcconaha-js-held",
       "name": "Amanda McConaha - J.S. Held",
       "specialties": [
         "Post-War Art",
@@ -25,6 +26,7 @@
       "notes": "Based at 445 S Figueroa St #3700; affiliated with J.S. Held."
     },
     {
+      "id": "anya-foo-nova-art-la",
       "name": "Anya Foo - Nova Art LA",
       "specialties": [
         "Eastern European Art",
@@ -47,6 +49,7 @@
       "notes": "Fluent in English, Russian, and Ukrainian; background in finance and publishing."
     },
     {
+      "id": "page-art-inc",
       "name": "Page Art, Inc.",
       "specialties": [
         "Insurance Claims",
@@ -70,6 +73,7 @@
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
     },
     {
+      "id": "escher-associates",
       "name": "Escher Associates (Nancy Escher)",
       "specialties": [
         "Modern Art",
@@ -93,6 +97,7 @@
       "notes": "Handles a variety of art assessments including litigation support."
     },
     {
+      "id": "anderson-fine-art-appraisals",
       "name": "Anderson Fine Art Appraisals",
       "specialties": [
         "European Art",
@@ -120,6 +125,7 @@
       "notes": "Handles high-value art appraisals and notable collections."
     },
     {
+      "id": "saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "specialties": [
         "Insurance Appraisals",
@@ -138,6 +144,7 @@
       "notes": "Known for high-end appraisal work for major art institutions."
     },
     {
+      "id": "gurr-johns",
       "name": "Gurr Johns",
       "specialties": [
         "High-Value Appraisals",
@@ -159,6 +166,7 @@
       "notes": "Global firm managing over $10 billion annually."
     },
     {
+      "id": "mimesis-gallery",
       "name": "Mimesis Gallery",
       "specialties": [
         "Art Valuations",

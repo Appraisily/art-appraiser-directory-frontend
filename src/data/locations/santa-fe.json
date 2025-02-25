@@ -1,6 +1,7 @@
 {
   "appraisers": [
     {
+      "id": "jennifer-lynch-pinpoint",
       "name": "Jennifer Lynch | Pinpoint Fine Art Appraisal",
       "specialties": [
         "Printmaking",
@@ -23,6 +24,7 @@
       "notes": "MFA graduate from Hunter College with over 20 years of experience; known for expertise in printmaking and photography."
     },
     {
+      "id": "reilly-clark-fine-art-santa-fe",
       "name": "Reilly Clark Fine Art & Appraisals",
       "specialties": [
         "Insurance valuations",

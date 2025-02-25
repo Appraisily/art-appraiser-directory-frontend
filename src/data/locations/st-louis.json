@@ -1,6 +1,7 @@
 {
   "appraisers": [
     {
+      "id": "selkirk-auctions-appraisers",
       "name": "Selkirk Auctions & Appraisers",
       "specialties": [
         "Fine Art",
@@ -25,6 +26,7 @@
       "notes": "Based in Saint Louis MO 63101. Specializes in fine art, antiques, and collectibles."
     },
     {
+      "id": "woodard-lipe-fine-art-auction",
       "name": "Woodard Lipe Fine Art & Auction",
       "specialties": [
         "Estate valuations",

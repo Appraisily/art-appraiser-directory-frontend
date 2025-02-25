@@ -1,6 +1,7 @@
 {
   "appraisers": [
     {
+      "id": "momaa-museum-modern-american-art",
       "name": "MoMAA (Museum of Modern American Art)",
       "specialties": [
         "General fine art",
@@ -21,6 +22,7 @@
       "notes": "Offers high-resolution image based appraisals with a 3-day turnaround for South Florida."
     },
     {
+      "id": "juan-lluria-fine-arts",
       "name": "Juan P. Lluria (Lluria Fine Arts)",
       "specialties": [
         "Antiques",
