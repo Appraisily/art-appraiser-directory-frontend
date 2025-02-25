@@ -4,6 +4,7 @@ import { LocationPage } from './pages/LocationPage';
 import { AppraiserPage } from './pages/AppraiserPage';
 import { RootLayout } from './layouts/RootLayout';
 
+// The key is to ensure the router handles all paths correctly in a production environment
 export const router = createBrowserRouter([
   {
     path: '/',
@@ -27,4 +28,6 @@ export const router = createBrowserRouter([
       }
     ],
   },
-]);
+], {
+  basename: '/' // Ensure the router uses the correct base path
+});

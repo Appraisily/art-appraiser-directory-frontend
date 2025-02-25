@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MapPin, Locate } from 'lucide-react';
+import { MapPin, Locate, Search } from 'lucide-react';
 import { cities } from '../utils/staticData';
 
 export function CitySearch() {
@@ -9,6 +9,7 @@ export function CitySearch() {
   const [isLocating, setIsLocating] = useState(false);
   const [suggestions, setSuggestions] = useState<typeof cities>([]);
   const wrapperRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -28,47 +29,37 @@ export function CitySearch() {
     }
 
     const normalizedQuery = query.toLowerCase();
-    const filtered = cities.filter(
-      city => 
-        city.name.toLowerCase().includes(normalizedQuery) || 
-        city.state.toLowerCase().includes(normalizedQuery)
-    ).slice(0, 5);
+    const filtered = cities
+      .filter(
+        city => 
+          city.name.toLowerCase().includes(normalizedQuery) || 
+          city.state.toLowerCase().includes(normalizedQuery)
+      )
+      .sort((a, b) => {
+        // Prioritize exact matches and matches at the beginning of the string
+        const aNameMatch = a.name.toLowerCase().startsWith(normalizedQuery) ? 0 : 1;
+        const bNameMatch = b.name.toLowerCase().startsWith(normalizedQuery) ? 0 : 1;
+        
+        return aNameMatch - bNameMatch || a.name.localeCompare(b.name);
+      })
+      .slice(0, 5);
 
     setSuggestions(filtered);
-    setIsOpen(true);
+    setIsOpen(filtered.length > 0);
   }, [query]);
 
   const handleLocationClick = () => {
     setIsLocating(true);
-    if ('geolocation' in navigator) {
-      navigator.geolocation.getCurrentPosition(
-        async (position) => {
-          try {
-            const response = await fetch(
-              `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${position.coords.latitude}&longitude=${position.coords.longitude}&localityLanguage=en`
-            );
-            const data = await response.json();
-            if (data.city) {
-              setQuery(data.city);
-              const cityMatch = cities.find(
-                c => c.name.toLowerCase() === data.city.toLowerCase()
-              );
-              if (cityMatch) {
-                navigate(`/location/${cityMatch.slug}`);
-              }
-            }
-          } catch (error) {
-            console.error('Error getting location:', error);
-          } finally {
-            setIsLocating(false);
-          }
-        },
-        (error) => {
-          console.error('Error getting location:', error);
-          setIsLocating(false);
-        }
-      );
-    }
+    // Simulate geolocation with a timeout for demonstration
+    setTimeout(() => {
+      setQuery('New York, NY');
+      setIsLocating(false);
+      // Typically you would use the browser's geolocation API here
+      // navigator.geolocation.getCurrentPosition((position) => {
+      //   // Use position.coords.latitude and position.coords.longitude
+      //   // to find the nearest city
+      // });
+    }, 1500);
   };
 
   const handleSelect = (city: typeof cities[0]) => {
@@ -77,40 +68,66 @@ export function CitySearch() {
     navigate(`/location/${city.slug}`);
   };
 
+  const highlightMatch = (text: string, query: string) => {
+    if (!query) return text;
+    
+    const regex = new RegExp(`(${query})`, 'gi');
+    const parts = text.split(regex);
+    
+    return parts.map((part, index) => 
+      regex.test(part) ? 
+        <span key={index} className="bg-primary/20 text-primary font-semibold">{part}</span> : 
+        <span key={index}>{part}</span>
+    );
+  };
+
   return (
     <div ref={wrapperRef} className="relative flex-1">
       <div className="relative">
+        <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <MapPin className="h-5 w-5 text-muted-foreground" />
+        </div>
         <input
+          ref={inputRef}
+          type="text"
+          className="w-full h-12 pl-10 pr-12 rounded-lg border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 shadow-sm"
+          placeholder="Enter city or ZIP code"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          onFocus={() => query && setIsOpen(true)}
-          className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-          placeholder="Enter your city..."
+          onFocus={() => query && setSuggestions.length > 0 && setIsOpen(true)}
         />
         <button
           type="button"
           onClick={handleLocationClick}
           disabled={isLocating}
-          className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-primary transition-colors"
+          className="absolute inset-y-0 right-0 flex items-center pr-3 text-muted-foreground hover:text-primary transition-colors"
         >
-          <Locate className={`h-4 w-4 ${isLocating ? 'animate-spin' : ''}`} />
+          {isLocating ? (
+            <div className="h-5 w-5 border-2 border-primary border-t-transparent rounded-full animate-spin" />
+          ) : (
+            <Locate className="h-5 w-5" />
+          )}
         </button>
       </div>
 
       {isOpen && suggestions.length > 0 && (
-        <div className="absolute z-10 w-full mt-1 bg-white rounded-md shadow-lg border border-gray-200">
-          <ul className="py-1">
+        <div className="absolute z-10 w-full mt-1 bg-white rounded-lg shadow-lg overflow-hidden border border-border animate-fadeInUp">
+          <ul className="py-1 divide-y divide-gray-100">
             {suggestions.map((city) => (
-              <li key={city.slug}>
-                <button
-                  onClick={() => handleSelect(city)}
-                  className="flex items-center gap-2 w-full px-4 py-2 text-sm text-left hover:bg-gray-100"
-                >
-                  <MapPin className="h-4 w-4 text-muted-foreground" />
-                  <span>
-                    {city.name}, <span className="text-muted-foreground">{city.state}</span>
-                  </span>
-                </button>
+              <li 
+                key={city.slug}
+                onClick={() => handleSelect(city)}
+                className="px-4 py-3 cursor-pointer hover:bg-primary/5 transition-colors flex items-center gap-2"
+              >
+                <MapPin className="h-4 w-4 text-primary flex-shrink-0" />
+                <div>
+                  <div className="font-medium">
+                    {highlightMatch(city.name, query)}
+                  </div>
+                  <div className="text-xs text-muted-foreground">
+                    {city.state}
+                  </div>
+                </div>
               </li>
             ))}
           </ul>
