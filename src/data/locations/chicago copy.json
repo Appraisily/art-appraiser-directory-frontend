@@ -1,0 +1,162 @@
+{
+  "appraisers": [
+    {
+      "name": "Richard-Raymond J. Alasko",
+      "specialties": [
+        "Fine art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [
+        "FASA (Fellow of ASA)"
+      ],
+      "years_in_business": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "(312) 491-9760",
+      "website": "",
+      "notes": "Operates as The Alasko Company. Contact via email: rralasko@alaskocompany.com"
+    },
+    {
+      "name": "Gretchen Burch",
+      "specialties": [
+        "Fine art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "(314) 604-4175",
+      "website": "",
+      "notes": "Operates as GB Fine Art. Contact via email: gretchen@gbfineart.com"
+    },
+    {
+      "name": "Pamela Pierrepont Bardo",
+      "specialties": [
+        "Fine/Decorative Arts"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "(312) 372-9216",
+      "website": "bardoappraisals.com",
+      "notes": "Operates as Bardo Consulting Group. Contact via email: ppbardo@bardoappraisals.com"
+    },
+    {
+      "name": "Barbara K. Levin",
+      "specialties": [
+        "Fine art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [
+        "ASA"
+      ],
+      "years_in_business": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "(312) 951-8313",
+      "website": "",
+      "notes": "Operates as Barbara K. Levin Fine Arts Associates. Contact via email: barbaralevinllc@yahoo.com"
+    },
+    {
+      "name": "Veritas Fine Art Appraisals & Consulting",
+      "specialties": [
+        "Fine art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal and consulting"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "(312) 252-9772",
+      "website": "veritasartappraisals.com",
+      "notes": "Contact via email: inquiries@veritasartappraisals.com"
+    },
+    {
+      "name": "Grant Miller Appraisals",
+      "specialties": [
+        "Antiques",
+        "Fine art",
+        "Rare collectibles"
+      ],
+      "pricing": "Hourly or flat fee (approx. $150–$300/hour for larger collections)",
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [
+        "USPAP"
+      ],
+      "years_in_business": "Decades (family-run since the 1960s)",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "312-723-6991",
+      "website": "",
+      "notes": "Contact via email: grantmiller@grantmillerappraisals.com"
+    },
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate tax appraisals",
+        "Art and antiques appraisal"
+      ],
+      "pricing": "Pricing varies; typically $150–$300/hour or flat fees for small collections",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate tax appraisals",
+        "Donation appraisals"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "",
+      "website": "https://prestigeestateservices.com/locations/chicago-illinois/",
+      "notes": "Service areas include The Loop, Lincoln Park, and Hyde Park."
+    },
+    {
+      "name": "Kathleen Doyle (Antiquestor)",
+      "specialties": [
+        "Antiques",
+        "Mid-Century Modern furniture",
+        "Decorative arts"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art and antique appraisal"
+      ],
+      "certifications": [
+        "ISA Accredited Member"
+      ],
+      "years_in_business": "",
+      "city": "Chicago",
+      "state": "Illinois",
+      "phone": "(708) 369-4173",
+      "website": "",
+      "notes": "Operates with multiple Chicago-area offices and also serves areas in Michigan."
+    }
+  ]
+}

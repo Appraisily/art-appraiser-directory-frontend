@@ -1,0 +1,221 @@
+{
+  "appraisers": [
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine art",
+        "antiques",
+        "IRS estate tax compliance"
+      ],
+      "pricing": "Consultation-based",
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Buffalo",
+      "state": "NY",
+      "phone": "(888) 756-9117",
+      "website": "https://prestigeestateservices.com",
+      "notes": "Serves Buffalo metro and Western NY"
+    },
+    {
+      "name": "Schultz Auctioneers",
+      "specialties": [
+        "Antique art (19th/20th century)",
+        "Asian artifacts"
+      ],
+      "pricing": "$150–$500 per item",
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Buffalo",
+      "state": "NY",
+      "phone": "(716) 592-9555",
+      "website": "https://schultzauctioneers.net",
+      "notes": "Serves Buffalo and Rochester region"
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "Online valuations (excluding jewelry)"
+      ],
+      "pricing": "$99–$300+ (expedited fees may apply)",
+      "services_offered": [
+        "Remote art appraisal"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "",
+      "state": "NY",
+      "phone": "(800) 872-6463",
+      "website": "https://www.appraiseitnow.com",
+      "notes": "Provides statewide remote services in NY"
+    },
+    {
+      "name": "Cottone Art Advisory & Appraisals",
+      "specialties": [
+        "Modernist paintings",
+        "European decorative arts"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art advisory",
+        "Appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "Since 1985",
+      "city": "Syracuse",
+      "state": "NY",
+      "phone": "(585) 243-1000",
+      "website": "https://www.cottoneauctions.com",
+      "notes": "Based in Syracuse but serves Western NY"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European/American art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades of experience",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": [
+        "$350/hour",
+        "$2,500/day plus expenses"
+      ],
+      "services_offered": [
+        "Appraisals",
+        "Expert witness services",
+        "Art fraud case handling"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations",
+        "Litigation appraisals"
+      ],
+      "pricing": [
+        "$350/hour",
+        "Minimum $500 for in-office consults"
+      ],
+      "services_offered": [
+        "Art appraisal"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals for high-end clients"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; likely high-end"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Global art appraisal"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Manages over $10 billion annually"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Consignment-based art sales",
+        "Appraisals"
+      ],
+      "pricing": [
+        "20% fee up to $500K",
+        "10% fee beyond $500K"
+      ],
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd; operates on a consignment basis"
+    }
+  ]
+}

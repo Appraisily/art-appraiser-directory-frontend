@@ -1,0 +1,229 @@
+{
+  "appraisers": [
+    {
+      "name": "Selkirk Auctions & Appraisers",
+      "specialties": [
+        "Fine Art",
+        "Antiques",
+        "Collectibles",
+        "Rugs",
+        "Memorabilia"
+      ],
+      "pricing": "Fee structure varies by project",
+      "services_offered": [
+        "Auctions",
+        "Appraisals"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Over 15 years",
+      "city": "Saint Louis",
+      "state": "MO",
+      "phone": "314-696-9041",
+      "website": "",
+      "notes": "Based in Saint Louis MO 63101. Specializes in fine art, antiques, and collectibles."
+    },
+    {
+      "name": "Woodard Lipe Fine Art & Auction",
+      "specialties": [
+        "Estate valuations",
+        "Estate appraisals for paintings, sculptures, decorative arts"
+      ],
+      "pricing": "$150–$250/hour plus travel fees; minimum 1 hour",
+      "services_offered": [
+        "Estate appraisals",
+        "Auctions"
+      ],
+      "certifications": [
+        "USPAP-trained"
+      ],
+      "years_in_business": "Over a decade",
+      "city": "Saint Louis",
+      "state": "MO",
+      "phone": "314-xxx-xxxx",
+      "website": "woodardlipe.com",
+      "notes": "Provides formal appraisals for legal purposes."
+    },
+    {
+      "name": "Coast2Coast Auctions",
+      "specialties": [
+        "Estate auctions",
+        "Real estate auctions",
+        "Mid-century modern furniture",
+        "Art liquidation"
+      ],
+      "pricing": "Commission-based sales; free initial consultations",
+      "services_offered": [
+        "Auctions",
+        "Appraisals (as part of auction services)"
+      ],
+      "certifications": [
+        "Licensed auctioneer",
+        "Realtor®"
+      ],
+      "years_in_business": "Since early 2000s",
+      "city": "Saint Louis",
+      "state": "MO",
+      "phone": "314-599-0563",
+      "website": "coast2coastauctions.com",
+      "notes": "Local auction company with a St.-Louis-based team."
+    },
+    {
+      "name": "Artrium Appraisal (Elizabeth Krambeer)",
+      "specialties": [
+        "American fine art",
+        "European fine art",
+        "Russian decorative arts",
+        "Prints",
+        "Paintings",
+        "Sculpture",
+        "Estate jewelry"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "IRS and USPAP-compliant appraisal reports"
+      ],
+      "certifications": [
+        "ISA Accredited Member",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "20+ years",
+      "city": "Remote",
+      "state": "",
+      "phone": "",
+      "website": "artriumappraisal.com",
+      "notes": "Offers remote services."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th Century Art"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": "Specializes in authentication and expert witness services."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Art fraud investigation"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation evaluations",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; minimum for in-office consults: $500",
+      "services_offered": [
+        "Appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "Not specified; likely high-end pricing",
+      "services_offered": [
+        "Appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Manages over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "Fees: 20% up to $500K, 10% beyond that",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles."
+    }
+  ]
+}

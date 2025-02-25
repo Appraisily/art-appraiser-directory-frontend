@@ -1,0 +1,279 @@
+{
+  "appraisers": [
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Estate tax appraisals",
+        "Antiques",
+        "Decorative arts",
+        "Insurance scheduling"
+      ],
+      "pricing": "Online photo-based appraisals (72-hour turnaround); project-based fees for in-person evaluations",
+      "services_offered": [
+        "Estate tax appraisals",
+        "Antique and decorative art evaluations",
+        "Insurance appraisals"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Over a decade",
+      "city": "Washington",
+      "state": "DC",
+      "phone": "1-(844) 378-7253",
+      "website": "https://prestigeestateservices.com/locations/washington-dc/",
+      "notes": "Offers local and nationwide services."
+    },
+    {
+      "name": "IRS Art Appraisal Services",
+      "specialties": [
+        "Tax-related valuations",
+        "Litigation support"
+      ],
+      "pricing": "Government-regulated fees (case-dependent)",
+      "services_offered": [
+        "Estate, gift, and charitable contribution appraisals",
+        "Litigation support"
+      ],
+      "certifications": [
+        "USPAP-trained IRS staff",
+        "AAA-affiliated panelists"
+      ],
+      "years_in_business": "",
+      "city": "Washington",
+      "state": "DC",
+      "phone": "",
+      "website": "",
+      "notes": "Located at 1111 Constitution Ave NW, Room 3615; overseen by the Commissioner’s Art Advisory Panel."
+    },
+    {
+      "name": "Czudej McDonough",
+      "specialties": [
+        "Fine art valuations",
+        "Insurance appraisals",
+        "Collateral lending",
+        "Litigation support"
+      ],
+      "pricing": "Hourly rates (starting at $900+ per artwork); project-based estimates",
+      "services_offered": [
+        "Valuation for estates, insurance, and litigation"
+      ],
+      "certifications": [
+        "USPAP",
+        "AAA",
+        "Art Valuation Audit reviewer"
+      ],
+      "years_in_business": "Decades",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "https://czudejmcdonough.com",
+      "notes": "Serves Washington, DC as part of a nationwide service network with offices in NYC and San Francisco."
+    },
+    {
+      "name": "AppraiseItNow – Washington DC",
+      "specialties": [
+        "Personal property",
+        "Real estate",
+        "Collectibles"
+      ],
+      "pricing": "Best-price guarantee; fees vary by item complexity",
+      "services_offered": [
+        "In-person and online art appraisals"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Washington",
+      "state": "DC",
+      "phone": "",
+      "website": "https://www.appraiseitnow.com/location/washington-dc",
+      "notes": ""
+    },
+    {
+      "name": "Museum Exchange",
+      "specialties": [
+        "General art valuations via a third-party network"
+      ],
+      "pricing": "$900 per full appraisal; $300 for estimates (estimate fee deductible if upgrading)",
+      "services_offered": [
+        "Online art appraisals"
+      ],
+      "certifications": [
+        "Accredited appraiser network"
+      ],
+      "years_in_business": "",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "https://www.museumexchange.com/appraisals",
+      "notes": "Offers remote services accessible in Washington, DC."
+    },
+    {
+      "name": "Alpha137 Gallery",
+      "specialties": [
+        "Market valuation consultations"
+      ],
+      "pricing": "$195 per 15-minute phone consultation",
+      "services_offered": [
+        "Phone consultations",
+        "Market value analysis"
+      ],
+      "certifications": [
+        "Gallery expertise"
+      ],
+      "years_in_business": "",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "https://alpha137gallery.com",
+      "notes": "Provides remote consultation services; not a formal appraisal certification entity."
+    },
+    {
+      "name": "Artifactual History® Appraisal",
+      "specialties": [
+        "General art appraisal",
+        "Historical artifact evaluation"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "General appraisal services"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "https://www.artifactualhistory.com/contact",
+      "notes": "Contact via email at info@afhappraisal.com using the intake form."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works",
+        "Expert witness services"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350 per hour or $2,500 per day plus expenses",
+      "services_offered": [
+        "Art appraisal",
+        "Authentication",
+        "Litigation support"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP standards",
+        "ASA standards"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.escher-associates.com",
+      "notes": "Handled art fraud cases with the LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance valuations",
+        "Estate appraisals",
+        "Donation valuations",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate of $350; minimum of $500 for in-office consultations",
+      "services_offered": [],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.page-art.com",
+      "notes": "Services extended to Los Angeles, Bay Area, Orange County, and out-of-state regions."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.saylorriceappraisals.com",
+      "notes": "Caters to high-end institutional clients such as LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "Manages over $10 billion in assets annually",
+      "services_offered": [],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.gurrjohns.com",
+      "notes": "Global firm with a significant presence in Los Angeles."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Consignment-based sales",
+        "Free valuations",
+        "Same-day offers"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee for amounts beyond $500K",
+      "services_offered": [
+        "Consignment-based art sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles."
+    }
+  ]
+}

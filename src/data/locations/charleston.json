@@ -1,0 +1,201 @@
+{
+  "appraisers": [
+    {
+      "name": "DJR Authentication",
+      "specialties": [
+        "Fine Art",
+        "Antiques",
+        "Contemporary Art"
+      ],
+      "pricing": "Online appraisal starting at $25 for a quick opinion and $150+ for a full appraisal",
+      "services_offered": [
+        "Appraisals",
+        "Authentication"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "2012",
+      "city": "Charleston",
+      "state": "SC",
+      "phone": "",
+      "website": "https://www.djrauthentication.com",
+      "notes": "Offers both online and in-person services"
+    },
+    {
+      "name": "LePrince Fine Art",
+      "specialties": [
+        "Art Consultation",
+        "Framing",
+        "Commissions"
+      ],
+      "pricing": "Not specified; pricing details available on website",
+      "services_offered": [
+        "Appraisals",
+        "Virtual mock-ups"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Charleston",
+      "state": "SC",
+      "phone": "",
+      "website": "https://leprince.com",
+      "notes": "Provides art consultation and commissions along with appraisal services"
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "Fine Art",
+        "Collectibles",
+        "General Art Appraisals (excluding jewelry)"
+      ],
+      "pricing": "Pricing details not specified; expedited options available for an extra fee",
+      "services_offered": [
+        "Online Appraisals",
+        "Detailed appraisal reports",
+        "Bulk discounts"
+      ],
+      "certifications": [
+        "Certified Appraisers"
+      ],
+      "years_in_business": "",
+      "city": "North Charleston",
+      "state": "SC",
+      "phone": "",
+      "website": "https://www.appraiseitnow.com",
+      "notes": "Offers online appraisals; expedited evaluation available for urgent cases"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century Art"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert Witness Services",
+        "Litigation Support",
+        "Authentication"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "https://www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Handling art fraud cases"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "https://www.escher-associates.com",
+      "notes": "Has handled art fraud cases with LAPD"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate Appraisals",
+        "Donation Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly rate of $350; in-office consults have a $500 minimum",
+      "services_offered": [
+        "Insurance, estate, donation, and litigation appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "https://www.page-art.com",
+      "notes": "Also serves the Bay Area, Orange County, and out-of-state regions"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "pricing": "Not specified; likely high-end pricing",
+      "services_offered": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "https://www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Art Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "Not specified",
+      "services_offered": [
+        "High-value Appraisals",
+        "Expert Witness Services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "https://www.gurrjohns.com",
+      "notes": "Manages over $10 billion in assets annually"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Valuations",
+        "Consignment-based Sales"
+      ],
+      "pricing": "Consignment fees: 20% for sales up to $500K, 10% for sales above $500K; free valuations",
+      "services_offered": [
+        "Free Valuations",
+        "Same-day Offers",
+        "Consignment Sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "https://www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd; operates on a consignment basis"
+    }
+  ]
+}

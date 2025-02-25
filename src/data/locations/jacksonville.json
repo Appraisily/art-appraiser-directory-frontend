@@ -1,0 +1,202 @@
+{
+  "appraisers": [
+    {
+      "name": "Alicia E Weaver",
+      "specialties": [
+        "Antiques",
+        "Furnishings",
+        "Decorative Arts",
+        "Paintings"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance claims",
+        "Estate tax evaluations",
+        "Expert witness testimony"
+      ],
+      "certifications": [
+        "ISA CAPP"
+      ],
+      "years_in_business": "Member since 2012",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "phone": "(239) 449-0409, (303) 449-0409, (512) 489-1717",
+      "website": "",
+      "notes": "Based on multiple service areas; assumed to serve Jacksonville despite unclear location."
+    },
+    {
+      "name": "Prestige Estate Services (Brenda Blackmon)",
+      "specialties": [
+        "Art",
+        "Antiques",
+        "Jewelry Appraisals"
+      ],
+      "pricing": "$175-$225 per hour",
+      "services_offered": [
+        "On-site evaluations",
+        "IRS regulated appraisals",
+        "Estate planning appraisals"
+      ],
+      "certifications": [
+        "USPAP compliant",
+        "IRS-qualified"
+      ],
+      "years_in_business": "",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "phone": "",
+      "website": "https://prestigeestateservices.com/",
+      "notes": "Nationwide coverage including Jacksonville; on-site evaluations available."
+    },
+    {
+      "name": "Antique Art Buyers",
+      "specialties": [
+        "Verbal valuations for paintings"
+      ],
+      "pricing": "Free verbal appraisals",
+      "services_offered": [
+        "Online appraisal via photo submissions"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Jacksonville",
+      "state": "Florida",
+      "phone": "",
+      "website": "https://antiqueartbuyers.com/",
+      "notes": "Operates online only."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert Witness Services",
+        "Litigation Support",
+        "Authentication Research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisals",
+        "Fraud investigation"
+      ],
+      "certifications": [
+        "ASA",
+        "USPAP"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with the LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate Appraisals",
+        "Donation Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+      "services_offered": [
+        "In-office consultations",
+        "Out-of-state services"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and beyond."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "High-value art appraisals",
+        "Expert witness testimony"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free Valuations",
+        "Consignment-based Sales"
+      ],
+      "pricing": "Consignment fees: 20% up to $500K, 10% beyond that",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles."
+    }
+  ]
+}

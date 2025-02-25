@@ -1,0 +1,206 @@
+{
+  "appraisers": [
+    {
+      "name": "Alicia E Weaver",
+      "specialties": [
+        "Paintings",
+        "Americana",
+        "Decorative Arts",
+        "Furniture"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance claims",
+        "Estate evaluations/probate"
+      ],
+      "certifications": [
+        "ISA CAPP"
+      ],
+      "years_in_business": "Since 2012",
+      "city": "Austin",
+      "state": "TX",
+      "phone": "512-489-1717",
+      "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-e-weaver",
+      "notes": "Based on ISA profile; contact for more information."
+    },
+    {
+      "name": "Prestige Estate Services Team",
+      "specialties": [
+        "Fine art collections",
+        "Antiques",
+        "Estate tax appraisals",
+        "IRS-compliant valuations"
+      ],
+      "pricing": "Clear and upfront pricing; quotes provided; variable based on type and complexity",
+      "services_offered": [
+        "In-person valuations",
+        "Remote valuations",
+        "Photo valuations"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA",
+        "AAA"
+      ],
+      "years_in_business": "Decades of experience",
+      "city": "Austin",
+      "state": "TX",
+      "phone": "512-489-1717",
+      "website": "https://prestigeestateservices.com",
+      "notes": "Includes notable appraiser Elizabeth Lovett (ASA-certified), specialized in 19th–20th century paintings."
+    },
+    {
+      "name": "Linda Maxwell Harris",
+      "specialties": [
+        "Real estate related art appraisals",
+        "Property valuation"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Property valuation"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Austin",
+      "state": "TX",
+      "phone": "",
+      "website": "",
+      "notes": "Information sourced from HAR.com profile; further details require direct contact."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": "Specializes in European and American art with extensive experience in expert witness services."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisal",
+        "Expert witness services",
+        "Litigation support"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": 39,
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Founded in 1984 by Nancy Escher; adheres to USPAP and ASA standards and has handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; minimum in-office consult fee: $500",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Litigation appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "Likely high-end",
+      "services_offered": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; specializes in damage/loss appraisals."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness",
+        "Global art market evaluations"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm with a Los Angeles presence managing over $10 billion annually; USPAP compliant."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Consignment-based sales",
+        "Valuations",
+        "Same-day offers"
+      ],
+      "pricing": "Fees: 20% up to $500K, 10% beyond that",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and consignment based sales."
+    }
+  ]
+}

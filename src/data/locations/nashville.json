@@ -1,0 +1,209 @@
+{
+  "appraisers": [
+    {
+      "name": "Case Antiques, Inc. Auctions & Appraisals",
+      "specialties": [
+        "Early Southern decorative arts",
+        "American antiques",
+        "Investment-quality art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Auction services",
+        "Appraisal services"
+      ],
+      "certifications": [
+        "AAA",
+        "USPAP"
+      ],
+      "years_in_business": "20+ years",
+      "city": "Nashville",
+      "state": "TN",
+      "phone": "",
+      "website": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals/",
+      "notes": "Satellite office in Nashville; founded by John Case; originally based in Knoxville."
+    },
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine art collections",
+        "Antique furniture",
+        "Estate tax appraisals",
+        "Insurance appraisals"
+      ],
+      "pricing": "Transparent hourly/project rates; remote appraisals from $150+",
+      "services_offered": [
+        "Estate tax appraisal",
+        "Insurance appraisal",
+        "Donation appraisal"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA"
+      ],
+      "years_in_business": "",
+      "city": "Nashville",
+      "state": "TN",
+      "phone": "",
+      "website": "https://prestigeestateservices.com/",
+      "notes": "Team includes Elizabeth Lovett and Stephanie Calman; serves Nashville, Brentwood, and Franklin areas."
+    },
+    {
+      "name": "Jason Preston Art Advisory & Appraisals",
+      "specialties": [
+        "Sculpture",
+        "Contemporary art",
+        "Confidential advisory services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Confidential appraisals",
+        "Art advisory services"
+      ],
+      "certifications": [
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Nashville",
+      "state": "TN",
+      "phone": "",
+      "website": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
+      "notes": "Offices in Nashville and Los Angeles."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades of experience",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisal",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "ASA",
+        "USPAP"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum in-office consults: $500",
+      "services_offered": [
+        "Insurance appraisal",
+        "Estate appraisal",
+        "Donation appraisal",
+        "Litigation support"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance appraisal",
+        "Damage/loss appraisal"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; positioned as a high-end service."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness testimony"
+      ],
+      "certifications": [
+        "USPAP"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm with Los Angeles presence; manages over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Consignment-based art valuation",
+        "Free valuations",
+        "Same-day offers"
+      ],
+      "pricing": "20% commission up to $500K, 10% beyond that",
+      "services_offered": [
+        "Valuation",
+        "Consignment sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd; offers free valuations with immediate offers."
+    }
+  ]
+}

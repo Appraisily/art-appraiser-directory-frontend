@@ -1,0 +1,225 @@
+{
+  "appraisers": [
+    {
+      "name": "Alicia E Weaver (Prestige Estate Services)",
+      "specialties": [
+        "Antiques",
+        "Americana",
+        "Furniture",
+        "Paintings (19th–20th century)",
+        "Silver",
+        "Ceramics"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance claims",
+        "Estate tax evaluations",
+        "Expert witness testimony"
+      ],
+      "certifications": [
+        "ISA CAPP",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Houston",
+      "state": "Texas",
+      "phone": "1-844-ITEM-VAL",
+      "website": "https://prestigeestateservices.com/locations/houston/",
+      "notes": "Provides a range of appraisals for antiques and decorative arts."
+    },
+    {
+      "name": "Erika Holycross (Prestige Estate Services)",
+      "specialties": [
+        "Fine art (19th-century to modern)",
+        "Antiques",
+        "Collectibles"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Auction advisory",
+        "Tax-related valuations"
+      ],
+      "certifications": [
+        "ISA member",
+        "Master’s in Fine Arts",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Houston",
+      "state": "Texas",
+      "phone": "1-844-483-6825",
+      "website": "https://prestigeestateservices.com/",
+      "notes": "Contact via email at Appraisals@PrestigeEstateServices.com for further inquiries."
+    },
+    {
+      "name": "Lorraine Anne Davis",
+      "specialties": "General fine art appraisals",
+      "pricing": "",
+      "services_offered": [],
+      "certifications": [
+        "AAA-accredited",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Houston",
+      "state": "Texas",
+      "phone": "",
+      "website": "",
+      "notes": "Details inferred from local listings; contact information not provided."
+    },
+    {
+      "name": "Melanie Modica (Modica Fine Art)",
+      "specialties": [
+        "Appraisal reviews for personal property",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisal reviews",
+        "Expert witness services"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Houston",
+      "state": "Texas",
+      "phone": "",
+      "website": "https://modicafineart.com/appraisal-management/",
+      "notes": "Specializes in appraisal reviews and expert witness services."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works",
+        "Expert witness services"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Litigation support",
+        "Authentication research",
+        "Expert witness services"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": "Has decades of experience in art appraisals."
+    },
+    {
+      "name": "Escher Associates (EA)",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisals",
+        "Support for art fraud cases"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Operates with USPAP and ASA standards; has handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation valuations",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum in-office consults: $500",
+      "services_offered": [
+        "Insurance valuations",
+        "Estate evaluations",
+        "Donation assessments",
+        "Litigation support"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Provides services in Los Angeles, Bay Area, Orange County, and out-of-state."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage and loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance valuations",
+        "Damage/loss appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include institutions such as LACMA and MoMA; likely high-end pricing."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "High-value art appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Manages over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee beyond $500K",
+      "services_offered": [
+        "Valuations",
+        "Same-day offers",
+        "Consignment sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers."
+    }
+  ]
+}

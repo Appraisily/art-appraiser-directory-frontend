@@ -1,0 +1,223 @@
+{
+  "appraisers": [
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine Art",
+        "Antiques",
+        "Estate Tax Valuations",
+        "Insurance Appraisals"
+      ],
+      "pricing": "Project-based with free photo-based assessments",
+      "services_offered": [
+        "Personal Property Appraisals",
+        "IRS-compliant appraisals",
+        "Estate Planning"
+      ],
+      "certifications": [
+        "USPAP-compliant",
+        "IRS-qualified"
+      ],
+      "years_in_business": "Decades",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "",
+      "website": "",
+      "notes": "Serves greater Boston area including Cambridge, Somerville, Newton, Brookline, and Medford."
+    },
+    {
+      "name": "New York Fine Art Appraisers (Boston Office)",
+      "specialties": [
+        "Americana",
+        "Contemporary Art",
+        "Decorative Arts"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Fine Art Appraisals",
+        "Museum-grade Collection Valuations"
+      ],
+      "certifications": [
+        "Qualified under federal appraisal standards"
+      ],
+      "years_in_business": "Established 1980; Boston office opened in 2018",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "",
+      "website": "",
+      "notes": "Located in the Back Bay district."
+    },
+    {
+      "name": "Manzi Appraisers & Restoration",
+      "specialties": [
+        "Art Restoration",
+        "Furniture Restoration",
+        "High-value Collections"
+      ],
+      "pricing": "Free consultation available; pricing varies by service",
+      "services_offered": [
+        "Art Appraisals",
+        "Restoration Services",
+        "Insurance Loss Assessments"
+      ],
+      "certifications": [
+        "Staff with 100+ years combined experience"
+      ],
+      "years_in_business": "Founded in 2021",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "617-948-2577",
+      "website": "",
+      "notes": "Also has headquarters in Woburn; office hours: Mon-Fri (8 AM–6 PM), weekends by appointment."
+    },
+    {
+      "name": "Skinner Boston (Bonhams)",
+      "specialties": [
+        "Auction Estimates",
+        "Liquidation Valuations",
+        "Estate Sales"
+      ],
+      "pricing": "Free valuation services for auction estimates",
+      "services_offered": [
+        "Auction Estimates",
+        "Appraisals",
+        "Liquidation Services"
+      ],
+      "certifications": "",
+      "years_in_business": "Since 2024",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "",
+      "website": "",
+      "notes": "Part of Bonhams; accepts online submissions for appraisal."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Expert Witness Services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Authentication",
+        "Litigation Support"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art Appraisals",
+        "Litigation Support",
+        "Handling Art Fraud Cases"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases in collaboration with the LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate and Donations Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly rate of $350 with a minimum of $500 for in-office consultations",
+      "services_offered": [
+        "Appraisals for Insurance",
+        "Estate and Donations Evaluations",
+        "Litigation Support"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Damage/Loss Appraisals",
+        "Insurance Appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance, Damage, and Loss Appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Serves prominent institutions such as LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals managing over $10 billion in assets",
+        "Expert Witness Services"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm with a significant presence in high-value art asset management."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free Valuations",
+        "Consignment Sales"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee beyond that",
+      "services_offered": [
+        "Same-day Valuations",
+        "Consignment-based Sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "appraisers": [
+    {
+      "name": "Mary Peck Art Advisory",
+      "specialties": [
+        "Modern/Contemporary Art",
+        "Paintings",
+        "Sculpture",
+        "Prints",
+        "Photography",
+        "IRS-compliant charitable donation and estate tax appraisals"
+      ],
+      "pricing": "",
+      "services_offered": "Art appraisal services",
+      "certifications": [
+        "Appraisers Association of America (AAA)",
+        "USPAP Compliant until 2025"
+      ],
+      "years_in_business": "16+",
+      "city": "Denver",
+      "state": "CO",
+      "phone": "303-355-0050",
+      "website": "http://marypeckartadvisory.com",
+      "notes": "Based in Denver, serves Aspen and other areas in Colorado."
+    },
+    {
+      "name": "Alicia E Weaver",
+      "specialties": [
+        "Antique Furniture",
+        "Fine Art (19th–20th century)",
+        "High-net-worth collections"
+      ],
+      "pricing": "",
+      "services_offered": "Art appraisal services",
+      "certifications": [
+        "ISA CAPP (Certified Appraiser of Personal Property)"
+      ],
+      "years_in_business": "",
+      "city": "Boulder",
+      "state": "CO",
+      "phone": "",
+      "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-e-weaver",
+      "notes": "Affiliated with the ISA; details verified via ISA directory."
+    },
+    {
+      "name": "812 Maplewood",
+      "specialties": [
+        "Fine Art Valuations",
+        "Insurance Solutions"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art Appraisals",
+        "Framing",
+        "Collection Management"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Aspen",
+      "state": "CO",
+      "phone": "",
+      "website": "https://www.812maplewood.com/art-advisory-services",
+      "notes": "Local Aspen firm offering appraisal services along with framing and collection management."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th Century Art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Expert Witness",
+        "Litigation Support",
+        "Authentication Research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.art-appraisals.net",
+      "notes": "Provides expert witness services and authentication research."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art Appraisals",
+        "Expert Witness Services"
+      ],
+      "certifications": [
+        "ASA Certified",
+        "USPAP"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.escher-associates.com",
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate Appraisals",
+        "Donation Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly rate: $350, Minimum for in-office consults: $500",
+      "services_offered": "Art Appraisals",
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.page-art.com",
+      "notes": "Serves multiple areas including Los Angeles, Bay Area, and Orange County."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "pricing": "",
+      "services_offered": "Art Appraisals",
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "",
+      "services_offered": "Art Appraisals",
+      "certifications": [
+        "USPAP"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.gurrjohns.com",
+      "notes": "Global firm that manages over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free Valuations",
+        "Consignment-based Sales"
+      ],
+      "pricing": "20% commission up to $500K, 10% commission above $500K",
+      "services_offered": [
+        "Art Valuations",
+        "Consignment Sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.mimesisgallery.com",
+      "notes": "Offers free valuations and same-day offers in LA."
+    }
+  ]
+}

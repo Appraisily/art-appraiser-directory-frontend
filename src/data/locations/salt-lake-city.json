@@ -1,0 +1,222 @@
+{
+  "appraisers": [
+    {
+      "name": "Alicia E Weaver – Prestige Estate Services",
+      "specialties": [
+        "Fine art (19th–20th century)",
+        "Antiques",
+        "Decorative arts"
+      ],
+      "pricing": "Affordable online appraisals; custom quotes for high-value items",
+      "services_offered": [
+        "Estate appraisals",
+        "Online appraisals"
+      ],
+      "certifications": [
+        "ISA CAPP",
+        "USPAP/IRS-qualified"
+      ],
+      "years_in_business": "",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "phone": "",
+      "website": "www.prestigeestateservices.com",
+      "notes": "Handles estates over 20k sq ft and serves clients nationwide."
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "Fine art",
+        "Collectibles"
+      ],
+      "pricing": "Starts at $195; expedited fees available",
+      "services_offered": [
+        "Online appraisals",
+        "In-person appraisals"
+      ],
+      "certifications": [
+        "USPAP-compliant",
+        "Certified appraisers"
+      ],
+      "years_in_business": "",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "phone": "",
+      "website": "www.appraiseitnow.com",
+      "notes": "Offers both online and in-person assessments."
+    },
+    {
+      "name": "Intermountain Appraisal",
+      "specialties": [
+        "Fine art (oil paintings)",
+        "Rare books",
+        "Historical documents"
+      ],
+      "pricing": "Custom quotes based on complexity",
+      "services_offered": [
+        "Insurance appraisals",
+        "Donations appraisals",
+        "Legal valuations"
+      ],
+      "certifications": [
+        "CAGA-certified"
+      ],
+      "years_in_business": "40+ years",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "phone": "",
+      "website": "intermountainappraisal.com",
+      "notes": "Over 40 years of combined experience in Utah."
+    },
+    {
+      "name": "Williams Fine Art Gallery",
+      "specialties": [
+        "Early Utah/Western art",
+        "Contemporary art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisal services",
+        "Consignments"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Salt Lake City",
+      "state": "Utah",
+      "phone": "",
+      "website": "nowplayingutah.com/venue/williams-fine-art-gallery",
+      "notes": "Offers consignments and appraisals; additional details available on NowPlayingUtah.com."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services",
+        "Art fraud investigations"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases in partnership with the LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+      "services_offered": [
+        "Art appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Services available in Los Angeles, the Bay Area, Orange County, and out-of-state."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "Pricing not specified (likely high-end)",
+      "services_offered": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "Pricing varies by service type",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Valuations",
+        "Consignments"
+      ],
+      "pricing": "Free valuations and same-day offers; 20% fee up to $500K, 10% fee beyond that",
+      "services_offered": [
+        "Consignment-based sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Offers free valuations and same-day offers on Westwood Blvd in Los Angeles."
+    }
+  ]
+}

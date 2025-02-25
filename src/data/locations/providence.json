@@ -1,0 +1,95 @@
+{
+  "appraisers": [
+    {
+      "name": "Michael Rose Fine Art",
+      "specialties": [
+        "Northeast art",
+        "Collection advisory",
+        "Curatorial projects"
+      ],
+      "pricing": "Contact for pricing details",
+      "services_offered": [
+        "Art appraisals",
+        "Collection advisory",
+        "Curatorial advising"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Since 2014",
+      "city": "Providence",
+      "state": "RI",
+      "phone": "",
+      "website": "https://www.michaelrosefineart.com",
+      "notes": "Local appraiser focused on historical to contemporary Northeast art for collectors and artists."
+    },
+    {
+      "name": "Vallot Auctioneers",
+      "specialties": [
+        "Fine art authentication",
+        "Estate sales",
+        "Emerging artists"
+      ],
+      "pricing": "Contact for pricing details",
+      "services_offered": [
+        "Art appraisals",
+        "Auction services",
+        "Cataloguing"
+      ],
+      "certifications": [],
+      "years_in_business": "2021",
+      "city": "Providence",
+      "state": "RI",
+      "phone": "401-555-XXXX",
+      "website": "https://www.vallots.com",
+      "notes": "Based in Providence and specializing in fine art auctions and appraisals."
+    },
+    {
+      "name": "Associated Estate & Appraisal Co.",
+      "specialties": [
+        "Antiques",
+        "Mid-century modern decor",
+        "Fine art"
+      ],
+      "pricing": "Contact for pricing details",
+      "services_offered": [
+        "Estates appraisal",
+        "Antiques appraisal",
+        "Decorative arts appraisal"
+      ],
+      "certifications": [
+        "Bonded",
+        "Insured"
+      ],
+      "years_in_business": "40+ years",
+      "city": "Cranston",
+      "state": "RI",
+      "phone": "401-781-1181",
+      "website": "",
+      "notes": "Located in Cranston near Providence with over 40 years of experience in antiques and decorative arts."
+    },
+    {
+      "name": "New York Fine Art Appraisers (Boston Office)",
+      "specialties": [
+        "Americana",
+        "Impressionist art",
+        "Contemporary art"
+      ],
+      "pricing": "Contact for pricing details",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate planning appraisals",
+        "Sales appraisals"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Since 1980",
+      "city": "Boston",
+      "state": "MA",
+      "phone": "",
+      "website": "https://nyfaa.com/boston/",
+      "notes": "Boston-based firm that serves Rhode Island and the Northeast; Boston office opened in 2018."
+    }
+  ]
+}

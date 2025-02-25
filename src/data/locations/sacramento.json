@@ -1,0 +1,230 @@
+{
+  "appraisers": [
+    {
+      "name": "Janet L. Ross",
+      "specialties": [
+        "Fine art",
+        "Antique furniture",
+        "Decorative arts",
+        "Collectibles"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal",
+        "Antiques evaluation"
+      ],
+      "certifications": [
+        "ISA Accredited Member (ISA AM)",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "30+ years",
+      "city": "Surf City",
+      "state": "NJ",
+      "phone": "",
+      "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
+      "notes": "Based in New Jersey since 2019; previously served Sacramento (2012–2019) and offers remote consultations."
+    },
+    {
+      "name": "Appraisal Resources (ARAI)",
+      "specialties": [
+        "Fine art",
+        "Decorative arts",
+        "Antiques",
+        "Textiles"
+      ],
+      "pricing": "Hourly or flat rate, no percentage-based fees",
+      "services_offered": [
+        "Fine art appraisal",
+        "IRS-compliant reports"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Sacramento",
+      "state": "CA",
+      "phone": "",
+      "website": "",
+      "notes": "Located at 3450 Sacramento St., Ste. #153."
+    },
+    {
+      "name": "Clars Auctions",
+      "specialties": [
+        "Fine art valuation",
+        "Asian art",
+        "Jewelry",
+        "Furniture"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Auction services",
+        "Art appraisal for estates"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Oakland",
+      "state": "CA",
+      "phone": "(510) 428-0100",
+      "website": "https://clars.com",
+      "notes": "Based in Oakland; serves Northern California including the Sacramento area."
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "Remote appraisals",
+        "Fine art",
+        "Collectibles"
+      ],
+      "pricing": "Starts at $195, expedited options available",
+      "services_offered": [
+        "Online art appraisal"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "",
+      "state": "CA",
+      "phone": "",
+      "website": "",
+      "notes": "Online service available throughout California, including Sacramento."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisal",
+        "Expert witness services",
+        "Authentication research"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP",
+        "ASA standards"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations appraisal",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly $350; minimum $500 for in-office consults",
+      "services_offered": [
+        "Art appraisal for insurance, estates, donations, and litigation"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals for high-end clients including institutions like LACMA and MoMA"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Caters to high-end clients; likely focused on damage and loss evaluations."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisal",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisals for high-value collections",
+        "Management of over $10 billion in art",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm with a Los Angeles presence."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Valuations",
+        "Art consignment"
+      ],
+      "pricing": [
+        "20% fee up to $500K",
+        "10% fee beyond $500K"
+      ],
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based art sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, offers free valuations and handles consignment sales."
+    }
+  ]
+}

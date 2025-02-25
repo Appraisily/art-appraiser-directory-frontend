@@ -1,0 +1,188 @@
+{
+  "appraisers": [
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine art collections (Impressionist to Contemporary)",
+        "Antiques & Furniture",
+        "IRS Estate Tax Appraisals",
+        "Insurance Documentation"
+      ],
+      "pricing": "Clear upfront fees; remote photo evaluations available",
+      "services_offered": [
+        "Estate Tax Appraisals",
+        "Insurance Documentation",
+        "Remote Online Appraisals"
+      ],
+      "certifications": [
+        "IRS-qualified appraisers",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Charlotte",
+      "state": "NC",
+      "phone": "",
+      "website": "https://prestigeestateservices.com/locations/charlotte-personal-property-appraisers-estate-tax-appraisers/",
+      "notes": "Team members: Edward Kitson, Elizabeth Lovett, Stephanie Calman; serves Charlotte metro area including Matthews, Concord, and Huntersville."
+    },
+    {
+      "name": "Dana Summitt (Look Appraisal LLC)",
+      "specialties": [
+        "20th-century American paintings & photography",
+        "Modern prints & rare books",
+        "Vintage clothing & music memorabilia"
+      ],
+      "pricing": "Fee-based consultations; digital invoicing available",
+      "services_offered": [
+        "Fine Art Appraisals",
+        "Consultations"
+      ],
+      "certifications": [
+        "ISA AM",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Raleigh",
+      "state": "NC",
+      "phone": "",
+      "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
+      "notes": "Serves Charlotte metro area; appointments required; operates under Look Appraisal LLC."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century art",
+        "Expert Witness",
+        "Litigation Support",
+        "Authentication Research"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert Witness Services",
+        "Litigation Support",
+        "Authentication Research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": "Provides expert witness services and supports litigation processes."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Litigation Support",
+        "Art Fraud Investigations"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Founded by Nancy Escher; has handled art fraud cases with the LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate Appraisals",
+        "Donation Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum in-office consults: $500",
+      "services_offered": [
+        "Insurance, Estate, Donation, and Litigation Appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state assignments."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "pricing": "Contact for pricing; likely high-end",
+      "services_offered": [
+        "Insurance Appraisals",
+        "Damage/Loss Evaluations"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Caters to high-end clients including institutions like LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals",
+        "Expert Witness Services"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion in art; has a Los Angeles presence."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free Valuations",
+        "Consignment-Based Sales"
+      ],
+      "pricing": "20% fee up to $500K; 10% beyond that",
+      "services_offered": [
+        "Free Valuations",
+        "Same-day Offers",
+        "Consignment Sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Offers same-day offers and consignment-based sales on Westwood Blvd, Los Angeles."
+    }
+  ]
+}

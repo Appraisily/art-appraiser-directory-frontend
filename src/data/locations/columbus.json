@@ -1,0 +1,214 @@
+{
+  "appraisers": [
+    {
+      "name": "Amelia Jeffers Auctioneers & Appraisers",
+      "specialties": [
+        "Art (all periods)",
+        "Antiques",
+        "Hard-to-value assets",
+        "Estate settlements",
+        "Expert witness testimony"
+      ],
+      "pricing": "Custom quotes",
+      "services_offered": [
+        "Art appraisal",
+        "Estate appraisal",
+        "Auction services",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "20+ years",
+      "city": "Columbus",
+      "state": "OH",
+      "phone": "(740) 362-4771",
+      "website": "https://www.liveauctioneers.com/auctioneer/7014/amelia-jeffers-auctioneers-and-appraisers/",
+      "notes": "Over $100M in sales and extensive experience."
+    },
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine art (19th–21st century)",
+        "Antiques",
+        "Furniture",
+        "Insurance appraisals",
+        "Estate and donation appraisals"
+      ],
+      "pricing": "$175–$225/hour (non-regulated vs IRS-regulated)",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "On-site and online evaluations"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA",
+        "AAA",
+        "IRS compliant"
+      ],
+      "years_in_business": "100+ collective years",
+      "city": "Columbus",
+      "state": "OH",
+      "phone": "1-844-483-6825",
+      "website": "https://prestigeestateservices.com/locations/columbus-ohio/",
+      "notes": "Team includes Erika Holycross (ISA affiliated)."
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "General personal property appraisals",
+        "Real estate appraisals"
+      ],
+      "pricing": "Varies by item complexity",
+      "services_offered": [
+        "Personal property appraisal",
+        "Real estate appraisal"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "",
+      "state": "OH",
+      "phone": "",
+      "website": "https://www.appraiseitnow.com/location/ohio",
+      "notes": "National network with local partners."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Expert Witness",
+        "Litigation Support",
+        "Authentication"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th-century works."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisals",
+        "Handling art fraud cases"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Litigation appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Service areas include Los Angeles, Bay Area, Orange County, as well as out-of-state."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "High-end pricing, details not provided",
+      "services_offered": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "certifications": "",
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Consignment-based art sales",
+        "Valuations"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee beyond $500K",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment-based sales"
+      ],
+      "certifications": "",
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, Los Angeles."
+    }
+  ]
+}

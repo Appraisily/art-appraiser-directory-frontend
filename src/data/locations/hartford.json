@@ -1,0 +1,202 @@
+{
+  "appraisers": [
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine art",
+        "Antiques",
+        "Jewelry",
+        "Estate tax assessments",
+        "Insurance appraisals"
+      ],
+      "pricing": "Varies by item complexity; online photo evaluations available",
+      "services_offered": [
+        "Art appraisals",
+        "Estate planning",
+        "Insurance appraisals",
+        "Tax assessments"
+      ],
+      "certifications": [
+        "ISA",
+        "ASA"
+      ],
+      "years_in_business": "",
+      "city": "Hartford",
+      "state": "CT",
+      "phone": "860-713-6100",
+      "website": "https://prestigeestateservices.com",
+      "notes": "Offers 72-hour online appraisals; serves Hartford, New Haven, Stamford, and Greenwich"
+    },
+    {
+      "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
+      "specialties": [
+        "Fine art valuations",
+        "Estate appraisals",
+        "Collections",
+        "Sales"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal services"
+      ],
+      "certifications": [
+        "AAA (Appraisers Association of America)"
+      ],
+      "years_in_business": "Founded in 2015",
+      "city": "Hartford",
+      "state": "CT",
+      "phone": "",
+      "website": "https://www.appraisersassociation.org",
+      "notes": "Founded by Alizzandra Danker; details available via the Appraisers Association of America profile"
+    },
+    {
+      "name": "Winter Associates",
+      "specialties": [
+        "Estate settlement appraisals",
+        "Auctions"
+      ],
+      "pricing": "Fee-based, dependent on appraisal type (single-item vs. bulk estate)",
+      "services_offered": [
+        "Appraisals",
+        "Auction services",
+        "Estate settlements"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Hartford",
+      "state": "CT",
+      "phone": "",
+      "website": "https://www.auctionsappraisers.com",
+      "notes": "Recognized for IRS-compliant reports"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European art",
+        "American art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades of experience",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Expert witness services",
+        "Handling art fraud cases"
+      ],
+      "certifications": [
+        "ASA"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD; adheres to USPAP and ASA standards"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate $350; minimum for in-office consults is $500",
+      "services_offered": [
+        "Appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, the Bay Area, Orange County, and out-of-state regions"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance appraisals",
+        "Damage/loss assessments"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Manages over $10 billion annually; USPAP compliant"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free valuations",
+        "Consignment based sales"
+      ],
+      "pricing": "20% commission up to $500K, 10% commission above $500K",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": ""
+    }
+  ]
+}

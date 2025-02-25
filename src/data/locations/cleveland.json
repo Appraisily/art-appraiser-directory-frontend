@@ -1,0 +1,218 @@
+{
+  "appraisers": [
+    {
+      "name": "Erika Holycross (Prestige Estate Services)",
+      "specialties": [
+        "Fine art (19th–21st century)",
+        "Antiques"
+      ],
+      "pricing": "Non-regulated: $175/hour; IRS-regulated: $225/hour",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Equitable distribution evaluations"
+      ],
+      "certifications": [
+        "ISA",
+        "USPAP compliant"
+      ],
+      "years_in_business": "Over a century combined team experience (firm)",
+      "city": "Cleveland",
+      "state": "OH",
+      "phone": "(216) 377-4777",
+      "website": "",
+      "notes": "Holds a Master's in Fine Arts; former auction-house manager"
+    },
+    {
+      "name": "Alicia Weaver (Prestige Estate Services)",
+      "specialties": [
+        "Americana",
+        "Decorative Arts"
+      ],
+      "pricing": "Non-regulated: $175/hour; IRS-regulated: $225/hour",
+      "services_offered": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Equitable distribution evaluations"
+      ],
+      "certifications": [
+        "ISA CAPP",
+        "USPAP compliant"
+      ],
+      "years_in_business": "Over a century combined team experience (firm)",
+      "city": "Cleveland",
+      "state": "OH",
+      "phone": "(216) 377-4777",
+      "website": "",
+      "notes": "One of only 108 globally certified ISA CAPP professionals"
+    },
+    {
+      "name": "Erin Hollenbank (J.S. Held)",
+      "specialties": [
+        "19th–20th century American art",
+        "19th–20th century European art",
+        "Works on paper"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal for insurance, estate, and donation purposes"
+      ],
+      "certifications": [
+        "ASA Accredited Senior Appraiser"
+      ],
+      "years_in_business": "20+ years",
+      "city": "Cleveland",
+      "state": "OH",
+      "phone": "+1 440 425 3756",
+      "website": "",
+      "notes": "Former Cleveland Museum of Art curator"
+    },
+    {
+      "name": "Legacy Appraisal Group",
+      "specialties": [
+        "Contemporary art",
+        "Asian arts"
+      ],
+      "pricing": "",
+      "services_offered": [],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Cleveland",
+      "state": "OH",
+      "phone": "",
+      "website": "",
+      "notes": "Partial data available"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Expert Witness Services"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Litigation support",
+        "Authentication",
+        "Fine art appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th century works"
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisal",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP compliant"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD"
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance Appraisals",
+        "Estate Appraisals",
+        "Donation Appraisals",
+        "Litigation Appraisals"
+      ],
+      "pricing": "Hourly: $350; Minimum in-office consult: $500",
+      "services_offered": [
+        "Appraisals for insurance, estates, donations, and litigation"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients"
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance Appraisals",
+        "Damage/Loss Appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; likely high-end services"
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value Appraisals",
+        "Expert Witness Services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Global appraisal services",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Manages over $10 billion in artworks annually"
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free Valuations",
+        "Consignment-based Sales"
+      ],
+      "pricing": "20% fee up to $500K; 10% fee beyond $500K",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd, offers immediate appraisal services"
+    }
+  ]
+}

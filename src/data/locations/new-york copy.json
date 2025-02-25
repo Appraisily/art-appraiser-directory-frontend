@@ -1,0 +1,277 @@
+{
+  "appraisers": [
+    {
+      "name": "Museum Exchange",
+      "specialties": [
+        "All media types with artworks valued from $5k to $1M+"
+      ],
+      "pricing": "$900 per appraisal, $300 per valuation estimate",
+      "services_offered": [
+        "Online appraisal platform",
+        "Third-party appraiser matching"
+      ],
+      "certifications": [
+        "USPAP-compliant",
+        "AAA Certified Members"
+      ],
+      "years_in_business": "",
+      "city": "New York",
+      "state": "NY",
+      "phone": "",
+      "website": "https://www.museumexchange.com/appraisals",
+      "notes": "Operates online connecting clients with certified appraisers."
+    },
+    {
+      "name": "Sotheby's New York",
+      "specialties": [
+        "Comprehensive valuations",
+        "Fine art",
+        "Luxury items"
+      ],
+      "pricing": "Fee structure upon request; free estimates available",
+      "services_offered": [
+        "Auction services",
+        "Appraisals",
+        "Expert valuations"
+      ],
+      "certifications": [],
+      "years_in_business": "Established 1744",
+      "city": "New York",
+      "state": "NY",
+      "phone": "+1 212 606 7000",
+      "website": "https://www.sothebys.com",
+      "notes": "Manhattan headquarters with global reach; Business hours: Mon-Sat 10AM–5PM, Sun 1PM–5PM."
+    },
+    {
+      "name": "Alpha 137 Gallery",
+      "specialties": [
+        "Quick insurance valuations",
+        "Inherited art assessments"
+      ],
+      "pricing": "$195 per 15-minute consultation",
+      "services_offered": [
+        "Short-order appraisals",
+        "Phone consultations"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "New York",
+      "state": "NY",
+      "phone": "",
+      "website": "https://alpha137gallery.com",
+      "notes": "Consultation fee credited towards purchase if consigned or sold."
+    },
+    {
+      "name": "Mary Peck Art Advisory",
+      "specialties": [
+        "Modern/contemporary art",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal",
+        "Expert testimony",
+        "Consulting"
+      ],
+      "certifications": [
+        "AAA Certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "27+",
+      "city": "Denver",
+      "state": "CO",
+      "phone": "303-355-0050",
+      "website": "https://www.marypeckartadvisory.com",
+      "notes": ""
+    },
+    {
+      "name": "Showplace NYC Fine Art Buyer",
+      "specialties": [
+        "Contemporary market valuations",
+        "Direct art purchases"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals",
+        "Art buying/selling services"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "New York",
+      "state": "NY",
+      "phone": "",
+      "website": "https://estatebuyers.nyshowplace.com",
+      "notes": "Manhattan-based transactions."
+    },
+    {
+      "name": "Heritage Auctions",
+      "specialties": [
+        "Collectibles",
+        "Fine art"
+      ],
+      "pricing": "Free initial appraisals; consignment fees vary",
+      "services_offered": [
+        "Auction services",
+        "Appraisals"
+      ],
+      "certifications": [
+        "BBB-accredited"
+      ],
+      "years_in_business": "Since 1976",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "https://www.ha.com",
+      "notes": "Global auction house with free preliminary valuations."
+    },
+    {
+      "name": "Juliette Yuan & Associates",
+      "specialties": [
+        "Collection management",
+        "IRS-compliant reporting"
+      ],
+      "pricing": "Project-based with 30-50% upfront",
+      "services_offered": [
+        "Art appraisal",
+        "Collection advisory"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "https://www.jyuanassociates.com",
+      "notes": ""
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Expert Witness"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Litigation support",
+        "Authentication",
+        "Appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.art-appraisals.net",
+      "notes": "Specializes in European/American art, including Contemporary, Modern, and Impressionist works."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare Books"
+      ],
+      "pricing": "$350 per hour or $2,500 per day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Authentication",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate planning",
+        "Donations",
+        "Litigation"
+      ],
+      "pricing": "Hourly rate: $350; Minimum in-office consult: $500",
+      "services_offered": [
+        "Appraisal services"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "http://www.page-art.com",
+      "notes": "Serves Los Angeles, Bay Area, Orange County and out-of-state clients."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "",
+      "state": "",
+      "phone": "",
+      "website": "http://www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; likely high-end valuations."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal",
+        "Collection management"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.gurrjohns.com",
+      "notes": "Manages over $10 billion in assets annually; global firm."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee beyond $500K",
+      "services_offered": [
+        "Appraisals",
+        "Gallery sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd; offers same-day offers."
+    }
+  ]
+}

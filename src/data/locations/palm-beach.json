@@ -1,0 +1,255 @@
+{
+  "appraisers": [
+    {
+      "name": "Alicia E Weaver",
+      "specialties": [
+        "Antiques",
+        "Americana",
+        "Decorative Arts",
+        "Furniture",
+        "Ceramics",
+        "Silver",
+        "19th–20th century paintings"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance claims",
+        "Estate tax evaluations",
+        "Damage assessments"
+      ],
+      "certifications": [
+        "ISA CAPP"
+      ],
+      "years_in_business": "15+ years",
+      "city": "Palm Beach",
+      "state": "FL",
+      "phone": "1-844-ITEM-VAL (483-6825)",
+      "website": "https://prestigeestateservices.com",
+      "notes": "Operates via Prestige Estate Services and independent practice."
+    },
+    {
+      "name": "Elizabeth Lake Lovett",
+      "specialties": [
+        "19th–20th Century American and European paintings"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Insurance valuations",
+        "Donation valuations",
+        "Estate appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "20+ years",
+      "city": "Palm Beach",
+      "state": "FL",
+      "phone": "",
+      "website": "https://prestigeestateservices.com",
+      "notes": "Former Sotheby’s intern background."
+    },
+    {
+      "name": "Kaminski Auctions",
+      "specialties": [
+        "Fine Art",
+        "Asian/Modern Art",
+        "Militaria",
+        "Jewelry",
+        "Auction Appraisals"
+      ],
+      "pricing": "Auction-specific valuations",
+      "services_offered": [
+        "Auction appraisals",
+        "Valuations for sales"
+      ],
+      "certifications": [
+        "In-house certified appraisers"
+      ],
+      "years_in_business": "30+ years",
+      "city": "Palm Beach",
+      "state": "FL",
+      "phone": "(978) 927-2223",
+      "website": "https://www.kaminskiauctions.com",
+      "notes": ""
+    },
+    {
+      "name": "AppraiseItNow",
+      "specialties": [
+        "General personal property appraisal",
+        "Real Estate",
+        "Online appraisal services"
+      ],
+      "pricing": "Best-price guarantee; online quotes available",
+      "services_offered": [
+        "Online appraisals",
+        "In-person appraisals"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Palm Beach",
+      "state": "FL",
+      "phone": "",
+      "website": "https://www.appraiseitnow.com/location/florida",
+      "notes": ""
+    },
+    {
+      "name": "Sotheby's Palm Beach",
+      "specialties": [
+        "Art valuation",
+        "Consignment consultations",
+        "Acquisitions"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Valuation consultations",
+        "Auction services"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Palm Beach",
+      "state": "FL",
+      "phone": "",
+      "website": "",
+      "notes": "Operates from The Slat House at The Royal Poinciana Plaza; Hours Tue–Sat: 10 AM–6 PM, Sun: 11 AM–5 PM"
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary Art",
+        "Modern Art",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.art-appraisals.net",
+      "notes": ""
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Appraisals",
+        "Expert witness services",
+        "Litigation support",
+        "Authentication"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP standards"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.escher-associates.com",
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donation appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+      "services_offered": [
+        "In-office appraisals",
+        "Remote appraisals"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.page-art.com",
+      "notes": ""
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "High-end pricing",
+      "services_offered": [
+        "Appraisals for institutions",
+        "Damage assessments"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals",
+        "Expert witness",
+        "Valuation management"
+      ],
+      "certifications": [
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.gurrjohns.com",
+      "notes": "Manages over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free art valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee beyond that",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd."
+    }
+  ]
+}

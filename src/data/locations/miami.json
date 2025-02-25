@@ -1,0 +1,259 @@
+{
+  "appraisers": [
+    {
+      "name": "MoMAA (Museum of Modern American Art)",
+      "specialties": [
+        "General fine art",
+        "Online appraisals (paintings, sculptures)"
+      ],
+      "pricing": "Fees undisclosed; PDF report provided within 3 business days",
+      "services_offered": [
+        "Art appraisals",
+        "Detailed PDF reports",
+        "Online service"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "",
+      "website": "https://momaa.org/art-appraisal-miami/",
+      "notes": "Offers high-resolution image based appraisals with a 3-day turnaround for South Florida."
+    },
+    {
+      "name": "Juan P. Lluria (Lluria Fine Arts)",
+      "specialties": [
+        "Antiques",
+        "Fine art",
+        "Decorative household items"
+      ],
+      "pricing": "Hourly or flat fees; specialist fees extra",
+      "services_offered": [
+        "Art appraisals",
+        "Referrals to specialists for jewelry and non-Western art"
+      ],
+      "certifications": [
+        "AAA-certified (Appraisers Association of America)"
+      ],
+      "years_in_business": "30+ years",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "",
+      "website": "https://lluriafinearts.com/about-us/appraisals/",
+      "notes": "Provides appraisal services with additional referrals as needed."
+    },
+    {
+      "name": "Antique Art Buyers",
+      "specialties": [
+        "Antique paintings"
+      ],
+      "pricing": "Free verbal valuations",
+      "services_offered": [
+        "Free verbal appraisals"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "",
+      "website": "https://antiqueartbuyers.com",
+      "notes": "Focuses on free verbal valuations for sellers in Miami-Dade County."
+    },
+    {
+      "name": "Lisa Austin (LA&A)",
+      "specialties": [
+        "Contemporary art acquisitions",
+        "Art documentation"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisals",
+        "Art advisory",
+        "Documentation"
+      ],
+      "certifications": [
+        "Appraisers Association of America",
+        "M.A. in Art History (University of Miami)"
+      ],
+      "years_in_business": "",
+      "city": "Miami Beach",
+      "state": "FL",
+      "phone": "+1 305-865-1800",
+      "website": "http://www.laanda.net",
+      "notes": ""
+    },
+    {
+      "name": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
+      "specialties": [
+        "Haitian art",
+        "Caribbean art"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisal",
+        "Gallery services"
+      ],
+      "certifications": [
+        "Fine art appraiser since 1989"
+      ],
+      "years_in_business": "35+ years",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "",
+      "website": "https://www.naderhaitianart.com",
+      "notes": ""
+    },
+    {
+      "name": "The Fine Art Group",
+      "specialties": [
+        "High-value art investment advisory",
+        "Art appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art advisory",
+        "Art appraisals",
+        "Investment advisory"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Miami",
+      "state": "FL",
+      "phone": "",
+      "website": "https://www.fineartgroup.com",
+      "notes": "Operates globally with a local presence in Miami."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European Art",
+        "American Art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services",
+        "Litigation support",
+        "Authentication research"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades of experience",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.art-appraisals.net",
+      "notes": "Specializes in a broad range of European and American art styles."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services",
+        "Fraud case handling"
+      ],
+      "certifications": [
+        "ASA-certified"
+      ],
+      "years_in_business": "Founded in 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.escher-associates.com",
+      "notes": "Handled art fraud cases with LAPD and adheres to USPAP and ASA standards."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estate appraisals",
+        "Donations appraisals",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate of $350; minimum for in-office consults: $500",
+      "services_offered": [
+        "Appraisals for insurance, estates, donations, and litigation"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.page-art.com",
+      "notes": ""
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Appraisals for insurance and damage/loss"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.saylorriceappraisals.com",
+      "notes": "Clients include LACMA and MoMA; caters to high-end appraisal needs."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free art valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "20% fee up to $500K; 10% fee for amounts above $500K",
+      "services_offered": [
+        "Free valuations",
+        "Same-day offers",
+        "Consignment services"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.mimesisgallery.com",
+      "notes": "Offers same-day offers and operates on a consignment-based sales model."
+    }
+  ]
+}

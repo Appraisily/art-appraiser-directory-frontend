@@ -1,0 +1,212 @@
+{
+  "appraisers": [
+    {
+      "name": "Prestige Estate Services",
+      "specialties": [
+        "Fine art (19th–21st century)",
+        "Antiques",
+        "Furniture",
+        "Insurance claims",
+        "Divorce settlements",
+        "Charitable donations"
+      ],
+      "pricing": "On-site: $175–225/hour; Online photo appraisals: free initial review then $150–300/item",
+      "services_offered": [
+        "Art appraisals",
+        "IRS-compliant valuations",
+        "Estate planning",
+        "Insurance valuation",
+        "Remote appraisal options"
+      ],
+      "certifications": [
+        "ISA",
+        "ISA CAPP",
+        "USPAP",
+        "IRS-qualified"
+      ],
+      "years_in_business": "",
+      "city": "Cincinnati",
+      "state": "OH",
+      "phone": "1-844-483-6825",
+      "website": "https://www.prestigeestateservices.com",
+      "notes": "Appraisers include Alicia E Weaver (ISA CAPP) and Erika Holycross (ISA member with auction-house experience). Services cover Greater Cincinnati and nationwide remote options."
+    },
+    {
+      "name": "Art Asset Management Group",
+      "specialties": [
+        "Modern art",
+        "Contemporary art",
+        "Expert witness testimony",
+        "Insurance claims",
+        "Legacy planning"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "ASA Accredited Senior Appraiser",
+        "USPAP-compliant"
+      ],
+      "years_in_business": "",
+      "city": "Cincinnati",
+      "state": "OH",
+      "phone": "",
+      "website": "https://www.artassetmanagementgroup.com/about",
+      "notes": "Led by Accredited Senior Appraiser Xiliary Twil. Included in local Cincinnati recommendations."
+    },
+    {
+      "name": "Eisele Gallery",
+      "specialties": [
+        "Paintings",
+        "Sculptures",
+        "Regional artists"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Fine art valuations for sales/consignments",
+        "Authentication support"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Cincinnati",
+      "state": "OH",
+      "phone": "",
+      "website": "https://www.eiselefineart.com",
+      "notes": "Offers appraisal services as part of broader fine art offerings."
+    },
+    {
+      "name": "Anderson Fine Art Appraisals",
+      "specialties": [
+        "European art",
+        "American art",
+        "Contemporary",
+        "Modern",
+        "Impressionist",
+        "19th-century works",
+        "Expert witness services"
+      ],
+      "pricing": "Project-based",
+      "services_offered": [
+        "Litigation support",
+        "Authentication research",
+        "Art appraisal"
+      ],
+      "certifications": [],
+      "years_in_business": "Decades",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.art-appraisals.net",
+      "notes": "Known as AFAA; specializes in both European and American art with expert witness capabilities."
+    },
+    {
+      "name": "Escher Associates",
+      "specialties": [
+        "Paintings",
+        "Sculpture",
+        "Photography",
+        "Rare books"
+      ],
+      "pricing": "$350/hour or $2,500/day plus expenses",
+      "services_offered": [
+        "Art appraisals",
+        "Expert witness services"
+      ],
+      "certifications": [
+        "ASA-certified",
+        "USPAP compliant"
+      ],
+      "years_in_business": "Since 1984",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.escher-associates.com",
+      "notes": "Founded by Nancy Escher and known for handling art fraud cases with LAPD."
+    },
+    {
+      "name": "Page Art, Inc.",
+      "specialties": [
+        "Insurance appraisals",
+        "Estates",
+        "Donations",
+        "Litigation appraisals"
+      ],
+      "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+      "services_offered": [
+        "Art appraisals for insurance, estate, and donation purposes",
+        "Litigation support"
+      ],
+      "certifications": [
+        "ASA",
+        "ISA",
+        "AAA"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.page-art.com",
+      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state locations."
+    },
+    {
+      "name": "Saylor Rice Appraisals",
+      "specialties": [
+        "Insurance appraisals",
+        "Damage/loss appraisals"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Art appraisals for insurance and claims"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.saylorriceappraisals.com",
+      "notes": "High-end appraisals with clientele including LACMA and MoMA."
+    },
+    {
+      "name": "Gurr Johns",
+      "specialties": [
+        "High-value art appraisals",
+        "Expert witness services"
+      ],
+      "pricing": "",
+      "services_offered": [
+        "Global appraisal services",
+        "Expert witness support"
+      ],
+      "certifications": [
+        "USPAP compliant"
+      ],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.gurrjohns.com",
+      "notes": "Global firm managing over $10 billion annually."
+    },
+    {
+      "name": "Mimesis Gallery",
+      "specialties": [
+        "Free valuations",
+        "Consignment-based sales"
+      ],
+      "pricing": "20% fee up to $500K, 10% fee beyond $500K",
+      "services_offered": [
+        "Same-day offers",
+        "Art appraisals through consignment sales"
+      ],
+      "certifications": [],
+      "years_in_business": "",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "",
+      "website": "http://www.mimesisgallery.com",
+      "notes": "Located on Westwood Blvd; offers free valuations and quick turnaround offers."
+    }
+  ]
+}
