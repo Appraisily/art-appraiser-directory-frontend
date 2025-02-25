@@ -121,8 +121,11 @@ function App() {
         </div>
         
         <div className="mt-12 text-center">
-          <a href="/location/new-york" className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white">
+          <a href="/location/new-york" className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4">
             Browse All Appraisers
+          </a>
+          <a href="/directory" className="inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 h-12 bg-primary shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300">
+            View Full Directory
           </a>
         </div>
       </main>
