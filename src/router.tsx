@@ -35,5 +35,5 @@ export const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: '/' // Ensure the router uses the correct base path
+  basename: '/directory' // Ensure the router uses the correct base path
 });
