@@ -1,178 +1,165 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
+import citiesData from '../data/cities.json';
+
+// Define links similar to the main_page Footer
+const links = {
+  quickLinks: [
+    { name: 'Services', href: '/services' },
+    { name: 'How It Works', href: '/how-it-works' },
+    { name: 'Free AI Art Analysis', href: '/screener' },
+    { name: 'Terms of Service', href: '/terms' }
+  ],
+  legal: [
+    { name: 'Privacy Policy', href: '/privacy' },
+    { name: 'Terms of Service', href: '/terms' }
+  ],
+  social: [
+    { name: 'Facebook', icon: Facebook, href: '#' },
+    { name: 'Twitter', icon: Twitter, href: '#' },
+    { name: 'Instagram', icon: Instagram, href: '#' }
+  ]
+};
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [cities, setCities] = useState<Array<{name: string, state: string, slug: string}>>([]);
   
+  useEffect(() => {
+    // Load cities from the imported data
+    setCities(citiesData.cities);
+  }, []);
+
   return (
-    <footer className="bg-slate-900 text-white">
-      <div className="container mx-auto px-6 pt-16 pb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+    <footer className="relative overflow-hidden bg-white">
+      {/* Background Elements */}
+      <div className="absolute inset-0">
+        {/* Base gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white" />
+        
+        {/* Animated gradient blobs */}
+        <div className="absolute top-0 -left-4 w-3/4 h-3/4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-[0.08] animate-blob" />
+        <div className="absolute -bottom-8 right-0 w-3/4 h-3/4 bg-gradient-to-l from-blue-500 to-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-[0.08] animate-blob animation-delay-2000" />
+        <div className="absolute -bottom-8 -left-4 w-3/4 h-3/4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-[0.08] animate-blob animation-delay-4000" />
+        
+        {/* Grid overlay */}
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#3b82f620_1px,transparent_1px),linear-gradient(to_bottom,#3b82f620_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_at_center,black,transparent_75%)]" />
+      </div>
+
+      {/* Cities Subfooter */}
+      <div className="relative border-b border-gray-200">
+        <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+          <h3 className="text-lg font-semibold text-gray-900 mb-6">
+            Find Art Appraisers Near You
+          </h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            {cities.map((city) => (
+              <a 
+                key={city.slug}
+                href={`/location/${city.slug}`}
+                className="text-gray-600 hover:text-gray-900 transition-colors text-sm flex items-center gap-1"
+              >
+                <MapPin className="h-3 w-3" /> {city.name}, {city.state}
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Main Footer */}
+      <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div className="space-y-6">
-            <div className="flex items-center gap-3">
+          <div className="col-span-1 md:col-span-2 space-y-6">
+            <div className="flex items-center">
               <img 
-                src="http://cdn.mcauto-images-production.sendgrid.net/304ac75ef1d5c007/8aeb2689-2b5b-402d-a6f3-6521621e123a/300x300.png" 
-                alt="Appraisily Logo" 
-                className="w-10 h-10 bg-white rounded-md"
+                src="https://ik.imagekit.io/appraisily/WebPage/logo_new.png?updatedAt=1731919266638"
+                alt="Appraisily Logo"
+                className="h-8 w-auto mr-3"
+                loading="lazy"
               />
-              <span className="font-bold text-2xl tracking-tight">Appraisily</span>
+              <span className="text-2xl font-bold text-gray-900">Appraisily</span>
             </div>
-            <p className="text-slate-300 text-sm">
-              Connecting art collectors with professional appraisers since 2015. Get accurate valuations from certified experts nationwide.
+            <p className="text-gray-600 max-w-md">
+              Professional online art and antique appraisals. Get accurate valuations from certified experts within 48 hours.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-primary transition-colors h-9 w-9 flex items-center justify-center bg-slate-800 rounded-full hover:bg-slate-700">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-white hover:text-primary transition-colors h-9 w-9 flex items-center justify-center bg-slate-800 rounded-full hover:bg-slate-700">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-white hover:text-primary transition-colors h-9 w-9 flex items-center justify-center bg-slate-800 rounded-full hover:bg-slate-700">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-white hover:text-primary transition-colors h-9 w-9 flex items-center justify-center bg-slate-800 rounded-full hover:bg-slate-700">
-                <Linkedin className="h-5 w-5" />
-              </a>
-            </div>
+            <button 
+              className="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-md flex items-center"
+              onClick={() => window.location.href = "https://services.appraisily.com"}
+            >
+              Start Appraisal <ArrowRight className="ml-2 h-4 w-4" />
+            </button>
           </div>
           
           {/* Quick Links */}
-          <div>
-            <h3 className="font-bold text-lg mb-6 relative">
-              <span className="relative z-10">Quick Links</span>
-              <span className="absolute bottom-0 left-0 w-12 h-1 bg-primary"></span>
+          <div className="space-y-4">
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">
+              Quick Links
             </h3>
             <ul className="space-y-3">
-              <li>
-                <a href="/about" className="text-slate-300 hover:text-white transition-colors flex items-center gap-2 group">
-                  <ArrowRight className="h-4 w-0 opacity-0 group-hover:w-4 group-hover:opacity-100 transition-all duration-300" />
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="/services" className="text-slate-300 hover:text-white transition-colors flex items-center gap-2 group">
-                  <ArrowRight className="h-4 w-0 opacity-0 group-hover:w-4 group-hover:opacity-100 transition-all duration-300" />
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="/blog" className="text-slate-300 hover:text-white transition-colors flex items-center gap-2 group">
-                  <ArrowRight className="h-4 w-0 opacity-0 group-hover:w-4 group-hover:opacity-100 transition-all duration-300" />
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="/faq" className="text-slate-300 hover:text-white transition-colors flex items-center gap-2 group">
-                  <ArrowRight className="h-4 w-0 opacity-0 group-hover:w-4 group-hover:opacity-100 transition-all duration-300" />
-                  FAQs
-                </a>
-              </li>
-              <li>
-                <a href="/contact" className="text-slate-300 hover:text-white transition-colors flex items-center gap-2 group">
-                  <ArrowRight className="h-4 w-0 opacity-0 group-hover:w-4 group-hover:opacity-100 transition-all duration-300" />
-                  Contact
-                </a>
-              </li>
+              {links.quickLinks.map((link) => (
+                <li key={link.name}>
+                  <a 
+                    href={link.href}
+                    className="text-gray-600 hover:text-gray-900 transition-colors text-sm"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
-          
+
           {/* Contact Info */}
-          <div>
-            <h3 className="font-bold text-lg mb-6 relative">
-              <span className="relative z-10">Contact Us</span>
-              <span className="absolute bottom-0 left-0 w-12 h-1 bg-primary"></span>
+          <div className="space-y-4">
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider">
+              Contact Us
             </h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
-                <span className="text-slate-300">123 Art Avenue, New York, NY 10001</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-slate-300 hover:text-white transition-colors">(123) 456-7890</a>
-              </li>
-              <li className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@appraisily.com" className="text-slate-300 hover:text-white transition-colors">info@appraisily.com</a>
-              </li>
-            </ul>
-          </div>
-          
-          {/* Newsletter */}
-          <div>
-            <h3 className="font-bold text-lg mb-6 relative">
-              <span className="relative z-10">Newsletter</span>
-              <span className="absolute bottom-0 left-0 w-12 h-1 bg-primary"></span>
-            </h3>
-            <p className="text-slate-300 mb-4 text-sm">
-              Subscribe to our newsletter for the latest news and updates on art appraisal.
-            </p>
-            <form className="flex flex-col space-y-2">
-              <input 
-                type="email" 
-                placeholder="Your email address" 
-                className="bg-slate-800 border border-slate-700 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary text-white placeholder:text-slate-400"
-              />
-              <button 
-                type="submit" 
-                className="bg-primary hover:bg-primary/90 text-white font-medium py-3 px-4 rounded-lg transition-colors"
+            <div className="space-y-3">
+              <a 
+                href="mailto:info@appraisily.com"
+                className="flex items-center text-gray-600 hover:text-gray-900 transition-colors text-sm"
               >
-                Subscribe
-              </button>
-            </form>
+                <Mail className="h-4 w-4 mr-2" />
+                info@appraisily.com
+              </a>
+              <div className="flex space-x-4">
+                {links.social.map((social) => {
+                  const Icon = social.icon;
+                  return (
+                    <a
+                      key={social.name}
+                      href={social.href}
+                      className="text-gray-600 hover:text-gray-900 transition-colors"
+                      aria-label={`Visit our ${social.name} page`}
+                    >
+                      <Icon className="h-5 w-5" />
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
           </div>
         </div>
         
-        {/* Popular Cities Grid */}
-        <div className="mb-16">
-          <h3 className="font-bold text-lg mb-6 relative inline-block">
-            <span className="relative z-10">Find Art Appraisers Near You</span>
-            <span className="absolute bottom-0 left-0 w-12 h-1 bg-primary"></span>
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
-            <a href="/location/new-york" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> New York
-            </a>
-            <a href="/location/los-angeles" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> Los Angeles
-            </a>
-            <a href="/location/chicago" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> Chicago
-            </a>
-            <a href="/location/houston" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> Houston
-            </a>
-            <a href="/location/phoenix" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> Phoenix
-            </a>
-            <a href="/location/philadelphia" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> Philadelphia
-            </a>
-            <a href="/location/san-antonio" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> San Antonio
-            </a>
-            <a href="/location/san-diego" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> San Diego
-            </a>
-            <a href="/location/dallas" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> Dallas
-            </a>
-            <a href="/location/san-jose" className="text-slate-300 hover:text-white transition-colors text-sm flex items-center gap-1">
-              <MapPin className="h-3 w-3" /> San Jose
-            </a>
-          </div>
-        </div>
-        
-        {/* Footer Bottom */}
-        <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-slate-400 text-sm">
-            © {currentYear} Appraisily. All rights reserved.
-          </div>
-          <div className="flex gap-6">
-            <a href="/privacy" className="text-slate-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-            <a href="/terms" className="text-slate-400 hover:text-white text-sm transition-colors">Terms of Service</a>
-            <a href="/sitemap" className="text-slate-400 hover:text-white text-sm transition-colors">Sitemap</a>
+        {/* Bottom Bar */}
+        <div className="mt-8 pt-8 border-t border-gray-200">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div className="flex items-center space-x-1 text-sm">
+              <span className="text-gray-600">©</span>
+              <span className="text-gray-900 font-medium">{new Date().getFullYear()} Appraisily.</span>
+              <span className="text-gray-600">All rights reserved.</span>
+            </div>
+            <nav className="flex items-center gap-6">
+              {links.legal.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                >
+                  {link.name}
+                </a>
+              ))}
+            </nav>
           </div>
         </div>
       </div>
