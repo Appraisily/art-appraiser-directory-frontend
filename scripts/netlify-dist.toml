@@ -5,6 +5,19 @@
   publish = "/"
   command = "echo 'No build required, using pre-built files'"
 
+# Explicitly handle asset files with correct MIME types
+[[headers]]
+  for = "/assets/*.css"
+    [headers.values]
+    Content-Type = "text/css"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/*.js"
+    [headers.values]
+    Content-Type = "application/javascript"
+    Cache-Control = "public, max-age=31536000, immutable"
+
 # Make sure assets are served correctly
 [[redirects]]
   from = "/assets/*"
@@ -30,6 +43,7 @@
   to = "/index.html"
   status = 200
 
+# Additional header configurations
 [[headers]]
   # Define headers for all assets
   for = "/assets/*"

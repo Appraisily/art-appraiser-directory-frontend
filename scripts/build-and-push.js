@@ -13,6 +13,9 @@ const GITHUB_REPO = 'https://github.com/yourusername/art-appraiser-dist.git'; //
 const BRANCH_NAME = 'main';
 const BASE_URL = 'https://art-appraiser.yourdomain.com'; // Replace with your domain
 
+// Set environment variable for sitemap generation
+process.env.SITE_URL = BASE_URL;
+
 async function buildAndPush() {
   try {
     console.log('🚀 Starting build and push process...');
@@ -26,15 +29,19 @@ async function buildAndPush() {
     console.log('🏗️ Building application...');
     execSync('npm run build', { cwd: ROOT_DIR, stdio: 'inherit' });
     
-    // Step 3: Generate sitemap
-    console.log('🗺️ Generating sitemap...');
-    generateSitemap();
+    // Step 3: Generate enhanced sitemap
+    console.log('🗺️ Generating comprehensive sitemap...');
+    await import('./generate-sitemap.js');
     
-    // Step 4: Set up temp directory for the dist branch
+    // Step 4: Validate the build
+    console.log('🔍 Validating build...');
+    validateBuild();
+    
+    // Step 5: Set up temp directory for the dist branch
     console.log('📁 Setting up temp directory...');
     fs.ensureDirSync(TEMP_DIR);
     
-    // Step 5: Clone the repository (only the specified branch, with depth 1 for performance)
+    // Step 6: Clone the repository (only the specified branch, with depth 1 for performance)
     try {
       console.log(`🔄 Cloning ${BRANCH_NAME} branch...`);
       execSync(`git clone ${GITHUB_REPO} ${TEMP_DIR} --branch ${BRANCH_NAME} --single-branch --depth 1`, { stdio: 'inherit' });
@@ -45,7 +52,7 @@ async function buildAndPush() {
       execSync(`cd ${TEMP_DIR} && git checkout -b ${BRANCH_NAME}`, { stdio: 'inherit' });
     }
     
-    // Step 6: Remove all files in the temp directory except .git
+    // Step 7: Remove all files in the temp directory except .git
     console.log('🗑️ Cleaning temp directory...');
     const filesToRemove = fs.readdirSync(TEMP_DIR)
       .filter(file => file !== '.git')
@@ -55,7 +62,7 @@ async function buildAndPush() {
       fs.removeSync(file);
     });
     
-    // Step 7: Copy dist to temp directory
+    // Step 8: Copy dist to temp directory
     console.log('📋 Copying built files to temp directory...');
     fs.copySync(DIST_DIR, TEMP_DIR);
 
@@ -66,14 +73,14 @@ async function buildAndPush() {
       path.join(TEMP_DIR, 'netlify.toml')
     );
     
-    // Step 8: Commit and push changes
+    // Step 9: Commit and push changes
     console.log('📤 Committing and pushing changes...');
     const timestamp = new Date().toISOString();
     execSync(`cd ${TEMP_DIR} && git add . && git commit -m "Deploy: ${timestamp}" && git push -u origin ${BRANCH_NAME}`, { stdio: 'inherit' });
     
     console.log('✅ Build and push completed successfully!');
     
-    // Step 9: Clean up temp directory
+    // Step 10: Clean up temp directory
     fs.removeSync(TEMP_DIR);
     
   } catch (error) {
@@ -82,46 +89,45 @@ async function buildAndPush() {
   }
 }
 
-// Function to generate sitemap.xml
-function generateSitemap() {
-  // Find all HTML files
-  const pages = findHtmlFiles(DIST_DIR);
+// Function to validate the build
+function validateBuild() {
+  // Check if the dist directory exists
+  if (!fs.existsSync(DIST_DIR)) {
+    throw new Error('Dist directory does not exist after build');
+  }
   
-  let sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n';
-  sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+  // Check if index.html exists
+  if (!fs.existsSync(path.join(DIST_DIR, 'index.html'))) {
+    throw new Error('index.html not found in dist directory');
+  }
   
-  pages.forEach(page => {
-    sitemap += '  <url>\n';
-    sitemap += `    <loc>${BASE_URL}${page}</loc>\n`;
-    sitemap += '    <changefreq>weekly</changefreq>\n';
-    sitemap += '    <priority>0.8</priority>\n';
-    sitemap += '  </url>\n';
-  });
+  // Check for assets directory
+  const assetsDir = path.join(DIST_DIR, 'assets');
+  if (!fs.existsSync(assetsDir)) {
+    throw new Error('Assets directory not found in dist directory');
+  }
   
-  sitemap += '</urlset>';
+  // Check for CSS and JS files
+  const files = fs.readdirSync(assetsDir);
+  const cssFile = files.find(file => file.endsWith('.css'));
+  const jsFile = files.find(file => file.endsWith('.js'));
   
-  fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), sitemap);
-  console.log('Sitemap generated successfully!');
-}
-
-// Function to recursively find all HTML files
-function findHtmlFiles(dir, fileList = []) {
-  const files = fs.readdirSync(dir);
+  if (!cssFile) {
+    throw new Error('No CSS file found in assets directory');
+  }
   
-  files.forEach(file => {
-    const filePath = path.join(dir, file);
-    const stat = fs.statSync(filePath);
-    
-    if (stat.isDirectory()) {
-      findHtmlFiles(filePath, fileList);
-    } else if (file === 'index.html') {
-      // Get relative path from dist directory
-      const relativePath = path.relative(DIST_DIR, dir);
-      fileList.push(relativePath === '' ? '/' : `/${relativePath}/`);
-    }
-  });
+  if (!jsFile) {
+    throw new Error('No JS file found in assets directory');
+  }
   
-  return fileList;
+  // Check if sitemap.xml exists
+  if (!fs.existsSync(path.join(DIST_DIR, 'sitemap.xml'))) {
+    throw new Error('sitemap.xml not found in dist directory');
+  }
+  
+  console.log('✓ Build validation passed!');
+  console.log(`  - CSS file: ${cssFile}`);
+  console.log(`  - JS file: ${jsFile}`);
 }
 
 // Run the build and push process
