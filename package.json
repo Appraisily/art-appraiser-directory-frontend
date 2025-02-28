@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && node scripts/generate-static.js && node scripts/copy-static.js",
+    "deploy": "node scripts/build-and-push.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
