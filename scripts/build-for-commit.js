@@ -8,7 +8,7 @@ const ROOT_DIR = path.join(__dirname, '..');
 const DIST_DIR = path.join(ROOT_DIR, 'dist');
 
 // Configuration
-const BASE_URL = process.env.SITE_URL || 'https://your-art-appraiser-site.com';
+const BASE_URL = process.env.SITE_URL || 'https://art-appraiser.appraisily.com';
 
 // Set environment variable for sitemap generation
 process.env.SITE_URL = BASE_URL;

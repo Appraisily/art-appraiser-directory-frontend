@@ -1,11 +1,9 @@
-# Main Netlify configuration file
-# Note: This configuration tells Netlify to use the pre-built files in the dist directory
+# Netlify configuration for pre-built distribution
 
+# No build command needed since files are already built
 [build]
-  # The directory to publish
-  publish = "dist"
-  # No build command needed since files are already pre-built locally
-  command = "echo 'Using pre-built files from dist directory'"
+  publish = "/"
+  command = "echo 'No build required, using pre-built files'"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]
@@ -55,4 +53,4 @@
   # Define headers for the sitemap
   for = "/sitemap.xml"
     [headers.values]
-    Cache-Control = "public, max-age=3600"
+    Cache-Control = "public, max-age=3600" 
