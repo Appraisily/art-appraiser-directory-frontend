@@ -21,7 +21,8 @@
       "state": "NM",
       "phone": "",
       "website": "",
-      "notes": "MFA graduate from Hunter College with over 20 years of experience; known for expertise in printmaking and photography."
+      "notes": "MFA graduate from Hunter College with over 20 years of experience; known for expertise in printmaking and photography.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jennifer_lynch_pinpoint_placeholder.jpg"
     },
     {
       "id": "reilly-clark-fine-art-santa-fe",
@@ -43,7 +44,8 @@
       "state": "NM",
       "phone": "(214) 799-7889",
       "website": "",
-      "notes": "Holds a B.A. & M.A. from Stanford and is a Ph.D. candidate at UCSB."
+      "notes": "Holds a B.A. & M.A. from Stanford and is a Ph.D. candidate at UCSB.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly_clark_fine_art_santa_fe_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -64,7 +66,9 @@
       "state": "NM",
       "phone": "",
       "website": "https://www.appraiseitnow.com",
-      "notes": "Offers 24/7 online access for appraisal services."
+      "notes": "Offers 24/7 online access for appraisal services.",
+      "id": "santa-fe-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa_fe_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -85,7 +89,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in contemporary, modern, impressionist, and 19th-century works."
+      "notes": "Specializes in contemporary, modern, impressionist, and 19th-century works.",
+      "id": "santa-fe-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa_fe_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -109,7 +115,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; has handled art fraud cases in collaboration with LAPD."
+      "notes": "Founded by Nancy Escher; has handled art fraud cases in collaboration with LAPD.",
+      "id": "santa-fe-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa_fe_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -133,7 +141,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state regions."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state regions.",
+      "id": "santa-fe-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa_fe_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -151,7 +161,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Handles appraisals for clients such as LACMA and MoMA."
+      "notes": "Handles appraisals for clients such as LACMA and MoMA.",
+      "id": "santa-fe-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa_fe_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -172,7 +184,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": ""
+      "notes": "",
+      "id": "santa-fe-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa_fe_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -193,7 +207,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers."
+      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers.",
+      "id": "santa-fe-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa_fe_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

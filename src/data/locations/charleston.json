@@ -20,7 +20,9 @@
       "state": "SC",
       "phone": "",
       "website": "https://www.djrauthentication.com",
-      "notes": "Offers both online and in-person services"
+      "notes": "Offers both online and in-person services",
+      "id": "charleston-djr-authentication",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_djr_authentication_placeholder.jpg"
     },
     {
       "name": "LePrince Fine Art",
@@ -40,7 +42,9 @@
       "state": "SC",
       "phone": "",
       "website": "https://leprince.com",
-      "notes": "Provides art consultation and commissions along with appraisal services"
+      "notes": "Provides art consultation and commissions along with appraisal services",
+      "id": "charleston-leprince-fine-art",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_leprince_fine_art_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -63,7 +67,9 @@
       "state": "SC",
       "phone": "",
       "website": "https://www.appraiseitnow.com",
-      "notes": "Offers online appraisals; expedited evaluation available for urgent cases"
+      "notes": "Offers online appraisals; expedited evaluation available for urgent cases",
+      "id": "charleston-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -87,7 +93,9 @@
       "state": "CA",
       "phone": "",
       "website": "https://www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "charleston-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -111,7 +119,9 @@
       "state": "CA",
       "phone": "",
       "website": "https://www.escher-associates.com",
-      "notes": "Has handled art fraud cases with LAPD"
+      "notes": "Has handled art fraud cases with LAPD",
+      "id": "charleston-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -135,7 +145,9 @@
       "state": "CA",
       "phone": "",
       "website": "https://www.page-art.com",
-      "notes": "Also serves the Bay Area, Orange County, and out-of-state regions"
+      "notes": "Also serves the Bay Area, Orange County, and out-of-state regions",
+      "id": "charleston-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -154,7 +166,9 @@
       "state": "CA",
       "phone": "",
       "website": "https://www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals"
+      "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals",
+      "id": "charleston-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -175,7 +189,9 @@
       "state": "CA",
       "phone": "",
       "website": "https://www.gurrjohns.com",
-      "notes": "Manages over $10 billion in assets annually"
+      "notes": "Manages over $10 billion in assets annually",
+      "id": "charleston-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -195,7 +211,9 @@
       "state": "CA",
       "phone": "",
       "website": "https://www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; operates on a consignment basis"
+      "notes": "Located on Westwood Blvd; operates on a consignment basis",
+      "id": "charleston-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

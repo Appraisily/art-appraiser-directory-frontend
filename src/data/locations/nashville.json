@@ -21,7 +21,9 @@
       "state": "TN",
       "phone": "",
       "website": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals/",
-      "notes": "Satellite office in Nashville; founded by John Case; originally based in Knoxville."
+      "notes": "Satellite office in Nashville; founded by John Case; originally based in Knoxville.",
+      "id": "nashville-case-antiques-inc-auctions-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_case_antiques_inc_auctions_appraisals_placeholder.jpg"
     },
     {
       "name": "Prestige Estate Services",
@@ -46,7 +48,9 @@
       "state": "TN",
       "phone": "",
       "website": "https://prestigeestateservices.com/",
-      "notes": "Team includes Elizabeth Lovett and Stephanie Calman; serves Nashville, Brentwood, and Franklin areas."
+      "notes": "Team includes Elizabeth Lovett and Stephanie Calman; serves Nashville, Brentwood, and Franklin areas.",
+      "id": "nashville-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Jason Preston Art Advisory & Appraisals",
@@ -68,7 +72,9 @@
       "state": "TN",
       "phone": "",
       "website": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
-      "notes": "Offices in Nashville and Los Angeles."
+      "notes": "Offices in Nashville and Los Angeles.",
+      "id": "nashville-jason-preston-art-advisory-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_jason_preston_art_advisory_appraisals_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -92,7 +98,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "nashville-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -116,7 +124,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
+      "id": "nashville-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -143,7 +153,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "nashville-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -162,7 +174,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; positioned as a high-end service."
+      "notes": "Clients include LACMA and MoMA; positioned as a high-end service.",
+      "id": "nashville-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -183,7 +197,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm with Los Angeles presence; manages over $10 billion annually."
+      "notes": "Global firm with Los Angeles presence; manages over $10 billion annually.",
+      "id": "nashville-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -203,7 +219,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; offers free valuations with immediate offers."
+      "notes": "Located on Westwood Blvd; offers free valuations with immediate offers.",
+      "id": "nashville-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

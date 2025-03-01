@@ -22,7 +22,9 @@
       "state": "Florida",
       "phone": "(239) 449-0409, (303) 449-0409, (512) 489-1717",
       "website": "",
-      "notes": "Based on multiple service areas; assumed to serve Jacksonville despite unclear location."
+      "notes": "Based on multiple service areas; assumed to serve Jacksonville despite unclear location.",
+      "id": "jacksonville-alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_alicia_e_weaver_placeholder.jpg"
     },
     {
       "name": "Prestige Estate Services (Brenda Blackmon)",
@@ -46,7 +48,9 @@
       "state": "Florida",
       "phone": "",
       "website": "https://prestigeestateservices.com/",
-      "notes": "Nationwide coverage including Jacksonville; on-site evaluations available."
+      "notes": "Nationwide coverage including Jacksonville; on-site evaluations available.",
+      "id": "jacksonville-prestige-estate-services-brenda-blackmon",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_prestige_estate_services_brenda_blackmon_placeholder.jpg"
     },
     {
       "name": "Antique Art Buyers",
@@ -63,7 +67,9 @@
       "state": "Florida",
       "phone": "",
       "website": "https://antiqueartbuyers.com/",
-      "notes": "Operates online only."
+      "notes": "Operates online only.",
+      "id": "jacksonville-antique-art-buyers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_antique_art_buyers_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -87,7 +93,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "jacksonville-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -111,7 +119,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases with the LAPD."
+      "notes": "Handled art fraud cases with the LAPD.",
+      "id": "jacksonville-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -136,7 +146,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and beyond."
+      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and beyond.",
+      "id": "jacksonville-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -155,7 +167,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "jacksonville-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -176,7 +190,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually."
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "jacksonville-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -196,7 +212,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, Los Angeles."
+      "notes": "Located on Westwood Blvd, Los Angeles.",
+      "id": "jacksonville-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

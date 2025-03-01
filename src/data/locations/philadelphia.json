@@ -22,7 +22,9 @@
       "state": "PA",
       "phone": "",
       "website": "https://prestigeestateservices.com",
-      "notes": "Offers services for fine art and estate evaluations with remote consultation options."
+      "notes": "Offers services for fine art and estate evaluations with remote consultation options.",
+      "id": "philadelphia-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Doyle (Pennsylvania Regional Office)",
@@ -44,7 +46,9 @@
       "state": "PA",
       "phone": "",
       "website": "https://www.doyle.com/locations/pennsylvania/",
-      "notes": "Part of a global auction house with an active regional advisor."
+      "notes": "Part of a global auction house with an active regional advisor.",
+      "id": "philadelphia-doyle-pennsylvania-regional-office",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_doyle_pennsylvania_regional_office_placeholder.jpg"
     },
     {
       "name": "Philadelphia Jewelry Appraisers",
@@ -67,7 +71,9 @@
       "state": "PA",
       "phone": "484-580-9147",
       "website": "http://philadelphiajewelryappraisers.com",
-      "notes": "Walk-ins welcome; appointments are recommended."
+      "notes": "Walk-ins welcome; appointments are recommended.",
+      "id": "philadelphia-philadelphia-jewelry-appraisers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_philadelphia_jewelry_appraisers_placeholder.jpg"
     },
     {
       "name": "Freeman's | Hindman",
@@ -88,7 +94,9 @@
       "state": "PA",
       "phone": "",
       "website": "",
-      "notes": "Post-merger modernized operations targeting both local and international clientele."
+      "notes": "Post-merger modernized operations targeting both local and international clientele.",
+      "id": "philadelphia-freeman-s-hindman",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_freeman_s_hindman_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -112,7 +120,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "philadelphia-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -135,7 +145,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.escher-associates.com",
-      "notes": "Has handled high-profile art fraud cases including work with the LAPD."
+      "notes": "Has handled high-profile art fraud cases including work with the LAPD.",
+      "id": "philadelphia-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -159,7 +171,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.page-art.com",
-      "notes": ""
+      "notes": "",
+      "id": "philadelphia-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -177,7 +191,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.saylorriceappraisals.com",
-      "notes": "Serves prominent institutions such as LACMA and MoMA."
+      "notes": "Serves prominent institutions such as LACMA and MoMA.",
+      "id": "philadelphia-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -199,7 +215,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.gurrjohns.com",
-      "notes": "Global firm with a Los Angeles presence."
+      "notes": "Global firm with a Los Angeles presence.",
+      "id": "philadelphia-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -218,7 +236,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.mimesisgallery.com",
-      "notes": "Offers free valuations and operates on a consignment basis in Westwood Blvd."
+      "notes": "Offers free valuations and operates on a consignment basis in Westwood Blvd.",
+      "id": "philadelphia-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

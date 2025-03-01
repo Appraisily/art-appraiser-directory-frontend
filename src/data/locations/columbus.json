@@ -24,7 +24,9 @@
       "state": "OH",
       "phone": "(740) 362-4771",
       "website": "https://www.liveauctioneers.com/auctioneer/7014/amelia-jeffers-auctioneers-and-appraisers/",
-      "notes": "Over $100M in sales and extensive experience."
+      "notes": "Over $100M in sales and extensive experience.",
+      "id": "columbus-amelia-jeffers-auctioneers-appraisers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_amelia_jeffers_auctioneers_appraisers_placeholder.jpg"
     },
     {
       "name": "Prestige Estate Services",
@@ -53,7 +55,9 @@
       "state": "OH",
       "phone": "1-844-483-6825",
       "website": "https://prestigeestateservices.com/locations/columbus-ohio/",
-      "notes": "Team includes Erika Holycross (ISA affiliated)."
+      "notes": "Team includes Erika Holycross (ISA affiliated).",
+      "id": "columbus-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -74,7 +78,9 @@
       "state": "OH",
       "phone": "",
       "website": "https://www.appraiseitnow.com/location/ohio",
-      "notes": "National network with local partners."
+      "notes": "National network with local partners.",
+      "id": "columbus-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -97,7 +103,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th-century works."
+      "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th-century works.",
+      "id": "columbus-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -121,7 +129,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
+      "id": "columbus-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -148,7 +158,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Service areas include Los Angeles, Bay Area, Orange County, as well as out-of-state."
+      "notes": "Service areas include Los Angeles, Bay Area, Orange County, as well as out-of-state.",
+      "id": "columbus-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -167,7 +179,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "columbus-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -188,7 +202,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually."
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "columbus-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -208,7 +224,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, Los Angeles."
+      "notes": "Located on Westwood Blvd, Los Angeles.",
+      "id": "columbus-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

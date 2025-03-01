@@ -23,7 +23,8 @@
       "state": "MO",
       "phone": "314-696-9041",
       "website": "",
-      "notes": "Based in Saint Louis MO 63101. Specializes in fine art, antiques, and collectibles."
+      "notes": "Based in Saint Louis MO 63101. Specializes in fine art, antiques, and collectibles.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_selkirk_auctions_appraisers_placeholder.jpg"
     },
     {
       "id": "woodard-lipe-fine-art-auction",
@@ -45,7 +46,8 @@
       "state": "MO",
       "phone": "314-xxx-xxxx",
       "website": "woodardlipe.com",
-      "notes": "Provides formal appraisals for legal purposes."
+      "notes": "Provides formal appraisals for legal purposes.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_woodard_lipe_fine_art_auction_placeholder.jpg"
     },
     {
       "name": "Coast2Coast Auctions",
@@ -69,7 +71,9 @@
       "state": "MO",
       "phone": "314-599-0563",
       "website": "coast2coastauctions.com",
-      "notes": "Local auction company with a St.-Louis-based team."
+      "notes": "Local auction company with a St.-Louis-based team.",
+      "id": "st-louis-coast2coast-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_coast2coast_auctions_placeholder.jpg"
     },
     {
       "name": "Artrium Appraisal (Elizabeth Krambeer)",
@@ -95,7 +99,9 @@
       "state": "",
       "phone": "",
       "website": "artriumappraisal.com",
-      "notes": "Offers remote services."
+      "notes": "Offers remote services.",
+      "id": "st-louis-artrium-appraisal-elizabeth-krambeer",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_artrium_appraisal_elizabeth_krambeer_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -119,7 +125,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in authentication and expert witness services."
+      "notes": "Specializes in authentication and expert witness services.",
+      "id": "st-louis-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -142,7 +150,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases with LAPD."
+      "notes": "Handled art fraud cases with LAPD.",
+      "id": "st-louis-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -166,7 +176,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "st-louis-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -184,7 +196,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "st-louis-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -205,7 +219,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Manages over $10 billion annually."
+      "notes": "Manages over $10 billion annually.",
+      "id": "st-louis-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -225,7 +241,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, Los Angeles."
+      "notes": "Located on Westwood Blvd, Los Angeles.",
+      "id": "st-louis-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st_louis_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

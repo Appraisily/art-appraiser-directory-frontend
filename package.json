@@ -10,7 +10,8 @@
     "deploy": "node scripts/build-and-push.js",
     "deploy:direct": "node scripts/build-for-commit.js",
     "check-paths": "node scripts/check-paths.js",
-    "lint": "eslint .",
+    "fix-images": "node scripts/fix-missing-images.js",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {

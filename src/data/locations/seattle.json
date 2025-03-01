@@ -22,7 +22,8 @@
       "state": "WA",
       "phone": "",
       "website": "https://fruitcocktailcollectables.com",
-      "notes": "Based in the Seattle/Bellevue area; hours not specified."
+      "notes": "Based in the Seattle/Bellevue area; hours not specified.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fruitcocktail_collectables_placeholder.jpg"
     },
     {
       "id": "ernie-kitsap-antique-show",
@@ -45,7 +46,8 @@
       "state": "WA",
       "phone": "",
       "website": "",
-      "notes": "Regular participant at Kitsap Antique Show; operational near Seattle."
+      "notes": "Regular participant at Kitsap Antique Show; operational near Seattle.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ernie_kitsap_antique_show_placeholder.jpg"
     },
     {
       "id": "prestige-estate-services-national",
@@ -69,7 +71,8 @@
       "state": "",
       "phone": "1-844-483-6825",
       "website": "https://prestigeestateservices.com",
-      "notes": "Offers nationwide online appraisals with specialized expertise in 19th/20th-century American/European art."
+      "notes": "Offers nationwide online appraisals with specialized expertise in 19th/20th-century American/European art.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige_estate_services_national_placeholder.jpg"
     }
   ]
 }

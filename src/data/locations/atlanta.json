@@ -24,7 +24,9 @@
       "state": "Georgia",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/atlanta-georgia/",
-      "notes": "Team includes Elizabeth Lovett (ASA-accredited) and Alicia E Weaver (ISA CAPP-certified). Service areas include Buckhead, Midtown, and Sandy Springs."
+      "notes": "Team includes Elizabeth Lovett (ASA-accredited) and Alicia E Weaver (ISA CAPP-certified). Service areas include Buckhead, Midtown, and Sandy Springs.",
+      "id": "atlanta-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "The Perfect Piece Atlanta",
@@ -45,7 +47,9 @@
       "state": "Georgia",
       "phone": "",
       "website": "https://www.theperfectpieceatlanta.com/estate-valuation",
-      "notes": "Provides specialized estate valuation services in the Metro Atlanta area."
+      "notes": "Provides specialized estate valuation services in the Metro Atlanta area.",
+      "id": "atlanta-the-perfect-piece-atlanta",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_the_perfect_piece_atlanta_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -69,7 +73,9 @@
       "state": "California",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in European and American art with extensive experience."
+      "notes": "Specializes in European and American art with extensive experience.",
+      "id": "atlanta-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -92,7 +98,9 @@
       "state": "California",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; involved in art fraud cases with LAPD."
+      "notes": "Founded by Nancy Escher; involved in art fraud cases with LAPD.",
+      "id": "atlanta-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -119,7 +127,9 @@
       "state": "California",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Offers appraisal services across Los Angeles, Bay Area, Orange County, and out-of-state."
+      "notes": "Offers appraisal services across Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "atlanta-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -138,7 +148,9 @@
       "state": "California",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; likely handles high-end appraisals."
+      "notes": "Clients include LACMA and MoMA; likely handles high-end appraisals.",
+      "id": "atlanta-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -158,7 +170,9 @@
       "state": "California",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually."
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "atlanta-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -178,7 +192,9 @@
       "state": "California",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers."
+      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers.",
+      "id": "atlanta-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

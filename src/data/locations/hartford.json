@@ -25,7 +25,9 @@
       "state": "CT",
       "phone": "860-713-6100",
       "website": "https://prestigeestateservices.com",
-      "notes": "Offers 72-hour online appraisals; serves Hartford, New Haven, Stamford, and Greenwich"
+      "notes": "Offers 72-hour online appraisals; serves Hartford, New Haven, Stamford, and Greenwich",
+      "id": "hartford-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
@@ -47,7 +49,9 @@
       "state": "CT",
       "phone": "",
       "website": "https://www.appraisersassociation.org",
-      "notes": "Founded by Alizzandra Danker; details available via the Appraisers Association of America profile"
+      "notes": "Founded by Alizzandra Danker; details available via the Appraisers Association of America profile",
+      "id": "hartford-connecticut-art-appraisals-llc-alizzandra-danker",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_connecticut_art_appraisals_llc_alizzandra_danker_placeholder.jpg"
     },
     {
       "name": "Winter Associates",
@@ -67,7 +71,9 @@
       "state": "CT",
       "phone": "",
       "website": "https://www.auctionsappraisers.com",
-      "notes": "Recognized for IRS-compliant reports"
+      "notes": "Recognized for IRS-compliant reports",
+      "id": "hartford-winter-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_winter_associates_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -91,7 +97,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "hartford-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -115,7 +123,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases with LAPD; adheres to USPAP and ASA standards"
+      "notes": "Handled art fraud cases with LAPD; adheres to USPAP and ASA standards",
+      "id": "hartford-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -139,7 +149,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, the Bay Area, Orange County, and out-of-state regions"
+      "notes": "Serves Los Angeles, the Bay Area, Orange County, and out-of-state regions",
+      "id": "hartford-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -158,7 +170,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA"
+      "notes": "Clients include LACMA and MoMA",
+      "id": "hartford-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -176,7 +190,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Manages over $10 billion annually; USPAP compliant"
+      "notes": "Manages over $10 billion annually; USPAP compliant",
+      "id": "hartford-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -196,7 +212,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": ""
+      "notes": "",
+      "id": "hartford-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

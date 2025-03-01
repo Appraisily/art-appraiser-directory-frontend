@@ -22,7 +22,9 @@
       "state": "OH",
       "phone": "(216) 377-4777",
       "website": "",
-      "notes": "Holds a Master's in Fine Arts; former auction-house manager"
+      "notes": "Holds a Master's in Fine Arts; former auction-house manager",
+      "id": "cleveland-erika-holycross-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_erika_holycross_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Alicia Weaver (Prestige Estate Services)",
@@ -46,7 +48,9 @@
       "state": "OH",
       "phone": "(216) 377-4777",
       "website": "",
-      "notes": "One of only 108 globally certified ISA CAPP professionals"
+      "notes": "One of only 108 globally certified ISA CAPP professionals",
+      "id": "cleveland-alicia-weaver-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_alicia_weaver_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Erin Hollenbank (J.S. Held)",
@@ -67,7 +71,9 @@
       "state": "OH",
       "phone": "+1 440 425 3756",
       "website": "",
-      "notes": "Former Cleveland Museum of Art curator"
+      "notes": "Former Cleveland Museum of Art curator",
+      "id": "cleveland-erin-hollenbank-j-s-held",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_erin_hollenbank_j_s_held_placeholder.jpg"
     },
     {
       "name": "Legacy Appraisal Group",
@@ -83,7 +89,9 @@
       "state": "OH",
       "phone": "",
       "website": "",
-      "notes": "Partial data available"
+      "notes": "Partial data available",
+      "id": "cleveland-legacy-appraisal-group",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_legacy_appraisal_group_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -104,7 +112,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th century works"
+      "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th century works",
+      "id": "cleveland-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -128,7 +138,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases with LAPD"
+      "notes": "Handled art fraud cases with LAPD",
+      "id": "cleveland-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -152,7 +164,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients"
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients",
+      "id": "cleveland-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -171,7 +185,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; likely high-end services"
+      "notes": "Clients include LACMA and MoMA; likely high-end services",
+      "id": "cleveland-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -192,7 +208,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Manages over $10 billion in artworks annually"
+      "notes": "Manages over $10 billion in artworks annually",
+      "id": "cleveland-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -212,7 +230,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, offers immediate appraisal services"
+      "notes": "Located on Westwood Blvd, offers immediate appraisal services",
+      "id": "cleveland-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

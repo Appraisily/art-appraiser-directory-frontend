@@ -22,7 +22,9 @@
       "state": "MN",
       "phone": "(612) 555-1234",
       "website": "prestigestateservices.com",
-      "notes": "Works at Prestige Estate Services; Hours: Mon–Fri 9 AM–5 PM."
+      "notes": "Works at Prestige Estate Services; Hours: Mon–Fri 9 AM–5 PM.",
+      "id": "minneapolis-alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_alicia_e_weaver_placeholder.jpg"
     },
     {
       "name": "Greg C. Brown",
@@ -43,7 +45,9 @@
       "state": "MN",
       "phone": "(612) 555-1234",
       "website": "prestigestateservices.com",
-      "notes": "Part of Prestige Estate Services; Contact details same as Alicia E Weaver."
+      "notes": "Part of Prestige Estate Services; Contact details same as Alicia E Weaver.",
+      "id": "minneapolis-greg-c-brown",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_greg_c_brown_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -62,7 +66,9 @@
       "state": "MN",
       "phone": "(651) 555-6789",
       "website": "appraiseitnow.com",
-      "notes": "Service area covers Twin Cities metro and online; Appointments required."
+      "notes": "Service area covers Twin Cities metro and online; Appointments required.",
+      "id": "minneapolis-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Revere Auctions",
@@ -82,7 +88,9 @@
       "state": "MN",
       "phone": "(651) 555-4321",
       "website": "revereauctions.com",
-      "notes": "Serves St. Paul/Minneapolis metro; Hours: Tue–Sat 10 AM–4 PM."
+      "notes": "Serves St. Paul/Minneapolis metro; Hours: Tue–Sat 10 AM–4 PM.",
+      "id": "minneapolis-revere-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_revere_auctions_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -106,7 +114,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Also known as AFAA."
+      "notes": "Also known as AFAA.",
+      "id": "minneapolis-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -131,7 +141,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases with LAPD."
+      "notes": "Handled art fraud cases with LAPD.",
+      "id": "minneapolis-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -156,7 +168,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "minneapolis-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -174,7 +188,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; likely high-end appraisal services."
+      "notes": "Clients include LACMA and MoMA; likely high-end appraisal services.",
+      "id": "minneapolis-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -195,7 +211,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually."
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "minneapolis-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -218,7 +236,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; offers free valuations and consignment-based sales."
+      "notes": "Located on Westwood Blvd; offers free valuations and consignment-based sales.",
+      "id": "minneapolis-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

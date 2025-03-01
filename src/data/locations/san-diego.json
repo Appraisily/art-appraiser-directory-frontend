@@ -21,7 +21,9 @@
       "state": "CA",
       "phone": "",
       "website": "",
-      "notes": "Based in San Diego and serves Southern California."
+      "notes": "Based in San Diego and serves Southern California.",
+      "id": "san-diego-jsk-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_jsk_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Reilly Clark Fine Art & Appraisals",
@@ -44,7 +46,9 @@
       "state": "CA",
       "phone": "(214) 799-7889",
       "website": "",
-      "notes": "Based in Santa Barbara; serves Southern California including San Diego. The proprietor is a PhD candidate at UCSB."
+      "notes": "Based in Santa Barbara; serves Southern California including San Diego. The proprietor is a PhD candidate at UCSB.",
+      "id": "san-diego-reilly-clark-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_reilly_clark_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Erika Holycross (Prestige Estate Services)",
@@ -68,7 +72,9 @@
       "state": "CA",
       "phone": "1-844-ITEM-VAL",
       "website": "PrestigeEstateServices.com",
-      "notes": "Brings master's level education and auction house experience."
+      "notes": "Brings master's level education and auction house experience.",
+      "id": "san-diego-erika-holycross-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_erika_holycross_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -92,7 +98,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in European and American art with extensive experience."
+      "notes": "Specializes in European and American art with extensive experience.",
+      "id": "san-diego-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -116,7 +124,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; adheres to USPAP and ASA standards."
+      "notes": "Founded by Nancy Escher; adheres to USPAP and ASA standards.",
+      "id": "san-diego-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -140,7 +150,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Services extend to Los Angeles, Bay Area, Orange County, and out-of-state."
+      "notes": "Services extend to Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "san-diego-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -159,7 +171,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals."
+      "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals.",
+      "id": "san-diego-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -180,7 +194,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually."
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "san-diego-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -200,7 +216,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Offers free valuations and same-day offers on Westwood Blvd, Los Angeles."
+      "notes": "Offers free valuations and same-day offers on Westwood Blvd, Los Angeles.",
+      "id": "san-diego-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san_diego_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

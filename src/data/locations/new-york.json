@@ -5,23 +5,47 @@
     {
       "id": "manhattan-fine-art-appraisers",
       "name": "Manhattan Fine Art Appraisers",
-      "image": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80",
       "rating": 4.8,
       "reviewCount": 156,
       "address": "350 5th Ave, New York, NY 10118",
-      "specialties": ["Fine Art", "Antique Paintings", "Sculptures"],
+      "specialties": [
+        "Fine Art",
+        "Antique Paintings",
+        "Sculptures"
+      ],
       "phone": "(212) 555-0123",
       "email": "info@manhattanfineartappraisers.com",
       "website": "https://manhattanfineartappraisers.com",
       "about": "Manhattan Fine Art Appraisers brings decades of expertise to art valuation in New York City. Our team of certified appraisers specializes in both traditional and contemporary art forms.",
       "businessHours": [
-        { "day": "Monday", "hours": "10:00 AM - 6:00 PM" },
-        { "day": "Tuesday", "hours": "10:00 AM - 6:00 PM" },
-        { "day": "Wednesday", "hours": "10:00 AM - 6:00 PM" },
-        { "day": "Thursday", "hours": "10:00 AM - 6:00 PM" },
-        { "day": "Friday", "hours": "10:00 AM - 5:00 PM" },
-        { "day": "Saturday", "hours": "11:00 AM - 4:00 PM" },
-        { "day": "Sunday", "hours": "Closed" }
+        {
+          "day": "Monday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10:00 AM - 6:00 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
       ],
       "certifications": [
         "Appraisers Association of America (AAA)",
@@ -60,7 +84,8 @@
           "date": "March 12, 2024",
           "content": "Very professional service. They provided extensive documentation and market analysis for my estate planning needs."
         }
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80"
     }
   ]
 }

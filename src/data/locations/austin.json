@@ -21,7 +21,9 @@
       "state": "TX",
       "phone": "512-489-1717",
       "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-e-weaver",
-      "notes": "Based on ISA profile; contact for more information."
+      "notes": "Based on ISA profile; contact for more information.",
+      "id": "austin-alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_alicia_e_weaver_placeholder.jpg"
     },
     {
       "name": "Prestige Estate Services Team",
@@ -47,7 +49,9 @@
       "state": "TX",
       "phone": "512-489-1717",
       "website": "https://prestigeestateservices.com",
-      "notes": "Includes notable appraiser Elizabeth Lovett (ASA-certified), specialized in 19th–20th century paintings."
+      "notes": "Includes notable appraiser Elizabeth Lovett (ASA-certified), specialized in 19th–20th century paintings.",
+      "id": "austin-prestige-estate-services-team",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_prestige_estate_services_team_placeholder.jpg"
     },
     {
       "name": "Linda Maxwell Harris",
@@ -65,7 +69,9 @@
       "state": "TX",
       "phone": "",
       "website": "",
-      "notes": "Information sourced from HAR.com profile; further details require direct contact."
+      "notes": "Information sourced from HAR.com profile; further details require direct contact.",
+      "id": "austin-linda-maxwell-harris",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_linda_maxwell_harris_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -89,7 +95,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in European and American art with extensive experience in expert witness services."
+      "notes": "Specializes in European and American art with extensive experience in expert witness services.",
+      "id": "austin-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -113,7 +121,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded in 1984 by Nancy Escher; adheres to USPAP and ASA standards and has handled art fraud cases with LAPD."
+      "notes": "Founded in 1984 by Nancy Escher; adheres to USPAP and ASA standards and has handled art fraud cases with LAPD.",
+      "id": "austin-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -140,7 +150,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "austin-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -159,7 +171,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; specializes in damage/loss appraisals."
+      "notes": "Clients include LACMA and MoMA; specializes in damage/loss appraisals.",
+      "id": "austin-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -179,7 +193,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm with a Los Angeles presence managing over $10 billion annually; USPAP compliant."
+      "notes": "Global firm with a Los Angeles presence managing over $10 billion annually; USPAP compliant.",
+      "id": "austin-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -200,7 +216,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and consignment based sales."
+      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and consignment based sales.",
+      "id": "austin-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

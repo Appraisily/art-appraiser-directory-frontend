@@ -4,7 +4,12 @@
   "seo": {
     "title": "Art Appraisers in Phoenix | Expert Art Valuation Services",
     "description": "Find certified art appraisers in Phoenix, AZ. Get expert art valuations, authentication services, and professional advice for your art collection. Compare ratings and read verified reviews.",
-    "keywords": ["art appraisers phoenix", "phoenix art valuation", "art authentication arizona", "fine art appraisal phoenix"],
+    "keywords": [
+      "art appraisers phoenix",
+      "phoenix art valuation",
+      "art authentication arizona",
+      "fine art appraisal phoenix"
+    ],
     "schema": {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
@@ -21,7 +26,6 @@
     {
       "id": "prestige-estate-services",
       "name": "Prestige Estate Services",
-      "image": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80",
       "rating": 4.8,
       "reviewCount": 95,
       "address": "Phoenix, AZ",
@@ -58,13 +62,34 @@
       },
       "about": "Established practice with multi-generational expertise in estate services and art appraisals. Our team includes renowned experts Elizabeth Lovett and Stephanie Calman.",
       "businessHours": [
-        { "day": "Monday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Tuesday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Wednesday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Thursday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Friday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Saturday", "hours": "Closed" },
-        { "day": "Sunday", "hours": "Closed" }
+        {
+          "day": "Monday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
       ],
       "certifications": [
         "ISA Certified",
@@ -87,12 +112,12 @@
           "description": "Fair market valuations for equitable distribution of art assets.",
           "price": "Based on complexity"
         }
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80"
     },
     {
       "id": "baker-asian-antique-appraisers",
       "name": "Baker Appraisers (Asian Antique Appraisers)",
-      "image": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?auto=format&fit=crop&q=80",
       "rating": 4.9,
       "reviewCount": 72,
       "address": "Phoenix, AZ",
@@ -130,13 +155,34 @@
       },
       "about": "Specialists in Asian art and antiques with extensive knowledge of Chinese, Japanese, and Korean artifacts. Available for both in-person and remote appraisals.",
       "businessHours": [
-        { "day": "Monday", "hours": "By Appointment" },
-        { "day": "Tuesday", "hours": "By Appointment" },
-        { "day": "Wednesday", "hours": "By Appointment" },
-        { "day": "Thursday", "hours": "By Appointment" },
-        { "day": "Friday", "hours": "By Appointment" },
-        { "day": "Saturday", "hours": "By Appointment" },
-        { "day": "Sunday", "hours": "Closed" }
+        {
+          "day": "Monday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Thursday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Friday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Saturday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
       ],
       "certifications": [
         "ISA Certified",
@@ -153,12 +199,12 @@
           "description": "Comprehensive valuation with detailed documentation and provenance research.",
           "price": "From $300"
         }
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?auto=format&fit=crop&q=80"
     },
     {
       "id": "appraise-it-now",
       "name": "AppraiseItNow",
-      "image": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80",
       "rating": 4.6,
       "reviewCount": 184,
       "address": "Phoenix, AZ",
@@ -192,13 +238,34 @@
       },
       "about": "Modern online-first appraisal service with certified specialists for each asset type. Offering convenient digital submissions with expedited processing available.",
       "businessHours": [
-        { "day": "Monday", "hours": "24/7 Online" },
-        { "day": "Tuesday", "hours": "24/7 Online" },
-        { "day": "Wednesday", "hours": "24/7 Online" },
-        { "day": "Thursday", "hours": "24/7 Online" },
-        { "day": "Friday", "hours": "24/7 Online" },
-        { "day": "Saturday", "hours": "24/7 Online" },
-        { "day": "Sunday", "hours": "24/7 Online" }
+        {
+          "day": "Monday",
+          "hours": "24/7 Online"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "24/7 Online"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "24/7 Online"
+        },
+        {
+          "day": "Thursday",
+          "hours": "24/7 Online"
+        },
+        {
+          "day": "Friday",
+          "hours": "24/7 Online"
+        },
+        {
+          "day": "Saturday",
+          "hours": "24/7 Online"
+        },
+        {
+          "day": "Sunday",
+          "hours": "24/7 Online"
+        }
       ],
       "certifications": [
         "Certified Specialists per Asset Type"
@@ -219,7 +286,8 @@
           "description": "Personal inspection for valuable items requiring detailed examination.",
           "price": "Custom quote"
         }
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80"
     }
   ]
 }

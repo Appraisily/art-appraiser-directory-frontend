@@ -23,7 +23,9 @@
       "state": "NC",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/charlotte-personal-property-appraisers-estate-tax-appraisers/",
-      "notes": "Team members: Edward Kitson, Elizabeth Lovett, Stephanie Calman; serves Charlotte metro area including Matthews, Concord, and Huntersville."
+      "notes": "Team members: Edward Kitson, Elizabeth Lovett, Stephanie Calman; serves Charlotte metro area including Matthews, Concord, and Huntersville.",
+      "id": "charlotte-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Dana Summitt (Look Appraisal LLC)",
@@ -46,7 +48,9 @@
       "state": "NC",
       "phone": "",
       "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/13092/dana-summitt",
-      "notes": "Serves Charlotte metro area; appointments required; operates under Look Appraisal LLC."
+      "notes": "Serves Charlotte metro area; appointments required; operates under Look Appraisal LLC.",
+      "id": "charlotte-dana-summitt-look-appraisal-llc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_dana_summitt_look_appraisal_llc_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -73,7 +77,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Provides expert witness services and supports litigation processes."
+      "notes": "Provides expert witness services and supports litigation processes.",
+      "id": "charlotte-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -98,7 +104,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; has handled art fraud cases with the LAPD."
+      "notes": "Founded by Nancy Escher; has handled art fraud cases with the LAPD.",
+      "id": "charlotte-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -122,7 +130,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state assignments."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state assignments.",
+      "id": "charlotte-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -141,7 +151,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Caters to high-end clients including institutions like LACMA and MoMA."
+      "notes": "Caters to high-end clients including institutions like LACMA and MoMA.",
+      "id": "charlotte-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -162,7 +174,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion in art; has a Los Angeles presence."
+      "notes": "Global firm managing over $10 billion in art; has a Los Angeles presence.",
+      "id": "charlotte-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -182,7 +196,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Offers same-day offers and consignment-based sales on Westwood Blvd, Los Angeles."
+      "notes": "Offers same-day offers and consignment-based sales on Westwood Blvd, Los Angeles.",
+      "id": "charlotte-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

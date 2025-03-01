@@ -22,7 +22,9 @@
       "state": "NJ",
       "phone": "",
       "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
-      "notes": "Based in New Jersey since 2019; previously served Sacramento (2012–2019) and offers remote consultations."
+      "notes": "Based in New Jersey since 2019; previously served Sacramento (2012–2019) and offers remote consultations.",
+      "id": "sacramento-janet-l-ross",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_janet_l_ross_placeholder.jpg"
     },
     {
       "name": "Appraisal Resources (ARAI)",
@@ -45,7 +47,9 @@
       "state": "CA",
       "phone": "",
       "website": "",
-      "notes": "Located at 3450 Sacramento St., Ste. #153."
+      "notes": "Located at 3450 Sacramento St., Ste. #153.",
+      "id": "sacramento-appraisal-resources-arai",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_appraisal_resources_arai_placeholder.jpg"
     },
     {
       "name": "Clars Auctions",
@@ -66,7 +70,9 @@
       "state": "CA",
       "phone": "(510) 428-0100",
       "website": "https://clars.com",
-      "notes": "Based in Oakland; serves Northern California including the Sacramento area."
+      "notes": "Based in Oakland; serves Northern California including the Sacramento area.",
+      "id": "sacramento-clars-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_clars_auctions_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -87,7 +93,9 @@
       "state": "CA",
       "phone": "",
       "website": "",
-      "notes": "Online service available throughout California, including Sacramento."
+      "notes": "Online service available throughout California, including Sacramento.",
+      "id": "sacramento-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -111,7 +119,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "sacramento-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -137,7 +147,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD."
+      "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD.",
+      "id": "sacramento-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -161,7 +173,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "sacramento-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -179,7 +193,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Caters to high-end clients; likely focused on damage and loss evaluations."
+      "notes": "Caters to high-end clients; likely focused on damage and loss evaluations.",
+      "id": "sacramento-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -201,7 +217,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm with a Los Angeles presence."
+      "notes": "Global firm with a Los Angeles presence.",
+      "id": "sacramento-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -224,7 +242,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, offers free valuations and handles consignment sales."
+      "notes": "Located on Westwood Blvd, offers free valuations and handles consignment sales.",
+      "id": "sacramento-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

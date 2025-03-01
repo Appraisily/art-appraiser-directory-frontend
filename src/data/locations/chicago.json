@@ -4,7 +4,12 @@
   "seo": {
     "title": "Art Appraisers in Chicago | Expert Art Valuation Services",
     "description": "Find certified art appraisers in Chicago, IL. Get expert art valuations, authentication services, and professional advice for your art collection. Compare ratings and read verified reviews.",
-    "keywords": ["art appraisers chicago", "chicago art valuation", "art authentication chicago", "fine art appraisal illinois"],
+    "keywords": [
+      "art appraisers chicago",
+      "chicago art valuation",
+      "art authentication chicago",
+      "fine art appraisal illinois"
+    ],
     "schema": {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
@@ -21,11 +26,14 @@
     {
       "id": "metropolitan-art-appraisers-chicago",
       "name": "Metropolitan Art Appraisers",
-      "image": "https://images.unsplash.com/photo-1594732832278-abd644401426?auto=format&fit=crop&q=80",
       "rating": 4.9,
       "reviewCount": 128,
       "address": "219 S Dearborn St, Chicago, IL 60604",
-      "specialties": ["Fine Art", "Modern Art", "Contemporary Art"],
+      "specialties": [
+        "Fine Art",
+        "Modern Art",
+        "Contemporary Art"
+      ],
       "phone": "(312) 555-0123",
       "email": "contact@metropolitanartappraisers.com",
       "website": "https://metropolitanartappraisers.com",
@@ -58,7 +66,12 @@
           "openingHoursSpecification": [
             {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday"
+              ],
               "opens": "09:00",
               "closes": "17:00"
             },
@@ -73,13 +86,34 @@
       },
       "about": "With over 25 years of experience in the Chicago art scene, Metropolitan Art Appraisers provides expert valuation services for collectors, institutions, and insurance purposes.",
       "businessHours": [
-        { "day": "Monday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Tuesday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Wednesday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Thursday", "hours": "9:00 AM - 5:00 PM" },
-        { "day": "Friday", "hours": "9:00 AM - 4:00 PM" },
-        { "day": "Saturday", "hours": "By Appointment" },
-        { "day": "Sunday", "hours": "Closed" }
+        {
+          "day": "Monday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9:00 AM - 5:00 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9:00 AM - 4:00 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "By Appointment"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
       ],
       "certifications": [
         "Accredited Senior Appraiser (ASA)",
@@ -118,7 +152,8 @@
           "date": "March 10, 2024",
           "content": "Professional, thorough, and efficient. Their expertise in contemporary art is outstanding, and their valuation report was comprehensive and well-documented."
         }
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1594732832278-abd644401426?auto=format&fit=crop&q=80"
     }
   ]
 }

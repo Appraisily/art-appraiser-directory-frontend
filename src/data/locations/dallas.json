@@ -24,7 +24,9 @@
       "state": "TX",
       "phone": "(214) 937-5012",
       "website": "https://prestigeestateservices.com/locations/dallas-tx/",
-      "notes": "Team of appraisers with over 75 years of collective experience; emphasizes transparent pricing."
+      "notes": "Team of appraisers with over 75 years of collective experience; emphasizes transparent pricing.",
+      "id": "dallas-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Mary Peck Art Advisory",
@@ -45,7 +47,9 @@
       "state": "CO",
       "phone": "303-355-0050",
       "website": "http://www.marypeckartadvisory.com",
-      "notes": "Based in Denver but works with Dallas clients."
+      "notes": "Based in Denver but works with Dallas clients.",
+      "id": "dallas-mary-peck-art-advisory",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_mary_peck_art_advisory_placeholder.jpg"
     },
     {
       "name": "Alicia E Weaver (ISA CAPP)",
@@ -67,7 +71,9 @@
       "state": "TX",
       "phone": "",
       "website": "https://www.isa-appraisers.org",
-      "notes": "Contact available via the ISA Directory."
+      "notes": "Contact available via the ISA Directory.",
+      "id": "dallas-alicia-e-weaver-isa-capp",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_alicia_e_weaver_isa_capp_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -85,7 +91,9 @@
       "state": "TX",
       "phone": "",
       "website": "https://www.appraiseitnow.com",
-      "notes": "Provides appraisal services in Texas."
+      "notes": "Provides appraisal services in Texas.",
+      "id": "dallas-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -110,7 +118,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.art-appraisals.net",
-      "notes": "Extensive experience in European and American art appraisal."
+      "notes": "Extensive experience in European and American art appraisal.",
+      "id": "dallas-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -134,7 +144,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.escher-associates.com",
-      "notes": "Operates under USPAP and ASA standards; has handled art fraud cases with LAPD."
+      "notes": "Operates under USPAP and ASA standards; has handled art fraud cases with LAPD.",
+      "id": "dallas-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -158,7 +170,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.page-art.com",
-      "notes": "Serves multiple regions including Los Angeles, Bay Area, Orange County, and out-of-state clients."
+      "notes": "Serves multiple regions including Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "dallas-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -176,7 +190,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; positioned as a high-end appraisal service."
+      "notes": "Clients include LACMA and MoMA; positioned as a high-end appraisal service.",
+      "id": "dallas-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -197,7 +213,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.gurrjohns.com",
-      "notes": "Global firm with a Los Angeles presence; manages over $10 billion in art annually."
+      "notes": "Global firm with a Los Angeles presence; manages over $10 billion in art annually.",
+      "id": "dallas-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -217,7 +235,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, offers free valuations and same-day offers."
+      "notes": "Located on Westwood Blvd, offers free valuations and same-day offers.",
+      "id": "dallas-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

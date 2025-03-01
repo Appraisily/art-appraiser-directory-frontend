@@ -21,7 +21,9 @@
       "state": "NY",
       "phone": "(888) 756-9117",
       "website": "https://prestigeestateservices.com",
-      "notes": "Serves Buffalo metro and Western NY"
+      "notes": "Serves Buffalo metro and Western NY",
+      "id": "buffalo-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Schultz Auctioneers",
@@ -39,7 +41,9 @@
       "state": "NY",
       "phone": "(716) 592-9555",
       "website": "https://schultzauctioneers.net",
-      "notes": "Serves Buffalo and Rochester region"
+      "notes": "Serves Buffalo and Rochester region",
+      "id": "buffalo-schultz-auctioneers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_schultz_auctioneers_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -58,7 +62,9 @@
       "state": "NY",
       "phone": "(800) 872-6463",
       "website": "https://www.appraiseitnow.com",
-      "notes": "Provides statewide remote services in NY"
+      "notes": "Provides statewide remote services in NY",
+      "id": "buffalo-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Cottone Art Advisory & Appraisals",
@@ -77,7 +83,9 @@
       "state": "NY",
       "phone": "(585) 243-1000",
       "website": "https://www.cottoneauctions.com",
-      "notes": "Based in Syracuse but serves Western NY"
+      "notes": "Based in Syracuse but serves Western NY",
+      "id": "buffalo-cottone-art-advisory-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_cottone_art_advisory_appraisals_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -100,7 +108,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "buffalo-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -127,7 +137,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases with LAPD"
+      "notes": "Handled art fraud cases with LAPD",
+      "id": "buffalo-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -154,7 +166,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients"
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients",
+      "id": "buffalo-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -172,7 +186,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; likely high-end"
+      "notes": "Clients include LACMA and MoMA; likely high-end",
+      "id": "buffalo-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -192,7 +208,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Manages over $10 billion annually"
+      "notes": "Manages over $10 billion annually",
+      "id": "buffalo-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -215,7 +233,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; operates on a consignment basis"
+      "notes": "Located on Westwood Blvd; operates on a consignment basis",
+      "id": "buffalo-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

@@ -19,7 +19,9 @@
       "state": "LA",
       "phone": "504-813-8292",
       "website": "",
-      "notes": "Provided by Patty Barnett; established reputation based on client testimonials."
+      "notes": "Provided by Patty Barnett; established reputation based on client testimonials.",
+      "id": "new-orleans-barnett-fine-art",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_barnett_fine_art_placeholder.jpg"
     },
     {
       "name": "New Orleans Auction Galleries",
@@ -39,7 +41,9 @@
       "state": "LA",
       "phone": "504-566-1849",
       "website": "https://www.neworleansauction.com",
-      "notes": ""
+      "notes": "",
+      "id": "new-orleans-new-orleans-auction-galleries",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_new_orleans_auction_galleries_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow (Louisiana)",
@@ -62,7 +66,9 @@
       "state": "LA",
       "phone": "",
       "website": "https://www.appraiseitnow.com",
-      "notes": ""
+      "notes": "",
+      "id": "new-orleans-appraiseitnow-louisiana",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_appraiseitnow_louisiana_placeholder.jpg"
     },
     {
       "name": "American Society of Appraisers (ASA)",
@@ -81,7 +87,9 @@
       "state": "",
       "phone": "",
       "website": "https://www.appraisers.org",
-      "notes": "Provides accreditation and directory for appraisers."
+      "notes": "Provides accreditation and directory for appraisers.",
+      "id": "new-orleans-american-society-of-appraisers-asa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_american_society_of_appraisers_asa_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -105,7 +113,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "new-orleans-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -130,7 +140,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
+      "id": "new-orleans-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -154,7 +166,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "new-orleans-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -172,7 +186,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "new-orleans-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -192,7 +208,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Manages over $10 billion in art annually."
+      "notes": "Manages over $10 billion in art annually.",
+      "id": "new-orleans-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -211,7 +229,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers."
+      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers.",
+      "id": "new-orleans-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new_orleans_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

@@ -25,7 +25,9 @@
       "state": "FL",
       "phone": "1-844-ITEM-VAL (483-6825)",
       "website": "https://prestigeestateservices.com",
-      "notes": "Operates via Prestige Estate Services and independent practice."
+      "notes": "Operates via Prestige Estate Services and independent practice.",
+      "id": "palm-beach-alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_alicia_e_weaver_placeholder.jpg"
     },
     {
       "name": "Elizabeth Lake Lovett",
@@ -47,7 +49,9 @@
       "state": "FL",
       "phone": "",
       "website": "https://prestigeestateservices.com",
-      "notes": "Former Sotheby’s intern background."
+      "notes": "Former Sotheby’s intern background.",
+      "id": "palm-beach-elizabeth-lake-lovett",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_elizabeth_lake_lovett_placeholder.jpg"
     },
     {
       "name": "Kaminski Auctions",
@@ -71,7 +75,9 @@
       "state": "FL",
       "phone": "(978) 927-2223",
       "website": "https://www.kaminskiauctions.com",
-      "notes": ""
+      "notes": "",
+      "id": "palm-beach-kaminski-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_kaminski_auctions_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -93,7 +99,9 @@
       "state": "FL",
       "phone": "",
       "website": "https://www.appraiseitnow.com/location/florida",
-      "notes": ""
+      "notes": "",
+      "id": "palm-beach-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Sotheby's Palm Beach",
@@ -113,7 +121,9 @@
       "state": "FL",
       "phone": "",
       "website": "",
-      "notes": "Operates from The Slat House at The Royal Poinciana Plaza; Hours Tue–Sat: 10 AM–6 PM, Sun: 11 AM–5 PM"
+      "notes": "Operates from The Slat House at The Royal Poinciana Plaza; Hours Tue–Sat: 10 AM–6 PM, Sun: 11 AM–5 PM",
+      "id": "palm-beach-sotheby-s-palm-beach",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_sotheby_s_palm_beach_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -137,7 +147,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "palm-beach-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -163,7 +175,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
+      "id": "palm-beach-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -188,7 +202,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": ""
+      "notes": "",
+      "id": "palm-beach-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -207,7 +223,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "palm-beach-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -229,7 +247,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Manages over $10 billion annually."
+      "notes": "Manages over $10 billion annually.",
+      "id": "palm-beach-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -249,7 +269,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd."
+      "notes": "Located on Westwood Blvd.",
+      "id": "palm-beach-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm_beach_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

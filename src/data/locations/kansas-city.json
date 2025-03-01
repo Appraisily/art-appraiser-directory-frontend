@@ -25,7 +25,9 @@
       "state": "MO",
       "phone": "",
       "website": "https://www.haneyappraisalsfineart.com",
-      "notes": "Based in Kansas City metro area; further details available on the website."
+      "notes": "Based in Kansas City metro area; further details available on the website.",
+      "id": "kansas-city-haney-appraisals-in-fine-art",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_haney_appraisals_in_fine_art_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -50,7 +52,9 @@
       "state": "MO",
       "phone": "",
       "website": "https://www.appraiseitnow.com/location/kansas",
-      "notes": "Online service covering the Kansas region; typically responds within 24 hours."
+      "notes": "Online service covering the Kansas region; typically responds within 24 hours.",
+      "id": "kansas-city-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Janet L. Ross",
@@ -70,7 +74,9 @@
       "state": "",
       "phone": "",
       "website": "https://www.isa-appraisers.org",
-      "notes": "May not be currently based in Kansas City; verify current location via ISA Directory."
+      "notes": "May not be currently based in Kansas City; verify current location via ISA Directory.",
+      "id": "kansas-city-janet-l-ross",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_janet_l_ross_placeholder.jpg"
     },
     {
       "name": "Madison Group Fine Art Appraisals",
@@ -87,7 +93,9 @@
       "state": "MO",
       "phone": "",
       "website": "https://www.mgfaa.com/inquire-contact",
-      "notes": "Likely serves the Kansas City metro area; inquiries via website form."
+      "notes": "Likely serves the Kansas City metro area; inquiries via website form.",
+      "id": "kansas-city-madison-group-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_madison_group_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -114,7 +122,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.art-appraisals.net",
-      "notes": "Specializes in expert witness services and authentication research."
+      "notes": "Specializes in expert witness services and authentication research.",
+      "id": "kansas-city-anderson-fine-art-appraisals-afaa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_anderson_fine_art_appraisals_afaa_placeholder.jpg"
     },
     {
       "name": "Escher Associates (EA)",
@@ -139,7 +149,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.escher-associates.com",
-      "notes": "Handled art fraud cases with the LAPD."
+      "notes": "Handled art fraud cases with the LAPD.",
+      "id": "kansas-city-escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_escher_associates_ea_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -163,7 +175,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "kansas-city-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -181,7 +195,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.saylorriceappraisals.com",
-      "notes": "Handles appraisals for prestigious clients such as LACMA and MoMA."
+      "notes": "Handles appraisals for prestigious clients such as LACMA and MoMA.",
+      "id": "kansas-city-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -203,7 +219,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion in assets annually."
+      "notes": "Global firm managing over $10 billion in assets annually.",
+      "id": "kansas-city-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -223,7 +241,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, offers free valuations and quick sale options."
+      "notes": "Located on Westwood Blvd, offers free valuations and quick sale options.",
+      "id": "kansas-city-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas_city_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

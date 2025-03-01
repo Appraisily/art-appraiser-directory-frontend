@@ -24,7 +24,9 @@
       "state": "TX",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/fort-worth-texas/",
-      "notes": "Works for Prestige Estate Services"
+      "notes": "Works for Prestige Estate Services",
+      "id": "fort-worth-elizabeth-lovett",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_elizabeth_lovett_placeholder.jpg"
     },
     {
       "name": "Stephanie Calman",
@@ -50,7 +52,9 @@
       "state": "TX",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/fort-worth-texas/",
-      "notes": "Works for Prestige Estate Services"
+      "notes": "Works for Prestige Estate Services",
+      "id": "fort-worth-stephanie-calman",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_stephanie_calman_placeholder.jpg"
     },
     {
       "name": "Alicia E Weaver",
@@ -74,7 +78,9 @@
       "state": "TX",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/fort-worth-texas/",
-      "notes": "ISA CAPP certified appraiser at Prestige Estate Services"
+      "notes": "ISA CAPP certified appraiser at Prestige Estate Services",
+      "id": "fort-worth-alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_alicia_e_weaver_placeholder.jpg"
     },
     {
       "name": "Hackwith Art & Personal Property Appraisals",
@@ -104,7 +110,9 @@
       "state": "TX",
       "phone": "",
       "website": "https://hackwithappraisals.com/appraisal-information-and-pricing/",
-      "notes": "Remote consultations available; led by accredited professionals"
+      "notes": "Remote consultations available; led by accredited professionals",
+      "id": "fort-worth-hackwith-art-personal-property-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_hackwith_art_personal_property_appraisals_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -128,7 +136,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "fort-worth-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -153,7 +163,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher"
+      "notes": "Founded by Nancy Escher",
+      "id": "fort-worth-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -183,7 +195,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Provides services in Los Angeles, Bay Area, Orange County, and out-of-state"
+      "notes": "Provides services in Los Angeles, Bay Area, Orange County, and out-of-state",
+      "id": "fort-worth-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -202,7 +216,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; likely high-end services"
+      "notes": "Clients include LACMA and MoMA; likely high-end services",
+      "id": "fort-worth-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -224,7 +240,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually"
+      "notes": "Global firm managing over $10 billion annually",
+      "id": "fort-worth-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -246,7 +264,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Offers same-day offers; located on Westwood Blvd, Los Angeles"
+      "notes": "Offers same-day offers; located on Westwood Blvd, Los Angeles",
+      "id": "fort-worth-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort_worth_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

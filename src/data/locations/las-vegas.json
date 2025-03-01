@@ -27,7 +27,8 @@
       "state": "NV",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada/",
-      "notes": "Team member at Prestige Estate Services serving the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands)."
+      "notes": "Team member at Prestige Estate Services serving the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands).",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_edward_kitson_placeholder.jpg"
     },
     {
       "name": "Elizabeth Lovett",
@@ -55,7 +56,9 @@
       "state": "NV",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada/",
-      "notes": "Team member at Prestige Estate Services serving the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands)."
+      "notes": "Team member at Prestige Estate Services serving the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands).",
+      "id": "las-vegas-elizabeth-lovett",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_elizabeth_lovett_placeholder.jpg"
     },
     {
       "name": "Stephanie Calman",
@@ -83,7 +86,9 @@
       "state": "NV",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada/",
-      "notes": "Team member at Prestige Estate Services serving the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands)."
+      "notes": "Team member at Prestige Estate Services serving the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands).",
+      "id": "las-vegas-stephanie-calman",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_stephanie_calman_placeholder.jpg"
     },
     {
       "name": "Alicia Weaver",
@@ -104,7 +109,9 @@
       "state": "NV",
       "phone": "",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada/",
-      "notes": "Joined Prestige Estate Services in 2025; serves the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands)."
+      "notes": "Joined Prestige Estate Services in 2025; serves the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands).",
+      "id": "las-vegas-alicia-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_alicia_weaver_placeholder.jpg"
     },
     {
       "name": "Ralph DeLuca",
@@ -124,7 +131,9 @@
       "state": "",
       "phone": "",
       "website": "https://ralphdeluca.com/appraisal",
-      "notes": "Collaborative network; physical presence in Las Vegas is unclear; remote consultations available."
+      "notes": "Collaborative network; physical presence in Las Vegas is unclear; remote consultations available.",
+      "id": "las-vegas-ralph-deluca",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_ralph_deluca_placeholder.jpg"
     },
     {
       "name": "Reilly Clark Fine Art & Appraisals",
@@ -145,7 +154,9 @@
       "state": "TX",
       "phone": "(214) 799-7889",
       "website": "https://reillyclark.com",
-      "notes": "Mentioned in the Carmel Pine Cone; serves broader regions. Phone area code suggests a Dallas connection."
+      "notes": "Mentioned in the Carmel Pine Cone; serves broader regions. Phone area code suggests a Dallas connection.",
+      "id": "las-vegas-reilly-clark-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_reilly_clark_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -169,7 +180,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Provides expert witness services with decades of experience."
+      "notes": "Provides expert witness services with decades of experience.",
+      "id": "las-vegas-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -193,7 +206,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; ASA-certified."
+      "notes": "Founded by Nancy Escher; ASA-certified.",
+      "id": "las-vegas-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -217,7 +232,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Provides appraisal services across Los Angeles, Bay Area, Orange County, and out-of-state."
+      "notes": "Provides appraisal services across Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "las-vegas-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -235,7 +252,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "High-end appraisal services with clients including LACMA and MoMA."
+      "notes": "High-end appraisal services with clients including LACMA and MoMA.",
+      "id": "las-vegas-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -256,7 +275,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm with a Los Angeles presence."
+      "notes": "Global firm with a Los Angeles presence.",
+      "id": "las-vegas-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -276,7 +297,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and consignment-based sales."
+      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and consignment-based sales.",
+      "id": "las-vegas-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las_vegas_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

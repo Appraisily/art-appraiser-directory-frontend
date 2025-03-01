@@ -21,7 +21,9 @@
       "state": "CO",
       "phone": "303-355-0050",
       "website": "http://marypeckartadvisory.com",
-      "notes": "Based in Denver, serves Aspen and other areas in Colorado."
+      "notes": "Based in Denver, serves Aspen and other areas in Colorado.",
+      "id": "aspen-mary-peck-art-advisory",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_mary_peck_art_advisory_placeholder.jpg"
     },
     {
       "name": "Alicia E Weaver",
@@ -40,7 +42,9 @@
       "state": "CO",
       "phone": "",
       "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-e-weaver",
-      "notes": "Affiliated with the ISA; details verified via ISA directory."
+      "notes": "Affiliated with the ISA; details verified via ISA directory.",
+      "id": "aspen-alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_alicia_e_weaver_placeholder.jpg"
     },
     {
       "name": "812 Maplewood",
@@ -60,7 +64,9 @@
       "state": "CO",
       "phone": "",
       "website": "https://www.812maplewood.com/art-advisory-services",
-      "notes": "Local Aspen firm offering appraisal services along with framing and collection management."
+      "notes": "Local Aspen firm offering appraisal services along with framing and collection management.",
+      "id": "aspen-812-maplewood",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_812_maplewood_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -84,7 +90,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.art-appraisals.net",
-      "notes": "Provides expert witness services and authentication research."
+      "notes": "Provides expert witness services and authentication research.",
+      "id": "aspen-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -108,7 +116,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
+      "id": "aspen-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -130,7 +140,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.page-art.com",
-      "notes": "Serves multiple areas including Los Angeles, Bay Area, and Orange County."
+      "notes": "Serves multiple areas including Los Angeles, Bay Area, and Orange County.",
+      "id": "aspen-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -146,7 +158,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "aspen-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -164,7 +178,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.gurrjohns.com",
-      "notes": "Global firm that manages over $10 billion annually."
+      "notes": "Global firm that manages over $10 billion annually.",
+      "id": "aspen-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -183,7 +199,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.mimesisgallery.com",
-      "notes": "Offers free valuations and same-day offers in LA."
+      "notes": "Offers free valuations and same-day offers in LA.",
+      "id": "aspen-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

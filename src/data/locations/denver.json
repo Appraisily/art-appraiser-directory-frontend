@@ -24,7 +24,9 @@
       "state": "CO",
       "phone": "(303) 555-XXXX",
       "website": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
-      "notes": "Operates under Prestige Estate Services Inc. Hours: Mon–Fri, 9 AM–5 PM."
+      "notes": "Operates under Prestige Estate Services Inc. Hours: Mon–Fri, 9 AM–5 PM.",
+      "id": "denver-alicia-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_alicia_weaver_placeholder.jpg"
     },
     {
       "name": "Brady L. Dreasher",
@@ -50,7 +52,9 @@
       "state": "CO",
       "phone": "(720) 555-XXXX",
       "website": "https://www.artofestates.com",
-      "notes": "Received BBB Torch Award for Ethics in 2023."
+      "notes": "Received BBB Torch Award for Ethics in 2023.",
+      "id": "denver-brady-l-dreasher",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_brady_l_dreasher_placeholder.jpg"
     },
     {
       "name": "Dr. Mark Lee Levine",
@@ -69,7 +73,9 @@
       "state": "CO",
       "phone": "(303) 871-2142",
       "website": "",
-      "notes": "Affiliated with the University of Denver; operates on an academic schedule."
+      "notes": "Affiliated with the University of Denver; operates on an academic schedule.",
+      "id": "denver-dr-mark-lee-levine",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_dr_mark_lee_levine_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -93,7 +99,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Specializes in European and American art with decades of experience."
+      "notes": "Specializes in European and American art with decades of experience.",
+      "id": "denver-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -116,7 +124,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases with the LAPD."
+      "notes": "Handled art fraud cases with the LAPD.",
+      "id": "denver-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -143,7 +153,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state."
+      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "denver-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -162,7 +174,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA; cater to high-end appraisals."
+      "notes": "Clients include LACMA and MoMA; cater to high-end appraisals.",
+      "id": "denver-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -181,7 +195,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually and USPAP compliant."
+      "notes": "Global firm managing over $10 billion annually and USPAP compliant.",
+      "id": "denver-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -201,7 +217,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, operates on a consignment-based model."
+      "notes": "Located on Westwood Blvd, operates on a consignment-based model.",
+      "id": "denver-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

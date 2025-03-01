@@ -26,7 +26,8 @@
       "state": "Texas",
       "phone": "1-844-ITEM-VAL",
       "website": "https://prestigeestateservices.com/locations/houston/",
-      "notes": "Provides a range of appraisals for antiques and decorative arts."
+      "notes": "Provides a range of appraisals for antiques and decorative arts.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_alicia_weaver_prestige_estate_placeholder.jpg"
     },
     {
       "name": "Erika Holycross (Prestige Estate Services)",
@@ -50,11 +51,15 @@
       "state": "Texas",
       "phone": "1-844-483-6825",
       "website": "https://prestigeestateservices.com/",
-      "notes": "Contact via email at Appraisals@PrestigeEstateServices.com for further inquiries."
+      "notes": "Contact via email at Appraisals@PrestigeEstateServices.com for further inquiries.",
+      "id": "houston-erika-holycross-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_erika_holycross_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "Lorraine Anne Davis",
-      "specialties": ["General fine art appraisals"],
+      "specialties": [
+        "General fine art appraisals"
+      ],
       "pricing": "",
       "services_offered": [],
       "certifications": [
@@ -66,7 +71,9 @@
       "state": "Texas",
       "phone": "",
       "website": "",
-      "notes": "Details inferred from local listings; contact information not provided."
+      "notes": "Details inferred from local listings; contact information not provided.",
+      "id": "houston-lorraine-anne-davis",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_lorraine_anne_davis_placeholder.jpg"
     },
     {
       "name": "Melanie Modica (Modica Fine Art)",
@@ -85,7 +92,9 @@
       "state": "Texas",
       "phone": "",
       "website": "https://modicafineart.com/appraisal-management/",
-      "notes": "Specializes in appraisal reviews and expert witness services."
+      "notes": "Specializes in appraisal reviews and expert witness services.",
+      "id": "houston-melanie-modica-modica-fine-art",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_melanie_modica_modica_fine_art_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -110,7 +119,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": "Has decades of experience in art appraisals."
+      "notes": "Has decades of experience in art appraisals.",
+      "id": "houston-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates (EA)",
@@ -133,7 +144,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Operates with USPAP and ASA standards; has handled art fraud cases with LAPD."
+      "notes": "Operates with USPAP and ASA standards; has handled art fraud cases with LAPD.",
+      "id": "houston-escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_escher_associates_ea_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -160,7 +173,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Provides services in Los Angeles, Bay Area, Orange County, and out-of-state."
+      "notes": "Provides services in Los Angeles, Bay Area, Orange County, and out-of-state.",
+      "id": "houston-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -179,7 +194,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include institutions such as LACMA and MoMA; likely high-end pricing."
+      "notes": "Clients include institutions such as LACMA and MoMA; likely high-end pricing.",
+      "id": "houston-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -200,7 +217,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Manages over $10 billion annually."
+      "notes": "Manages over $10 billion annually.",
+      "id": "houston-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -220,7 +239,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers."
+      "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers.",
+      "id": "houston-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

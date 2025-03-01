@@ -26,7 +26,9 @@
       "state": "Indiana",
       "phone": "",
       "website": "https://prestigeestateservices.com",
-      "notes": "Appraisers include Elizabeth Lovett and Stephanie Calman; offers 72-hour turnaround on online appraisals; serves Indianapolis metro and nationwide."
+      "notes": "Appraisers include Elizabeth Lovett and Stephanie Calman; offers 72-hour turnaround on online appraisals; serves Indianapolis metro and nationwide.",
+      "id": "indianapolis-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "AppraiseitNow",
@@ -46,7 +48,9 @@
       "state": "Indiana",
       "phone": "",
       "website": "https://www.appraiseitnow.com",
-      "notes": "Offers best-price guarantee with flat-rate pricing; serves Indiana."
+      "notes": "Offers best-price guarantee with flat-rate pricing; serves Indiana.",
+      "id": "indianapolis-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Ripley Auctions",
@@ -65,7 +69,9 @@
       "state": "Indiana",
       "phone": "",
       "website": "https://www.ripleyauctions.com",
-      "notes": "Service area is not fully confirmed; may serve Indianapolis."
+      "notes": "Service area is not fully confirmed; may serve Indianapolis.",
+      "id": "indianapolis-ripley-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_ripley_auctions_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -90,7 +96,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "indianapolis-anderson-fine-art-appraisals-afaa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_anderson_fine_art_appraisals_afaa_placeholder.jpg"
     },
     {
       "name": "Escher Associates (EA)",
@@ -115,7 +123,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+      "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
+      "id": "indianapolis-escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_escher_associates_ea_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -140,7 +150,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state markets."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state markets.",
+      "id": "indianapolis-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -158,7 +170,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "indianapolis-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -178,7 +192,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.gurrjohns.com",
-      "notes": "Manages over $10 billion in assets."
+      "notes": "Manages over $10 billion in assets.",
+      "id": "indianapolis-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -198,7 +214,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd, LA; offers same-day offers."
+      "notes": "Located on Westwood Blvd, LA; offers same-day offers.",
+      "id": "indianapolis-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

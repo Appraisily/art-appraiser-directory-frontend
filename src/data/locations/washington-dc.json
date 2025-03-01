@@ -5,7 +5,6 @@
     {
       "id": "washington-dc-fine-art-appraiser",
       "name": "Washington Fine Art Appraisers",
-      "image": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80",
       "rating": 4.8,
       "reviewCount": 125,
       "address": "123 Main St, Washington, District of Columbia",
@@ -85,7 +84,8 @@
           "date": "March 12, 2024",
           "content": "Very professional service. They provided extensive documentation and market analysis for my estate planning needs."
         }
-      ]
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80"
     }
   ],
   "seo": {

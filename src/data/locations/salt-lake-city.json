@@ -21,7 +21,9 @@
       "state": "Utah",
       "phone": "",
       "website": "www.prestigeestateservices.com",
-      "notes": "Handles estates over 20k sq ft and serves clients nationwide."
+      "notes": "Handles estates over 20k sq ft and serves clients nationwide.",
+      "id": "salt-lake-city-alicia-e-weaver-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_alicia_e_weaver_prestige_estate_services_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -43,7 +45,9 @@
       "state": "Utah",
       "phone": "",
       "website": "www.appraiseitnow.com",
-      "notes": "Offers both online and in-person assessments."
+      "notes": "Offers both online and in-person assessments.",
+      "id": "salt-lake-city-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "Intermountain Appraisal",
@@ -66,7 +70,9 @@
       "state": "Utah",
       "phone": "",
       "website": "intermountainappraisal.com",
-      "notes": "Over 40 years of combined experience in Utah."
+      "notes": "Over 40 years of combined experience in Utah.",
+      "id": "salt-lake-city-intermountain-appraisal",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_intermountain_appraisal_placeholder.jpg"
     },
     {
       "name": "Williams Fine Art Gallery",
@@ -85,7 +91,9 @@
       "state": "Utah",
       "phone": "",
       "website": "nowplayingutah.com/venue/williams-fine-art-gallery",
-      "notes": "Offers consignments and appraisals; additional details available on NowPlayingUtah.com."
+      "notes": "Offers consignments and appraisals; additional details available on NowPlayingUtah.com.",
+      "id": "salt-lake-city-williams-fine-art-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_williams_fine_art_gallery_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -109,7 +117,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "salt-lake-city-anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_anderson_fine_art_appraisals_placeholder.jpg"
     },
     {
       "name": "Escher Associates",
@@ -134,7 +144,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.escher-associates.com",
-      "notes": "Handled art fraud cases in partnership with the LAPD."
+      "notes": "Handled art fraud cases in partnership with the LAPD.",
+      "id": "salt-lake-city-escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_escher_associates_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -158,7 +170,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.page-art.com",
-      "notes": "Services available in Los Angeles, the Bay Area, Orange County, and out-of-state."
+      "notes": "Services available in Los Angeles, the Bay Area, Orange County, and out-of-state.",
+      "id": "salt-lake-city-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -177,7 +191,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA."
+      "notes": "Clients include LACMA and MoMA.",
+      "id": "salt-lake-city-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -198,7 +214,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion annually."
+      "notes": "Global firm managing over $10 billion annually.",
+      "id": "salt-lake-city-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -216,7 +234,9 @@
       "state": "CA",
       "phone": "",
       "website": "www.mimesisgallery.com",
-      "notes": "Offers free valuations and same-day offers on Westwood Blvd in Los Angeles."
+      "notes": "Offers free valuations and same-day offers on Westwood Blvd in Los Angeles.",
+      "id": "salt-lake-city-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt_lake_city_mimesis_gallery_placeholder.jpg"
     }
   ]
 }

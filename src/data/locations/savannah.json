@@ -21,7 +21,9 @@
       "state": "GA",
       "phone": "(912) 231-1376",
       "website": "https://www.liveauctioneers.com/auctioneer/4098/everard-auctions-and-appraisals/",
-      "notes": "Established in 2003 by Chris and Amanda Everard; Amanda has a background from Sotheby's."
+      "notes": "Established in 2003 by Chris and Amanda Everard; Amanda has a background from Sotheby's.",
+      "id": "savannah-everard-auctions-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_everard_auctions_appraisals_placeholder.jpg"
     },
     {
       "name": "Redtail Appraisals (Rebekah Assid)",
@@ -46,7 +48,9 @@
       "state": "GA",
       "phone": "",
       "website": "https://redtailappraisals.com/about-us",
-      "notes": "Rebekah holds a BA in Art History and has extensive experience working with auction houses."
+      "notes": "Rebekah holds a BA in Art History and has extensive experience working with auction houses.",
+      "id": "savannah-redtail-appraisals-rebekah-assid",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_redtail_appraisals_rebekah_assid_placeholder.jpg"
     },
     {
       "name": "AppraiseItNow",
@@ -69,7 +73,9 @@
       "state": "GA",
       "phone": "",
       "website": "https://www.appraiseitnow.com/location/georgia",
-      "notes": "Provides both online and limited in-person appraisal services."
+      "notes": "Provides both online and limited in-person appraisal services.",
+      "id": "savannah-appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_appraiseitnow_placeholder.jpg"
     },
     {
       "name": "HKpowerStudio",
@@ -89,7 +95,9 @@
       "state": "GA",
       "phone": "",
       "website": "https://hkpowerstudio.com/creative-organizer/",
-      "notes": "Offers both organizing and appraisal services."
+      "notes": "Offers both organizing and appraisal services.",
+      "id": "savannah-hkpowerstudio",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_hkpowerstudio_placeholder.jpg"
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -117,7 +125,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "id": "savannah-anderson-fine-art-appraisals-afaa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_anderson_fine_art_appraisals_afaa_placeholder.jpg"
     },
     {
       "name": "Escher Associates (EA)",
@@ -142,7 +152,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.escher-associates.com",
-      "notes": "Handled art fraud cases in collaboration with LAPD."
+      "notes": "Handled art fraud cases in collaboration with LAPD.",
+      "id": "savannah-escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_escher_associates_ea_placeholder.jpg"
     },
     {
       "name": "Page Art, Inc.",
@@ -167,7 +179,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.page-art.com",
-      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
+      "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
+      "id": "savannah-page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_page_art_inc_placeholder.jpg"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -186,7 +200,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.saylorriceappraisals.com",
-      "notes": "High-end appraisal services with clients including LACMA and MoMA."
+      "notes": "High-end appraisal services with clients including LACMA and MoMA.",
+      "id": "savannah-saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_saylor_rice_appraisals_placeholder.jpg"
     },
     {
       "name": "Gurr Johns",
@@ -207,7 +223,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion in assets annually."
+      "notes": "Global firm managing over $10 billion in assets annually.",
+      "id": "savannah-gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_gurr_johns_placeholder.jpg"
     },
     {
       "name": "Mimesis Gallery",
@@ -227,7 +245,9 @@
       "state": "CA",
       "phone": "",
       "website": "http://www.mimesisgallery.com",
-      "notes": "Offers free valuations and same-day offers on consignment-based sales."
+      "notes": "Offers free valuations and same-day offers on consignment-based sales.",
+      "id": "savannah-mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah_mimesis_gallery_placeholder.jpg"
     }
   ]
 }
