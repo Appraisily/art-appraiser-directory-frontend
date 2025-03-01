@@ -52,7 +52,8 @@
     [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
 
-  # Define headers for the sitemap
+# Define headers for the sitemap
+[[headers]]
   for = "/sitemap.xml"
     [headers.values]
     Cache-Control = "public, max-age=3600"
