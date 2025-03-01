@@ -72,6 +72,13 @@ async function buildAndPush() {
       path.join(__dirname, 'netlify-dist.toml'),
       path.join(TEMP_DIR, 'netlify.toml')
     );
+
+    // Copy the dist-specific .gitignore file
+    console.log('📝 Setting up dist-specific .gitignore...');
+    fs.copyFileSync(
+      path.join(__dirname, 'dist-gitignore'),
+      path.join(TEMP_DIR, '.gitignore')
+    );
     
     // Step 9: Commit and push changes
     console.log('📤 Committing and pushing changes...');

@@ -44,6 +44,17 @@ This project uses a pre-build approach where:
 2. The generated `dist` folder is pushed to a separate GitHub repository
 3. Netlify then serves these pre-built files directly
 
+### Important Note About the Dist Repository
+
+The distribution repository (where built files are pushed) has a different `.gitignore` than the development repository. In particular:
+
+- **Development repository**: Excludes the `/dist` folder (since we don't commit built files here)
+- **Distribution repository**: Does NOT exclude the `/dist` folder (since that's what we want to deploy)
+
+Our deployment script automatically handles this by setting up the correct `.gitignore` in the distribution repository.
+
+### Deployment Steps
+
 To deploy the application:
 
 ```bash

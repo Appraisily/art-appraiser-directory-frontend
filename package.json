@@ -8,6 +8,7 @@
     "build": "tsc && vite build && node scripts/generate-static.js && node scripts/copy-static.js",
     "build:sitemap": "node scripts/generate-sitemap.js",
     "deploy": "node scripts/build-and-push.js",
+    "deploy:direct": "node scripts/build-for-commit.js",
     "check-paths": "node scripts/check-paths.js",
     "lint": "eslint .",
     "preview": "vite preview"
