@@ -9,6 +9,9 @@ const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
 // Default placeholder image for missing images
 const DEFAULT_PLACEHOLDER_IMAGE = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
 
+// ImageKit base URL for appraiser images
+const IMAGEKIT_BASE_URL = 'https://ik.imagekit.io/appraisily/appraiser-images';
+
 // Ensure dist directory exists
 fs.ensureDirSync(DIST_DIR);
 
@@ -25,6 +28,22 @@ const jsPath = `/assets/${jsFile}`;
 
 console.log(`CSS file path: ${cssPath}`);
 console.log(`JS file path: ${jsPath}`);
+
+// Function to generate standardized image URL that matches the image generator pattern
+function generateImageUrl(appraiser) {
+  // First check if the appraiser already has a proper imageUrl that includes the timestamp/ID pattern
+  if (appraiser.imageUrl && appraiser.imageUrl.includes('_') && (appraiser.imageUrl.includes('?updatedAt=') || appraiser.imageUrl.includes('_V'))) {
+    return appraiser.imageUrl;
+  }
+  
+  // If appraiser has image URL but doesn't match the pattern, use it as fallback
+  if (appraiser.image || appraiser.imageUrl) {
+    return appraiser.image || appraiser.imageUrl;
+  }
+  
+  // Otherwise return the default placeholder
+  return DEFAULT_PLACEHOLDER_IMAGE;
+}
 
 // Read all location JSON files
 const locationFiles = fs.readdirSync(LOCATIONS_DIR)
@@ -138,7 +157,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
       <div class="relative">
         <div style="position: relative; width: 100%; padding-bottom: 75%">
           <div style="position: absolute; inset: 0">
-            <img src="${appraiser.image || appraiser.imageUrl || DEFAULT_PLACEHOLDER_IMAGE}" alt="${appraiser.name}" class="object-cover w-full h-full" loading="lazy" />
+            <img src="${generateImageUrl(appraiser)}" alt="${appraiser.name}" class="object-cover w-full h-full" loading="lazy" />
           </div>
         </div>
         <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
@@ -247,7 +266,7 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
 
       <div class="flex-1">
         <div class="relative h-[300px] md:h-[400px]">
-          <img src="${appraiser.image || appraiser.imageUrl || DEFAULT_PLACEHOLDER_IMAGE}" alt="${appraiser.name}" class="w-full h-full object-cover" loading="lazy" />
+          <img src="${generateImageUrl(appraiser)}" alt="${appraiser.name}" class="w-full h-full object-cover" loading="lazy" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
         </div>
 

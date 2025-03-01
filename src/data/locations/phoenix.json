@@ -113,7 +113,8 @@
           "price": "Based on complexity"
         }
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80"
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1740830037076_Vqxmi3gnn.jpg",
+      "oldImageUrl": "https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&q=80"
     },
     {
       "id": "baker-asian-antique-appraisers",
@@ -200,7 +201,8 @@
           "price": "From $300"
         }
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?auto=format&fit=crop&q=80"
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baker-asian-antique-appraisers_1740830037076_Vyumgzz1u.jpg",
+      "oldImageUrl": "https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?auto=format&fit=crop&q=80"
     },
     {
       "id": "appraise-it-now",
@@ -287,7 +289,8 @@
           "price": "Custom quote"
         }
       ],
-      "imageUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80"
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_appraise-it-now_1740830037076_V5wz7e4vu.jpg",
+      "oldImageUrl": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80"
     }
   ]
 }
