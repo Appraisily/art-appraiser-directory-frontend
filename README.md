@@ -9,6 +9,11 @@ This is the frontend codebase for the Art Appraiser Directory.
 - `/scripts` - Build and deployment scripts
 - `/dist` - Built application (generated during build)
 
+## Documentation
+
+- [Main README](README.md) - General project information and setup
+- [Image Generation](IMAGE_GENERATION.md) - Detailed documentation on the automatic image generation feature
+
 ## Development
 
 To run the application locally:
@@ -26,14 +31,56 @@ npm run dev
 The build process consists of:
 
 1. Compiling TypeScript and bundling with Vite
-2. Generating static HTML pages for locations and appraisers
-3. Creating a 404.html page for client-side routing
-4. Generating a sitemap.xml file
+2. Generating missing appraiser images automatically
+3. Generating static HTML pages for locations and appraisers
+4. Creating a 404.html page for client-side routing
+5. Generating a sitemap.xml file
 
 To build the application:
 
 ```bash
 npm run build
+```
+
+## Automatic Image Generation
+
+The application includes an automatic image generation feature that:
+
+1. Identifies appraisers without proper images
+2. Generates custom professional images for them using AI
+3. Updates the appraiser data with the new image URLs
+
+### How It Works
+
+During the build process, the system automatically:
+- Scans all location files for appraisers with missing or improperly formatted images
+- Generates standardized filenames in the format: `appraiser_{id}_{timestamp}_V{randomId}.jpg`
+- Calls the image generation service API to create professional appraiser images
+- Updates the appraiser data with the new image URLs
+
+For more detailed information, see the [Image Generation documentation](IMAGE_GENERATION.md).
+
+### Configuration
+
+The image generation service URL can be configured by setting the environment variable:
+
+```bash
+# Windows
+$env:IMAGE_GENERATION_API="http://your-image-service-url/api/generate"
+
+# Linux/Mac
+export IMAGE_GENERATION_API="http://your-image-service-url/api/generate"
+```
+
+By default, it uses `http://localhost:3000/api/generate`.
+
+### Manual Usage
+
+If you want to manually fix missing images without doing a full build:
+
+```bash
+npm run fix-images
+npm run rebuild-static
 ```
 
 ## Deployment
@@ -102,4 +149,4 @@ The sitemap.xml generated during build can be integrated with a global sitemap b
 
 ## License
 
-[Your License Information] 
+[Your License Information]
