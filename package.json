@@ -12,6 +12,7 @@
     "check-paths": "node scripts/check-paths.js",
     "fix-images": "node scripts/fix-missing-images.js",
     "rebuild-static": "node scripts/generate-static.js && node scripts/copy-static.js",
+    "generate-filename": "node scripts/generate-image-filename.js",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
