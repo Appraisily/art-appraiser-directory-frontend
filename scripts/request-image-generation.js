@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
 
 // Replace with your actual image generation API endpoint
-const IMAGE_GENERATION_API = 'http://your-image-generation-api/generate-image';
+const IMAGE_GENERATION_API = 'https://image-generation-service-856401495068.us-central1.run.app/api/generate';
 
 // Function to generate a standardized image filename for the image generator
 function generateImageFilename(appraiser, citySlug) {
@@ -23,90 +23,200 @@ function generateImageFilename(appraiser, citySlug) {
 }
 
 // Function to request image generation with a specific filename
-async function requestImageGeneration(prompt, style, filename) {
+async function requestImageGeneration(prompt, style, filename, appraiser_id = null, locationName = null) {
   try {
     console.log(`Requesting image generation for: ${filename}`);
     console.log(`Prompt: ${prompt}`);
     console.log(`Style: ${style}`);
     
-    // In a real implementation, you would make an actual API call:
-    /*
+    // Create the request body
+    const requestBody = {
+      prompt,
+      filename,
+      style,
+      debug: true
+    };
+    
+    // Add appraiser info if available
+    if (appraiser_id) {
+      requestBody.appraiser = { 
+        id: appraiser_id,
+        name: appraiser_id.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+      };
+    }
+    
+    // Add location if available
+    if (locationName) {
+      requestBody.location = locationName;
+    }
+    
+    // Make the actual API call to the image generation service
     const response = await fetch(IMAGE_GENERATION_API, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        prompt,
-        style,
-        filename
-      }),
+      body: JSON.stringify(requestBody),
     });
     
-    const data = await response.json();
-    return data;
-    */
+    const responseText = await response.text();
+    let data;
     
-    // For demonstration, we'll just return a mock response
+    try {
+      data = JSON.parse(responseText);
+    } catch (e) {
+      console.error('Failed to parse API response as JSON:', responseText);
+      throw new Error(`API returned invalid JSON: ${responseText.substring(0, 100)}...`);
+    }
+    
+    if (!response.ok) {
+      // Enhanced error handling with root cause
+      const errorMessage = data.error || responseText;
+      const rootCause = data.rootCause || 'Unknown';
+      
+      if (rootCause.includes('402') || rootCause.includes('Payment Required')) {
+        throw new Error(`API payment required error: ${rootCause}. The image generation service has exceeded its quota or requires payment.`);
+      } else {
+        throw new Error(`API error (${response.status}): ${errorMessage}. Root cause: ${rootCause}`);
+      }
+    }
+    
+    console.log(`Image generated successfully: ${data.data?.imageUrl || data.imageUrl || 'URL not returned'}`);
+    
     return {
       success: true,
-      imageUrl: `https://ik.imagekit.io/appraisily/appraiser-images/${filename}`,
+      imageUrl: data.data?.imageUrl || data.imageUrl || `https://ik.imagekit.io/appraisily/appraiser-images/${filename}`,
       filename: filename
     };
   } catch (error) {
-    console.error('Error generating image:', error);
+    console.error('Error generating image:', error.message);
+    
+    // Check if this is a payment/quota issue
+    if (error.message.includes('402') || error.message.includes('Payment Required')) {
+      console.error('\n======= IMAGE GENERATION SERVICE PAYMENT ISSUE =======');
+      console.error('The image generation service has exhausted its credits or requires payment.');
+      console.error('Please check the Black Forest AI account status and billing information.');
+      console.error('=========================================================\n');
+    }
+    
     return { success: false, error: error.message };
   }
 }
 
 // Example usage
 async function main() {
-  console.log("Image Generation Request Example");
+  console.log("Image Generation Request");
   console.log("===============================");
-  console.log("This script demonstrates how to request image generation with a specific filename.");
-  console.log("");
   
-  // Read a sample location file
+  // Get command line arguments
+  const args = process.argv.slice(2);
+  let targetLocation = null;
+  let targetAppraiserId = null;
+  
+  if (args.length >= 1) {
+    targetLocation = args[0];
+  }
+  
+  if (args.length >= 2) {
+    targetAppraiserId = args[1];
+  }
+  
+  // Read location files
   const locationFiles = fs.readdirSync(LOCATIONS_DIR)
     .filter(file => file.endsWith('.json') && !file.includes('copy'));
   
-  if (locationFiles.length > 0) {
-    const sampleFile = locationFiles[0];
-    const citySlug = sampleFile.replace('.json', '');
-    const locationData = JSON.parse(fs.readFileSync(path.join(LOCATIONS_DIR, sampleFile)));
+  if (locationFiles.length === 0) {
+    console.error("No location files found");
+    return;
+  }
+  
+  // Filter to target location if specified
+  let filesToProcess = locationFiles;
+  if (targetLocation) {
+    const matchingFile = `${targetLocation}.json`;
+    if (locationFiles.includes(matchingFile)) {
+      filesToProcess = [matchingFile];
+      console.log(`Processing specific location: ${targetLocation}`);
+    } else {
+      console.error(`Location file not found: ${matchingFile}`);
+      return;
+    }
+  } else {
+    console.log(`No specific location provided. Will use sample location: ${locationFiles[0].replace('.json', '')}`);
+    filesToProcess = [locationFiles[0]];
+  }
+  
+  // Process each selected file
+  for (const locationFile of filesToProcess) {
+    const citySlug = locationFile.replace('.json', '');
+    const locationData = JSON.parse(fs.readFileSync(path.join(LOCATIONS_DIR, locationFile)));
     
-    if (locationData.appraisers && locationData.appraisers.length > 0) {
-      const sampleAppraiser = locationData.appraisers[0];
-      
-      console.log(`Sample appraiser: ${sampleAppraiser.name} (ID: ${sampleAppraiser.id})`);
+    if (!locationData.appraisers || locationData.appraisers.length === 0) {
+      console.log(`No appraisers found in ${locationFile}`);
+      continue;
+    }
+    
+    // Filter to specific appraiser if ID is provided
+    let appraisersToProcess = locationData.appraisers;
+    if (targetAppraiserId) {
+      const matchingAppraiser = locationData.appraisers.find(a => a.id === targetAppraiserId);
+      if (matchingAppraiser) {
+        appraisersToProcess = [matchingAppraiser];
+        console.log(`Processing specific appraiser: ${matchingAppraiser.name} (ID: ${matchingAppraiser.id})`);
+      } else {
+        console.error(`Appraiser ID not found: ${targetAppraiserId}`);
+        continue;
+      }
+    } else {
+      console.log(`No specific appraiser ID provided. Will process the first appraiser.`);
+      appraisersToProcess = [locationData.appraisers[0]];
+    }
+    
+    // Process each selected appraiser
+    for (const appraiser of appraisersToProcess) {
+      console.log(`\nProcessing appraiser: ${appraiser.name} (ID: ${appraiser.id})`);
       console.log(`City: ${citySlug}`);
-      console.log("");
       
       // Generate a filename for this appraiser
-      const filename = generateImageFilename(sampleAppraiser, citySlug);
+      const filename = generateImageFilename(appraiser, citySlug);
       
       // Create a prompt based on the appraiser's specialties
-      const specialties = Array.isArray(sampleAppraiser.specialties) 
-        ? sampleAppraiser.specialties.join(', ') 
-        : sampleAppraiser.specialties || 'fine art';
+      const specialties = Array.isArray(appraiser.specialties) 
+        ? appraiser.specialties.join(', ') 
+        : appraiser.specialties || 'fine art';
       
-      const prompt = `Professional art appraiser specializing in ${specialties}`;
+      const prompt = `Professional art appraiser specializing in ${specialties}. Business professional attire, neutral background, high quality portrait.`;
       const style = 'realistic';
       
       // Request image generation
-      const result = await requestImageGeneration(prompt, style, filename);
+      const result = await requestImageGeneration(prompt, style, filename, appraiser.id, citySlug);
       
-      console.log("");
-      console.log("Image Generation Result:");
+      console.log("\nImage Generation Result:");
       console.log(result);
       
-      console.log("");
-      console.log("Integration Steps:");
-      console.log("1. Modify your image-generation submodule to accept the 'filename' parameter");
-      console.log("2. Update your image generation requests to include the desired filename");
-      console.log("3. Use the returned imageUrl in your appraiser data");
+      // Update the appraiser data if successful
+      if (result.success && result.imageUrl) {
+        // Find and update the appraiser in the location data
+        const appraiserToUpdate = locationData.appraisers.find(a => a.id === appraiser.id);
+        if (appraiserToUpdate) {
+          appraiserToUpdate.imageUrl = result.imageUrl;
+          appraiserToUpdate.oldImageUrl = appraiserToUpdate.oldImageUrl || result.imageUrl;
+          
+          // Write the updated data back to the file
+          fs.writeFileSync(
+            path.join(LOCATIONS_DIR, locationFile),
+            JSON.stringify(locationData, null, 2)
+          );
+          
+          console.log(`Updated image URL for ${appraiser.id} in ${locationFile}`);
+        }
+      }
     }
   }
+  
+  console.log("\nNext steps:");
+  console.log("1. Run `npm run rebuild-static` to rebuild the static files with the updated image URLs");
+  console.log("2. Run `npm run build:with-image-validation` to build the site with the updated images");
 }
 
 main().catch(console.error); 

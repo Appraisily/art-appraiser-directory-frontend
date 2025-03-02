@@ -14,6 +14,7 @@
         "check-paths": "node scripts/check-paths.js",
         "fix-images": "node scripts/fix-missing-images.js",
         "replace-images-with-placeholder": "node scripts/replace-with-placeholder.js",
+        "replace-placeholders-with-generated-images": "node scripts/replace-placeholders-with-generated-images.js",
         "rebuild-static": "node scripts/generate-static.js && node scripts/copy-static.js",
         "generate-filename": "node scripts/generate-image-filename.js",
         "request-image": "node scripts/request-image-generation.js",
