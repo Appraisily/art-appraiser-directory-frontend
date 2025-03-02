@@ -17,7 +17,11 @@
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "generate-missing-images": "node scripts/generate-missing-images.js",
-        "check-images": "node scripts/check-live-images.js"
+        "check-images": "node scripts/check-live-images.js",
+        "generate-all-images": "node scripts/generate-all-images.js",
+        "check-all-images": "node scripts/check-all-images.js",
+        "build:local": "node scripts/local-build-and-deploy.js",
+        "build:local:with-images": "node scripts/generate-all-images.js && node scripts/local-build-and-deploy.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

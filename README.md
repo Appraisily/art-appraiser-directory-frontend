@@ -1,68 +1,91 @@
-# Art Appraiser Directory Frontend
+# Art Appraiser Directory
 
-This is the frontend codebase for the Art Appraiser Directory.
+This is the frontend for the Art Appraiser Directory, a submodule of the main Appraisily site. It's built with React, TypeScript, and Vite, and generates static HTML pages that can be deployed to Netlify.
 
-## Project Structure
+## Features
 
-- `/src` - Source code for the React application
-- `/data` - Data files for locations and appraisers
-- `/scripts` - Build and deployment scripts
-- `/dist` - Built application (generated during build)
+- 📋 Directory of art appraisers across multiple cities
+- 🖼️ Individual profile pages for each appraiser
+- 🗺️ Location-based search
+- 🤖 Automatic image generation for appraisers using AI
+- 🏗️ Static site generation for fast, SEO-friendly pages
 
-## Documentation
+## Getting Started
 
-- [Main README](README.md) - General project information and setup
-- [Image Generation](IMAGE_GENERATION.md) - Detailed documentation on the automatic image generation feature
+### Prerequisites
 
-## Development
+- Node.js (v16+)
+- npm or yarn
+- Access to the image generation service (optional, for generating appraiser images)
 
-To run the application locally:
+### Installation
+
+1. Clone the repository (if not already done as part of the main repo):
 
 ```bash
-# Install dependencies
-npm install
+git clone https://github.com/your-username/art-appraiser-directory-frontend.git
+cd art-appraiser-directory-frontend
+```
 
-# Start development server
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+### Development
+
+To start the development server:
+
+```bash
 npm run dev
 ```
 
-## Build Process
+This will start a local development server at http://localhost:5173.
 
-The build process consists of:
+## Building and Deployment
 
-1. Compiling TypeScript and bundling with Vite
-2. Generating missing appraiser images automatically
-3. Generating static HTML pages for locations and appraisers
-4. Creating a 404.html page for client-side routing
-5. Generating a sitemap.xml file
+### Building for Production
 
-To build the application:
+The standard build process compiles TypeScript, builds the React application with Vite, checks for missing images, and generates static HTML files:
 
 ```bash
 npm run build
 ```
 
-## Automatic Image Generation
+### Local Build and Deploy
 
-The application includes an automatic image generation feature that:
+For a streamlined local build process that also checks for the image generation service:
 
-1. Identifies appraisers without proper images
-2. Generates custom professional images for them using AI
-3. Updates the appraiser data with the new image URLs
+```bash
+npm run build:local
+```
 
-### How It Works
+This will:
+1. Check if the local image generation service is running
+2. Run the build process
+3. Validate the generated files
+4. Provide instructions for deployment to Netlify
 
-During the build process, the system automatically:
-- Scans all location files for appraisers with missing or improperly formatted images
-- Generates standardized filenames in the format: `appraiser_{id}_{timestamp}_V{randomId}.jpg`
-- Calls the image generation service API to create professional appraiser images
-- Updates the appraiser data with the new image URLs
+### Build with Image Generation
 
-For more detailed information, see the [Image Generation documentation](IMAGE_GENERATION.md).
+To build the site and generate any missing appraiser images:
 
-### Configuration
+```bash
+npm run build:local:with-images
+```
 
-The image generation service URL can be configured by setting the environment variable:
+This requires the image generation service to be running.
+
+## Image Generation
+
+The directory includes functionality to automatically generate images for appraisers using AI.
+
+### Setting Up the Image Generation Service
+
+1. Make sure the image generation service is running (either locally or remotely)
+2. By default, the script looks for the service at `http://localhost:3000/api/generate`
+3. You can override this by setting the `IMAGE_GENERATION_API` environment variable:
 
 ```bash
 # Windows
@@ -72,81 +95,107 @@ $env:IMAGE_GENERATION_API="http://your-image-service-url/api/generate"
 export IMAGE_GENERATION_API="http://your-image-service-url/api/generate"
 ```
 
-By default, it uses `http://localhost:3000/api/generate`.
+### Checking Images
 
-### Manual Usage
-
-If you want to manually fix missing images without doing a full build:
+To check all appraiser images for issues:
 
 ```bash
-npm run fix-images
-npm run rebuild-static
+npm run check-all-images
 ```
 
-## Deployment
+### Generating Images
 
-This project uses a pre-build approach where:
-
-1. The application is built locally
-2. The generated `dist` folder is pushed to a separate GitHub repository
-3. Netlify then serves these pre-built files directly
-
-### Important Note About the Dist Repository
-
-The distribution repository (where built files are pushed) has a different `.gitignore` than the development repository. In particular:
-
-- **Development repository**: Excludes the `/dist` folder (since we don't commit built files here)
-- **Distribution repository**: Does NOT exclude the `/dist` folder (since that's what we want to deploy)
-
-Our deployment script automatically handles this by setting up the correct `.gitignore` in the distribution repository.
-
-### Deployment Steps
-
-To deploy the application:
+To generate images for all appraisers:
 
 ```bash
-npm run deploy
+npm run generate-all-images
 ```
 
-This script will:
-- Build the application
-- Generate the sitemap
-- Push the built files to the specified GitHub repository
-- Netlify will automatically deploy from that repository
+To generate images for specific appraisers:
 
-### Configuration
-
-Before running the deploy script, make sure to update these values in `scripts/build-and-push.js`:
-
-```javascript
-const GITHUB_REPO = 'https://github.com/yourusername/art-appraiser-dist.git'; // Replace with your repo
-const BRANCH_NAME = 'main';
-const BASE_URL = 'https://art-appraiser.yourdomain.com'; // Replace with your domain
+```bash
+npm run request-image
 ```
 
-### Initial Setup on Netlify
+This will prompt you for appraiser details.
 
-1. Create a new site on Netlify
-2. Connect it to the GitHub repository containing the pre-built files
-3. Netlify will use the included `netlify.toml` configuration
+## Directory Structure
 
-## Sitemap Integration
-
-The sitemap.xml generated during build can be integrated with a global sitemap by:
-
-1. Referencing the deployed sitemap in your global sitemap index file:
-
-```xml
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://your-main-site.com/sitemap.xml</loc>
-  </sitemap>
-  <sitemap>
-    <loc>https://art-appraiser.yourdomain.com/sitemap.xml</loc>
-  </sitemap>
-</sitemapindex>
 ```
+art-appraiser-directory-frontend/
+├── dist/                   # Build output directory
+├── scripts/                # Build and utility scripts
+│   ├── check-all-images.js # Script to check image status
+│   ├── generate-static.js  # Generates static HTML files
+│   ├── generate-all-images.js # Generates images for all appraisers
+│   └── local-build-and-deploy.js # Helper for local builds
+├── src/
+│   ├── components/         # React components
+│   ├── data/
+│   │   └── locations/      # JSON files with appraiser data by city
+│   ├── pages/              # Page components
+│   ├── App.tsx             # Main application component
+│   └── main.tsx            # Entry point
+├── index.html              # HTML template
+├── package.json            # Dependencies and scripts
+└── vite.config.ts          # Vite configuration
+```
+
+## Static Site Generation
+
+The build process generates static HTML files for:
+
+1. The main index/directory page
+2. Individual location pages (e.g., `/location/new-york`)
+3. Individual appraiser profile pages (e.g., `/appraiser/john-doe-art-appraisals`)
+
+These files are generated by `scripts/generate-static.js` and placed in the `dist` directory.
+
+## Deploying to Netlify
+
+### Manual Deployment
+
+After building the site:
+
+1. Go to [Netlify](https://app.netlify.com/)
+2. Drag and drop the `dist` folder to the deploy section
+
+### Using Netlify CLI
+
+```bash
+netlify deploy --dir=dist --prod
+```
+
+### Using GitHub Continuous Deployment
+
+1. Connect your repository to Netlify
+2. Set the build command to: `npm run build`
+3. Set the publish directory to: `dist`
+
+## Troubleshooting
+
+### Missing Images
+
+If appraisers are missing images:
+
+1. Run `npm run check-all-images` to identify issues
+2. Ensure the image generation service is running
+3. Run `npm run generate-all-images` to create missing images
+4. Run `npm run build` to rebuild the site with the new images
+
+### Build Issues
+
+If you encounter build issues:
+
+1. Check if all dependencies are installed: `npm install`
+2. Verify the image generation service is running (if using image generation)
+3. Check for TypeScript errors: `npm run lint`
+4. Try cleaning the build directory: `rm -rf dist`
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 
-[Your License Information]
+This project is proprietary and confidential. Unauthorized copying, transfer, or use is strictly prohibited.
