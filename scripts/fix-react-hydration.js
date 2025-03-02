@@ -62,130 +62,89 @@ async function fixReactHydration(filePath) {
     const locationContent = document.getElementById('location-content');
     const appraiserContent = document.getElementById('appraiser-content');
     
-    if (locationContent) {
-      // The content should be in a div that React can hydrate
-      // Replace the content with a simple skeleton that React can safely hydrate
-      locationContent.innerHTML = `
-        <header>
-          <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/services">Services</a>
-          </nav>
-        </header>
-        <main>
-          <h1>Loading Location...</h1>
-          <p>Please wait while we load the location information.</p>
-        </main>
-        <footer>
-          <p>&copy; 2025 Appraisily. All rights reserved.</p>
-        </footer>
-      `;
-      modified = true;
-      log(`Updated location content structure in ${filePath.replace(DIST_DIR, '')}`, 'success');
-    }
-    
-    if (appraiserContent) {
-      // Similar fix for appraiser pages
-      appraiserContent.innerHTML = `
-        <header>
-          <nav>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/services">Services</a>
-          </nav>
-        </header>
-        <main>
-          <h1>Loading Appraiser...</h1>
-          <p>Please wait while we load the appraiser information.</p>
-        </main>
-        <footer>
-          <p>&copy; 2025 Appraisily. All rights reserved.</p>
-        </footer>
-      `;
-      modified = true;
-      log(`Updated appraiser content structure in ${filePath.replace(DIST_DIR, '')}`, 'success');
-    }
-    
-    // 2. Check and fix asset paths
-    const scripts = document.querySelectorAll('script[src]');
-    scripts.forEach(script => {
-      const src = script.getAttribute('src');
-      if (src && src.startsWith('/')) {
-        // Convert absolute paths to relative paths
-        const newSrc = src.replace(/^\//, './');
-        script.setAttribute('src', newSrc);
-        modified = true;
-        log(`Fixed script path: ${src} -> ${newSrc}`, 'success');
-      }
-    });
-    
-    const links = document.querySelectorAll('link[href]');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.startsWith('/')) {
-        // Convert absolute paths to relative paths
-        const newHref = href.replace(/^\//, './');
-        link.setAttribute('href', newHref);
-        modified = true;
-        log(`Fixed link href: ${href} -> ${newHref}`, 'success');
-      }
-    });
-    
-    // 3. Move script tags to the end of body
-    const bodyScripts = document.querySelectorAll('body script');
-    const body = document.querySelector('body');
-    
-    if (body && bodyScripts.length > 0) {
-      bodyScripts.forEach(script => {
-        // Remove each script and append it to the end of body
-        const clone = script.cloneNode(true);
-        script.remove();
-        body.appendChild(clone);
-        modified = true;
-      });
-      log(`Moved ${bodyScripts.length} script tags to the end of body`, 'success');
-    }
-    
-    // 4. Add data-hydrate="false" attribute to main content divs
-    const contentDivs = document.querySelectorAll('#location-content, #appraiser-content');
-    contentDivs.forEach(div => {
-      div.setAttribute('data-hydrate', 'false');
-      modified = true;
-      log(`Added data-hydrate attribute to ${div.id}`, 'success');
-    });
-    
-    // 5. Add a helper script that will ensure proper hydration
-    const hydrationScript = document.createElement('script');
-    hydrationScript.textContent = `
-      document.addEventListener('DOMContentLoaded', function() {
-        // Ensure assets are loaded before React hydration
-        var mainScript = document.querySelector('script[src*="index-"]');
-        if (mainScript) {
-          var originalSrc = mainScript.src;
-          mainScript.src = '';
-          setTimeout(function() {
-            mainScript.src = originalSrc;
-          }, 100);
+    // Instead of replacing content, move it inside the root element for proper hydration
+    if (locationContent || appraiserContent) {
+      const contentElement = locationContent || appraiserContent;
+      const rootElement = document.getElementById('root');
+      
+      if (!rootElement) {
+        // Create root element if it doesn't exist
+        const rootDiv = document.createElement('div');
+        rootDiv.id = 'root';
+        contentElement.parentNode.insertBefore(rootDiv, contentElement);
+        rootDiv.appendChild(contentElement);
+      } else {
+        // Move content inside root element
+        if (contentElement.parentNode !== rootElement) {
+          rootElement.appendChild(contentElement);
         }
-      });
-    `;
-    document.head.appendChild(hydrationScript);
-    modified = true;
-    log(`Added hydration helper script to ${filePath.replace(DIST_DIR, '')}`, 'success');
+      }
+      
+      modified = true;
+      log(`Fixed content structure for ${filePath.replace(DIST_DIR, '')}`, 'success');
+    }
+    
+    // 2. Remove any scripts that match our blocklist (like the ones from unpkg.com)
+    const scripts = Array.from(document.querySelectorAll('script'));
+    const blockedDomains = [
+      'unpkg.com',
+      'tangerine-churros-e587f4.netlify.app',
+      'widget.js'
+    ];
+    
+    for (const script of scripts) {
+      const src = script.getAttribute('src') || '';
+      if (blockedDomains.some(domain => src.includes(domain))) {
+        script.parentNode.removeChild(script);
+        log(`Removed blocked script: ${src}`, 'warning');
+        modified = true;
+      }
+    }
+    
+    // 3. Remove any injected styles from external domains
+    const styles = Array.from(document.querySelectorAll('link[rel="stylesheet"]'));
+    for (const style of styles) {
+      const href = style.getAttribute('href') || '';
+      if (blockedDomains.some(domain => href.includes(domain))) {
+        style.parentNode.removeChild(style);
+        log(`Removed blocked stylesheet: ${href}`, 'warning');
+        modified = true;
+      }
+    }
+    
+    // 4. Remove browser extension injected elements
+    const extensionElements = Array.from(document.querySelectorAll('div[id^="veepn-"], div[id^="extension-"]'));
+    for (const el of extensionElements) {
+      el.parentNode.removeChild(el);
+      log(`Removed browser extension element: ${el.id}`, 'warning');
+      modified = true;
+    }
+    
+    // 5. Ensure our script loading is correct
+    const mainScript = document.querySelector('script[src*="index-"]');
+    if (mainScript) {
+      // Make sure script is loaded properly
+      mainScript.setAttribute('defer', '');
+      // Remove any duplicate loaders for the same script
+      const duplicateScripts = Array.from(document.querySelectorAll(`script[src="${mainScript.getAttribute('src')}"]`))
+        .filter(s => s !== mainScript);
+      
+      for (const dup of duplicateScripts) {
+        dup.parentNode.removeChild(dup);
+        log('Removed duplicate script', 'warning');
+        modified = true;
+      }
+    }
     
     if (modified) {
-      // Save the modified content back to the file
-      const modifiedHTML = dom.serialize();
-      await fs.writeFile(filePath, modifiedHTML, 'utf8');
-      log(`Saved changes to ${filePath.replace(DIST_DIR, '')}`, 'success');
+      // Write the modified HTML back to the file
+      await fs.writeFile(filePath, dom.serialize(), 'utf8');
       return true;
-    } else {
-      log(`No changes needed for ${filePath.replace(DIST_DIR, '')}`, 'info');
-      return false;
     }
+    
+    return false;
   } catch (error) {
-    log(`Error fixing hydration issues in ${filePath}: ${error.message}`, 'error');
+    log(`Error fixing ${filePath}: ${error.message}`, 'error');
     return false;
   }
 }
