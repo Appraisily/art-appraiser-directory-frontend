@@ -1,116 +1,83 @@
-import { execSync } from 'child_process';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT_DIR = path.join(__dirname, '..');
-
+#!/usr/bin/env node
 /**
- * A simplified build script that bypasses image checking
- * It performs the enhanced steps needed to build an SEO-optimized app:
- * 1. TypeScript compilation
- * 2. Vite build
- * 3. Static HTML generation
- * 4. Image optimization
- * 5. Copying static files
- * 6. Sitemap generation
- * 7. HTML minification (optional)
+ * Enhanced build script for art-appraiser-directory-frontend
+ * Fixes hydration issues and prevents unwanted script injection
  */
 
-console.log('🚀 Starting SEO-optimized build process...');
+import { execSync } from 'child_process';
+import fs from 'fs-extra';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import chalk from 'chalk';
+import { injectCSPToDirectory } from './utils/inject-csp.js';
 
-// Set the image generation service URL
-const imageServiceUrl = process.env.IMAGE_GENERATION_API || 'https://image-generation-service-856401495068.us-central1.run.app/api/generate';
-console.log(`📡 Using image generation service at: ${imageServiceUrl}`);
-process.env.IMAGE_GENERATION_API = imageServiceUrl;
+// Get the current directory
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const rootDir = path.resolve(__dirname, '..');
 
-// Default to false for minification - can be enabled with env var
-const shouldMinify = process.env.MINIFY === 'true';
+// Log with colors
+function log(message, type = 'info') {
+  const now = new Date();
+  const timestamp = now.toISOString();
+  let coloredMessage;
 
-try {
-  // Step 1: TypeScript compilation and Vite build
-  console.log('\n📦 Building React application...');
-  execSync('tsc && vite build', { 
-    stdio: 'inherit', 
-    cwd: ROOT_DIR,
-    env: { ...process.env }
-  });
-  
-  // Step 2: Generate static HTML files
-  console.log('\n🌐 Generating static HTML files with SEO enhancements...');
-  execSync('node scripts/generate-static.js', { 
-    stdio: 'inherit', 
-    cwd: ROOT_DIR,
-    env: { ...process.env } 
-  });
-  
-  // Step 3: Copy necessary files (like 404.html)
-  console.log('\n📝 Copying static files...');
-  execSync('node scripts/copy-static.js', { 
-    stdio: 'inherit', 
-    cwd: ROOT_DIR,
-    env: { ...process.env } 
-  });
-  
-  // Step 4: Optimize images for better performance
-  console.log('\n🖼️ Optimizing images for better performance...');
+  switch (type) {
+    case 'success':
+      coloredMessage = chalk.green(message);
+      break;
+    case 'warning':
+      coloredMessage = chalk.yellow(message);
+      break;
+    case 'error':
+      coloredMessage = chalk.red(message);
+      break;
+    default:
+      coloredMessage = chalk.blue(message);
+  }
+
+  console.log(`[${timestamp}] ${coloredMessage}`);
+}
+
+async function build() {
   try {
-    execSync('node scripts/optimize-images.js', { 
-      stdio: 'inherit', 
-      cwd: ROOT_DIR,
-      env: { ...process.env } 
-    });
+    log('Starting enhanced build process...', 'info');
+    
+    // Step 1: Clean the build directory
+    log('Cleaning dist directory...', 'info');
+    await fs.emptyDir(path.join(rootDir, 'dist'));
+    
+    // Step 2: Run TypeScript compiler
+    log('Running TypeScript compiler...', 'info');
+    execSync('tsc', { stdio: 'inherit', cwd: rootDir });
+    
+    // Step 3: Run Vite build
+    log('Running Vite build...', 'info');
+    execSync('npx vite build', { stdio: 'inherit', cwd: rootDir });
+    
+    // Step 4: Run the hydration fix script
+    log('Fixing React hydration issues...', 'info');
+    execSync('node scripts/fix-react-hydration.js', { stdio: 'inherit', cwd: rootDir });
+    
+    // Step 5: Generate static files for SEO
+    log('Generating static files...', 'info');
+    execSync('node scripts/generate-static.js', { stdio: 'inherit', cwd: rootDir });
+    
+    // Step 6: Generate sitemap
+    log('Generating sitemap...', 'info');
+    execSync('node scripts/generate-sitemap.js', { stdio: 'inherit', cwd: rootDir });
+    
+    // Step 7: Inject CSP directly into the HTML files
+    log('Injecting Content Security Policy into HTML files...', 'info');
+    const distPath = path.join(rootDir, 'dist');
+    const processedCount = await injectCSPToDirectory(distPath);
+    log(`Injected CSP into ${processedCount} HTML files`, 'success');
+    
+    log('Build completed successfully!', 'success');
   } catch (error) {
-    console.warn('⚠️ Image optimization failed. Continuing with build...');
+    log(`Build failed: ${error.message}`, 'error');
+    process.exit(1);
   }
-  
-  // Step 5: Generate sitemap with enhanced metadata
-  console.log('\n🗺️ Generating comprehensive sitemap...');
-  try {
-    execSync('node scripts/generate-sitemap.js', { 
-      stdio: 'inherit', 
-      cwd: ROOT_DIR,
-      env: { ...process.env } 
-    });
-  } catch (error) {
-    console.warn('⚠️ Sitemap generation failed. Continuing without sitemap...');
-  }
-  
-  // Step 6: Minify HTML files (optional)
-  if (shouldMinify) {
-    console.log('\n⚡ Minifying HTML files for faster load times...');
-    try {
-      // First ensure html-minifier-terser is installed
-      execSync('npm list html-minifier-terser || npm install --no-save html-minifier-terser', {
-        stdio: 'inherit',
-        cwd: ROOT_DIR
-      });
-      
-      // Then run the minification
-      execSync('npx html-minifier-terser --input-dir dist --output-dir dist --file-ext html --minify-css --minify-js --remove-comments --collapse-whitespace --conservative-collapse', {
-        stdio: 'inherit',
-        cwd: ROOT_DIR
-      });
-    } catch (error) {
-      console.warn('⚠️ HTML minification failed. Continuing with unminified files...');
-    }
-  }
-  
-  console.log('\n✅ SEO-optimized build completed successfully!');
-  console.log('\n🔍 The built files are in the dist/ directory.');
-  console.log('   To deploy to Netlify, use the contents of this directory.');
-  console.log('\n📊 SEO Enhancements included:');
-  console.log('   - Pre-rendered HTML pages for appraisers and locations');
-  console.log('   - Enhanced Schema.org structured data');
-  console.log('   - Optimized meta tags and Open Graph data');
-  console.log('   - Responsive image loading');
-  console.log('   - Comprehensive XML sitemap');
-  console.log('   - robots.txt with sitemap reference');
-  if (shouldMinify) {
-    console.log('   - Minified HTML/CSS/JS for faster loading');
-  }
-  
-} catch (error) {
-  console.error('\n❌ Build failed:', error.message);
-  process.exit(1);
-} 
+}
+
+// Run the build process
+build(); 
