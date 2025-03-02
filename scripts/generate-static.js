@@ -214,171 +214,378 @@ function getFooterHTML(jsPath) {
 }
 
 function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath) {
-  const appraisersHTML = locationData.appraisers?.map(appraiser => `
-    <a href="/appraiser/${appraiser.id || ''}" class="rounded-lg border bg-white text-foreground shadow-sm group overflow-hidden hover:shadow-lg transition-all duration-300">
-      <div class="relative">
-        <div style="position: relative; width: 100%; padding-bottom: 75%">
-          <div style="position: absolute; inset: 0">
-            <img src="${generateImageUrl(appraiser)}" alt="${appraiser.name}" class="object-cover w-full h-full" loading="lazy" />
-          </div>
-        </div>
-        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
-          <div class="flex items-center gap-1">
-            <svg class="h-4 w-4 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-            </svg>
-            <span class="text-white font-semibold">${appraiser.rating}/5</span>
-            <span class="text-white/80 text-sm">(${appraiser.reviewCount} reviews)</span>
-          </div>
-        </div>
-      </div>
-      <div class="p-4">
-        <h2 class="font-bold text-xl mb-2 group-hover:text-primary transition-colors">${appraiser.name}</h2>
-        <div class="flex items-center gap-2 text-muted-foreground mb-2">
-          <svg class="h-4 w-4 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-          <span class="text-sm truncate">${appraiser.address}</span>
-        </div>
-        <div class="flex flex-wrap gap-2 mt-3">
-          ${(() => {
-            // Handle case where specialties could be a string instead of an array
-            if (typeof appraiser.specialties === 'string') {
-              return `<span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
-                ${appraiser.specialties}
-              </span>`;
-            }
-            
-            // Handle normal array case
-            return appraiser.specialties?.map(specialty => `
-              <span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
-                ${specialty}
-              </span>
-            `).join('') || '';
-          })()}
-        </div>
-      </div>
-    </a>
-  `).join('') || '';
-
   const title = `Art Appraisers in ${cityName} | Expert Art Valuation Services`;
   const description = `Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.`;
+  const canonicalUrl = `https://art-appraiser.appraisily.com/location/${citySlug}`;
+  const locationImage = locationData.imageUrl || 'https://ik.imagekit.io/appraisily/location-images/default-city.jpg';
+  
+  // Create schema data
+  const locationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": `Art Appraisal Services in ${cityName}`,
+    "description": `Find top-rated art appraisers in ${cityName}, ${locationData.state}. Professional art valuation services for insurance, estate planning, donations, and more.`,
+    "serviceType": "Art Appraisal",
+    "areaServed": {
+      "@type": "City",
+      "name": cityName,
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": cityName,
+        "addressRegion": locationData.state,
+        "addressCountry": "US"
+      }
+    },
+    "provider": locationData.appraisers?.map(appraiser => ({
+      "@type": "ProfessionalService",
+      "name": appraiser.name,
+      "image": appraiser.image || appraiser.imageUrl,
+      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`
+    }))
+  };
+  
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://art-appraiser.appraisily.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": `Art Appraisers in ${cityName}`,
+        "item": canonicalUrl
+      }
+    ]
+  };
+  
+  // FAQ schema specific to locations
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `How do I find an art appraiser in ${cityName}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `You can find qualified art appraisers in ${cityName} through our directory. We list certified professionals who specialize in various types of art and collectibles.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `What services do art appraisers in ${cityName} offer?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Art appraisers in ${cityName} offer various services including valuations for insurance purposes, estate planning, donations, sales, and purchases. Many also provide authentication services and consultations.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `How much does an art appraisal cost in ${cityName}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Art appraisal costs in ${cityName} vary depending on the complexity of the item, the purpose of the appraisal, and the appraiser's experience. Many appraisers charge either a flat fee per item or an hourly rate.`
+        }
+      }
+    ]
+  };
 
-  return `${getHeaderHTML(title, description, cssPath)}
-    <div class="min-h-screen bg-background flex flex-col">
-      <header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div class="container flex h-14 items-center">
-          <a href="/directory" class="flex items-center pl-4">
-            <div class="flex items-center gap-3">
-              <img src="https://cdn.mcauto-images-production.sendgrid.net/304ac75ef1d5c007/8aeb2689-2b5b-402d-a6f3-6521621e123a/300x300.png" alt="Appraisily Logo" class="w-10 h-10" />
-              <span class="font-bold text-2xl tracking-tight">Appraisily</span>
-            </div>
-          </a>
-          <nav class="flex items-center ml-auto space-x-4 lg:space-x-6 mr-4">
-            <a href="/directory" class="text-sm font-medium transition-colors hover:text-primary">Directory</a>
-            <a href="/art-appraisal" class="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">Art Appraisal</a>
-            <a href="/contact" class="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">Contact</a>
-          </nav>
-        </div>
+  return `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/directory/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>${title}</title>
+    <meta name="description" content="${description}" />
+    <meta name="keywords" content="art appraiser, ${cityName} art appraisal, artwork valuation, art authentication, art insurance appraisal, fine art appraisal" />
+    <link rel="canonical" href="${canonicalUrl}" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Performance optimization -->
+    <link rel="preload" href="${cssPath}" as="style" />
+    <link rel="stylesheet" href="${cssPath}" />
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="${title}" />
+    <meta property="og:description" content="${description}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="${canonicalUrl}" />
+    <meta property="og:image" content="${locationImage}" />
+    <meta property="og:site_name" content="Appraisily" />
+    
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${title}" />
+    <meta name="twitter:description" content="${description}" />
+    <meta name="twitter:image" content="${locationImage}" />
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+      ${JSON.stringify(locationSchema)}
+    </script>
+    <script type="application/ld+json">
+      ${JSON.stringify(breadcrumbSchema)}
+    </script>
+    <script type="application/ld+json">
+      ${JSON.stringify(faqSchema)}
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PSLHDGM');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="location-content">
+      <!-- This content will be replaced by client-side React when JS loads -->
+      <header>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/services">Services</a>
+        </nav>
       </header>
-
-      <div class="flex-1">
-        <div class="bg-gradient-to-r from-primary/10 to-primary/5 py-12">
-          <div class="container mx-auto px-6">
-            <h1 class="text-4xl font-bold text-foreground mb-4">Art Appraisers in ${cityName}</h1>
-            <p class="text-lg text-muted-foreground max-w-2xl">
-              Connect with certified art appraisers in ${cityName}. Get expert valuations,
-              authentication services, and professional advice for your art collection.
-            </p>
+      
+      <main>
+        <h1>Art Appraisers in ${cityName}</h1>
+        <p>Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.</p>
+        
+        <section>
+          <h2>Top Art Appraisers in ${cityName}</h2>
+          <div class="appraiser-list">
+            ${locationData.appraisers?.map(appraiser => `
+              <div class="appraiser-card">
+                <h3><a href="/appraiser/${appraiser.id}">${appraiser.name}</a></h3>
+                <p>${appraiser.specialties?.slice(0, 3).join(', ')}</p>
+              </div>
+            `).join('') || ''}
           </div>
-        </div>
-
-        <main class="container mx-auto px-6 py-12">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            ${appraisersHTML}
-          </div>
-        </main>
-      </div>
+        </section>
+      </main>
+      
+      <footer>
+        <p>&copy; ${new Date().getFullYear()} Appraisily. All rights reserved.</p>
+      </footer>
     </div>
-${getFooterHTML(jsPath)}`;
+    
+    <!-- Load JS at the end for better performance -->
+    <script src="${jsPath}" defer></script>
+  </body>
+</html>`;
 }
 
 function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
-  const title = `${appraiser.name} - Art Appraiser | Expert Art Valuation Services`;
-  const description = `Get professional art appraisal services from ${appraiser.name}. Specializing in ${typeof appraiser.specialties === 'string' ? appraiser.specialties : appraiser.specialties?.join(', ')}. Certified expert with ${appraiser.reviewCount} verified reviews.`;
+  // Format appraiser name and business name for SEO-friendly title
+  const displayName = appraiser.businessName 
+    ? `${appraiser.name} (${appraiser.businessName})` 
+    : appraiser.name;
+  
+  const title = `${displayName} - Art Appraiser | Expert Art Valuation Services`;
+  const specialties = appraiser.specialties?.join(', ') || '';
+  const description = `Get professional art appraisal services from ${displayName}. Specializing in ${specialties}. Certified expert with ${appraiser.reviewCount || 'verified'} reviews.`;
+  const canonicalUrl = `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`;
+  const imageUrl = generateImageUrl(appraiser);
+  
+  // Create schema data for appraiser
+  const appraiserSchema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": displayName,
+    "image": imageUrl,
+    "description": appraiser.about || description,
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": appraiser.address?.split(',')[0]?.trim() || cityName,
+      "addressRegion": appraiser.address?.split(',')[1]?.trim() || '',
+      "addressCountry": "US"
+    },
+    "url": canonicalUrl,
+    "telephone": appraiser.phone || '',
+    "email": appraiser.email || '',
+    "priceRange": "$$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": appraiser.rating?.toString() || "5",
+      "reviewCount": appraiser.reviewCount?.toString() || "1",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  };
+  
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://art-appraiser.appraisily.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": `Art Appraisers in ${cityName}`,
+        "item": `https://art-appraiser.appraisily.com/location/${cityName.toLowerCase().replace(/\s+/g, '-')}`
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": displayName,
+        "item": canonicalUrl
+      }
+    ]
+  };
+  
+  // FAQ schema specific to this appraiser
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": `What services does ${displayName} offer?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": appraiser.services?.map(s => s.name).join(', ') || `${displayName} offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `What are ${displayName}'s specialties?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": specialties || `${displayName} specializes in appraising various types of artwork and collectibles.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `How can I contact ${displayName}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `You can contact ${displayName} by phone at ${appraiser.phone || 'the number listed on their profile'} or by email at ${appraiser.email || 'the email address on their profile'}.`
+        }
+      }
+    ]
+  };
 
-  return `${getHeaderHTML(title, description, cssPath)}
-    <div class="min-h-screen bg-background flex flex-col">
-      <header class="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div class="container flex h-14 items-center">
-          <a href="/directory" class="flex items-center pl-4">
-            <div class="flex items-center gap-3">
-              <img src="https://cdn.mcauto-images-production.sendgrid.net/304ac75ef1d5c007/8aeb2689-2b5b-402d-a6f3-6521621e123a/300x300.png" alt="Appraisily Logo" class="w-10 h-10" />
-              <span class="font-bold text-2xl tracking-tight">Appraisily</span>
-            </div>
-          </a>
-          <nav class="flex items-center ml-auto space-x-4 lg:space-x-6 mr-4">
-            <a href="/directory" class="text-sm font-medium transition-colors hover:text-primary">Directory</a>
-            <a href="/art-appraisal" class="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">Art Appraisal</a>
-            <a href="/contact" class="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">Contact</a>
-          </nav>
-        </div>
+  return `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/directory/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>${title}</title>
+    <meta name="description" content="${description}" />
+    <meta name="keywords" content="${specialties}, art appraiser, art valuation, ${cityName} art appraiser" />
+    <link rel="canonical" href="${canonicalUrl}" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Performance optimization -->
+    <link rel="preload" href="${cssPath}" as="style" />
+    <link rel="stylesheet" href="${cssPath}" />
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="${title}" />
+    <meta property="og:description" content="${description}" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="${canonicalUrl}" />
+    <meta property="og:image" content="${imageUrl}" />
+    <meta property="og:site_name" content="Appraisily" />
+    
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="${title}" />
+    <meta name="twitter:description" content="${description}" />
+    <meta name="twitter:image" content="${imageUrl}" />
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+      ${JSON.stringify(appraiserSchema)}
+    </script>
+    <script type="application/ld+json">
+      ${JSON.stringify(breadcrumbSchema)}
+    </script>
+    <script type="application/ld+json">
+      ${JSON.stringify(faqSchema)}
+    </script>
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PSLHDGM');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="appraiser-content">
+      <!-- This content will be replaced by client-side React when JS loads -->
+      <header>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/services">Services</a>
+        </nav>
       </header>
-
-      <div class="flex-1">
-        <div class="relative h-[300px] md:h-[400px]">
-          <img src="${generateImageUrl(appraiser)}" alt="${appraiser.name}" class="w-full h-full object-cover" loading="lazy" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-        </div>
-
-        <div class="container mx-auto px-6 -mt-16 relative z-10">
-          <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
-            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <div>
-                <h1 class="text-3xl font-bold text-foreground">${appraiser.name}</h1>
-                <div class="flex items-center gap-4 mt-2">
-                  <div class="flex items-center gap-1">
-                    <svg class="h-5 w-5 text-yellow-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
-                    </svg>
-                    <span class="font-semibold">${appraiser.rating}/5</span>
-                    <span class="text-muted-foreground">(${appraiser.reviewCount} reviews)</span>
-                  </div>
-                  <div class="flex items-center gap-2 text-muted-foreground">
-                    <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                      <circle cx="12" cy="10" r="3" />
-                    </svg>
-                    <span>${appraiser.address}</span>
-                  </div>
-                </div>
-              </div>
+      
+      <main>
+        <article itemscope itemtype="https://schema.org/ProfessionalService">
+          <h1 itemprop="name">${displayName}</h1>
+          
+          <div class="appraiser-info">
+            <div class="appraiser-image">
+              <img src="${imageUrl}" alt="${displayName}" itemprop="image" width="300" height="300" loading="lazy" />
             </div>
-
-            <div class="mt-8">
-              <h2 class="text-2xl font-semibold mb-4">Specialties</h2>
-              <div class="flex flex-wrap gap-2">
-                ${(() => {
-                  // Handle case where specialties could be a string instead of an array
-                  if (typeof appraiser.specialties === 'string') {
-                    return `<span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
-                      ${appraiser.specialties}
-                    </span>`;
-                  }
-                  
-                  // Handle normal array case
-                  return appraiser.specialties?.map(specialty => `
-                    <span class="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary">
-                      ${specialty}
-                    </span>
-                  `).join('') || '';
-                })()}
+            
+            <div class="appraiser-details">
+              <p itemprop="description">${appraiser.about || description}</p>
+              
+              <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <p><strong>Location:</strong> <span itemprop="addressLocality">${appraiser.address || cityName}</span></p>
               </div>
+              
+              ${appraiser.phone ? `<p><strong>Phone:</strong> <span itemprop="telephone">${appraiser.phone}</span></p>` : ''}
+              ${appraiser.email ? `<p><strong>Email:</strong> <span itemprop="email">${appraiser.email}</span></p>` : ''}
+              ${appraiser.website ? `<p><strong>Website:</strong> <a href="${appraiser.website}" itemprop="url" rel="noopener noreferrer">${appraiser.website}</a></p>` : ''}
             </div>
           </div>
-        </div>
-      </div>
+          
+          <section>
+            <h2>Specialties</h2>
+            <ul>
+              ${appraiser.specialties?.map(specialty => `<li>${specialty}</li>`).join('') || '<li>Fine Art Appraisal</li>'}
+            </ul>
+          </section>
+        </article>
+      </main>
+      
+      <footer>
+        <p>&copy; ${new Date().getFullYear()} Appraisily. All rights reserved.</p>
+      </footer>
     </div>
-${getFooterHTML(jsPath)}`;
+    
+    <!-- Load JS at the end for better performance -->
+    <script src="${jsPath}" defer></script>
+  </body>
+</html>`;
 }

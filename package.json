@@ -5,7 +5,9 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build && npm run check-images && node scripts/generate-static.js && node scripts/copy-static.js",
+        "build": "npm run lint && tsc && vite build && node scripts/generate-static.js && node scripts/copy-static.js && node scripts/generate-sitemap.js",
+        "build:simple": "tsc && vite build && node scripts/generate-static.js && node scripts/copy-static.js && node scripts/generate-sitemap.js",
+        "build:seo-optimized": "npm run lint && tsc && vite build && node scripts/generate-static.js && node scripts/copy-static.js && node scripts/optimize-images.js && node scripts/generate-sitemap.js && npm run minify",
         "build:sitemap": "node scripts/generate-sitemap.js",
         "deploy": "node scripts/build-and-push.js",
         "deploy:direct": "node scripts/build-for-commit.js",
@@ -21,7 +23,9 @@
         "generate-all-images": "node scripts/generate-all-images.js",
         "check-all-images": "node scripts/check-all-images.js",
         "build:local": "node scripts/local-build-and-deploy.js",
-        "build:local:with-images": "node scripts/generate-all-images.js && node scripts/local-build-and-deploy.js"
+        "build:local:with-images": "node scripts/generate-all-images.js && node scripts/local-build-and-deploy.js",
+        "minify": "html-minifier-terser --input-dir dist --output-dir dist --file-ext html --minify-css --minify-js --remove-comments --collapse-whitespace --conservative-collapse",
+        "optimize-images": "node scripts/optimize-images.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
