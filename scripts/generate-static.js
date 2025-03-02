@@ -1,6 +1,7 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { generateLocationPageHTML, generateAppraiserPageHTML, validateAndUpdateAppraiserImages, saveValidatedAppraiserData } from './utils/template-generators.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.join(__dirname, '../dist');
@@ -588,4 +589,53 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
     <script src="${jsPath}" defer></script>
   </body>
 </html>`;
+}
+
+// Add image validation at the beginning of the process
+async function generateStaticHTML() {
+  console.log('Starting static HTML generation...');
+  try {
+    // Create necessary directories
+    // ... existing code ...
+    
+    // Get appraiser data
+    const appraisersData = await getAppraisers();
+    
+    // Validate and update appraiser images
+    console.log('Validating appraiser images...');
+    const validatedAppraisers = await validateAndUpdateAppraiserImages(appraisersData);
+    
+    // Cache validated data for future use
+    await saveValidatedAppraiserData(validatedAppraisers, path.join(DIST_DIR, 'data', 'validated-appraisers.json'));
+    
+    // Generate appraiser pages
+    console.log('Generating appraiser pages...');
+    for (const appraiser of validatedAppraisers) {
+      // ... existing code ...
+      const htmlContent = await generateAppraiserPageHTML(appraiser);
+      // ... existing code ...
+    }
+    
+    // Generate location pages
+    console.log('Generating location pages...');
+    const locations = getUniqueLocations(validatedAppraisers);
+    for (const location of locations) {
+      // ... existing code ...
+      const appraisersInLocation = validatedAppraisers.filter(a => 
+        (a.city && a.city.toLowerCase() === location.city.toLowerCase()) || 
+        (a.location && a.location.toLowerCase().includes(location.city.toLowerCase()))
+      );
+      const htmlContent = await generateLocationPageHTML({
+        cityName: location.city,
+        stateName: location.state,
+        appraisers: appraisersInLocation,
+        seoData: {}
+      });
+      // ... existing code ...
+    }
+    
+    // ... existing code ...
+  } catch (error) {
+    console.error('Error generating static HTML:', error);
+  }
 }

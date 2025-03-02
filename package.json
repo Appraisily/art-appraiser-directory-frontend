@@ -25,7 +25,8 @@
         "build:local": "node scripts/local-build-and-deploy.js",
         "build:local:with-images": "node scripts/generate-all-images.js && node scripts/local-build-and-deploy.js",
         "minify": "html-minifier-terser --input-dir dist --output-dir dist --file-ext html --minify-css --minify-js --remove-comments --collapse-whitespace --conservative-collapse",
-        "optimize-images": "node scripts/optimize-images.js"
+        "optimize-images": "node scripts/optimize-images.js",
+        "build:with-image-validation": "node ./scripts/build-with-image-validation.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
