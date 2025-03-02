@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Configuration
-const IMAGE_GENERATION_API = 'https://api.appraisily.com/generate-image';
+const IMAGE_GENERATION_API = 'https://image-generation-service-856401495068.us-central1.run.app/api/generate';
 const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
 const IMAGEKIT_BASE_URL = 'https://ik.imagekit.io/appraisily/appraiser-images/';
 
