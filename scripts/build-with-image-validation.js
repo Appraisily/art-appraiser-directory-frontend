@@ -32,17 +32,13 @@ async function buildWithImageValidation() {
     
     log(`Image generation service: ${process.env.IMAGE_GENERATION_SERVICE_URL}`);
     
-    // Clean previous build
+    // Clean previous build by removing dist directory
     log('Cleaning previous build...');
-    execSync('npm run clean', { stdio: 'inherit', cwd: ROOT_DIR });
+    fs.rmSync(path.join(ROOT_DIR, 'dist'), { recursive: true, force: true });
     
-    // Compile TypeScript first
-    log('Compiling TypeScript...');
-    execSync('npm run tsc', { stdio: 'inherit', cwd: ROOT_DIR });
-    
-    // Run the Vite build
-    log('Building with Vite...');
-    execSync('npm run build:base', { stdio: 'inherit', cwd: ROOT_DIR });
+    // Run the build:simple script which includes TypeScript compilation and Vite build
+    log('Building with TypeScript and Vite...');
+    execSync('npm run build:simple', { stdio: 'inherit', cwd: ROOT_DIR });
     
     // Create necessary directories
     const dataDir = path.join(ROOT_DIR, 'dist', 'data');
@@ -64,7 +60,7 @@ async function buildWithImageValidation() {
     // Optimize images
     log('Optimizing images...');
     try {
-      execSync('node ./scripts/optimize-images.js', { stdio: 'inherit', cwd: ROOT_DIR });
+      execSync('npm run optimize-images', { stdio: 'inherit', cwd: ROOT_DIR });
     } catch (error) {
       log('Warning: Image optimization failed, but continuing build');
       console.error(error);
@@ -72,16 +68,13 @@ async function buildWithImageValidation() {
     
     // Copy static files
     log('Copying static files...');
-    const staticDir = path.join(ROOT_DIR, 'static');
-    if (fs.existsSync(staticDir)) {
-      fs.copySync(staticDir, path.join(ROOT_DIR, 'dist'));
-    }
+    execSync('node ./scripts/copy-static.js', { stdio: 'inherit', cwd: ROOT_DIR });
     
     // Minify HTML (optional)
     if (process.env.MINIFY_HTML === 'true') {
       log('Minifying HTML...');
       try {
-        execSync('node ./scripts/minify-html.js', { stdio: 'inherit', cwd: ROOT_DIR });
+        execSync('npm run minify', { stdio: 'inherit', cwd: ROOT_DIR });
       } catch (error) {
         log('Warning: HTML minification failed, but continuing build');
         console.error(error);

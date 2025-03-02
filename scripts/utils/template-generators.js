@@ -1,99 +1,165 @@
 /**
- * Template generators for static HTML generation
- * This module provides functions to generate complete HTML templates for different page types
+ * Template generators for the Art Appraiser Directory
+ * Generates HTML for location pages, appraiser pages, and other content
+ * Uses advanced utilities for image validation, SEO, and performance
  */
 
-import axios from 'axios';
-import fs from 'fs-extra';
 import path from 'path';
-import { getEnhancedHeaderHTML, getEnhancedFooterHTML, createEnhancedImageMarkup, createSchemaScriptTag } from './template-helpers.js';
-import { generateSeoTitle, generateSeoDescription, generateKeywords, generateCanonicalUrl } from './seo-utils.js';
+import fs from 'fs-extra';
 
-// Image generation service URL
-const IMAGE_GENERATION_SERVICE_URL = process.env.IMAGE_GENERATION_SERVICE_URL || 'https://image-generation.appraisily.com/generate';
-// ImageKit API URL base
-const IMAGEKIT_URL_BASE = 'https://ik.imagekit.io/appraisily';
-// Local cache to avoid repeated checks for the same image
-const imageValidationCache = new Map();
+// Import advanced utilities
+import { 
+  validateImageUrl, 
+  getValidImageUrl, 
+  batchProcessAppraiserImages,
+  generateResponsiveImageHtml
+} from './image-validation.js';
+
+import {
+  generateResourceHints,
+  optimizeForCoreWebVitals,
+  extractCriticalCss,
+  generateLazyLoadingScript,
+  optimizeHtml
+} from './performance-utils.js';
+
+import {
+  generateLocationPageSchemas,
+  generateAppraiserPageSchemas,
+  generateSchemaMarkup
+} from './schema-generator.js';
+
+// Constants
+const BASE_URL = 'https://art-appraiser.appraisily.com';
+const DEFAULT_META_TITLE = 'Art Appraiser Directory | Find Qualified Art Appraisers';
+const DEFAULT_META_DESCRIPTION = 'Find professional art appraisers for insurance, estate, donation, and fair market value appraisals. Get accurate valuations for your artwork.';
 
 /**
- * Checks if an ImageKit URL is valid and accessible
- * @param {string} imageUrl - The URL to check
- * @returns {Promise<boolean>} True if the image exists
+ * Generates meta tags for SEO
+ * @param {Object} seoData - SEO data including title, description, etc.
+ * @returns {string} HTML meta tags
  */
-async function isImageValid(imageUrl) {
-  try {
-    // Check if we have this result cached
-    if (imageValidationCache.has(imageUrl)) {
-      return imageValidationCache.get(imageUrl);
-    }
+function generateMetaTags(seoData = {}) {
+  const {
+    title = DEFAULT_META_TITLE,
+    description = DEFAULT_META_DESCRIPTION,
+    canonicalUrl,
+    imageUrl = 'https://ik.imagekit.io/appraisily/appraisily-og-image.jpg',
+    keywords = 'art appraiser, art appraisal, artwork valuation, certified appraiser',
+    type = 'website',
+    twitterCard = 'summary_large_image',
+    author = 'Appraisily',
+    published = new Date().toISOString().split('T')[0],
+    modified = new Date().toISOString().split('T')[0]
+  } = seoData;
+
+  return `
+    <!-- Primary Meta Tags -->
+    <title>${title}</title>
+    <meta name="title" content="${title}">
+    <meta name="description" content="${description}">
+    <meta name="keywords" content="${keywords}">
+    <meta name="author" content="${author}">
+    ${canonicalUrl ? `<link rel="canonical" href="${canonicalUrl}">` : ''}
     
-    // Make a HEAD request to check if the image exists
-    const response = await axios.head(imageUrl, { timeout: 5000 });
-    const isValid = response.status === 200;
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="${type}">
+    <meta property="og:url" content="${canonicalUrl || BASE_URL}">
+    <meta property="og:title" content="${title}">
+    <meta property="og:description" content="${description}">
+    <meta property="og:image" content="${imageUrl}">
     
-    // Cache the result
-    imageValidationCache.set(imageUrl, isValid);
-    return isValid;
-  } catch (error) {
-    console.error(`Error checking image at ${imageUrl}:`, error.message);
-    // Cache the negative result
-    imageValidationCache.set(imageUrl, false);
-    return false;
-  }
+    <!-- Twitter -->
+    <meta property="twitter:card" content="${twitterCard}">
+    <meta property="twitter:url" content="${canonicalUrl || BASE_URL}">
+    <meta property="twitter:title" content="${title}">
+    <meta property="twitter:description" content="${description}">
+    <meta property="twitter:image" content="${imageUrl}">
+    
+    <!-- Article specific meta (if article type) -->
+    ${type === 'article' ? `
+      <meta property="article:published_time" content="${published}">
+      <meta property="article:modified_time" content="${modified}">
+      <meta property="article:author" content="${author}">
+    ` : ''}
+  `;
 }
 
 /**
- * Generates or retrieves an image URL for an appraiser
+ * Generates an appraiser card HTML with validated image
  * @param {Object} appraiser - Appraiser data
- * @returns {Promise<string>} URL to use for the appraiser image
+ * @param {Object} options - Additional options for the card
+ * @returns {string} HTML for the appraiser card
  */
-async function getValidAppraiserImageUrl(appraiser) {
-  if (!appraiser) return '';
+async function generateAppraiserCardHtml(appraiser, options = {}) {
+  if (!appraiser || !appraiser.name) return '';
   
-  // Check if an image URL is already provided
-  if (appraiser.imageUrl) {
-    const isValid = await isImageValid(appraiser.imageUrl);
-    if (isValid) return appraiser.imageUrl;
-  }
+  const {
+    showLocation = true,
+    linkToProfile = true,
+    cardClass = 'appraiser-card'
+  } = options;
   
-  // Generate a filename based on appraiser details
-  const appraiserSlug = appraiser.slug || appraiser.name.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
+  // Format the appraiser's location
+  const location = [
+    appraiser.city || '',
+    appraiser.state || ''
+  ].filter(Boolean).join(', ');
   
-  // Check if there's an existing image with this naming pattern
-  const standardImageUrl = `${IMAGEKIT_URL_BASE}/appraiser-images/appraiser_${appraiserSlug}_${Date.now()}_placeholder.jpg`;
-  const isStandardValid = await isImageValid(standardImageUrl);
-  if (isStandardValid) return standardImageUrl;
+  // Get a valid image URL using our enhanced utility
+  const imageUrl = appraiser.imageUrl || await getValidImageUrl(appraiser);
   
-  // If no valid image found, generate one using the image generation service
-  try {
-    const response = await axios.post(IMAGE_GENERATION_SERVICE_URL, {
-      name: appraiser.name,
-      type: 'appraiser',
-      location: appraiser.location || appraiser.city,
-      description: `Professional art appraiser specializing in ${appraiser.specialties?.join(', ') || 'fine art'}`
-    }, { timeout: 15000 });
-    
-    if (response.data && response.data.imageUrl) {
-      console.log(`Generated new image for ${appraiser.name} at ${response.data.imageUrl}`);
-      return response.data.imageUrl;
-    }
-  } catch (error) {
-    console.error(`Error generating image for ${appraiser.name}:`, error.message);
-  }
+  // Generate responsive image HTML using the utility function
+  const imageHtml = generateResponsiveImageHtml({
+    src: imageUrl,
+    alt: `${appraiser.name} - Art Appraiser${location ? ` in ${location}` : ''}`,
+    className: 'card-img',
+    width: 400,
+    height: 300
+  });
   
-  // If all else fails, return a default image
-  return `${IMAGEKIT_URL_BASE}/appraisily-og-image.jpg`;
+  // Generate appraiser profile URL
+  const slug = appraiser.slug || appraiser.id || appraiser.name.toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-');
+  
+  const profileUrl = `${BASE_URL}/appraiser/${slug}`;
+  
+  // Generate the card HTML
+  return `
+    <div class="${cardClass}">
+      <div class="card-image">
+        ${linkToProfile ? `<a href="${profileUrl}">` : ''}
+          ${imageHtml}
+        ${linkToProfile ? '</a>' : ''}
+      </div>
+      <div class="card-content">
+        <h3 class="card-title">
+          ${linkToProfile ? `<a href="${profileUrl}">` : ''}
+            ${appraiser.name}
+          ${linkToProfile ? '</a>' : ''}
+        </h3>
+        ${showLocation && location ? `<p class="card-location">${location}</p>` : ''}
+        ${appraiser.specialties && appraiser.specialties.length > 0 ?
+          `<p class="card-specialties">Specialties: ${appraiser.specialties.join(', ')}</p>` : ''
+        }
+        ${appraiser.rating ?
+          `<div class="card-rating">
+            <span class="stars">★★★★★</span>
+            <span class="rating-value">${appraiser.rating}</span>
+            ${appraiser.reviewCount ? `<span class="review-count">(${appraiser.reviewCount} reviews)</span>` : ''}
+          </div>` : ''
+        }
+        ${linkToProfile ? `<a href="${profileUrl}" class="view-profile-btn">View Profile</a>` : ''}
+      </div>
+    </div>
+  `;
 }
 
 /**
  * Generates the complete HTML for a location page
- * @param {Object} options - The options for the location page
- * @param {string} options.cityName - The name of the city
- * @param {string} options.stateName - The name of the state
- * @param {Array} options.appraisers - Array of appraisers in this location
- * @param {Object} options.seoData - Additional SEO data
- * @returns {Promise<string>} The complete HTML for the location page
+ * @param {Object} options - Page generation options
+ * @returns {string} Complete HTML for the location page
  */
 export async function generateLocationPageHTML({
   cityName,
@@ -101,540 +167,555 @@ export async function generateLocationPageHTML({
   appraisers = [],
   seoData = {}
 }) {
-  // Generate SEO metadata
-  const locationName = `${cityName}, ${stateName}`;
-  const pageTitle = generateSeoTitle({
-    name: `Art Appraisers in ${locationName}`,
-    location: '',
-    includeKeywords: true
-  });
+  if (!cityName) {
+    console.error('City name is required for location page generation');
+    return '';
+  }
   
-  const pageDescription = generateSeoDescription({
-    name: '',
-    location: locationName,
-    baseDescription: seoData.description || ''
-  });
+  // Convert city name to a URL-friendly format
+  const citySlug = cityName.toLowerCase().replace(/\s+/g, '-');
   
-  const keywords = generateKeywords({
-    type: 'location',
-    name: '',
-    location: locationName
-  });
+  // Format the location for display
+  const locationDisplay = stateName ? `${cityName}, ${stateName}` : cityName;
   
-  const canonicalUrl = generateCanonicalUrl({
-    path: `/location/${cityName.toLowerCase().replace(/\s+/g, '-')}`
-  });
-  
-  // Create the schema.org data
-  const locationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Place",
-    "name": `${cityName}`,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": cityName,
-      "addressRegion": stateName,
-      "addressCountry": "US"
-    },
-    "description": `Find professional art appraisers in ${locationName}`
+  // Create default SEO data if not provided
+  const defaultSeoData = {
+    title: `Art Appraisers in ${locationDisplay} | Find Local Art Valuation Experts`,
+    description: `Find qualified art appraisers in ${locationDisplay}. Get professional art valuations for insurance, estate planning, donations, and sales from local experts.`,
+    canonicalUrl: `${BASE_URL}/location/${citySlug}`,
+    keywords: `art appraiser ${cityName}, art appraisal ${cityName}, artwork valuation ${cityName}, certified appraiser ${cityName}`,
+    imageUrl: 'https://ik.imagekit.io/appraisily/locations/art-appraisers-location.jpg'
   };
   
-  // Schema for local business list
-  const localBusinessListSchema = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "itemListElement": []
+  // Merge default SEO data with provided SEO data
+  const mergedSeoData = { ...defaultSeoData, ...seoData };
+  
+  // Filter appraisers for this location
+  const locationAppraisers = appraisers.filter(appraiser => {
+    const appraiserCity = appraiser.city || '';
+    const appraiserLocation = appraiser.location || '';
+    
+    return (
+      appraiserCity.toLowerCase() === cityName.toLowerCase() ||
+      appraiserLocation.toLowerCase().includes(cityName.toLowerCase())
+    );
+  });
+  
+  console.log(`Found ${locationAppraisers.length} appraisers for ${locationDisplay}`);
+  
+  // Generate appraiser cards HTML
+  const appraiserCardsHtml = await Promise.all(
+    locationAppraisers.map(appraiser => 
+      generateAppraiserCardHtml(appraiser, { showLocation: false })
+    )
+  );
+  
+  // Create location data for schema generation
+  const locationData = {
+    city: cityName,
+    state: stateName,
+    description: `Find professional art appraisers in ${locationDisplay} for accurate valuations and appraisals.`
   };
   
-  // Generate HTML for each appraiser
-  const appraiserCardsHTML = await Promise.all(appraisers.map(async (appraiser, index) => {
-    // Get a valid image URL for this appraiser
-    const imageUrl = await getValidAppraiserImageUrl(appraiser);
-    
-    // Add this appraiser to the local business list schema
-    localBusinessListSchema.itemListElement.push({
-      "@type": "ListItem",
-      "position": index + 1,
-      "item": {
-        "@type": "LocalBusiness",
-        "name": appraiser.name,
-        "image": imageUrl,
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": appraiser.city || cityName,
-          "addressRegion": appraiser.state || stateName,
-          "addressCountry": "US"
-        },
-        "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser.slug}`,
-        "telephone": appraiser.phone || "",
-        "priceRange": appraiser.priceRange || "$$-$$$"
-      }
-    });
-    
-    // Generate card HTML
-    return `
-      <div class="appraiser-card bg-white rounded-lg shadow-md overflow-hidden flex flex-col md:flex-row mb-8" itemscope itemtype="https://schema.org/LocalBusiness">
-        <div class="appraiser-image w-full md:w-1/3 h-48 md:h-auto">
-          ${createEnhancedImageMarkup({
-            src: imageUrl,
-            alt: `${appraiser.name} - Art Appraiser in ${locationName}`,
-            className: "object-cover w-full h-full",
-            width: 400,
-            height: 300
-          })}
-          <meta itemprop="image" content="${imageUrl}" />
-        </div>
-        <div class="p-6 flex-1">
-          <h2 class="text-2xl font-bold mb-2" itemprop="name">
-            <a href="/appraiser/${appraiser.slug}" class="text-primary hover:text-primary-dark transition">
-              ${appraiser.name}
-            </a>
-          </h2>
-          <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-            <meta itemprop="addressLocality" content="${appraiser.city || cityName}" />
-            <meta itemprop="addressRegion" content="${appraiser.state || stateName}" />
-            <meta itemprop="addressCountry" content="US" />
-          </div>
-          <p class="text-gray-600 mb-4 line-clamp-3" itemprop="description">
-            ${appraiser.description || `Professional art appraiser serving ${locationName} and surrounding areas. Specializing in ${appraiser.specialties?.join(', ') || 'fine art appraisals'}.`}
-          </p>
-          <div class="flex flex-wrap gap-2 mb-4">
-            ${(appraiser.specialties || ['Fine Art', 'Paintings', 'Antiques']).map(specialty => 
-              `<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm">${specialty}</span>`
-            ).join('')}
-          </div>
-          <a href="/appraiser/${appraiser.slug}" class="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-md inline-block transition">
-            View Details
-          </a>
-          <meta itemprop="url" content="https://art-appraiser.appraisily.com/appraiser/${appraiser.slug}" />
-          ${appraiser.phone ? `<meta itemprop="telephone" content="${appraiser.phone}" />` : ''}
-          <meta itemprop="priceRange" content="${appraiser.priceRange || '$$-$$$'}" />
-        </div>
-      </div>
-    `;
-  }));
+  // Generate all required schemas for the location page
+  const schemas = generateLocationPageSchemas(locationData, locationAppraisers);
+  const schemaMarkup = generateSchemaMarkup(schemas);
   
-  // Generate the FAQ schema for the location
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": `How much does art appraisal cost in ${cityName}?`,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": `Art appraisal costs in ${cityName} typically range from $125 to $350 per hour, depending on the appraiser's expertise and the complexity of the artwork. Many appraisers also offer flat rates for certain types of appraisals.`
-        }
-      },
-      {
-        "@type": "Question",
-        "name": `How do I find a reliable art appraiser in ${cityName}?`,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": `To find a reliable art appraiser in ${cityName}, look for appraisers with certifications from recognized organizations such as the International Society of Appraisers (ISA), American Society of Appraisers (ASA), or Appraisers Association of America (AAA). You can also check reviews, ask for references, and verify their area of specialization.`
-        }
-      },
-      {
-        "@type": "Question",
-        "name": `What information do I need to provide for an art appraisal in ${cityName}?`,
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": `For an art appraisal in ${cityName}, you'll typically need to provide clear photographs of the artwork (front, back, signature, details), dimensions, medium, information about the artist if known, provenance (history of ownership), any documentation or certificates of authenticity, and the purpose of the appraisal (insurance, estate planning, donation, sale).`
-        }
-      }
+  // Generate resource hints for performance
+  const resourceHints = generateResourceHints({
+    preconnectUrls: [
+      'https://ik.imagekit.io',
+      'https://www.googletagmanager.com',
+      'https://www.google-analytics.com'
+    ],
+    preloadAssets: [
+      { url: '/css/styles.css', as: 'style' },
+      { url: '/js/main.js', as: 'script' }
     ]
-  };
-  
-  // Begin constructing the page HTML
-  const headerHTML = getEnhancedHeaderHTML({
-    title: pageTitle,
-    description: pageDescription,
-    canonicalUrl: canonicalUrl,
-    keywords: keywords,
-    cssPath: '/assets/index.css',
-    ogType: 'website'
   });
   
-  // Content HTML
-  const contentHTML = `
-    <main class="container mx-auto px-4 py-8">
-      <h1 class="text-3xl md:text-4xl font-bold mb-6">Art Appraisers in ${locationName}</h1>
-      
-      <div class="bg-gray-50 p-6 rounded-lg mb-8">
-        <p class="mb-4">Looking for professional art appraisal services in ${locationName}? Browse our directory of certified art appraisers specializing in valuation, authentication, and assessment of artwork in ${cityName} and surrounding areas.</p>
-        <p>Our listed appraisers can assist with insurance valuations, estate appraisals, donation appraisals, and more.</p>
-      </div>
-      
-      <section class="mb-12">
-        <h2 class="text-2xl font-bold mb-4">Featured Art Appraisers in ${locationName}</h2>
-        <div class="appraiser-list">
-          ${appraiserCardsHTML.join('\n')}
+  // Generate the complete HTML
+  let html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      ${resourceHints}
+      ${generateMetaTags(mergedSeoData)}
+      <link rel="stylesheet" href="/css/styles.css">
+      ${schemaMarkup}
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <a href="/" class="logo">Art Appraiser Directory</a>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/directory">Directory</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-        ${appraisers.length === 0 ? `
-          <div class="bg-white p-6 rounded-lg shadow-sm text-center">
-            <p class="mb-4">We're currently updating our directory of art appraisers in ${locationName}.</p>
-            <p>Please check back soon or <a href="/contact" class="text-primary hover:underline">contact us</a> for recommendations.</p>
-          </div>
-        ` : ''}
-      </section>
+      </header>
       
-      <section class="mb-12 bg-white p-6 rounded-lg shadow-sm">
-        <h2 class="text-2xl font-bold mb-4">Art Appraisal Services in ${locationName}</h2>
-        <p class="mb-4">Professional art appraisers in ${cityName} provide a range of specialized services:</p>
-        <ul class="list-disc pl-5 mb-4 space-y-2">
-          <li><strong>Insurance Appraisals:</strong> For insuring your artwork against loss or damage</li>
-          <li><strong>Estate Appraisals:</strong> For estate tax purposes, equitable distribution, or probate</li>
-          <li><strong>Donation Appraisals:</strong> For charitable contributions of artwork</li>
-          <li><strong>Fair Market Value Appraisals:</strong> For buying or selling artwork</li>
-          <li><strong>Replacement Value Appraisals:</strong> For determining the cost to replace artwork</li>
-          <li><strong>Art Authentication:</strong> For verifying the authenticity of artwork</li>
-        </ul>
-        <p>Contact an appraiser directly to discuss your specific needs and requirements.</p>
-      </section>
+      <main>
+        <section class="hero">
+          <div class="container">
+            <h1>Art Appraisers in ${locationDisplay}</h1>
+            <p>Find qualified art appraisers and valuation experts in ${locationDisplay} for insurance, estate, donation, and fair market appraisals.</p>
+          </div>
+        </section>
+        
+        <section class="content">
+          <div class="container">
+            <div class="breadcrumbs">
+              <a href="/">Home</a> &gt;
+              <a href="/directory">Directory</a> &gt;
+              <span>${locationDisplay}</span>
+            </div>
+            
+            <div class="location-description">
+              <h2>Finding Art Appraisers in ${locationDisplay}</h2>
+              <p>Need a professional art appraiser in ${locationDisplay}? Our directory features qualified appraisers with expertise in various types of artwork and collectibles. Whether you need an appraisal for insurance purposes, estate planning, donations, or to determine fair market value, these local experts can help.</p>
+            </div>
+            
+            <div class="appraiser-list">
+              <h2>${locationAppraisers.length} Art Appraisers in ${locationDisplay}</h2>
+              ${locationAppraisers.length > 0 
+                ? `<div class="appraiser-grid">${appraiserCardsHtml.join('')}</div>`
+                : `<p class="no-results">No appraisers found in ${locationDisplay}. Please check nearby locations or <a href="/contact">contact us</a> for assistance.</p>`
+              }
+            </div>
+            
+            <div class="location-info">
+              <h2>Art Appraisal Services in ${locationDisplay}</h2>
+              <p>Art appraisal is a crucial service for artwork owners and collectors. Professional appraisers in ${locationDisplay} provide accurate valuations based on years of expertise and knowledge of the art market.</p>
+              
+              <h3>Common Types of Art Appraisals</h3>
+              <ul>
+                <li><strong>Insurance Appraisals:</strong> Determine replacement value for insurance coverage</li>
+                <li><strong>Estate Appraisals:</strong> Establish fair market value for estate tax purposes</li>
+                <li><strong>Donation Appraisals:</strong> Provide valuations for charitable contribution tax deductions</li>
+                <li><strong>Fair Market Value Appraisals:</strong> Determine the current market value for potential sales</li>
+                <li><strong>Damage Appraisals:</strong> Assess value loss due to damage or deterioration</li>
+              </ul>
+              
+              <h3>Frequently Asked Questions</h3>
+              <div class="faq">
+                <div class="faq-item">
+                  <h4>How much does art appraisal cost in ${cityName}?</h4>
+                  <p>Art appraisal costs in ${cityName} typically range from $125 to $350 per hour, depending on the appraiser's expertise and the complexity of the artwork. Many appraisers also offer flat rates for certain types of appraisals.</p>
+                </div>
+                <div class="faq-item">
+                  <h4>How do I find a reliable art appraiser in ${cityName}?</h4>
+                  <p>To find a reliable art appraiser in ${cityName}, look for appraisers with certifications from recognized organizations such as the International Society of Appraisers (ISA), American Society of Appraisers (ASA), or Appraisers Association of America (AAA). Check reviews, ask for references, and verify their area of specialization.</p>
+                </div>
+                <div class="faq-item">
+                  <h4>What information do I need to provide for an art appraisal in ${cityName}?</h4>
+                  <p>For an art appraisal in ${cityName}, you'll typically need to provide clear photographs of the artwork, dimensions, medium, information about the artist, provenance (history of ownership), documentation or certificates of authenticity, and the purpose of the appraisal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
       
-      <section class="mb-12">
-        <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions About Art Appraisal in ${locationName}</h2>
-        <div class="space-y-4">
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-semibold mb-2">How much does art appraisal cost in ${cityName}?</h3>
-            <p>Art appraisal costs in ${cityName} typically range from $125 to $350 per hour, depending on the appraiser's expertise and the complexity of the artwork. Many appraisers also offer flat rates for certain types of appraisals.</p>
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h3>Art Appraiser Directory</h3>
+              <p>Connecting art owners with qualified appraisers nationwide.</p>
+            </div>
+            <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/directory">Directory</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Contact Us</h3>
+              <p>Email: info@appraisily.com</p>
+              <p>Phone: (800) 555-1234</p>
+            </div>
           </div>
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-semibold mb-2">How do I find a reliable art appraiser in ${cityName}?</h3>
-            <p>To find a reliable art appraiser in ${cityName}, look for appraisers with certifications from recognized organizations such as the International Society of Appraisers (ISA), American Society of Appraisers (ASA), or Appraisers Association of America (AAA). You can also check reviews, ask for references, and verify their area of specialization.</p>
-          </div>
-          <div class="bg-white p-6 rounded-lg shadow-sm">
-            <h3 class="text-xl font-semibold mb-2">What information do I need to provide for an art appraisal in ${cityName}?</h3>
-            <p>For an art appraisal in ${cityName}, you'll typically need to provide clear photographs of the artwork (front, back, signature, details), dimensions, medium, information about the artist if known, provenance (history of ownership), any documentation or certificates of authenticity, and the purpose of the appraisal (insurance, estate planning, donation, sale).</p>
+          <div class="footer-bottom">
+            <p>&copy; ${new Date().getFullYear()} Appraisily. All rights reserved.</p>
           </div>
         </div>
-      </section>
-    </main>
+      </footer>
+      
+      <script src="/js/main.js" defer></script>
+      ${generateLazyLoadingScript()}
+    </body>
+    </html>
   `;
   
-  // Schema scripts
-  const schemaScripts = `
-    ${createSchemaScriptTag(locationSchema)}
-    ${createSchemaScriptTag(localBusinessListSchema)}
-    ${createSchemaScriptTag(faqSchema)}
-  `;
+  // Optimize HTML for Core Web Vitals
+  html = optimizeForCoreWebVitals(html, {
+    lazyLoading: { rootMargin: '200px 0px' }
+  });
   
-  // Footer HTML
-  const footerHTML = getEnhancedFooterHTML('/assets/index.js');
-  
-  // Combine all HTML sections
-  return `
-    ${headerHTML}
-    ${contentHTML}
-    ${schemaScripts}
-    ${footerHTML}
-  `;
+  // Remove extra whitespace for smaller file size
+  return optimizeHtml(html, { preserveLineBreaks: true });
 }
 
 /**
  * Generates the complete HTML for an appraiser page
- * @param {Object} appraiser - The appraiser data
- * @returns {Promise<string>} The complete HTML for the appraiser page
+ * @param {Object} appraiser - Appraiser data
+ * @returns {string} Complete HTML for the appraiser page
  */
 export async function generateAppraiserPageHTML(appraiser) {
-  if (!appraiser) return '';
+  if (!appraiser || !appraiser.name) {
+    console.error('Valid appraiser data is required for page generation');
+    return '';
+  }
+  
+  // Create slug for URLs
+  const slug = appraiser.slug || appraiser.id || appraiser.name.toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-');
+  
+  // Location formatting
+  const location = [
+    appraiser.city || '',
+    appraiser.state || ''
+  ].filter(Boolean).join(', ');
   
   // Get a valid image URL
-  const imageUrl = await getValidAppraiserImageUrl(appraiser);
+  const imageUrl = appraiser.imageUrl || await getValidImageUrl(appraiser);
   
-  // Generate SEO metadata
-  const locationDisplay = appraiser.city && appraiser.state ? `${appraiser.city}, ${appraiser.state}` : '';
-  const pageTitle = generateSeoTitle({
-    name: appraiser.name,
-    location: locationDisplay,
-    includeKeywords: true
+  // Generate responsive image HTML
+  const imageHtml = generateResponsiveImageHtml({
+    src: imageUrl,
+    alt: `${appraiser.name} - Art Appraiser${location ? ` in ${location}` : ''}`,
+    className: 'appraiser-image',
+    width: 600,
+    height: 450
   });
   
-  const pageDescription = generateSeoDescription({
-    name: appraiser.name,
-    location: locationDisplay,
-    specialties: appraiser.specialties?.join(', '),
-    baseDescription: appraiser.description
-  });
-  
-  const keywords = generateKeywords({
-    type: 'appraiser',
-    name: appraiser.name,
-    location: locationDisplay,
-    specialties: appraiser.specialties
-  });
-  
-  const canonicalUrl = generateCanonicalUrl({
-    path: `/appraiser/${appraiser.slug}`
-  });
-  
-  // Create the schema.org data for the appraiser
-  const appraiserSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `https://art-appraiser.appraisily.com/appraiser/${appraiser.slug}`,
-    "name": appraiser.name,
-    "image": imageUrl,
-    "description": appraiser.description || `Professional art appraiser specializing in ${appraiser.specialties?.join(', ') || 'fine art appraisals'}.`,
-    "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser.slug}`,
-    "telephone": appraiser.phone || "",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": appraiser.city || "",
-      "addressRegion": appraiser.state || "",
-      "addressCountry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": appraiser.latitude || "",
-      "longitude": appraiser.longitude || ""
-    },
-    "priceRange": appraiser.priceRange || "$$-$$$",
-    "openingHours": appraiser.hours || "Mo-Fr 09:00-17:00",
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Art Appraisal Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Insurance Appraisal"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Estate Appraisal"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Donation Appraisal"
-          }
-        }
-      ]
-    }
+  // Create SEO data
+  const seoData = {
+    title: `${appraiser.name} | Art Appraiser${location ? ` in ${location}` : ''}`,
+    description: appraiser.description || 
+      `${appraiser.name} is a professional art appraiser${location ? ` serving ${location}` : ''}. Specializing in ${appraiser.specialties?.join(', ') || 'fine art appraisals'}.`,
+    canonicalUrl: `${BASE_URL}/appraiser/${slug}`,
+    imageUrl: imageUrl,
+    type: 'profile'
   };
   
-  // Begin constructing the page HTML
-  const headerHTML = getEnhancedHeaderHTML({
-    title: pageTitle,
-    description: pageDescription,
-    canonicalUrl: canonicalUrl,
-    imageUrl: imageUrl,
-    keywords: keywords,
-    cssPath: '/assets/index.css',
-    ogType: 'business.business'
-  });
+  // Generate all required schemas for the appraiser page
+  const schemas = generateAppraiserPageSchemas(appraiser);
+  const schemaMarkup = generateSchemaMarkup(schemas);
   
-  // Generate services HTML if available
-  const servicesHTML = appraiser.services?.length > 0 
-    ? `
-      <section class="mb-10">
-        <h2 class="text-2xl font-bold mb-4">Services Offered</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+  // Create services list HTML if available
+  let servicesHtml = '';
+  if (appraiser.services && Array.isArray(appraiser.services) && appraiser.services.length > 0) {
+    servicesHtml = `
+      <div class="appraiser-services">
+        <h2>Services Offered</h2>
+        <ul class="services-list">
           ${appraiser.services.map(service => `
-            <div class="bg-white p-6 rounded-lg shadow-sm">
-              <h3 class="text-lg font-semibold mb-2">${service.name}</h3>
-              <p>${service.description || 'Contact for more information.'}</p>
-              ${service.price ? `<p class="mt-2 font-semibold">Starting at: $${service.price}</p>` : ''}
+            <li class="service-item">
+              <h3>${service.name}</h3>
+              ${service.description ? `<p>${service.description}</p>` : ''}
+              ${service.price ? `<p class="service-price">Starting at $${service.price}</p>` : ''}
+            </li>
+          `).join('')}
+        </ul>
+      </div>
+    `;
+  } else if (appraiser.specialties && Array.isArray(appraiser.specialties) && appraiser.specialties.length > 0) {
+    // Create default services based on specialties if no specific services are defined
+    servicesHtml = `
+      <div class="appraiser-services">
+        <h2>Services Offered</h2>
+        <ul class="services-list">
+          <li class="service-item">
+            <h3>Art Appraisal Services</h3>
+            <p>Professional appraisal services for ${appraiser.specialties.join(', ')} and other fine art.</p>
+          </li>
+          <li class="service-item">
+            <h3>Insurance Appraisals</h3>
+            <p>Determine replacement value for insurance coverage.</p>
+          </li>
+          <li class="service-item">
+            <h3>Estate Appraisals</h3>
+            <p>Establish fair market value for estate tax purposes.</p>
+          </li>
+          <li class="service-item">
+            <h3>Donation Appraisals</h3>
+            <p>Provide valuations for charitable contribution tax deductions.</p>
+          </li>
+        </ul>
+      </div>
+    `;
+  }
+  
+  // Create reviews HTML if available
+  let reviewsHtml = '';
+  if (appraiser.reviews && Array.isArray(appraiser.reviews) && appraiser.reviews.length > 0) {
+    reviewsHtml = `
+      <div class="appraiser-reviews">
+        <h2>Client Reviews</h2>
+        <div class="reviews-list">
+          ${appraiser.reviews.map(review => `
+            <div class="review-item">
+              <div class="review-header">
+                <span class="reviewer-name">${review.author || 'Client'}</span>
+                <span class="review-rating">★★★★★</span>
+                <span class="review-rating-value">${review.rating}</span>
+                ${review.date ? `<span class="review-date">${review.date}</span>` : ''}
+              </div>
+              <div class="review-content">
+                <p>${review.text}</p>
+              </div>
             </div>
           `).join('')}
         </div>
-      </section>
-    `
-    : '';
+      </div>
+    `;
+  }
   
-  // Content HTML
-  const contentHTML = `
-    <main class="container mx-auto px-4 py-8">
-      <article class="appraiser-profile" itemscope itemtype="https://schema.org/LocalBusiness">
-        <div class="mb-8 flex flex-col md:flex-row gap-8">
-          <div class="w-full md:w-1/3">
-            <div class="bg-white rounded-lg shadow-md overflow-hidden">
-              ${createEnhancedImageMarkup({
-                src: imageUrl,
-                alt: `${appraiser.name} - Art Appraiser ${locationDisplay ? `in ${locationDisplay}` : ''}`,
-                className: "w-full h-auto",
-                width: 400,
-                height: 400
-              })}
-              <meta itemprop="image" content="${imageUrl}" />
-            </div>
-            
-            <div class="mt-6 bg-white p-6 rounded-lg shadow-md">
-              <h2 class="text-xl font-bold mb-4">Contact Information</h2>
-              ${appraiser.phone ? `
-                <div class="flex items-center mb-3">
-                  <svg class="w-5 h-5 mr-2 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                  </svg>
-                  <span itemprop="telephone">${appraiser.phone}</span>
-                </div>
-              ` : ''}
-              
-              ${appraiser.email ? `
-                <div class="flex items-center mb-3">
-                  <svg class="w-5 h-5 mr-2 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                  </svg>
-                  <a href="mailto:${appraiser.email}" class="text-primary hover:underline" itemprop="email">${appraiser.email}</a>
-                </div>
-              ` : ''}
-              
-              ${appraiser.website ? `
-                <div class="flex items-center mb-3">
-                  <svg class="w-5 h-5 mr-2 text-primary" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd"/>
-                  </svg>
-                  <a href="${appraiser.website}" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer" itemprop="url">${appraiser.website.replace(/^https?:\/\//, '')}</a>
-                </div>
-              ` : ''}
-              
-              <div class="mt-4">
-                <h3 class="text-lg font-semibold mb-2">Location</h3>
-                <div class="text-gray-700" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-                  ${appraiser.city && appraiser.state ? `
-                    <span itemprop="addressLocality">${appraiser.city}</span>,
-                    <span itemprop="addressRegion">${appraiser.state}</span>
-                  ` : ''}
-                  <meta itemprop="addressCountry" content="US" />
-                </div>
-              </div>
-            </div>
+  // Generate the complete HTML
+  let html = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      ${generateMetaTags(seoData)}
+      <link rel="stylesheet" href="/css/styles.css">
+      ${schemaMarkup}
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <a href="/" class="logo">Art Appraiser Directory</a>
+          <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/directory">Directory</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      
+      <main>
+        <div class="container">
+          <div class="breadcrumbs">
+            <a href="/">Home</a> &gt;
+            <a href="/directory">Directory</a> &gt;
+            ${appraiser.city ? `<a href="/location/${appraiser.city.toLowerCase().replace(/\s+/g, '-')}">Art Appraisers in ${appraiser.city}</a> &gt;` : ''}
+            <span>${appraiser.name}</span>
           </div>
           
-          <div class="w-full md:w-2/3">
-            <h1 class="text-3xl md:text-4xl font-bold mb-4" itemprop="name">${appraiser.name}</h1>
-            
-            <div class="mb-6">
-              <h2 class="text-xl font-bold mb-2">About</h2>
-              <div class="bg-white p-6 rounded-lg shadow-md prose max-w-none" itemprop="description">
-                <p>${appraiser.description || `${appraiser.name} is a professional art appraiser ${locationDisplay ? `serving ${locationDisplay}` : ''} and surrounding areas. Specializing in ${appraiser.specialties?.join(', ') || 'fine art appraisals'}.`}</p>
+          <div class="appraiser-profile">
+            <div class="appraiser-header">
+              <div class="appraiser-image-container">
+                ${imageHtml}
+              </div>
+              <div class="appraiser-info">
+                <h1>${appraiser.name}</h1>
+                ${appraiser.businessName ? `<p class="business-name">${appraiser.businessName}</p>` : ''}
+                ${location ? `<p class="location">${location}</p>` : ''}
+                ${appraiser.phone ? `<p class="phone"><a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}">${appraiser.phone}</a></p>` : ''}
+                ${appraiser.email ? `<p class="email"><a href="mailto:${appraiser.email}">${appraiser.email}</a></p>` : ''}
+                ${appraiser.website ? `<p class="website"><a href="${appraiser.website}" target="_blank" rel="noopener">Visit Website</a></p>` : ''}
+                
+                ${appraiser.specialties && appraiser.specialties.length > 0 ?
+                  `<div class="specialties">
+                    <h3>Specialties</h3>
+                    <p>${appraiser.specialties.join(', ')}</p>
+                  </div>` : ''
+                }
+                
+                ${appraiser.certifications && appraiser.certifications.length > 0 ?
+                  `<div class="certifications">
+                    <h3>Certifications</h3>
+                    <p>${appraiser.certifications.join(', ')}</p>
+                  </div>` : ''
+                }
               </div>
             </div>
             
-            <div class="mb-6">
-              <h2 class="text-xl font-bold mb-2">Specialties</h2>
-              <div class="bg-white p-6 rounded-lg shadow-md">
-                <div class="flex flex-wrap gap-2">
-                  ${(appraiser.specialties || ['Fine Art', 'Paintings', 'Antiques']).map(specialty => 
-                    `<span class="bg-gray-100 text-gray-800 px-3 py-1 rounded-full">${specialty}</span>`
-                  ).join('')}
+            <div class="appraiser-content">
+              <div class="appraiser-description">
+                <h2>About ${appraiser.name}</h2>
+                ${appraiser.description ? 
+                  `<div class="description-content">${appraiser.description}</div>` :
+                  `<div class="description-content">
+                    <p>${appraiser.name} is a professional art appraiser${location ? ` based in ${location}` : ''} specializing in ${appraiser.specialties?.join(', ') || 'fine art appraisals'}.</p>
+                    <p>With extensive knowledge and expertise in the art market, ${appraiser.name.split(' ')[0]} provides accurate valuations for insurance, estate planning, donations, and fair market value determinations.</p>
+                  </div>`
+                }
+              </div>
+              
+              ${servicesHtml}
+              
+              ${reviewsHtml}
+              
+              <div class="appraiser-faq">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq">
+                  <div class="faq-item">
+                    <h3>What services does ${appraiser.name} offer?</h3>
+                    <p>${appraiser.services?.map(s => s.name).join(', ') || 
+                      `${appraiser.name} offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales.`}</p>
+                  </div>
+                  <div class="faq-item">
+                    <h3>What are ${appraiser.name}'s specialties?</h3>
+                    <p>${appraiser.specialties?.join(', ') || 
+                      `${appraiser.name} specializes in appraising various types of artwork and collectibles.`}</p>
+                  </div>
+                  <div class="faq-item">
+                    <h3>How can I contact ${appraiser.name}?</h3>
+                    <p>You can contact ${appraiser.name} by ${appraiser.phone ? `phone at ${appraiser.phone}` : 'using the contact information on their profile page'}${appraiser.email ? ` or by email at ${appraiser.email}` : ''}.</p>
+                  </div>
                 </div>
+              </div>
+              
+              <div class="contact-cta">
+                <h2>Request an Appraisal</h2>
+                <p>Need an art appraisal? Contact ${appraiser.name} today to schedule a consultation.</p>
+                ${appraiser.phone ? 
+                  `<a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}" class="cta-button">Call ${appraiser.phone}</a>` : 
+                  appraiser.email ? 
+                  `<a href="mailto:${appraiser.email}" class="cta-button">Email ${appraiser.name}</a>` :
+                  `<a href="/contact" class="cta-button">Contact Us</a>`
+                }
               </div>
             </div>
-            
-            ${appraiser.credentials ? `
-              <div class="mb-6">
-                <h2 class="text-xl font-bold mb-2">Credentials</h2>
-                <div class="bg-white p-6 rounded-lg shadow-md prose max-w-none">
-                  <p>${appraiser.credentials}</p>
-                </div>
-              </div>
-            ` : ''}
-            
-            ${appraiser.hours ? `
-              <div class="mb-6">
-                <h2 class="text-xl font-bold mb-2">Business Hours</h2>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                  <p itemprop="openingHours" content="${appraiser.hours}">${appraiser.hours.replace(/;/g, '<br>')}</p>
-                </div>
-              </div>
-            ` : ''}
           </div>
         </div>
-        
-        ${servicesHTML}
-        
-        <section class="mb-10">
-          <h2 class="text-2xl font-bold mb-4">Request an Appraisal</h2>
-          <div class="bg-white p-6 rounded-lg shadow-md">
-            <p class="mb-4">Interested in getting your artwork appraised by ${appraiser.name}? Contact them directly or use our online appraisal request service.</p>
-            <div class="flex flex-col sm:flex-row gap-4">
-              <a href="/start-appraisal" class="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-md text-center transition">Start Online Appraisal</a>
-              ${appraiser.phone ? `<a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}" class="border border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-md text-center transition">Call Directly</a>` : ''}
+      </main>
+      
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-section">
+              <h3>Art Appraiser Directory</h3>
+              <p>Connecting art owners with qualified appraisers nationwide.</p>
+            </div>
+            <div class="footer-section">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/directory">Directory</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Contact Us</h3>
+              <p>Email: info@appraisily.com</p>
+              <p>Phone: (800) 555-1234</p>
             </div>
           </div>
-        </section>
-        
-        <meta itemprop="priceRange" content="${appraiser.priceRange || '$$-$$$'}" />
-      </article>
-    </main>
+          <div class="footer-bottom">
+            <p>&copy; ${new Date().getFullYear()} Appraisily. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+      
+      <script src="/js/main.js" defer></script>
+      ${generateLazyLoadingScript()}
+    </body>
+    </html>
   `;
   
-  // Schema scripts
-  const schemaScripts = `
-    ${createSchemaScriptTag(appraiserSchema)}
-  `;
+  // Optimize HTML for Core Web Vitals
+  html = optimizeForCoreWebVitals(html, {
+    lazyLoading: { rootMargin: '200px 0px' }
+  });
   
-  // Footer HTML
-  const footerHTML = getEnhancedFooterHTML('/assets/index.js');
-  
-  // Combine all HTML sections
-  return `
-    ${headerHTML}
-    ${contentHTML}
-    ${schemaScripts}
-    ${footerHTML}
-  `;
+  // Remove extra whitespace for smaller file size
+  return optimizeHtml(html, { preserveLineBreaks: true });
 }
 
 /**
- * Validates and updates appraiser images in a data array
- * @param {Array} appraisersData - Array of appraiser data objects
- * @returns {Promise<Array>} Updated array with validated images
+ * Validates and updates appraiser images in an array of appraiser data
+ * @param {Array} appraisersData - Array of appraiser objects
+ * @returns {Promise<Array>} Updated appraisers with valid image URLs
  */
 export async function validateAndUpdateAppraiserImages(appraisersData) {
   if (!appraisersData || !Array.isArray(appraisersData)) {
-    console.error("Invalid appraisers data provided");
+    console.error('Invalid appraisers data provided');
     return [];
   }
   
-  console.log(`Validating images for ${appraisersData.length} appraisers...`);
+  console.log(`Starting validation of ${appraisersData.length} appraiser images...`);
   
-  const updatedAppraisers = [];
-  
-  for (const appraiser of appraisersData) {
-    try {
-      const validImageUrl = await getValidAppraiserImageUrl(appraiser);
-      updatedAppraisers.push({
-        ...appraiser,
-        imageUrl: validImageUrl
-      });
-      console.log(`✓ Validated image for ${appraiser.name}: ${validImageUrl}`);
-    } catch (error) {
-      console.error(`Error validating image for ${appraiser.name}:`, error.message);
-      // Still include the appraiser with original image data
-      updatedAppraisers.push(appraiser);
+  // Use the batch processing utility from image-validation.js
+  const validatedAppraisers = await batchProcessAppraiserImages(appraisersData, 
+    (progress) => {
+      // Log progress every 10 appraisers
+      if (progress.current % 10 === 0 || progress.current === progress.total) {
+        console.log(`Processed ${progress.current}/${progress.total} appraiser images`);
+      }
+      
+      // Log errors
+      if (!progress.success) {
+        console.error(`Error processing image for ${progress.appraiser}: ${progress.error}`);
+      }
     }
-  }
+  );
   
-  return updatedAppraisers;
+  console.log(`Completed validation of ${validatedAppraisers.length} appraiser images`);
+  return validatedAppraisers;
 }
 
 /**
- * Saves validated appraiser data to a JSON file for caching
- * @param {Array} validatedAppraisers - Array of validated appraiser data
- * @param {string} outputPath - Path to save the cache file
- * @returns {Promise<boolean>} Success status
+ * Saves validated appraiser data to a JSON file
+ * @param {Array} validatedAppraisers - Array of validated appraiser objects
+ * @param {string} outputPath - Path to save the JSON file
+ * @returns {Promise<void>}
  */
 export async function saveValidatedAppraiserData(validatedAppraisers, outputPath) {
+  if (!validatedAppraisers || !Array.isArray(validatedAppraisers)) {
+    console.error('Invalid appraiser data provided for saving');
+    return;
+  }
+  
   try {
-    await fs.writeJSON(outputPath, {
-      appraisers: validatedAppraisers,
-      lastUpdated: new Date().toISOString()
-    }, { spaces: 2 });
+    // Ensure the directory exists
+    await fs.ensureDir(path.dirname(outputPath));
+    
+    // Save the data to a JSON file
+    await fs.writeJSON(outputPath, validatedAppraisers, { spaces: 2 });
+    
     console.log(`Saved validated appraiser data to ${outputPath}`);
-    return true;
   } catch (error) {
-    console.error(`Error saving validated appraiser data:`, error.message);
-    return false;
+    console.error(`Error saving validated appraiser data: ${error.message}`);
+    throw error;
+  }
+}
+
+/**
+ * Loads previously validated appraiser data from a JSON file
+ * @param {string} inputPath - Path to the JSON file
+ * @returns {Promise<Array>} Validated appraiser data
+ */
+export async function loadValidatedAppraiserData(inputPath) {
+  try {
+    if (await fs.pathExists(inputPath)) {
+      const data = await fs.readJSON(inputPath);
+      console.log(`Loaded ${data.length} validated appraisers from ${inputPath}`);
+      return data;
+    }
+    
+    console.log(`No validated appraiser data found at ${inputPath}`);
+    return null;
+  } catch (error) {
+    console.error(`Error loading validated appraiser data: ${error.message}`);
+    return null;
   }
 } 
