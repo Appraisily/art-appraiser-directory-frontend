@@ -5,7 +5,7 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "tsc && vite build && node scripts/generate-missing-images.js && node scripts/generate-static.js && node scripts/copy-static.js",
+        "build": "tsc && vite build && npm run check-images && node scripts/generate-static.js && node scripts/copy-static.js",
         "build:sitemap": "node scripts/generate-sitemap.js",
         "deploy": "node scripts/build-and-push.js",
         "deploy:direct": "node scripts/build-for-commit.js",
@@ -16,7 +16,8 @@
         "request-image": "node scripts/request-image-generation.js",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
-        "generate-missing-images": "node scripts/generate-missing-images.js"
+        "generate-missing-images": "node scripts/generate-missing-images.js",
+        "check-images": "node scripts/check-live-images.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
