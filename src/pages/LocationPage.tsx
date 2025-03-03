@@ -21,10 +21,13 @@ export function LocationPage() {
   const locationData = citySlug ? getLocation(citySlug) : null;
   console.log('LocationPage - locationData:', locationData);
 
+  // Safely transform city slug to display name with null/undefined handling
   const cityName = citySlug
-    ?.split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+    ? citySlug
+        .split('-')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ')
+    : 'Location';
     
   const generateBreadcrumbSchema = () => ({
     "@context": "https://schema.org",
@@ -40,7 +43,7 @@ export function LocationPage() {
         "@type": "ListItem",
         "position": 2,
         "name": `Art Appraisers in ${cityName}`,
-        "item": `https://appraisily.com/location/${citySlug}`
+        "item": `https://appraisily.com/location/${citySlug || ''}`
       }
     ]
   });
@@ -56,24 +59,33 @@ export function LocationPage() {
     );
   }
 
+  // Safely get keywords with null checks
+  const getKeywords = () => {
+    const baseKeywords = locationData.seo?.keywords || [];
+    const locationState = locationData.state || 'usa';
+    
+    // Ensure cityName and locationState are treated as strings before using toLowerCase
+    return [
+      ...baseKeywords,
+      `art appraisers ${cityName?.toLowerCase() || ''}`,
+      `art valuation ${cityName?.toLowerCase() || ''}`,
+      `art authentication ${locationState?.toLowerCase() || ''}`,
+      `fine art appraisal ${cityName?.toLowerCase() || ''}`
+    ].filter(Boolean); // Remove any empty strings
+  };
+
   return (
     <>
       <SEO
         title={locationData.seo?.title || `Art Appraisers in ${cityName} | Expert Art Valuation Services`}
         description={locationData.seo?.description || `Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.`}
-        keywords={[
-          ...(locationData.seo?.keywords || []),
-          `art appraisers ${cityName.toLowerCase()}`,
-          `art valuation ${cityName.toLowerCase()}`,
-          `art authentication ${locationData.state?.toLowerCase() || 'usa'}`,
-          `fine art appraisal ${cityName.toLowerCase()}`
-        ]}
+        keywords={getKeywords()}
         schema={[
           locationData.seo?.schema || {},
           generateBreadcrumbSchema(),
           generateLocationSchema(locationData)
         ]}
-        canonicalUrl={`https://appraisily.com/location/${citySlug}`}
+        canonicalUrl={`https://appraisily.com/location/${citySlug || ''}`}
       />
 
       <div className="flex-1">
@@ -91,15 +103,15 @@ export function LocationPage() {
 
         <main className="container mx-auto px-6 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {locationData.appraisers.map((appraiser, index) => (
-                <a key={`appraiser-${appraiser.id || appraiser.name}-${index}`} href={`/appraiser/${appraiser.id}`}>
+              {locationData.appraisers && locationData.appraisers.map((appraiser, index) => (
+                <a key={`appraiser-${appraiser.id || appraiser.name || index}-${index}`} href={`/appraiser/${appraiser.id || ''}`}>
                   <div className="rounded-lg border bg-white text-foreground shadow-sm group overflow-hidden hover:shadow-lg transition-all duration-300">
                     <div className="relative">
                       <div style={{ position: 'relative', width: '100%', paddingBottom: '75%' }}>
                         <div style={{ position: 'absolute', inset: 0 }}>
                           <img
-                            src={appraiser.image}
-                            alt={appraiser.name}
+                            src={appraiser.image || '/placeholder-image.jpg'}
+                            alt={appraiser.name || 'Art Appraiser'}
                             className="object-cover w-full h-full"
                           />
                         </div>
@@ -107,23 +119,23 @@ export function LocationPage() {
                       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
                         <div className="flex items-center gap-1">
                           <Star className="h-4 w-4 text-yellow-400" />
-                          <span className="text-white font-semibold">{appraiser.rating}/5</span>
-                          <span className="text-white/80 text-sm">({appraiser.reviewCount} reviews)</span>
+                          <span className="text-white font-semibold">{appraiser.rating || 0}/5</span>
+                          <span className="text-white/80 text-sm">({appraiser.reviewCount || 0} reviews)</span>
                         </div>
                       </div>
                     </div>
                     <div className="p-4">
                       <h2 className="font-bold text-xl mb-2 group-hover:text-primary transition-colors">
-                        {appraiser.name}
+                        {appraiser.name || 'Unnamed Appraiser'}
                       </h2>
                       <div className="flex items-center gap-2 text-muted-foreground mb-2">
                         <MapPin className="h-4 w-4 flex-shrink-0" />
-                        <span className="text-sm truncate">{appraiser.address}</span>
+                        <span className="text-sm truncate">{appraiser.address || 'Address not available'}</span>
                       </div>
                       <div className="flex flex-wrap gap-2 mt-3">
                         {Array.isArray(appraiser.specialties) && appraiser.specialties.map((specialty, index) => (
                           <span
-                            key={`${appraiser.id || appraiser.name}-${specialty}-${index}`}
+                            key={`${appraiser.id || appraiser.name || index}-${specialty}-${index}`}
                             className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary"
                           >
                             {specialty}

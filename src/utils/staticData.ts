@@ -114,27 +114,42 @@ export const cities = citiesData.cities;
  * @returns {object|null} - The location data or null if not found
  */
 export function getLocation(citySlug: string) {
-  const normalizedSlug = citySlug.toLowerCase().replace(/\s+/g, '-');
-  console.log('getLocation - normalizedSlug:', normalizedSlug);
-  
-  // First try to find location by seo.schema.areaServed.name
-  const locationBySeo = locations.find(location => 
-    location.seo?.schema?.areaServed?.name?.toLowerCase().replace(/\s+/g, '-') === normalizedSlug
-  );
-  if (locationBySeo) return locationBySeo;
+  // Guard clause to handle undefined or null citySlug
+  if (!citySlug) {
+    console.error('getLocation called with undefined or null citySlug');
+    return null;
+  }
 
-  // Then try by city property
-  const locationByCity = locations.find(location => 
-    location.city?.toLowerCase().replace(/\s+/g, '-') === normalizedSlug
-  );
-  if (locationByCity) return locationByCity;
+  try {
+    const normalizedSlug = citySlug.toLowerCase().replace(/\s+/g, '-');
+    console.log('getLocation - normalizedSlug:', normalizedSlug);
+    
+    // First try to find location by seo.schema.areaServed.name
+    const locationBySeo = locations.find(location => 
+      location.seo?.schema?.areaServed?.name?.toLowerCase().replace(/\s+/g, '-') === normalizedSlug
+    );
+    if (locationBySeo) return locationBySeo;
 
-  // Finally try by first appraiser's city
-  const locationByAppraiser = locations.find(location => 
-    location.appraisers?.[0]?.city?.toLowerCase().replace(/\s+/g, '-') === normalizedSlug
-  );
+    // Then try by city property
+    const locationByCity = locations.find(location => 
+      location.city?.toLowerCase().replace(/\s+/g, '-') === normalizedSlug
+    );
+    if (locationByCity) return locationByCity;
 
-  return locationBySeo || locationByCity || locationByAppraiser || null;
+    // Finally try by first appraiser's city
+    const locationByAppraiser = locations.find(location => 
+      location.appraisers?.[0]?.city?.toLowerCase().replace(/\s+/g, '-') === normalizedSlug
+    );
+
+    const result = locationBySeo || locationByCity || locationByAppraiser || null;
+    if (!result) {
+      console.error(`No location data found for slug: ${normalizedSlug}`);
+    }
+    return result;
+  } catch (error) {
+    console.error(`Error in getLocation for slug "${citySlug}":`, error);
+    return null;
+  }
 }
 
 /**
