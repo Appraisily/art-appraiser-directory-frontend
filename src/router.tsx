@@ -7,11 +7,7 @@ import { AppraisersDirectory } from './components/AppraisersDirectory';
 
 // The key is to ensure the router handles all paths correctly in a production environment
 export const router = createBrowserRouter([
-  // Route for AppraisersDirectory that doesn't use the RootLayout
-  {
-    path: '/directory',
-    element: <AppraisersDirectory />
-  },
+  // Route for AppraisersDirectory that now uses the root path
   {
     path: '/',
     element: <RootLayout />,
@@ -35,5 +31,5 @@ export const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: '/directory' // Ensure the router uses the correct base path
+  basename: '' // Removed the '/directory' basename
 });

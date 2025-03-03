@@ -41,107 +41,73 @@ async function generateSitemap() {
     // 1. Add main routes with high priority
     const mainRoutes = [
       { url: '/', priority: '1.0', changefreq: 'daily' },
+      { url: '/start', priority: '0.9', changefreq: 'weekly' },
       { url: '/about', priority: '0.8', changefreq: 'weekly' },
       { url: '/services', priority: '0.8', changefreq: 'weekly' },
       { url: '/expertise', priority: '0.8', changefreq: 'weekly' },
-      { url: '/team', priority: '0.7', changefreq: 'monthly' },
-      { url: '/start', priority: '0.9', changefreq: 'weekly' }
+      { url: '/team', priority: '0.7', changefreq: 'monthly' }
     ];
     
-    routesWithMetadata.push(...mainRoutes);
+    mainRoutes.forEach(route => {
+      routesWithMetadata.push(route);
+    });
 
-    // 2. Add location pages with metadata
+    // 2. Add location pages
     const locationFiles = fs.readdirSync(LOCATIONS_DIR)
-      .filter(file => file.endsWith('.json') && !file.includes('copy') && !file.includes('lifecycle') && !file.includes('cors') && !file.includes('hugo'));
-
+      .filter(file => file.endsWith('.json') && !file.includes('copy') && !file.includes('lifecycle'));
+    
     locationFiles.forEach(file => {
       const citySlug = file.replace('.json', '');
-      const locationRoute = `/location/${citySlug}`;
-      
-      // Get file stats to use last modified date
-      const fileStat = fs.statSync(path.join(LOCATIONS_DIR, file));
-      const lastModifiedDate = new Date(fileStat.mtime).toISOString().split('T')[0];
+      const url = `/location/${citySlug}`;
       
       routesWithMetadata.push({
-        url: locationRoute,
-        priority: '0.8',
-        changefreq: 'weekly',
-        lastmod: lastModifiedDate
+        url,
+        priority: '0.7',
+        changefreq: 'weekly'
       });
-
-      // 3. Add all appraiser pages from this location
+      
+      // Add appraiser pages for each location
       try {
         const locationData = JSON.parse(fs.readFileSync(path.join(LOCATIONS_DIR, file)));
+        
         locationData.appraisers?.forEach(appraiser => {
           if (appraiser.id) {
             routesWithMetadata.push({
               url: `/appraiser/${appraiser.id}`,
-              priority: '0.7',
-              changefreq: 'weekly',
-              lastmod: lastModifiedDate
+              priority: '0.6',
+              changefreq: 'weekly'
             });
           }
         });
-      } catch (error) {
-        console.error(`Error processing location file ${file}:`, error);
+      } catch (err) {
+        console.error(`Error processing location file ${file}:`, err);
       }
     });
-
-    // 4. Look for any additional HTML files in the dist directory
-    findAllHtmlFiles(DIST_DIR).forEach(htmlPath => {
-      // Convert file path to route
-      const relativePath = path.relative(DIST_DIR, path.dirname(htmlPath));
-      const route = relativePath === '' ? '/' : `/${relativePath.replace(/\\/g, '/')}`;
-      
-      // Get file stats for last modified date
-      const fileStat = fs.statSync(htmlPath);
-      const lastModifiedDate = new Date(fileStat.mtime).toISOString().split('T')[0];
-      
-      // Add if not already included
-      if (!routesWithMetadata.some(r => r.url === route)) {
-        routesWithMetadata.push({
-          url: route,
-          priority: '0.5',
-          changefreq: 'monthly',
-          lastmod: lastModifiedDate
-        });
-      }
-    });
-
-    // Remove duplicates, sort by priority (descending), and format the routes
-    const uniqueRoutes = [...new Set(routesWithMetadata.map(r => r.url))].map(url => {
-      const routeData = routesWithMetadata.find(r => r.url === url);
-      return {
-        url,
-        priority: routeData.priority,
-        changefreq: routeData.changefreq,
-        lastmod: routeData.lastmod || new Date().toISOString().split('T')[0]
-      };
-    }).sort((a, b) => b.priority - a.priority);
-
-    // Generate the sitemap XML
-    let sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n';
-    sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
     
-    uniqueRoutes.forEach(route => {
-      sitemap += '  <url>\n';
-      sitemap += `    <loc>${BASE_URL}${route.url}</loc>\n`;
-      sitemap += `    <lastmod>${route.lastmod}</lastmod>\n`;
-      sitemap += `    <changefreq>${route.changefreq}</changefreq>\n`;
-      sitemap += `    <priority>${route.priority}</priority>\n`;
-      sitemap += '  </url>\n';
+    // Generate XML content
+    const today = new Date();
+    const formattedDate = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+    
+    let xmlContent = '<?xml version="1.0" encoding="UTF-8"?>\n';
+    xmlContent += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+    
+    // Add all routes to XML
+    routesWithMetadata.forEach(route => {
+      xmlContent += '  <url>\n';
+      xmlContent += `    <loc>${BASE_URL}${route.url}</loc>\n`;
+      xmlContent += `    <lastmod>${formattedDate}</lastmod>\n`;
+      xmlContent += `    <changefreq>${route.changefreq || 'monthly'}</changefreq>\n`;
+      xmlContent += `    <priority>${route.priority || '0.5'}</priority>\n`;
+      xmlContent += '  </url>\n';
     });
     
-    sitemap += '</urlset>';
+    xmlContent += '</urlset>';
     
     // Write sitemap to file
-    fs.writeFileSync(SITEMAP_PATH, sitemap);
+    fs.writeFileSync(SITEMAP_PATH, xmlContent);
     
-    console.log(`✅ Sitemap generated with ${uniqueRoutes.length} URLs at: ${SITEMAP_PATH}`);
-    
-    // Create a robots.txt file with sitemap reference
-    const robotsTxtPath = path.join(DIST_DIR, 'robots.txt');
-    const robotsTxt = `User-agent: *
+    // Generate robots.txt
+    const robotsContent = `User-agent: *
 Allow: /
 Sitemap: ${BASE_URL}/sitemap.xml
 
@@ -153,12 +119,15 @@ Disallow: /*.js$
 Disallow: /*.css$
 `;
     
-    fs.writeFileSync(robotsTxtPath, robotsTxt);
-    console.log(`✅ robots.txt created at: ${robotsTxtPath}`);
+    fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), robotsContent);
+    
+    console.log(`Sitemap with ${routesWithMetadata.length} URLs generated at: ${SITEMAP_PATH}`);
+    console.log(`robots.txt generated at: ${path.join(DIST_DIR, 'robots.txt')}`);
     
   } catch (error) {
     console.error('Error generating sitemap:', error);
   }
 }
 
+// Execute immediately
 generateSitemap(); 

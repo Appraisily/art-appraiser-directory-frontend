@@ -85,10 +85,15 @@ function getHeaderHTML(title, description, cssPath) {
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/directory/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${title}</title>
     <meta name="description" content="${description}" />
+    <!-- Preload critical assets -->
+    <link rel="preload" href="${cssPath}" as="style" />
+    <link rel="preload" href="${jsPath}" as="script" />
+    <!-- Meta tag to prevent duplicate script injection -->
+    <meta name="external-scripts" content="blocked" />
     <link rel="stylesheet" href="${cssPath}" />
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -97,125 +102,19 @@ function getHeaderHTML(title, description, cssPath) {
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PSLHDGM');</script>
     <!-- End Google Tag Manager -->
-  </head>
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->`;
+  </head>`;
 }
 
 // Common footer HTML
 function getFooterHTML(jsPath) {
-  // Define cities list for the footer
-  const citiesList = `
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-2 text-gray-400 text-sm">
-      <a href="/location/new-york" class="hover:text-white transition">New York, New York</a>
-      <a href="/location/los-angeles" class="hover:text-white transition">Los Angeles, California</a>
-      <a href="/location/chicago" class="hover:text-white transition">Chicago, Illinois</a>
-      <a href="/location/houston" class="hover:text-white transition">Houston, Texas</a>
-      <a href="/location/phoenix" class="hover:text-white transition">Phoenix, Arizona</a>
-      <a href="/location/philadelphia" class="hover:text-white transition">Philadelphia, Pennsylvania</a>
-      <a href="/location/san-antonio" class="hover:text-white transition">San Antonio, Texas</a>
-      <a href="/location/san-diego" class="hover:text-white transition">San Diego, California</a>
-      <a href="/location/dallas" class="hover:text-white transition">Dallas, Texas</a>
-      <a href="/location/san-jose" class="hover:text-white transition">San Jose, California</a>
-      <a href="/location/austin" class="hover:text-white transition">Austin, Texas</a>
-      <a href="/location/jacksonville" class="hover:text-white transition">Jacksonville, Florida</a>
-      <a href="/location/fort-worth" class="hover:text-white transition">Fort Worth, Texas</a>
-      <a href="/location/columbus" class="hover:text-white transition">Columbus, Ohio</a>
-      <a href="/location/san-francisco" class="hover:text-white transition">San Francisco, California</a>
-      <a href="/location/charlotte" class="hover:text-white transition">Charlotte, North Carolina</a>
-      <a href="/location/indianapolis" class="hover:text-white transition">Indianapolis, Indiana</a>
-      <a href="/location/seattle" class="hover:text-white transition">Seattle, Washington</a>
-      <a href="/location/denver" class="hover:text-white transition">Denver, Colorado</a>
-      <a href="/location/washington-dc" class="hover:text-white transition">Washington, District of Columbia</a>
-      <a href="/location/boston" class="hover:text-white transition">Boston, Massachusetts</a>
-      <a href="/location/nashville" class="hover:text-white transition">Nashville, Tennessee</a>
-      <a href="/location/portland" class="hover:text-white transition">Portland, Oregon</a>
-      <a href="/location/las-vegas" class="hover:text-white transition">Las Vegas, Nevada</a>
-      <a href="/location/atlanta" class="hover:text-white transition">Atlanta, Georgia</a>
-      <a href="/location/miami" class="hover:text-white transition">Miami, Florida</a>
-      <a href="/location/minneapolis" class="hover:text-white transition">Minneapolis, Minnesota</a>
-      <a href="/location/new-orleans" class="hover:text-white transition">New Orleans, Louisiana</a>
-      <a href="/location/cleveland" class="hover:text-white transition">Cleveland, Ohio</a>
-      <a href="/location/st-louis" class="hover:text-white transition">St. Louis, Missouri</a>
-      <a href="/location/pittsburgh" class="hover:text-white transition">Pittsburgh, Pennsylvania</a>
-      <a href="/location/cincinnati" class="hover:text-white transition">Cincinnati, Ohio</a>
-      <a href="/location/kansas-city" class="hover:text-white transition">Kansas City, Missouri</a>
-      <a href="/location/sacramento" class="hover:text-white transition">Sacramento, California</a>
-      <a href="/location/salt-lake-city" class="hover:text-white transition">Salt Lake City, Utah</a>
-      <a href="/location/providence" class="hover:text-white transition">Providence, Rhode Island</a>
-      <a href="/location/richmond" class="hover:text-white transition">Richmond, Virginia</a>
-      <a href="/location/buffalo" class="hover:text-white transition">Buffalo, New York</a>
-      <a href="/location/raleigh" class="hover:text-white transition">Raleigh, North Carolina</a>
-      <a href="/location/hartford" class="hover:text-white transition">Hartford, Connecticut</a>
-      <a href="/location/charleston" class="hover:text-white transition">Charleston, South Carolina</a>
-      <a href="/location/savannah" class="hover:text-white transition">Savannah, Georgia</a>
-      <a href="/location/santa-fe" class="hover:text-white transition">Santa Fe, New Mexico</a>
-      <a href="/location/palm-beach" class="hover:text-white transition">Palm Beach, Florida</a>
-      <a href="/location/aspen" class="hover:text-white transition">Aspen, Colorado</a>
-    </div>
-  `;
-
-  return `<footer class="bg-gray-900 text-white py-12">
-      <div class="container mx-auto px-6">
-        <div class="mb-10">
-          <h3 class="text-xl font-bold mb-4">Find Art Appraisers Near You</h3>
-          ${citiesList}
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 border-t border-gray-800 pt-8">
-          <div class="flex flex-col items-start">
-            <img src="https://cdn.mcauto-images-production.sendgrid.net/304ac75ef1d5c007/8aeb2689-2b5b-402d-a6f3-6521621e123a/300x300.png" alt="Appraisily Logo" class="w-12 h-12 mb-3" />
-            <h3 class="text-xl font-bold">Appraisily</h3>
-            <p class="text-gray-400 text-sm mt-2">Professional online art and antique appraisals. Get accurate valuations from certified experts within 48 hours.</p>
-            <a href="/start-appraisal" class="mt-4 bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded-md inline-block transition-colors">Start Appraisal</a>
-          </div>
-          
-          <div>
-            <h3 class="text-xl font-bold mb-4">Quick Links</h3>
-            <ul class="space-y-2 text-sm">
-              <li><a href="/directory" class="text-gray-400 hover:text-white transition">Directory</a></li>
-              <li><a href="/" class="text-gray-400 hover:text-white transition">Home</a></li>
-              <li><a href="/about" class="text-gray-400 hover:text-white transition">About Us</a></li>
-              <li><a href="/contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 class="text-xl font-bold mb-4">Services</h3>
-            <ul class="space-y-2 text-sm">
-              <li><a href="/services" class="text-gray-400 hover:text-white transition">Services</a></li>
-              <li><a href="/how-it-works" class="text-gray-400 hover:text-white transition">How It Works</a></li>
-              <li><a href="/free-ai-art-analysis" class="text-gray-400 hover:text-white transition">Free AI Art Analysis</a></li>
-              <li><a href="/terms" class="text-gray-400 hover:text-white transition">Terms of Service</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 class="text-xl font-bold mb-4">Contact Us</h3>
-            <p class="text-gray-400 text-sm">Have questions? Need assistance?</p>
-            <p class="text-gray-400 text-sm mt-2">Email: <a href="mailto:info@appraisily.com" class="text-primary hover:text-white transition">info@appraisily.com</a></p>
-          </div>
-        </div>
-        
-        <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p class="text-gray-400 text-sm">&copy; ${new Date().getFullYear()} Appraisily. All rights reserved.</p>
-          <div class="flex space-x-4 mt-4 md:mt-0 text-sm">
-            <a href="/privacy" class="text-gray-400 hover:text-white transition">Privacy Policy</a>
-            <a href="/terms" class="text-gray-400 hover:text-white transition">Terms of Service</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+  return `
     <script type="module" src="${jsPath}"></script>
   </body>
 </html>`;
 }
 
 function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath) {
-  const title = `Art Appraisers in ${cityName} | Expert Art Valuation Services`;
+  const title = `Art Appraisers in ${cityName} | Expert Art Valuation Services | Appraisily`;
   const description = `Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.`;
   const canonicalUrl = `https://art-appraiser.appraisily.com/location/${citySlug}`;
   const locationImage = locationData.imageUrl || 'https://ik.imagekit.io/appraisily/location-images/default-city.jpg';
@@ -300,7 +199,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/directory/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
     <title>${title}</title>
     <meta name="description" content="${description}" />
@@ -311,6 +210,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
     <!-- Performance optimization -->
     <link rel="preload" href="${cssPath}" as="style" />
     <link rel="stylesheet" href="${cssPath}" />
+    <link rel="preload" href="${jsPath}" as="script" />
     
     <!-- Open Graph tags -->
     <meta property="og:title" content="${title}" />
@@ -318,15 +218,14 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
     <meta property="og:type" content="website" />
     <meta property="og:url" content="${canonicalUrl}" />
     <meta property="og:image" content="${locationImage}" />
-    <meta property="og:site_name" content="Appraisily" />
     
-    <!-- Twitter Card tags -->
+    <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${description}" />
     <meta name="twitter:image" content="${locationImage}" />
     
-    <!-- Schema.org structured data -->
+    <!-- Schema.org markup -->
     <script type="application/ld+json">
       ${JSON.stringify(locationSchema)}
     </script>
@@ -350,41 +249,27 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
-    <div id="location-content">
-      <!-- This content will be replaced by client-side React when JS loads -->
-      <header>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/services">Services</a>
-        </nav>
-      </header>
-      
-      <main>
+    
+    <div id="root">
+      <!-- SSR content will be injected here during build -->
+      <div data-location-city="${cityName}" data-location-slug="${citySlug}">
         <h1>Art Appraisers in ${cityName}</h1>
         <p>Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.</p>
         
         <section>
           <h2>Top Art Appraisers in ${cityName}</h2>
-          <div class="appraiser-list">
-            ${locationData.appraisers?.map(appraiser => `
-              <div class="appraiser-card">
-                <h3><a href="/appraiser/${appraiser.id}">${appraiser.name}</a></h3>
-                <p>${appraiser.specialties?.slice(0, 3).join(', ')}</p>
-              </div>
-            `).join('') || ''}
-          </div>
+          ${locationData.appraisers?.map(appraiser => `
+            <div class="appraiser-card" data-appraiser-id="${appraiser.id}">
+              <h3>${appraiser.name}</h3>
+              <p>${appraiser.specialties?.join(', ')}</p>
+              <a href="/appraiser/${appraiser.id}">View Details</a>
+            </div>
+          `).join('') || ''}
         </section>
-      </main>
-      
-      <footer>
-        <p>&copy; ${new Date().getFullYear()} Appraisily. All rights reserved.</p>
-      </footer>
+      </div>
     </div>
-    
-    <!-- Load JS at the end for better performance -->
-    <script src="${jsPath}" defer></script>
+
+    <script type="module" src="${jsPath}"></script>
   </body>
 </html>`;
 }
