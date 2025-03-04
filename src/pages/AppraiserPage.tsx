@@ -85,11 +85,14 @@ export function AppraiserPage() {
   return (
     <>
       <SEO
-        title={`${appraiser.name} - Art Appraiser | Expert Art Valuation Services | Appraisily`}
-        description={`Get professional art appraisal services from ${appraiser.name}. Specializing in ${appraiser.specialties.join(', ')}. Certified expert with ${appraiser.reviewCount} verified reviews.`}
+        title={`${appraiser.name} - Art Appraiser in ${appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'Your Area'} | Expert Art Valuation Services | Appraisily`}
+        description={`Get professional art appraisal services from ${appraiser.name} near ${appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'you'}. Specializing in ${appraiser.specialties.join(', ')}. Certified expert with ${appraiser.reviewCount} verified reviews.`}
         keywords={[
           `${appraiser.name.toLowerCase()} art appraiser`,
           `${appraiser.address ? `art appraisal ${appraiser.address.split(',')[0].toLowerCase()}` : `art appraisal ${appraiser.city?.toLowerCase() || ''}`}`,
+          `art appraiser near me`,
+          `local art appraiser ${appraiser.address ? appraiser.address.split(',')[0].toLowerCase() : appraiser.city?.toLowerCase() || ''}`,
+          `best art appraiser ${appraiser.address ? appraiser.address.split(',')[0].toLowerCase() : appraiser.city?.toLowerCase() || ''}`,
           ...appraiser.specialties.map(s => s.toLowerCase()),
           'art valuation',
           'art authentication',

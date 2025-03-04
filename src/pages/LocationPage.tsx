@@ -88,8 +88,15 @@ export function LocationPage() {
     return [
       ...baseKeywords,
       `art appraisers ${cityName?.toLowerCase() || ''}`,
+      `art appraisers near me`,
+      `art appraisers in ${cityName?.toLowerCase() || ''}`,
       `art valuation ${cityName?.toLowerCase() || ''}`,
+      `art appraisal near ${cityName?.toLowerCase() || ''}`,
+      `fine art appraiser ${cityName?.toLowerCase() || ''}`,
       `art authentication ${locationState?.toLowerCase() || ''}`,
+      `local art appraiser ${cityName?.toLowerCase() || ''}`,
+      `${cityName?.toLowerCase() || ''} art appraiser`,
+      `best art appraiser ${cityName?.toLowerCase() || ''}`,
       `fine art appraisal ${cityName?.toLowerCase() || ''}`
     ].filter(Boolean); // Remove any empty strings
   };
@@ -98,14 +105,19 @@ export function LocationPage() {
     <>
       <SEO
         title={(locationData?.seo?.title) || `Art Appraisers in ${cityName} | Expert Art Valuation Services`}
-        description={(locationData?.seo?.description) || `Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.`}
+        description={(locationData?.seo?.description) || `Find top-rated art appraisers near you in ${cityName}. Professional art valuation, authentication services, and expert appraisals for insurance, estate planning, and donations.`}
         keywords={getKeywords()}
-        schema={[
-          (locationData?.seo?.schema) || {},
-          generateBreadcrumbSchema(),
-          generateLocationSchema(locationData)
-        ]}
+        schema={[generateLocationSchema(locationData), generateBreadcrumbSchema()]}
         canonicalUrl={`https://appraisily.com/location/${validCitySlug || ''}`}
+        ogImage={locationData?.seo?.ogImage || "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"}
+        ogType="website"
+        preload={[
+          {
+            as: "image",
+            href: locationData?.seo?.ogImage || "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg",
+            crossorigin: true
+          }
+        ]}
       />
 
       <div className="flex-1">

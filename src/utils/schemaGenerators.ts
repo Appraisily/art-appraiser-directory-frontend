@@ -125,13 +125,14 @@ export function generateLocationSchema(locationData: any) {
   // Create a safe slug value
   const safeCity = locationData.city || 'unknown-location';
   const safeSlug = (locationData.slug || safeCity.toLowerCase().replace(/\s+/g, '-'));
+  const stateCode = locationData.state || 'USA';
   
   return {
     "@context": "https://schema.org",
     "@type": "Service",
     "@id": `https://art-appraiser.appraisily.com/location/${safeSlug}`,
     "name": `Art Appraisal Services in ${safeCity}`,
-    "description": `Find top-rated art appraisers in ${safeCity}, ${locationData.state || 'USA'}. Professional art valuation services for insurance, estate planning, donations, and more.`,
+    "description": `Find top-rated art appraisers near you in ${safeCity}, ${stateCode}. Professional art valuation services for insurance, estate planning, donations, and more.`,
     "serviceType": "Art Appraisal",
     "areaServed": {
       "@type": "City",
@@ -139,12 +140,12 @@ export function generateLocationSchema(locationData: any) {
       "address": {
         "@type": "PostalAddress",
         "addressLocality": safeCity,
-        "addressRegion": locationData.state || 'USA',
+        "addressRegion": stateCode,
         "addressCountry": "US"
       },
       "containedInPlace": {
         "@type": "State",
-        "name": locationData.state || 'USA'
+        "name": stateCode
       }
     },
     "provider": Array.isArray(locationData.appraisers) ? locationData.appraisers.map((appraiser: any) => ({
@@ -154,10 +155,13 @@ export function generateLocationSchema(locationData: any) {
       "address": {
         "@type": "PostalAddress",
         "addressLocality": safeCity,
-        "addressRegion": locationData.state || 'USA',
+        "addressRegion": stateCode,
         "addressCountry": "US"
       },
-      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`
+      "priceRange": appraiser?.pricing || "$$-$$$",
+      "telephone": appraiser?.phone || "",
+      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`,
+      "sameAs": appraiser?.website || ""
     })) : [],
     "offers": {
       "@type": "Offer",
@@ -168,7 +172,7 @@ export function generateLocationSchema(locationData: any) {
         "address": {
           "@type": "PostalAddress",
           "addressLocality": safeCity,
-          "addressRegion": locationData.state || 'USA',
+          "addressRegion": stateCode,
           "addressCountry": "US"
         }
       }
@@ -184,7 +188,8 @@ export function generateFAQSchema(appraiser: any) {
   const services = appraiser.services?.map((s: any) => s.name).join(', ') || '';
   const specialties = appraiser.specialties?.join(', ') || '';
   const certifications = appraiser.certifications?.join(', ') || '';
-  const city = appraiser.address?.split(',')[0]?.trim() || '';
+  const city = appraiser.address?.split(',')[0]?.trim() || appraiser.city || '';
+  const state = appraiser.address?.split(',')[1]?.trim() || '';
   
   return {
     "@context": "https://schema.org",
@@ -248,6 +253,30 @@ export function generateFAQSchema(appraiser: any) {
         "acceptedAnswer": {
           "@type": "Answer",
           "text": `The time required for an art appraisal with ${appraiser.name} depends on the complexity and quantity of items being appraised. Please contact directly for an estimated timeline for your specific appraisal needs.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `Is ${appraiser.name} the best art appraiser in ${city}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `${appraiser.name} is highly rated with ${appraiser.rating} stars and ${appraiser.reviewCount} reviews, making them one of the most respected art appraisers in ${city}${state ? ', ' + state : ''}. Their expertise in ${specialties || 'various art forms'} has earned them a strong reputation in the local community.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `Can I get an art appraisal near me in ${city}?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `Yes, ${appraiser.name} provides art appraisal services to clients in ${city} and surrounding areas. They offer ${services || 'comprehensive appraisal services'} for residents looking for professional art valuation near them.`
+        }
+      },
+      {
+        "@type": "Question",
+        "name": `What types of items can ${appraiser.name} appraise?`,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": `${appraiser.name} specializes in appraising ${specialties || 'a wide range of art and collectibles'}. Their expertise allows them to provide accurate valuations for various types of artwork and collectible items.`
         }
       }
     ]

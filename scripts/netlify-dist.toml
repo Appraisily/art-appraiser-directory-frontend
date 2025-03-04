@@ -4,6 +4,11 @@
   # Since the files are already built, we don't need to run a build command
   publish = "/"
   command = "echo 'No build required, using pre-built files'"
+  
+  # Environment variables for the build
+  [build.environment]
+    # Set the site URL for sitemap generation
+    SITE_URL = "https://art-appraiser.appraisily.com"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]
@@ -54,8 +59,20 @@
   for = "/*.html"
     [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
 
   # Define headers for the sitemap
   for = "/sitemap.xml"
     [headers.values]
-    Cache-Control = "public, max-age=3600" 
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/xml"
+
+# Add security headers for all pages
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()" 
