@@ -33,7 +33,8 @@
         "fix:react-hydration": "node ./scripts/fix-react-hydration.js",
         "serve:static": "node ./scripts/serve-static.js",
         "debug:build": "npm run build:with-image-validation && npm run serve:static",
-        "test:cleveland": "npm run build:with-image-validation && npm run fix:react-hydration location/cleveland/index.html && npm run serve:static"
+        "test:cleveland": "npm run build:with-image-validation && npm run fix:react-hydration location/cleveland/index.html && npm run serve:static",
+        "generate-10-images": "node scripts/generate-10-placeholder-images.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
@@ -61,7 +62,7 @@
         "eslint-plugin-react-hooks": "^5.1.0-rc.0",
         "eslint-plugin-react-refresh": "^0.4.11",
         "express": "^4.18.3",
-        "fs-extra": "^11.2.0",
+        "fs-extra": "^11.3.0",
         "globals": "^15.9.0",
         "jsdom": "^24.0.0",
         "open": "^10.0.3",
