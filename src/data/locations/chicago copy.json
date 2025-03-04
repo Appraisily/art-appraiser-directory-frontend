@@ -19,7 +19,7 @@
       "website": "https://www.artappraisers.org/",
       "notes": "Operates as The Alasko Company. Contact via email: rralasko@alaskocompany.com",
       "rating": 5,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-RJ,fs-80,fc-000000,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/F8E71C/000000?text=RJ"
     },
     {
       "name": "Gretchen Burch",
@@ -40,7 +40,7 @@
       "website": "https://www.artappraisers.org/",
       "notes": "Operates as GB Fine Art. Contact via email: gretchen@gbfineart.com",
       "rating": 4.9,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f8f5,l-text,i-GB,fs-80,fc-1abc9c,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/50E3C2/000000?text=GB"
     },
     {
       "name": "Pamela Pierrepont Bardo",
@@ -61,7 +61,7 @@
       "website": "bardoappraisals.com",
       "notes": "Operates as Bardo Consulting Group. Contact via email: ppbardo@bardoappraisals.com",
       "rating": 4.6,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f8f5,l-text,i-PP,fs-80,fc-1abc9c,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=PP"
     },
     {
       "name": "Barbara K. Levin",
@@ -82,7 +82,7 @@
       "website": "https://www.artappraisers.org/",
       "notes": "Operates as Barbara K. Levin Fine Arts Associates. Contact via email: barbaralevinllc@yahoo.com",
       "rating": 4.7,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f4f8,l-text,i-BK,fs-80,fc-3498db,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/B8E986/000000?text=BK"
     },
     {
       "name": "Veritas Fine Art Appraisals & Consulting",
@@ -103,7 +103,7 @@
       "website": "veritasartappraisals.com",
       "notes": "Contact via email: inquiries@veritasartappraisals.com",
       "rating": 4.6,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-333333,l-text,i-VF,fs-80,fc-ffffff,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/F5A623/333333?text=VF"
     },
     {
       "name": "Grant Miller Appraisals",
@@ -126,7 +126,7 @@
       "website": "https://www.artappraisers.org/",
       "notes": "Contact via email: grantmiller@grantmillerappraisals.com",
       "rating": 4.9,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f5eef8,l-text,i-GM,fs-80,fc-9b59b6,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=GM"
     },
     {
       "name": "Prestige Estate Services",
@@ -151,7 +151,7 @@
       "website": "https://prestigeestateservices.com/locations/chicago-illinois/",
       "notes": "Service areas include The Loop, Lincoln Park, and Hyde Park.",
       "rating": 4.9,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-PE,fs-80,fc-000000,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/50E3C2/000000?text=PE"
     },
     {
       "name": "Kathleen Doyle (Antiquestor)",
@@ -174,7 +174,7 @@
       "website": "https://www.artappraisers.org/",
       "notes": "Operates with multiple Chicago-area offices and also serves areas in Michigan.",
       "rating": 4.5,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f5eef8,l-text,i-KD,fs-80,fc-9b59b6,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=KD"
     }
   ]
 }

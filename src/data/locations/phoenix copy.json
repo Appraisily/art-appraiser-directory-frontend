@@ -27,7 +27,7 @@
       "website": "https://prestigeestateservices.com/locations/phoenix-arizona/",
       "notes": "Remote consultations available",
       "rating": 4.5,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-PE,fs-80,fc-000000,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/50E3C2/000000?text=PE"
     },
     {
       "name": "Baker Appraisers (Asian Antique Appraisers)",
@@ -54,7 +54,7 @@
       "website": "https://asianantiqueappraisers.com",
       "notes": "Remote photo reviews available",
       "rating": 4.6,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-fef9e7,l-text,i-BA,fs-80,fc-f39c12,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=BA"
     },
     {
       "name": "Fairall Art Advising & Appraisals",
@@ -78,7 +78,7 @@
       "website": "https://fairallart.com",
       "notes": "25+ years museum experience; appraisals cover post-WWII to present art",
       "rating": 4.8,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f4f8,l-text,i-FA,fs-80,fc-3498db,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=FA"
     },
     {
       "name": "Pearson Appraisals",
@@ -105,7 +105,7 @@
       "website": "https://www.pearsonappraisals.net/about",
       "notes": "Has curatorial experience at Phoenix Art Museum; serves Arizona and nationwide",
       "rating": 4.8,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-eafaf1,l-text,i-PA,fs-80,fc-2ecc71,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=PA"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -134,7 +134,7 @@
       "website": "www.art-appraisals.net",
       "notes": "",
       "rating": 4.4,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-AF,fs-80,fc-000000,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=AF"
     },
     {
       "name": "Escher Associates",
@@ -161,7 +161,7 @@
       "website": "www.escher-associates.com",
       "notes": "Founded by Nancy Escher; has handled art fraud cases with LAPD",
       "rating": 5,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-EA,fs-80,fc-000000,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/BD10E0/FFFFFF?text=EA"
     },
     {
       "name": "Page Art, Inc.",
@@ -190,7 +190,7 @@
       "website": "www.page-art.com",
       "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state",
       "rating": 4.7,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-fef9e7,l-text,i-PA,fs-80,fc-f39c12,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/50E3C2/000000?text=PA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -213,7 +213,7 @@
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA",
       "rating": 4.7,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-SR,fs-80,fc-000000,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/7ED321/000000?text=SR"
     },
     {
       "name": "Gurr Johns",
@@ -236,7 +236,7 @@
       "website": "www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion in art annually",
       "rating": 4.6,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-fef9e7,l-text,i-GJ,fs-80,fc-f39c12,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/F5A623/333333?text=GJ"
     },
     {
       "name": "Mimesis Gallery",
@@ -260,7 +260,7 @@
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; offers free valuations and same-day offers",
       "rating": 4.7,
-      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-333333,l-text,i-MG,fs-80,fc-ffffff,lpad-30"
+      "imageUrl": "https://via.placeholder.com/300x300/F8E71C/000000?text=MG"
     }
   ]
 }

@@ -108,7 +108,21 @@ function getHeaderHTML(title, description, cssPath) {
 // Common footer HTML
 function getFooterHTML(jsPath) {
   return `
-    <script type="module" src="${jsPath}"></script>
+    <script type="module" crossorigin src="${jsPath}"></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            console.log('Replacing broken image:', this.src);
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+          };
+        });
+      });
+    </script>
   </body>
 </html>`;
 }
