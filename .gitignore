@@ -11,7 +11,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist  # Excluding the dist directory for normal development workflow
+# dist  # Commented out to allow committing the dist directory for Netlify deployment
 dist-ssr
 *.local
 
