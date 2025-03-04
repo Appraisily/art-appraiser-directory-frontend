@@ -207,13 +207,6 @@ const main = async () => {
     const imageCache = await loadImageCache();
     console.log(`Loaded image cache with ${Object.keys(imageCache).length} entries.`);
     
-    // Clear the cache for testing
-    const clearedCache = {};
-    console.log('Clearing cache for fresh testing');
-    await saveImageCache(clearedCache);
-    
-    console.log(`Testing with ${MAX_IMAGES_TO_GENERATE} images only.`);
-    
     // Process appraisers until we've generated MAX_IMAGES_TO_GENERATE successful images
     let successCount = 0;
     let processedCount = 0;
@@ -222,12 +215,30 @@ const main = async () => {
       const appraiser = appraisers[processedCount];
       processedCount++;
       
+      // Check if we already have a cached image for this appraiser
+      if (imageCache[appraiser.id]) {
+        console.log(`Using cached image for ${appraiser.name} (${appraiser.id})`);
+        
+        // Update the appraiser with the cached image URL
+        const updated = await updateAppraiserImage(
+          appraiser, 
+          imageCache[appraiser.id].imageUrl, 
+          appraiser.locationName
+        );
+        
+        if (updated) {
+          successCount++;
+        }
+        
+        continue;
+      }
+      
       // Generate a new image
       const imageData = await generateImage(appraiser, appraiser.locationName);
       
       if (imageData && imageData.imageUrl) {
         // Cache the image data
-        clearedCache[appraiser.id] = imageData;
+        imageCache[appraiser.id] = imageData;
         
         // Update the appraiser
         const updated = await updateAppraiserImage(
@@ -241,7 +252,7 @@ const main = async () => {
         }
         
         // Save the cache after each successful generation
-        await saveImageCache(clearedCache);
+        await saveImageCache(imageCache);
         
         // Add a small delay to avoid overwhelming the API
         await sleep(2000);
@@ -251,7 +262,7 @@ const main = async () => {
     console.log(`\nImage generation complete!`);
     console.log(`Successfully updated ${successCount} out of ${MAX_IMAGES_TO_GENERATE} targeted appraisers.`);
     console.log(`Processed ${processedCount} out of ${appraisers.length} total appraisers with placeholders.`);
-    console.log(`The image cache now contains ${Object.keys(clearedCache).length} entries.`);
+    console.log(`The image cache now contains ${Object.keys(imageCache).length} entries.`);
     
   } catch (error) {
     console.error('An error occurred during image generation:', error.message);
