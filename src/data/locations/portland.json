@@ -24,7 +24,8 @@
       "id": "portland-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-alicia-e-weaver_1741087711323_IOPI5afgG.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Portland, OR"
     },
     {
       "name": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)",
@@ -57,7 +58,8 @@
       "id": "portland-prestige-estate-services-elizabeth-lovett-stephanie-calman",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Portland, OR"
     },
     {
       "name": "Shelley Hall (Bend Art Appraisals)",
@@ -87,7 +89,8 @@
       "id": "portland-shelley-hall-bend-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Portland, OR"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -117,7 +120,8 @@
       "id": "portland-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -145,7 +149,8 @@
       "id": "portland-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -179,7 +184,8 @@
       "id": "portland-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -204,7 +210,8 @@
       "id": "portland-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -229,7 +236,8 @@
       "id": "portland-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-gurr-johns_1741088522110_0PMXOhgf5a.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -257,7 +265,8 @@
       "id": "portland-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-mimesis-gallery_1741088528320_Ek5eAv7UH-.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     }
   ]
 }

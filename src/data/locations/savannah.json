@@ -25,7 +25,8 @@
       "id": "savannah-everard-auctions-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-everard-auctions-appraisals_1741089212751_vqr2kwp-i3.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Savannah, GA"
     },
     {
       "name": "Redtail Appraisals (Rebekah Assid)",
@@ -54,7 +55,8 @@
       "id": "savannah-redtail-appraisals-rebekah-assid",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-redtail-appraisals-rebekah-assid_1741089218358_oNRO_x8JT.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Savannah, GA"
     },
     {
       "name": "AppraiseItNow",
@@ -81,7 +83,8 @@
       "id": "savannah-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-appraiseitnow_1741089224004_8fcZTBtlUU.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5
+      "rating": 5,
+      "address": "Savannah, GA"
     },
     {
       "name": "HKpowerStudio",
@@ -107,7 +110,8 @@
       "id": "savannah-hkpowerstudio",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-hkpowerstudio_1741089229370_IAgUH75-0.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Savannah, GA"
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -141,7 +145,8 @@
       "id": "savannah-anderson-fine-art-appraisals-afaa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-anderson-fine-art-appraisals-afaa_1741089235918_we-MttbFK.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates (EA)",
@@ -170,7 +175,8 @@
       "id": "savannah-escher-associates-ea",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-escher-associates-ea_1741089241493_eGyx_6iL-.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -199,7 +205,8 @@
       "id": "savannah-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-page-art-inc_1741089247077_g691nTlYy.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -224,7 +231,8 @@
       "id": "savannah-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-saylor-rice-appraisals_1741089252639_QnpvhfIyB.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -247,9 +255,11 @@
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion in assets annually.",
       "id": "savannah-gurr-johns",
-      "imageUrl": "https://via.placeholder.com/300x300/B8E986/000000?text=GJ",
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Mimesis Gallery",
@@ -275,7 +285,8 @@
       "id": "savannah-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     }
   ]
 }

@@ -34,36 +34,42 @@ type Appraiser = {
     date: string;
     content: string;
   }[];
+  city?: string;
 };
 
 export function AppraiserPage() {
   const { appraiserId } = useParams<{ appraiserId: string }>();
   const appraiser = appraiserId ? getAppraiser(appraiserId) : null;
 
-  const generateBreadcrumbSchema = (appraiser: any) => ({
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://appraisily.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": `Art Appraisers in ${appraiser.address.split(',')[0].trim()}`,
-        "item": `https://appraisily.com/location/${appraiser.address.split(',')[0].trim().toLowerCase().replace(/\s+/g, '-')}`
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": appraiser.name,
-        "item": `https://appraisily.com/appraiser/${appraiserId}`
-      }
-    ]
-  });
+  const generateBreadcrumbSchema = (appraiser: any) => {
+    const cityFromAddress = appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'Unknown';
+    const citySlug = (appraiser.city || cityFromAddress).toLowerCase().replace(/\s+/g, '-');
+
+    return {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://appraisily.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": `Art Appraisers in ${cityFromAddress}`,
+          "item": `https://appraisily.com/location/${citySlug}`
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": appraiser.name,
+          "item": `https://appraisily.com/appraiser/${appraiserId}`
+        }
+      ]
+    };
+  };
 
   if (!appraiser) {
     return (
@@ -83,7 +89,7 @@ export function AppraiserPage() {
         description={`Get professional art appraisal services from ${appraiser.name}. Specializing in ${appraiser.specialties.join(', ')}. Certified expert with ${appraiser.reviewCount} verified reviews.`}
         keywords={[
           `${appraiser.name.toLowerCase()} art appraiser`,
-          `art appraisal ${appraiser.address.split(',')[0].toLowerCase()}`,
+          `${appraiser.address ? `art appraisal ${appraiser.address.split(',')[0].toLowerCase()}` : `art appraisal ${appraiser.city?.toLowerCase() || ''}`}`,
           ...appraiser.specialties.map(s => s.toLowerCase()),
           'art valuation',
           'art authentication',

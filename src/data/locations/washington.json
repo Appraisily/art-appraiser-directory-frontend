@@ -28,7 +28,8 @@
       "id": "washington-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-prestige-estate-services_1740933496163_DTAB4y3Tm.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-prestige-estate-services_1740830037086_Vo2feot2e.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Washington, DC"
     },
     {
       "name": "IRS Art Appraisal Services",
@@ -54,7 +55,8 @@
       "id": "washington-irs-art-appraisal-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-irs-art-appraisal-services_1740933504926_U0rVnNGjt.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-irs-art-appraisal-services_1740830037086_Vq022eri2.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Washington, DC"
     },
     {
       "name": "Czudej McDonough",
@@ -82,7 +84,8 @@
       "id": "washington-czudej-mcdonough",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-czudej-mcdonough_1740933513544_NbZNj-nQB.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-czudej-mcdonough_1740830037086_Vv8f25kwh.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Washington, Unknown"
     },
     {
       "name": "AppraiseItNow – Washington DC",
@@ -107,7 +110,8 @@
       "id": "washington-appraiseitnow-washington-dc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-appraiseitnow-washington-dc_1740933521826_211tSOXlq.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-appraiseitnow-washington-dc_1740830037086_Vmvyqysvf.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Washington, DC"
     },
     {
       "name": "Museum Exchange",
@@ -130,7 +134,8 @@
       "id": "washington-museum-exchange",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740933529352_q3Uj6gBfq.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740830037086_V80bypt0p.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Washington, Unknown"
     },
     {
       "name": "Alpha137 Gallery",
@@ -154,7 +159,8 @@
       "id": "washington-alpha137-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-alpha137-gallery_1740933541288_QzSjFGFS0.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-alpha137-gallery_1740830037086_Vivvt86ug.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Washington, Unknown"
     },
     {
       "name": "Artifactual History® Appraisal",
@@ -178,7 +184,8 @@
       "id": "washington-artifactual-history-appraisal",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-artifactual-history-appraisal_1740933549278_GKc0DLgKN.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-artifactual-history-appraisal_1740830037086_V4qbboem3.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Washington, Unknown"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -208,7 +215,8 @@
       "id": "washington-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-anderson-fine-art-appraisals_1740933558328_hwlyYHq6z.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-anderson-fine-art-appraisals_1740830037086_Vtuban8io.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -238,7 +246,8 @@
       "id": "washington-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-escher-associates_1740933566156_Uqe3JSUVe.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-escher-associates_1740830037086_V76v8y75n.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -268,7 +277,8 @@
       "id": "washington-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-page-art-inc_1740933574064_l9K0rTAxQ.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-page-art-inc_1740830037086_Ve9nvdz8b.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -294,7 +304,8 @@
       "id": "washington-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-saylor-rice-appraisals_1740933581676_MtElnjaBi.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-saylor-rice-appraisals_1740830037086_V1um6d0fa.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -320,7 +331,8 @@
       "id": "washington-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-gurr-johns_1740933590569_4TmKHJwmF.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-gurr-johns_1740830037086_V7tuxh5js.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -345,7 +357,8 @@
       "id": "washington-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-mimesis-gallery_1740933599024_04l0zMSi9X.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-mimesis-gallery_1740830037086_Vdezyw5l3.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     }
   ]
 }

@@ -27,7 +27,9 @@
       "website": "https://prestigeestateservices.com/locations/phoenix-arizona/",
       "notes": "Remote consultations available",
       "rating": 4.5,
-      "imageUrl": "https://via.placeholder.com/300x300/50E3C2/000000?text=PE"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Phoenix, AZ",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Baker Appraisers (Asian Antique Appraisers)",
@@ -54,7 +56,9 @@
       "website": "https://asianantiqueappraisers.com",
       "notes": "Remote photo reviews available",
       "rating": 4.6,
-      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=BA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Phoenix, AZ",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Fairall Art Advising & Appraisals",
@@ -78,7 +82,9 @@
       "website": "https://fairallart.com",
       "notes": "25+ years museum experience; appraisals cover post-WWII to present art",
       "rating": 4.8,
-      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=FA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Phoenix, AZ",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Pearson Appraisals",
@@ -105,7 +111,9 @@
       "website": "https://www.pearsonappraisals.net/about",
       "notes": "Has curatorial experience at Phoenix Art Museum; serves Arizona and nationwide",
       "rating": 4.8,
-      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=PA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Phoenix, AZ",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -134,7 +142,9 @@
       "website": "www.art-appraisals.net",
       "notes": "",
       "rating": 4.4,
-      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=AF"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Escher Associates",
@@ -161,7 +171,9 @@
       "website": "www.escher-associates.com",
       "notes": "Founded by Nancy Escher; has handled art fraud cases with LAPD",
       "rating": 5,
-      "imageUrl": "https://via.placeholder.com/300x300/BD10E0/FFFFFF?text=EA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Page Art, Inc.",
@@ -190,7 +202,9 @@
       "website": "www.page-art.com",
       "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state",
       "rating": 4.7,
-      "imageUrl": "https://via.placeholder.com/300x300/50E3C2/000000?text=PA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -213,7 +227,9 @@
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA",
       "rating": 4.7,
-      "imageUrl": "https://via.placeholder.com/300x300/7ED321/000000?text=SR"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Gurr Johns",
@@ -236,7 +252,9 @@
       "website": "www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion in art annually",
       "rating": 4.6,
-      "imageUrl": "https://via.placeholder.com/300x300/F5A623/333333?text=GJ"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Mimesis Gallery",
@@ -260,7 +278,9 @@
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; offers free valuations and same-day offers",
       "rating": 4.7,
-      "imageUrl": "https://via.placeholder.com/300x300/F8E71C/000000?text=MG"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     }
   ]
 }

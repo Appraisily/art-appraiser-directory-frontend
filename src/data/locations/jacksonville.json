@@ -26,7 +26,8 @@
       "id": "jacksonville-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-alicia-e-weaver_1740931022775_4ECMJlyKz.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-alicia-e-weaver_1740830037069_V7t94bh1b.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Jacksonville, Florida"
     },
     {
       "name": "Prestige Estate Services (Brenda Blackmon)",
@@ -54,7 +55,8 @@
       "id": "jacksonville-prestige-estate-services-brenda-blackmon",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-prestige-estate-services-brenda-blackmon_1740931031107_7AQM15awq.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-prestige-estate-services-brenda-blackmon_1740830037069_Vkp2i7jm2.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Jacksonville, Florida"
     },
     {
       "name": "Antique Art Buyers",
@@ -77,7 +79,8 @@
       "id": "jacksonville-antique-art-buyers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-antique-art-buyers_1740931040405_iLe73QN49.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-antique-art-buyers_1740830037069_Vixcqzbxq.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Jacksonville, Florida"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -107,7 +110,8 @@
       "id": "jacksonville-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-anderson-fine-art-appraisals_1740931049605_fReJApafO.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-anderson-fine-art-appraisals_1740830037069_V0v5td53h.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -135,7 +139,8 @@
       "id": "jacksonville-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-escher-associates_1740931058747_bsFFj_Sas.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-escher-associates_1740830037069_Vvwb6zua9.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -164,7 +169,8 @@
       "id": "jacksonville-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-page-art-inc_1740931066686_UkPRFuj4h.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-page-art-inc_1740830037069_Vz45z38ts.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -189,7 +195,8 @@
       "id": "jacksonville-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-saylor-rice-appraisals_1740931075416_ZO2Wn0TROl.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-saylor-rice-appraisals_1740830037069_Vb4dwbku8.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -214,7 +221,8 @@
       "id": "jacksonville-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-gurr-johns_1740931083533_krQ-nr4RD.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-gurr-johns_1740830037069_V66s8dcmd.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -240,7 +248,8 @@
       "id": "jacksonville-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-mimesis-gallery_1740931092992_P0lQ5-aMW.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-mimesis-gallery_1740830037069_Vwiu6cmq2.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     }
   ]
 }

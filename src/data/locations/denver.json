@@ -28,7 +28,8 @@
       "id": "denver-alicia-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-alicia-weaver_1740930609301_Ceu20K9uG.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-alicia-weaver_1740830037066_Vwpi4fw02.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Denver, CO"
     },
     {
       "name": "Brady L. Dreasher",
@@ -58,7 +59,8 @@
       "id": "denver-brady-l-dreasher",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-brady-l-dreasher_1740930617958_GVL_If5jX.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-brady-l-dreasher_1740830037066_Vr59ofhhh.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Denver, CO"
     },
     {
       "name": "Dr. Mark Lee Levine",
@@ -81,7 +83,8 @@
       "id": "denver-dr-mark-lee-levine",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-dr-mark-lee-levine_1740930625146_vrsh0rFe5.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-dr-mark-lee-levine_1740830037066_Vjdapl1r2.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Denver, CO"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -111,7 +114,8 @@
       "id": "denver-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-anderson-fine-art-appraisals_1740930632950_6ru67SHxJ.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-anderson-fine-art-appraisals_1740830037066_V2a0aqqxd.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -138,7 +142,8 @@
       "id": "denver-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-escher-associates_1740930641994_at0VusexX.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-escher-associates_1740830037066_Vvg7fu058.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -169,7 +174,8 @@
       "id": "denver-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-page-art-inc_1740930651314_QIncpeigw.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-page-art-inc_1740830037066_Vp1llsj93.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -194,7 +200,8 @@
       "id": "denver-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-saylor-rice-appraisals_1740930659466_cevaxEX12.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-saylor-rice-appraisals_1740830037066_Voe332n6h.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -219,7 +226,8 @@
       "id": "denver-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-gurr-johns_1740930668319_6PnKRrOID.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-gurr-johns_1740830037066_Vv9ogzlrx.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -245,7 +253,8 @@
       "id": "denver-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-mimesis-gallery_1740930678303_GKlIZ06G35.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-mimesis-gallery_1740830037066_Vqxjacvse.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     }
   ]
 }

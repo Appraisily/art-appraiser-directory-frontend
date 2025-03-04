@@ -27,7 +27,8 @@
       "id": "charlotte-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-prestige-estate-services_1740930226838_6otSRzM-s5.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-prestige-estate-services_1740830037061_Vtougvkk2.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Charlotte, NC"
     },
     {
       "name": "Dana Summitt (Look Appraisal LLC)",
@@ -54,7 +55,8 @@
       "id": "charlotte-dana-summitt-look-appraisal-llc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-dana-summitt-look-appraisal-llc_1740930234324_oDE9efG85.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-dana-summitt-look-appraisal-llc_1740830037061_V5ktlg2ix.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Raleigh, NC"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -87,7 +89,8 @@
       "id": "charlotte-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-anderson-fine-art-appraisals_1740930242169_AL5HMzW42.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-anderson-fine-art-appraisals_1740830037061_Vgffh0cy7.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -116,7 +119,8 @@
       "id": "charlotte-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-escher-associates_1740930248714_VdIlUCkpn.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-escher-associates_1740830037061_Vw6rrcoae.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -144,7 +148,8 @@
       "id": "charlotte-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-page-art-inc_1740930256700_qspW_muNfc.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-page-art-inc_1740830037061_V8qu3c9cp.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -169,7 +174,8 @@
       "id": "charlotte-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-saylor-rice-appraisals_1740930264842_ctutMhb-n.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-saylor-rice-appraisals_1740830037061_Vrlgx7gzu.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -194,7 +200,8 @@
       "id": "charlotte-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-gurr-johns_1740930273015_zkzoQ5NVv.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-gurr-johns_1740830037061_V00q4gf6k.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -220,7 +227,8 @@
       "id": "charlotte-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-mimesis-gallery_1740930280574_OwzlW87Rv.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-mimesis-gallery_1740830037061_Vz75h2wsc.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     }
   ]
 }

@@ -25,7 +25,8 @@
       "id": "providence-michael-rose-fine-art",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_providence-michael-rose-fine-art_1741088533937_GYzQzdVhm.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Providence, RI"
     },
     {
       "name": "Vallot Auctioneers",
@@ -52,7 +53,8 @@
       "id": "providence-vallot-auctioneers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_providence-vallot-auctioneers_1741088539460_5Rdn8Z4Vn.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Providence, RI"
     },
     {
       "name": "Associated Estate & Appraisal Co.",
@@ -80,7 +82,8 @@
       "id": "providence-associated-estate-appraisal-co",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_providence-associated-estate-appraisal-co_1741088556273_FfCHFlTgs.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Cranston, RI"
     },
     {
       "name": "New York Fine Art Appraisers (Boston Office)",
@@ -107,7 +110,8 @@
       "id": "providence-new-york-fine-art-appraisers-boston-office",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_providence-new-york-fine-art-appraisers-boston-office_1741088562219_0m-MduiEdN.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Boston, MA"
     }
   ]
 }

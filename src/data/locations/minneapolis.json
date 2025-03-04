@@ -26,7 +26,8 @@
       "id": "minneapolis-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-alicia-e-weaver_1741086840938_TAKw9ex6M.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Minneapolis, MN"
     },
     {
       "name": "Greg C. Brown",
@@ -51,7 +52,8 @@
       "id": "minneapolis-greg-c-brown",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740931474918_1TaQEYVYy.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740830037073_Vcnk7zcqs.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Minneapolis, MN"
     },
     {
       "name": "AppraiseItNow",
@@ -76,7 +78,8 @@
       "id": "minneapolis-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740931482827_ZNA8SKhb7.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740830037073_Vgns4yh9j.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Minneapolis, MN"
     },
     {
       "name": "Revere Auctions",
@@ -102,7 +105,8 @@
       "id": "minneapolis-revere-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740931489781_vwZhJBQaBY.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740830037073_Va12e9h1k.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "St. Paul, MN"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -132,7 +136,8 @@
       "id": "minneapolis-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740931497387_iSxTor4gG.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740830037073_V13tz2fcl.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -161,7 +166,8 @@
       "id": "minneapolis-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740931504395_zCa3jT3Cwz.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740830037073_Vjdyz7a1v.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -190,7 +196,8 @@
       "id": "minneapolis-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740931512612_UzvUgX_8z.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740830037073_Vjf2snxoj.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -214,7 +221,8 @@
       "id": "minneapolis-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740931521548__e_o8-_D2.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740830037073_V7b8mf7de.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -239,7 +247,8 @@
       "id": "minneapolis-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740931529268_-Pif7GChj.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740830037073_V198ngtpv.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -268,7 +277,8 @@
       "id": "minneapolis-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740931537167_S1pVTJpRF.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740830037073_Vs4n1ztrb.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     }
   ]
 }

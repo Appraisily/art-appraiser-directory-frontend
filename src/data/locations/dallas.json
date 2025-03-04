@@ -28,7 +28,8 @@
       "id": "dallas-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-prestige-estate-services_1740930525621_KKELJbUR-6.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-prestige-estate-services_1740830037065_Vzr1yghg5.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Dallas, TX"
     },
     {
       "name": "Mary Peck Art Advisory",
@@ -53,7 +54,8 @@
       "id": "dallas-mary-peck-art-advisory",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740930533611_5JoHkFJ2TW.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740830037065_Vwpjkjhmv.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Denver, CO"
     },
     {
       "name": "Alicia E Weaver (ISA CAPP)",
@@ -79,7 +81,8 @@
       "id": "dallas-alicia-e-weaver-isa-capp",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-alicia-e-weaver-isa-capp_1740930542230_OdGHmeqqx.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-alicia-e-weaver-isa-capp_1740830037065_Vc26r47lf.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Dallas, TX"
     },
     {
       "name": "AppraiseItNow",
@@ -103,7 +106,8 @@
       "id": "dallas-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-appraiseitnow_1740930549549_BVKlUQxWf.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-appraiseitnow_1740830037065_Vnbafmsct.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Dallas, Unknown"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -134,7 +138,8 @@
       "id": "dallas-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-anderson-fine-art-appraisals_1740930557155_krkUO-ywg.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-anderson-fine-art-appraisals_1740830037065_Vm035wh4x.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -162,7 +167,8 @@
       "id": "dallas-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-escher-associates_1740930566321_BMGZ5-xSa.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-escher-associates_1740830037065_Vrn7e48is.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -190,7 +196,8 @@
       "id": "dallas-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-page-art-inc_1740930574492_PpNUPjZTQT.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-page-art-inc_1740830037065_Ve7hmb1vm.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -214,7 +221,8 @@
       "id": "dallas-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-saylor-rice-appraisals_1740930582860_TA7_NmXfAN.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-saylor-rice-appraisals_1740830037065_Vkfdecoyc.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -239,7 +247,8 @@
       "id": "dallas-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-gurr-johns_1740930591661_WtxHTr53l.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-gurr-johns_1740830037065_V5727lghe.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -265,7 +274,8 @@
       "id": "dallas-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mimesis-gallery_1740930599969_iMgNVVz33.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mimesis-gallery_1740830037065_Vjubadk6f.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     }
   ]
 }

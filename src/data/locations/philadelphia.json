@@ -26,7 +26,8 @@
       "id": "philadelphia-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-prestige-estate-services_1740933395746_F2VTJMr7V.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-prestige-estate-services_1740830037075_V3z1blwfp.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Philadelphia, PA"
     },
     {
       "name": "Doyle (Pennsylvania Regional Office)",
@@ -52,7 +53,8 @@
       "id": "philadelphia-doyle-pennsylvania-regional-office",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-doyle-pennsylvania-regional-office_1740933404818_WDEpGYi5A.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-doyle-pennsylvania-regional-office_1740830037075_Vecagu13f.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Philadelphia, PA"
     },
     {
       "name": "Philadelphia Jewelry Appraisers",
@@ -79,7 +81,8 @@
       "id": "philadelphia-philadelphia-jewelry-appraisers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-philadelphia-jewelry-appraisers_1740933412972_UhVYlUidw.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-philadelphia-jewelry-appraisers_1740830037075_Vfylm46iy.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Philadelphia, PA"
     },
     {
       "name": "Freeman's | Hindman",
@@ -104,7 +107,8 @@
       "id": "philadelphia-freeman-s-hindman",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-freeman-s-hindman_1740933421971_z-hXymypa.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-freeman-s-hindman_1740830037075_V5zn6nu4f.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Philadelphia, PA"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -134,7 +138,8 @@
       "id": "philadelphia-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-anderson-fine-art-appraisals_1740933430773_smeCY4EChv.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-anderson-fine-art-appraisals_1740830037075_Vjdhcozft.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -161,7 +166,8 @@
       "id": "philadelphia-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-escher-associates_1740933439660_0JJaTKoBqc.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-escher-associates_1740830037075_Vu4q89q18.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -189,7 +195,8 @@
       "id": "philadelphia-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-page-art-inc_1740933449940_VtMTUaIf8.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-page-art-inc_1740830037075_V6zc4vex7.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -213,7 +220,8 @@
       "id": "philadelphia-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-saylor-rice-appraisals_1740933459861_noDwdBaiT.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-saylor-rice-appraisals_1740830037075_Vcf67sm13.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -239,7 +247,8 @@
       "id": "philadelphia-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-gurr-johns_1740933467938_rn2R5SQAU.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-gurr-johns_1740830037075_V9ogulmsj.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -264,7 +273,8 @@
       "id": "philadelphia-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-mimesis-gallery_1740933476295_6RQ0MCFfu.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-mimesis-gallery_1740830037075_V6gkpsttf.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     }
   ]
 }

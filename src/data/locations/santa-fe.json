@@ -24,7 +24,8 @@
       "notes": "MFA graduate from Hunter College with over 20 years of experience; known for expertise in printmaking and photography.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Santa Fe, NM"
     },
     {
       "id": "reilly-clark-fine-art-santa-fe",
@@ -49,7 +50,8 @@
       "notes": "Holds a B.A. & M.A. from Stanford and is a Ph.D. candidate at UCSB.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5
+      "rating": 5,
+      "address": "Santa Fe, NM"
     },
     {
       "name": "AppraiseItNow",
@@ -74,7 +76,8 @@
       "id": "santa-fe-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-appraiseitnow_1741089173757_UkgoMBIbR.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Santa Fe, NM"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -101,7 +104,8 @@
       "id": "santa-fe-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -129,7 +133,8 @@
       "id": "santa-fe-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-escher-associates_1741089185385_beB0vX-y6.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -157,7 +162,8 @@
       "id": "santa-fe-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-page-art-inc_1741089190928_2WC8Nt_Lf.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -181,7 +187,8 @@
       "id": "santa-fe-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-saylor-rice-appraisals_1741089196485_Z0bSVE4m2Y.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -206,7 +213,8 @@
       "id": "santa-fe-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-gurr-johns_1741089202073_b07ScL38a.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -233,7 +241,8 @@
       "id": "santa-fe-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     }
   ]
 }

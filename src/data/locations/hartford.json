@@ -29,7 +29,8 @@
       "id": "hartford-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-prestige-estate-services_1740930776186_D5c17sumA.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-prestige-estate-services_1740830037067_Vvi2jt1o9.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Hartford, CT"
     },
     {
       "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
@@ -55,7 +56,8 @@
       "id": "hartford-connecticut-art-appraisals-llc-alizzandra-danker",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-connecticut-art-appraisals-llc-alizzandra-danker_1740930784062_9oMmDmgNK.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-connecticut-art-appraisals-llc-alizzandra-danker_1740830037067_Ve9n6om67.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Hartford, CT"
     },
     {
       "name": "Winter Associates",
@@ -81,7 +83,8 @@
       "id": "hartford-winter-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-winter-associates_1740930792615_5a0IpYlj4.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-winter-associates_1740830037067_Vczrmpvdv.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Hartford, CT"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -111,7 +114,8 @@
       "id": "hartford-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-anderson-fine-art-appraisals_1740930800520_tNnyIGyLF.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-anderson-fine-art-appraisals_1740830037067_V2tic0ig2.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -139,7 +143,8 @@
       "id": "hartford-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-escher-associates_1740930808681_pRoczPsYsu.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-escher-associates_1740830037067_Vrzei26ob.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -167,7 +172,8 @@
       "id": "hartford-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-page-art-inc_1740930816912_5Z7HFY8Yq.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-page-art-inc_1740830037067_Vhh617ie2.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -192,7 +198,8 @@
       "id": "hartford-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-saylor-rice-appraisals_1740930824666_LT5fPmI2K.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-saylor-rice-appraisals_1740830037067_Vga4bwmb2.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -216,7 +223,8 @@
       "id": "hartford-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-gurr-johns_1740930833047_T6lKVejQg.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-gurr-johns_1740830037067_Vulejoa81.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -242,7 +250,8 @@
       "id": "hartford-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-mimesis-gallery_1740930839582_GCSjybIgm.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-mimesis-gallery_1740830037067_Vz266deme.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     }
   ]
 }

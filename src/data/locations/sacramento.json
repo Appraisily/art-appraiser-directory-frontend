@@ -26,7 +26,8 @@
       "id": "sacramento-janet-l-ross",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Surf City, NJ"
     },
     {
       "name": "Appraisal Resources (ARAI)",
@@ -53,7 +54,8 @@
       "id": "sacramento-appraisal-resources-arai",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Sacramento, CA"
     },
     {
       "name": "Clars Auctions",
@@ -80,7 +82,8 @@
       "id": "sacramento-clars-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Oakland, CA"
     },
     {
       "name": "AppraiseItNow",
@@ -105,7 +108,8 @@
       "id": "sacramento-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraiseitnow_1741088893053_5ocAo47Wn.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Sacramento, Unknown"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -135,7 +139,8 @@
       "id": "sacramento-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -165,7 +170,8 @@
       "id": "sacramento-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -193,7 +199,8 @@
       "id": "sacramento-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -217,7 +224,8 @@
       "id": "sacramento-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-saylor-rice-appraisals_1741088917019_jA5iQcDmT.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -243,7 +251,8 @@
       "id": "sacramento-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-gurr-johns_1741088922727_Zf9lWtR9F.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -272,7 +281,8 @@
       "id": "sacramento-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-mimesis-gallery_1741088928262_--HHygRCf.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     }
   ]
 }

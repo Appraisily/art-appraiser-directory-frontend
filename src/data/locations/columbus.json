@@ -28,7 +28,8 @@
       "id": "columbus-amelia-jeffers-auctioneers-appraisers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-amelia-jeffers-auctioneers-appraisers_1740930453806_5vCOMqGgt.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-amelia-jeffers-auctioneers-appraisers_1740830037064_Vipjmdtb7.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Columbus, OH"
     },
     {
       "name": "Prestige Estate Services",
@@ -55,6 +56,7 @@
       "years_in_business": "100+ collective years",
       "city": "Columbus",
       "state": "OH",
+      "address": "Columbus, OH",
       "phone": "1-844-483-6825",
       "website": "https://prestigeestateservices.com/locations/columbus-ohio/",
       "notes": "Team includes Erika Holycross (ISA affiliated).",
@@ -86,7 +88,8 @@
       "id": "columbus-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-appraiseitnow_1740930470009_LRTJKI-fV.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-appraiseitnow_1740830037064_Vtlse9pi9.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Columbus, Unknown"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -115,7 +118,8 @@
       "id": "columbus-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-anderson-fine-art-appraisals_1740930479619_xK2uv-YuDC.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-anderson-fine-art-appraisals_1740830037064_V5ablnfcz.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -143,7 +147,8 @@
       "id": "columbus-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-escher-associates_1740930487771_8sCFT1oPN.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-escher-associates_1740830037064_Vsv9zsc66.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -174,7 +179,8 @@
       "id": "columbus-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-page-art-inc_1740930494713_QiHkGtTAn.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-page-art-inc_1740830037064_Vapu4x1ly.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -199,7 +205,8 @@
       "id": "columbus-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-saylor-rice-appraisals_1740930502074__8EtxM8Mx.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-saylor-rice-appraisals_1740830037064_Vfxc7uqzh.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -224,7 +231,8 @@
       "id": "columbus-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-gurr-johns_1740930510348_E7f2xiLQ-.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-gurr-johns_1740830037064_V7hzpv0m7.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -250,7 +258,8 @@
       "id": "columbus-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-mimesis-gallery_1740930518062_Du6NzTrXJ.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-mimesis-gallery_1740830037064_Vdmom2pfn.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     }
   ]
 }

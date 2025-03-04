@@ -30,7 +30,8 @@
       "id": "indianapolis-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-prestige-estate-services_1740930949455__NWMfDOVbJ.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-prestige-estate-services_1740830037069_Vkrcljr0d.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Indianapolis, Indiana"
     },
     {
       "name": "AppraiseitNow",
@@ -56,7 +57,8 @@
       "id": "indianapolis-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-appraiseitnow_1740930957736_cTE4vvI9V.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-appraiseitnow_1740830037069_V2j5xjkkf.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Indianapolis, Indiana"
     },
     {
       "name": "Ripley Auctions",
@@ -81,7 +83,8 @@
       "id": "indianapolis-ripley-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-ripley-auctions_1740930964789_gg7En3sO-.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-ripley-auctions_1740830037069_Vzzmzdbt4.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Indianapolis, Indiana"
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -112,7 +115,8 @@
       "id": "indianapolis-anderson-fine-art-appraisals-afaa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-anderson-fine-art-appraisals-afaa_1740930974731_V_5wHyEWd.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-anderson-fine-art-appraisals-afaa_1740830037069_V7bc0aixu.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates (EA)",
@@ -141,7 +145,8 @@
       "id": "indianapolis-escher-associates-ea",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-escher-associates-ea_1740930984919_FkuqCykVT.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-escher-associates-ea_1740830037069_Vnxlb38ci.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -170,7 +175,8 @@
       "id": "indianapolis-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-page-art-inc_1740930992265_OGE7BBgYs.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-page-art-inc_1740830037069_Vg1o0rz7i.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -194,7 +200,8 @@
       "id": "indianapolis-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-saylor-rice-appraisals_1740931000408_SeLAoeXQR.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-saylor-rice-appraisals_1740830037069_Vabun9bts.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -218,7 +225,8 @@
       "id": "indianapolis-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-gurr-johns_1740931007804_LsBed37n0Z.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-gurr-johns_1740830037069_V1c5wfxad.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -244,7 +252,8 @@
       "id": "indianapolis-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-mimesis-gallery_1740931014763_2gq3QMM_J.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-mimesis-gallery_1740830037069_V8n5xxq7o.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     }
   ]
 }

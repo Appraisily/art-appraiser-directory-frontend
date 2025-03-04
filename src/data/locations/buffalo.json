@@ -25,7 +25,8 @@
       "id": "buffalo-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-prestige-estate-services_1740930077482_biAj44RwP.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-prestige-estate-services_1740830037060_Vk1m6qxlp.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Buffalo, NY"
     },
     {
       "name": "Schultz Auctioneers",
@@ -49,7 +50,8 @@
       "id": "buffalo-schultz-auctioneers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-schultz-auctioneers_1740930085501_4KkxXhpBdY.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-schultz-auctioneers_1740830037060_V9564z0lc.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Buffalo, NY"
     },
     {
       "name": "AppraiseItNow",
@@ -72,7 +74,8 @@
       "id": "buffalo-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-appraiseitnow_1740930093347_yEMwAopJP.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-appraiseitnow_1740830037060_Vucvhi6f3.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Buffalo, Unknown"
     },
     {
       "name": "Cottone Art Advisory & Appraisals",
@@ -97,7 +100,8 @@
       "id": "buffalo-cottone-art-advisory-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-cottone-art-advisory-appraisals_1740930102161_rXTZKqdqO.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-cottone-art-advisory-appraisals_1740830037060_Vwff5c8n4.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Syracuse, NY"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -126,7 +130,8 @@
       "id": "buffalo-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-anderson-fine-art-appraisals_1740930110081_9qKWRWxMe.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-anderson-fine-art-appraisals_1740830037060_Vb1qtam48.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -157,7 +162,8 @@
       "id": "buffalo-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-escher-associates_1740930118654_8Zu8L-qZt.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-escher-associates_1740830037060_Vx1mukpdo.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -188,7 +194,8 @@
       "id": "buffalo-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-page-art-inc_1740930125473_e7iBFU-4l.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-page-art-inc_1740830037060_V3172r675.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -212,7 +219,8 @@
       "id": "buffalo-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-saylor-rice-appraisals_1740930133396_8m9Z5LFmX.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-saylor-rice-appraisals_1740830037060_Vt2dvrqm7.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -236,7 +244,8 @@
       "id": "buffalo-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-gurr-johns_1740930141174_jLxerPMEy.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-gurr-johns_1740830037060_V0hbiaa68.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -265,7 +274,8 @@
       "id": "buffalo-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-mimesis-gallery_1740930149251_3ACa043qE.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-mimesis-gallery_1740830037060_V0xndjmjw.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     }
   ]
 }

@@ -24,7 +24,8 @@
       "id": "charleston-djr-authentication",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-djr-authentication_1740930156908_WVx8FPZcV.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-djr-authentication_1740830037061_Vm4k42kw0.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Charleston, SC"
     },
     {
       "name": "LePrince Fine Art",
@@ -50,7 +51,8 @@
       "id": "charleston-leprince-fine-art",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-leprince-fine-art_1740930165414_XoaKjA-Xbe.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-leprince-fine-art_1740830037061_Vkmsodgtz.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Charleston, SC"
     },
     {
       "name": "AppraiseItNow",
@@ -77,7 +79,8 @@
       "id": "charleston-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-appraiseitnow_1740930173133_hVD1cNQR2.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-appraiseitnow_1740830037061_Ve7b5h9pl.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "North Charleston, SC"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -107,7 +110,8 @@
       "id": "charleston-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-anderson-fine-art-appraisals_1740930180757_ngMdJWVNl.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-anderson-fine-art-appraisals_1740830037061_Vp7hy64sz.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -135,7 +139,8 @@
       "id": "charleston-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-escher-associates_1740930188013_iQyF5YN1W.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-escher-associates_1740830037061_Vmpqtevoe.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -163,7 +168,8 @@
       "id": "charleston-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-page-art-inc_1740930195558_UFBTEEfsS.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-page-art-inc_1740830037061_Vas2lqa7t.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -188,7 +194,8 @@
       "id": "charleston-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-saylor-rice-appraisals_1740930202927_ztx3ZRr8q.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-saylor-rice-appraisals_1740830037061_Veoxt9pii.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -213,7 +220,8 @@
       "id": "charleston-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-gurr-johns_1740930210463_U9TsyV0pdK.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-gurr-johns_1740830037061_Vs8sh21cm.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -239,7 +247,8 @@
       "id": "charleston-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-mimesis-gallery_1740930218445_t573GFWJH.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-mimesis-gallery_1740830037061_Vjfoxe62b.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     }
   ]
 }

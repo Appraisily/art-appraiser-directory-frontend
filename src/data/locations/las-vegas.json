@@ -30,7 +30,8 @@
       "notes": "Team member at Prestige Estate Services serving the Las Vegas metro area (Summerlin, Henderson, MacDonald Highlands).",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_edward-kitson_1740931184726_FLs04O3x5.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_edward-kitson_1740830037070_Vyzlb4gln.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Las Vegas, NV"
     },
     {
       "name": "Elizabeth Lovett",
@@ -62,7 +63,8 @@
       "id": "las-vegas-elizabeth-lovett",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-elizabeth-lovett_1740931191994_q16JH28Rl.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-elizabeth-lovett_1740830037070_Vhvwy2rj9.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Las Vegas, NV"
     },
     {
       "name": "Stephanie Calman",
@@ -94,7 +96,8 @@
       "id": "las-vegas-stephanie-calman",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-stephanie-calman_1740931200745_u8N8NncG7.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-stephanie-calman_1740830037070_Vlt0dp0ik.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Las Vegas, NV"
     },
     {
       "name": "Alicia Weaver",
@@ -119,7 +122,8 @@
       "id": "las-vegas-alicia-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-alicia-weaver_1740931208492_WCIy4NytV.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-alicia-weaver_1740830037070_Vkht0d397.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Las Vegas, NV"
     },
     {
       "name": "Ralph DeLuca",
@@ -145,7 +149,8 @@
       "id": "las-vegas-ralph-deluca",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-ralph-deluca_1740931216007_NK0L1sh-D.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-ralph-deluca_1740830037070_Vd0zs0bfh.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Las Vegas, Unknown"
     },
     {
       "name": "Reilly Clark Fine Art & Appraisals",
@@ -170,7 +175,8 @@
       "id": "las-vegas-reilly-clark-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-reilly-clark-fine-art-appraisals_1740931224974_IiQHlX4PC.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-reilly-clark-fine-art-appraisals_1740830037070_Vg658adip.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Dallas, TX"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -200,7 +206,8 @@
       "id": "las-vegas-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-anderson-fine-art-appraisals_1740931233603_WcMAV27DK.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-anderson-fine-art-appraisals_1740830037070_Voocw8m58.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -228,7 +235,8 @@
       "id": "las-vegas-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-escher-associates_1740931242568_-iwAofTDO.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-escher-associates_1740830037070_Vkh76g0fd.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -256,7 +264,8 @@
       "id": "las-vegas-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-page-art-inc_1740931250197_d4hRy0Bw-.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-page-art-inc_1740830037070_V5o37xvnw.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -280,7 +289,8 @@
       "id": "las-vegas-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-saylor-rice-appraisals_1740931257938_m6-Qy3_jE.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-saylor-rice-appraisals_1740830037070_Vvp0ein02.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -305,7 +315,8 @@
       "id": "las-vegas-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-gurr-johns_1740931265381_BIXU4NPW8.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-gurr-johns_1740830037070_Vv4arzm9l.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -331,7 +342,8 @@
       "id": "las-vegas-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-mimesis-gallery_1740931273376_-4PULH_df.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-mimesis-gallery_1740830037070_Vcg7q1obb.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     }
   ]
 }

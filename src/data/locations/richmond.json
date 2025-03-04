@@ -27,7 +27,8 @@
       "id": "richmond-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5.1
+      "rating": 5.1,
+      "address": "Richmond, VA"
     },
     {
       "name": "Alicia E Weaver (ISA CAPP)",
@@ -54,7 +55,8 @@
       "id": "richmond-alicia-e-weaver-isa-capp",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Richmond, VA"
     },
     {
       "name": "Green Donation Consultants",
@@ -78,7 +80,8 @@
       "id": "richmond-green-donation-consultants",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-green-donation-consultants_1741088710465_2t7_Aewbj.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Fredericksburg, VA"
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -108,7 +111,8 @@
       "id": "richmond-anderson-fine-art-appraisals-afaa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates (EA)",
@@ -137,7 +141,8 @@
       "id": "richmond-escher-associates-ea",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -168,7 +173,8 @@
       "id": "richmond-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-page-art-inc_1741088850478_rucweOoqy.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -193,7 +199,8 @@
       "id": "richmond-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-saylor-rice-appraisals_1741088856768_iKE9kSYLH.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -217,7 +224,8 @@
       "id": "richmond-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-gurr-johns_1741088863939_Juz44fXpY.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -242,7 +250,8 @@
       "id": "richmond-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-mimesis-gallery_1741088869541_6jIMN7CY0.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     }
   ]
 }

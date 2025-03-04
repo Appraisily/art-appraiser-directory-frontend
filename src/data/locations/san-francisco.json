@@ -31,7 +31,8 @@
       "notes": "Has a dedicated San Francisco office; experienced in multiple categories of art.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "San Francisco, CA"
     },
     {
       "name": "Reilly Clark Fine Art & Appraisals",
@@ -61,7 +62,8 @@
       "id": "san-francisco-reilly-clark-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Santa Barbara, CA"
     },
     {
       "name": "Newton Fine Art Appraisal",
@@ -90,7 +92,8 @@
       "id": "san-francisco-newton-fine-art-appraisal",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "San Francisco, CA"
     },
     {
       "name": "Mary Peck Art Advisory",
@@ -119,7 +122,8 @@
       "id": "san-francisco-mary-peck-art-advisory",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-mary-peck-art-advisory_1741089104979_-ZL1qvgTg.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Denver, CO"
     }
   ]
 }

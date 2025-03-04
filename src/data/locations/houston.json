@@ -29,7 +29,8 @@
       "notes": "Provides a range of appraisals for antiques and decorative arts.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_alicia-weaver-prestige-estate_1740930847628_TTkSgb2Wk.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_alicia-weaver-prestige-estate_1740830037068_Vutuhw3uz.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Houston, Texas"
     },
     {
       "name": "Erika Holycross (Prestige Estate Services)",
@@ -57,7 +58,8 @@
       "id": "houston-erika-holycross-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-erika-holycross-prestige-estate-services_1740930856293_wHiDhfogp.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-erika-holycross-prestige-estate-services_1740830037068_V34fb6cam.jpg",
-      "rating": 5.1
+      "rating": 5.1,
+      "address": "Houston, Texas"
     },
     {
       "name": "Lorraine Anne Davis",
@@ -83,7 +85,8 @@
       "id": "houston-lorraine-anne-davis",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-lorraine-anne-davis_1740930864061_e52UbmAaR.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-lorraine-anne-davis_1740830037068_V4iiqjnnf.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Houston, Texas"
     },
     {
       "name": "Melanie Modica (Modica Fine Art)",
@@ -108,7 +111,8 @@
       "id": "houston-melanie-modica-modica-fine-art",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-melanie-modica-modica-fine-art_1740930872854_AkGMYq1Ml.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-melanie-modica-modica-fine-art_1740830037068_Vxfoh0w3c.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Houston, Texas"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -139,7 +143,8 @@
       "id": "houston-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-anderson-fine-art-appraisals_1741086832703_RqYoGS4BTl.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates (EA)",
@@ -166,7 +171,8 @@
       "id": "houston-escher-associates-ea",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-escher-associates-ea_1740930906875_OSixE17df.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-escher-associates-ea_1740830037068_Vih44qpu8.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -197,7 +203,8 @@
       "id": "houston-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-page-art-inc_1740930915706_SEkBxah34w.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-page-art-inc_1740830037068_Vk3ri3k31.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -222,7 +229,8 @@
       "id": "houston-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-saylor-rice-appraisals_1740930926063_dExzEltuS.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-saylor-rice-appraisals_1740830037068_Vw9b33k17.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -247,7 +255,8 @@
       "id": "houston-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-gurr-johns_1740930933428_jYFUhe70R.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-gurr-johns_1740830037068_Vv9dqjlfq.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -273,7 +282,8 @@
       "id": "houston-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-mimesis-gallery_1740930941948_A_qw2r7Gl.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-mimesis-gallery_1740830037068_Vxbd1wsjb.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     }
   ]
 }

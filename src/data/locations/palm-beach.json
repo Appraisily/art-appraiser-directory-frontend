@@ -29,7 +29,8 @@
       "id": "palm-beach-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-alicia-e-weaver_1740931706157_JLujaZ2HU.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-alicia-e-weaver_1740830037075_Vguzrtco6.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Palm Beach, FL"
     },
     {
       "name": "Elizabeth Lake Lovett",
@@ -55,7 +56,8 @@
       "id": "palm-beach-elizabeth-lake-lovett",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-elizabeth-lake-lovett_1740931714698_zQspIq1fs.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-elizabeth-lake-lovett_1740830037075_Vdmkt0dny.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Palm Beach, FL"
     },
     {
       "name": "Kaminski Auctions",
@@ -83,7 +85,8 @@
       "id": "palm-beach-kaminski-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-kaminski-auctions_1740931723702_aseSvIw8Y.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-kaminski-auctions_1740830037075_Vuu458vea.jpg",
-      "rating": 5.1
+      "rating": 5.1,
+      "address": "Palm Beach, FL"
     },
     {
       "name": "AppraiseItNow",
@@ -109,7 +112,8 @@
       "id": "palm-beach-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-appraiseitnow_1741086879775_n1p8sRul5.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Palm Beach, FL"
     },
     {
       "name": "Sotheby's Palm Beach",
@@ -135,7 +139,8 @@
       "id": "palm-beach-sotheby-s-palm-beach",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Palm Beach, FL"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -165,7 +170,8 @@
       "id": "palm-beach-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -195,7 +201,8 @@
       "id": "palm-beach-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -224,7 +231,8 @@
       "id": "palm-beach-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-page-art-inc_1741087657099_AQpf_UTkS.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -249,7 +257,8 @@
       "id": "palm-beach-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-saylor-rice-appraisals_1741087677129_6hZ4MbZt4.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -275,7 +284,8 @@
       "id": "palm-beach-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-gurr-johns_1741087682682_SjPC9pNft.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -301,7 +311,8 @@
       "id": "palm-beach-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-mimesis-gallery_1741087688213_Bh5FFjuTo.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     }
   ]
 }

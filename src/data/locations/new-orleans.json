@@ -23,7 +23,8 @@
       "id": "new-orleans-barnett-fine-art",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-barnett-fine-art_1740931618883_Y1dukGdQY.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-barnett-fine-art_1740830037074_V5bi939hy.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "New Orleans, LA"
     },
     {
       "name": "New Orleans Auction Galleries",
@@ -49,7 +50,8 @@
       "id": "new-orleans-new-orleans-auction-galleries",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-new-orleans-auction-galleries_1740931627014_oh7of5iUk.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-new-orleans-auction-galleries_1740830037074_Vp7qqctig.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "New Orleans, LA"
     },
     {
       "name": "AppraiseItNow (Louisiana)",
@@ -76,7 +78,8 @@
       "id": "new-orleans-appraiseitnow-louisiana",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-appraiseitnow-louisiana_1740931634750_rPiVYByUp.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-appraiseitnow-louisiana_1740830037074_Vmrqxhq36.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "New Orleans, LA"
     },
     {
       "name": "American Society of Appraisers (ASA)",
@@ -101,7 +104,8 @@
       "id": "new-orleans-american-society-of-appraisers-asa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-american-society-of-appraisers-asa_1740931642310_QZhzAEbun.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-american-society-of-appraisers-asa_1740830037074_Vq79oj9bg.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "New Orleans, Unknown"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -131,7 +135,8 @@
       "id": "new-orleans-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740931650813_b3Up2KL4D.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740830037074_Vt6seqfed.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -160,7 +165,8 @@
       "id": "new-orleans-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-escher-associates_1740931659882_pZknkmOxO.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-escher-associates_1740830037074_Vukxteqet.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -188,7 +194,8 @@
       "id": "new-orleans-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-page-art-inc_1740931668765_G8ddN-glFk.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-page-art-inc_1740830037074_Vquhshebh.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -212,7 +219,8 @@
       "id": "new-orleans-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-saylor-rice-appraisals_1740931676397_BdCWJ8lhx.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-saylor-rice-appraisals_1740830037074_Vsycj5v9j.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -236,7 +244,8 @@
       "id": "new-orleans-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-gurr-johns_1740931684196_gyBaLwFVk.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-gurr-johns_1740830037074_V26etwwu5.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -261,7 +270,8 @@
       "id": "new-orleans-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-mimesis-gallery_1740931690938_PyyhzKhaW.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-mimesis-gallery_1740830037074_V8q1mugxt.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     }
   ]
 }

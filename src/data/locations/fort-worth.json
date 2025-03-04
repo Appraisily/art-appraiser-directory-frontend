@@ -26,9 +26,11 @@
       "website": "https://prestigeestateservices.com/locations/fort-worth-texas/",
       "notes": "Works for Prestige Estate Services",
       "id": "fort-worth-elizabeth-lovett",
-      "imageUrl": "https://via.placeholder.com/300x300/50E3C2/000000?text=EL",
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-elizabeth-lovett_1740830037067_Vi2gvs9oi.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Fort Worth, TX",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Stephanie Calman",
@@ -58,7 +60,8 @@
       "id": "fort-worth-stephanie-calman",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-stephanie-calman_1740930697691_F1YjuiS8g.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-stephanie-calman_1740830037067_Vafbxxays.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Fort Worth, TX"
     },
     {
       "name": "Alicia E Weaver",
@@ -86,7 +89,8 @@
       "id": "fort-worth-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-alicia-e-weaver_1740930707670_614-AXiq6.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-alicia-e-weaver_1740830037067_Vjnskgbax.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Fort Worth, TX"
     },
     {
       "name": "Hackwith Art & Personal Property Appraisals",
@@ -120,7 +124,8 @@
       "id": "fort-worth-hackwith-art-personal-property-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-hackwith-art-personal-property-appraisals_1740930716643__CW2vBjyc.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-hackwith-art-personal-property-appraisals_1740830037067_Vr5gqzmdz.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Fort Worth, TX"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -150,7 +155,8 @@
       "id": "fort-worth-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-anderson-fine-art-appraisals_1740930724661_bvbD7S8sR.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-anderson-fine-art-appraisals_1740830037067_Vqz8voukk.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -179,7 +185,8 @@
       "id": "fort-worth-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-escher-associates_1740930732772_6HrWb5WTW.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-escher-associates_1740830037067_Vav55sa64.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -213,7 +220,8 @@
       "id": "fort-worth-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-page-art-inc_1740930741218_KgQC8g6uz.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-page-art-inc_1740830037067_V95q33wau.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -238,7 +246,8 @@
       "id": "fort-worth-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-saylor-rice-appraisals_1740930752619_25TolBHzG.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-saylor-rice-appraisals_1740830037067_Vpgkapn1v.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -264,7 +273,8 @@
       "id": "fort-worth-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-gurr-johns_1740930761014_zVAK1a2naO.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-gurr-johns_1740830037067_Vi8hyij76.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -292,7 +302,8 @@
       "id": "fort-worth-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-mimesis-gallery_1740930768610_QBZg1bOZO.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-mimesis-gallery_1740830037067_Vwaatxjeh.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     }
   ]
 }

@@ -29,9 +29,11 @@
       "website": "https://www.lookappraisal.com",
       "notes": "Based in Northwest Raleigh; serves Durham, Cary, and surrounding areas.",
       "id": "raleigh-dana-summitt-look-appraisal-llc",
-      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=DS",
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Raleigh, NC",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Appraising Plus",
@@ -56,7 +58,8 @@
       "id": "raleigh-appraising-plus",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Raleigh, NC"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -86,7 +89,8 @@
       "id": "raleigh-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-anderson-fine-art-appraisals_1741088630668_iz76ja4Zc7.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -118,7 +122,8 @@
       "id": "raleigh-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-escher-associates_1741088636393_cXPTmJHd9.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -152,7 +157,8 @@
       "id": "raleigh-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-page-art-inc_1741088641905_-kmjSAfrY.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -177,7 +183,8 @@
       "id": "raleigh-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-saylor-rice-appraisals_1741088647442_2mlwX89Pk.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -201,7 +208,8 @@
       "id": "raleigh-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-gurr-johns_1741088652942_C4lNQiYrI.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -230,7 +238,8 @@
       "id": "raleigh-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     }
   ]
 }

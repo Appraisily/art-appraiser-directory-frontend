@@ -25,7 +25,8 @@
       "id": "nashville-case-antiques-inc-auctions-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-case-antiques-inc-auctions-appraisals_1740931548483_gGF_fNckb.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-case-antiques-inc-auctions-appraisals_1740830037073_V80yrl1se.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Nashville, TN"
     },
     {
       "name": "Prestige Estate Services",
@@ -54,7 +55,8 @@
       "id": "nashville-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-prestige-estate-services_1740931556482_RlHFgy4wq.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-prestige-estate-services_1740830037073_Vwzxs2c0a.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Nashville, TN"
     },
     {
       "name": "Jason Preston Art Advisory & Appraisals",
@@ -80,7 +82,8 @@
       "id": "nashville-jason-preston-art-advisory-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-jason-preston-art-advisory-appraisals_1740931563607_KdddTvHWA.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-jason-preston-art-advisory-appraisals_1740830037073_V7lmucx2x.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Nashville, TN"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -110,7 +113,8 @@
       "id": "nashville-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-anderson-fine-art-appraisals_1740931570520_LXSOGHuor.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-anderson-fine-art-appraisals_1740830037073_Vsmv3nsro.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -138,7 +142,8 @@
       "id": "nashville-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-escher-associates_1740931579743_TM8Ys8aAR2.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-escher-associates_1740830037073_Vdmj95gg5.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -169,7 +174,8 @@
       "id": "nashville-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-page-art-inc_1740931588367_B_B8TValJ.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-page-art-inc_1740830037073_Vz8fvs3em.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -194,7 +200,8 @@
       "id": "nashville-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-saylor-rice-appraisals_1740931595985_KjxGhkLFs.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-saylor-rice-appraisals_1740830037073_V08mkqd0i.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -219,7 +226,8 @@
       "id": "nashville-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-gurr-johns_1740931602723_axlOjgseUJ.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-gurr-johns_1740830037073_V2yfmri80.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -245,7 +253,8 @@
       "id": "nashville-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-mimesis-gallery_1740931610645_71WqKN2yU.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-mimesis-gallery_1740830037073_Vzk4cdbwt.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     }
   ]
 }

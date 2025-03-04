@@ -30,7 +30,8 @@
       "notes": "Based in Santa Barbara; serves San Jose/Silicon Valley, Southern California, and Texas. Art history M.A./Ph.D. candidate at UCSB.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-appraisals_1741089110700_oSYQta1BV.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Santa Barbara, CA"
     },
     {
       "name": "Clars Auctions",
@@ -56,7 +57,8 @@
       "id": "san-jose-clars-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-clars-auctions_1741089116240_kpeYeqsx7Q.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Oakland, CA"
     },
     {
       "name": "AppraiseItNow",
@@ -83,7 +85,8 @@
       "id": "san-jose-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-appraiseitnow_1741089121883_l1x-_QMun.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Online, CA"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -113,7 +116,8 @@
       "id": "san-jose-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-anderson-fine-art-appraisals_1741089127699_ALnIWTEfc.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -140,7 +144,8 @@
       "id": "san-jose-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -169,7 +174,8 @@
       "id": "san-jose-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-page-art-inc_1741089138532_elJ33YYrn.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -194,7 +200,8 @@
       "id": "san-jose-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -219,7 +226,8 @@
       "id": "san-jose-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-gurr-johns_1741089149620_TZE_U0Drz.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -244,7 +252,8 @@
       "id": "san-jose-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-mimesis-gallery_1741089156976_6JjXod-Sp.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     }
   ]
 }

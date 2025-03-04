@@ -25,7 +25,8 @@
       "id": "san-diego-jsk-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "San Diego, CA"
     },
     {
       "name": "Reilly Clark Fine Art & Appraisals",
@@ -52,7 +53,8 @@
       "id": "san-diego-reilly-clark-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-reilly-clark-fine-art-appraisals_1741089042212_sBdDMMh4N.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5
+      "rating": 5,
+      "address": "Santa Barbara, CA"
     },
     {
       "name": "Erika Holycross (Prestige Estate Services)",
@@ -80,7 +82,8 @@
       "id": "san-diego-erika-holycross-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-erika-holycross-prestige-estate-services_1741089047584_KrrrJG3j-.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5
+      "rating": 5,
+      "address": "San Diego, CA"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -110,7 +113,8 @@
       "id": "san-diego-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-anderson-fine-art-appraisals_1741089052963_RjPLQueh4.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -138,7 +142,8 @@
       "id": "san-diego-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -166,7 +171,8 @@
       "id": "san-diego-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -191,7 +197,8 @@
       "id": "san-diego-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-saylor-rice-appraisals_1741089069657_TyC17zIed.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -216,7 +223,8 @@
       "id": "san-diego-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-gurr-johns_1741089075363_6i416FCSf.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -242,7 +250,8 @@
       "id": "san-diego-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-mimesis-gallery_1741089081260_KjdHZcmg1.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     }
   ]
 }

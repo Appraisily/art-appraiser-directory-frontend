@@ -27,7 +27,8 @@
       "id": "san-antonio-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "San Antonio, TX"
     },
     {
       "name": "Gurr Johns",
@@ -52,7 +53,8 @@
       "id": "san-antonio-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-gurr-johns_1741089001961_jayPA2n3d.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -82,7 +84,8 @@
       "id": "san-antonio-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -111,7 +114,8 @@
       "id": "san-antonio-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -142,7 +146,8 @@
       "id": "san-antonio-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -167,7 +172,8 @@
       "id": "san-antonio-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-saylor-rice-appraisals_1741089025221_Lbp9BTsZY.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -193,7 +199,8 @@
       "id": "san-antonio-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     }
   ]
 }

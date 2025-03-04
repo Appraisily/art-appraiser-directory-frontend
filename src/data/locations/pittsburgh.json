@@ -25,7 +25,8 @@
       "id": "pittsburgh-concept-art-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-concept-art-gallery_1740933644838_VY2WJLaqu.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-concept-art-gallery_1740830037076_Vh3cksvfo.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Pittsburgh, PA"
     },
     {
       "name": "Kurt Shaw & Company",
@@ -53,7 +54,8 @@
       "id": "pittsburgh-kurt-shaw-company",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-kurt-shaw-company_1740933653089_EDu1qn22d.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-kurt-shaw-company_1740830037076_V89s2csaf.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Pittsburgh, PA"
     },
     {
       "name": "AppraiseItNow",
@@ -81,7 +83,8 @@
       "id": "pittsburgh-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-appraiseitnow_1740933660835_CtKRoaE9x.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-appraiseitnow_1740830037077_Vxa9b4yh6.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Pittsburgh, PA"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -111,7 +114,8 @@
       "id": "pittsburgh-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-appraiseitnow-washington-dc_1740933521826_211tSOXlq.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-anderson-fine-art-appraisals_1740830037077_V2yixo4qz.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -140,7 +144,8 @@
       "id": "pittsburgh-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-page-art-inc_1740929899476_ieuuLPZv5.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-escher-associates_1740830037077_V7cfqp21z.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -168,7 +173,8 @@
       "id": "pittsburgh-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-saylor-rice-appraisals_1740929906368_onMg-Dm4r.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-page-art-inc_1740830037077_Vdr723cbx.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -192,7 +198,8 @@
       "id": "pittsburgh-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-american-society-of-appraisers-asa_1740931642310_QZhzAEbun.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-saylor-rice-appraisals_1740830037077_V6madt4j4.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -217,7 +224,8 @@
       "id": "pittsburgh-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740931504395_zCa3jT3Cwz.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-gurr-johns_1740830037077_Vc2buw4zg.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -242,7 +250,8 @@
       "id": "pittsburgh-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-gurr-johns_1740930210463_U9TsyV0pdK.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-mimesis-gallery_1740830037077_Vsdlimz8k.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     }
   ]
 }

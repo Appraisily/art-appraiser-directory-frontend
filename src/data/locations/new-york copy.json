@@ -21,7 +21,9 @@
       "website": "https://www.museumexchange.com/appraisals",
       "notes": "Operates online connecting clients with certified appraisers.",
       "rating": 5,
-      "imageUrl": "https://via.placeholder.com/300x300/B8E986/000000?text=ME"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York, NY",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Sotheby's New York",
@@ -46,7 +48,9 @@
       "website": "https://www.sothebys.com",
       "notes": "Manhattan headquarters with global reach; Business hours: Mon-Sat 10AM–5PM, Sun 1PM–5PM.",
       "rating": 4.7,
-      "imageUrl": "https://via.placeholder.com/300x300/B8E986/000000?text=SN"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York, NY",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Alpha 137 Gallery",
@@ -69,7 +73,9 @@
       "website": "https://alpha137gallery.com",
       "notes": "Consultation fee credited towards purchase if consigned or sold.",
       "rating": 4.6,
-      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=A1"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York, NY",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Mary Peck Art Advisory",
@@ -94,7 +100,9 @@
       "website": "https://www.marypeckartadvisory.com",
       "notes": "",
       "rating": 4.9,
-      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=MP"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Denver, CO",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Showplace NYC Fine Art Buyer",
@@ -117,7 +125,9 @@
       "website": "https://estatebuyers.nyshowplace.com",
       "notes": "Manhattan-based transactions.",
       "rating": 4.7,
-      "imageUrl": "https://via.placeholder.com/300x300/B8E986/000000?text=SN"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York, NY",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Heritage Auctions",
@@ -140,7 +150,9 @@
       "website": "https://www.ha.com",
       "notes": "Global auction house with free preliminary valuations.",
       "rating": 4.6,
-      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=HA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York copy, Unknown",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Juliette Yuan & Associates",
@@ -163,7 +175,9 @@
       "website": "https://www.jyuanassociates.com",
       "notes": "",
       "rating": 4.9,
-      "imageUrl": "https://via.placeholder.com/300x300/BD10E0/FFFFFF?text=JY"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York copy, Unknown",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -188,7 +202,9 @@
       "website": "http://www.art-appraisals.net",
       "notes": "Specializes in European/American art, including Contemporary, Modern, and Impressionist works.",
       "rating": 4.4,
-      "imageUrl": "https://via.placeholder.com/300x300/B8E986/000000?text=AF"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Escher Associates",
@@ -215,7 +231,9 @@
       "website": "http://www.escher-associates.com",
       "notes": "Handled art fraud cases with LAPD.",
       "rating": 4.8,
-      "imageUrl": "https://via.placeholder.com/300x300/4A90E2/FFFFFF?text=EA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Page Art, Inc.",
@@ -241,7 +259,9 @@
       "website": "http://www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County and out-of-state clients.",
       "rating": 5,
-      "imageUrl": "https://via.placeholder.com/300x300/F8E71C/000000?text=PA"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York copy, Unknown",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -263,7 +283,9 @@
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; likely high-end valuations.",
       "rating": 4.5,
-      "imageUrl": "https://via.placeholder.com/300x300/9013FE/FFFFFF?text=SR"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "New York copy, Unknown",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Gurr Johns",
@@ -286,7 +308,9 @@
       "website": "http://www.gurrjohns.com",
       "notes": "Manages over $10 billion in assets annually; global firm.",
       "rating": 4.6,
-      "imageUrl": "https://via.placeholder.com/300x300/D0021B/FFFFFF?text=GJ"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     },
     {
       "name": "Mimesis Gallery",
@@ -309,7 +333,9 @@
       "website": "http://www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; offers same-day offers.",
       "rating": 4.8,
-      "imageUrl": "https://via.placeholder.com/300x300/B8E986/000000?text=MG"
+      "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
+      "address": "Los Angeles, CA",
+      "image": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
     }
   ]
 }

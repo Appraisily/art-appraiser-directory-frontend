@@ -22,7 +22,7 @@
         "repair-nashville": "node scripts/repair-nashville-images.js",
         "repair-all-images": "node scripts/repair-all-images.js",
         "build:with-image-validation": "npm run build && npm run validate-images",
-        "lint": "eslint .",
+        "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview",
         "generate-missing-images": "node scripts/generate-missing-images.js",
         "check-images": "node scripts/check-live-images.js",
@@ -35,12 +35,14 @@
         "optimize-images": "node scripts/optimize-images.js",
         "test:html": "node ./scripts/test-html.js",
         "fix:react-hydration": "node ./scripts/fix-react-hydration.js",
-        "serve:static": "node ./scripts/serve-static.js",
+        "serve:static": "npx serve dist -s",
         "debug:build": "npm run build:with-image-validation && npm run serve:static",
         "test:cleveland": "npm run build:with-image-validation && npm run fix:react-hydration location/cleveland/index.html && npm run serve:static",
         "generate-10-images": "node scripts/generate-10-placeholder-images.js",
         "site-check": "node scripts/comprehensive-site-check.js",
-        "complete-missing-data": "node scripts/complete-missing-data.js"
+        "complete-missing-data": "node scripts/complete-missing-data.js",
+        "fix-missing-address": "node scripts/fix-missing-address-fields.js",
+        "fix-placeholders": "node scripts/fix-placeholder-images.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

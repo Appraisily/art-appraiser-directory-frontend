@@ -33,7 +33,8 @@
       "id": "cincinnati-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1740930297083_aZP_FP_Ya.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1740830037063_Vug96bqob.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Cincinnati, OH"
     },
     {
       "name": "Art Asset Management Group",
@@ -62,7 +63,8 @@
       "id": "cincinnati-art-asset-management-group",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-art-asset-management-group_1740930305302_EuihiNTS5.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-art-asset-management-group_1740830037063_Vit9s3a1b.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Cincinnati, OH"
     },
     {
       "name": "Eisele Gallery",
@@ -88,7 +90,8 @@
       "id": "cincinnati-eisele-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-eisele-gallery_1740930314036_Pv5w_3j3O.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-eisele-gallery_1740830037063_V75a25r53.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Cincinnati, OH"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -119,7 +122,8 @@
       "id": "cincinnati-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-anderson-fine-art-appraisals_1740930322039_f8IoN1uCZ.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-anderson-fine-art-appraisals_1740830037063_V7cqy3ckn.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -147,7 +151,8 @@
       "id": "cincinnati-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-escher-associates_1740930330306_N0-poMfYa.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-escher-associates_1740830037063_Vab99c81p.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -176,7 +181,8 @@
       "id": "cincinnati-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-page-art-inc_1740930337859_mUu2krzml.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-page-art-inc_1740830037063_Vyetf4dxm.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -200,7 +206,8 @@
       "id": "cincinnati-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-saylor-rice-appraisals_1740930346992_Zohzd0yz1.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-saylor-rice-appraisals_1740830037063_V04zh19cv.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -225,7 +232,8 @@
       "id": "cincinnati-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-gurr-johns_1740930355904_LY95L6CqE.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-gurr-johns_1740830037063_Vz20cix2q.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -250,7 +258,8 @@
       "id": "cincinnati-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-mimesis-gallery_1740930365793_qKZvUWt8W.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-mimesis-gallery_1740830037063_Vgj204amd.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     }
   ]
 }

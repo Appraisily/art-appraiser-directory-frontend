@@ -25,7 +25,8 @@
       "id": "salt-lake-city-alicia-e-weaver-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-alicia-e-weaver-prestige-estate-services_1741088933892_imF-VJYxz.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Salt Lake City, Utah"
     },
     {
       "name": "AppraiseItNow",
@@ -51,7 +52,8 @@
       "id": "salt-lake-city-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-appraiseitnow_1741088939880_Dsm24kDuO.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Salt Lake City, Utah"
     },
     {
       "name": "Intermountain Appraisal",
@@ -78,7 +80,8 @@
       "id": "salt-lake-city-intermountain-appraisal",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-intermountain-appraisal_1741088947289_8KnId0agy.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Salt Lake City, Utah"
     },
     {
       "name": "Williams Fine Art Gallery",
@@ -103,7 +106,8 @@
       "id": "salt-lake-city-williams-fine-art-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Salt Lake City, Utah"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -133,7 +137,8 @@
       "id": "salt-lake-city-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-anderson-fine-art-appraisals_1741088958472_U_WRuRPjJ.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -162,7 +167,8 @@
       "id": "salt-lake-city-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-escher-associates_1741088963911_60EiK1FvI.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -190,7 +196,8 @@
       "id": "salt-lake-city-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-page-art-inc_1741088969774_UJKBo2br7.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -215,7 +222,8 @@
       "id": "salt-lake-city-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-saylor-rice-appraisals_1741088975587_m4gb2w_4o.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -240,7 +248,8 @@
       "id": "salt-lake-city-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -264,7 +273,8 @@
       "id": "salt-lake-city-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-mimesis-gallery_1741088988479_fkdmCGchi.jpg",
       "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     }
   ]
 }

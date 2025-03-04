@@ -25,7 +25,8 @@
       "id": "aspen-mary-peck-art-advisory",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740929800152_W9B4CBBJu.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740830037057_Vw9h4583g.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Denver, CO"
     },
     {
       "name": "Alicia E Weaver",
@@ -48,7 +49,8 @@
       "id": "aspen-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740929808047_lYMHZiQPP.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740830037057_Vnf4ogq6f.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Boulder, CO"
     },
     {
       "name": "812 Maplewood",
@@ -74,7 +76,8 @@
       "id": "aspen-812-maplewood",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740929816443_-N9BCbxFF.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740830037057_Vbea0xhxz.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Aspen, CO"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -104,7 +107,8 @@
       "id": "aspen-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-anderson-fine-art-appraisals_1740929823006_4LVJXq-kw.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-anderson-fine-art-appraisals_1740830037057_Vcsckuabz.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates",
@@ -132,7 +136,8 @@
       "id": "aspen-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-escher-associates_1740929830391_cdaLOfKN3m.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-escher-associates_1740830037057_V0momkixw.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -158,7 +163,8 @@
       "id": "aspen-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-page-art-inc_1740929838220_QnK4xaG79.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-page-art-inc_1740830037057_Vv7fogkm6.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -180,7 +186,8 @@
       "id": "aspen-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-saylor-rice-appraisals_1740929846246_PvSpDv6FG.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-saylor-rice-appraisals_1740830037057_Vdk3mtdwv.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -202,7 +209,8 @@
       "id": "aspen-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-gurr-johns_1740929854053_X2r6OpnTp.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-gurr-johns_1740830037057_Vezplvnr0.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -227,7 +235,8 @@
       "id": "aspen-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mimesis-gallery_1740929861045_ImWssV6uc.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mimesis-gallery_1740830037057_Vjjaaigwm.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, CA"
     }
   ]
 }

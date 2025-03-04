@@ -29,7 +29,8 @@
       "id": "kansas-city-haney-appraisals-in-fine-art",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-haney-appraisals-in-fine-art_1740931101752_BDfRtElG6.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-haney-appraisals-in-fine-art_1740830037070_V9vd3ct0z.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Kansas City, MO"
     },
     {
       "name": "AppraiseItNow",
@@ -58,7 +59,8 @@
       "id": "kansas-city-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-appraiseitnow_1740931110027_0yjsap26m.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-appraiseitnow_1740830037070_Vuagbfsmh.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Kansas City, MO"
     },
     {
       "name": "Janet L. Ross",
@@ -82,7 +84,8 @@
       "id": "kansas-city-janet-l-ross",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-janet-l-ross_1740931118248_Jd75JrZph.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-janet-l-ross_1740830037070_Vleak60i6.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Kansas City, Unknown"
     },
     {
       "name": "Madison Group Fine Art Appraisals",
@@ -105,7 +108,8 @@
       "id": "kansas-city-madison-group-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-madison-group-fine-art-appraisals_1740931126493_nFHmpGVEnp.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-madison-group-fine-art-appraisals_1740830037070_V960o0bd6.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Kansas City, MO"
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -138,7 +142,8 @@
       "id": "kansas-city-anderson-fine-art-appraisals-afaa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-anderson-fine-art-appraisals-afaa_1740931135683_TTHQdNO8Y.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-anderson-fine-art-appraisals-afaa_1740830037070_Vc41x3q11.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Escher Associates (EA)",
@@ -167,7 +172,8 @@
       "id": "kansas-city-escher-associates-ea",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-escher-associates-ea_1740931143385_y1XU6N_kj.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-escher-associates-ea_1740830037070_V8xjyuv2g.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Page Art, Inc.",
@@ -195,7 +201,8 @@
       "id": "kansas-city-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-page-art-inc_1740931151579_xIx_bl7sB.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-page-art-inc_1740830037070_Vy0b9j5iu.jpg",
-      "rating": 5
+      "rating": 5,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -219,7 +226,8 @@
       "id": "kansas-city-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-saylor-rice-appraisals_1740931159332_VUSJgiwwwx.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-saylor-rice-appraisals_1740830037070_Vo20qrkuj.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Gurr Johns",
@@ -245,7 +253,8 @@
       "id": "kansas-city-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-gurr-johns_1740931167892_61v8IOLfg.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-gurr-johns_1740830037070_Vyem596ru.jpg",
-      "rating": 4.8
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
     },
     {
       "name": "Mimesis Gallery",
@@ -271,7 +280,8 @@
       "id": "kansas-city-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-mimesis-gallery_1740931176911_F66FsCkne.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-mimesis-gallery_1740830037070_Vqafuf15d.jpg",
-      "rating": 4.4
+      "rating": 4.4,
+      "address": "Los Angeles, CA"
     }
   ]
 }

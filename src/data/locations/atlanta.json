@@ -28,7 +28,8 @@
       "id": "atlanta-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-prestige-estate-services_1740929869203_mv3LleVuy.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-prestige-estate-services_1740830037058_Vm9qvu1ne.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Atlanta, Georgia"
     },
     {
       "name": "The Perfect Piece Atlanta",
@@ -53,7 +54,8 @@
       "id": "atlanta-the-perfect-piece-atlanta",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-the-perfect-piece-atlanta_1740929877248_cEVEBZIw6.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-the-perfect-piece-atlanta_1740830037058_Vxjeahd5r.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Atlanta, Georgia"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -83,7 +85,8 @@
       "id": "atlanta-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-anderson-fine-art-appraisals_1740929884342_oDGUAyji1.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-anderson-fine-art-appraisals_1740830037058_Vuv21ead7.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, California"
     },
     {
       "name": "Escher Associates",
@@ -110,7 +113,8 @@
       "id": "atlanta-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-escher-associates_1740929892166_76KgXEW3X.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-escher-associates_1740830037058_Vtg3bjmtx.jpg",
-      "rating": 4.7
+      "rating": 4.7,
+      "address": "Los Angeles, California"
     },
     {
       "name": "Page Art, Inc.",
@@ -141,7 +145,8 @@
       "id": "atlanta-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-page-art-inc_1740929899476_ieuuLPZv5.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-page-art-inc_1740830037058_Vdwkgkrqc.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, California"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -166,7 +171,8 @@
       "id": "atlanta-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-saylor-rice-appraisals_1740929906368_onMg-Dm4r.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-saylor-rice-appraisals_1740830037058_Vvaztg1ov.jpg",
-      "rating": 4.6
+      "rating": 4.6,
+      "address": "Los Angeles, California"
     },
     {
       "name": "Gurr Johns",
@@ -190,7 +196,8 @@
       "id": "atlanta-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-gurr-johns_1740929913340_qzTKV87zo.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-gurr-johns_1740830037058_V3l5vxjgf.jpg",
-      "rating": 4.5
+      "rating": 4.5,
+      "address": "Los Angeles, California"
     },
     {
       "name": "Mimesis Gallery",
@@ -216,7 +223,8 @@
       "id": "atlanta-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-mimesis-gallery_1740929920887_TIGdzoBaB.jpg",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-mimesis-gallery_1740830037058_V026gjhud.jpg",
-      "rating": 4.9
+      "rating": 4.9,
+      "address": "Los Angeles, California"
     }
   ]
 }
