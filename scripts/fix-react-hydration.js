@@ -58,33 +58,70 @@ async function fixReactHydration(filePath) {
     
     let modified = false;
     
-    // 1. Check if the content container is properly set up for React
+    // 1. Check if the root element exists, create it if it doesn't
+    let rootElement = document.getElementById('root');
+    if (!rootElement) {
+      log(`Creating missing root element in ${filePath.replace(DIST_DIR, '')}`, 'warning');
+      rootElement = document.createElement('div');
+      rootElement.id = 'root';
+      
+      // Insert it at the beginning of the body
+      const body = document.querySelector('body');
+      if (body && body.firstChild) {
+        body.insertBefore(rootElement, body.firstChild);
+        modified = true;
+      } else if (body) {
+        body.appendChild(rootElement);
+        modified = true;
+      }
+    }
+    
+    // 2. Move content containers inside root if they're not already
     const locationContent = document.getElementById('location-content');
     const appraiserContent = document.getElementById('appraiser-content');
     
-    // Instead of replacing content, move it inside the root element for proper hydration
-    if (locationContent || appraiserContent) {
-      const contentElement = locationContent || appraiserContent;
-      const rootElement = document.getElementById('root');
-      
-      if (!rootElement) {
-        // Create root element if it doesn't exist
-        const rootDiv = document.createElement('div');
-        rootDiv.id = 'root';
-        contentElement.parentNode.insertBefore(rootDiv, contentElement);
-        rootDiv.appendChild(contentElement);
-      } else {
-        // Move content inside root element
-        if (contentElement.parentNode !== rootElement) {
-          rootElement.appendChild(contentElement);
+    const contentElement = locationContent || appraiserContent;
+    if (contentElement && rootElement) {
+      // Check if the content element is already inside the root
+      if (!rootElement.contains(contentElement)) {
+        log(`Moving content into root element in ${filePath.replace(DIST_DIR, '')}`, 'warning');
+        
+        // Copy all child nodes from contentElement to rootElement
+        while (contentElement.childNodes.length > 0) {
+          rootElement.appendChild(contentElement.childNodes[0]);
+        }
+        
+        // Remove the now-empty content element
+        if (contentElement.parentNode) {
+          contentElement.parentNode.removeChild(contentElement);
+        }
+        
+        modified = true;
+      }
+    } else if (!contentElement && rootElement) {
+      // If we don't find the specific content containers, move all top-level content inside root
+      // But skip script tags, noscript tags, and the root element itself
+      const body = document.querySelector('body');
+      if (body) {
+        const children = Array.from(body.children).filter(child => 
+          child !== rootElement && 
+          child.tagName.toLowerCase() !== 'script' && 
+          child.tagName.toLowerCase() !== 'noscript'
+        );
+        
+        if (children.length > 0) {
+          log(`Moving top-level content into root element in ${filePath.replace(DIST_DIR, '')}`, 'warning');
+          
+          for (const child of children) {
+            rootElement.appendChild(child);
+          }
+          
+          modified = true;
         }
       }
-      
-      modified = true;
-      log(`Fixed content structure for ${filePath.replace(DIST_DIR, '')}`, 'success');
     }
     
-    // 2. Remove any scripts that match our blocklist (like the ones from unpkg.com)
+    // 3. Remove any scripts that match our blocklist (like the ones from unpkg.com)
     const scripts = Array.from(document.querySelectorAll('script'));
     const blockedDomains = [
       'unpkg.com',
@@ -101,7 +138,7 @@ async function fixReactHydration(filePath) {
       }
     }
     
-    // 3. Remove any injected styles from external domains
+    // 4. Remove any injected styles from external domains
     const styles = Array.from(document.querySelectorAll('link[rel="stylesheet"]'));
     for (const style of styles) {
       const href = style.getAttribute('href') || '';
@@ -112,7 +149,7 @@ async function fixReactHydration(filePath) {
       }
     }
     
-    // 4. Remove browser extension injected elements
+    // 5. Remove browser extension injected elements
     const extensionElements = Array.from(document.querySelectorAll('div[id^="veepn-"], div[id^="extension-"]'));
     for (const el of extensionElements) {
       el.parentNode.removeChild(el);
@@ -120,7 +157,7 @@ async function fixReactHydration(filePath) {
       modified = true;
     }
     
-    // 5. Ensure our script loading is correct
+    // 6. Ensure our script loading is correct
     const mainScript = document.querySelector('script[src*="index-"]');
     if (mainScript) {
       // Make sure script is loaded properly
@@ -132,6 +169,19 @@ async function fixReactHydration(filePath) {
       for (const dup of duplicateScripts) {
         dup.parentNode.removeChild(dup);
         log('Removed duplicate script', 'warning');
+        modified = true;
+      }
+    }
+    
+    // 7. Fix asset paths if needed
+    const assetPaths = Array.from(document.querySelectorAll('link[href^="/assets/"], script[src^="/assets/"], img[src^="/assets/"]'));
+    for (const element of assetPaths) {
+      const attrName = element.hasAttribute('href') ? 'href' : 'src';
+      const oldPath = element.getAttribute(attrName);
+      if (oldPath && oldPath.startsWith('/assets/')) {
+        const newPath = oldPath.replace('/assets/', '/directory/assets/');
+        element.setAttribute(attrName, newPath);
+        log(`Fixed asset path: ${oldPath} -> ${newPath}`, 'warning');
         modified = true;
       }
     }

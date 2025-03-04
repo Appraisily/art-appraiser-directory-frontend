@@ -14,8 +14,9 @@ const DIST_DIR = path.join(ROOT_DIR, 'dist');
  * 1. Checks if the local image generation service is running
  * 2. Configures the build to use the local image service
  * 3. Runs the build process
- * 4. Validates the generated files
- * 5. Provides instructions for deployment to Netlify
+ * 4. Fixes React hydration issues in generated HTML
+ * 5. Validates the generated files
+ * 6. Provides instructions for deployment to Netlify
  */
 
 const IMAGE_GEN_SERVICE_URL = process.env.IMAGE_GENERATION_API || 'http://localhost:3000/api/generate';
@@ -77,6 +78,24 @@ async function runBuild() {
   } catch (error) {
     console.error('❌ Build failed:', error.message);
     return false;
+  }
+}
+
+// Fix React hydration issues in all HTML files
+async function fixReactHydration() {
+  console.log('\n🔧 Fixing React hydration issues in HTML files...');
+  
+  try {
+    // Run the hydration fix script
+    console.log('🛠️ Running hydration fix script...');
+    execSync('node scripts/fix-react-hydration.js', { stdio: 'inherit', cwd: ROOT_DIR });
+    
+    console.log('✅ Hydration fixes applied successfully!');
+    return true;
+  } catch (error) {
+    console.error('❌ Hydration fix failed:', error.message);
+    console.log('⚠️ Continuing without hydration fixes...');
+    return true; // Continue with the process despite errors
   }
 }
 
@@ -160,6 +179,9 @@ async function main() {
   if (!buildSuccess) {
     return;
   }
+  
+  // Fix React hydration issues
+  await fixReactHydration();
   
   // Validate the build
   const validBuild = await validateBuild();
