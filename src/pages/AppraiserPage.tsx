@@ -4,6 +4,7 @@ import { MapPin, Star, Mail, Phone, Globe, Clock, Award, Shield } from 'lucide-r
 import { getAppraiser } from '../utils/staticData';
 import { SEO } from '../components/SEO';
 import { generateAppraiserSchema, generateFAQSchema } from '../utils/schemaGenerators';
+import FallbackImage from '../components/FallbackImage';
 
 type Appraiser = {
   id: string;
@@ -86,14 +87,14 @@ export function AppraiserPage() {
     <>
       <SEO
         title={`${appraiser.name} - Art Appraiser in ${appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'Your Area'} | Expert Art Valuation Services | Appraisily`}
-        description={`Get professional art appraisal services from ${appraiser.name} near ${appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'you'}. Specializing in ${appraiser.specialties.join(', ')}. Certified expert with ${appraiser.reviewCount} verified reviews.`}
+        description={`Get professional art appraisal services from ${appraiser.name} near ${appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'you'}. Specializing in ${appraiser.specialties?.join(', ') || 'Art Appraisal Services'}. ${appraiser.reviewCount ? `Certified expert with ${appraiser.reviewCount} verified reviews.` : 'Professional art valuation services.'}`}
         keywords={[
           `${appraiser.name.toLowerCase()} art appraiser`,
           `${appraiser.address ? `art appraisal ${appraiser.address.split(',')[0].toLowerCase()}` : `art appraisal ${appraiser.city?.toLowerCase() || ''}`}`,
           `art appraiser near me`,
           `local art appraiser ${appraiser.address ? appraiser.address.split(',')[0].toLowerCase() : appraiser.city?.toLowerCase() || ''}`,
           `best art appraiser ${appraiser.address ? appraiser.address.split(',')[0].toLowerCase() : appraiser.city?.toLowerCase() || ''}`,
-          ...appraiser.specialties.map(s => s.toLowerCase()),
+          ...(appraiser.specialties || []).map(s => s?.toLowerCase()),
           'art valuation',
           'art authentication',
           'certified art appraiser'
@@ -108,10 +109,11 @@ export function AppraiserPage() {
 
       <div className="flex-1">
         <div className="relative h-[300px] md:h-[400px]">
-          <img
-            src={appraiser.image}
+          <FallbackImage
+            src={appraiser.image || appraiser.imageUrl}
             alt={appraiser.name}
             className="w-full h-full object-cover"
+            fallbackSrc="https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         </div>
@@ -161,7 +163,7 @@ export function AppraiserPage() {
                 <section>
                   <h2 className="text-2xl font-semibold mb-4">Services</h2>
                   <div className="space-y-4">
-                    {appraiser.services?.map((service) => (
+                    {(appraiser.services || []).map((service) => (
                       <div key={service.name} className="border rounded-lg p-4">
                         <div className="flex justify-between items-start mb-2">
                           <h3 className="font-semibold">{service.name}</h3>
@@ -170,14 +172,17 @@ export function AppraiserPage() {
                         <p className="text-sm text-muted-foreground">{service.description}</p>
                       </div>
                     ))}
+                    {(!appraiser.services || appraiser.services.length === 0) && (
+                      <p className="text-muted-foreground">Contact for services information.</p>
+                    )}
                   </div>
                 </section>
 
                 <section>
                   <h2 className="text-2xl font-semibold mb-4">Reviews</h2>
                   <div className="space-y-4">
-                    {appraiser.reviews?.map((review) => (
-                      <div key={review.id} className="border rounded-lg p-4">
+                    {(appraiser.reviews || []).map((review) => (
+                      <div key={review.id || review.author} className="border rounded-lg p-4">
                         <div className="flex items-center justify-between mb-2">
                           <span className="font-medium">{review.author}</span>
                           <span className="text-sm text-muted-foreground">{review.date}</span>
@@ -195,6 +200,9 @@ export function AppraiserPage() {
                         <p className="text-muted-foreground">{review.content}</p>
                       </div>
                     ))}
+                    {(!appraiser.reviews || appraiser.reviews.length === 0) && (
+                      <p className="text-muted-foreground">No reviews available yet.</p>
+                    )}
                   </div>
                 </section>
               </div>
@@ -248,11 +256,8 @@ export function AppraiserPage() {
                     Specialties
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {appraiser.specialties.map((specialty) => (
-                      <span
-                        key={specialty}
-                        className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary"
-                      >
+                    {(appraiser.specialties || []).map((specialty) => (
+                      <span key={specialty} className="px-3 py-1 rounded-full bg-accent text-accent-foreground text-xs">
                         {specialty}
                       </span>
                     ))}
