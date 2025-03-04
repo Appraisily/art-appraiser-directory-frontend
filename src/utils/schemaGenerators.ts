@@ -116,56 +116,66 @@ export function generateAppraiserSchema(appraiser: any) {
 }
 
 export function generateLocationSchema(locationData: any) {
+  // Add safety check for locationData
+  if (!locationData) {
+    console.error('Cannot generate location schema: locationData is undefined');
+    return {};
+  }
+  
+  // Create a safe slug value
+  const safeCity = locationData.city || 'unknown-location';
+  const safeSlug = (locationData.slug || safeCity.toLowerCase().replace(/\s+/g, '-'));
+  
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://art-appraiser.appraisily.com/location/${locationData.slug || locationData.city.toLowerCase().replace(/\s+/g, '-')}`,
-    "name": `Art Appraisal Services in ${locationData.city}`,
-    "description": `Find top-rated art appraisers in ${locationData.city}, ${locationData.state}. Professional art valuation services for insurance, estate planning, donations, and more.`,
+    "@id": `https://art-appraiser.appraisily.com/location/${safeSlug}`,
+    "name": `Art Appraisal Services in ${safeCity}`,
+    "description": `Find top-rated art appraisers in ${safeCity}, ${locationData.state || 'USA'}. Professional art valuation services for insurance, estate planning, donations, and more.`,
     "serviceType": "Art Appraisal",
     "areaServed": {
       "@type": "City",
-      "name": locationData.city,
+      "name": safeCity,
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": locationData.city,
-        "addressRegion": locationData.state,
+        "addressLocality": safeCity,
+        "addressRegion": locationData.state || 'USA',
         "addressCountry": "US"
       },
       "containedInPlace": {
         "@type": "State",
-        "name": locationData.state
+        "name": locationData.state || 'USA'
       }
     },
-    "provider": locationData.appraisers.map((appraiser: any) => ({
+    "provider": Array.isArray(locationData.appraisers) ? locationData.appraisers.map((appraiser: any) => ({
       "@type": "LocalBusiness",
-      "name": appraiser.name,
-      "image": appraiser.image,
+      "name": appraiser?.name || 'Art Appraiser',
+      "image": appraiser?.image || '',
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": locationData.city,
-        "addressRegion": locationData.state,
+        "addressLocality": safeCity,
+        "addressRegion": locationData.state || 'USA',
         "addressCountry": "US"
       },
-      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`
-    })),
+      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`
+    })) : [],
     "offers": {
       "@type": "Offer",
-      "description": `Professional art appraisal services in ${locationData.city}`,
+      "description": `Professional art appraisal services in ${safeCity}`,
       "areaServed": {
         "@type": "City",
-        "name": locationData.city,
+        "name": safeCity,
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": locationData.city,
-          "addressRegion": locationData.state,
+          "addressLocality": safeCity,
+          "addressRegion": locationData.state || 'USA',
           "addressCountry": "US"
         }
       }
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://art-appraiser.appraisily.com/location/${locationData.slug || locationData.city.toLowerCase().replace(/\s+/g, '-')}`
+      "@id": `https://art-appraiser.appraisily.com/location/${safeSlug}`
     }
   };
 }
