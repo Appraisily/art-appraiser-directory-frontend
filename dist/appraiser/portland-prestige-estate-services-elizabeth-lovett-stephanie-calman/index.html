@@ -30,7 +30,7 @@
     
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg","description":"Get professional art appraisal services from Prestige Estate Services (Elizabeth Lovett & Stephanie Calman). Specializing in Fine art collections, Antiques, IRS estate tax appraisals, Insurance claims. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Portland","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/portland-prestige-estate-services-elizabeth-lovett-stephanie-calman","telephone":"(888) 724-9990","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"1","bestRating":"5","worstRating":"1"}}
+      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg","description":"Get professional art appraisal services from Prestige Estate Services (Elizabeth Lovett & Stephanie Calman). Specializing in Fine art collections, Antiques, IRS estate tax appraisals, Insurance claims. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Portland","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/portland-prestige-estate-services-elizabeth-lovett-stephanie-calman","telephone":"(888) 724-9990","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"1","bestRating":"5","worstRating":"1"}}
     </script>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://art-appraiser.appraisily.com"},{"@type":"ListItem","position":2,"name":"Art Appraisers in Portland","item":"https://art-appraiser.appraisily.com/location/portland"},{"@type":"ListItem","position":3,"name":"Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)","item":"https://art-appraiser.appraisily.com/appraiser/portland-prestige-estate-services-elizabeth-lovett-stephanie-calman"}]}
@@ -53,7 +53,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="appraiser-content">
+    <div id="root">
       <!-- This content will be replaced by client-side React when JS loads -->
       <header>
         <nav>
@@ -100,6 +100,21 @@
     </div>
     
     <!-- Load JS at the end for better performance -->
-    <script src="/assets/index-CE0M-4-F.js" defer></script>
+    <script src="/assets/index-ffwO5efs.js" defer></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>

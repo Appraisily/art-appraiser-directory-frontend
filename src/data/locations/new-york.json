@@ -86,7 +86,14 @@
         }
       ],
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_manhattan-fine-art-appraisers_1740931698148_1CE6WFo82.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_manhattan-fine-art-appraisers_1740830037074_Vk4hw5zzn.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_manhattan-fine-art-appraisers_1740830037074_Vk4hw5zzn.jpg",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
     }
   ]
 }

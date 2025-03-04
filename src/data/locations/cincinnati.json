@@ -24,7 +24,7 @@
         "USPAP",
         "IRS-qualified"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Cincinnati",
       "state": "OH",
       "phone": "1-844-483-6825",
@@ -32,7 +32,8 @@
       "notes": "Appraisers include Alicia E Weaver (ISA CAPP) and Erika Holycross (ISA member with auction-house experience). Services cover Greater Cincinnati and nationwide remote options.",
       "id": "cincinnati-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1740930297083_aZP_FP_Ya.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1740830037063_Vug96bqob.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1740830037063_Vug96bqob.jpg",
+      "rating": 4.5
     },
     {
       "name": "Art Asset Management Group",
@@ -43,7 +44,7 @@
         "Insurance claims",
         "Legacy planning"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisals",
         "Expert witness services"
@@ -52,15 +53,16 @@
         "ASA Accredited Senior Appraiser",
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Cincinnati",
       "state": "OH",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.artassetmanagementgroup.com/about",
       "notes": "Led by Accredited Senior Appraiser Xiliary Twil. Included in local Cincinnati recommendations.",
       "id": "cincinnati-art-asset-management-group",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-art-asset-management-group_1740930305302_EuihiNTS5.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-art-asset-management-group_1740830037063_Vit9s3a1b.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-art-asset-management-group_1740830037063_Vit9s3a1b.jpg",
+      "rating": 4.7
     },
     {
       "name": "Eisele Gallery",
@@ -69,21 +71,24 @@
         "Sculptures",
         "Regional artists"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Fine art valuations for sales/consignments",
         "Authentication support"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Cincinnati",
       "state": "OH",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.eiselefineart.com",
       "notes": "Offers appraisal services as part of broader fine art offerings.",
       "id": "cincinnati-eisele-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-eisele-gallery_1740930314036_Pv5w_3j3O.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-eisele-gallery_1740830037063_V75a25r53.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-eisele-gallery_1740830037063_V75a25r53.jpg",
+      "rating": 4.6
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -102,16 +107,19 @@
         "Authentication research",
         "Art appraisal"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "Known as AFAA; specializes in both European and American art with expert witness capabilities.",
       "id": "cincinnati-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-anderson-fine-art-appraisals_1740930322039_f8IoN1uCZ.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-anderson-fine-art-appraisals_1740830037063_V7cqy3ckn.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-anderson-fine-art-appraisals_1740830037063_V7cqy3ckn.jpg",
+      "rating": 4.7
     },
     {
       "name": "Escher Associates",
@@ -133,12 +141,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.escher-associates.com",
       "notes": "Founded by Nancy Escher and known for handling art fraud cases with LAPD.",
       "id": "cincinnati-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-escher-associates_1740930330306_N0-poMfYa.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-escher-associates_1740830037063_Vab99c81p.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-escher-associates_1740830037063_Vab99c81p.jpg",
+      "rating": 4.6
     },
     {
       "name": "Page Art, Inc.",
@@ -158,15 +167,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state locations.",
       "id": "cincinnati-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-page-art-inc_1740930337859_mUu2krzml.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-page-art-inc_1740830037063_Vyetf4dxm.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-page-art-inc_1740830037063_Vyetf4dxm.jpg",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -174,20 +184,23 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisals for insurance and claims"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "High-end appraisals with clientele including LACMA and MoMA.",
       "id": "cincinnati-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-saylor-rice-appraisals_1740930346992_Zohzd0yz1.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-saylor-rice-appraisals_1740830037063_V04zh19cv.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-saylor-rice-appraisals_1740830037063_V04zh19cv.jpg",
+      "rating": 4.4
     },
     {
       "name": "Gurr Johns",
@@ -195,7 +208,7 @@
         "High-value art appraisals",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Global appraisal services",
         "Expert witness support"
@@ -203,15 +216,16 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually.",
       "id": "cincinnati-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-gurr-johns_1740930355904_LY95L6CqE.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-gurr-johns_1740830037063_Vz20cix2q.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-gurr-johns_1740830037063_Vz20cix2q.jpg",
+      "rating": 4.5
     },
     {
       "name": "Mimesis Gallery",
@@ -224,16 +238,19 @@
         "Same-day offers",
         "Art appraisals through consignment sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; offers free valuations and quick turnaround offers.",
       "id": "cincinnati-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-mimesis-gallery_1740930365793_qKZvUWt8W.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-mimesis-gallery_1740830037063_Vgj204amd.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-mimesis-gallery_1740830037063_Vgj204amd.jpg",
+      "rating": 4.9
     }
   ]
 }

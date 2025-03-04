@@ -270,6 +270,21 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
     </div>
 
     <script type="module" src="${jsPath}"></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>`;
 }
@@ -424,7 +439,7 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="appraiser-content">
+    <div id="root">
       <!-- This content will be replaced by client-side React when JS loads -->
       <header>
         <nav>
@@ -472,6 +487,21 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
     
     <!-- Load JS at the end for better performance -->
     <script src="${jsPath}" defer></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>`;
 }

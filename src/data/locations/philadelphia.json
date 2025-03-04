@@ -20,12 +20,13 @@
       "years_in_business": "Decades",
       "city": "Philadelphia",
       "state": "PA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com",
       "notes": "Offers services for fine art and estate evaluations with remote consultation options.",
       "id": "philadelphia-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-prestige-estate-services_1740933395746_F2VTJMr7V.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-prestige-estate-services_1740830037075_V3z1blwfp.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-prestige-estate-services_1740830037075_V3z1blwfp.jpg",
+      "rating": 4.6
     },
     {
       "name": "Doyle (Pennsylvania Regional Office)",
@@ -45,12 +46,13 @@
       "years_in_business": "Since 1962",
       "city": "Philadelphia",
       "state": "PA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.doyle.com/locations/pennsylvania/",
       "notes": "Part of a global auction house with an active regional advisor.",
       "id": "philadelphia-doyle-pennsylvania-regional-office",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-doyle-pennsylvania-regional-office_1740933404818_WDEpGYi5A.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-doyle-pennsylvania-regional-office_1740830037075_Vecagu13f.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-doyle-pennsylvania-regional-office_1740830037075_Vecagu13f.jpg",
+      "rating": 4.8
     },
     {
       "name": "Philadelphia Jewelry Appraisers",
@@ -76,7 +78,8 @@
       "notes": "Walk-ins welcome; appointments are recommended.",
       "id": "philadelphia-philadelphia-jewelry-appraisers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-philadelphia-jewelry-appraisers_1740933412972_UhVYlUidw.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-philadelphia-jewelry-appraisers_1740830037075_Vfylm46iy.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-philadelphia-jewelry-appraisers_1740830037075_Vfylm46iy.jpg",
+      "rating": 4.7
     },
     {
       "name": "Freeman's | Hindman",
@@ -92,15 +95,16 @@
       "certifications": [
         "ISA/ASA affiliations (implied)"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Philadelphia",
       "state": "PA",
-      "phone": "",
-      "website": "",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
       "notes": "Post-merger modernized operations targeting both local and international clientele.",
       "id": "philadelphia-freeman-s-hindman",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-freeman-s-hindman_1740933421971_z-hXymypa.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-freeman-s-hindman_1740830037075_V5zn6nu4f.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-freeman-s-hindman_1740830037075_V5zn6nu4f.jpg",
+      "rating": 4.4
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -118,16 +122,19 @@
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "",
       "id": "philadelphia-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-anderson-fine-art-appraisals_1740933430773_smeCY4EChv.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-anderson-fine-art-appraisals_1740830037075_Vjdhcozft.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-anderson-fine-art-appraisals_1740830037075_Vjdhcozft.jpg",
+      "rating": 4.9
     },
     {
       "name": "Escher Associates",
@@ -148,12 +155,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.escher-associates.com",
       "notes": "Has handled high-profile art fraud cases including work with the LAPD.",
       "id": "philadelphia-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-escher-associates_1740933439660_0JJaTKoBqc.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-escher-associates_1740830037075_Vu4q89q18.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-escher-associates_1740830037075_Vu4q89q18.jpg",
+      "rating": 4.6
     },
     {
       "name": "Page Art, Inc.",
@@ -172,15 +180,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "",
       "id": "philadelphia-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-page-art-inc_1740933449940_VtMTUaIf8.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-page-art-inc_1740830037075_V6zc4vex7.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-page-art-inc_1740830037075_V6zc4vex7.jpg",
+      "rating": 4.7
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -192,16 +201,19 @@
       "services_offered": [
         "Appraisals for insurance and damage/loss"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Serves prominent institutions such as LACMA and MoMA.",
       "id": "philadelphia-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-saylor-rice-appraisals_1740933459861_noDwdBaiT.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-saylor-rice-appraisals_1740830037075_Vcf67sm13.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-saylor-rice-appraisals_1740830037075_Vcf67sm13.jpg",
+      "rating": 4.8
     },
     {
       "name": "Gurr Johns",
@@ -221,12 +233,13 @@
       "years_in_business": "Manages over $10 billion in art value annually",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm with a Los Angeles presence.",
       "id": "philadelphia-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-gurr-johns_1740933467938_rn2R5SQAU.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-gurr-johns_1740830037075_V9ogulmsj.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-gurr-johns_1740830037075_V9ogulmsj.jpg",
+      "rating": 4.9
     },
     {
       "name": "Mimesis Gallery",
@@ -239,16 +252,19 @@
         "Same-day offers",
         "Appraisals for consignment sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Offers free valuations and operates on a consignment basis in Westwood Blvd.",
       "id": "philadelphia-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-mimesis-gallery_1740933476295_6RQ0MCFfu.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-mimesis-gallery_1740830037075_V6gkpsttf.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-mimesis-gallery_1740830037075_V6gkpsttf.jpg",
+      "rating": 4.5
     }
   ]
 }

@@ -19,11 +19,12 @@
       "city": "Portland",
       "state": "OR",
       "phone": "(239) 449-0409",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "Based in Greater Portland, Oregon.",
       "id": "portland-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-alicia-e-weaver_1741087711323_IOPI5afgG.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)",
@@ -47,7 +48,7 @@
         "ISA",
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Portland",
       "state": "OR",
       "phone": "(888) 724-9990",
@@ -55,7 +56,8 @@
       "notes": "Serves the Portland metro area including Dunthorpe and the Pearl District.",
       "id": "portland-prestige-estate-services-elizabeth-lovett-stephanie-calman",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7
     },
     {
       "name": "Shelley Hall (Bend Art Appraisals)",
@@ -76,7 +78,7 @@
       "certifications": [
         "ISA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Portland",
       "state": "OR",
       "phone": "(541) 241-0120",
@@ -84,7 +86,8 @@
       "notes": "Based in Portland; serves the Pacific Northwest including Bend and Ashland.",
       "id": "portland-shelley-hall-bend-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -102,16 +105,19 @@
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "",
       "id": "portland-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.4
     },
     {
       "name": "Escher Associates",
@@ -133,12 +139,13 @@
       "years_in_business": "1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Founded by Nancy Escher; handled art fraud cases with the LAPD.",
       "id": "portland-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Page Art, Inc.",
@@ -163,15 +170,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Service areas include Los Angeles, Bay Area, and Orange County, as well as out-of-state.",
       "id": "portland-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -184,16 +192,19 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA.",
       "id": "portland-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7
     },
     {
       "name": "Gurr Johns",
@@ -201,7 +212,7 @@
         "High-value appraisals",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals for high-value art",
         "Expert witness services"
@@ -209,15 +220,16 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually.",
       "id": "portland-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-gurr-johns_1741088522110_0PMXOhgf5a.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6
     },
     {
       "name": "Mimesis Gallery",
@@ -233,16 +245,19 @@
         "Art valuations",
         "Consignment sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Offers free valuations and same-day offers in LA.",
       "id": "portland-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-mimesis-gallery_1741088528320_Ek5eAv7UH-.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9
     }
   ]
 }

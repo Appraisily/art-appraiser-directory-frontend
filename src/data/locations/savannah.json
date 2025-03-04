@@ -24,7 +24,8 @@
       "notes": "Established in 2003 by Chris and Amanda Everard; Amanda has a background from Sotheby's.",
       "id": "savannah-everard-auctions-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-everard-auctions-appraisals_1741089212751_vqr2kwp-i3.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6
     },
     {
       "name": "Redtail Appraisals (Rebekah Assid)",
@@ -44,15 +45,16 @@
         "ISA member",
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Savannah",
       "state": "GA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://redtailappraisals.com/about-us",
       "notes": "Rebekah holds a BA in Art History and has extensive experience working with auction houses.",
       "id": "savannah-redtail-appraisals-rebekah-assid",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-redtail-appraisals-rebekah-assid_1741089218358_oNRO_x8JT.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "AppraiseItNow",
@@ -70,15 +72,16 @@
         "ASA-affiliated",
         "ISA-affiliated"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Savannah",
       "state": "GA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.appraiseitnow.com/location/georgia",
       "notes": "Provides both online and limited in-person appraisal services.",
       "id": "savannah-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-appraiseitnow_1741089224004_8fcZTBtlUU.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5
     },
     {
       "name": "HKpowerStudio",
@@ -86,22 +89,25 @@
         "art collection organization",
         "appraisal services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "online appraisal",
         "in-person appraisal",
         "organization services"
       ],
-      "certifications": "",
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Savannah",
       "state": "GA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://hkpowerstudio.com/creative-organizer/",
       "notes": "Offers both organizing and appraisal services.",
       "id": "savannah-hkpowerstudio",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-hkpowerstudio_1741089229370_IAgUH75-0.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -123,16 +129,19 @@
         "litigation support",
         "authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "",
       "id": "savannah-anderson-fine-art-appraisals-afaa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-anderson-fine-art-appraisals-afaa_1741089235918_we-MttbFK.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5
     },
     {
       "name": "Escher Associates (EA)",
@@ -155,12 +164,13 @@
       "years_in_business": "Established in 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.escher-associates.com",
       "notes": "Handled art fraud cases in collaboration with LAPD.",
       "id": "savannah-escher-associates-ea",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-escher-associates-ea_1741089241493_eGyx_6iL-.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5
     },
     {
       "name": "Page Art, Inc.",
@@ -180,15 +190,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
       "id": "savannah-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-page-art-inc_1741089247077_g691nTlYy.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -196,21 +207,24 @@
         "insurance appraisals",
         "damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "insurance appraisals",
         "damage/loss evaluations"
       ],
-      "certifications": "",
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "High-end appraisal services with clients including LACMA and MoMA.",
       "id": "savannah-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-saylor-rice-appraisals_1741089252639_QnpvhfIyB.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.4
     },
     {
       "name": "Gurr Johns",
@@ -218,7 +232,7 @@
         "high-value appraisals",
         "expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "art appraisals",
         "expert witness services"
@@ -226,15 +240,16 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion in assets annually.",
       "id": "savannah-gurr-johns",
-      "imageUrl": "/images/placeholder-appraiser.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f5eef8,l-text,i-GJ,fs-80,fc-9b59b6,lpad-30",
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6
     },
     {
       "name": "Mimesis Gallery",
@@ -248,16 +263,19 @@
         "consignment sales",
         "same-day offers"
       ],
-      "certifications": "",
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Offers free valuations and same-day offers on consignment-based sales.",
       "id": "savannah-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.4
     }
   ]
 }

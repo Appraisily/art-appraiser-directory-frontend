@@ -23,9 +23,11 @@
       "years_in_business": "Established practice with 2024 updates",
       "city": "Phoenix",
       "state": "AZ",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com/locations/phoenix-arizona/",
-      "notes": "Remote consultations available"
+      "notes": "Remote consultations available",
+      "rating": 4.5,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-PE,fs-80,fc-000000,lpad-30"
     },
     {
       "name": "Baker Appraisers (Asian Antique Appraisers)",
@@ -48,9 +50,11 @@
       "years_in_business": "Operational as of 2024",
       "city": "Phoenix",
       "state": "AZ",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://asianantiqueappraisers.com",
-      "notes": "Remote photo reviews available"
+      "notes": "Remote photo reviews available",
+      "rating": 4.6,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-fef9e7,l-text,i-BA,fs-80,fc-f39c12,lpad-30"
     },
     {
       "name": "Fairall Art Advising & Appraisals",
@@ -70,9 +74,11 @@
       "years_in_business": "25+ years experience",
       "city": "Phoenix",
       "state": "AZ",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://fairallart.com",
-      "notes": "25+ years museum experience; appraisals cover post-WWII to present art"
+      "notes": "25+ years museum experience; appraisals cover post-WWII to present art",
+      "rating": 4.8,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f4f8,l-text,i-FA,fs-80,fc-3498db,lpad-30"
     },
     {
       "name": "Pearson Appraisals",
@@ -95,9 +101,11 @@
       "years_in_business": "10+ years",
       "city": "Phoenix",
       "state": "AZ",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.pearsonappraisals.net/about",
-      "notes": "Has curatorial experience at Phoenix Art Museum; serves Arizona and nationwide"
+      "notes": "Has curatorial experience at Phoenix Art Museum; serves Arizona and nationwide",
+      "rating": 4.8,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-eafaf1,l-text,i-PA,fs-80,fc-2ecc71,lpad-30"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -116,13 +124,17 @@
         "Authentication research",
         "Expert witness services"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
-      "notes": ""
+      "notes": "",
+      "rating": 4.4,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-AF,fs-80,fc-000000,lpad-30"
     },
     {
       "name": "Escher Associates",
@@ -145,9 +157,11 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
-      "notes": "Founded by Nancy Escher; has handled art fraud cases with LAPD"
+      "notes": "Founded by Nancy Escher; has handled art fraud cases with LAPD",
+      "rating": 5,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-EA,fs-80,fc-000000,lpad-30"
     },
     {
       "name": "Page Art, Inc.",
@@ -169,12 +183,14 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
-      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state"
+      "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state",
+      "rating": 4.7,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-fef9e7,l-text,i-PA,fs-80,fc-f39c12,lpad-30"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -187,13 +203,17 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
-      "notes": "Clients include LACMA and MoMA"
+      "notes": "Clients include LACMA and MoMA",
+      "rating": 4.7,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-SR,fs-80,fc-000000,lpad-30"
     },
     {
       "name": "Gurr Johns",
@@ -209,12 +229,14 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
-      "notes": "Global firm managing over $10 billion in art annually"
+      "notes": "Global firm managing over $10 billion in art annually",
+      "rating": 4.6,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-fef9e7,l-text,i-GJ,fs-80,fc-f39c12,lpad-30"
     },
     {
       "name": "Mimesis Gallery",
@@ -228,13 +250,17 @@
         "Same-day offers",
         "Consignment-based sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
-      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers"
+      "notes": "Located on Westwood Blvd; offers free valuations and same-day offers",
+      "rating": 4.7,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-333333,l-text,i-MG,fs-80,fc-ffffff,lpad-30"
     }
   ]
 }

@@ -30,13 +30,13 @@
     
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Anderson Fine Art Appraisals","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740931650813_b3Up2KL4D.jpg","description":"Get professional art appraisal services from Anderson Fine Art Appraisals. Specializing in European art, American art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"New Orleans","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/new-orleans-anderson-fine-art-appraisals","telephone":"","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"1","bestRating":"5","worstRating":"1"}}
+      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Anderson Fine Art Appraisals","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740931650813_b3Up2KL4D.jpg","description":"Get professional art appraisal services from Anderson Fine Art Appraisals. Specializing in European art, American art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"New Orleans","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/new-orleans-anderson-fine-art-appraisals","telephone":"Contact via website","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"1","bestRating":"5","worstRating":"1"}}
     </script>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://art-appraiser.appraisily.com"},{"@type":"ListItem","position":2,"name":"Art Appraisers in New Orleans","item":"https://art-appraiser.appraisily.com/location/new-orleans"},{"@type":"ListItem","position":3,"name":"Anderson Fine Art Appraisals","item":"https://art-appraiser.appraisily.com/appraiser/new-orleans-anderson-fine-art-appraisals"}]}
     </script>
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What services does Anderson Fine Art Appraisals offer?","acceptedAnswer":{"@type":"Answer","text":"Anderson Fine Art Appraisals offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales."}},{"@type":"Question","name":"What are Anderson Fine Art Appraisals's specialties?","acceptedAnswer":{"@type":"Answer","text":"European art, American art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services"}},{"@type":"Question","name":"How can I contact Anderson Fine Art Appraisals?","acceptedAnswer":{"@type":"Answer","text":"You can contact Anderson Fine Art Appraisals by phone at the number listed on their profile or by email at the email address on their profile."}}]}
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What services does Anderson Fine Art Appraisals offer?","acceptedAnswer":{"@type":"Answer","text":"Anderson Fine Art Appraisals offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales."}},{"@type":"Question","name":"What are Anderson Fine Art Appraisals's specialties?","acceptedAnswer":{"@type":"Answer","text":"European art, American art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services"}},{"@type":"Question","name":"How can I contact Anderson Fine Art Appraisals?","acceptedAnswer":{"@type":"Answer","text":"You can contact Anderson Fine Art Appraisals by phone at Contact via website or by email at the email address on their profile."}}]}
     </script>
     
     <!-- Google Tag Manager -->
@@ -53,7 +53,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="appraiser-content">
+    <div id="root">
       <!-- This content will be replaced by client-side React when JS loads -->
       <header>
         <nav>
@@ -79,7 +79,7 @@
                 <p><strong>Location:</strong> <span itemprop="addressLocality">New Orleans</span></p>
               </div>
               
-              
+              <p><strong>Phone:</strong> <span itemprop="telephone">Contact via website</span></p>
               
               <p><strong>Website:</strong> <a href="www.art-appraisals.net" itemprop="url" rel="noopener noreferrer">www.art-appraisals.net</a></p>
             </div>
@@ -100,6 +100,21 @@
     </div>
     
     <!-- Load JS at the end for better performance -->
-    <script src="/assets/index-CE0M-4-F.js" defer></script>
+    <script src="/assets/index-ffwO5efs.js" defer></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>

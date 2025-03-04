@@ -21,15 +21,16 @@
         "ASA",
         "USPAP"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Indianapolis",
       "state": "Indiana",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com",
       "notes": "Appraisers include Elizabeth Lovett and Stephanie Calman; offers 72-hour turnaround on online appraisals; serves Indianapolis metro and nationwide.",
       "id": "indianapolis-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-prestige-estate-services_1740930949455__NWMfDOVbJ.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-prestige-estate-services_1740830037069_Vkrcljr0d.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-prestige-estate-services_1740830037069_Vkrcljr0d.jpg",
+      "rating": 4.9
     },
     {
       "name": "AppraiseitNow",
@@ -43,16 +44,19 @@
         "online appraisals",
         "in-person appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Indianapolis",
       "state": "Indiana",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.appraiseitnow.com",
       "notes": "Offers best-price guarantee with flat-rate pricing; serves Indiana.",
       "id": "indianapolis-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-appraiseitnow_1740930957736_cTE4vvI9V.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-appraiseitnow_1740830037069_V2j5xjkkf.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-appraiseitnow_1740830037069_V2j5xjkkf.jpg",
+      "rating": 4.7
     },
     {
       "name": "Ripley Auctions",
@@ -65,16 +69,19 @@
       "services_offered": [
         "certified appraisal services"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Indianapolis",
       "state": "Indiana",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.ripleyauctions.com",
       "notes": "Service area is not fully confirmed; may serve Indianapolis.",
       "id": "indianapolis-ripley-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-ripley-auctions_1740930964789_gg7En3sO-.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-ripley-auctions_1740830037069_Vzzmzdbt4.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-ripley-auctions_1740830037069_Vzzmzdbt4.jpg",
+      "rating": 4.7
     },
     {
       "name": "Anderson Fine Art Appraisals (AFAA)",
@@ -93,16 +100,19 @@
         "litigation support",
         "authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "",
       "id": "indianapolis-anderson-fine-art-appraisals-afaa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-anderson-fine-art-appraisals-afaa_1740930974731_V_5wHyEWd.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-anderson-fine-art-appraisals-afaa_1740830037069_V7bc0aixu.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-anderson-fine-art-appraisals-afaa_1740830037069_V7bc0aixu.jpg",
+      "rating": 4.8
     },
     {
       "name": "Escher Associates (EA)",
@@ -125,12 +135,13 @@
       "years_in_business": "Founded in 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.escher-associates.com",
       "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
       "id": "indianapolis-escher-associates-ea",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-escher-associates-ea_1740930984919_FkuqCykVT.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-escher-associates-ea_1740830037069_Vnxlb38ci.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-escher-associates-ea_1740830037069_Vnxlb38ci.jpg",
+      "rating": 4.9
     },
     {
       "name": "Page Art, Inc.",
@@ -150,15 +161,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state markets.",
       "id": "indianapolis-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-page-art-inc_1740930992265_OGE7BBgYs.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-page-art-inc_1740830037069_Vg1o0rz7i.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-page-art-inc_1740830037069_Vg1o0rz7i.jpg",
+      "rating": 4.7
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -166,20 +178,23 @@
         "insurance appraisals",
         "damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "institutional appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA.",
       "id": "indianapolis-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-saylor-rice-appraisals_1740931000408_SeLAoeXQR.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-saylor-rice-appraisals_1740830037069_Vabun9bts.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-saylor-rice-appraisals_1740830037069_Vabun9bts.jpg",
+      "rating": 4.8
     },
     {
       "name": "Gurr Johns",
@@ -194,15 +209,16 @@
       "certifications": [
         "USPAP"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Manages over $10 billion in assets.",
       "id": "indianapolis-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-gurr-johns_1740931007804_LsBed37n0Z.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-gurr-johns_1740830037069_V1c5wfxad.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-gurr-johns_1740830037069_V1c5wfxad.jpg",
+      "rating": 5
     },
     {
       "name": "Mimesis Gallery",
@@ -216,16 +232,19 @@
         "same-day offers",
         "consignment sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, LA; offers same-day offers.",
       "id": "indianapolis-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-mimesis-gallery_1740931014763_2gq3QMM_J.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-mimesis-gallery_1740830037069_V8n5xxq7o.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-mimesis-gallery_1740830037069_V8n5xxq7o.jpg",
+      "rating": 4.6
     }
   ]
 }

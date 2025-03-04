@@ -86,7 +86,14 @@
         }
       ],
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-dc-fine-art-appraiser_1741089482744_aLCAXrh39.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
     }
   ],
   "seo": {

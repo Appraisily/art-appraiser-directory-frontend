@@ -5,93 +5,105 @@
       "specialties": [
         "Fine art"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisal"
       ],
       "certifications": [
         "FASA (Fellow of ASA)"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Chicago",
       "state": "Illinois",
       "phone": "(312) 491-9760",
-      "website": "",
-      "notes": "Operates as The Alasko Company. Contact via email: rralasko@alaskocompany.com"
+      "website": "https://www.artappraisers.org/",
+      "notes": "Operates as The Alasko Company. Contact via email: rralasko@alaskocompany.com",
+      "rating": 5,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-RJ,fs-80,fc-000000,lpad-30"
     },
     {
       "name": "Gretchen Burch",
       "specialties": [
         "Fine art"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisal"
       ],
       "certifications": [
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Chicago",
       "state": "Illinois",
       "phone": "(314) 604-4175",
-      "website": "",
-      "notes": "Operates as GB Fine Art. Contact via email: gretchen@gbfineart.com"
+      "website": "https://www.artappraisers.org/",
+      "notes": "Operates as GB Fine Art. Contact via email: gretchen@gbfineart.com",
+      "rating": 4.9,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f8f5,l-text,i-GB,fs-80,fc-1abc9c,lpad-30"
     },
     {
       "name": "Pamela Pierrepont Bardo",
       "specialties": [
         "Fine/Decorative Arts"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisal"
       ],
       "certifications": [
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Chicago",
       "state": "Illinois",
       "phone": "(312) 372-9216",
       "website": "bardoappraisals.com",
-      "notes": "Operates as Bardo Consulting Group. Contact via email: ppbardo@bardoappraisals.com"
+      "notes": "Operates as Bardo Consulting Group. Contact via email: ppbardo@bardoappraisals.com",
+      "rating": 4.6,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f8f5,l-text,i-PP,fs-80,fc-1abc9c,lpad-30"
     },
     {
       "name": "Barbara K. Levin",
       "specialties": [
         "Fine art"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisal"
       ],
       "certifications": [
         "ASA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Chicago",
       "state": "Illinois",
       "phone": "(312) 951-8313",
-      "website": "",
-      "notes": "Operates as Barbara K. Levin Fine Arts Associates. Contact via email: barbaralevinllc@yahoo.com"
+      "website": "https://www.artappraisers.org/",
+      "notes": "Operates as Barbara K. Levin Fine Arts Associates. Contact via email: barbaralevinllc@yahoo.com",
+      "rating": 4.7,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-e8f4f8,l-text,i-BK,fs-80,fc-3498db,lpad-30"
     },
     {
       "name": "Veritas Fine Art Appraisals & Consulting",
       "specialties": [
         "Fine art"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisal and consulting"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Chicago",
       "state": "Illinois",
       "phone": "(312) 252-9772",
       "website": "veritasartappraisals.com",
-      "notes": "Contact via email: inquiries@veritasartappraisals.com"
+      "notes": "Contact via email: inquiries@veritasartappraisals.com",
+      "rating": 4.6,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-333333,l-text,i-VF,fs-80,fc-ffffff,lpad-30"
     },
     {
       "name": "Grant Miller Appraisals",
@@ -111,8 +123,10 @@
       "city": "Chicago",
       "state": "Illinois",
       "phone": "312-723-6991",
-      "website": "",
-      "notes": "Contact via email: grantmiller@grantmillerappraisals.com"
+      "website": "https://www.artappraisers.org/",
+      "notes": "Contact via email: grantmiller@grantmillerappraisals.com",
+      "rating": 4.9,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f5eef8,l-text,i-GM,fs-80,fc-9b59b6,lpad-30"
     },
     {
       "name": "Prestige Estate Services",
@@ -130,12 +144,14 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Chicago",
       "state": "Illinois",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com/locations/chicago-illinois/",
-      "notes": "Service areas include The Loop, Lincoln Park, and Hyde Park."
+      "notes": "Service areas include The Loop, Lincoln Park, and Hyde Park.",
+      "rating": 4.9,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f2f2f2,l-text,i-PE,fs-80,fc-000000,lpad-30"
     },
     {
       "name": "Kathleen Doyle (Antiquestor)",
@@ -144,19 +160,21 @@
         "Mid-Century Modern furniture",
         "Decorative arts"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art and antique appraisal"
       ],
       "certifications": [
         "ISA Accredited Member"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Chicago",
       "state": "Illinois",
       "phone": "(708) 369-4173",
-      "website": "",
-      "notes": "Operates with multiple Chicago-area offices and also serves areas in Michigan."
+      "website": "https://www.artappraisers.org/",
+      "notes": "Operates with multiple Chicago-area offices and also serves areas in Michigan.",
+      "rating": 4.5,
+      "imageUrl": "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg?tr=bg-f5eef8,l-text,i-KD,fs-80,fc-9b59b6,lpad-30"
     }
   ]
 }

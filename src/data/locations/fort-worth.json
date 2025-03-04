@@ -9,7 +9,7 @@
         "Antique Furniture",
         "Sculptures"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Estate Tax Valuations",
         "Insurance Documentation",
@@ -19,15 +19,16 @@
         "ISA",
         "USPAP"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Fort Worth",
       "state": "TX",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com/locations/fort-worth-texas/",
       "notes": "Works for Prestige Estate Services",
       "id": "fort-worth-elizabeth-lovett",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-elizabeth-lovett_1740930688986_r-R2YIh7o.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-elizabeth-lovett_1740830037067_Vi2gvs9oi.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-elizabeth-lovett_1740830037067_Vi2gvs9oi.jpg",
+      "rating": 4.8
     },
     {
       "name": "Stephanie Calman",
@@ -38,7 +39,7 @@
         "Antique Furniture",
         "Sculptures"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Estate Tax Valuations",
         "Insurance Documentation",
@@ -48,15 +49,16 @@
         "ISA",
         "USPAP"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Fort Worth",
       "state": "TX",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com/locations/fort-worth-texas/",
       "notes": "Works for Prestige Estate Services",
       "id": "fort-worth-stephanie-calman",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-stephanie-calman_1740930697691_F1YjuiS8g.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-stephanie-calman_1740830037067_Vafbxxays.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-stephanie-calman_1740830037067_Vafbxxays.jpg",
+      "rating": 4.7
     },
     {
       "name": "Alicia E Weaver",
@@ -65,7 +67,7 @@
         "Art",
         "Decorative Arts"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Estate Tax Valuations",
         "Divorce Settlements"
@@ -75,15 +77,16 @@
         "USPAP",
         "ISA CAPP"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Fort Worth",
       "state": "TX",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com/locations/fort-worth-texas/",
       "notes": "ISA CAPP certified appraiser at Prestige Estate Services",
       "id": "fort-worth-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-alicia-e-weaver_1740930707670_614-AXiq6.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-alicia-e-weaver_1740830037067_Vjnskgbax.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-alicia-e-weaver_1740830037067_Vjnskgbax.jpg",
+      "rating": 4.5
     },
     {
       "name": "Hackwith Art & Personal Property Appraisals",
@@ -111,12 +114,13 @@
       "years_in_business": "Since 1985",
       "city": "Fort Worth",
       "state": "TX",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://hackwithappraisals.com/appraisal-information-and-pricing/",
       "notes": "Remote consultations available; led by accredited professionals",
       "id": "fort-worth-hackwith-art-personal-property-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-hackwith-art-personal-property-appraisals_1740930716643__CW2vBjyc.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-hackwith-art-personal-property-appraisals_1740830037067_Vr5gqzmdz.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-hackwith-art-personal-property-appraisals_1740830037067_Vr5gqzmdz.jpg",
+      "rating": 5
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -134,16 +138,19 @@
         "Litigation Support",
         "Authentication Research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "",
       "id": "fort-worth-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-anderson-fine-art-appraisals_1740930724661_bvbD7S8sR.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-anderson-fine-art-appraisals_1740830037067_Vqz8voukk.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-anderson-fine-art-appraisals_1740830037067_Vqz8voukk.jpg",
+      "rating": 4.4
     },
     {
       "name": "Escher Associates",
@@ -166,12 +173,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Founded by Nancy Escher",
       "id": "fort-worth-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-escher-associates_1740930732772_6HrWb5WTW.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-escher-associates_1740830037067_Vav55sa64.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-escher-associates_1740830037067_Vav55sa64.jpg",
+      "rating": 4.9
     },
     {
       "name": "Page Art, Inc.",
@@ -196,15 +204,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Provides services in Los Angeles, Bay Area, Orange County, and out-of-state",
       "id": "fort-worth-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-page-art-inc_1740930741218_KgQC8g6uz.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-page-art-inc_1740830037067_V95q33wau.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-page-art-inc_1740830037067_V95q33wau.jpg",
+      "rating": 4.6
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -212,21 +221,24 @@
         "Insurance Appraisals",
         "Damage/Loss Appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance Claims",
         "Damage/Loss Appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; likely high-end services",
       "id": "fort-worth-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-saylor-rice-appraisals_1740930752619_25TolBHzG.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-saylor-rice-appraisals_1740830037067_Vpgkapn1v.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-saylor-rice-appraisals_1740830037067_Vpgkapn1v.jpg",
+      "rating": 4.4
     },
     {
       "name": "Gurr Johns",
@@ -234,7 +246,7 @@
         "High-value Art Appraisals",
         "Expert Witness Services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art Valuation",
         "Expert Witness",
@@ -243,15 +255,16 @@
       "certifications": [
         "USPAP"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually",
       "id": "fort-worth-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-gurr-johns_1740930761014_zVAK1a2naO.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-gurr-johns_1740830037067_Vi8hyij76.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-gurr-johns_1740830037067_Vi8hyij76.jpg",
+      "rating": 5
     },
     {
       "name": "Mimesis Gallery",
@@ -267,16 +280,19 @@
         "Appraisals",
         "Consignment Sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Offers same-day offers; located on Westwood Blvd, Los Angeles",
       "id": "fort-worth-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-mimesis-gallery_1740930768610_QBZg1bOZO.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-mimesis-gallery_1740830037067_Vwaatxjeh.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-mimesis-gallery_1740830037067_Vwaatxjeh.jpg",
+      "rating": 4.5
     }
   ]
 }

@@ -30,7 +30,7 @@
     
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Mary Peck Art Advisory","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740930533611_5JoHkFJ2TW.jpg","description":"Get professional art appraisal services from Mary Peck Art Advisory. Specializing in Modern/Contemporary art (19th–21st century), Photography. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Dallas","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/dallas-mary-peck-art-advisory","telephone":"303-355-0050","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"1","bestRating":"5","worstRating":"1"}}
+      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Mary Peck Art Advisory","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740930533611_5JoHkFJ2TW.jpg","description":"Get professional art appraisal services from Mary Peck Art Advisory. Specializing in Modern/Contemporary art (19th–21st century), Photography. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Dallas","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/dallas-mary-peck-art-advisory","telephone":"303-355-0050","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"1","bestRating":"5","worstRating":"1"}}
     </script>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://art-appraiser.appraisily.com"},{"@type":"ListItem","position":2,"name":"Art Appraisers in Dallas","item":"https://art-appraiser.appraisily.com/location/dallas"},{"@type":"ListItem","position":3,"name":"Mary Peck Art Advisory","item":"https://art-appraiser.appraisily.com/appraiser/dallas-mary-peck-art-advisory"}]}
@@ -53,7 +53,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="appraiser-content">
+    <div id="root">
       <!-- This content will be replaced by client-side React when JS loads -->
       <header>
         <nav>
@@ -100,6 +100,21 @@
     </div>
     
     <!-- Load JS at the end for better performance -->
-    <script src="/assets/index-CE0M-4-F.js" defer></script>
+    <script src="/assets/index-ffwO5efs.js" defer></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>

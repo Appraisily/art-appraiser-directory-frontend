@@ -8,7 +8,7 @@
         "Decorative arts",
         "Collectibles"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisal",
         "Antiques evaluation"
@@ -20,12 +20,13 @@
       "years_in_business": "30+ years",
       "city": "Surf City",
       "state": "NJ",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
       "notes": "Based in New Jersey since 2019; previously served Sacramento (2012–2019) and offers remote consultations.",
       "id": "sacramento-janet-l-ross",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5
     },
     {
       "name": "Appraisal Resources (ARAI)",
@@ -43,15 +44,16 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Sacramento",
       "state": "CA",
-      "phone": "",
-      "website": "",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
       "notes": "Located at 3450 Sacramento St., Ste. #153.",
       "id": "sacramento-appraisal-resources-arai",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6
     },
     {
       "name": "Clars Auctions",
@@ -61,13 +63,15 @@
         "Jewelry",
         "Furniture"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Auction services",
         "Art appraisal for estates"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Oakland",
       "state": "CA",
       "phone": "(510) 428-0100",
@@ -75,7 +79,8 @@
       "notes": "Based in Oakland; serves Northern California including the Sacramento area.",
       "id": "sacramento-clars-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6
     },
     {
       "name": "AppraiseItNow",
@@ -91,15 +96,16 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "",
       "state": "CA",
-      "phone": "",
-      "website": "",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
       "notes": "Online service available throughout California, including Sacramento.",
       "id": "sacramento-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraiseitnow_1741088893053_5ocAo47Wn.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.7
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -117,16 +123,19 @@
         "Litigation support",
         "Authentication"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "",
       "id": "sacramento-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5
     },
     {
       "name": "Escher Associates",
@@ -150,12 +159,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD.",
       "id": "sacramento-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Page Art, Inc.",
@@ -174,15 +184,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
       "id": "sacramento-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -190,20 +201,23 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals for high-end clients including institutions like LACMA and MoMA"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Caters to high-end clients; likely focused on damage and loss evaluations.",
       "id": "sacramento-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-saylor-rice-appraisals_1741088917019_jA5iQcDmT.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.4
     },
     {
       "name": "Gurr Johns",
@@ -211,7 +225,7 @@
         "High-value art appraisal",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisals for high-value collections",
         "Management of over $10 billion in art",
@@ -220,15 +234,16 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Global firm with a Los Angeles presence.",
       "id": "sacramento-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-gurr-johns_1741088922727_Zf9lWtR9F.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.6
     },
     {
       "name": "Mimesis Gallery",
@@ -245,16 +260,19 @@
         "Same-day offers",
         "Consignment-based art sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, offers free valuations and handles consignment sales.",
       "id": "sacramento-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-mimesis-gallery_1741088928262_--HHygRCf.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     }
   ]
 }

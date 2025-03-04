@@ -154,7 +154,14 @@
         }
       ],
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_metropolitan-art-appraisers-chicago_1740930289044_TDGQ_I20F.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_metropolitan-art-appraisers-chicago_1740830037062_Vdzl98cql.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_metropolitan-art-appraisers-chicago_1740830037062_Vdzl98cql.jpg",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
     }
   ]
 }

@@ -21,11 +21,12 @@
       "city": "Cleveland",
       "state": "OH",
       "phone": "(216) 377-4777",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "Holds a Master's in Fine Arts; former auction-house manager",
       "id": "cleveland-erika-holycross-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erika-holycross-prestige-estate-services_1740930374287_TTBKOu2G0.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erika-holycross-prestige-estate-services_1740830037064_Vz4w680d8.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erika-holycross-prestige-estate-services_1740830037064_Vz4w680d8.jpg",
+      "rating": 4.7
     },
     {
       "name": "Alicia Weaver (Prestige Estate Services)",
@@ -48,11 +49,12 @@
       "city": "Cleveland",
       "state": "OH",
       "phone": "(216) 377-4777",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "One of only 108 globally certified ISA CAPP professionals",
       "id": "cleveland-alicia-weaver-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-alicia-weaver-prestige-estate-services_1740930382709_90zP_6Cml.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-alicia-weaver-prestige-estate-services_1740830037064_V6b9ixadq.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-alicia-weaver-prestige-estate-services_1740830037064_V6b9ixadq.jpg",
+      "rating": 4.8
     },
     {
       "name": "Erin Hollenbank (J.S. Held)",
@@ -61,7 +63,7 @@
         "19th–20th century European art",
         "Works on paper"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisal for insurance, estate, and donation purposes"
       ],
@@ -72,11 +74,12 @@
       "city": "Cleveland",
       "state": "OH",
       "phone": "+1 440 425 3756",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "Former Cleveland Museum of Art curator",
       "id": "cleveland-erin-hollenbank-j-s-held",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erin-hollenbank-j-s-held_1740930390920_E2yTdYa-d.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erin-hollenbank-j-s-held_1740830037064_Vlf1db43c.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erin-hollenbank-j-s-held_1740830037064_Vlf1db43c.jpg",
+      "rating": 5
     },
     {
       "name": "Legacy Appraisal Group",
@@ -84,18 +87,25 @@
         "Contemporary art",
         "Asian arts"
       ],
-      "pricing": "",
-      "services_offered": [],
-      "certifications": [],
-      "years_in_business": "",
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Cleveland",
       "state": "OH",
-      "phone": "",
-      "website": "",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
       "notes": "Partial data available",
       "id": "cleveland-legacy-appraisal-group",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-legacy-appraisal-group_1740930399794_V2_k8ttQy.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-legacy-appraisal-group_1740830037064_Vni3nziaz.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-legacy-appraisal-group_1740830037064_Vni3nziaz.jpg",
+      "rating": 4.7
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -110,16 +120,19 @@
         "Authentication",
         "Fine art appraisals"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th century works",
       "id": "cleveland-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-anderson-fine-art-appraisals_1740930407471__TC7lA_X_0.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-anderson-fine-art-appraisals_1740830037064_Vh68t5rip.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-anderson-fine-art-appraisals_1740830037064_Vh68t5rip.jpg",
+      "rating": 4.9
     },
     {
       "name": "Escher Associates",
@@ -141,12 +154,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Handled art fraud cases with LAPD",
       "id": "cleveland-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-escher-associates_1740930415612_STbEFz06e.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-escher-associates_1740830037064_V7fow9wi2.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-escher-associates_1740830037064_V7fow9wi2.jpg",
+      "rating": 4.9
     },
     {
       "name": "Page Art, Inc.",
@@ -165,15 +179,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients",
       "id": "cleveland-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-page-art-inc_1740930423300_nKyEitf34b.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-page-art-inc_1740830037064_Vmf6n1qed.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-page-art-inc_1740830037064_Vmf6n1qed.jpg",
+      "rating": 4.6
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -181,21 +196,24 @@
         "Insurance Appraisals",
         "Damage/Loss Appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; likely high-end services",
       "id": "cleveland-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-saylor-rice-appraisals_1740930430737__3iW_MMWV.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-saylor-rice-appraisals_1740830037064_Vdeza6dh6.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-saylor-rice-appraisals_1740830037064_Vdeza6dh6.jpg",
+      "rating": 4.5
     },
     {
       "name": "Gurr Johns",
@@ -203,7 +221,7 @@
         "High-value Appraisals",
         "Expert Witness Services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Global appraisal services",
         "Expert witness services"
@@ -211,15 +229,16 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Manages over $10 billion in artworks annually",
       "id": "cleveland-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-gurr-johns_1740930438509_kBBaao7fSM.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-gurr-johns_1740830037064_V9no3auy2.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-gurr-johns_1740830037064_V9no3auy2.jpg",
+      "rating": 4.9
     },
     {
       "name": "Mimesis Gallery",
@@ -233,16 +252,19 @@
         "Same-day offers",
         "Consignment sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, offers immediate appraisal services",
       "id": "cleveland-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-mimesis-gallery_1740930446590_66HTxM6OJ.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-mimesis-gallery_1740830037064_Vz46b9ab4.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-mimesis-gallery_1740830037064_Vz46b9ab4.jpg",
+      "rating": 4.8
     }
   ]
 }

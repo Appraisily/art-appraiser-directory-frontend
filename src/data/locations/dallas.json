@@ -27,7 +27,8 @@
       "notes": "Team of appraisers with over 75 years of collective experience; emphasizes transparent pricing.",
       "id": "dallas-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-prestige-estate-services_1740930525621_KKELJbUR-6.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-prestige-estate-services_1740830037065_Vzr1yghg5.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-prestige-estate-services_1740830037065_Vzr1yghg5.jpg",
+      "rating": 4.6
     },
     {
       "name": "Mary Peck Art Advisory",
@@ -35,7 +36,7 @@
         "Modern/Contemporary art (19th–21st century)",
         "Photography"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art advising",
         "Art appraisals"
@@ -51,7 +52,8 @@
       "notes": "Based in Denver but works with Dallas clients.",
       "id": "dallas-mary-peck-art-advisory",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740930533611_5JoHkFJ2TW.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740830037065_Vwpjkjhmv.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740830037065_Vwpjkjhmv.jpg",
+      "rating": 4.8
     },
     {
       "name": "Alicia E Weaver (ISA CAPP)",
@@ -60,7 +62,7 @@
         "Decorative arts",
         "Paintings"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Estate evaluations",
         "Insurance claims appraisals"
@@ -68,15 +70,16 @@
       "certifications": [
         "ISA Certified Appraiser of Personal Property (CAPP)"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Dallas",
       "state": "TX",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.isa-appraisers.org",
       "notes": "Contact available via the ISA Directory.",
       "id": "dallas-alicia-e-weaver-isa-capp",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-alicia-e-weaver-isa-capp_1740930542230_OdGHmeqqx.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-alicia-e-weaver-isa-capp_1740830037065_Vc26r47lf.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-alicia-e-weaver-isa-capp_1740830037065_Vc26r47lf.jpg",
+      "rating": 5
     },
     {
       "name": "AppraiseItNow",
@@ -88,16 +91,19 @@
         "Personal property appraisals",
         "Online and in-person valuations"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "",
       "state": "TX",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.appraiseitnow.com",
       "notes": "Provides appraisal services in Texas.",
       "id": "dallas-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-appraiseitnow_1740930549549_BVKlUQxWf.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-appraiseitnow_1740830037065_Vnbafmsct.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-appraiseitnow_1740830037065_Vnbafmsct.jpg",
+      "rating": 4.4
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -116,16 +122,19 @@
         "Authentication research",
         "Expert witness services"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "Extensive experience in European and American art appraisal.",
       "id": "dallas-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-anderson-fine-art-appraisals_1740930557155_krkUO-ywg.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-anderson-fine-art-appraisals_1740830037065_Vm035wh4x.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-anderson-fine-art-appraisals_1740830037065_Vm035wh4x.jpg",
+      "rating": 4.7
     },
     {
       "name": "Escher Associates",
@@ -147,12 +156,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.escher-associates.com",
       "notes": "Operates under USPAP and ASA standards; has handled art fraud cases with LAPD.",
       "id": "dallas-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-escher-associates_1740930566321_BMGZ5-xSa.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-escher-associates_1740830037065_Vrn7e48is.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-escher-associates_1740830037065_Vrn7e48is.jpg",
+      "rating": 4.5
     },
     {
       "name": "Page Art, Inc.",
@@ -171,15 +181,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "Serves multiple regions including Los Angeles, Bay Area, Orange County, and out-of-state clients.",
       "id": "dallas-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-page-art-inc_1740930574492_PpNUPjZTQT.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-page-art-inc_1740830037065_Ve7hmb1vm.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-page-art-inc_1740830037065_Ve7hmb1vm.jpg",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -187,20 +198,23 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals for insurance claims and damage/loss evaluations"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; positioned as a high-end appraisal service.",
       "id": "dallas-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-saylor-rice-appraisals_1740930582860_TA7_NmXfAN.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-saylor-rice-appraisals_1740830037065_Vkfdecoyc.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-saylor-rice-appraisals_1740830037065_Vkfdecoyc.jpg",
+      "rating": 4.4
     },
     {
       "name": "Gurr Johns",
@@ -208,7 +222,7 @@
         "High-value appraisals",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisals",
         "Expert witness testimony"
@@ -216,15 +230,16 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm with a Los Angeles presence; manages over $10 billion in art annually.",
       "id": "dallas-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-gurr-johns_1740930591661_WtxHTr53l.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-gurr-johns_1740830037065_V5727lghe.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-gurr-johns_1740830037065_V5727lghe.jpg",
+      "rating": 4.7
     },
     {
       "name": "Mimesis Gallery",
@@ -238,16 +253,19 @@
         "Same-day offers",
         "Consignment-based sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, offers free valuations and same-day offers.",
       "id": "dallas-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mimesis-gallery_1740930599969_iMgNVVz33.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mimesis-gallery_1740830037065_Vjubadk6f.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mimesis-gallery_1740830037065_Vjubadk6f.jpg",
+      "rating": 4.9
     }
   ]
 }

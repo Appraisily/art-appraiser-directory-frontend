@@ -38,7 +38,9 @@
         "serve:static": "node ./scripts/serve-static.js",
         "debug:build": "npm run build:with-image-validation && npm run serve:static",
         "test:cleveland": "npm run build:with-image-validation && npm run fix:react-hydration location/cleveland/index.html && npm run serve:static",
-        "generate-10-images": "node scripts/generate-10-placeholder-images.js"
+        "generate-10-images": "node scripts/generate-10-placeholder-images.js",
+        "site-check": "node scripts/comprehensive-site-check.js",
+        "complete-missing-data": "node scripts/complete-missing-data.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

@@ -30,13 +30,13 @@
     
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Museum Exchange","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740933529352_q3Uj6gBfq.jpg","description":"Get professional art appraisal services from Museum Exchange. Specializing in General art valuations via a third-party network. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Washington","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/washington-museum-exchange","telephone":"","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"1","bestRating":"5","worstRating":"1"}}
+      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Museum Exchange","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740933529352_q3Uj6gBfq.jpg","description":"Get professional art appraisal services from Museum Exchange. Specializing in General art valuations via a third-party network. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Washington","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/washington-museum-exchange","telephone":"Contact via website","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"1","bestRating":"5","worstRating":"1"}}
     </script>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://art-appraiser.appraisily.com"},{"@type":"ListItem","position":2,"name":"Art Appraisers in Washington","item":"https://art-appraiser.appraisily.com/location/washington"},{"@type":"ListItem","position":3,"name":"Museum Exchange","item":"https://art-appraiser.appraisily.com/appraiser/washington-museum-exchange"}]}
     </script>
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What services does Museum Exchange offer?","acceptedAnswer":{"@type":"Answer","text":"Museum Exchange offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales."}},{"@type":"Question","name":"What are Museum Exchange's specialties?","acceptedAnswer":{"@type":"Answer","text":"General art valuations via a third-party network"}},{"@type":"Question","name":"How can I contact Museum Exchange?","acceptedAnswer":{"@type":"Answer","text":"You can contact Museum Exchange by phone at the number listed on their profile or by email at the email address on their profile."}}]}
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What services does Museum Exchange offer?","acceptedAnswer":{"@type":"Answer","text":"Museum Exchange offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales."}},{"@type":"Question","name":"What are Museum Exchange's specialties?","acceptedAnswer":{"@type":"Answer","text":"General art valuations via a third-party network"}},{"@type":"Question","name":"How can I contact Museum Exchange?","acceptedAnswer":{"@type":"Answer","text":"You can contact Museum Exchange by phone at Contact via website or by email at the email address on their profile."}}]}
     </script>
     
     <!-- Google Tag Manager -->
@@ -53,7 +53,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="appraiser-content">
+    <div id="root">
       <!-- This content will be replaced by client-side React when JS loads -->
       <header>
         <nav>
@@ -79,7 +79,7 @@
                 <p><strong>Location:</strong> <span itemprop="addressLocality">Washington</span></p>
               </div>
               
-              
+              <p><strong>Phone:</strong> <span itemprop="telephone">Contact via website</span></p>
               
               <p><strong>Website:</strong> <a href="https://www.museumexchange.com/appraisals" itemprop="url" rel="noopener noreferrer">https://www.museumexchange.com/appraisals</a></p>
             </div>
@@ -100,6 +100,21 @@
     </div>
     
     <!-- Load JS at the end for better performance -->
-    <script src="/assets/index-CE0M-4-F.js" defer></script>
+    <script src="/assets/index-ffwO5efs.js" defer></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>

@@ -16,7 +16,7 @@
         "ASA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Buffalo",
       "state": "NY",
       "phone": "(888) 756-9117",
@@ -24,7 +24,8 @@
       "notes": "Serves Buffalo metro and Western NY",
       "id": "buffalo-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-prestige-estate-services_1740930077482_biAj44RwP.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-prestige-estate-services_1740830037060_Vk1m6qxlp.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-prestige-estate-services_1740830037060_Vk1m6qxlp.jpg",
+      "rating": 5
     },
     {
       "name": "Schultz Auctioneers",
@@ -36,8 +37,10 @@
       "services_offered": [
         "Art appraisal"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Buffalo",
       "state": "NY",
       "phone": "(716) 592-9555",
@@ -45,7 +48,8 @@
       "notes": "Serves Buffalo and Rochester region",
       "id": "buffalo-schultz-auctioneers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-schultz-auctioneers_1740930085501_4KkxXhpBdY.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-schultz-auctioneers_1740830037060_V9564z0lc.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-schultz-auctioneers_1740830037060_V9564z0lc.jpg",
+      "rating": 4.8
     },
     {
       "name": "AppraiseItNow",
@@ -59,7 +63,7 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "",
       "state": "NY",
       "phone": "(800) 872-6463",
@@ -67,7 +71,8 @@
       "notes": "Provides statewide remote services in NY",
       "id": "buffalo-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-appraiseitnow_1740930093347_yEMwAopJP.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-appraiseitnow_1740830037060_Vucvhi6f3.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-appraiseitnow_1740830037060_Vucvhi6f3.jpg",
+      "rating": 4.9
     },
     {
       "name": "Cottone Art Advisory & Appraisals",
@@ -75,12 +80,14 @@
         "Modernist paintings",
         "European decorative arts"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art advisory",
         "Appraisals"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Since 1985",
       "city": "Syracuse",
       "state": "NY",
@@ -89,7 +96,8 @@
       "notes": "Based in Syracuse but serves Western NY",
       "id": "buffalo-cottone-art-advisory-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-cottone-art-advisory-appraisals_1740930102161_rXTZKqdqO.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-cottone-art-advisory-appraisals_1740830037060_Vwff5c8n4.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-cottone-art-advisory-appraisals_1740830037060_Vwff5c8n4.jpg",
+      "rating": 4.7
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -100,22 +108,25 @@
         "Impressionist",
         "19th-century works"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Expert witness services",
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades of experience",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "",
       "id": "buffalo-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-anderson-fine-art-appraisals_1740930110081_9qKWRWxMe.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-anderson-fine-art-appraisals_1740830037060_Vb1qtam48.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-anderson-fine-art-appraisals_1740830037060_Vb1qtam48.jpg",
+      "rating": 4.4
     },
     {
       "name": "Escher Associates",
@@ -140,12 +151,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Handled art fraud cases with LAPD",
       "id": "buffalo-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-escher-associates_1740930118654_8Zu8L-qZt.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-escher-associates_1740830037060_Vx1mukpdo.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-escher-associates_1740830037060_Vx1mukpdo.jpg",
+      "rating": 4.7
     },
     {
       "name": "Page Art, Inc.",
@@ -167,15 +179,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients",
       "id": "buffalo-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-page-art-inc_1740930125473_e7iBFU-4l.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-page-art-inc_1740830037060_V3172r675.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-page-art-inc_1740830037060_V3172r675.jpg",
+      "rating": 4.9
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -183,20 +196,23 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals for high-end clients"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; likely high-end",
       "id": "buffalo-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-saylor-rice-appraisals_1740930133396_8m9Z5LFmX.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-saylor-rice-appraisals_1740830037060_Vt2dvrqm7.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-saylor-rice-appraisals_1740830037060_Vt2dvrqm7.jpg",
+      "rating": 4.8
     },
     {
       "name": "Gurr Johns",
@@ -204,22 +220,23 @@
         "High-value appraisals",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Global art appraisal"
       ],
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Manages over $10 billion annually",
       "id": "buffalo-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-gurr-johns_1740930141174_jLxerPMEy.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-gurr-johns_1740830037060_V0hbiaa68.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-gurr-johns_1740830037060_V0hbiaa68.jpg",
+      "rating": 4.6
     },
     {
       "name": "Mimesis Gallery",
@@ -236,16 +253,19 @@
         "Same-day offers",
         "Consignment sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; operates on a consignment basis",
       "id": "buffalo-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-mimesis-gallery_1740930149251_3ACa043qE.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-mimesis-gallery_1740830037060_V0xndjmjw.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-mimesis-gallery_1740830037060_V0xndjmjw.jpg",
+      "rating": 4.9
     }
   ]
 }

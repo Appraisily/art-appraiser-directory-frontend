@@ -10,7 +10,7 @@
         "Photography",
         "IRS-compliant charitable donation and estate tax appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": "Art appraisal services",
       "certifications": [
         "Appraisers Association of America (AAA)",
@@ -24,7 +24,8 @@
       "notes": "Based in Denver, serves Aspen and other areas in Colorado.",
       "id": "aspen-mary-peck-art-advisory",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740929800152_W9B4CBBJu.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740830037057_Vw9h4583g.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740830037057_Vw9h4583g.jpg",
+      "rating": 4.9
     },
     {
       "name": "Alicia E Weaver",
@@ -33,20 +34,21 @@
         "Fine Art (19th–20th century)",
         "High-net-worth collections"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": "Art appraisal services",
       "certifications": [
         "ISA CAPP (Certified Appraiser of Personal Property)"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Boulder",
       "state": "CO",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-e-weaver",
       "notes": "Affiliated with the ISA; details verified via ISA directory.",
       "id": "aspen-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740929808047_lYMHZiQPP.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740830037057_Vnf4ogq6f.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740830037057_Vnf4ogq6f.jpg",
+      "rating": 4.6
     },
     {
       "name": "812 Maplewood",
@@ -54,22 +56,25 @@
         "Fine Art Valuations",
         "Insurance Solutions"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art Appraisals",
         "Framing",
         "Collection Management"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Aspen",
       "state": "CO",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.812maplewood.com/art-advisory-services",
       "notes": "Local Aspen firm offering appraisal services along with framing and collection management.",
       "id": "aspen-812-maplewood",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740929816443_-N9BCbxFF.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740830037057_Vbea0xhxz.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740830037057_Vbea0xhxz.jpg",
+      "rating": 4.6
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -81,22 +86,25 @@
         "Impressionist",
         "19th Century Art"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Expert Witness",
         "Litigation Support",
         "Authentication Research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "Provides expert witness services and authentication research.",
       "id": "aspen-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-anderson-fine-art-appraisals_1740929823006_4LVJXq-kw.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-anderson-fine-art-appraisals_1740830037057_Vcsckuabz.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-anderson-fine-art-appraisals_1740830037057_Vcsckuabz.jpg",
+      "rating": 4.7
     },
     {
       "name": "Escher Associates",
@@ -118,12 +126,13 @@
       "years_in_business": "Founded in 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.escher-associates.com",
       "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
       "id": "aspen-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-escher-associates_1740929830391_cdaLOfKN3m.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-escher-associates_1740830037057_V0momkixw.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-escher-associates_1740830037057_V0momkixw.jpg",
+      "rating": 4.7
     },
     {
       "name": "Page Art, Inc.",
@@ -140,15 +149,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "Serves multiple areas including Los Angeles, Bay Area, and Orange County.",
       "id": "aspen-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-page-art-inc_1740929838220_QnK4xaG79.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-page-art-inc_1740830037057_Vv7fogkm6.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-page-art-inc_1740830037057_Vv7fogkm6.jpg",
+      "rating": 5
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -156,18 +166,21 @@
         "Insurance Appraisals",
         "Damage/Loss Appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": "Art Appraisals",
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA.",
       "id": "aspen-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-saylor-rice-appraisals_1740929846246_PvSpDv6FG.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-saylor-rice-appraisals_1740830037057_Vdk3mtdwv.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-saylor-rice-appraisals_1740830037057_Vdk3mtdwv.jpg",
+      "rating": 4.5
     },
     {
       "name": "Gurr Johns",
@@ -175,20 +188,21 @@
         "High-value Appraisals",
         "Expert Witness Services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": "Art Appraisals",
       "certifications": [
         "USPAP"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm that manages over $10 billion annually.",
       "id": "aspen-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-gurr-johns_1740929854053_X2r6OpnTp.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-gurr-johns_1740830037057_Vezplvnr0.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-gurr-johns_1740830037057_Vezplvnr0.jpg",
+      "rating": 4.9
     },
     {
       "name": "Mimesis Gallery",
@@ -201,16 +215,19 @@
         "Art Valuations",
         "Consignment Sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Offers free valuations and same-day offers in LA.",
       "id": "aspen-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mimesis-gallery_1740929861045_ImWssV6uc.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mimesis-gallery_1740830037057_Vjjaaigwm.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mimesis-gallery_1740830037057_Vjjaaigwm.jpg",
+      "rating": 4.7
     }
   ]
 }

@@ -13,7 +13,7 @@
     <!-- Performance optimization -->
     <link rel="preload" href="/assets/index-DM7ij2io.css" as="style" />
     <link rel="stylesheet" href="/assets/index-DM7ij2io.css" />
-    <link rel="preload" href="/assets/index-CE0M-4-F.js" as="script" />
+    <link rel="preload" href="/assets/index-ffwO5efs.js" as="script" />
     
     <!-- Open Graph tags -->
     <meta property="og:title" content="Art Appraisers in San Francisco | Expert Art Valuation Services | Appraisily" />
@@ -90,6 +90,21 @@
       </div>
     </div>
 
-    <script type="module" src="/assets/index-CE0M-4-F.js"></script>
+    <script type="module" src="/assets/index-ffwO5efs.js"></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>

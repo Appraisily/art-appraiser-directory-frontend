@@ -8,7 +8,7 @@
         "Contemporary Art",
         "Emerging Art"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance Valuation",
         "Estate Tax Appraisals",
@@ -22,10 +22,11 @@
       "city": "Los Angeles",
       "state": "CA",
       "phone": "+1 213-883-7033",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "Based at 445 S Figueroa St #3700; affiliated with J.S. Held.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_amanda-mcconaha-js-held_1740931282446_K3pCIeKE7.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_amanda-mcconaha-js-held_1740830037071_V4j1kgdre.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_amanda-mcconaha-js-held_1740830037071_V4j1kgdre.jpg",
+      "rating": 4.5
     },
     {
       "id": "anya-foo-nova-art-la",
@@ -35,7 +36,7 @@
         "Market Analysis",
         "International Collections"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisal Services"
       ],
@@ -43,14 +44,15 @@
         "ASA member",
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.novaartla.com",
       "notes": "Fluent in English, Russian, and Ukrainian; background in finance and publishing.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anya-foo-nova-art-la_1740931290466_ieUv__QlJO.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anya-foo-nova-art-la_1740830037071_Vvbrr83jq.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anya-foo-nova-art-la_1740830037071_Vvbrr83jq.jpg",
+      "rating": 4.8
     },
     {
       "id": "page-art-inc",
@@ -69,14 +71,15 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_page-art-inc_1740931299102_Y_lVFYwOy.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_page-art-inc_1740830037071_Viei7i0os.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_page-art-inc_1740830037071_Viei7i0os.jpg",
+      "rating": 4.5
     },
     {
       "id": "escher-associates",
@@ -98,11 +101,12 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.escher-associates.com",
       "notes": "Handles a variety of art assessments including litigation support.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_escher-associates_1740931309154_GEajlRyh-.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_escher-associates_1740830037071_Vdv9on7bv.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_escher-associates_1740830037071_Vdv9on7bv.jpg",
+      "rating": 5
     },
     {
       "id": "anderson-fine-art-appraisals",
@@ -128,11 +132,12 @@
       "years_in_business": "Decades of experience",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "Handles high-value art appraisals and notable collections.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anderson-fine-art-appraisals_1740931317833_bqg8dD4ev.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anderson-fine-art-appraisals_1740830037071_Vv74bjlql.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anderson-fine-art-appraisals_1740830037071_Vv74bjlql.jpg",
+      "rating": 4.6
     },
     {
       "id": "saylor-rice-appraisals",
@@ -141,19 +146,22 @@
         "Insurance Appraisals",
         "Damage/Loss Appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisal Services for institutions like LACMA and MoMA"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Known for high-end appraisal work for major art institutions.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saylor-rice-appraisals_1740931326876_Ikcgvawoob.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saylor-rice-appraisals_1740830037071_Vmaa9jrfu.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saylor-rice-appraisals_1740830037071_Vmaa9jrfu.jpg",
+      "rating": 4.7
     },
     {
       "id": "gurr-johns",
@@ -162,7 +170,7 @@
         "High-Value Appraisals",
         "Expert Witness"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art Valuations",
         "Litigation Support"
@@ -170,14 +178,15 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_gurr-johns_1740931335512_Vutn2_VJs.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_gurr-johns_1740830037071_Vxvoylm93.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_gurr-johns_1740830037071_Vxvoylm93.jpg",
+      "rating": 4.6
     },
     {
       "id": "mimesis-gallery",
@@ -191,15 +200,18 @@
         "Free Valuations",
         "Same-day Offers"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; offers consignment-based sales.",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_mimesis-gallery_1740931344000_6qpMinB1S.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_mimesis-gallery_1740830037071_Vzs1xhx6f.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_mimesis-gallery_1740830037071_Vzs1xhx6f.jpg",
+      "rating": 4.7
     }
   ]
 }

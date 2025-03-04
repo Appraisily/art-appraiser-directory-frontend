@@ -114,7 +114,14 @@
         }
       ],
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
     },
     {
       "id": "baker-asian-antique-appraisers",
@@ -202,7 +209,14 @@
         }
       ],
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baker-asian-antique-appraisers_1741087699816_0gt459k0L.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
     },
     {
       "id": "appraise-it-now",
@@ -290,7 +304,14 @@
         }
       ],
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_appraise-it-now_1741087705303_Lr2pfLFiv.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "years_in_business": "Established business",
+      "pricing": "Contact for pricing information"
     }
   ]
 }

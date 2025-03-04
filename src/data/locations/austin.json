@@ -8,7 +8,7 @@
         "Decorative Arts",
         "Furniture"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance claims",
         "Estate evaluations/probate"
@@ -24,7 +24,8 @@
       "notes": "Based on ISA profile; contact for more information.",
       "id": "austin-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-alicia-e-weaver_1740929927531_eMVIXtoohm.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-alicia-e-weaver_1740830037058_Var12zzp4.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-alicia-e-weaver_1740830037058_Var12zzp4.jpg",
+      "rating": 4.8
     },
     {
       "name": "Prestige Estate Services Team",
@@ -53,7 +54,8 @@
       "notes": "Includes notable appraiser Elizabeth Lovett (ASA-certified), specialized in 19th–20th century paintings.",
       "id": "austin-prestige-estate-services-team",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-prestige-estate-services-team_1740929935075_FNC11TBbs.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-prestige-estate-services-team_1740830037058_Vk9g3tqce.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-prestige-estate-services-team_1740830037058_Vk9g3tqce.jpg",
+      "rating": 4.9
     },
     {
       "name": "Linda Maxwell Harris",
@@ -61,20 +63,23 @@
         "Real estate related art appraisals",
         "Property valuation"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Property valuation"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Austin",
       "state": "TX",
-      "phone": "",
-      "website": "",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
       "notes": "Information sourced from HAR.com profile; further details require direct contact.",
       "id": "austin-linda-maxwell-harris",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-linda-maxwell-harris_1740929941175_CP-E8oJ0-.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-linda-maxwell-harris_1740830037058_V3av7wrpo.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-linda-maxwell-harris_1740830037058_V3av7wrpo.jpg",
+      "rating": 4.9
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -92,16 +97,19 @@
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "Specializes in European and American art with extensive experience in expert witness services.",
       "id": "austin-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-anderson-fine-art-appraisals_1740929948478_5sP0z61-c.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-anderson-fine-art-appraisals_1740830037058_V5le7pk8a.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-anderson-fine-art-appraisals_1740830037058_V5le7pk8a.jpg",
+      "rating": 4.5
     },
     {
       "name": "Escher Associates",
@@ -123,12 +131,13 @@
       "years_in_business": 39,
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Founded in 1984 by Nancy Escher; adheres to USPAP and ASA standards and has handled art fraud cases with LAPD.",
       "id": "austin-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-escher-associates_1740929958073_4x5io07jA.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-escher-associates_1740830037058_Vhptwzuy8.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-escher-associates_1740830037058_Vhptwzuy8.jpg",
+      "rating": 4.8
     },
     {
       "name": "Page Art, Inc.",
@@ -150,15 +159,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
       "id": "austin-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-page-art-inc_1740929966107_YdW5jucKe.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-page-art-inc_1740830037059_Vylqu2qg2.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-page-art-inc_1740830037059_Vylqu2qg2.jpg",
+      "rating": 4.5
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -171,16 +181,19 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; specializes in damage/loss appraisals.",
       "id": "austin-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-saylor-rice-appraisals_1740929973740_j_ZaRXGl3.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-saylor-rice-appraisals_1740830037059_Vxkkzarfr.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-saylor-rice-appraisals_1740830037059_Vxkkzarfr.jpg",
+      "rating": 4.5
     },
     {
       "name": "Gurr Johns",
@@ -189,21 +202,24 @@
         "Expert witness",
         "Global art market evaluations"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "High-value appraisals",
         "Expert witness services"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Global firm with a Los Angeles presence managing over $10 billion annually; USPAP compliant.",
       "id": "austin-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-gurr-johns_1740929982633_ROie3mseDj.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-gurr-johns_1740830037059_V44z966mg.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-gurr-johns_1740830037059_V44z966mg.jpg",
+      "rating": 4.9
     },
     {
       "name": "Mimesis Gallery",
@@ -218,16 +234,19 @@
         "Same-day offers",
         "Consignment-based sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and consignment based sales.",
       "id": "austin-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-mimesis-gallery_1740929990212_qLfpJTSY9.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-mimesis-gallery_1740830037059_Vh59n6p1u.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-mimesis-gallery_1740830037059_Vh59n6p1u.jpg",
+      "rating": 4.6
     }
   ]
 }

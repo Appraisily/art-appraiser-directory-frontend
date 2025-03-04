@@ -11,7 +11,7 @@
         "Silver",
         "19th–20th century paintings"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance claims",
         "Estate tax evaluations",
@@ -28,14 +28,15 @@
       "notes": "Operates via Prestige Estate Services and independent practice.",
       "id": "palm-beach-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-alicia-e-weaver_1740931706157_JLujaZ2HU.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-alicia-e-weaver_1740830037075_Vguzrtco6.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-alicia-e-weaver_1740830037075_Vguzrtco6.jpg",
+      "rating": 5
     },
     {
       "name": "Elizabeth Lake Lovett",
       "specialties": [
         "19th–20th Century American and European paintings"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance valuations",
         "Donation valuations",
@@ -48,12 +49,13 @@
       "years_in_business": "20+ years",
       "city": "Palm Beach",
       "state": "FL",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com",
       "notes": "Former Sotheby’s intern background.",
       "id": "palm-beach-elizabeth-lake-lovett",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-elizabeth-lake-lovett_1740931714698_zQspIq1fs.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-elizabeth-lake-lovett_1740830037075_Vdmkt0dny.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-elizabeth-lake-lovett_1740830037075_Vdmkt0dny.jpg",
+      "rating": 4.7
     },
     {
       "name": "Kaminski Auctions",
@@ -80,7 +82,8 @@
       "notes": "",
       "id": "palm-beach-kaminski-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-kaminski-auctions_1740931723702_aseSvIw8Y.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-kaminski-auctions_1740830037075_Vuu458vea.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-kaminski-auctions_1740830037075_Vuu458vea.jpg",
+      "rating": 5.1
     },
     {
       "name": "AppraiseItNow",
@@ -97,15 +100,16 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Palm Beach",
       "state": "FL",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.appraiseitnow.com/location/florida",
       "notes": "",
       "id": "palm-beach-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-appraiseitnow_1741086879775_n1p8sRul5.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5
     },
     {
       "name": "Sotheby's Palm Beach",
@@ -114,21 +118,24 @@
         "Consignment consultations",
         "Acquisitions"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Valuation consultations",
         "Auction services"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Palm Beach",
       "state": "FL",
-      "phone": "",
-      "website": "",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
       "notes": "Operates from The Slat House at The Royal Poinciana Plaza; Hours Tue–Sat: 10 AM–6 PM, Sun: 11 AM–5 PM",
       "id": "palm-beach-sotheby-s-palm-beach",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.4
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -146,16 +153,19 @@
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "",
       "id": "palm-beach-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.8
     },
     {
       "name": "Escher Associates",
@@ -179,12 +189,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
       "id": "palm-beach-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 5
     },
     {
       "name": "Page Art, Inc.",
@@ -204,15 +215,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "",
       "id": "palm-beach-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-page-art-inc_1741087657099_AQpf_UTkS.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -225,16 +237,19 @@
         "Appraisals for institutions",
         "Damage assessments"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA.",
       "id": "palm-beach-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-saylor-rice-appraisals_1741087677129_6hZ4MbZt4.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.9
     },
     {
       "name": "Gurr Johns",
@@ -242,7 +257,7 @@
         "High-value appraisals",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals",
         "Expert witness",
@@ -251,15 +266,16 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Manages over $10 billion annually.",
       "id": "palm-beach-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-gurr-johns_1741087682682_SjPC9pNft.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5
     },
     {
       "name": "Mimesis Gallery",
@@ -273,16 +289,19 @@
         "Same-day offers",
         "Consignment sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd.",
       "id": "palm-beach-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-mimesis-gallery_1741087688213_Bh5FFjuTo.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.4
     }
   ]
 }

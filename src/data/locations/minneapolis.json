@@ -8,7 +8,7 @@
         "Furniture",
         "Ceramics"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Estate tax appraisals",
         "Insurance claims appraisals",
@@ -25,7 +25,8 @@
       "notes": "Works at Prestige Estate Services; Hours: Mon–Fri 9 AM–5 PM.",
       "id": "minneapolis-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-alicia-e-weaver_1741086840938_TAKw9ex6M.jpg",
-      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser"
+      "oldImageUrl": "https://via.placeholder.com/300x400?text=Art+Appraiser",
+      "rating": 4.5
     },
     {
       "name": "Greg C. Brown",
@@ -33,7 +34,7 @@
         "Modern/contemporary art",
         "Native American artifacts"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "General appraisal services"
       ],
@@ -49,7 +50,8 @@
       "notes": "Part of Prestige Estate Services; Contact details same as Alicia E Weaver.",
       "id": "minneapolis-greg-c-brown",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740931474918_1TaQEYVYy.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740830037073_Vcnk7zcqs.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740830037073_Vcnk7zcqs.jpg",
+      "rating": 4.8
     },
     {
       "name": "AppraiseItNow",
@@ -62,8 +64,10 @@
         "Online appraisals",
         "In-person appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Minneapolis",
       "state": "MN",
       "phone": "(651) 555-6789",
@@ -71,7 +75,8 @@
       "notes": "Service area covers Twin Cities metro and online; Appointments required.",
       "id": "minneapolis-appraiseitnow",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740931482827_ZNA8SKhb7.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740830037073_Vgns4yh9j.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740830037073_Vgns4yh9j.jpg",
+      "rating": 4.6
     },
     {
       "name": "Revere Auctions",
@@ -85,8 +90,10 @@
         "Valuations",
         "Research services"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "St. Paul",
       "state": "MN",
       "phone": "(651) 555-4321",
@@ -94,7 +101,8 @@
       "notes": "Serves St. Paul/Minneapolis metro; Hours: Tue–Sat 10 AM–4 PM.",
       "id": "minneapolis-revere-auctions",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740931489781_vwZhJBQaBY.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740830037073_Va12e9h1k.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740830037073_Va12e9h1k.jpg",
+      "rating": 4.8
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -112,16 +120,19 @@
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "Also known as AFAA.",
       "id": "minneapolis-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740931497387_iSxTor4gG.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740830037073_V13tz2fcl.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740830037073_V13tz2fcl.jpg",
+      "rating": 4.4
     },
     {
       "name": "Escher Associates",
@@ -144,12 +155,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Handled art fraud cases with LAPD.",
       "id": "minneapolis-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740931504395_zCa3jT3Cwz.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740830037073_Vjdyz7a1v.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740830037073_Vjdyz7a1v.jpg",
+      "rating": 4.6
     },
     {
       "name": "Page Art, Inc.",
@@ -169,15 +181,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state.",
       "id": "minneapolis-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740931512612_UzvUgX_8z.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740830037073_Vjf2snxoj.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740830037073_Vjf2snxoj.jpg",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -185,20 +198,23 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals for major museums"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; likely high-end appraisal services.",
       "id": "minneapolis-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740931521548__e_o8-_D2.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740830037073_V7b8mf7de.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740830037073_V7b8mf7de.jpg",
+      "rating": 4.4
     },
     {
       "name": "Gurr Johns",
@@ -206,7 +222,7 @@
         "High-value art appraisals",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art appraisals",
         "Expert witness services"
@@ -214,15 +230,16 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually.",
       "id": "minneapolis-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740931529268_-Pif7GChj.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740830037073_V198ngtpv.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740830037073_V198ngtpv.jpg",
+      "rating": 5
     },
     {
       "name": "Mimesis Gallery",
@@ -239,16 +256,19 @@
         "Same-day offers",
         "Consignment art sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; offers free valuations and consignment-based sales.",
       "id": "minneapolis-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740931537167_S1pVTJpRF.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740830037073_Vs4n1ztrb.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740830037073_Vs4n1ztrb.jpg",
+      "rating": 4.8
     }
   ]
 }

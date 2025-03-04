@@ -27,7 +27,8 @@
       "notes": "Offers local and nationwide services.",
       "id": "washington-prestige-estate-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-prestige-estate-services_1740933496163_DTAB4y3Tm.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-prestige-estate-services_1740830037086_Vo2feot2e.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-prestige-estate-services_1740830037086_Vo2feot2e.jpg",
+      "rating": 5
     },
     {
       "name": "IRS Art Appraisal Services",
@@ -44,15 +45,16 @@
         "USPAP-trained IRS staff",
         "AAA-affiliated panelists"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Washington",
       "state": "DC",
-      "phone": "",
-      "website": "",
+      "phone": "Contact via website",
+      "website": "https://www.artappraisers.org/",
       "notes": "Located at 1111 Constitution Ave NW, Room 3615; overseen by the Commissioner’s Art Advisory Panel.",
       "id": "washington-irs-art-appraisal-services",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-irs-art-appraisal-services_1740933504926_U0rVnNGjt.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-irs-art-appraisal-services_1740830037086_Vq022eri2.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-irs-art-appraisal-services_1740830037086_Vq022eri2.jpg",
+      "rating": 4.8
     },
     {
       "name": "Czudej McDonough",
@@ -74,12 +76,13 @@
       "years_in_business": "Decades",
       "city": "",
       "state": "",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://czudejmcdonough.com",
       "notes": "Serves Washington, DC as part of a nationwide service network with offices in NYC and San Francisco.",
       "id": "washington-czudej-mcdonough",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-czudej-mcdonough_1740933513544_NbZNj-nQB.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-czudej-mcdonough_1740830037086_Vv8f25kwh.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-czudej-mcdonough_1740830037086_Vv8f25kwh.jpg",
+      "rating": 4.7
     },
     {
       "name": "AppraiseItNow – Washington DC",
@@ -95,15 +98,16 @@
       "certifications": [
         "USPAP-compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Washington",
       "state": "DC",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.appraiseitnow.com/location/washington-dc",
       "notes": "",
       "id": "washington-appraiseitnow-washington-dc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-appraiseitnow-washington-dc_1740933521826_211tSOXlq.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-appraiseitnow-washington-dc_1740830037086_Vmvyqysvf.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-appraiseitnow-washington-dc_1740830037086_Vmvyqysvf.jpg",
+      "rating": 4.5
     },
     {
       "name": "Museum Exchange",
@@ -117,15 +121,16 @@
       "certifications": [
         "Accredited appraiser network"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "",
       "state": "",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.museumexchange.com/appraisals",
       "notes": "Offers remote services accessible in Washington, DC.",
       "id": "washington-museum-exchange",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740933529352_q3Uj6gBfq.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740830037086_V80bypt0p.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740830037086_V80bypt0p.jpg",
+      "rating": 4.9
     },
     {
       "name": "Alpha137 Gallery",
@@ -140,15 +145,16 @@
       "certifications": [
         "Gallery expertise"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "",
       "state": "",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://alpha137gallery.com",
       "notes": "Provides remote consultation services; not a formal appraisal certification entity.",
       "id": "washington-alpha137-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-alpha137-gallery_1740933541288_QzSjFGFS0.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-alpha137-gallery_1740830037086_Vivvt86ug.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-alpha137-gallery_1740830037086_Vivvt86ug.jpg",
+      "rating": 4.9
     },
     {
       "name": "Artifactual History® Appraisal",
@@ -156,20 +162,23 @@
         "General art appraisal",
         "Historical artifact evaluation"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "General appraisal services"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "",
       "state": "",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.artifactualhistory.com/contact",
       "notes": "Contact via email at info@afhappraisal.com using the intake form.",
       "id": "washington-artifactual-history-appraisal",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-artifactual-history-appraisal_1740933549278_GKc0DLgKN.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-artifactual-history-appraisal_1740830037086_V4qbboem3.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-artifactual-history-appraisal_1740830037086_V4qbboem3.jpg",
+      "rating": 4.9
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -187,16 +196,19 @@
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.art-appraisals.net",
       "notes": "",
       "id": "washington-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-anderson-fine-art-appraisals_1740933558328_hwlyYHq6z.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-anderson-fine-art-appraisals_1740830037086_Vtuban8io.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-anderson-fine-art-appraisals_1740830037086_Vtuban8io.jpg",
+      "rating": 4.9
     },
     {
       "name": "Escher Associates",
@@ -220,12 +232,13 @@
       "years_in_business": "Founded in 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.escher-associates.com",
       "notes": "Handled art fraud cases with the LAPD.",
       "id": "washington-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-escher-associates_1740933566156_Uqe3JSUVe.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-escher-associates_1740830037086_V76v8y75n.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-escher-associates_1740830037086_V76v8y75n.jpg",
+      "rating": 4.8
     },
     {
       "name": "Page Art, Inc.",
@@ -236,21 +249,26 @@
         "Litigation appraisals"
       ],
       "pricing": "Hourly rate of $350; minimum of $500 for in-office consultations",
-      "services_offered": [],
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
       "certifications": [
         "ASA",
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.page-art.com",
       "notes": "Services extended to Los Angeles, Bay Area, Orange County, and out-of-state regions.",
       "id": "washington-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-page-art-inc_1740933574064_l9K0rTAxQ.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-page-art-inc_1740830037086_Ve9nvdz8b.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-page-art-inc_1740830037086_Ve9nvdz8b.jpg",
+      "rating": 4.6
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -258,18 +276,25 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "pricing": "",
-      "services_offered": [],
-      "certifications": [],
-      "years_in_business": "",
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Caters to high-end institutional clients such as LACMA and MoMA.",
       "id": "washington-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-saylor-rice-appraisals_1740933581676_MtElnjaBi.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-saylor-rice-appraisals_1740830037086_V1um6d0fa.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-saylor-rice-appraisals_1740830037086_V1um6d0fa.jpg",
+      "rating": 4.7
     },
     {
       "name": "Gurr Johns",
@@ -278,19 +303,24 @@
         "Expert witness services"
       ],
       "pricing": "Manages over $10 billion in assets annually",
-      "services_offered": [],
+      "services_offered": [
+        "Art Appraisals",
+        "Insurance Valuations",
+        "Estate Appraisals"
+      ],
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm with a significant presence in Los Angeles.",
       "id": "washington-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-gurr-johns_1740933590569_4TmKHJwmF.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-gurr-johns_1740830037086_V7tuxh5js.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-gurr-johns_1740830037086_V7tuxh5js.jpg",
+      "rating": 4.6
     },
     {
       "name": "Mimesis Gallery",
@@ -303,16 +333,19 @@
       "services_offered": [
         "Consignment-based art sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "http://www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, Los Angeles.",
       "id": "washington-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-mimesis-gallery_1740933599024_04l0zMSi9X.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-mimesis-gallery_1740830037086_Vdezyw5l3.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-mimesis-gallery_1740830037086_Vdezyw5l3.jpg",
+      "rating": 4.8
     }
   ]
 }

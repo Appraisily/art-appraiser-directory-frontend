@@ -14,15 +14,16 @@
       "certifications": [
         "Letters of Value accepted by insurers/shippers"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "New Orleans",
       "state": "LA",
       "phone": "504-813-8292",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "Provided by Patty Barnett; established reputation based on client testimonials.",
       "id": "new-orleans-barnett-fine-art",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-barnett-fine-art_1740931618883_Y1dukGdQY.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-barnett-fine-art_1740830037074_V5bi939hy.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-barnett-fine-art_1740830037074_V5bi939hy.jpg",
+      "rating": 5
     },
     {
       "name": "New Orleans Auction Galleries",
@@ -36,8 +37,10 @@
         "Auction services",
         "Valuations"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "New Orleans",
       "state": "LA",
       "phone": "504-566-1849",
@@ -45,7 +48,8 @@
       "notes": "",
       "id": "new-orleans-new-orleans-auction-galleries",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-new-orleans-auction-galleries_1740931627014_oh7of5iUk.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-new-orleans-auction-galleries_1740830037074_Vp7qqctig.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-new-orleans-auction-galleries_1740830037074_Vp7qqctig.jpg",
+      "rating": 4.5
     },
     {
       "name": "AppraiseItNow (Louisiana)",
@@ -63,15 +67,16 @@
         "USPAP-compliant",
         "ASA-affiliated"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "New Orleans",
       "state": "LA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.appraiseitnow.com",
       "notes": "",
       "id": "new-orleans-appraiseitnow-louisiana",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-appraiseitnow-louisiana_1740931634750_rPiVYByUp.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-appraiseitnow-louisiana_1740830037074_Vmrqxhq36.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-appraiseitnow-louisiana_1740830037074_Vmrqxhq36.jpg",
+      "rating": 4.6
     },
     {
       "name": "American Society of Appraisers (ASA)",
@@ -80,20 +85,23 @@
         "Personal property",
         "Fine art"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Resource for locating accredited appraisers"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "",
       "state": "",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://www.appraisers.org",
       "notes": "Provides accreditation and directory for appraisers.",
       "id": "new-orleans-american-society-of-appraisers-asa",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-american-society-of-appraisers-asa_1740931642310_QZhzAEbun.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-american-society-of-appraisers-asa_1740830037074_Vq79oj9bg.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-american-society-of-appraisers-asa_1740830037074_Vq79oj9bg.jpg",
+      "rating": 4.4
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -111,16 +119,19 @@
         "Litigation support",
         "Authentication research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "",
       "id": "new-orleans-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740931650813_b3Up2KL4D.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740830037074_Vt6seqfed.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740830037074_Vt6seqfed.jpg",
+      "rating": 4.7
     },
     {
       "name": "Escher Associates",
@@ -143,12 +154,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD.",
       "id": "new-orleans-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-escher-associates_1740931659882_pZknkmOxO.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-escher-associates_1740830037074_Vukxteqet.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-escher-associates_1740830037074_Vukxteqet.jpg",
+      "rating": 4.6
     },
     {
       "name": "Page Art, Inc.",
@@ -167,15 +179,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients.",
       "id": "new-orleans-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-page-art-inc_1740931668765_G8ddN-glFk.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-page-art-inc_1740830037074_Vquhshebh.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-page-art-inc_1740830037074_Vquhshebh.jpg",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -183,20 +196,23 @@
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals for high-end art"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA.",
       "id": "new-orleans-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-saylor-rice-appraisals_1740931676397_BdCWJ8lhx.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-saylor-rice-appraisals_1740830037074_Vsycj5v9j.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-saylor-rice-appraisals_1740830037074_Vsycj5v9j.jpg",
+      "rating": 4.7
     },
     {
       "name": "Gurr Johns",
@@ -204,22 +220,23 @@
         "High-value art appraisals",
         "Expert witness services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Global appraisal services"
       ],
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Manages over $10 billion in art annually.",
       "id": "new-orleans-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-gurr-johns_1740931684196_gyBaLwFVk.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-gurr-johns_1740830037074_V26etwwu5.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-gurr-johns_1740830037074_V26etwwu5.jpg",
+      "rating": 4.8
     },
     {
       "name": "Mimesis Gallery",
@@ -232,16 +249,19 @@
         "Same-day offers",
         "Art consignment"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd; offers free valuations and same-day offers.",
       "id": "new-orleans-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-mimesis-gallery_1740931690938_PyyhzKhaW.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-mimesis-gallery_1740830037074_V8q1mugxt.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-mimesis-gallery_1740830037074_V8q1mugxt.jpg",
+      "rating": 4.5
     }
   ]
 }

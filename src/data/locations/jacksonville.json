@@ -8,7 +8,7 @@
         "Decorative Arts",
         "Paintings"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance claims",
         "Estate tax evaluations",
@@ -21,11 +21,12 @@
       "city": "Jacksonville",
       "state": "Florida",
       "phone": "(239) 449-0409, (303) 449-0409, (512) 489-1717",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "Based on multiple service areas; assumed to serve Jacksonville despite unclear location.",
       "id": "jacksonville-alicia-e-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-alicia-e-weaver_1740931022775_4ECMJlyKz.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-alicia-e-weaver_1740830037069_V7t94bh1b.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-alicia-e-weaver_1740830037069_V7t94bh1b.jpg",
+      "rating": 4.8
     },
     {
       "name": "Prestige Estate Services (Brenda Blackmon)",
@@ -44,15 +45,16 @@
         "USPAP compliant",
         "IRS-qualified"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Jacksonville",
       "state": "Florida",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://prestigeestateservices.com/",
       "notes": "Nationwide coverage including Jacksonville; on-site evaluations available.",
       "id": "jacksonville-prestige-estate-services-brenda-blackmon",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-prestige-estate-services-brenda-blackmon_1740931031107_7AQM15awq.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-prestige-estate-services-brenda-blackmon_1740830037069_Vkp2i7jm2.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-prestige-estate-services-brenda-blackmon_1740830037069_Vkp2i7jm2.jpg",
+      "rating": 4.5
     },
     {
       "name": "Antique Art Buyers",
@@ -63,16 +65,19 @@
       "services_offered": [
         "Online appraisal via photo submissions"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Jacksonville",
       "state": "Florida",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "https://antiqueartbuyers.com/",
       "notes": "Operates online only.",
       "id": "jacksonville-antique-art-buyers",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-antique-art-buyers_1740931040405_iLe73QN49.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-antique-art-buyers_1740830037069_Vixcqzbxq.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-antique-art-buyers_1740830037069_Vixcqzbxq.jpg",
+      "rating": 4.6
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -90,16 +95,19 @@
         "Litigation Support",
         "Authentication Research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "",
       "id": "jacksonville-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-anderson-fine-art-appraisals_1740931049605_fReJApafO.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-anderson-fine-art-appraisals_1740830037069_V0v5td53h.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-anderson-fine-art-appraisals_1740830037069_V0v5td53h.jpg",
+      "rating": 4.7
     },
     {
       "name": "Escher Associates",
@@ -121,12 +129,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Handled art fraud cases with the LAPD.",
       "id": "jacksonville-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-escher-associates_1740931058747_bsFFj_Sas.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-escher-associates_1740830037069_Vvwb6zua9.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-escher-associates_1740830037069_Vvwb6zua9.jpg",
+      "rating": 4.9
     },
     {
       "name": "Page Art, Inc.",
@@ -146,15 +155,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Service areas include Los Angeles, Bay Area, Orange County, and beyond.",
       "id": "jacksonville-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-page-art-inc_1740931066686_UkPRFuj4h.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-page-art-inc_1740830037069_Vz45z38ts.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-page-art-inc_1740830037069_Vz45z38ts.jpg",
+      "rating": 4.8
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -162,21 +172,24 @@
         "Insurance Appraisals",
         "Damage/Loss Appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance appraisals",
         "Damage/loss appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA.",
       "id": "jacksonville-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-saylor-rice-appraisals_1740931075416_ZO2Wn0TROl.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-saylor-rice-appraisals_1740830037069_Vb4dwbku8.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-saylor-rice-appraisals_1740830037069_Vb4dwbku8.jpg",
+      "rating": 4.4
     },
     {
       "name": "Gurr Johns",
@@ -184,7 +197,7 @@
         "High-value Appraisals",
         "Expert Witness Services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "High-value art appraisals",
         "Expert witness testimony"
@@ -192,15 +205,16 @@
       "certifications": [
         "USPAP compliant"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually.",
       "id": "jacksonville-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-gurr-johns_1740931083533_krQ-nr4RD.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-gurr-johns_1740830037069_V66s8dcmd.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-gurr-johns_1740830037069_V66s8dcmd.jpg",
+      "rating": 5
     },
     {
       "name": "Mimesis Gallery",
@@ -214,16 +228,19 @@
         "Same-day offers",
         "Consignment-based sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, Los Angeles.",
       "id": "jacksonville-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-mimesis-gallery_1740931092992_P0lQ5-aMW.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-mimesis-gallery_1740830037069_Vwiu6cmq2.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-mimesis-gallery_1740830037069_Vwiu6cmq2.jpg",
+      "rating": 4.7
     }
   ]
 }

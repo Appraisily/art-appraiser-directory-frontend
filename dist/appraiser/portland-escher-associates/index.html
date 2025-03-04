@@ -30,13 +30,13 @@
     
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Escher Associates","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg","description":"Get professional art appraisal services from Escher Associates. Specializing in Paintings, Sculpture, Photography, Rare books. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Portland","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/portland-escher-associates","telephone":"","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"5","reviewCount":"1","bestRating":"5","worstRating":"1"}}
+      {"@context":"https://schema.org","@type":"ProfessionalService","name":"Escher Associates","image":"https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg","description":"Get professional art appraisal services from Escher Associates. Specializing in Paintings, Sculpture, Photography, Rare books. Certified expert with verified reviews.","address":{"@type":"PostalAddress","addressLocality":"Portland","addressRegion":"","addressCountry":"US"},"url":"https://art-appraiser.appraisily.com/appraiser/portland-escher-associates","telephone":"Contact via website","email":"","priceRange":"$$$","aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"1","bestRating":"5","worstRating":"1"}}
     </script>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://art-appraiser.appraisily.com"},{"@type":"ListItem","position":2,"name":"Art Appraisers in Portland","item":"https://art-appraiser.appraisily.com/location/portland"},{"@type":"ListItem","position":3,"name":"Escher Associates","item":"https://art-appraiser.appraisily.com/appraiser/portland-escher-associates"}]}
     </script>
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What services does Escher Associates offer?","acceptedAnswer":{"@type":"Answer","text":"Escher Associates offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales."}},{"@type":"Question","name":"What are Escher Associates's specialties?","acceptedAnswer":{"@type":"Answer","text":"Paintings, Sculpture, Photography, Rare books"}},{"@type":"Question","name":"How can I contact Escher Associates?","acceptedAnswer":{"@type":"Answer","text":"You can contact Escher Associates by phone at the number listed on their profile or by email at the email address on their profile."}}]}
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What services does Escher Associates offer?","acceptedAnswer":{"@type":"Answer","text":"Escher Associates offers professional art appraisal services including valuations for insurance, estate planning, donations, and sales."}},{"@type":"Question","name":"What are Escher Associates's specialties?","acceptedAnswer":{"@type":"Answer","text":"Paintings, Sculpture, Photography, Rare books"}},{"@type":"Question","name":"How can I contact Escher Associates?","acceptedAnswer":{"@type":"Answer","text":"You can contact Escher Associates by phone at Contact via website or by email at the email address on their profile."}}]}
     </script>
     
     <!-- Google Tag Manager -->
@@ -53,7 +53,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div id="appraiser-content">
+    <div id="root">
       <!-- This content will be replaced by client-side React when JS loads -->
       <header>
         <nav>
@@ -79,7 +79,7 @@
                 <p><strong>Location:</strong> <span itemprop="addressLocality">Portland</span></p>
               </div>
               
-              
+              <p><strong>Phone:</strong> <span itemprop="telephone">Contact via website</span></p>
               
               <p><strong>Website:</strong> <a href="www.escher-associates.com" itemprop="url" rel="noopener noreferrer">www.escher-associates.com</a></p>
             </div>
@@ -100,6 +100,21 @@
     </div>
     
     <!-- Load JS at the end for better performance -->
-    <script src="/assets/index-CE0M-4-F.js" defer></script>
+    <script src="/assets/index-ffwO5efs.js" defer></script>
+    
+    <!-- Image error handling script -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Handle image loading errors by replacing with placeholder
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+          img.onerror = function() {
+            this.onerror = null;
+            this.src = 'https://ik.imagekit.io/appraisily/placeholder-art-image.jpg';
+            console.log('Replaced broken image with placeholder:', this.alt);
+          };
+        });
+      });
+    </script>
   </body>
 </html>

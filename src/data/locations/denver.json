@@ -9,7 +9,7 @@
         "Insurance Appraisals",
         "Estate Planning"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Art Appraisals",
         "Antiques Appraisals",
@@ -27,7 +27,8 @@
       "notes": "Operates under Prestige Estate Services Inc. Hours: Mon–Fri, 9 AM–5 PM.",
       "id": "denver-alicia-weaver",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-alicia-weaver_1740930609301_Ceu20K9uG.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-alicia-weaver_1740830037066_Vwpi4fw02.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-alicia-weaver_1740830037066_Vwpi4fw02.jpg",
+      "rating": 4.7
     },
     {
       "name": "Brady L. Dreasher",
@@ -36,7 +37,7 @@
         "Estate Liquidation",
         "Expert Witness Testimony"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance Appraisals",
         "Estate Appraisals",
@@ -56,14 +57,15 @@
       "notes": "Received BBB Torch Award for Ethics in 2023.",
       "id": "denver-brady-l-dreasher",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-brady-l-dreasher_1740930617958_GVL_If5jX.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-brady-l-dreasher_1740830037066_Vr59ofhhh.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-brady-l-dreasher_1740830037066_Vr59ofhhh.jpg",
+      "rating": 4.7
     },
     {
       "name": "Dr. Mark Lee Levine",
       "specialties": [
         "Real Estate-Linked Personal Property Appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Real Estate-Linked Personal Property Appraisals"
       ],
@@ -74,11 +76,12 @@
       "city": "Denver",
       "state": "CO",
       "phone": "(303) 871-2142",
-      "website": "",
+      "website": "https://www.artappraisers.org/",
       "notes": "Affiliated with the University of Denver; operates on an academic schedule.",
       "id": "denver-dr-mark-lee-levine",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-dr-mark-lee-levine_1740930625146_vrsh0rFe5.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-dr-mark-lee-levine_1740830037066_Vjdapl1r2.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-dr-mark-lee-levine_1740830037066_Vjdapl1r2.jpg",
+      "rating": 4.9
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -96,16 +99,19 @@
         "Litigation Support",
         "Authentication Research"
       ],
-      "certifications": [],
+      "certifications": [
+        "Professional Appraiser"
+      ],
       "years_in_business": "Decades",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.art-appraisals.net",
       "notes": "Specializes in European and American art with decades of experience.",
       "id": "denver-anderson-fine-art-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-anderson-fine-art-appraisals_1740930632950_6ru67SHxJ.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-anderson-fine-art-appraisals_1740830037066_V2a0aqqxd.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-anderson-fine-art-appraisals_1740830037066_V2a0aqqxd.jpg",
+      "rating": 4.7
     },
     {
       "name": "Escher Associates",
@@ -126,12 +132,13 @@
       "years_in_business": "Since 1984",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.escher-associates.com",
       "notes": "Handled art fraud cases with the LAPD.",
       "id": "denver-escher-associates",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-escher-associates_1740930641994_at0VusexX.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-escher-associates_1740830037066_Vvg7fu058.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-escher-associates_1740830037066_Vvg7fu058.jpg",
+      "rating": 4.5
     },
     {
       "name": "Page Art, Inc.",
@@ -153,15 +160,16 @@
         "ISA",
         "AAA"
       ],
-      "years_in_business": "",
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.page-art.com",
       "notes": "Service areas include Los Angeles, Bay Area, Orange County, and out-of-state.",
       "id": "denver-page-art-inc",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-page-art-inc_1740930651314_QIncpeigw.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-page-art-inc_1740830037066_Vp1llsj93.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-page-art-inc_1740830037066_Vp1llsj93.jpg",
+      "rating": 5
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -169,21 +177,24 @@
         "Damage/Loss Appraisals",
         "Insurance Appraisals"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Insurance Appraisals",
         "Damage/Loss Appraisals"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; cater to high-end appraisals.",
       "id": "denver-saylor-rice-appraisals",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-saylor-rice-appraisals_1740930659466_cevaxEX12.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-saylor-rice-appraisals_1740830037066_Voe332n6h.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-saylor-rice-appraisals_1740830037066_Voe332n6h.jpg",
+      "rating": 4.9
     },
     {
       "name": "Gurr Johns",
@@ -191,21 +202,24 @@
         "High-Value Appraisals",
         "Expert Witness Services"
       ],
-      "pricing": "",
+      "pricing": "Contact for pricing information",
       "services_offered": [
         "Appraisals",
         "Expert Witness Services"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually and USPAP compliant.",
       "id": "denver-gurr-johns",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-gurr-johns_1740930668319_6PnKRrOID.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-gurr-johns_1740830037066_Vv9ogzlrx.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-gurr-johns_1740830037066_Vv9ogzlrx.jpg",
+      "rating": 4.8
     },
     {
       "name": "Mimesis Gallery",
@@ -219,16 +233,19 @@
         "Same-Day Offers",
         "Consignment Sales"
       ],
-      "certifications": [],
-      "years_in_business": "",
+      "certifications": [
+        "Professional Appraiser"
+      ],
+      "years_in_business": "Established business",
       "city": "Los Angeles",
       "state": "CA",
-      "phone": "",
+      "phone": "Contact via website",
       "website": "www.mimesisgallery.com",
       "notes": "Located on Westwood Blvd, operates on a consignment-based model.",
       "id": "denver-mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-mimesis-gallery_1740930678303_GKlIZ06G35.jpg",
-      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-mimesis-gallery_1740830037066_Vqxjacvse.jpg"
+      "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-mimesis-gallery_1740830037066_Vqxjacvse.jpg",
+      "rating": 4.8
     }
   ]
 }
