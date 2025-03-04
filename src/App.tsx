@@ -85,7 +85,7 @@ function App() {
       <main className="container mx-auto px-6 py-16">
         <h2 className="text-3xl font-bold mb-10 text-center">Featured Art Appraisers</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Example Appraiser Card - Enhanced */}
+          {/* Example Appraiser Card 1 */}
           <a href="/appraiser/metropolitan-art-appraisers-chicago" className="group">
             <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
               <div className="relative">
@@ -117,7 +117,165 @@ function App() {
             </div>
           </a>
           
-          {/* You can add more cards here */}
+          {/* Example Appraiser Card 2 */}
+          <a href="/appraiser/heritage-fine-art-appraisers" className="group">
+            <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
+              <div className="relative">
+                <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
+                  <div style={{ position: 'absolute', inset: 0 }}>
+                    <img
+                      src="https://images.unsplash.com/photo-1580543736471-c548332fe5b8?auto=format&fit=crop&q=80"
+                      alt="Heritage Fine Art Appraisers"
+                      className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+                <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
+                  <Star className="w-4 h-4 fill-primary text-primary" /> 4.8
+                </div>
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Heritage Fine Art Appraisers</h3>
+                <div className="flex items-center text-muted-foreground mb-3">
+                  <MapPin className="w-4 h-4 mr-1" /> Los Angeles, CA
+                </div>
+                <p className="text-muted-foreground text-sm mb-4">Specialized in European classical art, antiques, and collectibles with extensive auction experience.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Classical Art</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Antiques</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Valuation</span>
+                </div>
+              </div>
+            </div>
+          </a>
+          
+          {/* Example Appraiser Card 3 */}
+          <a href="/appraiser/blue-chip-art-valuation" className="group">
+            <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
+              <div className="relative">
+                <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
+                  <div style={{ position: 'absolute', inset: 0 }}>
+                    <img
+                      src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80"
+                      alt="Blue Chip Art Valuation"
+                      className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+                <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
+                  <Star className="w-4 h-4 fill-primary text-primary" /> 4.7
+                </div>
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Blue Chip Art Valuation</h3>
+                <div className="flex items-center text-muted-foreground mb-3">
+                  <MapPin className="w-4 h-4 mr-1" /> Chicago, IL
+                </div>
+                <p className="text-muted-foreground text-sm mb-4">Experts in contemporary and investment-grade artwork with international market expertise.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Contemporary</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Investment Art</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Digital Art</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          {/* New Appraiser Card 4 */}
+          <a href="/appraiser/renaissance-appraisal-group" className="group">
+            <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
+              <div className="relative">
+                <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
+                  <div style={{ position: 'absolute', inset: 0 }}>
+                    <img
+                      src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&q=80"
+                      alt="Renaissance Appraisal Group"
+                      className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+                <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
+                  <Star className="w-4 h-4 fill-primary text-primary" /> 4.9
+                </div>
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Renaissance Appraisal Group</h3>
+                <div className="flex items-center text-muted-foreground mb-3">
+                  <MapPin className="w-4 h-4 mr-1" /> Boston, MA
+                </div>
+                <p className="text-muted-foreground text-sm mb-4">Specialists in renaissance and baroque art with museum-quality consultation services.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Renaissance</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Baroque</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Old Masters</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          {/* New Appraiser Card 5 */}
+          <a href="/appraiser/modern-masterpiece-valuations" className="group">
+            <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
+              <div className="relative">
+                <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
+                  <div style={{ position: 'absolute', inset: 0 }}>
+                    <img
+                      src="https://images.unsplash.com/photo-1576016770956-debb63d92058?auto=format&fit=crop&q=80"
+                      alt="Modern Masterpiece Valuations"
+                      className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+                <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
+                  <Star className="w-4 h-4 fill-primary text-primary" /> 4.8
+                </div>
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Modern Masterpiece Valuations</h3>
+                <div className="flex items-center text-muted-foreground mb-3">
+                  <MapPin className="w-4 h-4 mr-1" /> San Francisco, CA
+                </div>
+                <p className="text-muted-foreground text-sm mb-4">Premium valuation services for modern masterpieces and contemporary works of significance.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Modern Art</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Masterpieces</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Museum Quality</span>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          {/* New Appraiser Card 6 */}
+          <a href="/appraiser/impressionist-valuations-expert" className="group">
+            <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
+              <div className="relative">
+                <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
+                  <div style={{ position: 'absolute', inset: 0 }}>
+                    <img
+                      src="https://images.unsplash.com/photo-1577720643889-01ed9b648dee?auto=format&fit=crop&q=80"
+                      alt="Impressionist Valuations Expert"
+                      className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                    />
+                  </div>
+                </div>
+                <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
+                  <Star className="w-4 h-4 fill-primary text-primary" /> 4.9
+                </div>
+              </div>
+              <div className="p-5">
+                <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Impressionist Valuations Expert</h3>
+                <div className="flex items-center text-muted-foreground mb-3">
+                  <MapPin className="w-4 h-4 mr-1" /> Washington, DC
+                </div>
+                <p className="text-muted-foreground text-sm mb-4">Specialized in impressionist, post-impressionist, and early 20th century artworks.</p>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Impressionist</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Post-Impressionist</span>
+                  <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">European Art</span>
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
         
         <div className="mt-12 text-center">
@@ -129,90 +287,6 @@ function App() {
           </a>
         </div>
       </main>
-      
-      {/* Testimonials Section */}
-      <div className="bg-primary/5 py-16">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-10 text-center">What Our Clients Say</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300">
-              <div className="flex items-center mb-4">
-                <div className="mr-4">
-                  <img 
-                    src="https://randomuser.me/api/portraits/women/32.jpg" 
-                    alt="Client" 
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-semibold">Sarah Johnson</h4>
-                  <div className="flex">
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-muted-foreground">
-                "The appraisal service was exceptional. They gave me an accurate valuation of my family heirloom paintings with detailed explanations."
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300">
-              <div className="flex items-center mb-4">
-                <div className="mr-4">
-                  <img 
-                    src="https://randomuser.me/api/portraits/men/44.jpg" 
-                    alt="Client" 
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-semibold">Michael Trent</h4>
-                  <div className="flex">
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-muted-foreground">
-                "Found an amazing appraiser through this directory. Professional, knowledgeable, and provided great insights on my collection."
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300">
-              <div className="flex items-center mb-4">
-                <div className="mr-4">
-                  <img 
-                    src="https://randomuser.me/api/portraits/women/68.jpg" 
-                    alt="Client" 
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-semibold">Amanda Pierce</h4>
-                  <div className="flex">
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                    <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  </div>
-                </div>
-              </div>
-              <p className="text-muted-foreground">
-                "Easy to use directory that helped me connect with a local art appraiser. The process was smooth from start to finish."
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
