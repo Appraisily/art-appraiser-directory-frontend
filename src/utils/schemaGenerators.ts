@@ -14,7 +14,8 @@ export function generateAppraiserSchema(appraiser: any) {
     ) ? "$$$" : "$$"
   );
 
-  return {
+  // Create safe schema with null checks for missing properties
+  const schema: any = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`,
@@ -22,29 +23,24 @@ export function generateAppraiserSchema(appraiser: any) {
     "alternateName": appraiser.businessName || undefined,
     "image": {
       "@type": "ImageObject",
-      "url": appraiser.image,
+      "url": appraiser.image || appraiser.imageUrl || "",
       "width": 800,
       "height": 600,
       "caption": `${appraiser.name} - Art Appraiser`
     },
-    "description": appraiser.about,
+    "description": appraiser.about || `${appraiser.name} provides professional art appraisal services.`,
     "foundingDate": appraiser.yearEstablished,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": appraiser.address.split(',')[0].trim(),
-      "addressLocality": appraiser.address.split(',')[0].trim(),
-      "addressRegion": appraiser.address.split(',')[1]?.trim() || "",
+      "streetAddress": appraiser.address?.split(',')[0]?.trim() || "",
+      "addressLocality": appraiser.address?.split(',')[0]?.trim() || "",
+      "addressRegion": appraiser.address?.split(',')[1]?.trim() || appraiser.state || "",
       "postalCode": appraiser.postalCode || "",
       "addressCountry": "US"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": appraiser.latitude,
-      "longitude": appraiser.longitude
-    },
-    "url": appraiser.website,
-    "telephone": appraiser.phone,
-    "email": appraiser.email,
+    "url": appraiser.website || "",
+    "telephone": appraiser.phone || "",
+    "email": appraiser.email || "",
     "sameAs": [
       appraiser.socialLinks?.facebook || "",
       appraiser.socialLinks?.instagram || "",
@@ -53,15 +49,32 @@ export function generateAppraiserSchema(appraiser: any) {
     ].filter(url => url !== ""),
     "priceRange": priceRange,
     "paymentAccepted": appraiser.paymentMethods || "Cash, Credit Card",
-    "openingHoursSpecification": formattedHours,
-    "aggregateRating": {
+    "openingHoursSpecification": formattedHours
+  };
+
+  // Only add geo if coordinates are available
+  if (appraiser.latitude && appraiser.longitude) {
+    schema.geo = {
+      "@type": "GeoCoordinates",
+      "latitude": appraiser.latitude,
+      "longitude": appraiser.longitude
+    };
+  }
+
+  // Only add rating information if rating and reviewCount exist
+  if (appraiser.rating !== undefined) {
+    schema.aggregateRating = {
       "@type": "AggregateRating",
       "ratingValue": appraiser.rating.toString(),
-      "reviewCount": appraiser.reviewCount.toString(),
+      "reviewCount": (appraiser.reviewCount || 0).toString(),
       "bestRating": "5",
       "worstRating": "1"
-    },
-    "review": appraiser.reviews?.map((review: any) => ({
+    };
+  }
+
+  // Only add reviews if they exist
+  if (Array.isArray(appraiser.reviews) && appraiser.reviews.length > 0) {
+    schema.review = appraiser.reviews.map((review: any) => ({
       "@type": "Review",
       "reviewRating": {
         "@type": "Rating",
@@ -75,32 +88,50 @@ export function generateAppraiserSchema(appraiser: any) {
       },
       "datePublished": review.date,
       "reviewBody": review.content
-    })),
-    "makesOffer": appraiser.services?.map((service: any) => ({
+    }));
+  }
+
+  // Only add services if they exist
+  if (Array.isArray(appraiser.services) && appraiser.services.length > 0) {
+    schema.makesOffer = appraiser.services.map((service: any) => ({
       "@type": "Offer",
       "name": service.name,
       "description": service.description,
-      "price": service.price.replace(/[^0-9]/g, ''),
+      "price": service.price?.replace(/[^0-9]/g, '') || "",
       "priceCurrency": "USD"
-    })),
-    "hasCredential": appraiser.certifications?.map((certification: string) => ({
+    }));
+  }
+
+  // Only add certifications if they exist
+  if (Array.isArray(appraiser.certifications) && appraiser.certifications.length > 0) {
+    schema.hasCredential = appraiser.certifications.map((certification: string) => ({
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "certification",
       "name": certification
-    })),
-    "knowsAbout": appraiser.specialties?.map((specialty: string) => specialty),
-    "areaServed": {
-      "@type": "City",
-      "name": appraiser.address.split(',')[0].trim(),
-      "containedInPlace": {
-        "@type": "State",
-        "name": appraiser.address.split(',')[1]?.trim() || ""
-      }
-    },
-    "hasOfferCatalog": {
+    }));
+  }
+
+  // Only add specialties if they exist
+  if (Array.isArray(appraiser.specialties) && appraiser.specialties.length > 0) {
+    schema.knowsAbout = appraiser.specialties.map((specialty: string) => specialty);
+  }
+
+  // Add area served information
+  schema.areaServed = {
+    "@type": "City",
+    "name": appraiser.address?.split(',')[0]?.trim() || appraiser.city || "",
+    "containedInPlace": {
+      "@type": "State",
+      "name": appraiser.address?.split(',')[1]?.trim() || appraiser.state || ""
+    }
+  };
+
+  // Add services catalog if services exist
+  if (Array.isArray(appraiser.services) && appraiser.services.length > 0) {
+    schema.hasOfferCatalog = {
       "@type": "OfferCatalog",
       "name": "Art Appraisal Services",
-      "itemListElement": appraiser.services?.map((service: any, index: number) => ({
+      "itemListElement": appraiser.services.map((service: any, index: number) => ({
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
@@ -109,10 +140,28 @@ export function generateAppraiserSchema(appraiser: any) {
         },
         "position": index + 1
       }))
-    },
-    "additionalType": "https://schema.org/ProfessionalService",
-    "isAccessibleForFree": false
-  };
+    };
+  } else if (Array.isArray(appraiser.services_offered) && appraiser.services_offered.length > 0) {
+    // Fallback to services_offered if services array doesn't exist
+    schema.hasOfferCatalog = {
+      "@type": "OfferCatalog",
+      "name": "Art Appraisal Services",
+      "itemListElement": appraiser.services_offered.map((service: any, index: number) => ({
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": service,
+          "description": `Professional ${service} by ${appraiser.name}`
+        },
+        "position": index + 1
+      }))
+    };
+  }
+
+  schema.additionalType = "https://schema.org/ProfessionalService";
+  schema.isAccessibleForFree = false;
+
+  return schema;
 }
 
 export function generateLocationSchema(locationData: any) {
@@ -185,11 +234,17 @@ export function generateLocationSchema(locationData: any) {
 }
 
 export function generateFAQSchema(appraiser: any) {
-  const services = appraiser.services?.map((s: any) => s.name).join(', ') || '';
-  const specialties = appraiser.specialties?.join(', ') || '';
-  const certifications = appraiser.certifications?.join(', ') || '';
+  // Safely check if arrays exist and then join them or provide fallbacks
+  const services = Array.isArray(appraiser.services) 
+    ? appraiser.services.map((s: any) => s.name).join(', ') 
+    : (Array.isArray(appraiser.services_offered) ? appraiser.services_offered.join(', ') : '');
+    
+  const specialties = Array.isArray(appraiser.specialties) ? appraiser.specialties.join(', ') : '';
+  const certifications = Array.isArray(appraiser.certifications) ? appraiser.certifications.join(', ') : '';
+  
+  // Safely extract city and state from address with fallbacks
   const city = appraiser.address?.split(',')[0]?.trim() || appraiser.city || '';
-  const state = appraiser.address?.split(',')[1]?.trim() || '';
+  const state = appraiser.address?.split(',')[1]?.trim() || appraiser.state || '';
   
   return {
     "@context": "https://schema.org",
@@ -240,11 +295,13 @@ export function generateFAQSchema(appraiser: any) {
         "name": `How much does an art appraisal cost with ${appraiser.name}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": appraiser.services?.some((s: any) => s.price) 
+          "text": Array.isArray(appraiser.services) && appraiser.services.some((s: any) => s.price) 
             ? `Art appraisal services with ${appraiser.name} start at ${appraiser.services.reduce((min: any, s: any) => 
               (s.price && (!min || parseFloat(s.price.replace(/[^0-9.]/g, '')) < parseFloat(min.replace(/[^0-9.]/g, '')))) 
                 ? s.price : min, null) || 'competitive rates'}.` 
-            : `${appraiser.name} offers art appraisal services at competitive rates. Contact directly for a quote based on your specific needs.`
+            : (appraiser.pricing 
+              ? `${appraiser.name} offers art appraisal services with the following pricing: ${appraiser.pricing}.`
+              : `${appraiser.name} offers art appraisal services at competitive rates. Contact directly for a quote based on your specific needs.`)
         }
       },
       {
