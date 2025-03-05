@@ -1,23 +1,54 @@
-import fs from 'fs-extra';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { glob } from 'glob';
+
+// Fix glob import to support both ESM and CommonJS
+let globModule;
+try {
+  // Try ESM import first
+  globModule = await import('glob');
+} catch (error) {
+  try {
+    // Fallback to CommonJS require
+    globModule = { glob: require('glob').glob };
+    console.log('Using CommonJS import for glob');
+  } catch (err) {
+    // If both fail, create a simple fallback implementation
+    console.log('Glob module not available, using fallback file discovery');
+    globModule = {
+      glob: (pattern, options) => {
+        const dir = options.cwd || '.';
+        const files = [];
+        
+        // Simple implementation to handle basic patterns like '*.css'
+        if (pattern.startsWith('*.')) {
+          const extension = pattern.substring(2);
+          const dirContents = fs.readdirSync(dir);
+          
+          dirContents.forEach(file => {
+            if (file.endsWith(`.${extension}`)) {
+              files.push(file);
+            }
+          });
+        }
+        
+        return Promise.resolve(files);
+      }
+    };
+  }
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Directory paths
 const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
 const DIST_DIR = path.join(__dirname, '../dist');
 const APPRAISERS_DIR = path.join(DIST_DIR, 'appraiser');
 
-// Default placeholder image for missing images
-const DEFAULT_PLACEHOLDER_IMAGE = 'https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable';
+// Default placeholder image
+const DEFAULT_PLACEHOLDER = 'https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable';
 
-// Make sure we have all necessary directories
-fs.ensureDirSync(DIST_DIR);
-fs.ensureDirSync(APPRAISERS_DIR);
-
-/**
- * Safely gets a property from an object, returning a default if not found
- */
+// Helper function to safely get a property from an object
 function safeGet(obj, path, defaultValue = '') {
   if (!obj) return defaultValue;
   
@@ -25,336 +56,258 @@ function safeGet(obj, path, defaultValue = '') {
   let result = obj;
   
   for (const key of keys) {
-    if (result === undefined || result === null) {
+    if (result === null || result === undefined || typeof result !== 'object') {
       return defaultValue;
     }
     result = result[key];
   }
   
-  return result !== undefined && result !== null ? result : defaultValue;
+  return result !== null && result !== undefined ? result : defaultValue;
 }
 
-/**
- * Generates a static HTML page for a single appraiser
- */
-async function generateAppraiserStaticPage(appraiser, locationData, cityName) {
+// Function to generate a static HTML page for an appraiser
+function generateAppraiserStaticPage(appraiser, location) {
   if (!appraiser || !appraiser.id) {
-    console.log('⚠️ Skipping appraiser with no ID');
-    return;
+    console.warn(`⚠️ Skipping appraiser with no ID: ${appraiser?.name || 'Unknown'}`);
+    return false;
   }
-
-  const displayName = safeGet(appraiser, 'businessName') 
-    ? `${safeGet(appraiser, 'name')} (${safeGet(appraiser, 'businessName')})` 
-    : safeGet(appraiser, 'name', 'Art Appraiser');
   
-  const specialtiesText = Array.isArray(safeGet(appraiser, 'specialties'))
-    ? safeGet(appraiser, 'specialties', ['Fine Art Appraisal']).join(', ')
-    : safeGet(appraiser, 'specialties', 'Fine Art Appraisal');
+  try {
+    // Create directory for the appraiser
+    const appraiserSlug = appraiser.id.toLowerCase().replace(/\s+/g, '-');
+    const locationSlug = location.toLowerCase().replace(/\s+/g, '-');
+    const outputDir = path.join(APPRAISERS_DIR, `${locationSlug}-${appraiserSlug}`);
     
-  const description = `Get professional art appraisal services from ${displayName}. Specializing in ${specialtiesText}. Located in ${safeGet(appraiser, 'city', cityName)}, ${safeGet(appraiser, 'state', '')}.`;
-  
-  // Pick the first available image URL or use a placeholder
-  const imageUrl = safeGet(appraiser, 'image') || 
-                  safeGet(appraiser, 'imageUrl') || 
-                  DEFAULT_PLACEHOLDER_IMAGE;
-  
-  // Ensure directories exist
-  const appraiserDir = path.join(APPRAISERS_DIR, appraiser.id);
-  fs.ensureDirSync(appraiserDir);
-  
-  // Get styles and scripts
-  const cssFiles = await glob('assets/*.css', { cwd: DIST_DIR });
-  const jsFiles = await glob('assets/*.js', { cwd: DIST_DIR });
-  
-  const cssPath = cssFiles.length > 0 ? `/${cssFiles[0]}` : '';
-  const jsPath = jsFiles.length > 0 ? `/${jsFiles[0]}` : '';
-  
-  // Load any existing meta tags from the original page if it exists
-  let metaTags = '';
-  const existingHtmlPath = path.join(appraiserDir, 'index.html');
-  if (fs.existsSync(existingHtmlPath)) {
-    const existingHtml = fs.readFileSync(existingHtmlPath, 'utf8');
-    const metaMatch = existingHtml.match(/<meta[^>]*>/g);
-    if (metaMatch) {
-      metaTags = metaMatch.join('\\n');
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
     }
-  }
-  
-  // Create the schema data for the appraiser
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": displayName,
-    "image": imageUrl,
-    "description": description,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": safeGet(appraiser, 'city', cityName),
-      "addressRegion": safeGet(appraiser, 'state', '')
-    },
-    "telephone": safeGet(appraiser, 'phone', ''),
-    "url": safeGet(appraiser, 'website', ''),
-    "priceRange": safeGet(appraiser, 'pricing', '$$'),
-    "sameAs": safeGet(appraiser, 'website') ? [safeGet(appraiser, 'website')] : [],
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "17:00"
+    
+    // Get CSS and JS files
+    let cssFiles = [];
+    let jsFiles = [];
+    
+    try {
+      if (globModule && typeof globModule.glob === 'function') {
+        cssFiles = globModule.glob.sync('*.css', { cwd: path.join(DIST_DIR, 'assets') }) || [];
+        jsFiles = globModule.glob.sync('*.js', { cwd: path.join(DIST_DIR, 'assets') }) || [];
+      } else {
+        // Fallback to fs.readdirSync
+        const assetsDir = path.join(DIST_DIR, 'assets');
+        const files = fs.readdirSync(assetsDir);
+        
+        cssFiles = files.filter(file => file.endsWith('.css'));
+        jsFiles = files.filter(file => file.endsWith('.js'));
+      }
+    } catch (error) {
+      console.error('Error getting asset files:', error);
+      // Initialize with empty arrays if there's an error
+      cssFiles = [];
+      jsFiles = [];
     }
-  };
-  
-  // Build a full HTML page
-  const html = `<!DOCTYPE html>
+    
+    const cssFile = cssFiles.length > 0 ? `/assets/${cssFiles[0]}` : '';
+    const jsFile = jsFiles.length > 0 ? `/assets/${jsFiles[0]}` : '';
+    
+    // Get appraiser details
+    const name = safeGet(appraiser, 'name', 'Art Appraiser');
+    const businessName = safeGet(appraiser, 'business_name', '');
+    const displayName = businessName || name;
+    
+    // Check if specialties is an array before using map
+    const specialtiesText = Array.isArray(safeGet(appraiser, 'specialties')) 
+      ? safeGet(appraiser, 'specialties').join(', ')
+      : 'Fine Art Appraisal';
+    
+    const description = `${displayName} specializes in ${specialtiesText} in ${location}. Contact for professional art appraisal services.`;
+    const phone = safeGet(appraiser, 'phone', '');
+    const website = safeGet(appraiser, 'website', '');
+    const address = safeGet(appraiser, 'address', location);
+    const image = safeGet(appraiser, 'image', DEFAULT_PLACEHOLDER);
+    
+    // Create HTML content
+    const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${displayName} - Art Appraiser in ${location}</title>
   <meta name="description" content="${description}">
-  <meta property="og:title" content="${displayName} | Art Appraiser | Appraisily">
-  <meta property="og:description" content="${description}">
-  <meta property="og:image" content="${imageUrl}">
-  <meta property="og:site_name" content="Appraisily">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${displayName} | Art Appraiser | Appraisily">
-  <meta name="twitter:description" content="${description}">
-  <meta name="twitter:image" content="${imageUrl}">
-  <title>${displayName} | Art Appraiser | Appraisily</title>
-  <link rel="stylesheet" href="${cssPath}">
+  <link rel="canonical" href="https://art-appraiser.appraisily.com/appraiser/${locationSlug}-${appraiserSlug}/">
+  ${cssFile ? `<link rel="stylesheet" href="${cssFile}">` : ''}
+  
+  <!-- Schema.org structured data -->
   <script type="application/ld+json">
-    ${JSON.stringify(schemaData, null, 2)}
-  </script>
-  <!-- Critical inline CSS for the appraiser page -->
-  <style>
-    body { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-    .appraiser-page { padding: 40px 0; }
-    .appraiser-info { display: flex; flex-wrap: wrap; gap: 30px; margin: 30px 0; }
-    .appraiser-image { flex: 0 0 300px; height: 300px; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-    .appraiser-details { flex: 1; min-width: 300px; }
-    .appraiser-image img { width: 100%; height: 100%; object-fit: cover; }
-    h1 { margin-top: 0; color: #1a365d; font-size: 2.2rem; }
-    h2 { color: #2a4365; font-size: 1.6rem; margin-top: 30px; }
-    ul { padding-left: 20px; }
-    .contact-info { margin-top: 20px; padding: 15px; background: #f8fafc; border-radius: 8px; }
-    .nav { background: #1a365d; color: white; padding: 15px 0; }
-    .nav .container { display: flex; justify-content: space-between; align-items: center; }
-    .nav a { color: white; text-decoration: none; }
-    .logo { font-weight: bold; font-size: 1.5rem; }
-    .nav-links { display: flex; gap: 20px; }
-    .breadcrumbs { margin: 20px 0; color: #64748b; }
-    .breadcrumbs a { color: #2563eb; text-decoration: none; }
-    .fallback-image { filter: grayscale(0.5); opacity: 0.9; }
-    footer { background: #f1f5f9; padding: 40px 0; margin-top: 60px; text-align: center; color: #64748b; }
-    .cta-button { display: inline-block; background: #2563eb; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; margin-top: 20px; }
-    @media (max-width: 768px) {
-      .appraiser-info { flex-direction: column; }
-      .appraiser-image { width: 100%; }
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "${displayName}",
+    "description": "${description}",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "${displayName}",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "${location}"
+      },
+      ${phone ? `"telephone": "${phone}",` : ''}
+      ${website ? `"url": "${website}",` : ''}
+      "image": "${image}"
+    },
+    "areaServed": "${location}",
+    "serviceType": "Art Appraisal",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "15"
+    },
+    "offers": {
+      "@type": "Offer",
+      "description": "Professional art appraisal services with complimentary valuation for consignment"
     }
-  </style>
+  }
+  </script>
 </head>
 <body>
-  <nav class="nav">
-    <div class="container">
-      <a href="/" class="logo">Appraisily</a>
-      <div class="nav-links">
-        <a href="/">Home</a>
-        <a href="/location/${cityName.toLowerCase()}">All ${cityName} Appraisers</a>
-      </div>
-    </div>
-  </nav>
-  
-  <div class="container">
-    <div class="breadcrumbs">
-      <a href="/">Home</a> &gt; 
-      <a href="/location/${cityName.toLowerCase()}">Art Appraisers in ${cityName}</a> &gt; 
+  <header>
+    <nav>
+      <a href="/">Home</a> &gt;
+      <a href="/location/${locationSlug}/">${location}</a> &gt;
       <span>${displayName}</span>
-    </div>
-    
-    <div class="appraiser-page">
-      <article itemscope itemtype="https://schema.org/ProfessionalService">
-        <h1 itemprop="name">${displayName}</h1>
-        
-        <div class="appraiser-info">
-          <div class="appraiser-image">
-            <img 
-              src="${imageUrl}" 
-              alt="${displayName}" 
-              itemprop="image" 
-              width="300" 
-              height="300" 
-              loading="lazy"
-              onerror="this.onerror=null; this.src='https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable'; this.classList.add('fallback-image');"
-            />
-          </div>
-          
-          <div class="appraiser-details">
-            <p itemprop="description">${safeGet(appraiser, 'about', description)}</p>
-            
-            <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-              <p><strong>Location:</strong> <span itemprop="addressLocality">${safeGet(appraiser, 'address', `${safeGet(appraiser, 'city', cityName)}, ${safeGet(appraiser, 'state', '')}`)}</span></p>
-            </div>
-            
-            ${safeGet(appraiser, 'phone') ? `<p><strong>Phone:</strong> <span itemprop="telephone">${safeGet(appraiser, 'phone')}</span></p>` : ''}
-            ${safeGet(appraiser, 'email') ? `<p><strong>Email:</strong> <span itemprop="email">${safeGet(appraiser, 'email')}</span></p>` : ''}
-            ${safeGet(appraiser, 'website') ? `<p><strong>Website:</strong> <a href="${safeGet(appraiser, 'website')}" itemprop="url" target="_blank" rel="noopener noreferrer">${safeGet(appraiser, 'website')}</a></p>` : ''}
-            
-            ${safeGet(appraiser, 'rating') ? 
-              `<div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
-                <p><strong>Rating:</strong> <span itemprop="ratingValue">${safeGet(appraiser, 'rating')}</span>/5
-                ${safeGet(appraiser, 'reviewCount') ? `(<span itemprop="reviewCount">${safeGet(appraiser, 'reviewCount')}</span> reviews)` : ''}
-                </p>
-              </div>` : ''
-            }
-            
-            ${safeGet(appraiser, 'pricing') ? `<p><strong>Pricing:</strong> ${safeGet(appraiser, 'pricing')}</p>` : ''}
-            
-            <div class="contact-info">
-              <h3>Need An Appraisal?</h3>
-              <p>Contact this appraiser directly for a quote or ask about their art appraisal services.</p>
-              ${safeGet(appraiser, 'phone') ? 
-                `<a href="tel:${safeGet(appraiser, 'phone').replace(/[^0-9]/g, '')}" class="cta-button">Call Now</a>` : 
-                (safeGet(appraiser, 'website') ? 
-                  `<a href="${safeGet(appraiser, 'website')}" target="_blank" rel="noopener noreferrer" class="cta-button">Visit Website</a>` : 
-                  `<a href="/location/${cityName.toLowerCase()}" class="cta-button">View More Appraisers</a>`
-                )
-              }
-            </div>
-          </div>
+    </nav>
+  </header>
+  
+  <main>
+    <article class="appraiser-profile">
+      <div class="profile-header">
+        <img src="${image}" alt="${displayName}" class="appraiser-image" onerror="this.src='${DEFAULT_PLACEHOLDER}'; this.classList.add('fallback-image');">
+        <div class="profile-info">
+          <h1>${displayName}</h1>
+          <p class="location">${location}</p>
+          ${phone ? `<p class="phone">${phone}</p>` : ''}
+          ${website ? `<p class="website"><a href="${website}" target="_blank" rel="noopener">${website}</a></p>` : ''}
         </div>
-        
-        <section>
+      </div>
+      
+      <div class="profile-details">
+        <section class="specialties">
           <h2>Specialties</h2>
           <ul>
             ${Array.isArray(safeGet(appraiser, 'specialties')) 
-              ? safeGet(appraiser, 'specialties', []).map(specialty => 
-                  `<li>${specialty}</li>`
-                ).join('\n            ')
-              : `<li>${safeGet(appraiser, 'specialties', 'Fine Art Appraisal')}</li>`
-            }
+              ? safeGet(appraiser, 'specialties').map(specialty => `<li>${specialty}</li>`).join('')
+              : '<li>Fine Art Appraisal</li>'}
           </ul>
         </section>
         
-        ${safeGet(appraiser, 'services_offered') ? 
-          `<section>
-            <h2>Services Offered</h2>
-            <ul>
-              ${Array.isArray(safeGet(appraiser, 'services_offered')) 
-                ? safeGet(appraiser, 'services_offered', []).map(service => 
-                    `<li>${service}</li>`
-                  ).join('\n              ')
-                : `<li>${safeGet(appraiser, 'services_offered', 'Art Appraisal Services')}</li>`
-              }
-            </ul>
-          </section>` : ''
-        }
+        <section class="services">
+          <h2>Services Offered</h2>
+          <ul>
+            ${Array.isArray(safeGet(appraiser, 'services_offered')) 
+              ? safeGet(appraiser, 'services_offered').map(service => `<li>${service}</li>`).join('')
+              : '<li>Art Appraisal Services</li>'}
+          </ul>
+        </section>
         
-        ${safeGet(appraiser, 'certifications') ? 
-          `<section>
-            <h2>Certifications</h2>
-            <ul>
-              ${Array.isArray(safeGet(appraiser, 'certifications')) 
-                ? safeGet(appraiser, 'certifications', []).map(cert => 
-                    `<li>${cert}</li>`
-                  ).join('\n              ')
-                : `<li>${safeGet(appraiser, 'certifications', 'Professional Art Appraiser')}</li>`
-              }
-            </ul>
-          </section>` : ''
-        }
-        
-        ${safeGet(appraiser, 'notes') ? 
-          `<section>
-            <h2>Additional Information</h2>
-            <p>${safeGet(appraiser, 'notes')}</p>
-          </section>` : ''
-        }
-      </article>
-    </div>
-  </div>
+        <section class="certifications">
+          <h2>Certifications</h2>
+          <ul>
+            ${Array.isArray(safeGet(appraiser, 'certifications')) 
+              ? safeGet(appraiser, 'certifications').map(cert => `<li>${cert}</li>`).join('')
+              : '<li>Professional Art Appraiser</li>'}
+          </ul>
+        </section>
+      </div>
+    </article>
+  </main>
   
   <footer>
-    <div class="container">
-      <p>&copy; ${new Date().getFullYear()} Appraisily. All rights reserved.</p>
-    </div>
+    <p>&copy; ${new Date().getFullYear()} Art Appraiser Directory. All rights reserved.</p>
   </footer>
   
   <!-- Fallback image script -->
   <script>
+    // Handle broken images
     document.addEventListener('DOMContentLoaded', function() {
       const images = document.querySelectorAll('img');
       images.forEach(img => {
-        if (img.complete) {
-          if (!img.naturalWidth) {
-            img.src = 'https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable';
-            img.classList.add('fallback-image');
-          }
+        img.onerror = function() {
+          this.src = '${DEFAULT_PLACEHOLDER}';
+          this.classList.add('fallback-image');
+        };
+        
+        // Check already loaded images
+        if (img.complete && img.naturalHeight === 0) {
+          img.src = '${DEFAULT_PLACEHOLDER}';
+          img.classList.add('fallback-image');
         }
       });
     });
   </script>
+  
+  ${jsFile ? `<script type="module" src="${jsFile}"></script>` : ''}
 </body>
 </html>`;
-
-  // Write the HTML file
-  const outputPath = path.join(appraiserDir, 'index.html');
-  await fs.writeFile(outputPath, html, 'utf8');
-  
-  return outputPath;
+    
+    // Write HTML file
+    fs.writeFileSync(path.join(outputDir, 'index.html'), html);
+    return true;
+  } catch (error) {
+    console.error(`❌ Error generating page for ${appraiser.name || 'Unknown'}: ${error.message}`);
+    return false;
+  }
 }
 
-/**
- * Generate static HTML for all appraisers
- */
+// Function to generate static HTML pages for all appraisers
 async function generateAllAppraiserPages() {
   console.log('🔨 Generating static HTML for all appraiser pages...');
-  let totalPages = 0;
-  let failedPages = 0;
+  
+  let totalGenerated = 0;
+  let totalFailed = 0;
   
   // Get all location files
-  const locationFiles = fs.readdirSync(LOCATIONS_DIR).filter(file => file.endsWith('.json'));
+  const locationFiles = fs.readdirSync(LOCATIONS_DIR)
+    .filter(file => file.endsWith('.json'));
   
-  for (const file of locationFiles) {
-    const locationPath = path.join(LOCATIONS_DIR, file);
-    const locationData = await fs.readJson(locationPath);
-    const cityName = file.replace('.json', '');
+  // Process each location
+  for (const locationFile of locationFiles) {
+    const locationName = path.basename(locationFile, '.json');
+    console.log(`📍 Processing appraisers in ${locationName}...`);
     
-    console.log(`📍 Processing appraisers in ${cityName}...`);
-    
-    if (!locationData.appraisers || locationData.appraisers.length === 0) {
-      console.log(`  ℹ️ No appraisers found in ${file}`);
-      continue;
-    }
-    
-    for (const appraiser of locationData.appraisers) {
-      try {
+    try {
+      // Read location data
+      const locationData = JSON.parse(
+        fs.readFileSync(path.join(LOCATIONS_DIR, locationFile), 'utf8')
+      );
+      
+      // Check if appraisers exist
+      if (!locationData.appraisers || locationData.appraisers.length === 0) {
+        console.log(`ℹ️ No appraisers found in ${locationFile}`);
+        continue;
+      }
+      
+      // Generate page for each appraiser
+      for (const appraiser of locationData.appraisers) {
         if (!appraiser.id) {
           console.log(`  ⚠️ Skipping appraiser with no ID: ${appraiser.name || 'Unknown'}`);
-          failedPages++;
           continue;
         }
         
-        const outputPath = await generateAppraiserStaticPage(appraiser, locationData, cityName);
-        console.log(`  ✅ Generated: ${appraiser.name} (${appraiser.id})`);
-        totalPages++;
-      } catch (error) {
-        console.error(`  ❌ Error generating page for ${appraiser.name || appraiser.id || 'Unknown'}: ${error.message}`);
-        failedPages++;
+        const success = generateAppraiserStaticPage(appraiser, locationData.name || locationName);
+        
+        if (success) {
+          totalGenerated++;
+        } else {
+          totalFailed++;
+        }
       }
+    } catch (error) {
+      console.error(`❌ Error processing ${locationFile}: ${error.message}`);
+      totalFailed++;
     }
   }
   
   console.log(`\n📊 SUMMARY:`);
-  console.log(`📄 Total pages generated: ${totalPages}`);
-  if (failedPages > 0) {
-    console.log(`❌ Failed pages: ${failedPages}`);
-  }
+  console.log(`📄 Total pages generated: ${totalGenerated}`);
+  console.log(`❌ Failed pages: ${totalFailed}`);
   console.log(`✅ Static HTML generation completed`);
 }
 

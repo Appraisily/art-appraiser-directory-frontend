@@ -22,6 +22,11 @@ console.log('Starting Netlify build process with SEO optimizations...');
 console.log(`Using site URL: ${siteUrl}`);
 
 try {
+  // Pre-build: Make sure all dependencies are installed
+  console.log('📦 Ensuring all dependencies are installed...');
+  execSync('npm install', { cwd: ROOT_DIR, stdio: 'inherit' });
+  console.log('✅ Dependencies verified');
+
   // Step 1: Clean up previous build artifacts
   console.log('🧹 Cleaning up previous build artifacts...');
   const distDir = path.join(ROOT_DIR, 'dist');

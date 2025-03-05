@@ -52,6 +52,7 @@
         "axios": "^1.8.1",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
+        "glob": "^8.1.0",
         "lucide-react": "^0.344.0",
         "node-fetch": "^2.7.0",
         "react": "^18.3.1",
