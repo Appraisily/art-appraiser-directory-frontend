@@ -239,44 +239,33 @@ async function main() {
   try {
     log('Starting to fix React hydration issues...', 'info');
     
-    // Check if a specific file was provided
-    const specificFile = process.argv[2];
     let fixedCount = 0;
     
+    // Always scan all appraiser pages, not just Cleveland
+    const specificFile = process.argv[2];
+    
     if (specificFile) {
-      let filePath;
-      if (path.isAbsolute(specificFile)) {
-        filePath = specificFile;
-      } else {
-        filePath = path.join(DIST_DIR, specificFile);
-      }
-      
-      if (fs.existsSync(filePath)) {
-        log(`Processing specific file: ${specificFile}`, 'info');
-        const fixed = await fixReactHydration(filePath);
-        fixedCount = fixed ? 1 : 0;
-      } else {
-        log(`File not found: ${specificFile}`, 'error');
-      }
+      // Fix a specific file if provided
+      const filePath = path.resolve(specificFile);
+      log(`Processing ${specificFile}`, 'info');
+      const fixed = await fixReactHydration(filePath);
+      if (fixed) fixedCount++;
     } else {
-      // Process the Cleveland location page specifically
+      // Fix all HTML files in the dist directory
+      fixedCount = await fixAllHtmlFiles(DIST_DIR);
+      
+      // Also process the Cleveland page specifically, since it's specifically referenced
       const clevelandPage = path.join(DIST_DIR, 'location', 'cleveland', 'index.html');
-      if (fs.existsSync(clevelandPage)) {
+      if (await fs.pathExists(clevelandPage)) {
         log('Processing Cleveland location page...', 'info');
         const fixed = await fixReactHydration(clevelandPage);
-        if (fixed) {
-          fixedCount++;
-        }
-      } else {
-        log('Cleveland location page not found, processing all HTML files...', 'warning');
-        fixedCount = await fixAllHtmlFiles(DIST_DIR);
+        if (fixed) fixedCount++;
       }
     }
     
     log(`Completed! Fixed hydration issues in ${fixedCount} files.`, 'success');
   } catch (error) {
     log(`Error fixing hydration issues: ${error.message}`, 'error');
-    process.exit(1);
   }
 }
 
