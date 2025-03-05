@@ -44,14 +44,14 @@
         "complete-missing-data": "node scripts/complete-missing-data.js",
         "fix-missing-address": "node scripts/fix-missing-address-fields.js",
         "fix-placeholders": "node scripts/fix-placeholder-images.js",
-        "inject-fallback-handler": "node scripts/inject-fallback-image-handler.js"
+        "inject-fallback-handler": "node scripts/inject-fallback-image-handler.js",
+        "generate-static-appraisers": "node scripts/generate-static-appraiser-pages.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
         "axios": "^1.8.1",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
-        "glob": "^11.0.1",
         "lucide-react": "^0.344.0",
         "node-fetch": "^2.7.0",
         "react": "^18.3.1",

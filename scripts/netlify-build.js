@@ -1,98 +1,145 @@
-#!/usr/bin/env node
+/**
+ * Netlify Build Script
+ * 
+ * This script is designed to be run by Netlify's build system.
+ * It ensures all SEO optimizations are applied consistently.
+ */
 
-import fs from 'fs';
+import { execSync } from 'child_process';
+import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { execSync } from 'child_process';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const rootDir = path.join(__dirname, '..');
-const distDir = path.join(rootDir, 'dist');
+const ROOT_DIR = path.join(__dirname, '..');
 
-/**
- * Netlify build script to generate a fully static site
- * with SEO optimizations and fallback strategies
- */
-async function netlifyBuild() {
-  console.log('🚀 Starting Netlify build process...');
-  
-  // Step 1: Clean up any existing artifacts
-  console.log('🧹 Cleaning up...');
+// Setting up environment
+const siteUrl = process.env.SITE_URL || 'https://art-appraiser.appraisily.com';
+// Set environment variable for sitemap generation
+process.env.SITE_URL = siteUrl;
+
+console.log('Starting Netlify build process with SEO optimizations...');
+console.log(`Using site URL: ${siteUrl}`);
+
+try {
+  // Step 1: Clean up previous build artifacts
+  console.log('🧹 Cleaning up previous build artifacts...');
+  const distDir = path.join(ROOT_DIR, 'dist');
   if (fs.existsSync(distDir)) {
-    fs.rmSync(distDir, { recursive: true });
+    fs.removeSync(distDir);
   }
-  
-  // Step 2: Run the standard build process
-  console.log('🔨 Building the application...');
-  execSync('npm run build', { stdio: 'inherit', cwd: rootDir });
-  
-  // Step 3: Generate static HTML for all pages
-  console.log('📝 Generating static HTML pages...');
-  execSync('node scripts/generate-static.js', { stdio: 'inherit', cwd: rootDir });
-  
-  // Step 4: Optimize images and add fallback handlers
-  console.log('🖼️ Adding image fallback handlers...');
-  execSync('node scripts/inject-fallback-handler.js', { stdio: 'inherit', cwd: rootDir });
-  
-  // Step 5: Generate and validate sitemap
+
+  // Step 2: Run the TypeScript compiler
+  console.log('🔄 Compiling TypeScript...');
+  execSync('npx tsc', { cwd: ROOT_DIR, stdio: 'inherit' });
+
+  // Right after step 2
+  console.log('2. ✅ TypeScript compilation complete');
+
+  // Add image placeholder fixing step
+  console.log('3. 🖼️ Fixing placeholder images...');
+  execSync('node scripts/fix-placeholder-images.js', { stdio: 'inherit' });
+  console.log('3. ✅ Placeholder images fixed');
+
+  // Step 4: Run Vite build
+  console.log('🏗️ Building with Vite...');
+  execSync('npx vite build', { cwd: ROOT_DIR, stdio: 'inherit' });
+
+  // Step 5: Generate static HTML pages
+  console.log('📄 Generating static HTML pages...');
+  execSync('node scripts/generate-static.js', { cwd: ROOT_DIR, stdio: 'inherit' });
+  console.log('4. ✅ Static HTML pages generated');
+
+  // Add the static appraiser pages generation step
+  console.log('5. 🏗️ Generating static appraiser pages...');
+  execSync('node scripts/generate-static-appraiser-pages.js', { stdio: 'inherit' });
+  console.log('5. ✅ Static appraiser pages generated');
+
+  // Step 6: Copy static assets
+  console.log('📋 Copying static assets...');
+  execSync('node scripts/copy-static.js', { cwd: ROOT_DIR, stdio: 'inherit' });
+
+  // Step 7: Optimize images
+  console.log('🖼️ Optimizing images...');
+  execSync('node scripts/optimize-images.js', { cwd: ROOT_DIR, stdio: 'inherit' });
+
+  // Step 8: Generate sitemap
   console.log('🗺️ Generating sitemap...');
-  execSync('node scripts/generate-sitemap.js', { stdio: 'inherit', cwd: rootDir });
-  
-  // Step 6: Copy any additional static assets
-  console.log('📦 Copying additional assets...');
-  const assetsDir = path.join(rootDir, 'public');
-  if (fs.existsSync(assetsDir)) {
-    // Copy all files from public to dist
-    const files = fs.readdirSync(assetsDir);
-    for (const file of files) {
-      const sourcePath = path.join(assetsDir, file);
-      const destPath = path.join(distDir, file);
-      if (fs.statSync(sourcePath).isFile()) {
-        fs.copyFileSync(sourcePath, destPath);
-      } else {
-        // For directories, copy recursively
-        if (!fs.existsSync(destPath)) {
-          fs.mkdirSync(destPath, { recursive: true });
-        }
-        execSync(`cp -r ${sourcePath}/* ${destPath}`, { stdio: 'inherit' });
-      }
-    }
-  }
-  
-  // Step 7: Validate the build
-  console.log('✅ Validating build...');
-  if (!fs.existsSync(path.join(distDir, 'index.html'))) {
-    console.error('❌ Build validation failed: index.html not found');
-    process.exit(1);
-  }
-  
-  // Output build information
-  const fileCount = countFiles(distDir);
-  console.log(`🎉 Build complete! Generated ${fileCount} files.`);
-  console.log('📂 Build output is in the "dist" directory');
-}
+  execSync('node scripts/generate-sitemap.js', { cwd: ROOT_DIR, stdio: 'inherit' });
 
-/**
- * Count files in a directory recursively
- */
-function countFiles(dir) {
-  let count = 0;
-  const items = fs.readdirSync(dir);
-  
-  for (const item of items) {
-    const itemPath = path.join(dir, item);
-    if (fs.statSync(itemPath).isDirectory()) {
-      count += countFiles(itemPath);
-    } else {
-      count++;
-    }
-  }
-  
-  return count;
-}
+  // Step 9: Fix React hydration issues
+  console.log('🔧 Fixing React hydration issues...');
+  execSync('node scripts/fix-react-hydration.js', { cwd: ROOT_DIR, stdio: 'inherit' });
 
-// Run the build
-netlifyBuild().catch(err => {
-  console.error('❌ Build failed:', err);
+  // Step 10: Minify HTML files
+  console.log('📐 Minifying HTML files...');
+  execSync('npx html-minifier-terser --input-dir dist --output-dir dist --file-ext html ' +
+    '--minify-css --minify-js --remove-comments --collapse-whitespace --conservative-collapse', 
+    { cwd: ROOT_DIR, stdio: 'inherit' });
+
+  // Right after minifying HTML files
+  console.log('10. ✅ HTML files minified');
+
+  // Add the fallback image handler
+  console.log('11. 🔧 Injecting fallback image handler...');
+  execSync('node scripts/inject-fallback-image-handler.js', { stdio: 'inherit' });
+  console.log('11. ✅ Fallback image handler injected');
+
+  // Validate the build
+  console.log('12. 🧪 Validating build output...');
+  validateBuild();
+  console.log('12. ✅ Build validated successfully');
+
+  console.log('🚀 Netlify build completed successfully!');
+} catch (error) {
+  console.error('❌ Build failed:', error);
   process.exit(1);
-}); 
+}
+
+// Validate the build output
+function validateBuild() {
+  const distDir = path.join(ROOT_DIR, 'dist');
+  
+  // Check if dist directory exists
+  if (!fs.existsSync(distDir)) {
+    throw new Error('Dist directory does not exist after build');
+  }
+  
+  // Check if index.html exists
+  if (!fs.existsSync(path.join(distDir, 'index.html'))) {
+    throw new Error('index.html not found in dist directory');
+  }
+  
+  // Check for assets directory
+  const assetsDir = path.join(distDir, 'assets');
+  if (!fs.existsSync(assetsDir)) {
+    throw new Error('Assets directory not found in dist directory');
+  }
+  
+  // Check for CSS and JS files
+  const files = fs.readdirSync(assetsDir);
+  const cssFile = files.find(file => file.endsWith('.css'));
+  const jsFile = files.find(file => file.endsWith('.js'));
+  
+  if (!cssFile) {
+    throw new Error('No CSS file found in assets directory');
+  }
+  
+  if (!jsFile) {
+    throw new Error('No JS file found in assets directory');
+  }
+  
+  // Check if sitemap.xml exists
+  if (!fs.existsSync(path.join(distDir, 'sitemap.xml'))) {
+    throw new Error('sitemap.xml not found in dist directory');
+  }
+  
+  // Check if robots.txt exists
+  if (!fs.existsSync(path.join(distDir, 'robots.txt'))) {
+    throw new Error('robots.txt not found in dist directory');
+  }
+  
+  console.log('✓ Build validation passed!');
+  console.log(`  - CSS file: ${cssFile}`);
+  console.log(`  - JS file: ${jsFile}`);
+} 
