@@ -7,7 +7,7 @@ const DIST_DIR = path.join(__dirname, '../dist');
 const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
 
 // Configuration 
-const BASE_URL = process.env.SITE_URL || 'https://art-appraiser.appraisily.com';
+const BASE_URL = process.env.SITE_URL || 'https://art-appraiser-directory.appraisily.com';
 const SITEMAP_PATH = path.join(DIST_DIR, 'sitemap.xml');
 
 // Recursive function to find all HTML files
