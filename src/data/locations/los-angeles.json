@@ -1,6 +1,34 @@
 {
   "appraisers": [
     {
+      "id": "heritage-fine-art-appraisers",
+      "name": "Heritage Fine Art Appraisers",
+      "specialties": [
+        "European classical art",
+        "Antiques",
+        "Collectibles"
+      ],
+      "pricing": "Contact for pricing information",
+      "services_offered": [
+        "Art valuation",
+        "Auction consultation",
+        "Insurance appraisals"
+      ],
+      "certifications": [
+        "ISA certified",
+        "USPAP compliant"
+      ],
+      "years_in_business": "25+ years",
+      "city": "Los Angeles",
+      "state": "CA",
+      "phone": "(310) 555-8765",
+      "website": "https://heritagefineartappraisers.com",
+      "notes": "Specialized in European classical art, antiques, and collectibles with extensive auction experience.",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_page-art-inc_1740931299102_Y_lVFYwOy.jpg",
+      "rating": 4.8,
+      "address": "Los Angeles, CA"
+    },
+    {
       "id": "amanda-mcconaha-js-held",
       "name": "Amanda McConaha - J.S. Held",
       "specialties": [
