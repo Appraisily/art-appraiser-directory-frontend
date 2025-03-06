@@ -8,6 +8,8 @@ This project is designed to be built locally and then deployed to Netlify as pre
    - `npm run build:local:with-images` - Build with image generation
    - `npm run build:local:optimized` - Build with React hydration fixes
    - `npm run build:production` - Production build with fixes
+   - `npm run build:imagekit` - Complete build using ImageKit images (no generation)
+   - `npm run build:imagekit:fast` - Fast build using ImageKit images, skips hydration fixes
 
 2. Test the build locally:
    - `npm run serve:static` - View the built site locally
@@ -22,8 +24,15 @@ This project is designed to be built locally and then deployed to Netlify as pre
 - `npm run dev` - Start development server
 - `npm run build` - Standard build with TypeScript check
 - `npm run build:simple` - Simplified build without checks
+- `npm run build:imagekit` - Complete build using ImageKit images (no generation)
+- `npm run build:imagekit:fast` - Fast build using ImageKit images, skips hydration fixes
+- `npm run list-imagekit-images` - List all available images from ImageKit
+- `npm run randomize-imagekit-images` - Randomize appraiser images using ImageKit
+- `npm run build:local` - Basic local build
+- `npm run build:local:with-images` - Build with image generation
+- `npm run build:local:optimized` - Build with React hydration fixes
+- `npm run build:production` - Production build with fixes
 - `npm run lint` - Run ESLint checks
-- `npm run build:with-image-validation` - Build with image validation
 - `npm run test:html` - Test HTML output
 - `npm run serve:static` - Serve built static files
 - `npm run check:images` - Validate image files

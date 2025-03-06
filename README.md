@@ -76,7 +76,18 @@ npm run optimize-images
 
 # Check for missing or broken images
 npm run check-images
+
+# List all available images from ImageKit
+npm run list-imagekit-images
+
+# Randomize appraiser images using ImageKit
+npm run randomize-imagekit-images
+
+# Build with ImageKit images (no generation needed)
+npm run build:imagekit
 ```
+
+The project uses a collection of pre-generated images stored in ImageKit (in the `/appraiser-images` folder) which are randomly assigned to appraisers. This approach eliminates the need to generate new images for each build and provides consistent, high-quality images across the site. The `build:imagekit` command handles the complete build process using these pre-existing images.
 
 ## 🔍 SEO Maintenance Guide
 
@@ -136,6 +147,7 @@ This project is designed to be built locally and then deployed to Netlify:
    - `npm run build:local` - Basic local build
    - `npm run build:local:with-images` - Build with image generation
    - `npm run build:production` - Full production build with optimizations
+   - `npm run build:imagekit` - Complete build using ImageKit images (no generation)
 
 2. Test the build locally with `npm run serve:static`
 
