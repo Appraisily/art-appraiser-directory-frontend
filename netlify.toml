@@ -1,17 +1,15 @@
-# Main Netlify configuration file
-# Updated configuration for SEO-optimized build
+# Netlify configuration for pre-built static site
 
 [build]
   # The directory to publish
   publish = "dist"
-  # Use our dedicated Netlify build script
-  command = "npm run build:netlify"
+  # Skip the build command since files are pre-built
+  command = "echo 'Using pre-built static files for Netlify deployment'"
   
-  # Environment variables for the build
+  # Environment variables
   [build.environment]
-    # Set the site URL for sitemap generation
-    SITE_URL = "https://art-appraiser-directory.appraisily.com"
     NODE_VERSION = "18"
+    SITE_URL = "https://art-appraiser-directory.appraisily.com"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]
@@ -26,13 +24,12 @@
     Content-Type = "application/javascript"
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Make sure assets are served correctly
+# Handle routes properly for static site
 [[redirects]]
   from = "/assets/*"
   to = "/assets/:splat"
   status = 200
 
-# Don't redirect for static HTML pages that exist
 [[redirects]]
   from = "/location/*"
   to = "/location/:splat/index.html"
@@ -45,13 +42,13 @@
   status = 200
   force = false
 
-# Redirect all remaining routes to index.html for client-side routing
+# Fallback to index.html for client-side routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Additional header configurations
+# Additional headers for security
 [[headers]]
   # Define headers for HTML files
   for = "/*.html"
