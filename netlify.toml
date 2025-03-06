@@ -1,17 +1,16 @@
 # Main Netlify configuration file
-# Updated configuration for SEO-optimized build
+# Configuration for pre-built files approach
 
 [build]
   # The directory to publish
   publish = "dist"
-  # Use our dedicated Netlify build script
-  command = "npm run build:netlify"
+  # No build command needed as files are pre-built locally
+  command = "echo 'Using pre-built files from dist directory'"
   
-  # Environment variables for the build
+  # Environment variables
   [build.environment]
-    # Set the site URL for sitemap generation
+    # Set the site URL for reference
     SITE_URL = "https://art-appraiser-directory.appraisily.com"
-    NODE_VERSION = "16"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]
