@@ -48,6 +48,48 @@ const APPRAISERS_DIR = path.join(DIST_DIR, 'appraiser');
 // Default placeholder image
 const DEFAULT_PLACEHOLDER = 'https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable';
 
+// Load image validation data from site-analysis-report.json
+let imageValidationMap = new Map();
+try {
+  const reportPath = path.join(__dirname, '../site-analysis-report.json');
+  if (fs.existsSync(reportPath)) {
+    const reportData = JSON.parse(fs.readFileSync(reportPath, 'utf8'));
+    if (reportData.imageResults && Array.isArray(reportData.imageResults)) {
+      // Create a map for quick lookups
+      reportData.imageResults.forEach(result => {
+        imageValidationMap.set(result.id, {
+          valid: result.valid,
+          imageUrl: result.imageUrl
+        });
+      });
+      console.log(`📊 Loaded image validation data for ${imageValidationMap.size} appraisers`);
+    }
+  } else {
+    console.warn('⚠️ site-analysis-report.json not found, proceeding without image validation');
+  }
+} catch (error) {
+  console.error('❌ Error loading image validation data:', error.message);
+}
+
+// Helper function to get a validated image URL
+function getValidatedImageUrl(id, defaultImageUrl) {
+  // If we have validation data for this appraiser
+  if (imageValidationMap.has(id)) {
+    const validationData = imageValidationMap.get(id);
+    // If the image is marked as valid, use it
+    if (validationData.valid) {
+      return validationData.imageUrl;
+    }
+    // Otherwise try to find a valid alternative
+    else if (validationData.imageUrl && validationData.imageUrl !== defaultImageUrl) {
+      return validationData.imageUrl;
+    }
+  }
+  
+  // If no validation data or no valid alternative, use the provided default
+  return defaultImageUrl || DEFAULT_PLACEHOLDER;
+}
+
 // Helper function to safely get a property from an object
 function safeGet(obj, path, defaultValue = '') {
   if (!obj) return defaultValue;
@@ -76,7 +118,8 @@ function generateAppraiserStaticPage(appraiser, location) {
     // Create directory for the appraiser
     const appraiserSlug = appraiser.id.toLowerCase().replace(/\s+/g, '-');
     const locationSlug = location.toLowerCase().replace(/\s+/g, '-');
-    const outputDir = path.join(APPRAISERS_DIR, `${locationSlug}-${appraiserSlug}`);
+    const combinedId = `${locationSlug}-${appraiserSlug}`;
+    const outputDir = path.join(APPRAISERS_DIR, combinedId);
     
     if (!fs.existsSync(outputDir)) {
       fs.mkdirSync(outputDir, { recursive: true });
@@ -122,7 +165,10 @@ function generateAppraiserStaticPage(appraiser, location) {
     const phone = safeGet(appraiser, 'phone', '');
     const website = safeGet(appraiser, 'website', '');
     const address = safeGet(appraiser, 'address', location);
-    const image = safeGet(appraiser, 'image', DEFAULT_PLACEHOLDER);
+    
+    // Get a validated image URL
+    const originalImage = safeGet(appraiser, 'image', '');
+    const image = getValidatedImageUrl(combinedId, originalImage) || DEFAULT_PLACEHOLDER;
     
     // Create HTML content
     const html = `<!DOCTYPE html>
@@ -262,6 +308,8 @@ async function generateAllAppraiserPages() {
   
   let totalGenerated = 0;
   let totalFailed = 0;
+  let totalImagesValidated = 0;
+  let totalImagesReplaced = 0;
   
   // Get all location files
   const locationFiles = fs.readdirSync(LOCATIONS_DIR)
@@ -291,6 +339,21 @@ async function generateAllAppraiserPages() {
           continue;
         }
         
+        // Check if this appraiser has a validated image
+        const appraiserSlug = appraiser.id.toLowerCase().replace(/\s+/g, '-');
+        const locationSlug = locationData.name?.toLowerCase().replace(/\s+/g, '-') || locationName.toLowerCase();
+        const combinedId = `${locationSlug}-${appraiserSlug}`;
+        
+        const originalImage = safeGet(appraiser, 'image', '');
+        const validatedImage = getValidatedImageUrl(combinedId, originalImage);
+        
+        if (validatedImage !== originalImage && validatedImage !== DEFAULT_PLACEHOLDER) {
+          totalImagesReplaced++;
+          console.log(`  🔄 Replaced image for ${appraiser.name}: Using validated image from report`);
+        }
+        
+        totalImagesValidated++;
+        
         const success = generateAppraiserStaticPage(appraiser, locationData.name || locationName);
         
         if (success) {
@@ -307,6 +370,8 @@ async function generateAllAppraiserPages() {
   
   console.log(`\n📊 SUMMARY:`);
   console.log(`📄 Total pages generated: ${totalGenerated}`);
+  console.log(`🖼️ Total images validated: ${totalImagesValidated}`);
+  console.log(`🔄 Images replaced with verified alternatives: ${totalImagesReplaced}`);
   console.log(`❌ Failed pages: ${totalFailed}`);
   console.log(`✅ Static HTML generation completed`);
 }

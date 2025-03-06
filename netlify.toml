@@ -1,11 +1,11 @@
 # Main Netlify configuration file
-# Updated configuration for SEO-optimized build
+# Updated for pre-built HTML deployment
 
 [build]
-  # The directory to publish
+  # The directory to publish (pre-built)
   publish = "dist"
-  # Use our dedicated Netlify build script
-  command = "npm run build:netlify"
+  # Skip build since files are pre-built locally
+  command = "echo 'Deploying pre-built files from dist directory'"
   
   # Environment variables for the build
   [build.environment]
