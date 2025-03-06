@@ -4,23 +4,26 @@
 - `npm run dev` - Start development server
 - `npm run build` - Standard build with TypeScript check
 - `npm run build:simple` - Simplified build
+- `npm run build:production` - Production build with page fixes and image inventory
+- `npm run build:netlify-ready` - Build and prepare for Netlify deployment
 - `npm run lint` - Run ESLint checks
-- `npm run build:with-image-validation` - Build with image validation
 - `npm run test:html` - Test HTML output
-- `npm run serve:static` - Serve built static files
+- `npm run debug:build` - Build with image validation and serve
+- `npm run site-check` - Run comprehensive site check
+- `npm run serve:static` - Serve built static files locally
 
 ## Code Style Guidelines
-- **TypeScript**: Strict type checking is enabled
-- **Component Structure**: React functional components with TypeScript
+- **TypeScript**: Strict mode with no unused locals/parameters
+- **Components**: React functional components with explicit return types
 - **Styling**: Tailwind CSS with utility-first approach
-- **Naming**: PascalCase for components, camelCase for variables
+- **Naming**: PascalCase for components/types, camelCase for variables/functions
 - **Imports**: Group React imports first, then external libs, then local
-- **Error Handling**: Proper handling with fallback UI components
-- **Images**: Always include alt tags and use FallbackImage component
-- **SEO**: Use proper semantic HTML and SEO component
+- **Error Handling**: Use FallbackImage component for images, fallback UI for errors
+- **Images**: Always include alt tags and handle loading failures
+- **Format**: No trailing whitespace, consistent indentation (2 spaces)
 
 ## Project Structure
 - `/src` - React TypeScript source code
 - `/scripts` - Build and utility scripts
 - `/data` - JSON data files for appraisers and locations
-- `/public` - Static assets
+- `/dist` - Generated static output files
