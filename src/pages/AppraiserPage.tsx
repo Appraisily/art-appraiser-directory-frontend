@@ -82,26 +82,102 @@ export function AppraiserPage() {
     );
   }
 
+  // Type that matches expected structure with optional properties
+  interface SafeAppraiser {
+    name: string;
+    id: string;
+    rating: number;
+    reviewCount: number;
+    address: string;
+    city?: string;
+    state?: string;
+    phone: string;
+    email: string;
+    website: string;
+    specialties: string[];
+    certifications: string[];
+    about: string;
+    services: Array<{
+      name: string;
+      description: string;
+      price: string;
+    }>;
+    businessHours: Array<{
+      day: string;
+      hours: string;
+    }>;
+    reviews: Array<{
+      id: string;
+      author: string;
+      rating: number;
+      date: string;
+      content: string;
+    }>;
+    image: string;
+    imageUrl?: string;
+    [key: string]: any; // Allow any other properties
+  }
+
+  // Use type assertion to create a fully-populated SafeAppraiser
+  const safeAppraiser: SafeAppraiser = {
+    ...appraiser,
+    // Ensure id is always defined
+    id: (appraiser as any).id || appraiserId || '',
+    // Extract city from address if not defined
+    city: (appraiser as any).city || (appraiser.address ? appraiser.address.split(',')[0].trim() : 'Unknown'),
+    state: (appraiser as any).state || (appraiser.address?.split(',')[1]?.trim() || 'Unknown'),
+    // Provide fallbacks for mandatory display fields
+    rating: (appraiser as any).rating || 0,
+    reviewCount: (appraiser as any).reviewCount || 0,
+    about: (appraiser as any).about || `${appraiser.name} is a professional art appraiser specializing in art valuation services.`,
+    email: (appraiser as any).email || '',
+    phone: appraiser.phone || '',
+    website: appraiser.website || '#',
+    specialties: Array.isArray(appraiser.specialties) ? appraiser.specialties : [],
+    certifications: Array.isArray(appraiser.certifications) ? appraiser.certifications : [],
+    // Convert services_offered to services format if services doesn't exist
+    services: Array.isArray((appraiser as any).services) 
+      ? (appraiser as any).services 
+      : (Array.isArray(appraiser.services_offered) 
+          ? appraiser.services_offered.map((service: string) => ({
+              name: service,
+              description: `Professional ${service} services`,
+              price: (appraiser as any).pricing || "Contact for pricing"
+            }))
+          : []),
+    businessHours: Array.isArray((appraiser as any).businessHours) 
+      ? (appraiser as any).businessHours 
+      : [
+          { day: "Monday-Friday", hours: "9:00 AM - 5:00 PM" },
+          { day: "Saturday-Sunday", hours: "By appointment" }
+        ],
+    reviews: Array.isArray((appraiser as any).reviews) 
+      ? (appraiser as any).reviews 
+      : [],
+    // Use imageUrl as fallback for image
+    image: (appraiser as any).image || appraiser.imageUrl || 'https://placehold.co/600x400?text=No+Image'
+  };
+
   return (
     <>
       <SEO
-        title={`${appraiser.name} - Art Appraiser in ${appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'Your Area'} | Expert Art Valuation Services | Appraisily`}
-        description={`Get professional art appraisal services from ${appraiser.name} near ${appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'you'}. Specializing in ${appraiser.specialties.join(', ')}. Certified expert with ${appraiser.reviewCount} verified reviews.`}
+        title={`${safeAppraiser.name} - Art Appraiser in ${safeAppraiser.address ? safeAppraiser.address.split(',')[0].trim() : safeAppraiser.city || 'Your Area'} | Expert Art Valuation Services | Appraisily`}
+        description={`Get professional art appraisal services from ${safeAppraiser.name} near ${safeAppraiser.address ? safeAppraiser.address.split(',')[0].trim() : safeAppraiser.city || 'you'}. Specializing in ${safeAppraiser.specialties.join(', ')}. Certified expert with ${safeAppraiser.reviewCount} verified reviews.`}
         keywords={[
-          `${appraiser.name.toLowerCase()} art appraiser`,
-          `${appraiser.address ? `art appraisal ${appraiser.address.split(',')[0].toLowerCase()}` : `art appraisal ${appraiser.city?.toLowerCase() || ''}`}`,
+          `${safeAppraiser.name.toLowerCase()} art appraiser`,
+          `${safeAppraiser.address ? `art appraisal ${safeAppraiser.address.split(',')[0].toLowerCase()}` : `art appraisal ${safeAppraiser.city?.toLowerCase() || ''}`}`,
           `art appraiser near me`,
-          `local art appraiser ${appraiser.address ? appraiser.address.split(',')[0].toLowerCase() : appraiser.city?.toLowerCase() || ''}`,
-          `best art appraiser ${appraiser.address ? appraiser.address.split(',')[0].toLowerCase() : appraiser.city?.toLowerCase() || ''}`,
-          ...appraiser.specialties.map(s => s.toLowerCase()),
+          `local art appraiser ${safeAppraiser.address ? safeAppraiser.address.split(',')[0].toLowerCase() : safeAppraiser.city?.toLowerCase() || ''}`,
+          `best art appraiser ${safeAppraiser.address ? safeAppraiser.address.split(',')[0].toLowerCase() : safeAppraiser.city?.toLowerCase() || ''}`,
+          ...safeAppraiser.specialties.map(s => s.toLowerCase()),
           'art valuation',
           'art authentication',
           'certified art appraiser'
         ]}
         schema={[
-          generateAppraiserSchema(appraiser),
-          generateBreadcrumbSchema(appraiser),
-          generateFAQSchema(appraiser)
+          generateAppraiserSchema(safeAppraiser),
+          generateBreadcrumbSchema(safeAppraiser),
+          generateFAQSchema(safeAppraiser)
         ]}
         canonicalUrl={`https://appraisily.com/appraiser/${appraiserId}`}
       />
@@ -109,8 +185,8 @@ export function AppraiserPage() {
       <div className="flex-1">
         <div className="relative h-[300px] md:h-[400px]">
           <img
-            src={appraiser.image}
-            alt={appraiser.name}
+            src={safeAppraiser.image}
+            alt={safeAppraiser.name}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
@@ -120,29 +196,29 @@ export function AppraiserPage() {
           <div className="bg-white rounded-lg shadow-lg p-6 md:p-8">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
               <div>
-                <h1 className="text-3xl font-bold text-foreground">{appraiser.name}</h1>
+                <h1 className="text-3xl font-bold text-foreground">{safeAppraiser.name}</h1>
                 <div className="flex items-center gap-4 mt-2">
                   <div className="flex items-center gap-1">
                     <Star className="h-5 w-5 text-yellow-400" />
-                    <span className="font-semibold">{appraiser.rating}/5</span>
-                    <span className="text-muted-foreground">({appraiser.reviewCount} reviews)</span>
+                    <span className="font-semibold">{safeAppraiser.rating}/5</span>
+                    <span className="text-muted-foreground">({safeAppraiser.reviewCount} reviews)</span>
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <MapPin className="h-4 w-4" />
-                    <span>{appraiser.address}</span>
+                    <span>{safeAppraiser.address}</span>
                   </div>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href={`mailto:${appraiser.email}`}
+                  href={`mailto:${safeAppraiser.email}`}
                   className="inline-flex items-center justify-center gap-2 rounded-lg text-sm font-medium h-10 px-4 bg-primary text-white hover:bg-primary/90 transition-colors"
                 >
                   <Mail className="h-4 w-4" />
                   Contact
                 </a>
                 <a
-                  href={`tel:${appraiser.phone}`}
+                  href={`tel:${safeAppraiser.phone}`}
                   className="inline-flex items-center justify-center gap-2 rounded-lg text-sm font-medium h-10 px-4 border border-input hover:bg-accent hover:text-accent-foreground transition-colors"
                 >
                   <Phone className="h-4 w-4" />
@@ -155,13 +231,13 @@ export function AppraiserPage() {
               <div className="md:col-span-2 space-y-8">
                 <section>
                   <h2 className="text-2xl font-semibold mb-4">About</h2>
-                  <p className="text-muted-foreground">{appraiser.about}</p>
+                  <p className="text-muted-foreground">{safeAppraiser.about}</p>
                 </section>
 
                 <section>
                   <h2 className="text-2xl font-semibold mb-4">Services</h2>
                   <div className="space-y-4">
-                    {appraiser.services?.map((service) => (
+                    {safeAppraiser.services.map((service) => (
                       <div key={service.name} className="border rounded-lg p-4">
                         <div className="flex justify-between items-start mb-2">
                           <h3 className="font-semibold">{service.name}</h3>
@@ -176,7 +252,7 @@ export function AppraiserPage() {
                 <section>
                   <h2 className="text-2xl font-semibold mb-4">Reviews</h2>
                   <div className="space-y-4">
-                    {appraiser.reviews?.map((review) => (
+                    {safeAppraiser.reviews.map((review) => (
                       <div key={review.id} className="border rounded-lg p-4">
                         <div className="flex items-center justify-between mb-2">
                           <span className="font-medium">{review.author}</span>
@@ -208,20 +284,20 @@ export function AppraiserPage() {
                   <div className="space-y-2 text-sm">
                     <p>
                       <strong>Website:</strong>{' '}
-                      <a href={appraiser.website} className="text-primary hover:underline">
-                        {appraiser.website.replace(/^https?:\/\//, '')}
+                      <a href={safeAppraiser.website} className="text-primary hover:underline">
+                        {safeAppraiser.website.replace(/^https?:\/\//, '')}
                       </a>
                     </p>
                     <p>
                       <strong>Email:</strong>{' '}
-                      <a href={`mailto:${appraiser.email}`} className="text-primary hover:underline">
-                        {appraiser.email}
+                      <a href={`mailto:${safeAppraiser.email}`} className="text-primary hover:underline">
+                        {safeAppraiser.email}
                       </a>
                     </p>
                     <p>
                       <strong>Phone:</strong>{' '}
-                      <a href={`tel:${appraiser.phone}`} className="text-primary hover:underline">
-                        {appraiser.phone}
+                      <a href={`tel:${safeAppraiser.phone}`} className="text-primary hover:underline">
+                        {safeAppraiser.phone}
                       </a>
                     </p>
                   </div>
@@ -233,7 +309,7 @@ export function AppraiserPage() {
                     Business Hours
                   </h3>
                   <div className="space-y-2 text-sm">
-                    {appraiser.businessHours?.map((hours) => (
+                    {safeAppraiser.businessHours.map((hours) => (
                       <div key={hours.day} className="flex justify-between">
                         <span>{hours.day}</span>
                         <span className="text-muted-foreground">{hours.hours}</span>
@@ -248,7 +324,7 @@ export function AppraiserPage() {
                     Specialties
                   </h3>
                   <div className="flex flex-wrap gap-2">
-                    {appraiser.specialties.map((specialty) => (
+                    {safeAppraiser.specialties.map((specialty) => (
                       <span
                         key={specialty}
                         className="inline-flex items-center rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-medium text-primary"
@@ -265,7 +341,7 @@ export function AppraiserPage() {
                     Certifications
                   </h3>
                   <div className="space-y-2 text-sm">
-                    {appraiser.certifications?.map((certification) => (
+                    {safeAppraiser.certifications.map((certification) => (
                       <div key={certification} className="flex items-center gap-2">
                         <Shield className="h-3 w-3 text-primary" />
                         <span>{certification}</span>

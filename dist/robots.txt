@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://art-appraiser.appraisily.com/sitemap.xml
+Sitemap: https://art-appraiser-directory.appraisily.com/sitemap.xml
 
 # Block access to admin and system files
 User-agent: *

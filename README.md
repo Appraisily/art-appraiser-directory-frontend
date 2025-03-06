@@ -76,7 +76,18 @@ npm run optimize-images
 
 # Check for missing or broken images
 npm run check-images
+
+# List all available images from ImageKit
+npm run list-imagekit-images
+
+# Randomize appraiser images using ImageKit
+npm run randomize-imagekit-images
+
+# Build with ImageKit images (no generation needed)
+npm run build:imagekit
 ```
+
+The project uses a collection of pre-generated images stored in ImageKit (in the `/appraiser-images` folder) which are randomly assigned to appraisers. This approach eliminates the need to generate new images for each build and provides consistent, high-quality images across the site. The `build:imagekit` command handles the complete build process using these pre-existing images.
 
 ## 🔍 SEO Maintenance Guide
 
@@ -128,13 +139,24 @@ Key configuration files:
 - `scripts/generate-sitemap.js`: Sitemap configuration
 - `src/utils/schemaGenerators.ts`: Structured data templates
 
-## 🧩 Integration with Main Site
+## 🧩 Deployment to Netlify
 
-This directory frontend is designed to be integrated with the main Appraisily website:
+This project is designed to be built locally and then deployed to Netlify:
 
-1. Build the static files using `npm run build:seo-optimized`
-2. The generated files in `dist/` can be deployed directly to Netlify
-3. Alternately, they can be integrated into a subdirectory of the main website
+1. Build the static files locally using one of these commands:
+   - `npm run build:local` - Basic local build
+   - `npm run build:local:with-images` - Build with image generation
+   - `npm run build:production` - Full production build with optimizations
+   - `npm run build:imagekit` - Complete build using ImageKit images (no generation)
+
+2. Test the build locally with `npm run serve:static`
+
+3. Deploy the pre-built files to Netlify:
+   - The netlify.toml is configured to use pre-built files from the dist directory
+   - Netlify will NOT run a build process and will simply serve the pre-built files
+   - This approach prevents build errors on Netlify and ensures image consistency
+
+⚠️ **IMPORTANT**: Do not configure Netlify to run its own build. The project must be built locally to ensure all image and data consistency issues are resolved before deployment.
 
 ## 📞 Support
 
