@@ -47,8 +47,6 @@ function log(message, type = 'info') {
  */
 async function fixReactHydration(filePath) {
   try {
-    log(`Processing ${filePath.replace(DIST_DIR, '')}`, 'info');
-    
     // Read the file content
     const content = await fs.readFile(filePath, 'utf8');
     
@@ -201,28 +199,52 @@ async function fixReactHydration(filePath) {
 
 /**
  * Fix React hydration issues in all HTML files in a directory
+ * Using a more efficient batch processing approach
  * @param {string} dir - Directory to process
  * @returns {Promise<number>} - Number of files fixed
  */
 async function fixAllHtmlFiles(dir) {
   try {
-    const files = await fs.readdir(dir);
-    let fixedCount = 0;
+    const BATCH_SIZE = 10; // Process files in batches of 10
+    const files = [];
     
-    for (const file of files) {
-      const fullPath = path.join(dir, file);
-      const stat = await fs.stat(fullPath);
+    // Get all HTML files recursively
+    async function collectHtmlFiles(directory) {
+      const dirFiles = await fs.readdir(directory);
       
-      if (stat.isDirectory()) {
-        // Recursively process subdirectories
-        fixedCount += await fixAllHtmlFiles(fullPath);
-      } else if (file.endsWith('.html')) {
-        // Process HTML files
-        const fixed = await fixReactHydration(fullPath);
-        if (fixed) {
-          fixedCount++;
+      for (const file of dirFiles) {
+        const fullPath = path.join(directory, file);
+        const stat = await fs.stat(fullPath);
+        
+        if (stat.isDirectory()) {
+          // Recursively process subdirectories
+          await collectHtmlFiles(fullPath);
+        } else if (file.endsWith('.html')) {
+          // Add HTML files to the list
+          files.push(fullPath);
         }
       }
+    }
+    
+    await collectHtmlFiles(dir);
+    log(`Found ${files.length} HTML files to process`, 'info');
+    
+    // Process files in batches
+    let fixedCount = 0;
+    let processedCount = 0;
+    
+    // Process files in batches to avoid memory issues
+    for (let i = 0; i < files.length; i += BATCH_SIZE) {
+      const batch = files.slice(i, i + BATCH_SIZE);
+      const batchResults = await Promise.all(batch.map(file => fixReactHydration(file)));
+      
+      // Count fixed files in this batch
+      const batchFixedCount = batchResults.filter(Boolean).length;
+      fixedCount += batchFixedCount;
+      processedCount += batch.length;
+      
+      // Log progress
+      log(`Processed ${processedCount}/${files.length} files (${batchFixedCount} fixed in current batch)`, 'info');
     }
     
     return fixedCount;
@@ -259,18 +281,8 @@ async function main() {
         log(`File not found: ${specificFile}`, 'error');
       }
     } else {
-      // Process the Cleveland location page specifically
-      const clevelandPage = path.join(DIST_DIR, 'location', 'cleveland', 'index.html');
-      if (fs.existsSync(clevelandPage)) {
-        log('Processing Cleveland location page...', 'info');
-        const fixed = await fixReactHydration(clevelandPage);
-        if (fixed) {
-          fixedCount++;
-        }
-      } else {
-        log('Cleveland location page not found, processing all HTML files...', 'warning');
-        fixedCount = await fixAllHtmlFiles(DIST_DIR);
-      }
+      // Process all HTML files efficiently
+      fixedCount = await fixAllHtmlFiles(DIST_DIR);
     }
     
     log(`Completed! Fixed hydration issues in ${fixedCount} files.`, 'success');
@@ -281,4 +293,4 @@ async function main() {
 }
 
 // Run the main function
-main(); 
+main();

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-03-05T11:58:28.728Z",
+  "timestamp": "2025-03-06T08:37:59.549Z",
   "totalImages": 389,
   "images": [
     {
@@ -10,9 +10,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740830037057_Vw9h4583g.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-alicia-e-weaver",
@@ -22,9 +25,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740830037057_Vnf4ogq6f.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-812-maplewood",
@@ -34,9 +40,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740830037057_Vbea0xhxz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-anderson-fine-art-appraisals",
@@ -46,9 +55,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-anderson-fine-art-appraisals_1740830037057_Vcsckuabz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-escher-associates",
@@ -58,9 +70,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-escher-associates_1740830037057_V0momkixw.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-page-art-inc",
@@ -70,9 +85,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-page-art-inc_1740830037057_Vv7fogkm6.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-saylor-rice-appraisals",
@@ -82,9 +100,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-saylor-rice-appraisals_1740830037057_Vdk3mtdwv.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-gurr-johns",
@@ -94,9 +115,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-gurr-johns_1740830037057_Vezplvnr0.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "aspen-mimesis-gallery",
@@ -106,9 +130,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mimesis-gallery_1740830037057_Vjjaaigwm.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-prestige-estate-services",
@@ -118,9 +145,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-prestige-estate-services_1740830037058_Vm9qvu1ne.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-the-perfect-piece-atlanta",
@@ -130,9 +160,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-the-perfect-piece-atlanta_1740830037058_Vxjeahd5r.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-anderson-fine-art-appraisals",
@@ -142,9 +175,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-anderson-fine-art-appraisals_1740830037058_Vuv21ead7.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-escher-associates",
@@ -154,9 +190,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-escher-associates_1740830037058_Vtg3bjmtx.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-page-art-inc",
@@ -166,9 +205,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-page-art-inc_1740830037058_Vdwkgkrqc.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-saylor-rice-appraisals",
@@ -178,9 +220,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-saylor-rice-appraisals_1740830037058_Vvaztg1ov.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-gurr-johns",
@@ -190,9 +235,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-gurr-johns_1740830037058_V3l5vxjgf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "atlanta-mimesis-gallery",
@@ -202,9 +250,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-mimesis-gallery_1740830037058_V026gjhud.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-alicia-e-weaver",
@@ -214,9 +265,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-alicia-e-weaver_1740830037058_Var12zzp4.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-prestige-estate-services-team",
@@ -226,9 +280,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-prestige-estate-services-team_1740830037058_Vk9g3tqce.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-linda-maxwell-harris",
@@ -238,9 +295,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-linda-maxwell-harris_1740830037058_V3av7wrpo.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-anderson-fine-art-appraisals",
@@ -250,9 +310,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-anderson-fine-art-appraisals_1740830037058_V5le7pk8a.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-escher-associates",
@@ -262,9 +325,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-escher-associates_1740830037058_Vhptwzuy8.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-page-art-inc",
@@ -274,9 +340,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-page-art-inc_1740830037059_Vylqu2qg2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-saylor-rice-appraisals",
@@ -286,9 +355,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-saylor-rice-appraisals_1740830037059_Vxkkzarfr.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-gurr-johns",
@@ -298,9 +370,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-gurr-johns_1740830037059_V44z966mg.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "austin-mimesis-gallery",
@@ -310,9 +385,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_austin-mimesis-gallery_1740830037059_Vh59n6p1u.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "prestige-estate-services-boston",
@@ -322,9 +400,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services-boston_1740830037059_V0zu629ya.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-york-fine-art-appraisers-boston",
@@ -334,9 +415,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-york-fine-art-appraisers-boston_1740830037059_V707gpxqq.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-manzi-appraisers-restoration",
@@ -346,9 +430,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-manzi-appraisers-restoration_1740830037059_V0b0iqoyt.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-skinner-boston-bonhams",
@@ -358,9 +445,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-skinner-boston-bonhams_1740830037059_Vka8vjswg.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-anderson-fine-art-appraisals",
@@ -370,9 +460,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-anderson-fine-art-appraisals_1740830037059_Vzvns54fe.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-escher-associates",
@@ -382,9 +475,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-escher-associates_1740830037059_Vr15lmj8r.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-page-art-inc",
@@ -394,9 +490,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-page-art-inc_1740830037059_Ves16jywx.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-saylor-rice-appraisals",
@@ -406,9 +505,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-saylor-rice-appraisals_1740830037059_Vp2rktj2n.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-gurr-johns",
@@ -418,9 +520,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-gurr-johns_1740830037059_Vwjgtm3qh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "boston-mimesis-gallery",
@@ -430,9 +535,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_boston-mimesis-gallery_1740830037059_Vv59haehi.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-prestige-estate-services",
@@ -442,9 +550,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-prestige-estate-services_1740830037060_Vk1m6qxlp.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-schultz-auctioneers",
@@ -454,9 +565,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-schultz-auctioneers_1740830037060_V9564z0lc.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-appraiseitnow",
@@ -466,9 +580,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-appraiseitnow_1740830037060_Vucvhi6f3.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-cottone-art-advisory-appraisals",
@@ -478,9 +595,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-cottone-art-advisory-appraisals_1740830037060_Vwff5c8n4.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-anderson-fine-art-appraisals",
@@ -490,9 +610,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-anderson-fine-art-appraisals_1740830037060_Vb1qtam48.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-escher-associates",
@@ -502,9 +625,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-escher-associates_1740830037060_Vx1mukpdo.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-page-art-inc",
@@ -514,9 +640,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-page-art-inc_1740830037060_V3172r675.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-saylor-rice-appraisals",
@@ -526,9 +655,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-saylor-rice-appraisals_1740830037060_Vt2dvrqm7.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-gurr-johns",
@@ -538,9 +670,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-gurr-johns_1740830037060_V0hbiaa68.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "buffalo-mimesis-gallery",
@@ -550,9 +685,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-mimesis-gallery_1740830037060_V0xndjmjw.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-djr-authentication",
@@ -562,9 +700,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-djr-authentication_1740830037061_Vm4k42kw0.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-leprince-fine-art",
@@ -574,9 +715,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-leprince-fine-art_1740830037061_Vkmsodgtz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-appraiseitnow",
@@ -586,9 +730,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-appraiseitnow_1740830037061_Ve7b5h9pl.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-anderson-fine-art-appraisals",
@@ -598,9 +745,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-anderson-fine-art-appraisals_1740830037061_Vp7hy64sz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-escher-associates",
@@ -610,9 +760,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-escher-associates_1740830037061_Vmpqtevoe.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-page-art-inc",
@@ -622,9 +775,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-page-art-inc_1740830037061_Vas2lqa7t.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-saylor-rice-appraisals",
@@ -634,9 +790,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-saylor-rice-appraisals_1740830037061_Veoxt9pii.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-gurr-johns",
@@ -646,9 +805,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-gurr-johns_1740830037061_Vs8sh21cm.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charleston-mimesis-gallery",
@@ -658,9 +820,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-mimesis-gallery_1740830037061_Vjfoxe62b.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-prestige-estate-services",
@@ -670,9 +835,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-prestige-estate-services_1740830037061_Vtougvkk2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-dana-summitt-look-appraisal-llc",
@@ -682,9 +850,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-dana-summitt-look-appraisal-llc_1740830037061_V5ktlg2ix.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-anderson-fine-art-appraisals",
@@ -694,9 +865,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-anderson-fine-art-appraisals_1740830037061_Vgffh0cy7.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-escher-associates",
@@ -706,9 +880,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-escher-associates_1740830037061_Vw6rrcoae.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-page-art-inc",
@@ -718,9 +895,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-page-art-inc_1740830037061_V8qu3c9cp.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-saylor-rice-appraisals",
@@ -730,9 +910,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-saylor-rice-appraisals_1740830037061_Vrlgx7gzu.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-gurr-johns",
@@ -742,9 +925,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-gurr-johns_1740830037061_V00q4gf6k.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "charlotte-mimesis-gallery",
@@ -754,9 +940,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charlotte-mimesis-gallery_1740830037061_Vz75h2wsc.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "metropolitan-art-appraisers-chicago",
@@ -766,9 +955,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_metropolitan-art-appraisers-chicago_1740830037062_Vdzl98cql.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-prestige-estate-services",
@@ -778,9 +970,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-prestige-estate-services_1740830037063_Vug96bqob.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-art-asset-management-group",
@@ -790,9 +985,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-art-asset-management-group_1740830037063_Vit9s3a1b.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-eisele-gallery",
@@ -802,9 +1000,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-eisele-gallery_1740830037063_V75a25r53.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-anderson-fine-art-appraisals",
@@ -814,9 +1015,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-anderson-fine-art-appraisals_1740830037063_V7cqy3ckn.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-escher-associates",
@@ -826,9 +1030,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-escher-associates_1740830037063_Vab99c81p.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-page-art-inc",
@@ -838,9 +1045,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-page-art-inc_1740830037063_Vyetf4dxm.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-saylor-rice-appraisals",
@@ -850,9 +1060,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-saylor-rice-appraisals_1740830037063_V04zh19cv.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-gurr-johns",
@@ -862,9 +1075,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-gurr-johns_1740830037063_Vz20cix2q.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cincinnati-mimesis-gallery",
@@ -874,9 +1090,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cincinnati-mimesis-gallery_1740830037063_Vgj204amd.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-erika-holycross-prestige-estate-services",
@@ -886,9 +1105,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erika-holycross-prestige-estate-services_1740830037064_Vz4w680d8.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-alicia-weaver-prestige-estate-services",
@@ -898,9 +1120,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-alicia-weaver-prestige-estate-services_1740830037064_V6b9ixadq.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-erin-hollenbank-j-s-held",
@@ -910,9 +1135,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-erin-hollenbank-j-s-held_1740830037064_Vlf1db43c.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-legacy-appraisal-group",
@@ -922,9 +1150,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-legacy-appraisal-group_1740830037064_Vni3nziaz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-anderson-fine-art-appraisals",
@@ -934,9 +1165,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-anderson-fine-art-appraisals_1740830037064_Vh68t5rip.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-escher-associates",
@@ -946,9 +1180,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-escher-associates_1740830037064_V7fow9wi2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-page-art-inc",
@@ -958,9 +1195,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-page-art-inc_1740830037064_Vmf6n1qed.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-saylor-rice-appraisals",
@@ -970,9 +1210,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-saylor-rice-appraisals_1740830037064_Vdeza6dh6.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-gurr-johns",
@@ -982,9 +1225,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-gurr-johns_1740830037064_V9no3auy2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "cleveland-mimesis-gallery",
@@ -994,9 +1240,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_cleveland-mimesis-gallery_1740830037064_Vz46b9ab4.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-amelia-jeffers-auctioneers-appraisers",
@@ -1006,9 +1255,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-amelia-jeffers-auctioneers-appraisers_1740830037064_Vipjmdtb7.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-prestige-estate-services",
@@ -1018,9 +1270,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-prestige-estate-services_1740830037064_Vpp2w69mf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-appraiseitnow",
@@ -1030,9 +1285,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-appraiseitnow_1740830037064_Vtlse9pi9.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-anderson-fine-art-appraisals",
@@ -1042,9 +1300,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-anderson-fine-art-appraisals_1740830037064_V5ablnfcz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-escher-associates",
@@ -1054,9 +1315,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-escher-associates_1740830037064_Vsv9zsc66.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-page-art-inc",
@@ -1066,9 +1330,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-page-art-inc_1740830037064_Vapu4x1ly.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-saylor-rice-appraisals",
@@ -1078,9 +1345,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-saylor-rice-appraisals_1740830037064_Vfxc7uqzh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-gurr-johns",
@@ -1090,9 +1360,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-gurr-johns_1740830037064_V7hzpv0m7.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "columbus-mimesis-gallery",
@@ -1102,9 +1375,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_columbus-mimesis-gallery_1740830037064_Vdmom2pfn.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-prestige-estate-services",
@@ -1114,9 +1390,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-prestige-estate-services_1740830037065_Vzr1yghg5.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-mary-peck-art-advisory",
@@ -1126,9 +1405,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mary-peck-art-advisory_1740830037065_Vwpjkjhmv.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-alicia-e-weaver-isa-capp",
@@ -1138,9 +1420,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-alicia-e-weaver-isa-capp_1740830037065_Vc26r47lf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-appraiseitnow",
@@ -1150,9 +1435,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-appraiseitnow_1740830037065_Vnbafmsct.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-anderson-fine-art-appraisals",
@@ -1162,9 +1450,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-anderson-fine-art-appraisals_1740830037065_Vm035wh4x.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-escher-associates",
@@ -1174,9 +1465,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-escher-associates_1740830037065_Vrn7e48is.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-page-art-inc",
@@ -1186,9 +1480,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-page-art-inc_1740830037065_Ve7hmb1vm.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-saylor-rice-appraisals",
@@ -1198,9 +1495,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-saylor-rice-appraisals_1740830037065_Vkfdecoyc.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-gurr-johns",
@@ -1210,9 +1510,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-gurr-johns_1740830037065_V5727lghe.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "dallas-mimesis-gallery",
@@ -1222,9 +1525,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_dallas-mimesis-gallery_1740830037065_Vjubadk6f.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-alicia-weaver",
@@ -1234,9 +1540,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-alicia-weaver_1740830037066_Vwpi4fw02.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-brady-l-dreasher",
@@ -1246,9 +1555,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-brady-l-dreasher_1740830037066_Vr59ofhhh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-dr-mark-lee-levine",
@@ -1258,9 +1570,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-dr-mark-lee-levine_1740830037066_Vjdapl1r2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-anderson-fine-art-appraisals",
@@ -1270,9 +1585,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-anderson-fine-art-appraisals_1740830037066_V2a0aqqxd.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-escher-associates",
@@ -1282,9 +1600,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-escher-associates_1740830037066_Vvg7fu058.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-page-art-inc",
@@ -1294,9 +1615,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-page-art-inc_1740830037066_Vp1llsj93.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-saylor-rice-appraisals",
@@ -1306,9 +1630,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-saylor-rice-appraisals_1740830037066_Voe332n6h.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-gurr-johns",
@@ -1318,9 +1645,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-gurr-johns_1740830037066_Vv9ogzlrx.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "denver-mimesis-gallery",
@@ -1330,9 +1660,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_denver-mimesis-gallery_1740830037066_Vqxjacvse.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-elizabeth-lovett",
@@ -1357,9 +1690,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-stephanie-calman_1740830037067_Vafbxxays.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-alicia-e-weaver",
@@ -1369,9 +1705,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-alicia-e-weaver_1740830037067_Vjnskgbax.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-hackwith-art-personal-property-appraisals",
@@ -1381,9 +1720,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-hackwith-art-personal-property-appraisals_1740830037067_Vr5gqzmdz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-anderson-fine-art-appraisals",
@@ -1393,9 +1735,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-anderson-fine-art-appraisals_1740830037067_Vqz8voukk.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-escher-associates",
@@ -1405,9 +1750,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-escher-associates_1740830037067_Vav55sa64.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-page-art-inc",
@@ -1417,9 +1765,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-page-art-inc_1740830037067_V95q33wau.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-saylor-rice-appraisals",
@@ -1429,9 +1780,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-saylor-rice-appraisals_1740830037067_Vpgkapn1v.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-gurr-johns",
@@ -1441,9 +1795,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-gurr-johns_1740830037067_Vi8hyij76.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "fort-worth-mimesis-gallery",
@@ -1453,9 +1810,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_fort-worth-mimesis-gallery_1740830037067_Vwaatxjeh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-prestige-estate-services",
@@ -1465,9 +1825,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-prestige-estate-services_1740830037067_Vvi2jt1o9.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-connecticut-art-appraisals-llc-alizzandra-danker",
@@ -1477,9 +1840,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-connecticut-art-appraisals-llc-alizzandra-danker_1740830037067_Ve9n6om67.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-winter-associates",
@@ -1489,9 +1855,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-winter-associates_1740830037067_Vczrmpvdv.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-anderson-fine-art-appraisals",
@@ -1501,9 +1870,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-anderson-fine-art-appraisals_1740830037067_V2tic0ig2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-escher-associates",
@@ -1513,9 +1885,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-escher-associates_1740830037067_Vrzei26ob.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-page-art-inc",
@@ -1525,9 +1900,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-page-art-inc_1740830037067_Vhh617ie2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-saylor-rice-appraisals",
@@ -1537,9 +1915,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-saylor-rice-appraisals_1740830037067_Vga4bwmb2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-gurr-johns",
@@ -1549,9 +1930,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-gurr-johns_1740830037067_Vulejoa81.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "hartford-mimesis-gallery",
@@ -1561,9 +1945,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_hartford-mimesis-gallery_1740830037067_Vz266deme.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "alicia-weaver-prestige-estate",
@@ -1573,9 +1960,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_alicia-weaver-prestige-estate_1740830037068_Vutuhw3uz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "houston-erika-holycross-prestige-estate-services",
@@ -1600,9 +1990,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-lorraine-anne-davis_1740830037068_V4iiqjnnf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "houston-melanie-modica-modica-fine-art",
@@ -1612,9 +2005,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-melanie-modica-modica-fine-art_1740830037068_Vxfoh0w3c.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "houston-anderson-fine-art-appraisals",
@@ -1624,9 +2020,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-anderson-fine-art-appraisals_1741086832703_RqYoGS4BTl.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": true,
+      "oldImageStatus": "200",
+      "oldImageMessage": "OK"
     },
     {
       "id": "houston-escher-associates-ea",
@@ -1636,9 +2035,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-escher-associates-ea_1740830037068_Vih44qpu8.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "houston-page-art-inc",
@@ -1648,9 +2050,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-page-art-inc_1740830037068_Vk3ri3k31.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "houston-saylor-rice-appraisals",
@@ -1660,9 +2065,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-saylor-rice-appraisals_1740830037068_Vw9b33k17.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "houston-gurr-johns",
@@ -1672,9 +2080,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-gurr-johns_1740830037068_Vv9dqjlfq.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "houston-mimesis-gallery",
@@ -1684,9 +2095,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-mimesis-gallery_1740830037068_Vxbd1wsjb.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-prestige-estate-services",
@@ -1696,9 +2110,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-prestige-estate-services_1740830037069_Vkrcljr0d.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-appraiseitnow",
@@ -1708,9 +2125,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-appraiseitnow_1740830037069_V2j5xjkkf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-ripley-auctions",
@@ -1720,9 +2140,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-ripley-auctions_1740830037069_Vzzmzdbt4.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-anderson-fine-art-appraisals-afaa",
@@ -1732,9 +2155,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-anderson-fine-art-appraisals-afaa_1740830037069_V7bc0aixu.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-escher-associates-ea",
@@ -1744,9 +2170,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-escher-associates-ea_1740830037069_Vnxlb38ci.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-page-art-inc",
@@ -1756,9 +2185,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-page-art-inc_1740830037069_Vg1o0rz7i.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-saylor-rice-appraisals",
@@ -1768,9 +2200,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-saylor-rice-appraisals_1740830037069_Vabun9bts.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-gurr-johns",
@@ -1780,9 +2215,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-gurr-johns_1740830037069_V1c5wfxad.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "indianapolis-mimesis-gallery",
@@ -1792,9 +2230,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-mimesis-gallery_1740830037069_V8n5xxq7o.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-alicia-e-weaver",
@@ -1804,9 +2245,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-alicia-e-weaver_1740830037069_V7t94bh1b.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-prestige-estate-services-brenda-blackmon",
@@ -1816,9 +2260,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-prestige-estate-services-brenda-blackmon_1740830037069_Vkp2i7jm2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-antique-art-buyers",
@@ -1828,9 +2275,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-antique-art-buyers_1740830037069_Vixcqzbxq.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-anderson-fine-art-appraisals",
@@ -1840,9 +2290,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-anderson-fine-art-appraisals_1740830037069_V0v5td53h.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-escher-associates",
@@ -1852,9 +2305,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-escher-associates_1740830037069_Vvwb6zua9.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-page-art-inc",
@@ -1864,9 +2320,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-page-art-inc_1740830037069_Vz45z38ts.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-saylor-rice-appraisals",
@@ -1876,9 +2335,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-saylor-rice-appraisals_1740830037069_Vb4dwbku8.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-gurr-johns",
@@ -1888,9 +2350,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-gurr-johns_1740830037069_V66s8dcmd.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "jacksonville-mimesis-gallery",
@@ -1900,9 +2365,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jacksonville-mimesis-gallery_1740830037069_Vwiu6cmq2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-haney-appraisals-in-fine-art",
@@ -1912,9 +2380,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-haney-appraisals-in-fine-art_1740830037070_V9vd3ct0z.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-appraiseitnow",
@@ -1924,9 +2395,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-appraiseitnow_1740830037070_Vuagbfsmh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-janet-l-ross",
@@ -1936,9 +2410,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-janet-l-ross_1740830037070_Vleak60i6.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-madison-group-fine-art-appraisals",
@@ -1948,9 +2425,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-madison-group-fine-art-appraisals_1740830037070_V960o0bd6.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-anderson-fine-art-appraisals-afaa",
@@ -1960,9 +2440,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-anderson-fine-art-appraisals-afaa_1740830037070_Vc41x3q11.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-escher-associates-ea",
@@ -1972,9 +2455,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-escher-associates-ea_1740830037070_V8xjyuv2g.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-page-art-inc",
@@ -1984,9 +2470,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-page-art-inc_1740830037070_Vy0b9j5iu.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-saylor-rice-appraisals",
@@ -1996,9 +2485,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-saylor-rice-appraisals_1740830037070_Vo20qrkuj.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-gurr-johns",
@@ -2008,9 +2500,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-gurr-johns_1740830037070_Vyem596ru.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "kansas-city-mimesis-gallery",
@@ -2020,9 +2515,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_kansas-city-mimesis-gallery_1740830037070_Vqafuf15d.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "edward-kitson",
@@ -2032,9 +2530,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_edward-kitson_1740830037070_Vyzlb4gln.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-elizabeth-lovett",
@@ -2044,9 +2545,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-elizabeth-lovett_1740830037070_Vhvwy2rj9.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-stephanie-calman",
@@ -2056,9 +2560,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-stephanie-calman_1740830037070_Vlt0dp0ik.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-alicia-weaver",
@@ -2068,9 +2575,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-alicia-weaver_1740830037070_Vkht0d397.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-ralph-deluca",
@@ -2080,9 +2590,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-ralph-deluca_1740830037070_Vd0zs0bfh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-reilly-clark-fine-art-appraisals",
@@ -2092,9 +2605,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-reilly-clark-fine-art-appraisals_1740830037070_Vg658adip.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-anderson-fine-art-appraisals",
@@ -2104,9 +2620,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-anderson-fine-art-appraisals_1740830037070_Voocw8m58.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-escher-associates",
@@ -2116,9 +2635,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-escher-associates_1740830037070_Vkh76g0fd.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-page-art-inc",
@@ -2128,9 +2650,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-page-art-inc_1740830037070_V5o37xvnw.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-saylor-rice-appraisals",
@@ -2140,9 +2665,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-saylor-rice-appraisals_1740830037070_Vvp0ein02.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-gurr-johns",
@@ -2152,9 +2680,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-gurr-johns_1740830037070_Vv4arzm9l.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "las-vegas-mimesis-gallery",
@@ -2164,9 +2695,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_las-vegas-mimesis-gallery_1740830037070_Vcg7q1obb.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "heritage-fine-art-appraisers",
@@ -2176,9 +2710,9 @@
       "isPlaceholder": false,
       "oldImageUrl": null,
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404"
     },
     {
       "id": "amanda-mcconaha-js-held",
@@ -2188,9 +2722,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_amanda-mcconaha-js-held_1740830037071_V4j1kgdre.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "anya-foo-nova-art-la",
@@ -2200,9 +2737,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anya-foo-nova-art-la_1740830037071_Vvbrr83jq.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "page-art-inc",
@@ -2212,9 +2752,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_page-art-inc_1740830037071_Viei7i0os.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "escher-associates",
@@ -2224,9 +2767,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_escher-associates_1740830037071_Vdv9on7bv.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "anderson-fine-art-appraisals",
@@ -2236,9 +2782,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_anderson-fine-art-appraisals_1740830037071_Vv74bjlql.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "saylor-rice-appraisals",
@@ -2248,9 +2797,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_saylor-rice-appraisals_1740830037071_Vmaa9jrfu.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "gurr-johns",
@@ -2260,9 +2812,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_gurr-johns_1740830037071_Vxvoylm93.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "mimesis-gallery",
@@ -2272,9 +2827,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_mimesis-gallery_1740830037071_Vzs1xhx6f.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "momaa-museum-modern-american-art",
@@ -2284,9 +2842,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_momaa-museum-modern-american-art_1740830037072_Vw5vwaq16.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "juan-lluria-fine-arts",
@@ -2296,9 +2857,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_juan-lluria-fine-arts_1740830037072_Vtel1issw.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-antique-art-buyers",
@@ -2308,9 +2872,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-antique-art-buyers_1740830037072_Vhqqtbwbi.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-lisa-austin-la-a",
@@ -2320,9 +2887,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-lisa-austin-la-a_1740830037072_Vulxof8bm.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery",
@@ -2332,9 +2902,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery_1740830037072_V5gr9xvj2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-the-fine-art-group",
@@ -2344,9 +2917,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-the-fine-art-group_1740830037072_Vw63kcja0.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-anderson-fine-art-appraisals",
@@ -2356,9 +2932,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-anderson-fine-art-appraisals_1740830037072_Vc8zqq7q0.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-escher-associates",
@@ -2368,9 +2947,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-escher-associates_1740830037072_V9de6rmay.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-page-art-inc",
@@ -2380,9 +2962,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-page-art-inc_1740830037072_Vat96nkzx.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-saylor-rice-appraisals",
@@ -2392,9 +2977,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-saylor-rice-appraisals_1740830037072_Vffhducux.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-gurr-johns",
@@ -2404,9 +2992,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-gurr-johns_1740830037072_Virctwz34.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "miami-mimesis-gallery",
@@ -2416,9 +3007,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-mimesis-gallery_1740830037072_V3oankjie.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-alicia-e-weaver",
@@ -2440,9 +3034,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740830037073_Vcnk7zcqs.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-appraiseitnow",
@@ -2452,9 +3049,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740830037073_Vgns4yh9j.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-revere-auctions",
@@ -2464,9 +3064,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740830037073_Va12e9h1k.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-anderson-fine-art-appraisals",
@@ -2476,9 +3079,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740830037073_V13tz2fcl.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-escher-associates",
@@ -2488,9 +3094,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740830037073_Vjdyz7a1v.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-page-art-inc",
@@ -2500,9 +3109,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740830037073_Vjf2snxoj.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-saylor-rice-appraisals",
@@ -2512,9 +3124,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740830037073_V7b8mf7de.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-gurr-johns",
@@ -2524,9 +3139,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740830037073_V198ngtpv.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "minneapolis-mimesis-gallery",
@@ -2536,9 +3154,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740830037073_Vs4n1ztrb.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-case-antiques-inc-auctions-appraisals",
@@ -2548,9 +3169,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-case-antiques-inc-auctions-appraisals_1740830037073_V80yrl1se.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-prestige-estate-services",
@@ -2560,9 +3184,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-prestige-estate-services_1740830037073_Vwzxs2c0a.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-jason-preston-art-advisory-appraisals",
@@ -2572,9 +3199,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-jason-preston-art-advisory-appraisals_1740830037073_V7lmucx2x.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-anderson-fine-art-appraisals",
@@ -2584,9 +3214,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-anderson-fine-art-appraisals_1740830037073_Vsmv3nsro.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-escher-associates",
@@ -2596,9 +3229,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-escher-associates_1740830037073_Vdmj95gg5.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-page-art-inc",
@@ -2608,9 +3244,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-page-art-inc_1740830037073_Vz8fvs3em.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-saylor-rice-appraisals",
@@ -2620,9 +3259,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-saylor-rice-appraisals_1740830037073_V08mkqd0i.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-gurr-johns",
@@ -2632,9 +3274,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-gurr-johns_1740830037073_V2yfmri80.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "nashville-mimesis-gallery",
@@ -2644,9 +3289,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_nashville-mimesis-gallery_1740830037073_Vzk4cdbwt.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-barnett-fine-art",
@@ -2656,9 +3304,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-barnett-fine-art_1740830037074_V5bi939hy.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-new-orleans-auction-galleries",
@@ -2668,9 +3319,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-new-orleans-auction-galleries_1740830037074_Vp7qqctig.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-appraiseitnow-louisiana",
@@ -2680,9 +3334,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-appraiseitnow-louisiana_1740830037074_Vmrqxhq36.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-american-society-of-appraisers-asa",
@@ -2692,9 +3349,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-american-society-of-appraisers-asa_1740830037074_Vq79oj9bg.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-anderson-fine-art-appraisals",
@@ -2704,9 +3364,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-anderson-fine-art-appraisals_1740830037074_Vt6seqfed.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-escher-associates",
@@ -2716,9 +3379,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-escher-associates_1740830037074_Vukxteqet.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-page-art-inc",
@@ -2728,9 +3394,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-page-art-inc_1740830037074_Vquhshebh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-saylor-rice-appraisals",
@@ -2740,9 +3409,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-saylor-rice-appraisals_1740830037074_Vsycj5v9j.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-gurr-johns",
@@ -2752,9 +3424,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-gurr-johns_1740830037074_V26etwwu5.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "new-orleans-mimesis-gallery",
@@ -2764,9 +3439,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_new-orleans-mimesis-gallery_1740830037074_V8q1mugxt.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "manhattan-fine-art-appraisers",
@@ -2776,9 +3454,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_manhattan-fine-art-appraisers_1740830037074_Vk4hw5zzn.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "palm-beach-alicia-e-weaver",
@@ -2788,9 +3469,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-alicia-e-weaver_1740830037075_Vguzrtco6.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "palm-beach-elizabeth-lake-lovett",
@@ -2800,9 +3484,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-elizabeth-lake-lovett_1740830037075_Vdmkt0dny.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "palm-beach-kaminski-auctions",
@@ -2812,9 +3499,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-kaminski-auctions_1740830037075_Vuu458vea.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "palm-beach-appraiseitnow",
@@ -2920,9 +3610,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-prestige-estate-services_1740830037075_V3z1blwfp.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-doyle-pennsylvania-regional-office",
@@ -2932,9 +3625,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-doyle-pennsylvania-regional-office_1740830037075_Vecagu13f.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-philadelphia-jewelry-appraisers",
@@ -2944,9 +3640,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-philadelphia-jewelry-appraisers_1740830037075_Vfylm46iy.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-freeman-s-hindman",
@@ -2956,9 +3655,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-freeman-s-hindman_1740830037075_V5zn6nu4f.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-anderson-fine-art-appraisals",
@@ -2968,9 +3670,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-anderson-fine-art-appraisals_1740830037075_Vjdhcozft.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-escher-associates",
@@ -2980,9 +3685,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-escher-associates_1740830037075_Vu4q89q18.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-page-art-inc",
@@ -2992,9 +3700,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-page-art-inc_1740830037075_V6zc4vex7.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-saylor-rice-appraisals",
@@ -3004,9 +3715,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-saylor-rice-appraisals_1740830037075_Vcf67sm13.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-gurr-johns",
@@ -3016,9 +3730,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-gurr-johns_1740830037075_V9ogulmsj.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "philadelphia-mimesis-gallery",
@@ -3028,9 +3745,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_philadelphia-mimesis-gallery_1740830037075_V6gkpsttf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "prestige-estate-services",
@@ -3091,9 +3811,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-kurt-shaw-company_1740830037076_V89s2csaf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "pittsburgh-appraiseitnow",
@@ -3103,9 +3826,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-appraiseitnow_1740830037077_Vxa9b4yh6.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "pittsburgh-anderson-fine-art-appraisals",
@@ -3115,9 +3841,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-anderson-fine-art-appraisals_1740830037077_V2yixo4qz.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "pittsburgh-escher-associates",
@@ -3127,9 +3856,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-escher-associates_1740830037077_V7cfqp21z.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "pittsburgh-page-art-inc",
@@ -3139,9 +3871,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-page-art-inc_1740830037077_Vdr723cbx.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "pittsburgh-saylor-rice-appraisals",
@@ -3151,9 +3886,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-saylor-rice-appraisals_1740830037077_V6madt4j4.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "pittsburgh-gurr-johns",
@@ -3163,9 +3901,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-gurr-johns_1740830037077_Vc2buw4zg.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "pittsburgh-mimesis-gallery",
@@ -3175,9 +3916,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_pittsburgh-mimesis-gallery_1740830037077_Vsdlimz8k.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "portland-alicia-e-weaver",
@@ -4540,9 +5284,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-prestige-estate-services_1740830037086_Vo2feot2e.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-irs-art-appraisal-services",
@@ -4552,9 +5299,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-irs-art-appraisal-services_1740830037086_Vq022eri2.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-czudej-mcdonough",
@@ -4564,9 +5314,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-czudej-mcdonough_1740830037086_Vv8f25kwh.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-appraiseitnow-washington-dc",
@@ -4576,9 +5329,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-appraiseitnow-washington-dc_1740830037086_Vmvyqysvf.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-museum-exchange",
@@ -4588,9 +5344,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-museum-exchange_1740830037086_V80bypt0p.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-alpha137-gallery",
@@ -4600,9 +5359,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-alpha137-gallery_1740830037086_Vivvt86ug.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-artifactual-history-appraisal",
@@ -4612,9 +5374,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-artifactual-history-appraisal_1740830037086_V4qbboem3.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-anderson-fine-art-appraisals",
@@ -4624,9 +5389,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-anderson-fine-art-appraisals_1740830037086_Vtuban8io.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-escher-associates",
@@ -4636,9 +5404,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-escher-associates_1740830037086_V76v8y75n.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-page-art-inc",
@@ -4648,9 +5419,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-page-art-inc_1740830037086_Ve9nvdz8b.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-saylor-rice-appraisals",
@@ -4660,9 +5434,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-saylor-rice-appraisals_1740830037086_V1um6d0fa.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-gurr-johns",
@@ -4672,9 +5449,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-gurr-johns_1740830037086_V7tuxh5js.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     },
     {
       "id": "washington-mimesis-gallery",
@@ -4684,9 +5464,12 @@
       "isPlaceholder": false,
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-mimesis-gallery_1740830037086_Vdezyw5l3.jpg",
       "checked": true,
-      "valid": true,
-      "status": "200",
-      "message": "OK"
+      "valid": false,
+      "status": "404",
+      "message": "HTTP Error 404",
+      "oldImageValid": false,
+      "oldImageStatus": "404",
+      "oldImageMessage": "HTTP Error 404"
     }
   ]
 }

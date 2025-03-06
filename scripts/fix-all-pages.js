@@ -3,7 +3,7 @@
 /**
  * Fix-All-Pages.js
  * 
- * This script fixes all the static HTML pages for the site:
+ * This script fixes all the static HTML files for the site:
  * 1. Fixes React hydration issues
  * 2. Injects fallback image handler
  * 3. Rebuilds with correct paths
@@ -51,7 +51,7 @@ function runScript(command, args = []) {
     const cmdString = `${command} ${args.join(' ')}`;
     log(`Running command: ${cmdString}`, 'info');
     
-    exec(command, { cwd: ROOT_DIR }, (error, stdout, stderr) => {
+    exec(cmdString, { cwd: ROOT_DIR }, (error, stdout, stderr) => {
       if (error) {
         log(`Error running script: ${error.message}`, 'error');
         log(stderr, 'error');
@@ -87,7 +87,8 @@ async function getAllHtmlFiles(dir = DIST_DIR) {
 }
 
 /**
- * Fix React hydration in all HTML files
+ * Fix React hydration in all HTML files - Optimized version
+ * This processes files in batches to prevent excessive subprocess spawning
  */
 async function fixAllHydrationIssues() {
   log('Fixing React hydration issues in all HTML files...', 'info');
@@ -96,27 +97,29 @@ async function fixAllHydrationIssues() {
     const htmlFiles = await getAllHtmlFiles();
     log(`Found ${htmlFiles.length} HTML files to process.`, 'info');
     
-    let fixedCount = 0;
+    // Instead of processing each file individually, run the script once
+    // for specific important files, then let it handle everything else
     
-    for (const file of htmlFiles) {
-      // Get the relative path from the dist directory
-      const relativePath = path.relative(DIST_DIR, file);
-      
-      try {
-        // Run the fix-react-hydration.js script for each file
-        const output = await runScript('node', [path.join(__dirname, 'fix-react-hydration.js'), relativePath]);
-        
-        // Check if the file was fixed
-        if (output.includes('Fixed hydration issues in 1 files')) {
-          fixedCount++;
-        }
-      } catch (error) {
-        log(`Error fixing ${relativePath}: ${error.message}`, 'error');
-      }
+    // Process the main index.html first
+    const mainIndex = path.join(DIST_DIR, 'index.html');
+    if (fs.existsSync(mainIndex)) {
+      log('Processing main index.html...', 'info');
+      await runScript('node', [path.join(__dirname, 'fix-react-hydration.js'), 'index.html']);
     }
     
-    log(`Fixed hydration issues in ${fixedCount} files.`, 'success');
-    return fixedCount;
+    // Process the Cleveland location page 
+    const clevelandPage = path.join(DIST_DIR, 'location', 'cleveland', 'index.html');
+    if (fs.existsSync(clevelandPage)) {
+      log('Processing Cleveland location page...', 'info');
+      await runScript('node', [path.join(__dirname, 'fix-react-hydration.js'), 'location/cleveland/index.html']);
+    }
+    
+    // Now run the script without a specific file, which will make it process all files
+    log('Processing all remaining HTML files...', 'info');
+    const output = await runScript('node', [path.join(__dirname, 'fix-react-hydration.js')]);
+    
+    log('Completed hydration fixes', 'success');
+    return htmlFiles.length;
   } catch (error) {
     log(`Error fixing hydration issues: ${error.message}`, 'error');
     throw error;
@@ -134,7 +137,7 @@ async function main() {
     const shouldRebuild = process.argv.includes('--rebuild');
     if (shouldRebuild) {
       log('Rebuilding static files...', 'info');
-      const rebuildOutput = await runScript('npm', ['run', 'rebuild-static']);
+      const rebuildOutput = await runScript('npm run rebuild-static');
       log(rebuildOutput, 'info');
     }
     

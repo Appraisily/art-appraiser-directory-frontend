@@ -19,7 +19,7 @@ const DIST_DIR = path.join(ROOT_DIR, 'dist');
  * 6. Provides instructions for deployment to Netlify
  */
 
-const IMAGE_GEN_SERVICE_URL = process.env.IMAGE_GENERATION_API || 'http://localhost:3000/api/generate';
+const IMAGE_GEN_SERVICE_URL = process.env.IMAGE_GENERATION_API || 'https://image-generation-service-856401495068.us-central1.run.app/api/generate';
 
 // Check if image generation service is running
 async function checkImageService() {
@@ -170,9 +170,9 @@ async function main() {
   
   // Check if image service is running
   const serviceRunning = await checkImageService();
-  if (!serviceRunning) {
-    return;
-  }
+  
+  // Continue even if service is not running
+  console.log('⚠️ Continuing build process without image service...');
   
   // Run the build process
   const buildSuccess = await runBuild();
