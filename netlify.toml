@@ -1,20 +1,10 @@
-<<<<<<< HEAD
-# Main Netlify configuration file
-# Updated for pre-built HTML deployment
-=======
 # Netlify configuration for pre-built static site
->>>>>>> 5cfc4e030696f377d7c19709ee53b54504959312
 
 [build]
   # The directory to publish (pre-built)
   publish = "dist"
-<<<<<<< HEAD
-  # Skip build since files are pre-built locally
-  command = "echo 'Deploying pre-built files from dist directory'"
-=======
   # Skip the build command since files are pre-built
   command = "echo 'Using pre-built static files for Netlify deployment'"
->>>>>>> 5cfc4e030696f377d7c19709ee53b54504959312
   
   # Environment variables
   [build.environment]
