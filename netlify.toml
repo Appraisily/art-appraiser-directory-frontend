@@ -21,10 +21,21 @@
 [[headers]]
   for = "/assets/*.js"
     [headers.values]
-    Content-Type = "application/javascript"
+    Content-Type = "application/javascript; charset=utf-8"
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Handle routes properly for static site
+[[headers]]
+  for = "/assets/*.mjs"
+    [headers.values]
+    Content-Type = "application/javascript; charset=utf-8"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Handle directory paths properly for static site
+[[redirects]]
+  from = "/directory/*"
+  to = "/directory/:splat"
+  status = 200
+
 [[redirects]]
   from = "/assets/*"
   to = "/assets/:splat"
@@ -42,6 +53,12 @@
   status = 200
   force = false
 
+# Ensure the root path serves index.html
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
 # Fallback to index.html for client-side routing
 [[redirects]]
   from = "/*"
@@ -53,6 +70,7 @@
   # Define headers for HTML files
   for = "/*.html"
     [headers.values]
+    Content-Type = "text/html; charset=utf-8"
     Cache-Control = "public, max-age=0, must-revalidate"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
