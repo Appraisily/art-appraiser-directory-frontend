@@ -1,15 +1,14 @@
-# Netlify configuration for pre-built static site
+# Netlify configuration for pre-built distribution
 
 [build]
-  # The directory to publish
-  publish = "dist"
-  # Skip the build command since files are pre-built
-  command = "echo 'Using pre-built static files for Netlify deployment'"
+  # Since the files are already built, we don't need to run a build command
+  publish = "/"
+  command = "echo 'No build required, using pre-built files'"
   
-  # Environment variables
+  # Environment variables for the build
   [build.environment]
-    NODE_VERSION = "18"
-    SITE_URL = "https://art-appraiser-directory.appraisily.com"
+    # Set the site URL for sitemap generation
+    SITE_URL = "https://art-appraiser.appraisily.com"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]
@@ -24,12 +23,13 @@
     Content-Type = "application/javascript"
     Cache-Control = "public, max-age=31536000, immutable"
 
-# Handle routes properly for static site
+# Make sure assets are served correctly
 [[redirects]]
   from = "/assets/*"
   to = "/assets/:splat"
   status = 200
 
+# Don't redirect for static HTML pages that exist
 [[redirects]]
   from = "/location/*"
   to = "/location/:splat/index.html"
@@ -42,14 +42,19 @@
   status = 200
   force = false
 
-# Fallback to index.html for client-side routing
+# Redirect all remaining routes to index.html for client-side routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 
-# Additional headers for security
+# Additional header configurations
 [[headers]]
+  # Define headers for all assets
+  for = "/assets/*"
+    [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
   # Define headers for HTML files
   for = "/*.html"
     [headers.values]
@@ -58,8 +63,7 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-# Define headers for the sitemap
-[[headers]]
+  # Define headers for the sitemap
   for = "/sitemap.xml"
     [headers.values]
     Cache-Control = "public, max-age=3600"
@@ -71,4 +75,4 @@
     [headers.values]
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()" 
