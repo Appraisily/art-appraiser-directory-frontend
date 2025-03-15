@@ -70,19 +70,56 @@ async function getLocationHtmlFiles() {
 }
 
 /**
+ * Get all HTML files in the dist directory (recursive)
+ */
+async function getAllHtmlFiles() {
+  const distDir = DIST_DIR;
+  
+  if (!fs.existsSync(distDir)) {
+    log(`Dist directory not found: ${distDir}`, 'warning');
+    return [];
+  }
+  
+  // Recursive function to get all HTML files
+  async function getFilesRecursive(dir) {
+    let results = [];
+    const files = await fs.readdir(dir);
+    
+    for (const file of files) {
+      const filePath = path.join(dir, file);
+      const stat = await fs.stat(filePath);
+      
+      if (stat.isDirectory()) {
+        // Recursively search subdirectories
+        const subResults = await getFilesRecursive(filePath);
+        results = results.concat(subResults);
+      } else if (filePath.endsWith('.html')) {
+        results.push(filePath);
+      }
+    }
+    
+    return results;
+  }
+  
+  return getFilesRecursive(distDir);
+}
+
+/**
  * Fix appraiser links in all location HTML files to point to subdomain
  */
 async function fixSubdomainLinks() {
-  log('Fixing appraiser links in location HTML files...', 'info');
+  log('Fixing appraiser links in all HTML files...', 'info');
   
   try {
-    const htmlFiles = await getLocationHtmlFiles();
-    log(`Found ${htmlFiles.length} location HTML files to process.`, 'info');
+    const htmlFiles = await getAllHtmlFiles();
+    log(`Found ${htmlFiles.length} HTML files to process.`, 'info');
     
     let processedCount = 0;
+    let modifiedCount = 0;
     
     for (const filePath of htmlFiles) {
       let html = await fs.readFile(filePath, 'utf8');
+      const originalHtml = html;
       
       // Update appraiser links to use subdomain
       html = html.replace(
@@ -90,17 +127,33 @@ async function fixSubdomainLinks() {
         'https://art-appraiser-directory.appraisily.com/appraiser/'
       );
       
-      // Write the updated content back to the file
-      await fs.writeFile(filePath, html, 'utf8');
+      // Also fix links in JSON+LD schema data (which may be escaped)
+      html = html.replace(
+        /"item":"https:\/\/appraisily\.com\/appraiser\//g,
+        '"item":"https://art-appraiser-directory.appraisily.com/appraiser/'
+      );
+      
+      // Fix canonicalUrl in meta tags
+      html = html.replace(
+        /<link rel="canonical" href="https:\/\/appraisily\.com\/appraiser\//g,
+        '<link rel="canonical" href="https://art-appraiser-directory.appraisily.com/appraiser/'
+      );
+      
+      // Write the updated content back to the file if changed
+      if (html !== originalHtml) {
+        await fs.writeFile(filePath, html, 'utf8');
+        modifiedCount++;
+      }
+      
       processedCount++;
       
-      if (processedCount % 10 === 0) {
-        log(`Processed ${processedCount}/${htmlFiles.length} files...`, 'info');
+      if (processedCount % 20 === 0) {
+        log(`Processed ${processedCount}/${htmlFiles.length} files... Modified: ${modifiedCount}`, 'info');
       }
     }
     
-    log(`Successfully processed all ${processedCount} HTML files`, 'success');
-    return processedCount;
+    log(`Successfully processed ${processedCount} HTML files. Modified: ${modifiedCount}`, 'success');
+    return { processedCount, modifiedCount };
   } catch (error) {
     log(`Error fixing subdomain links: ${error.message}`, 'error');
     throw error;
@@ -113,8 +166,8 @@ async function fixSubdomainLinks() {
 async function main() {
   try {
     log('Starting subdomain link fix process...', 'info');
-    const count = await fixSubdomainLinks();
-    log(`Completed updating subdomain links in ${count} files.`, 'success');
+    const { processedCount, modifiedCount } = await fixSubdomainLinks();
+    log(`Completed! Processed ${processedCount} files, modified ${modifiedCount} files.`, 'success');
   } catch (error) {
     log(`Failed to fix subdomain links: ${error.message}`, 'error');
     process.exit(1);

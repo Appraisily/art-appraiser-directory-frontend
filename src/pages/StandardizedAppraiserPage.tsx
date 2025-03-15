@@ -63,7 +63,7 @@ export function StandardizedAppraiserPage() {
           "@type": "ListItem",
           "position": 3,
           "name": appraiser.name,
-          "item": `https://appraisily.com/appraiser/${appraiser.slug}`
+          "item": `https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`
         }
       ]
     };
@@ -86,7 +86,7 @@ export function StandardizedAppraiserPage() {
         "postalCode": appraiser.address.zip,
         "addressCountry": "US"
       },
-      "url": `https://appraisily.com/appraiser/${appraiser.slug}`,
+      "url": `https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`,
       "telephone": appraiser.contact.phone,
       "email": appraiser.contact.email,
       "priceRange": appraiser.business.pricing,
@@ -209,7 +209,7 @@ export function StandardizedAppraiserPage() {
           generateBreadcrumbSchema(),
           generateFAQSchema()
         ]}
-        canonicalUrl={`https://appraisily.com/appraiser/${appraiser.slug}`}
+        canonicalUrl={`https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`}
       />
       
       <nav className="flex mb-6" aria-label="Breadcrumb">

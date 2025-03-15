@@ -4,7 +4,7 @@
       "id": "aspen-mary-peck-art-advisory",
       "name": "Mary Peck Art Advisory",
       "slug": "mary-peck-art-advisory",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740929800152_W9B4CBBJu.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
       "address": {
         "street": "1234 Art District Ave",
         "city": "Denver",
@@ -81,13 +81,14 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
-      }
+      },
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530"
     },
     {
       "id": "aspen-alicia-e-weaver",
       "name": "Alicia E Weaver",
       "slug": "alicia-e-weaver",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740929808047_lYMHZiQPP.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-saylor-rice-appraisals_1741088975587_m4gb2w_4o.jpg?updatedAt=1741088976609",
       "address": {
         "street": "2145 Pearl Street",
         "city": "Boulder",
@@ -159,13 +160,14 @@
       "metadata": {
         "lastUpdated": "2025-03-10",
         "inService": true
-      }
+      },
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-saylor-rice-appraisals_1741088975587_m4gb2w_4o.jpg?updatedAt=1741088976609"
     },
     {
       "id": "aspen-812-maplewood",
       "name": "812 Maplewood",
       "slug": "812-maplewood",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740929816443_-N9BCbxFF.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
       "address": {
         "street": "812 Maplewood Ave",
         "city": "Aspen",
@@ -235,7 +237,8 @@
       "metadata": {
         "lastUpdated": "2025-02-28",
         "inService": true
-      }
+      },
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530"
     }
   ]
 }

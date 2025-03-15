@@ -22,10 +22,11 @@
       "phone": "Contact via website",
       "website": "https://momaa.org/art-appraisal-miami/",
       "notes": "Offers high-resolution image based appraisals with a 3-day turnaround for South Florida.",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_momaa-museum-modern-american-art_1740931352302_MUfZzsvdC.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_momaa-museum-modern-american-art_1740830037072_Vw5vwaq16.jpg",
       "rating": 4.8,
-      "address": "Miami, FL"
+      "address": "Miami, FL",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862"
     },
     {
       "id": "juan-lluria-fine-arts",
@@ -49,10 +50,11 @@
       "phone": "Contact via website",
       "website": "https://lluriafinearts.com/about-us/appraisals/",
       "notes": "Provides appraisal services with additional referrals as needed.",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_juan-lluria-fine-arts_1740931361606_2jIcpMkix.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg?updatedAt=1741089014093",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_juan-lluria-fine-arts_1740830037072_Vtel1issw.jpg",
       "rating": 4.8,
-      "address": "Miami, FL"
+      "address": "Miami, FL",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg?updatedAt=1741089014093"
     },
     {
       "name": "Antique Art Buyers",
@@ -73,10 +75,11 @@
       "website": "https://antiqueartbuyers.com",
       "notes": "Focuses on free verbal valuations for sellers in Miami-Dade County.",
       "id": "miami-antique-art-buyers",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-antique-art-buyers_1740931370163_WjTq8fGq_.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-antique-art-buyers_1740830037072_Vhqqtbwbi.jpg",
       "rating": 4.7,
-      "address": "Miami, FL"
+      "address": "Miami, FL",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386"
     },
     {
       "name": "Lisa Austin (LA&A)",
@@ -101,10 +104,11 @@
       "website": "http://www.laanda.net",
       "notes": "",
       "id": "miami-lisa-austin-la-a",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-lisa-austin-la-a_1740931378883_1KbasWB_c.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg?updatedAt=1741088906975",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-lisa-austin-la-a_1740830037072_Vulxof8bm.jpg",
       "rating": 4.9,
-      "address": "Miami Beach, FL"
+      "address": "Miami Beach, FL",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg?updatedAt=1741088906975"
     },
     {
       "name": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
@@ -127,10 +131,11 @@
       "website": "https://www.naderhaitianart.com",
       "notes": "",
       "id": "miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery_1740931387300_9KRjktMaz.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery_1740830037072_V5gr9xvj2.jpg",
       "rating": 5,
-      "address": "Miami, FL"
+      "address": "Miami, FL",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377"
     },
     {
       "name": "The Fine Art Group",
@@ -154,10 +159,11 @@
       "website": "https://www.fineartgroup.com",
       "notes": "Operates globally with a local presence in Miami.",
       "id": "miami-the-fine-art-group",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-the-fine-art-group_1740931395246_uwru3K_HA.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-the-fine-art-group_1740830037072_Vw63kcja0.jpg",
       "rating": 4.5,
-      "address": "Miami, FL"
+      "address": "Miami, FL",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111"
     },
     {
       "name": "Anderson Fine Art Appraisals",
@@ -186,10 +192,11 @@
       "website": "http://www.art-appraisals.net",
       "notes": "Specializes in a broad range of European and American art styles.",
       "id": "miami-anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-anderson-fine-art-appraisals_1740931402690_cKqPJd1YZa.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-anderson-fine-art-appraisals_1740830037072_Vc8zqq7q0.jpg",
       "rating": 4.6,
-      "address": "Los Angeles, CA"
+      "address": "Los Angeles, CA",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111"
     },
     {
       "name": "Escher Associates",
@@ -215,10 +222,11 @@
       "website": "http://www.escher-associates.com",
       "notes": "Handled art fraud cases with LAPD and adheres to USPAP and ASA standards.",
       "id": "miami-escher-associates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-escher-associates_1740931411217_8nIhBm8_O.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg?updatedAt=1741088846644",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-escher-associates_1740830037072_V9de6rmay.jpg",
       "rating": 4.9,
-      "address": "Los Angeles, CA"
+      "address": "Los Angeles, CA",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg?updatedAt=1741088846644"
     },
     {
       "name": "Page Art, Inc.",
@@ -244,10 +252,11 @@
       "website": "http://www.page-art.com",
       "notes": "",
       "id": "miami-page-art-inc",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-page-art-inc_1740931420335_NSiXWnEfTE.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-page-art-inc_1740830037072_Vat96nkzx.jpg",
       "rating": 4.5,
-      "address": "Los Angeles, CA"
+      "address": "Los Angeles, CA",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833"
     },
     {
       "name": "Saylor Rice Appraisals",
@@ -269,10 +278,11 @@
       "website": "http://www.saylorriceappraisals.com",
       "notes": "Clients include LACMA and MoMA; caters to high-end appraisal needs.",
       "id": "miami-saylor-rice-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-saylor-rice-appraisals_1740931428526_yqCURtg1Y5.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-appraiseitnow_1741089224004_8fcZTBtlUU.jpg?updatedAt=1741089225084",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-saylor-rice-appraisals_1740830037072_Vffhducux.jpg",
       "rating": 4.7,
-      "address": "Los Angeles, CA"
+      "address": "Los Angeles, CA",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-appraiseitnow_1741089224004_8fcZTBtlUU.jpg?updatedAt=1741089225084"
     },
     {
       "name": "Gurr Johns",
@@ -295,10 +305,11 @@
       "website": "http://www.gurrjohns.com",
       "notes": "Global firm managing over $10 billion annually.",
       "id": "miami-gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-gurr-johns_1740931436742_pNTLSahFW.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-gurr-johns_1740830037072_Virctwz34.jpg",
       "rating": 4.7,
-      "address": "Los Angeles, CA"
+      "address": "Los Angeles, CA",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861"
     },
     {
       "name": "Mimesis Gallery",
@@ -322,10 +333,11 @@
       "website": "http://www.mimesisgallery.com",
       "notes": "Offers same-day offers and operates on a consignment-based sales model.",
       "id": "miami-mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-mimesis-gallery_1740931444103_IJlkg73bm.jpg",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg?updatedAt=1741088888767",
       "oldImageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_miami-mimesis-gallery_1740830037072_V3oankjie.jpg",
       "rating": 4.5,
-      "address": "Los Angeles, CA"
+      "address": "Los Angeles, CA",
+      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg?updatedAt=1741088888767"
     }
   ]
 }
