@@ -29,7 +29,8 @@
         "clean": "rm -rf dist/*",
         "standardize:data": "node ./scripts/standardize-appraiser-data.js",
         "standardize:one": "node ./scripts/standardize-appraiser-data.js",
-        "count:appraisers": "node ./scripts/count-appraisers.js"
+        "count:appraisers": "node ./scripts/count-appraisers.js",
+        "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

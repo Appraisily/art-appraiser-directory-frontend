@@ -101,19 +101,22 @@ async function buildStandardized() {
     // Step 7: Generate static location pages
     runCommand('node scripts/fix-all-pages.js', '📄 Generating static location pages');
     
-    // Step 8: Fix HTML paths for deployment (fix for module loading issue)
+    // Step 8: Generate static appraiser pages
+    runCommand('node scripts/generate-appraiser-pages.js', '📄 Generating static appraiser pages');
+    
+    // Step 9: Fix HTML paths for deployment (fix for module loading issue)
     runCommand('node scripts/fix-html-paths.js', '🔧 Fixing HTML paths for module loading');
 
-    // Step 9: Fix React hydration issues
+    // Step 10: Fix React hydration issues
     runCommand('node scripts/fix-react-hydration.js', '🔄 Fixing React hydration issues');
     
-    // Step 10: Fix preloaded asset references
+    // Step 11: Fix preloaded asset references
     runCommand('node scripts/fix-preload-refs.js', '🔄 Fixing preloaded asset references');
 
-    // Step 11: Fix location links to be relative
+    // Step 12: Fix location links to be relative
     runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
 
-    // Step 12: Prepare for Netlify deployment
+    // Step 13: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 
     log('✅ Build completed successfully!', 'success');
