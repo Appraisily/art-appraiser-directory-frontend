@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { MapPin, Star, Mail, Phone, Globe, Clock, Award, Shield, ChevronRight } from 'lucide-react';
 import { getStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
@@ -153,7 +153,7 @@ export function StandardizedAppraiserPage() {
   
   if (isLoading) {
     return (
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 mt-16">
         <h1 className="text-2xl font-bold mb-4">Loading Appraiser Details...</h1>
         <div className="animate-pulse">
           <div className="h-4 bg-gray-200 rounded w-3/4 mb-4"></div>
@@ -175,27 +175,32 @@ export function StandardizedAppraiserPage() {
 
   if (error || !appraiser) {
     return (
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 mt-16">
         <SEO 
           title="Appraiser Not Found | Art Appraisers Directory"
           description="We couldn't find the requested art appraiser. Browse our directory for other art appraisers."
+          canonicalUrl="https://appraisily.com/appraiser-not-found"
         />
-        <h1 className="text-2xl font-bold mb-4">Art Appraiser Not Found</h1>
-        <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded mb-6">
-          {error || "The requested art appraiser could not be found."}
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-3xl font-bold mb-4">Art Appraiser Not Found</h1>
+          <div className="bg-blue-50 border border-blue-200 text-blue-700 px-6 py-4 rounded-lg mb-6">
+            <p className="font-medium">We couldn't find the requested art appraiser.</p>
+            <p className="mt-2">Please check back or explore other appraisers in our directory.</p>
+          </div>
+          <a href="https://appraisily.com" className="text-blue-600 hover:underline font-medium">
+            Browse all locations
+          </a>
         </div>
-        <Link to="/" className="text-blue-600 hover:underline">
-          Browse all locations
-        </Link>
       </div>
     );
   }
 
-  const seoTitle = `${appraiser.name} - Art Appraiser | Expert Art Valuation Services`;
-  const seoDescription = `Get professional art appraisal services from ${appraiser.name}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
+  const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
+  const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
+  const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 mt-16">
       <SEO 
         title={seoTitle}
         description={seoDescription}
@@ -204,21 +209,22 @@ export function StandardizedAppraiserPage() {
           generateBreadcrumbSchema(),
           generateFAQSchema()
         ]}
+        canonicalUrl={`https://appraisily.com/appraiser/${appraiser.slug}`}
       />
       
       <nav className="flex mb-6" aria-label="Breadcrumb">
         <ol className="flex items-center space-x-2">
           <li>
-            <Link to="/" className="text-gray-500 hover:text-gray-700">Home</Link>
+            <a href="https://appraisily.com" className="text-gray-500 hover:text-gray-700">Home</a>
           </li>
           <li className="flex items-center">
             <ChevronRight className="h-4 w-4 text-gray-400" />
-            <Link 
-              to={`/location/${appraiser.address.city.toLowerCase().replace(/\s+/g, '-')}`}
+            <a 
+              href={`https://appraisily.com/location/${citySlug}`}
               className="ml-2 text-gray-500 hover:text-gray-700"
             >
               {appraiser.address.city}
-            </Link>
+            </a>
           </li>
           <li className="flex items-center">
             <ChevronRight className="h-4 w-4 text-gray-400" />
@@ -234,6 +240,10 @@ export function StandardizedAppraiserPage() {
               src={appraiser.imageUrl} 
               alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
               className="w-full h-auto"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = 'https://ik.imagekit.io/appraisily/placeholder-image.jpg';
+              }}
             />
           </div>
           
@@ -299,6 +309,15 @@ export function StandardizedAppraiserPage() {
                   <span className="text-gray-700">{cert}</span>
                 </div>
               ))}
+            </div>
+            
+            <div className="mt-6 pt-4 border-t border-gray-100">
+              <a
+                href="https://appraisily.com/start"
+                className="inline-flex items-center justify-center w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-4 py-2 font-medium transition-all duration-300"
+              >
+                Request an Appraisal
+              </a>
             </div>
           </div>
         </div>
@@ -403,6 +422,35 @@ export function StandardizedAppraiserPage() {
             ) : (
               <p className="text-gray-500 italic">No reviews yet.</p>
             )}
+            
+            <div className="mt-8 pt-6 border-t border-gray-100">
+              <h3 className="font-medium text-gray-900 mb-3">Need Art Appraisal Services?</h3>
+              <p className="text-gray-600 mb-4">
+                Contact {appraiser.name} directly or use our platform to request an appraisal.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a 
+                  href={`tel:${appraiser.contact.phone}`}
+                  className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                >
+                  <Phone className="h-4 w-4 mr-2" />
+                  Call Now
+                </a>
+                <a 
+                  href={`mailto:${appraiser.contact.email}`}
+                  className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                >
+                  <Mail className="h-4 w-4 mr-2" />
+                  Send Email
+                </a>
+                <a 
+                  href="https://appraisily.com/start"
+                  className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  Request Appraisal
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
