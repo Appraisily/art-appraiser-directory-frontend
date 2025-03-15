@@ -65,6 +65,13 @@ function fixHtmlFile(filePath, assetNames) {
     for (const link of preloadLinks) {
       const href = link.getAttribute('href');
       
+      // Always add crossorigin attribute to preload links to fix credentials mismatch warning
+      if (!link.hasAttribute('crossorigin')) {
+        console.log(chalk.blue(`📌 Adding crossorigin attribute to preload in ${path.relative(DIST_DIR, filePath)}`));
+        link.setAttribute('crossorigin', '');
+        modified = true;
+      }
+      
       if (href === '/assets/index.js' && js) {
         console.log(chalk.blue(`📌 Fixing JS preload in ${path.relative(DIST_DIR, filePath)}`));
         link.setAttribute('href', `${assetPrefix}${js}`);

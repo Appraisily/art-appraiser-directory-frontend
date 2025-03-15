@@ -110,7 +110,8 @@ export function getStandardizedLocation(citySlug: string): StandardizedLocation 
   }
   
   try {
-    const normalizedSlug = citySlug.toLowerCase().replace(/\s+/g, '-');
+    // Normalize the slug - replace spaces with dashes, remove periods, ensure lowercase
+    const normalizedSlug = citySlug.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');
     
     // Dynamic import of the city file
     return import(`../data/standardized/${normalizedSlug}.json`)
@@ -142,7 +143,7 @@ export async function getStandardizedAppraiser(appraiserId: string): Promise<Sta
     // In a browser environment, we need to load all location files
     const allLocations = await Promise.all(
       cities.map(city => {
-        const citySlug = city.name.toLowerCase().replace(/\s+/g, '-');
+        const citySlug = city.name.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');
         return getStandardizedLocation(citySlug);
       })
     );
@@ -174,7 +175,7 @@ export async function getAllStandardizedAppraisers(): Promise<StandardizedApprai
   try {
     const allLocations = await Promise.all(
       cities.map(city => {
-        const citySlug = city.name.toLowerCase().replace(/\s+/g, '-');
+        const citySlug = city.name.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '');
         return getStandardizedLocation(citySlug);
       })
     );
