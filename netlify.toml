@@ -50,22 +50,21 @@
 
 # Additional header configurations
 [[headers]]
-  # Define headers for all assets
   for = "/assets/*"
-    [headers.values]
+  [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-  # Define headers for HTML files
+[[headers]]
   for = "/*.html"
-    [headers.values]
+  [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-  # Define headers for the sitemap
+[[headers]]
   for = "/sitemap.xml"
-    [headers.values]
+  [headers.values]
     Cache-Control = "public, max-age=3600"
     Content-Type = "application/xml"
 

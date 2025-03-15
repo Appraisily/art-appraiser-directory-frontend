@@ -3,16 +3,18 @@
 ## Build Commands
 - `npm run dev` - Start development server
 - `npm run build` - Standard build with TypeScript check
-- `npm run build:production` - Production build with page fixes and image inventory
+- `npm run build:simple` - Standard build (same as build)
 - `npm run build:netlify-ready` - Build and prepare for Netlify deployment
 - `npm run lint` - Run ESLint checks
 - `npm run test:html` - Test HTML output
-- `npm run debug:build` - Build with image validation and serve
-- `npm run site-check` - Run comprehensive site check
 - `npm run serve:static` - Serve built static files locally
-- `npm run check-images` - Check live images
-- `npm run check-all-images` - Validate all images in the project
-- `npm run validate-images` - Detailed validation of images
+- `npm run fetch:imagekit` - Fetch images from ImageKit
+- `npm run check:imagekit` - Check ImageKit connection
+- `npm run randomize:images` - Randomize ImageKit images
+- `npm run build:static` - Build static site with TypeScript
+- `npm run fix:all-pages` - Fix all pages
+- `npm run prepare:netlify` - Prepare for Netlify deployment
+- `npm run clean` - Clean dist directory
 
 ## Code Style Guidelines
 - **TypeScript**: Strict mode with no unused locals/parameters (ES2020 target)
