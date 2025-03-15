@@ -1,7 +1,17 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { generateLocationPageHTML, generateAppraiserPageHTML, validateAndUpdateAppraiserImages, saveValidatedAppraiserData } from './utils/template-generators.js';
+import { 
+  generateLocationPageHTML, 
+  generateAppraiserPageHTML, 
+  validateAndUpdateAppraiserImages, 
+  saveValidatedAppraiserData 
+} from './utils/template-generators.js';
+import { 
+  getEnhancedHeaderHTML, 
+  getEnhancedFooterHTML, 
+  createEnhancedImageMarkup 
+} from './utils/template-helpers.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.join(__dirname, '../dist');
@@ -75,9 +85,191 @@ function generateImageUrl(appraiser) {
   return DEFAULT_PLACEHOLDER_IMAGE;
 }
 
+// Generate Home Page with Search Functionality
+function generateHomePageHTML(cssPath, jsPath) {
+  const title = 'Find Art Appraisers Near You | Expert Art Valuation Services | Appraisily';
+  const description = 'Connect with certified art appraisers in your area. Get expert valuations, authentication services, and professional advice for your art collection. Compare ratings and read verified reviews.';
+  const canonicalUrl = 'https://art-appraiser-directory.appraisily.com/';
+  const heroImage = 'https://ik.imagekit.io/appraisily/site-images/hero-image.jpg';
+  
+  // Popular cities for the grid
+  const popularCities = [
+    { name: 'New York', slug: 'new-york', state: 'NY', image: 'https://ik.imagekit.io/appraisily/location-images/new-york.jpg' },
+    { name: 'Los Angeles', slug: 'los-angeles', state: 'CA', image: 'https://ik.imagekit.io/appraisily/location-images/los-angeles.jpg' },
+    { name: 'Chicago', slug: 'chicago', state: 'IL', image: 'https://ik.imagekit.io/appraisily/location-images/chicago.jpg' },
+    { name: 'Miami', slug: 'miami', state: 'FL', image: 'https://ik.imagekit.io/appraisily/location-images/miami.jpg' },
+    { name: 'San Francisco', slug: 'san-francisco', state: 'CA', image: 'https://ik.imagekit.io/appraisily/location-images/san-francisco.jpg' },
+    { name: 'Boston', slug: 'boston', state: 'MA', image: 'https://ik.imagekit.io/appraisily/location-images/boston.jpg' },
+    { name: 'Dallas', slug: 'dallas', state: 'TX', image: 'https://ik.imagekit.io/appraisily/location-images/dallas.jpg' },
+    { name: 'Washington DC', slug: 'washington-dc', state: 'DC', image: 'https://ik.imagekit.io/appraisily/location-images/washington-dc.jpg' }
+  ];
+  
+  // Create search form HTML
+  const searchFormHTML = `
+  <div class="relative flex-1 max-w-2xl mx-auto">
+    <form action="/search" method="GET" class="flex flex-col md:flex-row gap-4">
+      <div class="relative flex-1">
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <input
+          type="text"
+          name="location"
+          class="w-full h-12 pl-10 pr-12 rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 shadow-sm"
+          placeholder="Enter city name or ZIP code"
+          required
+        />
+        <button
+          type="button"
+          class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 hover:text-blue-500 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <line x1="12" y1="2" x2="12" y2="22"></line>
+          </svg>
+        </button>
+      </div>
+      <button
+        type="submit"
+        class="h-12 px-6 rounded-lg bg-blue-600 text-white font-medium shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+      >
+        <span class="flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Search
+        </span>
+      </button>
+    </form>
+  </div>`;
+  
+  // Create city grid HTML
+  const citiesGridHTML = `
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    ${popularCities.map(city => `
+      <a href="/location/${city.slug}" class="group">
+        <div class="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+          <div class="relative h-48">
+            <img 
+              src="${city.image}" 
+              alt="Art appraisers in ${city.name}, ${city.state}" 
+              class="w-full h-full object-cover"
+              width="300"
+              height="200"
+              loading="lazy"
+            />
+            <div class="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-20 transition-opacity">
+              <div class="absolute bottom-0 left-0 right-0 p-4">
+                <h3 class="text-white text-xl font-bold">${city.name}</h3>
+                <p class="text-white text-sm mt-1">View appraisers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    `).join('')}
+  </div>`;
+  
+  // Get enhanced header and footer
+  const headerOptions = {
+    title,
+    description,
+    canonicalUrl,
+    imageUrl: heroImage,
+    keywords: ['art appraiser directory', 'art valuation services', 'find art appraisers', 'certified art appraisers'],
+    cssPath
+  };
+  
+  return `${getEnhancedHeaderHTML(headerOptions)}
+    <div id="root">
+      <!-- Main Navigation -->
+      <header class="bg-white shadow-sm fixed top-0 left-0 right-0 z-10">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold text-primary">Art Appraiser Directory</a>
+          <nav class="hidden md:flex space-x-8">
+            <a href="/" class="text-gray-700 hover:text-primary transition-colors">Home</a>
+            <a href="/about" class="text-gray-700 hover:text-primary transition-colors">About</a>
+            <a href="/services" class="text-gray-700 hover:text-primary transition-colors">Services</a>
+          </nav>
+        </div>
+      </header>
+      
+      <main class="pt-16">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 md:py-24">
+          <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+              <h1 class="text-3xl md:text-5xl font-bold mb-6">Find Art Appraisers Near You</h1>
+              <p class="text-lg md:text-xl opacity-90">Connect with certified art appraisers in your area. Get expert valuations, authentication services, and professional advice for your art collection.</p>
+            </div>
+            
+            ${searchFormHTML}
+          </div>
+        </section>
+        
+        <!-- Popular Cities Section -->
+        <section class="py-16 bg-gray-50">
+          <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-10 text-center">Popular Cities</h2>
+            ${citiesGridHTML}
+          </div>
+        </section>
+        
+        <!-- Services Section -->
+        <section class="py-16">
+          <div class="container mx-auto px-4">
+            <h2 class="text-2xl md:text-3xl font-bold mb-10 text-center">Art Appraisal Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="text-blue-600 text-4xl mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M2 12h5m10 0h5"></path><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="12" r="4"></circle>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Insurance Appraisals</h3>
+                <p class="text-gray-600">Get accurate valuations for insurance coverage, ensuring your art and collectibles are properly protected.</p>
+              </div>
+              
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="text-blue-600 text-4xl mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20 12V8H6a2 2 0 1 1 0-4h12v4"></path><path d="M20 12v4H6a2 2 0 1 0 0 4h12v-4"></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Estate Planning</h3>
+                <p class="text-gray-600">Detailed appraisal reports for estate planning, tax purposes, and equitable distribution among heirs.</p>
+              </div>
+              
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <div class="text-blue-600 text-4xl mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 6l9 6 9-6"></path><path d="M21 15a3 3 0 0 1-6 0"></path><path d="M3 10v8a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8"></path>
+                  </svg>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Donation Appraisals</h3>
+                <p class="text-gray-600">IRS-compliant appraisals for charitable donations and gifts, ensuring proper tax deductions.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    ${getEnhancedFooterHTML(jsPath)}`;
+}
+
 // Read all location JSON files
 const locationFiles = fs.readdirSync(LOCATIONS_DIR)
   .filter(file => file.endsWith('.json') && !file.includes('copy') && !file.includes('lifecycle') && !file.includes('cors') && !file.includes('hugo'));
+
+// Generate Home Page first
+console.log('Generating home page with search functionality...');
+const homePageHTML = generateHomePageHTML(cssPath, jsPath);
+fs.writeFileSync(path.join(DIST_DIR, 'index.html'), homePageHTML);
 
 // Generate HTML for each location
 locationFiles.forEach(file => {
