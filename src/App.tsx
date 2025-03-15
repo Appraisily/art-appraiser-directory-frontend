@@ -187,7 +187,7 @@ function App() {
                     {regionCities.map(city => (
                       <li key={city.slug}>
                         <a 
-                          href={`https://appraisily.com/location/${city.slug}`}
+                          href={`/location/${city.slug}`}
                           className="flex items-center text-gray-700 hover:text-blue-600 py-1 transition-colors"
                         >
                           <MapPin className="w-4 h-4 mr-2 text-blue-500" />
@@ -315,7 +315,7 @@ function App() {
           
           <div className="mt-12 text-center">
             <a 
-              href="https://appraisily.com/location/new-york" 
+              href="/location/new-york" 
               className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4"
             >
               Browse All Appraisers
