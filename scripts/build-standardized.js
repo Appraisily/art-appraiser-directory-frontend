@@ -98,7 +98,10 @@ async function buildStandardized() {
     // Step 6: Fix links to point to main domain
     runCommand('node scripts/fix-domain-links.js', '🔗 Updating links to point to main domain');
 
-    // Step 7: Prepare for Netlify deployment
+    // Step 7: Generate static location pages
+    runCommand('node scripts/fix-all-pages.js', '📄 Generating static location pages');
+
+    // Step 8: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 
     log('✅ Build completed successfully!', 'success');
