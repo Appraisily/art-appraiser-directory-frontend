@@ -88,8 +88,11 @@ async function buildDirectory() {
 
     // Step 8: Fix any page issues
     runCommand('node scripts/fix-all-pages.js', '🔧 Fixing pages');
+    
+    // Step 9: Fix domain links to point to main domain
+    runCommand('node scripts/fix-domain-links.js', '🔗 Updating links to point to main domain');
 
-    // Step 9: Prepare for Netlify deployment
+    // Step 10: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 
     log('✅ Build completed successfully!', 'success');

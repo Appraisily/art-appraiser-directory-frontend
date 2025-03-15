@@ -1,0 +1,549 @@
+{
+  "appraisers": [
+    {
+      "id": "san-antonio-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg",
+      "address": {
+        "street": "777 Lincoln Rd",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "75805",
+        "formatted": "777 Lincoln Rd, San Antonio, TX 75805"
+      },
+      "contact": {
+        "phone": "(210) 123-4567",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Varies by project scope",
+        "rating": 4.8,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art collections",
+          "Antiques",
+          "IRS estate tax compliance",
+          "Insurance documentation",
+          "General personal property"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Comprehensive Estate Tax Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art collections, Antiques, IRS estate tax compliance, Insurance documentation, General personal property. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Team members include Alicia Weaver, Elizabeth Lovett, and Stephanie Calman. Serves San Antonio and surrounding areas."
+      },
+      "reviews": [
+        {
+          "author": "Nancy W.",
+          "rating": 5,
+          "date": "2025-02-07",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Patricia R.",
+          "rating": 5,
+          "date": "2024-12-30",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David D.",
+          "rating": 4.5,
+          "date": "2024-12-06",
+          "content": "I needed an appraisal for a charitable donation, and Prestige Estate Services delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-gurr-johns_1741089001961_jayPA2n3d.jpg",
+      "address": {
+        "street": "2020 Washington Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90285",
+        "formatted": "2020 Washington Ave, Los Angeles, CA 90285"
+      },
+      "contact": {
+        "phone": "448-400-9502",
+        "email": "info@gurrjohns.com",
+        "website": "https://gurrjohns.com/appraisals/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Custom quotes for large collections",
+        "rating": 4.5,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "High-value collections",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "High-value appraisals",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value collections, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion in valuations annually."
+      },
+      "reviews": [
+        {
+          "author": "David T.",
+          "rating": 4,
+          "date": "2025-01-25",
+          "content": "Excellent service from start to finish. I highly recommend Gurr Johns for any art appraisal needs."
+        },
+        {
+          "author": "Linda W.",
+          "rating": 4.5,
+          "date": "2025-01-08",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Gurr Johns's knowledge of the market is impressive."
+        },
+        {
+          "author": "Nancy B.",
+          "rating": 5,
+          "date": "2024-12-18",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg",
+      "address": {
+        "street": "777 Park Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90684",
+        "formatted": "777 Park Ave, Los Angeles, CA 90684"
+      },
+      "contact": {
+        "phone": "307-557-3745",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.6,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Litigation support",
+          "Expert witness services",
+          "Authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Linda W.",
+          "rating": 4.5,
+          "date": "2025-01-10",
+          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Michael C.",
+          "rating": 4.5,
+          "date": "2024-12-12",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Susan S.",
+          "rating": 5,
+          "date": "2024-11-27",
+          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg",
+      "address": {
+        "street": "888 Museum Way",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90821",
+        "formatted": "888 Museum Way, Los Angeles, CA 90821"
+      },
+      "contact": {
+        "phone": "366-632-8622",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.7,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
+        ],
+        "certifications": [
+          "ASA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art appraisals",
+          "Expert witness services",
+          "Art fraud case handling"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD."
+      },
+      "reviews": [
+        {
+          "author": "David D.",
+          "rating": 5,
+          "date": "2025-01-18",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Patricia T.",
+          "rating": 4.5,
+          "date": "2025-01-13",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "John T.",
+          "rating": 4.5,
+          "date": "2024-12-19",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg",
+      "address": {
+        "street": "1010 Maple Dr",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90205",
+        "formatted": "1010 Maple Dr, Los Angeles, CA 90205"
+      },
+      "contact": {
+        "phone": "885-459-6753",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+        "rating": 4.5,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Services extend to Los Angeles, Bay Area, Orange County, and out-of-state."
+      },
+      "reviews": [
+        {
+          "author": "Susan W.",
+          "rating": 4,
+          "date": "2025-01-02",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "David B.",
+          "rating": 4.5,
+          "date": "2024-11-13",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "James B.",
+          "rating": 5,
+          "date": "2024-11-05",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-saylor-rice-appraisals_1741089025221_Lbp9BTsZY.jpg",
+      "address": {
+        "street": "888 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90509",
+        "formatted": "888 Oak Ave, Los Angeles, CA 90509"
+      },
+      "contact": {
+        "phone": "850-886-3240",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely high-end services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2025-03-15",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "James W.",
+          "rating": 5,
+          "date": "2025-03-11",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Sarah C.",
+          "rating": 5,
+          "date": "2024-12-17",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg",
+      "address": {
+        "street": "888 Art District",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90798",
+        "formatted": "888 Art District, Los Angeles, CA 90798"
+      },
+      "contact": {
+        "phone": "279-775-9568",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "20% fee up to $500K; 10% fee beyond that",
+        "rating": 4.6,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Consignment-based art sales",
+          "Free valuations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment-based sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based art sales, Free valuations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd; offers free valuations and same-day offers in LA."
+      },
+      "reviews": [
+        {
+          "author": "Robert M.",
+          "rating": 4.5,
+          "date": "2025-03-05",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "John A.",
+          "rating": 4,
+          "date": "2025-01-30",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Jessica C.",
+          "rating": 4.5,
+          "date": "2025-01-23",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

@@ -7,8 +7,8 @@
   
   # Environment variables for the build
   [build.environment]
-    NODE_VERSION = "18"
-    SITE_URL = "https://art-appraiser-directory.appraisily.com"
+    # Set the site URL for sitemap generation
+    SITE_URL = "https://art-appraiser.appraisily.com"
 
 # Explicitly handle asset files with correct MIME types
 [[headers]]
@@ -50,21 +50,22 @@
 
 # Additional header configurations
 [[headers]]
+  # Define headers for all assets
   for = "/assets/*"
-  [headers.values]
+    [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
-[[headers]]
+  # Define headers for HTML files
   for = "/*.html"
-  [headers.values]
+    [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
-[[headers]]
+  # Define headers for the sitemap
   for = "/sitemap.xml"
-  [headers.values]
+    [headers.values]
     Cache-Control = "public, max-age=3600"
     Content-Type = "application/xml"
 

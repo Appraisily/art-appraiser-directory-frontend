@@ -4,20 +4,41 @@ This repository contains a React/TypeScript frontend for the Art Appraiser Direc
 
 ## Features
 
+- Standardized data model for consistent UI and maintenance
 - Static HTML generation for all appraiser and location pages
 - Integration with ImageKit for appraiser profile images
-- SEO optimization with structured data and meta tags
+- SEO optimization with structured schema.org data
 - Fast and responsive UI with Tailwind CSS
 - Automatic sitemap generation
 - Netlify-ready configuration for easy deployment
 
-## Simplified Build Process
+## Standardized Data Model
 
-The codebase has been streamlined to focus on a single, reliable build process. The main steps are:
+The project now uses a standardized data format for all appraiser data:
 
-1. Fetch appraiser images from ImageKit
-2. Randomize images for appraisers
-3. Build the React app
+- Consistent field names and data structures
+- Comprehensive appraiser profiles with detailed information
+- Rich schema.org markup for improved SEO
+- See [DATA_STANDARDIZATION.md](./DATA_STANDARDIZATION.md) for details
+
+## Build Process
+
+The codebase offers two build approaches:
+
+### Standardized Build (Recommended)
+
+```bash
+npm run build  # or npm run build:standardized
+```
+
+This build process:
+1. Ensures standardized data is available
+2. Builds the React application
+3. Generates SEO files
+4. Updates links for the main domain
+5. Prepares for Netlify deployment
+
+See [STANDARDIZED_BUILD.md](./STANDARDIZED_BUILD.md) for more details.
 4. Generate static HTML files for each appraiser and location
 5. Fix any page issues and optimize
 6. Prepare for Netlify deployment

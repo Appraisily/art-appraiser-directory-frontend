@@ -1,0 +1,790 @@
+{
+  "appraisers": [
+    {
+      "id": "minneapolis-alicia-e-weaver",
+      "name": "Alicia E Weaver",
+      "slug": "alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-alicia-e-weaver_1741086840938_TAKw9ex6M.jpg",
+      "address": {
+        "street": "1234 Washington Ave",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55371",
+        "formatted": "1234 Washington Ave, Minneapolis, MN 55371"
+      },
+      "contact": {
+        "phone": "(612) 555-1234",
+        "email": "info@prestigestateservices.com",
+        "website": "prestigestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2009",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art (19th–20th century)",
+          "Americana",
+          "Furniture",
+          "Ceramics"
+        ],
+        "certifications": [
+          "ISA CAPP"
+        ],
+        "services": [
+          "Estate tax appraisals",
+          "Insurance claims appraisals",
+          "Divorce settlement appraisals"
+        ]
+      },
+      "content": {
+        "about": "Alicia E Weaver provides professional art appraisal services specializing in Fine art (19th–20th century), Americana, Furniture, Ceramics. With Since 2009 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Works at Prestige Estate Services; Hours: Mon–Fri 9 AM–5 PM."
+      },
+      "reviews": [
+        {
+          "author": "Sarah A.",
+          "rating": 4.5,
+          "date": "2025-02-21",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jennifer S.",
+          "rating": 5,
+          "date": "2025-02-01",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 2,
+          "date": "2025-01-02",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-greg-c-brown",
+      "name": "Greg C. Brown",
+      "slug": "greg-c-brown",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-greg-c-brown_1740931474918_1TaQEYVYy.jpg",
+      "address": {
+        "street": "1234 Cedar Blvd",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55980",
+        "formatted": "1234 Cedar Blvd, Minneapolis, MN 55980"
+      },
+      "contact": {
+        "phone": "(612) 555-1234",
+        "email": "info@prestigestateservices.com",
+        "website": "prestigestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "15+ years",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Modern/contemporary art",
+          "Native American artifacts"
+        ],
+        "certifications": [
+          "ISA M.S.",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "General appraisal services"
+        ]
+      },
+      "content": {
+        "about": "Greg C. Brown provides professional art appraisal services specializing in Modern/contemporary art, Native American artifacts. With 15+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Part of Prestige Estate Services; Contact details same as Alicia E Weaver."
+      },
+      "reviews": [
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2025-03-15",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Greg C. Brown's knowledge of the market is impressive."
+        },
+        {
+          "author": "Emily B.",
+          "rating": 4.5,
+          "date": "2025-02-26",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Greg C. Brown's knowledge of the market is impressive."
+        },
+        {
+          "author": "Sarah D.",
+          "rating": 5,
+          "date": "2025-02-06",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-appraiseitnow",
+      "name": "AppraiseItNow",
+      "slug": "appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-appraiseitnow_1740931482827_ZNA8SKhb7.jpg",
+      "address": {
+        "street": "999 Pine Ln",
+        "city": "Minneapolis",
+        "state": "MN",
+        "zip": "55602",
+        "formatted": "999 Pine Ln, Minneapolis, MN 55602"
+      },
+      "contact": {
+        "phone": "(651) 555-6789",
+        "email": "info@appraiseitnow.com",
+        "website": "appraiseitnow.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Starts at $150 per item (online), $300+/hour (in-person)",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Personal property",
+          "Machinery/equipment"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Online appraisals",
+          "In-person appraisals"
+        ]
+      },
+      "content": {
+        "about": "AppraiseItNow provides professional art appraisal services specializing in Personal property, Machinery/equipment. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Service area covers Twin Cities metro and online; Appointments required."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth B.",
+          "rating": 4.5,
+          "date": "2025-02-08",
+          "content": "I needed an appraisal for a charitable donation, and AppraiseItNow delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 2,
+          "date": "2025-01-14",
+          "content": "The appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Robert A.",
+          "rating": 4.5,
+          "date": "2024-11-26",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-revere-auctions",
+      "name": "Revere Auctions",
+      "slug": "revere-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-revere-auctions_1740931489781_vwZhJBQaBY.jpg",
+      "address": {
+        "street": "888 Gallery Row",
+        "city": "St. Paul",
+        "state": "MN",
+        "zip": "55943",
+        "formatted": "888 Gallery Row, St. Paul, MN 55943"
+      },
+      "contact": {
+        "phone": "(651) 555-4321",
+        "email": "info@revereauctions.com",
+        "website": "revereauctions.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Typically $200–$500 per report (varies by complexity)",
+        "rating": 4.8,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "Regional artists (e.g., George Morrison)",
+          "Provenance research"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Auctions",
+          "Valuations",
+          "Research services"
+        ]
+      },
+      "content": {
+        "about": "Revere Auctions provides professional art appraisal services specializing in Regional artists (e.g., George Morrison), Provenance research. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves St. Paul/Minneapolis metro; Hours: Tue–Sat 10 AM–4 PM."
+      },
+      "reviews": [
+        {
+          "author": "Linda B.",
+          "rating": 4.5,
+          "date": "2025-01-30",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Jennifer S.",
+          "rating": 4.5,
+          "date": "2024-12-03",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "David M.",
+          "rating": 4.5,
+          "date": "2024-11-12",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-anderson-fine-art-appraisals_1740931497387_iSxTor4gG.jpg",
+      "address": {
+        "street": "777 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90422",
+        "formatted": "777 Oak Ave, Los Angeles, CA 90422"
+      },
+      "contact": {
+        "phone": "268-279-7648",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.4,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Expert witness services",
+          "Litigation support",
+          "Authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Also known as AFAA."
+      },
+      "reviews": [
+        {
+          "author": "Sarah R.",
+          "rating": 4,
+          "date": "2025-03-02",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Michael J.",
+          "rating": 4.5,
+          "date": "2025-02-26",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Sarah R.",
+          "rating": 4.5,
+          "date": "2025-01-04",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-escher-associates_1740931504395_zCa3jT3Cwz.jpg",
+      "address": {
+        "street": "1010 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90315",
+        "formatted": "1010 Oak Ave, Los Angeles, CA 90315"
+      },
+      "contact": {
+        "phone": "120-714-3804",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare books"
+        ],
+        "certifications": [
+          "ASA-certified",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Expert witness services",
+          "Authentication",
+          "Litigation support"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handled art fraud cases with LAPD."
+      },
+      "reviews": [
+        {
+          "author": "Nancy D.",
+          "rating": 5,
+          "date": "2025-03-02",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 5,
+          "date": "2024-12-28",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 4.5,
+          "date": "2024-12-08",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-page-art-inc_1740931512612_UzvUgX_8z.jpg",
+      "address": {
+        "street": "456 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90774",
+        "formatted": "456 Lincoln Rd, Los Angeles, CA 90774"
+      },
+      "contact": {
+        "phone": "175-334-7830",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Hourly rate: $350, minimum for in-office consults: $500",
+        "rating": 4.8,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donations appraisals",
+          "Litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "In-office consultations",
+          "Valuations"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state."
+      },
+      "reviews": [
+        {
+          "author": "Emily A.",
+          "rating": 5,
+          "date": "2025-01-13",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Susan C.",
+          "rating": 4.5,
+          "date": "2024-12-17",
+          "content": "Page Art, Inc.'s expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David M.",
+          "rating": 4.5,
+          "date": "2024-11-11",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-saylor-rice-appraisals_1740931521548__e_o8-_D2.jpg",
+      "address": {
+        "street": "888 Washington Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90583",
+        "formatted": "888 Washington Ave, Los Angeles, CA 90583"
+      },
+      "contact": {
+        "phone": "248-472-3463",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Appraisals for major museums"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely high-end appraisal services."
+      },
+      "reviews": [
+        {
+          "author": "Michael M.",
+          "rating": 4.5,
+          "date": "2025-03-11",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Nancy J.",
+          "rating": 4.5,
+          "date": "2024-09-30",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "John S.",
+          "rating": 4,
+          "date": "2024-09-29",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-gurr-johns_1740931529268_-Pif7GChj.jpg",
+      "address": {
+        "street": "789 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90215",
+        "formatted": "789 Elm St, Los Angeles, CA 90215"
+      },
+      "contact": {
+        "phone": "341-971-8845",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 5,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "High-value art appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Art appraisals",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth R.",
+          "rating": 5,
+          "date": "2025-03-13",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "John W.",
+          "rating": 5,
+          "date": "2025-03-07",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "John T.",
+          "rating": 5,
+          "date": "2025-03-07",
+          "content": "Excellent service from start to finish. I highly recommend Gurr Johns for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minneapolis-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-mimesis-gallery_1740931537167_S1pVTJpRF.jpg",
+      "address": {
+        "street": "1234 Art District",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90294",
+        "formatted": "1234 Art District, Los Angeles, CA 90294"
+      },
+      "contact": {
+        "phone": "976-527-1989",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": [
+          "20% fee up to $500K",
+          "10% fee beyond $500K"
+        ],
+        "rating": 4.8,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Valuations",
+          "Consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment art sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd; offers free valuations and consignment-based sales."
+      },
+      "reviews": [
+        {
+          "author": "Robert W.",
+          "rating": 4.5,
+          "date": "2024-12-05",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Sarah T.",
+          "rating": 5,
+          "date": "2024-11-23",
+          "content": "Excellent service from start to finish. I highly recommend Mimesis Gallery for any art appraisal needs."
+        },
+        {
+          "author": "Sarah A.",
+          "rating": 5,
+          "date": "2024-10-30",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

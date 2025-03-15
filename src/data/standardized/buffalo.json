@@ -1,0 +1,775 @@
+{
+  "appraisers": [
+    {
+      "id": "buffalo-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-prestige-estate-services_1740930077482_biAj44RwP.jpg",
+      "address": {
+        "street": "123 Art District",
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "10642",
+        "formatted": "123 Art District, Buffalo, NY 10642"
+      },
+      "contact": {
+        "phone": "(888) 756-9117",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Consultation-based",
+        "rating": 5,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "antiques",
+          "IRS estate tax compliance"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "AAA"
+        ],
+        "services": [
+          "Art appraisal"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art, antiques, IRS estate tax compliance. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Buffalo metro and Western NY"
+      },
+      "reviews": [
+        {
+          "author": "Patricia B.",
+          "rating": 4.5,
+          "date": "2024-12-11",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Emily D.",
+          "rating": 5,
+          "date": "2024-11-29",
+          "content": "Excellent service from start to finish. I highly recommend Prestige Estate Services for any art appraisal needs."
+        },
+        {
+          "author": "Linda W.",
+          "rating": 5,
+          "date": "2024-11-25",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-schultz-auctioneers",
+      "name": "Schultz Auctioneers",
+      "slug": "schultz-auctioneers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-schultz-auctioneers_1740930085501_4KkxXhpBdY.jpg",
+      "address": {
+        "street": "1010 Elm St",
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "10257",
+        "formatted": "1010 Elm St, Buffalo, NY 10257"
+      },
+      "contact": {
+        "phone": "(716) 592-9555",
+        "email": "info@schultzauctioneers.net",
+        "website": "https://schultzauctioneers.net"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$150–$500 per item",
+        "rating": 4.8,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Antique art (19th/20th century)",
+          "Asian artifacts"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisal"
+        ]
+      },
+      "content": {
+        "about": "Schultz Auctioneers provides professional art appraisal services specializing in Antique art (19th/20th century), Asian artifacts. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Buffalo and Rochester region"
+      },
+      "reviews": [
+        {
+          "author": "John W.",
+          "rating": 5,
+          "date": "2025-03-15",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Elizabeth B.",
+          "rating": 5,
+          "date": "2025-01-18",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Schultz Auctioneers's knowledge of the market is impressive."
+        },
+        {
+          "author": "Robert T.",
+          "rating": 5,
+          "date": "2025-01-10",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-appraiseitnow",
+      "name": "AppraiseItNow",
+      "slug": "appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-appraiseitnow_1740930093347_yEMwAopJP.jpg",
+      "address": {
+        "street": "999 Gallery Row",
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "10769",
+        "formatted": "999 Gallery Row, Buffalo, NY 10769"
+      },
+      "contact": {
+        "phone": "(800) 872-6463",
+        "email": "info@www.appraiseitnow.com",
+        "website": "https://www.appraiseitnow.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$99–$300+ (expedited fees may apply)",
+        "rating": 4.9,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Online valuations (excluding jewelry)"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Remote art appraisal"
+        ]
+      },
+      "content": {
+        "about": "AppraiseItNow provides professional art appraisal services specializing in Online valuations (excluding jewelry). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Provides statewide remote services in NY"
+      },
+      "reviews": [
+        {
+          "author": "Karen J.",
+          "rating": 4.5,
+          "date": "2025-02-01",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "James M.",
+          "rating": 4.5,
+          "date": "2025-01-01",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "James M.",
+          "rating": 4.5,
+          "date": "2024-12-16",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-cottone-art-advisory-appraisals",
+      "name": "Cottone Art Advisory & Appraisals",
+      "slug": "cottone-art-advisory-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-cottone-art-advisory-appraisals_1740930102161_rXTZKqdqO.jpg",
+      "address": {
+        "street": "789 Main St",
+        "city": "Syracuse",
+        "state": "NY",
+        "zip": "10849",
+        "formatted": "789 Main St, Syracuse, NY 10849"
+      },
+      "contact": {
+        "phone": "(585) 243-1000",
+        "email": "info@www.cottoneauctions.com",
+        "website": "https://www.cottoneauctions.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1985",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "Modernist paintings",
+          "European decorative arts"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art advisory",
+          "Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cottone Art Advisory & Appraisals provides professional art appraisal services specializing in Modernist paintings, European decorative arts. With Since 1985 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Syracuse but serves Western NY"
+      },
+      "reviews": [
+        {
+          "author": "Patricia R.",
+          "rating": 5,
+          "date": "2025-01-14",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Patricia R.",
+          "rating": 5,
+          "date": "2024-08-17",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Susan T.",
+          "rating": 4.5,
+          "date": "2024-08-08",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-anderson-fine-art-appraisals_1740930110081_9qKWRWxMe.jpg",
+      "address": {
+        "street": "555 Gallery Row",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90619",
+        "formatted": "555 Gallery Row, Los Angeles, CA 90619"
+      },
+      "contact": {
+        "phone": "566-368-3108",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades of experience",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 19
+      },
+      "expertise": {
+        "specialties": [
+          "European/American art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Expert witness services",
+          "Litigation support",
+          "Authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European/American art, Contemporary, Modern, Impressionist, 19th-century works. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Jennifer B.",
+          "rating": 5,
+          "date": "2025-02-24",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Patricia J.",
+          "rating": 2,
+          "date": "2025-01-08",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        },
+        {
+          "author": "Robert A.",
+          "rating": 3,
+          "date": "2024-12-07",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-escher-associates_1740930118654_8Zu8L-qZt.jpg",
+      "address": {
+        "street": "789 Park Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90136",
+        "formatted": "789 Park Ave, Los Angeles, CA 90136"
+      },
+      "contact": {
+        "phone": "152-998-8457",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": [
+          "$350/hour",
+          "$2,500/day plus expenses"
+        ],
+        "rating": 4.7,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare books"
+        ],
+        "certifications": [
+          "ASA-certified"
+        ],
+        "services": [
+          "Appraisals",
+          "Expert witness services",
+          "Art fraud case handling"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handled art fraud cases with LAPD"
+      },
+      "reviews": [
+        {
+          "author": "Michael D.",
+          "rating": 4.5,
+          "date": "2025-03-04",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "David M.",
+          "rating": 4.5,
+          "date": "2025-02-08",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 3,
+          "date": "2025-01-09",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-page-art-inc_1740930125473_e7iBFU-4l.jpg",
+      "address": {
+        "street": "456 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90368",
+        "formatted": "456 Lincoln Rd, Los Angeles, CA 90368"
+      },
+      "contact": {
+        "phone": "555-771-7701",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": [
+          "$350/hour",
+          "Minimum $500 for in-office consults"
+        ],
+        "rating": 4.9,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donations",
+          "Litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Art appraisal"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients"
+      },
+      "reviews": [
+        {
+          "author": "James J.",
+          "rating": 5,
+          "date": "2025-01-25",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David D.",
+          "rating": 5,
+          "date": "2024-11-17",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Emily A.",
+          "rating": 4,
+          "date": "2024-11-15",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-saylor-rice-appraisals_1740930133396_8m9Z5LFmX.jpg",
+      "address": {
+        "street": "2020 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90110",
+        "formatted": "2020 Oak Ave, Los Angeles, CA 90110"
+      },
+      "contact": {
+        "phone": "832-862-3513",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Appraisals for high-end clients"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely high-end"
+      },
+      "reviews": [
+        {
+          "author": "Sarah D.",
+          "rating": 5,
+          "date": "2025-03-01",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Michael M.",
+          "rating": 5,
+          "date": "2025-02-07",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Jessica M.",
+          "rating": 5,
+          "date": "2025-02-01",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-gurr-johns_1740930141174_jLxerPMEy.jpg",
+      "address": {
+        "street": "777 Washington Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90905",
+        "formatted": "777 Washington Ave, Los Angeles, CA 90905"
+      },
+      "contact": {
+        "phone": "314-848-3724",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "High-value appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Global art appraisal"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Manages over $10 billion annually"
+      },
+      "reviews": [
+        {
+          "author": "Susan C.",
+          "rating": 4.5,
+          "date": "2025-03-09",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Elizabeth M.",
+          "rating": 4.5,
+          "date": "2025-02-09",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David B.",
+          "rating": 4,
+          "date": "2024-12-25",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_buffalo-mimesis-gallery_1740930149251_3ACa043qE.jpg",
+      "address": {
+        "street": "1010 Gallery Row",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90947",
+        "formatted": "1010 Gallery Row, Los Angeles, CA 90947"
+      },
+      "contact": {
+        "phone": "744-377-4482",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": [
+          "20% fee up to $500K",
+          "10% fee beyond $500K"
+        ],
+        "rating": 4.9,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Consignment-based art sales",
+          "Appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based art sales, Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd; operates on a consignment basis"
+      },
+      "reviews": [
+        {
+          "author": "Jessica B.",
+          "rating": 4.5,
+          "date": "2024-12-17",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Linda W.",
+          "rating": 5,
+          "date": "2024-09-20",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Mimesis Gallery's knowledge of the market is impressive."
+        },
+        {
+          "author": "Karen M.",
+          "rating": 5,
+          "date": "2024-09-06",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

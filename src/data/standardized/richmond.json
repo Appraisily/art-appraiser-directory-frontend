@@ -1,0 +1,694 @@
+{
+  "appraisers": [
+    {
+      "id": "richmond-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg",
+      "address": {
+        "street": "1010 Museum Way",
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "22152",
+        "formatted": "1010 Museum Way, Richmond, VA 22152"
+      },
+      "contact": {
+        "phone": "(804) 555-1234",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Insurance appraisals ($200-$500/item)",
+        "rating": 5.1,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculptures",
+          "Decorative Arts",
+          "Antique Furniture"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate valuations",
+          "Auction estimates"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Paintings, Sculptures, Decorative Arts, Antique Furniture. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Provides comprehensive art appraisal services including provenance research and market analysis."
+      },
+      "reviews": [
+        {
+          "author": "Karen B.",
+          "rating": 5,
+          "date": "2025-03-13",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 5,
+          "date": "2025-03-10",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Michael R.",
+          "rating": 4.5,
+          "date": "2025-03-02",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-alicia-e-weaver-isa-capp",
+      "name": "Alicia E Weaver (ISA CAPP)",
+      "slug": "alicia-e-weaver-isa-capp",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg",
+      "address": {
+        "street": "1010 Lincoln Rd",
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "22888",
+        "formatted": "1010 Lincoln Rd, Richmond, VA 22888"
+      },
+      "contact": {
+        "phone": "444-739-2415",
+        "email": "info@www.isa-appraisers.org",
+        "website": "https://www.isa-appraisers.org"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "19th-20th Century Art",
+          "Americana",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA Certified Appraiser of Personal Property (CAPP)"
+        ],
+        "services": [
+          "Estate evaluations",
+          "Damage claims",
+          "Expert witness"
+        ]
+      },
+      "content": {
+        "about": "Alicia E Weaver (ISA CAPP) provides professional art appraisal services specializing in 19th-20th Century Art, Americana, Decorative Arts. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Service area includes Virginia with Richmond accessible."
+      },
+      "reviews": [
+        {
+          "author": "Susan M.",
+          "rating": 4.5,
+          "date": "2025-03-09",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Nancy D.",
+          "rating": 4.5,
+          "date": "2025-02-03",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Emily T.",
+          "rating": 4.5,
+          "date": "2024-11-13",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-green-donation-consultants",
+      "name": "Green Donation Consultants",
+      "slug": "green-donation-consultants",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-green-donation-consultants_1741088710465_2t7_Aewbj.jpg",
+      "address": {
+        "street": "1234 Pine Ln",
+        "city": "Fredericksburg",
+        "state": "VA",
+        "zip": "22460",
+        "formatted": "1234 Pine Ln, Fredericksburg, VA 22460"
+      },
+      "contact": {
+        "phone": "(540) 555-6789",
+        "email": "info@greendonation.com",
+        "website": "https://greendonation.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2005",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Tax-deductible gift valuations ($150-$300/item)",
+        "rating": 4.7,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Charitable Donation Appraisals"
+        ],
+        "certifications": [
+          "Real estate appraisal experience since 2005"
+        ],
+        "services": [
+          "Donation appraisals",
+          "Tax evaluation services"
+        ]
+      },
+      "content": {
+        "about": "Green Donation Consultants provides professional art appraisal services specializing in Charitable Donation Appraisals. With Since 2005 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves the Fredericksburg/Richmond corridor."
+      },
+      "reviews": [
+        {
+          "author": "Patricia R.",
+          "rating": 4.5,
+          "date": "2025-03-04",
+          "content": "Green Donation Consultants's expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Karen W.",
+          "rating": 4.5,
+          "date": "2025-02-15",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 5,
+          "date": "2025-02-05",
+          "content": "I needed an appraisal for a charitable donation, and Green Donation Consultants delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-anderson-fine-art-appraisals-afaa",
+      "name": "Anderson Fine Art Appraisals (AFAA)",
+      "slug": "anderson-fine-art-appraisals-afaa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg",
+      "address": {
+        "street": "1010 Pine Ln",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90144",
+        "formatted": "1010 Pine Ln, Los Angeles, CA 90144"
+      },
+      "contact": {
+        "phone": "486-134-2165",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades of experience",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Expert witness",
+          "Litigation support",
+          "Authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals (AFAA) provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Jessica J.",
+          "rating": 4.5,
+          "date": "2025-02-18",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Patricia D.",
+          "rating": 5,
+          "date": "2025-02-13",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "John W.",
+          "rating": 5,
+          "date": "2024-12-27",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-escher-associates-ea",
+      "name": "Escher Associates (EA)",
+      "slug": "escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg",
+      "address": {
+        "street": "456 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90231",
+        "formatted": "456 Lincoln Rd, Los Angeles, CA 90231"
+      },
+      "contact": {
+        "phone": "246-524-2780",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established in 1984",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.9,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
+        ],
+        "certifications": [
+          "ASA-certified",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Appraisals",
+          "Expert witness services",
+          "Art fraud investigations"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates (EA) provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Established in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handled art fraud cases with LAPD."
+      },
+      "reviews": [
+        {
+          "author": "Jessica A.",
+          "rating": 1,
+          "date": "2025-03-13",
+          "content": "The appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Karen J.",
+          "rating": 4.5,
+          "date": "2025-02-24",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Susan M.",
+          "rating": 5,
+          "date": "2025-02-22",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-page-art-inc_1741088850478_rucweOoqy.jpg",
+      "address": {
+        "street": "888 Art District",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90133",
+        "formatted": "888 Art District, Los Angeles, CA 90133"
+      },
+      "contact": {
+        "phone": "972-748-1327",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+        "rating": 4.5,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance Appraisals",
+          "Estate Valuations",
+          "Donation Appraisals",
+          "Litigation Appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate valuations",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate Valuations, Donation Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves multiple regions including Los Angeles, Bay Area, and Orange County."
+      },
+      "reviews": [
+        {
+          "author": "Linda J.",
+          "rating": 4,
+          "date": "2025-03-10",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert A.",
+          "rating": 4,
+          "date": "2025-02-09",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Nancy T.",
+          "rating": 5,
+          "date": "2025-01-09",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-saylor-rice-appraisals_1741088856768_iKE9kSYLH.jpg",
+      "address": {
+        "street": "789 Gallery Row",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90108",
+        "formatted": "789 Gallery Row, Los Angeles, CA 90108"
+      },
+      "contact": {
+        "phone": "564-143-4179",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance Appraisals",
+          "Damage/Loss Appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance Appraisals, Damage/Loss Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer M.",
+          "rating": 5,
+          "date": "2025-02-21",
+          "content": "Excellent service from start to finish. I highly recommend Saylor Rice Appraisals for any art appraisal needs."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 5,
+          "date": "2024-12-27",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jessica J.",
+          "rating": 4.5,
+          "date": "2024-12-16",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-gurr-johns_1741088863939_Juz44fXpY.jpg",
+      "address": {
+        "street": "1234 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90804",
+        "formatted": "1234 Lincoln Rd, Los Angeles, CA 90804"
+      },
+      "contact": {
+        "phone": "540-610-5541",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "High-value Art Appraisals"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "High-value appraisals",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value Art Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm with a Los Angeles presence. Manages over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "Susan B.",
+          "rating": 4.5,
+          "date": "2025-03-06",
+          "content": "Gurr Johns's expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Jennifer R.",
+          "rating": 4.5,
+          "date": "2025-02-02",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2025-01-04",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "richmond-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-mimesis-gallery_1741088869541_6jIMN7CY0.jpg",
+      "address": {
+        "street": "777 Main St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90506",
+        "formatted": "777 Main St, Los Angeles, CA 90506"
+      },
+      "contact": {
+        "phone": "277-438-6815",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Fees: 20% up to $500K, 10% beyond that",
+        "rating": 4.5,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Consignment-based art sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment-based sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based art sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, Los Angeles."
+      },
+      "reviews": [
+        {
+          "author": "Emily R.",
+          "rating": 4.5,
+          "date": "2025-02-24",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Linda J.",
+          "rating": 4.5,
+          "date": "2024-11-19",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Jennifer C.",
+          "rating": 4.5,
+          "date": "2024-09-29",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

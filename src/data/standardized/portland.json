@@ -1,0 +1,729 @@
+{
+  "appraisers": [
+    {
+      "id": "portland-alicia-e-weaver",
+      "name": "Alicia E Weaver",
+      "slug": "alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-alicia-e-weaver_1741087711323_IOPI5afgG.jpg",
+      "address": {
+        "street": "1010 Pine Ln",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97541",
+        "formatted": "1010 Pine Ln, Portland, OR 97541"
+      },
+      "contact": {
+        "phone": "(239) 449-0409",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2012",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Varies by project",
+        "rating": 4.8,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art (19th–20th century)",
+          "Americana",
+          "Decorative arts",
+          "Furniture"
+        ],
+        "certifications": [
+          "ISA CAPP"
+        ],
+        "services": [
+          "Independent appraisal"
+        ]
+      },
+      "content": {
+        "about": "Alicia E Weaver provides professional art appraisal services specializing in Fine art (19th–20th century), Americana, Decorative arts, Furniture. With Since 2012 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Greater Portland, Oregon."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer J.",
+          "rating": 4.5,
+          "date": "2025-02-24",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "John R.",
+          "rating": 4.5,
+          "date": "2025-02-19",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Robert R.",
+          "rating": 2,
+          "date": "2024-12-17",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-prestige-estate-services-elizabeth-lovett-stephanie-calman",
+      "name": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)",
+      "slug": "prestige-estate-services-elizabeth-lovett-stephanie-calman",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg",
+      "address": {
+        "street": "2020 Park Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97749",
+        "formatted": "2020 Park Ave, Portland, OR 97749"
+      },
+      "contact": {
+        "phone": "(888) 724-9990",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/contact/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": [
+          "Online photo valuation: $79+",
+          "Formal written appraisal: $975+"
+        ],
+        "rating": 4.7,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art collections",
+          "Antiques",
+          "IRS estate tax appraisals",
+          "Insurance claims"
+        ],
+        "certifications": [
+          "ISA",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Estate appraisals",
+          "Insurance appraisals",
+          "Tax appraisals",
+          "Appraisal consultation"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman) provides professional art appraisal services specializing in Fine art collections, Antiques, IRS estate tax appraisals, Insurance claims. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves the Portland metro area including Dunthorpe and the Pearl District."
+      },
+      "reviews": [
+        {
+          "author": "Patricia J.",
+          "rating": 5,
+          "date": "2025-03-15",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "David B.",
+          "rating": 4.5,
+          "date": "2025-01-24",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Karen R.",
+          "rating": 4.5,
+          "date": "2025-01-09",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-shelley-hall-bend-art-appraisals",
+      "name": "Shelley Hall (Bend Art Appraisals)",
+      "slug": "shelley-hall-bend-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg",
+      "address": {
+        "street": "999 Gallery Row",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97471",
+        "formatted": "999 Gallery Row, Portland, OR 97471"
+      },
+      "contact": {
+        "phone": "(541) 241-0120",
+        "email": "info@www.aar21.com",
+        "website": "https://www.aar21.com/bend-art-appraisals"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": [
+          "Insurance appraisals starting at $800",
+          "Informal resale valuation $250"
+        ],
+        "rating": 4.9,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary/fine art",
+          "Resale valuations",
+          "Estate tax appraisals"
+        ],
+        "certifications": [
+          "ISA"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate tax appraisals",
+          "Resale valuations"
+        ]
+      },
+      "content": {
+        "about": "Shelley Hall (Bend Art Appraisals) provides professional art appraisal services specializing in Contemporary/fine art, Resale valuations, Estate tax appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Portland; serves the Pacific Northwest including Bend and Ashland."
+      },
+      "reviews": [
+        {
+          "author": "Patricia T.",
+          "rating": 4.5,
+          "date": "2024-12-09",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Elizabeth J.",
+          "rating": 4.5,
+          "date": "2024-11-14",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Sarah A.",
+          "rating": 5,
+          "date": "2024-10-29",
+          "content": "I needed an appraisal for a charitable donation, and Shelley Hall (Bend Art Appraisals) delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg",
+      "address": {
+        "street": "1234 Art District",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90312",
+        "formatted": "1234 Art District, Los Angeles, CA 90312"
+      },
+      "contact": {
+        "phone": "715-881-6546",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.4,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Expert witness services",
+          "Litigation support",
+          "Authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Jennifer M.",
+          "rating": 5,
+          "date": "2025-02-16",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Sarah R.",
+          "rating": 4.5,
+          "date": "2024-12-21",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "James S.",
+          "rating": 4.5,
+          "date": "2024-11-04",
+          "content": "Anderson Fine Art Appraisals's expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg",
+      "address": {
+        "street": "999 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90224",
+        "formatted": "999 Lincoln Rd, Los Angeles, CA 90224"
+      },
+      "contact": {
+        "phone": "199-831-7755",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "1984",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Fees: $350/hour or $2,500/day plus expenses",
+        "rating": 4.8,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare books"
+        ],
+        "certifications": [
+          "ASA-certified",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Appraisals for art fraud cases",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Founded by Nancy Escher; handled art fraud cases with the LAPD."
+      },
+      "reviews": [
+        {
+          "author": "Susan W.",
+          "rating": 5,
+          "date": "2025-03-13",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Michael D.",
+          "rating": 4.5,
+          "date": "2024-12-19",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Emily J.",
+          "rating": 4.5,
+          "date": "2024-12-05",
+          "content": "I needed an appraisal for a charitable donation, and Escher Associates delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg",
+      "address": {
+        "street": "456 Museum Way",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90226",
+        "formatted": "456 Museum Way, Los Angeles, CA 90226"
+      },
+      "contact": {
+        "phone": "254-696-8256",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": [
+          "Hourly rate: $350",
+          "Minimum for in-office consults: $500"
+        ],
+        "rating": 4.8,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Service areas include Los Angeles, Bay Area, and Orange County, as well as out-of-state."
+      },
+      "reviews": [
+        {
+          "author": "Nancy M.",
+          "rating": 5,
+          "date": "2025-03-03",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah C.",
+          "rating": 4.5,
+          "date": "2025-02-13",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 5,
+          "date": "2025-02-02",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg",
+      "address": {
+        "street": "777 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90457",
+        "formatted": "777 Lincoln Rd, Los Angeles, CA 90457"
+      },
+      "contact": {
+        "phone": "876-612-8739",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "High-end, unspecified",
+        "rating": 4.7,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA."
+      },
+      "reviews": [
+        {
+          "author": "Michael W.",
+          "rating": 4.5,
+          "date": "2025-03-05",
+          "content": "Excellent service from start to finish. I highly recommend Saylor Rice Appraisals for any art appraisal needs."
+        },
+        {
+          "author": "Jessica B.",
+          "rating": 5,
+          "date": "2025-02-17",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 4.5,
+          "date": "2025-02-17",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-gurr-johns_1741088522110_0PMXOhgf5a.jpg",
+      "address": {
+        "street": "777 Washington Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90667",
+        "formatted": "777 Washington Ave, Los Angeles, CA 90667"
+      },
+      "contact": {
+        "phone": "751-560-5755",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "High-value appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Appraisals for high-value art",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "John W.",
+          "rating": 4.5,
+          "date": "2025-03-13",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Karen W.",
+          "rating": 4.5,
+          "date": "2025-02-05",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Patricia T.",
+          "rating": 4.5,
+          "date": "2025-01-13",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "portland-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-mimesis-gallery_1741088528320_Ek5eAv7UH-.jpg",
+      "address": {
+        "street": "456 Cedar Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90498",
+        "formatted": "456 Cedar Blvd, Los Angeles, CA 90498"
+      },
+      "contact": {
+        "phone": "416-990-1869",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": [
+          "20% fee up to $500K",
+          "10% fee beyond $500K"
+        ],
+        "rating": 4.9,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Free valuations",
+          "Consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art valuations",
+          "Consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers free valuations and same-day offers in LA."
+      },
+      "reviews": [
+        {
+          "author": "David T.",
+          "rating": 5,
+          "date": "2025-01-21",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Karen M.",
+          "rating": 5,
+          "date": "2024-09-30",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 3,
+          "date": "2024-09-11",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

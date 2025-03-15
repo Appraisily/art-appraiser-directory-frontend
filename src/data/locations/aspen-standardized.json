@@ -1,0 +1,241 @@
+{
+  "appraisers": [
+    {
+      "id": "aspen-mary-peck-art-advisory",
+      "name": "Mary Peck Art Advisory",
+      "slug": "mary-peck-art-advisory",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-mary-peck-art-advisory_1740929800152_W9B4CBBJu.jpg",
+      "address": {
+        "street": "1234 Art District Ave",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "formatted": "1234 Art District Ave, Denver, CO 80202"
+      },
+      "contact": {
+        "phone": "303-355-0050",
+        "email": "info@marypeckartadvisory.com",
+        "website": "http://marypeckartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "16+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Modern/Contemporary Art",
+          "Paintings",
+          "Sculpture",
+          "Prints",
+          "Photography",
+          "IRS-compliant charitable donation and estate tax appraisals"
+        ],
+        "certifications": [
+          "Appraisers Association of America (AAA)",
+          "USPAP Compliant until 2025"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Charitable donation appraisals",
+          "Estate tax appraisals",
+          "Insurance appraisals",
+          "Collection management"
+        ]
+      },
+      "content": {
+        "about": "Mary Peck Art Advisory provides professional art appraisal services with a focus on modern and contemporary art. With over 16 years of experience, we offer expert valuations for insurance, estate planning, charitable donations, and more. Our team is fully certified and compliant with all industry standards.",
+        "notes": "Based in Denver, serves Aspen and other areas in Colorado."
+      },
+      "reviews": [
+        {
+          "author": "Emily R.",
+          "rating": 5,
+          "date": "2024-09-15",
+          "content": "Mary provided an incredibly thorough appraisal of my contemporary art collection. Her knowledge of the market is impressive, and her documentation was perfect for insurance purposes."
+        },
+        {
+          "author": "James W.",
+          "rating": 5,
+          "date": "2024-07-22",
+          "content": "I needed an appraisal for a charitable donation, and Mary Peck Art Advisory delivered excellent service. They understood the tax requirements perfectly and provided all the documentation I needed."
+        },
+        {
+          "author": "Sarah T.",
+          "rating": 4.5,
+          "date": "2024-05-03",
+          "content": "Professional, knowledgeable, and responsive. They appraised several pieces from my photography collection with great attention to detail."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "aspen-alicia-e-weaver",
+      "name": "Alicia E Weaver",
+      "slug": "alicia-e-weaver",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-alicia-e-weaver_1740929808047_lYMHZiQPP.jpg",
+      "address": {
+        "street": "2145 Pearl Street",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80302",
+        "formatted": "2145 Pearl Street, Boulder, CO 80302"
+      },
+      "contact": {
+        "phone": "720-555-4321",
+        "email": "alicia@weaverappraisals.com",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-e-weaver"
+      },
+      "business": {
+        "yearsInBusiness": "12+ years",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Fine Art (19th–20th century)",
+          "High-net-worth collections"
+        ],
+        "certifications": [
+          "ISA CAPP (Certified Appraiser of Personal Property)"
+        ],
+        "services": [
+          "Estate appraisals",
+          "Insurance valuations",
+          "Donation appraisals",
+          "Collection management"
+        ]
+      },
+      "content": {
+        "about": "Alicia E Weaver is a certified appraiser specializing in antique furniture and fine art from the 19th and 20th centuries. With ISA CAPP certification, she provides expert appraisal services for high-net-worth collections. Her detailed reports meet all IRS and insurance industry standards.",
+        "notes": "Affiliated with the ISA; details verified via ISA directory."
+      },
+      "reviews": [
+        {
+          "author": "Robert M.",
+          "rating": 5,
+          "date": "2024-08-10",
+          "content": "Alicia's knowledge of antique furniture is exceptional. She identified several important pieces in my collection that I had undervalued. Highly recommended."
+        },
+        {
+          "author": "Patricia L.",
+          "rating": 4,
+          "date": "2024-06-18",
+          "content": "Very professional service. Ms. Weaver appraised my 19th century artwork collection with great attention to detail and historical context."
+        },
+        {
+          "author": "Michael D.",
+          "rating": 5,
+          "date": "2024-02-05",
+          "content": "We needed an appraisal for insurance purposes, and Alicia provided excellent documentation. Her expertise in fine art made the process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-10",
+        "inService": true
+      }
+    },
+    {
+      "id": "aspen-812-maplewood",
+      "name": "812 Maplewood",
+      "slug": "812-maplewood",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_aspen-812-maplewood_1740929816443_-N9BCbxFF.jpg",
+      "address": {
+        "street": "812 Maplewood Ave",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "812 Maplewood Ave, Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "970-555-9876",
+        "email": "info@812maplewood.com",
+        "website": "https://www.812maplewood.com/art-advisory-services"
+      },
+      "business": {
+        "yearsInBusiness": "8+ years",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "11:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art Valuations",
+          "Insurance Solutions"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Framing",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "812 Maplewood is an Aspen-based firm offering comprehensive art services including appraisals, framing, and collection management. As a local business with deep ties to the Aspen art community, we provide personalized service for collectors, estates, and insurance needs.",
+        "notes": "Local Aspen firm offering appraisal services along with framing and collection management."
+      },
+      "reviews": [
+        {
+          "author": "Lauren K.",
+          "rating": 5,
+          "date": "2024-10-01",
+          "content": "The team at 812 Maplewood did an excellent job appraising my collection. They also provided invaluable advice on framing some newly acquired pieces."
+        },
+        {
+          "author": "David H.",
+          "rating": 4,
+          "date": "2024-07-14",
+          "content": "Professional service with a personal touch. Their knowledge of the local art scene is impressive, and their appraisal report was very detailed."
+        },
+        {
+          "author": "Jennifer P.",
+          "rating": 5,
+          "date": "2024-05-22",
+          "content": "I've been working with 812 Maplewood for over 5 years to manage my collection. Their appraisal services are top-notch, and their framing work is beautiful."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-02-28",
+        "inService": true
+      }
+    }
+  ]
+}

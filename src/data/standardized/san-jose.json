@@ -1,0 +1,708 @@
+{
+  "appraisers": [
+    {
+      "id": "reilly-clark-fine-art-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-appraisals_1741089110700_oSYQta1BV.jpg",
+      "address": {
+        "street": "123 Cedar Blvd",
+        "city": "Santa Barbara",
+        "state": "CA",
+        "zip": "90832",
+        "formatted": "123 Cedar Blvd, Santa Barbara, CA 90832"
+      },
+      "contact": {
+        "phone": "(214) 799-7889",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "5+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Not publicly listed; inquire directly",
+        "rating": 4.5,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary",
+          "Antiquities",
+          "Insurance Appraisals",
+          "Tax Appraisals",
+          "Estate Liquidations"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Tax Appraisals",
+          "Estate Liquidations"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Fine Art, Contemporary, Antiquities, Insurance Appraisals, Tax Appraisals, Estate Liquidations. With 5+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Santa Barbara; serves San Jose/Silicon Valley, Southern California, and Texas. Art history M.A./Ph.D. candidate at UCSB."
+      },
+      "reviews": [
+        {
+          "author": "John W.",
+          "rating": 5,
+          "date": "2025-03-10",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Jessica D.",
+          "rating": 4,
+          "date": "2025-03-08",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Karen C.",
+          "rating": 4.5,
+          "date": "2025-03-05",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-clars-auctions",
+      "name": "Clars Auctions",
+      "slug": "clars-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-clars-auctions_1741089116240_kpeYeqsx7Q.jpg",
+      "address": {
+        "street": "456 Pine Ln",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "90629",
+        "formatted": "456 Pine Ln, Oakland, CA 90629"
+      },
+      "contact": {
+        "phone": "938-691-4380",
+        "email": "info@clars.com",
+        "website": "https://clars.com"
+      },
+      "business": {
+        "yearsInBusiness": "Decades of experience",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Fee structure varies by item type/valuation purpose",
+        "rating": 4.9,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Asian Art",
+          "Fine Art",
+          "Appraisal Services"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Auction Services",
+          "Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Clars Auctions provides professional art appraisal services specializing in Asian Art, Fine Art, Appraisal Services. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves the Bay Area including San Jose."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer A.",
+          "rating": 5,
+          "date": "2025-03-04",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Susan R.",
+          "rating": 5,
+          "date": "2025-01-24",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Jennifer W.",
+          "rating": 5,
+          "date": "2024-12-18",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-appraiseitnow",
+      "name": "AppraiseItNow",
+      "slug": "appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-appraiseitnow_1741089121883_l1x-_QMun.jpg",
+      "address": {
+        "street": "888 Park Ave",
+        "city": "Online",
+        "state": "CA",
+        "zip": "90657",
+        "formatted": "888 Park Ave, Online, CA 90657"
+      },
+      "contact": {
+        "phone": "164-256-8102",
+        "email": "info@www.appraiseitnow.com",
+        "website": "https://www.appraiseitnow.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Starts at $195; expedited fees apply",
+        "rating": 4.7,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Online Appraisals",
+          "Fine Art",
+          "Antiques",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA"
+        ],
+        "services": [
+          "Online Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "AppraiseItNow provides professional art appraisal services specializing in Online Appraisals, Fine Art, Antiques, Collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Operates nationally with a California focus; serves San Jose."
+      },
+      "reviews": [
+        {
+          "author": "Emily C.",
+          "rating": 5,
+          "date": "2025-02-22",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Linda A.",
+          "rating": 4.5,
+          "date": "2025-02-03",
+          "content": "Excellent service from start to finish. I highly recommend AppraiseItNow for any art appraisal needs."
+        },
+        {
+          "author": "David D.",
+          "rating": 4.5,
+          "date": "2025-01-07",
+          "content": "AppraiseItNow's expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-anderson-fine-art-appraisals_1741089127699_ALnIWTEfc.jpg",
+      "address": {
+        "street": "888 Main St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90684",
+        "formatted": "888 Main St, Los Angeles, CA 90684"
+      },
+      "contact": {
+        "phone": "699-201-7657",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.8,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-Century Works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Expert Witness",
+          "Litigation Support",
+          "Authentication Research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-Century Works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Susan A.",
+          "rating": 5,
+          "date": "2025-03-02",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Robert B.",
+          "rating": 5,
+          "date": "2025-02-10",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Susan R.",
+          "rating": 5,
+          "date": "2024-12-24",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg",
+      "address": {
+        "street": "2020 Museum Way",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90686",
+        "formatted": "2020 Museum Way, Los Angeles, CA 90686"
+      },
+      "contact": {
+        "phone": "206-714-9299",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 1984",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.7,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
+        ],
+        "certifications": [
+          "ASA-certified"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Expert Witness Services"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handled art fraud cases with LAPD; adheres to USPAP and ASA standards."
+      },
+      "reviews": [
+        {
+          "author": "Sarah J.",
+          "rating": 4.5,
+          "date": "2025-02-17",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Sarah S.",
+          "rating": 5,
+          "date": "2025-02-06",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 5,
+          "date": "2025-01-30",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-page-art-inc_1741089138532_elJ33YYrn.jpg",
+      "address": {
+        "street": "789 Gallery Row",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90959",
+        "formatted": "789 Gallery Row, Los Angeles, CA 90959"
+      },
+      "contact": {
+        "phone": "613-527-2705",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Hourly $350; minimum for in-office consults $500",
+        "rating": 4.5,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donations Appraisals",
+          "Litigation Appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Appraisals for Insurance, Estates, and Donations",
+          "Litigation Support"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate Appraisals, Donations Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state markets."
+      },
+      "reviews": [
+        {
+          "author": "Robert M.",
+          "rating": 4.5,
+          "date": "2025-02-22",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Jessica M.",
+          "rating": 4,
+          "date": "2025-02-18",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Michael B.",
+          "rating": 4.5,
+          "date": "2025-02-06",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg",
+      "address": {
+        "street": "123 Washington Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90483",
+        "formatted": "123 Washington Ave, Los Angeles, CA 90483"
+      },
+      "contact": {
+        "phone": "785-623-7384",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance Appraisals",
+          "Damage/Loss Appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Damage/Loss Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance Appraisals, Damage/Loss Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers high-end appraisals; clients include LACMA and MoMA."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth T.",
+          "rating": 5,
+          "date": "2024-09-19",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Linda T.",
+          "rating": 4.5,
+          "date": "2024-09-17",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "James M.",
+          "rating": 4.5,
+          "date": "2024-07-21",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-gurr-johns_1741089149620_TZE_U0Drz.jpg",
+      "address": {
+        "street": "999 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90508",
+        "formatted": "999 Lincoln Rd, Los Angeles, CA 90508"
+      },
+      "contact": {
+        "phone": "561-484-1133",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "High-Value Appraisals",
+          "Expert Witness Services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Expert Witness Services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-Value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion in assets annually."
+      },
+      "reviews": [
+        {
+          "author": "Patricia T.",
+          "rating": 4.5,
+          "date": "2025-02-28",
+          "content": "I needed an appraisal for a charitable donation, and Gurr Johns delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Nancy T.",
+          "rating": 5,
+          "date": "2025-01-03",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "David T.",
+          "rating": 5,
+          "date": "2024-10-11",
+          "content": "I needed an appraisal for a charitable donation, and Gurr Johns delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-jose-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-mimesis-gallery_1741089156976_6JjXod-Sp.jpg",
+      "address": {
+        "street": "1234 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90988",
+        "formatted": "1234 Elm St, Los Angeles, CA 90988"
+      },
+      "contact": {
+        "phone": "485-679-8058",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "20% fee up to $500K; 10% fee beyond $500K",
+        "rating": 4.8,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Free Valuations",
+          "Consignment-Based Sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free Art Valuations",
+          "Consignment Sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment-Based Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers same-day offers; consignment-based sales model."
+      },
+      "reviews": [
+        {
+          "author": "Patricia R.",
+          "rating": 5,
+          "date": "2025-03-03",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Michael C.",
+          "rating": 4.5,
+          "date": "2024-12-14",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 4.5,
+          "date": "2024-10-20",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

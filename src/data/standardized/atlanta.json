@@ -1,0 +1,622 @@
+{
+  "appraisers": [
+    {
+      "id": "atlanta-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-prestige-estate-services_1740929869203_mv3LleVuy.jpg",
+      "address": {
+        "street": "456 Main St",
+        "city": "Atlanta",
+        "state": "NY",
+        "zip": "10234",
+        "formatted": "456 Main St, Atlanta, NY 10234"
+      },
+      "contact": {
+        "phone": "802-948-1275",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/locations/atlanta-georgia/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Transparent fees; onsite evaluations start at $300+",
+        "rating": 4.9,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "fine art (19th–20th century paintings)",
+          "antiques",
+          "jewelry",
+          "collectibles"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA CAPP"
+        ],
+        "services": [
+          "estate tax appraisals",
+          "insurance appraisals",
+          "charitable donation appraisals",
+          "personal property appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in fine art (19th–20th century paintings), antiques, jewelry, collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Team includes Elizabeth Lovett (ASA-accredited) and Alicia E Weaver (ISA CAPP-certified). Service areas include Buckhead, Midtown, and Sandy Springs."
+      },
+      "reviews": [
+        {
+          "author": "Emily S.",
+          "rating": 5,
+          "date": "2025-02-18",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Susan J.",
+          "rating": 4.5,
+          "date": "2025-01-14",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Karen W.",
+          "rating": 4.5,
+          "date": "2025-01-13",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-the-perfect-piece-atlanta",
+      "name": "The Perfect Piece Atlanta",
+      "slug": "the-perfect-piece-atlanta",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-the-perfect-piece-atlanta_1740929877248_cEVEBZIw6.jpg",
+      "address": {
+        "street": "555 Elm St",
+        "city": "Atlanta",
+        "state": "NY",
+        "zip": "10414",
+        "formatted": "555 Elm St, Atlanta, NY 10414"
+      },
+      "contact": {
+        "phone": "369-224-2865",
+        "email": "info@www.theperfectpieceatlanta.com",
+        "website": "https://www.theperfectpieceatlanta.com/estate-valuation"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Custom quotes based on collection size",
+        "rating": 4.9,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "estate valuations for probate",
+          "equitable distribution appraisals"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "estate valuation",
+          "probate appraisal"
+        ]
+      },
+      "content": {
+        "about": "The Perfect Piece Atlanta provides professional art appraisal services specializing in estate valuations for probate, equitable distribution appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Provides specialized estate valuation services in the Metro Atlanta area."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer T.",
+          "rating": 5,
+          "date": "2024-11-11",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Patricia C.",
+          "rating": 5,
+          "date": "2024-11-11",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "John C.",
+          "rating": 4.5,
+          "date": "2024-11-01",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-anderson-fine-art-appraisals_1740929884342_oDGUAyji1.jpg",
+      "address": {
+        "street": "777 Museum Way",
+        "city": "Los Angeles",
+        "state": "NY",
+        "zip": "10629",
+        "formatted": "777 Museum Way, Los Angeles, NY 10629"
+      },
+      "contact": {
+        "phone": "231-710-9036",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.7,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "European art",
+          "American art",
+          "Contemporary art",
+          "Modern art",
+          "Impressionist art",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "expert witness services",
+          "litigation support",
+          "authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European art, American art, Contemporary art, Modern art, Impressionist art, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Specializes in European and American art with extensive experience."
+      },
+      "reviews": [
+        {
+          "author": "Michael W.",
+          "rating": 4.5,
+          "date": "2025-01-31",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Nancy C.",
+          "rating": 2,
+          "date": "2025-01-24",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        },
+        {
+          "author": "Robert J.",
+          "rating": 4.5,
+          "date": "2024-10-27",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-escher-associates_1740929892166_76KgXEW3X.jpg",
+      "address": {
+        "street": "555 Pine Ln",
+        "city": "Los Angeles",
+        "state": "NY",
+        "zip": "10982",
+        "formatted": "555 Pine Ln, Los Angeles, NY 10982"
+      },
+      "contact": {
+        "phone": "518-988-5861",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.7,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "paintings",
+          "sculpture",
+          "photography",
+          "rare books"
+        ],
+        "certifications": [
+          "ASA-certified"
+        ],
+        "services": [
+          "art appraisal",
+          "expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in paintings, sculpture, photography, rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Founded by Nancy Escher; involved in art fraud cases with LAPD."
+      },
+      "reviews": [
+        {
+          "author": "Robert S.",
+          "rating": 4.5,
+          "date": "2025-01-24",
+          "content": "Escher Associates's expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2024-12-19",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 4.5,
+          "date": "2024-09-18",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-page-art-inc_1740929899476_ieuuLPZv5.jpg",
+      "address": {
+        "street": "123 Maple Dr",
+        "city": "Los Angeles",
+        "state": "NY",
+        "zip": "10545",
+        "formatted": "123 Maple Dr, Los Angeles, NY 10545"
+      },
+      "contact": {
+        "phone": "129-200-1247",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+        "rating": 4.5,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "insurance appraisals",
+          "estate appraisals",
+          "donation appraisals",
+          "litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "insurance appraisal",
+          "estate appraisal",
+          "donation appraisal",
+          "litigation support"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in insurance appraisals, estate appraisals, donation appraisals, litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers appraisal services across Los Angeles, Bay Area, Orange County, and out-of-state."
+      },
+      "reviews": [
+        {
+          "author": "John D.",
+          "rating": 4,
+          "date": "2025-01-26",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Patricia R.",
+          "rating": 4.5,
+          "date": "2024-11-12",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jessica B.",
+          "rating": 4.5,
+          "date": "2024-09-22",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-saylor-rice-appraisals_1740929906368_onMg-Dm4r.jpg",
+      "address": {
+        "street": "888 Museum Way",
+        "city": "Los Angeles",
+        "state": "NY",
+        "zip": "10235",
+        "formatted": "888 Museum Way, Los Angeles, NY 10235"
+      },
+      "contact": {
+        "phone": "926-876-1501",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "insurance appraisals",
+          "damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "damage/loss appraisal",
+          "insurance appraisal"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in insurance appraisals, damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely handles high-end appraisals."
+      },
+      "reviews": [
+        {
+          "author": "Sarah M.",
+          "rating": 3,
+          "date": "2025-02-06",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        },
+        {
+          "author": "Karen M.",
+          "rating": 4.5,
+          "date": "2025-01-23",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Susan R.",
+          "rating": 4.5,
+          "date": "2024-12-06",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-gurr-johns_1740929913340_qzTKV87zo.jpg",
+      "address": {
+        "street": "1010 Maple Dr",
+        "city": "Los Angeles",
+        "state": "NY",
+        "zip": "10404",
+        "formatted": "1010 Maple Dr, Los Angeles, NY 10404"
+      },
+      "contact": {
+        "phone": "228-258-2721",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "high-value art appraisals"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "high-value art appraisal",
+          "expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in high-value art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "Karen W.",
+          "rating": 4.5,
+          "date": "2025-01-12",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Karen R.",
+          "rating": 5,
+          "date": "2024-12-07",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Emily J.",
+          "rating": 4,
+          "date": "2024-11-22",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_atlanta-mimesis-gallery_1740929920887_TIGdzoBaB.jpg",
+      "address": {
+        "street": "999 Oak Ave",
+        "city": "Los Angeles",
+        "state": "NY",
+        "zip": "10811",
+        "formatted": "999 Oak Ave, Los Angeles, NY 10811"
+      },
+      "contact": {
+        "phone": "552-571-1600",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "20% commission up to $500K, 10% commission beyond that",
+        "rating": 4.9,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "free valuations",
+          "consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "free valuation",
+          "same-day offers",
+          "consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in free valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd; offers free valuations and same-day offers."
+      },
+      "reviews": [
+        {
+          "author": "Jessica S.",
+          "rating": 5,
+          "date": "2025-03-15",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Nancy R.",
+          "rating": 4.5,
+          "date": "2025-02-08",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Jessica B.",
+          "rating": 5,
+          "date": "2025-01-12",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

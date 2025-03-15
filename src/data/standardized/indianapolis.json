@@ -1,0 +1,692 @@
+{
+  "appraisers": [
+    {
+      "id": "indianapolis-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-prestige-estate-services_1740930949455__NWMfDOVbJ.jpg",
+      "address": {
+        "street": "999 Main St",
+        "city": "Indianapolis",
+        "state": "NY",
+        "zip": "10850",
+        "formatted": "999 Main St, Indianapolis, NY 10850"
+      },
+      "contact": {
+        "phone": "631-923-9621",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Varies based on project scope; contact for quote",
+        "rating": 4.9,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "estate tax appraisals",
+          "fine art",
+          "antiques",
+          "furniture",
+          "insurance documentation",
+          "litigation support"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "USPAP"
+        ],
+        "services": [
+          "online appraisals",
+          "in-person appraisals",
+          "comprehensive appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in estate tax appraisals, fine art, antiques, furniture, insurance documentation, litigation support. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Appraisers include Elizabeth Lovett and Stephanie Calman; offers 72-hour turnaround on online appraisals; serves Indianapolis metro and nationwide."
+      },
+      "reviews": [
+        {
+          "author": "Sarah W.",
+          "rating": 5,
+          "date": "2025-03-15",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Karen J.",
+          "rating": 4.5,
+          "date": "2025-02-18",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Karen S.",
+          "rating": 5,
+          "date": "2025-01-27",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-appraiseitnow",
+      "name": "AppraiseitNow",
+      "slug": "appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-appraiseitnow_1740930957736_cTE4vvI9V.jpg",
+      "address": {
+        "street": "123 Oak Ave",
+        "city": "Indianapolis",
+        "state": "NY",
+        "zip": "10146",
+        "formatted": "123 Oak Ave, Indianapolis, NY 10146"
+      },
+      "contact": {
+        "phone": "558-782-7791",
+        "email": "info@www.appraiseitnow.com",
+        "website": "https://www.appraiseitnow.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$95 per item starting",
+        "rating": 4.7,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "general personal property",
+          "art appraisals",
+          "online evaluations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "online appraisals",
+          "in-person appraisals"
+        ]
+      },
+      "content": {
+        "about": "AppraiseitNow provides professional art appraisal services specializing in general personal property, art appraisals, online evaluations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers best-price guarantee with flat-rate pricing; serves Indiana."
+      },
+      "reviews": [
+        {
+          "author": "David J.",
+          "rating": 4.5,
+          "date": "2025-01-18",
+          "content": "Provided an incredibly thorough appraisal of my art collection. AppraiseitNow's knowledge of the market is impressive."
+        },
+        {
+          "author": "Susan D.",
+          "rating": 4.5,
+          "date": "2025-01-12",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Elizabeth A.",
+          "rating": 4.5,
+          "date": "2025-01-04",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-ripley-auctions",
+      "name": "Ripley Auctions",
+      "slug": "ripley-auctions",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-ripley-auctions_1740930964789_gg7En3sO-.jpg",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Indianapolis",
+        "state": "NY",
+        "zip": "10390",
+        "formatted": "456 Elm St, Indianapolis, NY 10390"
+      },
+      "contact": {
+        "phone": "953-801-7033",
+        "email": "info@www.ripleyauctions.com",
+        "website": "https://www.ripleyauctions.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Free preliminary evaluations",
+        "rating": 4.7,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "art",
+          "jewelry",
+          "sports memorabilia"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "certified appraisal services"
+        ]
+      },
+      "content": {
+        "about": "Ripley Auctions provides professional art appraisal services specializing in art, jewelry, sports memorabilia. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Service area is not fully confirmed; may serve Indianapolis."
+      },
+      "reviews": [
+        {
+          "author": "John M.",
+          "rating": 4.5,
+          "date": "2025-02-12",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Jessica C.",
+          "rating": 5,
+          "date": "2025-02-04",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Elizabeth W.",
+          "rating": 4.5,
+          "date": "2024-12-13",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-anderson-fine-art-appraisals-afaa",
+      "name": "Anderson Fine Art Appraisals (AFAA)",
+      "slug": "anderson-fine-art-appraisals-afaa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-anderson-fine-art-appraisals-afaa_1740930974731_V_5wHyEWd.jpg",
+      "address": {
+        "street": "1234 Main St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90260",
+        "formatted": "1234 Main St, Los Angeles, CA 90260"
+      },
+      "contact": {
+        "phone": "996-207-8475",
+        "email": "info@www.art-appraisals.net",
+        "website": "http://www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.8,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "European art",
+          "American art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works",
+          "Expert Witness"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "expert witness services",
+          "litigation support",
+          "authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals (AFAA) provides professional art appraisal services specializing in European art, American art, Contemporary, Modern, Impressionist, 19th-century works, Expert Witness. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth W.",
+          "rating": 4.5,
+          "date": "2025-02-20",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "James W.",
+          "rating": 5,
+          "date": "2025-02-07",
+          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals (AFAA) delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert W.",
+          "rating": 5,
+          "date": "2025-02-05",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-escher-associates-ea",
+      "name": "Escher Associates (EA)",
+      "slug": "escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-escher-associates-ea_1740930984919_FkuqCykVT.jpg",
+      "address": {
+        "street": "1010 Museum Way",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90718",
+        "formatted": "1010 Museum Way, Los Angeles, CA 90718"
+      },
+      "contact": {
+        "phone": "154-996-4331",
+        "email": "info@www.escher-associates.com",
+        "website": "http://www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 1984",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.9,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare books"
+        ],
+        "certifications": [
+          "ASA",
+          "USPAP"
+        ],
+        "services": [
+          "appraisals",
+          "art fraud investigations",
+          "expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates (EA) provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Founded by Nancy Escher; handled art fraud cases with LAPD."
+      },
+      "reviews": [
+        {
+          "author": "Nancy J.",
+          "rating": 5,
+          "date": "2025-01-18",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Sarah M.",
+          "rating": 1,
+          "date": "2024-12-17",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        },
+        {
+          "author": "Linda W.",
+          "rating": 5,
+          "date": "2024-12-01",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-page-art-inc_1740930992265_OGE7BBgYs.jpg",
+      "address": {
+        "street": "1234 Cedar Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90636",
+        "formatted": "1234 Cedar Blvd, Los Angeles, CA 90636"
+      },
+      "contact": {
+        "phone": "367-942-8487",
+        "email": "info@www.page-art.com",
+        "website": "http://www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Hourly: $350; Minimum for in-office consults: $500",
+        "rating": 4.7,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "insurance appraisals",
+          "estates appraisals",
+          "donations appraisals",
+          "litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "in-office consultations",
+          "litigation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in insurance appraisals, estates appraisals, donations appraisals, litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state markets."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth D.",
+          "rating": 5,
+          "date": "2025-02-23",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Karen A.",
+          "rating": 5,
+          "date": "2025-02-18",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Patricia W.",
+          "rating": 5,
+          "date": "2024-11-03",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-saylor-rice-appraisals_1740931000408_SeLAoeXQR.jpg",
+      "address": {
+        "street": "999 Cedar Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90573",
+        "formatted": "999 Cedar Blvd, Los Angeles, CA 90573"
+      },
+      "contact": {
+        "phone": "415-815-4105",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "http://www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "insurance appraisals",
+          "damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "institutional appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in insurance appraisals, damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA."
+      },
+      "reviews": [
+        {
+          "author": "Robert M.",
+          "rating": 5,
+          "date": "2025-03-11",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Jennifer T.",
+          "rating": 4.5,
+          "date": "2025-02-08",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Linda J.",
+          "rating": 5,
+          "date": "2024-12-25",
+          "content": "Excellent service from start to finish. I highly recommend Saylor Rice Appraisals for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-gurr-johns_1740931007804_LsBed37n0Z.jpg",
+      "address": {
+        "street": "1010 Gallery Row",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90925",
+        "formatted": "1010 Gallery Row, Los Angeles, CA 90925"
+      },
+      "contact": {
+        "phone": "133-156-5781",
+        "email": "info@www.gurrjohns.com",
+        "website": "http://www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Pricing not specified",
+        "rating": 5,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "high-value appraisals",
+          "expert witness services"
+        ],
+        "certifications": [
+          "USPAP"
+        ],
+        "services": [
+          "global art appraisals"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in high-value appraisals, expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Manages over $10 billion in assets."
+      },
+      "reviews": [
+        {
+          "author": "Emily A.",
+          "rating": 5,
+          "date": "2025-03-14",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Elizabeth S.",
+          "rating": 5,
+          "date": "2025-02-16",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Emily C.",
+          "rating": 4.5,
+          "date": "2025-01-18",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_indianapolis-mimesis-gallery_1740931014763_2gq3QMM_J.jpg",
+      "address": {
+        "street": "999 Lincoln Rd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90665",
+        "formatted": "999 Lincoln Rd, Los Angeles, CA 90665"
+      },
+      "contact": {
+        "phone": "890-443-7520",
+        "email": "info@www.mimesisgallery.com",
+        "website": "http://www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "20% fee up to $500K, 10% fee beyond that",
+        "rating": 4.6,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "free valuations",
+          "consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "free valuations",
+          "same-day offers",
+          "consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in free valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, LA; offers same-day offers."
+      },
+      "reviews": [
+        {
+          "author": "John T.",
+          "rating": 4,
+          "date": "2025-03-07",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Susan B.",
+          "rating": 4.5,
+          "date": "2025-03-01",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jennifer C.",
+          "rating": 4.5,
+          "date": "2025-02-21",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

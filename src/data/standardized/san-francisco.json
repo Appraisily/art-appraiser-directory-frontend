@@ -1,0 +1,309 @@
+{
+  "appraisers": [
+    {
+      "id": "czudej-mcdonough",
+      "name": "Czudej McDonough",
+      "slug": "czudej-mcdonough",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg",
+      "address": {
+        "street": "2020 Art District",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "90937",
+        "formatted": "2020 Art District, San Francisco, CA 90937"
+      },
+      "contact": {
+        "phone": "+1 415-309-7521",
+        "email": "info@www.czudejmcdonough.com",
+        "website": "http://www.czudejmcdonough.com"
+      },
+      "business": {
+        "yearsInBusiness": "Decades of combined experience",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Pricing based on appraisal scope; contact for rates",
+        "rating": 4.9,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Postwar Art",
+          "Contemporary",
+          "Impressionist",
+          "Modern Art",
+          "Photography",
+          "Prints",
+          "Litigation Support",
+          "Collateral Lending"
+        ],
+        "certifications": [
+          "AAA",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Litigation Support",
+          "Collateral Lending Assessments"
+        ]
+      },
+      "content": {
+        "about": "Czudej McDonough provides professional art appraisal services specializing in Postwar Art, Contemporary, Impressionist, Modern Art, Photography, Prints, Litigation Support, Collateral Lending. With Decades of combined experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Has a dedicated San Francisco office; experienced in multiple categories of art."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth W.",
+          "rating": 5,
+          "date": "2025-03-15",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Elizabeth D.",
+          "rating": 5,
+          "date": "2024-11-11",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Nancy T.",
+          "rating": 1,
+          "date": "2024-10-29",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation of the valuation methodology."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-reilly-clark-fine-art-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg",
+      "address": {
+        "street": "555 Elm St",
+        "city": "Santa Barbara",
+        "state": "CA",
+        "zip": "90469",
+        "formatted": "555 Elm St, Santa Barbara, CA 90469"
+      },
+      "contact": {
+        "phone": "330-472-1918",
+        "email": "info@reillyclark.com",
+        "website": "https://reillyclark.com/appraisals"
+      },
+      "business": {
+        "yearsInBusiness": "4+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for fee details; rates may be hourly or project based",
+        "rating": 4.7,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Antiquities",
+          "Insurance/Tax Appraisals",
+          "Estate Liquidation"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "USPAP-trained"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Tax Appraisals",
+          "Estate Liquidation"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Contemporary Art, Antiquities, Insurance/Tax Appraisals, Estate Liquidation. With 4+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Santa Barbara; serves the SF Bay Area and Silicon Valley. Led by a UCSB PhD candidate."
+      },
+      "reviews": [
+        {
+          "author": "Karen J.",
+          "rating": 4.5,
+          "date": "2025-03-05",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Emily R.",
+          "rating": 4.5,
+          "date": "2025-02-21",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Michael J.",
+          "rating": 3,
+          "date": "2025-02-01",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation of the valuation methodology."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-newton-fine-art-appraisal",
+      "name": "Newton Fine Art Appraisal",
+      "slug": "newton-fine-art-appraisal",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg",
+      "address": {
+        "street": "456 Cedar Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "90690",
+        "formatted": "456 Cedar Blvd, San Francisco, CA 90690"
+      },
+      "contact": {
+        "phone": "763-715-2856",
+        "email": "info@www.newtonfineartappraisal.com",
+        "website": "https://www.newtonfineartappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Pricing varies by project; contact for details",
+        "rating": 4.8,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "Digital Art",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Newton Fine Art Appraisal provides professional art appraisal services specializing in Paintings, Prints, Sculpture, Digital Art, Insurance Appraisals, Estate Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Operates in the Bay Area with service coverage including Sonoma County, Tiburon, and San Francisco."
+      },
+      "reviews": [
+        {
+          "author": "John J.",
+          "rating": 4.5,
+          "date": "2025-03-13",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Patricia A.",
+          "rating": 4.5,
+          "date": "2025-03-13",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 4.5,
+          "date": "2025-02-17",
+          "content": "Newton Fine Art Appraisal's expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-mary-peck-art-advisory",
+      "name": "Mary Peck Art Advisory",
+      "slug": "mary-peck-art-advisory",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-mary-peck-art-advisory_1741089104979_-ZL1qvgTg.jpg",
+      "address": {
+        "street": "888 Maple Dr",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80436",
+        "formatted": "888 Maple Dr, Denver, CO 80436"
+      },
+      "contact": {
+        "phone": "303-355-0050",
+        "email": "info@www.marypeckartadvisory.com",
+        "website": "https://www.marypeckartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "27 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based pricing; contact for details",
+        "rating": 4.6,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Modern Art",
+          "Contemporary Art",
+          "Charitable Donations",
+          "Copyright Infringement",
+          "IRS-Compliant Valuations"
+        ],
+        "certifications": [
+          "AAA",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Remote Art Advisory",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mary Peck Art Advisory provides professional art appraisal services specializing in Modern Art, Contemporary Art, Charitable Donations, Copyright Infringement, IRS-Compliant Valuations. With 27 years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Denver but serves San Francisco clients via remote services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia T.",
+          "rating": 4.5,
+          "date": "2025-02-18",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 4.5,
+          "date": "2024-12-18",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Linda T.",
+          "rating": 4.5,
+          "date": "2024-11-15",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}

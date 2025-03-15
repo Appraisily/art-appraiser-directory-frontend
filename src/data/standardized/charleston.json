@@ -1,0 +1,723 @@
+{
+  "appraisers": [
+    {
+      "id": "charleston-djr-authentication",
+      "name": "DJR Authentication",
+      "slug": "djr-authentication",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-djr-authentication_1740930156908_WVx8FPZcV.jpg",
+      "address": {
+        "street": "1234 Main St",
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29177",
+        "formatted": "1234 Main St, Charleston, SC 29177"
+      },
+      "contact": {
+        "phone": "352-670-5416",
+        "email": "info@www.djrauthentication.com",
+        "website": "https://www.djrauthentication.com"
+      },
+      "business": {
+        "yearsInBusiness": "2012",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Online appraisal starting at $25 for a quick opinion and $150+ for a full appraisal",
+        "rating": 4.8,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Appraisals",
+          "Authentication"
+        ]
+      },
+      "content": {
+        "about": "DJR Authentication provides professional art appraisal services specializing in Fine Art, Antiques, Contemporary Art. With 2012 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers both online and in-person services"
+      },
+      "reviews": [
+        {
+          "author": "David R.",
+          "rating": 5,
+          "date": "2025-03-07",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Emily M.",
+          "rating": 5,
+          "date": "2024-11-12",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "James D.",
+          "rating": 4.5,
+          "date": "2024-11-10",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-leprince-fine-art",
+      "name": "LePrince Fine Art",
+      "slug": "leprince-fine-art",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-leprince-fine-art_1740930165414_XoaKjA-Xbe.jpg",
+      "address": {
+        "street": "1234 Main St",
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29895",
+        "formatted": "1234 Main St, Charleston, SC 29895"
+      },
+      "contact": {
+        "phone": "755-584-7472",
+        "email": "info@leprince.com",
+        "website": "https://leprince.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Not specified; pricing details available on website",
+        "rating": 4.5,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Art Consultation",
+          "Framing",
+          "Commissions"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Appraisals",
+          "Virtual mock-ups"
+        ]
+      },
+      "content": {
+        "about": "LePrince Fine Art provides professional art appraisal services specializing in Art Consultation, Framing, Commissions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Provides art consultation and commissions along with appraisal services"
+      },
+      "reviews": [
+        {
+          "author": "Linda S.",
+          "rating": 4.5,
+          "date": "2025-01-21",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Jessica D.",
+          "rating": 5,
+          "date": "2024-11-17",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "John T.",
+          "rating": 4.5,
+          "date": "2024-11-11",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-appraiseitnow",
+      "name": "AppraiseItNow",
+      "slug": "appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-appraiseitnow_1740930173133_hVD1cNQR2.jpg",
+      "address": {
+        "street": "777 Gallery Row",
+        "city": "North Charleston",
+        "state": "SC",
+        "zip": "29905",
+        "formatted": "777 Gallery Row, North Charleston, SC 29905"
+      },
+      "contact": {
+        "phone": "900-422-7366",
+        "email": "info@www.appraiseitnow.com",
+        "website": "https://www.appraiseitnow.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Pricing details not specified; expedited options available for an extra fee",
+        "rating": 4.5,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Collectibles",
+          "General Art Appraisals (excluding jewelry)"
+        ],
+        "certifications": [
+          "Certified Appraisers"
+        ],
+        "services": [
+          "Online Appraisals",
+          "Detailed appraisal reports",
+          "Bulk discounts"
+        ]
+      },
+      "content": {
+        "about": "AppraiseItNow provides professional art appraisal services specializing in Fine Art, Collectibles, General Art Appraisals (excluding jewelry). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers online appraisals; expedited evaluation available for urgent cases"
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth W.",
+          "rating": 3,
+          "date": "2025-03-10",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        },
+        {
+          "author": "Susan C.",
+          "rating": 4.5,
+          "date": "2025-02-17",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "David W.",
+          "rating": 4.5,
+          "date": "2025-02-01",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-anderson-fine-art-appraisals_1740930180757_ngMdJWVNl.jpg",
+      "address": {
+        "street": "456 Maple Dr",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90918",
+        "formatted": "456 Maple Dr, Los Angeles, CA 90918"
+      },
+      "contact": {
+        "phone": "348-630-4906",
+        "email": "info@www.art-appraisals.net",
+        "website": "https://www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.9,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century Art"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Expert Witness Services",
+          "Litigation Support",
+          "Authentication"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century Art. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Linda T.",
+          "rating": 5,
+          "date": "2025-03-14",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Elizabeth R.",
+          "rating": 2,
+          "date": "2025-02-17",
+          "content": "The appraisal was thorough, but I found their pricing a bit high compared to others."
+        },
+        {
+          "author": "Michael J.",
+          "rating": 5,
+          "date": "2025-02-16",
+          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-escher-associates_1740930188013_iQyF5YN1W.jpg",
+      "address": {
+        "street": "777 Maple Dr",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90294",
+        "formatted": "777 Maple Dr, Los Angeles, CA 90294"
+      },
+      "contact": {
+        "phone": "590-642-4347",
+        "email": "info@www.escher-associates.com",
+        "website": "https://www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 1984",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 5,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
+        ],
+        "certifications": [
+          "ASA-certified",
+          "USPAP"
+        ],
+        "services": [
+          "Appraisals",
+          "Handling art fraud cases"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Has handled art fraud cases with LAPD"
+      },
+      "reviews": [
+        {
+          "author": "James J.",
+          "rating": 5,
+          "date": "2025-03-05",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Robert T.",
+          "rating": 5,
+          "date": "2025-02-21",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Michael M.",
+          "rating": 5,
+          "date": "2024-11-26",
+          "content": "Escher Associates's expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-page-art-inc_1740930195558_UFBTEEfsS.jpg",
+      "address": {
+        "street": "999 Pine Ln",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90396",
+        "formatted": "999 Pine Ln, Los Angeles, CA 90396"
+      },
+      "contact": {
+        "phone": "973-891-8713",
+        "email": "info@www.page-art.com",
+        "website": "https://www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Hourly rate of $350; in-office consults have a $500 minimum",
+        "rating": 4.8,
+        "reviewCount": 19
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Donation Appraisals",
+          "Litigation Appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Insurance, estate, donation, and litigation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate Appraisals, Donation Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Also serves the Bay Area, Orange County, and out-of-state regions"
+      },
+      "reviews": [
+        {
+          "author": "Karen M.",
+          "rating": 4.5,
+          "date": "2025-01-12",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 5,
+          "date": "2024-11-27",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Page Art, Inc.'s knowledge of the market is impressive."
+        },
+        {
+          "author": "Jessica B.",
+          "rating": 4.5,
+          "date": "2024-11-01",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-saylor-rice-appraisals_1740930202927_ztx3ZRr8q.jpg",
+      "address": {
+        "street": "123 Cedar Blvd",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90727",
+        "formatted": "123 Cedar Blvd, Los Angeles, CA 90727"
+      },
+      "contact": {
+        "phone": "405-903-5170",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "https://www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Not specified; likely high-end pricing",
+        "rating": 4.8,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance Appraisals",
+          "Damage/Loss Appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Damage/Loss Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance Appraisals, Damage/Loss Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals"
+      },
+      "reviews": [
+        {
+          "author": "Karen S.",
+          "rating": 5,
+          "date": "2025-02-26",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Elizabeth W.",
+          "rating": 4.5,
+          "date": "2025-02-07",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Robert W.",
+          "rating": 5,
+          "date": "2025-01-12",
+          "content": "Excellent service from start to finish. I highly recommend Saylor Rice Appraisals for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-gurr-johns_1740930210463_U9TsyV0pdK.jpg",
+      "address": {
+        "street": "777 Maple Dr",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90334",
+        "formatted": "777 Maple Dr, Los Angeles, CA 90334"
+      },
+      "contact": {
+        "phone": "713-588-2298",
+        "email": "info@www.gurrjohns.com",
+        "website": "https://www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Not specified",
+        "rating": 5,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "High-value Art Appraisals",
+          "Expert Witness Services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "High-value Appraisals",
+          "Expert Witness Services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value Art Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Manages over $10 billion in assets annually"
+      },
+      "reviews": [
+        {
+          "author": "James W.",
+          "rating": 5,
+          "date": "2025-02-28",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Robert C.",
+          "rating": 4.5,
+          "date": "2025-02-19",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Robert J.",
+          "rating": 5,
+          "date": "2025-02-08",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "charleston-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_charleston-mimesis-gallery_1740930218445_t573GFWJH.jpg",
+      "address": {
+        "street": "888 Pine Ln",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90104",
+        "formatted": "888 Pine Ln, Los Angeles, CA 90104"
+      },
+      "contact": {
+        "phone": "284-880-6072",
+        "email": "info@www.mimesisgallery.com",
+        "website": "https://www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Consignment fees: 20% for sales up to $500K, 10% for sales above $500K; free valuations",
+        "rating": 4.5,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Valuations",
+          "Consignment-based Sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free Valuations",
+          "Same-day Offers",
+          "Consignment Sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Valuations, Consignment-based Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd; operates on a consignment basis"
+      },
+      "reviews": [
+        {
+          "author": "John D.",
+          "rating": 4,
+          "date": "2025-02-27",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert M.",
+          "rating": 4.5,
+          "date": "2025-02-20",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "John J.",
+          "rating": 1,
+          "date": "2025-02-06",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    }
+  ]
+}
