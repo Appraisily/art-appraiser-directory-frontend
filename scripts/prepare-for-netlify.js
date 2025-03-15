@@ -88,6 +88,13 @@ try {
   from = "/directory/assets/*"
   to = "/assets/:splat"
   status = 200
+  
+# Alternate fix for asset paths to handle both formats
+[[redirects]]
+  from = "/assets/*"
+  to = "/directory/assets/:splat"
+  status = 200
+  force = false
 
 # Don't redirect for static HTML pages that exist
 [[redirects]]
