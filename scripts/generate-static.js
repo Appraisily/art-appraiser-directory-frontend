@@ -492,8 +492,8 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
     "description": appraiser.about || description,
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": appraiser.address?.split(',')[0]?.trim() || cityName,
-      "addressRegion": appraiser.address?.split(',')[1]?.trim() || '',
+      "addressLocality": typeof appraiser.address === 'string' ? appraiser.address.split(',')[0]?.trim() : cityName,
+      "addressRegion": typeof appraiser.address === 'string' ? (appraiser.address.split(',')[1]?.trim() || '') : '',
       "addressCountry": "US"
     },
     "url": canonicalUrl,
