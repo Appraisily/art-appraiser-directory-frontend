@@ -15,7 +15,8 @@
 - `npm run fix:domain-links` - Fix domain links in HTML
 - `npm run fix:html-paths` - Fix HTML file paths
 - `npm run fix:hydration` - Fix React hydration issues
-- `npm run fix:preload` - Fix preloaded asset references 
+- `npm run fix:preload` - Fix preloaded asset references
+- `npm run fix:links` - Fix location links to be relative
 - `npm run fix:all-assets` - Fix all asset and hydration issues
 - `npm run fix:all-pages` - Fix issues on all pages
 - `npm run clean` - Clean dist directory

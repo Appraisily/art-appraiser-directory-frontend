@@ -110,7 +110,10 @@ async function buildStandardized() {
     // Step 10: Fix preloaded asset references
     runCommand('node scripts/fix-preload-refs.js', '🔄 Fixing preloaded asset references');
 
-    // Step 11: Prepare for Netlify deployment
+    // Step 11: Fix location links to be relative
+    runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
+
+    // Step 12: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 
     log('✅ Build completed successfully!', 'success');

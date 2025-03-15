@@ -78,7 +78,7 @@ export default function Navbar() {
                         {cities.map((city) => (
                           <a
                             key={city.slug}
-                            href={`https://appraisily.com/location/${city.slug}`}
+                            href={`/location/${city.slug}`}
                             className="text-sm text-gray-700 hover:text-blue-600 py-1"
                           >
                             {city.name}
@@ -145,7 +145,7 @@ export default function Navbar() {
               {cities.map((city) => (
                 <a
                   key={city.slug}
-                  href={`https://appraisily.com/location/${city.slug}`}
+                  href={`/location/${city.slug}`}
                   className="text-sm text-gray-700 hover:text-blue-600 py-1"
                 >
                   {city.name}
