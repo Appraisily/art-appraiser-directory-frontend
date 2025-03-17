@@ -24,7 +24,17 @@
 - `npm run fix:links` - Fix location links to be relative
 - `npm run fix:all-assets` - Fix all asset and hydration issues
 - `npm run fix:all-pages` - Fix issues on all pages
+- `npm run inject:gtm` - Ensure Google Tag Manager is on all HTML pages
 - `npm run clean` - Clean dist directory
+
+## Google Tag Manager
+- Google Tag Manager ID: `GTM-PSLHDGM`
+- GTM code is automatically added to all HTML files during the build process
+- The script `scripts/inject-gtm-code.js` ensures all pages have GTM code
+- GTM is added in two parts:
+  1. Head code (before any other scripts in the `<head>` section)
+  2. Body code (immediately after the opening `<body>` tag)
+- To manually inject GTM on existing HTML files, run `npm run inject:gtm`
 
 ## Code Style Guidelines
 - **TypeScript**: Strict mode with no unused locals/parameters (ES2020 target)
