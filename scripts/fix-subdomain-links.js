@@ -3,7 +3,7 @@
 /**
  * Fix Subdomain Links
  * 
- * This script updates all links in the location pages to point to the subdomain (art-appraiser-directory.appraisily.com)
+ * This script updates all links in the location pages to point to the subdomain (art-appraisers-directory.appraisily.com)
  * instead of the main domain (appraisily.com) for appraiser pages
  */
 
@@ -124,19 +124,19 @@ async function fixSubdomainLinks() {
       // Update appraiser links to use subdomain
       html = html.replace(
         /https:\/\/appraisily\.com\/appraiser\//g, 
-        'https://art-appraiser-directory.appraisily.com/appraiser/'
+        'https://art-appraisers-directory.appraisily.com/appraiser/'
       );
       
       // Also fix links in JSON+LD schema data (which may be escaped)
       html = html.replace(
         /"item":"https:\/\/appraisily\.com\/appraiser\//g,
-        '"item":"https://art-appraiser-directory.appraisily.com/appraiser/'
+        '"item":"https://art-appraisers-directory.appraisily.com/appraiser/'
       );
       
       // Fix canonicalUrl in meta tags
       html = html.replace(
         /<link rel="canonical" href="https:\/\/appraisily\.com\/appraiser\//g,
-        '<link rel="canonical" href="https://art-appraiser-directory.appraisily.com/appraiser/'
+        '<link rel="canonical" href="https://art-appraisers-directory.appraisily.com/appraiser/'
       );
       
       // Write the updated content back to the file if changed

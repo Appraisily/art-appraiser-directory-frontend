@@ -116,13 +116,10 @@ async function buildStandardized() {
     // Step 12: Fix location links to be relative
     runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
 
-    // Step 13: Prepare for Netlify deployment
-    runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
-
     log('✅ Build completed successfully!', 'success');
     log('📂 Static files generated in the dist/ directory', 'success');
     log('🌐 To preview locally: npm run serve:static', 'info');
-    log('🚀 To deploy to Netlify: git push to your repository with the updated netlify.toml', 'info');
+    log('🚢 Next step: package these assets into the art-appraisers-directory service image before restarting docker compose.', 'info');
 
   } catch (error) {
     log(`❌ Build failed: ${error.message}`, 'error');

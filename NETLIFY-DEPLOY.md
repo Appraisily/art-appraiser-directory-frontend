@@ -97,7 +97,7 @@ If you encounter build issues on Netlify:
 
 The following environment variables should be set in the Netlify deployment settings:
 
-- `SITE_URL`: The base URL of the site (e.g., `https://art-appraiser-directory.appraisily.com`)
+- `SITE_URL`: The base URL of the site (e.g., `https://art-appraisers-directory.appraisily.com`)
 - `NODE_VERSION`: Set to `18` for compatibility
 
 ## Notes for Future Developers

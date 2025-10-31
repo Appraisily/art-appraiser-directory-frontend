@@ -3,7 +3,7 @@
 /**
  * Fix JS URLs
  * 
- * This script updates links in the JavaScript bundle files to point to the subdomain (art-appraiser-directory.appraisily.com)
+ * This script updates links in the JavaScript bundle files to point to the subdomain (art-appraisers-directory.appraisily.com)
  * instead of the main domain (appraisily.com) for appraiser pages
  */
 
@@ -14,7 +14,7 @@ import chalk from 'chalk';
 
 // Configuration
 const MAIN_DOMAIN = 'https://appraisily.com';
-const SUBDOMAIN = 'https://art-appraiser-directory.appraisily.com';
+const SUBDOMAIN = 'https://art-appraisers-directory.appraisily.com';
 
 // Get the project root directory
 const __dirname = path.dirname(fileURLToPath(import.meta.url));

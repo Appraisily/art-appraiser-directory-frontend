@@ -44,7 +44,7 @@ for (const cityDir of cityDirs) {
     const originalHtml = html;
     html = html.replace(
       /https:\/\/appraisily\.com\/appraiser\//g, 
-      'https://art-appraiser-directory.appraisily.com/appraiser/'
+      'https://art-appraisers-directory.appraisily.com/appraiser/'
     );
     
     // Write the updated content back only if changes were made

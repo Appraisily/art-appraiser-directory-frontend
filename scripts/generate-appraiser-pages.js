@@ -17,6 +17,7 @@ const DIST_DIR = path.join(ROOT_DIR, 'dist');
 const APPRAISER_DIR = path.join(DIST_DIR, 'appraiser');
 const STANDARDIZED_DIR = path.join(ROOT_DIR, 'src', 'data', 'standardized');
 const TEMPLATE_FILE = path.join(DIST_DIR, 'index.html');
+const DIRECTORY_DOMAIN = 'https://art-appraisers-directory.appraisily.com';
 
 // ImageKit fallback images
 const FALLBACK_IMAGES = [
@@ -76,6 +77,20 @@ function getRandomFallbackImage() {
   return FALLBACK_IMAGES[randomIndex];
 }
 
+function buildAbsoluteUrl(pathname = '') {
+  if (!pathname) {
+    return DIRECTORY_DOMAIN;
+  }
+
+  if (/^https?:\/\//i.test(pathname)) {
+    return pathname;
+  }
+
+  const base = DIRECTORY_DOMAIN.endsWith('/') ? DIRECTORY_DOMAIN : `${DIRECTORY_DOMAIN}/`;
+  const normalized = pathname.replace(/^\/+/, '');
+  return normalized ? `${base}${normalized}` : DIRECTORY_DOMAIN;
+}
+
 /**
  * Load all standardized appraiser data
  * @returns {Array} - Array of all appraisers
@@ -107,6 +122,17 @@ function loadAllAppraisers() {
   }
   
   return appraisers;
+}
+
+function renderGtmAttributes(attrs = {}) {
+  return Object.entries(attrs)
+    .filter(([, value]) => value !== undefined && value !== null && value !== '')
+    .map(([key, value]) => {
+      const attrName = `data-gtm-${key.replace(/[A-Z]/g, '-$&').toLowerCase()}`;
+      const attrValue = String(value).replace(/"/g, '&quot;');
+      return ` ${attrName}="${attrValue}"`;
+    })
+    .join('');
 }
 
 /**
@@ -328,21 +354,33 @@ function generateAppraiserHtml(appraiser) {
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                   </svg>
-                  <a href="tel:${appraiser.contact.phone}" class="text-gray-700 hover:text-blue-600">
+                  <a href="tel:${appraiser.contact.phone}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'call',
+                    surface: 'contact_card',
+                    appraiserId: appraiser.slug,
+                    appraiserName: appraiser.name
+                  })}>
                     ${appraiser.contact.phone}
                   </a>
                 </div>
-                
+
                 <div class="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                     <polyline points="22,6 12,13 2,6"></polyline>
                   </svg>
-                  <a href="mailto:${appraiser.contact.email}" class="text-gray-700 hover:text-blue-600">
+                  <a href="mailto:${appraiser.contact.email}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'email',
+                    surface: 'contact_card',
+                    appraiserId: appraiser.slug,
+                    appraiserName: appraiser.name
+                  })}>
                     ${appraiser.contact.email}
                   </a>
                 </div>
-                
+
                 ${appraiser.contact.website ? `
                 <div class="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -355,6 +393,13 @@ function generateAppraiserHtml(appraiser) {
                     class="text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'website',
+                      surface: 'contact_card',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     Visit Website
                   </a>
@@ -380,6 +425,13 @@ function generateAppraiserHtml(appraiser) {
                 <a
                   href="https://appraisily.com/start"
                   class="inline-flex items-center justify-center w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-4 py-2 font-medium transition-all duration-300"
+                  ${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'request_appraisal',
+                    surface: 'contact_sidebar',
+                    appraiserId: appraiser.slug,
+                    appraiserName: appraiser.name
+                  })}
                 >
                   Request an Appraisal
                 </a>
@@ -472,6 +524,13 @@ function generateAppraiserHtml(appraiser) {
                   <a 
                     href="tel:${appraiser.contact.phone}"
                     class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'call',
+                      surface: 'cta_block',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
@@ -481,6 +540,13 @@ function generateAppraiserHtml(appraiser) {
                   <a 
                     href="mailto:${appraiser.contact.email}"
                     class="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'email',
+                      surface: 'cta_block',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -491,6 +557,13 @@ function generateAppraiserHtml(appraiser) {
                   <a 
                     href="https://appraisily.com/start"
                     class="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'request_appraisal',
+                      surface: 'cta_block',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
                   >
                     Request Appraisal
                   </a>
@@ -510,7 +583,9 @@ function generateAppraiserHtml(appraiser) {
     title: seoTitle,
     description: seoDescription,
     schema: [appraiserSchema, breadcrumbSchema, faqSchema],
-    content: mainContent
+    content: mainContent,
+    canonicalPath: `/appraiser/${appraiser.slug}`,
+    ogImage: appraiser.imageUrl
   };
 }
 
@@ -523,6 +598,7 @@ function generateAppraiserHtml(appraiser) {
 function generatePageHtml(templateHtml, appraiserPage) {
   const dom = new JSDOM(templateHtml);
   const { document } = dom.window;
+  const head = document.querySelector('head') || document.head;
   
   // Update title and meta description
   document.title = appraiserPage.title;
@@ -532,9 +608,42 @@ function generatePageHtml(templateHtml, appraiserPage) {
   if (metaDescription) {
     metaDescription.setAttribute('content', appraiserPage.description);
   }
+
+  const canonicalUrl = buildAbsoluteUrl(appraiserPage.canonicalPath);
+  let canonicalLink = document.querySelector('link[rel="canonical"]');
+  if (!canonicalLink) {
+    canonicalLink = document.createElement('link');
+    canonicalLink.setAttribute('rel', 'canonical');
+    head.appendChild(canonicalLink);
+  }
+  canonicalLink.setAttribute('href', canonicalUrl);
+
+  const upsertMeta = (attribute, key, value) => {
+    if (!value) {
+      return;
+    }
+    let meta = document.querySelector(`meta[${attribute}="${key}"]`);
+    if (!meta) {
+      meta = document.createElement('meta');
+      meta.setAttribute(attribute, key);
+      head.appendChild(meta);
+    }
+    meta.setAttribute('content', value);
+  };
+
+  upsertMeta('property', 'og:title', appraiserPage.title);
+  upsertMeta('property', 'og:description', appraiserPage.description);
+  upsertMeta('property', 'og:url', canonicalUrl);
+  upsertMeta('property', 'og:image', appraiserPage.ogImage);
+  upsertMeta('property', 'og:type', 'article');
+
+  upsertMeta('name', 'twitter:card', 'summary_large_image');
+  upsertMeta('name', 'twitter:title', appraiserPage.title);
+  upsertMeta('name', 'twitter:description', appraiserPage.description);
+  upsertMeta('name', 'twitter:image', appraiserPage.ogImage);
+  upsertMeta('name', 'twitter:url', canonicalUrl);
   
   // Add JSON-LD schema
-  const head = document.querySelector('head');
   const schemaScript = document.createElement('script');
   schemaScript.setAttribute('type', 'application/ld+json');
   schemaScript.textContent = JSON.stringify(appraiserPage.schema);

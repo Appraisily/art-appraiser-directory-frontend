@@ -75,7 +75,7 @@ async function deployToNetlify() {
       console.warn('⚠️ Warning: robots.txt not found. Creating basic robots.txt...');
       fs.writeFileSync(
         robotsPath,
-        'User-agent: *\nAllow: /\nSitemap: https://art-appraiser-directory.appraisily.com/sitemap.xml'
+        'User-agent: *\nAllow: /\nSitemap: https://art-appraisers-directory.appraisily.com/sitemap.xml'
       );
     }
     

@@ -34,6 +34,17 @@ const BASE_URL = 'https://art-appraiser.appraisily.com';
 const DEFAULT_META_TITLE = 'Art Appraiser Directory | Find Qualified Art Appraisers';
 const DEFAULT_META_DESCRIPTION = 'Find professional art appraisers for insurance, estate, donation, and fair market value appraisals. Get accurate valuations for your artwork.';
 
+function renderGtmAttributes(attrs = {}) {
+  return Object.entries(attrs)
+    .filter(([, value]) => value !== undefined && value !== null && value !== '')
+    .map(([key, value]) => {
+      const attrName = `data-gtm-${key.replace(/[A-Z]/g, '-$&').toLowerCase()}`;
+      const attrValue = String(value).replace(/"/g, '&quot;');
+      return ` ${attrName}="${attrValue}"`;
+    })
+    .join('');
+}
+
 /**
  * Generates meta tags for SEO
  * @param {Object} seoData - SEO data including title, description, etc.
@@ -527,9 +538,27 @@ export async function generateAppraiserPageHTML(appraiser) {
                 <h1>${appraiser.name}</h1>
                 ${appraiser.businessName ? `<p class="business-name">${appraiser.businessName}</p>` : ''}
                 ${location ? `<p class="location">${location}</p>` : ''}
-                ${appraiser.phone ? `<p class="phone"><a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}">${appraiser.phone}</a></p>` : ''}
-                ${appraiser.email ? `<p class="email"><a href="mailto:${appraiser.email}">${appraiser.email}</a></p>` : ''}
-                ${appraiser.website ? `<p class="website"><a href="${appraiser.website}" target="_blank" rel="noopener">Visit Website</a></p>` : ''}
+                ${appraiser.phone ? `<p class="phone"><a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}"${renderGtmAttributes({
+                  event: 'directory_cta',
+                  cta: 'call',
+                  surface: 'profile_contact_info',
+                  appraiserId: slug,
+                  appraiserName: appraiser.name
+                })}>${appraiser.phone}</a></p>` : ''}
+                ${appraiser.email ? `<p class="email"><a href="mailto:${appraiser.email}"${renderGtmAttributes({
+                  event: 'directory_cta',
+                  cta: 'email',
+                  surface: 'profile_contact_info',
+                  appraiserId: slug,
+                  appraiserName: appraiser.name
+                })}>${appraiser.email}</a></p>` : ''}
+                ${appraiser.website ? `<p class="website"><a href="${appraiser.website}" target="_blank" rel="noopener"${renderGtmAttributes({
+                  event: 'directory_cta',
+                  cta: 'website',
+                  surface: 'profile_contact_info',
+                  appraiserId: slug,
+                  appraiserName: appraiser.name
+                })}>Visit Website</a></p>` : ''}
                 
                 ${appraiser.specialties && appraiser.specialties.length > 0 ?
                   `<div class="specialties">
@@ -587,10 +616,28 @@ export async function generateAppraiserPageHTML(appraiser) {
                 <h2>Request an Appraisal</h2>
                 <p>Need an art appraisal? Contact ${appraiser.name} today to schedule a consultation.</p>
                 ${appraiser.phone ? 
-                  `<a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}" class="cta-button">Call ${appraiser.phone}</a>` : 
+                  `<a href="tel:${appraiser.phone.replace(/[^0-9]/g, '')}" class="cta-button"${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'call',
+                    surface: 'profile_cta_section',
+                    appraiserId: slug,
+                    appraiserName: appraiser.name
+                  })}>Call ${appraiser.phone}</a>` : 
                   appraiser.email ? 
-                  `<a href="mailto:${appraiser.email}" class="cta-button">Email ${appraiser.name}</a>` :
-                  `<a href="/contact" class="cta-button">Contact Us</a>`
+                  `<a href="mailto:${appraiser.email}" class="cta-button"${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'email',
+                    surface: 'profile_cta_section',
+                    appraiserId: slug,
+                    appraiserName: appraiser.name
+                  })}>Email ${appraiser.name}</a>` :
+                  `<a href="/contact" class="cta-button"${renderGtmAttributes({
+                    event: 'directory_cta',
+                    cta: 'contact_us',
+                    surface: 'profile_cta_section',
+                    appraiserId: slug,
+                    appraiserName: appraiser.name
+                  })}>Contact Us</a>`
                 }
               </div>
             </div>

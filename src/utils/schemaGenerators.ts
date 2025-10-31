@@ -1,4 +1,7 @@
+import { buildSiteUrl } from '../config/site';
+
 export function generateAppraiserSchema(appraiser: any) {
+  const appraiserId = appraiser.slug || appraiser.id || 'unknown-appraiser';
   // Normalize business hours if available
   const formattedHours = appraiser.businessHours?.map((hours: any) => ({
     "@type": "OpeningHoursSpecification",
@@ -18,7 +21,7 @@ export function generateAppraiserSchema(appraiser: any) {
   const schema: any = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`,
+    "@id": buildSiteUrl(`/appraiser/${appraiserId}`),
     "name": appraiser.name,
     "alternateName": appraiser.businessName || undefined,
     "image": {
@@ -38,7 +41,7 @@ export function generateAppraiserSchema(appraiser: any) {
       "postalCode": appraiser.postalCode || "",
       "addressCountry": "US"
     },
-    "url": appraiser.website || "",
+    "url": appraiser.website || buildSiteUrl(`/appraiser/${appraiserId}`),
     "telephone": appraiser.phone || "",
     "email": appraiser.email || "",
     "sameAs": [
@@ -164,7 +167,7 @@ export function generateAppraiserSchema(appraiser: any) {
   return schema;
 }
 
-export function generateLocationSchema(locationData: any) {
+export function generateLocationSchema(locationData: any, displayName?: string, slug?: string) {
   // Add safety check for locationData
   if (!locationData) {
     console.error('Cannot generate location schema: locationData is undefined');
@@ -172,14 +175,16 @@ export function generateLocationSchema(locationData: any) {
   }
   
   // Create a safe slug value
-  const safeCity = locationData.city || 'unknown-location';
-  const safeSlug = (locationData.slug || safeCity.toLowerCase().replace(/\s+/g, '-'));
-  const stateCode = locationData.state || 'USA';
+  const displayParts = (displayName || '').split(',').map(part => part.trim());
+  const safeCity = locationData.city || displayParts[0] || 'Unknown City';
+  const stateCode = locationData.state || displayParts[1] || 'USA';
+  const safeSlug = (slug || locationData.slug || safeCity.toLowerCase().replace(/\s+/g, '-'));
+  const canonicalUrl = buildSiteUrl(`/location/${safeSlug}`);
   
   return {
     "@context": "https://schema.org",
     "@type": "Service",
-    "@id": `https://art-appraiser.appraisily.com/location/${safeSlug}`,
+    "@id": canonicalUrl,
     "name": `Art Appraisal Services in ${safeCity}`,
     "description": `Find top-rated art appraisers near you in ${safeCity}, ${stateCode}. Professional art valuation services for insurance, estate planning, donations, and more.`,
     "serviceType": "Art Appraisal",
@@ -209,7 +214,7 @@ export function generateLocationSchema(locationData: any) {
       },
       "priceRange": appraiser?.pricing || "$$-$$$",
       "telephone": appraiser?.phone || "",
-      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser?.id || 'unknown'}`,
+      "url": buildSiteUrl(`/appraiser/${appraiser?.slug || appraiser?.id || 'unknown'}`),
       "sameAs": appraiser?.website || ""
     })) : [],
     "offers": {
@@ -228,7 +233,7 @@ export function generateLocationSchema(locationData: any) {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://art-appraiser.appraisily.com/location/${safeSlug}`
+      "@id": canonicalUrl
     }
   };
 }
@@ -406,7 +411,7 @@ export function generateWebPageSchema(title: string, description: string, url: s
     "isPartOf": {
       "@type": "WebSite",
       "name": "Appraisily",
-      "url": "https://art-appraiser.appraisily.com/"
+      "url": buildSiteUrl('/')
     },
     "about": {
       "@type": "Thing",
@@ -499,7 +504,7 @@ export function generateHowToSchema(title: string = 'How to Get an Art Appraisal
         "name": "Find a qualified appraiser",
         "text": "Search our directory to find a certified art appraiser who specializes in your type of artwork.",
         "image": "https://ik.imagekit.io/appraisily/how-to/find-appraiser.jpg",
-        "url": "https://art-appraiser.appraisily.com"
+        "url": buildSiteUrl('/')
       },
       {
         "@type": "HowToStep",

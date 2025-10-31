@@ -1,9 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { MapPin, Star, Phone, Mail, Globe, Clock } from 'lucide-react';
+import { MapPin, Star } from 'lucide-react';
 import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
 import { generateLocationSchema } from '../utils/schemaGenerators';
+import { CTA_URL, SITE_URL, buildSiteUrl } from '../config/site';
+import { trackEvent } from '../utils/analytics';
+import { cities as directoryCities } from '../data/cities.json';
 
 export function StandardizedLocationPage() {
   const { citySlug } = useParams<{ citySlug: string }>();
@@ -13,6 +16,11 @@ export function StandardizedLocationPage() {
   
   // Make sure we have a valid citySlug before proceeding
   const validCitySlug = typeof citySlug === 'string' ? citySlug : '';
+
+  const cityMeta = useMemo(
+    () => directoryCities.find(city => city.slug === validCitySlug) ?? null,
+    [validCitySlug]
+  );
   
   // Fetch location data when component mounts or citySlug changes
   useEffect(() => {
@@ -42,35 +50,84 @@ export function StandardizedLocationPage() {
     fetchData();
   }, [validCitySlug]);
 
+  useEffect(() => {
+    if (!locationData || locationData.appraisers.length === 0) {
+      return;
+    }
+
+    trackEvent('view_item_list', {
+      page_type: 'location',
+      city_slug: validCitySlug,
+      city_name: cityMeta?.name,
+      state: cityMeta?.state,
+      items: locationData.appraisers.slice(0, 25).map(appraiser => ({
+        item_id: appraiser.slug,
+        item_name: appraiser.name,
+        city: appraiser.address.city,
+        state: appraiser.address.state,
+        rating: appraiser.business.rating,
+        review_count: appraiser.business.reviewCount
+      }))
+    });
+  }, [cityMeta, locationData, validCitySlug]);
+
   // Safely transform city slug to display name
-  const cityName = validCitySlug
-    ? validCitySlug
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ')
-    : 'Location';
-    
+  const cityName = useMemo(() => {
+    if (cityMeta) {
+      return `${cityMeta.name}, ${cityMeta.state}`;
+    }
+
+    if (!validCitySlug) {
+      return 'Location';
+    }
+
+    return validCitySlug
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }, [cityMeta, validCitySlug]);
+
   const generateBreadcrumbSchema = () => ({
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://appraisily.com"
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: SITE_URL
       },
       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": `Art Appraisers in ${cityName}`,
-        "item": `https://appraisily.com/location/${validCitySlug}`
+        '@type': 'ListItem',
+        position: 2,
+        name: `Art Appraisers in ${cityName}`,
+        item: buildSiteUrl(`/location/${validCitySlug}`)
       }
     ]
   });
 
   const seoTitle = `Top Art Appraisers in ${cityName} | Expert Art Valuation Services`;
   const seoDescription = `Find the best certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice from trusted local professionals.`;
+
+  const handleAppraiserCardClick = (appraiser: StandardizedAppraiser, placement: string) => {
+    trackEvent('appraiser_card_click', {
+      placement,
+      appraiser_slug: appraiser.slug,
+      appraiser_name: appraiser.name,
+      city: appraiser.address.city,
+      state: appraiser.address.state
+    });
+  };
+
+  const handleLocationCtaClick = () => {
+    trackEvent('cta_click', {
+      placement: 'location_footer',
+      destination: CTA_URL,
+      city_slug: validCitySlug
+    });
+  };
+
+  const breadcrumbSchema = generateBreadcrumbSchema();
   
   if (isLoading) {
     return (
@@ -99,7 +156,8 @@ export function StandardizedLocationPage() {
         <SEO 
           title={`Art Appraisers in ${cityName} | Find Local Art Appraisal Services`}
           description={`We're currently updating our list of art appraisers in ${cityName}. Browse our directory for other locations or check back soon.`}
-          canonicalUrl={`https://appraisily.com/location/${validCitySlug}`}
+          schema={[breadcrumbSchema]}
+          path={`/location/${validCitySlug}`}
         />
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl font-bold mb-4">Art Appraisers in {cityName}</h1>
@@ -107,7 +165,7 @@ export function StandardizedLocationPage() {
             <p className="font-medium">We're currently updating our database of art appraisers in {cityName}.</p>
             <p className="mt-2">Please check back soon or explore other cities in our directory.</p>
           </div>
-          <a href="https://appraisily.com" className="text-blue-600 hover:underline font-medium">
+          <a href={SITE_URL} className="text-blue-600 hover:underline font-medium">
             Browse all locations
           </a>
         </div>
@@ -121,10 +179,10 @@ export function StandardizedLocationPage() {
         title={seoTitle}
         description={seoDescription}
         schema={[
-          generateLocationSchema(cityName, validCitySlug),
-          generateBreadcrumbSchema()
+          generateLocationSchema(locationData, cityName, validCitySlug),
+          breadcrumbSchema
         ]}
-        canonicalUrl={`https://appraisily.com/location/${validCitySlug}`}
+        path={`/location/${validCitySlug}`}
       />
       
       <div className="max-w-6xl mx-auto">
@@ -140,8 +198,12 @@ export function StandardizedLocationPage() {
           {locationData.appraisers.map((appraiser) => (
             <div key={appraiser.id} className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <a 
-                href={`https://art-appraiser-directory.appraisily.com/appraiser/${appraiser.slug}`} 
+                href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
                 className="block"
+                data-gtm-event="appraiser_card_click"
+                data-gtm-appraiser={appraiser.slug}
+                data-gtm-placement="location_results"
+                onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
               >
                 <div className="h-48 bg-gray-200 overflow-hidden">
                   <img 
@@ -217,8 +279,11 @@ export function StandardizedLocationPage() {
             certified professionals in {cityName}.
           </p>
           <a 
-            href="https://appraisily.com/start" 
+            href={CTA_URL}
             className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+            data-gtm-event="cta_click"
+            data-gtm-placement="location_footer"
+            onClick={handleLocationCtaClick}
           >
             Request an appraisal today
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">

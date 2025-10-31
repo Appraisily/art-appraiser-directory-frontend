@@ -5,11 +5,11 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "node scripts/build-standardized.js",
-        "build:legacy": "node scripts/build-simple.js",
-        "build:simple": "node scripts/build-simple.js",
-        "build:standardized": "node scripts/build-standardized.js",
-        "build:netlify-ready": "node scripts/fix-appraiser-links.js && node scripts/build-standardized.js && node scripts/fix-html-paths.js && node scripts/fix-subdomain-links.js && node scripts/fix-js-urls.js && node scripts/inject-gtm-code.js && node scripts/prepare-for-netlify.js",
+        "build": "npm run env:check && node scripts/build-standardized.js",
+        "build:legacy": "npm run env:check && node scripts/build-simple.js",
+        "build:simple": "npm run env:check && node scripts/build-simple.js",
+        "build:standardized": "npm run env:check && node scripts/build-standardized.js",
+        "build:netlify-ready": "npm run env:check && node scripts/fix-appraiser-links.js && node scripts/build-standardized.js && node scripts/fix-html-paths.js && node scripts/fix-subdomain-links.js && node scripts/fix-js-urls.js && node scripts/inject-gtm-code.js && node scripts/prepare-for-netlify.js",
         "preview": "vite preview",
         "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "test:html": "node ./scripts/test-html.js",
@@ -17,7 +17,7 @@
         "fetch:imagekit": "node scripts/list-imagekit-images.js",
         "check:imagekit": "node scripts/check-imagekit-connection.js",
         "randomize:images": "node scripts/randomize-imagekit-images.js",
-        "build:static": "tsc && vite build && node scripts/generate-static.js && node scripts/copy-static.js && node scripts/inject-gtm-code.js && node scripts/generate-sitemap.js",
+        "build:static": "npm run env:check && tsc && vite build && node scripts/generate-static.js && node scripts/copy-static.js && node scripts/inject-gtm-code.js && node scripts/generate-sitemap.js",
         "inject:gtm": "node scripts/inject-gtm-code.js",
         "fix:all-pages": "node ./scripts/fix-all-pages.js",
         "fix:domain-links": "node ./scripts/fix-domain-links.js",
@@ -38,7 +38,8 @@
         "standardize:data": "node ./scripts/standardize-appraiser-data.js",
         "standardize:one": "node ./scripts/standardize-appraiser-data.js",
         "count:appraisers": "node ./scripts/count-appraisers.js",
-        "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js"
+        "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js",
+        "env:check": "node ../../env-governance/run-check.mjs --schema frontends/art-appraiser-directory-frontend"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

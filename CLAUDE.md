@@ -1,7 +1,7 @@
 # Art Appraiser Directory Frontend Guide
 
 ## Subdomain vs. Main Domain URLs
-- When building for the subdomain (art-appraiser-directory.appraisily.com), URLs for appraiser pages should use the full subdomain URL
+- When building for the subdomain (art-appraisers-directory.appraisily.com), URLs for appraiser pages should use the full subdomain URL
 - The source code in LocationPage.tsx and StandardizedLocationPage.tsx has been updated to point to the subdomain
 - Run `npm run fix:js-urls` to update any JS files that may contain main domain URLs
 

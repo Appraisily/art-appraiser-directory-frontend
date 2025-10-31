@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { MapPin, Star, Search, Palette, Award, Badge, Clock, Users, ArrowRight } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
 import { CitySearch } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import { cities } from './data/cities.json';
+import { CTA_URL, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl } from './config/site';
+import { trackEvent } from './utils/analytics';
 
 function App() {
-  const navigate = useNavigate();
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
   };
@@ -39,13 +38,13 @@ function App() {
     return {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": "https://appraisily.com/#website",
-      "url": "https://appraisily.com/",
-      "name": "Appraisily - Find Art Appraisers Near You",
-      "description": "Connect with certified art appraisers, get expert valuations, and make informed decisions about your art collection.",
+      "@id": `${SITE_URL}#website`,
+      "url": SITE_URL,
+      "name": `${SITE_NAME} | Find Art Appraisers Near You`,
+      "description": SITE_DESCRIPTION,
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://appraisily.com/search?q={search_term_string}",
+        "target": `${SITE_URL}/search?q={search_term_string}`,
         "query-input": "required name=search_term_string"
       }
     };
@@ -56,10 +55,10 @@ function App() {
     return {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "@id": "https://appraisily.com/#professional-service",
-      "name": "Appraisily Art Appraisal Directory",
-      "description": "Find certified art appraisers near you for expert valuations, authentication services, and professional advice for your art collection.",
-      "url": "https://appraisily.com/",
+      "@id": `${SITE_URL}#professional-service`,
+      "name": SITE_NAME,
+      "description": SITE_DESCRIPTION,
+      "url": SITE_URL,
       "serviceType": "Art Appraisal",
       "audience": {
         "@type": "Audience",
@@ -72,16 +71,40 @@ function App() {
       "provider": {
         "@type": "Organization",
         "name": "Appraisily",
-        "url": "https://appraisily.com/"
+        "url": SITE_URL
       }
     };
+  };
+
+  const handleDirectoryCtaClick = (placement: string) => {
+    trackEvent('cta_click', {
+      placement,
+      destination: CTA_URL
+    });
+  };
+
+  const handleCityDirectoryClick = (city: typeof cities[0], placement: string) => {
+    trackEvent('city_directory_click', {
+      placement,
+      city_slug: city.slug,
+      city_name: city.name,
+      state: city.state
+    });
+  };
+
+  const handleFeaturedAppraiserClick = (slug: string, name: string, placement: string) => {
+    trackEvent('featured_appraiser_click', {
+      placement,
+      appraiser_slug: slug,
+      appraiser_name: name
+    });
   };
 
   return (
     <>
       <SEO
-        title="Find Art Appraisers Near Me | Expert Art Valuation Services | Appraisily"
-        description="Connect with certified art appraisers near you. Get expert art valuations, authentication services, and professional advice for your art collection. Find local art appraisers today!"
+        title={`${SITE_NAME} | Find Art Appraisers Near You`}
+        description={SITE_DESCRIPTION}
         keywords={[
           'art appraiser near me',
           'find art appraisers',
@@ -99,7 +122,7 @@ function App() {
           generateHomePageSchema(),
           generateServiceSchema()
         ]}
-        canonicalUrl="https://appraisily.com/"
+        canonicalUrl={SITE_URL}
       />
       <div className="flex-1">
         {/* Hero Section with Gradient Background */}
@@ -186,10 +209,15 @@ function App() {
                   <ul className="grid grid-cols-1 gap-2">
                     {regionCities.map(city => (
                       <li key={city.slug}>
-                        <a 
-                          href={`/location/${city.slug}`}
-                          className="flex items-center text-gray-700 hover:text-blue-600 py-1 transition-colors"
-                        >
+                      <a
+                        href={buildSiteUrl(`/location/${city.slug}`)}
+                        className="flex items-center text-gray-700 hover:text-blue-600 py-1 transition-colors"
+                        data-gtm-event="city_directory_click"
+                        data-gtm-city={city.slug}
+                        data-gtm-state={city.state}
+                        data-gtm-placement={`home_${region.toLowerCase().replace(/\s+/g, '-')}`}
+                        onClick={() => handleCityDirectoryClick(city, `home_${region.toLowerCase().replace(/\s+/g, '-')}`)}
+                      >
                           <MapPin className="w-4 h-4 mr-2 text-blue-500" />
                           <span>{city.name}, {city.state}</span>
                         </a>
@@ -203,8 +231,11 @@ function App() {
             <div className="mt-10 text-center">
               <p className="text-gray-600 mb-4">Don't see your city? We may still have art appraisers available in your area.</p>
               <a
-                href="https://appraisily.com/start"
+                href={CTA_URL}
                 className="inline-flex items-center justify-center text-white bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-lg shadow-md font-medium transition-all duration-300"
+                data-gtm-event="cta_click"
+                data-gtm-placement="home_directory"
+                onClick={() => handleDirectoryCtaClick('home_directory')}
               >
                 Request an Appraisal <ArrowRight className="ml-2 h-4 w-4" />
               </a>
@@ -217,7 +248,14 @@ function App() {
           <h2 className="text-3xl font-bold mb-10 text-center">Featured Art Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Example Appraiser Card 1 */}
-            <a href="https://art-appraiser-directory.appraisily.com/appraiser/metropolitan-art-appraisers-chicago" className="group">
+            <a
+              href={buildSiteUrl('/appraiser/metropolitan-art-appraisers-chicago')}
+              className="group"
+              data-gtm-event="featured_appraiser_click"
+              data-gtm-appraiser="metropolitan-art-appraisers-chicago"
+              data-gtm-placement="home_featured"
+              onClick={() => handleFeaturedAppraiserClick('metropolitan-art-appraisers-chicago', 'Metropolitan Art Appraisers', 'home_featured')}
+            >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -249,7 +287,14 @@ function App() {
             </a>
             
             {/* Example Appraiser Card 2 */}
-            <a href="https://art-appraiser-directory.appraisily.com/appraiser/heritage-fine-art-appraisers" className="group">
+            <a
+              href={buildSiteUrl('/appraiser/heritage-fine-art-appraisers')}
+              className="group"
+              data-gtm-event="featured_appraiser_click"
+              data-gtm-appraiser="heritage-fine-art-appraisers"
+              data-gtm-placement="home_featured"
+              onClick={() => handleFeaturedAppraiserClick('heritage-fine-art-appraisers', 'Heritage Fine Art Appraisers', 'home_featured')}
+            >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -281,7 +326,14 @@ function App() {
             </a>
             
             {/* Example Appraiser Card 3 */}
-            <a href="https://art-appraiser-directory.appraisily.com/appraiser/blue-chip-art-valuation" className="group">
+            <a
+              href={buildSiteUrl('/appraiser/blue-chip-art-valuation')}
+              className="group"
+              data-gtm-event="featured_appraiser_click"
+              data-gtm-appraiser="blue-chip-art-valuation"
+              data-gtm-placement="home_featured"
+              onClick={() => handleFeaturedAppraiserClick('blue-chip-art-valuation', 'Blue Chip Art Valuation', 'home_featured')}
+            >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
                   <div style={{ position: 'relative', width: '100%', paddingBottom: '65%' }}>
@@ -314,9 +366,12 @@ function App() {
           </div>
           
           <div className="mt-12 text-center">
-            <a 
-              href="/location/new-york" 
+            <a
+              href={buildSiteUrl('/location/new-york')}
               className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4"
+              data-gtm-event="cta_click"
+              data-gtm-placement="home_browse_all"
+              onClick={() => trackEvent('cta_click', { placement: 'home_browse_all', destination: buildSiteUrl('/location/new-york') })}
             >
               Browse All Appraisers
             </a>

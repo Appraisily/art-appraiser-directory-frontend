@@ -65,7 +65,7 @@ export function AppraiserPage() {
           "@type": "ListItem",
           "position": 3,
           "name": appraiser.name,
-          "item": `https://art-appraiser-directory.appraisily.com/appraiser/${appraiserId}`
+          "item": `https://art-appraisers-directory.appraisily.com/appraiser/${appraiserId}`
         }
       ]
     };
@@ -179,7 +179,7 @@ export function AppraiserPage() {
           generateBreadcrumbSchema(safeAppraiser),
           generateFAQSchema(safeAppraiser)
         ]}
-        canonicalUrl={`https://art-appraiser-directory.appraisily.com/appraiser/${appraiserId}`}
+        canonicalUrl={`https://art-appraisers-directory.appraisily.com/appraiser/${appraiserId}`}
       />
 
       <div className="flex-1">
@@ -213,6 +213,11 @@ export function AppraiserPage() {
                 <a
                   href={`mailto:${safeAppraiser.email}`}
                   className="inline-flex items-center justify-center gap-2 rounded-lg text-sm font-medium h-10 px-4 bg-primary text-white hover:bg-primary/90 transition-colors"
+                  data-gtm-event="directory_cta"
+                  data-gtm-cta="email"
+                  data-gtm-surface="profile_header"
+                  data-gtm-appraiser-id={safeAppraiser.id || ''}
+                  data-gtm-appraiser-name={safeAppraiser.name}
                 >
                   <Mail className="h-4 w-4" />
                   Contact
@@ -220,6 +225,11 @@ export function AppraiserPage() {
                 <a
                   href={`tel:${safeAppraiser.phone}`}
                   className="inline-flex items-center justify-center gap-2 rounded-lg text-sm font-medium h-10 px-4 border border-input hover:bg-accent hover:text-accent-foreground transition-colors"
+                  data-gtm-event="directory_cta"
+                  data-gtm-cta="call"
+                  data-gtm-surface="profile_header"
+                  data-gtm-appraiser-id={safeAppraiser.id || ''}
+                  data-gtm-appraiser-name={safeAppraiser.name}
                 >
                   <Phone className="h-4 w-4" />
                   Call Now
@@ -284,19 +294,43 @@ export function AppraiserPage() {
                   <div className="space-y-2 text-sm">
                     <p>
                       <strong>Website:</strong>{' '}
-                      <a href={safeAppraiser.website} className="text-primary hover:underline">
+                      <a
+                        href={safeAppraiser.website}
+                        className="text-primary hover:underline"
+                        data-gtm-event="directory_cta"
+                        data-gtm-cta="website"
+                        data-gtm-surface="profile_contact_info"
+                        data-gtm-appraiser-id={safeAppraiser.id || ''}
+                        data-gtm-appraiser-name={safeAppraiser.name}
+                      >
                         {safeAppraiser.website.replace(/^https?:\/\//, '')}
                       </a>
                     </p>
                     <p>
                       <strong>Email:</strong>{' '}
-                      <a href={`mailto:${safeAppraiser.email}`} className="text-primary hover:underline">
+                      <a
+                        href={`mailto:${safeAppraiser.email}`}
+                        className="text-primary hover:underline"
+                        data-gtm-event="directory_cta"
+                        data-gtm-cta="email"
+                        data-gtm-surface="profile_contact_info"
+                        data-gtm-appraiser-id={safeAppraiser.id || ''}
+                        data-gtm-appraiser-name={safeAppraiser.name}
+                      >
                         {safeAppraiser.email}
                       </a>
                     </p>
                     <p>
                       <strong>Phone:</strong>{' '}
-                      <a href={`tel:${safeAppraiser.phone}`} className="text-primary hover:underline">
+                      <a
+                        href={`tel:${safeAppraiser.phone}`}
+                        className="text-primary hover:underline"
+                        data-gtm-event="directory_cta"
+                        data-gtm-cta="call"
+                        data-gtm-surface="profile_contact_info"
+                        data-gtm-appraiser-id={safeAppraiser.id || ''}
+                        data-gtm-appraiser-name={safeAppraiser.name}
+                      >
                         {safeAppraiser.phone}
                       </a>
                     </p>

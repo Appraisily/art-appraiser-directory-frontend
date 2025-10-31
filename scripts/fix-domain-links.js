@@ -3,8 +3,9 @@
 /**
  * Fix Domain Links
  * 
- * This script updates all links in the header and footer to point to the main domain (appraisily.com)
- * instead of the subdomain (art-appraiser-directory.appraisily.com)
+ * This script normalizes domain references in generated HTML files:
+ * - keeps canonical/social URLs pointed at the directory subdomain
+ * - ensures navigation links point back to the primary marketing site
  */
 
 import fs from 'fs-extra';
@@ -16,6 +17,8 @@ import chalk from 'chalk';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DIST_DIR = path.join(ROOT_DIR, 'dist');
+const MAIN_DOMAIN = 'https://appraisily.com';
+const DIRECTORY_DOMAIN = 'https://art-appraisers-directory.appraisily.com';
 
 // Log with color and timestamp
 function log(message, type = 'info') {
@@ -63,7 +66,7 @@ async function getAllHtmlFiles(dir = DIST_DIR) {
 }
 
 /**
- * Fix links in all HTML files to point to main domain
+ * Fix links in all HTML files to point to main domain / directory domain as needed
  */
 async function fixDomainLinks() {
   log('Fixing domain links in all HTML files...', 'info');
@@ -77,63 +80,78 @@ async function fixDomainLinks() {
     for (const filePath of htmlFiles) {
       let html = await fs.readFile(filePath, 'utf8');
       
-      // Update canonical URLs
+      // Update canonical URLs to remain on the directory subdomain
       html = html.replace(
-        /<link rel="canonical" href="https:\/\/art-appraiser-directory\.appraisily\.com/g, 
-        '<link rel="canonical" href="https://appraisily.com'
+        /<link rel="canonical" href="https:\/\/art-appraiser-directory\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<link rel="canonical" href="${DIRECTORY_DOMAIN}${pathSuffix}"`
       );
       
       html = html.replace(
-        /<link rel="canonical" href="https:\/\/art-appraiser\.appraisily\.com/g, 
-        '<link rel="canonical" href="https://appraisily.com'
-      );
-      
-      // Update OG URLs
-      html = html.replace(
-        /<meta property="og:url" content="https:\/\/art-appraiser-directory\.appraisily\.com/g, 
-        '<meta property="og:url" content="https://appraisily.com'
+        /<link rel="canonical" href="https:\/\/art-appraiser\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<link rel="canonical" href="${DIRECTORY_DOMAIN}${pathSuffix}"`
       );
       
       html = html.replace(
-        /<meta property="og:url" content="https:\/\/art-appraiser\.appraisily\.com/g, 
-        '<meta property="og:url" content="https://appraisily.com'
+        /<link rel="canonical" href="https:\/\/appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<link rel="canonical" href="${DIRECTORY_DOMAIN}${pathSuffix}"`
       );
       
-      // Update Twitter URLs
+      // Update OG URLs to remain on the directory subdomain
       html = html.replace(
-        /<meta property="twitter:url" content="https:\/\/art-appraiser-directory\.appraisily\.com/g, 
-        '<meta property="twitter:url" content="https://appraisily.com'
+        /<meta property="og:url" content="https:\/\/art-appraiser-directory\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<meta property="og:url" content="${DIRECTORY_DOMAIN}${pathSuffix}"`
       );
       
       html = html.replace(
-        /<meta property="twitter:url" content="https:\/\/art-appraiser\.appraisily\.com/g, 
-        '<meta property="twitter:url" content="https://appraisily.com'
+        /<meta property="og:url" content="https:\/\/art-appraiser\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<meta property="og:url" content="${DIRECTORY_DOMAIN}${pathSuffix}"`
+      );
+      
+      html = html.replace(
+        /<meta property="og:url" content="https:\/\/appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<meta property="og:url" content="${DIRECTORY_DOMAIN}${pathSuffix}"`
+      );
+      
+      // Update Twitter URLs to remain on the directory subdomain
+      html = html.replace(
+        /<meta property="twitter:url" content="https:\/\/art-appraiser-directory\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<meta property="twitter:url" content="${DIRECTORY_DOMAIN}${pathSuffix}"`
+      );
+      
+      html = html.replace(
+        /<meta property="twitter:url" content="https:\/\/art-appraiser\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<meta property="twitter:url" content="${DIRECTORY_DOMAIN}${pathSuffix}"`
+      );
+      
+      html = html.replace(
+        /<meta property="twitter:url" content="https:\/\/appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `<meta property="twitter:url" content="${DIRECTORY_DOMAIN}${pathSuffix}"`
       );
       
       // Update header nav links
       html = html.replace(
         /<a href="\/about"/g, 
-        '<a href="https://appraisily.com/about"'
+        `<a href="${MAIN_DOMAIN}/about"`
       );
       
       html = html.replace(
         /<a href="\/services"/g, 
-        '<a href="https://appraisily.com/services"'
+        `<a href="${MAIN_DOMAIN}/services"`
       );
       
       html = html.replace(
         /<a href="\/expertise"/g, 
-        '<a href="https://appraisily.com/expertise"'
+        `<a href="${MAIN_DOMAIN}/expertise"`
       );
       
       html = html.replace(
         /<a href="\/team"/g, 
-        '<a href="https://appraisily.com/team"'
+        `<a href="${MAIN_DOMAIN}/team"`
       );
       
       html = html.replace(
         /<a href="\/start"/g, 
-        '<a href="https://appraisily.com/start"'
+        `<a href="${MAIN_DOMAIN}/start"`
       );
       
       // Update footer links
@@ -165,13 +183,23 @@ async function fixDomainLinks() {
       
       // Fix URLs in schema.org data
       html = html.replace(
-        /"url":"https:\/\/art-appraiser\.appraisily\.com/g,
-        '"url":"https://appraisily.com'
+        /"url":"https:\/\/art-appraiser\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `"url":"${DIRECTORY_DOMAIN}${pathSuffix}"`
       );
       
       html = html.replace(
-        /"item":"https:\/\/art-appraiser\.appraisily\.com/g,
-        '"item":"https://appraisily.com'
+        /"item":"https:\/\/art-appraiser\.appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `"item":"${DIRECTORY_DOMAIN}${pathSuffix}"`
+      );
+      
+      html = html.replace(
+        /"url":"https:\/\/appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `"url":"${DIRECTORY_DOMAIN}${pathSuffix}"`
+      );
+      
+      html = html.replace(
+        /"item":"https:\/\/appraisily\.com([^"]*)"/g,
+        (_match, pathSuffix) => `"item":"${DIRECTORY_DOMAIN}${pathSuffix}"`
       );
       
       // Write the updated content back to the file
