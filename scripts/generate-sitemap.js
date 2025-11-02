@@ -54,11 +54,16 @@ async function generateSitemap() {
 
     // 2. Add location pages
     const locationFiles = fs.readdirSync(LOCATIONS_DIR)
-      .filter(file => file.endsWith('.json') && !file.includes('copy') && !file.includes('lifecycle'));
+      .filter(file =>
+        file.endsWith('.json') &&
+        !file.includes('copy') &&
+        !file.includes('lifecycle') &&
+        !file.includes('standardized')
+      );
     
     locationFiles.forEach(file => {
       const citySlug = file.replace('.json', '');
-      const url = `/location/${citySlug}`;
+      const url = `/location/${citySlug}/`;
       
       routesWithMetadata.push({
         url,
@@ -73,7 +78,7 @@ async function generateSitemap() {
         locationData.appraisers?.forEach(appraiser => {
           if (appraiser.id) {
             routesWithMetadata.push({
-              url: `/appraiser/${appraiser.id}`,
+              url: `/appraiser/${appraiser.id}/`,
               priority: '0.6',
               changefreq: 'weekly'
             });

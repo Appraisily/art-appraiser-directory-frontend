@@ -15,13 +15,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
 import chalk from 'chalk';
-import { getGtmBodySnippet, getGtmHeadSnippet } from './utils/gtm.js';
 
 // Get the project root directory
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
 const DIST_DIR = path.join(ROOT_DIR, 'dist');
-const CITIES_PATH = path.join(ROOT_DIR, 'src', 'data', 'cities.json');
 
 // Log with color and timestamp
 function log(message, type = 'info') {
@@ -130,93 +128,6 @@ async function fixAllHydrationIssues() {
 }
 
 /**
- * Create HTML files for all location pages
- */
-async function generateLocationPages() {
-  log('Generating static HTML files for all location pages...', 'info');
-  
-  try {
-    // Check if cities data exists
-    if (!fs.existsSync(CITIES_PATH)) {
-      log('⚠️ Cities data file not found!', 'warning');
-      return 0;
-    }
-
-    // Read cities data
-    const citiesData = JSON.parse(fs.readFileSync(CITIES_PATH, 'utf-8'));
-    const cities = citiesData.cities || [];
-
-    if (cities.length === 0) {
-      log('⚠️ No cities found in the data file!', 'warning');
-      return 0;
-    }
-
-    log(`📊 Found ${cities.length} cities to process`, 'info');
-    let generatedCount = 0;
-
-    // Create location directories and HTML files
-    for (const city of cities) {
-      const locationDir = path.join(DIST_DIR, 'location', city.slug);
-      
-      // Create directory if it doesn't exist
-      fs.ensureDirSync(locationDir);
-      
-      // Read the index.html content to use as template
-      const indexPath = path.join(DIST_DIR, 'index.html');
-      if (!fs.existsSync(indexPath)) {
-        log(`⚠️ Index file not found at ${indexPath}!`, 'warning');
-        continue;
-      }
-      
-      const indexHtml = fs.readFileSync(indexPath, 'utf-8');
-      
-      // Create city-specific meta tags
-      const title = `Art Appraisers in ${city.name}, ${city.state} | Expert Art Valuation Services`;
-      const description = `Find certified art appraisers in ${city.name}, ${city.state}. Get expert art valuations, authentication services, and professional advice for your art collection.`;
-      const canonicalUrl = `https://art-appraisers-directory.appraisily.com/location/${city.slug}`;
-
-      const canonicalTag = `<link rel="canonical" href="${canonicalUrl}" />`;
-      const canonicalRegex = /<link rel="canonical" href=".*?"\s*\/?>/;
-
-      let cityHtml = indexHtml
-        .replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
-        .replace(/<meta name="description" content=".*?"/, `<meta name="description" content="${description}"`);
-
-      if (canonicalRegex.test(cityHtml)) {
-        cityHtml = cityHtml.replace(canonicalRegex, canonicalTag);
-      } else {
-        cityHtml = cityHtml.replace('</head>', `    ${canonicalTag}\n  </head>`);
-      }
-
-      const hasGtmHead = cityHtml.includes('https://www.googletagmanager.com/gtm.js');
-      if (!hasGtmHead) {
-        const headSnippet = getGtmHeadSnippet().trim().split('\n').map(line => `    ${line}`).join('\n');
-        cityHtml = cityHtml.replace('</head>', `${headSnippet}\n  </head>`);
-      }
-
-      const hasGtmNoscript = cityHtml.includes('https://www.googletagmanager.com/ns.html');
-      if (!hasGtmNoscript) {
-        const bodySnippet = getGtmBodySnippet().trim().split('\n').map(line => `    ${line}`).join('\n');
-        cityHtml = cityHtml.replace('<body>', `<body>\n${bodySnippet}`);
-      }
-      
-      // Write the HTML file
-      const locationHtmlPath = path.join(locationDir, 'index.html');
-      fs.writeFileSync(locationHtmlPath, cityHtml);
-      
-      log(`✅ Generated page for ${city.name}, ${city.state}`, 'success');
-      generatedCount++;
-    }
-
-    log(`🎉 Successfully generated ${generatedCount} location pages!`, 'success');
-    return generatedCount;
-  } catch (error) {
-    log(`❌ Error generating location pages: ${error.message}`, 'error');
-    throw error;
-  }
-}
-
-/**
  * Main function
  */
 async function main() {
@@ -239,7 +150,7 @@ async function main() {
     log(fallbackOutput, 'info');
     
     // Step 4: Generate static HTML files for all location pages
-    await generateLocationPages();
+    await runScript('node', [path.join(__dirname, 'generate-location-pages.js')]);
     
     log('\nAll pages fixed successfully!', 'success');
     log('Next steps:', 'info');

@@ -4,6 +4,7 @@ import { MapPin, Star } from 'lucide-react';
 import { getLocation } from '../utils/staticData';
 import { SEO } from '../components/SEO';
 import { generateLocationSchema } from '../utils/schemaGenerators';
+import { buildSiteUrl } from '../config/site';
 
 export type Appraiser = {
   id: string;
@@ -47,13 +48,13 @@ export function LocationPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://appraisily.com"
+        "item": buildSiteUrl('/')
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": `Art Appraisers in ${cityName}`,
-        "item": `https://appraisily.com/location/${validCitySlug || ''}`
+        "item": buildSiteUrl(`/location/${validCitySlug || ''}/`)
       }
     ]
   });
@@ -66,7 +67,7 @@ export function LocationPage() {
           description={`Find certified art appraisers for expert art valuations, authentication services, and professional advice for your art collection.`}
           keywords={['art appraisers', 'art valuation', 'art authentication']}
           schema={[generateBreadcrumbSchema()]}
-          canonicalUrl={`https://appraisily.com/location/${validCitySlug || ''}`}
+          canonicalUrl={buildSiteUrl(`/location/${validCitySlug || ''}/`)}
         />
         <div className="container mx-auto px-6 py-12">
           <div className="text-center">
@@ -108,7 +109,7 @@ export function LocationPage() {
         description={(locationData?.seo?.description) || `Find top-rated art appraisers near you in ${cityName}. Professional art valuation, authentication services, and expert appraisals for insurance, estate planning, and donations.`}
         keywords={getKeywords()}
         schema={[generateLocationSchema(locationData), generateBreadcrumbSchema()]}
-        canonicalUrl={`https://appraisily.com/location/${validCitySlug || ''}`}
+        canonicalUrl={buildSiteUrl(`/location/${validCitySlug || ''}/`)}
         ogImage={locationData?.seo?.ogImage || "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"}
         ogType="website"
         preload={[
@@ -136,7 +137,10 @@ export function LocationPage() {
         <main className="container mx-auto px-6 py-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {locationData.appraisers && locationData.appraisers.map((appraiser, index) => (
-                <a key={`appraiser-${appraiser?.id || appraiser?.name || index}-${index}`} href={`https://art-appraisers-directory.appraisily.com/appraiser/${appraiser?.id || ''}`}>
+                <a
+                  key={`appraiser-${appraiser?.id || appraiser?.name || index}-${index}`}
+                  href={buildSiteUrl(`/appraiser/${(appraiser?.id || '').toString()}/`)}
+                >
                   <div className="rounded-lg border bg-white text-foreground shadow-sm group overflow-hidden hover:shadow-lg transition-all duration-300">
                     <div className="relative">
                       <div style={{ position: 'relative', width: '100%', paddingBottom: '75%' }}>

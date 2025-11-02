@@ -584,7 +584,7 @@ function generateAppraiserHtml(appraiser) {
     description: seoDescription,
     schema: [appraiserSchema, breadcrumbSchema, faqSchema],
     content: mainContent,
-    canonicalPath: `/appraiser/${appraiser.slug}`,
+    canonicalPath: `/appraiser/${appraiser.slug}/`,
     ogImage: appraiser.imageUrl
   };
 }

@@ -4,6 +4,7 @@ import { MapPin, Star, Mail, Phone, Globe, Clock, Award, Shield } from 'lucide-r
 import { getAppraiser } from '../utils/staticData';
 import { SEO } from '../components/SEO';
 import { generateAppraiserSchema, generateFAQSchema } from '../utils/schemaGenerators';
+import { buildSiteUrl } from '../config/site';
 
 type Appraiser = {
   id: string;
@@ -53,19 +54,19 @@ export function AppraiserPage() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://appraisily.com"
+          "item": buildSiteUrl('/')
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": `Art Appraisers in ${cityFromAddress}`,
-          "item": `https://appraisily.com/location/${citySlug}`
+          "item": buildSiteUrl(`/location/${citySlug}/`)
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": appraiser.name,
-          "item": `https://art-appraisers-directory.appraisily.com/appraiser/${appraiserId}`
+          "item": buildSiteUrl(`/appraiser/${appraiserId}/`)
         }
       ]
     };
@@ -179,7 +180,7 @@ export function AppraiserPage() {
           generateBreadcrumbSchema(safeAppraiser),
           generateFAQSchema(safeAppraiser)
         ]}
-        canonicalUrl={`https://art-appraisers-directory.appraisily.com/appraiser/${appraiserId}`}
+        canonicalUrl={buildSiteUrl(`/appraiser/${appraiserId}/`)}
       />
 
       <div className="flex-1">

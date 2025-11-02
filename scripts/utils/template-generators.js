@@ -134,7 +134,7 @@ async function generateAppraiserCardHtml(appraiser, options = {}) {
     .replace(/[^\w\s-]/g, '')
     .replace(/\s+/g, '-');
   
-  const profileUrl = `${BASE_URL}/appraiser/${slug}`;
+  const profileUrl = `${BASE_URL}/appraiser/${slug}/`;
   
   // Generate the card HTML
   return `
@@ -193,7 +193,7 @@ export async function generateLocationPageHTML({
   const defaultSeoData = {
     title: `Art Appraisers in ${locationDisplay} | Find Local Art Valuation Experts`,
     description: `Find qualified art appraisers in ${locationDisplay}. Get professional art valuations for insurance, estate planning, donations, and sales from local experts.`,
-    canonicalUrl: `${BASE_URL}/location/${citySlug}`,
+    canonicalUrl: `${BASE_URL}/location/${citySlug}/`,
     keywords: `art appraiser ${cityName}, art appraisal ${cityName}, artwork valuation ${cityName}, certified appraiser ${cityName}`,
     imageUrl: 'https://ik.imagekit.io/appraisily/locations/art-appraisers-location.jpg'
   };
@@ -416,7 +416,7 @@ export async function generateAppraiserPageHTML(appraiser) {
     title: `${appraiser.name} | Art Appraiser${location ? ` in ${location}` : ''}`,
     description: appraiser.description || 
       `${appraiser.name} is a professional art appraiser${location ? ` serving ${location}` : ''}. Specializing in ${appraiser.specialties?.join(', ') || 'fine art appraisals'}.`,
-    canonicalUrl: `${BASE_URL}/appraiser/${slug}`,
+    canonicalUrl: `${BASE_URL}/appraiser/${slug}/`,
     imageUrl: imageUrl,
     type: 'profile'
   };
