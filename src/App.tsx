@@ -3,7 +3,7 @@ import { MapPin, Star, Search, Palette, Award, Badge, Clock, Users, ArrowRight }
 import { CitySearch } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import { cities } from './data/cities.json';
-import { CTA_URL, SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl } from './config/site';
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
 import { trackEvent } from './utils/analytics';
 
 function App() {
@@ -76,10 +76,12 @@ function App() {
     };
   };
 
+  const primaryCtaUrl = getPrimaryCtaUrl();
+
   const handleDirectoryCtaClick = (placement: string) => {
     trackEvent('cta_click', {
       placement,
-      destination: CTA_URL
+      destination: primaryCtaUrl
     });
   };
 
@@ -231,7 +233,7 @@ function App() {
             <div className="mt-10 text-center">
               <p className="text-gray-600 mb-4">Don't see your city? We may still have art appraisers available in your area.</p>
               <a
-                href={CTA_URL}
+                href={primaryCtaUrl}
                 className="inline-flex items-center justify-center text-white bg-blue-600 hover:bg-blue-700 py-3 px-6 rounded-lg shadow-md font-medium transition-all duration-300"
                 data-gtm-event="cta_click"
                 data-gtm-placement="home_directory"

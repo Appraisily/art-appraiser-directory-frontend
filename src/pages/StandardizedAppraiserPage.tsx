@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { MapPin, Star, Mail, Phone, Globe, Clock, ChevronRight, Shield } from 'lucide-react';
 import { getStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
-import { CTA_URL, SITE_URL, buildSiteUrl } from '../config/site';
+import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { trackEvent } from '../utils/analytics';
 import { generateAppraiserSchema, generateFAQSchema } from '../utils/schemaGenerators';
 
@@ -12,6 +12,7 @@ export function StandardizedAppraiserPage() {
   const [appraiser, setAppraiser] = useState<StandardizedAppraiser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const primaryCtaUrl = getPrimaryCtaUrl();
 
   const handleContactClick = (channel: 'phone' | 'email' | 'website', placement: string) => {
     trackEvent('appraiser_contact_click', {
@@ -25,7 +26,7 @@ export function StandardizedAppraiserPage() {
   const handleCtaClick = (placement: string) => {
     trackEvent('cta_click', {
       placement,
-      destination: CTA_URL,
+      destination: primaryCtaUrl,
       appraiser_slug: appraiser?.slug || appraiserId || ''
     });
   };
@@ -377,7 +378,7 @@ export function StandardizedAppraiserPage() {
             
             <div className="mt-6 pt-4 border-t border-gray-100">
               <a
-                href={CTA_URL}
+                href={primaryCtaUrl}
                 className="inline-flex items-center justify-center w-full bg-blue-600 hover:bg-blue-700 text-white rounded-lg px-4 py-2 font-medium transition-all duration-300"
                 data-gtm-event="directory_cta"
                 data-gtm-cta="request_appraisal"
@@ -526,7 +527,7 @@ export function StandardizedAppraiserPage() {
                   Send Email
                 </a>
                 <a 
-                  href={CTA_URL}
+                  href={primaryCtaUrl}
                   className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                   data-gtm-event="directory_cta"
                   data-gtm-cta="request_appraisal"
