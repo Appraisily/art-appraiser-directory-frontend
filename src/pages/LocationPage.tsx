@@ -4,7 +4,8 @@ import { MapPin, Star } from 'lucide-react';
 import { getLocation } from '../utils/staticData';
 import { SEO } from '../components/SEO';
 import { generateLocationSchema } from '../utils/schemaGenerators';
-import { buildSiteUrl } from '../config/site';
+import { DEFAULT_OG_IMAGE, buildSiteUrl } from '../config/site';
+import { normalizeAssetUrl } from '../utils/assetUrls';
 
 export type Appraiser = {
   id: string;
@@ -110,12 +111,12 @@ export function LocationPage() {
         keywords={getKeywords()}
         schema={[generateLocationSchema(locationData), generateBreadcrumbSchema()]}
         canonicalUrl={buildSiteUrl(`/location/${validCitySlug || ''}/`)}
-        ogImage={locationData?.seo?.ogImage || "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg"}
+        ogImage={normalizeAssetUrl(locationData?.seo?.ogImage || DEFAULT_OG_IMAGE)}
         ogType="website"
         preload={[
           {
             as: "image",
-            href: locationData?.seo?.ogImage || "https://ik.imagekit.io/appraisily/appraisily-og-image.jpg",
+            href: normalizeAssetUrl(locationData?.seo?.ogImage || DEFAULT_OG_IMAGE),
             crossorigin: true
           }
         ]}
@@ -146,7 +147,7 @@ export function LocationPage() {
                       <div style={{ position: 'relative', width: '100%', paddingBottom: '75%' }}>
                         <div style={{ position: 'absolute', inset: 0 }}>
                           <img
-                            src={appraiser?.image || appraiser?.imageUrl || '/placeholder-image.jpg'}
+                            src={normalizeAssetUrl(appraiser?.image || appraiser?.imageUrl)}
                             alt={appraiser?.name || 'Art Appraiser'}
                             className="object-cover w-full h-full"
                           />

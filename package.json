@@ -39,7 +39,8 @@
         "standardize:one": "node ./scripts/standardize-appraiser-data.js",
         "count:appraisers": "node ./scripts/count-appraisers.js",
         "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js",
-        "env:check": "node ../../env-governance/run-check.mjs --schema frontends/art-appraiser-directory-frontend"
+        "env:check": "node ../../env-governance/run-check.mjs --schema frontends/art-appraiser-directory-frontend",
+        "publish": "node ./scripts/publish.mjs"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

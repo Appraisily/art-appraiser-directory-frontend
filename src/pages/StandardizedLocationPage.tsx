@@ -5,8 +5,10 @@ import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } 
 import { SEO } from '../components/SEO';
 import { generateLocationSchema } from '../utils/schemaGenerators';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
+import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 import { cities as directoryCities } from '../data/cities.json';
+import { normalizeAssetUrl } from '../utils/assetUrls';
 
 export function StandardizedLocationPage() {
   const { citySlug } = useParams<{ citySlug: string }>();
@@ -208,13 +210,13 @@ export function StandardizedLocationPage() {
               >
                 <div className="h-48 bg-gray-200 overflow-hidden">
                   <img 
-                    src={appraiser.imageUrl} 
+                    src={normalizeAssetUrl(appraiser.imageUrl)} 
                     alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                     loading="lazy"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = 'https://ik.imagekit.io/appraisily/placeholder-image.jpg';
+                      target.src = DEFAULT_PLACEHOLDER_IMAGE;
                     }}
                   />
                 </div>

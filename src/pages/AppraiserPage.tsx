@@ -5,6 +5,7 @@ import { getAppraiser } from '../utils/staticData';
 import { SEO } from '../components/SEO';
 import { generateAppraiserSchema, generateFAQSchema } from '../utils/schemaGenerators';
 import { buildSiteUrl } from '../config/site';
+import { normalizeAssetUrl } from '../utils/assetUrls';
 
 type Appraiser = {
   id: string;
@@ -155,8 +156,7 @@ export function AppraiserPage() {
     reviews: Array.isArray((appraiser as any).reviews) 
       ? (appraiser as any).reviews 
       : [],
-    // Use imageUrl as fallback for image
-    image: (appraiser as any).image || appraiser.imageUrl || 'https://placehold.co/600x400?text=No+Image'
+    image: normalizeAssetUrl((appraiser as any).image || appraiser.imageUrl)
   };
 
   return (

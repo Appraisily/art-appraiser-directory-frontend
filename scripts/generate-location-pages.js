@@ -22,7 +22,19 @@ const CITIES_FILE = path.join(ROOT_DIR, 'src', 'data', 'cities.json');
 
 const DIRECTORY_DOMAIN = 'https://art-appraisers-directory.appraisily.com';
 const CTA_URL = 'https://appraisily.com/start';
-const FALLBACK_IMAGE = 'https://ik.imagekit.io/appraisily/placeholder-image.jpg';
+const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
+const FALLBACK_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
+
+function normalizeImageUrl(input = '') {
+  const url = String(input || '').trim();
+  if (!url) return FALLBACK_IMAGE;
+  if (url.startsWith(ASSETS_BASE_URL)) return url;
+  if (url.startsWith('https://ik.imagekit.io/appraisily/')) {
+    return `${ASSETS_BASE_URL}/${url.slice('https://ik.imagekit.io/appraisily/'.length)}`;
+  }
+  if (url.startsWith('https://placehold.co')) return FALLBACK_IMAGE;
+  return url;
+}
 
 function log(message, type = 'info') {
   const timestamp = new Date().toISOString();
@@ -229,7 +241,7 @@ function createAppraiserCards(appraisers, citySlug) {
     const slug = appraiser.slug || appraiser.id || '';
     const profilePath = `/appraiser/${encodeURIComponent(slug)}/`;
     const profileUrl = buildAbsoluteUrl(profilePath);
-    const imageUrl = appraiser.imageUrl || FALLBACK_IMAGE;
+    const imageUrl = normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE);
     const rating = Number(appraiser.business?.rating);
     const hasRating = Number.isFinite(rating) && rating > 0;
     const ratingText = hasRating ? rating.toFixed(1) : null;
@@ -415,7 +427,7 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
     'position': index + 1,
     'name': appraiser.name,
     'url': buildAbsoluteUrl(`/appraiser/${appraiser.slug}/`),
-    'image': appraiser.imageUrl || FALLBACK_IMAGE,
+    'image': normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE),
     'description': appraiser.content?.about
   }));
 
@@ -544,7 +556,7 @@ function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
   const description = appraisers.length
     ? `Discover ${appraisers.length} certified art appraisers in ${cityDisplayName}. Compare specialties, ratings, pricing insights, and contact details to book a USPAP-compliant valuation.`
     : `We're onboarding art appraisal partners in ${cityDisplayName}. Request an estimate and our team will introduce you to a certified specialist from the Appraisily network.`;
-  const ogImage = appraisers.find(appraiser => appraiser.imageUrl)?.imageUrl || FALLBACK_IMAGE;
+  const ogImage = normalizeImageUrl(appraisers.find(appraiser => appraiser.imageUrl)?.imageUrl || FALLBACK_IMAGE);
 
   document.title = `Art Appraisers in ${cityDisplayName} | Expert Art Valuation Services`;
 

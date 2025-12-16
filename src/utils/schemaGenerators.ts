@@ -1,4 +1,6 @@
 import { buildSiteUrl } from '../config/site';
+import { BRAND_LOGO_URL } from '../config/assets';
+import { normalizeAssetUrl } from './assetUrls';
 
 export function generateAppraiserSchema(appraiser: any) {
   const appraiserId = appraiser.slug || appraiser.id || 'unknown-appraiser';
@@ -26,7 +28,7 @@ export function generateAppraiserSchema(appraiser: any) {
     "alternateName": appraiser.businessName || undefined,
     "image": {
       "@type": "ImageObject",
-      "url": appraiser.image || appraiser.imageUrl || "",
+      "url": normalizeAssetUrl(appraiser.image || appraiser.imageUrl),
       "width": 800,
       "height": 600,
       "caption": `${appraiser.name} - Art Appraiser`
@@ -356,7 +358,7 @@ export function generateArticleSchema(pageTitle: string, pageDescription: string
     "@type": "Article",
     "headline": pageTitle,
     "description": pageDescription,
-    "image": imageUrl || "https://ik.imagekit.io/appraisily/placeholder-art-image.jpg",
+    "image": imageUrl ? normalizeAssetUrl(imageUrl) : BRAND_LOGO_URL,
     "author": {
       "@type": "Organization",
       "name": author || "Appraisily",
@@ -489,34 +491,34 @@ export function generateHowToSchema(title: string = 'How to Get an Art Appraisal
         "@type": "HowToStep",
         "name": "Document your artwork",
         "text": "Take clear, high-resolution photographs of your artwork from multiple angles, including any signatures, markings, or damage.",
-        "image": "https://ik.imagekit.io/appraisily/how-to/document-artwork.jpg",
+        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/document-artwork.jpg'),
         "url": "https://appraisily.com/how-to-document-artwork"
       },
       {
         "@type": "HowToStep",
         "name": "Gather documentation",
         "text": "Collect any existing documentation about your artwork, including receipts, certificates of authenticity, provenance documents, and restoration records.",
-        "image": "https://ik.imagekit.io/appraisily/how-to/gather-documentation.jpg",
+        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/gather-documentation.jpg'),
         "url": "https://appraisily.com/artwork-documentation"
       },
       {
         "@type": "HowToStep",
         "name": "Find a qualified appraiser",
         "text": "Search our directory to find a certified art appraiser who specializes in your type of artwork.",
-        "image": "https://ik.imagekit.io/appraisily/how-to/find-appraiser.jpg",
+        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/find-appraiser.jpg'),
         "url": buildSiteUrl('/')
       },
       {
         "@type": "HowToStep",
         "name": "Contact the appraiser",
         "text": "Reach out to the appraiser to discuss your needs, the purpose of the appraisal, and to schedule an appointment.",
-        "image": "https://ik.imagekit.io/appraisily/how-to/contact-appraiser.jpg"
+        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/contact-appraiser.jpg')
       },
       {
         "@type": "HowToStep",
         "name": "Get your appraisal",
         "text": "Meet with the appraiser (in-person or virtually) and receive your professional appraisal report with the valuation and detailed description of your artwork.",
-        "image": "https://ik.imagekit.io/appraisily/how-to/receive-appraisal.jpg"
+        "image": normalizeAssetUrl('https://ik.imagekit.io/appraisily/how-to/receive-appraisal.jpg')
       }
     ]
   };

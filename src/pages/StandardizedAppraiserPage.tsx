@@ -4,8 +4,10 @@ import { MapPin, Star, Mail, Phone, Globe, Clock, ChevronRight, Shield } from 'l
 import { getStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
+import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 import { generateAppraiserSchema, generateFAQSchema } from '../utils/schemaGenerators';
+import { normalizeAssetUrl } from '../utils/assetUrls';
 
 export function StandardizedAppraiserPage() {
   const { appraiserId } = useParams<{ appraiserId: string }>();
@@ -113,7 +115,7 @@ export function StandardizedAppraiserPage() {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
       "name": appraiser.name,
-      "image": appraiser.imageUrl,
+      "image": normalizeAssetUrl(appraiser.imageUrl),
       "description": appraiser.content.about,
       "address": {
         "@type": "PostalAddress",
@@ -278,12 +280,12 @@ export function StandardizedAppraiserPage() {
         <div className="md:col-span-1">
           <div className="rounded-lg overflow-hidden shadow-md mb-6">
             <img 
-              src={appraiser.imageUrl} 
+              src={normalizeAssetUrl(appraiser.imageUrl)} 
               alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
               className="w-full h-auto"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = 'https://ik.imagekit.io/appraisily/placeholder-image.jpg';
+                target.src = DEFAULT_PLACEHOLDER_IMAGE;
               }}
             />
           </div>
