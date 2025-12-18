@@ -40,7 +40,7 @@
         "count:appraisers": "node ./scripts/count-appraisers.js",
         "generate:appraiser-pages": "node ./scripts/generate-appraiser-pages.js",
         "env:check": "node ../../env-governance/run-check.mjs --schema frontends/art-appraiser-directory-frontend",
-        "publish": "node ./scripts/publish.mjs"
+        "publish": "node ./scripts/publish.mjs --public-dir dist"
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",
