@@ -111,17 +111,12 @@ async function generateSitemap() {
     // Write sitemap to file
     fs.writeFileSync(SITEMAP_PATH, xmlContent);
     
-    // Generate robots.txt
+    // Generate robots.txt (do not block CSS/JS; Google needs these for rendering/indexing quality signals).
     const robotsContent = `User-agent: *
 Allow: /
-Sitemap: ${BASE_URL}/sitemap.xml
-
-# Block access to admin and system files
-User-agent: *
 Disallow: /admin/
-Disallow: /*.json$
-Disallow: /*.js$
-Disallow: /*.css$
+
+Sitemap: ${BASE_URL}/sitemap.xml
 `;
     
     fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), robotsContent);
