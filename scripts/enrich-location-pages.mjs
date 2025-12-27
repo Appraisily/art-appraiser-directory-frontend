@@ -1,0 +1,319 @@
+#!/usr/bin/env node
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import process from 'node:process';
+import { fileURLToPath } from 'node:url';
+import { JSDOM } from 'jsdom';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const REPO_ROOT = path.resolve(__dirname, '..');
+
+const BASE_URL = 'https://art-appraisers-directory.appraisily.com';
+
+const DEFAULT_SLUGS = [
+  'miami',
+  'las-vegas',
+  'palm-beach',
+  'st-louis',
+  'savannah',
+  'salt-lake-city',
+  'sacramento',
+  'philadelphia',
+  'new-orleans',
+  'minneapolis',
+  'kansas-city',
+  'houston',
+  'fort-worth',
+  'dallas',
+  'cleveland',
+  'buffalo',
+  'boston',
+  'santa-fe',
+  'san-jose',
+  'san-diego',
+  'richmond',
+  'portland',
+  'pittsburgh',
+  'nashville',
+  'los-angeles',
+  'jacksonville',
+  'indianapolis',
+  'hartford',
+  'denver',
+  'columbus',
+];
+
+function parseArgs(argv) {
+  const args = [...argv];
+  const options = {
+    publicDir: path.join(REPO_ROOT, 'public_site'),
+    slugs: DEFAULT_SLUGS,
+    dryRun: false,
+  };
+
+  while (args.length) {
+    const token = args.shift();
+    if (!token) continue;
+    const [flag, inlineValue] = token.split('=');
+    const readValue = () => (inlineValue !== undefined ? inlineValue : args.shift());
+
+    switch (flag) {
+      case '--public-dir':
+        options.publicDir = path.resolve(process.cwd(), readValue());
+        break;
+      case '--slugs':
+        {
+          const value = String(readValue() || '').trim();
+          options.slugs = value
+            .split(',')
+            .map((slug) => slug.trim())
+            .filter(Boolean);
+        }
+        break;
+      case '--dry-run':
+        options.dryRun = true;
+        break;
+      default:
+        throw new Error(`Unknown flag ${flag}`);
+    }
+  }
+
+  return options;
+}
+
+function buildUrl(relativePath) {
+  let normalized = String(relativePath || '').trim();
+  if (!normalized.startsWith('/')) normalized = `/${normalized}`;
+  return `${BASE_URL}${normalized}`;
+}
+
+function upsertJsonLd(head, key, payload) {
+  const selector = `script[type="application/ld+json"][data-appraisily-schema="${key}"]`;
+  let script = head.querySelector(selector);
+  if (!script) {
+    script = head.ownerDocument.createElement('script');
+    script.setAttribute('type', 'application/ld+json');
+    script.setAttribute('data-appraisily-schema', key);
+    head.appendChild(script);
+  }
+  script.textContent = JSON.stringify(payload);
+}
+
+function titleCaseFromSlug(slug) {
+  return slug
+    .split('-')
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
+}
+
+function toPlainText(value) {
+  return String(value ?? '').replace(/\s+/g, ' ').trim();
+}
+
+function buildLocationSchemas({ slug, city, state, appraisers }) {
+  const locationPath = `/location/${slug}/`;
+  const locationUrl = buildUrl(locationPath);
+  const locationLabel = state ? `${city}, ${state}` : city;
+
+  const providers = Array.isArray(appraisers)
+    ? appraisers.slice(0, 50).map((appraiser) => {
+        const appraiserSlug = appraiser?.slug || appraiser?.id || '';
+        const rating = appraiser?.business?.rating;
+        const reviewCount = appraiser?.business?.reviewCount;
+
+        return {
+          '@type': 'LocalBusiness',
+          name: toPlainText(appraiser?.name || 'Art Appraiser'),
+          image: toPlainText(appraiser?.imageUrl || ''),
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: city,
+            addressRegion: state || '',
+            addressCountry: 'US',
+          },
+          telephone: toPlainText(appraiser?.contact?.phone || ''),
+          url: appraiserSlug ? buildUrl(`/appraiser/${appraiserSlug}/`) : locationUrl,
+          sameAs: toPlainText(appraiser?.contact?.website || ''),
+          aggregateRating:
+            typeof rating === 'number' && typeof reviewCount === 'number'
+              ? {
+                  '@type': 'AggregateRating',
+                  ratingValue: String(rating),
+                  reviewCount: String(reviewCount),
+                  bestRating: '5',
+                  worstRating: '1',
+                }
+              : undefined,
+        };
+      })
+    : [];
+
+  const locationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': locationUrl,
+    name: `Art Appraisers in ${locationLabel}`,
+    description: `Find top-rated art appraisers near you in ${locationLabel}. Compare local providers and request a fast online appraisal from Appraisily.`,
+    serviceType: 'Art Appraisal',
+    areaServed: {
+      '@type': 'City',
+      name: city,
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: city,
+        addressRegion: state || '',
+        addressCountry: 'US',
+      },
+      containedInPlace: state
+        ? {
+            '@type': 'State',
+            name: state,
+          }
+        : undefined,
+    },
+    provider: providers,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': locationUrl,
+    },
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: buildUrl('/'),
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: `Art appraisers in ${locationLabel}`,
+        item: locationUrl,
+      },
+    ],
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `Do you offer in-person appraisals in ${locationLabel}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Appraisily focuses on online appraisals. This directory lists local providers in ${locationLabel} so you can contact them directly, or use Appraisily for a fast online alternative.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'How does an online appraisal work?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Submit clear photos, measurements, and any provenance. Our experts review the item and deliver a written valuation report online.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'What should I prepare before requesting an appraisal?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Provide multiple photos (front, back, details, marks), dimensions, condition notes, and any history or purchase information.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can I still use a local appraiser?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Yes. Use this directory to contact in-person providers in ${locationLabel}, or request an online appraisal from Appraisily if you want a faster path.`,
+        },
+      },
+    ],
+  };
+
+  return { locationSchema, breadcrumbSchema, faqSchema };
+}
+
+async function loadJson(filePath) {
+  const raw = await fs.readFile(filePath, 'utf8');
+  return JSON.parse(raw);
+}
+
+async function main() {
+  const options = parseArgs(process.argv.slice(2));
+  const citiesPath = path.join(REPO_ROOT, 'src', 'data', 'cities.json');
+  const citiesJson = await loadJson(citiesPath);
+  const cities = Array.isArray(citiesJson?.cities) ? citiesJson.cities : [];
+  const cityBySlug = new Map(cities.map((city) => [city.slug, city]));
+
+  const stats = {
+    publicDir: options.publicDir,
+    dryRun: options.dryRun,
+    requested: options.slugs.length,
+    updated: 0,
+    missingHtml: 0,
+    missingData: 0,
+  };
+
+  for (const slug of options.slugs) {
+    const htmlPath = path.join(options.publicDir, 'location', slug, 'index.html');
+    const dataPath = path.join(REPO_ROOT, 'src', 'data', 'standardized', `${slug}.json`);
+
+    let html;
+    try {
+      html = await fs.readFile(htmlPath, 'utf8');
+    } catch {
+      stats.missingHtml += 1;
+      continue;
+    }
+
+    let locationData;
+    try {
+      locationData = await loadJson(dataPath);
+    } catch {
+      stats.missingData += 1;
+      continue;
+    }
+
+    const meta = cityBySlug.get(slug);
+    const city = meta?.name || titleCaseFromSlug(slug);
+    const state = meta?.state || '';
+    const appraisers = Array.isArray(locationData?.appraisers) ? locationData.appraisers : [];
+
+    const { locationSchema, breadcrumbSchema, faqSchema } = buildLocationSchemas({
+      slug,
+      city,
+      state,
+      appraisers,
+    });
+
+    const dom = new JSDOM(html);
+    const document = dom.window.document;
+    const head = document.querySelector('head');
+    if (!head) continue;
+
+    upsertJsonLd(head, 'location', locationSchema);
+    upsertJsonLd(head, 'breadcrumbs', breadcrumbSchema);
+    upsertJsonLd(head, 'faq', faqSchema);
+
+    const output = dom.serialize();
+    if (!options.dryRun) {
+      await fs.writeFile(htmlPath, output, 'utf8');
+    }
+    stats.updated += 1;
+  }
+
+  console.log(JSON.stringify(stats, null, 2));
+}
+
+main().catch((error) => {
+  console.error('[enrich-location-pages] Failed:', error?.stack || error?.message || error);
+  process.exit(1);
+});
+
