@@ -10,38 +10,7 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 
 const BASE_URL = 'https://art-appraisers-directory.appraisily.com';
 
-const DEFAULT_SLUGS = [
-  'miami',
-  'las-vegas',
-  'palm-beach',
-  'st-louis',
-  'savannah',
-  'salt-lake-city',
-  'sacramento',
-  'philadelphia',
-  'new-orleans',
-  'minneapolis',
-  'kansas-city',
-  'houston',
-  'fort-worth',
-  'dallas',
-  'cleveland',
-  'buffalo',
-  'boston',
-  'santa-fe',
-  'san-jose',
-  'san-diego',
-  'richmond',
-  'portland',
-  'pittsburgh',
-  'nashville',
-  'los-angeles',
-  'jacksonville',
-  'indianapolis',
-  'hartford',
-  'denver',
-  'columbus',
-];
+const DEFAULT_SLUGS = [];
 
 function parseArgs(argv) {
   const args = [...argv];
@@ -81,10 +50,84 @@ function parseArgs(argv) {
   return options;
 }
 
+async function listLocationSlugs(publicDir) {
+  try {
+    const locationDir = path.join(publicDir, 'location');
+    const entries = await fs.readdir(locationDir, { withFileTypes: true });
+    return entries
+      .filter((entry) => entry.isDirectory() && !entry.name.startsWith('.'))
+      .map((entry) => entry.name)
+      .sort((a, b) => a.localeCompare(b));
+  } catch {
+    return [];
+  }
+}
+
 function buildUrl(relativePath) {
   let normalized = String(relativePath || '').trim();
   if (!normalized.startsWith('/')) normalized = `/${normalized}`;
   return `${BASE_URL}${normalized}`;
+}
+
+function safeJsonParse(value) {
+  try {
+    return JSON.parse(value);
+  } catch {
+    return null;
+  }
+}
+
+function normalizeSchemaTypes(typeValue) {
+  if (!typeValue) return [];
+  if (Array.isArray(typeValue)) return typeValue.map((entry) => String(entry));
+  return [String(typeValue)];
+}
+
+function schemaObjectHasType(candidate, typesToMatch) {
+  if (!candidate || typeof candidate !== 'object') return false;
+  const schemaTypes = normalizeSchemaTypes(candidate['@type']);
+  return schemaTypes.some((type) => typesToMatch.has(type));
+}
+
+function stripTopLevelJsonLdTypes(payload, typesToStrip) {
+  if (Array.isArray(payload)) {
+    const filtered = payload.filter((entry) => !schemaObjectHasType(entry, typesToStrip));
+    return filtered.length ? filtered : null;
+  }
+
+  if (payload && typeof payload === 'object') {
+    if (schemaObjectHasType(payload, typesToStrip)) return null;
+
+    const graph = payload['@graph'];
+    if (Array.isArray(graph)) {
+      const filteredGraph = graph.filter((entry) => !schemaObjectHasType(entry, typesToStrip));
+      return { ...payload, '@graph': filteredGraph };
+    }
+
+    return payload;
+  }
+
+  return payload;
+}
+
+function stripJsonLdTypesFromHead(head, typesToStrip, protectedKeys = new Set()) {
+  const scripts = Array.from(head.querySelectorAll('script[type="application/ld+json"]'));
+  for (const script of scripts) {
+    const key = script.getAttribute('data-appraisily-schema') || '';
+    if (key && protectedKeys.has(key)) continue;
+    if (!script.textContent) continue;
+
+    const parsed = safeJsonParse(script.textContent);
+    if (!parsed) continue;
+
+    const nextPayload = stripTopLevelJsonLdTypes(parsed, typesToStrip);
+    if (nextPayload === null) {
+      script.remove();
+      continue;
+    }
+
+    script.textContent = JSON.stringify(nextPayload);
+  }
 }
 
 function upsertJsonLd(head, key, payload) {
@@ -247,6 +290,9 @@ async function loadJson(filePath) {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
+  if (!options.slugs.length) {
+    options.slugs = await listLocationSlugs(options.publicDir);
+  }
   const citiesPath = path.join(REPO_ROOT, 'src', 'data', 'cities.json');
   const citiesJson = await loadJson(citiesPath);
   const cities = Array.isArray(citiesJson?.cities) ? citiesJson.cities : [];
@@ -298,6 +344,8 @@ async function main() {
     const head = document.querySelector('head');
     if (!head) continue;
 
+    stripJsonLdTypesFromHead(head, new Set(['BreadcrumbList', 'FAQPage']), new Set(['location', 'breadcrumbs', 'faq']));
+
     upsertJsonLd(head, 'location', locationSchema);
     upsertJsonLd(head, 'breadcrumbs', breadcrumbSchema);
     upsertJsonLd(head, 'faq', faqSchema);
@@ -316,4 +364,3 @@ main().catch((error) => {
   console.error('[enrich-location-pages] Failed:', error?.stack || error?.message || error);
   process.exit(1);
 });
-
