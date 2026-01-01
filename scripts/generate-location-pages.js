@@ -554,11 +554,11 @@ function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
   const canonicalPath = `/location/${encodeURIComponent(cityMeta.slug)}/`;
   const canonicalUrl = buildAbsoluteUrl(canonicalPath);
   const description = appraisers.length
-    ? `Discover ${appraisers.length} certified art appraisers in ${cityDisplayName}. Compare specialties, ratings, pricing insights, and contact details to book a USPAP-compliant valuation.`
-    : `We're onboarding art appraisal partners in ${cityDisplayName}. Request an estimate and our team will introduce you to a certified specialist from the Appraisily network.`;
+    ? `Discover ${appraisers.length} certified art appraisers near you in ${cityDisplayName}. Compare specialties, ratings, pricing insights, and contact details to book a USPAP-compliant valuation.`
+    : `We're onboarding art appraisal partners near ${cityDisplayName}. Request an estimate and our team will introduce you to a certified specialist from the Appraisily network.`;
   const ogImage = normalizeImageUrl(appraisers.find(appraiser => appraiser.imageUrl)?.imageUrl || FALLBACK_IMAGE);
 
-  document.title = `Art Appraisers in ${cityDisplayName} | Expert Art Valuation Services`;
+  document.title = `Art Appraisers Near ${cityDisplayName} | Local Art Appraisal Services`;
 
   let metaDescription = document.querySelector('meta[name="description"]');
   if (!metaDescription) {

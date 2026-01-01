@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST_DIR = path.join(__dirname, '../dist');
-const LOCATIONS_DIR = path.join(__dirname, '../src/data/locations');
+const LOCATIONS_DIR = path.join(__dirname, '../src/data/standardized');
 
 // Configuration 
 const BASE_URL = process.env.SITE_URL || 'https://art-appraisers-directory.appraisily.com';
@@ -38,14 +38,9 @@ async function generateSitemap() {
     // Track routes with their metadata
     const routesWithMetadata = [];
     
-    // 1. Add main routes with high priority
+    // 1. Add only routes that are actually built into dist/
     const mainRoutes = [
       { url: '/', priority: '1.0', changefreq: 'daily' },
-      { url: '/start', priority: '0.9', changefreq: 'weekly' },
-      { url: '/about', priority: '0.8', changefreq: 'weekly' },
-      { url: '/services', priority: '0.8', changefreq: 'weekly' },
-      { url: '/expertise', priority: '0.8', changefreq: 'weekly' },
-      { url: '/team', priority: '0.7', changefreq: 'monthly' }
     ];
     
     mainRoutes.forEach(route => {
@@ -56,9 +51,9 @@ async function generateSitemap() {
     const locationFiles = fs.readdirSync(LOCATIONS_DIR)
       .filter(file =>
         file.endsWith('.json') &&
+        file !== 'README.md' &&
         !file.includes('copy') &&
-        !file.includes('lifecycle') &&
-        !file.includes('standardized')
+        !file.includes('lifecycle')
       );
     
     locationFiles.forEach(file => {
@@ -76,9 +71,11 @@ async function generateSitemap() {
         const locationData = JSON.parse(fs.readFileSync(path.join(LOCATIONS_DIR, file)));
         
         locationData.appraisers?.forEach(appraiser => {
-          if (appraiser.id) {
+          const targetSlug = appraiser.slug || appraiser.id;
+          if (targetSlug) {
+            const safeSlug = encodeURIComponent(String(targetSlug).trim()).replace(/%20/g, '-');
             routesWithMetadata.push({
-              url: `/appraiser/${appraiser.id}/`,
+              url: `/appraiser/${safeSlug}/`,
               priority: '0.6',
               changefreq: 'weekly'
             });

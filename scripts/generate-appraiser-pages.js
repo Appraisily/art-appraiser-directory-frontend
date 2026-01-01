@@ -148,6 +148,11 @@ function renderGtmAttributes(attrs = {}) {
  * @returns {string} - The HTML content
  */
 function generateAppraiserHtml(appraiser) {
+  const appraiserSlug = appraiser.slug || appraiser.id || '';
+  const locationSlug = appraiser.location || appraiser.address?.city?.toLowerCase?.().replace?.(/\s+/g, '-') || '';
+  const appraiserPath = `/appraiser/${encodeURIComponent(appraiserSlug)}/`;
+  const locationPath = locationSlug ? `/location/${encodeURIComponent(locationSlug)}/` : '/location/';
+
   // Generate schema.org JSON-LD
   const appraiserSchema = {
       "@context": "https://schema.org",
@@ -163,7 +168,7 @@ function generateAppraiserHtml(appraiser) {
       "postalCode": appraiser.address.zip,
       "addressCountry": "US"
     },
-    "url": `/appraiser/${appraiser.slug}`,
+    "url": buildAbsoluteUrl(appraiserPath),
     "telephone": appraiser.contact.phone,
     "email": appraiser.contact.email,
     "priceRange": appraiser.business.pricing,
@@ -200,19 +205,19 @@ function generateAppraiserHtml(appraiser) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "/"
+        "item": buildAbsoluteUrl('/')
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": `Art Appraisers in ${appraiser.address.city}`,
-        "item": `/location/${appraiser.address.city.toLowerCase().replace(/\s+/g, '-')}`
+        "item": buildAbsoluteUrl(locationPath)
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": appraiser.name,
-        "item": `/appraiser/${appraiser.slug}`
+        "item": buildAbsoluteUrl(appraiserPath)
       }
     ]
   };
@@ -317,7 +322,7 @@ function generateAppraiserHtml(appraiser) {
                 <polyline points="9 18 15 12 9 6"></polyline>
               </svg>
               <a 
-                href="/location/${appraiser.address.city.toLowerCase().replace(/\s+/g, '-')}"
+                href="${locationPath}"
                 class="ml-2 text-gray-500 hover:text-gray-700"
               >
                 ${appraiser.address.city}

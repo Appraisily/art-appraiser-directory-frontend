@@ -109,8 +109,8 @@ export function StandardizedLocationPage() {
     ]
   });
 
-  const seoTitle = `Top Art Appraisers in ${cityName} | Expert Art Valuation Services`;
-  const seoDescription = `Find the best certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice from trusted local professionals.`;
+  const seoTitle = `Art Appraisers Near ${cityName} | Local Art Appraisal Services`;
+  const seoDescription = `Find certified art appraisers near you in ${cityName}. Compare specialties, ratings, and contact details to book a professional art valuation.`;
 
   const handleAppraiserCardClick = (appraiser: StandardizedAppraiser, placement: string) => {
     trackEvent('appraiser_card_click', {

@@ -35,6 +35,20 @@ function toNumber(value: unknown, fallback: number) {
   return Number.isFinite(num) ? num : fallback;
 }
 
+function isLikelyBot(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    const nav = window.navigator as any;
+    const ua = String(nav?.userAgent || '');
+    if (!ua) return false;
+    if (nav?.webdriver) return true;
+    if (/HeadlessChrome|PhantomJS|Nightmare|Playwright|Puppeteer/i.test(ua)) return true;
+    return /(bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit|twitterbot|linkedinbot|embedly|quora link preview|slackbot|discordbot|telegrambot|whatsapp|pinterest|yandex|baiduspider|duckduckbot|googlebot)/i.test(ua);
+  } catch {
+    return false;
+  }
+}
+
 function readCookie(name: string): string | null {
   if (typeof document === 'undefined') return null;
   try {
@@ -197,6 +211,7 @@ function applyStoredConsent(reason: string) {
 
 export function initPosthog() {
   if (initialized || typeof window === 'undefined') return;
+  if (isLikelyBot()) return;
   if (!apiKey) {
     if (import.meta.env.DEV) {
       // eslint-disable-next-line no-console
