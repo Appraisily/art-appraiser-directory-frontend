@@ -7,35 +7,9 @@ import { generateAppraiserSchema, generateFAQSchema } from '../utils/schemaGener
 import { buildSiteUrl } from '../config/site';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
-type Appraiser = {
-  id: string;
+type BreadcrumbAppraiser = {
   name: string;
-  image: string;
-  rating: number;
-  reviewCount: number;
-  address: string;
-  phone: string;
-  email: string;
-  website: string;
-  specialties: string[];
-  certifications: string[];
-  businessHours: {
-    day: string;
-    hours: string;
-  }[];
-  about: string;
-  services: {
-    name: string;
-    description: string;
-    price: string;
-  }[];
-  reviews: {
-    id: string;
-    author: string;
-    rating: number;
-    date: string;
-    content: string;
-  }[];
+  address?: string;
   city?: string;
 };
 
@@ -43,9 +17,11 @@ export function AppraiserPage() {
   const { appraiserId } = useParams<{ appraiserId: string }>();
   const appraiser = appraiserId ? getAppraiser(appraiserId) : null;
 
-  const generateBreadcrumbSchema = (appraiser: any) => {
-    const cityFromAddress = appraiser.address ? appraiser.address.split(',')[0].trim() : appraiser.city || 'Unknown';
-    const citySlug = (appraiser.city || cityFromAddress).toLowerCase().replace(/\s+/g, '-');
+  const generateBreadcrumbSchema = (breadcrumbAppraiser: BreadcrumbAppraiser) => {
+    const cityFromAddress = breadcrumbAppraiser.address
+      ? breadcrumbAppraiser.address.split(',')[0].trim()
+      : breadcrumbAppraiser.city || 'Unknown';
+    const citySlug = (breadcrumbAppraiser.city || cityFromAddress).toLowerCase().replace(/\s+/g, '-');
 
     return {
       "@context": "https://schema.org",
@@ -66,7 +42,7 @@ export function AppraiserPage() {
         {
           "@type": "ListItem",
           "position": 3,
-          "name": appraiser.name,
+          "name": breadcrumbAppraiser.name,
           "item": buildSiteUrl(`/appraiser/${appraiserId}/`)
         }
       ]
@@ -117,46 +93,46 @@ export function AppraiserPage() {
     }>;
     image: string;
     imageUrl?: string;
-    [key: string]: any; // Allow any other properties
+    [key: string]: unknown; // Allow any other properties
   }
 
   // Use type assertion to create a fully-populated SafeAppraiser
   const safeAppraiser: SafeAppraiser = {
     ...appraiser,
     // Ensure id is always defined
-    id: (appraiser as any).id || appraiserId || '',
+    id: appraiser.id || appraiserId || '',
     // Extract city from address if not defined
-    city: (appraiser as any).city || (appraiser.address ? appraiser.address.split(',')[0].trim() : 'Unknown'),
-    state: (appraiser as any).state || (appraiser.address?.split(',')[1]?.trim() || 'Unknown'),
+    city: appraiser.city || (appraiser.address ? appraiser.address.split(',')[0].trim() : 'Unknown'),
+    state: appraiser.state || (appraiser.address?.split(',')[1]?.trim() || 'Unknown'),
     // Provide fallbacks for mandatory display fields
-    rating: (appraiser as any).rating || 0,
-    reviewCount: (appraiser as any).reviewCount || 0,
-    about: (appraiser as any).about || `${appraiser.name} is a professional art appraiser specializing in art valuation services.`,
-    email: (appraiser as any).email || '',
+    rating: appraiser.rating || 0,
+    reviewCount: appraiser.reviewCount || 0,
+    about: appraiser.about || `${appraiser.name} is a professional art appraiser specializing in art valuation services.`,
+    email: appraiser.email || '',
     phone: appraiser.phone || '',
     website: appraiser.website || '#',
     specialties: Array.isArray(appraiser.specialties) ? appraiser.specialties : [],
     certifications: Array.isArray(appraiser.certifications) ? appraiser.certifications : [],
     // Convert services_offered to services format if services doesn't exist
-    services: Array.isArray((appraiser as any).services) 
-      ? (appraiser as any).services 
+    services: Array.isArray(appraiser.services) 
+      ? appraiser.services 
       : (Array.isArray(appraiser.services_offered) 
           ? appraiser.services_offered.map((service: string) => ({
               name: service,
               description: `Professional ${service} services`,
-              price: (appraiser as any).pricing || "Contact for pricing"
+              price: appraiser.pricing || "Contact for pricing"
             }))
           : []),
-    businessHours: Array.isArray((appraiser as any).businessHours) 
-      ? (appraiser as any).businessHours 
+    businessHours: Array.isArray(appraiser.businessHours) 
+      ? appraiser.businessHours 
       : [
           { day: "Monday-Friday", hours: "9:00 AM - 5:00 PM" },
           { day: "Saturday-Sunday", hours: "By appointment" }
         ],
-    reviews: Array.isArray((appraiser as any).reviews) 
-      ? (appraiser as any).reviews 
+    reviews: Array.isArray(appraiser.reviews) 
+      ? appraiser.reviews 
       : [],
-    image: normalizeAssetUrl((appraiser as any).image || appraiser.imageUrl)
+    image: normalizeAssetUrl(appraiser.image || appraiser.imageUrl)
   };
 
   return (

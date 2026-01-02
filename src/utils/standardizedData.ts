@@ -5,8 +5,6 @@
  * stored in src/data/standardized/*.json
  */
 
-import fs from 'fs';
-import path from 'path';
 import citiesData from '../data/cities.json';
 
 // Define types for standardized data
@@ -62,39 +60,6 @@ export interface StandardizedLocation {
   appraisers: StandardizedAppraiser[];
 }
 
-// Function to load standardized data
-function loadStandardizedData(): Record<string, StandardizedLocation> {
-  const standardizedDir = path.join(process.cwd(), 'src', 'data', 'standardized');
-  const standardizedData: Record<string, StandardizedLocation> = {};
-  
-  try {
-    // Check if directory exists during SSR
-    if (typeof window === 'undefined' && fs.existsSync(standardizedDir)) {
-      const files = fs.readdirSync(standardizedDir);
-      
-      files.forEach(file => {
-        if (file.endsWith('.json')) {
-          const locationName = file.replace('.json', '');
-          const data = JSON.parse(fs.readFileSync(path.join(standardizedDir, file), 'utf8'));
-          standardizedData[locationName] = data;
-        }
-      });
-    } else {
-      // In browser environment, we'll need to import these dynamically
-      console.warn('StandardizedData: Running in browser mode, dynamic imports not supported');
-    }
-    
-    return standardizedData;
-  } catch (error) {
-    console.error('Error loading standardized data:', error);
-    return {};
-  }
-}
-
-// Load standardized locations - this is a dummy for static import
-// We'll use dynamic imports in the actual implementation
-const standardizedLocations: Record<string, StandardizedLocation> = {};
-
 // Export cities from cities.json
 export const cities = citiesData.cities;
 
@@ -103,7 +68,7 @@ export const cities = citiesData.cities;
  * @param {string} citySlug - The slug of the city to find
  * @returns {StandardizedLocation|null} - The location data or null if not found
  */
-export function getStandardizedLocation(citySlug: string): StandardizedLocation | null {
+export async function getStandardizedLocation(citySlug: string): Promise<StandardizedLocation | null> {
   if (!citySlug) {
     console.error('getStandardizedLocation called with undefined or null citySlug');
     return null;

@@ -2,25 +2,126 @@ import { buildSiteUrl } from '../config/site';
 import { BRAND_LOGO_URL } from '../config/assets';
 import { normalizeAssetUrl } from './assetUrls';
 
-export function generateAppraiserSchema(appraiser: any) {
+type BusinessHoursEntry = { day: string; hours: string };
+type ServiceEntry = { name: string; description?: string; price?: string };
+type ReviewEntry = { author: string; rating: number; date: string; content: string };
+type SocialLinks = { facebook?: string; instagram?: string; linkedin?: string; twitter?: string };
+type AddressObject = { street?: string; city?: string; state?: string; zip?: string; formatted?: string };
+
+type SchemaAppraiserInput = {
+  id?: string;
+  slug?: string;
+  name: string;
+  businessName?: string;
+  image?: string;
+  imageUrl?: string;
+  about?: string;
+  yearEstablished?: string;
+  address?: string | AddressObject;
+  city?: string;
+  state?: string;
+  postalCode?: string;
+  contact?: { phone?: string; email?: string; website?: string };
+  phone?: string;
+  email?: string;
+  website?: string;
+  socialLinks?: SocialLinks;
+  paymentMethods?: string;
+  businessHours?: BusinessHoursEntry[];
+  business?: { hours?: BusinessHoursEntry[]; pricing?: string; rating?: number; reviewCount?: number };
+  priceRange?: string;
+  pricing?: string;
+  rating?: number;
+  reviewCount?: number;
+  services?: ServiceEntry[];
+  services_offered?: string[];
+  certifications?: string[];
+  specialties?: string[];
+  latitude?: number;
+  longitude?: number;
+  reviews?: ReviewEntry[];
+};
+
+type SchemaLocationInput = {
+  city?: string;
+  state?: string;
+  slug?: string;
+  appraisers?: Array<{
+    id?: string;
+    slug?: string;
+    name?: string;
+    image?: string;
+    imageUrl?: string;
+    pricing?: string;
+    business?: { pricing?: string };
+    phone?: string;
+    contact?: { phone?: string; website?: string };
+    website?: string;
+  }>;
+};
+
+function extractAddressParts(appraiser: SchemaAppraiserInput) {
+  const address = appraiser.address;
+  if (typeof address === 'object' && address) {
+    return {
+      street: address.street || '',
+      city: address.city || appraiser.city || '',
+      state: address.state || appraiser.state || '',
+      zip: address.zip || appraiser.postalCode || '',
+    };
+  }
+
+  const raw = typeof address === 'string' ? address : '';
+  const parts = raw.split(',').map((part) => part.trim());
+  const city = parts[0] || appraiser.city || '';
+  const state = parts[1] || appraiser.state || '';
+  return {
+    street: parts[0] || '',
+    city,
+    state,
+    zip: appraiser.postalCode || '',
+  };
+}
+
+function parsePriceToNumber(price: string): number | null {
+  const cleaned = price.replace(/[^0-9.]/g, '');
+  if (!cleaned) return null;
+  const num = Number.parseFloat(cleaned);
+  return Number.isFinite(num) ? num : null;
+}
+
+export function generateAppraiserSchema(appraiser: SchemaAppraiserInput) {
   const appraiserId = appraiser.slug || appraiser.id || 'unknown-appraiser';
   // Normalize business hours if available
-  const formattedHours = appraiser.businessHours?.map((hours: any) => ({
+  const hoursSource = appraiser.businessHours || appraiser.business?.hours || [];
+  const formattedHours = hoursSource.map((hours) => ({
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": hours.day,
     "opens": hours.hours.split(' - ')[0],
     "closes": hours.hours.split(' - ')[1]
-  })) || [];
+  }));
 
   // Generate price range indicator if exact prices aren't available
-  const priceRange = appraiser.priceRange || (
-    appraiser.services?.some((s: any) => 
-      (s.price && parseInt(s.price.replace(/[^0-9]/g, '')) > 500)
-    ) ? "$$$" : "$$"
-  );
+  const priceRange =
+    appraiser.priceRange ||
+    (appraiser.services?.some((service) => {
+      if (!service.price) return false;
+      const numeric = parsePriceToNumber(service.price);
+      return typeof numeric === 'number' && numeric > 500;
+    })
+      ? "$$$"
+      : "$$");
+
+  const { street, city, state, zip } = extractAddressParts(appraiser);
+  const phone = appraiser.contact?.phone || appraiser.phone || "";
+  const email = appraiser.contact?.email || appraiser.email || "";
+  const website = appraiser.contact?.website || appraiser.website || "";
+  const ratingValue = appraiser.rating ?? appraiser.business?.rating;
+  const reviewCountValue = appraiser.reviewCount ?? appraiser.business?.reviewCount;
+  const socialLinks: SocialLinks | undefined = appraiser.socialLinks;
 
   // Create safe schema with null checks for missing properties
-  const schema: any = {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": buildSiteUrl(`/appraiser/${appraiserId}`),
@@ -28,7 +129,7 @@ export function generateAppraiserSchema(appraiser: any) {
     "alternateName": appraiser.businessName || undefined,
     "image": {
       "@type": "ImageObject",
-      "url": normalizeAssetUrl(appraiser.image || appraiser.imageUrl),
+      "url": normalizeAssetUrl(appraiser.image || appraiser.imageUrl || ''),
       "width": 800,
       "height": 600,
       "caption": `${appraiser.name} - Art Appraiser`
@@ -37,20 +138,20 @@ export function generateAppraiserSchema(appraiser: any) {
     "foundingDate": appraiser.yearEstablished,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": appraiser.address?.split(',')[0]?.trim() || "",
-      "addressLocality": appraiser.address?.split(',')[0]?.trim() || "",
-      "addressRegion": appraiser.address?.split(',')[1]?.trim() || appraiser.state || "",
-      "postalCode": appraiser.postalCode || "",
+      "streetAddress": street,
+      "addressLocality": city,
+      "addressRegion": state,
+      "postalCode": zip,
       "addressCountry": "US"
     },
-    "url": appraiser.website || buildSiteUrl(`/appraiser/${appraiserId}`),
-    "telephone": appraiser.phone || "",
-    "email": appraiser.email || "",
+    "url": website || buildSiteUrl(`/appraiser/${appraiserId}`),
+    "telephone": phone,
+    "email": email,
     "sameAs": [
-      appraiser.socialLinks?.facebook || "",
-      appraiser.socialLinks?.instagram || "",
-      appraiser.socialLinks?.linkedin || "",
-      appraiser.socialLinks?.twitter || ""
+      socialLinks?.facebook || "",
+      socialLinks?.instagram || "",
+      socialLinks?.linkedin || "",
+      socialLinks?.twitter || ""
     ].filter(url => url !== ""),
     "priceRange": priceRange,
     "paymentAccepted": appraiser.paymentMethods || "Cash, Credit Card",
@@ -67,11 +168,11 @@ export function generateAppraiserSchema(appraiser: any) {
   }
 
   // Only add rating information if rating and reviewCount exist
-  if (appraiser.rating !== undefined) {
+  if (ratingValue !== undefined && ratingValue !== null) {
     schema.aggregateRating = {
       "@type": "AggregateRating",
-      "ratingValue": appraiser.rating.toString(),
-      "reviewCount": (appraiser.reviewCount || 0).toString(),
+      "ratingValue": String(ratingValue),
+      "reviewCount": String(reviewCountValue || 0),
       "bestRating": "5",
       "worstRating": "1"
     };
@@ -79,11 +180,11 @@ export function generateAppraiserSchema(appraiser: any) {
 
   // Only add reviews if they exist
   if (Array.isArray(appraiser.reviews) && appraiser.reviews.length > 0) {
-    schema.review = appraiser.reviews.map((review: any) => ({
+    schema.review = appraiser.reviews.map((review) => ({
       "@type": "Review",
       "reviewRating": {
         "@type": "Rating",
-        "ratingValue": review.rating.toString(),
+        "ratingValue": String(review.rating),
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -98,7 +199,7 @@ export function generateAppraiserSchema(appraiser: any) {
 
   // Only add services if they exist
   if (Array.isArray(appraiser.services) && appraiser.services.length > 0) {
-    schema.makesOffer = appraiser.services.map((service: any) => ({
+    schema.makesOffer = appraiser.services.map((service) => ({
       "@type": "Offer",
       "name": service.name,
       "description": service.description,
@@ -124,10 +225,10 @@ export function generateAppraiserSchema(appraiser: any) {
   // Add area served information
   schema.areaServed = {
     "@type": "City",
-    "name": appraiser.address?.split(',')[0]?.trim() || appraiser.city || "",
+    "name": city || appraiser.city || "",
     "containedInPlace": {
       "@type": "State",
-      "name": appraiser.address?.split(',')[1]?.trim() || appraiser.state || ""
+      "name": state || appraiser.state || ""
     }
   };
 
@@ -136,7 +237,7 @@ export function generateAppraiserSchema(appraiser: any) {
     schema.hasOfferCatalog = {
       "@type": "OfferCatalog",
       "name": "Art Appraisal Services",
-      "itemListElement": appraiser.services.map((service: any, index: number) => ({
+      "itemListElement": appraiser.services.map((service, index: number) => ({
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
@@ -151,7 +252,7 @@ export function generateAppraiserSchema(appraiser: any) {
     schema.hasOfferCatalog = {
       "@type": "OfferCatalog",
       "name": "Art Appraisal Services",
-      "itemListElement": appraiser.services_offered.map((service: any, index: number) => ({
+      "itemListElement": appraiser.services_offered.map((service: string, index: number) => ({
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
@@ -169,7 +270,7 @@ export function generateAppraiserSchema(appraiser: any) {
   return schema;
 }
 
-export function generateLocationSchema(locationData: any, displayName?: string, slug?: string) {
+export function generateLocationSchema(locationData: SchemaLocationInput | null, displayName?: string, slug?: string) {
   // Add safety check for locationData
   if (!locationData) {
     console.error('Cannot generate location schema: locationData is undefined');
@@ -204,20 +305,20 @@ export function generateLocationSchema(locationData: any, displayName?: string, 
         "name": stateCode
       }
     },
-    "provider": Array.isArray(locationData.appraisers) ? locationData.appraisers.map((appraiser: any) => ({
+    "provider": Array.isArray(locationData.appraisers) ? locationData.appraisers.map((appraiser) => ({
       "@type": "LocalBusiness",
       "name": appraiser?.name || 'Art Appraiser',
-      "image": appraiser?.image || '',
+      "image": normalizeAssetUrl(appraiser?.imageUrl || appraiser?.image || ''),
       "address": {
         "@type": "PostalAddress",
         "addressLocality": safeCity,
         "addressRegion": stateCode,
         "addressCountry": "US"
       },
-      "priceRange": appraiser?.pricing || "$$-$$$",
-      "telephone": appraiser?.phone || "",
+      "priceRange": appraiser?.pricing || appraiser?.business?.pricing || "$$-$$$",
+      "telephone": appraiser?.contact?.phone || appraiser?.phone || "",
       "url": buildSiteUrl(`/appraiser/${appraiser?.slug || appraiser?.id || 'unknown'}`),
-      "sameAs": appraiser?.website || ""
+      "sameAs": appraiser?.contact?.website || appraiser?.website || ""
     })) : [],
     "offers": {
       "@type": "Offer",
@@ -240,19 +341,29 @@ export function generateLocationSchema(locationData: any, displayName?: string, 
   };
 }
 
-export function generateFAQSchema(appraiser: any) {
+export function generateFAQSchema(appraiser: SchemaAppraiserInput) {
   // Safely check if arrays exist and then join them or provide fallbacks
   const services = Array.isArray(appraiser.services) 
-    ? appraiser.services.map((s: any) => s.name).join(', ') 
+    ? appraiser.services.map((service) => service.name).join(', ') 
     : (Array.isArray(appraiser.services_offered) ? appraiser.services_offered.join(', ') : '');
     
   const specialties = Array.isArray(appraiser.specialties) ? appraiser.specialties.join(', ') : '';
   const certifications = Array.isArray(appraiser.certifications) ? appraiser.certifications.join(', ') : '';
   
   // Safely extract city and state from address with fallbacks
-  const city = appraiser.address?.split(',')[0]?.trim() || appraiser.city || '';
-  const state = appraiser.address?.split(',')[1]?.trim() || appraiser.state || '';
+  const { city, state } = extractAddressParts(appraiser);
+  const ratingValue = appraiser.rating ?? appraiser.business?.rating ?? 0;
+  const reviewCountValue = appraiser.reviewCount ?? appraiser.business?.reviewCount ?? 0;
   
+  const minServicePrice = (() => {
+    if (!Array.isArray(appraiser.services)) return null;
+    const candidates = appraiser.services
+      .map((service) => (service.price ? parsePriceToNumber(service.price) : null))
+      .filter((value): value is number => typeof value === 'number');
+    if (!candidates.length) return null;
+    return Math.min(...candidates);
+  })();
+
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -302,13 +413,11 @@ export function generateFAQSchema(appraiser: any) {
         "name": `How much does an art appraisal cost with ${appraiser.name}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": Array.isArray(appraiser.services) && appraiser.services.some((s: any) => s.price) 
-            ? `Art appraisal services with ${appraiser.name} start at ${appraiser.services.reduce((min: any, s: any) => 
-              (s.price && (!min || parseFloat(s.price.replace(/[^0-9.]/g, '')) < parseFloat(min.replace(/[^0-9.]/g, '')))) 
-                ? s.price : min, null) || 'competitive rates'}.` 
-            : (appraiser.pricing 
-              ? `${appraiser.name} offers art appraisal services with the following pricing: ${appraiser.pricing}.`
-              : `${appraiser.name} offers art appraisal services at competitive rates. Contact directly for a quote based on your specific needs.`)
+          "text": typeof minServicePrice === 'number'
+            ? `Art appraisal services with ${appraiser.name} start at about $${minServicePrice}.`
+            : (appraiser.pricing || appraiser.business?.pricing)
+              ? `${appraiser.name} offers art appraisal services with the following pricing: ${(appraiser.pricing || appraiser.business?.pricing) as string}.`
+              : `${appraiser.name} offers art appraisal services at competitive rates. Contact directly for a quote based on your specific needs.`
         }
       },
       {
@@ -324,7 +433,7 @@ export function generateFAQSchema(appraiser: any) {
         "name": `Is ${appraiser.name} the best art appraiser in ${city}?`,
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": `${appraiser.name} is highly rated with ${appraiser.rating} stars and ${appraiser.reviewCount} reviews, making them one of the most respected art appraisers in ${city}${state ? ', ' + state : ''}. Their expertise in ${specialties || 'various art forms'} has earned them a strong reputation in the local community.`
+          "text": `${appraiser.name} is highly rated with ${ratingValue} stars and ${reviewCountValue} reviews, making them one of the most respected art appraisers in ${city}${state ? ', ' + state : ''}. Their expertise in ${specialties || 'various art forms'} has earned them a strong reputation in the local community.`
         }
       },
       {

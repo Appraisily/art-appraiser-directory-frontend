@@ -16,9 +16,18 @@ type RuntimeEnv = Partial<Record<string, unknown>> & {
   POSTHOG_IMPLICIT_CONSENT?: string | boolean;
 };
 
+declare global {
+  interface Window {
+    __ENV__?: RuntimeEnv;
+  }
+}
+
+type NavigatorWithWebdriver = Navigator & { webdriver?: boolean };
+type PosthogCapturing = { is_capturing?: () => boolean };
+
 function readRuntimeEnv(): RuntimeEnv | undefined {
   if (typeof window === 'undefined') return undefined;
-  return (window as any).__ENV__ as RuntimeEnv | undefined;
+  return window.__ENV__;
 }
 
 function toBoolean(value: unknown, fallback: boolean) {
@@ -38,10 +47,10 @@ function toNumber(value: unknown, fallback: number) {
 function isLikelyBot(): boolean {
   if (typeof window === 'undefined') return false;
   try {
-    const nav = window.navigator as any;
-    const ua = String(nav?.userAgent || '');
+    const nav = window.navigator as NavigatorWithWebdriver;
+    const ua = String(nav.userAgent || '');
     if (!ua) return false;
-    if (nav?.webdriver) return true;
+    if (nav.webdriver) return true;
     if (/HeadlessChrome|PhantomJS|Nightmare|Playwright|Puppeteer/i.test(ua)) return true;
     return /(bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit|twitterbot|linkedinbot|embedly|quora link preview|slackbot|discordbot|telegrambot|whatsapp|pinterest|yandex|baiduspider|duckduckbot|googlebot)/i.test(ua);
   } catch {
@@ -60,7 +69,9 @@ function readCookie(name: string): string | null {
         return decodeURIComponent(trimmed.slice(prefix.length));
       }
     }
-  } catch {}
+  } catch {
+    // ignore
+  }
   return null;
 }
 
@@ -139,6 +150,17 @@ const autocapture = toBoolean(
 let initialized = false;
 let replaySampledIn: boolean | null = null;
 
+function isCapturing(): boolean | undefined {
+  const maybe = posthog as unknown as PosthogCapturing;
+  if (typeof maybe.is_capturing === 'function') return maybe.is_capturing();
+  return undefined;
+}
+
+function shouldCapture(): boolean {
+  const capturing = isCapturing();
+  return capturing !== false;
+}
+
 function shouldStartReplay() {
   if (!replayEnabled) return false;
   if (replaySampledIn !== null) return replaySampledIn;
@@ -148,7 +170,7 @@ function shouldStartReplay() {
 
 function registerBaseProperties() {
   if (!initialized) return;
-  if (typeof (posthog as any).is_capturing === 'function' && !(posthog as any).is_capturing()) return;
+  if (!shouldCapture()) return;
   try {
     const ids = readClickIds();
     const props: Record<string, unknown> = {};
@@ -161,7 +183,9 @@ function registerBaseProperties() {
     if (Object.keys(props).length) {
       posthog.register(props);
     }
-  } catch {}
+  } catch {
+    // ignore
+  }
 }
 
 function optIn(reason: string) {
@@ -171,10 +195,11 @@ function optIn(reason: string) {
   if (replayEnabled && shouldStartReplay()) {
     try {
       posthog.startSessionRecording(true);
-    } catch {}
+    } catch {
+      // ignore
+    }
   }
   if (debug) {
-    // eslint-disable-next-line no-console
     console.debug('[posthog] opt-in', { reason });
   }
 }
@@ -184,9 +209,10 @@ function optOut(reason: string) {
   posthog.opt_out_capturing({ captureEventName: false });
   try {
     posthog.stopSessionRecording?.();
-  } catch {}
+  } catch {
+    // ignore
+  }
   if (debug) {
-    // eslint-disable-next-line no-console
     console.debug('[posthog] opt-out', { reason });
   }
 }
@@ -214,7 +240,6 @@ export function initPosthog() {
   if (isLikelyBot()) return;
   if (!apiKey) {
     if (import.meta.env.DEV) {
-      // eslint-disable-next-line no-console
       console.debug('[posthog] api key missing; skipping init');
     }
     return;
@@ -245,7 +270,7 @@ export function initPosthog() {
 
 export function capturePosthogPageview(pathname: string, properties?: Record<string, unknown>) {
   if (!initialized) return;
-  if (typeof (posthog as any).is_capturing === 'function' && !(posthog as any).is_capturing()) return;
+  if (!shouldCapture()) return;
   posthog.capture('$pageview', {
     $current_url: typeof window !== 'undefined' ? window.location.href : pathname,
     $pathname: pathname,
@@ -256,6 +281,6 @@ export function capturePosthogPageview(pathname: string, properties?: Record<str
 
 export function capturePosthogEvent(event: string, properties?: Record<string, unknown>) {
   if (!initialized) return;
-  if (typeof (posthog as any).is_capturing === 'function' && !(posthog as any).is_capturing()) return;
+  if (!shouldCapture()) return;
   posthog.capture(event, properties);
 }

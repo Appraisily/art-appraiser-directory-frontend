@@ -107,7 +107,6 @@ const NavigationMenuViewport = React.forwardRef<
 NavigationMenuViewport.displayName = "NavigationMenuViewport"
 
 export {
-  navigationMenuTriggerStyle,
   NavigationMenu,
   NavigationMenuList,
   NavigationMenuItem,

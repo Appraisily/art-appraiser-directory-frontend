@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MapPin, Star, Clock, Award, Badge } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { MapPin, Clock, Badge } from 'lucide-react';
 
 // Import all location data
 import aspenData from '../data/locations/aspen.json';
@@ -127,7 +126,7 @@ export function AppraisersDirectory() {
   useEffect(() => {
     const appraisers: Appraiser[] = [];
     
-    Object.entries(allLocations).forEach(([locationKey, locationData]) => {
+    Object.values(allLocations).forEach((locationData) => {
       const typedLocationData = locationData as unknown as LocationData;
       
       // Process each appraiser and add the locationKey for reference

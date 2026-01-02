@@ -6,7 +6,6 @@ import { SEO } from '../components/SEO';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
-import { generateAppraiserSchema, generateFAQSchema } from '../utils/schemaGenerators';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
 export function StandardizedAppraiserPage() {
@@ -237,7 +236,7 @@ export function StandardizedAppraiserPage() {
   const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
   const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
   const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
-  const gtmAppraiserId = appraiser.slug || (appraiser as any).id || appraiserId || '';
+  const gtmAppraiserId = appraiser.slug || appraiser.id || appraiserId || '';
   const gtmAppraiserName = appraiser.name;
 
   const schemaBlocks = [

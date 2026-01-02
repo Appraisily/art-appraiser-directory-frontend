@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MapPin, Locate, Search } from 'lucide-react';
+import { MapPin, Locate } from 'lucide-react';
 import { cities } from '../utils/staticData';
 import { trackEvent } from '../utils/analytics';
 

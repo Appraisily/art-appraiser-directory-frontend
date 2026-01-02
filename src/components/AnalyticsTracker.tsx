@@ -12,12 +12,15 @@ declare global {
 
 const isBrowser = typeof window !== 'undefined';
 
+type NavigatorWithWebdriver = Navigator & { webdriver?: boolean };
+
 function isLikelyBot(): boolean {
   if (!isBrowser) return false;
   try {
-    const ua = String(window.navigator?.userAgent || '');
+    const nav = window.navigator as NavigatorWithWebdriver;
+    const ua = String(nav.userAgent || '');
     if (!ua) return false;
-    if ((window.navigator as any)?.webdriver) return true;
+    if (nav.webdriver) return true;
     if (/HeadlessChrome|PhantomJS|Nightmare|Playwright|Puppeteer/i.test(ua)) return true;
     return /(bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit|twitterbot|linkedinbot|embedly|quora link preview|slackbot|discordbot|telegrambot|whatsapp|pinterest|yandex|baiduspider|duckduckbot|googlebot)/i.test(ua);
   } catch {
@@ -37,7 +40,7 @@ export function AnalyticsTracker() {
       scriptContent: script,
       noscriptContent: noscript
     };
-  }, [GOOGLE_TAG_MANAGER_ID]);
+  }, []);
 
   useEffect(() => {
     if (!isBrowser || !GOOGLE_TAG_MANAGER_ID) {

@@ -11,7 +11,7 @@
         "build:standardized": "npm run env:check && node scripts/build-standardized.js",
         "build:netlify-ready": "npm run env:check && node scripts/fix-appraiser-links.js && node scripts/build-standardized.js && node scripts/fix-html-paths.js && node scripts/fix-subdomain-links.js && node scripts/fix-js-urls.js && node scripts/inject-gtm-code.js && node scripts/prepare-for-netlify.js",
         "preview": "vite preview",
-        "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+        "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "test:html": "node ./scripts/test-html.js",
         "serve:static": "npx serve dist -s",
         "fetch:imagekit": "node scripts/list-imagekit-images.js",

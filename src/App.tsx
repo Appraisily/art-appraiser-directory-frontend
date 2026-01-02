@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Star, Search, Palette, Award, Badge, Clock, Users, ArrowRight } from 'lucide-react';
+import { MapPin, Star, Search, Palette, Award, Badge, Clock, ArrowRight } from 'lucide-react';
 import { CitySearch } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import { cities } from './data/cities.json';
