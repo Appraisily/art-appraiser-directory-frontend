@@ -315,7 +315,7 @@ function getFooterHTML(jsPath) {
 function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath) {
   const title = `Art Appraisers in ${cityName} | Expert Art Valuation Services | Appraisily`;
   const description = `Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.`;
-  const canonicalUrl = `https://art-appraiser.appraisily.com/location/${citySlug}`;
+  const canonicalUrl = `https://art-appraisers-directory.appraisily.com/location/${citySlug}/`;
   const locationImage = locationData.imageUrl || 'https://ik.imagekit.io/appraisily/location-images/default-city.jpg';
   
   // Create schema data
@@ -339,7 +339,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
       "@type": "ProfessionalService",
       "name": appraiser.name,
       "image": appraiser.image || appraiser.imageUrl,
-      "url": `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`
+      "url": `https://art-appraisers-directory.appraisily.com/appraiser/${appraiser.id}/`
     }))
   };
   
@@ -351,7 +351,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://art-appraiser.appraisily.com"
+        "item": "https://art-appraisers-directory.appraisily.com/"
       },
       {
         "@type": "ListItem",
@@ -474,7 +474,7 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
   const title = `${displayName} - Art Appraiser | Expert Art Valuation Services`;
   const specialties = appraiser.specialties?.join(', ') || '';
   const description = `Get professional art appraisal services from ${displayName}. Specializing in ${specialties}. Certified expert with ${appraiser.reviewCount || 'verified'} reviews.`;
-  const canonicalUrl = `https://art-appraiser.appraisily.com/appraiser/${appraiser.id}`;
+  const canonicalUrl = `https://art-appraisers-directory.appraisily.com/appraiser/${appraiser.id}/`;
   const imageUrl = generateImageUrl(appraiser);
   
   // Create schema data for appraiser
@@ -511,13 +511,13 @@ function generateAppraiserHTML(appraiser, cityName, cssPath, jsPath) {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://art-appraiser.appraisily.com"
+        "item": "https://art-appraisers-directory.appraisily.com/"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": `Art Appraisers in ${cityName}`,
-        "item": `https://art-appraiser.appraisily.com/location/${cityName.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://art-appraisers-directory.appraisily.com/location/${cityName.toLowerCase().replace(/\\s+/g, '-')}/`
       },
       {
         "@type": "ListItem",

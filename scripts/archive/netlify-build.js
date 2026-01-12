@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.join(__dirname, '..');
 
 // Setting up environment
-const siteUrl = process.env.SITE_URL || 'https://art-appraiser.appraisily.com';
+const siteUrl = process.env.SITE_URL || 'https://art-appraisers-directory.appraisily.com';
 // Set environment variable for sitemap generation
 process.env.SITE_URL = siteUrl;
 

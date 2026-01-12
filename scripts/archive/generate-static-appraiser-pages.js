@@ -178,7 +178,7 @@ function generateAppraiserStaticPage(appraiser, location) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${displayName} - Art Appraiser in ${location}</title>
   <meta name="description" content="${description}">
-  <link rel="canonical" href="https://art-appraiser.appraisily.com/appraiser/${locationSlug}-${appraiserSlug}/">
+  <link rel="canonical" href="https://art-appraisers-directory.appraisily.com/appraiser/${locationSlug}-${appraiserSlug}/">
   ${cssFile ? `<link rel="stylesheet" href="${cssFile}">` : ''}
   
   <!-- Schema.org structured data -->

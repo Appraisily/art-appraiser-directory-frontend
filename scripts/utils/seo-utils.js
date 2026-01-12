@@ -168,22 +168,26 @@ export function generateKeywords({
  * @returns {string} Canonical URL
  */
 export function generateCanonicalUrl({
-  baseUrl = 'https://art-appraiser.appraisily.com',
+  baseUrl = 'https://art-appraisers-directory.appraisily.com',
   path = '',
   id = '',
   type = ''
 }) {
+  const normalizedBaseUrl = String(baseUrl || '')
+    .trim()
+    .replace(/\/+$/, '');
+
   if (path) {
     // Ensure path starts with /
     const normalizedPath = path.startsWith('/') ? path : `/${path}`;
-    return `${baseUrl}${normalizedPath}`;
+    return `${normalizedBaseUrl}${normalizedPath}`;
   }
   
   if (type && id) {
-    return `${baseUrl}/${type}/${id}`;
+    return `${normalizedBaseUrl}/${type}/${id}`;
   }
   
-  return baseUrl;
+  return normalizedBaseUrl || 'https://art-appraisers-directory.appraisily.com';
 }
 
 /**
