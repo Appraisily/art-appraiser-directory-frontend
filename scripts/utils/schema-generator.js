@@ -365,7 +365,7 @@ export function generateServiceSchema(service, provider) {
     if (provider.slug || provider.id) {
       const baseUrl = process.env.SITE_URL || 'https://art-appraisers-directory.appraisily.com';
       const slug = provider.slug || provider.id;
-      schema.provider.url = `${baseUrl.replace(/\\/+$/, '')}/appraiser/${slug}/`;
+      schema.provider.url = `${baseUrl.replace(/\/+$/, '')}/appraiser/${slug}/`;
     }
   }
   

@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/</loc>
-    <lastmod>2025-12-15T13:40:08.847Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.739Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://art-appraisers-directory.appraisily.com/50x.html</loc>
-    <lastmod>2025-04-23T12:59:25.000Z</lastmod>
+    <loc>https://art-appraisers-directory.appraisily.com/appraiser/</loc>
+    <lastmod>2026-01-14T09:40:12.738Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -763,182 +763,188 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://art-appraisers-directory.appraisily.com/location/</loc>
+    <lastmod>2026-01-14T09:40:12.701Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/boston/</loc>
-    <lastmod>2025-12-26T16:46:30.040Z</lastmod>
+    <lastmod>2026-01-14T09:40:10.696Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/buffalo/</loc>
-    <lastmod>2025-12-26T16:46:30.038Z</lastmod>
+    <lastmod>2026-01-14T09:40:10.748Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/cleveland/</loc>
-    <lastmod>2025-12-26T16:46:30.032Z</lastmod>
+    <lastmod>2026-01-14T09:40:10.984Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/columbus/</loc>
-    <lastmod>2025-12-26T16:46:30.030Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.026Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/dallas/</loc>
-    <lastmod>2025-12-26T16:46:30.028Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.061Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/denver/</loc>
-    <lastmod>2025-12-26T16:46:30.027Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.117Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/fort-worth/</loc>
-    <lastmod>2025-12-26T16:46:30.025Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.148Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/hartford/</loc>
-    <lastmod>2025-12-26T16:46:30.024Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.193Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/houston/</loc>
-    <lastmod>2025-12-26T16:46:30.022Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.231Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/indianapolis/</loc>
-    <lastmod>2025-12-26T16:46:30.020Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.268Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/jacksonville/</loc>
-    <lastmod>2025-12-26T16:46:30.019Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.316Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/kansas-city/</loc>
-    <lastmod>2025-12-26T16:46:30.017Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.351Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/las-vegas/</loc>
-    <lastmod>2025-12-26T16:46:30.016Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.414Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/los-angeles/</loc>
-    <lastmod>2025-12-26T16:46:30.014Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.446Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/miami/</loc>
-    <lastmod>2025-12-26T16:46:30.013Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.505Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/minneapolis/</loc>
-    <lastmod>2025-12-26T16:46:30.010Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.543Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/nashville/</loc>
-    <lastmod>2025-12-26T16:46:30.008Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.588Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/new-orleans/</loc>
-    <lastmod>2025-12-26T16:46:30.007Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.632Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/palm-beach/</loc>
-    <lastmod>2025-12-26T16:46:30.004Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.696Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/philadelphia/</loc>
-    <lastmod>2025-12-26T16:46:30.002Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.735Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/pittsburgh/</loc>
-    <lastmod>2025-12-26T16:46:30.000Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.807Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/portland/</loc>
-    <lastmod>2025-12-26T16:46:29.998Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.841Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/richmond/</loc>
-    <lastmod>2025-12-26T16:46:29.994Z</lastmod>
+    <lastmod>2026-01-14T09:40:11.956Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/sacramento/</loc>
-    <lastmod>2025-12-26T16:46:29.993Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.007Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/salt-lake-city/</loc>
-    <lastmod>2025-12-26T16:46:29.991Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.047Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/san-diego/</loc>
-    <lastmod>2025-12-26T16:46:29.988Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.140Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/san-jose/</loc>
-    <lastmod>2025-12-26T16:46:29.985Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.228Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/santa-fe/</loc>
-    <lastmod>2025-12-26T16:46:29.982Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.260Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/savannah/</loc>
-    <lastmod>2025-12-26T16:46:29.981Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.337Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://art-appraisers-directory.appraisily.com/location/st-louis/</loc>
-    <lastmod>2025-12-26T16:46:29.978Z</lastmod>
+    <lastmod>2026-01-14T09:40:12.418Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
