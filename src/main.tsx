@@ -1,5 +1,5 @@
 import { StrictMode } from 'react';
-import { createRoot, hydrateRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { router } from './router';
@@ -41,9 +41,14 @@ console.log('📊 Environment info:', {
 });
 
 // Tag AI assistant referrals as early as possible
-tagAiAssistantReferrer();
+try {
+  tagAiAssistantReferrer();
+} catch (error) {
+  console.error('Failed to tag AI assistant referrer', error);
+}
 
-// Determine if we should hydrate or create a new root
+// Render client-side only. Hydration has caused React invariant errors in production
+// when the server pre-rendered HTML does not match the client bundle.
 const rootElement = document.getElementById('root');
 
 if (!rootElement) {
@@ -62,30 +67,20 @@ if (!rootElement) {
     });
     console.log('🧩 Content status:', { hasPreRenderedContent, childNodes: rootElement.childNodes.length });
 
-    if (hasPreRenderedContent) {
-      // Use hydration for server-rendered content
-      console.log('💧 Hydrating pre-rendered content');
-      hydrateRoot(
-        rootElement,
-        <StrictMode>
-          <HelmetProvider>
-            <RouterProvider router={router} />
-          </HelmetProvider>
-        </StrictMode>
-      );
-      console.log('✅ Hydration complete');
-    } else {
-      // Use regular rendering for client-only rendering
-      console.log('🌱 Creating new React root (client-only rendering)');
-      createRoot(rootElement).render(
-        <StrictMode>
-          <HelmetProvider>
-            <RouterProvider router={router} />
-          </HelmetProvider>
-        </StrictMode>
-      );
-      console.log('✅ Rendering complete');
-    }
+    console.log(
+      hasPreRenderedContent
+        ? '🧯 Pre-rendered HTML detected; skipping hydration (client render only)'
+        : '🌱 No pre-rendered HTML; client render only'
+    );
+
+    createRoot(rootElement).render(
+      <StrictMode>
+        <HelmetProvider>
+          <RouterProvider router={router} />
+        </HelmetProvider>
+      </StrictMode>
+    );
+    console.log('✅ Rendering complete');
   } catch (error) {
     console.error('❌ Application initialization failed:', error);
     console.log('📑 Error details:', {
