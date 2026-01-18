@@ -16,6 +16,8 @@ export function StandardizedLocationPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const primaryCtaUrl = getPrimaryCtaUrl();
+  const getAppraiserPath = (appraiser: StandardizedAppraiser) =>
+    `/appraiser/${appraiser.id || appraiser.slug}`;
   
   // Make sure we have a valid citySlug before proceeding
   const validCitySlug = typeof citySlug === 'string' ? citySlug : '';
@@ -64,7 +66,7 @@ export function StandardizedLocationPage() {
       city_name: cityMeta?.name,
       state: cityMeta?.state,
       items: locationData.appraisers.slice(0, 25).map(appraiser => ({
-        item_id: appraiser.slug,
+        item_id: appraiser.id || appraiser.slug,
         item_name: appraiser.name,
         city: appraiser.address.city,
         state: appraiser.address.state,
@@ -201,10 +203,10 @@ export function StandardizedLocationPage() {
           {locationData.appraisers.map((appraiser) => (
             <div key={appraiser.id} className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
               <a 
-                href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
+                href={buildSiteUrl(getAppraiserPath(appraiser))}
                 className="block"
                 data-gtm-event="appraiser_card_click"
-                data-gtm-appraiser={appraiser.slug}
+                data-gtm-appraiser={appraiser.id || appraiser.slug}
                 data-gtm-placement="location_results"
                 onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
               >

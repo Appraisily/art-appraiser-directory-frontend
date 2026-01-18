@@ -19,7 +19,7 @@ export function StandardizedAppraiserPage() {
     trackEvent('appraiser_contact_click', {
       channel,
       placement,
-      appraiser_slug: appraiser?.slug || appraiserId || '',
+      appraiser_slug: appraiser?.id || appraiser?.slug || appraiserId || '',
       appraiser_name: appraiser?.name
     });
   };
@@ -28,7 +28,7 @@ export function StandardizedAppraiserPage() {
     trackEvent('cta_click', {
       placement,
       destination: primaryCtaUrl,
-      appraiser_slug: appraiser?.slug || appraiserId || ''
+      appraiser_slug: appraiser?.id || appraiser?.slug || appraiserId || ''
     });
   };
   
@@ -80,6 +80,7 @@ export function StandardizedAppraiserPage() {
     if (!appraiser) return null;
     
     const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
+    const canonicalAppraiserId = appraiser.id || appraiser.slug || appraiserId || '';
     
     return {
       "@context": "https://schema.org",
@@ -101,7 +102,7 @@ export function StandardizedAppraiserPage() {
           "@type": "ListItem",
           "position": 3,
           "name": appraiser.name,
-          "item": buildSiteUrl(`/appraiser/${appraiser.slug}`)
+          "item": buildSiteUrl(`/appraiser/${canonicalAppraiserId}`)
         }
       ]
     };
@@ -109,6 +110,7 @@ export function StandardizedAppraiserPage() {
 
   const generateAppraiserSchema = () => {
     if (!appraiser) return null;
+    const canonicalAppraiserId = appraiser.id || appraiser.slug || appraiserId || '';
     
     return {
       "@context": "https://schema.org",
@@ -124,7 +126,7 @@ export function StandardizedAppraiserPage() {
         "postalCode": appraiser.address.zip,
         "addressCountry": "US"
       },
-      "url": buildSiteUrl(`/appraiser/${appraiser.slug}`),
+      "url": buildSiteUrl(`/appraiser/${canonicalAppraiserId}`),
       "telephone": appraiser.contact.phone,
       "email": appraiser.contact.email,
       "priceRange": appraiser.business.pricing,
@@ -236,7 +238,8 @@ export function StandardizedAppraiserPage() {
   const seoTitle = `${appraiser.name} - Art Appraiser in ${appraiser.address.city} | Expert Art Valuation Services`;
   const seoDescription = `Get professional art appraisal services from ${appraiser.name} in ${appraiser.address.city}. Specializing in ${appraiser.expertise.specialties.join(', ')}. Certified expert with verified reviews.`;
   const citySlug = appraiser.address.city.toLowerCase().replace(/\s+/g, '-');
-  const gtmAppraiserId = appraiser.slug || appraiser.id || appraiserId || '';
+  const canonicalAppraiserId = appraiser.id || appraiser.slug || appraiserId || '';
+  const gtmAppraiserId = canonicalAppraiserId;
   const gtmAppraiserName = appraiser.name;
 
   const schemaBlocks = [
@@ -251,7 +254,7 @@ export function StandardizedAppraiserPage() {
         title={seoTitle}
         description={seoDescription}
         schema={schemaBlocks}
-        path={`/appraiser/${appraiser.slug}`}
+        path={`/appraiser/${canonicalAppraiserId}`}
       />
       
       <nav className="flex mb-6" aria-label="Breadcrumb">

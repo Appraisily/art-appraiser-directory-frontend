@@ -91,7 +91,7 @@ function parsePriceToNumber(price: string): number | null {
 }
 
 export function generateAppraiserSchema(appraiser: SchemaAppraiserInput) {
-  const appraiserId = appraiser.slug || appraiser.id || 'unknown-appraiser';
+  const appraiserId = appraiser.id || appraiser.slug || 'unknown-appraiser';
   // Normalize business hours if available
   const hoursSource = appraiser.businessHours || appraiser.business?.hours || [];
   const formattedHours = hoursSource.map((hours) => ({
@@ -317,7 +317,7 @@ export function generateLocationSchema(locationData: SchemaLocationInput | null,
       },
       "priceRange": appraiser?.pricing || appraiser?.business?.pricing || "$$-$$$",
       "telephone": appraiser?.contact?.phone || appraiser?.phone || "",
-      "url": buildSiteUrl(`/appraiser/${appraiser?.slug || appraiser?.id || 'unknown'}`),
+      "url": buildSiteUrl(`/appraiser/${appraiser?.id || appraiser?.slug || 'unknown'}`),
       "sameAs": appraiser?.contact?.website || appraiser?.website || ""
     })) : [],
     "offers": {
