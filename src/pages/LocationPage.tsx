@@ -19,12 +19,10 @@ export type Appraiser = {
 
 export function LocationPage() {
   const { citySlug } = useParams<{ citySlug: string }>();
-  console.log('LocationPage - citySlug:', citySlug);
   
   // Make sure we have a valid citySlug before proceeding
   const validCitySlug = typeof citySlug === 'string' ? citySlug : '';
   const locationData = validCitySlug ? getLocation(validCitySlug) : null;
-  console.log('LocationPage - locationData:', locationData);
 
   // Log any missing data to help with debugging
   useEffect(() => {

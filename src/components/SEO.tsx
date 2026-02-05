@@ -7,7 +7,8 @@ import {
   SITE_TWITTER_HANDLE,
   SITE_URL,
   SITE_DESCRIPTION,
-  GOOGLE_SITE_VERIFICATION
+  GOOGLE_SITE_VERIFICATION,
+  normalizeCanonicalUrl
 } from '../config/site';
 
 interface SEOProps {
@@ -78,25 +79,33 @@ export function SEO({
 
   const buildAbsoluteUrl = (inputPath: string) => {
     try {
-      if (inputPath.startsWith('http://') || inputPath.startsWith('https://')) {
-        return inputPath;
-      }
+      const url = inputPath.startsWith('http://') || inputPath.startsWith('https://')
+        ? new URL(inputPath)
+        : new URL(inputPath.replace(/^\//, ''), SITE_URL.endsWith('/') ? SITE_URL : `${SITE_URL}/`);
 
-      return new URL(
-        inputPath.replace(/^\//, ''),
-        SITE_URL.endsWith('/') ? SITE_URL : `${SITE_URL}/`
-      ).toString();
+      return normalizeCanonicalUrl(url).toString();
     } catch (error) {
       console.error('Invalid URL supplied to SEO component:', inputPath, error);
       return SITE_URL;
     }
   };
 
-  const canonical = canonicalUrl
-    ? buildAbsoluteUrl(canonicalUrl)
-    : path
-      ? buildAbsoluteUrl(path)
-      : SITE_URL;
+  const canonical = React.useMemo(() => {
+    if (canonicalUrl) {
+      return buildAbsoluteUrl(canonicalUrl);
+    }
+
+    if (path) {
+      return buildAbsoluteUrl(path);
+    }
+
+    if (typeof window !== 'undefined') {
+      const fallbackPath = window.location.pathname || '/';
+      return buildAbsoluteUrl(fallbackPath);
+    }
+
+    return SITE_URL;
+  }, [canonicalUrl, path]);
 
   const effectiveUrl = pageUrl ? buildAbsoluteUrl(pageUrl) : canonical;
   const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
