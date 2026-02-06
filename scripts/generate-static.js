@@ -317,13 +317,23 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
   const description = `Find certified art appraisers in ${cityName}. Get expert art valuations, authentication services, and professional advice for your art collection.`;
   const canonicalUrl = `https://art-appraisers-directory.appraisily.com/location/${citySlug}/`;
   const locationImage = locationData.imageUrl || 'https://ik.imagekit.io/appraisily/location-images/default-city.jpg';
+
+  // Some legacy location payloads omit a top-level `state`, which causes schema text like
+  // "Palm Beach, undefined". Prefer a representative appraiser state, else omit.
+  const stateCode =
+    locationData?.state ||
+    (Array.isArray(locationData?.appraisers)
+      ? locationData.appraisers.map((appraiser) => appraiser?.state).find(Boolean)
+      : null) ||
+    null;
+  const cityStateLabel = stateCode ? `${cityName}, ${stateCode}` : cityName;
   
   // Create schema data
   const locationSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": `Art Appraisal Services in ${cityName}`,
-    "description": `Find top-rated art appraisers in ${cityName}, ${locationData.state}. Professional art valuation services for insurance, estate planning, donations, and more.`,
+    "description": `Find top-rated art appraisers in ${cityStateLabel}. Professional art valuation services for insurance, estate planning, donations, and more.`,
     "serviceType": "Art Appraisal",
     "areaServed": {
       "@type": "City",
@@ -331,7 +341,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
       "address": {
         "@type": "PostalAddress",
         "addressLocality": cityName,
-        "addressRegion": locationData.state,
+        "addressRegion": stateCode || undefined,
         "addressCountry": "US"
       }
     },
@@ -452,7 +462,7 @@ function generateLocationHTML(locationData, cityName, citySlug, cssPath, jsPath)
             <div class="appraiser-card" data-appraiser-id="${appraiser.id}">
               <h3>${appraiser.name}</h3>
               <p>${appraiser.specialties?.join(', ')}</p>
-              <a href="/appraiser/${appraiser.id}" data-gtm-event="appraiser_directory_click" data-gtm-appraiser="${appraiser.id}" data-gtm-city="${cityName}">View Details</a>
+              <a href="/appraiser/${appraiser.id}/" data-gtm-event="appraiser_directory_click" data-gtm-appraiser="${appraiser.id}" data-gtm-city="${cityName}">View Details</a>
             </div>
           `).join('') || ''}
         </section>
