@@ -95,6 +95,9 @@ async function buildDirectory() {
     // Step 10: Prepare for Netlify deployment
     runCommand('node scripts/prepare-for-netlify.js', '🚀 Preparing for Netlify deployment');
 
+    // Step 11: Ensure chat embed script exists on all generated HTML pages
+    runCommand('node scripts/inject-chat-embed.js', '💬 Injecting Appraisily chat embed on all pages');
+
     log('✅ Build completed successfully!', 'success');
     log('📂 Static files generated in the dist/ directory', 'success');
     log('🌐 To preview locally: npm run serve:static', 'info');

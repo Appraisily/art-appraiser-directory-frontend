@@ -116,6 +116,9 @@ async function buildStandardized() {
     // Step 12: Fix location links to be relative
     runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
 
+    // Step 13: Ensure chat embed script exists on all generated HTML pages
+    runCommand('node scripts/inject-chat-embed.js', '💬 Injecting Appraisily chat embed on all pages');
+
     log('✅ Build completed successfully!', 'success');
     log('📂 Static files generated in the dist/ directory', 'success');
     log('🌐 To preview locally: npm run serve:static', 'info');
