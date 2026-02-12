@@ -108,6 +108,7 @@ export function SEO({
   }, [canonicalUrl, path]);
 
   const effectiveUrl = pageUrl ? buildAbsoluteUrl(pageUrl) : canonical;
+  const isLocationPage = effectiveUrl.includes('/location/');
   const ogImageUrl = ogImage ?? DEFAULT_OG_IMAGE;
 
   return (
@@ -243,7 +244,7 @@ export function SEO({
       <meta name="classification" content="Art Appraisal" />
 
       {/* Locality-specific meta tags */}
-      {pageUrl && pageUrl.includes('/location/') && (
+      {isLocationPage && (
         <>
           <meta name="directory" content="submission" />
           <meta name="target" content="Art Appraisers in a Specific Location" />

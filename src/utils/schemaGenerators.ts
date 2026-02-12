@@ -337,7 +337,17 @@ export function generateLocationSchema(locationData: SchemaLocationInput | null,
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": canonicalUrl
-    }
+    },
+    "keywords": [
+      `art appraisers in ${safeCity}`,
+      `${safeCity} art appraisers`,
+      `${safeCity} art appraisal`,
+      `art appraisal ${safeCity}`,
+      `art appraiser near ${safeCity}`,
+      'art appraisers near me',
+      'art appraisal near me',
+      'online art appraisal'
+    ]
   };
 }
 
