@@ -5,9 +5,16 @@ import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } 
 import { SEO } from '../components/SEO';
 import { generateLocationSchema } from '../utils/schemaGenerators';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
-import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
+import {
+  hasPlaceholderName,
+  isPlaceholderAbout,
+  isTemplatedExperience,
+  isTemplatedNotes,
+  isTemplatedPricing
+} from '../utils/dataQuality';
 import { trackEvent } from '../utils/analytics';
 import { cities as directoryCities } from '../data/cities.json';
+import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { normalizeAssetUrl } from '../utils/assetUrls';
 
 type DirectoryCity = {
@@ -17,6 +24,120 @@ type DirectoryCity = {
   latitude?: number;
   longitude?: number;
 };
+
+const STRIKING_DISTANCE_CITY_SLUGS = [
+  'des-moines',
+  'kansas-city',
+  'chicago',
+  'columbus',
+  'tucson',
+  'denver',
+  'milwaukee',
+  'cleveland',
+  'baltimore',
+  'louisville'
+] as const;
+
+type LocationSeoOverride = {
+  title: string;
+  description: string;
+  h1: string;
+  heroDescription: string;
+};
+
+const LOCATION_SEO_OVERRIDES: Partial<
+  Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
+> = {
+  'des-moines': {
+    title: 'Des Moines Art Appraisers | Fine Art, Donation & Estate Values',
+    description:
+      'Compare art appraisers in Des Moines for fine art, donation, estate, and insurance valuations. Review specialties and choose local or online appraisal.',
+    h1: 'Des Moines Art Appraisers',
+    heroDescription:
+      'Compare local art appraisal specialists in Des Moines, then choose the best fit for donation, estate, insurance, or resale needs.'
+  },
+  'kansas-city': {
+    title: 'Kansas City Art Appraisers | Local Fine Art Valuation Experts',
+    description:
+      'Looking for an art appraiser in Kansas City? Compare local fine art valuation specialists, review credentials, and choose in-person or online service.',
+    h1: 'Kansas City Art Appraisers',
+    heroDescription:
+      'Review Kansas City art appraisers for paintings, prints, and collections, then choose local in-person help or faster online appraisal.'
+  },
+  chicago: {
+    title: 'Chicago Art Appraisers | Fine Art, Estate & Insurance Values',
+    description:
+      'Compare Chicago art appraisers for estate, donation, insurance, and resale valuation. Review specialties and choose local or online appraisal support.',
+    h1: 'Chicago Art Appraisers',
+    heroDescription:
+      'Find Chicago art appraisers for paintings, prints, and collections, then choose local in-person service or faster online appraisal.'
+  },
+  tucson: {
+    title: 'Tucson Art Appraisers | Fine Art, Donation & Estate Valuation',
+    description:
+      'Compare Tucson art appraisers for donation, estate, and insurance valuation. Check specialties and choose local or online appraisal.',
+    h1: 'Tucson Art Appraisers',
+    heroDescription:
+      'Compare Tucson specialists for art, donation, and estate valuation, then choose the local or online path that matches your timeline.'
+  },
+  columbus: {
+    title: 'Columbus Art Appraisers | Fine Art, Donation & Tax Reports',
+    description:
+      'Find and compare Columbus art appraisers for paintings, donation reports, estate work, and tax-related valuation. Choose local or online appraisal.',
+    h1: 'Columbus Art Appraisers',
+    heroDescription:
+      'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.'
+  },
+  denver: {
+    title: 'Denver Art Appraisers | Fine Art Appraisal Near You',
+    description:
+      'Compare Denver art appraisers, including specialists for insurance, estate, and resale valuation. Choose local in-person or online appraisal.',
+    h1: 'Denver Art Appraisers',
+    heroDescription:
+      'Find Denver art appraisers, compare specialties, and choose between local appointments or faster online appraisal.'
+  },
+  milwaukee: {
+    title: 'Milwaukee Art Appraisers | Estate & Fine Art Valuation',
+    description:
+      'Compare Milwaukee art appraisers for estate collections, insurance, and resale valuation. Review specialties and choose in-person or online appraisal.',
+    h1: 'Milwaukee Art Appraisers',
+    heroDescription:
+      'Compare Milwaukee appraisal options for fine art and collections, then choose local in-person service or online turnaround.'
+  },
+  cleveland: {
+    title: 'Cleveland Art Appraisers | Donation & Collection Valuation',
+    description:
+      'Find Cleveland art appraisers for donation, estate, and personal collection valuation. Compare local providers and online alternatives.',
+    h1: 'Cleveland Art Appraisers',
+    heroDescription:
+      'Compare Cleveland appraisers for donation and collection valuation needs, then choose local or online service.'
+  },
+  louisville: {
+    title: 'Louisville Art Appraisers | Fine Art, Tax & Estate Values',
+    description:
+      'Compare Louisville art appraisers for paintings, tax donation, and estate valuation. Review specialists and choose in-person or online appraisal.',
+    h1: 'Louisville Art Appraisers',
+    heroDescription:
+      'Find Louisville specialists for fine art and tax-related valuations, then choose local in-person or faster online appraisal.'
+  },
+  baltimore: {
+    title: 'Baltimore Art Appraisers | Fine Art & Collection Valuation',
+    description:
+      'Compare Baltimore art appraisers for paintings, collections, estate, and insurance valuation. Check specialties and choose local or online service.',
+    h1: 'Baltimore Art Appraisers',
+    heroDescription:
+      'Compare Baltimore specialists for fine art and collection valuation, then choose local in-person or online appraisal.'
+  }
+};
+
+const ART_GUIDE_LINKS = [
+  { slug: 'chinese-art-appraisal', label: 'Chinese Art Appraisal Guide' },
+  { slug: 'fine-art-appraisal', label: 'Fine Art Appraisal Guide' },
+  { slug: 'how-much-is-my-art-worth', label: 'How Much Is My Art Worth?' },
+  { slug: 'artwork-value-estimate', label: 'Artwork Value Estimate' },
+  { slug: 'valuation-of-art', label: 'Valuation Of Art' },
+  { slug: 'what-gives-art-value', label: 'What Gives Art Value?' },
+] as const;
 
 function estimateDistanceKm(fromCity: DirectoryCity, toCity: DirectoryCity): number {
   if (
@@ -47,8 +168,6 @@ export function StandardizedLocationPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const primaryCtaUrl = getPrimaryCtaUrl();
-  const getAppraiserPath = (appraiser: StandardizedAppraiser) =>
-    `/appraiser/${appraiser.id || appraiser.slug}`;
 
   const validCitySlug = typeof citySlug === 'string' ? citySlug : '';
   const cityMeta = useMemo(
@@ -63,7 +182,7 @@ export function StandardizedLocationPage() {
         setIsLoading(false);
         return;
       }
-      
+
       try {
         setIsLoading(true);
         const data = await getStandardizedLocation(validCitySlug);
@@ -79,7 +198,7 @@ export function StandardizedLocationPage() {
         setIsLoading(false);
       }
     }
-    
+
     fetchData();
   }, [validCitySlug]);
 
@@ -94,7 +213,7 @@ export function StandardizedLocationPage() {
       city_name: cityMeta?.name,
       state: cityMeta?.state,
       items: locationData.appraisers.slice(0, 25).map(appraiser => ({
-        item_id: appraiser.id || appraiser.slug,
+        item_id: appraiser.slug,
         item_name: appraiser.name,
         city: appraiser.address.city,
         state: appraiser.address.state,
@@ -103,6 +222,7 @@ export function StandardizedLocationPage() {
       }))
     });
   }, [cityMeta, locationData, validCitySlug]);
+
   const cityName = useMemo(() => {
     if (cityMeta) {
       return `${cityMeta.name}, ${cityMeta.state}`;
@@ -117,10 +237,6 @@ export function StandardizedLocationPage() {
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
   }, [cityMeta, validCitySlug]);
-  const citySearchName = useMemo(() => {
-    if (cityMeta?.name) return cityMeta.name;
-    return cityName.split(',')[0]?.trim() || cityName;
-  }, [cityMeta, cityName]);
   const topSpecialties = useMemo(() => {
     if (!locationData?.appraisers?.length) return [];
     const counts = new Map<string, number>();
@@ -134,6 +250,12 @@ export function StandardizedLocationPage() {
       .slice(0, 3)
       .map(([specialty]) => specialty);
   }, [locationData]);
+  const citySearchName = useMemo(() => {
+    if (cityMeta?.name) return cityMeta.name;
+    return cityName.split(',')[0]?.trim() || cityName;
+  }, [cityMeta, cityName]);
+  const locationPath = `/location/${validCitySlug}`;
+  const locationCanonicalUrl = useMemo(() => buildSiteUrl(locationPath), [locationPath]);
   const relatedCities = useMemo(() => {
     const typedCities = directoryCities as DirectoryCity[];
     const fallback = typedCities
@@ -167,11 +289,30 @@ export function StandardizedLocationPage() {
       .slice(0, 6)
       .map(item => item.city);
   }, [cityMeta, validCitySlug]);
+  const popularOpportunityCities = useMemo(() => {
+    const typedCities = directoryCities as DirectoryCity[];
+    return STRIKING_DISTANCE_CITY_SLUGS
+      .map((slug) => typedCities.find(city => city.slug === slug))
+      .filter((city): city is DirectoryCity => Boolean(city) && city.slug !== validCitySlug)
+      .slice(0, 8);
+  }, [validCitySlug]);
+  const topReviewedAppraisers = useMemo(() => {
+    if (!locationData?.appraisers?.length) return [];
+    return [...locationData.appraisers]
+      .filter(appraiser => appraiser.business.reviewCount > 0)
+      .sort((a, b) => {
+        if (b.business.reviewCount !== a.business.reviewCount) {
+          return b.business.reviewCount - a.business.reviewCount;
+        }
+        return b.business.rating - a.business.rating;
+      })
+      .slice(0, 5);
+  }, [locationData]);
   const seoKeywords = useMemo(
     () => [
       `art appraisers in ${citySearchName}`,
       `${citySearchName} art appraisers`,
-      `${citySearchName} art appraisal`,
+      `${citySearchName} art appraisals`,
       `art appraisal ${citySearchName}`,
       `art appraiser near ${citySearchName}`,
       'art appraisers near me',
@@ -200,56 +341,130 @@ export function StandardizedLocationPage() {
     ]
   });
 
-  const seoTitle = `Art Appraisers in ${cityName} | In-Person & Online Art Appraisal`;
-  const seoDescription = locationData?.appraisers?.length
-    ? `Compare ${locationData.appraisers.length} art appraisers in ${cityName}. See specialties, reviews, and contact details, then choose local in-person service or start online.`
-    : `Find art appraisers in ${cityName}. Compare local professionals and start an online appraisal with Appraisily for a faster turnaround.`;
+  const seoOverride = LOCATION_SEO_OVERRIDES[validCitySlug as (typeof STRIKING_DISTANCE_CITY_SLUGS)[number]];
+  const fallbackSeoTitle = locationData?.appraisers?.length
+    ? `${citySearchName} Art Appraisers Near You | Compare ${locationData.appraisers.length} Local Experts`
+    : `Art Appraisers in ${cityName} | Local & Online Options`;
+  const fallbackSeoDescription = locationData?.appraisers?.length
+    ? `Compare ${locationData.appraisers.length} art appraisers in ${cityName}. See verified specialties, ratings, and pricing style, then choose local in-person service or start a faster online appraisal.`
+    : `Find art appraisers in ${cityName}. Compare local in-person providers and start an online appraisal with Appraisily when you need a faster option.`;
+  const seoTitle = seoOverride?.title ?? fallbackSeoTitle;
+  const seoDescription = seoOverride?.description ?? fallbackSeoDescription;
+  const heroHeading = seoOverride?.h1 ?? `Art Appraisers in ${cityName}`;
+  const heroDescription =
+    seoOverride?.heroDescription ??
+    `Compare local professionals in ${cityName}, then choose the option that fits your timeline. If you want a faster path, Appraisily provides online appraisals without the appointment.`;
+
   const generateLocationFaqSchema = () => ({
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
     mainEntity: [
       {
         '@type': 'Question',
-        name: `Do you offer in-person art appraisals in ${cityName}?`,
+        name: `Do you offer in-person appraisals in ${cityName}?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `This directory lists local art appraisers in ${cityName}. You can contact them directly for in-person services, or use Appraisily for an online appraisal.`,
-        },
+          text: `Appraisily focuses on online appraisals. This directory lists local providers in ${cityName} so you can contact them directly, or use Appraisily for a fast online alternative.`
+        }
       },
       {
         '@type': 'Question',
-        name: 'How does an online art appraisal work?',
+        name: 'How does an online appraisal work?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Upload photos, measurements, and provenance details. Our team reviews your submission and sends a written valuation report online.',
-        },
+          text: 'Submit clear photos, measurements, and any provenance. Our experts review the item and deliver a written valuation report online.'
+        }
       },
       {
         '@type': 'Question',
-        name: 'What is the typical turnaround time?',
+        name: 'How fast is the online appraisal turnaround?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Online appraisals are usually faster than scheduling in-person appointments. Timing depends on item complexity.',
-        },
+          text: 'Turnaround is typically faster than scheduling an in-person visit. Timing varies by item type and complexity.'
+        }
       },
       {
         '@type': 'Question',
-        name: `What should I prepare before contacting an appraiser in ${cityName}?`,
+        name: 'What should I prepare before requesting an appraisal?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Prepare clear photos, dimensions, condition notes, signatures or maker marks, and any purchase or provenance documents.',
-        },
+          text: 'Provide multiple photos (front, back, details, marks), dimensions, condition notes, and any history or purchase information.'
+        }
       },
       {
         '@type': 'Question',
-        name: 'Can I compare local and online appraisal options?',
+        name: 'Can I choose between local and online options?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `Yes. Use this directory to compare local providers in ${cityName}, then decide whether in-person or online service is the better fit for your timeline.`,
-        },
-      },
-    ],
+          text: `Yes. Use the local directory for in-person options in ${cityName}, or request an online appraisal from Appraisily for speed and convenience.`
+        }
+      }
+    ]
   });
+  const generateLocationCollectionSchema = () => ({
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': locationCanonicalUrl,
+    url: locationCanonicalUrl,
+    name: seoTitle,
+    description: seoDescription,
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Art Appraiser Directory',
+      url: SITE_URL
+    },
+    about: {
+      '@type': 'Thing',
+      name: `Art appraisal services in ${cityName}`
+    },
+    mainEntity: {
+      '@type': 'ItemList',
+      name: `Top art appraisers in ${cityName}`,
+      numberOfItems: locationData?.appraisers?.length ?? 0,
+      itemListOrder: 'https://schema.org/ItemListOrderDescending',
+      itemListElement: (locationData?.appraisers ?? []).slice(0, 20).map((appraiser, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: buildSiteUrl(`/appraiser/${appraiser.slug}`),
+        name: appraiser.name
+      }))
+    }
+  });
+
+  const flaggedAppraisers = (locationData?.appraisers ?? []).filter(appraiser =>
+    isTemplatedPricing(appraiser.business?.pricing) ||
+    isTemplatedExperience(appraiser.business?.yearsInBusiness) ||
+    isTemplatedNotes(appraiser.content?.notes, appraiser.address.city) ||
+    hasPlaceholderName(appraiser.name) ||
+    isPlaceholderAbout(appraiser.content?.about)
+  );
+  const showLocationWarning = flaggedAppraisers.length > 0;
+
+  useEffect(() => {
+    if (!locationData || locationData.appraisers.length === 0) {
+      return;
+    }
+
+    trackEvent('location_page_summary', {
+      city_slug: validCitySlug,
+      city_name: citySearchName,
+      state: cityMeta?.state,
+      appraiser_count: locationData.appraisers.length,
+      flagged_profile_count: flaggedAppraisers.length,
+      related_city_count: relatedCities.length,
+      top_specialties: topSpecialties.slice(0, 3),
+      seo_variant: seoOverride ? 'location_near_you_v3_city_override' : 'location_near_you_v2'
+    });
+  }, [
+    cityMeta?.state,
+    citySearchName,
+    flaggedAppraisers.length,
+    locationData,
+    relatedCities.length,
+    seoOverride,
+    topSpecialties,
+    validCitySlug
+  ]);
 
   const handleAppraiserCardClick = (appraiser: StandardizedAppraiser, placement: string) => {
     trackEvent('appraiser_card_click', {
@@ -268,6 +483,13 @@ export function StandardizedLocationPage() {
       city_slug: validCitySlug
     });
   };
+  const handleArticleGuideClick = (articleSlug: string, placement: string) => {
+    trackEvent('article_guide_click', {
+      placement,
+      city_slug: validCitySlug,
+      article_slug: articleSlug
+    });
+  };
   const handleRelatedCityClick = (relatedCity: DirectoryCity, placement: string) => {
     trackEvent('related_city_click', {
       placement,
@@ -279,21 +501,19 @@ export function StandardizedLocationPage() {
     });
   };
 
-  const breadcrumbSchema = generateBreadcrumbSchema();
-  
   if (isLoading) {
     return (
       <div className="container mx-auto px-4 py-8 mt-16">
         <h1 className="text-2xl font-bold mb-4">Loading {cityName} Art Appraisers...</h1>
         <div className="animate-pulse">
-          <div className="h-4 bg-gray-200 rounded w-3/4 mb-4"></div>
-          <div className="h-4 bg-gray-200 rounded w-1/2 mb-6"></div>
+          <div className="h-4 bg-gray-200 rounded w-3/4 mb-4" />
+          <div className="h-4 bg-gray-200 rounded w-1/2 mb-6" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[1, 2, 3, 4, 5, 6].map(i => (
               <div key={i} className="border rounded-lg p-4">
-                <div className="h-40 bg-gray-200 rounded mb-4"></div>
-                <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
-                <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+                <div className="h-40 bg-gray-200 rounded mb-4" />
+                <div className="h-4 bg-gray-200 rounded w-3/4 mb-2" />
+                <div className="h-4 bg-gray-200 rounded w-1/2" />
               </div>
             ))}
           </div>
@@ -305,11 +525,12 @@ export function StandardizedLocationPage() {
   if (error || !locationData || !locationData.appraisers || locationData.appraisers.length === 0) {
     return (
       <div className="container mx-auto px-4 py-8 mt-16">
-        <SEO 
+        <SEO
           title={`Art Appraisers in ${cityName} | Find Local Art Appraisal Services`}
           description={`We're currently updating our list of art appraisers in ${cityName}. Browse our directory for other locations or check back soon.`}
-          schema={[breadcrumbSchema]}
-          path={`/location/${validCitySlug}`}
+          schema={[generateBreadcrumbSchema()]}
+          path={locationPath}
+          pageUrl={locationCanonicalUrl}
         />
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl font-bold mb-4">Art Appraisers in {cityName}</h1>
@@ -327,28 +548,27 @@ export function StandardizedLocationPage() {
 
   return (
     <div className="container mx-auto px-4 py-8 mt-16">
-      <SEO 
+      <SEO
         title={seoTitle}
         description={seoDescription}
         keywords={seoKeywords}
         schema={[
           generateLocationSchema(locationData, cityName, validCitySlug),
-          breadcrumbSchema,
-          generateLocationFaqSchema(),
+          generateBreadcrumbSchema(),
+          generateLocationCollectionSchema(),
+          generateLocationFaqSchema()
         ]}
-        path={`/location/${validCitySlug}`}
+        path={locationPath}
+        pageUrl={locationCanonicalUrl}
       />
-      
+
       <div className="max-w-6xl mx-auto">
         <div className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-lg mb-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="max-w-3xl">
-              <p className="text-sm font-semibold text-blue-700 mb-2">Need art appraisal help quickly?</p>
-              <h1 className="text-3xl font-bold mb-3">Art Appraisers in {cityName}</h1>
-              <p className="text-gray-600">
-                Compare local providers in {cityName}, then choose in-person service or Appraisily&rsquo;s online appraisal for
-                a faster start.
-              </p>
+              <p className="text-sm font-semibold text-blue-700 mb-2">Searching for in-person appraisers?</p>
+              <h1 className="text-3xl font-bold mb-3">{heroHeading}</h1>
+              <p className="text-gray-600">{heroDescription}</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
@@ -366,6 +586,11 @@ export function StandardizedLocationPage() {
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_secondary"
                 onClick={(event) => {
+                  trackEvent('cta_click', {
+                    placement: 'location_hero_secondary',
+                    destination: '#local-appraisers',
+                    city_slug: validCitySlug
+                  });
                   event.preventDefault();
                   document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
                   window.history.replaceState(
@@ -381,26 +606,26 @@ export function StandardizedLocationPage() {
           </div>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-700">
             <div className="rounded-lg bg-white p-4 shadow-sm">
-              <p className="font-semibold text-gray-900 mb-1">Insurance-ready valuations</p>
-              <p>Compare appraisers who support insurance, estate, and donation needs.</p>
+              <p className="font-semibold text-gray-900 mb-1">Fast turnaround</p>
+              <p>Get expert insight online without waiting for an appointment.</p>
             </div>
             <div className="rounded-lg bg-white p-4 shadow-sm">
-              <p className="font-semibold text-gray-900 mb-1">Local + online options</p>
-              <p>Choose in-person expertise in {cityName} or use Appraisily online.</p>
+              <p className="font-semibold text-gray-900 mb-1">Trusted local options</p>
+              <p>Browse verified appraisers serving {cityName} and nearby areas.</p>
             </div>
             <div className="rounded-lg bg-white p-4 shadow-sm">
-              <p className="font-semibold text-gray-900 mb-1">Faster decision path</p>
-              <p>Review specialties and ratings first, then contact the right appraiser.</p>
+              <p className="font-semibold text-gray-900 mb-1">Clear next steps</p>
+              <p>Use the directory to compare, then choose local or online.</p>
             </div>
           </div>
         </div>
 
-        {locationData.appraisers.length > 0 && (
+        {locationData?.appraisers?.length > 0 && (
           <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
             <h2 className="text-xl font-semibold mb-2">Art appraisal snapshot for {cityName}</h2>
             <p className="text-gray-600">
               We currently list {locationData.appraisers.length} art appraisers in {cityName}.
-              {topSpecialties.length > 0 && ` Popular specialties include ${topSpecialties.join(', ')}.`}
+              {topSpecialties.length > 0 && ` Most common specialties include ${topSpecialties.join(', ')}.`}
             </p>
           </div>
         )}
@@ -411,7 +636,7 @@ export function StandardizedLocationPage() {
               More art appraisal directories near {cityMeta?.state || citySearchName}
             </h2>
             <p className="text-gray-600">
-              Explore nearby city pages to compare additional art appraisal providers and availability.
+              Build your shortlist faster by checking nearby city directories and comparing additional specialists.
             </p>
             <div className="mt-4 flex flex-wrap gap-2">
               {relatedCities.map(city => (
@@ -431,27 +656,156 @@ export function StandardizedLocationPage() {
           </div>
         )}
 
+        {popularOpportunityCities.length > 0 && (
+          <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Popular art appraisal city guides</h2>
+            <p className="text-gray-600">
+              Compare nearby options with other high-demand appraisal cities collectors search most often.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {popularOpportunityCities.map(city => (
+                <a
+                  key={city.slug}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="related_city_click"
+                  data-gtm-placement="location_popular_cities"
+                  data-gtm-city={city.slug}
+                  onClick={() => handleRelatedCityClick(city, 'location_popular_cities')}
+                >
+                  {city.name}, {city.state}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+
+        <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
+          <h2 className="text-xl font-semibold mb-2">Art valuation guides to compare methods</h2>
+          <p className="text-gray-600">
+            Compare local appraisers with our in-depth valuation guides so you can choose the right scope before booking.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {ART_GUIDE_LINKS.map(guide => (
+              <a
+                key={guide.slug}
+                href={`https://articles.appraisily.com/${guide.slug}/`}
+                className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                data-gtm-event="article_guide_click"
+                data-gtm-placement="location_article_guides"
+                data-gtm-article={guide.slug}
+                onClick={() => handleArticleGuideClick(guide.slug, 'location_article_guides')}
+              >
+                {guide.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {showLocationWarning && (
+          <div className="mb-8 rounded-lg border border-yellow-300 bg-yellow-50 px-5 py-4 text-sm text-yellow-900">
+            <p className="font-semibold mb-1">We&rsquo;re still polishing a few profiles in this city.</p>
+            <p>
+              {flaggedAppraisers.length} of {locationData.appraisers.length} listings still use templated copy for pricing or experience.
+              We&rsquo;re working with our research team to swap in verified details. If you spot something off, let us know at{' '}
+              <a className="underline" href="mailto:info@appraisily.com">
+                info@appraisily.com
+              </a>
+              .
+            </p>
+          </div>
+        )}
+
+        <div className="mb-10 rounded-lg border border-blue-100 bg-blue-50/60 p-6">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+            <div className="max-w-3xl">
+              <h2 className="text-xl font-semibold mb-2">Online vs. in-person appraisal in {cityName}</h2>
+              <p className="text-gray-600">
+                Many people searching for an in-person appraisal prefer the speed and convenience of online reviews.
+                Use the comparison below to decide what fits your situation.
+              </p>
+            </div>
+            <a
+              href={primaryCtaUrl}
+              className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 text-white font-semibold hover:bg-blue-700 transition-colors"
+              data-gtm-event="cta_click"
+              data-gtm-placement="location_comparison"
+              onClick={() => handleLocationCtaClick('location_comparison')}
+            >
+              Get an online appraisal
+            </a>
+          </div>
+          <div className="mt-6 overflow-hidden rounded-lg border border-blue-100 bg-white">
+            <div className="grid grid-cols-1 md:grid-cols-2 text-sm">
+              <div className="border-b md:border-b-0 md:border-r border-blue-100 p-4">
+                <p className="font-semibold text-gray-900 mb-2">Local in-person</p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>Schedule a visit and meet on site</li>
+                  <li>Ideal for large collections or complex items</li>
+                  <li>Timing depends on local availability</li>
+                </ul>
+              </div>
+              <div className="p-4">
+                <p className="font-semibold text-gray-900 mb-2">Appraisily online</p>
+                <ul className="space-y-2 text-gray-600">
+                  <li>No appointment required</li>
+                  <li>Submit photos and details from anywhere</li>
+                  <li>Faster turnaround for most items</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div id="local-appraisers" className="mb-6">
           <h2 className="text-2xl font-semibold">Local art appraisers in {cityName}</h2>
           <p className="text-gray-600 mt-2">
-            Compare profiles below to shortlist the best fit for your valuation requirements.
+            Use this list to contact in-person providers or compare them with Appraisily&rsquo;s online option.
           </p>
         </div>
-        
+
+        {topReviewedAppraisers.length > 0 && (
+          <div className="mb-6 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Top-reviewed appraisers in {cityName}</h2>
+            <p className="text-gray-600">
+              Start with the highest-reviewed profiles, then compare specialties and service fit.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {topReviewedAppraisers.map((appraiser) => (
+                <a
+                  key={appraiser.id}
+                  href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="appraiser_card_click"
+                  data-gtm-placement="location_top_reviewed"
+                  data-gtm-appraiser={appraiser.slug}
+                  onClick={() => handleAppraiserCardClick(appraiser, 'location_top_reviewed')}
+                >
+                  {appraiser.name} ({appraiser.business.reviewCount} reviews)
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {locationData.appraisers.map((appraiser) => (
-            <div key={appraiser.id} className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-              <a 
-                href={buildSiteUrl(getAppraiserPath(appraiser))}
+          {locationData.appraisers.map(appraiser => (
+            <div
+              key={appraiser.id}
+              className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+            >
+              <a
+                href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
                 className="block"
                 data-gtm-event="appraiser_card_click"
-                data-gtm-appraiser={appraiser.id || appraiser.slug}
+                data-gtm-appraiser={appraiser.slug}
                 data-gtm-placement="location_results"
                 onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
               >
                 <div className="h-48 bg-gray-200 overflow-hidden">
-                  <img 
-                    src={normalizeAssetUrl(appraiser.imageUrl)} 
+                  <img
+                    src={normalizeAssetUrl(appraiser.imageUrl)}
                     alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
                     className="w-full h-full object-cover transition-transform hover:scale-105"
                     loading="lazy"
@@ -461,17 +815,17 @@ export function StandardizedLocationPage() {
                     }}
                   />
                 </div>
-                
+
                 <div className="p-4">
                   <h2 className="text-xl font-semibold mb-2 text-gray-900 hover:text-blue-600 transition-colors">
                     {appraiser.name}
                   </h2>
-                  
+
                   <div className="flex items-center text-sm text-gray-600 mb-2">
                     <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
                     <span className="truncate">{appraiser.address.formatted}</span>
                   </div>
-                  
+
                   {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
                     <div className="flex items-center mb-3">
                       <div className="flex items-center">
@@ -485,11 +839,11 @@ export function StandardizedLocationPage() {
                   ) : (
                     <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
                   )}
-                  
+
                   <div className="space-y-2 mb-4">
                     <div className="flex flex-wrap gap-1">
                       {appraiser.expertise.specialties.slice(0, 3).map((specialty) => (
-                        <span 
+                        <span
                           key={specialty}
                           className="inline-block bg-blue-50 text-blue-700 rounded-full px-2 py-0.5 text-xs mb-1"
                         >
@@ -498,11 +852,17 @@ export function StandardizedLocationPage() {
                       ))}
                     </div>
                   </div>
-                  
+
                   <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
                     <span className="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
                       View Profile
-                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 ml-1"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </span>
@@ -512,20 +872,20 @@ export function StandardizedLocationPage() {
             </div>
           ))}
         </div>
-        
+
         {locationData.appraisers.length === 0 && (
           <div className="text-center py-8">
             <p className="text-gray-600">No art appraisers found in {cityName} yet. Check back soon!</p>
           </div>
         )}
-        
+
         <div className="mt-12 bg-gray-50 p-6 rounded-lg">
           <h2 className="text-xl font-semibold mb-3">Need an appraisal without the wait?</h2>
           <p className="text-gray-600 mb-4">
-            Appraisily delivers online art valuations backed by research and market data. Start online first, then decide if you
-            still need an in-person visit.
+            Appraisily delivers expert online valuations backed by research and market data. Start online, then decide if you still
+            need an in-person visit.
           </p>
-          <a 
+          <a
             href={primaryCtaUrl}
             className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
             data-gtm-event="cta_click"
@@ -533,33 +893,39 @@ export function StandardizedLocationPage() {
             onClick={() => handleLocationCtaClick('location_footer')}
           >
             Request an online appraisal
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4 ml-1"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
           </a>
         </div>
 
         <div className="mt-10 rounded-lg border border-gray-200 bg-white p-6">
-          <h2 className="text-xl font-semibold mb-4">FAQ for {cityName} art appraisals</h2>
+          <h2 className="text-xl font-semibold mb-4">FAQ for {cityName} appraisals</h2>
           <div className="space-y-4 text-gray-600">
             <div>
               <p className="font-semibold text-gray-900">Do you offer in-person appraisals in {cityName}?</p>
               <p>
-                Use this directory to contact local providers directly, or request an online appraisal from Appraisily if you
-                prefer a faster process.
+                Appraisily focuses on online appraisals. Use the local directory to contact in-person providers, or get a fast
+                online alternative with Appraisily.
               </p>
             </div>
             <div>
-              <p className="font-semibold text-gray-900">How does an online art appraisal work?</p>
-              <p>Share photos, measurements, and provenance. Our team reviews the submission and returns a written valuation.</p>
+              <p className="font-semibold text-gray-900">How does an online appraisal work?</p>
+              <p>Share photos, measurements, and any provenance. Our experts review the item and deliver a written valuation.</p>
             </div>
             <div>
               <p className="font-semibold text-gray-900">What should I prepare before requesting an appraisal?</p>
-              <p>Provide multiple photos, dimensions, condition notes, and any signatures, labels, or ownership history.</p>
+              <p>Multiple photos, condition notes, dimensions, and any labels, signatures, or purchase history help the most.</p>
             </div>
             <div>
               <p className="font-semibold text-gray-900">Can I still use a local appraiser?</p>
-              <p>Yes. Browse the local profiles above if you prefer in-person services in {cityName}.</p>
+              <p>Yes. Start with the directory above if you want in-person services in {cityName}.</p>
             </div>
           </div>
         </div>

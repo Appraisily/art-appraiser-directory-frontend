@@ -24,6 +24,14 @@ const DIRECTORY_DOMAIN = 'https://art-appraisers-directory.appraisily.com';
 const CTA_URL = 'https://appraisily.com/start';
 const ASSETS_BASE_URL = 'https://assets.appraisily.com/assets/directory';
 const FALLBACK_IMAGE = `${ASSETS_BASE_URL}/placeholder.jpg`;
+const ARTICLE_GUIDE_LINKS = [
+  { slug: 'chinese-art-appraisal', label: 'Chinese Art Appraisal Guide' },
+  { slug: 'fine-art-appraisal', label: 'Fine Art Appraisal Guide' },
+  { slug: 'how-much-is-my-art-worth', label: 'How Much Is My Art Worth?' },
+  { slug: 'artwork-value-estimate', label: 'Artwork Value Estimate' },
+  { slug: 'valuation-of-art', label: 'Valuation Of Art' },
+  { slug: 'what-gives-art-value', label: 'What Gives Art Value?' },
+];
 
 function normalizeImageUrl(input = '') {
   const url = String(input || '').trim();
@@ -368,6 +376,28 @@ function buildRelatedCitiesSection(relatedCities) {
   `;
 }
 
+function buildArticleGuidesSection() {
+  const links = ARTICLE_GUIDE_LINKS.map(guide => `
+    <a href="https://articles.appraisily.com/${guide.slug}/" class="inline-flex items-center px-4 py-2 border border-gray-200 rounded-lg hover:border-blue-300 hover:text-blue-600 transition-colors">
+      ${escapeHtml(guide.label)}
+    </a>
+  `).join('');
+
+  return `
+    <section class="py-10">
+      <div class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+        <h2 class="text-xl font-semibold text-gray-900 mb-3">Art valuation guides to compare methods</h2>
+        <p class="text-gray-700 leading-relaxed mb-4">
+          Review our in-depth valuation guides on articles.appraisily.com before contacting local providers so you can compare appraisal scope, methodology, and expected deliverables.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          ${links}
+        </div>
+      </div>
+    </section>
+  `;
+}
+
 function buildFaqSection(cityDisplayName, topServices, pricingExamples) {
   const servicesText = topServices.length
     ? formatList(topServices)
@@ -460,7 +490,20 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
     ]
   };
 
-  const schemas = [itemList, breadcrumb];
+  const collectionPage = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    'url': canonicalUrl,
+    'name': `Art appraisers in ${cityDisplayName}`,
+    'description': `Compare art appraisers in ${cityDisplayName}.`,
+    'mainEntity': {
+      '@type': 'ItemList',
+      'numberOfItems': appraisers.length,
+      'itemListElement': listItems
+    }
+  };
+
+  const schemas = [collectionPage, itemList, breadcrumb];
   if (faqSchema) {
     schemas.push(faqSchema);
   }
@@ -469,8 +512,8 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
 
 function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
   const appraisers = Array.isArray(locationData?.appraisers) ? locationData.appraisers : [];
-  const stateCode = dedupeList(appraisers.map(appraiser => appraiser.address?.state), 1)[0];
-  const cityDisplayName = stateCode ? `${cityMeta.name}, ${stateCode}` : `${cityMeta.name}, ${cityMeta.state}`;
+  const stateCode = String(cityMeta.state || dedupeList(appraisers.map(appraiser => appraiser.address?.state), 1)[0] || '').trim();
+  const cityDisplayName = stateCode ? `${cityMeta.name}, ${stateCode}` : cityMeta.name;
 
   const totalReviews = appraisers.reduce((sum, appraiser) => sum + (Number(appraiser.business?.reviewCount) || 0), 0);
   let weightedRatingSum = 0;
@@ -533,6 +576,7 @@ function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
     `;
 
   const relatedCities = buildRelatedCitiesSection(selectRelatedCities(allCities, cityMeta));
+  const articleGuidesSection = buildArticleGuidesSection();
   const faqSection = buildFaqSection(cityDisplayName, topServices, pricingExamples);
 
   const rootContent = `
@@ -543,6 +587,7 @@ function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
         ${topAppraisersSection}
         ${cardsSection}
         ${relatedCities}
+        ${articleGuidesSection}
         ${faqSection.html}
       </div>
     </div>

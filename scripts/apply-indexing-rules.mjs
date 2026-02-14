@@ -34,6 +34,17 @@ const INDEXABLE_LOCATION_SLUGS = new Set([
   'hartford',
   'denver',
   'columbus',
+  'chicago',
+  'des-moines',
+  'tucson',
+  'milwaukee',
+  'baltimore',
+  'louisville',
+  'new-york',
+  'atlanta',
+  'san-francisco',
+  'seattle',
+  'washington-dc',
 ]);
 
 function parseArgs(argv) {
