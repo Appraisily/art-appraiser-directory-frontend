@@ -318,6 +318,10 @@ function buildLoc(relativePath, baseUrl) {
   return `${baseUrl}${normalized}`;
 }
 
+function formatSitemapDate(value) {
+  return new Date(value).toISOString().slice(0, 10);
+}
+
 async function walkHtml(publicDir, relativeDir, bucket, options) {
   const currentDir = path.join(publicDir, relativeDir);
   const entries = await fs.readdir(currentDir, { withFileTypes: true });
@@ -340,7 +344,7 @@ async function walkHtml(publicDir, relativeDir, bucket, options) {
     const stat = await fs.stat(absolutePath);
     bucket.push({
       loc: buildLoc(childRel, options.baseUrl),
-      lastmod: new Date(stat.mtimeMs).toISOString(),
+      lastmod: formatSitemapDate(stat.mtimeMs),
       changefreq: options.changefreq,
       priority: 0.8,
     });
@@ -391,7 +395,7 @@ async function regenerateSitemap({ publicDir, baseUrl }) {
   } else if (rootIndex === -1) {
     urls.unshift({
       loc: base,
-      lastmod: new Date().toISOString(),
+      lastmod: formatSitemapDate(Date.now()),
       changefreq: options.changefreq,
       priority: 1.0,
     });
