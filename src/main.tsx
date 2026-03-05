@@ -7,6 +7,7 @@ import { SITE_URL } from './config/site';
 import './index.css';
 import './styles/animations.css';
 import { tagAiAssistantReferrer } from './utils/aiAttribution';
+import { captureAttributionFromQueryToCookie } from './utils/startAttribution';
 
 // Ensure we always serve the canonical origin (no stray ports)
 if (typeof window !== 'undefined') {
@@ -43,6 +44,7 @@ console.log('📊 Environment info:', {
 // Tag AI assistant referrals as early as possible
 try {
   tagAiAssistantReferrer();
+  captureAttributionFromQueryToCookie();
 } catch (error) {
   console.error('Failed to tag AI assistant referrer', error);
 }
