@@ -456,8 +456,8 @@ function buildSchemas(cityDisplayName, canonicalUrl, appraisers, faqSchema) {
     '@type': 'ListItem',
     'position': index + 1,
     'name': appraiser.name,
-    // Prefer `id` (city-specific page) because `slug` can point at a non-existent global page (404).
-    'url': buildAbsoluteUrl(`/appraiser/${appraiser.id || appraiser.slug}/`),
+    // Prefer the canonical global slug; some city-prefixed legacy ids do not have standalone pages.
+    'url': buildAbsoluteUrl(`/appraiser/${appraiser.slug || appraiser.id}/`),
     'image': normalizeImageUrl(appraiser.imageUrl || FALLBACK_IMAGE),
     'description': appraiser.content?.about
   }));

@@ -98,6 +98,38 @@ function buildAbsoluteUrl(pathname = '') {
   return normalized ? `${base}${normalized}` : DIRECTORY_DOMAIN;
 }
 
+function escapeHtml(value = '') {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug) {
+  return `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeHtml(appraiser.name)} | Art Appraiser Directory</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="${escapeHtml(canonicalUrl)}" />
+    <meta http-equiv="refresh" content="1;url=${escapeHtml(canonicalUrl)}" />
+    <script>
+      setTimeout(() => {
+        window.location.replace('${canonicalUrl}');
+      }, 250);
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, follow this <a href="${escapeHtml(canonicalUrl)}">link to ${escapeHtml(appraiser.name)}</a>.</p>
+  </body>
+</html>
+`;
+}
+
 /**
  * Load all standardized appraiser data
  * @returns {Array} - Array of all appraisers
@@ -118,7 +150,8 @@ function loadAllAppraisers() {
           const location = file.replace('.json', '');
           const appraisersWithLocation = data.appraisers.map(appraiser => ({
             ...appraiser,
-            location
+            location,
+            sourceFile: file
           }));
           appraisers.push(...appraisersWithLocation);
         }
@@ -129,6 +162,72 @@ function loadAllAppraisers() {
   }
   
   return appraisers;
+}
+
+function scoreAppraiserRecord(appraiser) {
+  const reviewCount = Number(appraiser?.business?.reviewCount) || 0;
+  const rating = Number(appraiser?.business?.rating) || 0;
+  const certifications = Array.isArray(appraiser?.expertise?.certifications) ? appraiser.expertise.certifications.length : 0;
+  const specialties = Array.isArray(appraiser?.expertise?.specialties) ? appraiser.expertise.specialties.length : 0;
+  const services = Array.isArray(appraiser?.expertise?.services) ? appraiser.expertise.services.length : 0;
+  const reviews = Array.isArray(appraiser?.reviews) ? appraiser.reviews.length : 0;
+  const sourceBonus = / copy\.json$/i.test(String(appraiser?.sourceFile || '')) ? 0 : 500;
+  const websiteBonus = appraiser?.contact?.website ? 25 : 0;
+  const emailBonus = appraiser?.contact?.email ? 10 : 0;
+  const phoneBonus = appraiser?.contact?.phone ? 10 : 0;
+  const aboutBonus = appraiser?.content?.about ? 15 : 0;
+  const imageBonus = appraiser?.imageUrl ? 10 : 0;
+
+  return sourceBonus +
+    reviewCount * 5 +
+    rating * 10 +
+    certifications * 8 +
+    specialties * 5 +
+    services * 4 +
+    reviews * 3 +
+    websiteBonus +
+    emailBonus +
+    phoneBonus +
+    aboutBonus +
+    imageBonus;
+}
+
+function dedupeAppraisers(appraisers) {
+  const canonicalEntries = new Map();
+
+  for (const appraiser of appraisers) {
+    const canonicalSlug = appraiser.slug || appraiser.id || '';
+    if (!canonicalSlug) continue;
+
+    let entry = canonicalEntries.get(canonicalSlug);
+    if (!entry) {
+      entry = {
+        appraiser,
+        score: scoreAppraiserRecord(appraiser),
+        aliases: new Set(),
+      };
+      canonicalEntries.set(canonicalSlug, entry);
+    } else {
+      const candidateScore = scoreAppraiserRecord(appraiser);
+      if (candidateScore > entry.score) {
+        entry.appraiser = appraiser;
+        entry.score = candidateScore;
+      }
+    }
+
+    const rawId = String(appraiser.id || '').trim();
+    if (rawId && rawId !== canonicalSlug) {
+      entry.aliases.add(rawId);
+      entry.aliases.add(rawId.replace(/\s+/g, '-'));
+      entry.aliases.add(rawId.replace(/\s+/g, '_'));
+    }
+  }
+
+  return Array.from(canonicalEntries.entries()).map(([canonicalSlug, entry]) => ({
+    ...entry.appraiser,
+    slug: canonicalSlug,
+    aliasSlugs: Array.from(entry.aliases).filter(Boolean).filter(alias => alias !== canonicalSlug),
+  }));
 }
 
 function renderGtmAttributes(attrs = {}) {
@@ -596,7 +695,7 @@ function generateAppraiserHtml(appraiser) {
     description: seoDescription,
     schema: [appraiserSchema, breadcrumbSchema, faqSchema],
     content: mainContent,
-    canonicalPath: `/appraiser/${appraiser.slug}/`,
+    canonicalPath: `/appraiser/${appraiserSlug}/`,
     ogImage: normalizeImageUrl(appraiser.imageUrl)
   };
 }
@@ -694,8 +793,9 @@ async function main() {
     const templateHtml = fs.readFileSync(TEMPLATE_FILE, 'utf8');
     
     // Load all appraisers
-    const appraisers = loadAllAppraisers();
-    log(`Found ${appraisers.length} appraisers`, 'info');
+    const rawAppraisers = loadAllAppraisers();
+    const appraisers = dedupeAppraisers(rawAppraisers);
+    log(`Found ${rawAppraisers.length} source appraisers, deduped to ${appraisers.length} canonical appraisers`, 'info');
     
     // Generate pages for each appraiser
     let processedCount = 0;
@@ -714,7 +814,8 @@ async function main() {
         }
         
         // Create appraiser directory if it doesn't exist
-        const appraiserDirPath = path.join(APPRAISER_DIR, appraiser.slug);
+        const canonicalSlug = appraiser.slug || appraiser.id;
+        const appraiserDirPath = path.join(APPRAISER_DIR, canonicalSlug);
         fs.ensureDirSync(appraiserDirPath);
         
         // Generate HTML content
@@ -724,8 +825,27 @@ async function main() {
         // Write HTML file
         const htmlPath = path.join(appraiserDirPath, 'index.html');
         fs.writeFileSync(htmlPath, pageHtml);
-        
-        log(`Generated page for ${appraiser.name} (${appraiser.slug})`, 'success');
+
+        const legacySlugs = new Set(Array.isArray(appraiser.aliasSlugs) ? appraiser.aliasSlugs : []);
+        if (appraiser.id) {
+          legacySlugs.add(appraiser.id);
+          legacySlugs.add(appraiser.id.replace(/\s+/g, '-'));
+          legacySlugs.add(appraiser.id.replace(/\s+/g, '_'));
+        }
+
+        legacySlugs.delete(canonicalSlug);
+
+        const canonicalUrl = buildAbsoluteUrl(`/appraiser/${canonicalSlug}/`);
+        legacySlugs.forEach((legacySlug) => {
+          const legacyDirPath = path.join(APPRAISER_DIR, legacySlug);
+          fs.ensureDirSync(legacyDirPath);
+          fs.writeFileSync(
+            path.join(legacyDirPath, 'index.html'),
+            buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug)
+          );
+        });
+
+        log(`Generated page for ${appraiser.name} (${canonicalSlug})`, 'success');
         processedCount++;
       } catch (error) {
         log(`Error generating page for ${appraiser.name}: ${error.message}`, 'error');

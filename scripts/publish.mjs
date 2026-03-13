@@ -116,6 +116,10 @@ function extractLocationLabel(html, slug) {
   return slug;
 }
 
+function isRedirectStubHtml(html = '') {
+  return /<meta\s+http-equiv=(['"])refresh\1/i.test(html);
+}
+
 async function generateAppraiserHub({ publicDir, baseUrl }) {
   const appraiserRoot = path.join(publicDir, 'appraiser');
   const outputPath = path.join(appraiserRoot, 'index.html');
@@ -138,6 +142,7 @@ async function generateAppraiserHub({ publicDir, baseUrl }) {
     const pagePath = path.join(appraiserRoot, slug, 'index.html');
     try {
       const html = await fs.readFile(pagePath, 'utf8');
+      if (isRedirectStubHtml(html)) continue;
       const label = extractAppraiserLabel(html, slug);
       items.push({ slug, label });
     } catch {
@@ -151,7 +156,7 @@ async function generateAppraiserHub({ publicDir, baseUrl }) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>All Art Appraisers | Appraisily Directory</title>
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="noindex, follow" />
     <link rel="canonical" href="${escapeXml(`${baseUrl}/appraiser/`)}" />
     <style>
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
