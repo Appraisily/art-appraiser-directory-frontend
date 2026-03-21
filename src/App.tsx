@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { MapPin, Star, Search, Palette, Award, Badge, Clock, ArrowRight } from 'lucide-react';
-import { CitySearch } from './components/CitySearch';
+import { CitySearch, CitySearchHandle } from './components/CitySearch';
 import { SEO } from './components/SEO';
 import { cities } from './data/cities.json';
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
 import { trackEvent } from './utils/analytics';
 
 function App() {
+  const citySearchRef = useRef<CitySearchHandle | null>(null);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    citySearchRef.current?.submitSearch();
   };
 
   // Group cities by region for better organization
@@ -143,7 +146,7 @@ function App() {
             </p>
             
             <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto relative z-10 bg-white p-2 rounded-lg shadow-lg">
-              <CitySearch />
+              <CitySearch ref={citySearchRef} />
               <button
                 className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
                 type="submit"

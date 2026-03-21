@@ -1,10 +1,15 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useImperativeHandle, forwardRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Locate } from 'lucide-react';
 import { cities } from '../utils/staticData';
 import { trackEvent } from '../utils/analytics';
 
-export function CitySearch() {
+export type CitySearchHandle = {
+  submitSearch: () => void;
+  focusInput: () => void;
+};
+
+export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_props, ref) {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [isLocating, setIsLocating] = useState(false);
@@ -104,6 +109,40 @@ export function CitySearch() {
     });
   };
 
+  const submitSearch = () => {
+    if (suggestions.length > 0) {
+      handleSelect(suggestions[0]);
+      return;
+    }
+
+    const rawQuery = inputRef.current?.value ?? query;
+    const normalizedQuery = rawQuery.trim().toLowerCase();
+    if (!normalizedQuery) {
+      return;
+    }
+
+    const namePart = normalizedQuery.split(',')[0]?.trim();
+    const directMatch = cities.find((city) => {
+      const name = city.name.toLowerCase();
+      return name === normalizedQuery || (namePart && name === namePart);
+    });
+
+    if (directMatch) {
+      handleSelect(directMatch);
+      return;
+    }
+
+    trackEvent('search_no_results', {
+      source: 'hero_directory',
+      query: rawQuery.trim()
+    });
+  };
+
+  useImperativeHandle(ref, () => ({
+    submitSearch,
+    focusInput: () => inputRef.current?.focus()
+  }));
+
   const highlightMatch = (text: string, query: string) => {
     if (!query) return text;
     
@@ -176,4 +215,4 @@ export function CitySearch() {
       )}
     </div>
   );
-}
+});
