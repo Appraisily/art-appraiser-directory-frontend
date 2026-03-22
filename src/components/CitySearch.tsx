@@ -13,6 +13,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [isLocating, setIsLocating] = useState(false);
+  const [feedback, setFeedback] = useState<{ tone: 'error' | 'info'; message: string } | null>(null);
   const [suggestions, setSuggestions] = useState<typeof cities>([]);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -56,6 +57,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
 
   const handleLocationClick = () => {
     setIsLocating(true);
+    setFeedback({ tone: 'info', message: 'Detecting your location...' });
     trackEvent('search_geolocate_request', {
       source: 'hero_directory'
     });
@@ -63,6 +65,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
     setTimeout(() => {
       setQuery('New York, NY');
       setIsLocating(false);
+      setFeedback({ tone: 'info', message: 'Location detected. Press Enter or click Find Appraisers.' });
       trackEvent('search_geolocate_complete', {
         source: 'hero_directory',
         resolved_city: 'new-york'
@@ -78,6 +81,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
   const handleSelect = (city: typeof cities[0]) => {
     setQuery(`${city.name}, ${city.state}`);
     setIsOpen(false);
+    setFeedback(null);
     trackEvent('location_search_select', {
       source: 'hero_directory',
       city_slug: city.slug,
@@ -100,6 +104,8 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
     }
 
     if (query.trim().length === 0) {
+      setFeedback({ tone: 'error', message: 'Enter a city or ZIP code to search.' });
+      inputRef.current?.focus();
       return;
     }
 
@@ -107,6 +113,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
       source: 'hero_directory',
       query: query.trim()
     });
+    setFeedback({ tone: 'error', message: 'No matching city found. Try another city name.' });
   };
 
   const submitSearch = () => {
@@ -118,6 +125,8 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
     const rawQuery = inputRef.current?.value ?? query;
     const normalizedQuery = rawQuery.trim().toLowerCase();
     if (!normalizedQuery) {
+      setFeedback({ tone: 'error', message: 'Enter a city or ZIP code to search.' });
+      inputRef.current?.focus();
       return;
     }
 
@@ -136,6 +145,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
       source: 'hero_directory',
       query: rawQuery.trim()
     });
+    setFeedback({ tone: 'error', message: 'No matching city found. Try another city name.' });
   };
 
   useImperativeHandle(ref, () => ({
@@ -168,13 +178,19 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
           className="w-full h-12 pl-10 pr-12 rounded-lg border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 shadow-sm"
           placeholder="Enter city or ZIP code"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            if (feedback) {
+              setFeedback(null);
+            }
+          }}
           onFocus={() => {
             if (query && suggestions.length > 0) {
               setIsOpen(true);
             }
           }}
           onKeyDown={handleKeyDown}
+          aria-invalid={feedback?.tone === 'error' ? true : undefined}
         />
         <button
           type="button"
@@ -189,6 +205,15 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
           )}
         </button>
       </div>
+      {feedback && (
+        <div
+          className={`mt-2 text-sm ${feedback.tone === 'error' ? 'text-red-600' : 'text-blue-600'}`}
+          role="status"
+          aria-live="polite"
+        >
+          {feedback.message}
+        </div>
+      )}
 
       {isOpen && suggestions.length > 0 && (
         <div className="absolute z-10 w-full mt-1 bg-white rounded-lg shadow-lg overflow-hidden border border-border animate-fadeInUp">

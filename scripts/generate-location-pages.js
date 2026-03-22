@@ -33,6 +33,40 @@ const ARTICLE_GUIDE_LINKS = [
   { slug: 'what-gives-art-value', label: 'What Gives Art Value?' },
 ];
 
+const LOCATION_SEO_OVERRIDES = {
+  'new-york': { title: 'New York Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare New York art appraisers and art appraisal services for estate planning, insurance, donation, and resale valuations. Review local NYC experts and online options.' },
+  'los-angeles': { title: 'Los Angeles Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Los Angeles art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.' },
+  chicago: { title: 'Chicago Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Chicago art appraisers and art appraisal services for estate planning, charitable donation, insurance, and resale valuations.' },
+  houston: { title: 'Houston Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Houston art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Texas experts and online options.' },
+  phoenix: { title: 'Phoenix Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Phoenix art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Arizona experts and online options.' },
+  philadelphia: { title: 'Philadelphia Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Philadelphia art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.' },
+  'san-francisco': { title: 'San Francisco Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare San Francisco art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.' },
+  seattle: { title: 'Seattle Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Seattle art appraisers and art appraisal services for estate planning, insurance, donation, and resale valuation. Check specialties and request support.' },
+  denver: { title: 'Denver Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Denver art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.' },
+  boston: { title: 'Boston Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Boston art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Massachusetts experts and online options.' },
+  dallas: { title: 'Dallas Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Dallas art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Texas experts and online options.' },
+  austin: { title: 'Austin Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Austin art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review specialties and choose local or online.' },
+  nashville: { title: 'Nashville Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Nashville art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Tennessee experts and online options.' },
+  'las-vegas': { title: 'Las Vegas Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Las Vegas art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Nevada experts and online options.' },
+  atlanta: { title: 'Atlanta Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Atlanta art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Georgia experts and online options.' },
+  miami: { title: 'Miami Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Miami art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Florida experts and online options.' },
+  minneapolis: { title: 'Minneapolis Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Minneapolis art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review credentials and specialties.' },
+  'new-orleans': { title: 'New Orleans Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare New Orleans art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Louisiana experts and online options.' },
+  cleveland: { title: 'Cleveland Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Cleveland art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.' },
+  pittsburgh: { title: 'Pittsburgh Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Pittsburgh art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.' },
+  cincinnati: { title: 'Cincinnati Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Cincinnati art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations.' },
+  'kansas-city': { title: 'Kansas City Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Kansas City art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.' },
+  columbus: { title: 'Columbus Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Columbus art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.' },
+  indianapolis: { title: 'Indianapolis Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Indianapolis art appraisers and art appraisal services for donation, estate, insurance, and resale valuation. Review local providers and online options.' },
+  jacksonville: { title: 'Jacksonville Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Jacksonville art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Florida experts and online options.' },
+  sacramento: { title: 'Sacramento Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Sacramento art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local and online options.' },
+  richmond: { title: 'Richmond Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance', description: 'Compare Richmond art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Virginia experts and online options.' },
+  'washington-dc': { title: 'Washington DC Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Washington DC art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.' },
+  'santa-fe': { title: 'Santa Fe Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Santa Fe art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local New Mexico experts and online options.' },
+  'palm-beach': { title: 'Palm Beach Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Palm Beach art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local Florida experts and online options.' },
+  aspen: { title: 'Aspen Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation', description: 'Compare Aspen art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local Colorado experts and online options.' },
+};
+
 function normalizeImageUrl(input = '') {
   const url = String(input || '').trim();
   if (!url) return FALLBACK_IMAGE;
@@ -599,12 +633,14 @@ function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
 
   const canonicalPath = `/location/${encodeURIComponent(cityMeta.slug)}/`;
   const canonicalUrl = buildAbsoluteUrl(canonicalPath);
-  const description = appraisers.length
+  const seoOverride = LOCATION_SEO_OVERRIDES[cityMeta.slug];
+  const fallbackDescription = appraisers.length
     ? `Discover ${appraisers.length} certified art appraisers near you in ${cityDisplayName}. Compare specialties, ratings, pricing insights, and contact details to book a USPAP-compliant valuation.`
     : `We're onboarding art appraisal partners near ${cityDisplayName}. Request an estimate and our team will introduce you to a certified specialist from the Appraisily network.`;
+  const description = seoOverride?.description || fallbackDescription;
   const ogImage = normalizeImageUrl(appraisers.find(appraiser => appraiser.imageUrl)?.imageUrl || FALLBACK_IMAGE);
 
-  document.title = `Art Appraisers Near ${cityDisplayName} | Local Art Appraisal Services`;
+  document.title = seoOverride?.title || `Art Appraisers Near ${cityDisplayName} | Local Art Appraisal Services`;
 
   let metaDescription = document.querySelector('meta[name="description"]');
   if (!metaDescription) {

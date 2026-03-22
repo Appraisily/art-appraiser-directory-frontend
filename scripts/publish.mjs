@@ -156,7 +156,7 @@ async function generateAppraiserHub({ publicDir, baseUrl }) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>All Art Appraisers | Appraisily Directory</title>
-    <meta name="robots" content="noindex, follow" />
+    <meta name="robots" content="index, follow" />
     <link rel="canonical" href="${escapeXml(`${baseUrl}/appraiser/`)}" />
     <style>
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; color: #111827; background: #f9fafb; }
@@ -275,11 +275,40 @@ ${items
   return { outputPath, count: items.length };
 }
 
+const HOME_PRIORITY_CITIES = [
+  { slug: 'new-york', label: 'New York' },
+  { slug: 'los-angeles', label: 'Los Angeles' },
+  { slug: 'chicago', label: 'Chicago' },
+  { slug: 'houston', label: 'Houston' },
+  { slug: 'phoenix', label: 'Phoenix' },
+  { slug: 'philadelphia', label: 'Philadelphia' },
+  { slug: 'dallas', label: 'Dallas' },
+  { slug: 'washington-dc', label: 'Washington, DC' },
+  { slug: 'boston', label: 'Boston' },
+  { slug: 'miami', label: 'Miami' },
+  { slug: 'santa-fe', label: 'Santa Fe' },
+  { slug: 'palm-beach', label: 'Palm Beach' },
+];
+
+function buildHomeCrawlLinksHtml() {
+  const featuredCityLinks = HOME_PRIORITY_CITIES
+    .map((city) => `<a href="/location/${escapeXml(city.slug)}/">${escapeXml(city.label)}</a>`)
+    .join(' · ');
+
+  return `
+<section data-appraisily-crawl-links="1" style="max-width:960px;margin:0 auto;padding:18px 16px 28px;font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#4b5563;">
+  <p style="margin:0 0 10px;"><strong style="color:#111827;">Crawl hubs:</strong> <a href="/appraiser/">Browse all art appraisers</a> · <a href="/location/">Browse all locations</a> · <a href="/sitemap.xml">Sitemap</a></p>
+  <p style="margin:0 0 8px;"><strong style="color:#111827;">Priority cities:</strong> ${featuredCityLinks}</p>
+  <p style="margin:0;"><strong style="color:#111827;">Related guides:</strong> <a href="https://articles.appraisily.com/priority-guides/">Top 100 guides</a> · <a href="https://articles.appraisily.com/irs-qualified-appraiser-near-me/">IRS appraisal guide</a></p>
+</section>
+`;
+}
+
 async function ensureHomeCrawlLinks({ publicDir }) {
   const homePath = path.join(publicDir, 'index.html');
   const marker = 'data-appraisily-crawl-links';
-  const injection = `\n<div ${marker} style="max-width:960px;margin:0 auto;padding:12px 16px;font:14px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#6b7280;">\n  <a href=\"/appraiser/\">Browse all appraisers</a> · <a href=\"/location/\">Browse locations</a> · <a href=\"/sitemap.xml\">Sitemap</a> · <a href=\"https://articles.appraisily.com/priority-guides/\">Top 100 guides</a> · <a href=\"https://articles.appraisily.com/irs-qualified-appraiser-near-me/\">IRS appraisal guide</a>\n</div>\n`;
-  const markerBlockRe = /<div[^>]*\bdata-appraisily-crawl-links\b[^>]*>[\s\S]*?<\/div>/i;
+  const injection = `\n${buildHomeCrawlLinksHtml()}\n`;
+  const markerBlockRe = /<section[^>]*\bdata-appraisily-crawl-links\b[^>]*>[\s\S]*?<\/section>|<div[^>]*\bdata-appraisily-crawl-links\b[^>]*>[\s\S]*?<\/div>/i;
 
   let html = '';
   try {

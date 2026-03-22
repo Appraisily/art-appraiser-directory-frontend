@@ -26,16 +26,43 @@ type DirectoryCity = {
 };
 
 const STRIKING_DISTANCE_CITY_SLUGS = [
-  'des-moines',
-  'kansas-city',
+  'new-york',
+  'los-angeles',
   'chicago',
-  'columbus',
-  'tucson',
+  'houston',
+  'phoenix',
+  'philadelphia',
+  'san-francisco',
+  'seattle',
   'denver',
-  'milwaukee',
+  'boston',
+  'dallas',
+  'austin',
+  'san-antonio',
+  'san-diego',
+  'san-jose',
+  'nashville',
+  'portland',
+  'las-vegas',
+  'atlanta',
+  'miami',
+  'minneapolis',
+  'new-orleans',
   'cleveland',
-  'baltimore',
-  'louisville'
+  'st-louis',
+  'pittsburgh',
+  'cincinnati',
+  'kansas-city',
+  'columbus',
+  'indianapolis',
+  'jacksonville',
+  'sacramento',
+  'richmond',
+  'washington-dc',
+  'salt-lake-city',
+  'santa-fe',
+  'palm-beach',
+  'aspen'
 ] as const;
 
 type LocationSeoOverride = {
@@ -45,88 +72,297 @@ type LocationSeoOverride = {
   heroDescription: string;
 };
 
+const LOCATION_INTERNAL_LINK_TARGETS: Partial<
+  Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], readonly string[]>
+> = {
+  'new-york': ['philadelphia', 'boston', 'hartford'],
+  'los-angeles': ['san-diego', 'san-francisco', 'san-jose'],
+  chicago: ['indianapolis', 'columbus', 'cleveland'],
+  houston: ['dallas', 'san-antonio', 'austin'],
+  phoenix: ['denver', 'las-vegas', 'los-angeles'],
+  philadelphia: ['new-york', 'pittsburgh', 'washington-dc'],
+  'san-francisco': ['san-jose', 'sacramento', 'los-angeles'],
+  seattle: ['portland', 'san-francisco', 'denver'],
+  denver: ['aspen', 'kansas-city', 'salt-lake-city'],
+  boston: ['providence', 'hartford', 'new-york'],
+  dallas: ['fort-worth', 'houston', 'austin'],
+  austin: ['san-antonio', 'houston', 'dallas'],
+  'san-antonio': ['austin', 'houston', 'dallas'],
+  'san-diego': ['los-angeles', 'phoenix', 'las-vegas'],
+  nashville: ['atlanta', 'indianapolis', 'charlotte'],
+  portland: ['seattle', 'san-francisco', 'sacramento'],
+  'las-vegas': ['phoenix', 'los-angeles', 'denver'],
+  atlanta: ['savannah', 'charleston', 'charlotte'],
+  miami: ['palm-beach', 'jacksonville', 'savannah'],
+  minneapolis: ['chicago', 'indianapolis', 'kansas-city'],
+  'new-orleans': ['houston', 'nashville', 'jacksonville'],
+  cleveland: ['columbus', 'cincinnati', 'pittsburgh'],
+  'st-louis': ['kansas-city', 'chicago', 'indianapolis'],
+  pittsburgh: ['cleveland', 'columbus', 'philadelphia'],
+  cincinnati: ['columbus', 'indianapolis', 'cleveland'],
+  'kansas-city': ['st-louis', 'chicago', 'denver'],
+  columbus: ['cleveland', 'cincinnati', 'pittsburgh'],
+  indianapolis: ['columbus', 'cincinnati', 'chicago'],
+  jacksonville: ['miami', 'savannah', 'palm-beach'],
+  sacramento: ['san-francisco', 'san-jose', 'los-angeles'],
+  richmond: ['washington-dc', 'charlotte', 'raleigh'],
+  'washington-dc': ['richmond', 'philadelphia', 'charlotte'],
+  'salt-lake-city': ['denver', 'phoenix', 'las-vegas'],
+  'santa-fe': ['denver', 'phoenix', 'aspen'],
+  'palm-beach': ['miami', 'jacksonville', 'savannah'],
+  aspen: ['denver', 'salt-lake-city', 'santa-fe']
+};
+
 const LOCATION_SEO_OVERRIDES: Partial<
   Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
 > = {
-  'des-moines': {
-    title: 'Des Moines Art Appraisers | Fine Art, Donation & Estate Values',
+  'new-york': {
+    title: 'New York Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare art appraisers in Des Moines for fine art, donation, estate, and insurance valuations. Review specialties and choose local or online appraisal.',
-    h1: 'Des Moines Art Appraisers',
+      'Compare New York art appraisers and art appraisal services for estate planning, insurance, donation, and resale valuations. Review local NYC experts and online options.',
+    h1: 'New York Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare local art appraisal specialists in Des Moines, then choose the best fit for donation, estate, insurance, or resale needs.'
+      'Compare New York City art appraisers for paintings, fine art, and collections, then choose local in-person service or online turnaround.'
   },
-  'kansas-city': {
-    title: 'Kansas City Art Appraisers | Local Fine Art Valuation Experts',
+  'los-angeles': {
+    title: 'Los Angeles Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Looking for an art appraiser in Kansas City? Compare local fine art valuation specialists, review credentials, and choose in-person or online service.',
-    h1: 'Kansas City Art Appraisers',
+      'Compare Los Angeles art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Los Angeles Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Review Kansas City art appraisers for paintings, prints, and collections, then choose local in-person help or faster online appraisal.'
+      'Compare Los Angeles specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
   },
   chicago: {
-    title: 'Chicago Art Appraisers | Fine Art, Estate & Insurance Values',
+    title: 'Chicago Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare Chicago art appraisers for estate, donation, insurance, and resale valuation. Review specialties and choose local or online appraisal support.',
-    h1: 'Chicago Art Appraisers',
+      'Compare Chicago art appraisers and art appraisal services for estate planning, charitable donation, insurance, and resale valuations.',
+    h1: 'Chicago Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Find Chicago art appraisers for paintings, prints, and collections, then choose local in-person service or faster online appraisal.'
+      'Compare Chicago art appraisers for paintings, prints, and collections, then choose local in-person service or a faster online appraisal route.'
   },
-  tucson: {
-    title: 'Tucson Art Appraisers | Fine Art, Donation & Estate Valuation',
+  houston: {
+    title: 'Houston Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare Tucson art appraisers for donation, estate, and insurance valuation. Check specialties and choose local or online appraisal.',
-    h1: 'Tucson Art Appraisers',
+      'Compare Houston art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Texas experts and online options.',
+    h1: 'Houston Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Tucson specialists for art, donation, and estate valuation, then choose the local or online path that matches your timeline.'
+      'Compare Houston specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
   },
-  columbus: {
-    title: 'Columbus Art Appraisers | Fine Art, Donation & Tax Reports',
+  phoenix: {
+    title: 'Phoenix Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Find and compare Columbus art appraisers for paintings, donation reports, estate work, and tax-related valuation. Choose local or online appraisal.',
-    h1: 'Columbus Art Appraisers',
+      'Compare Phoenix art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Arizona experts and online options.',
+    h1: 'Phoenix Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.'
+      'Compare Phoenix specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  philadelphia: {
+    title: 'Philadelphia Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Philadelphia art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Philadelphia Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Philadelphia specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  'san-francisco': {
+    title: 'San Francisco Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare San Francisco art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'San Francisco Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare San Francisco art appraisers for fine art and collections, then choose local in-person service or faster online appraisal.'
+  },
+  seattle: {
+    title: 'Seattle Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Seattle art appraisers and art appraisal services for estate planning, insurance, donation, and resale valuation. Check specialties and request support.',
+    h1: 'Seattle Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Find Seattle art appraisal specialists for paintings, prints, and collections, then choose local in-person or online valuation support.'
   },
   denver: {
-    title: 'Denver Art Appraisers | Fine Art Appraisal Near You',
+    title: 'Denver Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare Denver art appraisers, including specialists for insurance, estate, and resale valuation. Choose local in-person or online appraisal.',
-    h1: 'Denver Art Appraisers',
+      'Compare Denver art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Denver Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Find Denver art appraisers, compare specialties, and choose between local appointments or faster online appraisal.'
+      'Compare Denver specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
   },
-  milwaukee: {
-    title: 'Milwaukee Art Appraisers | Estate & Fine Art Valuation',
+  boston: {
+    title: 'Boston Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
     description:
-      'Compare Milwaukee art appraisers for estate collections, insurance, and resale valuation. Review specialties and choose in-person or online appraisal.',
-    h1: 'Milwaukee Art Appraisers',
+      'Compare Boston art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Massachusetts experts and online options.',
+    h1: 'Boston Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Milwaukee appraisal options for fine art and collections, then choose local in-person service or online turnaround.'
+      'Compare Boston art appraisers for fine art and collections, then choose local in-person service or faster online appraisal.'
+  },
+  dallas: {
+    title: 'Dallas Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Dallas art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Texas experts and online options.',
+    h1: 'Dallas Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Dallas specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  austin: {
+    title: 'Austin Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Austin art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review specialties and choose local or online.',
+    h1: 'Austin Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Find Austin art appraisers for paintings, prints, and collections, then choose local appointments or online turnaround.'
+  },
+  nashville: {
+    title: 'Nashville Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Nashville art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Tennessee experts and online options.',
+    h1: 'Nashville Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Nashville specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  'las-vegas': {
+    title: 'Las Vegas Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Las Vegas art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Nevada experts and online options.',
+    h1: 'Las Vegas Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Las Vegas specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  atlanta: {
+    title: 'Atlanta Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Atlanta art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Georgia experts and online options.',
+    h1: 'Atlanta Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Atlanta specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  miami: {
+    title: 'Miami Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Miami art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Florida experts and online options.',
+    h1: 'Miami Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Miami specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  minneapolis: {
+    title: 'Minneapolis Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Minneapolis art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review credentials and specialties.',
+    h1: 'Minneapolis Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Find Minneapolis art appraisal specialists, then choose local in-person appointments or online support.'
+  },
+  'new-orleans': {
+    title: 'New Orleans Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare New Orleans art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Louisiana experts and online options.',
+    h1: 'New Orleans Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare New Orleans specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
   },
   cleveland: {
-    title: 'Cleveland Art Appraisers | Donation & Collection Valuation',
+    title: 'Cleveland Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
     description:
-      'Find Cleveland art appraisers for donation, estate, and personal collection valuation. Compare local providers and online alternatives.',
-    h1: 'Cleveland Art Appraisers',
+      'Compare Cleveland art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Cleveland Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Cleveland appraisers for donation and collection valuation needs, then choose local or online service.'
+      'Compare Cleveland specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
-  louisville: {
-    title: 'Louisville Art Appraisers | Fine Art, Tax & Estate Values',
+  pittsburgh: {
+    title: 'Pittsburgh Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
     description:
-      'Compare Louisville art appraisers for paintings, tax donation, and estate valuation. Review specialists and choose in-person or online appraisal.',
-    h1: 'Louisville Art Appraisers',
+      'Compare Pittsburgh art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Pittsburgh Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Find Louisville specialists for fine art and tax-related valuations, then choose local in-person or faster online appraisal.'
+      'Compare Pittsburgh specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
   },
-  baltimore: {
-    title: 'Baltimore Art Appraisers | Fine Art & Collection Valuation',
+  cincinnati: {
+    title: 'Cincinnati Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
     description:
-      'Compare Baltimore art appraisers for paintings, collections, estate, and insurance valuation. Check specialties and choose local or online service.',
-    h1: 'Baltimore Art Appraisers',
+      'Compare Cincinnati art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations.',
+    h1: 'Cincinnati Art Appraisers & Art Appraisal Services',
     heroDescription:
-      'Compare Baltimore specialists for fine art and collection valuation, then choose local in-person or online appraisal.'
+      'Review Cincinnati art appraisal options, then choose local in-person service or online appraisal support.'
+  },
+  'kansas-city': {
+    title: 'Kansas City Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Kansas City art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Kansas City Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Kansas City specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
+  },
+  columbus: {
+    title: 'Columbus Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Columbus art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
+    h1: 'Columbus Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Columbus art appraisal experts for donation, estate, insurance, and personal-property needs before choosing local in-person or online service.'
+  },
+  indianapolis: {
+    title: 'Indianapolis Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Indianapolis art appraisers and art appraisal services for donation, estate, insurance, and resale valuation. Review local providers and online options.',
+    h1: 'Indianapolis Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Review Indianapolis art appraisers, then choose the best local or online valuation route for your timeline.'
+  },
+  jacksonville: {
+    title: 'Jacksonville Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Jacksonville art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Florida experts and online options.',
+    h1: 'Jacksonville Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Jacksonville specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
+  },
+  sacramento: {
+    title: 'Sacramento Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Sacramento art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local and online options.',
+    h1: 'Sacramento Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Sacramento art appraisers, then choose local appointments or faster online appraisal.'
+  },
+  richmond: {
+    title: 'Richmond Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
+    description:
+      'Compare Richmond art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Virginia experts and online options.',
+    h1: 'Richmond Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Richmond specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
+  },
+  'washington-dc': {
+    title: 'Washington DC Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Washington DC art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
+    h1: 'Washington DC Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Washington DC specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
+  },
+  'santa-fe': {
+    title: 'Santa Fe Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Santa Fe art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local New Mexico experts and online options.',
+    h1: 'Santa Fe Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Santa Fe specialists for fine art and collection appraisals, then choose local in-person service or online turnaround.'
+  },
+  'palm-beach': {
+    title: 'Palm Beach Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Palm Beach art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local Florida experts and online options.',
+    h1: 'Palm Beach Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Palm Beach specialists for fine art and collection appraisals, then choose local in-person service or online turnaround.'
+  },
+  aspen: {
+    title: 'Aspen Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
+    description:
+      'Compare Aspen art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local Colorado experts and online options.',
+    h1: 'Aspen Art Appraisers & Art Appraisal Services',
+    heroDescription:
+      'Compare Aspen specialists for fine art and collection appraisals, then choose local in-person service or online turnaround.'
   }
 };
 
@@ -289,6 +525,16 @@ export function StandardizedLocationPage() {
       .slice(0, 6)
       .map(item => item.city);
   }, [cityMeta, validCitySlug]);
+  const prioritizedInternalLinkCities = useMemo(() => {
+    const typedCities = directoryCities as DirectoryCity[];
+    const linkSlugs = LOCATION_INTERNAL_LINK_TARGETS[
+      validCitySlug as (typeof STRIKING_DISTANCE_CITY_SLUGS)[number]
+    ];
+    if (!linkSlugs?.length) return [];
+    return linkSlugs
+      .map((slug) => typedCities.find(city => city.slug === slug))
+      .filter((city): city is DirectoryCity => Boolean(city) && city.slug !== validCitySlug);
+  }, [validCitySlug]);
   const popularOpportunityCities = useMemo(() => {
     const typedCities = directoryCities as DirectoryCity[];
     return STRIKING_DISTANCE_CITY_SLUGS
@@ -650,6 +896,30 @@ export function StandardizedLocationPage() {
                   onClick={() => handleRelatedCityClick(city, 'location_related_cities')}
                 >
                   {city.name}, {city.state}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {prioritizedInternalLinkCities.length > 0 && (
+          <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Compare art appraiser guides people also check from {citySearchName}</h2>
+            <p className="text-gray-600">
+              Use these city pages to compare provider options, specialties, and availability before choosing local or online appraisal support.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {prioritizedInternalLinkCities.map(city => (
+                <a
+                  key={city.slug}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="related_city_click"
+                  data-gtm-placement="location_priority_links"
+                  data-gtm-city={city.slug}
+                  onClick={() => handleRelatedCityClick(city, 'location_priority_links')}
+                >
+                  {city.name} art appraisers ({city.state})
                 </a>
               ))}
             </div>
