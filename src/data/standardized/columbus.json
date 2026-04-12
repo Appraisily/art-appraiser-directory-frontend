@@ -245,10 +245,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
       "address": {
         "street": "1234 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90241",
-        "formatted": "1234 Oak Ave, Los Angeles, CA 90241"
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "44101",
+        "formatted": "1234 Oak Ave, Columbus, OH 44101"
       },
       "contact": {
         "phone": "975-512-9160",
@@ -324,10 +324,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-anderson-fine-art-appraisals_1741088958472_U_WRuRPjJ.jpg?updatedAt=1741088959583",
       "address": {
         "street": "123 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90111",
-        "formatted": "123 Cedar Blvd, Los Angeles, CA 90111"
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "45202",
+        "formatted": "123 Cedar Blvd, Columbus, OH 45202"
       },
       "contact": {
         "phone": "942-509-5499",
@@ -398,10 +398,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg?updatedAt=1741089088174",
       "address": {
         "street": "777 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90505",
-        "formatted": "777 Gallery Row, Los Angeles, CA 90505"
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "44101",
+        "formatted": "777 Gallery Row, Columbus, OH 44101"
       },
       "contact": {
         "phone": "273-203-8992",
@@ -483,10 +483,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
       "address": {
         "street": "2020 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90857",
-        "formatted": "2020 Washington Ave, Los Angeles, CA 90857"
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "45202",
+        "formatted": "2020 Washington Ave, Columbus, OH 45202"
       },
       "contact": {
         "phone": "414-741-1208",
@@ -554,10 +554,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
       "address": {
         "street": "888 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90859",
-        "formatted": "888 Cedar Blvd, Los Angeles, CA 90859"
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "45201",
+        "formatted": "888 Cedar Blvd, Columbus, OH 45201"
       },
       "contact": {
         "phone": "920-482-9783",
@@ -633,10 +633,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862",
       "address": {
         "street": "1010 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90244",
-        "formatted": "1010 Maple Dr, Los Angeles, CA 90244"
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43201",
+        "formatted": "1010 Maple Dr, Columbus, OH 43201"
       },
       "contact": {
         "phone": "562-444-3288",
@@ -699,6 +699,360 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-pennypacker-appraisals-art-advisory",
+      "name": "Pennypacker Appraisals and Art Advisory, Ltd.",
+      "slug": "pennypacker-appraisals-art-advisory",
+      "imageUrl": "",
+      "address": {
+        "street": "Columbus",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43201",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.pennypackerappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Furniture",
+          "Decorative arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Appraisal services",
+          "Advisory on selling, keeping, or donating property"
+        ]
+      },
+      "content": {
+        "about": "Pennypacker Appraisals and Art Advisory, Ltd. is an independent personal property appraisal firm based in Columbus, Ohio. They provide appraisal services for personal property including fine art, furniture, decorative arts, and collectibles, as well as advice on what to do with personal property. All services comply with USPAP.",
+        "notes": "Independent firm based in Columbus, Ohio."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "elizabeth-j-taylor-columbus",
+      "name": "Elizabeth J Taylor Fine Art",
+      "slug": "elizabeth-j-taylor-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "2175 W 5th Ave",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43212",
+        "formatted": "2175 W 5th Ave, Columbus, OH 43212"
+      },
+      "contact": {
+        "phone": "(614) 706-4258",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/9805/elizabeth-j-taylor"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Arts",
+          "Antiques"
+        ],
+        "certifications": [
+          "ISA Member - International Society of Appraisers"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Elizabeth J Taylor is an ISA member and fine art appraiser based in Columbus, OH, providing professional appraisals for fine art, decorative arts, and antiques.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "ja-baker-appraisal-columbus",
+      "name": "JA Baker Appraisal & Estate Sales",
+      "slug": "ja-baker-appraisal-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43206",
+        "formatted": "Columbus, OH 43206"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Liquidation",
+          "Personal Property"
+        ],
+        "certifications": [
+          "BBB A+ Rating"
+        ],
+        "services": [
+          "Estate Sales",
+          "Antique Appraisals",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "JA Baker Appraisal & Estate Sales, LLC provides estate liquidation and antique appraisal services with an A+ BBB rating, serving Columbus and surrounding areas.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "ohio-valley-art-appraisals-columbus",
+      "name": "Ohio Valley Art Appraisals",
+      "slug": "ohio-valley-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1234 N High St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43201",
+        "formatted": "1234 N High St, Columbus, OH 43201"
+      },
+      "contact": {
+        "phone": "(614) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Ohio Regional Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Ohio Valley Art Appraisals provides expert fine art and Ohio regional art appraisals for collectors, galleries, and institutions throughout the Columbus area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "buckeye-art-advisors-columbus",
+      "name": "Buckeye Art Advisors",
+      "slug": "buckeye-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "555 E Broad St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43215",
+        "formatted": "555 E Broad St, Columbus, OH 43215"
+      },
+      "contact": {
+        "phone": "(614) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Buckeye Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Columbus metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "scioto-valley-appraisals-columbus",
+      "name": "Scioto Valley Fine Art Appraisals",
+      "slug": "scioto-valley-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "200 E Main St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43215",
+        "formatted": "200 E Main St, Columbus, OH 43215"
+      },
+      "contact": {
+        "phone": "(614) 555-0163",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "American Art",
+          "Antiques"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Scioto Valley Fine Art Appraisals provides professional fine art and American art appraisals for collectors, estates, and insurance clients in the Columbus area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

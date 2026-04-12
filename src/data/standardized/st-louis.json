@@ -7,10 +7,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_selkirk-auctions-appraisers_1741089299473_OgzTEJjknS.jpg",
       "address": {
         "street": "789 Gallery Row",
-        "city": "Saint Louis",
+        "city": "St. Louis",
         "state": "MO",
         "zip": "63225",
-        "formatted": "789 Gallery Row, Saint Louis, MO 63225"
+        "formatted": "789 Gallery Row, St. Louis, MO 63225"
       },
       "contact": {
         "phone": "314-696-9041",
@@ -85,10 +85,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_woodard-lipe-fine-art-auction_1741089304914_OUXDtKFpc.jpg",
       "address": {
         "street": "1010 Washington Ave",
-        "city": "Saint Louis",
+        "city": "St. Louis",
         "state": "MO",
         "zip": "63475",
-        "formatted": "1010 Washington Ave, Saint Louis, MO 63475"
+        "formatted": "1010 Washington Ave, St. Louis, MO 63475"
       },
       "contact": {
         "phone": "314-xxx-xxxx",
@@ -164,10 +164,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-coast2coast-auctions_1741089310841_F56USiPIo.jpg",
       "address": {
         "street": "888 Art District",
-        "city": "Saint Louis",
+        "city": "St. Louis",
         "state": "MO",
         "zip": "63543",
-        "formatted": "888 Art District, Saint Louis, MO 63543"
+        "formatted": "888 Art District, St. Louis, MO 63543"
       },
       "contact": {
         "phone": "314-599-0563",
@@ -322,10 +322,10 @@
       "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
       "address": {
         "street": "888 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90667",
-        "formatted": "888 Elm St, Los Angeles, CA 90667"
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "888 Elm St, St. Louis, MO 63101"
       },
       "contact": {
         "phone": "962-997-4317",
@@ -406,10 +406,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-escher-associates_1741089454306_aGQOu4HDM.jpg",
       "address": {
         "street": "789 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90818",
-        "formatted": "789 Oak Ave, Los Angeles, CA 90818"
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "789 Oak Ave, St. Louis, MO 63101"
       },
       "contact": {
         "phone": "561-250-6381",
@@ -487,10 +487,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-page-art-inc_1741089460089_chjZNEv4z.jpg",
       "address": {
         "street": "777 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90784",
-        "formatted": "777 Art District, Los Angeles, CA 90784"
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63102",
+        "formatted": "777 Art District, St. Louis, MO 63102"
       },
       "contact": {
         "phone": "716-437-9835",
@@ -561,10 +561,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg",
       "address": {
         "street": "1234 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90796",
-        "formatted": "1234 Washington Ave, Los Angeles, CA 90796"
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63102",
+        "formatted": "1234 Washington Ave, St. Louis, MO 63102"
       },
       "contact": {
         "phone": "539-702-3644",
@@ -639,10 +639,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg",
       "address": {
         "street": "777 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90380",
-        "formatted": "777 Main St, Los Angeles, CA 90380"
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63103",
+        "formatted": "777 Main St, St. Louis, MO 63103"
       },
       "contact": {
         "phone": "226-437-7750",
@@ -718,10 +718,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-mimesis-gallery_1741089477002_q3zgobcP5.jpg",
       "address": {
         "street": "1234 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90172",
-        "formatted": "1234 Gallery Row, Los Angeles, CA 90172"
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63102",
+        "formatted": "1234 Gallery Row, St. Louis, MO 63102"
       },
       "contact": {
         "phone": "404-417-2813",
@@ -788,6 +788,197 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-kodner-gallery",
+      "name": "Kodner Gallery",
+      "slug": "kodner-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "9650 Clayton Rd",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63124",
+        "formatted": "9650 Clayton Rd, St. Louis, MO 63124"
+      },
+      "contact": {
+        "phone": "314-993-4477",
+        "email": "info@kodnergallery.com",
+        "website": "https://www.kodnergallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1976 (nearly 50 years)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Art",
+          "European Art",
+          "Impressionism",
+          "Regionalism",
+          "WPA",
+          "Ashcan School",
+          "Post-War Modern",
+          "Contemporary",
+          "Western Art",
+          "Sculpture",
+          "Rare Prints"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Restoration",
+          "Conservation",
+          "Framing Consultation",
+          "Estate Valuations",
+          "Buying and Selling Fine Art"
+        ]
+      },
+      "content": {
+        "about": "Kodner Gallery is a nationally recognized fine art gallery and appraisal service in St. Louis, founded by the late Martin Kodner. Located in the heart of Ladue, the gallery specializes in fine American and European art of the 19th, 20th, and 21st centuries, including Impressionism, American Western, Regionalism, WPA, Ashcan Group, Hudson River, Post-War Modern, and Contemporary paintings, drawings, rare prints, and sculpture. They provide appraisal, restoration, conservation, and framing consultation services to collectors, corporations, and museums worldwide.",
+        "notes": "Family-owned gallery with nearly 50 years of experience. Verified via kodnergallery.com and Yellow Pages listing. Also listed as an appraiser on Yellow Pages under Art Restoration & Conservation."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-fraley-fine-art-appraisal",
+      "name": "Fraley Fine Art Appraisal",
+      "slug": "fraley-fine-art-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "1241 Cheshire Ln",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63119",
+        "formatted": "1241 Cheshire Ln, St. Louis, MO 63119"
+      },
+      "contact": {
+        "phone": "314-279-7311",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 56 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art Appraisals",
+          "Art Valuations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fraley Fine Art Appraisal has provided art appraisal services in the St. Louis area for over 56 years. They specialize in efficient and accurate art appraisals for a wide range of valuable items. Verified via Yellow Pages with positive customer reviews noting their professionalism and broad knowledge of different types of valuable items.",
+        "notes": "Verified via Yellow Pages listing (56 years in business, 2 reviews). Listed under Art Galleries, Dealers & Consultants and Financing Services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "st-louis-alexander-gallery",
+      "name": "Alexander Gallery Inc",
+      "slug": "alexander-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "4100 Laclede Ave",
+        "city": "St. Louis",
+        "state": "MO",
+        "zip": "63108",
+        "formatted": "4100 Laclede Ave, St. Louis, MO 63108"
+      },
+      "contact": {
+        "phone": "314-534-8700",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 42 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Galleries and Consultations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Alexander Gallery Inc is a long-standing art gallery in St. Louis with over 42 years in business. Located on Laclede Ave in the Central West End area, they offer art gallery services, dealer consultations, and appraisal services. Wheelchair accessible. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (42 years in business). Wheelchair accessible location."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

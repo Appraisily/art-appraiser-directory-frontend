@@ -92,32 +92,35 @@ async function buildStandardized() {
     // Step 4: Build the React app
     runCommand('npx vite build', '🔨 Building React app');
 
-    // Step 5: Generate SEO files
-    runCommand('node scripts/generate-sitemap.js', '🗺️ Generating sitemap');
-
-    // Step 6: Fix links to point to main domain
+    // Step 5: Fix links to point to main domain
     runCommand('node scripts/fix-domain-links.js', '🔗 Updating links to point to main domain');
 
-    // Step 7: Generate static location pages
+    // Step 6: Generate static location pages
     runCommand('node scripts/fix-all-pages.js', '📄 Generating static location pages');
     
-    // Step 8: Generate static appraiser pages
+    // Step 7: Generate static appraiser pages
     runCommand('node scripts/generate-appraiser-pages.js', '📄 Generating static appraiser pages');
     
-    // Step 9: Fix HTML paths for deployment (fix for module loading issue)
+    // Step 8: Fix HTML paths for deployment (fix for module loading issue)
     runCommand('node scripts/fix-html-paths.js', '🔧 Fixing HTML paths for module loading');
 
-    // Step 10: Fix React hydration issues
+    // Step 9: Fix React hydration issues
     runCommand('node scripts/fix-react-hydration.js', '🔄 Fixing React hydration issues');
     
-    // Step 11: Fix preloaded asset references
+    // Step 10: Fix preloaded asset references
     runCommand('node scripts/fix-preload-refs.js', '🔄 Fixing preloaded asset references');
 
-    // Step 12: Fix location links to be relative
+    // Step 11: Fix location links to be relative
     runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
 
-    // Step 13: Ensure chat embed script exists on all generated HTML pages
+    // Step 12: Ensure chat embed script exists on all generated HTML pages
     runCommand('node scripts/inject-chat-embed.js', '💬 Injecting Appraisily chat embed on all pages');
+
+    // Step 13: Apply indexability rules before regenerating the sitemap.
+    runCommand('node scripts/apply-indexing-rules.mjs --public-dir dist', '🧭 Applying robots/indexing rules');
+
+    // Step 14: Generate sitemap from the final HTML output so noindex pages are excluded.
+    runCommand('node scripts/generate-sitemap.js', '🗺️ Generating final sitemap from built HTML');
 
     log('✅ Build completed successfully!', 'success');
     log('📂 Static files generated in the dist/ directory', 'success');

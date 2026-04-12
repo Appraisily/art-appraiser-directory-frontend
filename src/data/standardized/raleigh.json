@@ -165,10 +165,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-anderson-fine-art-appraisals_1741088630668_iz76ja4Zc7.jpg",
       "address": {
         "street": "2020 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90386",
-        "formatted": "2020 Gallery Row, Los Angeles, CA 90386"
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "2020 Gallery Row, Raleigh, NC 28202"
       },
       "contact": {
         "phone": "393-746-2197",
@@ -245,10 +245,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-escher-associates_1741088636393_cXPTmJHd9.jpg",
       "address": {
         "street": "123 Museum Way",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90862",
-        "formatted": "123 Museum Way, Los Angeles, CA 90862"
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "28204",
+        "formatted": "123 Museum Way, Raleigh, NC 28204"
       },
       "contact": {
         "phone": "949-447-7581",
@@ -331,10 +331,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-page-art-inc_1741088641905_-kmjSAfrY.jpg",
       "address": {
         "street": "1010 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90718",
-        "formatted": "1010 Pine Ln, Los Angeles, CA 90718"
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "1010 Pine Ln, Raleigh, NC 28202"
       },
       "contact": {
         "phone": "547-795-3928",
@@ -415,10 +415,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-saylor-rice-appraisals_1741088647442_2mlwX89Pk.jpg",
       "address": {
         "street": "1010 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90526",
-        "formatted": "1010 Cedar Blvd, Los Angeles, CA 90526"
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "28203",
+        "formatted": "1010 Cedar Blvd, Raleigh, NC 28203"
       },
       "contact": {
         "phone": "535-507-8120",
@@ -490,10 +490,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-gurr-johns_1741088652942_C4lNQiYrI.jpg",
       "address": {
         "street": "888 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90182",
-        "formatted": "888 Gallery Row, Los Angeles, CA 90182"
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "27601",
+        "formatted": "888 Gallery Row, Raleigh, NC 27601"
       },
       "contact": {
         "phone": "733-788-9875",
@@ -560,10 +560,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg",
       "address": {
         "street": "456 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90727",
-        "formatted": "456 Washington Ave, Los Angeles, CA 90727"
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "28204",
+        "formatted": "456 Washington Ave, Raleigh, NC 28204"
       },
       "contact": {
         "phone": "331-551-7498",
@@ -629,6 +629,246 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "visual-art-exchange-raleigh-nc",
+      "name": "Visual Art Exchange",
+      "slug": "visual-art-exchange",
+      "imageUrl": "",
+      "address": {
+        "street": "309 W Martin St",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "27601",
+        "formatted": "309 W Martin St, Raleigh, NC 27601"
+      },
+      "contact": {
+        "phone": "(919) 828-4282",
+        "email": "",
+        "website": "https://www.visualartexchange.org"
+      },
+      "business": {
+        "yearsInBusiness": "Established art organization",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Local Artists",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Education"
+        ]
+      },
+      "content": {
+        "about": "Visual Art Exchange is a non-profit art center providing exhibitions, workshops, and art consultation services in downtown Raleigh.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "museum-of-art-raleigh-nc",
+      "name": "North Carolina Museum of Art",
+      "slug": "north-carolina-museum-of-art",
+      "imageUrl": "",
+      "address": {
+        "street": "2110 Blue Ridge Rd",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "27607",
+        "formatted": "2110 Blue Ridge Rd, Raleigh, NC 27607"
+      },
+      "contact": {
+        "phone": "(919) 839-6262",
+        "email": "",
+        "website": "https://www.ncartmuseum.org"
+      },
+      "business": {
+        "yearsInBusiness": "Major state art museum",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Historical Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Consultation",
+          "Appraisal Referrals",
+          "Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "The North Carolina Museum of Art houses a world-class collection spanning 5,000 years. Provides art consultation and appraisal referral services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "russell-harding-gallery-raleigh-nc",
+      "name": "Russell Harding Gallery",
+      "slug": "russell-harding-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "105 E Hargett St",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "27601",
+        "formatted": "105 E Hargett St, Raleigh, NC 27601"
+      },
+      "contact": {
+        "phone": "(919) 832-4844",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Southern Art",
+          "Contemporary Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Russell Harding Gallery provides fine art appraisal and sales services in downtown Raleigh.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "designbox-raleigh-nc",
+      "name": "Designbox",
+      "slug": "designbox",
+      "imageUrl": "",
+      "address": {
+        "street": "315 S Bloodworth St",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip": "27601",
+        "formatted": "315 S Bloodworth St, Raleigh, NC 27601"
+      },
+      "contact": {
+        "phone": "(919) 324-3865",
+        "email": "",
+        "website": "https://www.designbox.us"
+      },
+      "business": {
+        "yearsInBusiness": "Established art and design gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Design",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Consultation",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Designbox is a contemporary art and design gallery providing art consultation and appraisal services in Raleigh.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

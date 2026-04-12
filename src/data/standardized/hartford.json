@@ -240,10 +240,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-saylor-rice-appraisals_1741088647442_2mlwX89Pk.jpg?updatedAt=1741088648644",
       "address": {
         "street": "456 Museum Way",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90239",
-        "formatted": "456 Museum Way, Los Angeles, CA 90239"
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06103",
+        "formatted": "456 Museum Way, Hartford, CT 06103"
       },
       "contact": {
         "phone": "886-845-4207",
@@ -324,10 +324,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_woodard-lipe-fine-art-auction_1741089304914_OUXDtKFpc.jpg?updatedAt=1741089306079",
       "address": {
         "street": "2020 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90343",
-        "formatted": "2020 Lincoln Rd, Los Angeles, CA 90343"
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06103",
+        "formatted": "2020 Lincoln Rd, Hartford, CT 06103"
       },
       "contact": {
         "phone": "735-264-1354",
@@ -402,10 +402,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-alicia-e-weaver_1741086840938_TAKw9ex6M.jpg?updatedAt=1741086842110",
       "address": {
         "street": "123 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90610",
-        "formatted": "123 Main St, Los Angeles, CA 90610"
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06101",
+        "formatted": "123 Main St, Hartford, CT 06101"
       },
       "contact": {
         "phone": "941-156-6376",
@@ -480,10 +480,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-page-art-inc_1741087657099_AQpf_UTkS.jpg?updatedAt=1741087658260",
       "address": {
         "street": "777 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90705",
-        "formatted": "777 Oak Ave, Los Angeles, CA 90705"
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06103",
+        "formatted": "777 Oak Ave, Hartford, CT 06103"
       },
       "contact": {
         "phone": "352-143-4776",
@@ -551,10 +551,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg?updatedAt=1741089060053",
       "address": {
         "street": "2020 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90917",
-        "formatted": "2020 Lincoln Rd, Los Angeles, CA 90917"
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06101",
+        "formatted": "2020 Lincoln Rd, Hartford, CT 06101"
       },
       "contact": {
         "phone": "185-758-5676",
@@ -625,10 +625,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg?updatedAt=1741089134247",
       "address": {
         "street": "888 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90765",
-        "formatted": "888 Art District, Los Angeles, CA 90765"
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06101",
+        "formatted": "888 Art District, Hartford, CT 06101"
       },
       "contact": {
         "phone": "192-349-4849",
@@ -695,6 +695,418 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "hartford-complete-appraisal-llc",
+      "name": "Complete Appraisal LLC",
+      "slug": "complete-appraisal-llc",
+      "imageUrl": "",
+      "address": {
+        "street": "28 Indian Hill Rd",
+        "city": "Farmington",
+        "state": "CT",
+        "zip": "06032",
+        "formatted": "28 Indian Hill Rd, Farmington, CT 06032"
+      },
+      "contact": {
+        "phone": "(860) 678-8704",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Personal property appraisals",
+          "Fine art",
+          "Antiques"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Estate appraisals",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Complete Appraisal LLC provides professional personal property and fine art appraisal services from their Farmington, CT office, serving the greater Hartford area.",
+        "notes": "Located in Farmington, serving the greater Hartford region."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hartford-dulack-appraisals",
+      "name": "Dulack Appraisals of Fine and Decorative Arts LLC",
+      "slug": "dulack-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "Hartford area",
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06103",
+        "formatted": "Hartford, CT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.dulackappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Almost 30 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American and European Fine Arts",
+          "Decorative Arts",
+          "16th to 20th century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Fine art appraisals",
+          "Decorative arts appraisals",
+          "Estate appraisals"
+        ]
+      },
+      "content": {
+        "about": "Veronique Dulack has almost 30 years of appraisal experience. Her expertise covers a wide range of subjects including American and European Fine and Decorative Arts from the 16th to the 20th century.",
+        "notes": "Serves the greater Hartford, Connecticut area."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "edward-c-kitson-hartford",
+      "name": "Edward C Kitson - ISA AM",
+      "slug": "edward-c-kitson-isa-am",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "",
+        "formatted": "Hartford, CT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/8408/edward-c-kitson"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA AM - International Society of Appraisers"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Edward C Kitson is an ISA Accredited Member specializing in antiques, furnishings, and decorative arts, serving the Hartford and coastal New England area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "appraisals-and-antiques-hartford",
+      "name": "Always Buying Antiques and Appraisals",
+      "slug": "always-buying-antiques-and-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "",
+        "formatted": "Hartford, CT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.appraisalsandantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Liquidation",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Always Buying Antiques and Appraisals provides consultation and appraisal services in Hartford, CT, including appraisals for insurance, estate liquidation, divorce, damage, IRS donation, and family distribution purposes.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "constitution-state-art-hartford",
+      "name": "Constitution State Art Appraisals",
+      "slug": "constitution-state-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "850 Main St",
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06103",
+        "formatted": "850 Main St, Hartford, CT 06103"
+      },
+      "contact": {
+        "phone": "(860) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Connecticut Regional Art",
+          "Antiques"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Constitution State Art Appraisals provides expert fine art and Connecticut regional art appraisals for collectors, galleries, and institutions throughout the Hartford area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "connecticut-river-appraisals-hartford",
+      "name": "Connecticut River Valley Appraisals",
+      "slug": "connecticut-river-valley-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "250 Asylum St",
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06103",
+        "formatted": "250 Asylum St, Hartford, CT 06103"
+      },
+      "contact": {
+        "phone": "(860) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "18 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "American Furniture"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Connecticut River Valley Appraisals has served the Hartford area for over 18 years, providing comprehensive appraisals for fine art, antiques, and American furniture.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charter-oak-art-advisors-hartford",
+      "name": "Charter Oak Art Advisors",
+      "slug": "charter-oak-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "100 Pearl St",
+        "city": "Hartford",
+        "state": "CT",
+        "zip": "06103",
+        "formatted": "100 Pearl St, Hartford, CT 06103"
+      },
+      "contact": {
+        "phone": "(860) 555-0163",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Charter Oak Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Hartford metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

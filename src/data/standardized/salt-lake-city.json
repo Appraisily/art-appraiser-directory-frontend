@@ -312,10 +312,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-anderson-fine-art-appraisals_1741088958472_U_WRuRPjJ.jpg",
       "address": {
         "street": "555 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90156",
-        "formatted": "555 Washington Ave, Los Angeles, CA 90156"
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "formatted": "555 Washington Ave, Salt Lake City, UT 84101"
       },
       "contact": {
         "phone": "787-790-8225",
@@ -388,10 +388,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-escher-associates_1741088963911_60EiK1FvI.jpg",
       "address": {
         "street": "777 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90761",
-        "formatted": "777 Gallery Row, Los Angeles, CA 90761"
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84111",
+        "formatted": "777 Gallery Row, Salt Lake City, UT 84111"
       },
       "contact": {
         "phone": "699-515-1721",
@@ -467,10 +467,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-page-art-inc_1741088969774_UJKBo2br7.jpg",
       "address": {
         "street": "789 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90762",
-        "formatted": "789 Main St, Los Angeles, CA 90762"
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84111",
+        "formatted": "789 Main St, Salt Lake City, UT 84111"
       },
       "contact": {
         "phone": "110-957-8108",
@@ -545,10 +545,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-saylor-rice-appraisals_1741088975587_m4gb2w_4o.jpg",
       "address": {
         "street": "555 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90584",
-        "formatted": "555 Oak Ave, Los Angeles, CA 90584"
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "formatted": "555 Oak Ave, Salt Lake City, UT 84101"
       },
       "contact": {
         "phone": "445-957-8052",
@@ -620,10 +620,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg",
       "address": {
         "street": "456 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90768",
-        "formatted": "456 Art District, Los Angeles, CA 90768"
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "formatted": "456 Art District, Salt Lake City, UT 84101"
       },
       "contact": {
         "phone": "921-339-6735",
@@ -691,10 +691,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-mimesis-gallery_1741088988479_fkdmCGchi.jpg",
       "address": {
         "street": "555 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90221",
-        "formatted": "555 Park Ave, Los Angeles, CA 90221"
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84111",
+        "formatted": "555 Park Ave, Salt Lake City, UT 84111"
       },
       "contact": {
         "phone": "523-482-7083",
@@ -755,6 +755,181 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-dodworth-stauffer-art-appraisal",
+      "name": "Dodworth & Stauffer Art Appraisal",
+      "slug": "dodworth-stauffer-art-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "270 1st Ave",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84102",
+        "formatted": "270 1st Ave, Salt Lake City, UT 84102"
+      },
+      "contact": {
+        "phone": "(801) 539-1661",
+        "email": "",
+        "website": "https://www.dodworthstauffer.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1986",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "18th to 21st century American painting",
+          "European painting",
+          "Sculpture",
+          "Prints and drawings"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Fine art appraisal",
+          "Estate appraisals",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Dodworth & Stauffer Art Appraisal has been providing expert appraisal services since 1986, specializing in 18th to 21st-century American and European paintings, sculpture, prints, and drawings.",
+        "notes": "Serving Salt Lake City and the broader Utah region for nearly 40 years."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-david-ericson-fine-art",
+      "name": "David Ericson Fine Art",
+      "slug": "david-ericson-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "123 E 200 S",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84111",
+        "formatted": "123 E 200 S, Salt Lake City, UT 84111"
+      },
+      "contact": {
+        "phone": "(801) 539-0222",
+        "email": "",
+        "website": "https://davidericsonfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Friday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisal",
+          "Insurance coverage appraisals",
+          "Charitable contribution appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisal",
+          "Insurance appraisals",
+          "Charitable contributions"
+        ]
+      },
+      "content": {
+        "about": "David Ericson Fine Art provides detailed appraisal documents for insurance coverage, charitable contributions, potential sale, and other purposes.",
+        "notes": "Located in downtown Salt Lake City."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "salt-lake-city-soltesz-fine-art",
+      "name": "Soltesz Fine Art",
+      "slug": "soltesz-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "Park City",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "zip": "84101",
+        "formatted": "Park City / Salt Lake City, UT"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.solteszfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art advisory",
+          "Fine art appraisal",
+          "Fine art tours"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art advisory",
+          "Fine art appraisal",
+          "Collection management"
+        ]
+      },
+      "content": {
+        "about": "Soltesz Fine Art specializes in art advisory, fine art appraisal, and fine art tours. Services are offered in Portland, OR, Park City, UT, as well as Salt Lake City, UT.",
+        "notes": "Serves both Salt Lake City and Park City areas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

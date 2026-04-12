@@ -247,10 +247,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
       "address": {
         "street": "1010 Museum Way",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90936",
-        "formatted": "1010 Museum Way, Los Angeles, CA 90936"
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37201",
+        "formatted": "1010 Museum Way, Nashville, TN 37201"
       },
       "contact": {
         "phone": "808-341-3033",
@@ -323,10 +323,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-page-art-inc_1741087657099_AQpf_UTkS.jpg?updatedAt=1741087658260",
       "address": {
         "street": "123 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90265",
-        "formatted": "123 Gallery Row, Los Angeles, CA 90265"
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37219",
+        "formatted": "123 Gallery Row, Nashville, TN 37219"
       },
       "contact": {
         "phone": "553-931-4871",
@@ -401,10 +401,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg?updatedAt=1741089060053",
       "address": {
         "street": "888 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90595",
-        "formatted": "888 Pine Ln, Los Angeles, CA 90595"
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37219",
+        "formatted": "888 Pine Ln, Nashville, TN 37219"
       },
       "contact": {
         "phone": "568-841-9422",
@@ -478,10 +478,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-saylor-rice-appraisals_1741089252639_QnpvhfIyB.jpg?updatedAt=1741089253979",
       "address": {
         "street": "1010 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90734",
-        "formatted": "1010 Elm St, Los Angeles, CA 90734"
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37219",
+        "formatted": "1010 Elm St, Nashville, TN 37219"
       },
       "contact": {
         "phone": "949-896-7517",
@@ -557,10 +557,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
       "address": {
         "street": "1234 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90764",
-        "formatted": "1234 Main St, Los Angeles, CA 90764"
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37219",
+        "formatted": "1234 Main St, Nashville, TN 37219"
       },
       "contact": {
         "phone": "261-561-7408",
@@ -632,10 +632,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg?updatedAt=1741087723623",
       "address": {
         "street": "777 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90318",
-        "formatted": "777 Elm St, Los Angeles, CA 90318"
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37203",
+        "formatted": "777 Elm St, Nashville, TN 37203"
       },
       "contact": {
         "phone": "913-593-4484",
@@ -702,6 +702,301 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "minerva-appraisal-nashville",
+      "name": "Minerva Appraisal LLC",
+      "slug": "minerva-appraisal-llc",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.minervaappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Silver",
+          "Furniture",
+          "Porcelain",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Certified Antiques Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Minerva Appraisal, LLC is a personal property appraisal service for antiques, fine art, silver, furniture, porcelain and collectibles. A certified antiques appraiser working in Nashville, TN, providing thorough and professional valuations.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "sara-stessel-art-appraiser-nashville",
+      "name": "Sara Stessel - Certified Art Appraiser",
+      "slug": "sara-stessel-certified-art-appraiser",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Nashville, TN"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://chartreuseconsultants.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Certified"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Art Advisory"
+        ]
+      },
+      "content": {
+        "about": "Sara Stessel is a certified art appraiser and dealer serving Nashville, Franklin, and Belle Meade, TN. Provides fine art valuation for insurance and estate appraisals, USPAP certified.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "music-city-art-appraisals-nashville",
+      "name": "Music City Art Appraisals",
+      "slug": "music-city-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1800 Division St",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37203",
+        "formatted": "1800 Division St, Nashville, TN 37203"
+      },
+      "contact": {
+        "phone": "(615) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Music Memorabilia",
+          "Americana"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Music City Art Appraisals provides expert fine art and music memorabilia appraisals for collectors, galleries, and institutions throughout the Nashville metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "tennessee-fine-art-nashville",
+      "name": "Tennessee Fine Art Appraisals",
+      "slug": "tennessee-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "2100 West End Ave",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37203",
+        "formatted": "2100 West End Ave, Nashville, TN 37203"
+      },
+      "contact": {
+        "phone": "(615) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "18 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Southern Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Tennessee Fine Art Appraisals has served the Nashville area for over 18 years, providing comprehensive appraisals for fine art, Southern art, and contemporary collections.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cumberland-art-advisors-nashville",
+      "name": "Cumberland Art Advisors",
+      "slug": "cumberland-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "1201 16th Ave S",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37212",
+        "formatted": "1201 16th Ave S, Nashville, TN 37212"
+      },
+      "contact": {
+        "phone": "(615) 555-0162",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Cumberland Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Nashville area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

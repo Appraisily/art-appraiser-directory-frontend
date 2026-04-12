@@ -1,27 +1,10 @@
 import posthog from 'posthog-js';
 import { getClickIdsFromRuntime } from '../utils/startAttribution';
+import { isLikelyBot } from '../utils/botDetection';
 
 const DEFAULT_HOST = 'https://us.i.posthog.com';
 const CONSENT_COOKIE = 'cookieConsent';
 
-type RuntimeEnv = Partial<Record<string, unknown>> & {
-  POSTHOG_API_KEY?: string;
-  POSTHOG_HOST?: string;
-  POSTHOG_DEBUG?: string | boolean;
-  POSTHOG_AUTOCAPTURE?: string | boolean;
-  POSTHOG_CAPTURE_PAGEVIEW?: string | boolean;
-  POSTHOG_REPLAY_ENABLED?: string | boolean;
-  POSTHOG_REPLAY_SAMPLE_RATE?: string | number;
-  POSTHOG_IMPLICIT_CONSENT?: string | boolean;
-};
-
-declare global {
-  interface Window {
-    __ENV__?: RuntimeEnv;
-  }
-}
-
-type NavigatorWithWebdriver = Navigator & { webdriver?: boolean };
 type PosthogCapturing = { is_capturing?: () => boolean };
 
 function readRuntimeEnv(): RuntimeEnv | undefined {
@@ -41,20 +24,6 @@ function toBoolean(value: unknown, fallback: boolean) {
 function toNumber(value: unknown, fallback: number) {
   const num = Number(value);
   return Number.isFinite(num) ? num : fallback;
-}
-
-function isLikelyBot(): boolean {
-  if (typeof window === 'undefined') return false;
-  try {
-    const nav = window.navigator as NavigatorWithWebdriver;
-    const ua = String(nav.userAgent || '');
-    if (!ua) return false;
-    if (nav.webdriver) return true;
-    if (/HeadlessChrome|PhantomJS|Nightmare|Playwright|Puppeteer/i.test(ua)) return true;
-    return /(bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit|twitterbot|linkedinbot|embedly|quora link preview|slackbot|discordbot|telegrambot|whatsapp|pinterest|yandex|baiduspider|duckduckbot|googlebot)/i.test(ua);
-  } catch {
-    return false;
-  }
 }
 
 function readCookie(name: string): string | null {

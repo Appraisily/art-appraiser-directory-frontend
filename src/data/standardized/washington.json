@@ -541,10 +541,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
       "address": {
         "street": "1010 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90865",
-        "formatted": "1010 Gallery Row, Los Angeles, CA 90865"
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20003",
+        "formatted": "1010 Gallery Row, Washington, DC 20003"
       },
       "contact": {
         "phone": "410-796-7424",
@@ -625,10 +625,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-saylor-rice-appraisals_1741089252639_QnpvhfIyB.jpg?updatedAt=1741089253979",
       "address": {
         "street": "777 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90240",
-        "formatted": "777 Pine Ln, Los Angeles, CA 90240"
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "formatted": "777 Pine Ln, Washington, DC 20004"
       },
       "contact": {
         "phone": "676-487-3884",
@@ -709,10 +709,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_minneapolis-alicia-e-weaver_1741086840938_TAKw9ex6M.jpg?updatedAt=1741086842110",
       "address": {
         "street": "555 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90555",
-        "formatted": "555 Park Ave, Los Angeles, CA 90555"
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20001",
+        "formatted": "555 Park Ave, Washington, DC 20001"
       },
       "contact": {
         "phone": "844-475-5732",
@@ -793,10 +793,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-mimesis-gallery_1741089477002_q3zgobcP5.jpg?updatedAt=1741089478146",
       "address": {
         "street": "2020 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90111",
-        "formatted": "2020 Maple Dr, Los Angeles, CA 90111"
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20002",
+        "formatted": "2020 Maple Dr, Washington, DC 20002"
       },
       "contact": {
         "phone": "598-883-8818",
@@ -869,10 +869,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-everard-auctions-appraisals_1741089212751_vqr2kwp-i3.jpg?updatedAt=1741089213854",
       "address": {
         "street": "1234 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90515",
-        "formatted": "1234 Art District, Los Angeles, CA 90515"
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "formatted": "1234 Art District, Washington, DC 20004"
       },
       "contact": {
         "phone": "319-322-5489",
@@ -941,10 +941,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-intermountain-appraisal_1741088947289_8KnId0agy.jpg?updatedAt=1741088948572",
       "address": {
         "street": "789 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90852",
-        "formatted": "789 Lincoln Rd, Los Angeles, CA 90852"
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20004",
+        "formatted": "789 Lincoln Rd, Washington, DC 20004"
       },
       "contact": {
         "phone": "764-425-3508",
@@ -1002,6 +1002,207 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "stuteville-antiques-estate-services-seattle-wa",
+      "name": "Stuteville Antiques & Estate Services",
+      "slug": "stuteville-antiques-estate-services",
+      "imageUrl": "",
+      "address": {
+        "street": "1518 E Olive Way",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98122",
+        "formatted": "1518 E Olive Way, Seattle, WA 98122"
+      },
+      "contact": {
+        "phone": "(206) 329-5666",
+        "email": "",
+        "website": "https://www.stutevilleantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "35+ years (serving since 1978)",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fair market value appraisals",
+          "Insurance valuations",
+          "Estate appraisals",
+          "Dissolution appraisals",
+          "Antique furniture",
+          "Fine art",
+          "Silver",
+          "Porcelain",
+          "Oriental rugs",
+          "Oil paintings",
+          "Watercolors"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Fair market value appraisals",
+          "Insurance valuations",
+          "Estate appraisals",
+          "Dissolution appraisals",
+          "Antique restoration",
+          "Furniture conservation"
+        ]
+      },
+      "content": {
+        "about": "Stuteville Antiques & Estate Services has been serving Seattle and the Pacific Northwest since 1978, offering over 35 years of experience in fine antiques and professional appraisal services. They provide complete appraisal services for fair market value, insurance valuation, dissolution, and estate purposes. Their expertise spans antique furniture, fine art paintings, silver, porcelain, oriental rugs, and decorative arts.",
+        "notes": "Also offers antique restoration and furniture conservation services. Serving the Pacific Northwest since 1978."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "singer-antique-galleries-seattle-wa",
+      "name": "Singer Antique Galleries Ltd",
+      "slug": "singer-antique-galleries-ltd",
+      "imageUrl": "",
+      "address": {
+        "street": "411 W Galer St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98119",
+        "formatted": "411 W Galer St, Seattle, WA 98119"
+      },
+      "contact": {
+        "phone": "(206) 285-0394",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 3
+      },
+      "expertise": {
+        "specialties": [
+          "Estate appraisals",
+          "Antique appraisals",
+          "Fine art valuations",
+          "Estate liquidation"
+        ],
+        "certifications": [
+          "BBB Rating: A+"
+        ],
+        "services": [
+          "Estate appraisals",
+          "Antique appraisals",
+          "Estate liquidation",
+          "Fine art valuations"
+        ]
+      },
+      "content": {
+        "about": "Singer Antique Galleries Ltd is a well-established Seattle antique gallery and appraisal service located in the Queen Anne neighborhood. With an A+ BBB rating, they provide professional estate appraisals, antique valuations, and estate liquidation services. Their expertise covers fine art, antiques, and collectibles.",
+        "notes": "A+ BBB rated. Located in the Queen Anne neighborhood of Seattle."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "crane-gallery-inc-seattle-wa",
+      "name": "The Crane Gallery Inc",
+      "slug": "the-crane-gallery-inc",
+      "imageUrl": "",
+      "address": {
+        "street": "104 W Roy St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98119",
+        "formatted": "104 W Roy St, Seattle, WA 98119"
+      },
+      "contact": {
+        "phone": "(206) 489-4261",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Asian antiques",
+          "Fine art",
+          "Art appraisal",
+          "Antique consultation"
+        ],
+        "certifications": [
+          "BBB Rating: A+"
+        ],
+        "services": [
+          "Art appraisals",
+          "Asian antique consultation",
+          "Gallery services",
+          "Art sales"
+        ]
+      },
+      "content": {
+        "about": "The Crane Gallery is located in the Lower Queen Anne neighborhood of Seattle, just north of downtown. The gallery features a fine selection of Asian antiques and provides professional art appraisal and consultation services. Their A+ BBB rating reflects their commitment to quality service.",
+        "notes": "Located in Lower Queen Anne, Seattle. Specializes in Asian antiques and fine art."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

@@ -304,6 +304,366 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       }
+    },
+    {
+      "id": "cederwall-fine-art-san-francisco-ca",
+      "name": "Cederwall Fine Art",
+      "slug": "cederwall-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "2664 Baker St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94123",
+        "formatted": "2664 Baker St, San Francisco, CA 94123"
+      },
+      "contact": {
+        "phone": "(415) 346-0180",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "31 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Paintings",
+          "19th Century Art",
+          "20th Century Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Consultation"
+        ]
+      },
+      "content": {
+        "about": "Bay Area's Best Resource for Fine American Paintings of the 19th & 20th Centuries. Consultation & Education Services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "montgomery-gallery-san-francisco-ca",
+      "name": "Montgomery Gallery",
+      "slug": "montgomery-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "406 Jackson St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94111",
+        "formatted": "406 Jackson St, San Francisco, CA 94111"
+      },
+      "contact": {
+        "phone": "(415) 788-8300",
+        "email": "",
+        "website": "https://www.montgomerygallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "32 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Paintings",
+          "European Paintings",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Montgomery Gallery specializes in fine American and European paintings, offering expert appraisal and consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "modernism-san-francisco-ca",
+      "name": "Modernism Gallery",
+      "slug": "modernism",
+      "imageUrl": "",
+      "address": {
+        "street": "685 Market St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "formatted": "685 Market St, San Francisco, CA 94105"
+      },
+      "contact": {
+        "phone": "(415) 541-0461",
+        "email": "",
+        "website": "https://www.modernisminc.com"
+      },
+      "business": {
+        "yearsInBusiness": "47 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Modern Art",
+          "Contemporary Art",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Modernism Gallery has been a San Francisco institution for nearly five decades, specializing in modern and contemporary art with expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "serge-sorokko-galleries-san-francisco-ca",
+      "name": "Serge Sorokko Gallery",
+      "slug": "serge-sorokko-galleries",
+      "imageUrl": "",
+      "address": {
+        "street": "55 Geary St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94108",
+        "formatted": "55 Geary St, San Francisco, CA 94108"
+      },
+      "contact": {
+        "phone": "(415) 421-7770",
+        "email": "",
+        "website": "https://www.sergesorokko.com"
+      },
+      "business": {
+        "yearsInBusiness": "30 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Paintings",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Formed in 1984, Serge Sorokko Gallery specializes as an art gallery and dealers of paintings, offering fine collection appraisals.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lost-art-salon-san-francisco-ca",
+      "name": "Lost Art Salon",
+      "slug": "lost-art-salon",
+      "imageUrl": "",
+      "address": {
+        "street": "245 S Van Ness Ave",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94103",
+        "formatted": "245 S Van Ness Ave, San Francisco, CA 94103"
+      },
+      "contact": {
+        "phone": "(415) 861-1530",
+        "email": "",
+        "website": "https://www.lostartsalon.com"
+      },
+      "business": {
+        "yearsInBusiness": "21 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Modern Art",
+          "Rediscovered Artists",
+          "Historical Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Historical Research"
+        ]
+      },
+      "content": {
+        "about": "Gallery specializing in the rediscovery of historically significant artists who have been lost to time. Our vast collection reflects the major movements of the Modern era.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "john-pence-gallery-san-francisco-ca",
+      "name": "John Pence Gallery",
+      "slug": "john-pence-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "750 Post St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94109",
+        "formatted": "750 Post St, San Francisco, CA 94109"
+      },
+      "contact": {
+        "phone": "(415) 441-1138",
+        "email": "",
+        "website": "https://www.johnpence.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Academic Realism",
+          "Contemporary Realism",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "John Pence Gallery is one of San Francisco's premier academic realist galleries, providing art appraisal and consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
     }
   ]
 }

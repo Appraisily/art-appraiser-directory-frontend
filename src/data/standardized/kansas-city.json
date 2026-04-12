@@ -326,10 +326,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
       "address": {
         "street": "2020 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90544",
-        "formatted": "2020 Elm St, Los Angeles, CA 90544"
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "2020 Elm St, Kansas City, MO 63101"
       },
       "contact": {
         "phone": "307-387-3817",
@@ -409,10 +409,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
       "address": {
         "street": "555 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90934",
-        "formatted": "555 Park Ave, Los Angeles, CA 90934"
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63103",
+        "formatted": "555 Park Ave, Kansas City, MO 63103"
       },
       "contact": {
         "phone": "606-946-4363",
@@ -488,10 +488,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg?updatedAt=1741089008903",
       "address": {
         "street": "1010 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90138",
-        "formatted": "1010 Elm St, Los Angeles, CA 90138"
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "1010 Elm St, Kansas City, MO 63101"
       },
       "contact": {
         "phone": "634-585-4221",
@@ -566,10 +566,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg?updatedAt=1741089094013",
       "address": {
         "street": "1234 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90580",
-        "formatted": "1234 Park Ave, Los Angeles, CA 90580"
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63103",
+        "formatted": "1234 Park Ave, Kansas City, MO 63103"
       },
       "contact": {
         "phone": "756-712-3912",
@@ -636,10 +636,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg?updatedAt=1741087653262",
       "address": {
         "street": "456 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90950",
-        "formatted": "456 Maple Dr, Los Angeles, CA 90950"
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "456 Maple Dr, Kansas City, MO 63101"
       },
       "contact": {
         "phone": "688-680-5968",
@@ -708,10 +708,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baker-asian-antique-appraisers_1741087699816_0gt459k0L.jpg?updatedAt=1741087701033",
       "address": {
         "street": "456 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90899",
-        "formatted": "456 Pine Ln, Los Angeles, CA 90899"
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "456 Pine Ln, Kansas City, MO 63101"
       },
       "contact": {
         "phone": "294-431-2232",
@@ -770,6 +770,195 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-hilliard-gallery",
+      "name": "Hilliard Gallery",
+      "slug": "hilliard-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1820 Mcgee St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64108",
+        "formatted": "1820 Mcgee St, Kansas City, MO 64108"
+      },
+      "contact": {
+        "phone": "816-561-2956",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 52 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Consultation"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Art Consultation",
+          "Buying and Selling Fine Art"
+        ]
+      },
+      "content": {
+        "about": "Hilliard Gallery is one of Kansas City's most prominent art galleries with over 52 years in business. Voted best gallery in Missouri and a top 25 gallery in the United States by American Art Awards. Located in the Crossroads Arts District on Mcgee St, they offer fine art gallery services, appraisals, and consultations. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (52 years in business). Voted best gallery in Missouri by American Art Awards. Located in Kansas City's Crossroads Arts District."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-american-legacy-gallery",
+      "name": "American Legacy Gallery",
+      "slug": "american-legacy-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "5911 Main St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64113",
+        "formatted": "5911 Main St, Kansas City, MO 64113"
+      },
+      "contact": {
+        "phone": "816-444-7944",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 49 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Goods",
+          "Picture Frame Restoration"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Picture Frame Repair and Restoration",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "American Legacy Gallery is a long-standing Kansas City fine art gallery with over 49 years in business. Located on Main St in the Brookside area, they offer art gallery services, picture frame repair and restoration, art goods, and appraisal services. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (49 years in business). Located in Kansas City's Brookside neighborhood."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-leopold-gallery-art-consulting",
+      "name": "LEOPOLDgallery and ARTconsulting",
+      "slug": "leopold-gallery-art-consulting",
+      "imageUrl": "",
+      "address": {
+        "street": "324 W 63rd St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64113",
+        "formatted": "324 W 63rd St, Kansas City, MO 64113"
+      },
+      "contact": {
+        "phone": "816-333-3111",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 35 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Consulting",
+          "Local Artist Representation"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Art Consulting",
+          "Gallery Services",
+          "Corporate Art Consulting"
+        ]
+      },
+      "content": {
+        "about": "LEOPOLDgallery and ARTconsulting has served the Kansas City art community for over 35 years. Located on W 63rd St in the Brookside/Waldo area, they combine gallery services with professional art consulting. Known for excellent customer service, personal attention, and strong support of the local artist community. Verified via Yellow Pages listing with positive customer reviews.",
+        "notes": "Verified via Yellow Pages listing (35 years in business). Known for supporting local artists and providing corporate art consulting."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

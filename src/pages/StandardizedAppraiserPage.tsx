@@ -15,7 +15,7 @@ export function StandardizedAppraiserPage() {
   const [error, setError] = useState<string | null>(null);
   const primaryCtaUrl = getPrimaryCtaUrl();
 
-  const handleContactClick = (channel: 'phone' | 'email' | 'website', placement: string) => {
+  const handleContactClick = (channel: 'phone' | 'email' | 'website' | 'address', placement: string) => {
     trackEvent('appraiser_contact_click', {
       channel,
       placement,
@@ -297,17 +297,27 @@ export function StandardizedAppraiserPage() {
             
             <div className="space-y-3">
               <div className="flex items-start">
-                <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
-                <div>
-                  <p className="text-gray-700">{appraiser.address.formatted}</p>
-                </div>
+                <a
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(appraiser.address.formatted)}`}
+                  className="flex items-start text-gray-700 hover:text-blue-600"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-gtm-event="directory_cta"
+                  data-gtm-cta="address"
+                  data-gtm-surface="profile_contact_info"
+                  data-gtm-appraiser-id={gtmAppraiserId}
+                  data-gtm-appraiser-name={gtmAppraiserName}
+                  onClick={() => handleContactClick('address', 'profile_contact_info')}
+                >
+                  <MapPin className="h-5 w-5 text-blue-600 mr-3 mt-0.5" />
+                  <span>{appraiser.address.formatted}</span>
+                </a>
               </div>
               
               <div className="flex items-center">
-                <Phone className="h-5 w-5 text-blue-600 mr-3" />
                 <a
                   href={`tel:${appraiser.contact.phone}`}
-                  className="text-gray-700 hover:text-blue-600"
+                  className="flex items-center text-gray-700 hover:text-blue-600"
                   data-gtm-event="directory_cta"
                   data-gtm-cta="call"
                   data-gtm-surface="profile_contact_info"
@@ -315,15 +325,15 @@ export function StandardizedAppraiserPage() {
                   data-gtm-appraiser-name={gtmAppraiserName}
                   onClick={() => handleContactClick('phone', 'profile_contact_info')}
                 >
-                  {appraiser.contact.phone}
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>{appraiser.contact.phone}</span>
                 </a>
               </div>
               
               <div className="flex items-center">
-                <Mail className="h-5 w-5 text-blue-600 mr-3" />
                 <a
                   href={`mailto:${appraiser.contact.email}`}
-                  className="text-gray-700 hover:text-blue-600"
+                  className="flex items-center text-gray-700 hover:text-blue-600"
                   data-gtm-event="directory_cta"
                   data-gtm-cta="email"
                   data-gtm-surface="profile_contact_info"
@@ -331,16 +341,16 @@ export function StandardizedAppraiserPage() {
                   data-gtm-appraiser-name={gtmAppraiserName}
                   onClick={() => handleContactClick('email', 'profile_contact_info')}
                 >
-                  {appraiser.contact.email}
+                  <Mail className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>{appraiser.contact.email}</span>
                 </a>
               </div>
               
               {appraiser.contact.website && (
                 <div className="flex items-center">
-                  <Globe className="h-5 w-5 text-blue-600 mr-3" />
                   <a 
                     href={appraiser.contact.website.startsWith('http') ? appraiser.contact.website : `https://${appraiser.contact.website}`} 
-                    className="text-gray-700 hover:text-blue-600"
+                    className="flex items-center text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
                     data-gtm-event="directory_cta"
@@ -350,7 +360,8 @@ export function StandardizedAppraiserPage() {
                     data-gtm-appraiser-name={gtmAppraiserName}
                     onClick={() => handleContactClick('website', 'profile_contact_info')}
                   >
-                    Visit Website
+                    <Globe className="h-5 w-5 text-blue-600 mr-3" />
+                    <span>Visit Website</span>
                   </a>
                 </div>
               )}

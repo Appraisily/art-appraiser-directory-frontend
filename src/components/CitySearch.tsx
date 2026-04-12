@@ -1,13 +1,19 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useImperativeHandle, forwardRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Locate } from 'lucide-react';
 import { cities } from '../utils/staticData';
 import { trackEvent } from '../utils/analytics';
 
-export function CitySearch() {
+export type CitySearchHandle = {
+  submitSearch: () => void;
+  focusInput: () => void;
+};
+
+export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_props, ref) {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [isLocating, setIsLocating] = useState(false);
+  const [feedback, setFeedback] = useState<{ tone: 'error' | 'info'; message: string } | null>(null);
   const [suggestions, setSuggestions] = useState<typeof cities>([]);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -50,29 +56,75 @@ export function CitySearch() {
   }, [query]);
 
   const handleLocationClick = () => {
+    if (!navigator.geolocation) {
+      setFeedback({ tone: 'error', message: 'Geolocation is not supported by your browser.' });
+      return;
+    }
+
     setIsLocating(true);
+    setFeedback({ tone: 'info', message: 'Detecting your location...' });
     trackEvent('search_geolocate_request', {
       source: 'hero_directory'
     });
-    // Simulate geolocation with a timeout for demonstration
-    setTimeout(() => {
-      setQuery('New York, NY');
-      setIsLocating(false);
-      trackEvent('search_geolocate_complete', {
-        source: 'hero_directory',
-        resolved_city: 'new-york'
-      });
-      // Typically you would use the browser's geolocation API here
-      // navigator.geolocation.getCurrentPosition((position) => {
-      //   // Use position.coords.latitude and position.coords.longitude
-      //   // to find the nearest city
-      // });
-    }, 1500);
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+
+        // Find the nearest city from the directory
+        let nearestCity: typeof cities[0] | null = null;
+        let nearestDistance = Infinity;
+
+        for (const city of cities) {
+          if (city.latitude == null || city.longitude == null) continue;
+          const dLat = city.latitude - latitude;
+          const dLon = city.longitude - longitude;
+          const distance = dLat * dLat + dLon * dLon;
+          if (distance < nearestDistance) {
+            nearestDistance = distance;
+            nearestCity = city;
+          }
+        }
+
+        if (nearestCity) {
+          setQuery(`${nearestCity.name}, ${nearestCity.state}`);
+          setFeedback({ tone: 'info', message: 'Location detected. Press Enter or click Find Appraisers.' });
+          trackEvent('search_geolocate_complete', {
+            source: 'hero_directory',
+            resolved_city: nearestCity.slug
+          });
+        } else {
+          setFeedback({ tone: 'error', message: 'No nearby city found in our directory.' });
+          trackEvent('search_geolocate_no_match', {
+            source: 'hero_directory',
+            lat: latitude,
+            lon: longitude,
+          });
+        }
+
+        setIsLocating(false);
+      },
+      (err) => {
+        setIsLocating(false);
+        const messages: Record<number, string> = {
+          1: 'Location permission denied. Please enter a city manually.',
+          2: 'Location unavailable. Please enter a city manually.',
+          3: 'Location request timed out. Please enter a city manually.',
+        };
+        setFeedback({ tone: 'error', message: messages[err.code] || 'Failed to detect location.' });
+        trackEvent('search_geolocate_error', {
+          source: 'hero_directory',
+          error_code: err.code,
+        });
+      },
+      { timeout: 10000, maximumAge: 300000 }
+    );
   };
 
   const handleSelect = (city: typeof cities[0]) => {
     setQuery(`${city.name}, ${city.state}`);
     setIsOpen(false);
+    setFeedback(null);
     trackEvent('location_search_select', {
       source: 'hero_directory',
       city_slug: city.slug,
@@ -95,6 +147,8 @@ export function CitySearch() {
     }
 
     if (query.trim().length === 0) {
+      setFeedback({ tone: 'error', message: 'Enter a city or ZIP code to search.' });
+      inputRef.current?.focus();
       return;
     }
 
@@ -102,18 +156,73 @@ export function CitySearch() {
       source: 'hero_directory',
       query: query.trim()
     });
+    setFeedback({ tone: 'error', message: 'No matching city found. Try another city name.' });
   };
+
+  const submitSearch = () => {
+    if (suggestions.length > 0) {
+      handleSelect(suggestions[0]);
+      return;
+    }
+
+    const rawQuery = inputRef.current?.value ?? query;
+    const normalizedQuery = rawQuery.trim().toLowerCase();
+    if (!normalizedQuery) {
+      setFeedback({ tone: 'error', message: 'Enter a city or ZIP code to search.' });
+      inputRef.current?.focus();
+      return;
+    }
+
+    const namePart = normalizedQuery.split(',')[0]?.trim();
+    const directMatch = cities.find((city) => {
+      const name = city.name.toLowerCase();
+      return name === normalizedQuery || (namePart && name === namePart);
+    });
+
+    if (directMatch) {
+      handleSelect(directMatch);
+      return;
+    }
+
+    // Fallback: create a slug from the query and navigate anyway
+    // This allows the location page to show even if we don't have an exact match
+    const fallbackSlug = normalizedQuery
+      .replace(/\s+/g, '-')
+      .replace(/[^a-z0-9-]/g, '')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '');
+
+    if (!fallbackSlug) {
+      setFeedback({ tone: 'error', message: 'Please enter a valid city name.' });
+      inputRef.current?.focus();
+      return;
+    }
+    
+    trackEvent('search_fallback_navigation', {
+      source: 'hero_directory',
+      query: rawQuery.trim(),
+      fallback_slug: fallbackSlug
+    });
+    
+    navigate(`/location/${fallbackSlug}`);
+  };
+
+  useImperativeHandle(ref, () => ({
+    submitSearch,
+    focusInput: () => inputRef.current?.focus()
+  }));
 
   const highlightMatch = (text: string, query: string) => {
     if (!query) return text;
-    
-    const regex = new RegExp(`(${query})`, 'gi');
+
+    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
     const parts = text.split(regex);
-    
-    return parts.map((part, index) => 
-      regex.test(part) ? 
-        <span key={index} className="bg-primary/20 text-primary font-semibold">{part}</span> : 
-        <span key={index}>{part}</span>
+
+    // split with a capturing group gives: [non-match, match, non-match, match, ...]
+    return parts.map((part, index) =>
+      index % 2 === 1
+        ? <span key={index} className="bg-primary/20 text-primary font-semibold">{part}</span>
+        : <span key={index}>{part}</span>
     );
   };
 
@@ -129,13 +238,19 @@ export function CitySearch() {
           className="w-full h-12 pl-10 pr-12 rounded-lg border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 shadow-sm"
           placeholder="Enter city or ZIP code"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            if (feedback) {
+              setFeedback(null);
+            }
+          }}
           onFocus={() => {
             if (query && suggestions.length > 0) {
               setIsOpen(true);
             }
           }}
           onKeyDown={handleKeyDown}
+          aria-invalid={feedback?.tone === 'error' ? true : undefined}
         />
         <button
           type="button"
@@ -150,9 +265,18 @@ export function CitySearch() {
           )}
         </button>
       </div>
+      {feedback && (
+        <div
+          className={`mt-2 text-sm ${feedback.tone === 'error' ? 'text-red-600' : 'text-blue-600'}`}
+          role="status"
+          aria-live="polite"
+        >
+          {feedback.message}
+        </div>
+      )}
 
       {isOpen && suggestions.length > 0 && (
-        <div className="absolute z-10 w-full mt-1 bg-white rounded-lg shadow-lg overflow-hidden border border-border animate-fadeInUp">
+        <div className="relative z-10 w-full mt-1 bg-white rounded-lg shadow-lg overflow-hidden border border-border animate-fadeInUp md:absolute">
           <ul className="py-1 divide-y divide-gray-100">
             {suggestions.map((city) => (
               <li 
@@ -176,4 +300,4 @@ export function CitySearch() {
       )}
     </div>
   );
-}
+});

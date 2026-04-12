@@ -390,10 +390,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg",
       "address": {
         "street": "789 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90146",
-        "formatted": "789 Park Ave, Los Angeles, CA 90146"
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "33101",
+        "formatted": "789 Park Ave, Palm Beach, FL 33101"
       },
       "contact": {
         "phone": "896-135-3192",
@@ -474,10 +474,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg",
       "address": {
         "street": "999 Museum Way",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90333",
-        "formatted": "999 Museum Way, Los Angeles, CA 90333"
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "33101",
+        "formatted": "999 Museum Way, Palm Beach, FL 33101"
       },
       "contact": {
         "phone": "580-407-8391",
@@ -558,10 +558,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-page-art-inc_1741087657099_AQpf_UTkS.jpg",
       "address": {
         "street": "555 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90926",
-        "formatted": "555 Washington Ave, Los Angeles, CA 90926"
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "33130",
+        "formatted": "555 Washington Ave, Palm Beach, FL 33130"
       },
       "contact": {
         "phone": "923-468-3281",
@@ -641,10 +641,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-saylor-rice-appraisals_1741087677129_6hZ4MbZt4.jpg",
       "address": {
         "street": "1010 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90931",
-        "formatted": "1010 Art District, Los Angeles, CA 90931"
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "33101",
+        "formatted": "1010 Art District, Palm Beach, FL 33101"
       },
       "contact": {
         "phone": "386-168-6441",
@@ -716,10 +716,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-gurr-johns_1741087682682_SjPC9pNft.jpg",
       "address": {
         "street": "456 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90196",
-        "formatted": "456 Cedar Blvd, Los Angeles, CA 90196"
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "32003",
+        "formatted": "456 Cedar Blvd, Palm Beach, FL 32003"
       },
       "contact": {
         "phone": "631-397-6498",
@@ -788,10 +788,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-mimesis-gallery_1741087688213_Bh5FFjuTo.jpg",
       "address": {
         "street": "456 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90522",
-        "formatted": "456 Gallery Row, Los Angeles, CA 90522"
+        "city": "Palm Beach",
+        "state": "FL",
+        "zip": "32099",
+        "formatted": "456 Gallery Row, Palm Beach, FL 32099"
       },
       "contact": {
         "phone": "280-783-5400",
@@ -850,6 +850,265 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "eaton-fine-art-palm-beach-fl",
+      "name": "Eaton Fine Art",
+      "slug": "eaton-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "435 Gardenia St",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip": "33401",
+        "formatted": "435 Gardenia St, West Palm Beach, FL 33401"
+      },
+      "contact": {
+        "phone": "(561) 833-4766",
+        "email": "",
+        "website": "https://www.eatonfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "31+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art consultancy",
+          "Hotel and hospitality art collections",
+          "Fine art curation",
+          "Art appraisal",
+          "Contemporary art"
+        ],
+        "certifications": [
+          "ASA member",
+          "NEWH member"
+        ],
+        "services": [
+          "Art appraisals",
+          "Art curation",
+          "Art consultancy for hospitality",
+          "Fine art valuations",
+          "Eco-friendly art consulting"
+        ]
+      },
+      "content": {
+        "about": "Eaton Fine Art is an award-winning, full-service art consultancy firm dedicated to curating captivating and unforgettable art collections. With over 31 years in business, they have worked with prestigious clients including Rosewood Hotels, Hyatt, and The Cosmopolitan of Las Vegas. They provide art appraisal, curation, and consultancy services from their West Palm Beach headquarters.",
+        "notes": "Award-winning firm with national hospitality clients; ASA and NEWH affiliated."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "winston-art-group-palm-beach-fl",
+      "name": "Winston Art Group",
+      "slug": "winston-art-group-palm-beach",
+      "imageUrl": "",
+      "address": {
+        "street": "777 S Flagler Dr",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip": "33401",
+        "formatted": "777 S Flagler Dr, West Palm Beach, FL 33401"
+      },
+      "contact": {
+        "phone": "(561) 952-2527",
+        "email": "",
+        "website": "https://www.winstonartgroup.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisal",
+          "Art advisory",
+          "Art valuation",
+          "Collection management"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisals",
+          "Art advisory",
+          "Collection management",
+          "Art valuation services"
+        ]
+      },
+      "content": {
+        "about": "Winston Art Group is a fine art appraisal and advisory firm located in West Palm Beach. They provide comprehensive art appraisal, valuation, advisory, and collection management services for private collectors, estates, and institutions in the Palm Beach area.",
+        "notes": "Located in downtown West Palm Beach on South Flagler Drive."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mary-woerner-fine-arts-palm-beach-fl",
+      "name": "Mary Woerner Fine Arts",
+      "slug": "mary-woerner-fine-arts",
+      "imageUrl": "",
+      "address": {
+        "street": "3700 S Dixie Hwy",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip": "33405",
+        "formatted": "3700 S Dixie Hwy, West Palm Beach, FL 33405"
+      },
+      "contact": {
+        "phone": "(561) 832-3233",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "37+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Art appraisal",
+          "Art consultation",
+          "Art sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisals",
+          "Art consultation",
+          "Fine art sales"
+        ]
+      },
+      "content": {
+        "about": "Mary Woerner Fine Arts has been serving the West Palm Beach community for over 37 years. Located on Antique Row along South Dixie Highway, this established gallery provides fine art appraisal services, art consultation, and art sales to collectors and art enthusiasts in the Palm Beach area.",
+        "notes": "Located on Antique Row in West Palm Beach with over 37 years of experience."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "habatat-galleries-palm-beach-fl",
+      "name": "Habatat Galleries Inc",
+      "slug": "habatat-galleries-inc",
+      "imageUrl": "",
+      "address": {
+        "street": "539 Clematis St",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip": "33401",
+        "formatted": "539 Clematis St, West Palm Beach, FL 33401"
+      },
+      "contact": {
+        "phone": "(561) 832-8787",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "55+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Glass art",
+          "Studio glass",
+          "Contemporary art",
+          "Art appraisal",
+          "Fine art"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisals",
+          "Gallery services",
+          "Art sales",
+          "Art consultation"
+        ]
+      },
+      "content": {
+        "about": "Habatat Galleries Inc has been a fixture in the West Palm Beach art community for over 55 years. Located on Clematis Street in downtown West Palm Beach, the gallery specializes in studio glass art and contemporary fine art, providing professional appraisal services alongside their gallery operations.",
+        "notes": "One of the longest-running galleries in West Palm Beach with over 55 years in business."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

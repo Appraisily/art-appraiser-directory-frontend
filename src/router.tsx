@@ -1,12 +1,11 @@
-import { createBrowserRouter, Navigate } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import { StandardizedLocationPage } from './pages/StandardizedLocationPage';
 import { StandardizedAppraiserPage } from './pages/StandardizedAppraiserPage';
+import { NotFoundPage } from './pages/NotFoundPage';
 import { RootLayout } from './layouts/RootLayout';
 
-// The key is to ensure the router handles all paths correctly in a production environment
 export const router = createBrowserRouter([
-  // Route for AppraisersDirectory that now uses the root path
   {
     path: '/',
     element: <RootLayout />,
@@ -25,10 +24,8 @@ export const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: <Navigate to="/" replace />
+        element: <NotFoundPage />
       }
     ],
   },
-], {
-  basename: '' // Removed the '/directory' basename
-});
+]);

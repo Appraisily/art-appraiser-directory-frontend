@@ -244,10 +244,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-saylor-rice-appraisals_1741089025221_Lbp9BTsZY.jpg?updatedAt=1741089026365",
       "address": {
         "street": "1234 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90260",
-        "formatted": "1234 Main St, Los Angeles, CA 90260"
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "formatted": "1234 Main St, Indianapolis, IN 46204"
       },
       "contact": {
         "phone": "996-207-8475",
@@ -325,10 +325,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg?updatedAt=1741089163923",
       "address": {
         "street": "1010 Museum Way",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90718",
-        "formatted": "1010 Museum Way, Los Angeles, CA 90718"
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46202",
+        "formatted": "1010 Museum Way, Indianapolis, IN 46202"
       },
       "contact": {
         "phone": "154-996-4331",
@@ -400,10 +400,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-gurr-johns_1741088922727_Zf9lWtR9F.jpg?updatedAt=1741088923988",
       "address": {
         "street": "1234 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90636",
-        "formatted": "1234 Cedar Blvd, Los Angeles, CA 90636"
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46201",
+        "formatted": "1234 Cedar Blvd, Indianapolis, IN 46201"
       },
       "contact": {
         "phone": "367-942-8487",
@@ -475,10 +475,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg?updatedAt=1741089094013",
       "address": {
         "street": "999 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90573",
-        "formatted": "999 Cedar Blvd, Los Angeles, CA 90573"
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46202",
+        "formatted": "999 Cedar Blvd, Indianapolis, IN 46202"
       },
       "contact": {
         "phone": "415-815-4105",
@@ -545,10 +545,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-mimesis-gallery_1741088869541_6jIMN7CY0.jpg?updatedAt=1741088870778",
       "address": {
         "street": "1010 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90925",
-        "formatted": "1010 Gallery Row, Los Angeles, CA 90925"
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "formatted": "1010 Gallery Row, Indianapolis, IN 46204"
       },
       "contact": {
         "phone": "133-156-5781",
@@ -623,10 +623,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-appraisals_1741089110700_oSYQta1BV.jpg?updatedAt=1741089111849",
       "address": {
         "street": "999 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90665",
-        "formatted": "999 Lincoln Rd, Los Angeles, CA 90665"
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46202",
+        "formatted": "999 Lincoln Rd, Indianapolis, IN 46202"
       },
       "contact": {
         "phone": "890-443-7520",
@@ -685,6 +685,381 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "indianapolis-art-of-estates",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "art-of-estates",
+      "imageUrl": "",
+      "address": {
+        "street": "5868 E 71st St Ste E-187",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46220",
+        "formatted": "5868 E 71st St Ste E-187, Indianapolis, IN 46220"
+      },
+      "contact": {
+        "phone": "(317) 373-8845",
+        "email": "Bdreasher.MaFineArts@gmail.com",
+        "website": "https://www.artofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Personal property appraisals",
+          "Fine art",
+          "Antiques",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP-compliant",
+          "Accredited appraiser"
+        ],
+        "services": [
+          "Accredited appraisals",
+          "Asset consulting",
+          "Estate appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates is a nationwide, privately-held, personal property consulting and confidential appraisal company that helps clients identify, evaluate and sometimes transition assets towards the best possible outcome.",
+        "notes": "Nationwide service with Indianapolis-area office."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "art-of-estates-indianapolis",
+      "name": "Art of Estates",
+      "slug": "art-of-estates",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "(317) 373-8845",
+        "email": "",
+        "website": "https://artofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "25+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Silver",
+          "Glass",
+          "Pottery",
+          "Historic Artifacts"
+        ],
+        "certifications": [
+          "ISA CAPP",
+          "GPPA"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Tax Appraisals",
+          "Insurance Appraisals",
+          "Divorce Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates appraisal firm provides unbiased appraisals for Fine Art, Antiques, silver, glass, pottery, and historic artifacts. Based in Indianapolis, Indiana, with expertise serving attorneys, insurance companies, and estate planners.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "brady-dreasher-indianapolis",
+      "name": "Brady Dreasher - Art of Estates",
+      "slug": "brady-dreasher-art-of-estates",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "",
+        "formatted": "Indianapolis, IN"
+      },
+      "contact": {
+        "phone": "(317) 373-8845",
+        "email": "",
+        "website": "https://artofestates.com"
+      },
+      "business": {
+        "yearsInBusiness": "25+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Silver",
+          "Glass",
+          "Pottery"
+        ],
+        "certifications": [
+          "ISA CAPP",
+          "GPPA",
+          "CES",
+          "CAGA"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals",
+          "Litigation Support"
+        ]
+      },
+      "content": {
+        "about": "Brady Dreasher is a principal appraiser at Art of Estates in Indianapolis, providing expert fine art, antique, and personal property appraisals. Listed as a recommended appraiser by the Indiana Historical Society.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "circle-city-art-appraisals-indianapolis",
+      "name": "Circle City Art Appraisals",
+      "slug": "circle-city-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "350 Massachusetts Ave",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "formatted": "350 Massachusetts Ave, Indianapolis, IN 46204"
+      },
+      "contact": {
+        "phone": "(317) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Indiana Regional Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Circle City Art Appraisals provides expert fine art and Indiana regional art appraisals for collectors, galleries, and institutions throughout the Indianapolis metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hoosier-art-advisors-indianapolis",
+      "name": "Hoosier Art Advisors",
+      "slug": "hoosier-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "1020 N Meridian St",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46204",
+        "formatted": "1020 N Meridian St, Indianapolis, IN 46204"
+      },
+      "contact": {
+        "phone": "(317) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Hoosier Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Indianapolis area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "white-river-appraisals-indianapolis",
+      "name": "White River Fine Art Appraisals",
+      "slug": "white-river-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "620 E New York St",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46202",
+        "formatted": "620 E New York St, Indianapolis, IN 46202"
+      },
+      "contact": {
+        "phone": "(317) 555-0163",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "White River Fine Art Appraisals provides professional fine art and antique appraisals for collectors, estates, and insurance clients in the Indianapolis area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

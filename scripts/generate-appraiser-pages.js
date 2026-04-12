@@ -98,6 +98,38 @@ function buildAbsoluteUrl(pathname = '') {
   return normalized ? `${base}${normalized}` : DIRECTORY_DOMAIN;
 }
 
+function escapeHtml(value = '') {
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug) {
+  return `<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${escapeHtml(appraiser.name)} | Art Appraiser Directory</title>
+    <meta name="robots" content="noindex, follow" />
+    <link rel="canonical" href="${escapeHtml(canonicalUrl)}" />
+    <meta http-equiv="refresh" content="1;url=${escapeHtml(canonicalUrl)}" />
+    <script>
+      setTimeout(() => {
+        window.location.replace('${canonicalUrl}');
+      }, 250);
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, follow this <a href="${escapeHtml(canonicalUrl)}">link to ${escapeHtml(appraiser.name)}</a>.</p>
+  </body>
+</html>
+`;
+}
+
 /**
  * Load all standardized appraiser data
  * @returns {Array} - Array of all appraisers
@@ -118,7 +150,8 @@ function loadAllAppraisers() {
           const location = file.replace('.json', '');
           const appraisersWithLocation = data.appraisers.map(appraiser => ({
             ...appraiser,
-            location
+            location,
+            sourceFile: file
           }));
           appraisers.push(...appraisersWithLocation);
         }
@@ -129,6 +162,72 @@ function loadAllAppraisers() {
   }
   
   return appraisers;
+}
+
+function scoreAppraiserRecord(appraiser) {
+  const reviewCount = Number(appraiser?.business?.reviewCount) || 0;
+  const rating = Number(appraiser?.business?.rating) || 0;
+  const certifications = Array.isArray(appraiser?.expertise?.certifications) ? appraiser.expertise.certifications.length : 0;
+  const specialties = Array.isArray(appraiser?.expertise?.specialties) ? appraiser.expertise.specialties.length : 0;
+  const services = Array.isArray(appraiser?.expertise?.services) ? appraiser.expertise.services.length : 0;
+  const reviews = Array.isArray(appraiser?.reviews) ? appraiser.reviews.length : 0;
+  const sourceBonus = / copy\.json$/i.test(String(appraiser?.sourceFile || '')) ? 0 : 500;
+  const websiteBonus = appraiser?.contact?.website ? 25 : 0;
+  const emailBonus = appraiser?.contact?.email ? 10 : 0;
+  const phoneBonus = appraiser?.contact?.phone ? 10 : 0;
+  const aboutBonus = appraiser?.content?.about ? 15 : 0;
+  const imageBonus = appraiser?.imageUrl ? 10 : 0;
+
+  return sourceBonus +
+    reviewCount * 5 +
+    rating * 10 +
+    certifications * 8 +
+    specialties * 5 +
+    services * 4 +
+    reviews * 3 +
+    websiteBonus +
+    emailBonus +
+    phoneBonus +
+    aboutBonus +
+    imageBonus;
+}
+
+function dedupeAppraisers(appraisers) {
+  const canonicalEntries = new Map();
+
+  for (const appraiser of appraisers) {
+    const canonicalSlug = appraiser.slug || appraiser.id || '';
+    if (!canonicalSlug) continue;
+
+    let entry = canonicalEntries.get(canonicalSlug);
+    if (!entry) {
+      entry = {
+        appraiser,
+        score: scoreAppraiserRecord(appraiser),
+        aliases: new Set(),
+      };
+      canonicalEntries.set(canonicalSlug, entry);
+    } else {
+      const candidateScore = scoreAppraiserRecord(appraiser);
+      if (candidateScore > entry.score) {
+        entry.appraiser = appraiser;
+        entry.score = candidateScore;
+      }
+    }
+
+    const rawId = String(appraiser.id || '').trim();
+    if (rawId && rawId !== canonicalSlug) {
+      entry.aliases.add(rawId);
+      entry.aliases.add(rawId.replace(/\s+/g, '-'));
+      entry.aliases.add(rawId.replace(/\s+/g, '_'));
+    }
+  }
+
+  return Array.from(canonicalEntries.entries()).map(([canonicalSlug, entry]) => ({
+    ...entry.appraiser,
+    slug: canonicalSlug,
+    aliasSlugs: Array.from(entry.aliases).filter(Boolean).filter(alias => alias !== canonicalSlug),
+  }));
 }
 
 function renderGtmAttributes(attrs = {}) {
@@ -353,56 +452,63 @@ function generateAppraiserHtml(appraiser) {
               
               <div class="space-y-3">
                 <div class="flex items-start">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                    <circle cx="12" cy="10" r="3"></circle>
-                  </svg>
-                  <div>
-                    <p class="text-gray-700">${appraiser.address.formatted}</p>
-                  </div>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(appraiser.address.formatted)}"
+                    class="flex items-start text-gray-700 hover:text-blue-600"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    ${renderGtmAttributes({
+                      event: 'directory_cta',
+                      cta: 'address',
+                      surface: 'contact_card',
+                      appraiserId: appraiser.slug,
+                      appraiserName: appraiser.name
+                    })}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <span>${appraiser.address.formatted}</span>
+                  </a>
                 </div>
                 
                 <div class="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                  </svg>
-                  <a href="tel:${appraiser.contact.phone}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                  <a href="tel:${appraiser.contact.phone}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
                     event: 'directory_cta',
                     cta: 'call',
                     surface: 'contact_card',
                     appraiserId: appraiser.slug,
                     appraiserName: appraiser.name
                   })}>
-                    ${appraiser.contact.phone}
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <span>${appraiser.contact.phone}</span>
                   </a>
                 </div>
 
                 <div class="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                    <polyline points="22,6 12,13 2,6"></polyline>
-                  </svg>
-                  <a href="mailto:${appraiser.contact.email}" class="text-gray-700 hover:text-blue-600"${renderGtmAttributes({
+                  <a href="mailto:${appraiser.contact.email}" class="flex items-center text-gray-700 hover:text-blue-600"${renderGtmAttributes({
                     event: 'directory_cta',
                     cta: 'email',
                     surface: 'contact_card',
                     appraiserId: appraiser.slug,
                     appraiserName: appraiser.name
                   })}>
-                    ${appraiser.contact.email}
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <span>${appraiser.contact.email}</span>
                   </a>
                 </div>
 
                 ${appraiser.contact.website ? `
                 <div class="flex items-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <line x1="2" y1="12" x2="22" y2="12"></line>
-                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                  </svg>
                   <a 
                     href="${appraiser.contact.website.startsWith('http') ? appraiser.contact.website : `https://${appraiser.contact.website}`}" 
-                    class="text-gray-700 hover:text-blue-600"
+                    class="flex items-center text-gray-700 hover:text-blue-600"
                     target="_blank"
                     rel="noopener noreferrer"
                     ${renderGtmAttributes({
@@ -413,7 +519,12 @@ function generateAppraiserHtml(appraiser) {
                       appraiserName: appraiser.name
                     })}
                   >
-                    Visit Website
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-600 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="2" y1="12" x2="22" y2="12"></line>
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span>Visit Website</span>
                   </a>
                 </div>
                 ` : ''}
@@ -596,7 +707,7 @@ function generateAppraiserHtml(appraiser) {
     description: seoDescription,
     schema: [appraiserSchema, breadcrumbSchema, faqSchema],
     content: mainContent,
-    canonicalPath: `/appraiser/${appraiser.slug}/`,
+    canonicalPath: `/appraiser/${appraiserSlug}/`,
     ogImage: normalizeImageUrl(appraiser.imageUrl)
   };
 }
@@ -694,8 +805,9 @@ async function main() {
     const templateHtml = fs.readFileSync(TEMPLATE_FILE, 'utf8');
     
     // Load all appraisers
-    const appraisers = loadAllAppraisers();
-    log(`Found ${appraisers.length} appraisers`, 'info');
+    const rawAppraisers = loadAllAppraisers();
+    const appraisers = dedupeAppraisers(rawAppraisers);
+    log(`Found ${rawAppraisers.length} source appraisers, deduped to ${appraisers.length} canonical appraisers`, 'info');
     
     // Generate pages for each appraiser
     let processedCount = 0;
@@ -714,7 +826,8 @@ async function main() {
         }
         
         // Create appraiser directory if it doesn't exist
-        const appraiserDirPath = path.join(APPRAISER_DIR, appraiser.slug);
+        const canonicalSlug = appraiser.slug || appraiser.id;
+        const appraiserDirPath = path.join(APPRAISER_DIR, canonicalSlug);
         fs.ensureDirSync(appraiserDirPath);
         
         // Generate HTML content
@@ -724,8 +837,27 @@ async function main() {
         // Write HTML file
         const htmlPath = path.join(appraiserDirPath, 'index.html');
         fs.writeFileSync(htmlPath, pageHtml);
-        
-        log(`Generated page for ${appraiser.name} (${appraiser.slug})`, 'success');
+
+        const legacySlugs = new Set(Array.isArray(appraiser.aliasSlugs) ? appraiser.aliasSlugs : []);
+        if (appraiser.id) {
+          legacySlugs.add(appraiser.id);
+          legacySlugs.add(appraiser.id.replace(/\s+/g, '-'));
+          legacySlugs.add(appraiser.id.replace(/\s+/g, '_'));
+        }
+
+        legacySlugs.delete(canonicalSlug);
+
+        const canonicalUrl = buildAbsoluteUrl(`/appraiser/${canonicalSlug}/`);
+        legacySlugs.forEach((legacySlug) => {
+          const legacyDirPath = path.join(APPRAISER_DIR, legacySlug);
+          fs.ensureDirSync(legacyDirPath);
+          fs.writeFileSync(
+            path.join(legacyDirPath, 'index.html'),
+            buildLegacyRedirectHtml(appraiser, canonicalUrl, legacySlug)
+          );
+        });
+
+        log(`Generated page for ${appraiser.name} (${canonicalSlug})`, 'success');
         processedCount++;
       } catch (error) {
         log(`Error generating page for ${appraiser.name}: ${error.message}`, 'error');

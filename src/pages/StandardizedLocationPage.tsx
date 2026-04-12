@@ -14,8 +14,13 @@ import {
 } from '../utils/dataQuality';
 import { trackEvent } from '../utils/analytics';
 import { cities as directoryCities } from '../data/cities.json';
-import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
-import { normalizeAssetUrl } from '../utils/assetUrls';
+import { InitialsAvatar } from '../components/InitialsAvatar';
+import {
+  STRIKING_DISTANCE_CITY_SLUGS,
+  LOCATION_SEO_OVERRIDES,
+  LOCATION_INTERNAL_LINK_TARGETS,
+  ART_GUIDE_LINKS,
+} from '../data/locationSeoOverrides';
 
 type DirectoryCity = {
   name: string;
@@ -24,120 +29,6 @@ type DirectoryCity = {
   latitude?: number;
   longitude?: number;
 };
-
-const STRIKING_DISTANCE_CITY_SLUGS = [
-  'des-moines',
-  'kansas-city',
-  'chicago',
-  'columbus',
-  'tucson',
-  'denver',
-  'milwaukee',
-  'cleveland',
-  'baltimore',
-  'louisville'
-] as const;
-
-type LocationSeoOverride = {
-  title: string;
-  description: string;
-  h1: string;
-  heroDescription: string;
-};
-
-const LOCATION_SEO_OVERRIDES: Partial<
-  Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
-> = {
-  'des-moines': {
-    title: 'Des Moines Art Appraisers | Fine Art, Donation & Estate Values',
-    description:
-      'Compare art appraisers in Des Moines for fine art, donation, estate, and insurance valuations. Review specialties and choose local or online appraisal.',
-    h1: 'Des Moines Art Appraisers',
-    heroDescription:
-      'Compare local art appraisal specialists in Des Moines, then choose the best fit for donation, estate, insurance, or resale needs.'
-  },
-  'kansas-city': {
-    title: 'Kansas City Art Appraisers | Local Fine Art Valuation Experts',
-    description:
-      'Looking for an art appraiser in Kansas City? Compare local fine art valuation specialists, review credentials, and choose in-person or online service.',
-    h1: 'Kansas City Art Appraisers',
-    heroDescription:
-      'Review Kansas City art appraisers for paintings, prints, and collections, then choose local in-person help or faster online appraisal.'
-  },
-  chicago: {
-    title: 'Chicago Art Appraisers | Fine Art, Estate & Insurance Values',
-    description:
-      'Compare Chicago art appraisers for estate, donation, insurance, and resale valuation. Review specialties and choose local or online appraisal support.',
-    h1: 'Chicago Art Appraisers',
-    heroDescription:
-      'Find Chicago art appraisers for paintings, prints, and collections, then choose local in-person service or faster online appraisal.'
-  },
-  tucson: {
-    title: 'Tucson Art Appraisers | Fine Art, Donation & Estate Valuation',
-    description:
-      'Compare Tucson art appraisers for donation, estate, and insurance valuation. Check specialties and choose local or online appraisal.',
-    h1: 'Tucson Art Appraisers',
-    heroDescription:
-      'Compare Tucson specialists for art, donation, and estate valuation, then choose the local or online path that matches your timeline.'
-  },
-  columbus: {
-    title: 'Columbus Art Appraisers | Fine Art, Donation & Tax Reports',
-    description:
-      'Find and compare Columbus art appraisers for paintings, donation reports, estate work, and tax-related valuation. Choose local or online appraisal.',
-    h1: 'Columbus Art Appraisers',
-    heroDescription:
-      'Compare Columbus appraisal experts for donation, tax, estate, and insurance needs before choosing local in-person or online service.'
-  },
-  denver: {
-    title: 'Denver Art Appraisers | Fine Art Appraisal Near You',
-    description:
-      'Compare Denver art appraisers, including specialists for insurance, estate, and resale valuation. Choose local in-person or online appraisal.',
-    h1: 'Denver Art Appraisers',
-    heroDescription:
-      'Find Denver art appraisers, compare specialties, and choose between local appointments or faster online appraisal.'
-  },
-  milwaukee: {
-    title: 'Milwaukee Art Appraisers | Estate & Fine Art Valuation',
-    description:
-      'Compare Milwaukee art appraisers for estate collections, insurance, and resale valuation. Review specialties and choose in-person or online appraisal.',
-    h1: 'Milwaukee Art Appraisers',
-    heroDescription:
-      'Compare Milwaukee appraisal options for fine art and collections, then choose local in-person service or online turnaround.'
-  },
-  cleveland: {
-    title: 'Cleveland Art Appraisers | Donation & Collection Valuation',
-    description:
-      'Find Cleveland art appraisers for donation, estate, and personal collection valuation. Compare local providers and online alternatives.',
-    h1: 'Cleveland Art Appraisers',
-    heroDescription:
-      'Compare Cleveland appraisers for donation and collection valuation needs, then choose local or online service.'
-  },
-  louisville: {
-    title: 'Louisville Art Appraisers | Fine Art, Tax & Estate Values',
-    description:
-      'Compare Louisville art appraisers for paintings, tax donation, and estate valuation. Review specialists and choose in-person or online appraisal.',
-    h1: 'Louisville Art Appraisers',
-    heroDescription:
-      'Find Louisville specialists for fine art and tax-related valuations, then choose local in-person or faster online appraisal.'
-  },
-  baltimore: {
-    title: 'Baltimore Art Appraisers | Fine Art & Collection Valuation',
-    description:
-      'Compare Baltimore art appraisers for paintings, collections, estate, and insurance valuation. Check specialties and choose local or online service.',
-    h1: 'Baltimore Art Appraisers',
-    heroDescription:
-      'Compare Baltimore specialists for fine art and collection valuation, then choose local in-person or online appraisal.'
-  }
-};
-
-const ART_GUIDE_LINKS = [
-  { slug: 'chinese-art-appraisal', label: 'Chinese Art Appraisal Guide' },
-  { slug: 'fine-art-appraisal', label: 'Fine Art Appraisal Guide' },
-  { slug: 'how-much-is-my-art-worth', label: 'How Much Is My Art Worth?' },
-  { slug: 'artwork-value-estimate', label: 'Artwork Value Estimate' },
-  { slug: 'valuation-of-art', label: 'Valuation Of Art' },
-  { slug: 'what-gives-art-value', label: 'What Gives Art Value?' },
-] as const;
 
 function estimateDistanceKm(fromCity: DirectoryCity, toCity: DirectoryCity): number {
   if (
@@ -289,6 +180,16 @@ export function StandardizedLocationPage() {
       .slice(0, 6)
       .map(item => item.city);
   }, [cityMeta, validCitySlug]);
+  const prioritizedInternalLinkCities = useMemo(() => {
+    const typedCities = directoryCities as DirectoryCity[];
+    const linkSlugs = LOCATION_INTERNAL_LINK_TARGETS[
+      validCitySlug as (typeof STRIKING_DISTANCE_CITY_SLUGS)[number]
+    ];
+    if (!linkSlugs?.length) return [];
+    return linkSlugs
+      .map((slug) => typedCities.find(city => city.slug === slug))
+      .filter((city): city is DirectoryCity => Boolean(city) && city.slug !== validCitySlug);
+  }, [validCitySlug]);
   const popularOpportunityCities = useMemo(() => {
     const typedCities = directoryCities as DirectoryCity[];
     return STRIKING_DISTANCE_CITY_SLUGS
@@ -563,17 +464,17 @@ export function StandardizedLocationPage() {
       />
 
       <div className="max-w-6xl mx-auto">
-        <div className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-lg mb-8">
+        <div className="bg-gradient-to-r from-blue-50 to-white p-4 sm:p-6 rounded-lg mb-6 sm:mb-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="max-w-3xl">
-              <p className="text-sm font-semibold text-blue-700 mb-2">Searching for in-person appraisers?</p>
-              <h1 className="text-3xl font-bold mb-3">{heroHeading}</h1>
-              <p className="text-gray-600">{heroDescription}</p>
+              <p className="text-xs sm:text-sm font-semibold text-blue-700 mb-2">Searching for in-person appraisers?</p>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 leading-tight">{heroHeading}</h1>
+              <p className="text-sm sm:text-base text-gray-600">{heroDescription}</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
                 href={primaryCtaUrl}
-                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 text-white font-semibold hover:bg-blue-700 transition-colors"
+                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 min-h-[48px] text-white font-semibold hover:bg-blue-700 transition-colors text-sm sm:text-base"
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_primary"
                 onClick={() => handleLocationCtaClick('location_hero_primary')}
@@ -582,7 +483,7 @@ export function StandardizedLocationPage() {
               </a>
               <a
                 href="#local-appraisers"
-                className="inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 text-blue-700 font-semibold hover:bg-blue-50 transition-colors"
+                className="inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 min-h-[48px] text-blue-700 font-semibold hover:bg-blue-50 transition-colors text-sm sm:text-base"
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_secondary"
                 onClick={(event) => {
@@ -643,13 +544,37 @@ export function StandardizedLocationPage() {
                 <a
                   key={city.slug}
                   href={buildSiteUrl(`/location/${city.slug}`)}
-                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  className="inline-flex items-center rounded-full border border-blue-200 px-4 py-2 min-h-[44px] text-sm text-blue-700 hover:bg-blue-50 transition-colors"
                   data-gtm-event="related_city_click"
                   data-gtm-placement="location_related_cities"
                   data-gtm-city={city.slug}
                   onClick={() => handleRelatedCityClick(city, 'location_related_cities')}
                 >
                   {city.name}, {city.state}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {prioritizedInternalLinkCities.length > 0 && (
+          <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">
+            <h2 className="text-xl font-semibold mb-2">Compare art appraiser guides people also check from {citySearchName}</h2>
+            <p className="text-gray-600">
+              Use these city pages to compare provider options, specialties, and availability before choosing local or online appraisal support.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {prioritizedInternalLinkCities.map(city => (
+                <a
+                  key={city.slug}
+                  href={buildSiteUrl(`/location/${city.slug}`)}
+                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  data-gtm-event="related_city_click"
+                  data-gtm-placement="location_priority_links"
+                  data-gtm-city={city.slug}
+                  onClick={() => handleRelatedCityClick(city, 'location_priority_links')}
+                >
+                  {city.name} art appraisers ({city.state})
                 </a>
               ))}
             </div>
@@ -791,85 +716,77 @@ export function StandardizedLocationPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {locationData.appraisers.map(appraiser => (
-            <div
+            <a
               key={appraiser.id}
-              className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
+              className="group block border rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
+              data-gtm-event="appraiser_card_click"
+              data-gtm-appraiser={appraiser.slug}
+              data-gtm-placement="location_results"
+              onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
             >
-              <a
-                href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
-                className="block"
-                data-gtm-event="appraiser_card_click"
-                data-gtm-appraiser={appraiser.slug}
-                data-gtm-placement="location_results"
-                onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
-              >
-                <div className="h-48 bg-gray-200 overflow-hidden">
-                  <img
-                    src={normalizeAssetUrl(appraiser.imageUrl)}
-                    alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
-                    className="w-full h-full object-cover transition-transform hover:scale-105"
-                    loading="lazy"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = DEFAULT_PLACEHOLDER_IMAGE;
-                    }}
-                  />
+              <div className="h-48 overflow-hidden">
+                <InitialsAvatar
+                  imageUrl={appraiser.imageUrl}
+                  name={appraiser.name}
+                  className="w-full h-full"
+                  size="lg"
+                />
+              </div>
+
+              <div className="p-4">
+                <h2 className="text-xl font-semibold mb-2 text-gray-900 group-hover:text-blue-600 transition-colors">
+                  {appraiser.name}
+                </h2>
+
+                <div className="flex items-center text-sm text-gray-600 mb-2">
+                  <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
+                  <span className="truncate">{appraiser.address.formatted}</span>
                 </div>
 
-                <div className="p-4">
-                  <h2 className="text-xl font-semibold mb-2 text-gray-900 hover:text-blue-600 transition-colors">
-                    {appraiser.name}
-                  </h2>
-
-                  <div className="flex items-center text-sm text-gray-600 mb-2">
-                    <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
-                    <span className="truncate">{appraiser.address.formatted}</span>
-                  </div>
-
-                  {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
-                    <div className="flex items-center mb-3">
-                      <div className="flex items-center">
-                        <Star className="h-4 w-4 text-yellow-500" />
-                        <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
-                      </div>
-                      <span className="text-sm text-gray-500 ml-2">
-                        ({appraiser.business.reviewCount} reviews)
-                      </span>
+                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
+                  <div className="flex items-center mb-3">
+                    <div className="flex items-center">
+                      <Star className="h-4 w-4 text-yellow-500" />
+                      <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
                     </div>
-                  ) : (
-                    <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
-                  )}
-
-                  <div className="space-y-2 mb-4">
-                    <div className="flex flex-wrap gap-1">
-                      {appraiser.expertise.specialties.slice(0, 3).map((specialty) => (
-                        <span
-                          key={specialty}
-                          className="inline-block bg-blue-50 text-blue-700 rounded-full px-2 py-0.5 text-xs mb-1"
-                        >
-                          {specialty}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
-                    <span className="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
-                      View Profile
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 ml-1"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
+                    <span className="text-sm text-gray-500 ml-2">
+                      ({appraiser.business.reviewCount} reviews)
                     </span>
                   </div>
+                ) : (
+                  <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
+                )}
+
+                <div className="space-y-2 mb-4">
+                  <div className="flex flex-wrap gap-1">
+                    {appraiser.expertise.specialties.slice(0, 3).map((specialty) => (
+                      <span
+                        key={specialty}
+                        className="inline-block bg-blue-50 text-blue-700 rounded-full px-2 py-0.5 text-xs mb-1"
+                      >
+                        {specialty}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </a>
-            </div>
+
+                <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
+                  <span className="text-blue-600 group-hover:text-blue-800 text-sm font-medium inline-flex items-center">
+                    View Profile
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 ml-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
           ))}
         </div>
 

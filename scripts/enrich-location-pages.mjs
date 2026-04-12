@@ -161,9 +161,8 @@ function buildLocationSchemas({ slug, city, state, appraisers }) {
 
   const providers = Array.isArray(appraisers)
     ? appraisers.slice(0, 50).map((appraiser) => {
-        // Important: location pages link to city-specific appraiser pages (id),
-        // while "slug" may refer to a non-existent global profile (404). Prefer `id`.
-        const appraiserSlug = appraiser?.id || appraiser?.slug || '';
+        // Prefer the canonical global slug; city-prefixed ids are kept only as legacy aliases.
+        const appraiserSlug = appraiser?.slug || appraiser?.id || '';
         const rating = appraiser?.business?.rating;
         const reviewCount = appraiser?.business?.reviewCount;
 

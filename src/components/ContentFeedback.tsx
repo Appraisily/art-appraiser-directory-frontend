@@ -23,6 +23,7 @@ export function ContentFeedback() {
   const [helpful, setHelpful] = useState<boolean | null>(null);
   const [comment, setComment] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [needsVote, setNeedsVote] = useState(false);
 
   const context = useMemo(() => derivePageContext(location.pathname), [location.pathname]);
 
@@ -41,6 +42,7 @@ export function ContentFeedback() {
   const onVote = (value: boolean) => {
     if (submitted) return;
     setHelpful(value);
+    setNeedsVote(false);
 
     capturePosthogEvent('seo_content_feedback_vote', {
       ...commonProps,
@@ -51,7 +53,10 @@ export function ContentFeedback() {
   const onSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     if (submitted) return;
-    if (helpful === null) return;
+    if (helpful === null) {
+      setNeedsVote(true);
+      return;
+    }
 
     const redacted = redactFeedbackText(comment).slice(0, 800);
 
@@ -74,13 +79,13 @@ export function ContentFeedback() {
             Optional: tell us what was missing (please don’t include personal info).
           </p>
 
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap gap-3">
             <button
               type="button"
               onClick={() => onVote(true)}
               disabled={submitted}
               className={[
-                'rounded-full border px-4 py-2 text-sm font-semibold transition',
+                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
                 helpful === true
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
@@ -94,7 +99,7 @@ export function ContentFeedback() {
               onClick={() => onVote(false)}
               disabled={submitted}
               className={[
-                'rounded-full border px-4 py-2 text-sm font-semibold transition',
+                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
                 helpful === false
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
@@ -104,6 +109,11 @@ export function ContentFeedback() {
               No
             </button>
           </div>
+          {needsVote ? (
+            <p className="mt-2 text-sm text-amber-700">
+              Select Yes or No before sending feedback.
+            </p>
+          ) : null}
 
           {submitted ? (
             <p className="mt-4 text-sm font-medium text-foreground">
@@ -116,17 +126,13 @@ export function ContentFeedback() {
                 placeholder="What could we improve on this page?"
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-                disabled={helpful === null}
               />
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
-                  disabled={helpful === null}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
-                    helpful === null
-                      ? 'opacity-50 cursor-not-allowed'
-                      : 'hover:bg-gray-800 cursor-pointer',
+                    'hover:bg-gray-800 cursor-pointer',
                   ].join(' ')}
                 >
                   Send feedback
@@ -140,4 +146,3 @@ export function ContentFeedback() {
     </section>
   );
 }
-

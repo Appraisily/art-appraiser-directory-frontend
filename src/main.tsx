@@ -31,16 +31,6 @@ if (typeof window !== 'undefined') {
   }
 }
 
-// Add debug logging to help diagnose issues
-console.log('🔍 Art Appraiser Directory initializing...');
-
-// Log environment info
-console.log('📊 Environment info:', {
-  mode: import.meta.env.MODE,
-  base: import.meta.env.BASE_URL,
-  timestamp: new Date().toISOString(),
-});
-
 // Tag AI assistant referrals as early as possible
 try {
   tagAiAssistantReferrer();
@@ -54,27 +44,9 @@ try {
 const rootElement = document.getElementById('root');
 
 if (!rootElement) {
-  console.error('❌ Root element not found! DOM structure may be incorrect.');
+  console.error('Root element not found! DOM structure may be incorrect.');
 } else {
   try {
-    // Check if the page was pre-rendered (has child nodes)
-    const hasPreRenderedContent = Array.from(rootElement.childNodes).some(node => {
-      if (node.nodeType === Node.ELEMENT_NODE) {
-        return (node as HTMLElement).outerHTML.trim().length > 0;
-      }
-      if (node.nodeType === Node.TEXT_NODE) {
-        return (node.textContent || '').trim().length > 0;
-      }
-      return false;
-    });
-    console.log('🧩 Content status:', { hasPreRenderedContent, childNodes: rootElement.childNodes.length });
-
-    console.log(
-      hasPreRenderedContent
-        ? '🧯 Pre-rendered HTML detected; skipping hydration (client render only)'
-        : '🌱 No pre-rendered HTML; client render only'
-    );
-
     createRoot(rootElement).render(
       <StrictMode>
         <HelmetProvider>
@@ -82,24 +54,22 @@ if (!rootElement) {
         </HelmetProvider>
       </StrictMode>
     );
-    console.log('✅ Rendering complete');
-  } catch (error) {
-    console.error('❌ Application initialization failed:', error);
-    console.log('📑 Error details:', {
-      message: error.message,
-      stack: error.stack,
-      name: error.name
-    });
+  } catch (error: unknown) {
+    console.error('Application initialization failed:', error);
 
-    // Show error UI to user
-    rootElement.innerHTML = `
-      <div style="padding: 20px; text-align: center; font-family: sans-serif;">
-        <h2>Something went wrong</h2>
-        <p>The application failed to initialize. Please try refreshing the page.</p>
-        <pre style="text-align: left; background: #f5f5f5; padding: 10px; overflow: auto; max-width: 100%; font-size: 12px;">
-          ${error.message || 'Unknown error'}
-        </pre>
-      </div>
-    `;
+    // Show error UI to user (use textContent to avoid XSS)
+    const container = document.createElement('div');
+    container.style.cssText = 'padding: 20px; text-align: center; font-family: sans-serif;';
+    const heading = document.createElement('h2');
+    heading.textContent = 'Something went wrong';
+    const para = document.createElement('p');
+    para.textContent = 'The application failed to initialize. Please try refreshing the page.';
+    const pre = document.createElement('pre');
+    pre.style.cssText = 'text-align: left; background: #f5f5f5; padding: 10px; overflow: auto; max-width: 100%; font-size: 12px;';
+    pre.textContent = error instanceof Error ? error.message : 'Unknown error';
+    container.appendChild(heading);
+    container.appendChild(para);
+    container.appendChild(pre);
+    rootElement.replaceChildren(container);
   }
 }

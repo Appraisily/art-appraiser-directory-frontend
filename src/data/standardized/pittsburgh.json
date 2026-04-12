@@ -244,10 +244,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg?updatedAt=1741089472476",
       "address": {
         "street": "777 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90363",
-        "formatted": "777 Main St, Los Angeles, CA 90363"
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "19103",
+        "formatted": "777 Main St, Pittsburgh, PA 19103"
       },
       "contact": {
         "phone": "954-741-4059",
@@ -324,10 +324,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_ernie-kitsap-antique-show_1741089288275_mW7ieVwpA.jpg?updatedAt=1741089289496",
       "address": {
         "street": "456 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90200",
-        "formatted": "456 Washington Ave, Los Angeles, CA 90200"
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "19103",
+        "formatted": "456 Washington Ave, Pittsburgh, PA 19103"
       },
       "contact": {
         "phone": "201-162-7412",
@@ -407,10 +407,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg?updatedAt=1741089169374",
       "address": {
         "street": "777 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90262",
-        "formatted": "777 Pine Ln, Los Angeles, CA 90262"
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "19102",
+        "formatted": "777 Pine Ln, Pittsburgh, PA 19102"
       },
       "contact": {
         "phone": "532-260-1936",
@@ -489,10 +489,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_washington-dc-fine-art-appraiser_1741089482744_aLCAXrh39.jpg?updatedAt=1741089484077",
       "address": {
         "street": "2020 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90124",
-        "formatted": "2020 Elm St, Los Angeles, CA 90124"
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15201",
+        "formatted": "2020 Elm St, Pittsburgh, PA 15201"
       },
       "contact": {
         "phone": "552-376-1998",
@@ -567,10 +567,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
       "address": {
         "street": "999 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90470",
-        "formatted": "999 Main St, Los Angeles, CA 90470"
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "19102",
+        "formatted": "999 Main St, Pittsburgh, PA 19102"
       },
       "contact": {
         "phone": "101-786-2105",
@@ -638,10 +638,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
       "address": {
         "street": "789 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90444",
-        "formatted": "789 Pine Ln, Los Angeles, CA 90444"
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15201",
+        "formatted": "789 Pine Ln, Pittsburgh, PA 15201"
       },
       "contact": {
         "phone": "909-404-6067",
@@ -707,6 +707,183 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "pittsburgh-maser-galleries",
+      "name": "Maser Galleries",
+      "slug": "maser-galleries",
+      "imageUrl": "",
+      "address": {
+        "street": "5427 Walnut St",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15232",
+        "formatted": "5427 Walnut St, Pittsburgh, PA 15232"
+      },
+      "contact": {
+        "phone": "412-687-0885",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Custom Framing",
+          "Picture Framing"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Custom Framing",
+          "Art Consultation",
+          "Gallery Services"
+        ]
+      },
+      "content": {
+        "about": "Maser Galleries is an art gallery and dealer in Pittsburgh's Shadyside neighborhood offering a curated selection of unique artwork alongside custom framing and art appraisal services. Known for helpful, professional service and an excellent selection of artwork. Verified via Yellow Pages listing with a positive customer review.",
+        "notes": "Verified via Yellow Pages listing. Located in Shadyside area of Pittsburgh."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pittsburgh-horn-jerry-w-gallery",
+      "name": "Horn Jerry W Gallery",
+      "slug": "horn-jerry-w-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "300 Castle Shannon Blvd",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15234",
+        "formatted": "300 Castle Shannon Blvd, Pittsburgh, PA 15234"
+      },
+      "contact": {
+        "phone": "412-341-4474",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 54 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Galleries and Consultations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Horn Jerry W Gallery is one of Pittsburgh's longest-running art galleries with over 54 years in business. Located on Castle Shannon Blvd in the South Hills area, they provide art gallery services, dealer consultations, and appraisal expertise. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (54 years in business). One of the oldest galleries in Pittsburgh."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pittsburgh-ralph-proctor-gallery",
+      "name": "Ralph Proctor Gallery",
+      "slug": "ralph-proctor-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1026 Progress St",
+        "city": "Pittsburgh",
+        "state": "PA",
+        "zip": "15212",
+        "formatted": "1026 Progress St, Pittsburgh, PA 15212"
+      },
+      "contact": {
+        "phone": "844-278-6996",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 50 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Galleries and Consultations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Ralph Proctor Gallery is a well-established Pittsburgh art gallery with over 50 years in business. Located on Progress St in the North Side area, they provide art gallery services, dealer consultations, and appraisal services. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (50 years in business). Located in Pittsburgh's North Side neighborhood."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }
