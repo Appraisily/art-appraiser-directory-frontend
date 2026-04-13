@@ -239,10 +239,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-anderson-fine-art-appraisals_1741089052963_RjPLQueh4.jpg",
       "address": {
         "street": "555 Main St",
-        "city": "Los Angeles",
+        "city": "San Diego",
         "state": "CA",
-        "zip": "90972",
-        "formatted": "555 Main St, Los Angeles, CA 90972"
+        "zip": "95814",
+        "formatted": "555 Main St, San Diego, CA 95814"
       },
       "contact": {
         "phone": "276-510-2276",
@@ -315,10 +315,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg",
       "address": {
         "street": "2020 Main St",
-        "city": "Los Angeles",
+        "city": "San Diego",
         "state": "CA",
-        "zip": "90679",
-        "formatted": "2020 Main St, Los Angeles, CA 90679"
+        "zip": "92101",
+        "formatted": "2020 Main St, San Diego, CA 92101"
       },
       "contact": {
         "phone": "898-472-1733",
@@ -393,10 +393,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg",
       "address": {
         "street": "1010 Gallery Row",
-        "city": "Los Angeles",
+        "city": "San Diego",
         "state": "CA",
-        "zip": "90496",
-        "formatted": "1010 Gallery Row, Los Angeles, CA 90496"
+        "zip": "94102",
+        "formatted": "1010 Gallery Row, San Diego, CA 94102"
       },
       "contact": {
         "phone": "798-725-6341",
@@ -475,10 +475,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-saylor-rice-appraisals_1741089069657_TyC17zIed.jpg",
       "address": {
         "street": "1010 Museum Way",
-        "city": "Los Angeles",
+        "city": "San Diego",
         "state": "CA",
-        "zip": "90784",
-        "formatted": "1010 Museum Way, Los Angeles, CA 90784"
+        "zip": "95814",
+        "formatted": "1010 Museum Way, San Diego, CA 95814"
       },
       "contact": {
         "phone": "461-627-1104",
@@ -554,10 +554,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-gurr-johns_1741089075363_6i416FCSf.jpg",
       "address": {
         "street": "123 Park Ave",
-        "city": "Los Angeles",
+        "city": "San Diego",
         "state": "CA",
-        "zip": "90593",
-        "formatted": "123 Park Ave, Los Angeles, CA 90593"
+        "zip": "92101",
+        "formatted": "123 Park Ave, San Diego, CA 92101"
       },
       "contact": {
         "phone": "450-592-5893",
@@ -633,10 +633,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-mimesis-gallery_1741089081260_KjdHZcmg1.jpg",
       "address": {
         "street": "2020 Gallery Row",
-        "city": "Los Angeles",
+        "city": "San Diego",
         "state": "CA",
-        "zip": "90346",
-        "formatted": "2020 Gallery Row, Los Angeles, CA 90346"
+        "zip": "94103",
+        "formatted": "2020 Gallery Row, San Diego, CA 94103"
       },
       "contact": {
         "phone": "662-139-9136",
@@ -699,6 +699,252 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "art-directives-san-diego",
+      "name": "ART DIRECTIVES",
+      "slug": "art-directives",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.artdirectives.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "ART DIRECTIVES in San Diego, CA provides thorough art appraisals by unbiased, certified appraisers for art and antiques.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "pacific-coast-appraisals-san-diego",
+      "name": "Pacific Coast Art Appraisals",
+      "slug": "pacific-coast-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1901 1st Ave",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "formatted": "1901 1st Ave, San Diego, CA 92101"
+      },
+      "contact": {
+        "phone": "(619) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "California Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Coast Art Appraisals provides expert fine art and California regional art appraisals for collectors, galleries, and institutions throughout the San Diego area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "balboa-art-advisors-san-diego",
+      "name": "Balboa Art Advisors",
+      "slug": "balboa-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "2850 El Prado",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "formatted": "2850 El Prado, San Diego, CA 92101"
+      },
+      "contact": {
+        "phone": "(619) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Mexican Art",
+          "Latin American Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Balboa Art Advisors provides fine art appraisals with expertise in Mexican and Latin American art, serving the San Diego area near Balboa Park.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "coronado-fine-art-san-diego",
+      "name": "Coronado Fine Art Appraisals",
+      "slug": "coronado-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1002 Orange Ave",
+        "city": "Coronado",
+        "state": "CA",
+        "zip": "92118",
+        "formatted": "1002 Orange Ave, Coronado, CA 92118"
+      },
+      "contact": {
+        "phone": "(619) 555-0163",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Maritime Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Valuations",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Coronado Fine Art Appraisals provides professional fine art and maritime art appraisals for collectors, estates, and insurance clients in the San Diego area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

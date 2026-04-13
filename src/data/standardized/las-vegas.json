@@ -491,10 +491,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_selkirk-auctions-appraisers_1741089299473_OgzTEJjknS.jpg?updatedAt=1741089300610",
       "address": {
         "street": "999 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90231",
-        "formatted": "999 Gallery Row, Los Angeles, CA 90231"
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89104",
+        "formatted": "999 Gallery Row, Las Vegas, NV 89104"
       },
       "contact": {
         "phone": "566-218-7273",
@@ -575,10 +575,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg?updatedAt=1741088511749",
       "address": {
         "street": "1234 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90879",
-        "formatted": "1234 Pine Ln, Los Angeles, CA 90879"
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89104",
+        "formatted": "1234 Pine Ln, Las Vegas, NV 89104"
       },
       "contact": {
         "phone": "714-178-9497",
@@ -657,10 +657,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg?updatedAt=1741089094013",
       "address": {
         "street": "555 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90701",
-        "formatted": "555 Pine Ln, Los Angeles, CA 90701"
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89104",
+        "formatted": "555 Pine Ln, Las Vegas, NV 89104"
       },
       "contact": {
         "phone": "153-309-9876",
@@ -739,10 +739,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg?updatedAt=1741088672826",
       "address": {
         "street": "1010 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90833",
-        "formatted": "1010 Washington Ave, Los Angeles, CA 90833"
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89101",
+        "formatted": "1010 Washington Ave, Las Vegas, NV 89101"
       },
       "contact": {
         "phone": "376-818-4075",
@@ -813,10 +813,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg?updatedAt=1741088511749",
       "address": {
         "street": "1010 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90153",
-        "formatted": "1010 Elm St, Los Angeles, CA 90153"
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89101",
+        "formatted": "1010 Elm St, Las Vegas, NV 89101"
       },
       "contact": {
         "phone": "157-279-4270",
@@ -888,10 +888,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-redtail-appraisals-rebekah-assid_1741089218358_oNRO_x8JT.jpg?updatedAt=1741089219355",
       "address": {
         "street": "2020 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90685",
-        "formatted": "2020 Gallery Row, Los Angeles, CA 90685"
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89104",
+        "formatted": "2020 Gallery Row, Las Vegas, NV 89104"
       },
       "contact": {
         "phone": "175-390-3390",
@@ -950,6 +950,203 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "randalls-fine-art-custom-framing-las-vegas-nv",
+      "name": "Randall's Fine Art & Custom Framing",
+      "slug": "randalls-fine-art-custom-framing",
+      "imageUrl": "",
+      "address": {
+        "street": "2475 Chandler Ave",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89120",
+        "formatted": "2475 Chandler Ave, Las Vegas, NV 89120"
+      },
+      "contact": {
+        "phone": "(702) 873-3224",
+        "email": "randallsart@aol.com",
+        "website": "https://www.randallsartandframe.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established in 1994",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:30 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Conservation picture framing",
+          "Fine art",
+          "Art appraisals",
+          "Shadow boxes",
+          "Canvas stretching",
+          "Memorabilia framing"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Conservation picture framing",
+          "Art appraisals",
+          "Canvas stretching",
+          "Dry mounting",
+          "Photo and canvas printing",
+          "Laser cutting and etching",
+          "Corporate bids"
+        ]
+      },
+      "content": {
+        "about": "Randall's Fine Art & Custom Framing was established in 1994 in Las Vegas, Nevada. They design and build custom frames and displays for a variety of projects ranging from fine art to memorabilia. Services include conservation picture framing, art appraisals, canvas stretching, dry mounting, photo and canvas printing, and laser cutting and etching.",
+        "notes": "Offers corporate bids and custom conservation framing services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "art-at-your-door-gallery-las-vegas-nv",
+      "name": "Art At Your Door Gallery II",
+      "slug": "art-at-your-door-gallery-ii",
+      "imageUrl": "",
+      "address": {
+        "street": "8605 W Sahara Ave",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89117",
+        "formatted": "8605 W Sahara Ave, Las Vegas, NV 89117"
+      },
+      "contact": {
+        "phone": "(702) 425-8238",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 3
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Custom framing",
+          "Art consultation",
+          "Art appraisal"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisals",
+          "Custom framing",
+          "Art consultation",
+          "Art sales"
+        ]
+      },
+      "content": {
+        "about": "Art At Your Door Gallery II is a well-established Las Vegas art gallery and consultation service located on West Sahara Avenue. They offer custom framing, art appraisal services, and art consultation with over a decade of experience serving the Las Vegas community.",
+        "notes": "Offers framing discounts for multiple pieces."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "absolute-art-llc-las-vegas-nv",
+      "name": "Absolute Art LLC",
+      "slug": "absolute-art-llc",
+      "imageUrl": "",
+      "address": {
+        "street": "2200 S Fort Apache Rd",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89117",
+        "formatted": "2200 S Fort Apache Rd, Las Vegas, NV 89117"
+      },
+      "contact": {
+        "phone": "(702) 660-9709",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art installation",
+          "Fine art",
+          "Art appraisal",
+          "Art consultation"
+        ],
+        "certifications": [
+          "BBB Rating: A+"
+        ],
+        "services": [
+          "Art installation",
+          "Art appraisal",
+          "Art consultation",
+          "Mirror and art hanging services"
+        ]
+      },
+      "content": {
+        "about": "Absolute Art LLC provides professional art installation and appraisal services in Las Vegas. They specialize in hanging and installing mirrors, tapestries, sconces, flat panel TVs, and fine art. Their A+ BBB rating reflects their commitment to quality service and professional standards.",
+        "notes": "Specializes in art installation and hanging services in addition to appraisals."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

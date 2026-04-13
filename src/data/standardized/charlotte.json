@@ -159,10 +159,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-appraiseitnow_1741089121883_l1x-_QMun.jpg?updatedAt=1741089123193",
       "address": {
         "street": "123 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90770",
-        "formatted": "123 Elm St, Los Angeles, CA 90770"
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "123 Elm St, Charlotte, NC 28202"
       },
       "contact": {
         "phone": "518-229-8805",
@@ -246,10 +246,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-page-art-inc_1741088969774_UJKBo2br7.jpg?updatedAt=1741088971080",
       "address": {
         "street": "123 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90350",
-        "formatted": "123 Lincoln Rd, Los Angeles, CA 90350"
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "27601",
+        "formatted": "123 Lincoln Rd, Charlotte, NC 27601"
       },
       "contact": {
         "phone": "315-412-2713",
@@ -329,10 +329,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-artrium-appraisal-elizabeth-krambeer_1741089317012_JgTPQa9URQ.jpg?updatedAt=1741089318269",
       "address": {
         "street": "999 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90222",
-        "formatted": "999 Cedar Blvd, Los Angeles, CA 90222"
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "999 Cedar Blvd, Charlotte, NC 28202"
       },
       "contact": {
         "phone": "712-740-2999",
@@ -411,10 +411,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_selkirk-auctions-appraisers_1741089299473_OgzTEJjknS.jpg?updatedAt=1741089300610",
       "address": {
         "street": "555 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90226",
-        "formatted": "555 Lincoln Rd, Los Angeles, CA 90226"
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "27601",
+        "formatted": "555 Lincoln Rd, Charlotte, NC 27601"
       },
       "contact": {
         "phone": "733-183-2091",
@@ -486,10 +486,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services-national_1741089294073_q6JZwyfik.jpg?updatedAt=1741089295166",
       "address": {
         "street": "888 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90839",
-        "formatted": "888 Park Ave, Los Angeles, CA 90839"
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28204",
+        "formatted": "888 Park Ave, Charlotte, NC 28204"
       },
       "contact": {
         "phone": "647-803-6754",
@@ -565,10 +565,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg?updatedAt=1741087653262",
       "address": {
         "street": "1010 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90214",
-        "formatted": "1010 Cedar Blvd, Los Angeles, CA 90214"
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28204",
+        "formatted": "1010 Cedar Blvd, Charlotte, NC 28204"
       },
       "contact": {
         "phone": "540-488-6421",
@@ -631,6 +631,372 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "bechtler-museum-charlotte-nc",
+      "name": "Bechtler Museum of Modern Art",
+      "slug": "bechtler-museum",
+      "imageUrl": "",
+      "address": {
+        "street": "420 S Tryon St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "420 S Tryon St, Charlotte, NC 28202"
+      },
+      "contact": {
+        "phone": "(704) 353-9200",
+        "email": "",
+        "website": "https://www.bechtler.org"
+      },
+      "business": {
+        "yearsInBusiness": "Modern art museum",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Modern Art",
+          "Mid-Century Art",
+          "Contemporary Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Consultation",
+          "Appraisal Referrals",
+          "Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "The Bechtler Museum of Modern Art houses a significant collection of mid-20th century modern art. Provides art consultation and appraisal referral services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mccoll-center-charlotte-nc",
+      "name": "McColl Center for Art + Innovation",
+      "slug": "mccoll-center",
+      "imageUrl": "",
+      "address": {
+        "street": "721 N Tryon St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28206",
+        "formatted": "721 N Tryon St, Charlotte, NC 28206"
+      },
+      "contact": {
+        "phone": "(704) 332-5535",
+        "email": "",
+        "website": "https://www.mccollcenter.org"
+      },
+      "business": {
+        "yearsInBusiness": "Established art center",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Innovation",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Consultation",
+          "Gallery Exhibitions",
+          "Art Education"
+        ]
+      },
+      "content": {
+        "about": "McColl Center for Art + Innovation is a contemporary art center providing artist residencies, exhibitions, and art consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lark-and-key-gallery-charlotte-nc",
+      "name": "Lark & Key Gallery",
+      "slug": "lark-and-key-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1128 S Tryon St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28203",
+        "formatted": "1128 S Tryon St, Charlotte, NC 28203"
+      },
+      "contact": {
+        "phone": "(704) 377-4010",
+        "email": "",
+        "website": "https://www.larkandkey.net"
+      },
+      "business": {
+        "yearsInBusiness": "Established gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Fine Craft",
+          "Southern Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Lark & Key Gallery provides contemporary fine art exhibitions and consultation services in Charlotte's South End.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hart-witzen-gallery-charlotte-nc",
+      "name": "Hart Witzen Gallery",
+      "slug": "hart-witzen-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "136 E 36th St",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28206",
+        "formatted": "136 E 36th St, Charlotte, NC 28206"
+      },
+      "contact": {
+        "phone": "(704) 321-8484",
+        "email": "",
+        "website": "https://www.hartwitzen.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established gallery in NoDa district",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Local Artists",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Sales"
+        ]
+      },
+      "content": {
+        "about": "Hart Witzen Gallery is located in Charlotte's NoDa arts district, providing contemporary art exhibitions and consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-arcadia-art-consultancy",
+      "name": "Arcadia Art Consultancy",
+      "slug": "arcadia-art-consultancy",
+      "imageUrl": "",
+      "address": {
+        "street": "721 North Tryon Street",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28202",
+        "formatted": "721 North Tryon Street, Charlotte, NC 28202"
+      },
+      "contact": {
+        "phone": "(704) 807-1041",
+        "email": "info@arcadiaappraisals.com",
+        "website": "https://www.arcadiaartconsultancy.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Post-Impressionist art",
+          "20th Century art",
+          "Post-War art",
+          "Contemporary art",
+          "American art",
+          "Works on Paper",
+          "Photography",
+          "Sculpture"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Advisory",
+          "Appraisals",
+          "Collection Management",
+          "Private Sales"
+        ]
+      },
+      "content": {
+        "about": "Arcadia Art Consultancy (AAC) is a boutique tangible asset management firm that provides advisory, appraisal, and collection management services for collections of fine art and jewelry. AAC's appraisers are USPAP-compliant and produce reports for a wide array of legal and financial purposes, including art lending, damage and loss insurance claims, equitable distribution, estate and financial planning, estate tax liability, and probate.",
+        "notes": "Located at 721 North Tryon Street in Charlotte. By appointment only."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "charlotte-art-antique-appraisers-restorers",
+      "name": "Art & Antique Appraisers and Restorers",
+      "slug": "art-antique-appraisers-restorers",
+      "imageUrl": "",
+      "address": {
+        "street": "7334 Versailles Ln",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28277",
+        "formatted": "7334 Versailles Ln, Charlotte, NC 28277"
+      },
+      "contact": {
+        "phone": "(704) 752-4214",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art appraisals",
+          "Antique appraisals",
+          "Art restoration"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisals",
+          "Antique appraisals",
+          "Restoration services"
+        ]
+      },
+      "content": {
+        "about": "Art & Antique Appraisers and Restorers provides professional art and antique appraisal and restoration services in Charlotte, NC.",
+        "notes": "Located in Charlotte, NC 28277."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

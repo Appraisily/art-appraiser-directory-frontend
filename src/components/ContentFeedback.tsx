@@ -79,13 +79,13 @@ export function ContentFeedback() {
             Optional: tell us what was missing (please don’t include personal info).
           </p>
 
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap gap-3">
             <button
               type="button"
               onClick={() => onVote(true)}
               disabled={submitted}
               className={[
-                'rounded-full border px-4 py-2 text-sm font-semibold transition',
+                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
                 helpful === true
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
@@ -99,7 +99,7 @@ export function ContentFeedback() {
               onClick={() => onVote(false)}
               disabled={submitted}
               className={[
-                'rounded-full border px-4 py-2 text-sm font-semibold transition',
+                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
                 helpful === false
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',

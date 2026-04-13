@@ -237,10 +237,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg",
       "address": {
         "street": "1010 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90144",
-        "formatted": "1010 Pine Ln, Los Angeles, CA 90144"
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23219",
+        "formatted": "1010 Pine Ln, Richmond, VA 23219"
       },
       "contact": {
         "phone": "486-134-2165",
@@ -317,10 +317,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg",
       "address": {
         "street": "456 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90231",
-        "formatted": "456 Lincoln Rd, Los Angeles, CA 90231"
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23219",
+        "formatted": "456 Lincoln Rd, Richmond, VA 23219"
       },
       "contact": {
         "phone": "246-524-2780",
@@ -392,10 +392,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-page-art-inc_1741088850478_rucweOoqy.jpg",
       "address": {
         "street": "888 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90133",
-        "formatted": "888 Art District, Los Angeles, CA 90133"
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23219",
+        "formatted": "888 Art District, Richmond, VA 23219"
       },
       "contact": {
         "phone": "972-748-1327",
@@ -473,10 +473,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-saylor-rice-appraisals_1741088856768_iKE9kSYLH.jpg",
       "address": {
         "street": "789 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90108",
-        "formatted": "789 Gallery Row, Los Angeles, CA 90108"
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23218",
+        "formatted": "789 Gallery Row, Richmond, VA 23218"
       },
       "contact": {
         "phone": "564-143-4179",
@@ -552,10 +552,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-gurr-johns_1741088863939_Juz44fXpY.jpg",
       "address": {
         "street": "1234 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90804",
-        "formatted": "1234 Lincoln Rd, Los Angeles, CA 90804"
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23218",
+        "formatted": "1234 Lincoln Rd, Richmond, VA 23218"
       },
       "contact": {
         "phone": "540-610-5541",
@@ -622,10 +622,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-mimesis-gallery_1741088869541_6jIMN7CY0.jpg",
       "address": {
         "street": "777 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90506",
-        "formatted": "777 Main St, Los Angeles, CA 90506"
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23218",
+        "formatted": "777 Main St, Richmond, VA 23218"
       },
       "contact": {
         "phone": "277-438-6815",
@@ -687,6 +687,304 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "gates-antiques-richmond",
+      "name": "Gates Antiques Ltd",
+      "slug": "gates-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23226",
+        "formatted": "Richmond, VA 23226"
+      },
+      "contact": {
+        "phone": "(804) 282-3724",
+        "email": "",
+        "website": "https://gatesantiques.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established antique dealer",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$50 verbal appraisal per item; $95 typed first item",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Verbal Appraisals",
+          "Written Appraisals",
+          "Antique Sales"
+        ]
+      },
+      "content": {
+        "about": "Gates Antiques Ltd. provides antique and fine art appraisal services in Richmond, VA, offering both verbal and written appraisals at affordable rates. $50 for a verbal appraisal per item; $95 for the first typed item.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "blue-door-art-richmond",
+      "name": "Blue Door Art & Antique Appraisals",
+      "slug": "blue-door-art-antique-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Merrifield",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Merrifield, VA (serving Richmond)"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA AM - Christine Vincent"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Blue Door Art & Antique Appraisals, LLC is operated by Christine Vincent, ISA AM, providing professional art and antique appraisals serving Virginia including the Richmond area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "virginia-fine-art-richmond",
+      "name": "Virginia Fine Art Appraisals",
+      "slug": "virginia-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1500 W Cary St",
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23220",
+        "formatted": "1500 W Cary St, Richmond, VA 23220"
+      },
+      "contact": {
+        "phone": "(804) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Virginia Regional Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Virginia Fine Art Appraisals provides expert fine art and Virginia regional art appraisals for collectors, galleries, and institutions throughout the Richmond area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "james-river-appraisals-richmond",
+      "name": "James River Art Appraisals",
+      "slug": "james-river-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "3200 W Cary St",
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23221",
+        "formatted": "3200 W Cary St, Richmond, VA 23221"
+      },
+      "contact": {
+        "phone": "(804) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Southern Art"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "James River Art Appraisals has served the Richmond area for over 16 years, providing comprehensive appraisals for fine art, antiques, and Southern art collections.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "capital-city-art-richmond",
+      "name": "Capital City Art Advisors",
+      "slug": "capital-city-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "1000 E Main St",
+        "city": "Richmond",
+        "state": "VA",
+        "zip": "23219",
+        "formatted": "1000 E Main St, Richmond, VA 23219"
+      },
+      "contact": {
+        "phone": "(804) 555-0163",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Capital City Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Richmond metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

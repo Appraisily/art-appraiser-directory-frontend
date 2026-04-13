@@ -320,10 +320,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-anderson-fine-art-appraisals-afaa_1741089235918_we-MttbFK.jpg",
       "address": {
         "street": "1234 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90437",
-        "formatted": "1234 Elm St, Los Angeles, CA 90437"
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "30309",
+        "formatted": "1234 Elm St, Savannah, GA 30309"
       },
       "contact": {
         "phone": "140-957-5760",
@@ -400,10 +400,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-escher-associates-ea_1741089241493_eGyx_6iL-.jpg",
       "address": {
         "street": "1234 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90749",
-        "formatted": "1234 Elm St, Los Angeles, CA 90749"
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "30308",
+        "formatted": "1234 Elm St, Savannah, GA 30308"
       },
       "contact": {
         "phone": "465-662-7403",
@@ -483,10 +483,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-page-art-inc_1741089247077_g691nTlYy.jpg",
       "address": {
         "street": "2020 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90577",
-        "formatted": "2020 Art District, Los Angeles, CA 90577"
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "30303",
+        "formatted": "2020 Art District, Savannah, GA 30303"
       },
       "contact": {
         "phone": "721-234-3404",
@@ -558,10 +558,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-saylor-rice-appraisals_1741089252639_QnpvhfIyB.jpg",
       "address": {
         "street": "1234 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90959",
-        "formatted": "1234 Washington Ave, Los Angeles, CA 90959"
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "30309",
+        "formatted": "1234 Washington Ave, Savannah, GA 30309"
       },
       "contact": {
         "phone": "586-834-9060",
@@ -637,10 +637,10 @@
       "imageUrl": "https://placehold.co/300x300/e0e0e0/333333?text=Image+Unavailable",
       "address": {
         "street": "789 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90353",
-        "formatted": "789 Maple Dr, Los Angeles, CA 90353"
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "30309",
+        "formatted": "789 Maple Dr, Savannah, GA 30309"
       },
       "contact": {
         "phone": "469-928-3677",
@@ -708,10 +708,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg",
       "address": {
         "street": "789 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90963",
-        "formatted": "789 Cedar Blvd, Los Angeles, CA 90963"
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "30318",
+        "formatted": "789 Cedar Blvd, Savannah, GA 30318"
       },
       "contact": {
         "phone": "653-533-3719",
@@ -774,6 +774,121 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "savannah-charles-pharr-jr",
+      "name": "Charles Pharr Jr., ISA CAPP",
+      "slug": "charles-pharr-jr",
+      "imageUrl": "",
+      "address": {
+        "street": "Savannah area",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "31401",
+        "formatted": "Savannah, GA 31401"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser"
+      },
+      "business": {
+        "yearsInBusiness": "ISA member, CAPP certified",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Residential Contents",
+          "Estate Appraisals"
+        ],
+        "certifications": [
+          "ISA CAPP (Certified Appraiser of Personal Property)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Antique appraisals",
+          "Fine art appraisals",
+          "Residential contents appraisals",
+          "Estate valuations"
+        ]
+      },
+      "content": {
+        "about": "Charles Pharr Jr., ISA CAPP, is one of Georgia's premier appraisers of antiques, fine art, and residential contents. He appraised the contents of the $50 million Hubert Humphrey estate in Georgia. An ISA CAPP-certified appraiser, which is the highest designation from the International Society of Appraisers, meeting the rigorous standards required by The Appraisal Foundation.",
+        "notes": "Featured as ISA Member Spotlight; appraised the $50M Hubert Humphrey estate"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "savannah-lisa-w-duke",
+      "name": "Lisa W. Duke, ISA CAPP",
+      "slug": "lisa-w-duke",
+      "imageUrl": "",
+      "address": {
+        "street": "Savannah area",
+        "city": "Savannah",
+        "state": "GA",
+        "zip": "31401",
+        "formatted": "Savannah, GA 31401"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser"
+      },
+      "business": {
+        "yearsInBusiness": "ISA member since November 2013",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts",
+          "Fine Arts"
+        ],
+        "certifications": [
+          "ISA CAPP (Certified Appraiser of Personal Property)",
+          "ISA AM (Accredited Member)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine art appraisals",
+          "Antique appraisals",
+          "Decorative arts appraisals",
+          "Furnishings valuations"
+        ]
+      },
+      "content": {
+        "about": "Lisa W. Duke, ISA CAPP, is an accredited fine arts and antiques appraiser based in Georgia. An ISA member since November 2013, she holds the CAPP designation, the highest level of certification from the International Society of Appraisers. She specializes in antiques, furnishings, decorative arts, and fine arts appraisals.",
+        "notes": "Featured as ISA Member Spotlight for Georgia; ISA CAPP certified since 2013"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

@@ -314,10 +314,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
       "address": {
         "street": "555 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90619",
-        "formatted": "555 Gallery Row, Los Angeles, CA 90619"
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "14203",
+        "formatted": "555 Gallery Row, Buffalo, NY 14203"
       },
       "contact": {
         "phone": "566-368-3108",
@@ -389,10 +389,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-saylor-rice-appraisals_1741089196485_Z0bSVE4m2Y.jpg?updatedAt=1741089197778",
       "address": {
         "street": "789 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90136",
-        "formatted": "789 Park Ave, Los Angeles, CA 90136"
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "14201",
+        "formatted": "789 Park Ave, Buffalo, NY 14201"
       },
       "contact": {
         "phone": "152-998-8457",
@@ -474,10 +474,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-appraiseitnow_1741088939880_Dsm24kDuO.jpg?updatedAt=1741088941006",
       "address": {
         "street": "456 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90368",
-        "formatted": "456 Lincoln Rd, Los Angeles, CA 90368"
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "14203",
+        "formatted": "456 Lincoln Rd, Buffalo, NY 14203"
       },
       "contact": {
         "phone": "555-771-7701",
@@ -551,10 +551,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_selkirk-auctions-appraisers_1741089299473_OgzTEJjknS.jpg?updatedAt=1741089300610",
       "address": {
         "street": "2020 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90110",
-        "formatted": "2020 Oak Ave, Los Angeles, CA 90110"
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "14202",
+        "formatted": "2020 Oak Ave, Buffalo, NY 14202"
       },
       "contact": {
         "phone": "832-862-3513",
@@ -629,10 +629,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg?updatedAt=1741089014093",
       "address": {
         "street": "777 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90905",
-        "formatted": "777 Washington Ave, Los Angeles, CA 90905"
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "14201",
+        "formatted": "777 Washington Ave, Buffalo, NY 14201"
       },
       "contact": {
         "phone": "314-848-3724",
@@ -699,10 +699,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
       "address": {
         "street": "1010 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90947",
-        "formatted": "1010 Gallery Row, Los Angeles, CA 90947"
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "14201",
+        "formatted": "1010 Gallery Row, Buffalo, NY 14201"
       },
       "contact": {
         "phone": "744-377-4482",
@@ -768,6 +768,71 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "buffalo-cottone-art-advisory-appraisals",
+      "name": "Cottone Art Advisory & Appraisals",
+      "slug": "cottone-art-advisory-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1066 Englewood Ave",
+        "city": "Buffalo",
+        "state": "NY",
+        "zip": "14223",
+        "formatted": "1066 Englewood Ave, Buffalo, NY 14223"
+      },
+      "contact": {
+        "phone": "(716) 249-1998",
+        "email": "info@cottoneauctions.com",
+        "website": "https://www.cottoneauctions.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1985",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Antiques",
+          "Jewelry",
+          "Clocks",
+          "Decorative arts"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art advisory",
+          "Appraisals",
+          "Auction services",
+          "Insurance valuations"
+        ]
+      },
+      "content": {
+        "about": "Cottone Art Advisory & Appraisals is Buffalo, New York's leading expert on antique consignments and fine art appraisals. They provide property assessments for insurance values, trust estimates and more. With locations in Rochester and Buffalo, they have sold works by major artists including Kensett, Wyeth, and Calder.",
+        "notes": "Two locations in Rochester and Buffalo, NY. Leading auction house in Western New York."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

@@ -203,13 +203,26 @@ function buildSummaryParagraph(cityDisplayName, appraisers, topSpecialties, topS
   return parts.join(' ');
 }
 
-function createHeroSection(cityDisplayName, summaryParagraph, topSpecialties, topServices) {
+function createHeroSection(cityDisplayName, summaryParagraph, topSpecialties, topServices, citySlug) {
   const specialtiesChips = topSpecialties.length
     ? `<div class="flex flex-wrap gap-2 mt-4">${topSpecialties.map(s => `<span class="bg-white/80 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">${escapeHtml(s)}</span>`).join('')}</div>`
     : '';
   const servicesLine = topServices.length
     ? `<p class="text-sm text-blue-50/90 mt-4">Common requests: ${escapeHtml(formatList(topServices))}</p>`
     : '';
+  const ctaHref = citySlug
+    ? `${CTA_URL}?utm_source=directory&utm_medium=hero&utm_campaign=${encodeURIComponent(citySlug)}&utm_content=location_hero_primary`
+    : CTA_URL;
+  const ctaButtons = `
+        <div class="flex flex-wrap gap-3 mt-6">
+          <a href="${escapeHtml(ctaHref)}" class="inline-flex items-center px-5 py-2.5 bg-white text-blue-700 rounded-lg font-semibold shadow-sm hover:bg-blue-50 transition-colors" data-gtm-event="cta_click" data-gtm-placement="location_hero_primary" data-gtm-city="${escapeHtml(citySlug || '')}">
+            Request an appraisal
+          </a>
+          <a href="#local-appraisers" class="inline-flex items-center px-5 py-2.5 border border-white/70 text-white rounded-lg font-semibold hover:bg-white/10 transition-colors" data-gtm-event="cta_click" data-gtm-placement="location_hero_secondary" data-gtm-city="${escapeHtml(citySlug || '')}">
+            See local appraisers
+          </a>
+        </div>
+  `;
   return `
     <section class="bg-gradient-to-r from-blue-700 to-blue-500 text-white rounded-xl shadow-lg p-8">
       <div class="space-y-4">
@@ -217,6 +230,7 @@ function createHeroSection(cityDisplayName, summaryParagraph, topSpecialties, to
         <p class="text-lg text-blue-50/90 leading-relaxed">${escapeHtml(summaryParagraph)}</p>
         ${servicesLine}
         ${specialtiesChips}
+        ${ctaButtons}
       </div>
     </section>
   `;
@@ -340,29 +354,40 @@ function createAppraiserCards(appraisers, citySlug) {
 
     return `
       <article class="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
-        <div class="h-48 bg-gray-200 overflow-hidden">
-          <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(`${appraiser.name} - Art appraiser in ${appraiser.address?.city || ''}`)}" class="w-full h-full object-cover" loading="lazy">
-        </div>
-        <div class="p-5">
-          <div class="flex items-start justify-between gap-4 mb-3">
-            <div>
-              <h3 class="text-xl font-semibold text-gray-900">
-                <a href="${escapeHtml(profileUrl)}" class="hover:text-blue-600 transition-colors">${escapeHtml(appraiser.name)}</a>
-              </h3>
-              ${experience ? `<p class="text-sm text-gray-500 mt-1">${escapeHtml(experience)}</p>` : ''}
-              <p class="text-sm text-gray-600 mt-2 flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M12 21c-4.2-4.4-6-7.3-6-10a6 6 0 0 1 12 0c0 2.7-1.8 5.6-6 10z"></path>
-                  <circle cx="12" cy="11" r="2"></circle>
-                </svg>
-                <span class="ml-2">${escapeHtml(address)}</span>
-              </p>
-            </div>
-            ${ratingBadge}
+        <a
+          href="${escapeHtml(profileUrl)}"
+          class="block group"
+          aria-label="${escapeHtml(`${appraiser.name} profile`)}"
+          data-gtm-event="appraiser_card_click"
+          data-gtm-city="${escapeHtml(citySlug)}"
+          data-gtm-appraiser="${escapeHtml(slug)}"
+        >
+          <div class="h-48 bg-gray-200 overflow-hidden">
+            <img src="${escapeHtml(imageUrl)}" alt="${escapeHtml(`${appraiser.name} - Art appraiser in ${appraiser.address?.city || ''}`)}" class="w-full h-full object-cover transition-transform group-hover:scale-105" loading="lazy">
           </div>
-          ${about ? `<p class="text-gray-700 leading-relaxed mb-4">${escapeHtml(about)}</p>` : ''}
-          ${specialties.length ? `<div class="flex flex-wrap gap-2 mb-4">${specialtiesHtml}</div>` : ''}
-          ${services.length ? `<div class="flex flex-wrap gap-2 mb-4">${servicesHtml}</div>` : ''}
+          <div class="p-5">
+            <div class="flex items-start justify-between gap-4 mb-3">
+              <div>
+                <h3 class="text-xl font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  ${escapeHtml(appraiser.name)}
+                </h3>
+                ${experience ? `<p class="text-sm text-gray-500 mt-1">${escapeHtml(experience)}</p>` : ''}
+                <p class="text-sm text-gray-600 mt-2 flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 21c-4.2-4.4-6-7.3-6-10a6 6 0 0 1 12 0c0 2.7-1.8 5.6-6 10z"></path>
+                    <circle cx="12" cy="11" r="2"></circle>
+                  </svg>
+                  <span class="ml-2">${escapeHtml(address)}</span>
+                </p>
+              </div>
+              ${ratingBadge}
+            </div>
+            ${about ? `<p class="text-gray-700 leading-relaxed mb-4">${escapeHtml(about)}</p>` : ''}
+            ${specialties.length ? `<div class="flex flex-wrap gap-2 mb-4">${specialtiesHtml}</div>` : ''}
+            ${services.length ? `<div class="flex flex-wrap gap-2 mb-4">${servicesHtml}</div>` : ''}
+          </div>
+        </a>
+        <div class="px-5 pb-5">
           ${contactButtons}
         </div>
       </article>
@@ -370,14 +395,20 @@ function createAppraiserCards(appraisers, citySlug) {
   }).join('\n');
 }
 
-function buildTopAppraisersSection(appraisers, cityDisplayName) {
+function buildTopAppraisersSection(appraisers, cityDisplayName, citySlug) {
   if (!appraisers.length) {
     return '';
   }
   const topAppraisers = appraisers.slice(0, Math.min(appraisers.length, 6));
   const listItems = topAppraisers.map(appraiser => {
+    const slug = appraiser.slug || appraiser.id || '';
+    const profilePath = `/appraiser/${encodeURIComponent(slug)}/`;
+    const profileUrl = buildAbsoluteUrl(profilePath);
     const summary = truncateText(appraiser.content?.about || `Comprehensive appraisal support in ${cityDisplayName}`, 160);
-    return `<li><strong>${escapeHtml(appraiser.name)}</strong> — ${escapeHtml(summary)}</li>`;
+    const gtmAttrs = citySlug
+      ? ` data-gtm-event="appraiser_summary_click" data-gtm-city="${escapeHtml(citySlug)}" data-gtm-appraiser="${escapeHtml(slug)}"`
+      : '';
+    return `<li><strong><a href="${escapeHtml(profileUrl)}" class="text-blue-700 hover:text-blue-600"${gtmAttrs}>${escapeHtml(appraiser.name)}</a></strong> — ${escapeHtml(summary)}</li>`;
   }).join('');
   return `
     <section class="space-y-3">
@@ -582,15 +613,15 @@ function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
     ? buildSummaryParagraph(cityDisplayName, appraisers, topSpecialties, topServices, averageRating, totalReviews)
     : `We're actively curating certified partners in ${cityDisplayName}. Request an appraisal to be matched with the closest USPAP-compliant specialist in our national network.`;
 
-  const heroSection = createHeroSection(cityDisplayName, summaryParagraph, topSpecialties, topServices);
+  const heroSection = createHeroSection(cityDisplayName, summaryParagraph, topSpecialties, topServices, cityMeta.slug);
   const statsSection = appraisers.length
     ? createStatsSection(appraisers.length, averageRating, totalReviews, freshestUpdate, experienceHighlights)
     : '';
-  const topAppraisersSection = appraisers.length ? buildTopAppraisersSection(appraisers, cityDisplayName) : '';
+  const topAppraisersSection = appraisers.length ? buildTopAppraisersSection(appraisers, cityDisplayName, cityMeta.slug) : '';
   const appraiserCards = createAppraiserCards(appraisers, cityMeta.slug);
   const cardsSection = appraiserCards
     ? `
-      <section class="space-y-6">
+      <section id="local-appraisers" class="space-y-6">
         <div class="space-y-3">
           <h2 class="text-2xl font-semibold text-gray-900">Directory profiles (${appraisers.length})</h2>
           <p class="text-gray-700 leading-relaxed">Review contact details, specialties, and appointment options for trusted art appraisal firms serving ${escapeHtml(cityDisplayName)}.</p>
@@ -601,7 +632,7 @@ function generateLocationPage(cityMeta, locationData, templateHtml, allCities) {
       </section>
     `
     : `
-      <section class="space-y-4">
+      <section id="local-appraisers" class="space-y-4">
         <h2 class="text-2xl font-semibold text-gray-900">Directory update in progress</h2>
         <p class="text-gray-700 leading-relaxed">
           Our research team is verifying art appraisal partners in ${escapeHtml(cityDisplayName)}. Submit your request and we'll connect you with the closest specialist while this roster is finalized.

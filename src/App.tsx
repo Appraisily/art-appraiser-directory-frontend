@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { MapPin, Star, Search, Palette, Award, Badge, Clock, ArrowRight } from 'lucide-react';
 import { CitySearch, CitySearchHandle } from './components/CitySearch';
 import { SEO } from './components/SEO';
@@ -12,6 +13,13 @@ function App() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     citySearchRef.current?.submitSearch();
+  };
+
+  const handleSearchContainerClick = (event: React.MouseEvent<HTMLFormElement>) => {
+    const target = event.target as HTMLElement | null;
+    if (!target) return;
+    if (target.closest('input, button, a, textarea, select')) return;
+    citySearchRef.current?.focusInput();
   };
 
   // Group cities by region for better organization
@@ -47,7 +55,7 @@ function App() {
       "description": SITE_DESCRIPTION,
       "potentialAction": {
         "@type": "SearchAction",
-        "target": `${SITE_URL}/search?q={search_term_string}`,
+        "target": `${SITE_URL}/location?q={search_term_string}`,
         "query-input": "required name=search_term_string"
       }
     };
@@ -138,17 +146,21 @@ function App() {
             <div className="absolute bottom-1/4 right-10 w-16 h-16 bg-blue-400/20 rounded-full blur-xl"></div>
             <div className="absolute top-3/4 left-1/3 w-8 h-8 bg-primary/30 rounded-full blur-lg"></div>
             
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 text-center leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 text-center leading-tight">
               Find <span className="text-primary">Art Appraisers</span> Near You
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto text-center">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 md:mb-10 max-w-2xl mx-auto text-center px-4">
               Connect with certified art appraisers, get expert valuations, and make informed decisions about your art collection.
             </p>
-            
-            <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-xl mx-auto relative z-10 bg-white p-2 rounded-lg shadow-lg">
+
+            <form
+              onSubmit={handleSubmit}
+              onClick={handleSearchContainerClick}
+              className="flex flex-col md:flex-row gap-3 max-w-xl mx-auto relative z-10 bg-white p-2 rounded-lg shadow-lg"
+            >
               <CitySearch ref={citySearchRef} />
               <button
-                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
+                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 min-h-[48px] h-12 px-8 py-2 bg-primary md:w-auto w-full shadow-md hover:shadow-lg transform hover:-translate-y-1 duration-300"
                 type="submit"
               >
                 <Search className="w-4 h-4" />
@@ -252,14 +264,14 @@ function App() {
         <main className="container mx-auto px-6 py-16">
           <h2 className="text-3xl font-bold mb-10 text-center">Featured Art Appraisers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Example Appraiser Card 1 */}
+            {/* Featured: New York */}
             <a
-              href={buildSiteUrl('/appraiser/metropolitan-art-appraisers-chicago')}
+              href={buildSiteUrl('/appraiser/manhattan-fine-art-appraisers')}
               className="group"
               data-gtm-event="featured_appraiser_click"
-              data-gtm-appraiser="metropolitan-art-appraisers-chicago"
+              data-gtm-appraiser="manhattan-fine-art-appraisers"
               data-gtm-placement="home_featured"
-              onClick={() => handleFeaturedAppraiserClick('metropolitan-art-appraisers-chicago', 'Metropolitan Art Appraisers', 'home_featured')}
+              onClick={() => handleFeaturedAppraiserClick('manhattan-fine-art-appraisers', 'Manhattan Fine Art Appraisers', 'home_featured')}
             >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
@@ -267,31 +279,31 @@ function App() {
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
                         src="https://images.unsplash.com/photo-1594732832278-abd644401426?auto=format&fit=crop&q=80"
-                        alt="Metropolitan Art Appraisers"
+                        alt="Manhattan Fine Art Appraisers"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
                   </div>
                   <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-md shadow-md text-sm font-medium text-primary flex items-center gap-1">
-                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.9
+                    <Star className="w-4 h-4 fill-primary text-primary" /> 4.8
                   </div>
                 </div>
                 <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Metropolitan Art Appraisers</h3>
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Manhattan Fine Art Appraisers</h3>
                   <div className="flex items-center text-muted-foreground mb-3">
                     <MapPin className="w-4 h-4 mr-1" /> New York, NY
                   </div>
-                  <p className="text-muted-foreground text-sm mb-4">Expert appraisers specializing in modern and contemporary artwork with over 20 years of experience.</p>
+                  <p className="text-muted-foreground text-sm mb-4">Expert appraisers in New York City specializing in fine art valuation and authentication services.</p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Modern Art</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Fine Art</span>
                     <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Contemporary</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Sculptures</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Estate</span>
                   </div>
                 </div>
               </div>
             </a>
-            
-            {/* Example Appraiser Card 2 */}
+
+            {/* Featured: Los Angeles */}
             <a
               href={buildSiteUrl('/appraiser/heritage-fine-art-appraisers')}
               className="group"
@@ -329,15 +341,15 @@ function App() {
                 </div>
               </div>
             </a>
-            
-            {/* Example Appraiser Card 3 */}
+
+            {/* Featured: Chicago */}
             <a
-              href={buildSiteUrl('/appraiser/blue-chip-art-valuation')}
+              href={buildSiteUrl('/appraiser/metropolitan-art-appraisers-chicago')}
               className="group"
               data-gtm-event="featured_appraiser_click"
-              data-gtm-appraiser="blue-chip-art-valuation"
+              data-gtm-appraiser="metropolitan-art-appraisers-chicago"
               data-gtm-placement="home_featured"
-              onClick={() => handleFeaturedAppraiserClick('blue-chip-art-valuation', 'Blue Chip Art Valuation', 'home_featured')}
+              onClick={() => handleFeaturedAppraiserClick('metropolitan-art-appraisers-chicago', 'Metropolitan Art Appraisers', 'home_featured')}
             >
               <div className="rounded-xl border border-gray-200 bg-white text-foreground shadow-sm overflow-hidden group-hover:shadow-xl transition-all duration-300 cursor-pointer transform group-hover:-translate-y-2">
                 <div className="relative">
@@ -345,7 +357,7 @@ function App() {
                     <div style={{ position: 'absolute', inset: 0 }}>
                       <img
                         src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80"
-                        alt="Blue Chip Art Valuation"
+                        alt="Metropolitan Art Appraisers"
                         className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
@@ -355,7 +367,7 @@ function App() {
                   </div>
                 </div>
                 <div className="p-5">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Blue Chip Art Valuation</h3>
+                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">Metropolitan Art Appraisers</h3>
                   <div className="flex items-center text-muted-foreground mb-3">
                     <MapPin className="w-4 h-4 mr-1" /> Chicago, IL
                   </div>
@@ -363,7 +375,7 @@ function App() {
                   <div className="flex flex-wrap gap-2">
                     <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Contemporary</span>
                     <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Investment Art</span>
-                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Digital Art</span>
+                    <span className="px-2 py-1 text-xs bg-primary/10 text-primary rounded-full">Modern</span>
                   </div>
                 </div>
               </div>
@@ -371,15 +383,15 @@ function App() {
           </div>
           
           <div className="mt-12 text-center">
-            <a
-              href={buildSiteUrl('/location/new-york')}
+            <Link
+              to="/location/new-york"
               className="inline-flex items-center justify-center rounded-lg border border-primary bg-white px-6 py-3 text-sm font-medium text-primary shadow-sm transition-all hover:bg-primary hover:text-white mr-4"
               data-gtm-event="cta_click"
               data-gtm-placement="home_browse_all"
-              onClick={() => trackEvent('cta_click', { placement: 'home_browse_all', destination: buildSiteUrl('/location/new-york') })}
+              onClick={() => trackEvent('cta_click', { placement: 'home_browse_all', destination: '/location/new-york' })}
             >
               Browse All Appraisers
-            </a>
+            </Link>
           </div>
         </main>
       </div>

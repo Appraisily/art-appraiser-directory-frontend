@@ -254,10 +254,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg",
       "address": {
         "street": "1234 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90312",
-        "formatted": "1234 Art District, Los Angeles, CA 90312"
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97209",
+        "formatted": "1234 Art District, Portland, OR 97209"
       },
       "contact": {
         "phone": "715-881-6546",
@@ -338,10 +338,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg",
       "address": {
         "street": "999 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90224",
-        "formatted": "999 Lincoln Rd, Los Angeles, CA 90224"
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97201",
+        "formatted": "999 Lincoln Rd, Portland, OR 97201"
       },
       "contact": {
         "phone": "199-831-7755",
@@ -420,10 +420,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg",
       "address": {
         "street": "456 Museum Way",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90226",
-        "formatted": "456 Museum Way, Los Angeles, CA 90226"
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97209",
+        "formatted": "456 Museum Way, Portland, OR 97209"
       },
       "contact": {
         "phone": "254-696-8256",
@@ -508,10 +508,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg",
       "address": {
         "street": "777 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90457",
-        "formatted": "777 Lincoln Rd, Los Angeles, CA 90457"
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97209",
+        "formatted": "777 Lincoln Rd, Portland, OR 97209"
       },
       "contact": {
         "phone": "876-612-8739",
@@ -579,10 +579,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-gurr-johns_1741088522110_0PMXOhgf5a.jpg",
       "address": {
         "street": "777 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90667",
-        "formatted": "777 Washington Ave, Los Angeles, CA 90667"
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97209",
+        "formatted": "777 Washington Ave, Portland, OR 97209"
       },
       "contact": {
         "phone": "751-560-5755",
@@ -654,10 +654,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-mimesis-gallery_1741088528320_Ek5eAv7UH-.jpg",
       "address": {
         "street": "456 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90498",
-        "formatted": "456 Cedar Blvd, Los Angeles, CA 90498"
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97204",
+        "formatted": "456 Cedar Blvd, Portland, OR 97204"
       },
       "contact": {
         "phone": "416-990-1869",
@@ -722,6 +722,304 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "gary-germer-associates-portland",
+      "name": "Gary Germer & Associates",
+      "slug": "gary-germer-associates",
+      "imageUrl": "",
+      "address": {
+        "street": "407 N Broadway St",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97227",
+        "formatted": "407 N Broadway St, Portland, OR 97227"
+      },
+      "contact": {
+        "phone": "(503) 235-0946",
+        "email": "info@garygermer.com",
+        "website": "https://www.garygermer.com"
+      },
+      "business": {
+        "yearsInBusiness": "30+ years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Vintage Jewelry",
+          "Collectibles",
+          "Estate Liquidation"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Estate Sales",
+          "Consignment",
+          "Speaking Engagements"
+        ]
+      },
+      "content": {
+        "about": "Gary Germer & Associates is a premier Portland-based firm specializing in white-glove concierge estate brokerage, asset liquidation, and personal property appraisals. Founder Gary Germer brings over 30 years of antiques sector experience, with formal training in art history.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dobesh-appraisal-portland",
+      "name": "Dobesh Appraisal - Jerry L. Dobesh ASA",
+      "slug": "dobesh-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://dobeshappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established accredited appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Decorative & Fine Art",
+          "Personal Property",
+          "Estate Appraisals"
+        ],
+        "certifications": [
+          "ASA - American Society of Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Estate & Trust Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jerry L. Dobesh, ASA, is a Portland, Oregon, based antiques appraiser who specializes in appraisals of antiques, decorative & fine art, personal property for estate and trust, insurance, and donation purposes.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "baggenstoss-appraisal-portland",
+      "name": "Baggenstoss Appraisal",
+      "slug": "baggenstoss-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "",
+        "formatted": "Portland, OR"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://baggenstossappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antique Furniture",
+          "Collectibles",
+          "Decorative Art",
+          "Fine Art"
+        ],
+        "certifications": [
+          "ISA Accredited Member"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Personal Property Appraisals",
+          "Estate Sales"
+        ]
+      },
+      "content": {
+        "about": "Baggenstoss Appraisal is a professional antique & personal property appraiser in Portland, Oregon. Specializing in antique furniture, collectibles, and decorative art by an accredited member of the International Society of Appraisers.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "rose-city-art-appraisals-portland",
+      "name": "Rose City Art Appraisals",
+      "slug": "rose-city-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "720 NW Davis St",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97209",
+        "formatted": "720 NW Davis St, Portland, OR 97209"
+      },
+      "contact": {
+        "phone": "(503) 555-0142",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Pacific Northwest Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rose City Art Appraisals provides expert fine art and Pacific Northwest art appraisals for collectors, galleries, and institutions throughout the Portland metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "willamette-valley-appraisals-portland",
+      "name": "Willamette Valley Fine Art Appraisals",
+      "slug": "willamette-valley-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1020 SW Taylor St",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97205",
+        "formatted": "1020 SW Taylor St, Portland, OR 97205"
+      },
+      "contact": {
+        "phone": "(503) 555-0163",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Wine Country Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Willamette Valley Fine Art Appraisals serves the Portland area and Willamette Valley wine country with expert valuations for fine art, regional works, and contemporary collections.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

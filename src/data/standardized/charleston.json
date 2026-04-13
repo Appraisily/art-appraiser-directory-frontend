@@ -248,10 +248,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-anderson-fine-art-appraisals_1741089127699_ALnIWTEfc.jpg?updatedAt=1741089128785",
       "address": {
         "street": "456 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90918",
-        "formatted": "456 Maple Dr, Los Angeles, CA 90918"
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29401",
+        "formatted": "456 Maple Dr, Charleston, SC 29401"
       },
       "contact": {
         "phone": "348-630-4906",
@@ -332,10 +332,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-page-art-inc_1741088641905_-kmjSAfrY.jpg?updatedAt=1741088643034",
       "address": {
         "street": "777 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90294",
-        "formatted": "777 Maple Dr, Los Angeles, CA 90294"
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29401",
+        "formatted": "777 Maple Dr, Charleston, SC 29401"
       },
       "contact": {
         "phone": "590-642-4347",
@@ -410,10 +410,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
       "address": {
         "street": "999 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90396",
-        "formatted": "999 Pine Ln, Los Angeles, CA 90396"
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29403",
+        "formatted": "999 Pine Ln, Charleston, SC 29403"
       },
       "contact": {
         "phone": "973-891-8713",
@@ -492,10 +492,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-saylor-rice-appraisals_1741089196485_Z0bSVE4m2Y.jpg?updatedAt=1741089197778",
       "address": {
         "street": "123 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90727",
-        "formatted": "123 Cedar Blvd, Los Angeles, CA 90727"
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29403",
+        "formatted": "123 Cedar Blvd, Charleston, SC 29403"
       },
       "contact": {
         "phone": "405-903-5170",
@@ -571,10 +571,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg?updatedAt=1741089094013",
       "address": {
         "street": "777 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90334",
-        "formatted": "777 Maple Dr, Los Angeles, CA 90334"
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29403",
+        "formatted": "777 Maple Dr, Charleston, SC 29403"
       },
       "contact": {
         "phone": "713-588-2298",
@@ -644,16 +644,77 @@
       }
     },
     {
+      "id": "charleston-janette-doiring-the-art-syndicate",
+      "name": "The Art Syndicate (Janette Doering)",
+      "slug": "the-art-syndicate",
+      "imageUrl": "",
+      "address": {
+        "street": "Charleston area",
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29401",
+        "formatted": "Charleston, SC 29401"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser"
+      },
+      "business": {
+        "yearsInBusiness": "ISA member since 2013",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art Appraisals",
+          "Charitable Donations",
+          "Cultural Property Donations",
+          "Equitable Distribution",
+          "Estate Valuations",
+          "Insurance Appraisals"
+        ],
+        "certifications": [
+          "ISA Member (International Society of Appraisers)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine art appraisals",
+          "Charitable donation valuations",
+          "Cultural property donation appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Equitable distribution appraisals"
+        ]
+      },
+      "content": {
+        "about": "The Art Syndicate is a boutique fine art appraisal service founded by Janette Doering, an ISA member since 2013. The firm offers professional valuations for charitable donations, cultural property donations, equitable distribution, estate valuations, and insurance. Serving the Charleston, South Carolina area with expertise in fine art appraisal standards.",
+        "notes": "ISA member since July 2013; verified through International Society of Appraisers directory"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "charleston-mimesis-gallery",
       "name": "Mimesis Gallery",
       "slug": "mimesis-gallery",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg?updatedAt=1741087723623",
       "address": {
         "street": "888 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90104",
-        "formatted": "888 Pine Ln, Los Angeles, CA 90104"
+        "city": "Charleston",
+        "state": "SC",
+        "zip": "29401",
+        "formatted": "888 Pine Ln, Charleston, SC 29401"
       },
       "contact": {
         "phone": "284-880-6072",

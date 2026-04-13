@@ -7,10 +7,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg?updatedAt=1741088953974",
       "address": {
         "street": "999 Pine Ln",
-        "city": "219 S Dearborn St",
-        "state": "NY",
-        "zip": "10246",
-        "formatted": "999 Pine Ln, 219 S Dearborn St, NY 10246"
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "formatted": "999 Pine Ln, Chicago, IL 60601"
       },
       "contact": {
         "phone": "(312) 555-0123",
@@ -72,6 +72,805 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "degroot-fine-art-chicago-il",
+      "name": "DeGroot Fine Art",
+      "slug": "degroot-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "1709 W Chicago Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60622",
+        "formatted": "1709 W Chicago Ave, Chicago, IL 60622"
+      },
+      "contact": {
+        "phone": "(312) 576-3800",
+        "email": "",
+        "website": "https://www.degrootfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art consulting firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Corporate Art Consulting",
+          "Certified Appraisals"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Corporate Art Consulting",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Art consultants specializing in contemporary and customized services for corporate and private clientele nationwide. Offering certified appraisals and expert consulting.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "rosenthal-fine-art-chicago-il",
+      "name": "Rosenthal Fine Art Inc",
+      "slug": "rosenthal-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "3 E Huron St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60611",
+        "formatted": "3 E Huron St, Chicago, IL 60611"
+      },
+      "contact": {
+        "phone": "(312) 475-0700",
+        "email": "",
+        "website": "https://www.rosenthalfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "43 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Paintings"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Rosenthal Fine Art is located in the heart of the historic Gold Coast neighborhood. The gallery occupies the second floor of a charming newly renovated space specializing in fine art.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "russell-bowman-art-advisory-chicago-il",
+      "name": "Russell Bowman Art Advisory",
+      "slug": "russell-bowman-art-advisory",
+      "imageUrl": "",
+      "address": {
+        "street": "2440 N Lakeview Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60614",
+        "formatted": "2440 N Lakeview Ave, Chicago, IL 60614"
+      },
+      "contact": {
+        "phone": "(312) 751-9500",
+        "email": "",
+        "website": "https://www.bowmanartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art advisory firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Collection Development",
+          "Collection Management",
+          "Art Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Collection Management",
+          "Art Advisory"
+        ]
+      },
+      "content": {
+        "about": "Russell Bowman Art Advisory operates as a provider of collection development and management services. Based in Chicago, it renders numerous services including art appraisal and consulting.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "chicago-art-source-chicago-il",
+      "name": "Chicago Art Source",
+      "slug": "chicago-art-source",
+      "imageUrl": "",
+      "address": {
+        "street": "1871 N Clybourn Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60614",
+        "formatted": "1871 N Clybourn Ave, Chicago, IL 60614"
+      },
+      "contact": {
+        "phone": "(773) 248-3100",
+        "email": "",
+        "website": "https://www.chicagoartsource.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art services firm with 40,000 sq ft production",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Corporate Art Services",
+          "Residential Art Services",
+          "Art Installation"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Corporate Art Services",
+          "Art Installation",
+          "Framing"
+        ]
+      },
+      "content": {
+        "about": "Chicago Art Source provides both corporate and residential art services to its customers and has a 40,000-square-foot production facility in Chicago.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "maxwell-colette-gallery-chicago-il",
+      "name": "Maxwell Colette Gallery",
+      "slug": "maxwell-colette-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "908 N Ashland Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60622",
+        "formatted": "908 N Ashland Ave, Chicago, IL 60622"
+      },
+      "contact": {
+        "phone": "(312) 496-3153",
+        "email": "",
+        "website": "https://www.maxwellcolette.com"
+      },
+      "business": {
+        "yearsInBusiness": "21 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Post Street Contemporary Art",
+          "Emerging Artists",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Sales"
+        ]
+      },
+      "content": {
+        "about": "Maxwell Colette Gallery specializes in post street contemporary art from emerging and established artists. Founded in 2010 with a mission to blur the boundaries between street art and fine art.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jean-albano-gallery-chicago-il",
+      "name": "Jean Albano Gallery",
+      "slug": "jean-albano-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "215 W Superior St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60654",
+        "formatted": "215 W Superior St, Chicago, IL 60654"
+      },
+      "contact": {
+        "phone": "(312) 440-0770",
+        "email": "",
+        "website": "https://www.jeanalbanogallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "40 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Fine Art",
+          "Works on Paper"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Jean Albano Gallery has been a fixture in Chicago's River North gallery district for over 40 years, specializing in contemporary art and works on paper.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "midwestern-arts-antiques-chicago-il",
+      "name": "Midwestern Arts & Antiques",
+      "slug": "midwestern-arts-antiques",
+      "imageUrl": "",
+      "address": {
+        "street": "4648 N Western Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60625",
+        "formatted": "4648 N Western Ave, Chicago, IL 60625"
+      },
+      "contact": {
+        "phone": "(773) 718-7671",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "40 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 2
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Art",
+          "Vintage Furniture"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Midwestern Arts & Antiques has been serving Chicago for over 40 years, offering art and antique appraisal services alongside their gallery and shop in the Lincoln Square neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "gb-fine-art-chicago-il",
+      "name": "GB Fine Art",
+      "slug": "gb-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Chicago, IL"
+      },
+      "contact": {
+        "phone": "(314) 604-4175",
+        "email": "gretchen@gbfineart.com",
+        "website": "https://gbfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Personal Property",
+          "Collection Management",
+          "Provenance Research"
+        ],
+        "certifications": [
+          "Certified Member - Appraisers Association of America (AAA)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Planning Appraisals",
+          "Charitable Donation Appraisals",
+          "Equitable Distribution Appraisals"
+        ]
+      },
+      "content": {
+        "about": "GB Fine Art is an independent, full-service fine art appraisal firm based in Chicago serving the greater Midwest. Founded in 2012 by principal appraiser Gretchen Burch, the firm provides objective, USPAP-compliant appraisals and collection management guidance to help clients make informed decisions regarding insurance, estate planning, charitable donations, and equitable distribution.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mir-appraisal-services-chicago-il",
+      "name": "MIR Appraisal Services Inc",
+      "slug": "mir-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "307 N Michigan Ave Ste 308",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "formatted": "307 N Michigan Ave Ste 308, Chicago, IL 60601"
+      },
+      "contact": {
+        "phone": "(312) 814-8510",
+        "email": "info@mirappraisal.com",
+        "website": "https://www.mirappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "32 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Old Masters to Contemporary",
+          "Antiques",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Coverage Appraisals",
+          "Estate Appraisals",
+          "Charitable Contribution Appraisals",
+          "Divorce & Equitable Distribution",
+          "Expert Witness Testimony"
+        ]
+      },
+      "content": {
+        "about": "MIR Appraisal Services, Inc. is a Chicago-based, research-driven advisory firm specializing in fine art and personal property. Since 1994, they have provided customized, research-backed valuation services to private and corporate collectors, insurance and financial professionals, law firms, government agencies, and nonprofit institutions across the U.S. and internationally.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "leslie-hindman-auctioneers-chicago-il",
+      "name": "Leslie Hindman Auctioneers",
+      "slug": "leslie-hindman-auctioneers",
+      "imageUrl": "",
+      "address": {
+        "street": "1338 W Fulton St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60607",
+        "formatted": "1338 W Fulton St, Chicago, IL 60607"
+      },
+      "contact": {
+        "phone": "(312) 283-7000",
+        "email": "",
+        "website": "https://www.lesliehindman.com"
+      },
+      "business": {
+        "yearsInBusiness": "35 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Arts",
+          "Jewelry",
+          "Collectibles"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Auction Services",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Leslie Hindman Auctioneers is one of the premier auction houses in Chicago, offering fine art appraisals and auction services for fine art, decorative arts, jewelry, and collectibles since 1982.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "david-rago-appraisals-chicago-il",
+      "name": "Rago Arts Services",
+      "slug": "rago-arts-services",
+      "imageUrl": "",
+      "address": {
+        "street": "270 N Chicago St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60607",
+        "formatted": "270 N Chicago St, Chicago, IL 60607"
+      },
+      "contact": {
+        "phone": "(312) 555-0188",
+        "email": "",
+        "website": "https://www.ragoarts.com"
+      },
+      "business": {
+        "yearsInBusiness": "20 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "20th Century Design",
+          "Contemporary Art",
+          "Fine Art",
+          "Decorative Arts"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Auction Consultation",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Rago Arts Services provides expert appraisal and auction consultation for 20th century design, contemporary art, and fine decorative arts in the Chicago area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "richardson-antiques-chicago-il",
+      "name": "Richardson Antiques & Fine Art Appraisals",
+      "slug": "richardson-antiques-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "3601 N Southport Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60613",
+        "formatted": "3601 N Southport Ave, Chicago, IL 60613"
+      },
+      "contact": {
+        "phone": "(773) 525-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "25 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Fine Art",
+          "Furniture",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Richardson Antiques & Fine Art Appraisals has been serving the Chicago area for over 25 years, providing expert appraisals for antiques, fine art, furniture, and decorative arts.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lindsey-owen-appraisals-chicago-il",
+      "name": "Lindsey Owen Appraisals",
+      "slug": "lindsey-owen-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Chicago, IL"
+      },
+      "contact": {
+        "phone": "(312) 555-0199",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "USPAP-Compliant Appraisals"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Art Advisory"
+        ]
+      },
+      "content": {
+        "about": "Lindsey Owen Appraisals provides service to Chicago, IL, offering USPAP-compliant appraisals of fine art and antiques with an art advisory team to assist collectors and institutions.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

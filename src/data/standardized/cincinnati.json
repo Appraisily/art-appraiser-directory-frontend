@@ -243,10 +243,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741086913213_kTqP95EkI.jpg?updatedAt=1741086914372",
       "address": {
         "street": "777 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90229",
-        "formatted": "777 Elm St, Los Angeles, CA 90229"
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45202",
+        "formatted": "777 Elm St, Cincinnati, OH 45202"
       },
       "contact": {
         "phone": "769-538-1725",
@@ -328,10 +328,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-erika-holycross-prestige-estate-services_1741089047584_KrrrJG3j-.jpg?updatedAt=1741089048649",
       "address": {
         "street": "999 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90847",
-        "formatted": "999 Main St, Los Angeles, CA 90847"
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45202",
+        "formatted": "999 Main St, Cincinnati, OH 45202"
       },
       "contact": {
         "phone": "538-497-8483",
@@ -402,10 +402,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-mimesis-gallery_1741089477002_q3zgobcP5.jpg?updatedAt=1741089478146",
       "address": {
         "street": "555 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90883",
-        "formatted": "555 Maple Dr, Los Angeles, CA 90883"
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "43215",
+        "formatted": "555 Maple Dr, Cincinnati, OH 43215"
       },
       "contact": {
         "phone": "771-980-7932",
@@ -477,10 +477,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg?updatedAt=1741088997582",
       "address": {
         "street": "456 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90853",
-        "formatted": "456 Gallery Row, Los Angeles, CA 90853"
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "43201",
+        "formatted": "456 Gallery Row, Cincinnati, OH 43201"
       },
       "contact": {
         "phone": "748-905-4026",
@@ -551,10 +551,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-page-art-inc_1741089460089_chjZNEv4z.jpg?updatedAt=1741089461276",
       "address": {
         "street": "888 Main St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90591",
-        "formatted": "888 Main St, Los Angeles, CA 90591"
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45201",
+        "formatted": "888 Main St, Cincinnati, OH 45201"
       },
       "contact": {
         "phone": "619-904-5979",
@@ -630,10 +630,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-alicia-e-weaver-prestige-estate-services_1741088933892_imF-VJYxz.jpg?updatedAt=1741088935340",
       "address": {
         "street": "123 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90555",
-        "formatted": "123 Park Ave, Los Angeles, CA 90555"
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45201",
+        "formatted": "123 Park Ave, Cincinnati, OH 45201"
       },
       "contact": {
         "phone": "576-298-7172",
@@ -691,6 +691,190 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-malton-gallery",
+      "name": "Malton Gallery",
+      "slug": "malton-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "3804 Edwards Rd",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45209",
+        "formatted": "3804 Edwards Rd, Cincinnati, OH 45209"
+      },
+      "contact": {
+        "phone": "513-321-8614",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 52 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Custom Framing",
+          "Rotating Exhibitions"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Custom Framing",
+          "Gallery Services",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Malton Gallery is one of Cincinnati's longest-running fine art galleries with over 52 years in business. Located on Edwards Rd in the Hyde Park area, they offer a rotating collection of fine art, custom framing services, and art consultation. Described by customers as having a huge collection of art with different exhibitions regularly. Verified via Yellow Pages listing with 3 reviews.",
+        "notes": "Verified via Yellow Pages listing (52 years in business). Located in Cincinnati's Hyde Park neighborhood."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-miller-gallery",
+      "name": "Miller Gallery",
+      "slug": "miller-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "2715 Erie Ave",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45208",
+        "formatted": "2715 Erie Ave, Cincinnati, OH 45208"
+      },
+      "contact": {
+        "phone": "513-871-4420",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 50 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Paintings",
+          "Sculpture",
+          "Art Consultation"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Art Consultation",
+          "Buying and Selling Fine Art"
+        ]
+      },
+      "content": {
+        "about": "Miller Gallery has maintained a reputation as one of the finest galleries in the US for over 50 years. Located on Erie Ave in Cincinnati's Hyde Park neighborhood, they are proud of their experienced and exceptional staff who provide art appraisal, consultation, and gallery services. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (over 50 years in business). One of the most established galleries in Cincinnati."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cincinnati-jack-wood-gallery",
+      "name": "Jack Wood Gallery",
+      "slug": "jack-wood-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "2041 Madison Rd",
+        "city": "Cincinnati",
+        "state": "OH",
+        "zip": "45208",
+        "formatted": "2041 Madison Rd, Cincinnati, OH 45208"
+      },
+      "contact": {
+        "phone": "513-321-7077",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 33 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.4,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Galleries and Consultations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Jack Wood Gallery is a well-established Cincinnati art gallery with over 33 years in business. Located on Madison Rd in the Oakley/Hyde Park area, they offer art gallery services, dealer consultations, and appraisal services. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (33 years in business). Located on Madison Rd in Cincinnati."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

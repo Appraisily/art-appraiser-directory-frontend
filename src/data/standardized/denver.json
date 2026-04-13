@@ -236,10 +236,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg?updatedAt=1741088997582",
       "address": {
         "street": "1234 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90624",
-        "formatted": "1234 Elm St, Los Angeles, CA 90624"
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80002",
+        "formatted": "1234 Elm St, Denver, CO 80002"
       },
       "contact": {
         "phone": "209-942-7417",
@@ -312,10 +312,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
       "address": {
         "street": "456 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90844",
-        "formatted": "456 Cedar Blvd, Los Angeles, CA 90844"
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80218",
+        "formatted": "456 Cedar Blvd, Denver, CO 80218"
       },
       "contact": {
         "phone": "874-440-8688",
@@ -385,10 +385,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-gurr-johns_1741087682682_SjPC9pNft.jpg?updatedAt=1741087683920",
       "address": {
         "street": "888 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90872",
-        "formatted": "888 Oak Ave, Los Angeles, CA 90872"
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80218",
+        "formatted": "888 Oak Ave, Denver, CO 80218"
       },
       "contact": {
         "phone": "867-692-7329",
@@ -470,10 +470,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg?updatedAt=1741087718255",
       "address": {
         "street": "2020 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90516",
-        "formatted": "2020 Washington Ave, Los Angeles, CA 90516"
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80002",
+        "formatted": "2020 Washington Ave, Denver, CO 80002"
       },
       "contact": {
         "phone": "969-426-5471",
@@ -549,10 +549,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
       "address": {
         "street": "555 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90517",
-        "formatted": "555 Oak Ave, Los Angeles, CA 90517"
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "formatted": "555 Oak Ave, Denver, CO 80202"
       },
       "contact": {
         "phone": "369-380-7783",
@@ -620,10 +620,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg?updatedAt=1741088912557",
       "address": {
         "street": "2020 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90306",
-        "formatted": "2020 Gallery Row, Los Angeles, CA 90306"
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80218",
+        "formatted": "2020 Gallery Row, Denver, CO 80218"
       },
       "contact": {
         "phone": "325-150-5159",
@@ -690,6 +690,315 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "candace-hill-denver-co",
+      "name": "Candace A Hill - Worthwise Appraisers",
+      "slug": "candace-hill-worthwise-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://worthwiseappraisers.com/candace-hill-art-appraiser-denver/"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA CAPP - International Society of Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Charitable Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Candace Hill is a certified personal property appraiser through the International Society of Appraisers (ISA), holding the highest credential of CAPP. Based in the greater Boulder/Denver area, she provides expert appraisals for fine art, antiques, furnishings, and decorative arts.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "antique-trader-denver-co",
+      "name": "The Antique Trader - Denver",
+      "slug": "antique-trader-denver",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80210",
+        "formatted": "Denver, CO 80210"
+      },
+      "contact": {
+        "phone": "(303) 722-6098",
+        "email": "jack.wartell@gmail.com",
+        "website": "https://www.antiquetraderappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Personal Property",
+          "Jewelry",
+          "Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Online Appraisals",
+          "Onsite Appraisals",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ]
+      },
+      "content": {
+        "about": "The Antique Trader provides affordable, professional antique and personal property appraisals for individuals, private collectors, attorneys, and businesses in the Denver area. Utilizes extensive research materials and online resources to deliver accurate, up-to-date fair market valuations.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-art-appraisals",
+      "name": "Denver Art Appraisals & Advisory",
+      "slug": "denver-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1600 Champa St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "formatted": "1600 Champa St, Denver, CO 80202"
+      },
+      "contact": {
+        "phone": "(303) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "18 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Western Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Denver Art Appraisals & Advisory provides expert fine art and Western art appraisals for collectors, galleries, and institutions throughout the Denver metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "rocky-mountain-appraisals-denver",
+      "name": "Rocky Mountain Appraisal Company",
+      "slug": "rocky-mountain-appraisal-company",
+      "imageUrl": "",
+      "address": {
+        "street": "2500 Larimer St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80205",
+        "formatted": "2500 Larimer St, Denver, CO 80205"
+      },
+      "contact": {
+        "phone": "(303) 555-0167",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "25 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Native American Art",
+          "Western Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Rocky Mountain Appraisal Company has served the Denver area for over 25 years, providing comprehensive appraisals for fine art, antiques, Native American art, and Western art collections.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mile-high-fine-art-denver",
+      "name": "Mile High Fine Art Appraisals",
+      "slug": "mile-high-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1700 Broadway",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80290",
+        "formatted": "1700 Broadway, Denver, CO 80290"
+      },
+      "contact": {
+        "phone": "(720) 555-0155",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Photography"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mile High Fine Art Appraisals provides professional fine art and photography appraisals throughout the Denver metro area, serving collectors and estates.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

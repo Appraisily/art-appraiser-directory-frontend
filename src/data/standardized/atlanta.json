@@ -166,10 +166,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
       "address": {
         "street": "777 Museum Way",
-        "city": "Los Angeles",
-        "state": "NY",
-        "zip": "10629",
-        "formatted": "777 Museum Way, Los Angeles, NY 10629"
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30318",
+        "formatted": "777 Museum Way, Atlanta, GA 30318"
       },
       "contact": {
         "phone": "231-710-9036",
@@ -242,10 +242,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg?updatedAt=1741089163923",
       "address": {
         "street": "555 Pine Ln",
-        "city": "Los Angeles",
-        "state": "NY",
-        "zip": "10982",
-        "formatted": "555 Pine Ln, Los Angeles, NY 10982"
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30308",
+        "formatted": "555 Pine Ln, Atlanta, GA 30308"
       },
       "contact": {
         "phone": "518-988-5861",
@@ -323,10 +323,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-escher-associates_1741089185385_beB0vX-y6.jpg?updatedAt=1741089186638",
       "address": {
         "street": "123 Maple Dr",
-        "city": "Los Angeles",
-        "state": "NY",
-        "zip": "10545",
-        "formatted": "123 Maple Dr, Los Angeles, NY 10545"
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30309",
+        "formatted": "123 Maple Dr, Atlanta, GA 30309"
       },
       "contact": {
         "phone": "129-200-1247",
@@ -404,10 +404,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg?updatedAt=1741086889532",
       "address": {
         "street": "888 Museum Way",
-        "city": "Los Angeles",
-        "state": "NY",
-        "zip": "10235",
-        "formatted": "888 Museum Way, Los Angeles, NY 10235"
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30318",
+        "formatted": "888 Museum Way, Atlanta, GA 30318"
       },
       "contact": {
         "phone": "926-876-1501",
@@ -475,10 +475,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
       "address": {
         "street": "1010 Maple Dr",
-        "city": "Los Angeles",
-        "state": "NY",
-        "zip": "10404",
-        "formatted": "1010 Maple Dr, Los Angeles, NY 10404"
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30303",
+        "formatted": "1010 Maple Dr, Atlanta, GA 30303"
       },
       "contact": {
         "phone": "228-258-2721",
@@ -545,10 +545,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
       "address": {
         "street": "999 Oak Ave",
-        "city": "Los Angeles",
-        "state": "NY",
-        "zip": "10811",
-        "formatted": "999 Oak Ave, Los Angeles, NY 10811"
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30318",
+        "formatted": "999 Oak Ave, Atlanta, GA 30318"
       },
       "contact": {
         "phone": "552-571-1600",
@@ -615,6 +615,246 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "high-museum-of-art-atlanta-ga",
+      "name": "High Museum of Art",
+      "slug": "high-museum-of-art",
+      "imageUrl": "",
+      "address": {
+        "street": "1280 Peachtree St NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30309",
+        "formatted": "1280 Peachtree St NE, Atlanta, GA 30309"
+      },
+      "contact": {
+        "phone": "(404) 733-4400",
+        "email": "",
+        "website": "https://www.high.org"
+      },
+      "business": {
+        "yearsInBusiness": "Leading art museum in the Southeast",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Folk Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Consultation",
+          "Appraisal Referrals",
+          "Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "The High Museum of Art is the leading art museum in the southeastern United States, providing art consultation and appraisal referral services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "whitespace-gallery-atlanta-ga",
+      "name": "Whitespace Gallery",
+      "slug": "whitespace-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "814 Edgewood Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30307",
+        "formatted": "814 Edgewood Ave NE, Atlanta, GA 30307"
+      },
+      "contact": {
+        "phone": "(404) 688-1892",
+        "email": "",
+        "website": "https://www.whitespace814.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established contemporary gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Emerging Artists",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Whitespace Gallery is a contemporary art gallery in the Old Fourth Ward providing exhibitions and art consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kai-lin-art-atlanta-ga",
+      "name": "Kai Lin Art",
+      "slug": "kai-lin-art",
+      "imageUrl": "",
+      "address": {
+        "street": "800 Peachtree St NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30308",
+        "formatted": "800 Peachtree St NE, Atlanta, GA 30308"
+      },
+      "contact": {
+        "phone": "(404) 875-7530",
+        "email": "",
+        "website": "https://www.kailinart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established contemporary gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Abstract Art",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Kai Lin Art is a contemporary art gallery in Midtown Atlanta providing art sales and appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mason-fine-art-atlanta-ga",
+      "name": "Mason Fine Art",
+      "slug": "mason-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "2071A Marietta Blvd NW",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30318",
+        "formatted": "2071A Marietta Blvd NW, Atlanta, GA 30318"
+      },
+      "contact": {
+        "phone": "(404) 350-8080",
+        "email": "",
+        "website": "https://www.masonfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Fine Art",
+          "Sculpture"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Mason Fine Art provides contemporary art exhibitions and appraisal services in Atlanta's Westside.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

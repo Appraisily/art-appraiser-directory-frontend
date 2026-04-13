@@ -326,10 +326,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg",
       "address": {
         "street": "789 Park Ave",
-        "city": "Los Angeles",
+        "city": "Sacramento",
         "state": "CA",
-        "zip": "90736",
-        "formatted": "789 Park Ave, Los Angeles, CA 90736"
+        "zip": "94102",
+        "formatted": "789 Park Ave, Sacramento, CA 94102"
       },
       "contact": {
         "phone": "451-233-8929",
@@ -402,10 +402,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg",
       "address": {
         "street": "789 Washington Ave",
-        "city": "Los Angeles",
+        "city": "Sacramento",
         "state": "CA",
-        "zip": "90199",
-        "formatted": "789 Washington Ave, Los Angeles, CA 90199"
+        "zip": "94102",
+        "formatted": "789 Washington Ave, Sacramento, CA 94102"
       },
       "contact": {
         "phone": "987-879-5913",
@@ -482,10 +482,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg",
       "address": {
         "street": "123 Maple Dr",
-        "city": "Los Angeles",
+        "city": "Sacramento",
         "state": "CA",
-        "zip": "90517",
-        "formatted": "123 Maple Dr, Los Angeles, CA 90517"
+        "zip": "92101",
+        "formatted": "123 Maple Dr, Sacramento, CA 92101"
       },
       "contact": {
         "phone": "788-213-5516",
@@ -564,10 +564,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-saylor-rice-appraisals_1741088917019_jA5iQcDmT.jpg",
       "address": {
         "street": "555 Oak Ave",
-        "city": "Los Angeles",
+        "city": "Sacramento",
         "state": "CA",
-        "zip": "90907",
-        "formatted": "555 Oak Ave, Los Angeles, CA 90907"
+        "zip": "94102",
+        "formatted": "555 Oak Ave, Sacramento, CA 94102"
       },
       "contact": {
         "phone": "438-957-5790",
@@ -642,10 +642,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-gurr-johns_1741088922727_Zf9lWtR9F.jpg",
       "address": {
         "street": "999 Pine Ln",
-        "city": "Los Angeles",
+        "city": "Sacramento",
         "state": "CA",
-        "zip": "90327",
-        "formatted": "999 Pine Ln, Los Angeles, CA 90327"
+        "zip": "94103",
+        "formatted": "999 Pine Ln, Sacramento, CA 94103"
       },
       "contact": {
         "phone": "304-524-8497",
@@ -714,10 +714,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-mimesis-gallery_1741088928262_--HHygRCf.jpg",
       "address": {
         "street": "999 Cedar Blvd",
-        "city": "Los Angeles",
+        "city": "Sacramento",
         "state": "CA",
-        "zip": "90884",
-        "formatted": "999 Cedar Blvd, Los Angeles, CA 90884"
+        "zip": "92101",
+        "formatted": "999 Cedar Blvd, Sacramento, CA 92101"
       },
       "contact": {
         "phone": "306-404-5530",
@@ -787,6 +787,68 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "sacramento-allrich-fine-art-services",
+      "name": "Allrich Fine Art Services",
+      "slug": "allrich-fine-art-services",
+      "imageUrl": "",
+      "address": {
+        "street": "3450 Sacramento St, Ste. 153",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94123",
+        "formatted": "3450 Sacramento St, Ste. 153, San Francisco, CA 94123"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.allrichfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Charitable contribution appraisals",
+          "Estate planning"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Charitable contribution appraisals",
+          "Estate tax appraisals",
+          "Insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "Allrich Fine Art Services provides professional fine art appraisal services. They have completed Charitable Contribution Appraisals for private clients for donations to numerous museums and institutions nationwide including Yale University and the Fine Arts Museum of San Francisco.",
+        "notes": "Based in San Francisco; serves Northern California including Sacramento."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

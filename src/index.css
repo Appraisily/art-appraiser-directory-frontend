@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Prevent chat widget overlap on mobile */
+@media (max-width: 768px) {
+  /* Add padding to bottom of main content to account for chat widget */
+  main, [class*="flex-1"] {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  
+  /* Ensure chat widget doesn't overlap content */
+  iframe[src*="chat"],
+  div[id*="chat"],
+  div[class*="chat-widget"] {
+    bottom: 16px !important;
+    right: 16px !important;
+  }
+}
+
+/* Improve mobile touch targets */
+@media (max-width: 768px) {
+  /* Make all interactive elements have minimum 44px touch target */
+  button, a, input[type="submit"], input[type="button"], [role="button"] {
+    min-height: 44px;
+  }
+  
+  /* Prevent horizontal scroll */
+  body {
+    overflow-x: hidden;
+  }
+}
+

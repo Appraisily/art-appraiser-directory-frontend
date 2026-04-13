@@ -86,10 +86,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-gurr-johns_1741089001961_jayPA2n3d.jpg",
       "address": {
         "street": "2020 Washington Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90285",
-        "formatted": "2020 Washington Ave, Los Angeles, CA 90285"
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "75202",
+        "formatted": "2020 Washington Ave, San Antonio, TX 75202"
       },
       "contact": {
         "phone": "448-400-9502",
@@ -165,10 +165,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg",
       "address": {
         "street": "777 Park Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90684",
-        "formatted": "777 Park Ave, Los Angeles, CA 90684"
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "75201",
+        "formatted": "777 Park Ave, San Antonio, TX 75201"
       },
       "contact": {
         "phone": "307-557-3745",
@@ -241,10 +241,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg",
       "address": {
         "street": "888 Museum Way",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90821",
-        "formatted": "888 Museum Way, Los Angeles, CA 90821"
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "75201",
+        "formatted": "888 Museum Way, San Antonio, TX 75201"
       },
       "contact": {
         "phone": "366-632-8622",
@@ -320,10 +320,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg",
       "address": {
         "street": "1010 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90205",
-        "formatted": "1010 Maple Dr, Los Angeles, CA 90205"
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "77019",
+        "formatted": "1010 Maple Dr, San Antonio, TX 77019"
       },
       "contact": {
         "phone": "885-459-6753",
@@ -397,10 +397,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-saylor-rice-appraisals_1741089025221_Lbp9BTsZY.jpg",
       "address": {
         "street": "888 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90509",
-        "formatted": "888 Oak Ave, Los Angeles, CA 90509"
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "75202",
+        "formatted": "888 Oak Ave, San Antonio, TX 75202"
       },
       "contact": {
         "phone": "850-886-3240",
@@ -472,10 +472,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg",
       "address": {
         "street": "888 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90798",
-        "formatted": "888 Art District, Los Angeles, CA 90798"
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "77002",
+        "formatted": "888 Art District, San Antonio, TX 77002"
       },
       "contact": {
         "phone": "279-775-9568",
@@ -542,6 +542,248 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "blue-star-arts-san-antonio-tx",
+      "name": "Blue Star Arts Complex",
+      "slug": "blue-star-arts",
+      "imageUrl": "",
+      "address": {
+        "street": "116 Blue Star",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78204",
+        "formatted": "116 Blue Star, San Antonio, TX 78204"
+      },
+      "contact": {
+        "phone": "(210) 227-6960",
+        "email": "",
+        "website": "https://www.bluestararts.org"
+      },
+      "business": {
+        "yearsInBusiness": "Established arts complex",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Mixed Media",
+          "Local Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Blue Star Arts Complex is San Antonio's premier contemporary art center, providing gallery exhibitions and art consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "ruths-room-gallery-san-antonio-tx",
+      "name": "Ruth's Room Gallery",
+      "slug": "ruths-room-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1124 S Laredo St",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78207",
+        "formatted": "1124 S Laredo St, San Antonio, TX 78207"
+      },
+      "contact": {
+        "phone": "(210) 271-1395",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Local Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Sales"
+        ]
+      },
+      "content": {
+        "about": "Ruth's Room Gallery provides fine art exhibitions and appraisal services in San Antonio's King William district.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-museum-of-art-san-antonio-tx",
+      "name": "San Antonio Museum of Art",
+      "slug": "san-antonio-museum-of-art",
+      "imageUrl": "",
+      "address": {
+        "street": "200 W Jones Ave",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78215",
+        "formatted": "200 W Jones Ave, San Antonio, TX 78215"
+      },
+      "contact": {
+        "phone": "(210) 978-8100",
+        "email": "",
+        "website": "https://www.samuseum.org"
+      },
+      "business": {
+        "yearsInBusiness": "Major art museum with comprehensive collections",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Ancient Art",
+          "Contemporary Art",
+          "Latin American Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Consultation",
+          "Appraisal Referrals",
+          "Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "The San Antonio Museum of Art houses one of the region's finest art collections spanning 5,000 years. Provides art consultation and appraisal referral services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "doris-hinman-fine-art-san-antonio-tx",
+      "name": "Doris Hinman Fine Art",
+      "slug": "doris-hinman-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "7959 Broadway St",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78209",
+        "formatted": "7959 Broadway St, San Antonio, TX 78209"
+      },
+      "contact": {
+        "phone": "(210) 826-5654",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Doris Hinman Fine Art provides professional art appraisal services in the Alamo Heights area of San Antonio.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

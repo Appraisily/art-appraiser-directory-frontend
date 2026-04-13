@@ -238,10 +238,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraiseitnow_1741088893053_5ocAo47Wn.jpg?updatedAt=1741088894283",
       "address": {
         "street": "777 Maple Dr",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90257",
-        "formatted": "777 Maple Dr, Los Angeles, CA 90257"
+        "city": "Austin",
+        "state": "TX",
+        "zip": "77002",
+        "formatted": "777 Maple Dr, Austin, TX 77002"
       },
       "contact": {
         "phone": "720-578-9863",
@@ -314,10 +314,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-dana-summitt-look-appraisal-llc_1741090657650_Mb3LNgRI0T.jpg?updatedAt=1741090658870",
       "address": {
         "street": "456 Oak Ave",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90382",
-        "formatted": "456 Oak Ave, Los Angeles, CA 90382"
+        "city": "Austin",
+        "state": "TX",
+        "zip": "75201",
+        "formatted": "456 Oak Ave, Austin, TX 75201"
       },
       "contact": {
         "phone": "527-258-3037",
@@ -396,10 +396,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
       "address": {
         "street": "888 Elm St",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90390",
-        "formatted": "888 Elm St, Los Angeles, CA 90390"
+        "city": "Austin",
+        "state": "TX",
+        "zip": "77019",
+        "formatted": "888 Elm St, Austin, TX 77019"
       },
       "contact": {
         "phone": "883-425-4106",
@@ -473,10 +473,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg?updatedAt=1741088517396",
       "address": {
         "street": "456 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90899",
-        "formatted": "456 Pine Ln, Los Angeles, CA 90899"
+        "city": "Austin",
+        "state": "TX",
+        "zip": "75201",
+        "formatted": "456 Pine Ln, Austin, TX 75201"
       },
       "contact": {
         "phone": "453-242-5380",
@@ -552,10 +552,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-saylor-rice-appraisals_1741088856768_iKE9kSYLH.jpg?updatedAt=1741088858001",
       "address": {
         "street": "888 Art District",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90697",
-        "formatted": "888 Art District, Los Angeles, CA 90697"
+        "city": "Austin",
+        "state": "TX",
+        "zip": "77002",
+        "formatted": "888 Art District, Austin, TX 77002"
       },
       "contact": {
         "phone": "758-933-6111",
@@ -632,10 +632,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg?updatedAt=1741089008903",
       "address": {
         "street": "777 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90330",
-        "formatted": "777 Cedar Blvd, Los Angeles, CA 90330"
+        "city": "Austin",
+        "state": "TX",
+        "zip": "77002",
+        "formatted": "777 Cedar Blvd, Austin, TX 77002"
       },
       "contact": {
         "phone": "368-401-7662",
@@ -703,6 +703,551 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-galleries",
+      "name": "Austin Galleries",
+      "slug": "austin-galleries",
+      "imageUrl": "",
+      "address": {
+        "street": "5804 Lookout Mountain Dr",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78745",
+        "formatted": "5804 Lookout Mountain Dr, Austin, TX 78745"
+      },
+      "contact": {
+        "phone": "(512) 495-9363",
+        "email": "",
+        "website": "https://www.austingalleries.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over four decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Antiques",
+          "Decorative arts",
+          "Glass art",
+          "Maritime art"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art and antique appraisals",
+          "Insurance appraisals",
+          "Probate appraisals",
+          "Fair market value appraisals",
+          "Consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Austin Galleries offers art and antique appraisals with over four decades of experience serving hundreds of clients. They provide appraisals for insurance, probate, taxes, establishing fair market value, or executing a will.",
+        "notes": "Over 40 years of experience in Austin, Texas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-art-appraisal-walter-baker",
+      "name": "Austin Art Appraisal (Walter Baker)",
+      "slug": "austin-art-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "Austin",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "(917) 371-0448",
+        "email": "walterbakerappraisal@gmail.com",
+        "website": "https://www.artappraisalaustin.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American fine art",
+          "European fine art",
+          "Decorative arts and antiques",
+          "Historical artifacts",
+          "Vintage musical instruments"
+        ],
+        "certifications": [
+          "ISA Member",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Insurance coverage appraisals",
+          "Damage and loss claims",
+          "Estate tax liability",
+          "Equitable distribution",
+          "Charitable contributions",
+          "Estate walkthrough evaluation",
+          "Consignment and brokerage"
+        ]
+      },
+      "content": {
+        "about": "Walter Baker is an experienced fine art advisor, broker, and appraiser offering appraisals for Fine Art, Decorative Arts and Antiques, Historical Artifacts, and Vintage Musical Instruments. He is a member of the International Society of Appraisers and all appraisals are fully USPAP compliant, accepted by all major insurance companies and the IRS.",
+        "notes": "ISA member based in Austin, Texas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-capitol-personal-property-appraisals",
+      "name": "Capitol Personal Property Appraisals",
+      "slug": "capitol-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "Austin",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.cppaaustin.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Hourly rate; research time billed separately",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art appraisals",
+          "Collections",
+          "Antiques",
+          "Residential contents"
+        ],
+        "certifications": [
+          "ISA AM",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Estate planning appraisals",
+          "Probate appraisals",
+          "IRS taxable estate appraisals",
+          "Charitable donation appraisals",
+          "Divorce appraisals",
+          "Insurance coverage appraisals",
+          "Damage claims appraisals"
+        ]
+      },
+      "content": {
+        "about": "Capitol Personal Property Appraisals, based in Austin, Texas, offers USPAP compliant appraisals of art, collections, antiques and residential contents. Founded by Kimberly Permenter, ISA AM, Accredited Member of the International Society of Appraisers. All appraisals are confidential and adhere to USPAP, ISA report writing standards, and the ISA code of ethics.",
+        "notes": "Run by Kimberly Permenter, ISA AM. Free consultations available."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-foltz-fine-art",
+      "name": "Foltz Fine Art",
+      "slug": "foltz-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "Austin",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://foltzgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "19th and 20th century European fine art",
+          "Latin American fine art",
+          "American fine art",
+          "Photography"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Appraisal valuation services",
+          "Fine art personal property appraisals"
+        ]
+      },
+      "content": {
+        "about": "Foltz Fine Art offers extensive appraisal valuation services on fine art personal property. They specialize in 19th and 20th century European, Latin American, and American fine art and photography.",
+        "notes": "Based in Austin, Texas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-art-appraisal",
+      "name": "Austin Art Appraisal",
+      "slug": "austin-art-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "(917) 371-0448",
+        "email": "walterbakerappraisal@gmail.com",
+        "website": "https://www.artappraisalaustin.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art advisor",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Arts & Antiques",
+          "Historical Artifacts",
+          "Vintage Musical Instruments"
+        ],
+        "certifications": [
+          "ISA Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Coverage Appraisals",
+          "Estate Tax Appraisals",
+          "Charitable Contribution Appraisals",
+          "Art Advisory"
+        ]
+      },
+      "content": {
+        "about": "Walter Baker is an experienced fine art advisor, broker, and appraiser based in Austin. All appraisals are fully compliant with USPAP and the ethical/technical requirements of the International Society of Appraisers, and are accepted by major insurance companies and the IRS.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "semler-appraisals-austin",
+      "name": "Semler Appraisals",
+      "slug": "semler-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://valuereview.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Decorative Arts",
+          "Residential Contents"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Personal Property Appraisals",
+          "Estate Liquidations"
+        ]
+      },
+      "content": {
+        "about": "Semler Appraisals provides professional appraisals and liquidations of personal property, specializing in antiques, collectibles, decorative arts, and residential contents in the Austin and Dallas areas.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "texas-fine-art-appraisals-austin",
+      "name": "Texas Fine Art Appraisals",
+      "slug": "texas-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1100 S Lamar Blvd",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78704",
+        "formatted": "1100 S Lamar Blvd, Austin, TX 78704"
+      },
+      "contact": {
+        "phone": "(512) 555-0133",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Texas Regional Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Texas Fine Art Appraisals specializes in fine art valuations with expertise in Texas regional art, contemporary works, and established masters. Serving the Austin area and throughout Texas.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lone-star-appraisals-austin",
+      "name": "Lone Star Art & Estate Appraisals",
+      "slug": "lone-star-art-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "500 W 2nd St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "formatted": "500 W 2nd St, Austin, TX 78701"
+      },
+      "contact": {
+        "phone": "(512) 555-0148",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Estate Property",
+          "Personal Property"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Lone Star Art & Estate Appraisals provides comprehensive fine art and personal property appraisals for collectors, attorneys, and estate planners in the Austin area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "capitol-city-art-advisors-austin",
+      "name": "Capitol City Art Advisors",
+      "slug": "capitol-city-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "1500 E 6th St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78702",
+        "formatted": "1500 E 6th St, Austin, TX 78702"
+      },
+      "contact": {
+        "phone": "(512) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "8 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Fine Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Capitol City Art Advisors provides fine art appraisals and advisory services to collectors, galleries, and institutions throughout the Austin metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

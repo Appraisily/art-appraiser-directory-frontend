@@ -245,10 +245,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-mimesis-gallery_1741089081260_KjdHZcmg1.jpg?updatedAt=1741089082370",
       "address": {
         "street": "1010 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90460",
-        "formatted": "1010 Cedar Blvd, Los Angeles, CA 90460"
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "80203",
+        "formatted": "1010 Cedar Blvd, Aspen, CO 80203"
       },
       "contact": {
         "phone": "266-625-1346",
@@ -325,10 +325,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
       "address": {
         "street": "456 Lincoln Rd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90232",
-        "formatted": "456 Lincoln Rd, Los Angeles, CA 90232"
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "80203",
+        "formatted": "456 Lincoln Rd, Aspen, CO 80203"
       },
       "contact": {
         "phone": "383-637-1771",
@@ -403,10 +403,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-gurr-johns_1741088522110_0PMXOhgf5a.jpg?updatedAt=1741088523784",
       "address": {
         "street": "777 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90743",
-        "formatted": "777 Pine Ln, Los Angeles, CA 90743"
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "80218",
+        "formatted": "777 Pine Ln, Aspen, CO 80218"
       },
       "contact": {
         "phone": "259-871-3682",
@@ -485,10 +485,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg?updatedAt=1741088882489",
       "address": {
         "street": "999 Gallery Row",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90888",
-        "formatted": "999 Gallery Row, Los Angeles, CA 90888"
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "80218",
+        "formatted": "999 Gallery Row, Aspen, CO 80218"
       },
       "contact": {
         "phone": "518-736-3397",
@@ -559,10 +559,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg?updatedAt=1741088888767",
       "address": {
         "street": "555 Cedar Blvd",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90395",
-        "formatted": "555 Cedar Blvd, Los Angeles, CA 90395"
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "80203",
+        "formatted": "555 Cedar Blvd, Aspen, CO 80203"
       },
       "contact": {
         "phone": "642-341-4651",
@@ -637,10 +637,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg?updatedAt=1741089145255",
       "address": {
         "street": "456 Pine Ln",
-        "city": "Los Angeles",
-        "state": "CA",
-        "zip": "90657",
-        "formatted": "456 Pine Ln, Los Angeles, CA 90657"
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "80218",
+        "formatted": "456 Pine Ln, Aspen, CO 80218"
       },
       "contact": {
         "phone": "839-570-6475",
@@ -702,6 +702,151 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "aspen-worthwise-appraisers-candace-hill",
+      "name": "WorthWise Appraisers (Candace Hill)",
+      "slug": "worthwise-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "Greater Denver/Boulder area (serves Aspen)",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "formatted": "Denver/Boulder, CO (serves Aspen)"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.worthwiseappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "Appraising since 2014; collecting art and antiques for over 20 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information; free consultation available",
+        "rating": 4.9,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "American Indian Art and Artifacts",
+          "Asian Art",
+          "Antiques",
+          "Decorative Arts",
+          "19th and 20th Century Paintings",
+          "Sculpture",
+          "Photography"
+        ],
+        "certifications": [
+          "ISA Certified Member (CAPP)",
+          "ISA Accredited Member (2015-2019)",
+          "USPAP Compliant",
+          "MBA, Southern Methodist University"
+        ],
+        "services": [
+          "Estate tax appraisals",
+          "Insurance appraisals",
+          "Charitable donation appraisals",
+          "Divorce settlement appraisals",
+          "Equitable distribution appraisals",
+          "Damage claim appraisals",
+          "Expert consultation"
+        ]
+      },
+      "content": {
+        "about": "WorthWise Appraisers is led by Candace Hill, an ISA Certified Member located in the greater Boulder/Denver metropolitan area who also serves the Aspen region. Since 2014, she has appraised over 8,000 items across a wide variety of categories including fine art, American Indian art, Asian art, and antiques. She has appraised works by artists including Banksy, Chagall, Dali, Picasso, Warhol, and Wayne Thiebaud. Candace has appeared on national television as a guest appraiser on the hit show Pawn Stars.",
+        "notes": "ISA Certified Member since 2019; appeared on Pawn Stars; appraised 8,000+ items; serves greater Denver/Boulder and Aspen areas"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "aspen-prestige-estate-services-alicia-weaver",
+      "name": "Prestige Estate Services (Alicia Weaver)",
+      "slug": "prestige-estate-services",
+      "imageUrl": "",
+      "address": {
+        "street": "Aspen, CO (also Denver office at 225 Union Blvd #150)",
+        "city": "Aspen",
+        "state": "CO",
+        "zip": "81611",
+        "formatted": "Aspen, CO 81611"
+      },
+      "contact": {
+        "phone": "(303) 479-4970",
+        "email": "",
+        "website": "https://www.prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 2010",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Commission-based for estate sales; contact for appraisal pricing",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antique Furniture",
+          "High-Net-Worth Collections",
+          "Personal Property",
+          "Estate Inventory and Valuation"
+        ],
+        "certifications": [
+          "ISA CAPP (Certified Appraiser of Personal Property)",
+          "USPAP Compliant",
+          "ISA Private Client Services"
+        ],
+        "services": [
+          "Estate inventory and valuation",
+          "Fine art appraisals",
+          "Insurance appraisals",
+          "Divorce/equitable distribution appraisals",
+          "Charitable contribution appraisals",
+          "Expert witness testimony",
+          "Estate sales and liquidation",
+          "Online appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services was founded in 2010 by Alicia Weaver, an ISA CAPP-certified appraiser and University of Colorado at Boulder alumna. She is one of only approximately 108 appraisers in North America holding the CAPP designation. The firm has a dedicated Aspen/Vail office and specializes in providing detailed appraisals for personal property, fine art, and antiques. Alicia's clientele encompasses distinguished politicians, professional athletes, and celebrities. The firm also offers estate sale and liquidation services.",
+        "notes": "Aspen/Vail office location; national firm with 30+ years of executive team experience; ISA CAPP certified; also offers estate sales"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

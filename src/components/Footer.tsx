@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
 import citiesData from '../data/cities.json';
 import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
@@ -29,13 +29,8 @@ const links = {
 type FooterCity = typeof citiesData.cities[number];
 
 export function Footer() {
-  const [cities, setCities] = useState<FooterCity[]>([]);
+  const cities = citiesData.cities;
   const primaryCtaUrl = getPrimaryCtaUrl();
-  
-  useEffect(() => {
-    // Load cities from the imported data
-    setCities(citiesData.cities);
-  }, []);
 
   const handleFooterCtaClick = () => {
     trackEvent('cta_click', {
@@ -89,18 +84,18 @@ export function Footer() {
           <h3 className="text-lg font-semibold text-gray-900 mb-6">
             Find Art Appraisers Near You
           </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
             {cities.map((city) => (
-              <a 
+              <a
                 key={city.slug}
                 href={buildSiteUrl(`/location/${city.slug}`)}
-                className="text-gray-600 hover:text-gray-900 transition-colors text-sm flex items-center gap-1"
+                className="text-gray-600 hover:text-gray-900 hover:bg-blue-50 transition-colors text-sm flex items-center gap-2 py-2 px-2 rounded min-h-[44px]"
                 data-gtm-event="footer_city_click"
                 data-gtm-city={city.slug}
                 data-gtm-state={city.state}
                 onClick={() => handleFooterCityClick(city)}
               >
-                <MapPin className="h-3 w-3" /> {city.name}, {city.state}
+                <MapPin className="h-4 w-4 flex-shrink-0" /> <span className="truncate">{city.name}, {city.state}</span>
               </a>
             ))}
           </div>
@@ -124,14 +119,14 @@ export function Footer() {
             <p className="text-gray-600 max-w-md">
               Professional online art and antique appraisals. Get accurate valuations from certified experts within 48 hours.
             </p>
-            <button 
+            <button
               type="button"
-              className="bg-gray-900 hover:bg-gray-800 text-white px-4 py-2 rounded-md flex items-center"
+              className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 min-h-[48px] rounded-md flex items-center justify-center text-base font-medium transition-colors"
               data-gtm-event="cta_click"
               data-gtm-placement="footer_primary"
               onClick={handleFooterCtaClick}
             >
-              Start Appraisal <ArrowRight className="ml-2 h-4 w-4" />
+              Start Appraisal <ArrowRight className="ml-2 h-5 w-5" />
             </button>
           </div>
           

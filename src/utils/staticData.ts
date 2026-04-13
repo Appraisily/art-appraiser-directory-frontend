@@ -9,7 +9,6 @@ import bostonData from '../data/locations/boston.json';
 import buffaloData from '../data/locations/buffalo.json';
 import charlestonData from '../data/locations/charleston.json';
 import charlotteData from '../data/locations/charlotte.json';
-import chicagocopyData from '../data/locations/chicago copy.json';
 import chicagoData from '../data/locations/chicago.json';
 import cincinnatiData from '../data/locations/cincinnati.json';
 import clevelandData from '../data/locations/cleveland.json';
@@ -28,11 +27,9 @@ import miamiData from '../data/locations/miami.json';
 import minneapolisData from '../data/locations/minneapolis.json';
 import nashvilleData from '../data/locations/nashville.json';
 import neworleansData from '../data/locations/new-orleans.json';
-import newyorkcopyData from '../data/locations/new-york copy.json';
 import newyorkData from '../data/locations/new-york.json';
 import palmbeachData from '../data/locations/palm-beach.json';
 import philadelphiaData from '../data/locations/philadelphia.json';
-import phoenixcopyData from '../data/locations/phoenix copy.json';
 import phoenixData from '../data/locations/phoenix.json';
 import pittsburghData from '../data/locations/pittsburgh.json';
 import portlandData from '../data/locations/portland.json';
@@ -61,7 +58,6 @@ export const locations = [
   buffaloData,
   charlestonData,
   charlotteData,
-  chicagocopyData,
   chicagoData,
   cincinnatiData,
   clevelandData,
@@ -80,11 +76,9 @@ export const locations = [
   minneapolisData,
   nashvilleData,
   neworleansData,
-  newyorkcopyData,
   newyorkData,
   palmbeachData,
   philadelphiaData,
-  phoenixcopyData,
   phoenixData,
   pittsburghData,
   portlandData,
@@ -122,8 +116,7 @@ export function getLocation(citySlug: string) {
 
   try {
     const normalizedSlug = citySlug.toLowerCase().replace(/\s+/g, '-');
-    console.log('getLocation - normalizedSlug:', normalizedSlug);
-    
+
     // First try to find location by seo.schema.areaServed.name
     const locationBySeo = locations.find(location => 
       location.seo?.schema?.areaServed?.name?.toLowerCase().replace(/\s+/g, '-') === normalizedSlug

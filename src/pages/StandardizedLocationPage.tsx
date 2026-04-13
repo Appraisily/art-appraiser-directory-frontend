@@ -14,8 +14,13 @@ import {
 } from '../utils/dataQuality';
 import { trackEvent } from '../utils/analytics';
 import { cities as directoryCities } from '../data/cities.json';
-import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
-import { normalizeAssetUrl } from '../utils/assetUrls';
+import { InitialsAvatar } from '../components/InitialsAvatar';
+import {
+  STRIKING_DISTANCE_CITY_SLUGS,
+  LOCATION_SEO_OVERRIDES,
+  LOCATION_INTERNAL_LINK_TARGETS,
+  ART_GUIDE_LINKS,
+} from '../data/locationSeoOverrides';
 
 type DirectoryCity = {
   name: string;
@@ -24,356 +29,6 @@ type DirectoryCity = {
   latitude?: number;
   longitude?: number;
 };
-
-const STRIKING_DISTANCE_CITY_SLUGS = [
-  'new-york',
-  'los-angeles',
-  'chicago',
-  'houston',
-  'phoenix',
-  'philadelphia',
-  'san-francisco',
-  'seattle',
-  'denver',
-  'boston',
-  'dallas',
-  'austin',
-  'san-antonio',
-  'san-diego',
-  'san-jose',
-  'nashville',
-  'portland',
-  'las-vegas',
-  'atlanta',
-  'miami',
-  'minneapolis',
-  'new-orleans',
-  'cleveland',
-  'st-louis',
-  'pittsburgh',
-  'cincinnati',
-  'kansas-city',
-  'columbus',
-  'indianapolis',
-  'jacksonville',
-  'sacramento',
-  'richmond',
-  'washington-dc',
-  'salt-lake-city',
-  'santa-fe',
-  'palm-beach',
-  'aspen'
-] as const;
-
-type LocationSeoOverride = {
-  title: string;
-  description: string;
-  h1: string;
-  heroDescription: string;
-};
-
-const LOCATION_INTERNAL_LINK_TARGETS: Partial<
-  Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], readonly string[]>
-> = {
-  'new-york': ['philadelphia', 'boston', 'hartford'],
-  'los-angeles': ['san-diego', 'san-francisco', 'san-jose'],
-  chicago: ['indianapolis', 'columbus', 'cleveland'],
-  houston: ['dallas', 'san-antonio', 'austin'],
-  phoenix: ['denver', 'las-vegas', 'los-angeles'],
-  philadelphia: ['new-york', 'pittsburgh', 'washington-dc'],
-  'san-francisco': ['san-jose', 'sacramento', 'los-angeles'],
-  seattle: ['portland', 'san-francisco', 'denver'],
-  denver: ['aspen', 'kansas-city', 'salt-lake-city'],
-  boston: ['providence', 'hartford', 'new-york'],
-  dallas: ['fort-worth', 'houston', 'austin'],
-  austin: ['san-antonio', 'houston', 'dallas'],
-  'san-antonio': ['austin', 'houston', 'dallas'],
-  'san-diego': ['los-angeles', 'phoenix', 'las-vegas'],
-  nashville: ['atlanta', 'indianapolis', 'charlotte'],
-  portland: ['seattle', 'san-francisco', 'sacramento'],
-  'las-vegas': ['phoenix', 'los-angeles', 'denver'],
-  atlanta: ['savannah', 'charleston', 'charlotte'],
-  miami: ['palm-beach', 'jacksonville', 'savannah'],
-  minneapolis: ['chicago', 'indianapolis', 'kansas-city'],
-  'new-orleans': ['houston', 'nashville', 'jacksonville'],
-  cleveland: ['columbus', 'cincinnati', 'pittsburgh'],
-  'st-louis': ['kansas-city', 'chicago', 'indianapolis'],
-  pittsburgh: ['cleveland', 'columbus', 'philadelphia'],
-  cincinnati: ['columbus', 'indianapolis', 'cleveland'],
-  'kansas-city': ['st-louis', 'chicago', 'denver'],
-  columbus: ['cleveland', 'cincinnati', 'pittsburgh'],
-  indianapolis: ['columbus', 'cincinnati', 'chicago'],
-  jacksonville: ['miami', 'savannah', 'palm-beach'],
-  sacramento: ['san-francisco', 'san-jose', 'los-angeles'],
-  richmond: ['washington-dc', 'charlotte', 'raleigh'],
-  'washington-dc': ['richmond', 'philadelphia', 'charlotte'],
-  'salt-lake-city': ['denver', 'phoenix', 'las-vegas'],
-  'santa-fe': ['denver', 'phoenix', 'aspen'],
-  'palm-beach': ['miami', 'jacksonville', 'savannah'],
-  aspen: ['denver', 'salt-lake-city', 'santa-fe']
-};
-
-const LOCATION_SEO_OVERRIDES: Partial<
-  Record<(typeof STRIKING_DISTANCE_CITY_SLUGS)[number], LocationSeoOverride>
-> = {
-  'new-york': {
-    title: 'New York Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare New York art appraisers and art appraisal services for estate planning, insurance, donation, and resale valuations. Review local NYC experts and online options.',
-    h1: 'New York Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare New York City art appraisers for paintings, fine art, and collections, then choose local in-person service or online turnaround.'
-  },
-  'los-angeles': {
-    title: 'Los Angeles Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Los Angeles art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
-    h1: 'Los Angeles Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Los Angeles specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  chicago: {
-    title: 'Chicago Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Chicago art appraisers and art appraisal services for estate planning, charitable donation, insurance, and resale valuations.',
-    h1: 'Chicago Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Chicago art appraisers for paintings, prints, and collections, then choose local in-person service or a faster online appraisal route.'
-  },
-  houston: {
-    title: 'Houston Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Houston art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Texas experts and online options.',
-    h1: 'Houston Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Houston specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  phoenix: {
-    title: 'Phoenix Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Phoenix art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Arizona experts and online options.',
-    h1: 'Phoenix Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Phoenix specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  philadelphia: {
-    title: 'Philadelphia Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Philadelphia art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
-    h1: 'Philadelphia Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Philadelphia specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  'san-francisco': {
-    title: 'San Francisco Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare San Francisco art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
-    h1: 'San Francisco Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare San Francisco art appraisers for fine art and collections, then choose local in-person service or faster online appraisal.'
-  },
-  seattle: {
-    title: 'Seattle Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Seattle art appraisers and art appraisal services for estate planning, insurance, donation, and resale valuation. Check specialties and request support.',
-    h1: 'Seattle Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Find Seattle art appraisal specialists for paintings, prints, and collections, then choose local in-person or online valuation support.'
-  },
-  denver: {
-    title: 'Denver Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Denver art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
-    h1: 'Denver Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Denver specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  boston: {
-    title: 'Boston Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Boston art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Massachusetts experts and online options.',
-    h1: 'Boston Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Boston art appraisers for fine art and collections, then choose local in-person service or faster online appraisal.'
-  },
-  dallas: {
-    title: 'Dallas Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Dallas art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Texas experts and online options.',
-    h1: 'Dallas Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Dallas specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  austin: {
-    title: 'Austin Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Austin art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review specialties and choose local or online.',
-    h1: 'Austin Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Find Austin art appraisers for paintings, prints, and collections, then choose local appointments or online turnaround.'
-  },
-  nashville: {
-    title: 'Nashville Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Nashville art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Tennessee experts and online options.',
-    h1: 'Nashville Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Nashville specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  'las-vegas': {
-    title: 'Las Vegas Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Las Vegas art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Nevada experts and online options.',
-    h1: 'Las Vegas Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Las Vegas specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  atlanta: {
-    title: 'Atlanta Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Atlanta art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Georgia experts and online options.',
-    h1: 'Atlanta Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Atlanta specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  miami: {
-    title: 'Miami Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Miami art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Florida experts and online options.',
-    h1: 'Miami Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Miami specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  minneapolis: {
-    title: 'Minneapolis Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Minneapolis art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review credentials and specialties.',
-    h1: 'Minneapolis Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Find Minneapolis art appraisal specialists, then choose local in-person appointments or online support.'
-  },
-  'new-orleans': {
-    title: 'New Orleans Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare New Orleans art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Louisiana experts and online options.',
-    h1: 'New Orleans Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare New Orleans specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  cleveland: {
-    title: 'Cleveland Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Cleveland art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
-    h1: 'Cleveland Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Cleveland specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
-  },
-  pittsburgh: {
-    title: 'Pittsburgh Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Pittsburgh art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
-    h1: 'Pittsburgh Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Pittsburgh specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
-  },
-  cincinnati: {
-    title: 'Cincinnati Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Cincinnati art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations.',
-    h1: 'Cincinnati Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Review Cincinnati art appraisal options, then choose local in-person service or online appraisal support.'
-  },
-  'kansas-city': {
-    title: 'Kansas City Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Kansas City art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
-    h1: 'Kansas City Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Kansas City specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
-  },
-  columbus: {
-    title: 'Columbus Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Columbus art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local experts and online options.',
-    h1: 'Columbus Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Columbus art appraisal experts for donation, estate, insurance, and personal-property needs before choosing local in-person or online service.'
-  },
-  indianapolis: {
-    title: 'Indianapolis Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Indianapolis art appraisers and art appraisal services for donation, estate, insurance, and resale valuation. Review local providers and online options.',
-    h1: 'Indianapolis Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Review Indianapolis art appraisers, then choose the best local or online valuation route for your timeline.'
-  },
-  jacksonville: {
-    title: 'Jacksonville Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Jacksonville art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Florida experts and online options.',
-    h1: 'Jacksonville Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Jacksonville specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
-  },
-  sacramento: {
-    title: 'Sacramento Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Sacramento art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local and online options.',
-    h1: 'Sacramento Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Sacramento art appraisers, then choose local appointments or faster online appraisal.'
-  },
-  richmond: {
-    title: 'Richmond Art Appraisers & Art Appraisal Services | Estate, Donation, Insurance',
-    description:
-      'Compare Richmond art appraisers and art appraisal services for estate, donation, insurance, and personal-property valuations. Review local Virginia experts and online options.',
-    h1: 'Richmond Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Richmond specialists for art appraisals, then choose the right fit for estate, donation, insurance, and personal-property needs.'
-  },
-  'washington-dc': {
-    title: 'Washington DC Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Washington DC art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local experts and online options.',
-    h1: 'Washington DC Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Washington DC specialists for art appraisals, then choose the right fit for estate, insurance, donation, and personal-property needs.'
-  },
-  'santa-fe': {
-    title: 'Santa Fe Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Santa Fe art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local New Mexico experts and online options.',
-    h1: 'Santa Fe Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Santa Fe specialists for fine art and collection appraisals, then choose local in-person service or online turnaround.'
-  },
-  'palm-beach': {
-    title: 'Palm Beach Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Palm Beach art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local Florida experts and online options.',
-    h1: 'Palm Beach Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Palm Beach specialists for fine art and collection appraisals, then choose local in-person service or online turnaround.'
-  },
-  aspen: {
-    title: 'Aspen Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation',
-    description:
-      'Compare Aspen art appraisers and art appraisal services for estate, insurance, donation, and collection valuations. Review local Colorado experts and online options.',
-    h1: 'Aspen Art Appraisers & Art Appraisal Services',
-    heroDescription:
-      'Compare Aspen specialists for fine art and collection appraisals, then choose local in-person service or online turnaround.'
-  }
-};
-
-const ART_GUIDE_LINKS = [
-  { slug: 'chinese-art-appraisal', label: 'Chinese Art Appraisal Guide' },
-  { slug: 'fine-art-appraisal', label: 'Fine Art Appraisal Guide' },
-  { slug: 'how-much-is-my-art-worth', label: 'How Much Is My Art Worth?' },
-  { slug: 'artwork-value-estimate', label: 'Artwork Value Estimate' },
-  { slug: 'valuation-of-art', label: 'Valuation Of Art' },
-  { slug: 'what-gives-art-value', label: 'What Gives Art Value?' },
-] as const;
 
 function estimateDistanceKm(fromCity: DirectoryCity, toCity: DirectoryCity): number {
   if (
@@ -809,17 +464,17 @@ export function StandardizedLocationPage() {
       />
 
       <div className="max-w-6xl mx-auto">
-        <div className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-lg mb-8">
+        <div className="bg-gradient-to-r from-blue-50 to-white p-4 sm:p-6 rounded-lg mb-6 sm:mb-8">
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
             <div className="max-w-3xl">
-              <p className="text-sm font-semibold text-blue-700 mb-2">Searching for in-person appraisers?</p>
-              <h1 className="text-3xl font-bold mb-3">{heroHeading}</h1>
-              <p className="text-gray-600">{heroDescription}</p>
+              <p className="text-xs sm:text-sm font-semibold text-blue-700 mb-2">Searching for in-person appraisers?</p>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 leading-tight">{heroHeading}</h1>
+              <p className="text-sm sm:text-base text-gray-600">{heroDescription}</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
               <a
                 href={primaryCtaUrl}
-                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 text-white font-semibold hover:bg-blue-700 transition-colors"
+                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-5 py-3 min-h-[48px] text-white font-semibold hover:bg-blue-700 transition-colors text-sm sm:text-base"
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_primary"
                 onClick={() => handleLocationCtaClick('location_hero_primary')}
@@ -828,15 +483,24 @@ export function StandardizedLocationPage() {
               </a>
               <a
                 href="#local-appraisers"
-                className="inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 text-blue-700 font-semibold hover:bg-blue-50 transition-colors"
+                className={`inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 min-h-[48px] text-blue-700 font-semibold transition-colors text-sm sm:text-base ${
+                  isLoading
+                    ? 'pointer-events-none opacity-50 cursor-wait'
+                    : 'hover:bg-blue-50'
+                }`}
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_secondary"
                 onClick={(event) => {
                   trackEvent('cta_click', {
                     placement: 'location_hero_secondary',
                     destination: '#local-appraisers',
-                    city_slug: validCitySlug
+                    city_slug: validCitySlug,
+                    loading_state: isLoading
                   });
+                  if (isLoading) {
+                    event.preventDefault();
+                    return;
+                  }
                   event.preventDefault();
                   document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
                   window.history.replaceState(
@@ -846,7 +510,7 @@ export function StandardizedLocationPage() {
                   );
                 }}
               >
-                See local appraisers
+                {isLoading ? 'Loading appraisers…' : 'See local appraisers'}
               </a>
             </div>
           </div>
@@ -889,7 +553,7 @@ export function StandardizedLocationPage() {
                 <a
                   key={city.slug}
                   href={buildSiteUrl(`/location/${city.slug}`)}
-                  className="inline-flex items-center rounded-full border border-blue-200 px-3 py-1.5 text-sm text-blue-700 hover:bg-blue-50"
+                  className="inline-flex items-center rounded-full border border-blue-200 px-4 py-2 min-h-[44px] text-sm text-blue-700 hover:bg-blue-50 transition-colors"
                   data-gtm-event="related_city_click"
                   data-gtm-placement="location_related_cities"
                   data-gtm-city={city.slug}
@@ -1061,85 +725,77 @@ export function StandardizedLocationPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {locationData.appraisers.map(appraiser => (
-            <div
+            <a
               key={appraiser.id}
-              className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
+              className="group block border rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
+              data-gtm-event="appraiser_card_click"
+              data-gtm-appraiser={appraiser.slug}
+              data-gtm-placement="location_results"
+              onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
             >
-              <a
-                href={buildSiteUrl(`/appraiser/${appraiser.slug}`)}
-                className="block"
-                data-gtm-event="appraiser_card_click"
-                data-gtm-appraiser={appraiser.slug}
-                data-gtm-placement="location_results"
-                onClick={() => handleAppraiserCardClick(appraiser, 'location_results')}
-              >
-                <div className="h-48 bg-gray-200 overflow-hidden">
-                  <img
-                    src={normalizeAssetUrl(appraiser.imageUrl)}
-                    alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
-                    className="w-full h-full object-cover transition-transform hover:scale-105"
-                    loading="lazy"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = DEFAULT_PLACEHOLDER_IMAGE;
-                    }}
-                  />
+              <div className="h-48 overflow-hidden">
+                <InitialsAvatar
+                  imageUrl={appraiser.imageUrl}
+                  name={appraiser.name}
+                  className="w-full h-full"
+                  size="lg"
+                />
+              </div>
+
+              <div className="p-4">
+                <h2 className="text-xl font-semibold mb-2 text-gray-900 group-hover:text-blue-600 transition-colors">
+                  {appraiser.name}
+                </h2>
+
+                <div className="flex items-center text-sm text-gray-600 mb-2">
+                  <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
+                  <span className="truncate">{appraiser.address.formatted}</span>
                 </div>
 
-                <div className="p-4">
-                  <h2 className="text-xl font-semibold mb-2 text-gray-900 hover:text-blue-600 transition-colors">
-                    {appraiser.name}
-                  </h2>
-
-                  <div className="flex items-center text-sm text-gray-600 mb-2">
-                    <MapPin className="h-4 w-4 mr-1 text-gray-400 flex-shrink-0" />
-                    <span className="truncate">{appraiser.address.formatted}</span>
-                  </div>
-
-                  {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
-                    <div className="flex items-center mb-3">
-                      <div className="flex items-center">
-                        <Star className="h-4 w-4 text-yellow-500" />
-                        <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
-                      </div>
-                      <span className="text-sm text-gray-500 ml-2">
-                        ({appraiser.business.reviewCount} reviews)
-                      </span>
+                {appraiser.business.reviewCount > 0 && appraiser.business.rating > 0 ? (
+                  <div className="flex items-center mb-3">
+                    <div className="flex items-center">
+                      <Star className="h-4 w-4 text-yellow-500" />
+                      <span className="ml-1 text-gray-700">{appraiser.business.rating.toFixed(1)}</span>
                     </div>
-                  ) : (
-                    <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
-                  )}
-
-                  <div className="space-y-2 mb-4">
-                    <div className="flex flex-wrap gap-1">
-                      {appraiser.expertise.specialties.slice(0, 3).map((specialty) => (
-                        <span
-                          key={specialty}
-                          className="inline-block bg-blue-50 text-blue-700 rounded-full px-2 py-0.5 text-xs mb-1"
-                        >
-                          {specialty}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
-                    <span className="text-blue-600 hover:text-blue-800 text-sm font-medium inline-flex items-center">
-                      View Profile
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 ml-1"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                      </svg>
+                    <span className="text-sm text-gray-500 ml-2">
+                      ({appraiser.business.reviewCount} reviews)
                     </span>
                   </div>
+                ) : (
+                  <div className="text-sm text-gray-500 mb-3">Reviews not available</div>
+                )}
+
+                <div className="space-y-2 mb-4">
+                  <div className="flex flex-wrap gap-1">
+                    {appraiser.expertise.specialties.slice(0, 3).map((specialty) => (
+                      <span
+                        key={specialty}
+                        className="inline-block bg-blue-50 text-blue-700 rounded-full px-2 py-0.5 text-xs mb-1"
+                      >
+                        {specialty}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </a>
-            </div>
+
+                <div className="mt-4 pt-3 border-t border-gray-100 flex justify-end">
+                  <span className="text-blue-600 group-hover:text-blue-800 text-sm font-medium inline-flex items-center">
+                    View Profile
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4 ml-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
           ))}
         </div>
 

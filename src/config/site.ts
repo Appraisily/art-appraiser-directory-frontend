@@ -19,7 +19,7 @@ const DEFAULT_CTA_PARAMS = {
 export const SITE_FAVICON = BRAND_LOGO_URL;
 export const GOOGLE_SITE_VERIFICATION =
   import.meta.env.VITE_GOOGLE_SITE_VERIFICATION || '';
-const RUNTIME_ENV = typeof globalThis !== 'undefined' ? (globalThis as any).__ENV__ || {} : {};
+const RUNTIME_ENV = typeof globalThis !== 'undefined' ? (globalThis as { __ENV__?: RuntimeEnv }).__ENV__ || {} : {};
 export const GOOGLE_TAG_MANAGER_ID =
   RUNTIME_ENV.GOOGLE_TAG_MANAGER_ID ||
   import.meta.env.GOOGLE_TAG_MANAGER_ID ||
@@ -39,15 +39,11 @@ export function normalizeCanonicalUrl(input: URL): URL {
   }
 
   if (url.pathname === '/location' || url.pathname.startsWith('/location/')) {
-    if (!url.pathname.endsWith('/')) {
-      url.pathname += '/';
-    }
+    url.pathname = url.pathname.replace(/\/+$/, '');
   }
 
   if (url.pathname === '/appraiser' || url.pathname.startsWith('/appraiser/')) {
-    if (!url.pathname.endsWith('/')) {
-      url.pathname += '/';
-    }
+    url.pathname = url.pathname.replace(/\/+$/, '');
   }
 
   return url;

@@ -3,30 +3,9 @@ import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { GOOGLE_TAG_MANAGER_ID } from '../config/site';
 import { derivePageContext, pushToDataLayer } from '../utils/analytics';
-
-declare global {
-  interface Window {
-    dataLayer?: Record<string, unknown>[];
-  }
-}
+import { isLikelyBot } from '../utils/botDetection';
 
 const isBrowser = typeof window !== 'undefined';
-
-type NavigatorWithWebdriver = Navigator & { webdriver?: boolean };
-
-function isLikelyBot(): boolean {
-  if (!isBrowser) return false;
-  try {
-    const nav = window.navigator as NavigatorWithWebdriver;
-    const ua = String(nav.userAgent || '');
-    if (!ua) return false;
-    if (nav.webdriver) return true;
-    if (/HeadlessChrome|PhantomJS|Nightmare|Playwright|Puppeteer/i.test(ua)) return true;
-    return /(bot|crawler|spider|crawling|slurp|bingpreview|facebookexternalhit|twitterbot|linkedinbot|embedly|quora link preview|slackbot|discordbot|telegrambot|whatsapp|pinterest|yandex|baiduspider|duckduckbot|googlebot)/i.test(ua);
-  } catch {
-    return false;
-  }
-}
 
 export function AnalyticsTracker() {
   const location = useLocation();

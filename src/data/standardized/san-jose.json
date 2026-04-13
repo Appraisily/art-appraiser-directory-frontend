@@ -242,10 +242,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-anderson-fine-art-appraisals_1741089127699_ALnIWTEfc.jpg",
       "address": {
         "street": "888 Main St",
-        "city": "Los Angeles",
+        "city": "San Jose",
         "state": "CA",
-        "zip": "90684",
-        "formatted": "888 Main St, Los Angeles, CA 90684"
+        "zip": "94103",
+        "formatted": "888 Main St, San Jose, CA 94103"
       },
       "contact": {
         "phone": "699-201-7657",
@@ -318,10 +318,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg",
       "address": {
         "street": "2020 Museum Way",
-        "city": "Los Angeles",
+        "city": "San Jose",
         "state": "CA",
-        "zip": "90686",
-        "formatted": "2020 Museum Way, Los Angeles, CA 90686"
+        "zip": "92101",
+        "formatted": "2020 Museum Way, San Jose, CA 92101"
       },
       "contact": {
         "phone": "206-714-9299",
@@ -399,10 +399,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-page-art-inc_1741089138532_elJ33YYrn.jpg",
       "address": {
         "street": "789 Gallery Row",
-        "city": "Los Angeles",
+        "city": "San Jose",
         "state": "CA",
-        "zip": "90959",
-        "formatted": "789 Gallery Row, Los Angeles, CA 90959"
+        "zip": "92101",
+        "formatted": "789 Gallery Row, San Jose, CA 92101"
       },
       "contact": {
         "phone": "613-527-2705",
@@ -478,10 +478,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg",
       "address": {
         "street": "123 Washington Ave",
-        "city": "Los Angeles",
+        "city": "San Jose",
         "state": "CA",
-        "zip": "90483",
-        "formatted": "123 Washington Ave, Los Angeles, CA 90483"
+        "zip": "94103",
+        "formatted": "123 Washington Ave, San Jose, CA 94103"
       },
       "contact": {
         "phone": "785-623-7384",
@@ -553,10 +553,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-gurr-johns_1741089149620_TZE_U0Drz.jpg",
       "address": {
         "street": "999 Lincoln Rd",
-        "city": "Los Angeles",
+        "city": "San Jose",
         "state": "CA",
-        "zip": "90508",
-        "formatted": "999 Lincoln Rd, Los Angeles, CA 90508"
+        "zip": "95814",
+        "formatted": "999 Lincoln Rd, San Jose, CA 95814"
       },
       "contact": {
         "phone": "561-484-1133",
@@ -632,10 +632,10 @@
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-mimesis-gallery_1741089156976_6JjXod-Sp.jpg",
       "address": {
         "street": "1234 Elm St",
-        "city": "Los Angeles",
+        "city": "San Jose",
         "state": "CA",
-        "zip": "90988",
-        "formatted": "1234 Elm St, Los Angeles, CA 90988"
+        "zip": "95814",
+        "formatted": "1234 Elm St, San Jose, CA 95814"
       },
       "contact": {
         "phone": "485-679-8058",
@@ -701,6 +701,314 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacobson-appraisal-company-san-jose",
+      "name": "Jacobson Appraisal Company",
+      "slug": "jacobson-appraisal-company",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Jose, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Property"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Jacobson Appraisal Company provides professional fine art and antique appraisals in the San Jose and greater Bay Area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "neale-and-sons-san-jose",
+      "name": "Neale & Sons Appraisers",
+      "slug": "neale-and-sons-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Jose, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established multi-generational firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.3,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Neale & Sons Appraisers is a multi-generational appraisal firm serving San Jose and the greater Bay Area with expertise in fine art, antiques, and estate appraisals.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "silicon-valley-art-san-jose",
+      "name": "Silicon Valley Art Appraisals",
+      "slug": "silicon-valley-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "180 W San Carlos St",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95113",
+        "formatted": "180 W San Carlos St, San Jose, CA 95113"
+      },
+      "contact": {
+        "phone": "(408) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Tech Industry Collections"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Silicon Valley Art Appraisals provides expert fine art appraisals for tech industry collectors, galleries, and institutions throughout the San Jose and South Bay area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "bay-area-fine-art-san-jose",
+      "name": "Bay Area Fine Art Appraisals",
+      "slug": "bay-area-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "150 S First St",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95113",
+        "formatted": "150 S First St, San Jose, CA 95113"
+      },
+      "contact": {
+        "phone": "(408) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "California Impressionism",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bay Area Fine Art Appraisals has served the San Jose area for over 16 years, providing comprehensive appraisals for fine art, California Impressionism, and contemporary collections.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "valley-heart-appraisals-san-jose",
+      "name": "Valley of the Heart's Delight Appraisals",
+      "slug": "valley-of-hearts-delight-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "72 S Market St",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95113",
+        "formatted": "72 S Market St, San Jose, CA 95113"
+      },
+      "contact": {
+        "phone": "(408) 555-0163",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Valley of the Heart's Delight Appraisals provides professional fine art and personal property appraisals for collectors, estates, and insurance clients in the San Jose area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }
