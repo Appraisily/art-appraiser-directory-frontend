@@ -100,26 +100,29 @@ async function buildStandardized() {
     
     // Step 7: Generate static appraiser pages
     runCommand('node scripts/generate-appraiser-pages.js', '📄 Generating static appraiser pages');
-    
-    // Step 8: Fix HTML paths for deployment (fix for module loading issue)
+
+    // Step 8: Generate rich static homepage with SEO content
+    runCommand('node scripts/generate-homepage.js', '🏠 Generating rich static homepage');
+
+    // Step 9: Fix HTML paths for deployment (fix for module loading issue)
     runCommand('node scripts/fix-html-paths.js', '🔧 Fixing HTML paths for module loading');
 
-    // Step 9: Fix React hydration issues
+    // Step 10: Fix React hydration issues
     runCommand('node scripts/fix-react-hydration.js', '🔄 Fixing React hydration issues');
-    
-    // Step 10: Fix preloaded asset references
+
+    // Step 11: Fix preloaded asset references
     runCommand('node scripts/fix-preload-refs.js', '🔄 Fixing preloaded asset references');
 
-    // Step 11: Fix location links to be relative
+    // Step 12: Fix location links to be relative
     runCommand('node scripts/fix-relative-links.js', '🔄 Fixing location links to be relative');
 
-    // Step 12: Ensure chat embed script exists on all generated HTML pages
+    // Step 13: Ensure chat embed script exists on all generated HTML pages
     runCommand('node scripts/inject-chat-embed.js', '💬 Injecting Appraisily chat embed on all pages');
 
-    // Step 13: Apply indexability rules before regenerating the sitemap.
+    // Step 14: Apply indexability rules before regenerating the sitemap.
     runCommand('node scripts/apply-indexing-rules.mjs --public-dir dist', '🧭 Applying robots/indexing rules');
 
-    // Step 14: Generate sitemap from the final HTML output so noindex pages are excluded.
+    // Step 15: Generate sitemap from the final HTML output so noindex pages are excluded.
     runCommand('node scripts/generate-sitemap.js', '🗺️ Generating final sitemap from built HTML');
 
     log('✅ Build completed successfully!', 'success');

@@ -205,7 +205,7 @@ function buildSummaryParagraph(cityDisplayName, appraisers, topSpecialties, topS
 
 function createHeroSection(cityDisplayName, summaryParagraph, topSpecialties, topServices, citySlug) {
   const specialtiesChips = topSpecialties.length
-    ? `<div class="flex flex-wrap gap-2 mt-4">${topSpecialties.map(s => `<span class="bg-white/80 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">${escapeHtml(s)}</span>`).join('')}</div>`
+    ? `<div class="flex flex-wrap gap-2 mt-4" aria-label="Common specialties in this area">${topSpecialties.map(s => `<span class="text-blue-100/80 text-xs" role="text">${escapeHtml(s)}</span>`).join('<span class="text-blue-200">·</span>')}</div>`
     : '';
   const servicesLine = topServices.length
     ? `<p class="text-sm text-blue-50/90 mt-4">Common requests: ${escapeHtml(formatList(topServices))}</p>`
