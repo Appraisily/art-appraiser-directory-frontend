@@ -1,0 +1,63 @@
+{
+  "appraisers": [
+    {
+      "id": "lancaster-amy-i-schlegel",
+      "name": "Amy I Schlegel",
+      "slug": "amy-i-schlegel",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Lancaster",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Lancaster, MA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.schlegelfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art - 20th Century",
+          "Photography & Photographs",
+          "Pottery",
+          "Prints - Modern & Contemporary",
+          "Sculpture",
+          "ISA"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Amy I Schlegel offers art appraisal services serving Lancaster, MA. FAIR directory data indicates specialties in Art - 20th Century, Photography & Photographs, Pottery, Prints - Modern & Contemporary, Sculpture, ISA, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: schlegelfineart.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-10950"
+      }
+    }
+  ]
+}

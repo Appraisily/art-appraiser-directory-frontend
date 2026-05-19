@@ -1,0 +1,136 @@
+{
+  "title": "Art appraisers in Palm Beach, Florida",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "palm-beach",
+    "url": "https://art-appraisers-directory.appraisily.com/location/palm-beach/",
+    "name": "Art appraisers in Palm Beach, Florida",
+    "description": "Compare art appraisers in Palm Beach, Florida.",
+    "city": "Palm Beach",
+    "region": "Florida",
+    "country": "US",
+    "numberOfListedAppraisers": 15,
+    "listedAppraisers": [
+      {
+        "name": "Alicia E Weaver",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver/",
+        "slug": "alicia-e-weaver",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg?updatedAt=1741088882489",
+        "description": "Alicia E Weaver provides professional art appraisal services specializing in Antiques, Americana, Decorative Arts, Furniture, Ceramics, Silver, 19th–20th century paintings. With 15+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Elizabeth Lake Lovett",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lake-lovett/",
+        "slug": "elizabeth-lake-lovett",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
+        "description": "Elizabeth Lake Lovett provides professional art appraisal services specializing in 19th–20th Century American and European paintings. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Kaminski Auctions",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/kaminski-auctions/",
+        "slug": "kaminski-auctions",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
+        "description": "Kaminski Auctions provides professional art appraisal services specializing in Fine Art, Asian/Modern Art, Militaria, Jewelry, Auction Appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "AppraiseItNow",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
+        "slug": "appraiseitnow",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-appraiseitnow_1741086879775_n1p8sRul5.jpg",
+        "description": "AppraiseItNow provides professional art appraisal services specializing in General personal property appraisal, Real Estate, Online appraisal services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Sotheby's Palm Beach",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/sothebys-palm-beach/",
+        "slug": "sothebys-palm-beach",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg",
+        "description": "Sotheby's Palm Beach provides professional art appraisal services specializing in Art valuation, Consignment consultations, Acquisitions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary Art, Modern Art, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-page-art-inc_1741087657099_AQpf_UTkS.jpg",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-saylor-rice-appraisals_1741087677129_6hZ4MbZt4.jpg",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-gurr-johns_1741087682682_SjPC9pNft.jpg",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-mimesis-gallery_1741087688213_Bh5FFjuTo.jpg",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free art valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Eaton Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/winston-art-group-palm-beach.svg",
+        "description": "Eaton Fine Art is an award-winning, full-service art consultancy firm dedicated to curating captivating and unforgettable art collections. With over 31 years in business, they have worked with prestigious clients including Rosewood Hotels, Hyatt, and The Cosmopolitan of Las Vegas. They provide art appraisal, curation, and consultancy services from their West Palm Beach headquarters.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Winston Art Group",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/winston-art-group-palm-beach/",
+        "slug": "winston-art-group-palm-beach",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/winston-art-group-palm-beach.svg",
+        "description": "Winston Art Group is a fine art appraisal and advisory firm located in West Palm Beach. They provide comprehensive art appraisal, valuation, advisory, and collection management services for private collectors, estates, and institutions in the Palm Beach area.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mary Woerner Fine Arts",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mary-woerner-fine-arts.svg",
+        "description": "Mary Woerner Fine Arts has been serving the West Palm Beach community for over 37 years. Located on Antique Row along South Dixie Highway, this established gallery provides fine art appraisal services, art consultation, and art sales to collectors and art enthusiasts in the Palm Beach area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Habatat Galleries Inc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/habatat-galleries-inc.svg",
+        "description": "Habatat Galleries Inc has been a fixture in the West Palm Beach art community for over 55 years. Located on Clematis Street in downtown West Palm Beach, the gallery specializes in studio glass art and contemporary fine art, providing professional appraisal services alongside their gallery operations.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/palm-beach/"
+    }
+  }
+}

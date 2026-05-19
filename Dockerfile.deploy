@@ -2,7 +2,7 @@ FROM nginx:stable-alpine
 
 ENV PORT 8080
 
-COPY dist /usr/share/nginx/html
+COPY public_site /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 8080

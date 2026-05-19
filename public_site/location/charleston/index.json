@@ -1,0 +1,100 @@
+{
+  "title": "Art appraisers in Charleston, South Carolina",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "charleston",
+    "url": "https://art-appraisers-directory.appraisily.com/location/charleston/",
+    "name": "Art appraisers in Charleston, South Carolina",
+    "description": "Compare art appraisers in Charleston, South Carolina.",
+    "city": "Charleston",
+    "region": "South Carolina",
+    "country": "US",
+    "numberOfListedAppraisers": 10,
+    "listedAppraisers": [
+      {
+        "name": "DJR Authentication",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/djr-authentication/",
+        "slug": "djr-authentication",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_baker-asian-antique-appraisers_1741087699816_0gt459k0L.jpg?updatedAt=1741087701033",
+        "description": "DJR Authentication provides professional art appraisal services specializing in Fine Art, Antiques, Contemporary Art. With 2012 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "LePrince Fine Art",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/leprince-fine-art/",
+        "slug": "leprince-fine-art",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-gurr-johns_1741089202073_b07ScL38a.jpg?updatedAt=1741089203232",
+        "description": "LePrince Fine Art provides professional art appraisal services specializing in Art Consultation, Framing, Commissions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "AppraiseItNow",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
+        "slug": "appraiseitnow",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg?updatedAt=1741089134247",
+        "description": "AppraiseItNow provides professional art appraisal services specializing in Fine Art, Collectibles, General Art Appraisals (excluding jewelry). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-jose-anderson-fine-art-appraisals_1741089127699_ALnIWTEfc.jpg?updatedAt=1741089128785",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century Art. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-page-art-inc_1741088641905_-kmjSAfrY.jpg?updatedAt=1741088643034",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate Appraisals, Donation Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-saylor-rice-appraisals_1741089196485_Z0bSVE4m2Y.jpg?updatedAt=1741089197778",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance Appraisals, Damage/Loss Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg?updatedAt=1741089094013",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value Art Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "The Art Syndicate (Janette Doering)",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mimesis-gallery.svg",
+        "description": "The Art Syndicate is a boutique fine art appraisal service founded by Janette Doering, an ISA member since 2013. The firm offers professional valuations for charitable donations, cultural property donations, equitable distribution, estate valuations, and insurance. Serving the Charleston, South Carolina area with expertise in fine art appraisal standards.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg?updatedAt=1741087723623",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Valuations, Consignment-based Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/charleston/"
+    }
+  }
+}

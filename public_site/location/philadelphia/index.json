@@ -1,0 +1,171 @@
+{
+  "title": "Art appraisers in Philadelphia, Pennsylvania",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "philadelphia",
+    "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
+    "name": "Art appraisers in Philadelphia, Pennsylvania",
+    "description": "Compare art appraisers in Philadelphia, Pennsylvania.",
+    "numberOfListedAppraisers": 19,
+    "listedAppraisers": [
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-gurr-johns_1741088522110_0PMXOhgf5a.jpg?updatedAt=1741088523784",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Art of Estates - Art Appraisal & Consulting",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-art-of-estates-personal-property-appraisal-firm/",
+        "slug": "philadelphia-art-of-estates-personal-property-appraisal-firm",
+        "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+        "description": "Art of Estates - Art Appraisal & Consulting offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Barry S. Slosberg Auctioneers & Appraisers",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/barry-s-slosberg-auctioneers-and-appraisers/",
+        "slug": "barry-s-slosberg-auctioneers-and-appraisers",
+        "image": "https://www.bssauction.com/wp-content/themes/theme-modern/dist/img/favicon/apple-touch-icon.png",
+        "description": "Barry S. Slosberg Auctioneers & Appraisers offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Bertolino Arts",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/bertolino-arts/",
+        "slug": "bertolino-arts",
+        "image": "https://static.parastorage.com/client/pfavico.ico",
+        "description": "Bertolino Arts offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Doyle (Pennsylvania Regional Office)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/doyle-pennsylvania-regional-office/",
+        "slug": "doyle-pennsylvania-regional-office",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
+        "description": "Doyle (Pennsylvania Regional Office) provides professional art appraisal services specializing in Fine art, Jewelry, Asian works. With Since 1962 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-appraiseitnow_1741089173757_UkgoMBIbR.jpg?updatedAt=1741089174887",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Fine Art Concierge",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-concierge/",
+        "slug": "fine-art-concierge",
+        "image": "https://static.parastorage.com/client/pfavico.ico",
+        "description": "Fine Art Concierge offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Freeman's | Hindman",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/freemans-hindman/",
+        "slug": "freemans-hindman",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg?updatedAt=1741089278455",
+        "description": "Freeman's | Hindman provides professional art appraisal services specializing in Fine and decorative arts valuation, Historical collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-anderson-fine-art-appraisals_1741088958472_U_WRuRPjJ.jpg?updatedAt=1741088959583",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Manages over $10 billion in art value annually experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Jennifer L. Strasbaugh, Fine Arts Appraising",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-strasbaugh-fine-arts-appraising/",
+        "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
+        "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+        "description": "Jennifer L. Strasbaugh, Fine Arts Appraising offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Linzey Appraisal Associates LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisal-services-philadelphia-pa-art-antiques-furniture-estate/",
+        "slug": "appraisal-services-philadelphia-pa-art-antiques-furniture-estate",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/appraisal-services-philadelphia-pa-art-antiques-furniture-estate.svg",
+        "description": "Linzey Appraisal Associates LLC offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg?updatedAt=1741088506014",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-escher-associates-ea_1741089241493_eGyx_6iL-.jpg?updatedAt=1741089242530",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate valuations, Donation appraisals, Litigation support. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Philadelphia Jewelry Appraisers",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-jewelry-appraisers/",
+        "slug": "philadelphia-jewelry-appraisers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
+        "description": "Philadelphia Jewelry Appraisers provides professional art appraisal services specializing in Jewelry, Diamonds, Watches. With 30+ years (family-owned since 1950) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-escher-associates_1741086903765_KuJQHi6aC.jpg?updatedAt=1741086904882",
+        "description": "Prestige Estate Services provides professional art appraisal services specializing in Fine art, Antiques, Furniture, IRS estate tax appraisals, Insurance documentation. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Robyn Roderick Fine Art Appraisal Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/robyn-roderick-fine-art-appraisal-services-llc/",
+        "slug": "robyn-roderick-fine-art-appraisal-services-llc",
+        "image": "https://images.squarespace-cdn.com/content/v1/55ccf4a7e4b068d2e78c786b/1445207307138-ADXZLN7FYXT10CL3F3YW/favicon.ico?format=100w",
+        "description": "Robyn Roderick Fine Art Appraisal Services offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage and loss evaluations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Susan Golashovsky, FASA, FSA-Scot",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/susan-golashovsky-personal-property-appraiser/",
+        "slug": "susan-golashovsky-personal-property-appraiser",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/susan-golashovsky-personal-property-appraiser.svg",
+        "description": "Susan Golashovsky, FASA, FSA-Scot offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Wilson Art Services, LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+        "slug": "sarah-ann-wilson-art-services",
+        "image": "https://assets.squarespace.com/universal/default-favicon.ico",
+        "description": "Wilson Art Services, LLC offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/philadelphia/"
+    }
+  }
+}

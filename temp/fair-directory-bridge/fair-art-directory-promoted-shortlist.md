@@ -1,0 +1,321 @@
+# FAIR Candidate Promotion Shortlist
+
+Generated: 2026-04-17T11:35:42.515Z
+
+## Summary
+
+- Raw FAIR candidates: 629
+- Unique candidate groups: 578
+- Promote now: 166
+- Review next: 111
+- Hold: 301
+
+## Promote Now
+
+- Perri Guthrie [65] | Woodside, CA | perriguthrie.com | art_candidate
+- Amy I Schlegel [61] | Lancaster, MA | schlegelfineart.com | art_candidate
+- Brenda Simonson-Mohle [61] | Dallas, TX | signetart.com | art_candidate
+- Charles Barry Goldstein [61] | Rockville, MD | forensicartappraiser.com | art_candidate
+- Dina Brown [61] | Beverly Hills, CA | dinabrownartappraisals.com | art_candidate
+- Elizabeth Blackmar [61] | Redondo Beach, CA | southbayartappraisals.com | art_candidate
+- Erin E Keever [61] | Austin, TX | erinkeever.com | art_candidate
+- Jennifer E Salvetti-Kulla, MA [61] | Solana Beach, CA | jskfineartappraisals.com | art_candidate
+- Jessica Berger [61] | SCHAUMBURG, IL | abhfineartadvisory.com | art_candidate
+- Julia R. Bluett [61] | Jacksonville Beach, FL | bluettartappraisers.com | art_candidate
+- Justin Rogers [61] | Kansas City, MO | rogersfineart.com | art_candidate
+- Lindsey M Owen [61] | Chicago, IL | loappraisals.com | art_candidate
+- Maria Tarrence [61] | New York, NY | capitalartgroup.com | art_candidate | duplicates=2
+- Rosalie Wardell [61] | San Francisco, CA | wardellappraisals.com | art_candidate
+- William S Stamats [61] | Langley, WA | stamatsartappraisals.com | art_candidate
+- Isabelle M Weiss [60] | Detroit, MI | collectoranonymous.com | art_candidate
+- Anne Kelly Lewis [57] | Fort Worth, TX | fineartappraisalllc.com | art_candidate
+- Carrie Young [57] | Addison, IL | leonardappraisal.com | art_candidate
+- Chris Ingalls [57] | Miami, FL | appraisalssofla.com | art_candidate
+- Christine Guernsey [57] | Colleyville, TX | fineartofappraising.com | art_candidate
+- Christine H Anderson, ISA AM [57] | MILWAUKEE, WI | guardianfineart.com | art_candidate
+- Elise Waters Olonia [57] | Ranchos de Taos, NM | fineartservices.info | art_candidate
+- Heidi Vaughan, MA, ISA AM [57] | Houston, TX | heidivaughanfineart.com | art_candidate
+- Kim A. Kasten [57] | Dallas, TX | kastenartappraisal.com | art_candidate
+- Lauren K. Stump [57] | Orlando, FL | hollingsworthfinearts.com | art_candidate
+- Liana D Schwaitzberg [57] | Houston, TX | mkgart.com | art_candidate | duplicates=2
+- Linda Matthews [57] | Santa Fe, NM | thematthewsgallery.com | art_candidate
+- Mark Alexander [57] | Palm Coast, FL | artserv2000.com | art_candidate
+- Weschler's Auctioneers & Appraisers [57] | Rockville, MD | weschlers.com | hybrid_candidate | duplicates=2
+- Suzy McGrane-Hop [57] | Cedar Rapids, IA | gildedpeargallery.com | art_candidate
+- Wendy M. Gerdau [57] | Los Angeles, CA | tecsappraisals.com | art_candidate
+- Shaina C Harkness [54] | Sarasota, FL | harknessfineart.com | art_candidate
+- Clare S Elliott [53] | Houston, TX | elliott-art.com | art_candidate
+- Dana D. Holland-Beickert [53] | Memphis, TN | memphisartappraisals.com | art_candidate
+- Daniel M Fulco [53] | Ellicott City, MD | artadapts.com | art_candidate
+- Elsie N Arredondo [53] | San Diego, CA | enaartgroup.com | art_candidate
+- Karen N Rogers [53] | Santa Fe, NM | karenrogersartappraisals.com | art_candidate
+- Melanie Smith [53] | Nags Head, NC | seasideart.com | art_candidate
+- Shelley Corder Matthews [53] | Fort Worth, TX | scmfineart.com | art_candidate
+- Aarin Richard [52] | Santa Fe, NM | richardartappraisals.com | art_candidate
+- Fairall Art Advising & Appraisals [51] | Phoenix, AZ | fairallart.com | art_candidate | duplicates=2
+- B. Kathleen Gallagher [49] | Garland, TX | bkathleengallagher.com | art_candidate
+- Christopher T Green [49] | Princeton, NJ | christopher-t.green | art_candidate
+- Daphne L. Rosenzweig [49] | Sarasota, FL | rosenzweigassociates.com | art_candidate
+- Elizabeth Ruffner [49] | Chattanooga, TN | ruffnerartadvisory.com | art_candidate
+- Fred P. Vant Slot [49] | Dallas, TX | blackwoodassetadvisors.com | art_candidate
+- Mitchell J Korst [49] | Santa Fe, NM | canyonroadappraisals.com | art_candidate
+- Ninya Lee Greek [49] | Gilbert, AZ | coronadoappraisal.com | art_candidate
+- Sotheby's New York [49] | New York, NY | sothebys.com | art_candidate | duplicates=2
+- York G Eggert Jr. [49] | Venice, FL | bronzehercules.com | art_candidate
+- Lauren D. Travis [48] | Doylestown, PA | artappraisal-services.com | art_candidate
+- Bates Art Group [47] | Birmingham, MI | batesartgroup.com | hybrid_candidate | duplicates=2
+- Fr. Jason Foster [47] | Shreveport, LA | fosterandkombos.com | art_candidate
+- George T Clark [47] | Baton Rouge, LA | taylorclark.com | art_candidate
+- John L Lloyd [47] | Memphis, TN | lloydandfinch.com | art_candidate
+- Christine M Whaling [46] | Englewood, CO | christinewhalingartadvisory.com | art_candidate
+- Showplace NYC Fine Art Buyer [46] | New York, NY | estatebuyers.nyshowplace.com | art_candidate | duplicates=2
+- Cindy Stephenson [45] | Southampton, PA | stephensonsauction.com | art_candidate
+- Dr. Leslie Hammond, ASA [45] | n/a, FL | artisticeye-fas.com | art_candidate
+- Elizabeth W Abston [45] | JACKSON, MS | eafineart.com | art_candidate
+- John A. Buxton [45] | Dallas, TX | arttrak.com | art_candidate
+- Mr. Jeffrey P. Fuller, ASA [45] | n/a, PA | artworth.net | art_candidate
+- Mrs. Terri Stearn, ASA [45] | n/a, MI | detroitfaa.com | art_candidate
+- Ms. Allison D. Gee, ASA [45] | n/a, AZ | allisongee.com | art_candidate
+- Ms. Cecilia Dan, ASA [45] | n/a, CA | ceciliadan.com | art_candidate
+- Ms. Erica Hartman, ASA [45] | n/a, FL | hartmanfineart.com | art_candidate
+- Ms. Gabrielle Selz, ASA [45] | n/a, CA | selzfineartappraisals.com | art_candidate
+- Ms. Jane M. St. Lifer, ASA [45] | n/a, NY | stliferart.com | art_candidate
+- Ms. Jeanie Craig, ASA [45] | n/a, CA | appraiserart.com | art_candidate
+- Ms. Julia Liberman, ASA [45] | n/a, NY | jlfineartappraisal.com | art_candidate
+- Ms. Kathy Poppers, ASA [45] | n/a, CA | kathypoppers.com | art_candidate
+- Ms. Louise B. Allrich, ASA [45] | n/a, CA | allrichart.com | art_candidate
+- Ms. Nancy Ann Marenakos, ASA [45] | n/a, CT | adelaidefineart.com | art_candidate
+- Pearson Appraisals [45] | Phoenix, AZ | pearsonappraisals.net | art_candidate | duplicates=2
+- Veritas Fine Art Appraisals & Consulting [45] | Chicago, NY | veritasartappraisals.com | art_candidate | duplicates=2
+- Mr. Scott Atkinson [44] | n/a, CA | dsacurator.com | art_candidate
+- Vanessa Elmore [44] | Santa Fe, NM | elmoreartappraisals.com | art_candidate
+- Ahlstrom Appraisals [43] | Atlanta, GA | ahlstromappraisals.com | hybrid_candidate
+- Kelly Knoll [43] | Troy, MI | heritageappraisalsmi.com | hybrid_candidate | duplicates=2
+- Michael J Ettema [43] | Santa Fe, NM | artappraisalsofsantafe.com | art_candidate
+- Ms. Corinne Cain, ASA [43] | n/a, AZ | corinnecain.com | art_candidate
+- Ruth Winston [43] | New Orleans, LA | winstonappraisals.com | hybrid_candidate
+- Stuart H. Salsbury Appraisal Services [43] | Los Angeles, CA | artappraisals.com | hybrid_candidate
+- American Gem Registry – Neil Beaty CGJA [42] | Denver, CO | americangemregistryneilbeatycgja.com | art_candidate
+- Christina Leonardi Pereiro [42] | Trumbull, CT | appraisal4ct.com | art_candidate
+- Jacob Fish [42] | Morton Grove, IL | jakefish.net | art_candidate
+- Anthony Slayter-Ralph Fine Art [41] | Las Vegas, NE | anthonyslayterralphfineart.com | art_candidate
+- Dr. Andrea Roth, ASA [41] | n/a, CA | rothescherart.com | art_candidate | duplicates=2
+- Matthew Clayton Brown Fine Art Appraisals [41] | New Orleans, LA | mclaytonbrown.com | hybrid_candidate
+- Mr. Andrew J. Comly, ASA [41] | n/a, PA | comly.com | art_candidate | duplicates=2
+- Mr. Peter Held, ASA [41] | n/a, AZ | peterheldappraisals.com | art_candidate
+- Ms. Allyson Lee, ASA [41] | n/a, MA | aleeappraisals.com | art_candidate
+- Ms. Amy Kuhnert, AM [41] | n/a, DC | murphykuhnert.com | art_candidate
+- Ms. Christina Whitson, ASA [41] | n/a, NC | artappraisalservices.net | art_candidate
+- Ms. Cynthia A. Shaver, ASA [41] | n/a, CA | cynthiashaver.com | art_candidate
+- Ms. Debrah Dunner, AM [41] | n/a, MD | aestheticaart.com | art_candidate
+- Ms. Elizabeth Heard, AM [41] | n/a, FL | arthousetrust.com | art_candidate
+- Ms. Emily Stauffer [41] | n/a, UT | dodworthart.com | art_candidate
+- Ms. Kendra E. Bowers, ASA [41] | n/a, CO | kendrabowers.com | art_candidate
+- Ms. Lauren Gallaher, ASA [41] | n/a, CA | modernartservices.com | art_candidate
+
+## Review Next
+
+- Barbara A. Beames [49] | Santa Fe, NM | no-site | art_candidate
+- Charles Barry Goldstein [45] | Rockville, MD | no-site | art_candidate
+- Christopher S Gaillard [45] | New York, NY | no-site | art_candidate
+- Lorena Allen, ISA CAPP, AAA [45] | ORLANDO, FL | no-site | art_candidate | duplicates=2
+- Michelle Y Castro [45] | Dallas, TX | no-site | art_candidate
+- Pam Campbell [45] | Fort Worth, TX | no-site | art_candidate
+- Reilly Clark [45] | Santa Barbara, CA | no-site | art_candidate | duplicates=2
+- Suzanne Alessi [45] | Washington, DC | no-site | art_candidate
+- Tina L Teel [45] | Palm Beach, FL | no-site | art_candidate
+- Calvin P Sheely [44] | New York, NY | no-site | art_candidate
+- Emily Waldorf [44] | Menlo Park, CA | no-site | art_candidate
+- Catherine A Milewski [41] | Roseville, MI | no-site | art_candidate
+- MONIKA MOORES, ISA [41] | Albuquerque, NM | no-site | art_candidate
+- Robert Snell [41] | St. Paul, MN | no-site | art_candidate
+- Tracy H Bernabo [40] | Ashland, VA | no-site | art_candidate
+- Ms. Lela Hersh, ASA [39] | n/a, IL | no-site | art_candidate
+- Amy Kelly [37] | Albany, TX | no-site | art_candidate
+- Juliette Yuan & Associates [37] | New York copy, NY | jyuanassociates.com | art_candidate | duplicates=2
+- Lauren M Parker [37] | Miami, FL | no-site | art_candidate
+- Rebecca Madison [37] | Missoula, MT | no-site | art_candidate
+- Appraiser Listings [35] | Las Vegas, NE | appraiserlistings.com | art_candidate
+- BKR Appraisers [35] | St. Louis, MO | bkrappraisers.com | hybrid_candidate
+- Barb Preston - Collector's Fine Art Appraisal [35] | Aspen, CO | aspenappraisalbarbpreston.com | hybrid_candidate
+- Brown Button Estate Sale Services [35] | Kansas City, MO | brownbutton.com | hybrid_candidate
+- Catherine's Estates & Appraisals [35] | Tucson, AZ | catherinestates.com | hybrid_candidate
+- Charles R. Keller - Personal Property Appraiser [35] | Kansas City, MO | charleskeller.net | hybrid_candidate
+- Claycomb Appraisals & Estate Services [35] | Tampa, FL | claycombappraisals.com | hybrid_candidate
+- Drake Appraisals [35] | Tampa, FL | drakeappraisals.com | hybrid_candidate
+- Florida Personal Property Appraisal [35] | Orlando, FL | valuepros.com | hybrid_candidate | duplicates=12
+- Harrison Appraisals [35] | Baltimore, MD | harrisonappraisals.com | hybrid_candidate
+- Heritage Auctions Appraisals [35] | Dallas, TX | ha.com | hybrid_candidate | duplicates=3
+- KC Auction & Appraisal Company [35] | Kansas City, MO | kcauctioncompany.com | hybrid_candidate
+- Kuehnert Appraisals & Consulting [35] | Houston, TX | kuehnertappraisals.com | hybrid_candidate
+- Linzey Appraisals [35] | Philadelphia, PA | linzeyappraisals.com | hybrid_candidate | duplicates=2
+- Lion & Unicorn Appraisals [35] | Miami, FL | lionandunicorn.com | hybrid_candidate | duplicates=2
+- Michael Hall Antiques [35] | Nashville, TN | michaelhallantiques.com | hybrid_candidate
+- Morris Appraisal Service [35] | Dallas, TX | bmorrisappraisal.com | hybrid_candidate
+- Roger m Heuberger [35] | boynton beach, FL | no-site | art_candidate
+- Stubbs Estates [35] | Wichita, KS | stubbestates.com | hybrid_candidate
+- The Potomack Company Auctions & Appraisals [35] | Alexandria, VA | potomackcompany.com | hybrid_candidate
+- Anita Rodriguez-Wakelin [33] | Lake Worth, TX | no-site | art_candidate
+- Beermann Art Advisory [33] | Atlanta, GA | beermannartadvisory.com | hybrid_candidate
+- Cleo L Sloan, ISA AM, M.A. Museum Studies [33] | West Palm Beach, FL | no-site | art_candidate
+- Danielle T Rahm [33] | New York, NY | no-site | art_candidate
+- Denise M Gerson [33] | Miami, FL | no-site | art_candidate
+- Dorothy I Long [33] | Billings, MT | no-site | art_candidate
+- Heather Nadeau [33] | Windsor, CT | nadeausappraisals.com | hybrid_candidate
+- Lottie M. Stevens [33] | Tulsa, OK | salesbylottie.com | hybrid_candidate
+- Mary Ross [33] | Dallas, TX | defined-value.com | hybrid_candidate
+- Maura Kropke [33] | Carolina Beach, NC | knowitsworth.com | hybrid_candidate
+- Mr. Paul Golubovs, ASA, ARM [33] | n/a, CA | theappraiserofchoice.com | hybrid_candidate
+- Mr. Roger P. Durkin, FASA, ARM, IFAS [33] | n/a, MA | durkinlawpc.com | hybrid_candidate
+- Mrs. Martine M. White, ASA [33] | n/a, NJ | bernardsappraisal.com | hybrid_candidate
+- Ms. Anne Benedict, ASA [33] | n/a, MA | annebenedict.com | hybrid_candidate
+- Robyn Borgelt [33] | Santa Fe, NM | no-site | art_candidate
+- Selma Paul [33] | Atlanta, GA | selmapaul.com | hybrid_candidate
+- Sophia C du Brul, ISA AM [33] | Wilmette, IL | sophiasestatesales.com | hybrid_candidate
+- Tim Luke [33] | Hobe Sound, FL | freemansauction.com | hybrid_candidate
+- William D. Irvin, Ed.D. [33] | Petersburg, VA | perryadamsantiques.com | hybrid_candidate
+- A Art Collector [32] | Boston, MA | no-site | art_candidate | duplicates=2
+- Clower Fine Art [32] | Boston, MA | no-site | art_candidate
+- Griffin L Lichtenson [32] | New York, NY | no-site | art_candidate
+- Kimberly Permenter [32] | Austin, TX | no-site | art_candidate | duplicates=2
+- Ms. Barbara Blades-Lines, ASA, ARM [32] | n/a, TX | bladesappraisals.com | hybrid_candidate
+- Anastasia Hagen Eikenberry [31] | Centennial, CO | no-site | hybrid_candidate
+- Mr. Claiborne B. Beall, ASA [31] | n/a, MD | beallappraisals.com | hybrid_candidate
+- Mr. David C. Eldridge, ASA [31] | n/a, FL | eldridgeappraisals.com | hybrid_candidate
+- Mr. Emanuel Nash, III, ASA [31] | n/a, FL | ewnash.com | hybrid_candidate
+- Mr. Jerry Logan Sampson, ASA [31] | n/a, KY | antiquesreferencebooks.blogspot.com | hybrid_candidate
+- Mr. Stephen J. Caudana, ASA [31] | n/a, CA | gcappraisers.com | hybrid_candidate
+- Mr. William D. Rau, ASA [31] | n/a, LA | rauantiques.com | hybrid_candidate
+- Mrs. Lynn Magnusson, ASA [31] | n/a, NJ | themagnussongroup.com | hybrid_candidate
+- Ms. J. Lee Drexler, ASA [31] | n/a, NY | esquireappraisals.com | hybrid_candidate
+- Ms. Laurene A. Sherlock, AM [31] | n/a, MD | art-care.com | hybrid_candidate
+- Ms. Lynn Hightower, ASA [31] | n/a, NM | americana-estates.com | hybrid_candidate
+- Postcard QR Test [31] | Miami, FL | fairappraisers.org | art_candidate
+- Artrium Fine Art & Estate Appraisal [30] | St. Louis, MI | appraiser.org | art_candidate
+- Lela Hersh [30] | Highland Park, IL | no-site | art_candidate
+- Mrs. Pam Campbell, ASA [29] | n/a, TX | no-site | art_candidate
+- Mrs. Shelli G. Beermann, AM [29] | n/a, GA | no-site | art_candidate
+- Ms. Lisa W. Greenberg, AM [29] | n/a, MA | no-site | art_candidate
+- Ms. Mary Antonakos, ASA [29] | n/a, IL | no-site | art_candidate
+- Ms. Melissa Sachs, ASA [29] | n/a, CA | no-site | art_candidate
+- Ms. Sharon H. Campbell, ASA [29] | n/a, SC | no-site | art_candidate
+- Strange Imports [29] | Carbondale, CO | strangeimports.com | hybrid_candidate
+- Zeitgeist ARTifacts [29] | Atlanta, GA | zeitgeistartifacts.com | hybrid_candidate
+- CLARS Auction Gallery – Asian Art Department [28] | San Francisco, CA | 2clarsauctiongalleryasianartdepartment.com | hybrid_candidate
+- Brady L\. Dreasher \(ISA CAPP\) – Art of Estates [28] | Aspen, CO | bradyldreasherisacappartofestates.com | hybrid_candidate
+- Craig Husar Fine Diamonds [28] | Milwaukee, WI | craighusar.com | hybrid_candidate
+- Erin G. Fossum [28] | Seattle, WA | no-site | art_candidate
+- Katy Alexander [28] | Dallas, TX | no-site | art_candidate
+- Kohlert Appraisal Services [28] | New Orleans, LA | kohlertappraisals.com | hybrid_candidate
+- Mrs. Janella Smyth, FASA [28] | n/a, NC | accredited-appraisal.com | hybrid_candidate
+- Shannon Dillard Mitchell [28] | Fayetteville, AR | no-site | art_candidate
+- Elizabeth H Hughes [27] | Sunland, CA | no-site | hybrid_candidate
+- Jamie N Satterfield [27] | Lahaina, HI | no-site | hybrid_candidate
+- Karina Belilty [27] | North Miami Beach, FL | no-site | art_candidate
+- Roland J Rynkiewicz [27] | Farragut, TN | no-site | hybrid_candidate
+- Sanjay Kapoor [27] | New york, NY | no-site | art_candidate
+- Signet Art [27] | Arlington, TX | no-site | hybrid_candidate
+
+## Hold
+
+- Lindsey M Owen [54] | Chicago, IL | no-site | art_candidate
+- Shelley D Hall [54] | Lake Oswego, OR | no-site | art_candidate
+- Perri Guthrie [50] | Woodside, CA | no-site | art_candidate | duplicates=2
+- Rosalie Wardell [50] | San Francisco, CA | no-site | art_candidate
+- Sylvia Fraley [42] | St. Louis, MO | no-site | art_candidate | duplicates=2
+- Dana M Summitt [38] | Raleigh, NC | no-site | art_candidate | duplicates=2
+- George T Clark [38] | Baton Rouge, LA | no-site | art_candidate
+- Kent W McDonald [38] | Albuquerque, NM | no-site | art_candidate | duplicates=2
+- Linda Matthews [38] | Santa Fe, NM | no-site | art_candidate | duplicates=2
+- Pamela Jaynes [38] | Seattle, WA | no-site | art_candidate
+- Daphne L. Rosenzweig [34] | Sarasota, FL | no-site | art_candidate
+- Charles R. Keller [30] | Lee's Summit, MO | no-site | art_candidate
+- Lisa Schick Hudspeth [28] | Cary, NC | no-site | hybrid_candidate | duplicates=2
+- Wendy M. Gerdau [28] | Los Angeles, CA | no-site | hybrid_candidate
+- Courtney Ahlstrom Christy [26] | Atlanta, GA | no-site | art_candidate
+- Ms. Amy Essick [24] | n/a, CA | no-site | art_candidate
+- Ms. Elizabeth Stephenson Don [24] | n/a, MO | no-site | art_candidate
+- Georgiana Nedelcu [23] | Estill, SC | no-site | hybrid_candidate
+- Nugent Appraisal Services [23] | Fort Lauderdale, FL | no-site | hybrid_candidate
+- Randy's Auction Gallery [23] | Norfolk, VA | no-site | hybrid_candidate
+- Scott Palmer [23] | Carbondale, CO | no-site | hybrid_candidate
+- Selkirk Auctioneers & Appraisers [23] | St. Louis, MO | no-site | hybrid_candidate
+- David Levy [22] | Savannah, GA | no-site | hybrid_candidate
+- Albuquerque Estate Appraisals [21] | Albuquerque, NM | no-site | hybrid_candidate
+- Albuquerque Fine Art & Antique Appraisals [21] | Albuquerque, NM | no-site | hybrid_candidate
+- Albuquerque Heritage Appraisals [21] | Albuquerque, NM | no-site | hybrid_candidate
+- Antique Row Palm Beach [21] | West Palm Beach, FL | no-site | hybrid_candidate
+- Antique Row Philadelphia [21] | Philadelphia, PA | no-site | hybrid_candidate
+- Baton Heritage Appraisals [21] | Baton Rouge, LA | no-site | hybrid_candidate
+- Baton Rouge Estate Appraisals [21] | Baton Rouge, LA | no-site | hybrid_candidate
+- Baton Rouge Fine Art & Antique Appraisals [21] | Baton Rouge, LA | no-site | hybrid_candidate
+- Berkeley Personal Property Appraisers [21] | Berkeley, CA | no-site | hybrid_candidate
+- Birmingham Estate Appraisals [21] | Birmingham, AL | no-site | hybrid_candidate
+- Birmingham Fine Art & Antique Appraisals [21] | Birmingham, AL | no-site | hybrid_candidate
+- Birmingham Heritage Appraisals [21] | Birmingham, AL | no-site | hybrid_candidate
+- Boise Estate Appraisals [21] | Boise, ID | no-site | hybrid_candidate
+- Boise Fine Art & Antique Appraisals [21] | Boise, ID | no-site | hybrid_candidate
+- Boise Heritage Appraisals [21] | Boise, ID | no-site | hybrid_candidate
+- Buffalo Estate Appraisals [21] | Buffalo, NY | no-site | hybrid_candidate
+- Buffalo Fine Art & Antique Appraisals [21] | Buffalo, NY | no-site | hybrid_candidate
+- Buffalo Heritage Appraisals [21] | Buffalo, NY | no-site | hybrid_candidate
+- Canyon Road Antiques [21] | Santa Fe, NM | no-site | hybrid_candidate
+- Capital City Antique Appraisals [21] | Columbus, OH | no-site | hybrid_candidate
+- Charleston Estate Appraisals [21] | Charleston, SC | no-site | hybrid_candidate
+- Charleston Fine Art & Antique Appraisals [21] | Charleston, SC | no-site | hybrid_candidate
+- Charleston Heritage Appraisals [21] | Charleston, SC | no-site | hybrid_candidate
+- Cincinnati Estate Appraisals [21] | Cincinnati, OH | no-site | hybrid_candidate
+- Cincinnati Fine Art & Antique Appraisals [21] | Cincinnati, OH | no-site | hybrid_candidate
+- Cincinnati Heritage Appraisals [21] | Cincinnati, OH | no-site | hybrid_candidate
+- Cleveland Estate Appraisals [21] | Cleveland, OH | no-site | hybrid_candidate
+- Cleveland Fine Art & Antique Appraisals [21] | Cleveland, OH | no-site | hybrid_candidate
+- Cleveland Heritage Appraisals [21] | Cleveland, OH | no-site | hybrid_candidate
+- Colorado Heritage Appraisals [21] | Colorado Springs, CO | no-site | hybrid_candidate
+- Colorado Springs Estate Appraisals [21] | Colorado Springs, CO | no-site | hybrid_candidate
+- Colorado Springs Fine Art & Antique Appraisals [21] | Colorado Springs, CO | no-site | hybrid_candidate
+- David Goldberg Appraiser - CEDI [21] | New Orleans, LA | no-site | hybrid_candidate
+- Des Heritage Appraisals [21] | Des Moines, IA | no-site | hybrid_candidate
+- Des Moines Estate Appraisals [21] | Des Moines, IA | no-site | hybrid_candidate
+- Des Moines Fine Art & Antique Appraisals [21] | Des Moines, IA | no-site | hybrid_candidate
+- Dumouchelle Art Galleries [21] | Detroit, MI | no-site | hybrid_candidate
+- El Heritage Appraisals [21] | El Paso, TX | no-site | hybrid_candidate
+- El Paso Estate Appraisals [21] | El Paso, TX | no-site | hybrid_candidate
+- El Paso Fine Art & Antique Appraisals [21] | El Paso, TX | no-site | hybrid_candidate
+- Fresno Estate Appraisals [21] | Fresno, CA | no-site | hybrid_candidate
+- Fresno Fine Art & Antique Appraisals [21] | Fresno, CA | no-site | hybrid_candidate
+- Fresno Heritage Appraisals [21] | Fresno, CA | no-site | hybrid_candidate
+- Hartford Estate Appraisals [21] | Hartford, CT | no-site | hybrid_candidate
+- Hartford Fine Art & Antique Appraisals [21] | Hartford, CT | no-site | hybrid_candidate
+- Hartford Heritage Appraisals [21] | Hartford, CT | no-site | hybrid_candidate
+- Indianapolis Estate Appraisals [21] | Indianapolis, IN | no-site | hybrid_candidate
+- Indianapolis Fine Art & Antique Appraisals [21] | Indianapolis, IN | no-site | hybrid_candidate
+- Indianapolis Heritage Appraisals [21] | Indianapolis, IN | no-site | hybrid_candidate
+- Jacksonville Estate Appraisals [21] | Jacksonville, FL | no-site | hybrid_candidate
+- Jacksonville Fine Art & Antique Appraisals [21] | Jacksonville, FL | no-site | hybrid_candidate
+- Jacksonville Heritage Appraisals [21] | Jacksonville, FL | no-site | hybrid_candidate
+- Kathleen Connolly Appraisals [21] | Norfolk, VA | no-site | hybrid_candidate
+- King Street Antiques [21] | Charleston, SC | no-site | hybrid_candidate
+- Las Heritage Appraisals [21] | Las Vegas, NV | no-site | hybrid_candidate
+- Las Vegas Estate Appraisals [21] | Las Vegas, NV | no-site | hybrid_candidate
+- Las Vegas Fine Art & Antique Appraisals [21] | Las Vegas, NV | no-site | hybrid_candidate
+- Laura A. Nelson, ISA AM - Appraisals & Estate Sales [21] | Tulsa, OK | no-site | hybrid_candidate
+- Lexington Estate Appraisals [21] | Lexington, KY | no-site | hybrid_candidate
+- Lexington Fine Art & Antique Appraisals [21] | Lexington, KY | no-site | hybrid_candidate
+- Lexington Heritage Appraisals [21] | Lexington, KY | no-site | hybrid_candidate
+- Little Heritage Appraisals [21] | Little Rock, AR | no-site | hybrid_candidate
+- Little Rock Estate Appraisals [21] | Little Rock, AR | no-site | hybrid_candidate
+- Little Rock Fine Art & Antique Appraisals [21] | Little Rock, AR | no-site | hybrid_candidate
+- Louisville Estate Appraisals [21] | Louisville, KY | no-site | hybrid_candidate
+- Louisville Fine Art & Antique Appraisals [21] | Louisville, KY | no-site | hybrid_candidate
+- Louisville Heritage Appraisals [21] | Louisville, KY | no-site | hybrid_candidate
+- Lynn Roberts, ISA AM - AZ Family Estate Sales & Appraisals [21] | Tucson, AZ | no-site | hybrid_candidate
+- Memphis Estate Appraisals [21] | Memphis, TN | no-site | hybrid_candidate
+- Memphis Fine Art & Antique Appraisals [21] | Memphis, TN | no-site | hybrid_candidate
+- Memphis Heritage Appraisals [21] | Memphis, TN | no-site | hybrid_candidate
+- Milwaukee Estate Appraisals [21] | Milwaukee, WI | no-site | hybrid_candidate
+- Milwaukee Fine Art & Antique Appraisals [21] | Milwaukee, WI | no-site | hybrid_candidate
+- Milwaukee Heritage Appraisals [21] | Milwaukee, WI | no-site | hybrid_candidate
+- Oklahoma City Estate Appraisals [21] | Oklahoma City, OK | no-site | hybrid_candidate
+- Oklahoma City Fine Art & Antique Appraisals [21] | Oklahoma City, OK | no-site | hybrid_candidate
+- Oklahoma Heritage Appraisals [21] | Oklahoma City, OK | no-site | hybrid_candidate
+

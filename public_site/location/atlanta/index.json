@@ -1,0 +1,133 @@
+{
+  "title": "Art appraisers in Atlanta, Georgia",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "atlanta",
+    "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
+    "name": "Art appraisers in Atlanta, Georgia",
+    "description": "Compare art appraisers in Atlanta, Georgia.",
+    "numberOfListedAppraisers": 16,
+    "listedAppraisers": [
+      {
+        "name": "Aaron Art and Antiques Appraisal Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/",
+        "slug": "aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser.svg",
+        "description": "Aaron Art and Antiques Appraisal Services offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Ahlstrom Appraisals LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/ahlstrom-appraisals-llc/",
+        "slug": "ahlstrom-appraisals-llc",
+        "image": "https://images.squarespace-cdn.com/content/v1/53a0a85be4b0b7f569f5f015/1425333170633-ARLT22MCOWRU71VWELUE/favicon.ico?format=100w",
+        "description": "Ahlstrom Appraisals LLC offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European art, American art, Contemporary art, Modern art, Impressionist art, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Betsy Dorminy Antiques & Art",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/betsy-dorminy-appraisals/",
+        "slug": "betsy-dorminy-appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/betsy-dorminy-appraisals.svg",
+        "description": "Betsy Dorminy Antiques & Art offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Charles Pharr Certified Art & Antique Appraiser",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
+        "slug": "charles-pharr-certified-appraiser",
+        "image": "https://certified-appraiser.com/wp-content/uploads/2020/08/insurance-coverage-150x150.png",
+        "description": "Charles Pharr Certified Art & Antique Appraiser offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg?updatedAt=1741089163923",
+        "description": "Escher Associates provides professional art appraisal services specializing in paintings, sculpture, photography, rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
+        "description": "Gurr Johns provides professional art appraisal services specializing in high-value art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "High Museum of Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/high-museum-of-art.svg",
+        "description": "The High Museum of Art is the leading art museum in the southeastern United States, providing art consultation and appraisal referral services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Kai Lin Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/kai-lin-art.svg",
+        "description": "Kai Lin Art is a contemporary art gallery in Midtown Atlanta providing art sales and appraisal services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mason Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mason-fine-art.svg",
+        "description": "Mason Fine Art provides contemporary art exhibitions and appraisal services in Atlanta's Westside.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in free valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-escher-associates_1741089185385_beB0vX-y6.jpg?updatedAt=1741089186638",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in insurance appraisals, estate appraisals, donation appraisals, litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
+        "description": "Prestige Estate Services provides professional art appraisal services specializing in fine art (19th–20th century paintings), antiques, jewelry, collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg?updatedAt=1741086889532",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in insurance appraisals, damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "The Perfect Piece Atlanta",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/",
+        "slug": "the-perfect-piece-atlanta",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-appraiseitnow_1741089173757_UkgoMBIbR.jpg?updatedAt=1741089174887",
+        "description": "The Perfect Piece Atlanta provides professional art appraisal services specializing in estate valuations for probate, equitable distribution appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/atlanta/"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Beverly Hills, California",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "beverly-hills",
+    "url": "https://art-appraisers-directory.appraisily.com/location/beverly-hills/",
+    "name": "Art appraisers in Beverly Hills, California",
+    "description": "Compare art appraisers in Beverly Hills, California.",
+    "city": "Beverly Hills",
+    "region": "California",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Dina Brown",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown/",
+        "slug": "dina-brown",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/dina-brown.svg",
+        "description": "Dina Brown offers art appraisal services serving Beverly Hills, CA. FAIR directory data indicates specialties in Art - 20th Century, Drawings - 20th Century, Paintings - 20th Century, Prints - 20th Century Limited Edition, Sculpture - 20th Century, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/beverly-hills/"
+    }
+  }
+}

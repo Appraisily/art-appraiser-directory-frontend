@@ -1,16 +1,17 @@
 # Art Appraiser Directory Frontend
 
-This repository contains a React/TypeScript frontend for the Art Appraiser Directory website. It uses Vite for building, with a focus on generating static HTML files for improved SEO and performance.
+This repository now operates as a static publishing system for the Art Appraiser Directory website.
+
+The production surface is plain HTML served directly from `public_site/` through the VPS release directory. Source data still lives in the repo, but the canonical published artifact is the final static HTML, not a rebuilt SPA bundle.
 
 ## Features
 
 - Standardized data model for consistent UI and maintenance
-- Static HTML generation for all appraiser and location pages
+- Static HTML publishing for all appraiser and location pages
 - Integration with ImageKit for appraiser profile images
 - SEO optimization with structured schema.org data
-- Fast and responsive UI with Tailwind CSS
 - Automatic sitemap generation
-- Netlify-ready configuration for easy deployment
+- Release-directory publish flow for VPS deployment
 
 ## Standardized Data Model
 
@@ -21,27 +22,33 @@ The project now uses a standardized data format for all appraiser data:
 - Rich schema.org markup for improved SEO
 - See [DATA_STANDARDIZATION.md](./DATA_STANDARDIZATION.md) for details
 
-## Build Process
+## Static-First Workflow
 
-The codebase offers two build approaches:
+The normal workflow is now `public_site`-first.
 
-### Standardized Build (Recommended)
+### Recommended commands
 
 ```bash
-npm run build  # or npm run build:standardized
+npm run build
+npm run serve:static
+npm run publish:patch
 ```
 
-This build process:
-1. Ensures standardized data is available
-2. Builds the React application
-3. Generates SEO files
-4. Updates links for the main domain
-5. Prepares for Netlify deployment
+`npm run build` no longer means “compile the app” or “refresh generated HTML.”
+It is validation-only. Profile and city HTML should not be mass-edited by npm
+scripts.
 
-See [STANDARDIZED_BUILD.md](./STANDARDIZED_BUILD.md) for more details.
-4. Generate static HTML files for each appraiser and location
-5. Fix any page issues and optimize
-6. Prepare for Netlify deployment
+Use `npm run publish:patch` for homepage, nav/footer, CSS, managed CTA block, or
+asset-only releases. It starts from the active live release, overlays only
+allow-listed static paths from `public_site/`, and updates shared envelope blocks
+on existing appraiser/location pages while checking that protected profile/city
+content stays unchanged.
+
+### Canonical surfaces
+
+- `data/`: structured source facts for appraisers and locations
+- `public_site/`: canonical published HTML artifact
+- `scripts/publish-patch.mjs`: patch publisher to `/mnt/srv-storage/art-appraisers-directory/releases`
 
 ## Development Commands
 
@@ -49,49 +56,59 @@ See [STANDARDIZED_BUILD.md](./STANDARDIZED_BUILD.md) for more details.
 # Start development server
 npm run dev
 
-# Build for production (includes all steps)
+# Validate the canonical static site in public_site/
 npm run build
+
+# Validate public_site/ structure
+npm run check:static
 
 # Fetch images from ImageKit
 npm run fetch:imagekit
 
-# Randomize images for appraisers
-npm run randomize:images
-
-# Serve the built static files locally
+# Serve the canonical static site locally
 npm run serve:static
+
+# Patch homepage/assets/envelope over the active release without replacing directory content
+npm run publish:patch
 
 # Run lint checks
 npm run lint
 
-# Clean the dist directory
-npm run clean
 ```
-
-## Deployment to Netlify
-
-1. Run `npm run build` to create a complete static site in the `dist` directory
-2. The `netlify.toml` file is configured to use these pre-built static files
-3. When you push to your repository, Netlify will deploy these files without running any build commands
 
 ## VPS Static Publish (recommended)
 
 The VPS deployment serves plain HTML from an nginx container, with content bind-mounted from a release directory (articles-style).
 
 - Canonical editable surface: `public_site/`
-- Publish (creates a release under `/mnt/srv-storage/art-appraisers-directory/releases`, flips `current`, restarts the container):
-  - `npm run publish`
+- Validate the static artifact:
+  - `npm run build`
+- Validate the static artifact:
+  - `npm run check:static`
+- Patch publish for footer/nav/static-only changes:
+  - `npm run publish:patch`
+
+Full generated publish is disabled from npm. Use direct reviewed HTML edits for
+individual profile or city content. For visual cleanup, homepage changes,
+nav/footer changes, managed CTA-block changes, or static asset updates, use
+`npm run publish:patch`.
 
 ## Project Structure
 
 - `/src` - React TypeScript source code
 - `/scripts` - Build and utility scripts
 - `/data` - JSON data files for appraisers and locations
-- `/dist` - Generated static output files
+- `/public_site` - Canonical static HTML served in production
 
 ## Image Handling
 
-Appraiser profile images are sourced from the ImageKit service, using the `/appraiser-images` folder. The build process fetches available images, randomly assigns them to appraisers, and ensures they are correctly displayed in the generated HTML.
+Appraiser profile images are sourced from the ImageKit service, using the `/appraiser-images` folder. The remaining ImageKit scripts are diagnostics only; profile HTML should not be rewritten by image automation.
+
+## Editing Rule
+
+- For normal content, SEO, schema, and internal-link changes, edit `public_site/.../index.html` directly.
+- Do not use scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
+- Do not rebuild a frontend app as part of the normal workflow.
 
 ## SEO Optimization Features
 

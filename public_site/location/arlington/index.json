@@ -1,0 +1,20 @@
+{
+  "title": "Art appraisers in Arlington, Texas",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "arlington",
+    "url": "https://art-appraisers-directory.appraisily.com/location/arlington/",
+    "name": "Art appraisers in Arlington, Texas",
+    "description": "Compare art appraisers in Arlington, Texas.",
+    "city": "Arlington",
+    "region": "Texas",
+    "country": "US",
+    "numberOfListedAppraisers": 0,
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/arlington/"
+    }
+  }
+}

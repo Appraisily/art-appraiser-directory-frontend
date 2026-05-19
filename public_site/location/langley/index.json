@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Langley, Washington",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "langley",
+    "url": "https://art-appraisers-directory.appraisily.com/location/langley/",
+    "name": "Art appraisers in Langley, Washington",
+    "description": "Compare art appraisers in Langley, Washington.",
+    "city": "Langley",
+    "region": "Washington",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "William S Stamats",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/william-s-stamats/",
+        "slug": "william-s-stamats",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/william-s-stamats.svg",
+        "description": "William S Stamats offers art appraisal services serving Langley, WA. FAIR directory data indicates specialties in Art, Art - 20th Century, Drawings, Paintings - Contemporary American, Prints - Modern & Contemporary, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/langley/"
+    }
+  }
+}

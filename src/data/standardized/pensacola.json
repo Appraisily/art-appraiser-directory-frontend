@@ -1,0 +1,208 @@
+{
+  "appraisers": [
+    {
+      "id": "pensacola-a-and-a-art-appraisals-naples-fl",
+      "name": "A&A Appraisals - Fine Art",
+      "slug": "a-and-a-art-appraisals-naples-fl",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/4952822f-cc5a-4b50-8c18-2a3259a88ce9/favicon/0a560fa5-2f1c-402c-9861-c345525fc74a/24fea511-99ad-4069-8193-7dba8b191718.jpeg/:/rs=w:16,h:16,m",
+      "address": {
+        "street": "",
+        "city": "Pensacola",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Pensacola, FL"
+      },
+      "contact": {
+        "phone": "(239) 293-4040",
+        "email": "impallari@gmail.com",
+        "website": "https://aaartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "A&A Appraisals - Fine Art offers fine art appraisal services serving Pensacola, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://aaartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://aaartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJsQOs2E4d24gRhfvY87lIM4k",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "pensacola-art-services-2000-ltd-fine-art-appraisals",
+      "name": "Art Services 2000 Ltd. Fine Art Appraisals",
+      "slug": "art-services-2000-ltd-fine-art-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/548cf6_676192a2b4ef4019921a580ea1f1767f.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/548cf6_676192a2b4ef4019921a580ea1f1767f.jpg",
+      "address": {
+        "street": "",
+        "city": "Pensacola",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Pensacola, FL"
+      },
+      "contact": {
+        "phone": "+ 386-742-6786",
+        "email": "artserv2000@yahoo.com",
+        "website": "https://www.artserv2000.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art Services 2000 Ltd. Fine Art Appraisals offers fine art appraisal services serving Pensacola, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.artserv2000.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artserv2000.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ8WhJHbCV5ogRIhxY-vIZ72I",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "pensacola-hollingsworth-fine-a",
+      "name": "Hollingsworth Fine Arts",
+      "slug": "hollingsworth-fine-a",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Pensacola",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Pensacola, FL"
+      },
+      "contact": {
+        "phone": "+1 407.422.4242",
+        "email": "laurenstump@live.com",
+        "website": "https://www.hollingsworthfinearts.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hollingsworth Fine Arts offers fine art appraisal services serving Pensacola, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.hollingsworthfinearts.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.hollingsworthfinearts.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGxpz9u9654gRcFqdO7-o3mo",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

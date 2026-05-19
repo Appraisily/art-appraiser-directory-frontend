@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { capturePosthogEvent } from '../lib/posthog';
+import { capturePosthogEvent, getPosthogDistinctId } from '../lib/posthog';
 import { getClickIdsFromRuntime } from './startAttribution';
 
 const isBrowser = typeof window !== 'undefined';
 const CONTROL_PLANE_ENDPOINT = 'https://appraisily.com/api/public/analytics/collect';
+const ANONYMOUS_ID_KEY = 'appraisily_analytics_anonymous_id';
 const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'] as const;
 const APP_ID = 'art_appraiser_directory_frontend';
 const SURFACE_ID = 'art_appraisers_directory';
@@ -32,6 +33,66 @@ function sanitizeString(value: unknown, maxLength: number): string | undefined {
 function readRuntimeEnv(): RuntimeEnv | undefined {
   if (!isBrowser) return undefined;
   return window.__ENV__;
+}
+
+function readCookie(name: string): string | undefined {
+  if (!isBrowser) return undefined;
+  try {
+    const prefix = `${encodeURIComponent(name)}=`;
+    const parts = String(document.cookie || '').split(';');
+    for (const part of parts) {
+      const trimmed = part.trim();
+      if (trimmed.startsWith(prefix)) {
+        return decodeURIComponent(trimmed.slice(prefix.length)).trim() || undefined;
+      }
+    }
+  } catch {
+    // ignore
+  }
+  return undefined;
+}
+
+function writeCookie(name: string, value: string) {
+  if (!isBrowser) return;
+  try {
+    const maxAge = 60 * 60 * 24 * 395;
+    document.cookie = `${encodeURIComponent(name)}=${encodeURIComponent(value)}; Max-Age=${maxAge}; Path=/; Domain=.appraisily.com; SameSite=Lax; Secure`;
+  } catch {
+    // ignore
+  }
+}
+
+function getAnonymousId(): string | undefined {
+  if (!isBrowser) return undefined;
+  try {
+    const existing = window.localStorage.getItem(ANONYMOUS_ID_KEY);
+    if (existing && existing.trim()) return existing.trim();
+  } catch {
+    // ignore
+  }
+
+  const cookieValue = readCookie(ANONYMOUS_ID_KEY);
+  if (cookieValue) {
+    try {
+      window.localStorage.setItem(ANONYMOUS_ID_KEY, cookieValue);
+    } catch {
+      // ignore
+    }
+    return cookieValue;
+  }
+
+  const generated =
+    typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function'
+      ? crypto.randomUUID()
+      : `anon_${Date.now()}_${Math.random().toString(16).slice(2)}`;
+
+  try {
+    window.localStorage.setItem(ANONYMOUS_ID_KEY, generated);
+  } catch {
+    // ignore
+  }
+  writeCookie(ANONYMOUS_ID_KEY, generated);
+  return generated;
 }
 
 function getControlPlaneEndpoint(): string {
@@ -89,6 +150,8 @@ function sendControlPlaneEvent(event: string, params: Record<string, any> = {}) 
   }
 
   const pageContext = derivePageContext(window.location.pathname || '/');
+  const anonymousId = getAnonymousId();
+  const posthogDistinctId = getPosthogDistinctId();
   const payload = {
     event,
     occurred_at: new Date().toISOString(),
@@ -98,6 +161,10 @@ function sendControlPlaneEvent(event: string, params: Record<string, any> = {}) 
       surface: SURFACE_ID,
       page_path: getPagePath(),
       page_key: pageContext.pageCategory,
+    },
+    identity: {
+      anonymous_id: anonymousId,
+      posthog_distinct_id: posthogDistinctId,
     },
     traffic: getTrafficContext(),
     payload: {

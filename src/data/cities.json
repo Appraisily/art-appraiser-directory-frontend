@@ -1,18 +1,158 @@
 {
   "cities": [
     {
-      "name": "New York",
-      "state": "New York",
-      "slug": "new-york",
-      "latitude": 40.7128,
-      "longitude": -74.0060
+      "name": "Addison",
+      "state": "Illinois",
+      "slug": "addison",
+      "latitude": null,
+      "longitude": null
     },
     {
-      "name": "Los Angeles",
+      "name": "Albany",
+      "state": "New York",
+      "slug": "albany",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Albuquerque",
+      "state": "New Mexico",
+      "slug": "albuquerque",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Alexandria",
+      "state": "Virginia",
+      "slug": "alexandria",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Anaheim",
       "state": "California",
-      "slug": "los-angeles",
-      "latitude": 34.0522,
-      "longitude": -118.2437
+      "slug": "anaheim",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Ann Arbor",
+      "state": "Michigan",
+      "slug": "ann-arbor",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Arlington",
+      "state": "Texas",
+      "slug": "arlington",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Aspen",
+      "state": "Colorado",
+      "slug": "aspen",
+      "latitude": 39.1911,
+      "longitude": -106.8175
+    },
+    {
+      "name": "Atlanta",
+      "state": "Georgia",
+      "slug": "atlanta",
+      "latitude": 33.749,
+      "longitude": -84.388
+    },
+    {
+      "name": "Austin",
+      "state": "Texas",
+      "slug": "austin",
+      "latitude": 30.2672,
+      "longitude": -97.7431
+    },
+    {
+      "name": "Baltimore",
+      "state": "Maryland",
+      "slug": "baltimore",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Baton Rouge",
+      "state": "Louisiana",
+      "slug": "baton-rouge",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Beverly Hills",
+      "state": "California",
+      "slug": "beverly-hills",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Birmingham",
+      "state": "Alabama",
+      "slug": "birmingham",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Boise",
+      "state": "Idaho",
+      "slug": "boise",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Boston",
+      "state": "Massachusetts",
+      "slug": "boston",
+      "latitude": 42.3601,
+      "longitude": -71.0589
+    },
+    {
+      "name": "Boulder",
+      "state": "Colorado",
+      "slug": "boulder",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Buffalo",
+      "state": "New York",
+      "slug": "buffalo",
+      "latitude": 42.8864,
+      "longitude": -78.8784
+    },
+    {
+      "name": "Cedar Rapids",
+      "state": "Iowa",
+      "slug": "cedar-rapids",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Charleston",
+      "state": "South Carolina",
+      "slug": "charleston",
+      "latitude": 32.7765,
+      "longitude": -79.9311
+    },
+    {
+      "name": "Charlotte",
+      "state": "North Carolina",
+      "slug": "charlotte",
+      "latitude": 35.2271,
+      "longitude": -80.8431
+    },
+    {
+      "name": "Chattanooga",
+      "state": "Tennessee",
+      "slug": "chattanooga",
+      "latitude": null,
+      "longitude": null
     },
     {
       "name": "Chicago",
@@ -22,6 +162,174 @@
       "longitude": -87.6298
     },
     {
+      "name": "Cincinnati",
+      "state": "Ohio",
+      "slug": "cincinnati",
+      "latitude": 39.1031,
+      "longitude": -84.512
+    },
+    {
+      "name": "Cleveland",
+      "state": "Ohio",
+      "slug": "cleveland",
+      "latitude": 41.4993,
+      "longitude": -81.6944
+    },
+    {
+      "name": "Colleyville",
+      "state": "Texas",
+      "slug": "colleyville",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Colorado Springs",
+      "state": "Colorado",
+      "slug": "colorado-springs",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Columbus",
+      "state": "Ohio",
+      "slug": "columbus",
+      "latitude": 39.9612,
+      "longitude": -82.9988
+    },
+    {
+      "name": "Dallas",
+      "state": "Texas",
+      "slug": "dallas",
+      "latitude": 32.7767,
+      "longitude": -96.797
+    },
+    {
+      "name": "Daytona Beach",
+      "state": "Florida",
+      "slug": "daytona-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Denver",
+      "state": "Colorado",
+      "slug": "denver",
+      "latitude": 39.7392,
+      "longitude": -104.9903
+    },
+    {
+      "name": "Detroit",
+      "state": "Michigan",
+      "slug": "detroit",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Durham",
+      "state": "North Carolina",
+      "slug": "durham",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "El Paso",
+      "state": "Texas",
+      "slug": "el-paso",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Eugene",
+      "state": "Oregon",
+      "slug": "eugene",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Fargo",
+      "state": "North Dakota",
+      "slug": "fargo",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Fort Collins",
+      "state": "Colorado",
+      "slug": "fort-collins",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Fort Lauderdale",
+      "state": "Florida",
+      "slug": "fort-lauderdale",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Fort Wayne",
+      "state": "Indiana",
+      "slug": "fort-wayne",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Fort Worth",
+      "state": "Texas",
+      "slug": "fort-worth",
+      "latitude": 32.7555,
+      "longitude": -97.3308
+    },
+    {
+      "name": "Frederick",
+      "state": "Maryland",
+      "slug": "frederick",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Fresno",
+      "state": "California",
+      "slug": "fresno",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Glendale",
+      "state": "California",
+      "slug": "glendale",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Harrisburg",
+      "state": "Pennsylvania",
+      "slug": "harrisburg",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Hartford",
+      "state": "Connecticut",
+      "slug": "hartford",
+      "latitude": 41.7658,
+      "longitude": -72.6734
+    },
+    {
+      "name": "Hilton Head Island",
+      "state": "South Carolina",
+      "slug": "hilton-head-island",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Honolulu",
+      "state": "Hawaii",
+      "slug": "honolulu",
+      "latitude": null,
+      "longitude": null
+    },
+    {
       "name": "Houston",
       "state": "Texas",
       "slug": "houston",
@@ -29,11 +337,277 @@
       "longitude": -95.3698
     },
     {
-      "name": "Phoenix",
+      "name": "Huntsville",
+      "state": "Alabama",
+      "slug": "huntsville",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Hyannis",
+      "state": "Massachusetts",
+      "slug": "hyannis",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Indianapolis",
+      "state": "Indiana",
+      "slug": "indianapolis",
+      "latitude": 39.7684,
+      "longitude": -86.1581
+    },
+    {
+      "name": "Jackson",
+      "state": "Mississippi",
+      "slug": "jackson",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Jacksonville",
+      "state": "Florida",
+      "slug": "jacksonville",
+      "latitude": 30.3322,
+      "longitude": -81.6557
+    },
+    {
+      "name": "Jacksonville Beach",
+      "state": "Florida",
+      "slug": "jacksonville-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Jersey City",
+      "state": "New Jersey",
+      "slug": "jersey-city",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Kansas City",
+      "state": "Missouri",
+      "slug": "kansas-city",
+      "latitude": 39.0997,
+      "longitude": -94.5786
+    },
+    {
+      "name": "Knoxville",
+      "state": "Tennessee",
+      "slug": "knoxville",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Lancaster",
+      "state": "Massachusetts",
+      "slug": "lancaster",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Langley",
+      "state": "Washington",
+      "slug": "langley",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Las Vegas",
+      "state": "Nevada",
+      "slug": "las-vegas",
+      "latitude": 36.1699,
+      "longitude": -115.1398
+    },
+    {
+      "name": "Lincoln",
+      "state": "Nebraska",
+      "slug": "lincoln",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Long Beach",
+      "state": "California",
+      "slug": "long-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Los Angeles",
+      "state": "California",
+      "slug": "los-angeles",
+      "latitude": 34.0522,
+      "longitude": -118.2437
+    },
+    {
+      "name": "Louisville",
+      "state": "Kentucky",
+      "slug": "louisville",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Macon",
+      "state": "Georgia",
+      "slug": "macon",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Madison",
+      "state": "Wisconsin",
+      "slug": "madison",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Manchester",
+      "state": "New Hampshire",
+      "slug": "manchester",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Memphis",
+      "state": "Tennessee",
+      "slug": "memphis",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Mesa",
       "state": "Arizona",
-      "slug": "phoenix",
-      "latitude": 33.4484,
-      "longitude": -112.0740
+      "slug": "mesa",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Miami",
+      "state": "Florida",
+      "slug": "miami",
+      "latitude": 25.7617,
+      "longitude": -80.1918
+    },
+    {
+      "name": "Milwaukee",
+      "state": "Wisconsin",
+      "slug": "milwaukee",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Minneapolis",
+      "state": "Minnesota",
+      "slug": "minneapolis",
+      "latitude": 44.9778,
+      "longitude": -93.265
+    },
+    {
+      "name": "Naperville",
+      "state": "Illinois",
+      "slug": "naperville",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Nashville",
+      "state": "Tennessee",
+      "slug": "nashville",
+      "latitude": 36.1627,
+      "longitude": -86.7816
+    },
+    {
+      "name": "New Haven",
+      "state": "Connecticut",
+      "slug": "new-haven",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "New Orleans",
+      "state": "Louisiana",
+      "slug": "new-orleans",
+      "latitude": 29.9511,
+      "longitude": -90.0715
+    },
+    {
+      "name": "New York",
+      "state": "New York",
+      "slug": "new-york",
+      "latitude": 40.7128,
+      "longitude": -74.006
+    },
+    {
+      "name": "Newark",
+      "state": "New Jersey",
+      "slug": "newark",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Oakland",
+      "state": "California",
+      "slug": "oakland",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Oklahoma City",
+      "state": "Oklahoma",
+      "slug": "oklahoma-city",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Olympia",
+      "state": "Washington",
+      "slug": "olympia",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Omaha",
+      "state": "Nebraska",
+      "slug": "omaha",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Orlando",
+      "state": "Florida",
+      "slug": "orlando",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Palm Beach",
+      "state": "Florida",
+      "slug": "palm-beach",
+      "latitude": 26.7056,
+      "longitude": -80.0364
+    },
+    {
+      "name": "Palm Springs",
+      "state": "California",
+      "slug": "palm-springs",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Pasadena",
+      "state": "California",
+      "slug": "pasadena",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Pensacola",
+      "state": "Florida",
+      "slug": "pensacola",
+      "latitude": null,
+      "longitude": null
     },
     {
       "name": "Philadelphia",
@@ -41,6 +615,104 @@
       "slug": "philadelphia",
       "latitude": 39.9526,
       "longitude": -75.1652
+    },
+    {
+      "name": "Phoenix",
+      "state": "Arizona",
+      "slug": "phoenix",
+      "latitude": 33.4484,
+      "longitude": -112.074
+    },
+    {
+      "name": "Pittsburgh",
+      "state": "Pennsylvania",
+      "slug": "pittsburgh",
+      "latitude": 40.4406,
+      "longitude": -79.9959
+    },
+    {
+      "name": "Portland",
+      "state": "Oregon",
+      "slug": "portland",
+      "latitude": 45.5155,
+      "longitude": -122.6789
+    },
+    {
+      "name": "Princeton",
+      "state": "New Jersey",
+      "slug": "princeton",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Providence",
+      "state": "Rhode Island",
+      "slug": "providence",
+      "latitude": 41.824,
+      "longitude": -71.4128
+    },
+    {
+      "name": "Raleigh",
+      "state": "North Carolina",
+      "slug": "raleigh",
+      "latitude": 35.7796,
+      "longitude": -78.6382
+    },
+    {
+      "name": "Ranchos De Taos",
+      "state": "New Mexico",
+      "slug": "ranchos-de-taos",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Redondo Beach",
+      "state": "California",
+      "slug": "redondo-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Richmond",
+      "state": "Virginia",
+      "slug": "richmond",
+      "latitude": 37.5407,
+      "longitude": -77.436
+    },
+    {
+      "name": "Rochester",
+      "state": "New York",
+      "slug": "rochester",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Rockville",
+      "state": "Maryland",
+      "slug": "rockville",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Sacramento",
+      "state": "California",
+      "slug": "sacramento",
+      "latitude": 38.5816,
+      "longitude": -121.4944
+    },
+    {
+      "name": "Salem",
+      "state": "Oregon",
+      "slug": "salem",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Salt Lake City",
+      "state": "Utah",
+      "slug": "salt-lake-city",
+      "latitude": 40.7608,
+      "longitude": -111.891
     },
     {
       "name": "San Antonio",
@@ -57,11 +729,11 @@
       "longitude": -117.1611
     },
     {
-      "name": "Dallas",
-      "state": "Texas",
-      "slug": "dallas",
-      "latitude": 32.7767,
-      "longitude": -96.7970
+      "name": "San Francisco",
+      "state": "California",
+      "slug": "san-francisco",
+      "latitude": 37.7749,
+      "longitude": -122.4194
     },
     {
       "name": "San Jose",
@@ -71,221 +743,25 @@
       "longitude": -121.8863
     },
     {
-      "name": "Austin",
-      "state": "Texas",
-      "slug": "austin",
-      "latitude": 30.2672,
-      "longitude": -97.7431
-    },
-    {
-      "name": "Jacksonville",
-      "state": "Florida",
-      "slug": "jacksonville",
-      "latitude": 30.3322,
-      "longitude": -81.6557
-    },
-    {
-      "name": "Fort Worth",
-      "state": "Texas",
-      "slug": "fort-worth",
-      "latitude": 32.7555,
-      "longitude": -97.3308
-    },
-    {
-      "name": "Columbus",
-      "state": "Ohio",
-      "slug": "columbus",
-      "latitude": 39.9612,
-      "longitude": -82.9988
-    },
-    {
-      "name": "San Francisco",
+      "name": "Santa Barbara",
       "state": "California",
-      "slug": "san-francisco",
-      "latitude": 37.7749,
-      "longitude": -122.4194
+      "slug": "santa-barbara",
+      "latitude": null,
+      "longitude": null
     },
     {
-      "name": "Charlotte",
-      "state": "North Carolina",
-      "slug": "charlotte",
-      "latitude": 35.2271,
-      "longitude": -80.8431
+      "name": "Santa Fe",
+      "state": "New Mexico",
+      "slug": "santa-fe",
+      "latitude": 35.687,
+      "longitude": -105.9378
     },
     {
-      "name": "Indianapolis",
-      "state": "Indiana",
-      "slug": "indianapolis",
-      "latitude": 39.7684,
-      "longitude": -86.1581
-    },
-    {
-      "name": "Seattle",
-      "state": "Washington",
-      "slug": "seattle",
-      "latitude": 47.6062,
-      "longitude": -122.3321
-    },
-    {
-      "name": "Denver",
-      "state": "Colorado",
-      "slug": "denver",
-      "latitude": 39.7392,
-      "longitude": -104.9903
-    },
-    {
-      "name": "Washington",
-      "state": "District of Columbia",
-      "slug": "washington-dc",
-      "latitude": 38.9072,
-      "longitude": -77.0369
-    },
-    {
-      "name": "Boston",
-      "state": "Massachusetts",
-      "slug": "boston",
-      "latitude": 42.3601,
-      "longitude": -71.0589
-    },
-    {
-      "name": "Nashville",
-      "state": "Tennessee",
-      "slug": "nashville",
-      "latitude": 36.1627,
-      "longitude": -86.7816
-    },
-    {
-      "name": "Portland",
-      "state": "Oregon",
-      "slug": "portland",
-      "latitude": 45.5155,
-      "longitude": -122.6789
-    },
-    {
-      "name": "Las Vegas",
-      "state": "Nevada",
-      "slug": "las-vegas",
-      "latitude": 36.1699,
-      "longitude": -115.1398
-    },
-    {
-      "name": "Atlanta",
-      "state": "Georgia",
-      "slug": "atlanta",
-      "latitude": 33.7490,
-      "longitude": -84.3880
-    },
-    {
-      "name": "Miami",
+      "name": "Sarasota",
       "state": "Florida",
-      "slug": "miami",
-      "latitude": 25.7617,
-      "longitude": -80.1918
-    },
-    {
-      "name": "Minneapolis",
-      "state": "Minnesota",
-      "slug": "minneapolis",
-      "latitude": 44.9778,
-      "longitude": -93.2650
-    },
-    {
-      "name": "New Orleans",
-      "state": "Louisiana",
-      "slug": "new-orleans",
-      "latitude": 29.9511,
-      "longitude": -90.0715
-    },
-    {
-      "name": "Cleveland",
-      "state": "Ohio",
-      "slug": "cleveland",
-      "latitude": 41.4993,
-      "longitude": -81.6944
-    },
-    {
-      "name": "St. Louis",
-      "state": "Missouri",
-      "slug": "st-louis",
-      "latitude": 38.6270,
-      "longitude": -90.1994
-    },
-    {
-      "name": "Pittsburgh",
-      "state": "Pennsylvania",
-      "slug": "pittsburgh",
-      "latitude": 40.4406,
-      "longitude": -79.9959
-    },
-    {
-      "name": "Cincinnati",
-      "state": "Ohio",
-      "slug": "cincinnati",
-      "latitude": 39.1031,
-      "longitude": -84.5120
-    },
-    {
-      "name": "Kansas City",
-      "state": "Missouri",
-      "slug": "kansas-city",
-      "latitude": 39.0997,
-      "longitude": -94.5786
-    },
-    {
-      "name": "Sacramento",
-      "state": "California",
-      "slug": "sacramento",
-      "latitude": 38.5816,
-      "longitude": -121.4944
-    },
-    {
-      "name": "Salt Lake City",
-      "state": "Utah",
-      "slug": "salt-lake-city",
-      "latitude": 40.7608,
-      "longitude": -111.8910
-    },
-    {
-      "name": "Providence",
-      "state": "Rhode Island",
-      "slug": "providence",
-      "latitude": 41.8240,
-      "longitude": -71.4128
-    },
-    {
-      "name": "Richmond",
-      "state": "Virginia",
-      "slug": "richmond",
-      "latitude": 37.5407,
-      "longitude": -77.4360
-    },
-    {
-      "name": "Buffalo",
-      "state": "New York",
-      "slug": "buffalo",
-      "latitude": 42.8864,
-      "longitude": -78.8784
-    },
-    {
-      "name": "Raleigh",
-      "state": "North Carolina",
-      "slug": "raleigh",
-      "latitude": 35.7796,
-      "longitude": -78.6382
-    },
-    {
-      "name": "Hartford",
-      "state": "Connecticut",
-      "slug": "hartford",
-      "latitude": 41.7658,
-      "longitude": -72.6734
-    },
-    {
-      "name": "Charleston",
-      "state": "South Carolina",
-      "slug": "charleston",
-      "latitude": 32.7765,
-      "longitude": -79.9311
+      "slug": "sarasota",
+      "latitude": null,
+      "longitude": null
     },
     {
       "name": "Savannah",
@@ -295,25 +771,165 @@
       "longitude": -81.0912
     },
     {
-      "name": "Santa Fe",
-      "state": "New Mexico",
-      "slug": "santa-fe",
-      "latitude": 35.6870,
-      "longitude": -105.9378
+      "name": "Schaumburg",
+      "state": "Illinois",
+      "slug": "schaumburg",
+      "latitude": null,
+      "longitude": null
     },
     {
-      "name": "Palm Beach",
+      "name": "Seattle",
+      "state": "Washington",
+      "slug": "seattle",
+      "latitude": 47.6062,
+      "longitude": -122.3321
+    },
+    {
+      "name": "Solana Beach",
+      "state": "California",
+      "slug": "solana-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "South Bend",
+      "state": "Indiana",
+      "slug": "south-bend",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Spokane",
+      "state": "Washington",
+      "slug": "spokane",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "St. Louis",
+      "state": "Missouri",
+      "slug": "st-louis",
+      "latitude": 38.627,
+      "longitude": -90.1994
+    },
+    {
+      "name": "St. Petersburg",
       "state": "Florida",
-      "slug": "palm-beach",
-      "latitude": 26.7056,
-      "longitude": -80.0364
+      "slug": "st-petersburg",
+      "latitude": null,
+      "longitude": null
     },
     {
-      "name": "Aspen",
-      "state": "Colorado",
-      "slug": "aspen",
-      "latitude": 39.1911,
-      "longitude": -106.8175
+      "name": "Stamford",
+      "state": "Connecticut",
+      "slug": "stamford",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Tacoma",
+      "state": "Washington",
+      "slug": "tacoma",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Tampa",
+      "state": "Florida",
+      "slug": "tampa",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Temecula",
+      "state": "California",
+      "slug": "temecula",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Tucson",
+      "state": "Arizona",
+      "slug": "tucson",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Tulsa",
+      "state": "Oklahoma",
+      "slug": "tulsa",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Vero Beach",
+      "state": "Florida",
+      "slug": "vero-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Virginia Beach",
+      "state": "Virginia",
+      "slug": "virginia-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Washington",
+      "state": "District of Columbia",
+      "slug": "washington-dc",
+      "latitude": 38.9072,
+      "longitude": -77.0369
+    },
+    {
+      "name": "Washington",
+      "state": "District of Columbia",
+      "slug": "washington",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "West Palm Beach",
+      "state": "Florida",
+      "slug": "west-palm-beach",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "White Plains",
+      "state": "New York",
+      "slug": "white-plains",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Wichita",
+      "state": "Kansas",
+      "slug": "wichita",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Wilmington",
+      "state": "North Carolina",
+      "slug": "wilmington",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Woodside",
+      "state": "California",
+      "slug": "woodside",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "name": "Worcester",
+      "state": "Massachusetts",
+      "slug": "worcester",
+      "latitude": null,
+      "longitude": null
     }
   ]
 }

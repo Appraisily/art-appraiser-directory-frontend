@@ -1,0 +1,212 @@
+{
+  "appraisers": [
+    {
+      "id": "oakland-alta-fine-art-advisory-and-appraisal",
+      "name": "Alta Fine Art Advisory & Appraisal",
+      "slug": "alta-fine-art-advisory-and-appraisal",
+      "imageUrl": "https://i0.wp.com/altafaaa.com/wp-content/uploads/2025/01/sm-Photo.png?fit=627%2C720&ssl=1",
+      "address": {
+        "street": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Oakland, CA"
+      },
+      "contact": {
+        "phone": "+13472477437",
+        "email": "jesse.penridge@altafaaa.com",
+        "website": "https://altafaaa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Alta Fine Art Advisory & Appraisal offers fine art appraisal services serving Oakland, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://altafaaa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://altafaaa.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJmecgIixOESARB5Vonygyv7s",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "oakland-andrea-moody-fine-art-appraisals-llc",
+      "name": "Andrea Moody Fine Art Appraisals, LLC",
+      "slug": "andrea-moody-fine-art-appraisals-llc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Oakland, CA"
+      },
+      "contact": {
+        "phone": "0623700299",
+        "email": "",
+        "website": "https://www.andreamoody.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Andrea Moody Fine Art Appraisals, LLC offers fine art appraisal services serving Oakland, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.andreamoody.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.andreamoody.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJLaEpKS0TkFQRO0S4IRmYyws",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "oakland-newton-fine-art-appraisal",
+      "name": "Newton Fine Art Appraisal, Sally Newton",
+      "slug": "newton-fine-art-appraisal",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/64b301903e69300b538793a8/13d38edf-31ed-4465-abcb-0cb1940a080e/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Oakland",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Oakland, CA"
+      },
+      "contact": {
+        "phone": "(415) 361-1890",
+        "email": "user@domain.com",
+        "website": "https://www.newtonfineartappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Newton Fine Art Appraisal, Sally Newton offers fine art appraisal services serving Oakland, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.newtonfineartappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.newtonfineartappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJt8gY7-aFhYARz2-Hs58SFLA",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

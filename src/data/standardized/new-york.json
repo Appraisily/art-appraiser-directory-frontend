@@ -1,6 +1,1616 @@
 {
   "appraisers": [
     {
+      "id": "new-york-a-and-a-art-appraisals-naples-fl",
+      "name": "A&A Appraisals - Fine Art",
+      "slug": "a-and-a-art-appraisals-naples-fl",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/4952822f-cc5a-4b50-8c18-2a3259a88ce9/favicon/0a560fa5-2f1c-402c-9861-c345525fc74a/24fea511-99ad-4069-8193-7dba8b191718.jpeg/:/rs=w:16,h:16,m",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(239) 293-4040",
+        "email": "impallari@gmail.com",
+        "website": "https://aaartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "A&A Appraisals - Fine Art offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://aaartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://aaartappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJsQOs2E4d24gRhfvY87lIM4k",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-adelaide-fine-art",
+      "name": "Adelaide Fine Art",
+      "slug": "adelaide-fine-art",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(203) 662-0244",
+        "email": "adelaidefineart@gmail.com",
+        "website": "http://www.adelaidefineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Adelaide Fine Art offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.adelaidefineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.adelaidefineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ6e6z_X2gwokRJzrhAFH8EYE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-afa-fine-art",
+      "name": "AFA Fine Art",
+      "slug": "afa-fine-art",
+      "imageUrl": "https://static.wixstatic.com/media/cbd8a1_dba06999d3b2407292e6512757d8b6fa%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/cbd8a1_dba06999d3b2407292e6512757d8b6fa%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "571-276-4186",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.afaappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "AFA Fine Art offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.afaappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.afaappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJhwtxedm5xkIRiF56svUopk4",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-anderson-campbell-art-appraisals",
+      "name": "Anderson Campbell Art Appraisals",
+      "slug": "anderson-campbell-art-appraisals",
+      "imageUrl": "https://ssl.gstatic.com/atari/images/public/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "805.616.2781",
+        "email": "anderson@artandappraisals.com",
+        "website": "https://www.artandappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Anderson Campbell Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artandappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artandappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJo13fPSkV6YARq7Zv4qdDtLY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56898ef740667a38691de0a4/f66703ce-199c-4dba-b821-a971ae805ade/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(310) 858 1644",
+        "email": "info@art-appraisals.net",
+        "website": "https://www.art-appraisals.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.art-appraisals.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.art-appraisals.net/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ09Tc9fe7woAREVW1WawiWzE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-antique-and-estate-buyers",
+      "name": "Antique & Estate Buyers",
+      "slug": "antique-and-estate-buyers",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/59055529c534a5c0bcdc5f89/1495921200651-9IYB3JXLO30H3PXA0UL5/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(516) 974-6528",
+        "email": "info@antiqueandestatebuyers.com",
+        "website": "https://www.antiqueandestatebuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique & Estate Buyers offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.antiqueandestatebuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiqueandestatebuyers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJUxx0a21ZwokR6r5WnXwWSDg",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states antiques, jewelry, fine art, and expert appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "appellate-art-advisors-new-york-ny",
+      "name": "Art Advisory Services NYC",
+      "slug": "art-advisory-services-nyc",
+      "imageUrl": "",
+      "address": {
+        "street": "45 W 25th St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10010",
+        "formatted": "45 W 25th St, New York, NY 10010"
+      },
+      "contact": {
+        "phone": "(212) 555-0167",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "15 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Market Analysis"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management",
+          "Market Analysis"
+        ]
+      },
+      "content": {
+        "about": "Art Advisory Services NYC provides comprehensive fine art appraisals and advisory services to collectors, estates, and institutions throughout New York City.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "art-capital-group-new-york-ny",
+      "name": "Art Capital Group Inc",
+      "slug": "art-capital-group",
+      "imageUrl": "",
+      "address": {
+        "street": "980 Madison Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10075",
+        "formatted": "980 Madison Ave, New York, NY 10075"
+      },
+      "contact": {
+        "phone": "(212) 585-3939",
+        "email": "",
+        "website": "https://www.artcapitalgroup.com"
+      },
+      "business": {
+        "yearsInBusiness": "44 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 1
+      },
+      "expertise": {
+        "specialties": [
+          "Art Finance",
+          "Art Appraisals",
+          "Collection Valuation"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Financing",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Art Capital Group is a professional art finance and appraisal company that understands the importance of your collection, offering comprehensive art valuation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-york-art-peritus",
+      "name": "Art Peritus, LLC",
+      "slug": "art-peritus",
+      "imageUrl": "https://artperitus.com/wp-content/uploads/2024/05/artperitus-square-logo.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1 212 566 6626",
+        "email": "info@artperitus.com",
+        "website": "https://artperitus.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "Professional appraisal affiliation referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
+        ]
+      },
+      "content": {
+        "about": "Art Peritus, LLC offers fine art appraisal and advisory services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://artperitus.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artperitus.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJReXZp6tZwokRjyY-ESxQILo",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states appraisal authority for valued passion assets and collection consulting",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "art-resource-new-york-ny",
+      "name": "Art Resource",
+      "slug": "art-resource",
+      "imageUrl": "",
+      "address": {
+        "street": "536 Broadway",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10012",
+        "formatted": "536 Broadway, New York, NY 10012"
+      },
+      "contact": {
+        "phone": "(212) 505-8700",
+        "email": "",
+        "website": "https://www.artres.com"
+      },
+      "business": {
+        "yearsInBusiness": "39 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art Archives",
+          "Art Research",
+          "Art Licensing"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Research",
+          "Art Consultation",
+          "Licensing Services"
+        ]
+      },
+      "content": {
+        "about": "Established in 1968, Art Resource is one of the world's largest photo archives of fine art, offering licensing and research services alongside art consultation.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-york-avant-garde",
+      "name": "Avant-Garde Appraisals & Art Advisory",
+      "slug": "avant-garde",
+      "imageUrl": "https://agartappraisals.com/wp-content/uploads/2020/12/ag-logo-gray-thumbnail.png?w=32",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "347-991-7767",
+        "email": "info@agartappraisals.com",
+        "website": "https://agartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Avant-Garde Appraisals & Art Advisory offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://agartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://agartappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ771qfmVbwokRL4FaHF1CAGs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-beth-weingast-fine-art-appraisals",
+      "name": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry",
+      "slug": "beth-weingast-fine-art-appraisals",
+      "imageUrl": "https://horizons-cdn.hostinger.com/6ef3f921-482b-4e4d-ab4a-aa7f219f576d/5b2f8fd2dfa1384c48d764b96b271249.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://bweingastartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://bweingastartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://bweingastartappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJAQDsvWGSwokRc1Bk7HpbXjY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class jewelry appraiser"
+        ]
+      }
+    },
+    {
+      "id": "new-york-cheney-appraisal-services",
+      "name": "Cheney Appraisal Services",
+      "slug": "cheney-appraisal-services",
+      "imageUrl": "https://static.wixstatic.com/media/369ed2_96ae5bd00fb54217979c78f4967790e8%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/369ed2_96ae5bd00fb54217979c78f4967790e8%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "2126960641",
+        "email": "linda@cheneyappraisal.com",
+        "website": "https://www.cheneyappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cheney Appraisal Services offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.cheneyappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.cheneyappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJD2GH8gZZwokRB2QEA1ekZxI",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "doyle-new-york-appraisals",
+      "name": "Doyle New York - Appraisals",
+      "slug": "doyle-new-york-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "175 E 87th St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10128",
+        "formatted": "175 E 87th St, New York, NY 10128"
+      },
+      "contact": {
+        "phone": "(212) 427-2730",
+        "email": "",
+        "website": "https://www.doylenewyork.com"
+      },
+      "business": {
+        "yearsInBusiness": "60 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Arts",
+          "Estate Property",
+          "Asian Works of Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Auction Consultation",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Doyle New York has been a premier auction house and appraisal firm since 1962, offering expert valuations for fine art, decorative arts, Asian works of art, and estate property. Their specialists provide market-leading knowledge for insurance, estate, and charitable donation purposes.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-york-esquire-appraisals-inc",
+      "name": "Esquire Appraisals",
+      "slug": "esquire-appraisals-inc",
+      "imageUrl": "https://esquireappraisals.com/wp-content/uploads/2014/12/cropped-logo_website_385x105.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "9178684699",
+        "email": "LeeDrexler@esquireappraisals.com",
+        "website": "https://esquireappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Esquire Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://esquireappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://esquireappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJxzgnNAVZwokR9zWbuatnGeA",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-fox-white-art-and-antique-appraisals-nyc",
+      "name": "Fox-White Art & Antique Appraisals",
+      "slug": "fox-white-art-and-antique-appraisals-nyc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/581d599929687f6b1d67cb14/8a2c8f48-7a3f-4e51-8a9c-4ba837eefe88/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "917 656-3840",
+        "email": "foxwhiteappraiser@gmail.com",
+        "website": "https://fox-white.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fox-White Art & Antique Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://fox-white.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://fox-white.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJwRM7uvJFwokRo8yNnytjYjQ",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-gabrielle-segal-gs-art-concierge",
+      "name": "Gabrielle Segal | GS Art Concierge",
+      "slug": "gabrielle-segal-gs-art-concierge",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1 (973) 820-5961",
+        "email": "advisory@gabriellesegal.com",
+        "website": "https://www.gabriellesegal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Gabrielle Segal | GS Art Concierge offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://www.gabriellesegal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.gabriellesegal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "owned_site",
+          "notes": "Owned site supports GS Art Concierge as a fine-art appraisal and advisory practice. Gabrielle Segal is described as an Accredited Appraiser and Accredited Member of the Appraisers Association of America, providing USPAP-compliant fine-art appraisal reports for insurance, damage/loss, charitable donations, estate/tax, gift/transfer tax, divorce/equitable distribution, loan collateral, and prospective sale."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJv3Bicdv3wokRTceACWRdsTY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-giardina-fine-art-appraisal-services",
+      "name": "GIARDINA Fine Art Appraisal Services",
+      "slug": "giardina-fine-art-appraisal-services",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "(518) 356-4710",
+        "email": "bgiardina@giardinafineart.com",
+        "website": "https://giardinafineart.com/appraisals"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "GIARDINA Fine Art Appraisal Services offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://giardinafineart.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://giardinafineart.com/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJl4-2-hF13okRDTE5d5udrLo",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-jlfineartappraisal",
+      "name": "JL Fine Art Appraisal LLC",
+      "slug": "jlfineartappraisal",
+      "imageUrl": "https://static.wixstatic.com/media/37a2bc_1d2aa19336fd4dcd90c16f83435123fd%7Emv2_d_2555_2555_s_4_2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/37a2bc_1d2aa19336fd4dcd90c16f83435123fd%7Emv2_d_2555_2555_s_4_2.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "516-544-0055",
+        "email": "JL@JLFineArtAppraisal.com",
+        "website": "https://www.jlfineartappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "JL Fine Art Appraisal LLC offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jlfineartappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jlfineartappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJgU6Nak57wokRiqsOUNoWn_o",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-juliette-yuan-and-associates",
+      "name": "Juliette Yuan & Associates",
+      "slug": "juliette-yuan-and-associates",
+      "imageUrl": "https://static.wixstatic.com/media/046850_ae8e42d730c943358fa163eb01a69dec%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/046850_ae8e42d730c943358fa163eb01a69dec%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "",
+        "email": "info@jyuanassociates.com",
+        "website": "https://www.jyuanassociates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Juliette Yuan & Associates offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jyuanassociates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jyuanassociates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJNa5V-8tZwokRjVlqDa_4UmM",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-fine-art-appraisals-new-york",
+      "name": "Kagan Fine Art Appraisals",
+      "slug": "fine-art-appraisals-new-york",
+      "imageUrl": "https://www.kaganappraisals.com/wp-content/uploads/2026/03/cropped-cropped-bonnie21.jpg",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "212-518-8690",
+        "email": "kaganappraisal@gmail.com",
+        "website": "https://www.kaganappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kagan Fine Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.kaganappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.kaganappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJdU2gd6RYwokRwYlJaAbxcd8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-kelly-cahn-art-advisory-appraisals",
+      "name": "Kelly Cahn LLC",
+      "slug": "kelly-cahn-art-advisory-appraisals",
+      "imageUrl": "https://lh3.googleusercontent.com/sitesv/AA5AbUAd8E54q77d-23agkFKulOpxSsr64j1Va913FJsZCcUcEAvvNTUNLwNPrCWSv9nWU4dlRCdRQXi5ztcGrMSJHbYlst-kGbqtfEPKCVtiPhBBkmiqjWFQFbgGWu6FArpS5toz3tC36Htu89Eu4CBscA4Fp9_NdoFk2MxjZe7MKR0EPsMGQS97ihg9cFcOFJ1Sk1KagPkVmNxjxjElaFAag",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1 917 302 5119",
+        "email": "kelly@kellycahn.com",
+        "website": "https://www.kellycahn.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "Professional appraisal affiliation referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
+        ]
+      },
+      "content": {
+        "about": "Kelly Cahn LLC offers fine art appraisal and advisory services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.kellycahn.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.kellycahn.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJb_xL5SvlICkRFgI8za0wt-o",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states art advisory and appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "kentshire-galleries-new-york-ny",
+      "name": "Kentshire Galleries",
+      "slug": "kentshire-galleries",
+      "imageUrl": "",
+      "address": {
+        "street": "700 Madison Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10065",
+        "formatted": "700 Madison Ave, New York, NY 10065"
+      },
+      "contact": {
+        "phone": "(212) 421-1100",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established in 1940, three generations of family ownership",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Period Jewelry",
+          "Fine Art",
+          "Vintage Costume Jewelry"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Jewelry Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Established in 1940 and spanning three generations of family ownership, Kentshire is one of the foremost dealers of period jewelry, vintage costume jewelry, and fine art.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lennie-rose-estate-appraisals-new-york-ny",
+      "name": "Lennie Rose Estate Appraisals",
+      "slug": "lennie-rose-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "515 Madison Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10022",
+        "formatted": "515 Madison Ave, New York, NY 10022"
+      },
+      "contact": {
+        "phone": "(212) 752-4900",
+        "email": "",
+        "website": "https://www.lennierose.com"
+      },
+      "business": {
+        "yearsInBusiness": "40 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Appraisals"
+        ],
+        "certifications": [
+          "Certified Member - AAA",
+          "ISA Accredited",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations",
+          "Charitable Donations"
+        ]
+      },
+      "content": {
+        "about": "Lennie Rose Estate Appraisals is a trusted New York-based firm providing certified and accredited appraisals for fine art, antiques, and personal property. The firm is recognized for thorough, compliant valuations accepted by insurance companies and the IRS.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "manhattan-fine-art-appraisers",
       "name": "Manhattan Fine Art Appraisers",
       "slug": "manhattan-fine-art-appraisers",
@@ -84,483 +1694,63 @@
       }
     },
     {
-      "id": "vara-fine-arts-new-york-ny",
-      "name": "Vara Fine Arts",
-      "slug": "vara-fine-arts",
-      "imageUrl": "",
+      "id": "new-york-maria-tarrence",
+      "name": "Maria Tarrence",
+      "slug": "maria-tarrence",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
-        "street": "141 Wooster St",
+        "street": "",
         "city": "New York",
         "state": "NY",
-        "zip": "10012",
-        "formatted": "141 Wooster St, New York, NY 10012"
+        "zip": "",
+        "formatted": "New York, NY"
       },
       "contact": {
-        "phone": "(212) 475-4404",
+        "phone": "",
         "email": "",
-        "website": "https://www.varaglobal.com"
+        "website": "http://www.capitalartgroup.com/"
       },
       "business": {
-        "yearsInBusiness": "19 years in business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
             "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.5,
+        "rating": null,
         "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Contemporary Art",
-          "Art Advisory",
-          "Curatorial Services"
+          "Art",
+          "Drawings",
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "ISA AM"
         ],
-        "certifications": [],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
         "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Curatorial Services"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Vara Global Fine Arts, LLC is a private curatorial company established by Renee Vara, providing art advisory and appraisal services to collectors and institutions.",
-        "notes": ""
+        "about": "Maria Tarrence offers art appraisal services serving New York, NY. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: capitalartgroup.com. Review the FAIR source listing and public website before any future profile enrichment."
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "art-capital-group-new-york-ny",
-      "name": "Art Capital Group Inc",
-      "slug": "art-capital-group",
-      "imageUrl": "",
-      "address": {
-        "street": "980 Madison Ave",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10075",
-        "formatted": "980 Madison Ave, New York, NY 10075"
-      },
-      "contact": {
-        "phone": "(212) 585-3939",
-        "email": "",
-        "website": "https://www.artcapitalgroup.com"
-      },
-      "business": {
-        "yearsInBusiness": "44 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 1
-      },
-      "expertise": {
-        "specialties": [
-          "Art Finance",
-          "Art Appraisals",
-          "Collection Valuation"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Financing",
-          "Collection Management"
-        ]
-      },
-      "content": {
-        "about": "Art Capital Group is a professional art finance and appraisal company that understands the importance of your collection, offering comprehensive art valuation services.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "old-print-shop-new-york-ny",
-      "name": "Old Print Shop Inc",
-      "slug": "old-print-shop",
-      "imageUrl": "",
-      "address": {
-        "street": "150 Lexington Ave",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10016",
-        "formatted": "150 Lexington Ave, New York, NY 10016"
-      },
-      "contact": {
-        "phone": "(212) 683-3950",
-        "email": "",
-        "website": "https://www.oldprintshop.com"
-      },
-      "business": {
-        "yearsInBusiness": "79 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "American Graphic Arts",
-          "Antiquarian Maps",
-          "Prints"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Collection Consultation"
-        ]
-      },
-      "content": {
-        "about": "Founded in 1898, The Old Print Shop is an art gallery specializing in American graphic arts, antiquarian maps, atlases, and artist books. Expert appraisals available.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "portico-fine-art-new-york-ny",
-      "name": "Portico Fine Art",
-      "slug": "portico-fine-art",
-      "imageUrl": "",
-      "address": {
-        "street": "139 Spring St",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10012",
-        "formatted": "139 Spring St, New York, NY 10012"
-      },
-      "contact": {
-        "phone": "(917) 549-8248",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established art advisory firm",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Art Advisory",
-          "Curatorial Services",
-          "Art Appraisals"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Curatorial Services"
-        ]
-      },
-      "content": {
-        "about": "Portico New York Inc. provides art advisory and curatorial services. By appointment only.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "stan-hamlet-assocs-new-york-ny",
-      "name": "Stan Hamlet Associates Inc",
-      "slug": "stan-hamlet-assocs",
-      "imageUrl": "",
-      "address": {
-        "street": "274 Madison Ave",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10016",
-        "formatted": "274 Madison Ave, New York, NY 10016"
-      },
-      "contact": {
-        "phone": "(212) 989-5151",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "61 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Art Consulting",
-          "Appraisals"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Consulting",
-          "Estate Valuations"
-        ]
-      },
-      "content": {
-        "about": "Stan Hamlet Associates has been providing art consultation and appraisal services in New York City for over six decades.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "kentshire-galleries-new-york-ny",
-      "name": "Kentshire Galleries",
-      "slug": "kentshire-galleries",
-      "imageUrl": "",
-      "address": {
-        "street": "700 Madison Ave",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10065",
-        "formatted": "700 Madison Ave, New York, NY 10065"
-      },
-      "contact": {
-        "phone": "(212) 421-1100",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established in 1940, three generations of family ownership",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Period Jewelry",
-          "Fine Art",
-          "Vintage Costume Jewelry"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Jewelry Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Established in 1940 and spanning three generations of family ownership, Kentshire is one of the foremost dealers of period jewelry, vintage costume jewelry, and fine art.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "art-resource-new-york-ny",
-      "name": "Art Resource",
-      "slug": "art-resource",
-      "imageUrl": "",
-      "address": {
-        "street": "536 Broadway",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10012",
-        "formatted": "536 Broadway, New York, NY 10012"
-      },
-      "contact": {
-        "phone": "(212) 505-8700",
-        "email": "",
-        "website": "https://www.artres.com"
-      },
-      "business": {
-        "yearsInBusiness": "39 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art Archives",
-          "Art Research",
-          "Art Licensing"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Research",
-          "Art Consultation",
-          "Licensing Services"
-        ]
-      },
-      "content": {
-        "about": "Established in 1968, Art Resource is one of the world's largest photo archives of fine art, offering licensing and research services alongside art consultation.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "o-k-harris-new-york-ny",
-      "name": "O K Harris Gallery",
-      "slug": "o-k-harris",
-      "imageUrl": "",
-      "address": {
-        "street": "383 W Broadway",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10012",
-        "formatted": "383 W Broadway, New York, NY 10012"
-      },
-      "contact": {
-        "phone": "(212) 431-3600",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established in 1969",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Antiques",
-          "Collectibles",
-          "Photographs"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Antique Appraisals",
-          "Gallery Exhibitions"
-        ]
-      },
-      "content": {
-        "about": "Established in 1969, OK Harris exhibits antiques, collectibles, and photographs. A long-standing SoHo institution providing art appraisal and consultation.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-18779"
       }
     },
     {
@@ -636,6 +1826,785 @@
       }
     },
     {
+      "id": "o-k-harris-new-york-ny",
+      "name": "O K Harris Gallery",
+      "slug": "o-k-harris",
+      "imageUrl": "",
+      "address": {
+        "street": "383 W Broadway",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10012",
+        "formatted": "383 W Broadway, New York, NY 10012"
+      },
+      "contact": {
+        "phone": "(212) 431-3600",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established in 1969",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Collectibles",
+          "Photographs"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Antique Appraisals",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Established in 1969, OK Harris exhibits antiques, collectibles, and photographs. A long-standing SoHo institution providing art appraisal and consultation.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "old-print-shop-new-york-ny",
+      "name": "Old Print Shop Inc",
+      "slug": "old-print-shop",
+      "imageUrl": "",
+      "address": {
+        "street": "150 Lexington Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10016",
+        "formatted": "150 Lexington Ave, New York, NY 10016"
+      },
+      "contact": {
+        "phone": "(212) 683-3950",
+        "email": "",
+        "website": "https://www.oldprintshop.com"
+      },
+      "business": {
+        "yearsInBusiness": "79 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Graphic Arts",
+          "Antiquarian Maps",
+          "Prints"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Collection Consultation"
+        ]
+      },
+      "content": {
+        "about": "Founded in 1898, The Old Print Shop is an art gallery specializing in American graphic arts, antiquarian maps, atlases, and artist books. Expert appraisals available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-york-new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Art Appraisal Service",
+      "slug": "new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "imageUrl": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "508.577.7377",
+        "email": "linda@fineartsappraiser.com",
+        "website": "https://www.fineartsappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Poras Fine Art Appraisal Service offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.fineartsappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartsappraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJFePpywVZwokRFWZHmockGg8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "portico-fine-art-new-york-ny",
+      "name": "Portico Fine Art",
+      "slug": "portico-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "139 Spring St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10012",
+        "formatted": "139 Spring St, New York, NY 10012"
+      },
+      "contact": {
+        "phone": "(917) 549-8248",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art advisory firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art Advisory",
+          "Curatorial Services",
+          "Art Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Curatorial Services"
+        ]
+      },
+      "content": {
+        "about": "Portico New York Inc. provides art advisory and curatorial services. By appointment only.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-york-reilly-clark-fine-art-and-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-and-appraisals",
+      "imageUrl": "https://content.app-sources.com/s/5614540215077393/uploads/Images/Reilly-clark-9714453.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+1 214 799-7889",
+        "email": "reilly@reillyclark.com",
+        "website": "https://reillyclark.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://reillyclark.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://reillyclark.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJqcK2fZfvjksRUknRmQU9hW0",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-selz-fine-arts-appraisals",
+      "name": "Selz Fine Art Appraisals",
+      "slug": "selz-fine-arts-appraisals",
+      "imageUrl": "https://www.selzfineartappraisals.com/imgs/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+15166398144",
+        "email": "gabrielle@selzfineartappraisals.com",
+        "website": "https://www.selzfineartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Selz Fine Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.selzfineartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.selzfineartappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_TlhkQQUOAYRVFB12S_Cpok",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "new-york-spellman-collective-art-antique-appraiser",
+      "name": "Spellman Collective",
+      "slug": "spellman-collective-art-antique-appraiser",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "6463398463",
+        "email": "info@spellmancollective.com",
+        "website": "https://www.spellmancollective.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Spellman Collective offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.spellmancollective.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.spellmancollective.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJi5myBiFZwokRqR1fQCYZ1bk",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states professional art and antique appraiser experience",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "new-york-spellman-gallery",
+      "name": "Spellman Gallery",
+      "slug": "spellman-gallery",
+      "imageUrl": "https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/favicon/application/5d27acbaa5aa2c1e39f578c2/88c8d4fa2bf0ffe3eb2114ab1161ffa0.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "+16463398463",
+        "email": "info@spellmangallery.com",
+        "website": "https://www.spellmangallery.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Spellman Gallery offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.spellmangallery.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.spellmangallery.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJq6raXKVYwokRxOZlwWKpEU4",
+        "confidenceScore": 86,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states fine art appraiser and dealer specializing in artwork and antique objects",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "new-york-st-lifer-art-inc-international-art-appraiser",
+      "name": "St Lifer Fine Art Inc",
+      "slug": "st-lifer-art-inc-international-art-appraiser",
+      "imageUrl": "https://stliferart.com/wp-content/uploads/2020/08/JSLA-Logo.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "212-580-2102",
+        "email": "jane@stliferart.com",
+        "website": "https://stliferart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "St Lifer Fine Art Inc offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://stliferart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://stliferart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ5bXmkGFYwokRnbUs2r8UzAM",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "stan-hamlet-assocs-new-york-ny",
+      "name": "Stan Hamlet Associates Inc",
+      "slug": "stan-hamlet-assocs",
+      "imageUrl": "",
+      "address": {
+        "street": "274 Madison Ave",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10016",
+        "formatted": "274 Madison Ave, New York, NY 10016"
+      },
+      "contact": {
+        "phone": "(212) 989-5151",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "61 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Consulting",
+          "Appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Consulting",
+          "Estate Valuations"
+        ]
+      },
+      "content": {
+        "about": "Stan Hamlet Associates has been providing art consultation and appraisal services in New York City for over six decades.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "new-york-the-antique-guy",
+      "name": "The Antique Guy",
+      "slug": "the-antique-guy",
+      "imageUrl": "https://static.wixstatic.com/media/0948a3_d4ba36aa78b3400b9269aadaf31f564b~mv2.png/v1/fill/w_529,h_189,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0948a3_d4ba36aa78b3400b9269aadaf31f564b~mv2.png",
+      "address": {
+        "street": "",
+        "city": "New York",
+        "state": "NY",
+        "zip": "",
+        "formatted": "New York, NY"
+      },
+      "contact": {
+        "phone": "516-224-7578",
+        "email": "rosario@theantiqueguy.com",
+        "website": "https://www.theantiqueguy.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "The Antique Guy offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.theantiqueguy.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.theantiqueguy.com/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJDVd7wEB9wokRUGVOYmQA2Rg",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "vara-fine-arts-new-york-ny",
+      "name": "Vara Fine Arts",
+      "slug": "vara-fine-arts",
+      "imageUrl": "",
+      "address": {
+        "street": "141 Wooster St",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10012",
+        "formatted": "141 Wooster St, New York, NY 10012"
+      },
+      "contact": {
+        "phone": "(212) 475-4404",
+        "email": "",
+        "website": "https://www.varaglobal.com"
+      },
+      "business": {
+        "yearsInBusiness": "19 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Art Advisory",
+          "Curatorial Services"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Curatorial Services"
+        ]
+      },
+      "content": {
+        "about": "Vara Global Fine Arts, LLC is a private curatorial company established by Renee Vara, providing art advisory and appraisal services to collectors and institutions.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "victoria-shaw-art-appraisals-new-york-ny",
       "name": "Victoria Shaw Art Appraisals and Advisory",
       "slug": "victoria-shaw-art-appraisals",
@@ -698,191 +2667,74 @@
       }
     },
     {
-      "id": "lennie-rose-estate-appraisals-new-york-ny",
-      "name": "Lennie Rose Estate Appraisals",
-      "slug": "lennie-rose-estate-appraisals",
-      "imageUrl": "",
+      "id": "new-york-victoria-shaw-art-appraisals-advisory",
+      "name": "Victoria Shaw Art Appraisals and Advisory, LLC",
+      "slug": "victoria-shaw-art-appraisals-advisory",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
       "address": {
-        "street": "515 Madison Ave",
+        "street": "",
         "city": "New York",
         "state": "NY",
-        "zip": "10022",
-        "formatted": "515 Madison Ave, New York, NY 10022"
+        "zip": "",
+        "formatted": "New York, NY"
       },
       "contact": {
-        "phone": "(212) 752-4900",
-        "email": "",
-        "website": "https://www.lennierose.com"
+        "phone": "212-727-0007",
+        "email": "victoria@artappraiser.co",
+        "website": "https://www.artappraiser.co/"
       },
       "business": {
-        "yearsInBusiness": "40 years in business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
             "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.8,
+        "rating": null,
         "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Fine Art",
-          "Antiques",
-          "Estate Appraisals"
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
         ],
         "certifications": [
-          "Certified Member - AAA",
-          "ISA Accredited",
-          "USPAP Compliant"
+          "Professional appraisal affiliation referenced by source"
         ],
         "services": [
-          "Art Appraisals",
-          "Estate Appraisals",
-          "Insurance Valuations",
-          "Charitable Donations"
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
         ]
       },
       "content": {
-        "about": "Lennie Rose Estate Appraisals is a trusted New York-based firm providing certified and accredited appraisals for fine art, antiques, and personal property. The firm is recognized for thorough, compliant valuations accepted by insurance companies and the IRS.",
-        "notes": ""
+        "about": "Victoria Shaw Art Appraisals and Advisory, LLC offers fine art appraisal and advisory services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.artappraiser.co/about. Human approval required before public import."
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "doyle-new-york-appraisals",
-      "name": "Doyle New York - Appraisals",
-      "slug": "doyle-new-york-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "175 E 87th St",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10128",
-        "formatted": "175 E 87th St, New York, NY 10128"
-      },
-      "contact": {
-        "phone": "(212) 427-2730",
-        "email": "",
-        "website": "https://www.doylenewyork.com"
-      },
-      "business": {
-        "yearsInBusiness": "60 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "10:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Decorative Arts",
-          "Estate Property",
-          "Asian Works of Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Auction Consultation",
-          "Estate Appraisals",
-          "Insurance Valuations"
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artappraiser.co/about",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJxf16U7lZwokR3RdHT8_jSUY",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site identifies art appraisals and advisory practice",
+          "explicitly reviewed non-real-estate fit"
         ]
-      },
-      "content": {
-        "about": "Doyle New York has been a premier auction house and appraisal firm since 1962, offering expert valuations for fine art, decorative arts, Asian works of art, and estate property. Their specialists provide market-leading knowledge for insurance, estate, and charitable donation purposes.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "appellate-art-advisors-new-york-ny",
-      "name": "Art Advisory Services NYC",
-      "slug": "art-advisory-services-nyc",
-      "imageUrl": "",
-      "address": {
-        "street": "45 W 25th St",
-        "city": "New York",
-        "state": "NY",
-        "zip": "10010",
-        "formatted": "45 W 25th St, New York, NY 10010"
-      },
-      "contact": {
-        "phone": "(212) 555-0167",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "15 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Contemporary Art",
-          "Art Market Analysis"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Collection Management",
-          "Market Analysis"
-        ]
-      },
-      "content": {
-        "about": "Art Advisory Services NYC provides comprehensive fine art appraisals and advisory services to collectors, estates, and institutions throughout New York City.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
       }
     }
   ]

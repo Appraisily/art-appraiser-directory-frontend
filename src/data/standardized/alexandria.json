@@ -1,0 +1,73 @@
+{
+  "appraisers": [
+    {
+      "id": "alexandria-alexandria-new-york-fine-art-appraisers",
+      "name": "New York Fine Art Appraisers",
+      "slug": "alexandria-new-york-fine-art-appraisers",
+      "imageUrl": "https://nyfaa.com/wp-content/uploads/2018/07/logo-new.png",
+      "address": {
+        "street": "",
+        "city": "Alexandria",
+        "state": "VA",
+        "zip": "",
+        "formatted": "Alexandria, VA"
+      },
+      "contact": {
+        "phone": "212.772.0319",
+        "email": "appraisals@nyfaa.com",
+        "website": "https://nyfaa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "New York Fine Art Appraisers offers fine art appraisal services serving Alexandria, VA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://nyfaa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://nyfaa.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJe_knr2q3t4kRtznRjQTr8EY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

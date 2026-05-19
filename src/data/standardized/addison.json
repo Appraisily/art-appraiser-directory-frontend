@@ -1,0 +1,64 @@
+{
+  "appraisers": [
+    {
+      "id": "addison-carrie-young",
+      "name": "Carrie Young",
+      "slug": "carrie-young",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Addison",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Addison, IL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://leonardappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Bronzes",
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "ISA AM"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Carrie Young offers art appraisal services serving Addison, IL. FAIR directory data indicates specialties in Art, Bronzes, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: leonardappraisal.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-3268"
+      }
+    }
+  ]
+}

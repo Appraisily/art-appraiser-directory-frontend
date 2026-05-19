@@ -1,0 +1,20 @@
+{
+  "title": "Art appraisers in Albuquerque, New Mexico",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "albuquerque",
+    "url": "https://art-appraisers-directory.appraisily.com/location/albuquerque/",
+    "name": "Art appraisers in Albuquerque, New Mexico",
+    "description": "Compare art appraisers in Albuquerque, New Mexico.",
+    "city": "Albuquerque",
+    "region": "New Mexico",
+    "country": "US",
+    "numberOfListedAppraisers": 0,
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/albuquerque/"
+    }
+  }
+}

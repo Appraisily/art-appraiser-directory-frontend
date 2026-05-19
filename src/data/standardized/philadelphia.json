@@ -1,312 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "philadelphia-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741086903765_KuJQHi6aC.jpg?updatedAt=1741086904882",
-      "address": {
-        "street": "2020 Park Ave",
-        "city": "Philadelphia",
-        "state": "PA",
-        "zip": "15833",
-        "formatted": "2020 Park Ave, Philadelphia, PA 15833"
-      },
-      "contact": {
-        "phone": "532-810-1968",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com"
-      },
-      "business": {
-        "yearsInBusiness": "Decades",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Clear upfront fees; exact rates not listed",
-        "rating": 4.6,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art",
-          "Antiques",
-          "Furniture",
-          "IRS estate tax appraisals",
-          "Insurance documentation"
-        ],
-        "certifications": [
-          "ISA"
-        ],
-        "services": [
-          "USPAP-compliant valuations",
-          "Remote evaluations via photo/video submissions"
-        ]
-      },
-      "content": {
-        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art, Antiques, Furniture, IRS estate tax appraisals, Insurance documentation. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Offers services for fine art and estate evaluations with remote consultation options."
-      },
-      "reviews": [
-        {
-          "author": "Robert J.",
-          "rating": 4.5,
-          "date": "2025-01-27",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Nancy S.",
-          "rating": 5,
-          "date": "2025-01-24",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Patricia J.",
-          "rating": 4,
-          "date": "2024-12-15",
-          "content": "I needed an appraisal for a charitable donation, and Prestige Estate Services delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "philadelphia-doyle-pennsylvania-regional-office",
-      "name": "Doyle (Pennsylvania Regional Office)",
-      "slug": "doyle-pennsylvania-regional-office",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
-      "address": {
-        "street": "2020 Main St",
-        "city": "Philadelphia",
-        "state": "PA",
-        "zip": "15701",
-        "formatted": "2020 Main St, Philadelphia, PA 15701"
-      },
-      "contact": {
-        "phone": "306-395-2456",
-        "email": "info@www.doyle.com",
-        "website": "https://www.doyle.com/locations/pennsylvania/"
-      },
-      "business": {
-        "yearsInBusiness": "Since 1962",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Commission-based consignment fees; auction commissions apply",
-        "rating": 4.8,
-        "reviewCount": 11
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art",
-          "Jewelry",
-          "Asian works"
-        ],
-        "certifications": [
-          "ASA accreditation (implied)"
-        ],
-        "services": [
-          "Auction-based appraisals",
-          "Estate and collection valuations"
-        ]
-      },
-      "content": {
-        "about": "Doyle (Pennsylvania Regional Office) provides professional art appraisal services specializing in Fine art, Jewelry, Asian works. With Since 1962 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Part of a global auction house with an active regional advisor."
-      },
-      "reviews": [
-        {
-          "author": "Patricia J.",
-          "rating": 5,
-          "date": "2025-03-03",
-          "content": "Excellent service from start to finish. I highly recommend Doyle (Pennsylvania Regional Office) for any art appraisal needs."
-        },
-        {
-          "author": "Karen B.",
-          "rating": 4.5,
-          "date": "2025-02-03",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Elizabeth S.",
-          "rating": 4.5,
-          "date": "2025-02-03",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Doyle (Pennsylvania Regional Office)'s knowledge of the market is impressive."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "philadelphia-philadelphia-jewelry-appraisers",
-      "name": "Philadelphia Jewelry Appraisers",
-      "slug": "philadelphia-jewelry-appraisers",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
-      "address": {
-        "street": "456 Elm St",
-        "city": "Philadelphia",
-        "state": "PA",
-        "zip": "15995",
-        "formatted": "456 Elm St, Philadelphia, PA 15995"
-      },
-      "contact": {
-        "phone": "484-580-9147",
-        "email": "info@philadelphiajewelryappraisers.com",
-        "website": "http://philadelphiajewelryappraisers.com"
-      },
-      "business": {
-        "yearsInBusiness": "30+ years (family-owned since 1950)",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Approximately $175+ per jewelry item and $100+ for watches; discounts available for multiple items",
-        "rating": 4.7,
-        "reviewCount": 7
-      },
-      "expertise": {
-        "specialties": [
-          "Jewelry",
-          "Diamonds",
-          "Watches"
-        ],
-        "certifications": [
-          "GIA Graduate Gemologist"
-        ],
-        "services": [
-          "Jewelry certification",
-          "Appraisals",
-          "Authenticity checks"
-        ]
-      },
-      "content": {
-        "about": "Philadelphia Jewelry Appraisers provides professional art appraisal services specializing in Jewelry, Diamonds, Watches. With 30+ years (family-owned since 1950) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Walk-ins welcome; appointments are recommended."
-      },
-      "reviews": [
-        {
-          "author": "Linda T.",
-          "rating": 5,
-          "date": "2025-01-21",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Susan T.",
-          "rating": 4.5,
-          "date": "2025-01-20",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Susan C.",
-          "rating": 4.5,
-          "date": "2025-01-08",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "philadelphia-freeman-s-hindman",
-      "name": "Freeman's | Hindman",
-      "slug": "freemans-hindman",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg?updatedAt=1741089278455",
-      "address": {
-        "street": "456 Washington Ave",
-        "city": "Philadelphia",
-        "state": "PA",
-        "zip": "15228",
-        "formatted": "456 Washington Ave, Philadelphia, PA 15228"
-      },
-      "contact": {
-        "phone": "610-183-8495",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Pricing not specified; likely based on hybrid auction models",
-        "rating": 4.4,
-        "reviewCount": 10
-      },
-      "expertise": {
-        "specialties": [
-          "Fine and decorative arts valuation",
-          "Historical collections"
-        ],
-        "certifications": [
-          "ISA/ASA affiliations (implied)"
-        ],
-        "services": [
-          "Valuations for auctions",
-          "Expert appraisal services"
-        ]
-      },
-      "content": {
-        "about": "Freeman's | Hindman provides professional art appraisal services specializing in Fine and decorative arts valuation, Historical collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Post-merger modernized operations targeting both local and international clientele."
-      },
-      "reviews": [
-        {
-          "author": "Linda M.",
-          "rating": 4.5,
-          "date": "2025-01-23",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Jennifer J.",
-          "rating": 4,
-          "date": "2024-12-18",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "James W.",
-          "rating": 5,
-          "date": "2024-12-04",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "philadelphia-anderson-fine-art-appraisals",
       "name": "Anderson Fine Art Appraisals",
       "slug": "anderson-fine-art-appraisals",
@@ -391,6 +85,356 @@
       }
     },
     {
+      "id": "philadelphia-philadelphia-art-of-estates-personal-property-appraisal-firm",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "philadelphia-art-of-estates-personal-property-appraisal-firm",
+      "imageUrl": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "+1 720.495.3753",
+        "email": "MyFineArt@email.com",
+        "website": "https://artofestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates - Art Appraisal & Consulting offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artofestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artofestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ6fJ6vXdNa4gRQT5Wl_U4s58",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-barry-s-slosberg-auctioneers-and-appraisers",
+      "name": "Barry S. Slosberg Auctioneers & Appraisers",
+      "slug": "barry-s-slosberg-auctioneers-and-appraisers",
+      "imageUrl": "https://www.bssauction.com/wp-content/themes/theme-modern/dist/img/favicon/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "215.425.7030",
+        "email": "info@bssauction.com",
+        "website": "https://www.bssauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Barry S. Slosberg Auctioneers & Appraisers offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bssauction.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bssauction.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJY0cDSdbJxokR4JHYKSQAejE",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-bertolino-arts",
+      "name": "Bertolino Arts",
+      "slug": "bertolino-arts",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "609-504-4078",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.bertolinoarts.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bertolino Arts offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bertolinoarts.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bertolinoarts.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJz9Bqi3YxwYkRP4LAfStuv3o",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-castner-values",
+      "name": "Castner Values",
+      "slug": "castner-values",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "484-973-6008",
+        "email": "leoncastner@comcast.net",
+        "website": "https://castnervalues.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Castner Values offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://castnervalues.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://castnervalues.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJVVUZmpeZxokRGY7rWOpNJwY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-doyle-pennsylvania-regional-office",
+      "name": "Doyle (Pennsylvania Regional Office)",
+      "slug": "doyle-pennsylvania-regional-office",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
+      "address": {
+        "street": "2020 Main St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "15701",
+        "formatted": "2020 Main St, Philadelphia, PA 15701"
+      },
+      "contact": {
+        "phone": "306-395-2456",
+        "email": "info@www.doyle.com",
+        "website": "https://www.doyle.com/locations/pennsylvania/"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1962",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Commission-based consignment fees; auction commissions apply",
+        "rating": 4.8,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Jewelry",
+          "Asian works"
+        ],
+        "certifications": [
+          "ASA accreditation (implied)"
+        ],
+        "services": [
+          "Auction-based appraisals",
+          "Estate and collection valuations"
+        ]
+      },
+      "content": {
+        "about": "Doyle (Pennsylvania Regional Office) provides professional art appraisal services specializing in Fine art, Jewelry, Asian works. With Since 1962 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Part of a global auction house with an active regional advisor."
+      },
+      "reviews": [
+        {
+          "author": "Patricia J.",
+          "rating": 5,
+          "date": "2025-03-03",
+          "content": "Excellent service from start to finish. I highly recommend Doyle (Pennsylvania Regional Office) for any art appraisal needs."
+        },
+        {
+          "author": "Karen B.",
+          "rating": 4.5,
+          "date": "2025-02-03",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Elizabeth S.",
+          "rating": 4.5,
+          "date": "2025-02-03",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Doyle (Pennsylvania Regional Office)'s knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "philadelphia-escher-associates",
       "name": "Escher Associates",
       "slug": "escher-associates",
@@ -463,6 +507,571 @@
           "author": "Robert J.",
           "rating": 5,
           "date": "2025-01-26",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-fine-art-concierge",
+      "name": "Fine Art Concierge",
+      "slug": "fine-art-concierge",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "6102036313",
+        "email": "cjbailer@icloud.com",
+        "website": "https://www.fineartconcierge.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fine Art Concierge offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.fineartconcierge.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartconcierge.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJfzGA0XfCxokRIS23AYRCbK8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-freeman-s-hindman",
+      "name": "Freeman's | Hindman",
+      "slug": "freemans-hindman",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg?updatedAt=1741089278455",
+      "address": {
+        "street": "456 Washington Ave",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "15228",
+        "formatted": "456 Washington Ave, Philadelphia, PA 15228"
+      },
+      "contact": {
+        "phone": "610-183-8495",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Pricing not specified; likely based on hybrid auction models",
+        "rating": 4.4,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Fine and decorative arts valuation",
+          "Historical collections"
+        ],
+        "certifications": [
+          "ISA/ASA affiliations (implied)"
+        ],
+        "services": [
+          "Valuations for auctions",
+          "Expert appraisal services"
+        ]
+      },
+      "content": {
+        "about": "Freeman's | Hindman provides professional art appraisal services specializing in Fine and decorative arts valuation, Historical collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Post-merger modernized operations targeting both local and international clientele."
+      },
+      "reviews": [
+        {
+          "author": "Linda M.",
+          "rating": 4.5,
+          "date": "2025-01-23",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Jennifer J.",
+          "rating": 4,
+          "date": "2024-12-18",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "James W.",
+          "rating": 5,
+          "date": "2024-12-04",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-anderson-fine-art-appraisals_1741088958472_U_WRuRPjJ.jpg?updatedAt=1741088959583",
+      "address": {
+        "street": "888 Elm St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19103",
+        "formatted": "888 Elm St, Philadelphia, PA 19103"
+      },
+      "contact": {
+        "phone": "202-129-8991",
+        "email": "info@www.gurrjohns.com",
+        "website": "http://www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Manages over $10 billion in art value annually",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Not specified",
+        "rating": 4.9,
+        "reviewCount": 22
+      },
+      "expertise": {
+        "specialties": [
+          "High-value art appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant",
+          "ISA (implied)"
+        ],
+        "services": [
+          "Art valuations",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Manages over $10 billion in art value annually experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm with a Los Angeles presence."
+      },
+      "reviews": [
+        {
+          "author": "David B.",
+          "rating": 5,
+          "date": "2025-02-14",
+          "content": "I needed an appraisal for a charitable donation, and Gurr Johns delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Susan M.",
+          "rating": 5,
+          "date": "2025-01-19",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "David C.",
+          "rating": 5,
+          "date": "2025-01-08",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-jennifer-l-strasbaugh-fine-arts-appraising",
+      "name": "Jennifer L. Strasbaugh, Fine Arts Appraising",
+      "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "(410) 790-2687",
+        "email": "appraiser@jenniferstrasbaugh.com",
+        "website": "https://www.jenniferstrasbaugh.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jennifer L. Strasbaugh, Fine Arts Appraising offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jenniferstrasbaugh.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jenniferstrasbaugh.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJM7oqsif-x4kRmxhq4Q3YWiM",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-lauren-travis-art-appraiser",
+      "name": "Lauren Travis, Art Appraiser",
+      "slug": "lauren-travis-art-appraiser",
+      "imageUrl": "https://s1.wp.com/i/favicon.ico?m=1713425267i",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "215-317-2635",
+        "email": "",
+        "website": "https://artappraisal-services.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lauren Travis, Art Appraiser offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artappraisal-services.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artappraisal-services.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJRZJ0LGgDxIkRUcNFGL09kmM",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-appraisal-services-philadelphia-pa-art-antiques-furniture-estate",
+      "name": "Linzey Appraisal Associates LLC",
+      "slug": "appraisal-services-philadelphia-pa-art-antiques-furniture-estate",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "610-543-1982",
+        "email": "info@linzeyappraisals.com",
+        "website": "http://www.linzeyappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Linzey Appraisal Associates LLC offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.linzeyappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.linzeyappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ3w4GOiLoxokRizEQvUBv870",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-mccarty-art-antiques",
+      "name": "McCarty Art & Antiques",
+      "slug": "mccarty-art-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "215-247-5220",
+        "email": "mccartygallery@gmail.com",
+        "website": "https://www.mccartyantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "McCarty Art & Antiques offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.mccartyantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mccartyantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ51pEJJy5xokRr_pVH-rTaUY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg?updatedAt=1741088506014",
+      "address": {
+        "street": "777 Oak Ave",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19103",
+        "formatted": "777 Oak Ave, Philadelphia, PA 19103"
+      },
+      "contact": {
+        "phone": "745-739-7796",
+        "email": "info@www.mimesisgallery.com",
+        "website": "http://www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "20% fee for sales up to $500K; 10% fee for higher amounts",
+        "rating": 4.5,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "Free valuations",
+          "Consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Same-day offers",
+          "Appraisals for consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers free valuations and operates on a consignment basis in Westwood Blvd."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer B.",
+          "rating": 4.5,
+          "date": "2024-10-19",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Robert M.",
+          "rating": 4.5,
+          "date": "2024-10-18",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Robert S.",
+          "rating": 4.5,
+          "date": "2024-09-26",
           "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         }
       ],
@@ -554,6 +1163,238 @@
       }
     },
     {
+      "id": "philadelphia-philadelphia-jewelry-appraisers",
+      "name": "Philadelphia Jewelry Appraisers",
+      "slug": "philadelphia-jewelry-appraisers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "15995",
+        "formatted": "456 Elm St, Philadelphia, PA 15995"
+      },
+      "contact": {
+        "phone": "484-580-9147",
+        "email": "info@philadelphiajewelryappraisers.com",
+        "website": "http://philadelphiajewelryappraisers.com"
+      },
+      "business": {
+        "yearsInBusiness": "30+ years (family-owned since 1950)",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Approximately $175+ per jewelry item and $100+ for watches; discounts available for multiple items",
+        "rating": 4.7,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "Jewelry",
+          "Diamonds",
+          "Watches"
+        ],
+        "certifications": [
+          "GIA Graduate Gemologist"
+        ],
+        "services": [
+          "Jewelry certification",
+          "Appraisals",
+          "Authenticity checks"
+        ]
+      },
+      "content": {
+        "about": "Philadelphia Jewelry Appraisers provides professional art appraisal services specializing in Jewelry, Diamonds, Watches. With 30+ years (family-owned since 1950) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Walk-ins welcome; appointments are recommended."
+      },
+      "reviews": [
+        {
+          "author": "Linda T.",
+          "rating": 5,
+          "date": "2025-01-21",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Susan T.",
+          "rating": 4.5,
+          "date": "2025-01-20",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Susan C.",
+          "rating": 4.5,
+          "date": "2025-01-08",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741086903765_KuJQHi6aC.jpg?updatedAt=1741086904882",
+      "address": {
+        "street": "2020 Park Ave",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "15833",
+        "formatted": "2020 Park Ave, Philadelphia, PA 15833"
+      },
+      "contact": {
+        "phone": "532-810-1968",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Clear upfront fees; exact rates not listed",
+        "rating": 4.6,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Antiques",
+          "Furniture",
+          "IRS estate tax appraisals",
+          "Insurance documentation"
+        ],
+        "certifications": [
+          "ISA"
+        ],
+        "services": [
+          "USPAP-compliant valuations",
+          "Remote evaluations via photo/video submissions"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art, Antiques, Furniture, IRS estate tax appraisals, Insurance documentation. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers services for fine art and estate evaluations with remote consultation options."
+      },
+      "reviews": [
+        {
+          "author": "Robert J.",
+          "rating": 4.5,
+          "date": "2025-01-27",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Nancy S.",
+          "rating": 5,
+          "date": "2025-01-24",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Patricia J.",
+          "rating": 4,
+          "date": "2024-12-15",
+          "content": "I needed an appraisal for a charitable donation, and Prestige Estate Services delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "philadelphia-robyn-roderick-fine-art-appraisal-services-llc",
+      "name": "Robyn Roderick Fine Art Appraisal Services",
+      "slug": "robyn-roderick-fine-art-appraisal-services-llc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/55ccf4a7e4b068d2e78c786b/1445207307138-ADXZLN7FYXT10CL3F3YW/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "610-308-7789",
+        "email": "robyn@rroderickfineartappraisals.com",
+        "website": "https://www.rroderickfineartappraisals.com/hire-us/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Robyn Roderick Fine Art Appraisal Services offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.rroderickfineartappraisals.com/hire-us/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.rroderickfineartappraisals.com/hire-us/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJNbs8xSzoxokRlLaNhGmmlHk",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "philadelphia-saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -624,154 +1465,214 @@
       }
     },
     {
-      "id": "philadelphia-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-anderson-fine-art-appraisals_1741088958472_U_WRuRPjJ.jpg?updatedAt=1741088959583",
+      "id": "philadelphia-schwarz-gallery",
+      "name": "Schwarz Gallery",
+      "slug": "schwarz-gallery",
+      "imageUrl": "https://www.schwarzgallery.com/wp-content/uploads/schwarz_google_logo.png",
       "address": {
-        "street": "888 Elm St",
+        "street": "",
         "city": "Philadelphia",
         "state": "PA",
-        "zip": "19103",
-        "formatted": "888 Elm St, Philadelphia, PA 19103"
+        "zip": "",
+        "formatted": "Philadelphia, PA"
       },
       "contact": {
-        "phone": "202-129-8991",
-        "email": "info@www.gurrjohns.com",
-        "website": "http://www.gurrjohns.com"
+        "phone": "215-563-4887",
+        "email": "mail@schwarzgallery.com",
+        "website": "https://www.schwarzgallery.com/"
       },
       "business": {
-        "yearsInBusiness": "Manages over $10 billion in art value annually",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "By appointment only"
+            "hours": "By appointment"
           }
         ],
-        "pricing": "Not specified",
-        "rating": 4.9,
-        "reviewCount": 22
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "High-value art appraisals",
-          "Expert witness services"
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
         ],
-        "certifications": [
-          "USPAP compliant",
-          "ISA (implied)"
-        ],
+        "certifications": [],
         "services": [
-          "Art valuations",
-          "Expert witness services"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Manages over $10 billion in art value annually experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm with a Los Angeles presence."
+        "about": "Schwarz Gallery offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.schwarzgallery.com/contact/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "David B.",
-          "rating": 5,
-          "date": "2025-02-14",
-          "content": "I needed an appraisal for a charitable donation, and Gurr Johns delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Susan M.",
-          "rating": 5,
-          "date": "2025-01-19",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "David C.",
-          "rating": 5,
-          "date": "2025-01-08",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.schwarzgallery.com/contact/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ3-WUwTDGxokRY34gUv1U0U4",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
-      "id": "philadelphia-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg?updatedAt=1741088506014",
+      "id": "philadelphia-susan-golashovsky-personal-property-appraiser",
+      "name": "Susan Golashovsky, FASA, FSA-Scot",
+      "slug": "susan-golashovsky-personal-property-appraiser",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
-        "street": "777 Oak Ave",
+        "street": "",
         "city": "Philadelphia",
         "state": "PA",
-        "zip": "19103",
-        "formatted": "777 Oak Ave, Philadelphia, PA 19103"
+        "zip": "",
+        "formatted": "Philadelphia, PA"
       },
       "contact": {
-        "phone": "745-739-7796",
-        "email": "info@www.mimesisgallery.com",
-        "website": "http://www.mimesisgallery.com"
+        "phone": "+1-215-489-7515",
+        "email": "\"+a[1]+a[0]+\"",
+        "website": "https://susanasa.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Monday-Friday",
+            "hours": "By appointment"
           }
         ],
-        "pricing": "20% fee for sales up to $500K; 10% fee for higher amounts",
-        "rating": 4.5,
-        "reviewCount": 8
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Free valuations",
-          "Consignment-based sales"
+          "Fine art appraisals",
+          "Estate valuations"
         ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
+        "certifications": [],
         "services": [
-          "Same-day offers",
-          "Appraisals for consignment sales"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Offers free valuations and operates on a consignment basis in Westwood Blvd."
+        "about": "Susan Golashovsky, FASA, FSA-Scot offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://susanasa.com/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "Jennifer B.",
-          "rating": 4.5,
-          "date": "2024-10-19",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Robert M.",
-          "rating": 4.5,
-          "date": "2024-10-18",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Robert S.",
-          "rating": 4.5,
-          "date": "2024-09-26",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://susanasa.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJxbdHP2ioxokRi_P5b1rTSxY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "philadelphia-sarah-ann-wilson-art-services",
+      "name": "Wilson Art Services, LLC",
+      "slug": "sarah-ann-wilson-art-services",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "",
+        "formatted": "Philadelphia, PA"
+      },
+      "contact": {
+        "phone": "717.348.4493",
+        "email": "user@domain.com",
+        "website": "https://www.wilsonartservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Wilson Art Services, LLC offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.wilsonartservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.wilsonartservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJea5LGX3EPGoRgK4EHBiN4aQ",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

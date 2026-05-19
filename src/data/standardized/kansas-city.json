@@ -1,28 +1,28 @@
 {
   "appraisers": [
     {
-      "id": "kansas-city-haney-appraisals-in-fine-art",
-      "name": "Haney Appraisals in Fine Art",
-      "slug": "haney-appraisals-in-fine-art",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg?updatedAt=1741088906975",
+      "id": "kansas-city-american-legacy-gallery",
+      "name": "American Legacy Gallery",
+      "slug": "american-legacy-gallery",
+      "imageUrl": "",
       "address": {
-        "street": "2020 Gallery Row",
+        "street": "5911 Main St",
         "city": "Kansas City",
         "state": "MO",
-        "zip": "63637",
-        "formatted": "2020 Gallery Row, Kansas City, MO 63637"
+        "zip": "64113",
+        "formatted": "5911 Main St, Kansas City, MO 64113"
       },
       "contact": {
-        "phone": "523-164-3456",
-        "email": "info@www.haneyappraisalsfineart.com",
-        "website": "https://www.haneyappraisalsfineart.com"
+        "phone": "816-444-7944",
+        "email": "",
+        "website": ""
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Over 49 years",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
+            "hours": "10:00 AM - 5:00 PM"
           },
           {
             "day": "Saturday",
@@ -34,50 +34,111 @@
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 18
+        "rating": 4.5,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "traditional mediums",
-          "painting",
-          "printmaking",
-          "photography",
-          "sculpture",
-          "ceramics"
+          "Fine Art",
+          "Art Goods",
+          "Picture Frame Restoration"
         ],
         "certifications": [
-          "USPAP-compliant"
+          "Professional Appraiser"
         ],
         "services": [
-          "insurance appraisals",
-          "estate planning appraisals",
-          "donations",
-          "private and public collections"
+          "Art Appraisals",
+          "Gallery Services",
+          "Picture Frame Repair and Restoration",
+          "Art Consultation"
         ]
       },
       "content": {
-        "about": "Haney Appraisals in Fine Art provides professional art appraisal services specializing in traditional mediums, painting, printmaking, photography, sculpture, ceramics. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Based in Kansas City metro area; further details available on the website."
+        "about": "American Legacy Gallery is a long-standing Kansas City fine art gallery with over 49 years in business. Located on Main St in the Brookside area, they offer art gallery services, picture frame repair and restoration, art goods, and appraisal services. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (49 years in business). Located in Kansas City's Brookside neighborhood."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-anderson-fine-art-appraisals-afaa",
+      "name": "Anderson Fine Art Appraisals (AFAA)",
+      "slug": "anderson-fine-art-appraisals-afaa",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
+      "address": {
+        "street": "2020 Elm St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "2020 Elm St, Kansas City, MO 63101"
+      },
+      "contact": {
+        "phone": "307-387-3817",
+        "email": "info@www.art-appraisals.net",
+        "website": "http://www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.8,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "European art",
+          "American art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "insurance appraisals",
+          "estate planning",
+          "donations",
+          "litigation support",
+          "expert witness services",
+          "authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals (AFAA) provides professional art appraisal services specializing in European art, American art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Specializes in expert witness services and authentication research."
       },
       "reviews": [
         {
-          "author": "Jennifer W.",
-          "rating": 5,
-          "date": "2025-01-23",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+          "author": "Elizabeth J.",
+          "rating": 4.5,
+          "date": "2025-01-26",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         },
         {
-          "author": "Karen C.",
-          "rating": 1,
-          "date": "2025-01-05",
-          "content": "Professional service with good attention to detail, but would have appreciated more explanation of the valuation methodology."
+          "author": "Jennifer M.",
+          "rating": 5,
+          "date": "2024-12-02",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
         },
         {
-          "author": "Susan T.",
+          "author": "Robert W.",
           "rating": 5,
-          "date": "2024-11-21",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+          "date": "2024-08-27",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {
@@ -169,6 +230,305 @@
       }
     },
     {
+      "id": "kansas-city-escher-associates-ea",
+      "name": "Escher Associates (EA)",
+      "slug": "escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
+      "address": {
+        "street": "555 Park Ave",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63103",
+        "formatted": "555 Park Ave, Kansas City, MO 63103"
+      },
+      "contact": {
+        "phone": "606-946-4363",
+        "email": "info@www.escher-associates.com",
+        "website": "http://www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.6,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "paintings",
+          "sculpture",
+          "photography",
+          "rare books"
+        ],
+        "certifications": [
+          "ASA-certified",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "art appraisals",
+          "expert witness services",
+          "litigation support"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates (EA) provides professional art appraisal services specializing in paintings, sculpture, photography, rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handled art fraud cases with the LAPD."
+      },
+      "reviews": [
+        {
+          "author": "John D.",
+          "rating": 4.5,
+          "date": "2025-01-30",
+          "content": "Excellent service from start to finish. I highly recommend Escher Associates (EA) for any art appraisal needs."
+        },
+        {
+          "author": "Karen J.",
+          "rating": 4,
+          "date": "2025-01-15",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 4.5,
+          "date": "2025-01-02",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Escher Associates (EA)'s knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg?updatedAt=1741087653262",
+      "address": {
+        "street": "456 Maple Dr",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63101",
+        "formatted": "456 Maple Dr, Kansas City, MO 63101"
+      },
+      "contact": {
+        "phone": "688-680-5968",
+        "email": "info@www.gurrjohns.com",
+        "website": "http://www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.8,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "high-value art appraisals",
+          "global asset management"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "art appraisals",
+          "expert witness services",
+          "valuation consultations"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in high-value art appraisals, global asset management. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion in assets annually."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer C.",
+          "rating": 5,
+          "date": "2025-03-11",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Sarah J.",
+          "rating": 4.5,
+          "date": "2025-02-15",
+          "content": "I needed an appraisal for a charitable donation, and Gurr Johns delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert B.",
+          "rating": 4.5,
+          "date": "2025-01-02",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-haney-appraisals-in-fine-art",
+      "name": "Haney Appraisals in Fine Art",
+      "slug": "haney-appraisals-in-fine-art",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg?updatedAt=1741088906975",
+      "address": {
+        "street": "2020 Gallery Row",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "63637",
+        "formatted": "2020 Gallery Row, Kansas City, MO 63637"
+      },
+      "contact": {
+        "phone": "523-164-3456",
+        "email": "info@www.haneyappraisalsfineart.com",
+        "website": "https://www.haneyappraisalsfineart.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "traditional mediums",
+          "painting",
+          "printmaking",
+          "photography",
+          "sculpture",
+          "ceramics"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "insurance appraisals",
+          "estate planning appraisals",
+          "donations",
+          "private and public collections"
+        ]
+      },
+      "content": {
+        "about": "Haney Appraisals in Fine Art provides professional art appraisal services specializing in traditional mediums, painting, printmaking, photography, sculpture, ceramics. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Kansas City metro area; further details available on the website."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer W.",
+          "rating": 5,
+          "date": "2025-01-23",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Karen C.",
+          "rating": 1,
+          "date": "2025-01-05",
+          "content": "Professional service with good attention to detail, but would have appreciated more explanation of the valuation methodology."
+        },
+        {
+          "author": "Susan T.",
+          "rating": 5,
+          "date": "2024-11-21",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-hilliard-gallery",
+      "name": "Hilliard Gallery",
+      "slug": "hilliard-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "1820 Mcgee St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64108",
+        "formatted": "1820 Mcgee St, Kansas City, MO 64108"
+      },
+      "contact": {
+        "phone": "816-561-2956",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 52 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Consultation"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Gallery Services",
+          "Art Consultation",
+          "Buying and Selling Fine Art"
+        ]
+      },
+      "content": {
+        "about": "Hilliard Gallery is one of Kansas City's most prominent art galleries with over 52 years in business. Voted best gallery in Missouri and a top 25 gallery in the United States by American Art Awards. Located in the Crossroads Arts District on Mcgee St, they offer fine art gallery services, appraisals, and consultations. Verified via Yellow Pages listing.",
+        "notes": "Verified via Yellow Pages listing (52 years in business). Voted best gallery in Missouri by American Art Awards. Located in Kansas City's Crossroads Arts District."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "kansas-city-janet-l-ross",
       "name": "Janet L. Ross",
       "slug": "janet-l-ross",
@@ -239,6 +599,130 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "kansas-city-justin-rogers",
+      "name": "Justin Rogers",
+      "slug": "justin-rogers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "",
+        "formatted": "Kansas City, MO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://rogersfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Drawings",
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "ISA CAPP",
+          "ISA Certified"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA CAPP"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Justin Rogers offers art appraisal services serving Kansas City, MO. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: rogersfineart.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-2102"
+      }
+    },
+    {
+      "id": "kansas-city-leopold-gallery-art-consulting",
+      "name": "LEOPOLDgallery and ARTconsulting",
+      "slug": "leopold-gallery-art-consulting",
+      "imageUrl": "",
+      "address": {
+        "street": "324 W 63rd St",
+        "city": "Kansas City",
+        "state": "MO",
+        "zip": "64113",
+        "formatted": "324 W 63rd St, Kansas City, MO 64113"
+      },
+      "contact": {
+        "phone": "816-333-3111",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Over 35 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Consulting",
+          "Local Artist Representation"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Art Consulting",
+          "Gallery Services",
+          "Corporate Art Consulting"
+        ]
+      },
+      "content": {
+        "about": "LEOPOLDgallery and ARTconsulting has served the Kansas City art community for over 35 years. Located on W 63rd St in the Brookside/Waldo area, they combine gallery services with professional art consulting. Known for excellent customer service, personal attention, and strong support of the local artist community. Verified via Yellow Pages listing with positive customer reviews.",
+        "notes": "Verified via Yellow Pages listing (35 years in business). Known for supporting local artists and providing corporate art consulting."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -320,160 +804,70 @@
       }
     },
     {
-      "id": "kansas-city-anderson-fine-art-appraisals-afaa",
-      "name": "Anderson Fine Art Appraisals (AFAA)",
-      "slug": "anderson-fine-art-appraisals-afaa",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
+      "id": "kansas-city-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baker-asian-antique-appraisers_1741087699816_0gt459k0L.jpg?updatedAt=1741087701033",
       "address": {
-        "street": "2020 Elm St",
+        "street": "456 Pine Ln",
         "city": "Kansas City",
         "state": "MO",
         "zip": "63101",
-        "formatted": "2020 Elm St, Kansas City, MO 63101"
+        "formatted": "456 Pine Ln, Kansas City, MO 63101"
       },
       "contact": {
-        "phone": "307-387-3817",
-        "email": "info@www.art-appraisals.net",
-        "website": "http://www.art-appraisals.net"
+        "phone": "294-431-2232",
+        "email": "info@www.mimesisgallery.com",
+        "website": "http://www.mimesisgallery.com"
       },
       "business": {
-        "yearsInBusiness": "Decades",
+        "yearsInBusiness": "Established business",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Project-based",
-        "rating": 4.8,
-        "reviewCount": 8
+        "pricing": "Consignment fees: 20% for sales up to $500K; 10% for sales above $500K",
+        "rating": 4.4,
+        "reviewCount": 6
       },
       "expertise": {
         "specialties": [
-          "European art",
-          "American art",
-          "Contemporary",
-          "Modern",
-          "Impressionist",
-          "19th-century works"
+          "art valuations",
+          "consignment-based sales"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "insurance appraisals",
-          "estate planning",
-          "donations",
-          "litigation support",
-          "expert witness services",
-          "authentication research"
+          "free valuations",
+          "same-day offers",
+          "consignment sales"
         ]
       },
       "content": {
-        "about": "Anderson Fine Art Appraisals (AFAA) provides professional art appraisal services specializing in European art, American art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Specializes in expert witness services and authentication research."
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in art valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, offers free valuations and quick sale options."
       },
       "reviews": [
         {
-          "author": "Elizabeth J.",
+          "author": "Emily R.",
+          "rating": 2,
+          "date": "2025-02-23",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        },
+        {
+          "author": "Patricia C.",
           "rating": 4.5,
-          "date": "2025-01-26",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+          "date": "2025-01-18",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
         },
         {
-          "author": "Jennifer M.",
-          "rating": 5,
-          "date": "2024-12-02",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Robert W.",
-          "rating": 5,
-          "date": "2024-08-27",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "kansas-city-escher-associates-ea",
-      "name": "Escher Associates (EA)",
-      "slug": "escher-associates-ea",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
-      "address": {
-        "street": "555 Park Ave",
-        "city": "Kansas City",
-        "state": "MO",
-        "zip": "63103",
-        "formatted": "555 Park Ave, Kansas City, MO 63103"
-      },
-      "contact": {
-        "phone": "606-946-4363",
-        "email": "info@www.escher-associates.com",
-        "website": "http://www.escher-associates.com"
-      },
-      "business": {
-        "yearsInBusiness": "Since 1984",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "$350/hour or $2,500/day plus expenses",
-        "rating": 4.6,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "paintings",
-          "sculpture",
-          "photography",
-          "rare books"
-        ],
-        "certifications": [
-          "ASA-certified",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "art appraisals",
-          "expert witness services",
-          "litigation support"
-        ]
-      },
-      "content": {
-        "about": "Escher Associates (EA) provides professional art appraisal services specializing in paintings, sculpture, photography, rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Handled art fraud cases with the LAPD."
-      },
-      "reviews": [
-        {
-          "author": "John D.",
+          "author": "Jessica C.",
           "rating": 4.5,
-          "date": "2025-01-30",
-          "content": "Excellent service from start to finish. I highly recommend Escher Associates (EA) for any art appraisal needs."
-        },
-        {
-          "author": "Karen J.",
-          "rating": 4,
-          "date": "2025-01-15",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Sarah W.",
-          "rating": 4.5,
-          "date": "2025-01-02",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Escher Associates (EA)'s knowledge of the market is impressive."
+          "date": "2025-01-04",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
         }
       ],
       "metadata": {
@@ -626,339 +1020,6 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "kansas-city-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741087651491_HCSFvA7ErK.jpg?updatedAt=1741087653262",
-      "address": {
-        "street": "456 Maple Dr",
-        "city": "Kansas City",
-        "state": "MO",
-        "zip": "63101",
-        "formatted": "456 Maple Dr, Kansas City, MO 63101"
-      },
-      "contact": {
-        "phone": "688-680-5968",
-        "email": "info@www.gurrjohns.com",
-        "website": "http://www.gurrjohns.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Project-based",
-        "rating": 4.8,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "high-value art appraisals",
-          "global asset management"
-        ],
-        "certifications": [
-          "USPAP-compliant"
-        ],
-        "services": [
-          "art appraisals",
-          "expert witness services",
-          "valuation consultations"
-        ]
-      },
-      "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in high-value art appraisals, global asset management. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm managing over $10 billion in assets annually."
-      },
-      "reviews": [
-        {
-          "author": "Jennifer C.",
-          "rating": 5,
-          "date": "2025-03-11",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Sarah J.",
-          "rating": 4.5,
-          "date": "2025-02-15",
-          "content": "I needed an appraisal for a charitable donation, and Gurr Johns delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert B.",
-          "rating": 4.5,
-          "date": "2025-01-02",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "kansas-city-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_baker-asian-antique-appraisers_1741087699816_0gt459k0L.jpg?updatedAt=1741087701033",
-      "address": {
-        "street": "456 Pine Ln",
-        "city": "Kansas City",
-        "state": "MO",
-        "zip": "63101",
-        "formatted": "456 Pine Ln, Kansas City, MO 63101"
-      },
-      "contact": {
-        "phone": "294-431-2232",
-        "email": "info@www.mimesisgallery.com",
-        "website": "http://www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Consignment fees: 20% for sales up to $500K; 10% for sales above $500K",
-        "rating": 4.4,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "art valuations",
-          "consignment-based sales"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "free valuations",
-          "same-day offers",
-          "consignment sales"
-        ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in art valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd, offers free valuations and quick sale options."
-      },
-      "reviews": [
-        {
-          "author": "Emily R.",
-          "rating": 2,
-          "date": "2025-02-23",
-          "content": "Knowledgeable team, though communication could have been better during the process."
-        },
-        {
-          "author": "Patricia C.",
-          "rating": 4.5,
-          "date": "2025-01-18",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Jessica C.",
-          "rating": 4.5,
-          "date": "2025-01-04",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "kansas-city-hilliard-gallery",
-      "name": "Hilliard Gallery",
-      "slug": "hilliard-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "1820 Mcgee St",
-        "city": "Kansas City",
-        "state": "MO",
-        "zip": "64108",
-        "formatted": "1820 Mcgee St, Kansas City, MO 64108"
-      },
-      "contact": {
-        "phone": "816-561-2956",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Over 52 years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "10:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Contemporary Art",
-          "Art Consultation"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Gallery Services",
-          "Art Consultation",
-          "Buying and Selling Fine Art"
-        ]
-      },
-      "content": {
-        "about": "Hilliard Gallery is one of Kansas City's most prominent art galleries with over 52 years in business. Voted best gallery in Missouri and a top 25 gallery in the United States by American Art Awards. Located in the Crossroads Arts District on Mcgee St, they offer fine art gallery services, appraisals, and consultations. Verified via Yellow Pages listing.",
-        "notes": "Verified via Yellow Pages listing (52 years in business). Voted best gallery in Missouri by American Art Awards. Located in Kansas City's Crossroads Arts District."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "kansas-city-american-legacy-gallery",
-      "name": "American Legacy Gallery",
-      "slug": "american-legacy-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "5911 Main St",
-        "city": "Kansas City",
-        "state": "MO",
-        "zip": "64113",
-        "formatted": "5911 Main St, Kansas City, MO 64113"
-      },
-      "contact": {
-        "phone": "816-444-7944",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Over 49 years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "10:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Art Goods",
-          "Picture Frame Restoration"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Gallery Services",
-          "Picture Frame Repair and Restoration",
-          "Art Consultation"
-        ]
-      },
-      "content": {
-        "about": "American Legacy Gallery is a long-standing Kansas City fine art gallery with over 49 years in business. Located on Main St in the Brookside area, they offer art gallery services, picture frame repair and restoration, art goods, and appraisal services. Verified via Yellow Pages listing.",
-        "notes": "Verified via Yellow Pages listing (49 years in business). Located in Kansas City's Brookside neighborhood."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "kansas-city-leopold-gallery-art-consulting",
-      "name": "LEOPOLDgallery and ARTconsulting",
-      "slug": "leopold-gallery-art-consulting",
-      "imageUrl": "",
-      "address": {
-        "street": "324 W 63rd St",
-        "city": "Kansas City",
-        "state": "MO",
-        "zip": "64113",
-        "formatted": "324 W 63rd St, Kansas City, MO 64113"
-      },
-      "contact": {
-        "phone": "816-333-3111",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Over 35 years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "10:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Art Consulting",
-          "Local Artist Representation"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Art Consulting",
-          "Gallery Services",
-          "Corporate Art Consulting"
-        ]
-      },
-      "content": {
-        "about": "LEOPOLDgallery and ARTconsulting has served the Kansas City art community for over 35 years. Located on W 63rd St in the Brookside/Waldo area, they combine gallery services with professional art consulting. Known for excellent customer service, personal attention, and strong support of the local artist community. Verified via Yellow Pages listing with positive customer reviews.",
-        "notes": "Verified via Yellow Pages listing (35 years in business). Known for supporting local artists and providing corporate art consulting."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

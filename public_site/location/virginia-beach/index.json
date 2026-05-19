@@ -1,0 +1,20 @@
+{
+  "title": "Art appraisers in Virginia Beach, Virginia",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "virginia-beach",
+    "url": "https://art-appraisers-directory.appraisily.com/location/virginia-beach/",
+    "name": "Art appraisers in Virginia Beach, Virginia",
+    "description": "Compare art appraisers in Virginia Beach, Virginia.",
+    "city": "Virginia Beach",
+    "region": "Virginia",
+    "country": "US",
+    "numberOfListedAppraisers": 0,
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/virginia-beach/"
+    }
+  }
+}

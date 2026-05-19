@@ -1,0 +1,75 @@
+{
+  "appraisers": [
+    {
+      "id": "fort-collins-collector-s-fine-art-appraisal-et-associates",
+      "name": "Collector’s Fine Art Appraisal et Associates",
+      "slug": "collector-s-fine-art-appraisal-et-associates",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/9cc81c03-dd01-426f-a3ba-e6de1cb99305/aspen%20logo.PNG/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Fort Collins",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Fort Collins, CO"
+      },
+      "contact": {
+        "phone": "9709482950",
+        "email": "Bpartapp@aol.com",
+        "website": "https://aspenappraisalbarbpreston.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Collector’s Fine Art Appraisal et Associates offers fine art appraisal services serving Fort Collins, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://aspenappraisalbarbpreston.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://aspenappraisalbarbpreston.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJmwHhhSRvBGoRVlqaszAkZ28",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

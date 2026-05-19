@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Solana Beach, California",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "solana-beach",
+    "url": "https://art-appraisers-directory.appraisily.com/location/solana-beach/",
+    "name": "Art appraisers in Solana Beach, California",
+    "description": "Compare art appraisers in Solana Beach, California.",
+    "city": "Solana Beach",
+    "region": "California",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Jennifer E Salvetti-Kulla, MA",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-e-salvetti-kulla-ma/",
+        "slug": "jennifer-e-salvetti-kulla-ma",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/jennifer-e-salvetti-kulla-ma.svg",
+        "description": "Jennifer E Salvetti-Kulla, MA offers art appraisal services serving Solana Beach, CA. FAIR directory data indicates specialties in Art - 20th Century, Paintings - 20th Century, Prints - Modern & Contemporary, Sculpture - 20th Century, Watercolors - Contemporary, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/solana-beach/"
+    }
+  }
+}

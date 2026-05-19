@@ -209,3 +209,15 @@ The `scripts/` directory contains essential tools for:
 - Evaluate direct integration vs. submodule approach
 - Explore server-side rendering options
 - Implement CMS for directory content management 
+# Deprecated
+
+This document describes the old `dist`/app-build workflow.
+
+Current repo policy:
+
+- `public_site/` is the canonical published artifact.
+- edit HTML directly in `public_site/`
+- run `npm run build` only to refresh static helpers in place
+- run `npm run publish` to publish
+
+# Legacy Notes

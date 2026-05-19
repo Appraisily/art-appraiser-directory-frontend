@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Milwaukee, Wisconsin",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "milwaukee",
+    "url": "https://art-appraisers-directory.appraisily.com/location/milwaukee/",
+    "name": "Art appraisers in Milwaukee, Wisconsin",
+    "description": "Compare art appraisers in Milwaukee, Wisconsin.",
+    "city": "Milwaukee",
+    "region": "Wisconsin",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Christine H Anderson, ISA AM",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-h-anderson-isa-am/",
+        "slug": "christine-h-anderson-isa-am",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/christine-h-anderson-isa-am.svg",
+        "description": "Christine H Anderson, ISA AM offers art appraisal services serving Milwaukee, WI. FAIR directory data indicates specialties in Art, Art - 20th Century, Paintings - 20th Century, Prints - 20th Century Limited Edition, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/milwaukee/"
+    }
+  }
+}

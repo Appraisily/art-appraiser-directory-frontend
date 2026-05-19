@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Orlando, Florida",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "orlando",
+    "url": "https://art-appraisers-directory.appraisily.com/location/orlando/",
+    "name": "Art appraisers in Orlando, Florida",
+    "description": "Compare art appraisers in Orlando, Florida.",
+    "city": "Orlando",
+    "region": "Florida",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Lauren K. Stump",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-k-stump/",
+        "slug": "lauren-k-stump",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lauren-k-stump.svg",
+        "description": "Lauren K. Stump offers art appraisal services serving Orlando, FL. FAIR directory data indicates specialties in Drawings, Paintings, Prints, Sculpture, Watercolors, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/orlando/"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "appraisers": [
+    {
+      "id": "princeton-fine-art-concierge",
+      "name": "Fine Art Concierge",
+      "slug": "fine-art-concierge",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Princeton",
+        "state": "NJ",
+        "zip": "",
+        "formatted": "Princeton, NJ"
+      },
+      "contact": {
+        "phone": "6102036313",
+        "email": "cjbailer@icloud.com",
+        "website": "https://www.fineartconcierge.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fine Art Concierge offers fine art appraisal services serving Princeton, NJ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.fineartconcierge.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartconcierge.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJfzGA0XfCxokRIS23AYRCbK8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

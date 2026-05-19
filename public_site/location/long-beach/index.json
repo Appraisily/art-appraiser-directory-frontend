@@ -1,0 +1,20 @@
+{
+  "title": "Art appraisers in Long Beach, California",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "long-beach",
+    "url": "https://art-appraisers-directory.appraisily.com/location/long-beach/",
+    "name": "Art appraisers in Long Beach, California",
+    "description": "Compare art appraisers in Long Beach, California.",
+    "city": "Long Beach",
+    "region": "California",
+    "country": "US",
+    "numberOfListedAppraisers": 0,
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/long-beach/"
+    }
+  }
+}

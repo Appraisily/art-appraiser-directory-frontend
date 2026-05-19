@@ -1,0 +1,108 @@
+{
+  "title": "Art appraisers in Aspen, Colorado",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "aspen",
+    "url": "https://art-appraisers-directory.appraisily.com/location/aspen/",
+    "name": "Art appraisers in Aspen, Colorado",
+    "description": "Compare art appraisers in Aspen, Colorado.",
+    "city": "Aspen",
+    "region": "Colorado",
+    "country": "US",
+    "numberOfListedAppraisers": 11,
+    "listedAppraisers": [
+      {
+        "name": "Mary Peck Art Advisory",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mary-peck-art-advisory/",
+        "slug": "mary-peck-art-advisory",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
+        "description": "Mary Peck Art Advisory provides professional art appraisal services specializing in Modern/Contemporary Art, Paintings, Sculpture, Prints, Photography, IRS-compliant charitable donation and estate tax appraisals. With 16+ experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Alicia E Weaver",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver/",
+        "slug": "alicia-e-weaver",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-saylor-rice-appraisals_1741088975587_m4gb2w_4o.jpg?updatedAt=1741088976609",
+        "description": "Alicia E Weaver provides professional art appraisal services specializing in Antique Furniture, Fine Art (19th–20th century), High-net-worth collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "812 Maplewood",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/812-maplewood/",
+        "slug": "812-maplewood",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
+        "description": "812 Maplewood provides professional art appraisal services specializing in Fine Art Valuations, Insurance Solutions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-mimesis-gallery_1741089081260_KjdHZcmg1.jpg?updatedAt=1741089082370",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th Century Art. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-gurr-johns_1741088522110_0PMXOhgf5a.jpg?updatedAt=1741088523784",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate Appraisals, Donation Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg?updatedAt=1741088882489",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance Appraisals, Damage/Loss Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg?updatedAt=1741088888767",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg?updatedAt=1741089145255",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment-based Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "WorthWise Appraisers (Candace Hill)",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
+        "description": "WorthWise Appraisers is led by Candace Hill, an ISA Certified Member located in the greater Boulder/Denver metropolitan area who also serves the Aspen region. Since 2014, she has appraised over 8,000 items across a wide variety of categories including fine art, American Indian art, Asian art, and antiques. She has appraised works by artists including Banksy, Chagall, Dali, Picasso, Warhol, and Wayne Thiebaud. Candace has appeared on national television as a guest appraiser on the hit show Pawn Stars.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Prestige Estate Services (Alicia Weaver)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
+        "description": "Prestige Estate Services was founded in 2010 by Alicia Weaver, an ISA CAPP-certified appraiser and University of Colorado at Boulder alumna. She is one of only approximately 108 appraisers in North America holding the CAPP designation. The firm has a dedicated Aspen/Vail office and specializes in providing detailed appraisals for personal property, fine art, and antiques. Alicia's clientele encompasses distinguished politicians, professional athletes, and celebrities. The firm also offers estate sale and liquidation services.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/aspen/"
+    }
+  }
+}

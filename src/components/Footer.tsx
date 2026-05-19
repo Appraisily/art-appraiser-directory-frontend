@@ -1,8 +1,6 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Mail, ArrowRight, MapPin } from 'lucide-react';
-import citiesData from '../data/cities.json';
-import { PARENT_SITE_URL, SITE_NAME, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
-import { BRAND_LOGO_URL } from '../config/assets';
+import { Facebook, Twitter, Instagram, Mail, ArrowRight } from 'lucide-react';
+import { PARENT_SITE_URL, SITE_NAME, getPrimaryCtaUrl } from '../config/site';
 import { trackEvent } from '../utils/analytics';
 
 const links = {
@@ -26,10 +24,7 @@ const links = {
   ]
 };
 
-type FooterCity = typeof citiesData.cities[number];
-
 export function Footer() {
-  const cities = citiesData.cities;
   const primaryCtaUrl = getPrimaryCtaUrl();
 
   const handleFooterCtaClick = () => {
@@ -38,14 +33,6 @@ export function Footer() {
       destination: primaryCtaUrl
     });
     window.location.assign(primaryCtaUrl);
-  };
-
-  const handleFooterCityClick = (city: FooterCity) => {
-    trackEvent('footer_city_click', {
-      city_slug: city.slug,
-      city_name: city.name,
-      state: city.state
-    });
   };
 
   const handleFooterLinkClick = (name: string, section: 'quick' | 'legal') => {
@@ -63,65 +50,23 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative overflow-hidden bg-white">
-      {/* Background Elements */}
-      <div className="absolute inset-0">
-        {/* Base gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white" />
-        
-        {/* Animated gradient blobs */}
-        <div className="absolute top-0 -left-4 w-3/4 h-3/4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-[0.08] animate-blob" />
-        <div className="absolute -bottom-8 right-0 w-3/4 h-3/4 bg-gradient-to-l from-blue-500 to-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-[0.08] animate-blob animation-delay-2000" />
-        <div className="absolute -bottom-8 -left-4 w-3/4 h-3/4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full mix-blend-multiply filter blur-3xl opacity-[0.08] animate-blob animation-delay-4000" />
-        
-        {/* Grid overlay */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#3b82f620_1px,transparent_1px),linear-gradient(to_bottom,#3b82f620_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_at_center,black,transparent_75%)]" />
-      </div>
-
-      {/* Cities Subfooter */}
-      <div className="relative border-b border-gray-200">
-        <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-          <h3 className="text-lg font-semibold text-gray-900 mb-6">
-            Find Art Appraisers Near You
-          </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2">
-            {cities.map((city) => (
-              <a
-                key={city.slug}
-                href={buildSiteUrl(`/location/${city.slug}`)}
-                className="text-gray-600 hover:text-gray-900 hover:bg-blue-50 transition-colors text-sm flex items-center gap-2 py-2 px-2 rounded min-h-[44px]"
-                data-gtm-event="footer_city_click"
-                data-gtm-city={city.slug}
-                data-gtm-state={city.state}
-                onClick={() => handleFooterCityClick(city)}
-              >
-                <MapPin className="h-4 w-4 flex-shrink-0" /> <span className="truncate">{city.name}, {city.state}</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Main Footer */}
-      <div className="relative max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <footer className="bg-white border-t border-gray-200">
+      <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div className="col-span-1 md:col-span-2 space-y-6">
-            <div className="flex items-center">
-              <img 
-                src={BRAND_LOGO_URL}
-                alt="Appraisily Logo"
-                className="h-8 w-auto mr-3"
-                loading="lazy"
-              />
+          <div className="col-span-1 md:col-span-2 space-y-5">
+            <div className="flex items-center gap-3">
+              <span className="flex h-9 w-9 items-center justify-center rounded-md border border-gray-300 bg-white text-sm font-bold text-gray-900">
+                A
+              </span>
               <span className="text-2xl font-bold text-gray-900">{SITE_NAME}</span>
             </div>
             <p className="text-gray-600 max-w-md">
-              Professional online art and antique appraisals. Get accurate valuations from certified experts within 48 hours.
+              Professional art appraisal reports, local directory research, and appraisal guides for insurance, estate, donation, resale, and collection decisions.
             </p>
             <button
               type="button"
-              className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 min-h-[48px] rounded-md flex items-center justify-center text-base font-medium transition-colors"
+              className="bg-gray-900 hover:bg-gray-800 text-white px-5 py-3 min-h-[48px] rounded-md inline-flex items-center justify-center text-base font-medium transition-colors"
               data-gtm-event="cta_click"
               data-gtm-placement="footer_primary"
               onClick={handleFooterCtaClick}
@@ -189,7 +134,7 @@ export function Footer() {
         </div>
         
         {/* Bottom Bar */}
-        <div className="mt-8 pt-8 border-t border-gray-200">
+        <div className="mt-10 pt-6 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center space-x-1 text-sm">
               <span className="text-gray-600">©</span>

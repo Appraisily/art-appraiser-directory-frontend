@@ -1,0 +1,627 @@
+{
+  "appraisers": [
+    {
+      "id": "detroit-art-leaders-gallery-fine-art-appraisals",
+      "name": "Art Leaders Gallery & Custom Framing",
+      "slug": "art-leaders-gallery-fine-art-appraisals",
+      "imageUrl": "https://cdn.artcld.com/img/w_320,h_320,c_pad,b_ffffff/8y3fvv2q3ja31lubbh2a.jpg",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "",
+        "email": "info@artleaders.com",
+        "website": "https://www.artleaders.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art Leaders Gallery & Custom Framing offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.artleaders.com/fine-art-appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artleaders.com/fine-art-appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site fine art appraisal service page."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJXYNZs2y6JIgRqZhkkD6d4Fg",
+        "confidenceScore": 75,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned-site Fine Art Appraisals service page",
+          "art-specific appraisal signal",
+          "direct email found"
+        ]
+      }
+    },
+    {
+      "id": "detroit-art-preservation-services-michigan",
+      "name": "Art Preservation Services - Michigan",
+      "slug": "art-preservation-services-michigan",
+      "imageUrl": "http://www.artpreservationservices.com/images/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "313.822.4454",
+        "email": "info@artpreservationservices.com",
+        "website": "http://www.artpreservationservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art Preservation Services - Michigan offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://www.artpreservationservices.com/services/appraisal_evaluation.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.artpreservationservices.com/services/appraisal_evaluation.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJQ_K3wNjVJIgR7EhPYqN_5eA",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned-site appraisal/evaluation page",
+          "fine art conservation and appraisal fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "detroit-ashleigh-caroline-associates-inc",
+      "name": "Ashleigh Caroline Associates Inc",
+      "slug": "ashleigh-caroline-associates-inc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.auctionyourart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Ashleigh Caroline Associates Inc offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.auctionyourart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.auctionyourart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ7WgVSlPGJIgRK3cQhAWTeoQ",
+        "confidenceScore": 65,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "auction/appraisal adjacent"
+        ]
+      }
+    },
+    {
+      "id": "detroit-cambridge-appraisals",
+      "name": "Cambridge Appraisals, LLC",
+      "slug": "cambridge-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/61477a_95c1ff5535d24579a2cfc19dc1a33379%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/61477a_95c1ff5535d24579a2cfc19dc1a33379%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "+1-586-8831477",
+        "email": "cambridgeappraisals@gmail.com",
+        "website": "https://www.cambridgeappraisalsllc.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cambridge Appraisals, LLC offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.cambridgeappraisalsllc.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.cambridgeappraisalsllc.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ5UNjHr_7JIgRHXaFj1QRI0Q",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "detroit-detroit-fine-art-appraisals",
+      "name": "Detroit Fine Art Appraisals",
+      "slug": "detroit-fine-art-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "(248) 672-3207",
+        "email": "terri@detroitfineartappraisals.com",
+        "website": "https://detroitfaa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Detroit Fine Art Appraisals offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://detroitfaa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://detroitfaa.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJs3kkNSrGJIgRxVFhdh6IwGs",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "detroit-dumouchelles",
+      "name": "DuMouchelles",
+      "slug": "dumouchelles",
+      "imageUrl": "https://www.dumoart.com/wp-content/uploads/Favicon.png",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "313-963-6255",
+        "email": "",
+        "website": "https://www.dumoart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Auction and market guidance",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Auction estimates",
+          "Estate and insurance appraisals"
+        ]
+      },
+      "content": {
+        "about": "DuMouchelles offers fine art appraisal and auction services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.dumoart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.dumoart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJXZvGrygtO4gR1nQqpQhIan0",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site describes fine art, antiques, estate jewelry, and expertise appraising and auctioning",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "detroit-heritage-appraisals",
+      "name": "Heritage Appraisals, LLC",
+      "slug": "heritage-appraisals",
+      "imageUrl": "https://heritageappraisalsmi.com/wp-content/uploads/2021/07/HeritageAppraisals.jpg",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "(248) 722-4319",
+        "email": "heritageappraisalsmi@yahoo.com",
+        "website": "https://heritageappraisalsmi.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Heritage Appraisals, LLC offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://heritageappraisalsmi.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://heritageappraisalsmi.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ3VVChTPoJIgRK1nRZTT2838",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "detroit-isabelle-m-weiss",
+      "name": "Isabelle M Weiss",
+      "slug": "isabelle-m-weiss",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://collectoranonymous.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art - 20th Century",
+          "Paintings - Contemporary American",
+          "Prints - Modern & Contemporary",
+          "Sculpture - Contemporary",
+          "ISA AM"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Isabelle M Weiss offers art appraisal services serving Detroit, MI. FAIR directory data indicates specialties in Art - 20th Century, Paintings - Contemporary American, Prints - Modern & Contemporary, Sculpture - Contemporary, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: collectoranonymous.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-2768"
+      }
+    },
+    {
+      "id": "art-detroit-marketrend-appraisals",
+      "name": "Marketrend Appraisals+",
+      "slug": "detroit-marketrend-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "",
+        "formatted": "Detroit, MI"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.marketrendappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
+        ]
+      },
+      "content": {
+        "about": "Marketrend Appraisals+ is included from a deferred lead review for art, gallery, advisory, or collection-related services in Detroit, MI. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: http://www.marketrendappraisals.com/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: isals+ in West Bloomfield, Michigan (248) 935-7700 --> Menu Your One-Stop-Shop for: Pre-Listing and Estate Settlement Contact Us Want to Know Prices Now? Fee Schedule Need Additional Help? Free Consultation with Fee Quote What's an Appraisal ? Why an Appraisal? When you need to know the market value of a property, you"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "art",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium_low"
+        },
+        "verification": {
+          "sourceUrl": "http://www.marketrendappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJl3kVtbO7JIgREfO6znGXaW4",
+        "confidenceScore": 45,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: art",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: fine_art_or_gallery_related, real_estate_property_appraisal"
+        ]
+      }
+    }
+  ]
+}

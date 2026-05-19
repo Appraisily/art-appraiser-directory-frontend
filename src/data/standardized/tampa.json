@@ -1,0 +1,141 @@
+{
+  "appraisers": [
+    {
+      "id": "tampa-antique-art-buyers",
+      "name": "Antique Art Buyers",
+      "slug": "antique-art-buyers",
+      "imageUrl": "https://antiqueartbuyers.com/wp-content/uploads/2023/01/logo1.png",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "727-656-2504",
+        "email": "chris@antiquesilver.org",
+        "website": "https://antiqueartbuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Art Buyers offers fine art appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://antiqueartbuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://antiqueartbuyers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ06BSl8P7wogRSMfS_q574vE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "tampa-drake-appraisals",
+      "name": "Drake Appraisals, Inc.",
+      "slug": "drake-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/530e3bfae4b0caf782e52e95/1399918028930-2EWICOVFD0W7KC2HJBNG/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Tampa",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Tampa, FL"
+      },
+      "contact": {
+        "phone": "(813) 454-5829",
+        "email": "joeniewierskI@drakeappraisals.com",
+        "website": "http://www.drakeappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Drake Appraisals, Inc. offers fine art appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.drakeappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.drakeappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJq6qqqhrrwogRh5m7n5Oyzbw",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

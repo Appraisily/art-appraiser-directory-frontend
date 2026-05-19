@@ -3,6 +3,11 @@ import { useParams } from 'react-router-dom';
 import { MapPin, Star } from 'lucide-react';
 import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
+import {
+  DECISION_ROUTER_ICON_SET,
+  DECISION_ROUTER_VARIANT,
+  DecisionRouter,
+} from '../components/DecisionRouter';
 import { generateLocationSchema } from '../utils/schemaGenerators';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
 import {
@@ -255,6 +260,38 @@ export function StandardizedLocationPage() {
   const heroDescription =
     seoOverride?.heroDescription ??
     `Compare local professionals in ${cityName}, then choose the option that fits your timeline. If you want a faster path, Appraisily provides online appraisals without the appointment.`;
+  const decisionCampaign = validCitySlug || 'art-directory';
+  const signedReportUrl = getPrimaryCtaUrl({
+    utm_source: 'directory',
+    utm_medium: 'decision_router',
+    utm_campaign: decisionCampaign,
+    utm_content: 'signed_report',
+    service: 'regular',
+  });
+  const screenerUrl = useMemo(() => {
+    const url = new URL('https://appraisily.com/screener');
+    url.searchParams.set('utm_source', 'directory');
+    url.searchParams.set('utm_medium', 'decision_router');
+    url.searchParams.set('utm_campaign', decisionCampaign);
+    url.searchParams.set('utm_content', 'screener');
+    return url.toString();
+  }, [decisionCampaign]);
+  const professionalSampleUrl = useMemo(() => {
+    const url = new URL('https://appraisily.com/sample-reports/professional');
+    url.searchParams.set('utm_source', 'directory');
+    url.searchParams.set('utm_medium', 'decision_router');
+    url.searchParams.set('utm_campaign', decisionCampaign);
+    url.searchParams.set('utm_content', 'sample_professional');
+    return url.toString();
+  }, [decisionCampaign]);
+  const instantSampleUrl = useMemo(() => {
+    const url = new URL('https://appraisily.com/sample-reports/instant');
+    url.searchParams.set('utm_source', 'directory');
+    url.searchParams.set('utm_medium', 'decision_router');
+    url.searchParams.set('utm_campaign', decisionCampaign);
+    url.searchParams.set('utm_content', 'sample_instant');
+    return url.toString();
+  }, [decisionCampaign]);
 
   const generateLocationFaqSchema = () => ({
     '@context': 'https://schema.org',
@@ -384,6 +421,28 @@ export function StandardizedLocationPage() {
       city_slug: validCitySlug
     });
   };
+  const handleDecisionRouterClick = (ctaKind: string, placement: string, destination: string) => {
+    trackEvent('directory_cta', {
+      placement,
+      cta_kind: ctaKind,
+      destination,
+      city_slug: validCitySlug,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+    });
+  };
+  const handleDecisionRouterView = (placement: string, visibleRatio: number) => {
+    trackEvent('decision_router_view', {
+      placement,
+      city_slug: validCitySlug,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+      visible_ratio: Number(visibleRatio.toFixed(3)),
+      cta_count: 4,
+    });
+  };
   const handleArticleGuideClick = (articleSlug: string, placement: string) => {
     trackEvent('article_guide_click', {
       placement,
@@ -483,15 +542,24 @@ export function StandardizedLocationPage() {
               </a>
               <a
                 href="#local-appraisers"
-                className="inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 min-h-[48px] text-blue-700 font-semibold hover:bg-blue-50 transition-colors text-sm sm:text-base"
+                className={`inline-flex items-center justify-center rounded-md border border-blue-200 px-5 py-3 min-h-[48px] text-blue-700 font-semibold transition-colors text-sm sm:text-base ${
+                  isLoading
+                    ? 'pointer-events-none opacity-50 cursor-wait'
+                    : 'hover:bg-blue-50'
+                }`}
                 data-gtm-event="cta_click"
                 data-gtm-placement="location_hero_secondary"
                 onClick={(event) => {
                   trackEvent('cta_click', {
                     placement: 'location_hero_secondary',
                     destination: '#local-appraisers',
-                    city_slug: validCitySlug
+                    city_slug: validCitySlug,
+                    loading_state: isLoading
                   });
+                  if (isLoading) {
+                    event.preventDefault();
+                    return;
+                  }
                   event.preventDefault();
                   document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
                   window.history.replaceState(
@@ -501,7 +569,7 @@ export function StandardizedLocationPage() {
                   );
                 }}
               >
-                See local appraisers
+                {isLoading ? 'Loading appraisers…' : 'See local appraisers'}
               </a>
             </div>
           </div>
@@ -510,16 +578,50 @@ export function StandardizedLocationPage() {
               <p className="font-semibold text-gray-900 mb-1">Fast turnaround</p>
               <p>Get expert insight online without waiting for an appointment.</p>
             </div>
-            <div className="rounded-lg bg-white p-4 shadow-sm">
+            <a
+              href="#local-appraisers"
+              className="block rounded-lg bg-white p-4 shadow-sm transition-colors hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+              onClick={(event) => {
+                event.preventDefault();
+                document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
+                window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#local-appraisers`);
+              }}
+            >
               <p className="font-semibold text-gray-900 mb-1">Trusted local options</p>
               <p>Browse verified appraisers serving {cityName} and nearby areas.</p>
-            </div>
-            <div className="rounded-lg bg-white p-4 shadow-sm">
+            </a>
+            <a
+              href="#local-appraisers"
+              className="block rounded-lg bg-white p-4 shadow-sm transition-colors hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+              onClick={(event) => {
+                event.preventDefault();
+                document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
+                window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#local-appraisers`);
+              }}
+            >
               <p className="font-semibold text-gray-900 mb-1">Clear next steps</p>
               <p>Use the directory to compare, then choose local or online.</p>
-            </div>
+            </a>
           </div>
         </div>
+
+        <DecisionRouter
+          signedReportUrl={signedReportUrl}
+          screenerUrl={screenerUrl}
+          localHref="#local-appraisers"
+          localLabel="Local specialist"
+          professionalSampleUrl={professionalSampleUrl}
+          instantSampleUrl={instantSampleUrl}
+          campaign={decisionCampaign}
+          className="mb-8"
+          onCtaClick={handleDecisionRouterClick}
+          onRouterView={handleDecisionRouterView}
+          onLocalClick={(event) => {
+            event.preventDefault();
+            document.getElementById('local-appraisers')?.scrollIntoView({ behavior: 'smooth' });
+            window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}#local-appraisers`);
+          }}
+        />
 
         {locationData?.appraisers?.length > 0 && (
           <div className="mb-8 rounded-lg border border-gray-200 bg-white p-6">

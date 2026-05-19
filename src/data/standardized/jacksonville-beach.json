@@ -1,0 +1,64 @@
+{
+  "appraisers": [
+    {
+      "id": "jacksonville-beach-julia-r-bluett",
+      "name": "Julia R. Bluett",
+      "slug": "julia-r-bluett",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville Beach",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville Beach, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://bluettartappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Drawings",
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "ISA AM"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Julia R. Bluett offers art appraisal services serving Jacksonville Beach, FL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: bluettartappraisers.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-1284"
+      }
+    }
+  ]
+}

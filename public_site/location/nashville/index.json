@@ -1,0 +1,137 @@
+{
+  "title": "Art appraisers in Nashville, Tennessee",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "nashville",
+    "url": "https://art-appraisers-directory.appraisily.com/location/nashville/",
+    "name": "Art appraisers in Nashville, Tennessee",
+    "description": "Compare art appraisers in Nashville, Tennessee.",
+    "numberOfListedAppraisers": 16,
+    "listedAppraisers": [
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Case Antiques, Inc. Auctions & Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
+        "slug": "case-antiques-inc-auctions-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg?updatedAt=1741089472476",
+        "description": "Case Antiques, Inc. Auctions & Appraisals provides professional art appraisal services specializing in Early Southern decorative arts, American antiques, Investment-quality art. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Cumberland Art Advisors",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/cumberland-art-advisors.svg",
+        "description": "Cumberland Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Nashville area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-page-art-inc_1741087657099_AQpf_UTkS.jpg?updatedAt=1741087658260",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Jason Preston Art Advisory & Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/",
+        "slug": "jason-preston-art-advisory-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-page-art-inc_1741089190928_2WC8Nt_Lf.jpg?updatedAt=1741089192238",
+        "description": "Jason Preston Art Advisory & Appraisals provides professional art appraisal services specializing in Sculpture, Contemporary art, Confidential advisory services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg?updatedAt=1741087723623",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based art valuation, Free valuations, Same-day offers. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Minerva Appraisal LLC",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/minerva-appraisal-llc.svg",
+        "description": "Minerva Appraisal, LLC is a personal property appraisal service for antiques, fine art, silver, furniture, porcelain and collectibles. A certified antiques appraiser working in Nashville, TN, providing thorough and professional valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Music City Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/music-city-art-appraisals.svg",
+        "description": "Music City Art Appraisals provides expert fine art and music memorabilia appraisals for collectors, galleries, and institutions throughout the Nashville metropolitan area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg?updatedAt=1741089060053",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
+        "description": "Prestige Estate Services provides professional art appraisal services specializing in Fine art collections, Antique furniture, Estate tax appraisals, Insurance appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Redtail Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/redtail-appraisals/",
+        "slug": "redtail-appraisals",
+        "image": "https://img1.wsimg.com/isteam/ip/9657fd7f-fc7d-49ed-90c8-d61f8ea3fa92/favicon/65de4acc-072b-4b6d-bca8-0d1435287bbe.jpg/:/rs=w:16,h:16,m",
+        "description": "Redtail Appraisals offers fine art appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Sara Stessel - Certified Art Appraiser",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sara-stessel-certified-art-appraiser.svg",
+        "description": "Sara Stessel is a certified art appraiser and dealer serving Nashville, Franklin, and Belle Meade, TN. Provides fine art valuation for insurance and estate appraisals, USPAP certified.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-saylor-rice-appraisals_1741089252639_QnpvhfIyB.jpg?updatedAt=1741089253979",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Tennessee Fine Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/tennessee-fine-art-appraisals.svg",
+        "description": "Tennessee Fine Art Appraisals has served the Nashville area for over 18 years, providing comprehensive appraisals for fine art, Southern art, and contemporary collections.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Wyeth Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/wyeth-appraisals/",
+        "slug": "wyeth-appraisals",
+        "image": "https://img1.wsimg.com/isteam/ip/e2e4f304-4b52-4bb4-88bf-dd39ce438b70/WyethLogo.jpg/:/rs=w:57,h:57,m",
+        "description": "Wyeth Appraisals offers fine art appraisal services serving Nashville, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/nashville/"
+    }
+  }
+}

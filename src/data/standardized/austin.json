@@ -74,164 +74,6 @@
       }
     },
     {
-      "id": "austin-prestige-estate-services-team",
-      "name": "Prestige Estate Services Team",
-      "slug": "prestige-estate-services-team",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
-      "address": {
-        "street": "999 Art District",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "75681",
-        "formatted": "999 Art District, Austin, TX 75681"
-      },
-      "contact": {
-        "phone": "512-489-1717",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com"
-      },
-      "business": {
-        "yearsInBusiness": "Decades of experience",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Clear and upfront pricing; quotes provided; variable based on type and complexity",
-        "rating": 4.9,
-        "reviewCount": 11
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art collections",
-          "Antiques",
-          "Estate tax appraisals",
-          "IRS-compliant valuations"
-        ],
-        "certifications": [
-          "ISA",
-          "ASA",
-          "AAA"
-        ],
-        "services": [
-          "In-person valuations",
-          "Remote valuations",
-          "Photo valuations"
-        ]
-      },
-      "content": {
-        "about": "Prestige Estate Services Team provides professional art appraisal services specializing in Fine art collections, Antiques, Estate tax appraisals, IRS-compliant valuations. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Includes notable appraiser Elizabeth Lovett (ASA-certified), specialized in 19th–20th century paintings."
-      },
-      "reviews": [
-        {
-          "author": "Jessica C.",
-          "rating": 5,
-          "date": "2025-02-15",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Susan S.",
-          "rating": 5,
-          "date": "2025-02-09",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "David R.",
-          "rating": 5,
-          "date": "2024-12-22",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "austin-linda-maxwell-harris",
-      "name": "Linda Maxwell Harris",
-      "slug": "linda-maxwell-harris",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
-      "address": {
-        "street": "2020 Cedar Blvd",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "75455",
-        "formatted": "2020 Cedar Blvd, Austin, TX 75455"
-      },
-      "contact": {
-        "phone": "189-569-6497",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "Real estate related art appraisals",
-          "Property valuation"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Property valuation"
-        ]
-      },
-      "content": {
-        "about": "Linda Maxwell Harris provides professional art appraisal services specializing in Real estate related art appraisals, Property valuation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Information sourced from HAR.com profile; further details require direct contact."
-      },
-      "reviews": [
-        {
-          "author": "James M.",
-          "rating": 4.5,
-          "date": "2025-01-31",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Elizabeth D.",
-          "rating": 4.5,
-          "date": "2025-01-18",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Linda T.",
-          "rating": 5,
-          "date": "2025-01-08",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "austin-anderson-fine-art-appraisals",
       "name": "Anderson Fine Art Appraisals",
       "slug": "anderson-fine-art-appraisals",
@@ -305,6 +147,438 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "austin-art-appraisal",
+      "name": "Austin Art Appraisal",
+      "slug": "austin-art-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "(917) 371-0448",
+        "email": "walterbakerappraisal@gmail.com",
+        "website": "https://www.artappraisalaustin.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art advisor",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Arts & Antiques",
+          "Historical Artifacts",
+          "Vintage Musical Instruments"
+        ],
+        "certifications": [
+          "ISA Member",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Insurance Coverage Appraisals",
+          "Estate Tax Appraisals",
+          "Charitable Contribution Appraisals",
+          "Art Advisory"
+        ]
+      },
+      "content": {
+        "about": "Walter Baker is an experienced fine art advisor, broker, and appraiser based in Austin. All appraisals are fully compliant with USPAP and the ethical/technical requirements of the International Society of Appraisers, and are accepted by major insurance companies and the IRS.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-art-appraisal-walter-baker",
+      "name": "Austin Art Appraisal (Walter Baker)",
+      "slug": "austin-art-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "Austin",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "(917) 371-0448",
+        "email": "walterbakerappraisal@gmail.com",
+        "website": "https://www.artappraisalaustin.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American fine art",
+          "European fine art",
+          "Decorative arts and antiques",
+          "Historical artifacts",
+          "Vintage musical instruments"
+        ],
+        "certifications": [
+          "ISA Member",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Insurance coverage appraisals",
+          "Damage and loss claims",
+          "Estate tax liability",
+          "Equitable distribution",
+          "Charitable contributions",
+          "Estate walkthrough evaluation",
+          "Consignment and brokerage"
+        ]
+      },
+      "content": {
+        "about": "Walter Baker is an experienced fine art advisor, broker, and appraiser offering appraisals for Fine Art, Decorative Arts and Antiques, Historical Artifacts, and Vintage Musical Instruments. He is a member of the International Society of Appraisers and all appraisals are fully USPAP compliant, accepted by all major insurance companies and the IRS.",
+        "notes": "ISA member based in Austin, Texas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-austin-christian-fine-art",
+      "name": "Austin Christian Fine Art (Appraisal, Consignment, Restoration of Historic and Vintage Fine Art)",
+      "slug": "austin-christian-fine-art",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5960ecd5099c015c9e3a9ee4/c04ae1ba-0539-4ce4-b720-f4b9ce791521/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "16165506268",
+        "email": "austin@acfagallery.com",
+        "website": "https://acfagallery.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Austin Christian Fine Art (Appraisal, Consignment, Restoration of Historic and Vintage Fine Art) offers fine art appraisal services serving Austin, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://acfagallery.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://acfagallery.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJQdV4p76tGYgR3FmWN0ZRQKw",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "austin-galleries",
+      "name": "Austin Galleries",
+      "slug": "austin-galleries",
+      "imageUrl": "",
+      "address": {
+        "street": "5804 Lookout Mountain Dr",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78745",
+        "formatted": "5804 Lookout Mountain Dr, Austin, TX 78745"
+      },
+      "contact": {
+        "phone": "(512) 495-9363",
+        "email": "",
+        "website": "https://www.austingalleries.com"
+      },
+      "business": {
+        "yearsInBusiness": "Over four decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Antiques",
+          "Decorative arts",
+          "Glass art",
+          "Maritime art"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art and antique appraisals",
+          "Insurance appraisals",
+          "Probate appraisals",
+          "Fair market value appraisals",
+          "Consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Austin Galleries offers art and antique appraisals with over four decades of experience serving hundreds of clients. They provide appraisals for insurance, probate, taxes, establishing fair market value, or executing a will.",
+        "notes": "Over 40 years of experience in Austin, Texas."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "capitol-city-art-advisors-austin",
+      "name": "Capitol City Art Advisors",
+      "slug": "capitol-city-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "1500 E 6th St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78702",
+        "formatted": "1500 E 6th St, Austin, TX 78702"
+      },
+      "contact": {
+        "phone": "(512) 555-0156",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "8 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Fine Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Capitol City Art Advisors provides fine art appraisals and advisory services to collectors, galleries, and institutions throughout the Austin metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-capitol-personal-property-appraisals",
+      "name": "Capitol Personal Property Appraisals",
+      "slug": "capitol-personal-property-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "Austin",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.cppaaustin.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Hourly rate; research time billed separately",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art appraisals",
+          "Collections",
+          "Antiques",
+          "Residential contents"
+        ],
+        "certifications": [
+          "ISA AM",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Estate planning appraisals",
+          "Probate appraisals",
+          "IRS taxable estate appraisals",
+          "Charitable donation appraisals",
+          "Divorce appraisals",
+          "Insurance coverage appraisals",
+          "Damage claims appraisals"
+        ]
+      },
+      "content": {
+        "about": "Capitol Personal Property Appraisals, based in Austin, Texas, offers USPAP compliant appraisals of art, collections, antiques and residential contents. Founded by Kimberly Permenter, ISA AM, Accredited Member of the International Society of Appraisers. All appraisals are confidential and adhere to USPAP, ISA report writing standards, and the ISA code of ethics.",
+        "notes": "Run by Kimberly Permenter, ISA AM. Free consultations available."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-erin-e-keever",
+      "name": "Erin E Keever",
+      "slug": "erin-e-keever",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Austin, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://erinkeever.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art - 19th Century",
+          "Drawings",
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "ISA AM"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Erin E Keever offers art appraisal services serving Austin, TX. FAIR directory data indicates specialties in Art - 19th Century, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: erinkeever.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-11291"
       }
     },
     {
@@ -390,21 +664,21 @@
       }
     },
     {
-      "id": "austin-page-art-inc",
-      "name": "Page Art, Inc.",
-      "slug": "page-art-inc",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
+      "id": "austin-foltz-fine-art",
+      "name": "Foltz Fine Art",
+      "slug": "foltz-fine-art",
+      "imageUrl": "",
       "address": {
-        "street": "888 Elm St",
+        "street": "Austin",
         "city": "Austin",
         "state": "TX",
-        "zip": "77019",
-        "formatted": "888 Elm St, Austin, TX 77019"
+        "zip": "78701",
+        "formatted": "Austin, TX"
       },
       "contact": {
-        "phone": "883-425-4106",
-        "email": "info@www.page-art.com",
-        "website": "www.page-art.com"
+        "phone": "",
+        "email": "",
+        "website": "https://foltzgallery.com"
       },
       "business": {
         "yearsInBusiness": "Established business",
@@ -414,134 +688,32 @@
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Hourly rate: $350; minimum in-office consult fee: $500",
+        "pricing": "Contact for pricing information",
         "rating": 4.5,
-        "reviewCount": 15
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donations appraisals",
-          "Litigation appraisals"
-        ],
-        "certifications": [
-          "ASA",
-          "ISA",
-          "AAA"
-        ],
-        "services": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donation appraisals",
-          "Litigation appraisals"
-        ]
-      },
-      "content": {
-        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
-      },
-      "reviews": [
-        {
-          "author": "James W.",
-          "rating": 4.5,
-          "date": "2025-01-12",
-          "content": "Excellent service from start to finish. I highly recommend Page Art, Inc. for any art appraisal needs."
-        },
-        {
-          "author": "Jennifer W.",
-          "rating": 5,
-          "date": "2024-12-29",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Karen B.",
-          "rating": 4.5,
-          "date": "2024-12-23",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "austin-saylor-rice-appraisals",
-      "name": "Saylor Rice Appraisals",
-      "slug": "saylor-rice-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg?updatedAt=1741088517396",
-      "address": {
-        "street": "456 Pine Ln",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "75201",
-        "formatted": "456 Pine Ln, Austin, TX 75201"
-      },
-      "contact": {
-        "phone": "453-242-5380",
-        "email": "info@www.saylorriceappraisals.com",
-        "website": "www.saylorriceappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Likely high-end",
-        "rating": 4.5,
-        "reviewCount": 23
-      },
-      "expertise": {
-        "specialties": [
-          "Insurance appraisals",
-          "Damage/loss appraisals"
+          "19th and 20th century European fine art",
+          "Latin American fine art",
+          "American fine art",
+          "Photography"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "Insurance appraisals",
-          "Damage/loss appraisals"
+          "Appraisal valuation services",
+          "Fine art personal property appraisals"
         ]
       },
       "content": {
-        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Clients include LACMA and MoMA; specializes in damage/loss appraisals."
+        "about": "Foltz Fine Art offers extensive appraisal valuation services on fine art personal property. They specialize in 19th and 20th century European, Latin American, and American fine art and photography.",
+        "notes": "Based in Austin, Texas."
       },
-      "reviews": [
-        {
-          "author": "Patricia J.",
-          "rating": 4,
-          "date": "2025-02-18",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "James J.",
-          "rating": 4.5,
-          "date": "2025-02-02",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Jessica W.",
-          "rating": 4.5,
-          "date": "2024-12-21",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -622,6 +794,142 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-linda-maxwell-harris",
+      "name": "Linda Maxwell Harris",
+      "slug": "linda-maxwell-harris",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
+      "address": {
+        "street": "2020 Cedar Blvd",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "75455",
+        "formatted": "2020 Cedar Blvd, Austin, TX 75455"
+      },
+      "contact": {
+        "phone": "189-569-6497",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.9,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Real estate related art appraisals",
+          "Property valuation"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Property valuation"
+        ]
+      },
+      "content": {
+        "about": "Linda Maxwell Harris provides professional art appraisal services specializing in Real estate related art appraisals, Property valuation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Information sourced from HAR.com profile; further details require direct contact."
+      },
+      "reviews": [
+        {
+          "author": "James M.",
+          "rating": 4.5,
+          "date": "2025-01-31",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Elizabeth D.",
+          "rating": 4.5,
+          "date": "2025-01-18",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Linda T.",
+          "rating": 5,
+          "date": "2025-01-08",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "lone-star-appraisals-austin",
+      "name": "Lone Star Art & Estate Appraisals",
+      "slug": "lone-star-art-estate-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "500 W 2nd St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "formatted": "500 W 2nd St, Austin, TX 78701"
+      },
+      "contact": {
+        "phone": "(512) 555-0148",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Estate Property",
+          "Personal Property"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Lone Star Art & Estate Appraisals provides comprehensive fine art and personal property appraisals for collectors, attorneys, and estate planners in the Austin area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -707,251 +1015,10 @@
       }
     },
     {
-      "id": "austin-galleries",
-      "name": "Austin Galleries",
-      "slug": "austin-galleries",
-      "imageUrl": "",
-      "address": {
-        "street": "5804 Lookout Mountain Dr",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "78745",
-        "formatted": "5804 Lookout Mountain Dr, Austin, TX 78745"
-      },
-      "contact": {
-        "phone": "(512) 495-9363",
-        "email": "",
-        "website": "https://www.austingalleries.com"
-      },
-      "business": {
-        "yearsInBusiness": "Over four decades",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "10:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art",
-          "Antiques",
-          "Decorative arts",
-          "Glass art",
-          "Maritime art"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art and antique appraisals",
-          "Insurance appraisals",
-          "Probate appraisals",
-          "Fair market value appraisals",
-          "Consignment sales"
-        ]
-      },
-      "content": {
-        "about": "Austin Galleries offers art and antique appraisals with over four decades of experience serving hundreds of clients. They provide appraisals for insurance, probate, taxes, establishing fair market value, or executing a will.",
-        "notes": "Over 40 years of experience in Austin, Texas."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "austin-art-appraisal-walter-baker",
-      "name": "Austin Art Appraisal (Walter Baker)",
-      "slug": "austin-art-appraisal",
-      "imageUrl": "",
-      "address": {
-        "street": "Austin",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "78701",
-        "formatted": "Austin, TX"
-      },
-      "contact": {
-        "phone": "(917) 371-0448",
-        "email": "walterbakerappraisal@gmail.com",
-        "website": "https://www.artappraisalaustin.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "American fine art",
-          "European fine art",
-          "Decorative arts and antiques",
-          "Historical artifacts",
-          "Vintage musical instruments"
-        ],
-        "certifications": [
-          "ISA Member",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Insurance coverage appraisals",
-          "Damage and loss claims",
-          "Estate tax liability",
-          "Equitable distribution",
-          "Charitable contributions",
-          "Estate walkthrough evaluation",
-          "Consignment and brokerage"
-        ]
-      },
-      "content": {
-        "about": "Walter Baker is an experienced fine art advisor, broker, and appraiser offering appraisals for Fine Art, Decorative Arts and Antiques, Historical Artifacts, and Vintage Musical Instruments. He is a member of the International Society of Appraisers and all appraisals are fully USPAP compliant, accepted by all major insurance companies and the IRS.",
-        "notes": "ISA member based in Austin, Texas."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "austin-capitol-personal-property-appraisals",
-      "name": "Capitol Personal Property Appraisals",
-      "slug": "capitol-personal-property-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "Austin",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "78701",
-        "formatted": "Austin, TX"
-      },
-      "contact": {
-        "phone": "",
-        "email": "",
-        "website": "https://www.cppaaustin.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Hourly rate; research time billed separately",
-        "rating": 4.7,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Art appraisals",
-          "Collections",
-          "Antiques",
-          "Residential contents"
-        ],
-        "certifications": [
-          "ISA AM",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Estate planning appraisals",
-          "Probate appraisals",
-          "IRS taxable estate appraisals",
-          "Charitable donation appraisals",
-          "Divorce appraisals",
-          "Insurance coverage appraisals",
-          "Damage claims appraisals"
-        ]
-      },
-      "content": {
-        "about": "Capitol Personal Property Appraisals, based in Austin, Texas, offers USPAP compliant appraisals of art, collections, antiques and residential contents. Founded by Kimberly Permenter, ISA AM, Accredited Member of the International Society of Appraisers. All appraisals are confidential and adhere to USPAP, ISA report writing standards, and the ISA code of ethics.",
-        "notes": "Run by Kimberly Permenter, ISA AM. Free consultations available."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "austin-foltz-fine-art",
-      "name": "Foltz Fine Art",
-      "slug": "foltz-fine-art",
-      "imageUrl": "",
-      "address": {
-        "street": "Austin",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "78701",
-        "formatted": "Austin, TX"
-      },
-      "contact": {
-        "phone": "",
-        "email": "",
-        "website": "https://foltzgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "19th and 20th century European fine art",
-          "Latin American fine art",
-          "American fine art",
-          "Photography"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Appraisal valuation services",
-          "Fine art personal property appraisals"
-        ]
-      },
-      "content": {
-        "about": "Foltz Fine Art offers extensive appraisal valuation services on fine art personal property. They specialize in 19th and 20th century European, Latin American, and American fine art and photography.",
-        "notes": "Based in Austin, Texas."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "austin-art-appraisal",
-      "name": "Austin Art Appraisal",
-      "slug": "austin-art-appraisal",
-      "imageUrl": "",
+      "id": "art-austin-national-appraisal-partners-llp",
+      "name": "National Appraisal Partners, LLP",
+      "slug": "austin-national-appraisal-partners-llp",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
         "street": "",
         "city": "Austin",
@@ -960,47 +1027,306 @@
         "formatted": "Austin, TX"
       },
       "contact": {
-        "phone": "(917) 371-0448",
-        "email": "walterbakerappraisal@gmail.com",
-        "website": "https://www.artappraisalaustin.com"
+        "phone": "",
+        "email": "",
+        "website": "https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbaustin"
       },
       "business": {
-        "yearsInBusiness": "Established fine art advisor",
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
+        ]
+      },
+      "content": {
+        "about": "National Appraisal Partners, LLP is included from a deferred lead review for art, gallery, advisory, or collection-related services in Austin, TX. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbaustin. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: s, arbitrations, and hearings. Q: How is your testimony used in litigation? A: We provide objective valuations backed by robust data, which attorneys and clients use to argue value disputes effectively. Q: Can you help us understand complex real estate valuation topics? A: Yes. Our experts simplify appraisal concepts f"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "art",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbaustin",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJjVjSZFAsW4YReQN8yZcR2kg",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: art",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: fine_art_or_gallery_related, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "austin-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
+      "address": {
+        "street": "888 Elm St",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "77019",
+        "formatted": "888 Elm St, Austin, TX 77019"
+      },
+      "contact": {
+        "phone": "883-425-4106",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 0
+        "pricing": "Hourly rate: $350; minimum in-office consult fee: $500",
+        "rating": 4.5,
+        "reviewCount": 15
       },
       "expertise": {
         "specialties": [
-          "Fine Art",
-          "Decorative Arts & Antiques",
-          "Historical Artifacts",
-          "Vintage Musical Instruments"
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donations appraisals",
+          "Litigation appraisals"
         ],
         "certifications": [
-          "ISA Member",
-          "USPAP Compliant"
+          "ASA",
+          "ISA",
+          "AAA"
         ],
         "services": [
-          "Insurance Coverage Appraisals",
-          "Estate Tax Appraisals",
-          "Charitable Contribution Appraisals",
-          "Art Advisory"
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
         ]
       },
       "content": {
-        "about": "Walter Baker is an experienced fine art advisor, broker, and appraiser based in Austin. All appraisals are fully compliant with USPAP and the ethical/technical requirements of the International Society of Appraisers, and are accepted by major insurance companies and the IRS.",
-        "notes": ""
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state clients."
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "James W.",
+          "rating": 4.5,
+          "date": "2025-01-12",
+          "content": "Excellent service from start to finish. I highly recommend Page Art, Inc. for any art appraisal needs."
+        },
+        {
+          "author": "Jennifer W.",
+          "rating": 5,
+          "date": "2024-12-29",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Karen B.",
+          "rating": 4.5,
+          "date": "2024-12-23",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
       "metadata": {
-        "lastUpdated": "2026-04-08",
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-prestige-estate-services-team",
+      "name": "Prestige Estate Services Team",
+      "slug": "prestige-estate-services-team",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
+      "address": {
+        "street": "999 Art District",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "75681",
+        "formatted": "999 Art District, Austin, TX 75681"
+      },
+      "contact": {
+        "phone": "512-489-1717",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Decades of experience",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Clear and upfront pricing; quotes provided; variable based on type and complexity",
+        "rating": 4.9,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art collections",
+          "Antiques",
+          "Estate tax appraisals",
+          "IRS-compliant valuations"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "AAA"
+        ],
+        "services": [
+          "In-person valuations",
+          "Remote valuations",
+          "Photo valuations"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services Team provides professional art appraisal services specializing in Fine art collections, Antiques, Estate tax appraisals, IRS-compliant valuations. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Includes notable appraiser Elizabeth Lovett (ASA-certified), specialized in 19th–20th century paintings."
+      },
+      "reviews": [
+        {
+          "author": "Jessica C.",
+          "rating": 5,
+          "date": "2025-02-15",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Susan S.",
+          "rating": 5,
+          "date": "2025-02-09",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "David R.",
+          "rating": 5,
+          "date": "2024-12-22",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "austin-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg?updatedAt=1741088517396",
+      "address": {
+        "street": "456 Pine Ln",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "75201",
+        "formatted": "456 Pine Ln, Austin, TX 75201"
+      },
+      "contact": {
+        "phone": "453-242-5380",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Likely high-end",
+        "rating": 4.5,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; specializes in damage/loss appraisals."
+      },
+      "reviews": [
+        {
+          "author": "Patricia J.",
+          "rating": 4,
+          "date": "2025-02-18",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "James J.",
+          "rating": 4.5,
+          "date": "2025-02-02",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Jessica W.",
+          "rating": 4.5,
+          "date": "2024-12-21",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
         "inService": true
       }
     },
@@ -1121,128 +1447,6 @@
       },
       "content": {
         "about": "Texas Fine Art Appraisals specializes in fine art valuations with expertise in Texas regional art, contemporary works, and established masters. Serving the Austin area and throughout Texas.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "lone-star-appraisals-austin",
-      "name": "Lone Star Art & Estate Appraisals",
-      "slug": "lone-star-art-estate-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "500 W 2nd St",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "78701",
-        "formatted": "500 W 2nd St, Austin, TX 78701"
-      },
-      "contact": {
-        "phone": "(512) 555-0148",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "10 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Estate Property",
-          "Personal Property"
-        ],
-        "certifications": [
-          "ISA Accredited"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Estate Appraisals",
-          "Insurance Valuations"
-        ]
-      },
-      "content": {
-        "about": "Lone Star Art & Estate Appraisals provides comprehensive fine art and personal property appraisals for collectors, attorneys, and estate planners in the Austin area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "capitol-city-art-advisors-austin",
-      "name": "Capitol City Art Advisors",
-      "slug": "capitol-city-art-advisors",
-      "imageUrl": "",
-      "address": {
-        "street": "1500 E 6th St",
-        "city": "Austin",
-        "state": "TX",
-        "zip": "78702",
-        "formatted": "1500 E 6th St, Austin, TX 78702"
-      },
-      "contact": {
-        "phone": "(512) 555-0156",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "8 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Contemporary Art",
-          "Fine Art",
-          "Art Advisory"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Collection Management"
-        ]
-      },
-      "content": {
-        "about": "Capitol City Art Advisors provides fine art appraisals and advisory services to collectors, galleries, and institutions throughout the Austin metropolitan area.",
         "notes": ""
       },
       "reviews": [],

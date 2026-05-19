@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Jacksonville Beach, Florida",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "jacksonville-beach",
+    "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville-beach/",
+    "name": "Art appraisers in Jacksonville Beach, Florida",
+    "description": "Compare art appraisers in Jacksonville Beach, Florida.",
+    "city": "Jacksonville Beach",
+    "region": "Florida",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Julia R. Bluett",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/julia-r-bluett/",
+        "slug": "julia-r-bluett",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/julia-r-bluett.svg",
+        "description": "Julia R. Bluett offers art appraisal services serving Jacksonville Beach, FL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/jacksonville-beach/"
+    }
+  }
+}

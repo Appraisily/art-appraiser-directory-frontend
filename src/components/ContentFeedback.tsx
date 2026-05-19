@@ -38,6 +38,7 @@ export function ContentFeedback() {
     }),
     [context, location.pathname]
   );
+  const canSubmit = helpful !== null && !submitted;
 
   const onVote = (value: boolean) => {
     if (submitted) return;
@@ -130,9 +131,13 @@ export function ContentFeedback() {
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
+                  disabled={!canSubmit}
+                  aria-disabled={!canSubmit}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
-                    'hover:bg-gray-800 cursor-pointer',
+                    canSubmit
+                      ? 'hover:bg-gray-800 cursor-pointer'
+                      : 'opacity-50 cursor-not-allowed',
                   ].join(' ')}
                 >
                   Send feedback

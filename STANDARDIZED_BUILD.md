@@ -80,3 +80,15 @@ npm run count:appraisers
 2. Improve filtering and search based on standardized fields
 3. Add admin tools for updating the standardized data
 4. Implement analytics to track user engagement
+# Deprecated
+
+This document describes the old standardized app-build flow and is no longer the normal production workflow.
+
+Use the static-first workflow instead:
+
+- edit `public_site/` directly
+- `npm run build`
+- `npm run check:static`
+- `npm run publish`
+
+# Legacy Notes

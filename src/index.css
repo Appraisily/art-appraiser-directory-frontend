@@ -31,3 +31,10 @@
   }
 }
 
+@media (max-width: 640px) {
+  button[data-appraisily-chat-trigger],
+  button[data-appraisily-chat-close],
+  [data-appraisily-chat-wrap] {
+    display: none !important;
+  }
+}

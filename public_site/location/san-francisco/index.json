@@ -1,0 +1,98 @@
+{
+  "title": "Art appraisers in San Francisco, California",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "san-francisco",
+    "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
+    "name": "Art appraisers in San Francisco, California",
+    "description": "Compare art appraisers in San Francisco, California.",
+    "city": "San Francisco",
+    "region": "California",
+    "country": "US",
+    "numberOfListedAppraisers": 11,
+    "listedAppraisers": [
+      {
+        "name": "Cederwall Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/czudej-mcdonough.svg",
+        "description": "Bay Area's Best Resource for Fine American Paintings of the 19th & 20th Centuries. Consultation & Education Services available.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Czudej McDonough",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/czudej-mcdonough/",
+        "slug": "czudej-mcdonough",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg",
+        "description": "Czudej McDonough provides professional art appraisal services specializing in Postwar Art, Contemporary, Impressionist, Modern Art, Photography, Prints, Litigation Support, Collateral Lending. With Decades of combined experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "John Pence Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mary-peck-art-advisory.svg",
+        "description": "John Pence Gallery is one of San Francisco's premier academic realist galleries, providing art appraisal and consultation services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Lost Art Salon",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lost-art-salon.svg",
+        "description": "Gallery specializing in the rediscovery of historically significant artists who have been lost to time. Our vast collection reflects the major movements of the Modern era.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mary Peck Art Advisory",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mary-peck-art-advisory/",
+        "slug": "mary-peck-art-advisory",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-mary-peck-art-advisory_1741089104979_-ZL1qvgTg.jpg",
+        "description": "Mary Peck Art Advisory provides professional art appraisal services specializing in Modern Art, Contemporary Art, Charitable Donations, Copyright Infringement, IRS-Compliant Valuations. With 27 years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Modernism Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/newton-fine-art-appraisal.svg",
+        "description": "Modernism Gallery has been a San Francisco institution for nearly five decades, specializing in modern and contemporary art with expert appraisal services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Montgomery Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/montgomery-gallery.svg",
+        "description": "Montgomery Gallery specializes in fine American and European paintings, offering expert appraisal and consultation services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Newton Fine Art Appraisal",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/newton-fine-art-appraisal/",
+        "slug": "newton-fine-art-appraisal",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg",
+        "description": "Newton Fine Art Appraisal provides professional art appraisal services specializing in Paintings, Prints, Sculpture, Digital Art, Insurance Appraisals, Estate Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Reilly Clark Fine Art & Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/reilly-clark-fine-art-appraisals/",
+        "slug": "reilly-clark-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg",
+        "description": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Contemporary Art, Antiquities, Insurance/Tax Appraisals, Estate Liquidation. With 4+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Rosalie Wardell",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/rosalie-wardell/",
+        "slug": "rosalie-wardell",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/rosalie-wardell.svg",
+        "description": "Rosalie Wardell offers art appraisal services serving San Francisco, CA. FAIR directory data indicates specialties in Art - 19th Century, Art - Impressionist & Modern, Paintings - Impressionist & Modern, Photography - 20th Century, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Serge Sorokko Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/serge-sorokko-galleries.svg",
+        "description": "Formed in 1984, Serge Sorokko Gallery specializes as an art gallery and dealers of paintings, offering fine collection appraisals.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/san-francisco/"
+    }
+  }
+}

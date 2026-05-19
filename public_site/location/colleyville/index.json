@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Colleyville, Texas",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "colleyville",
+    "url": "https://art-appraisers-directory.appraisily.com/location/colleyville/",
+    "name": "Art appraisers in Colleyville, Texas",
+    "description": "Compare art appraisers in Colleyville, Texas.",
+    "city": "Colleyville",
+    "region": "Texas",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Christine Guernsey",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-guernsey/",
+        "slug": "christine-guernsey",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/christine-guernsey.svg",
+        "description": "Christine Guernsey offers art appraisal services serving Colleyville, TX. FAIR directory data indicates specialties in Art - 19th Century, Art - 20th Century, Art - American, Paintings - Contemporary American, Sculpture - 20th Century, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/colleyville/"
+    }
+  }
+}

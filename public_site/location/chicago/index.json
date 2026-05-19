@@ -1,0 +1,116 @@
+{
+  "title": "Art appraisers in Chicago, Illinois",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "chicago",
+    "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
+    "name": "Art appraisers in Chicago, Illinois",
+    "description": "Compare art appraisers in Chicago, Illinois.",
+    "city": "Chicago",
+    "region": "Illinois",
+    "country": "US",
+    "numberOfListedAppraisers": 15,
+    "listedAppraisers": [
+      {
+        "name": "Chicago Art Source",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/chicago-art-source.svg",
+        "description": "Chicago Art Source provides both corporate and residential art services to its customers and has a 40,000-square-foot production facility in Chicago.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "DeGroot Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/degroot-fine-art.svg",
+        "description": "Art consultants specializing in contemporary and customized services for corporate and private clientele nationwide. Offering certified appraisals and expert consulting.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "GB Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/gb-fine-art.svg",
+        "description": "GB Fine Art is an independent, full-service fine art appraisal firm based in Chicago serving the greater Midwest. Founded in 2012 by principal appraiser Gretchen Burch, the firm provides objective, USPAP-compliant appraisals and collection management guidance to help clients make informed decisions regarding insurance, estate planning, charitable donations, and equitable distribution.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jean Albano Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lindsey-m-owen.svg",
+        "description": "Jean Albano Gallery has been a fixture in Chicago's River North gallery district for over 40 years, specializing in contemporary art and works on paper.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Leslie Hindman Auctioneers",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/leslie-hindman-auctioneers.svg",
+        "description": "Leslie Hindman Auctioneers is one of the premier auction houses in Chicago, offering fine art appraisals and auction services for fine art, decorative arts, jewelry, and collectibles since 1982.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Lindsey M Owen",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/lindsey-m-owen/",
+        "slug": "lindsey-m-owen",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lindsey-m-owen.svg",
+        "description": "Lindsey M Owen offers art appraisal services serving Chicago, IL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Lindsey Owen Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lindsey-owen-appraisals.svg",
+        "description": "Lindsey Owen Appraisals provides service to Chicago, IL, offering USPAP-compliant appraisals of fine art and antiques with an art advisory team to assist collectors and institutions.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Maxwell Colette Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/metropolitan-art-appraisers.svg",
+        "description": "Maxwell Colette Gallery specializes in post street contemporary art from emerging and established artists. Founded in 2010 with a mission to blur the boundaries between street art and fine art.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Metropolitan Art Appraisers",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/metropolitan-art-appraisers/",
+        "slug": "metropolitan-art-appraisers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg?updatedAt=1741088953974",
+        "description": "With over 25 years of experience in the Chicago art scene, Metropolitan Art Appraisers provides expert valuation services for collectors, institutions, and insurance purposes.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Midwestern Arts & Antiques",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/midwestern-arts-antiques.svg",
+        "description": "Midwestern Arts & Antiques has been serving Chicago for over 40 years, offering art and antique appraisal services alongside their gallery and shop in the Lincoln Square neighborhood.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "MIR Appraisal Services Inc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mir-appraisal-services.svg",
+        "description": "MIR Appraisal Services, Inc. is a Chicago-based, research-driven advisory firm specializing in fine art and personal property. Since 1994, they have provided customized, research-backed valuation services to private and corporate collectors, insurance and financial professionals, law firms, government agencies, and nonprofit institutions across the U.S. and internationally.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Rago Arts Services",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/rago-arts-services.svg",
+        "description": "Rago Arts Services provides expert appraisal and auction consultation for 20th century design, contemporary art, and fine decorative arts in the Chicago area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Richardson Antiques & Fine Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/richardson-antiques-fine-art-appraisals.svg",
+        "description": "Richardson Antiques & Fine Art Appraisals has been serving the Chicago area for over 25 years, providing expert appraisals for antiques, fine art, furniture, and decorative arts.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Rosenthal Fine Art Inc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/rosenthal-fine-art.svg",
+        "description": "Rosenthal Fine Art is located in the heart of the historic Gold Coast neighborhood. The gallery occupies the second floor of a charming newly renovated space specializing in fine art.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Russell Bowman Art Advisory",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/russell-bowman-art-advisory.svg",
+        "description": "Russell Bowman Art Advisory operates as a provider of collection development and management services. Based in Chicago, it renders numerous services including art appraisal and consulting.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/chicago/"
+    }
+  }
+}

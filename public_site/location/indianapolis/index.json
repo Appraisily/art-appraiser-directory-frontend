@@ -1,0 +1,143 @@
+{
+  "title": "Art appraisers in Indianapolis, Indiana",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "indianapolis",
+    "url": "https://art-appraisers-directory.appraisily.com/location/indianapolis/",
+    "name": "Art appraisers in Indianapolis, Indiana",
+    "description": "Compare art appraisers in Indianapolis, Indiana.",
+    "numberOfListedAppraisers": 17,
+    "listedAppraisers": [
+      {
+        "name": "Anderson Fine Art Appraisals (AFAA)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals-afaa/",
+        "slug": "anderson-fine-art-appraisals-afaa",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/anderson-fine-art-appraisals-afaa.svg",
+        "description": "Anderson Fine Art Appraisals (AFAA) provides professional art appraisal services specializing in European art, American art, Contemporary, Modern, Impressionist, 19th-century works, Expert Witness. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "AppraiseitNow",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
+        "slug": "appraiseitnow",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/appraiseitnow.svg",
+        "description": "AppraiseitNow provides professional art appraisal services specializing in general personal property, art appraisals, online evaluations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Art of Estates",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/art-of-estates.svg",
+        "description": "Art of Estates appraisal firm provides unbiased appraisals for Fine Art, Antiques, silver, glass, pottery, and historic artifacts. Based in Indianapolis, Indiana, with expertise serving attorneys, insurance companies, and estate planners.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Art of Estates - Art Appraisal & Consulting",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/art-of-estates.svg",
+        "description": "Art of Estates is a nationwide, privately-held, personal property consulting and confidential appraisal company that helps clients identify, evaluate and sometimes transition assets towards the best possible outcome.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Brady Dreasher - Art of Estates",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/brady-dreasher-art-of-estates.svg",
+        "description": "Brady Dreasher is a principal appraiser at Art of Estates in Indianapolis, providing expert fine art, antique, and personal property appraisals. Listed as a recommended appraiser by the Indiana Historical Society.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Circle City Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/circle-city-art-appraisals.svg",
+        "description": "Circle City Art Appraisals provides expert fine art and Indiana regional art appraisals for collectors, galleries, and institutions throughout the Indianapolis metropolitan area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Duwamps Fine Art & Antique Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/duwamps-appraisals/",
+        "slug": "duwamps-appraisals",
+        "image": "https://static.wixstatic.com/media/076b61_f1f53d77833b4680ab8598b7b5daa6a5.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/076b61_f1f53d77833b4680ab8598b7b5daa6a5.png",
+        "description": "Duwamps Fine Art & Antique Appraisals offers fine art appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates (EA)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-ea/",
+        "slug": "escher-associates-ea",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/escher-associates-ea.svg",
+        "description": "Escher Associates (EA) provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/gurr-johns.svg",
+        "description": "Gurr Johns provides professional art appraisal services specializing in high-value appraisals, expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Hoosier Art Advisors",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/hoosier-art-advisors.svg",
+        "description": "Hoosier Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Indianapolis area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mimesis-gallery.svg",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in free valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/page-art-inc.svg",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in insurance appraisals, estates appraisals, donations appraisals, litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/prestige-estate-services.svg",
+        "description": "Prestige Estate Services provides professional art appraisal services specializing in estate tax appraisals, fine art, antiques, furniture, insurance documentation, litigation support. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Ripley Auctions",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/ripley-auctions/",
+        "slug": "ripley-auctions",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ripley-auctions.svg",
+        "description": "Ripley Auctions provides professional art appraisal services specializing in art, jewelry, sports memorabilia. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/saylor-rice-appraisals.svg",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in insurance appraisals, damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Veritas Fine Art Appraisals & Consulting Group",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/veritas-fine-art-and-appraisals/",
+        "slug": "veritas-fine-art-and-appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/veritas-fine-art-and-appraisals.svg",
+        "description": "Veritas Fine Art Appraisals & Consulting Group offers fine art appraisal services serving Indianapolis, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "White River Fine Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/white-river-fine-art-appraisals.svg",
+        "description": "White River Fine Art Appraisals provides professional fine art and antique appraisals for collectors, estates, and insurance clients in the Indianapolis area.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/indianapolis/"
+    }
+  }
+}

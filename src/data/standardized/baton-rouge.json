@@ -1,0 +1,72 @@
+{
+  "appraisers": [
+    {
+      "id": "baton-rouge-matthew-clayton-brown-fine-art-appraisers",
+      "name": "Matthew Clayton Brown | Fine Art Appraisers",
+      "slug": "matthew-clayton-brown-fine-art-appraisers",
+      "imageUrl": "https://static.wixstatic.com/media/aa2da5_009f2e1bc3fd421184cab98a2dc8ec19%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/aa2da5_009f2e1bc3fd421184cab98a2dc8ec19%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Baton Rouge",
+        "state": "LA",
+        "zip": "",
+        "formatted": "Baton Rouge, LA"
+      },
+      "contact": {
+        "phone": "(504) 522-5058",
+        "email": "info@mclaytonbrown.com",
+        "website": "https://www.mclaytonbrown.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Matthew Clayton Brown | Fine Art Appraisers offers fine art appraisal services serving Baton Rouge, LA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.mclaytonbrown.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mclaytonbrown.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJSwtO59ClIIYRfUB6tF20tRw",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

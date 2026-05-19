@@ -1,0 +1,77 @@
+{
+  "appraisers": [
+    {
+      "id": "palm-springs-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56898ef740667a38691de0a4/f66703ce-199c-4dba-b821-a971ae805ade/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Palm Springs",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Palm Springs, CA"
+      },
+      "contact": {
+        "phone": "(310) 858 1644",
+        "email": "info@art-appraisals.net",
+        "website": "https://www.art-appraisals.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals offers fine art appraisal services serving Palm Springs, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.art-appraisals.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.art-appraisals.net/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ09Tc9fe7woAREVW1WawiWzE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

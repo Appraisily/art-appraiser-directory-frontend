@@ -1,0 +1,65 @@
+{
+  "appraisers": [
+    {
+      "id": "woodside-perri-guthrie",
+      "name": "Perri Guthrie",
+      "slug": "perri-guthrie",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Woodside",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Woodside, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.perriguthrie.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Paintings - 20th Century",
+          "Photography - 20th Century",
+          "Prints - Modern & Contemporary",
+          "Sculpture - Contemporary",
+          "ISA CAPP",
+          "ISA Certified"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA CAPP"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Perri Guthrie offers art appraisal services serving Woodside, CA. FAIR directory data indicates specialties in Art, Paintings - 20th Century, Photography - 20th Century, Prints - Modern & Contemporary, Sculpture - Contemporary, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: perriguthrie.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-169"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Rockville, Maryland",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "rockville",
+    "url": "https://art-appraisers-directory.appraisily.com/location/rockville/",
+    "name": "Art appraisers in Rockville, Maryland",
+    "description": "Compare art appraisers in Rockville, Maryland.",
+    "city": "Rockville",
+    "region": "Maryland",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Charles Barry Goldstein",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-barry-goldstein/",
+        "slug": "charles-barry-goldstein",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/charles-barry-goldstein.svg",
+        "description": "Charles Barry Goldstein offers art appraisal services serving Rockville, MD. FAIR directory data indicates specialties in Art, Paintings, Photography & Photographs, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/rockville/"
+    }
+  }
+}

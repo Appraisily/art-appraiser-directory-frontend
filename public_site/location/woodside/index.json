@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Woodside, California",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "woodside",
+    "url": "https://art-appraisers-directory.appraisily.com/location/woodside/",
+    "name": "Art appraisers in Woodside, California",
+    "description": "Compare art appraisers in Woodside, California.",
+    "city": "Woodside",
+    "region": "California",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Perri Guthrie",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/perri-guthrie/",
+        "slug": "perri-guthrie",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/perri-guthrie.svg",
+        "description": "Perri Guthrie offers art appraisal services serving Woodside, CA. FAIR directory data indicates specialties in Art, Paintings - 20th Century, Photography - 20th Century, Prints - Modern & Contemporary, Sculpture - Contemporary, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/woodside/"
+    }
+  }
+}

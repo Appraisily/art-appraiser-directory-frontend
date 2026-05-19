@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Schaumburg, Illinois",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "schaumburg",
+    "url": "https://art-appraisers-directory.appraisily.com/location/schaumburg/",
+    "name": "Art appraisers in Schaumburg, Illinois",
+    "description": "Compare art appraisers in Schaumburg, Illinois.",
+    "city": "Schaumburg",
+    "region": "Illinois",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Jessica Berger",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/jessica-berger/",
+        "slug": "jessica-berger",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/jessica-berger.svg",
+        "description": "Jessica Berger offers art appraisal services serving Schaumburg, IL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/schaumburg/"
+    }
+  }
+}

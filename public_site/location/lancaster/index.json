@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Lancaster, Massachusetts",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "lancaster",
+    "url": "https://art-appraisers-directory.appraisily.com/location/lancaster/",
+    "name": "Art appraisers in Lancaster, Massachusetts",
+    "description": "Compare art appraisers in Lancaster, Massachusetts.",
+    "city": "Lancaster",
+    "region": "Massachusetts",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Amy I Schlegel",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/amy-i-schlegel/",
+        "slug": "amy-i-schlegel",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/amy-i-schlegel.svg",
+        "description": "Amy I Schlegel offers art appraisal services serving Lancaster, MA. FAIR directory data indicates specialties in Art - 20th Century, Photography & Photographs, Pottery, Prints - Modern & Contemporary, Sculpture, ISA, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/lancaster/"
+    }
+  }
+}

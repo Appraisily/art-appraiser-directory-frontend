@@ -1,6 +1,66 @@
 {
   "appraisers": [
     {
+      "id": "cederwall-fine-art-san-francisco-ca",
+      "name": "Cederwall Fine Art",
+      "slug": "cederwall-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "2664 Baker St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94123",
+        "formatted": "2664 Baker St, San Francisco, CA 94123"
+      },
+      "contact": {
+        "phone": "(415) 346-0180",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "31 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Paintings",
+          "19th Century Art",
+          "20th Century Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Consultation"
+        ]
+      },
+      "content": {
+        "about": "Bay Area's Best Resource for Fine American Paintings of the 19th & 20th Centuries. Consultation & Education Services available.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "czudej-mcdonough",
       "name": "Czudej McDonough",
       "slug": "czudej-mcdonough",
@@ -72,6 +132,396 @@
           "rating": 1,
           "date": "2024-10-29",
           "content": "Professional service with good attention to detail, but would have appreciated more explanation of the valuation methodology."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "john-pence-gallery-san-francisco-ca",
+      "name": "John Pence Gallery",
+      "slug": "john-pence-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "750 Post St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94109",
+        "formatted": "750 Post St, San Francisco, CA 94109"
+      },
+      "contact": {
+        "phone": "(415) 441-1138",
+        "email": "",
+        "website": "https://www.johnpence.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Academic Realism",
+          "Contemporary Realism",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "John Pence Gallery is one of San Francisco's premier academic realist galleries, providing art appraisal and consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "lost-art-salon-san-francisco-ca",
+      "name": "Lost Art Salon",
+      "slug": "lost-art-salon",
+      "imageUrl": "",
+      "address": {
+        "street": "245 S Van Ness Ave",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94103",
+        "formatted": "245 S Van Ness Ave, San Francisco, CA 94103"
+      },
+      "contact": {
+        "phone": "(415) 861-1530",
+        "email": "",
+        "website": "https://www.lostartsalon.com"
+      },
+      "business": {
+        "yearsInBusiness": "21 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Modern Art",
+          "Rediscovered Artists",
+          "Historical Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Historical Research"
+        ]
+      },
+      "content": {
+        "about": "Gallery specializing in the rediscovery of historically significant artists who have been lost to time. Our vast collection reflects the major movements of the Modern era.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-mary-peck-art-advisory",
+      "name": "Mary Peck Art Advisory",
+      "slug": "mary-peck-art-advisory",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-mary-peck-art-advisory_1741089104979_-ZL1qvgTg.jpg",
+      "address": {
+        "street": "888 Maple Dr",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80436",
+        "formatted": "888 Maple Dr, Denver, CO 80436"
+      },
+      "contact": {
+        "phone": "303-355-0050",
+        "email": "info@www.marypeckartadvisory.com",
+        "website": "https://www.marypeckartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "27 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based pricing; contact for details",
+        "rating": 4.6,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Modern Art",
+          "Contemporary Art",
+          "Charitable Donations",
+          "Copyright Infringement",
+          "IRS-Compliant Valuations"
+        ],
+        "certifications": [
+          "AAA",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Remote Art Advisory",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mary Peck Art Advisory provides professional art appraisal services specializing in Modern Art, Contemporary Art, Charitable Donations, Copyright Infringement, IRS-Compliant Valuations. With 27 years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Denver but serves San Francisco clients via remote services."
+      },
+      "reviews": [
+        {
+          "author": "Patricia T.",
+          "rating": 4.5,
+          "date": "2025-02-18",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 4.5,
+          "date": "2024-12-18",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Linda T.",
+          "rating": 4.5,
+          "date": "2024-11-15",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "modernism-san-francisco-ca",
+      "name": "Modernism Gallery",
+      "slug": "modernism",
+      "imageUrl": "",
+      "address": {
+        "street": "685 Market St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "formatted": "685 Market St, San Francisco, CA 94105"
+      },
+      "contact": {
+        "phone": "(415) 541-0461",
+        "email": "",
+        "website": "https://www.modernisminc.com"
+      },
+      "business": {
+        "yearsInBusiness": "47 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Modern Art",
+          "Contemporary Art",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Modernism Gallery has been a San Francisco institution for nearly five decades, specializing in modern and contemporary art with expert appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "montgomery-gallery-san-francisco-ca",
+      "name": "Montgomery Gallery",
+      "slug": "montgomery-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "406 Jackson St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94111",
+        "formatted": "406 Jackson St, San Francisco, CA 94111"
+      },
+      "contact": {
+        "phone": "(415) 788-8300",
+        "email": "",
+        "website": "https://www.montgomerygallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "32 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American Paintings",
+          "European Paintings",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Montgomery Gallery specializes in fine American and European paintings, offering expert appraisal and consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-francisco-newton-fine-art-appraisal",
+      "name": "Newton Fine Art Appraisal",
+      "slug": "newton-fine-art-appraisal",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg",
+      "address": {
+        "street": "456 Cedar Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "90690",
+        "formatted": "456 Cedar Blvd, San Francisco, CA 90690"
+      },
+      "contact": {
+        "phone": "763-715-2856",
+        "email": "info@www.newtonfineartappraisal.com",
+        "website": "https://www.newtonfineartappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Pricing varies by project; contact for details",
+        "rating": 4.8,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "Digital Art",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Newton Fine Art Appraisal provides professional art appraisal services specializing in Paintings, Prints, Sculpture, Digital Art, Insurance Appraisals, Estate Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Operates in the Bay Area with service coverage including Sonoma County, Tiburon, and San Francisco."
+      },
+      "reviews": [
+        {
+          "author": "John J.",
+          "rating": 4.5,
+          "date": "2025-03-13",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Patricia A.",
+          "rating": 4.5,
+          "date": "2025-03-13",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 4.5,
+          "date": "2025-02-17",
+          "content": "Newton Fine Art Appraisal's expertise in fine art made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {
@@ -156,333 +606,63 @@
       }
     },
     {
-      "id": "san-francisco-newton-fine-art-appraisal",
-      "name": "Newton Fine Art Appraisal",
-      "slug": "newton-fine-art-appraisal",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg",
+      "id": "san-francisco-rosalie-wardell",
+      "name": "Rosalie Wardell",
+      "slug": "rosalie-wardell",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
-        "street": "456 Cedar Blvd",
+        "street": "",
         "city": "San Francisco",
         "state": "CA",
-        "zip": "90690",
-        "formatted": "456 Cedar Blvd, San Francisco, CA 90690"
+        "zip": "",
+        "formatted": "San Francisco, CA"
       },
       "contact": {
-        "phone": "763-715-2856",
-        "email": "info@www.newtonfineartappraisal.com",
-        "website": "https://www.newtonfineartappraisal.com"
+        "phone": "",
+        "email": "",
+        "website": "http://www.wardellappraisals.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "By appointment only"
+            "hours": "By appointment"
           }
         ],
-        "pricing": "Pricing varies by project; contact for details",
-        "rating": 4.8,
-        "reviewCount": 6
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Paintings",
-          "Prints",
+          "Art - 19th Century",
+          "Art - Impressionist & Modern",
+          "Paintings - Impressionist & Modern",
+          "Photography - 20th Century",
           "Sculpture",
-          "Digital Art",
-          "Insurance Appraisals",
-          "Estate Appraisals"
+          "ISA AM"
         ],
         "certifications": [
-          "USPAP-compliant"
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
         ],
         "services": [
-          "Insurance Appraisals",
-          "Estate Appraisals"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Newton Fine Art Appraisal provides professional art appraisal services specializing in Paintings, Prints, Sculpture, Digital Art, Insurance Appraisals, Estate Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Operates in the Bay Area with service coverage including Sonoma County, Tiburon, and San Francisco."
-      },
-      "reviews": [
-        {
-          "author": "John J.",
-          "rating": 4.5,
-          "date": "2025-03-13",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Patricia A.",
-          "rating": 4.5,
-          "date": "2025-03-13",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Sarah W.",
-          "rating": 4.5,
-          "date": "2025-02-17",
-          "content": "Newton Fine Art Appraisal's expertise in fine art made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-francisco-mary-peck-art-advisory",
-      "name": "Mary Peck Art Advisory",
-      "slug": "mary-peck-art-advisory",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-francisco-mary-peck-art-advisory_1741089104979_-ZL1qvgTg.jpg",
-      "address": {
-        "street": "888 Maple Dr",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80436",
-        "formatted": "888 Maple Dr, Denver, CO 80436"
-      },
-      "contact": {
-        "phone": "303-355-0050",
-        "email": "info@www.marypeckartadvisory.com",
-        "website": "https://www.marypeckartadvisory.com"
-      },
-      "business": {
-        "yearsInBusiness": "27 years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Project-based pricing; contact for details",
-        "rating": 4.6,
-        "reviewCount": 17
-      },
-      "expertise": {
-        "specialties": [
-          "Modern Art",
-          "Contemporary Art",
-          "Charitable Donations",
-          "Copyright Infringement",
-          "IRS-Compliant Valuations"
-        ],
-        "certifications": [
-          "AAA",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Remote Art Advisory",
-          "Art Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Mary Peck Art Advisory provides professional art appraisal services specializing in Modern Art, Contemporary Art, Charitable Donations, Copyright Infringement, IRS-Compliant Valuations. With 27 years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Based in Denver but serves San Francisco clients via remote services."
-      },
-      "reviews": [
-        {
-          "author": "Patricia T.",
-          "rating": 4.5,
-          "date": "2025-02-18",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Nancy W.",
-          "rating": 4.5,
-          "date": "2024-12-18",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Linda T.",
-          "rating": 4.5,
-          "date": "2024-11-15",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "cederwall-fine-art-san-francisco-ca",
-      "name": "Cederwall Fine Art",
-      "slug": "cederwall-fine-art",
-      "imageUrl": "",
-      "address": {
-        "street": "2664 Baker St",
-        "city": "San Francisco",
-        "state": "CA",
-        "zip": "94123",
-        "formatted": "2664 Baker St, San Francisco, CA 94123"
-      },
-      "contact": {
-        "phone": "(415) 346-0180",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "31 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "American Paintings",
-          "19th Century Art",
-          "20th Century Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Consultation"
-        ]
-      },
-      "content": {
-        "about": "Bay Area's Best Resource for Fine American Paintings of the 19th & 20th Centuries. Consultation & Education Services available.",
-        "notes": ""
+        "about": "Rosalie Wardell offers art appraisal services serving San Francisco, CA. FAIR directory data indicates specialties in Art - 19th Century, Art - Impressionist & Modern, Paintings - Impressionist & Modern, Photography - 20th Century, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: wardellappraisals.com. Review the FAIR source listing and public website before any future profile enrichment."
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "montgomery-gallery-san-francisco-ca",
-      "name": "Montgomery Gallery",
-      "slug": "montgomery-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "406 Jackson St",
-        "city": "San Francisco",
-        "state": "CA",
-        "zip": "94111",
-        "formatted": "406 Jackson St, San Francisco, CA 94111"
-      },
-      "contact": {
-        "phone": "(415) 788-8300",
-        "email": "",
-        "website": "https://www.montgomerygallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "32 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "American Paintings",
-          "European Paintings",
-          "Fine Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Montgomery Gallery specializes in fine American and European paintings, offering expert appraisal and consultation services.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "modernism-san-francisco-ca",
-      "name": "Modernism Gallery",
-      "slug": "modernism",
-      "imageUrl": "",
-      "address": {
-        "street": "685 Market St",
-        "city": "San Francisco",
-        "state": "CA",
-        "zip": "94105",
-        "formatted": "685 Market St, San Francisco, CA 94105"
-      },
-      "contact": {
-        "phone": "(415) 541-0461",
-        "email": "",
-        "website": "https://www.modernisminc.com"
-      },
-      "business": {
-        "yearsInBusiness": "47 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Modern Art",
-          "Contemporary Art",
-          "Fine Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Gallery Exhibitions"
-        ]
-      },
-      "content": {
-        "about": "Modernism Gallery has been a San Francisco institution for nearly five decades, specializing in modern and contemporary art with expert appraisal services.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-834"
       }
     },
     {
@@ -537,126 +717,6 @@
       },
       "content": {
         "about": "Formed in 1984, Serge Sorokko Gallery specializes as an art gallery and dealers of paintings, offering fine collection appraisals.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "lost-art-salon-san-francisco-ca",
-      "name": "Lost Art Salon",
-      "slug": "lost-art-salon",
-      "imageUrl": "",
-      "address": {
-        "street": "245 S Van Ness Ave",
-        "city": "San Francisco",
-        "state": "CA",
-        "zip": "94103",
-        "formatted": "245 S Van Ness Ave, San Francisco, CA 94103"
-      },
-      "contact": {
-        "phone": "(415) 861-1530",
-        "email": "",
-        "website": "https://www.lostartsalon.com"
-      },
-      "business": {
-        "yearsInBusiness": "21 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Modern Art",
-          "Rediscovered Artists",
-          "Historical Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Historical Research"
-        ]
-      },
-      "content": {
-        "about": "Gallery specializing in the rediscovery of historically significant artists who have been lost to time. Our vast collection reflects the major movements of the Modern era.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "john-pence-gallery-san-francisco-ca",
-      "name": "John Pence Gallery",
-      "slug": "john-pence-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "750 Post St",
-        "city": "San Francisco",
-        "state": "CA",
-        "zip": "94109",
-        "formatted": "750 Post St, San Francisco, CA 94109"
-      },
-      "contact": {
-        "phone": "(415) 441-1138",
-        "email": "",
-        "website": "https://www.johnpence.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established gallery",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Academic Realism",
-          "Contemporary Realism",
-          "Fine Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Gallery Exhibitions"
-        ]
-      },
-      "content": {
-        "about": "John Pence Gallery is one of San Francisco's premier academic realist galleries, providing art appraisal and consultation services.",
         "notes": ""
       },
       "reviews": [],

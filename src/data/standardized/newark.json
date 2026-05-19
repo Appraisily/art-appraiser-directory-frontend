@@ -1,0 +1,72 @@
+{
+  "appraisers": [
+    {
+      "id": "newark-beth-weingast-fine-art-appraisals",
+      "name": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry",
+      "slug": "beth-weingast-fine-art-appraisals",
+      "imageUrl": "https://horizons-cdn.hostinger.com/6ef3f921-482b-4e4d-ab4a-aa7f219f576d/5b2f8fd2dfa1384c48d764b96b271249.png",
+      "address": {
+        "street": "",
+        "city": "Newark",
+        "state": "NJ",
+        "zip": "",
+        "formatted": "Newark, NJ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://bweingastartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry offers fine art appraisal services serving Newark, NJ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://bweingastartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://bweingastartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJAQDsvWGSwokRc1Bk7HpbXjY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class jewelry appraiser"
+        ]
+      }
+    }
+  ]
+}

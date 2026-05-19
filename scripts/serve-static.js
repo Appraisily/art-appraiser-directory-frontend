@@ -16,8 +16,31 @@ import { createServer } from 'net';
 // Get the project root directory
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
-const DIST_DIR = path.join(ROOT_DIR, 'dist');
 const BASE_PORT = 3000;
+
+function parseArgs(argv) {
+  const args = [...argv];
+  let publicDir = path.join(ROOT_DIR, 'public_site');
+
+  while (args.length) {
+    const token = args.shift();
+    if (!token) continue;
+    const [flag, inlineValue] = token.split('=');
+    const readValue = () => (inlineValue !== undefined ? inlineValue : args.shift());
+
+    switch (flag) {
+      case '--public-dir':
+        publicDir = path.resolve(process.cwd(), readValue());
+        break;
+      default:
+        throw new Error(`Unknown flag ${flag}`);
+    }
+  }
+
+  return { publicDir };
+}
+
+const { publicDir: STATIC_DIR } = parseArgs(process.argv.slice(2));
 
 // Log with color and timestamp
 function log(message, type = 'info') {
@@ -67,9 +90,9 @@ function findFreePort(startPort) {
   });
 }
 
-// Ensure the dist directory exists
-if (!fs.existsSync(DIST_DIR)) {
-  log(`Dist directory not found at ${DIST_DIR}. Please run a build first.`, 'error');
+// Ensure the static directory exists
+if (!fs.existsSync(STATIC_DIR)) {
+  log(`Static directory not found at ${STATIC_DIR}. Prepare the static site first.`, 'error');
   process.exit(1);
 }
 
@@ -78,7 +101,7 @@ const app = express();
 
 // Middleware to transform HTML files to fix path issues
 app.use((req, res, next) => {
-  const filePath = path.join(DIST_DIR, req.path);
+  const filePath = path.join(STATIC_DIR, req.path);
   
   // If requesting a directory, look for index.html
   if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
@@ -92,8 +115,8 @@ app.use((req, res, next) => {
   
   // Determine the file path
   const htmlPath = req.path.endsWith('/')
-    ? path.join(DIST_DIR, req.path, 'index.html')
-    : path.join(DIST_DIR, req.path);
+    ? path.join(STATIC_DIR, req.path, 'index.html')
+    : path.join(STATIC_DIR, req.path);
   
   // If HTML file doesn't exist, continue to next middleware
   if (!fs.existsSync(htmlPath)) {
@@ -129,17 +152,17 @@ app.use((req, res, next) => {
   }
 });
 
-// Serve static files from the dist directory
-app.use(express.static(DIST_DIR));
+// Serve static files from the prepared static directory
+app.use(express.static(STATIC_DIR));
 
 // Create a directory listing page
 app.get('/', (req, res) => {
   try {
-    const locations = fs.readdirSync(path.join(DIST_DIR, 'location'))
-      .filter(item => fs.statSync(path.join(DIST_DIR, 'location', item)).isDirectory());
-    
-    const appraisers = fs.readdirSync(path.join(DIST_DIR, 'appraiser'))
-      .filter(item => fs.statSync(path.join(DIST_DIR, 'appraiser', item)).isDirectory());
+    const locations = fs.readdirSync(path.join(STATIC_DIR, 'location'))
+      .filter(item => fs.statSync(path.join(STATIC_DIR, 'location', item)).isDirectory());
+
+    const appraisers = fs.readdirSync(path.join(STATIC_DIR, 'appraiser'))
+      .filter(item => fs.statSync(path.join(STATIC_DIR, 'appraiser', item)).isDirectory());
     
     // Generate HTML for the directory listing
     const html = `
@@ -255,8 +278,7 @@ app.get('/', (req, res) => {
         
         <footer style="margin-top: 40px; border-top: 1px solid #dee2e6; padding-top: 20px;">
           <p>
-            <a href="/test-html">Run HTML Tests</a> | 
-            <a href="/fix-react">Fix React Hydration Issues</a>
+            <a href="/test-html">Run HTML Tests</a>
           </p>
         </footer>
       </body>
@@ -283,23 +305,6 @@ app.get('/test-html', (req, res) => {
     res.redirect('/');
   } catch (error) {
     log(`Error running HTML tests: ${error.message}`, 'error');
-    res.status(500).send(`<h1>Error</h1><p>${error.message}</p>`);
-  }
-});
-
-// Route to fix React hydration issues
-app.get('/fix-react', (req, res) => {
-  try {
-    log('Fixing React hydration issues...', 'info');
-    const fixScript = path.join(ROOT_DIR, 'scripts', 'fix-react-hydration.js');
-    
-    // Execute the fix script
-    const { execSync } = require('child_process');
-    execSync(`node ${fixScript}`, { stdio: 'inherit' });
-    
-    res.redirect('/');
-  } catch (error) {
-    log(`Error fixing React hydration issues: ${error.message}`, 'error');
     res.status(500).send(`<h1>Error</h1><p>${error.message}</p>`);
   }
 });

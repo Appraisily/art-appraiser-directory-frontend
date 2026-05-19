@@ -1,0 +1,51 @@
+{
+  "title": "Art appraisers in Detroit, Michigan",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "detroit",
+    "url": "https://art-appraisers-directory.appraisily.com/location/detroit/",
+    "name": "Art appraisers in Detroit, Michigan",
+    "description": "Compare art appraisers in Detroit, Michigan.",
+    "numberOfListedAppraisers": 4,
+    "listedAppraisers": [
+      {
+        "name": "Cambridge Appraisals, LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/cambridge-appraisals/",
+        "slug": "cambridge-appraisals",
+        "image": "https://static.wixstatic.com/media/61477a_95c1ff5535d24579a2cfc19dc1a33379%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/61477a_95c1ff5535d24579a2cfc19dc1a33379%7Emv2.png",
+        "description": "Cambridge Appraisals, LLC offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Detroit Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/detroit-fine-art-appraisals/",
+        "slug": "detroit-fine-art-appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/detroit-fine-art-appraisals.svg",
+        "description": "Detroit Fine Art Appraisals offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Heritage Appraisals, LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-appraisals/",
+        "slug": "heritage-appraisals",
+        "image": "https://heritageappraisalsmi.com/wp-content/uploads/2021/07/HeritageAppraisals.jpg",
+        "description": "Heritage Appraisals, LLC offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Isabelle M Weiss",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/isabelle-m-weiss/",
+        "slug": "isabelle-m-weiss",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/isabelle-m-weiss.svg",
+        "description": "Isabelle M Weiss offers art appraisal services serving Detroit, MI. FAIR directory data indicates specialties in Art - 20th Century, Paintings - Contemporary American, Prints - Modern & Contemporary, Sculpture - Contemporary, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/detroit/"
+    }
+  }
+}

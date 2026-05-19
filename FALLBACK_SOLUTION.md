@@ -65,3 +65,14 @@ Potential improvements to consider:
 ## Conclusion
 
 This fallback solution ensures that the art appraiser directory can be fully populated with professional-looking images, even when the image generation service has payment limitations. By reusing existing high-quality images, we maintain a consistent and professional appearance across the directory. 
+# Deprecated
+
+This file documents an older fallback rebuild path.
+
+The active workflow for this repo is now static-first:
+
+- `public_site/` is the source of served truth
+- direct HTML edits are expected
+- do not rebuild the frontend app for routine changes
+
+# Legacy Notes

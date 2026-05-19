@@ -1,0 +1,73 @@
+{
+  "appraisers": [
+    {
+      "id": "new-haven-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Arts Appraiser",
+      "slug": "poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "imageUrl": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
+      "address": {
+        "street": "",
+        "city": "New Haven",
+        "state": "CT",
+        "zip": "",
+        "formatted": "New Haven, CT"
+      },
+      "contact": {
+        "phone": "508.577.7377",
+        "email": "linda@fineartsappraiser.com",
+        "website": "https://www.fineartsappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Poras Fine Arts Appraiser offers fine art appraisal services serving New Haven, CT. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.fineartsappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartsappraiser.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJx-APJ2Kz2YgRlc7LX25-do8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

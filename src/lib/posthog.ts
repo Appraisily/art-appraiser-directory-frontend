@@ -241,3 +241,13 @@ export function capturePosthogEvent(event: string, properties?: Record<string, u
   if (!shouldCapture()) return;
   posthog.capture(event, properties);
 }
+
+export function getPosthogDistinctId(): string | undefined {
+  if (!initialized) return undefined;
+  try {
+    const distinctId = posthog.get_distinct_id?.();
+    return typeof distinctId === 'string' && distinctId.trim() ? distinctId.trim() : undefined;
+  } catch {
+    return undefined;
+  }
+}

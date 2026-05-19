@@ -1,0 +1,279 @@
+{
+  "appraisers": [
+    {
+      "id": "hyannis-manzi-personal-property-appraisers",
+      "name": "Manzi Personal Property Appraisers & Restorers",
+      "slug": "manzi-personal-property-appraisers",
+      "imageUrl": "https://manziappraisers.com/wp-content/uploads/2021/05/manzi-appraisers.png",
+      "address": {
+        "street": "",
+        "city": "Hyannis",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Hyannis, MA"
+      },
+      "contact": {
+        "phone": "617-995-0022",
+        "email": "manzi@manziappraisers.com",
+        "website": "https://manziappraisers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Manzi Personal Property Appraisers & Restorers offers fine art appraisal services serving Hyannis, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://manziappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://manziappraisers.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMfzWSVd744kR_6Qf8nDA46o",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "hyannis-hyannis-new-york-fine-art-appraisers",
+      "name": "New York Fine Art Appraisers",
+      "slug": "hyannis-new-york-fine-art-appraisers",
+      "imageUrl": "https://nyfaa.com/wp-content/uploads/2018/07/logo-new.png",
+      "address": {
+        "street": "",
+        "city": "Hyannis",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Hyannis, MA"
+      },
+      "contact": {
+        "phone": "212.772.0319",
+        "email": "appraisals@nyfaa.com",
+        "website": "https://nyfaa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "New York Fine Art Appraisers offers fine art appraisal services serving Hyannis, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://nyfaa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://nyfaa.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJQ1vsvN1744kRR7jWf1cWfH0",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "hyannis-hyannis-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Arts Appraisal - Serving N.E.",
+      "slug": "hyannis-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "imageUrl": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
+      "address": {
+        "street": "",
+        "city": "Hyannis",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Hyannis, MA"
+      },
+      "contact": {
+        "phone": "508.577.7377",
+        "email": "linda@fineartsappraiser.com",
+        "website": "https://www.fineartsappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Poras Fine Arts Appraisal - Serving N.E. offers fine art appraisal services serving Hyannis, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.fineartsappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartsappraiser.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJdRXHlX6J44kRB2wtT4IKBD8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "hyannis-schlegel-fine-art-consulting-llc",
+      "name": "Schlegel Fine Art Consulting LLC",
+      "slug": "schlegel-fine-art-consulting-llc",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Hyannis",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Hyannis, MA"
+      },
+      "contact": {
+        "phone": "617-388-7193",
+        "email": "AMYISCHLEGEL@YAHOO.COM",
+        "website": "https://www.schlegelfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Schlegel Fine Art Consulting LLC offers fine art appraisal services serving Hyannis, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.schlegelfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.schlegelfineart.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZZlgWdmhN2EROCeVlRFjkow",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

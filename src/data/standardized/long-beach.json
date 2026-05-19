@@ -1,0 +1,143 @@
+{
+  "appraisers": [
+    {
+      "id": "long-beach-kathy-poppers-expert-art-appraisals",
+      "name": "Kathy Poppers Fine Art Appraisal & Services",
+      "slug": "kathy-poppers-expert-art-appraisals",
+      "imageUrl": "https://www.kathypoppers.com/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Long Beach, CA"
+      },
+      "contact": {
+        "phone": "+1-800-900-1177",
+        "email": "artexpert@mac.com",
+        "website": "https://www.kathypoppers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kathy Poppers Fine Art Appraisal & Services offers fine art appraisal services serving Long Beach, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.kathypoppers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.kathypoppers.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJFTOHmTW7woARYkdCw9m3CqM",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "long-beach-selz-fine-arts-appraisals",
+      "name": "Selz Fine Art Appraisals",
+      "slug": "selz-fine-arts-appraisals",
+      "imageUrl": "https://www.selzfineartappraisals.com/imgs/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Long Beach",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Long Beach, CA"
+      },
+      "contact": {
+        "phone": "+15166398144",
+        "email": "gabrielle@selzfineartappraisals.com",
+        "website": "https://www.selzfineartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Selz Fine Art Appraisals offers fine art appraisal services serving Long Beach, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.selzfineartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.selzfineartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_TlhkQQUOAYRVFB12S_Cpok",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

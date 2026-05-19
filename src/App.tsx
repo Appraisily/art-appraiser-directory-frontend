@@ -3,6 +3,11 @@ import { Link } from 'react-router-dom';
 import { MapPin, Star, Search, Palette, Award, Badge, Clock, ArrowRight } from 'lucide-react';
 import { CitySearch, CitySearchHandle } from './components/CitySearch';
 import { SEO } from './components/SEO';
+import {
+  DECISION_ROUTER_ICON_SET,
+  DECISION_ROUTER_VARIANT,
+  DecisionRouter,
+} from './components/DecisionRouter';
 import { cities } from './data/cities.json';
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from './config/site';
 import { trackEvent } from './utils/analytics';
@@ -88,11 +93,44 @@ function App() {
   };
 
   const primaryCtaUrl = getPrimaryCtaUrl();
+  const decisionCampaign = 'art-directory';
+  const signedReportUrl = getPrimaryCtaUrl({
+    utm_source: 'directory',
+    utm_medium: 'decision_router',
+    utm_campaign: decisionCampaign,
+    utm_content: 'signed_report',
+    service: 'regular',
+  });
+  const screenerUrl = `https://appraisily.com/screener?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=screener`;
+  const professionalSampleUrl = `https://appraisily.com/sample-reports/professional?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_professional`;
+  const instantSampleUrl = `https://appraisily.com/sample-reports/instant?utm_source=directory&utm_medium=decision_router&utm_campaign=${decisionCampaign}&utm_content=sample_instant`;
 
   const handleDirectoryCtaClick = (placement: string) => {
     trackEvent('cta_click', {
       placement,
       destination: primaryCtaUrl
+    });
+  };
+
+  const handleDecisionRouterClick = (ctaKind: string, placement: string, destination: string) => {
+    trackEvent('directory_cta', {
+      placement,
+      cta_kind: ctaKind,
+      destination,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+    });
+  };
+
+  const handleDecisionRouterView = (placement: string, visibleRatio: number) => {
+    trackEvent('decision_router_view', {
+      placement,
+      campaign: decisionCampaign,
+      router_variant: DECISION_ROUTER_VARIANT,
+      icon_set: DECISION_ROUTER_ICON_SET,
+      visible_ratio: Number(visibleRatio.toFixed(3)),
+      cta_count: 4,
     });
   };
 
@@ -169,6 +207,22 @@ function App() {
             </form>
           </div>
         </div>
+
+        <section className="bg-white py-10">
+          <div className="container mx-auto px-6">
+            <DecisionRouter
+              signedReportUrl={signedReportUrl}
+              screenerUrl={screenerUrl}
+              localHref="/location/"
+              localLabel="Local specialist"
+              professionalSampleUrl={professionalSampleUrl}
+              instantSampleUrl={instantSampleUrl}
+              campaign={decisionCampaign}
+              onCtaClick={handleDecisionRouterClick}
+              onRouterView={handleDecisionRouterView}
+            />
+          </div>
+        </section>
 
         {/* Features Section */}
         <div className="bg-white py-16">

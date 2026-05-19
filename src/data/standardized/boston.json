@@ -1,76 +1,204 @@
 {
   "appraisers": [
     {
-      "id": "prestige-estate-services-boston",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-artrium-appraisal-elizabeth-krambeer_1741089317012_JgTPQa9URQ.jpg?updatedAt=1741089318269",
+      "id": "boston-boston-adelaide-fine-art",
+      "name": "Adelaide Fine Art",
+      "slug": "boston-adelaide-fine-art",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
       "address": {
-        "street": "123 Museum Way",
+        "street": "",
         "city": "Boston",
         "state": "MA",
-        "zip": "02918",
-        "formatted": "123 Museum Way, Boston, MA 02918"
+        "zip": "",
+        "formatted": "Boston, MA"
       },
       "contact": {
-        "phone": "924-248-4319",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
+        "phone": "(203) 662-0244",
+        "email": "adelaidefineart@gmail.com",
+        "website": "https://www.adelaidefineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Adelaide Fine Art offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.adelaidefineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.adelaidefineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_____6_h5YkRlVFeCdfaKLk",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "name": "AFP Art Consulting, LLC",
+      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "imageUrl": "https://afpartconsulting.com/wp-content/themes/afp/images/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "617-244-1580",
+        "email": "andrea@AfpArtConsulting.com",
+        "website": "https://afpartconsulting.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "AFP Art Consulting, LLC offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://afpartconsulting.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://afpartconsulting.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGR1G6Xhs508RkB_gKV__wfI",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-gurr-johns_1741088863939_Juz44fXpY.jpg?updatedAt=1741088865033",
+      "address": {
+        "street": "777 Elm St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02110",
+        "formatted": "777 Elm St, Boston, MA 02110"
+      },
+      "contact": {
+        "phone": "771-781-4671",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
       },
       "business": {
         "yearsInBusiness": "Decades",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Project-based with free photo-based assessments",
-        "rating": 4.5,
-        "reviewCount": 18
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 7
       },
       "expertise": {
         "specialties": [
-          "Fine Art",
-          "Antiques",
-          "Estate Tax Valuations",
-          "Insurance Appraisals"
+          "European Art",
+          "American Art",
+          "Expert Witness Services"
         ],
         "certifications": [
-          "USPAP-compliant",
-          "IRS-qualified"
+          "Professional Appraiser"
         ],
         "services": [
-          "Personal Property Appraisals",
-          "IRS-compliant appraisals",
-          "Estate Planning"
+          "Authentication",
+          "Litigation Support"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine Art, Antiques, Estate Tax Valuations, Insurance Appraisals. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serves greater Boston area including Cambridge, Somerville, Newton, Brookline, and Medford."
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Expert Witness Services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
       },
       "reviews": [
         {
-          "author": "Elizabeth S.",
+          "author": "James B.",
           "rating": 4.5,
-          "date": "2025-03-10",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+          "date": "2025-02-27",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
         },
         {
-          "author": "Nancy W.",
-          "rating": 5,
-          "date": "2025-02-28",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Karen M.",
+          "author": "Michael M.",
           "rating": 4.5,
           "date": "2025-01-24",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 5,
+          "date": "2024-12-22",
           "content": "They took the time to explain the valuation process and answered all my questions."
         }
       ],
@@ -80,24 +208,306 @@
       }
     },
     {
-      "id": "new-york-fine-art-appraisers-boston",
-      "name": "New York Fine Art Appraisers (Boston Office)",
-      "slug": "new-york-fine-art-appraisers-boston-office",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg?updatedAt=1741089032481",
+      "id": "boston-art-appraisals-of-new-england",
+      "name": "Art Appraisals of New England",
+      "slug": "art-appraisals-of-new-england",
+      "imageUrl": "https://www.artappraisalsne.com/01/wp-content/uploads/2013/11/Quinn-bronze.jpg",
       "address": {
-        "street": "456 Oak Ave",
+        "street": "",
         "city": "Boston",
         "state": "MA",
-        "zip": "02242",
-        "formatted": "456 Oak Ave, Boston, MA 02242"
+        "zip": "",
+        "formatted": "Boston, MA"
       },
       "contact": {
-        "phone": "415-325-9510",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
+        "phone": "207-994-9909",
+        "email": "",
+        "website": "https://www.artappraisalsne.com/01/"
       },
       "business": {
-        "yearsInBusiness": "Established 1980; Boston office opened in 2018",
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art Appraisals of New England offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artappraisalsne.com/01/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artappraisalsne.com/01/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJVVVVVRW74okRjqOvB7qnYFA",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-artemappraisals",
+      "name": "Artem Appraisals",
+      "slug": "artemappraisals",
+      "imageUrl": "https://static.wixstatic.com/media/812ad0_dd4838cd217947a6b96449f08c317436%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/812ad0_dd4838cd217947a6b96449f08c317436%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "401-400-2173",
+        "email": "info@artemappraisals.com",
+        "website": "https://www.artemappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Artem Appraisals offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artemappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artemappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJObJu-TpDQEsRfFviPA5l9dE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "art-boston-boston-appraisal-services",
+      "name": "Boston Appraisal Services",
+      "slug": "boston-boston-appraisal-services",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://bostonappraisal.com/contact-with-us/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
+        ]
+      },
+      "content": {
+        "about": "Boston Appraisal Services is included from a deferred lead review for art, gallery, advisory, or collection-related services in Boston, MA. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://bostonappraisal.com/contact-with-us/. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: ce our accuracy, professionalism, and dedication to delivering reliable appraisals. Learn More Your Valuations Team HQ 1453 Dorchester Avenue Boston, MA02122 PO Box 240889, Boston, MA 02124 (617) 440-7700 Office (617) 249-0268 Fax orders@bostonappraisal.com Boston Appraisal Experts At Boston Appraisal Services , we gua"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "art",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://bostonappraisal.com/contact-with-us/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJd2uyl6R744kROb8dw5RSP-Y",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: art",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: fine_art_or_gallery_related, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "boston-edward-m-stanley-appraisal-services-fine-art-antiques",
+      "name": "Edward Stanley Appraisal Services",
+      "slug": "edward-m-stanley-appraisal-services-fine-art-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "617-983-5220",
+        "email": "%20info@edwardmstanley.com",
+        "website": "http://www.edwardmstanley.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Edward Stanley Appraisal Services offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.edwardmstanley.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.edwardmstanley.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJsYlFwWt544kRPQ8RMrRhsBs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg?updatedAt=1741089008903",
+      "address": {
+        "street": "777 Maple Dr",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02115",
+        "formatted": "777 Maple Dr, Boston, MA 02115"
+      },
+      "contact": {
+        "phone": "812-360-5260",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -108,51 +518,262 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 5
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.7,
+        "reviewCount": 22
       },
       "expertise": {
         "specialties": [
-          "Americana",
-          "Contemporary Art",
-          "Decorative Arts"
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
         ],
         "certifications": [
-          "Qualified under federal appraisal standards"
+          "ASA-certified",
+          "USPAP-compliant"
         ],
         "services": [
-          "Fine Art Appraisals",
-          "Museum-grade Collection Valuations"
+          "Art Appraisals",
+          "Litigation Support",
+          "Handling Art Fraud Cases"
         ]
       },
       "content": {
-        "about": "New York Fine Art Appraisers (Boston Office) provides professional art appraisal services specializing in Americana, Contemporary Art, Decorative Arts. With Established 1980; Boston office opened in 2018 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located in the Back Bay district."
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handled art fraud cases in collaboration with the LAPD."
       },
       "reviews": [
         {
-          "author": "Michael W.",
-          "rating": 4,
-          "date": "2025-02-23",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Elizabeth T.",
-          "rating": 4.5,
-          "date": "2025-01-29",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Elizabeth J.",
-          "rating": 4.5,
-          "date": "2024-12-29",
+          "author": "Elizabeth A.",
+          "rating": 5,
+          "date": "2025-02-24",
           "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Jessica M.",
+          "rating": 3,
+          "date": "2025-02-23",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 5,
+          "date": "2025-02-08",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
         }
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "boston-grogan-and-company",
+      "name": "Grogan & Company",
+      "slug": "grogan-and-company",
+      "imageUrl": "https://www.groganco.com/wp-content/themes/theme-groganco/dist/img/favicon/apple-touch-icon.png",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "617.720.2020",
+        "email": "",
+        "website": "https://www.groganco.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Grogan & Company offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.groganco.com/services/appraisals/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.groganco.com/services/appraisals/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ5cWUzJl_44kR3BxKpY8T56U",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-mimesis-gallery_1741088988479_fkdmCGchi.jpg?updatedAt=1741088989775",
+      "address": {
+        "street": "999 Main St",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02110",
+        "formatted": "999 Main St, Boston, MA 02110"
+      },
+      "contact": {
+        "phone": "583-748-9579",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 15
+      },
+      "expertise": {
+        "specialties": [
+          "High-value Appraisals",
+          "Expert Witness Services"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Appraisals managing over $10 billion in assets",
+          "Expert Witness Services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm with a significant presence in high-value art asset management."
+      },
+      "reviews": [
+        {
+          "author": "Sarah M.",
+          "rating": 4,
+          "date": "2025-03-02",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "James M.",
+          "rating": 5,
+          "date": "2025-01-20",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Jennifer W.",
+          "rating": 4.5,
+          "date": "2024-09-01",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "boston-james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals",
+      "name": "James B. Hand Fine Art",
+      "slug": "james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "978.283.9100",
+        "email": "info@jamesbhandfineart.com",
+        "website": "http://www.jamesbhandfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "James B. Hand Fine Art offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.jamesbhandfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.jamesbhandfineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJKYmCAxgl44kRpAi2ZC5XXrA",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -233,78 +854,145 @@
       }
     },
     {
-      "id": "boston-skinner-boston-bonhams",
-      "name": "Skinner Boston (Bonhams)",
-      "slug": "skinner-boston-bonhams",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-anderson-fine-art-appraisals_1741086832703_RqYoGS4BTl.jpg?updatedAt=1741086834057",
+      "id": "boston-manzi-personal-property-appraisers",
+      "name": "Manzi Personal Property Appraisers & Restorers",
+      "slug": "manzi-personal-property-appraisers",
+      "imageUrl": "https://manziappraisers.com/wp-content/uploads/2021/05/manzi-appraisers.png",
       "address": {
-        "street": "789 Maple Dr",
+        "street": "",
         "city": "Boston",
         "state": "MA",
-        "zip": "02900",
-        "formatted": "789 Maple Dr, Boston, MA 02900"
+        "zip": "",
+        "formatted": "Boston, MA"
       },
       "contact": {
-        "phone": "139-762-8348",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
+        "phone": "617-995-0022",
+        "email": "manzi@manziappraisers.com",
+        "website": "https://manziappraisers.com/"
       },
       "business": {
-        "yearsInBusiness": "Since 2024",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
             "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
           }
         ],
-        "pricing": "Free valuation services for auction estimates",
-        "rating": 4.8,
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Manzi Personal Property Appraisers & Restorers offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://manziappraisers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://manziappraisers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMfzWSVd744kR_6Qf8nDA46o",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg?updatedAt=1741089134247",
+      "address": {
+        "street": "555 Park Ave",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02108",
+        "formatted": "555 Park Ave, Boston, MA 02108"
+      },
+      "contact": {
+        "phone": "428-921-7247",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "20% fee up to $500K, 10% fee beyond that",
+        "rating": 4.4,
         "reviewCount": 21
       },
       "expertise": {
         "specialties": [
-          "Auction Estimates",
-          "Liquidation Valuations",
-          "Estate Sales"
+          "Free Valuations",
+          "Consignment Sales"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "Auction Estimates",
-          "Appraisals",
-          "Liquidation Services"
+          "Same-day Valuations",
+          "Consignment-based Sales"
         ]
       },
       "content": {
-        "about": "Skinner Boston (Bonhams) provides professional art appraisal services specializing in Auction Estimates, Liquidation Valuations, Estate Sales. With Since 2024 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Part of Bonhams; accepts online submissions for appraisal."
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers."
       },
       "reviews": [
         {
+          "author": "Robert W.",
+          "rating": 4.5,
+          "date": "2025-02-27",
+          "content": "Excellent service from start to finish. I highly recommend Mimesis Gallery for any art appraisal needs."
+        },
+        {
           "author": "Karen W.",
-          "rating": 5,
-          "date": "2024-12-21",
-          "content": "I needed an appraisal for a charitable donation, and Skinner Boston (Bonhams) delivered excellent service. All tax requirements were met perfectly."
+          "rating": 4.5,
+          "date": "2024-11-15",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
         },
         {
-          "author": "James C.",
-          "rating": 5,
-          "date": "2024-11-18",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert A.",
-          "rating": 5,
-          "date": "2024-11-06",
+          "author": "Emily D.",
+          "rating": 4.5,
+          "date": "2024-11-03",
           "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
         }
       ],
@@ -314,96 +1002,24 @@
       }
     },
     {
-      "id": "boston-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-gurr-johns_1741088863939_Juz44fXpY.jpg?updatedAt=1741088865033",
+      "id": "new-york-fine-art-appraisers-boston",
+      "name": "New York Fine Art Appraisers (Boston Office)",
+      "slug": "new-york-fine-art-appraisers-boston-office",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg?updatedAt=1741089032481",
       "address": {
-        "street": "777 Elm St",
+        "street": "456 Oak Ave",
         "city": "Boston",
         "state": "MA",
-        "zip": "02110",
-        "formatted": "777 Elm St, Boston, MA 02110"
+        "zip": "02242",
+        "formatted": "456 Oak Ave, Boston, MA 02242"
       },
       "contact": {
-        "phone": "771-781-4671",
-        "email": "info@www.art-appraisals.net",
-        "website": "www.art-appraisals.net"
+        "phone": "415-325-9510",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
       },
       "business": {
-        "yearsInBusiness": "Decades",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 7
-      },
-      "expertise": {
-        "specialties": [
-          "European Art",
-          "American Art",
-          "Expert Witness Services"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Authentication",
-          "Litigation Support"
-        ]
-      },
-      "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Expert Witness Services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": ""
-      },
-      "reviews": [
-        {
-          "author": "James B.",
-          "rating": 4.5,
-          "date": "2025-02-27",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Michael M.",
-          "rating": 4.5,
-          "date": "2025-01-24",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Sarah W.",
-          "rating": 5,
-          "date": "2024-12-22",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "boston-escher-associates",
-      "name": "Escher Associates",
-      "slug": "escher-associates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg?updatedAt=1741089008903",
-      "address": {
-        "street": "777 Maple Dr",
-        "city": "Boston",
-        "state": "MA",
-        "zip": "02115",
-        "formatted": "777 Maple Dr, Boston, MA 02115"
-      },
-      "contact": {
-        "phone": "812-360-5260",
-        "email": "info@www.escher-associates.com",
-        "website": "www.escher-associates.com"
-      },
-      "business": {
-        "yearsInBusiness": "Since 1984",
+        "yearsInBusiness": "Established 1980; Boston office opened in 2018",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -414,49 +1030,46 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "$350/hour or $2,500/day plus expenses",
-        "rating": 4.7,
-        "reviewCount": 22
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 5
       },
       "expertise": {
         "specialties": [
-          "Paintings",
-          "Sculpture",
-          "Photography",
-          "Rare Books"
+          "Americana",
+          "Contemporary Art",
+          "Decorative Arts"
         ],
         "certifications": [
-          "ASA-certified",
-          "USPAP-compliant"
+          "Qualified under federal appraisal standards"
         ],
         "services": [
-          "Art Appraisals",
-          "Litigation Support",
-          "Handling Art Fraud Cases"
+          "Fine Art Appraisals",
+          "Museum-grade Collection Valuations"
         ]
       },
       "content": {
-        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Handled art fraud cases in collaboration with the LAPD."
+        "about": "New York Fine Art Appraisers (Boston Office) provides professional art appraisal services specializing in Americana, Contemporary Art, Decorative Arts. With Established 1980; Boston office opened in 2018 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located in the Back Bay district."
       },
       "reviews": [
         {
-          "author": "Elizabeth A.",
-          "rating": 5,
-          "date": "2025-02-24",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Jessica M.",
-          "rating": 3,
+          "author": "Michael W.",
+          "rating": 4,
           "date": "2025-02-23",
-          "content": "Good service overall, though the turnaround time was longer than expected."
+          "content": "They took the time to explain the valuation process and answered all my questions."
         },
         {
-          "author": "Karen T.",
-          "rating": 5,
-          "date": "2025-02-08",
+          "author": "Elizabeth T.",
+          "rating": 4.5,
+          "date": "2025-01-29",
           "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Elizabeth J.",
+          "rating": 4.5,
+          "date": "2024-12-29",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         }
       ],
       "metadata": {
@@ -548,6 +1161,223 @@
       }
     },
     {
+      "id": "boston-plcombs-asian-art",
+      "name": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers",
+      "slug": "plcombs-asian-art",
+      "imageUrl": "https://www.plcombs.com/plcombs-blogs-about-antiques/wp-content/uploads/2017/10/Robes_edited-1.jpg",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "978 283 5763",
+        "email": "plcombs@plcombs.com",
+        "website": "https://www.plcombs.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.plcombs.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.plcombs.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJWSDFoxsl44kRhDR2ahReQV4",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Arts Appraisal - Serving N.E.",
+      "slug": "boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "imageUrl": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
+      "address": {
+        "street": "",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "",
+        "formatted": "Boston, MA"
+      },
+      "contact": {
+        "phone": "508.577.7377",
+        "email": "linda@fineartsappraiser.com",
+        "website": "https://www.fineartsappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Poras Fine Arts Appraisal - Serving N.E. offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.fineartsappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartsappraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJdRXHlX6J44kRB2wtT4IKBD8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "prestige-estate-services-boston",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-artrium-appraisal-elizabeth-krambeer_1741089317012_JgTPQa9URQ.jpg?updatedAt=1741089318269",
+      "address": {
+        "street": "123 Museum Way",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02918",
+        "formatted": "123 Museum Way, Boston, MA 02918"
+      },
+      "contact": {
+        "phone": "924-248-4319",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Project-based with free photo-based assessments",
+        "rating": 4.5,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Estate Tax Valuations",
+          "Insurance Appraisals"
+        ],
+        "certifications": [
+          "USPAP-compliant",
+          "IRS-qualified"
+        ],
+        "services": [
+          "Personal Property Appraisals",
+          "IRS-compliant appraisals",
+          "Estate Planning"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine Art, Antiques, Estate Tax Valuations, Insurance Appraisals. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves greater Boston area including Cambridge, Somerville, Newton, Brookline, and Medford."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth S.",
+          "rating": 4.5,
+          "date": "2025-03-10",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Nancy W.",
+          "rating": 5,
+          "date": "2025-02-28",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Karen M.",
+          "rating": 4.5,
+          "date": "2025-01-24",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "boston-saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -626,69 +1456,147 @@
       }
     },
     {
-      "id": "boston-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-mimesis-gallery_1741088988479_fkdmCGchi.jpg?updatedAt=1741088989775",
+      "id": "boston-schlegel-fine-art-consulting-llc",
+      "name": "Schlegel Fine Art Consulting LLC",
+      "slug": "schlegel-fine-art-consulting-llc",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
       "address": {
-        "street": "999 Main St",
+        "street": "",
         "city": "Boston",
         "state": "MA",
-        "zip": "02110",
-        "formatted": "999 Main St, Boston, MA 02110"
+        "zip": "",
+        "formatted": "Boston, MA"
       },
       "contact": {
-        "phone": "583-748-9579",
-        "email": "info@www.gurrjohns.com",
-        "website": "www.gurrjohns.com"
+        "phone": "617-388-7193",
+        "email": "AMYISCHLEGEL@YAHOO.COM",
+        "website": "https://www.schlegelfineart.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "By appointment only"
+            "hours": "By appointment"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 15
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "High-value Appraisals",
-          "Expert Witness Services"
+          "Fine art appraisals"
         ],
-        "certifications": [
-          "USPAP-compliant"
-        ],
+        "certifications": [],
         "services": [
-          "Appraisals managing over $10 billion in assets",
-          "Expert Witness Services"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm with a significant presence in high-value art asset management."
+        "about": "Schlegel Fine Art Consulting LLC offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.schlegelfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.schlegelfineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZZlgWdmhN2EROCeVlRFjkow",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "boston-skinner-boston-bonhams",
+      "name": "Skinner Boston (Bonhams)",
+      "slug": "skinner-boston-bonhams",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-anderson-fine-art-appraisals_1741086832703_RqYoGS4BTl.jpg?updatedAt=1741086834057",
+      "address": {
+        "street": "789 Maple Dr",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02900",
+        "formatted": "789 Maple Dr, Boston, MA 02900"
+      },
+      "contact": {
+        "phone": "139-762-8348",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "Since 2024",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Free valuation services for auction estimates",
+        "rating": 4.8,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "Auction Estimates",
+          "Liquidation Valuations",
+          "Estate Sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Auction Estimates",
+          "Appraisals",
+          "Liquidation Services"
+        ]
+      },
+      "content": {
+        "about": "Skinner Boston (Bonhams) provides professional art appraisal services specializing in Auction Estimates, Liquidation Valuations, Estate Sales. With Since 2024 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Part of Bonhams; accepts online submissions for appraisal."
       },
       "reviews": [
         {
-          "author": "Sarah M.",
-          "rating": 4,
-          "date": "2025-03-02",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "James M.",
+          "author": "Karen W.",
           "rating": 5,
-          "date": "2025-01-20",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+          "date": "2024-12-21",
+          "content": "I needed an appraisal for a charitable donation, and Skinner Boston (Bonhams) delivered excellent service. All tax requirements were met perfectly."
         },
         {
-          "author": "Jennifer W.",
-          "rating": 4.5,
-          "date": "2024-09-01",
+          "author": "James C.",
+          "rating": 5,
+          "date": "2024-11-18",
           "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert A.",
+          "rating": 5,
+          "date": "2024-11-06",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
         }
       ],
       "metadata": {
@@ -697,82 +1605,70 @@
       }
     },
     {
-      "id": "boston-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg?updatedAt=1741089134247",
+      "id": "boston-vivanco-art-and-appraisals",
+      "name": "Vivanco Art & Appraisals LLC",
+      "slug": "vivanco-art-and-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/57535cef07eaa0e9cd88ed05/e2d21757-02bb-43e4-b941-ed1673482d93/favicon.ico?format=100w",
       "address": {
-        "street": "555 Park Ave",
+        "street": "",
         "city": "Boston",
         "state": "MA",
-        "zip": "02108",
-        "formatted": "555 Park Ave, Boston, MA 02108"
+        "zip": "",
+        "formatted": "Boston, MA"
       },
       "contact": {
-        "phone": "428-921-7247",
-        "email": "info@www.mimesisgallery.com",
-        "website": "www.mimesisgallery.com"
+        "phone": "+1 617 752 2051",
+        "email": "user@domain.com",
+        "website": "http://www.vivancoart.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Monday-Friday",
+            "hours": "By appointment"
           }
         ],
-        "pricing": "20% fee up to $500K, 10% fee beyond that",
-        "rating": 4.4,
-        "reviewCount": 21
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Free Valuations",
-          "Consignment Sales"
+          "Fine art appraisals"
         ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
+        "certifications": [],
         "services": [
-          "Same-day Valuations",
-          "Consignment-based Sales"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers."
+        "about": "Vivanco Art & Appraisals LLC offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.vivancoart.com/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "Robert W.",
-          "rating": 4.5,
-          "date": "2025-02-27",
-          "content": "Excellent service from start to finish. I highly recommend Mimesis Gallery for any art appraisal needs."
-        },
-        {
-          "author": "Karen W.",
-          "rating": 4.5,
-          "date": "2024-11-15",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Emily D.",
-          "rating": 4.5,
-          "date": "2024-11-03",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.vivancoart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJcbNA7KZ744kR1VZir4XoxIo",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

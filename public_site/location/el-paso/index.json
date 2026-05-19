@@ -1,0 +1,20 @@
+{
+  "title": "Art appraisers in El Paso, Texas",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "el-paso",
+    "url": "https://art-appraisers-directory.appraisily.com/location/el-paso/",
+    "name": "Art appraisers in El Paso, Texas",
+    "description": "Compare art appraisers in El Paso, Texas.",
+    "city": "El Paso",
+    "region": "Texas",
+    "country": "US",
+    "numberOfListedAppraisers": 0,
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/el-paso/"
+    }
+  }
+}

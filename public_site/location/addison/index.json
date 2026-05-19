@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Addison, Illinois",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "addison",
+    "url": "https://art-appraisers-directory.appraisily.com/location/addison/",
+    "name": "Art appraisers in Addison, Illinois",
+    "description": "Compare art appraisers in Addison, Illinois.",
+    "city": "Addison",
+    "region": "Illinois",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Carrie Young",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/carrie-young/",
+        "slug": "carrie-young",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/carrie-young.svg",
+        "description": "Carrie Young offers art appraisal services serving Addison, IL. FAIR directory data indicates specialties in Art, Bronzes, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/addison/"
+    }
+  }
+}

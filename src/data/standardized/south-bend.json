@@ -1,0 +1,71 @@
+{
+  "appraisers": [
+    {
+      "id": "south-bend-richard-beau-lieu-and-associates-fine-art-appraisers",
+      "name": "Richard Beau Lieu & Associates Fine Art Appraisers",
+      "slug": "richard-beau-lieu-and-associates-fine-art-appraisers",
+      "imageUrl": "https://fineartappraisersboyntonbeach.com/wp-content/uploads/favicon.png",
+      "address": {
+        "street": "",
+        "city": "South Bend",
+        "state": "IN",
+        "zip": "",
+        "formatted": "South Bend, IN"
+      },
+      "contact": {
+        "phone": "+15617368181",
+        "email": "",
+        "website": "https://fineartappraisersboyntonbeach.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Richard Beau Lieu & Associates Fine Art Appraisers offers fine art appraisal services serving South Bend, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://fineartappraisersboyntonbeach.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://fineartappraisersboyntonbeach.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJFQuujkff2IgRk-YXrLS6Pks",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

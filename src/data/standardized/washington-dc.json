@@ -1,6 +1,1021 @@
 {
   "appraisers": [
     {
+      "id": "aaron-gallery-washington-dc",
+      "name": "Aaron Gallery",
+      "slug": "aaron-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "2101 L St NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20037",
+        "formatted": "2101 L St NW, Washington, DC 20037"
+      },
+      "contact": {
+        "phone": "(202) 234-3311",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Modern Art",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Aaron Gallery provides contemporary and modern art appraisal services in the Foggy Bottom area of Washington, DC.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "artemis-appraisal-washington-dc",
+      "name": "Artemis Appraisal",
+      "slug": "artemis-appraisal",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.artemisappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Valuations",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Artemis is one of the most trusted art appraisal and advisory firms in the Washington, DC area, highly respected for its credibility and thoroughness in providing professional appraisals.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-dc-artifactual-history",
+      "name": "Artifactual History® Appraisal",
+      "slug": "artifactual-history",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/55f6394ee4b0304fcdd75b4a/1442228759573-QY8FH0ZNLM474BUTFJCN/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "703-543-2567",
+        "email": "user@domain.com",
+        "website": "https://www.artifactualhistory.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Artifactual History® Appraisal offers fine art appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artifactualhistory.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artifactualhistory.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJZy87cx5OtokR57wrQxCeGwY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "burton-fine-art-washington-dc",
+      "name": "Burton Fine Art",
+      "slug": "burton-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "1506 21st St NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20036",
+        "formatted": "1506 21st St NW, Washington, DC 20036"
+      },
+      "contact": {
+        "phone": "(202) 296-6563",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Appraisal",
+          "Consultation"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Consultation",
+          "Gallery Services"
+        ]
+      },
+      "content": {
+        "about": "Burton Fine Art provides art appraisal and consultation services in the Dupont Circle area of Washington, DC.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "cotton-appraisals-washington-dc",
+      "name": "Cotton Appraisals",
+      "slug": "cotton-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1730 Rhode Island Ave NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20036",
+        "formatted": "1730 Rhode Island Ave NW, Washington, DC 20036"
+      },
+      "contact": {
+        "phone": "(202) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Cotton Appraisals provides expert fine art and decorative arts appraisals for collectors, institutions, and individuals in the Washington DC area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "dc-fine-art-advisors",
+      "name": "DC Fine Art Advisors",
+      "slug": "dc-fine-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "1875 Connecticut Ave NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20009",
+        "formatted": "1875 Connecticut Ave NW, Washington, DC 20009"
+      },
+      "contact": {
+        "phone": "(202) 555-0161",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Art Advisory",
+          "Collection Management"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Planning"
+        ]
+      },
+      "content": {
+        "about": "DC Fine Art Advisors provides comprehensive art appraisal and advisory services to private collectors and institutions throughout the greater Washington DC area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "frame-mart-gallery-washington-dc",
+      "name": "Frame Mart Gallery Inc",
+      "slug": "frame-mart-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "3307 Connecticut Ave NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20008",
+        "formatted": "3307 Connecticut Ave NW, Washington, DC 20008"
+      },
+      "contact": {
+        "phone": "(202) 363-5200",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "58 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Custom Framing",
+          "Fine Art",
+          "Art Consultation"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Custom Framing",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Quality custom picture framing for over 40 years. Also provides art appraisal and consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "georgetown-gallery-of-art-washington-dc",
+      "name": "Georgetown Gallery Of Art",
+      "slug": "georgetown-gallery-of-art",
+      "imageUrl": "",
+      "address": {
+        "street": "1442 Rhode Island Ave NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20005",
+        "formatted": "1442 Rhode Island Ave NW, Washington, DC 20005"
+      },
+      "contact": {
+        "phone": "(202) 333-6308",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Paintings",
+          "Sculpture"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Sales",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "Georgetown Gallery Of Art provides fine art appraisal and sales services in the Washington DC metro area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "hemphill-fine-arts-washington-dc",
+      "name": "Hemphill Fine Arts",
+      "slug": "hemphill-fine-arts",
+      "imageUrl": "",
+      "address": {
+        "street": "1515 14th St NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20005",
+        "formatted": "1515 14th St NW, Washington, DC 20005"
+      },
+      "contact": {
+        "phone": "(202) 234-5601",
+        "email": "",
+        "website": "https://www.hemphillfinearts.com"
+      },
+      "business": {
+        "yearsInBusiness": "33 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Emerging Artists",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Sales"
+        ]
+      },
+      "content": {
+        "about": "HEMPHILL opened as a commercial gallery in September 1993. The exhibition schedule features contemporary art ranging in media from emerging to mid-career artists.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "international-visions-gallery-washington-dc",
+      "name": "International Visions Gallery",
+      "slug": "international-visions-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "2629 Connecticut Ave NW",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20008",
+        "formatted": "2629 Connecticut Ave NW, Washington, DC 20008"
+      },
+      "contact": {
+        "phone": "(202) 234-5112",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established art gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "International Art",
+          "Contemporary Art",
+          "Fine Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Gallery Exhibitions"
+        ]
+      },
+      "content": {
+        "about": "International Visions Gallery showcases contemporary international art and provides appraisal and advisory services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "mark-secrest-appraisals-washington-dc",
+      "name": "Mark Secrest Appraisals",
+      "slug": "mark-secrest-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "2500 Wisconsin Ave NW Ste 237",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "20007",
+        "formatted": "2500 Wisconsin Ave NW Ste 237, Washington, DC 20007"
+      },
+      "contact": {
+        "phone": "(202) 718-2521",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal service",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Personal Property",
+          "Antiques"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Personal Property Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mark Secrest Appraisals provides professional art and personal property appraisal services in the Washington, DC metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "washington-dc-washington-dc-new-york-fine-art-appraisers",
+      "name": "New York Fine Art Appraisers",
+      "slug": "washington-dc-new-york-fine-art-appraisers",
+      "imageUrl": "https://nyfaa.com/wp-content/uploads/2018/07/logo-new.png",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "212.772.0319",
+        "email": "appraisals@nyfaa.com",
+        "website": "https://nyfaa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "New York Fine Art Appraisers offers fine art appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://nyfaa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://nyfaa.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJe_knr2q3t4kRtznRjQTr8EY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "washington-dc-peenstra-antiques",
+      "name": "Peenstra Antique Appraisals",
+      "slug": "peenstra-antiques",
+      "imageUrl": "https://peenstraappraisal.com/wp-content/uploads/2024/11/Ekran-goruntusu-2024-11-21-160924-1024x528.png",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "2025575500",
+        "email": "tpeenstra@gmail.com",
+        "website": "https://peenstraappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Peenstra Antique Appraisals offers fine art appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://peenstraappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://peenstraappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJb8g27UD2t4kRig6O6_BljG4",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "washington-dc-scholz-appraisals-and-advisory-fine-art-and-estate-appraisals",
+      "name": "Scholz Appraisals & Advisory",
+      "slug": "scholz-appraisals-and-advisory-fine-art-and-estate-appraisals",
+      "imageUrl": "https://scholzappraisals.com/wp-content/uploads/2025/08/Scholz-Appraisal-Favicon-white-512x512-1.png",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "202.359.3342",
+        "email": "",
+        "website": "https://scholzappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Scholz Appraisals & Advisory offers fine art appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://scholzappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://scholzappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJi8rJlNcrqCERv8gtIcvGDVE",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "washington-dc-strata-fine-art-services",
+      "name": "Strata Fine Art Services",
+      "slug": "strata-fine-art-services",
+      "imageUrl": "https://www.stratafineartservices.com/uploads/2/4/9/9/24992551/3764232.jpg",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.stratafineartservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Strata Fine Art Services offers fine art appraisal and advisory services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.stratafineartservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.stratafineartservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed website-backed import candidate."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJSwZcwqbIt4kRQaiPvdHOW8w",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "USPAP-governed fine art appraisal services",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser"
+        ]
+      }
+    },
+    {
+      "id": "warwick-art-advisory-washington-dc",
+      "name": "Warwick Art Advisory",
+      "slug": "warwick-art-advisory",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Washington",
+        "state": "DC",
+        "zip": "",
+        "formatted": "Washington, DC"
+      },
+      "contact": {
+        "phone": "(847) 337-2289",
+        "email": "contact@warwickartadvisory.com",
+        "website": "https://www.warwickartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art advisory firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Furnishings",
+          "Collection Management"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management",
+          "Acquisition & Divestiture Consulting"
+        ]
+      },
+      "content": {
+        "about": "Warwick Art Advisory is a full-service consulting firm providing appraisals and consulting on acquisition, divestiture, and management of fine art, antiques, and furnishings. The dedicated team develops long-term relationships with individuals and institutions to prepare USPAP compliant art appraisals and manage comprehensive art collections.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "washington-dc-fine-art-appraiser",
       "name": "Washington Fine Art Appraisers",
       "slug": "washington-fine-art-appraisers",
@@ -144,66 +1159,6 @@
       }
     },
     {
-      "id": "hemphill-fine-arts-washington-dc",
-      "name": "Hemphill Fine Arts",
-      "slug": "hemphill-fine-arts",
-      "imageUrl": "",
-      "address": {
-        "street": "1515 14th St NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20005",
-        "formatted": "1515 14th St NW, Washington, DC 20005"
-      },
-      "contact": {
-        "phone": "(202) 234-5601",
-        "email": "",
-        "website": "https://www.hemphillfinearts.com"
-      },
-      "business": {
-        "yearsInBusiness": "33 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Contemporary Art",
-          "Emerging Artists",
-          "Mixed Media"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Gallery Exhibitions",
-          "Art Sales"
-        ]
-      },
-      "content": {
-        "about": "HEMPHILL opened as a commercial gallery in September 1993. The exhibition schedule features contemporary art ranging in media from emerging to mid-career artists.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
       "id": "zenith-gallery-washington-dc",
       "name": "Zenith Gallery",
       "slug": "zenith-gallery",
@@ -255,616 +1210,6 @@
       },
       "content": {
         "about": "Since 1978, Zenith Gallery has brought together the work from a wide variety of different artists. The gallery showcases a range of different pieces including paintings and sculptures.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "burton-fine-art-washington-dc",
-      "name": "Burton Fine Art",
-      "slug": "burton-fine-art",
-      "imageUrl": "",
-      "address": {
-        "street": "1506 21st St NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20036",
-        "formatted": "1506 21st St NW, Washington, DC 20036"
-      },
-      "contact": {
-        "phone": "(202) 296-6563",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established fine art gallery",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Art Appraisal",
-          "Consultation"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Consultation",
-          "Gallery Services"
-        ]
-      },
-      "content": {
-        "about": "Burton Fine Art provides art appraisal and consultation services in the Dupont Circle area of Washington, DC.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "international-visions-gallery-washington-dc",
-      "name": "International Visions Gallery",
-      "slug": "international-visions-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "2629 Connecticut Ave NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20008",
-        "formatted": "2629 Connecticut Ave NW, Washington, DC 20008"
-      },
-      "contact": {
-        "phone": "(202) 234-5112",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established art gallery",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "International Art",
-          "Contemporary Art",
-          "Fine Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Gallery Exhibitions"
-        ]
-      },
-      "content": {
-        "about": "International Visions Gallery showcases contemporary international art and provides appraisal and advisory services.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "georgetown-gallery-of-art-washington-dc",
-      "name": "Georgetown Gallery Of Art",
-      "slug": "georgetown-gallery-of-art",
-      "imageUrl": "",
-      "address": {
-        "street": "1442 Rhode Island Ave NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20005",
-        "formatted": "1442 Rhode Island Ave NW, Washington, DC 20005"
-      },
-      "contact": {
-        "phone": "(202) 333-6308",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established art gallery",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Paintings",
-          "Sculpture"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Gallery Exhibitions"
-        ]
-      },
-      "content": {
-        "about": "Georgetown Gallery Of Art provides fine art appraisal and sales services in the Washington DC metro area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "frame-mart-gallery-washington-dc",
-      "name": "Frame Mart Gallery Inc",
-      "slug": "frame-mart-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "3307 Connecticut Ave NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20008",
-        "formatted": "3307 Connecticut Ave NW, Washington, DC 20008"
-      },
-      "contact": {
-        "phone": "(202) 363-5200",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "58 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Custom Framing",
-          "Fine Art",
-          "Art Consultation"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Custom Framing",
-          "Art Consultation"
-        ]
-      },
-      "content": {
-        "about": "Quality custom picture framing for over 40 years. Also provides art appraisal and consultation services.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "aaron-gallery-washington-dc",
-      "name": "Aaron Gallery",
-      "slug": "aaron-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "2101 L St NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20037",
-        "formatted": "2101 L St NW, Washington, DC 20037"
-      },
-      "contact": {
-        "phone": "(202) 234-3311",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established art gallery",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Contemporary Art",
-          "Modern Art",
-          "Fine Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Sales",
-          "Gallery Exhibitions"
-        ]
-      },
-      "content": {
-        "about": "Aaron Gallery provides contemporary and modern art appraisal services in the Foggy Bottom area of Washington, DC.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "warwick-art-advisory-washington-dc",
-      "name": "Warwick Art Advisory",
-      "slug": "warwick-art-advisory",
-      "imageUrl": "",
-      "address": {
-        "street": "",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "",
-        "formatted": "Washington, DC"
-      },
-      "contact": {
-        "phone": "(847) 337-2289",
-        "email": "contact@warwickartadvisory.com",
-        "website": "https://www.warwickartadvisory.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established art advisory firm",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Antiques",
-          "Furnishings",
-          "Collection Management"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Collection Management",
-          "Acquisition & Divestiture Consulting"
-        ]
-      },
-      "content": {
-        "about": "Warwick Art Advisory is a full-service consulting firm providing appraisals and consulting on acquisition, divestiture, and management of fine art, antiques, and furnishings. The dedicated team develops long-term relationships with individuals and institutions to prepare USPAP compliant art appraisals and manage comprehensive art collections.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "artemis-appraisal-washington-dc",
-      "name": "Artemis Appraisal",
-      "slug": "artemis-appraisal",
-      "imageUrl": "",
-      "address": {
-        "street": "",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "",
-        "formatted": "Washington, DC"
-      },
-      "contact": {
-        "phone": "",
-        "email": "",
-        "website": "https://www.artemisappraisal.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established appraisal firm",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Antiques",
-          "Decorative Arts"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Valuations",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Artemis is one of the most trusted art appraisal and advisory firms in the Washington, DC area, highly respected for its credibility and thoroughness in providing professional appraisals.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "mark-secrest-appraisals-washington-dc",
-      "name": "Mark Secrest Appraisals",
-      "slug": "mark-secrest-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "2500 Wisconsin Ave NW Ste 237",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20007",
-        "formatted": "2500 Wisconsin Ave NW Ste 237, Washington, DC 20007"
-      },
-      "contact": {
-        "phone": "(202) 718-2521",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established appraisal service",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Personal Property",
-          "Antiques"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Personal Property Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Mark Secrest Appraisals provides professional art and personal property appraisal services in the Washington, DC metropolitan area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "cotton-appraisals-washington-dc",
-      "name": "Cotton Appraisals",
-      "slug": "cotton-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "1730 Rhode Island Ave NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20036",
-        "formatted": "1730 Rhode Island Ave NW, Washington, DC 20036"
-      },
-      "contact": {
-        "phone": "(202) 555-0144",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "16 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Contemporary Art",
-          "Decorative Arts"
-        ],
-        "certifications": [
-          "ISA Accredited"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Cotton Appraisals provides expert fine art and decorative arts appraisals for collectors, institutions, and individuals in the Washington DC area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "dc-fine-art-advisors",
-      "name": "DC Fine Art Advisors",
-      "slug": "dc-fine-art-advisors",
-      "imageUrl": "",
-      "address": {
-        "street": "1875 Connecticut Ave NW",
-        "city": "Washington",
-        "state": "DC",
-        "zip": "20009",
-        "formatted": "1875 Connecticut Ave NW, Washington, DC 20009"
-      },
-      "contact": {
-        "phone": "(202) 555-0161",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "10 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Art Advisory",
-          "Collection Management"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Collection Planning"
-        ]
-      },
-      "content": {
-        "about": "DC Fine Art Advisors provides comprehensive art appraisal and advisory services to private collectors and institutions throughout the greater Washington DC area.",
         "notes": ""
       },
       "reviews": [],

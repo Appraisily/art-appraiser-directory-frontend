@@ -1,0 +1,489 @@
+{
+  "appraisers": [
+    {
+      "id": "anaheim-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/56898ef740667a38691de0a4/f66703ce-199c-4dba-b821-a971ae805ade/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "(310) 858 1644",
+        "email": "info@art-appraisals.net",
+        "website": "https://www.art-appraisals.net/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals offers fine art appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.art-appraisals.net/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.art-appraisals.net/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ09Tc9fe7woAREVW1WawiWzE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "anaheim-elizabeth-wells-appraisals-and-fine-art-services",
+      "name": "Elizabeth Wells Appraisals & Fine Art Services",
+      "slug": "elizabeth-wells-appraisals-and-fine-art-services",
+      "imageUrl": "https://assets.squarespace.com/universal/default-favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "323 252 2265",
+        "email": "ewellsappraisals@gmail.com",
+        "website": "https://www.ewellsappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Elizabeth Wells Appraisals & Fine Art Services offers fine art appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.ewellsappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ewellsappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ09xfx5q_woARX2uHWYLx5PY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "anaheim-ena-art-group",
+      "name": "ENA Appraisals - Fine Art",
+      "slug": "ena-art-group",
+      "imageUrl": "https://static.wixstatic.com/media/c39673_956682c529844b9fa224e09130967e67%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/c39673_956682c529844b9fa224e09130967e67%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "(858) 454-1231",
+        "email": "info@example.com",
+        "website": "https://www.enaartgroup.com/appraisals"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "ENA Appraisals - Fine Art offers fine art appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.enaartgroup.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.enaartgroup.com/appraisals",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ27dvvPlV2YARYG3EJO6J27U",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "anaheim-maloney-fine-art",
+      "name": "Maloney Fine Art Appraisal Services",
+      "slug": "maloney-fine-art",
+      "imageUrl": "https://static.wixstatic.com/media/e67633_ab2ff063090a422fa988b9b6b31ce864%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/e67633_ab2ff063090a422fa988b9b6b31ce864%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "310.570.6420",
+        "email": "michael@maloneyfineart.com",
+        "website": "https://www.maloneyartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Maloney Fine Art Appraisal Services offers fine art appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.maloneyartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.maloneyartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJgVvp7p25woARCyxQB6I-FC0",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "anaheim-anaheim-new-york-fine-art-appraisers",
+      "name": "New York Fine Art Appraisers",
+      "slug": "anaheim-new-york-fine-art-appraisers",
+      "imageUrl": "https://nyfaa.com/wp-content/uploads/2018/07/logo-new.png",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "212.772.0319",
+        "email": "appraisals@nyfaa.com",
+        "website": "https://nyfaa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "New York Fine Art Appraisers offers fine art appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://nyfaa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://nyfaa.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJKxrQCnW5woARZZLYzY6h4EE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "anaheim-reilly-clark-fine-art-and-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-and-appraisals",
+      "imageUrl": "https://content.app-sources.com/s/5614540215077393/uploads/Images/Reilly-clark-9714453.png",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "+1 214 799-7889",
+        "email": "reilly@reillyclark.com",
+        "website": "https://reillyclark.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals offers fine art appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://reillyclark.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://reillyclark.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJqcK2fZfvjksRUknRmQU9hW0",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "anaheim-selz-fine-arts-appraisals",
+      "name": "Selz Fine Art Appraisals",
+      "slug": "selz-fine-arts-appraisals",
+      "imageUrl": "https://www.selzfineartappraisals.com/imgs/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Anaheim",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Anaheim, CA"
+      },
+      "contact": {
+        "phone": "+15166398144",
+        "email": "gabrielle@selzfineartappraisals.com",
+        "website": "https://www.selzfineartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Selz Fine Art Appraisals offers fine art appraisal services serving Anaheim, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.selzfineartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.selzfineartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_TlhkQQUOAYRVFB12S_Cpok",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

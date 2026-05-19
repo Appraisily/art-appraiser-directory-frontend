@@ -1,0 +1,145 @@
+{
+  "title": "Art appraisers in Phoenix, Arizona",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "phoenix",
+    "url": "https://art-appraisers-directory.appraisily.com/location/phoenix/",
+    "name": "Art appraisers in Phoenix, Arizona",
+    "description": "Compare art appraisers in Phoenix, Arizona.",
+    "numberOfListedAppraisers": 18,
+    "listedAppraisers": [
+      {
+        "name": "ABD Antique Appraisers",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/abd-antique-appraisers/",
+        "slug": "abd-antique-appraisers",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/abd-antique-appraisers.svg",
+        "description": "ABD Antique Appraisers offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Allison Gee Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/allison-gee-fine-art-appraisals/",
+        "slug": "allison-gee-fine-art-appraisals",
+        "image": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+        "description": "Allison Gee Fine Art Appraisals offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "AppraiseItNow",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
+        "slug": "appraiseitnow",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_appraise-it-now_1741087705303_Lr2pfLFiv.jpg",
+        "description": "Modern online-first appraisal service with certified specialists for each asset type. Offering convenient digital submissions with expedited processing available.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Arizona Art Appraisals & Advisory",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/arizona-art-appraisals.svg",
+        "description": "Arizona Art Appraisals & Advisory provides comprehensive fine art appraisals and advisory services to collectors and estates throughout the Phoenix and Scottsdale area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Arizona Certified Appraisal Group",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/az-appraisal-services-estates-insurance-property-appraisers/",
+        "slug": "az-appraisal-services-estates-insurance-property-appraisers",
+        "image": "https://azcertifiedappraisalgroup.com/wp-content/themes/decor/images/favicon.ico",
+        "description": "Arizona Certified Appraisal Group offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Art Fortune LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-fortune-llc/",
+        "slug": "art-fortune-llc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/art-fortune-llc.svg",
+        "description": "Art Fortune LLC provides certified art and antique appraisals in Scottsdale and the greater Phoenix area. Their certified appraisers ensure precise evaluations based on the most relevant information, providing clarity on the true market value.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Baker Appraisers (Asian Antique Appraisers)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/baker-appraisers-asian-antique-appraisers/",
+        "slug": "baker-appraisers-asian-antique-appraisers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_baker-asian-antique-appraisers_1741087699816_0gt459k0L.jpg",
+        "description": "Specialists in Asian art and antiques with extensive knowledge of Chinese, Japanese, and Korean artifacts. Available for both in-person and remote appraisals.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Bentley Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/bentley-gallery.svg",
+        "description": "Bentley Gallery is one of the Southwest's most distinguished contemporary art galleries, providing appraisal and advisory services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Collier Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/collier-gallery.svg",
+        "description": "Collier Gallery has been serving the Phoenix art community for over 41 years, offering fine art and antique appraisal services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Desert Fine Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/desert-fine-art-appraisals.svg",
+        "description": "Desert Fine Art Appraisals provides expert fine art and Southwestern art appraisals for collectors, galleries, and institutions throughout the Phoenix metropolitan area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Ed Mell Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ed-mell-gallery.svg",
+        "description": "The Ed Mell Gallery showcases current artworks and at times earlier pieces from Ed Mell's personal collection. Located in Phoenix's historical Coronado neighborhood.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Modified Arts",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/modified-arts.svg",
+        "description": "Modified Arts is a contemporary art gallery on Roosevelt Row providing exhibitions and art services to the Phoenix community.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Phoenix Art Group Inc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/phoenix-art-group.svg",
+        "description": "Phoenix Art Group has been a fixture in the Phoenix art scene for nearly six decades, providing art consultation and appraisal services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg",
+        "description": "Established practice with multi-generational expertise in estate services and art appraisals. Our team includes renowned experts Elizabeth Lovett and Stephanie Calman.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Savvy Collector",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/savvy-collector/",
+        "slug": "savvy-collector",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/savvy-collector.svg",
+        "description": "Savvy Collector specializes in art appraisal services and is listed as both an art gallery and professional appraiser in Phoenix.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Sims Appraisal",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/sims-appraisal/",
+        "slug": "sims-appraisal",
+        "image": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+        "description": "Sims Appraisal offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Sonoran Appraisal Services",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sonoran-appraisal-services.svg",
+        "description": "Sonoran Appraisal Services provides professional fine art and personal property appraisals throughout the Phoenix metro area, serving collectors, estates, and insurance clients.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Valley Art Appraisers",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/valley-art-appraisers.svg",
+        "description": "Valley Art Appraisers has served the Phoenix and Scottsdale area for over 20 years, providing comprehensive appraisals for fine art, antiques, jewelry, and decorative arts.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/phoenix/"
+    }
+  }
+}

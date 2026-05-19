@@ -1,0 +1,276 @@
+{
+  "appraisers": [
+    {
+      "id": "naperville-abh-fine-art-advisory",
+      "name": "ABH Fine Art Advisory",
+      "slug": "abh-fine-art-advisory",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Naperville",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Naperville, IL"
+      },
+      "contact": {
+        "phone": "224-689-4386",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.abhfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "ABH Fine Art Advisory offers fine art appraisal services serving Naperville, IL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.abhfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.abhfineart.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJs2_c5b6lD4gR-zRLJcg-_UI",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "naperville-gb-fine-art-professional-art-appraisals-chicago-illinois",
+      "name": "GB Fine Art",
+      "slug": "gb-fine-art-professional-art-appraisals-chicago-illinois",
+      "imageUrl": "https://gbfineart.com/#",
+      "address": {
+        "street": "",
+        "city": "Naperville",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Naperville, IL"
+      },
+      "contact": {
+        "phone": "314.604.4175",
+        "email": "gretchen@gbfineart.com",
+        "website": "https://gbfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "GB Fine Art offers fine art appraisal services serving Naperville, IL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://gbfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://gbfineart.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJCWSRYsHSD4gRz0M-MfusPZ4",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "naperville-mcdade-fine-art-appraisals",
+      "name": "McDade Fine Art Appraisals",
+      "slug": "mcdade-fine-art-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/e952c8d3-4391-437b-8e1c-375105df02be/MFA%20Email%20Sig%20Logo.jpg/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Naperville",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Naperville, IL"
+      },
+      "contact": {
+        "phone": "3093394405",
+        "email": "contact@sansoxygen.com",
+        "website": "https://mfaappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "McDade Fine Art Appraisals offers fine art appraisal services serving Naperville, IL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://mfaappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://mfaappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJkw3P0xV5fEkRRo7DqUKa7dQ",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "naperville-veritas-fine-art-and-appraisals",
+      "name": "Veritas Fine Art Appraisals & Consulting Group",
+      "slug": "veritas-fine-art-and-appraisals",
+      "imageUrl": "https://veritasartappraisals.com/wp-content/uploads/2022/04/cropped-SiteIcon-1.png",
+      "address": {
+        "street": "",
+        "city": "Naperville",
+        "state": "IL",
+        "zip": "",
+        "formatted": "Naperville, IL"
+      },
+      "contact": {
+        "phone": "312-252-9772",
+        "email": "inquiries@veritasartappraisals.com",
+        "website": "https://veritasartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Veritas Fine Art Appraisals & Consulting Group offers fine art appraisal services serving Naperville, IL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://veritasartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://veritasartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJAeUl41HSD4gR8J5BC3f8ep4",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

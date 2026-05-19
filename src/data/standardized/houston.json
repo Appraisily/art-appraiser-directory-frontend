@@ -1,6 +1,75 @@
 {
   "appraisers": [
     {
+      "id": "houston-alexander-appraisal-and-estate-services",
+      "name": "Alexander Appraisal & Estate Services",
+      "slug": "alexander-appraisal-and-estate-services",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/61dfed79fc2b590d1ff91789/6e5dce25-c9d2-4a8b-b1fe-997576ebbcf0/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "(713) 806-9294",
+        "email": "user@domain.com",
+        "website": "https://www.alexanderappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Alexander Appraisal & Estate Services offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.alexanderappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.alexanderappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJWbwuARHEQIYRyjTfIIKYDKs",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "alicia-weaver-prestige-estate",
       "name": "Alicia E Weaver (Prestige Estate Services)",
       "slug": "alicia-e-weaver-prestige-estate-services",
@@ -75,6 +144,364 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "houston-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg?updatedAt=1741089145255",
+      "address": {
+        "street": "1234 Maple Dr",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77019",
+        "formatted": "1234 Maple Dr, Houston, TX 77019"
+      },
+      "contact": {
+        "phone": "270-707-3040",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.7,
+        "reviewCount": 21
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Litigation support",
+          "Authentication research",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Has decades of experience in art appraisals."
+      },
+      "reviews": [
+        {
+          "author": "Michael J.",
+          "rating": 4.5,
+          "date": "2025-03-02",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2024-12-27",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "John B.",
+          "rating": 4.5,
+          "date": "2024-12-14",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-arnoult-fine-art",
+      "name": "Arnoult Fine Art Consulting",
+      "slug": "arnoult-fine-art",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6690d0d729c1781258d8046f/1a280d78-76ca-4eb9-8416-e79f5379a2b0/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "8324835360",
+        "email": "elise@arnoultfineart.com",
+        "website": "https://www.arnoultfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Arnoult Fine Art Consulting offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.arnoultfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.arnoultfineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJSQfZWA7HQIYRThbHhri67Fw",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "houston-blades-appraisals-fine-art-and-antique-appraisal-firm-and-broker",
+      "name": "Blades Appraisals and Art Resources",
+      "slug": "blades-appraisals-fine-art-and-antique-appraisal-firm-and-broker",
+      "imageUrl": "https://bladesappraisals.com/wp-content/uploads/2024/09/cropped-rsw_400cg_truem-2-32x32.webp",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "+18326967271",
+        "email": "",
+        "website": "https://bladesappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Blades Appraisals and Art Resources offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://bladesappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://bladesappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJQ34v05nsOY4RxnFzGDCLAFk",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "houston-cain-fine-art",
+      "name": "Cain Fine Art",
+      "slug": "cain-fine-art",
+      "imageUrl": "https://cainfineart.com/wp-content/uploads/2025/09/Sara-Headshot-3-copy-294x300.jpg",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "713-498-0113",
+        "email": "",
+        "website": "https://cainfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Collection management",
+          "Donation advising"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Collection management",
+          "Acquisition and divestiture guidance"
+        ]
+      },
+      "content": {
+        "about": "Cain Fine Art offers fine art appraisal, advisory, and collection-management services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from direct website recheck on 2026-05-15. Source: https://cainfineart.com/about/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://cainfineart.com/about/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Direct recheck found owned-site art appraisal and advisory evidence."
+        },
+        "source": "direct_recheck_website_evidence",
+        "placeId": "ChIJRVl_xGy_QIYRXE1z1tXzvP0",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "direct website recheck recovered owned-site evidence",
+          "owned-site services/about pages state art appraisals",
+          "fine art advisory and collection-management fit",
+          "phone found",
+          "image/logo candidate found"
+        ]
+      }
+    },
+    {
+      "id": "houston-full-service-estate-sales-and-appraisals-houston-accredited-appraiser",
+      "name": "English and Associates Estate Services",
+      "slug": "full-service-estate-sales-and-appraisals-houston-accredited-appraiser",
+      "imageUrl": "https://www.englishestateservices.com/uploads/3/7/9/5/37957023/published/english-appraiser-appraisals-estate-sales.jpg?1679279943",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "7132085749",
+        "email": "",
+        "website": "https://www.englishestateservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "English and Associates Estate Services offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.englishestateservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.englishestateservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ4abpXWfAQIYRNHUS2QNBHno",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -157,6 +584,638 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "houston-escher-associates-ea",
+      "name": "Escher Associates (EA)",
+      "slug": "escher-associates-ea",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
+      "address": {
+        "street": "123 Washington Ave",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "formatted": "123 Washington Ave, Houston, TX 77002"
+      },
+      "contact": {
+        "phone": "292-628-1368",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 5,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
+        ],
+        "certifications": [
+          "ASA-certified"
+        ],
+        "services": [
+          "Art appraisals",
+          "Support for art fraud cases"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates (EA) provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Operates with USPAP and ASA standards; has handled art fraud cases with LAPD."
+      },
+      "reviews": [
+        {
+          "author": "Emily R.",
+          "rating": 4.5,
+          "date": "2025-01-27",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Karen C.",
+          "rating": 4.5,
+          "date": "2025-01-07",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Robert W.",
+          "rating": 5,
+          "date": "2024-12-28",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-home-foltz-fine-art",
+      "name": "Foltz Fine Art LLC",
+      "slug": "home-foltz-fine-art",
+      "imageUrl": "https://cdn.artcld.com/img/w_320,h_320,c_pad,b_ffffff/y33q6yq1y0as2pxt7mdg.jpg",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "info@foltzgallery.com",
+        "website": "https://foltzgallery.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Foltz Fine Art LLC offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://foltzgallery.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://foltzgallery.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJS_kFi5bAQIYR-wN0QBKZIdY",
+        "confidenceScore": 80,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found"
+        ]
+      }
+    },
+    {
+      "id": "houston-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741086913213_kTqP95EkI.jpg?updatedAt=1741086914372",
+      "address": {
+        "street": "555 Gallery Row",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "75201",
+        "formatted": "555 Gallery Row, Houston, TX 75201"
+      },
+      "contact": {
+        "phone": "197-688-8440",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 5,
+        "reviewCount": 19
+      },
+      "expertise": {
+        "specialties": [
+          "High-value appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "High-value art appraisals",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Manages over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "David B.",
+          "rating": 5,
+          "date": "2025-03-14",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Sarah A.",
+          "rating": 5,
+          "date": "2024-12-11",
+          "content": "Excellent service from start to finish. I highly recommend Gurr Johns for any art appraisal needs."
+        },
+        {
+          "author": "Susan A.",
+          "rating": 4.5,
+          "date": "2024-12-02",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "houston-heidi-vaughan-ma-isa-am",
+      "name": "Heidi Vaughan, MA, ISA AM",
+      "slug": "heidi-vaughan-ma-isa-am",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://heidivaughanfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art - 19th Century",
+          "Art - 20th Century",
+          "Auction Company/Gallery",
+          "Paintings - Contemporary American",
+          "Sculpture",
+          "ISA AM"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Auction and market guidance"
+        ]
+      },
+      "content": {
+        "about": "Heidi Vaughan, MA, ISA AM offers art appraisal services serving Houston, TX. FAIR directory data indicates specialties in Art - 19th Century, Art - 20th Century, Auction Company/Gallery, Paintings - Contemporary American, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: heidivaughanfineart.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-9812"
+      }
+    },
+    {
+      "id": "art-houston-houston-estate-sales-and-appraisals",
+      "name": "Houston Estate Sales & Appraisals",
+      "slug": "houston-houston-estate-sales-and-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.estatesales.net/TX/Houston/77042/2433189?srsltid=AfmBOooSkLwT2UvdD5KLk4EvXaHFsXVP92i37VM86lRWzeI1Nf9Qp5j2"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "jewelry_gem_watch",
+          "auction_estate_sale_liquidation_or_consignment"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
+        ]
+      },
+      "content": {
+        "about": "Houston Estate Sales & Appraisals is included from a deferred lead review for art, gallery, advisory, or collection-related services in Houston, TX. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.estatesales.net/TX/Houston/77042/2433189?srsltid=AfmBOooSkLwT2UvdD5KLk4EvXaHFsXVP92i37VM86lRWzeI1Nf9Qp5j2. Original status: formal_or_claimed_non_real_estate_appraisal_terms_found. Evidence note: Houston Estate Sales & Appraisals Find Estate Sales find sales shop hire a company list a sale sign in menu Back Get Notified Find a Sale Shop for Items Hire a Company List a Sale My Account Please enable JavaScript to use key f"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "both_art_and_antique",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "jewelry_gem_watch",
+            "auction_estate_sale_liquidation_or_consignment"
+          ],
+          "appraisalServiceStatus": "formal_or_claimed_non_real_estate_appraisal_terms_found",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.estatesales.net/TX/Houston/77042/2433189?srsltid=AfmBOooSkLwT2UvdD5KLk4EvXaHFsXVP92i37VM86lRWzeI1Nf9Qp5j2",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "third_party_profile",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJFWoXcOjQQIYRuWYSmciucS8",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: both_art_and_antique",
+          "appraisal service status: formal_or_claimed_non_real_estate_appraisal_terms_found",
+          "service types: fine_art_or_gallery_related, antique_decorative_arts_personal_property_or_estate_contents, jewelry_gem_watch, auction_estate_sale_liquidation_or_consignment"
+        ]
+      }
+    },
+    {
+      "id": "houston-houston-estate-sales-and-auction-company",
+      "name": "Houston Estate Sales and Auction Company",
+      "slug": "houston-estate-sales-and-auction-company",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "281-906-0236",
+        "email": "",
+        "website": "https://houstonestatesalesauctions.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Houston Estate Sales and Auction Company offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://houstonestatesalesauctions.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://houstonestatesalesauctions.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJWat5rUfBQIYRm8NNVtij8i0",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "houston-kinzelman-art-consulting",
+      "name": "Kinzelman Art Consulting",
+      "slug": "kinzelman-art-consulting",
+      "imageUrl": "http://www.kinzelmanart.com/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "713.533.9923",
+        "email": "Julie@kinzelmanart.com",
+        "website": "http://www.kinzelmanart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "Professional appraisal affiliation referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
+        ]
+      },
+      "content": {
+        "about": "Kinzelman Art Consulting offers fine art appraisal and advisory services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://www.kinzelmanart.com/fine-art-appraisals/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.kinzelmanart.com/fine-art-appraisals/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ35IEzXG_QIYRJRfswA64yJo",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site has fine art appraisals page",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "houston-liz-anders-associates",
+      "name": "Liz Anders & Associates LLC",
+      "slug": "liz-anders-associates",
+      "imageUrl": "https://lizandersart.com/wp-content/themes/liz-anders/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "713.725.6624",
+        "email": "liz@lizandersart.com",
+        "website": "https://lizandersart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Liz Anders & Associates LLC offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://lizandersart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://lizandersart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ0db6Z17AQIYRfSlREIFWeEc",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states fine art appraisals for insurance, estate tax, estate planning, and charitable donation",
+          "fine art advisory fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "houston-loro-fine-art-restoration-and-appraisal",
+      "name": "Loro Fine Art Restoration and Appraisal",
+      "slug": "loro-fine-art-restoration-and-appraisal",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "+1 281-350-1006",
+        "email": "",
+        "website": "https://www.chamberofcommerce.com/business-directory/texas/spring/appraiser/47097793-loro-fine-art-restoration-and-appraisal"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Loro Fine Art Restoration and Appraisal offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.chamberofcommerce.com/business-directory/texas/spring/appraiser/47097793-loro-fine-art-restoration-and-appraisal. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.chamberofcommerce.com/business-directory/texas/spring/appraiser/47097793-loro-fine-art-restoration-and-appraisal",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJbYKTp2A1R4YR1n3UTNrVS9Q",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -319,83 +1378,70 @@
       }
     },
     {
-      "id": "houston-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg?updatedAt=1741089145255",
+      "id": "houston-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg?updatedAt=1741086897385",
       "address": {
-        "street": "1234 Maple Dr",
+        "street": "1234 Main St",
         "city": "Houston",
         "state": "TX",
         "zip": "77019",
-        "formatted": "1234 Maple Dr, Houston, TX 77019"
+        "formatted": "1234 Main St, Houston, TX 77019"
       },
       "contact": {
-        "phone": "270-707-3040",
-        "email": "info@www.art-appraisals.net",
-        "website": "www.art-appraisals.net"
+        "phone": "390-363-6878",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
       },
       "business": {
-        "yearsInBusiness": "Decades",
+        "yearsInBusiness": "Established business",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Project-based",
-        "rating": 4.7,
-        "reviewCount": 21
+        "pricing": "20% fee up to $500K, 10% fee beyond $500K",
+        "rating": 4.4,
+        "reviewCount": 23
       },
       "expertise": {
         "specialties": [
-          "European Art",
-          "American Art",
-          "Contemporary",
-          "Modern",
-          "Impressionist",
-          "19th-century works",
-          "Expert witness services"
+          "Free valuations",
+          "Consignment-based sales"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "Litigation support",
-          "Authentication research",
-          "Expert witness services"
+          "Valuations",
+          "Same-day offers",
+          "Consignment sales"
         ]
       },
       "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Has decades of experience in art appraisals."
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers."
       },
       "reviews": [
         {
-          "author": "Michael J.",
+          "author": "Linda T.",
           "rating": 4.5,
-          "date": "2025-03-02",
+          "date": "2025-02-16",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah R.",
+          "rating": 4,
+          "date": "2025-02-04",
           "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
         },
         {
-          "author": "Nancy M.",
+          "author": "James W.",
           "rating": 4.5,
-          "date": "2024-12-27",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "John B.",
-          "rating": 4.5,
-          "date": "2024-12-14",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+          "date": "2025-01-25",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         }
       ],
       "metadata": {
@@ -404,80 +1450,213 @@
       }
     },
     {
-      "id": "houston-escher-associates-ea",
-      "name": "Escher Associates (EA)",
-      "slug": "escher-associates-ea",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
+      "id": "houston-mjp-art-services",
+      "name": "MJP Art Services",
+      "slug": "mjp-art-services",
+      "imageUrl": "https://storage.googleapis.com/wzsitethumbnails/site-48144344/800x500.jpg",
       "address": {
-        "street": "123 Washington Ave",
+        "street": "",
         "city": "Houston",
         "state": "TX",
-        "zip": "77002",
-        "formatted": "123 Washington Ave, Houston, TX 77002"
+        "zip": "",
+        "formatted": "Houston, TX"
       },
       "contact": {
-        "phone": "292-628-1368",
-        "email": "info@www.escher-associates.com",
-        "website": "www.escher-associates.com"
+        "phone": "",
+        "email": "",
+        "website": "https://www.mjpappraisals.com/"
       },
       "business": {
-        "yearsInBusiness": "Since 1984",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "day": "Monday-Friday",
+            "hours": "By appointment"
           }
         ],
-        "pricing": "$350/hour or $2,500/day plus expenses",
-        "rating": 5,
-        "reviewCount": 24
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Paintings",
-          "Sculpture",
-          "Photography",
-          "Rare Books"
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations"
         ],
-        "certifications": [
-          "ASA-certified"
-        ],
+        "certifications": [],
         "services": [
-          "Art appraisals",
-          "Support for art fraud cases"
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals"
         ]
       },
       "content": {
-        "about": "Escher Associates (EA) provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Operates with USPAP and ASA standards; has handled art fraud cases with LAPD."
+        "about": "MJP Art Services offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.mjpappraisals.com/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "Emily R.",
-          "rating": 4.5,
-          "date": "2025-01-27",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Karen C.",
-          "rating": 4.5,
-          "date": "2025-01-07",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Robert W.",
-          "rating": 5,
-          "date": "2024-12-28",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mjpappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJI3Wss_TdQIYRNGOdVO1fRFQ",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states certified art, antiques, and household contents appraisals",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "houston-m-k-g-art-management-art-advisors-and-appraisers-houston-texas",
+      "name": "MKG Art Management",
+      "slug": "m-k-g-art-management-art-advisors-and-appraisers-houston-texas",
+      "imageUrl": "https://mkgart.com/wp-content/uploads/2022/08/mkg-logo-dark.png",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "+1-713-526-4146",
+        "email": "INFO@MKGART.COM",
+        "website": "https://mkgart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "MKG Art Management offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://mkgart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://mkgart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJF4kPyPHAQIYRs4zDY53xX-0",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "art-houston-national-appraisal-partners-llp",
+      "name": "National Appraisal Partners, LLP",
+      "slug": "houston-national-appraisal-partners-llp",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Houston, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbhouston"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "real_estate_property_appraisal"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
+        ]
+      },
+      "content": {
+        "about": "National Appraisal Partners, LLP is included from a deferred lead review for art, gallery, advisory, or collection-related services in Houston, TX. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbhouston. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: s, arbitrations, and hearings. Q: How is your testimony used in litigation? A: We provide objective valuations backed by robust data, which attorneys and clients use to argue value disputes effectively. Q: Can you help us understand complex real estate valuation topics? A: Yes. Our experts simplify appraisal concepts f"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "art",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbhouston",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJtVcBHuPAQIYRTuxglWSFLfg",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: art",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: fine_art_or_gallery_related, real_estate_property_appraisal"
+        ]
       }
     },
     {
@@ -641,146 +1820,69 @@
       }
     },
     {
-      "id": "houston-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-escher-associates_1741086913213_kTqP95EkI.jpg?updatedAt=1741086914372",
+      "id": "houston-the-antiquarium-sale-appraisal-inquiries",
+      "name": "The Antiquarium",
+      "slug": "the-antiquarium-sale-appraisal-inquiries",
+      "imageUrl": "https://theantiquarium.com/cdn/shop/files/New_Header_for_Shopify_Store_861x.jpg?v=1663175768",
       "address": {
-        "street": "555 Gallery Row",
+        "street": "",
         "city": "Houston",
         "state": "TX",
-        "zip": "75201",
-        "formatted": "555 Gallery Row, Houston, TX 75201"
+        "zip": "",
+        "formatted": "Houston, TX"
       },
       "contact": {
-        "phone": "197-688-8440",
-        "email": "info@www.gurrjohns.com",
-        "website": "www.gurrjohns.com"
+        "phone": "713-622-7531",
+        "email": "info@theantiquarium.com",
+        "website": "https://theantiquarium.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "By appointment only"
+            "hours": "By appointment"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 5,
-        "reviewCount": 19
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "High-value appraisals",
-          "Expert witness services"
+          "Fine art appraisals"
         ],
-        "certifications": [
-          "USPAP compliant"
-        ],
+        "certifications": [],
         "services": [
-          "High-value art appraisals",
-          "Expert witness services"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Manages over $10 billion annually."
+        "about": "The Antiquarium - Houston's Finest Custom Picture Framing, Rare Maps and Prints offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://theantiquarium.com/pages/sale-appraisal-inquiries. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "David B.",
-          "rating": 5,
-          "date": "2025-03-14",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Sarah A.",
-          "rating": 5,
-          "date": "2024-12-11",
-          "content": "Excellent service from start to finish. I highly recommend Gurr Johns for any art appraisal needs."
-        },
-        {
-          "author": "Susan A.",
-          "rating": 4.5,
-          "date": "2024-12-02",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "houston-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg?updatedAt=1741086897385",
-      "address": {
-        "street": "1234 Main St",
-        "city": "Houston",
-        "state": "TX",
-        "zip": "77019",
-        "formatted": "1234 Main St, Houston, TX 77019"
-      },
-      "contact": {
-        "phone": "390-363-6878",
-        "email": "info@www.mimesisgallery.com",
-        "website": "www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "20% fee up to $500K, 10% fee beyond $500K",
-        "rating": 4.4,
-        "reviewCount": 23
-      },
-      "expertise": {
-        "specialties": [
-          "Free valuations",
-          "Consignment-based sales"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Valuations",
-          "Same-day offers",
-          "Consignment sales"
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://theantiquarium.com/pages/sale-appraisal-inquiries",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJmw_do-3AQIYRF-QBD76DVw4",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned sale and appraisal inquiries page",
+          "rare antique maps, prints, documents, and related works fit",
+          "explicitly reviewed non-real-estate fit"
         ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd, Los Angeles; offers free valuations and same-day offers."
-      },
-      "reviews": [
-        {
-          "author": "Linda T.",
-          "rating": 4.5,
-          "date": "2025-02-16",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Sarah R.",
-          "rating": 4,
-          "date": "2025-02-04",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "James W.",
-          "rating": 4.5,
-          "date": "2025-01-25",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
       }
     }
   ]

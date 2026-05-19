@@ -1,0 +1,145 @@
+{
+  "appraisers": [
+    {
+      "id": "wichita-madison-group-fine-art-appraisals",
+      "name": "Madison Group Fine Art Appraisals",
+      "slug": "madison-group-fine-art-appraisals",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/58c16c5a1b10e33e6e6985b3/1494350943057-174JHE2DKSKECQ99FNCM/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "",
+        "formatted": "Wichita, KS"
+      },
+      "contact": {
+        "phone": "1.888.201.9049",
+        "email": "inquiry@mgfaa.com",
+        "website": "https://www.mgfaa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Madison Group Fine Art Appraisals offers fine art appraisal services serving Wichita, KS. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.mgfaa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mgfaa.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJVVUhehjwwIcRxbkmnXVDnEc",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "wichita-veritas-fine-art-and-appraisals",
+      "name": "Veritas Fine Art Appraisals & Consulting Group",
+      "slug": "veritas-fine-art-and-appraisals",
+      "imageUrl": "https://veritasartappraisals.com/wp-content/uploads/2022/04/cropped-SiteIcon-1.png",
+      "address": {
+        "street": "",
+        "city": "Wichita",
+        "state": "KS",
+        "zip": "",
+        "formatted": "Wichita, KS"
+      },
+      "contact": {
+        "phone": "312-252-9772",
+        "email": "inquiries@veritasartappraisals.com",
+        "website": "https://veritasartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Veritas Fine Art Appraisals & Consulting Group offers fine art appraisal services serving Wichita, KS. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://veritasartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://veritasartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJAeUl41HSD4gR8J5BC3f8ep4",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "title": "Art appraisers in Austin, Texas",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "austin",
+    "url": "https://art-appraisers-directory.appraisily.com/location/austin/",
+    "name": "Art appraisers in Austin, Texas",
+    "description": "Compare art appraisers in Austin, Texas.",
+    "city": "Austin",
+    "region": "Texas",
+    "country": "US",
+    "numberOfListedAppraisers": 19,
+    "listedAppraisers": [
+      {
+        "name": "Alicia E Weaver",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver/",
+        "slug": "alicia-e-weaver",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-appraiseitnow_1741086879775_n1p8sRul5.jpg?updatedAt=1741086881251",
+        "description": "Alicia E Weaver provides professional art appraisal services specializing in Paintings, Americana, Decorative Arts, Furniture. With Since 2012 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-appraiseitnow_1741088893053_5ocAo47Wn.jpg?updatedAt=1741088894283",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Austin Art Appraisal",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/austin-art-appraisal.svg",
+        "description": "Walter Baker is an experienced fine art advisor, broker, and appraiser based in Austin. All appraisals are fully compliant with USPAP and the ethical/technical requirements of the International Society of Appraisers, and are accepted by major insurance companies and the IRS.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Austin Art Appraisal (Walter Baker)",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/austin-galleries.svg",
+        "description": "Walter Baker is an experienced fine art advisor, broker, and appraiser offering appraisals for Fine Art, Decorative Arts and Antiques, Historical Artifacts, and Vintage Musical Instruments. He is a member of the International Society of Appraisers and all appraisals are fully USPAP compliant, accepted by all major insurance companies and the IRS.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Austin Galleries",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/austin-galleries/",
+        "slug": "austin-galleries",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/austin-galleries.svg",
+        "description": "Austin Galleries offers art and antique appraisals with over four decades of experience serving hundreds of clients. They provide appraisals for insurance, probate, taxes, establishing fair market value, or executing a will.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Capitol City Art Advisors",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/capitol-city-art-advisors.svg",
+        "description": "Capitol City Art Advisors provides fine art appraisals and advisory services to collectors, galleries, and institutions throughout the Austin metropolitan area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Capitol Personal Property Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/erin-e-keever.svg",
+        "description": "Capitol Personal Property Appraisals, based in Austin, Texas, offers USPAP compliant appraisals of art, collections, antiques and residential contents. Founded by Kimberly Permenter, ISA AM, Accredited Member of the International Society of Appraisers. All appraisals are confidential and adhere to USPAP, ISA report writing standards, and the ISA code of ethics.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Erin E Keever",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/erin-e-keever/",
+        "slug": "erin-e-keever",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/erin-e-keever.svg",
+        "description": "Erin E Keever offers art appraisal services serving Austin, TX. FAIR directory data indicates specialties in Art - 19th Century, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-dana-summitt-look-appraisal-llc_1741090657650_Mb3LNgRI0T.jpg?updatedAt=1741090658870",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With 39 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Foltz Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/gurr-johns.svg",
+        "description": "Foltz Fine Art offers extensive appraisal valuation services on fine art personal property. They specialize in 19th and 20th century European, Latin American, and American fine art and photography.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-saylor-rice-appraisals_1741088856768_iKE9kSYLH.jpg?updatedAt=1741088858001",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness, Global art market evaluations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Linda Maxwell Harris",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/linda-maxwell-harris/",
+        "slug": "linda-maxwell-harris",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
+        "description": "Linda Maxwell Harris provides professional art appraisal services specializing in Real estate related art appraisals, Property valuation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Lone Star Art & Estate Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mimesis-gallery.svg",
+        "description": "Lone Star Art & Estate Appraisals provides comprehensive fine art and personal property appraisals for collectors, attorneys, and estate planners in the Austin area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg?updatedAt=1741089008903",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based sales, Valuations, Same-day offers. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-mimesis-gallery_1741088659294_rCM88AQZC4.jpg?updatedAt=1741088660615",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Prestige Estate Services Team",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/",
+        "slug": "prestige-estate-services-team",
+        "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg?updatedAt=1741088517396",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Semler Appraisals",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Texas Fine Art Appraisals",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/austin/"
+    }
+  }
+}

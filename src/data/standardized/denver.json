@@ -77,6 +77,149 @@
       }
     },
     {
+      "id": "denver-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg?updatedAt=1741088997582",
+      "address": {
+        "street": "1234 Elm St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80002",
+        "formatted": "1234 Elm St, Denver, CO 80002"
+      },
+      "contact": {
+        "phone": "209-942-7417",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based (pricing not specified)",
+        "rating": 4.7,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th Century Works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Expert Witness Services",
+          "Litigation Support",
+          "Authentication Research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th Century Works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Specializes in European and American art with decades of experience."
+      },
+      "reviews": [
+        {
+          "author": "Robert M.",
+          "rating": 4.5,
+          "date": "2025-02-04",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 5,
+          "date": "2025-01-28",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Sarah S.",
+          "rating": 4,
+          "date": "2025-01-04",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-bernard-ewell-fine-at-appraisals-llc",
+      "name": "Bernard Ewell Art Appraisers, LLC.",
+      "slug": "bernard-ewell-fine-at-appraisals-llc",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "800-884-3254",
+        "email": "info@bernardewell.com",
+        "website": "https://www.bernardewell.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Bernard Ewell Art Appraisers, LLC. offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.bernardewell.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.bernardewell.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJvSzOTaX4GIcRQWTUfFRHz0Y",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "denver-brady-l-dreasher",
       "name": "Brady L. Dreasher",
       "slug": "brady-l-dreasher",
@@ -149,6 +292,196 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "candace-hill-denver-co",
+      "name": "Candace A Hill - Worthwise Appraisers",
+      "slug": "candace-hill-worthwise-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://worthwiseappraisers.com/candace-hill-art-appraiser-denver/"
+      },
+      "business": {
+        "yearsInBusiness": "Established personal property appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Furnishings",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "ISA CAPP - International Society of Appraisers",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals",
+          "Charitable Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Candace Hill is a certified personal property appraiser through the International Society of Appraisers (ISA), holding the highest credential of CAPP. Based in the greater Boulder/Denver area, she provides expert appraisals for fine art, antiques, furnishings, and decorative arts.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-collector-s-fine-art-appraisal-et-associates",
+      "name": "Collector’s Fine Art Appraisal et Associates",
+      "slug": "collector-s-fine-art-appraisal-et-associates",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/9cc81c03-dd01-426f-a3ba-e6de1cb99305/aspen%20logo.PNG/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "9709482950",
+        "email": "Bpartapp@aol.com",
+        "website": "https://aspenappraisalbarbpreston.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Collector’s Fine Art Appraisal et Associates offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://aspenappraisalbarbpreston.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://aspenappraisalbarbpreston.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJmwHhhSRvBGoRVlqaszAkZ28",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "denver-art-appraisals",
+      "name": "Denver Art Appraisals & Advisory",
+      "slug": "denver-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1600 Champa St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "formatted": "1600 Champa St, Denver, CO 80202"
+      },
+      "contact": {
+        "phone": "(303) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "18 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Western Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Denver Art Appraisals & Advisory provides expert fine art and Western art appraisals for collectors, galleries, and institutions throughout the Denver metropolitan area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -230,82 +563,6 @@
       }
     },
     {
-      "id": "denver-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg?updatedAt=1741088997582",
-      "address": {
-        "street": "1234 Elm St",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80002",
-        "formatted": "1234 Elm St, Denver, CO 80002"
-      },
-      "contact": {
-        "phone": "209-942-7417",
-        "email": "info@www.art-appraisals.net",
-        "website": "www.art-appraisals.net"
-      },
-      "business": {
-        "yearsInBusiness": "Decades",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Project-based (pricing not specified)",
-        "rating": 4.7,
-        "reviewCount": 9
-      },
-      "expertise": {
-        "specialties": [
-          "European Art",
-          "American Art",
-          "Contemporary",
-          "Modern",
-          "Impressionist",
-          "19th Century Works"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Expert Witness Services",
-          "Litigation Support",
-          "Authentication Research"
-        ]
-      },
-      "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th Century Works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Specializes in European and American art with decades of experience."
-      },
-      "reviews": [
-        {
-          "author": "Robert M.",
-          "rating": 4.5,
-          "date": "2025-02-04",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Susan W.",
-          "rating": 5,
-          "date": "2025-01-28",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Sarah S.",
-          "rating": 4,
-          "date": "2025-01-04",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "denver-escher-associates",
       "name": "Escher Associates",
       "slug": "escher-associates",
@@ -371,6 +628,219 @@
           "rating": 4.5,
           "date": "2025-01-12",
           "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
+      "address": {
+        "street": "555 Oak Ave",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80202",
+        "formatted": "555 Oak Ave, Denver, CO 80202"
+      },
+      "contact": {
+        "phone": "369-380-7783",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "High-Value Appraisals",
+          "Expert Witness Services"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Appraisals",
+          "Expert Witness Services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-Value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually and USPAP compliant."
+      },
+      "reviews": [
+        {
+          "author": "David S.",
+          "rating": 5,
+          "date": "2025-02-24",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "David M.",
+          "rating": 5,
+          "date": "2025-02-20",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Sarah C.",
+          "rating": 4.5,
+          "date": "2025-01-23",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "mile-high-fine-art-denver",
+      "name": "Mile High Fine Art Appraisals",
+      "slug": "mile-high-fine-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1700 Broadway",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80290",
+        "formatted": "1700 Broadway, Denver, CO 80290"
+      },
+      "contact": {
+        "phone": "(720) 555-0155",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Photography"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Donation Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mile High Fine Art Appraisals provides professional fine art and photography appraisals throughout the Denver metro area, serving collectors and estates.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg?updatedAt=1741088912557",
+      "address": {
+        "street": "2020 Gallery Row",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80218",
+        "formatted": "2020 Gallery Row, Denver, CO 80218"
+      },
+      "contact": {
+        "phone": "325-150-5159",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "20% fee up to $500K; 10% fee beyond $500K",
+        "rating": 4.8,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "Consignment-Based Sales",
+          "Free Valuations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free Valuations",
+          "Same-Day Offers",
+          "Consignment Sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-Based Sales, Free Valuations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, operates on a consignment-based model."
+      },
+      "reviews": [
+        {
+          "author": "Robert T.",
+          "rating": 4.5,
+          "date": "2025-03-05",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Patricia W.",
+          "rating": 5,
+          "date": "2025-02-21",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Jennifer M.",
+          "rating": 4.5,
+          "date": "2024-12-27",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
         }
       ],
       "metadata": {
@@ -464,6 +934,135 @@
       }
     },
     {
+      "id": "rocky-mountain-appraisals-denver",
+      "name": "Rocky Mountain Appraisal Company",
+      "slug": "rocky-mountain-appraisal-company",
+      "imageUrl": "",
+      "address": {
+        "street": "2500 Larimer St",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80205",
+        "formatted": "2500 Larimer St, Denver, CO 80205"
+      },
+      "contact": {
+        "phone": "(303) 555-0167",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "25 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Native American Art",
+          "Western Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Rocky Mountain Appraisal Company has served the Denver area for over 25 years, providing comprehensive appraisals for fine art, antiques, Native American art, and Western art collections.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "denver-rocky-mountain-art-appraisal-group",
+      "name": "Rocky Mountain Art Appraisal Group",
+      "slug": "rocky-mountain-art-appraisal-group",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "",
+        "formatted": "Denver, CO"
+      },
+      "contact": {
+        "phone": "",
+        "email": "office@rockymountainartappraisalgroup.com",
+        "website": "https://www.larissawild.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rocky Mountain Art Appraisal Group offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.larissawild.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.larissawild.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJibdEUSzBQYcRWpmFJoCCpiY",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found"
+        ]
+      }
+    },
+    {
       "id": "denver-saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -543,161 +1142,10 @@
       }
     },
     {
-      "id": "denver-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
-      "address": {
-        "street": "555 Oak Ave",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80202",
-        "formatted": "555 Oak Ave, Denver, CO 80202"
-      },
-      "contact": {
-        "phone": "369-380-7783",
-        "email": "info@www.gurrjohns.com",
-        "website": "www.gurrjohns.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "High-Value Appraisals",
-          "Expert Witness Services"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Appraisals",
-          "Expert Witness Services"
-        ]
-      },
-      "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-Value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm managing over $10 billion annually and USPAP compliant."
-      },
-      "reviews": [
-        {
-          "author": "David S.",
-          "rating": 5,
-          "date": "2025-02-24",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "David M.",
-          "rating": 5,
-          "date": "2025-02-20",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Sarah C.",
-          "rating": 4.5,
-          "date": "2025-01-23",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "denver-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg?updatedAt=1741088912557",
-      "address": {
-        "street": "2020 Gallery Row",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80218",
-        "formatted": "2020 Gallery Row, Denver, CO 80218"
-      },
-      "contact": {
-        "phone": "325-150-5159",
-        "email": "info@www.mimesisgallery.com",
-        "website": "www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "20% fee up to $500K; 10% fee beyond $500K",
-        "rating": 4.8,
-        "reviewCount": 16
-      },
-      "expertise": {
-        "specialties": [
-          "Consignment-Based Sales",
-          "Free Valuations"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Free Valuations",
-          "Same-Day Offers",
-          "Consignment Sales"
-        ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-Based Sales, Free Valuations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd, operates on a consignment-based model."
-      },
-      "reviews": [
-        {
-          "author": "Robert T.",
-          "rating": 4.5,
-          "date": "2025-03-05",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Patricia W.",
-          "rating": 5,
-          "date": "2025-02-21",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Jennifer M.",
-          "rating": 4.5,
-          "date": "2024-12-27",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "candace-hill-denver-co",
-      "name": "Candace A Hill - Worthwise Appraisers",
-      "slug": "candace-hill-worthwise-appraisers",
-      "imageUrl": "",
+      "id": "denver-hale-appraisals",
+      "name": "Steven A. Hale Appraisals & Estates",
+      "slug": "hale-appraisals",
+      "imageUrl": "https://www.hale-appraisals.com/wp-content/uploads/2025/02/estate-sales-colorado-springs-hale-appraisals-appraiser-sm-blue.webp",
       "address": {
         "street": "",
         "city": "Denver",
@@ -706,48 +1154,59 @@
         "formatted": "Denver, CO"
       },
       "contact": {
-        "phone": "",
+        "phone": "719-304-6717",
         "email": "",
-        "website": "https://worthwiseappraisers.com/candace-hill-art-appraiser-denver/"
+        "website": "https://www.hale-appraisals.com/"
       },
       "business": {
-        "yearsInBusiness": "Established personal property appraiser",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "By appointment only"
+            "hours": "By appointment"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.7,
+        "rating": null,
         "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Fine Art",
-          "Antiques",
-          "Furnishings",
-          "Decorative Arts"
+          "Fine art appraisals",
+          "Estate valuations"
         ],
-        "certifications": [
-          "ISA CAPP - International Society of Appraisers",
-          "USPAP Compliant"
-        ],
+        "certifications": [],
         "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Estate Appraisals",
-          "Charitable Donation Appraisals"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Candace Hill is a certified personal property appraiser through the International Society of Appraisers (ISA), holding the highest credential of CAPP. Based in the greater Boulder/Denver area, she provides expert appraisals for fine art, antiques, furnishings, and decorative arts.",
-        "notes": ""
+        "about": "Steven A. Hale Appraisals & Estates offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.hale-appraisals.com/. Human approval required before public import."
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.hale-appraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJrZv1hkRbE4cR2hmMtT5ku9g",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -807,193 +1266,6 @@
       },
       "content": {
         "about": "The Antique Trader provides affordable, professional antique and personal property appraisals for individuals, private collectors, attorneys, and businesses in the Denver area. Utilizes extensive research materials and online resources to deliver accurate, up-to-date fair market valuations.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "denver-art-appraisals",
-      "name": "Denver Art Appraisals & Advisory",
-      "slug": "denver-art-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "1600 Champa St",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80202",
-        "formatted": "1600 Champa St, Denver, CO 80202"
-      },
-      "contact": {
-        "phone": "(303) 555-0144",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "18 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Western Art",
-          "Contemporary Art"
-        ],
-        "certifications": [
-          "ISA Accredited"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Denver Art Appraisals & Advisory provides expert fine art and Western art appraisals for collectors, galleries, and institutions throughout the Denver metropolitan area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "rocky-mountain-appraisals-denver",
-      "name": "Rocky Mountain Appraisal Company",
-      "slug": "rocky-mountain-appraisal-company",
-      "imageUrl": "",
-      "address": {
-        "street": "2500 Larimer St",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80205",
-        "formatted": "2500 Larimer St, Denver, CO 80205"
-      },
-      "contact": {
-        "phone": "(303) 555-0167",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "25 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Antiques",
-          "Native American Art",
-          "Western Art"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Estate Appraisals",
-          "Insurance Valuations"
-        ]
-      },
-      "content": {
-        "about": "Rocky Mountain Appraisal Company has served the Denver area for over 25 years, providing comprehensive appraisals for fine art, antiques, Native American art, and Western art collections.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "mile-high-fine-art-denver",
-      "name": "Mile High Fine Art Appraisals",
-      "slug": "mile-high-fine-art-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "1700 Broadway",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80290",
-        "formatted": "1700 Broadway, Denver, CO 80290"
-      },
-      "contact": {
-        "phone": "(720) 555-0155",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "12 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Contemporary Art",
-          "Photography"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Donation Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Mile High Fine Art Appraisals provides professional fine art and photography appraisals throughout the Denver metro area, serving collectors and estates.",
         "notes": ""
       },
       "reviews": [],

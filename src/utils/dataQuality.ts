@@ -18,23 +18,23 @@ const TEMPLATED_EXPERIENCE = new Set([
   'Established business'
 ]);
 
-export function isTemplatedPricing(value: string | undefined | null): boolean {
-  if (!value) return false;
+export function isTemplatedPricing(value: unknown): boolean {
+  if (typeof value !== 'string') return false;
   return TEMPLATED_PRICING.has(value.trim());
 }
 
-export function isTemplatedExperience(value: string | undefined | null): boolean {
-  if (!value) return false;
+export function isTemplatedExperience(value: unknown): boolean {
+  if (typeof value !== 'string') return false;
   return TEMPLATED_EXPERIENCE.has(value.trim());
 }
 
-export function hasPlaceholderName(name: string | undefined | null): boolean {
-  if (!name) return false;
+export function hasPlaceholderName(name: unknown): boolean {
+  if (typeof name !== 'string') return false;
   return /^\[.*\]$/.test(name.trim());
 }
 
-export function isTemplatedNotes(notes: string | undefined | null, city: string | undefined | null): boolean {
-  if (!notes) return false;
+export function isTemplatedNotes(notes: unknown, city: string | undefined | null): boolean {
+  if (typeof notes !== 'string') return false;
   if (notes.includes('Serving the') && notes.includes('area with professional art appraisal services.')) {
     return true;
   }
@@ -47,7 +47,7 @@ export function isTemplatedNotes(notes: string | undefined | null, city: string 
   return false;
 }
 
-export function isPlaceholderAbout(about: string | undefined | null): boolean {
-  if (!about) return false;
+export function isPlaceholderAbout(about: unknown): boolean {
+  if (typeof about !== 'string') return false;
   return about.includes('[') && about.includes(']');
 }

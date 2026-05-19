@@ -1,96 +1,24 @@
 {
   "appraisers": [
     {
-      "id": "jennifer-lynch-pinpoint",
-      "name": "Jennifer Lynch | Pinpoint Fine Art Appraisal",
-      "slug": "jennifer-lynch-pinpoint-fine-art-appraisal",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg",
+      "id": "santa-fe-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg",
       "address": {
-        "street": "2020 Lincoln Rd",
+        "street": "2020 Pine Ln",
         "city": "Santa Fe",
         "state": "NM",
-        "zip": "87745",
-        "formatted": "2020 Lincoln Rd, Santa Fe, NM 87745"
+        "zip": "87505",
+        "formatted": "2020 Pine Ln, Santa Fe, NM 87505"
       },
       "contact": {
-        "phone": "240-477-7636",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
+        "phone": "889-618-6145",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
       },
       "business": {
-        "yearsInBusiness": "20+ years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 24
-      },
-      "expertise": {
-        "specialties": [
-          "Printmaking",
-          "Photography"
-        ],
-        "certifications": [
-          "Follows ASA/ISA standards"
-        ],
-        "services": [
-          "Art appraisal",
-          "Expert consultation",
-          "Educational services"
-        ]
-      },
-      "content": {
-        "about": "Jennifer Lynch | Pinpoint Fine Art Appraisal provides professional art appraisal services specializing in Printmaking, Photography. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "MFA graduate from Hunter College with over 20 years of experience; known for expertise in printmaking and photography."
-      },
-      "reviews": [
-        {
-          "author": "Susan W.",
-          "rating": 5,
-          "date": "2025-01-23",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Michael S.",
-          "rating": 4.5,
-          "date": "2025-01-13",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "James C.",
-          "rating": 4.5,
-          "date": "2025-01-10",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "reilly-clark-fine-art-santa-fe",
-      "name": "Reilly Clark Fine Art & Appraisals",
-      "slug": "reilly-clark-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg",
-      "address": {
-        "street": "1010 Elm St",
-        "city": "Santa Fe",
-        "state": "NM",
-        "zip": "87447",
-        "formatted": "1010 Elm St, Santa Fe, NM 87447"
-      },
-      "contact": {
-        "phone": "(214) 799-7889",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Decades",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -106,44 +34,46 @@
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 5,
-        "reviewCount": 14
+        "rating": 4.7,
+        "reviewCount": 18
       },
       "expertise": {
         "specialties": [
-          "Insurance valuations",
-          "Estate liquidations"
+          "European Art",
+          "American Art",
+          "Expert Witness services"
         ],
         "certifications": [
-          "Member of the International Society of Appraisers (ISA)"
+          "Professional Appraiser"
         ],
         "services": [
-          "Art appraisal",
-          "Valuation for estate and insurance purposes"
+          "Litigation support",
+          "Authentication research",
+          "Expert testimony"
         ]
       },
       "content": {
-        "about": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Insurance valuations, Estate liquidations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Holds a B.A. & M.A. from Stanford and is a Ph.D. candidate at UCSB."
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Expert Witness services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Specializes in contemporary, modern, impressionist, and 19th-century works."
       },
       "reviews": [
         {
-          "author": "Emily T.",
-          "rating": 5,
-          "date": "2025-03-14",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+          "author": "Susan R.",
+          "rating": 4,
+          "date": "2025-01-23",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
         },
         {
-          "author": "Patricia B.",
+          "author": "Jessica W.",
           "rating": 5,
-          "date": "2025-02-22",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+          "date": "2025-01-06",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
         },
         {
-          "author": "James T.",
+          "author": "Patricia J.",
           "rating": 5,
-          "date": "2025-02-19",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+          "date": "2024-12-31",
+          "content": "They took the time to explain the valuation process and answered all my questions."
         }
       ],
       "metadata": {
@@ -231,84 +161,71 @@
       }
     },
     {
-      "id": "santa-fe-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg",
+      "id": "santa-fe-art-and-antiques-appraisal-services-llc",
+      "name": "Art & Antiques Appraisal Services",
+      "slug": "art-and-antiques-appraisal-services-llc",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/c708a406-91d7-498e-a750-fa00518b76ec/Untitled%20design%20(1).png/:/rs=w:57,h:57,m",
       "address": {
-        "street": "2020 Pine Ln",
+        "street": "",
         "city": "Santa Fe",
         "state": "NM",
-        "zip": "87505",
-        "formatted": "2020 Pine Ln, Santa Fe, NM 87505"
+        "zip": "",
+        "formatted": "Santa Fe, NM"
       },
       "contact": {
-        "phone": "889-618-6145",
-        "email": "info@www.art-appraisals.net",
-        "website": "www.art-appraisals.net"
+        "phone": "+1 505 231 2674",
+        "email": "wweeiihhuuaanngg@gmail.com",
+        "website": "https://astateoftheart.com/"
       },
       "business": {
-        "yearsInBusiness": "Decades",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
             "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 18
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "European Art",
-          "American Art",
-          "Expert Witness services"
+          "Fine art appraisals"
         ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
+        "certifications": [],
         "services": [
-          "Litigation support",
-          "Authentication research",
-          "Expert testimony"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Expert Witness services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Specializes in contemporary, modern, impressionist, and 19th-century works."
+        "about": "Art & Antiques Appraisal Services offers fine art appraisal services serving Santa Fe, NM. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://astateoftheart.com/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "Susan R.",
-          "rating": 4,
-          "date": "2025-01-23",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Jessica W.",
-          "rating": 5,
-          "date": "2025-01-06",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Patricia J.",
-          "rating": 5,
-          "date": "2024-12-31",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://astateoftheart.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ9S0XoVBOdS0RM87cVarfItI",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -386,158 +303,6 @@
           "rating": 5,
           "date": "2024-11-08",
           "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "santa-fe-page-art-inc",
-      "name": "Page Art, Inc.",
-      "slug": "page-art-inc",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-page-art-inc_1741089190928_2WC8Nt_Lf.jpg",
-      "address": {
-        "street": "456 Gallery Row",
-        "city": "Santa Fe",
-        "state": "NM",
-        "zip": "87501",
-        "formatted": "456 Gallery Row, Santa Fe, NM 87501"
-      },
-      "contact": {
-        "phone": "995-681-1630",
-        "email": "info@www.page-art.com",
-        "website": "www.page-art.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
-        "rating": 4.8,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donations",
-          "Litigation appraisals"
-        ],
-        "certifications": [
-          "ASA",
-          "ISA",
-          "AAA"
-        ],
-        "services": [
-          "Art appraisal for various needs including litigation support"
-        ]
-      },
-      "content": {
-        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state regions."
-      },
-      "reviews": [
-        {
-          "author": "Linda D.",
-          "rating": 4.5,
-          "date": "2025-01-29",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "James C.",
-          "rating": 5,
-          "date": "2024-10-22",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Sarah J.",
-          "rating": 5,
-          "date": "2024-10-20",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "santa-fe-saylor-rice-appraisals",
-      "name": "Saylor Rice Appraisals",
-      "slug": "saylor-rice-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-saylor-rice-appraisals_1741089196485_Z0bSVE4m2Y.jpg",
-      "address": {
-        "street": "888 Maple Dr",
-        "city": "Santa Fe",
-        "state": "NM",
-        "zip": "87505",
-        "formatted": "888 Maple Dr, Santa Fe, NM 87505"
-      },
-      "contact": {
-        "phone": "669-161-1750",
-        "email": "info@www.saylorriceappraisals.com",
-        "website": "www.saylorriceappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 20
-      },
-      "expertise": {
-        "specialties": [
-          "Insurance appraisals",
-          "Damage/loss appraisals"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "High-end appraisal services for institutions"
-        ]
-      },
-      "content": {
-        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Handles appraisals for clients such as LACMA and MoMA."
-      },
-      "reviews": [
-        {
-          "author": "Elizabeth S.",
-          "rating": 4.5,
-          "date": "2025-01-20",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Jessica S.",
-          "rating": 4.5,
-          "date": "2025-01-18",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Susan M.",
-          "rating": 4.5,
-          "date": "2024-12-17",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         }
       ],
       "metadata": {
@@ -625,6 +390,136 @@
       }
     },
     {
+      "id": "jennifer-lynch-pinpoint",
+      "name": "Jennifer Lynch | Pinpoint Fine Art Appraisal",
+      "slug": "jennifer-lynch-pinpoint-fine-art-appraisal",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg",
+      "address": {
+        "street": "2020 Lincoln Rd",
+        "city": "Santa Fe",
+        "state": "NM",
+        "zip": "87745",
+        "formatted": "2020 Lincoln Rd, Santa Fe, NM 87745"
+      },
+      "contact": {
+        "phone": "240-477-7636",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "20+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "Printmaking",
+          "Photography"
+        ],
+        "certifications": [
+          "Follows ASA/ISA standards"
+        ],
+        "services": [
+          "Art appraisal",
+          "Expert consultation",
+          "Educational services"
+        ]
+      },
+      "content": {
+        "about": "Jennifer Lynch | Pinpoint Fine Art Appraisal provides professional art appraisal services specializing in Printmaking, Photography. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "MFA graduate from Hunter College with over 20 years of experience; known for expertise in printmaking and photography."
+      },
+      "reviews": [
+        {
+          "author": "Susan W.",
+          "rating": 5,
+          "date": "2025-01-23",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Michael S.",
+          "rating": 4.5,
+          "date": "2025-01-13",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "James C.",
+          "rating": 4.5,
+          "date": "2025-01-10",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "santa-fe-jennifer-n-carman",
+      "name": "Jennifer N. Carman, ASA, ISA AM",
+      "slug": "jennifer-n-carman",
+      "imageUrl": "",
+      "address": {
+        "street": "Santa Fe area",
+        "city": "Santa Fe",
+        "state": "NM",
+        "zip": "87501",
+        "formatted": "Santa Fe, NM 87501"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser"
+      },
+      "business": {
+        "yearsInBusiness": "Experienced appraiser, author, and consultant",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Arts",
+          "Art History",
+          "Connoisseurship"
+        ],
+        "certifications": [
+          "ASA (American Society of Appraisers)",
+          "ISA AM (Accredited Member)",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Fine art appraisals",
+          "Decorative arts appraisals",
+          "Consultation services",
+          "Expert consultation on art history and connoisseurship"
+        ]
+      },
+      "content": {
+        "about": "Jennifer N. Carman, ASA, ISA AM, is an experienced appraiser, author, and consultant based in New Mexico with a background in art history and connoisseurship of the fine and decorative arts. She is dedicated to the highest standards of ethics in the appraisal profession and holds dual certifications from both the American Society of Appraisers and the International Society of Appraisers.",
+        "notes": "Featured as ISA Member Spotlight for New Mexico; holds both ASA and ISA AM designations"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
       "id": "santa-fe-mimesis-gallery",
       "name": "Mimesis Gallery",
       "slug": "mimesis-gallery",
@@ -706,60 +601,233 @@
       }
     },
     {
-      "id": "santa-fe-jennifer-n-carman",
-      "name": "Jennifer N. Carman, ASA, ISA AM",
-      "slug": "jennifer-n-carman",
-      "imageUrl": "",
+      "id": "santa-fe-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-page-art-inc_1741089190928_2WC8Nt_Lf.jpg",
       "address": {
-        "street": "Santa Fe area",
+        "street": "456 Gallery Row",
         "city": "Santa Fe",
         "state": "NM",
         "zip": "87501",
-        "formatted": "Santa Fe, NM 87501"
+        "formatted": "456 Gallery Row, Santa Fe, NM 87501"
       },
       "contact": {
-        "phone": "",
-        "email": "",
-        "website": "https://www.isa-appraisers.org/find-an-appraiser"
+        "phone": "995-681-1630",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
       },
       "business": {
-        "yearsInBusiness": "Experienced appraiser, author, and consultant",
+        "yearsInBusiness": "Established business",
         "hours": [
           {
             "day": "Monday-Friday",
             "hours": "By appointment only"
           }
         ],
-        "pricing": "Contact for pricing information",
+        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
         "rating": 4.8,
-        "reviewCount": 0
+        "reviewCount": 6
       },
       "expertise": {
         "specialties": [
-          "Fine Art",
-          "Decorative Arts",
-          "Art History",
-          "Connoisseurship"
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donations",
+          "Litigation appraisals"
         ],
         "certifications": [
-          "ASA (American Society of Appraisers)",
-          "ISA AM (Accredited Member)",
-          "USPAP Compliant"
+          "ASA",
+          "ISA",
+          "AAA"
         ],
         "services": [
-          "Fine art appraisals",
-          "Decorative arts appraisals",
-          "Consultation services",
-          "Expert consultation on art history and connoisseurship"
+          "Art appraisal for various needs including litigation support"
         ]
       },
       "content": {
-        "about": "Jennifer N. Carman, ASA, ISA AM, is an experienced appraiser, author, and consultant based in New Mexico with a background in art history and connoisseurship of the fine and decorative arts. She is dedicated to the highest standards of ethics in the appraisal profession and holds dual certifications from both the American Society of Appraisers and the International Society of Appraisers.",
-        "notes": "Featured as ISA Member Spotlight for New Mexico; holds both ASA and ISA AM designations"
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Serves Los Angeles, Bay Area, Orange County, and out-of-state regions."
       },
-      "reviews": [],
+      "reviews": [
+        {
+          "author": "Linda D.",
+          "rating": 4.5,
+          "date": "2025-01-29",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "James C.",
+          "rating": 5,
+          "date": "2024-10-22",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah J.",
+          "rating": 5,
+          "date": "2024-10-20",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
       "metadata": {
-        "lastUpdated": "2026-04-08",
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "reilly-clark-fine-art-santa-fe",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg",
+      "address": {
+        "street": "1010 Elm St",
+        "city": "Santa Fe",
+        "state": "NM",
+        "zip": "87447",
+        "formatted": "1010 Elm St, Santa Fe, NM 87447"
+      },
+      "contact": {
+        "phone": "(214) 799-7889",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 5,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance valuations",
+          "Estate liquidations"
+        ],
+        "certifications": [
+          "Member of the International Society of Appraisers (ISA)"
+        ],
+        "services": [
+          "Art appraisal",
+          "Valuation for estate and insurance purposes"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Insurance valuations, Estate liquidations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Holds a B.A. & M.A. from Stanford and is a Ph.D. candidate at UCSB."
+      },
+      "reviews": [
+        {
+          "author": "Emily T.",
+          "rating": 5,
+          "date": "2025-03-14",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Patricia B.",
+          "rating": 5,
+          "date": "2025-02-22",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "James T.",
+          "rating": 5,
+          "date": "2025-02-19",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "santa-fe-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-saylor-rice-appraisals_1741089196485_Z0bSVE4m2Y.jpg",
+      "address": {
+        "street": "888 Maple Dr",
+        "city": "Santa Fe",
+        "state": "NM",
+        "zip": "87505",
+        "formatted": "888 Maple Dr, Santa Fe, NM 87505"
+      },
+      "contact": {
+        "phone": "669-161-1750",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 20
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "High-end appraisal services for institutions"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handles appraisals for clients such as LACMA and MoMA."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth S.",
+          "rating": 4.5,
+          "date": "2025-01-20",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Jessica S.",
+          "rating": 4.5,
+          "date": "2025-01-18",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Susan M.",
+          "rating": 4.5,
+          "date": "2024-12-17",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
         "inService": true
       }
     },

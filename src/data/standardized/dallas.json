@@ -1,153 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "dallas-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg?updatedAt=1741089060053",
-      "address": {
-        "street": "456 Elm St",
-        "city": "Dallas",
-        "state": "TX",
-        "zip": "75575",
-        "formatted": "456 Elm St, Dallas, TX 75575"
-      },
-      "contact": {
-        "phone": "(214) 937-5012",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com/locations/dallas-tx/"
-      },
-      "business": {
-        "yearsInBusiness": "30+ years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Transparent pricing; starting at $250+ per appraisal (varying by item complexity)",
-        "rating": 4.6,
-        "reviewCount": 9
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art (contemporary to antique)",
-          "Furniture",
-          "Insurance/Estate tax appraisals"
-        ],
-        "certifications": [
-          "ISA",
-          "ASA",
-          "IRS-qualified"
-        ],
-        "services": [
-          "Personal property appraisals",
-          "Insurance documentation",
-          "Estate tax appraisals",
-          "Charitable donation valuations"
-        ]
-      },
-      "content": {
-        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art (contemporary to antique), Furniture, Insurance/Estate tax appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Team of appraisers with over 75 years of collective experience; emphasizes transparent pricing."
-      },
-      "reviews": [
-        {
-          "author": "James S.",
-          "rating": 4.5,
-          "date": "2025-02-26",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "John J.",
-          "rating": 5,
-          "date": "2025-01-27",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Jennifer M.",
-          "rating": 5,
-          "date": "2024-11-25",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Prestige Estate Services's knowledge of the market is impressive."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "dallas-mary-peck-art-advisory",
-      "name": "Mary Peck Art Advisory",
-      "slug": "mary-peck-art-advisory",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
-      "address": {
-        "street": "1234 Museum Way",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80842",
-        "formatted": "1234 Museum Way, Denver, CO 80842"
-      },
-      "contact": {
-        "phone": "303-355-0050",
-        "email": "info@www.marypeckartadvisory.com",
-        "website": "http://www.marypeckartadvisory.com"
-      },
-      "business": {
-        "yearsInBusiness": "27 years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 18
-      },
-      "expertise": {
-        "specialties": [
-          "Modern/Contemporary art (19th–21st century)",
-          "Photography"
-        ],
-        "certifications": [
-          "AAA Certified Member (USPAP-compliant until 2025)"
-        ],
-        "services": [
-          "Art advising",
-          "Art appraisals"
-        ]
-      },
-      "content": {
-        "about": "Mary Peck Art Advisory provides professional art appraisal services specializing in Modern/Contemporary art (19th–21st century), Photography. With 27 years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Based in Denver but works with Dallas clients."
-      },
-      "reviews": [
-        {
-          "author": "Nancy R.",
-          "rating": 4.5,
-          "date": "2025-03-15",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Sarah T.",
-          "rating": 4.5,
-          "date": "2025-01-20",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Jessica J.",
-          "rating": 4.5,
-          "date": "2025-01-18",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "dallas-alicia-e-weaver-isa-capp",
       "name": "Alicia E Weaver (ISA CAPP)",
       "slug": "alicia-e-weaver-isa-capp",
@@ -211,84 +64,6 @@
           "author": "James T.",
           "rating": 5,
           "date": "2025-01-22",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "dallas-appraiseitnow",
-      "name": "AppraiseItNow",
-      "slug": "appraiseitnow",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-escher-associates_1741089454306_aGQOu4HDM.jpg?updatedAt=1741089455611",
-      "address": {
-        "street": "777 Art District",
-        "city": "Dallas",
-        "state": "NY",
-        "zip": "10269",
-        "formatted": "777 Art District, Dallas, NY 10269"
-      },
-      "contact": {
-        "phone": "847-855-2396",
-        "email": "info@www.appraiseitnow.com",
-        "website": "https://www.appraiseitnow.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Varies by item and service (online or in-person valuations)",
-        "rating": 4.4,
-        "reviewCount": 16
-      },
-      "expertise": {
-        "specialties": [
-          "General personal property appraisals"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Personal property appraisals",
-          "Online and in-person valuations"
-        ]
-      },
-      "content": {
-        "about": "AppraiseItNow provides professional art appraisal services specializing in General personal property appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Provides appraisal services in Texas."
-      },
-      "reviews": [
-        {
-          "author": "Elizabeth T.",
-          "rating": 4,
-          "date": "2025-02-22",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Elizabeth D.",
-          "rating": 4.5,
-          "date": "2024-12-02",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Jennifer D.",
-          "rating": 4.5,
-          "date": "2024-11-29",
           "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
         }
       ],
@@ -383,6 +158,356 @@
       }
     },
     {
+      "id": "dallas-appraiseitnow",
+      "name": "AppraiseItNow",
+      "slug": "appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-escher-associates_1741089454306_aGQOu4HDM.jpg?updatedAt=1741089455611",
+      "address": {
+        "street": "777 Art District",
+        "city": "Dallas",
+        "state": "NY",
+        "zip": "10269",
+        "formatted": "777 Art District, Dallas, NY 10269"
+      },
+      "contact": {
+        "phone": "847-855-2396",
+        "email": "info@www.appraiseitnow.com",
+        "website": "https://www.appraiseitnow.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Varies by item and service (online or in-person valuations)",
+        "rating": 4.4,
+        "reviewCount": 16
+      },
+      "expertise": {
+        "specialties": [
+          "General personal property appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Personal property appraisals",
+          "Online and in-person valuations"
+        ]
+      },
+      "content": {
+        "about": "AppraiseItNow provides professional art appraisal services specializing in General personal property appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Provides appraisal services in Texas."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth T.",
+          "rating": 4,
+          "date": "2025-02-22",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Elizabeth D.",
+          "rating": 4.5,
+          "date": "2024-12-02",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Jennifer D.",
+          "rating": 4.5,
+          "date": "2024-11-29",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-banks",
+      "name": "Banks Fine Art",
+      "slug": "banks",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/533ada02e4b0d13f8c6576f0/1396366728306-1MX7623TPIBWSU4RKM6G/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "214-352-1811",
+        "email": "user@domain.com",
+        "website": "http://www.banksfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Banks Fine Art offers fine art appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.banksfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.banksfineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ4_3cQEaZToYRLSkeEZm_qJA",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-brenda-simonson-mohle",
+      "name": "Brenda Simonson-Mohle",
+      "slug": "brenda-simonson-mohle",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.signetart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Drawings",
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "ISA CAPP",
+          "ISA Certified"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA CAPP"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Brenda Simonson-Mohle offers art appraisal services serving Dallas, TX. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: signetart.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-132"
+      }
+    },
+    {
+      "id": "dallas-dallas-auction-gallery",
+      "name": "Dallas Auction Gallery",
+      "slug": "dallas-auction-gallery",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "(214) 653-3900",
+        "email": "info@dallasauctiongallery.com",
+        "website": "https://dallasauctiongallery.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Dallas Auction Gallery offers fine art appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://dallasauctiongallery.com/appraisal/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://dallasauctiongallery.com/appraisal/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "owned_business_appraisal_page",
+          "notes": "Owned appraisal page supports Dallas Auction Gallery appraisal services for estate tax and probate, family estate planning, insurance coverage, and charitable contributions, with expertise in Fine Art, Antique Furniture, Decorative Arts, Jewelry, Asian Art, and Modern & Contemporary Art and Furniture. Owned about and Reyne Hirsch team pages corroborate fine art, antiques, jewelry, estate appraisals, onsite appraisal days, and appraiser expertise."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMV9y91WZToYRTRZ4qAF0eJQ",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-david-dike-fine-art",
+      "name": "David Dike Fine Art",
+      "slug": "david-dike-fine-art",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "(214) 720-4044",
+        "email": "info@daviddike.com",
+        "website": "http://www.daviddike.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "David Dike Fine Art offers fine art appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://daviddike.com/about-us/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://daviddike.com/about-us/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJI8JLzzGZToYRdwNhFO3QGTA",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "dallas-escher-associates",
       "name": "Escher Associates",
       "slug": "escher-associates",
@@ -453,6 +578,351 @@
           "rating": 4,
           "date": "2024-10-17",
           "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-geolat",
+      "name": "Geolat",
+      "slug": "geolat",
+      "imageUrl": "https://geolat.wpengine.com/wp-content/uploads/2015/01/GeolatLogo-high-res-sml-G.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "972-239-9314",
+        "email": "customercare@geolat.com",
+        "website": "https://geolat.com/?utm_source=Google%20My%20Business&utm_medium=Local%20Optimization"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Geolat offers fine art appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://geolat.com/?utm_source=Google%20My%20Business&utm_medium=Local%20Optimization. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://geolat.com/?utm_source=Google%20My%20Business&utm_medium=Local%20Optimization",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJvcKuTVchTIYRPpiuIz_GQIw",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "dallas-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg?updatedAt=1741089014093",
+      "address": {
+        "street": "888 Museum Way",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "77002",
+        "formatted": "888 Museum Way, Dallas, TX 77002"
+      },
+      "contact": {
+        "phone": "431-813-7216",
+        "email": "info@www.gurrjohns.com",
+        "website": "http://www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "High-value appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Art appraisals",
+          "Expert witness testimony"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm with a Los Angeles presence; manages over $10 billion in art annually."
+      },
+      "reviews": [
+        {
+          "author": "Emily M.",
+          "rating": 4.5,
+          "date": "2025-01-12",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Emily C.",
+          "rating": 4.5,
+          "date": "2024-09-26",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Sarah B.",
+          "rating": 2,
+          "date": "2024-09-09",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-kim-a-kasten",
+      "name": "Kim A. Kasten",
+      "slug": "kim-a-kasten",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "",
+        "formatted": "Dallas, TX"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.kastenartappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Drawings",
+          "Paintings",
+          "Posters",
+          "Prints",
+          "Sculpture",
+          "ISA CAPP",
+          "ISA Certified"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA CAPP"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kim A. Kasten offers art appraisal services serving Dallas, TX. FAIR directory data indicates specialties in Drawings, Paintings, Posters, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: kastenartappraisal.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-423"
+      }
+    },
+    {
+      "id": "dallas-mary-peck-art-advisory",
+      "name": "Mary Peck Art Advisory",
+      "slug": "mary-peck-art-advisory",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
+      "address": {
+        "street": "1234 Museum Way",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80842",
+        "formatted": "1234 Museum Way, Denver, CO 80842"
+      },
+      "contact": {
+        "phone": "303-355-0050",
+        "email": "info@www.marypeckartadvisory.com",
+        "website": "http://www.marypeckartadvisory.com"
+      },
+      "business": {
+        "yearsInBusiness": "27 years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Modern/Contemporary art (19th–21st century)",
+          "Photography"
+        ],
+        "certifications": [
+          "AAA Certified Member (USPAP-compliant until 2025)"
+        ],
+        "services": [
+          "Art advising",
+          "Art appraisals"
+        ]
+      },
+      "content": {
+        "about": "Mary Peck Art Advisory provides professional art appraisal services specializing in Modern/Contemporary art (19th–21st century), Photography. With 27 years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Denver but works with Dallas clients."
+      },
+      "reviews": [
+        {
+          "author": "Nancy R.",
+          "rating": 4.5,
+          "date": "2025-03-15",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Sarah T.",
+          "rating": 4.5,
+          "date": "2025-01-20",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Jessica J.",
+          "rating": 4.5,
+          "date": "2025-01-18",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "dallas-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "77019",
+        "formatted": "456 Elm St, Dallas, TX 77019"
+      },
+      "contact": {
+        "phone": "529-862-9227",
+        "email": "info@www.mimesisgallery.com",
+        "website": "http://www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "20% commission for sales up to $500K, 10% beyond $500K",
+        "rating": 4.9,
+        "reviewCount": 10
+      },
+      "expertise": {
+        "specialties": [
+          "Free valuations",
+          "Consignment-based art sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment-based sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based art sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, offers free valuations and same-day offers."
+      },
+      "reviews": [
+        {
+          "author": "James S.",
+          "rating": 5,
+          "date": "2025-02-23",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 5,
+          "date": "2024-12-31",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Jessica A.",
+          "rating": 4.5,
+          "date": "2024-12-03",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
         }
       ],
       "metadata": {
@@ -539,6 +1009,82 @@
       }
     },
     {
+      "id": "dallas-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg?updatedAt=1741089060053",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75575",
+        "formatted": "456 Elm St, Dallas, TX 75575"
+      },
+      "contact": {
+        "phone": "(214) 937-5012",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/locations/dallas-tx/"
+      },
+      "business": {
+        "yearsInBusiness": "30+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Transparent pricing; starting at $250+ per appraisal (varying by item complexity)",
+        "rating": 4.6,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art (contemporary to antique)",
+          "Furniture",
+          "Insurance/Estate tax appraisals"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "IRS-qualified"
+        ],
+        "services": [
+          "Personal property appraisals",
+          "Insurance documentation",
+          "Estate tax appraisals",
+          "Charitable donation valuations"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art (contemporary to antique), Furniture, Insurance/Estate tax appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Team of appraisers with over 75 years of collective experience; emphasizes transparent pricing."
+      },
+      "reviews": [
+        {
+          "author": "James S.",
+          "rating": 4.5,
+          "date": "2025-02-26",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "John J.",
+          "rating": 5,
+          "date": "2025-01-27",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jennifer M.",
+          "rating": 5,
+          "date": "2024-11-25",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Prestige Estate Services's knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "dallas-saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -617,146 +1163,69 @@
       }
     },
     {
-      "id": "dallas-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg?updatedAt=1741089014093",
+      "id": "dallas-weathers-appraisal-associates-llc",
+      "name": "Weathers Appraisal Associates, LLC",
+      "slug": "weathers-appraisal-associates-llc",
+      "imageUrl": "https://i0.wp.com/www.rachelkweathers.com/wp-content/uploads/2022/05/cropped-cropped-BigEasy-800x445-1.jpg?fit=374%2C365&ssl=1",
       "address": {
-        "street": "888 Museum Way",
+        "street": "",
         "city": "Dallas",
         "state": "TX",
-        "zip": "77002",
-        "formatted": "888 Museum Way, Dallas, TX 77002"
+        "zip": "",
+        "formatted": "Dallas, TX"
       },
       "contact": {
-        "phone": "431-813-7216",
-        "email": "info@www.gurrjohns.com",
-        "website": "http://www.gurrjohns.com"
+        "phone": "214-774-4942",
+        "email": "",
+        "website": "https://www.rachelkweathers.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "By appointment only"
+            "hours": "By appointment"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 14
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "High-value appraisals",
-          "Expert witness services"
+          "Fine art appraisals"
         ],
-        "certifications": [
-          "USPAP compliant"
-        ],
+        "certifications": [],
         "services": [
-          "Art appraisals",
-          "Expert witness testimony"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm with a Los Angeles presence; manages over $10 billion in art annually."
+        "about": "Weathers Appraisal Associates, LLC offers fine art appraisal services serving Dallas, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.rachelkweathers.com/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "Emily M.",
-          "rating": 4.5,
-          "date": "2025-01-12",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Emily C.",
-          "rating": 4.5,
-          "date": "2024-09-26",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Sarah B.",
-          "rating": 2,
-          "date": "2024-09-09",
-          "content": "Knowledgeable team, though communication could have been better during the process."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "dallas-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-anderson-fine-art-appraisals_1741089179703_FMR0wYnt5.jpg?updatedAt=1741089180824",
-      "address": {
-        "street": "456 Elm St",
-        "city": "Dallas",
-        "state": "TX",
-        "zip": "77019",
-        "formatted": "456 Elm St, Dallas, TX 77019"
-      },
-      "contact": {
-        "phone": "529-862-9227",
-        "email": "info@www.mimesisgallery.com",
-        "website": "http://www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "20% commission for sales up to $500K, 10% beyond $500K",
-        "rating": 4.9,
-        "reviewCount": 10
-      },
-      "expertise": {
-        "specialties": [
-          "Free valuations",
-          "Consignment-based art sales"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Free valuations",
-          "Same-day offers",
-          "Consignment-based sales"
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.rachelkweathers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJW1evsaOdToYR_txBJIqjhgw",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
         ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based art sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd, offers free valuations and same-day offers."
-      },
-      "reviews": [
-        {
-          "author": "James S.",
-          "rating": 5,
-          "date": "2025-02-23",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Nancy M.",
-          "rating": 5,
-          "date": "2024-12-31",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Jessica A.",
-          "rating": 4.5,
-          "date": "2024-12-03",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
       }
     }
   ]

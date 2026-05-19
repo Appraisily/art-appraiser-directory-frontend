@@ -1,0 +1,73 @@
+{
+  "appraisers": [
+    {
+      "id": "frederick-robyn-roderick-fine-art-appraisal-services-llc",
+      "name": "Robyn Roderick Fine Art Appraisal Services",
+      "slug": "robyn-roderick-fine-art-appraisal-services-llc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/55ccf4a7e4b068d2e78c786b/1445207307138-ADXZLN7FYXT10CL3F3YW/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Frederick",
+        "state": "MD",
+        "zip": "",
+        "formatted": "Frederick, MD"
+      },
+      "contact": {
+        "phone": "610-308-7789",
+        "email": "robyn@rroderickfineartappraisals.com",
+        "website": "https://www.rroderickfineartappraisals.com/hire-us/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Robyn Roderick Fine Art Appraisal Services offers fine art appraisal services serving Frederick, MD. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.rroderickfineartappraisals.com/hire-us/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.rroderickfineartappraisals.com/hire-us/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJNbs8xSzoxokRlLaNhGmmlHk",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "title": "Art appraisers in Denver, Colorado",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "denver",
+    "url": "https://art-appraisers-directory.appraisily.com/location/denver/",
+    "name": "Art appraisers in Denver, Colorado",
+    "description": "Compare art appraisers in Denver, Colorado.",
+    "numberOfListedAppraisers": 17,
+    "listedAppraisers": [
+      {
+        "name": "Alicia Weaver",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
+        "slug": "alicia-weaver",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-intermountain-appraisal_1741088947289_8KnId0agy.jpg?updatedAt=1741088948572",
+        "description": "Alicia Weaver provides professional art appraisal services specializing in Antiques, Furnishings, Decorative Arts, Insurance Appraisals, Estate Planning. With Over 10 years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg?updatedAt=1741088997582",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th Century Works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "The Antique Trader - Denver",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/antique-trader-denver.svg",
+        "description": "The Antique Trader provides affordable, professional antique and personal property appraisals for individuals, private collectors, attorneys, and businesses in the Denver area. Utilizes extensive research materials and online resources to deliver accurate, up-to-date fair market valuations.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Bernard Ewell Art Appraisers, LLC.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/bernard-ewell-fine-at-appraisals-llc/",
+        "slug": "bernard-ewell-fine-at-appraisals-llc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/bernard-ewell-fine-at-appraisals-llc.svg",
+        "description": "Bernard Ewell Art Appraisers, LLC. offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Brady L. Dreasher",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/brady-l-dreasher/",
+        "slug": "brady-l-dreasher",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg?updatedAt=1741089099697",
+        "description": "Brady L. Dreasher provides professional art appraisal services specializing in Fine Art Brokerage, Estate Liquidation, Expert Witness Testimony. With Since 2000 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Candace A Hill - Worthwise Appraisers",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/candace-hill-worthwise-appraisers.svg",
+        "description": "Candace Hill is a certified personal property appraiser through the International Society of Appraisers (ISA), holding the highest credential of CAPP. Based in the greater Boulder/Denver area, she provides expert appraisals for fine art, antiques, furnishings, and decorative arts.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Collector’s Fine Art Appraisal et Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/collector-s-fine-art-appraisal-et-associates/",
+        "slug": "collector-s-fine-art-appraisal-et-associates",
+        "image": "https://img1.wsimg.com/isteam/ip/9cc81c03-dd01-426f-a3ba-e6de1cb99305/aspen%20logo.PNG/:/rs=w:57,h:57,m",
+        "description": "Collector’s Fine Art Appraisal et Associates offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Denver Art Appraisals & Advisory",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/denver-art-appraisals.svg",
+        "description": "Denver Art Appraisals & Advisory provides expert fine art and Western art appraisals for collectors, galleries, and institutions throughout the Denver metropolitan area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Dr. Mark Lee Levine",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/dr-mark-lee-levine/",
+        "slug": "dr-mark-lee-levine",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
+        "description": "Dr. Mark Lee Levine provides professional art appraisal services specializing in Real Estate-Linked Personal Property Appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-Value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Steven A. Hale Appraisals & Estates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/hale-appraisals/",
+        "slug": "hale-appraisals",
+        "image": "https://www.hale-appraisals.com/wp-content/uploads/2025/02/estate-sales-colorado-springs-hale-appraisals-appraiser-sm-blue.webp",
+        "description": "Steven A. Hale Appraisals & Estates offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mile High Fine Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mile-high-fine-art-appraisals.svg",
+        "description": "Mile High Fine Art Appraisals provides professional fine art and photography appraisals throughout the Denver metro area, serving collectors and estates.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg?updatedAt=1741088912557",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-Based Sales, Free Valuations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-gurr-johns_1741087682682_SjPC9pNft.jpg?updatedAt=1741087683920",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate Appraisals, Donation Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Rocky Mountain Appraisal Company",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/rocky-mountain-appraisal-company.svg",
+        "description": "Rocky Mountain Appraisal Company has served the Denver area for over 25 years, providing comprehensive appraisals for fine art, antiques, Native American art, and Western art collections.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg?updatedAt=1741087718255",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Damage/Loss Appraisals, Insurance Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/denver/"
+    }
+  }
+}

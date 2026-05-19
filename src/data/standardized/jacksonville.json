@@ -79,24 +79,24 @@
       }
     },
     {
-      "id": "jacksonville-prestige-estate-services-brenda-blackmon",
-      "name": "Prestige Estate Services (Brenda Blackmon)",
-      "slug": "prestige-estate-services-brenda-blackmon",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg?updatedAt=1741089088174",
+      "id": "jacksonville-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-anderson-fine-art-appraisals_1741088630668_iz76ja4Zc7.jpg?updatedAt=1741088632066",
       "address": {
-        "street": "999 Museum Way",
+        "street": "456 Art District",
         "city": "Jacksonville",
-        "state": "NY",
-        "zip": "10881",
-        "formatted": "999 Museum Way, Jacksonville, NY 10881"
+        "state": "FL",
+        "zip": "32003",
+        "formatted": "456 Art District, Jacksonville, FL 32003"
       },
       "contact": {
-        "phone": "423-801-6552",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com/"
+        "phone": "599-624-7840",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Decades",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -111,48 +111,50 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "$175-$225 per hour",
-        "rating": 4.5,
-        "reviewCount": 24
+        "pricing": "Project-based",
+        "rating": 4.7,
+        "reviewCount": 22
       },
       "expertise": {
         "specialties": [
-          "Art",
-          "Antiques",
-          "Jewelry Appraisals"
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
         ],
         "certifications": [
-          "USPAP compliant",
-          "IRS-qualified"
+          "Professional Appraiser"
         ],
         "services": [
-          "On-site evaluations",
-          "IRS regulated appraisals",
-          "Estate planning appraisals"
+          "Expert Witness Services",
+          "Litigation Support",
+          "Authentication Research"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services (Brenda Blackmon) provides professional art appraisal services specializing in Art, Antiques, Jewelry Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Nationwide coverage including Jacksonville; on-site evaluations available."
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
       },
       "reviews": [
         {
-          "author": "Elizabeth D.",
-          "rating": 5,
-          "date": "2025-01-02",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+          "author": "James T.",
+          "rating": 3,
+          "date": "2024-12-28",
+          "content": "Knowledgeable team, though communication could have been better during the process."
         },
         {
-          "author": "Susan W.",
+          "author": "Nancy J.",
+          "rating": 5,
+          "date": "2024-12-28",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert C.",
           "rating": 4.5,
-          "date": "2024-12-31",
+          "date": "2024-12-01",
           "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Michael J.",
-          "rating": 5,
-          "date": "2024-11-26",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
         }
       ],
       "metadata": {
@@ -238,24 +240,24 @@
       }
     },
     {
-      "id": "jacksonville-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_raleigh-anderson-fine-art-appraisals_1741088630668_iz76ja4Zc7.jpg?updatedAt=1741088632066",
+      "id": "b-langston-jacksonville",
+      "name": "B. Langston Estate Liquidation & Appraisals",
+      "slug": "b-langston-estate-liquidation",
+      "imageUrl": "",
       "address": {
-        "street": "456 Art District",
+        "street": "",
         "city": "Jacksonville",
         "state": "FL",
-        "zip": "32003",
-        "formatted": "456 Art District, Jacksonville, FL 32003"
+        "zip": "",
+        "formatted": "Jacksonville, FL"
       },
       "contact": {
-        "phone": "599-624-7840",
-        "email": "info@www.art-appraisals.net",
-        "website": "www.art-appraisals.net"
+        "phone": "(904) 642-1003",
+        "email": "",
+        "website": "https://blangston.com"
       },
       "business": {
-        "yearsInBusiness": "Decades",
+        "yearsInBusiness": "Established estate services firm",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -270,55 +272,212 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Project-based",
-        "rating": 4.7,
-        "reviewCount": 22
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "European Art",
-          "American Art",
-          "Contemporary",
-          "Modern",
-          "Impressionist",
-          "19th-century works"
+          "Antiques",
+          "Fine Art",
+          "Estate Liquidation",
+          "Personal Property"
+        ],
+        "certifications": [],
+        "services": [
+          "Estate Liquidation",
+          "Antique Appraisals",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "B. Langston provides estate liquidation and accurate expert appraisals for antiques and other valued items in Northeast Florida, serving Jacksonville and the surrounding area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-bluett-art-appraisers",
+      "name": "Bluett Art Appraisers",
+      "slug": "bluett-art-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "Jacksonville Beach",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32204",
+        "formatted": "Jacksonville Beach, FL 32204"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Since 2013",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine arts",
+          "Paintings",
+          "Decorative arts"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "Expert Witness Services",
-          "Litigation Support",
-          "Authentication Research"
+          "Fine art appraisals",
+          "Decorative arts appraisals"
         ]
       },
       "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "about": "Bluett Art Appraisers is a boutique art appraisal firm based in Jacksonville Beach, Florida, run by Julia R Bluett. The company specializes in evaluating fine arts including paintings, decorative arts, and more.",
+        "notes": "Boutique firm based in Jacksonville Beach, FL."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "duval-art-advisors-jacksonville",
+      "name": "Duval Art Advisors",
+      "slug": "duval-art-advisors",
+      "imageUrl": "",
+      "address": {
+        "street": "1900 Riverplace Blvd",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32207",
+        "formatted": "1900 Riverplace Blvd, Jacksonville, FL 32207"
+      },
+      "contact": {
+        "phone": "(904) 555-0167",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "8 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Contemporary Art",
+          "Art Advisory"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
+        ]
+      },
+      "content": {
+        "about": "Duval Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Jacksonville metropolitan area.",
         "notes": ""
       },
-      "reviews": [
-        {
-          "author": "James T.",
-          "rating": 3,
-          "date": "2024-12-28",
-          "content": "Knowledgeable team, though communication could have been better during the process."
-        },
-        {
-          "author": "Nancy J.",
-          "rating": 5,
-          "date": "2024-12-28",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert C.",
-          "rating": 4.5,
-          "date": "2024-12-01",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
+        "lastUpdated": "2026-04-08",
         "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-e-w-nash-and-son-estate-appraisals",
+      "name": "E. W. Nash & Son LLC",
+      "slug": "e-w-nash-and-son-estate-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/608c6d64-210c-4c7f-89d4-6e4852588ecb/favicon/734063f4-dcd8-465e-a442-dd5bb99046bb.png/:/rs=w:16,h:16,m",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "info@ewnash.com",
+        "website": "https://ewnash.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "E W Nash & Son LLC offers fine art appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://ewnash.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://ewnash.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJ6asdgH-35YgRSFlHh3-McGo",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states estate appraisals and inventories of antiques, fine art, and decorative arts",
+          "art and antique restoration fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
       }
     },
     {
@@ -388,6 +547,562 @@
           "rating": 5,
           "date": "2025-01-21",
           "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "first-coast-art-appraisals-jacksonville",
+      "name": "First Coast Art Appraisals",
+      "slug": "first-coast-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1428 Beach Blvd",
+        "city": "Jacksonville Beach",
+        "state": "FL",
+        "zip": "32250",
+        "formatted": "1428 Beach Blvd, Jacksonville Beach, FL 32250"
+      },
+      "contact": {
+        "phone": "(904) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Florida Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "First Coast Art Appraisals serves the Jacksonville Beach and greater Jacksonville area with expert fine art and Florida regional art appraisals.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "fisher-powell-jacksonville",
+      "name": "Fisher & Powell Personal Property Appraisers",
+      "slug": "fisher-powell-personal-property-appraisers",
+      "imageUrl": "",
+      "address": {
+        "street": "2111 River Blvd",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32204",
+        "formatted": "2111 River Blvd, Jacksonville, FL 32204"
+      },
+      "contact": {
+        "phone": "(904) 387-4800",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Antiques",
+          "Personal Property"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Personal Property Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fisher & Powell Personal Property Appraisers provides professional fine art and personal property appraisals in the Riverside area of Jacksonville, FL.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-florida-art-appraisals-llc",
+      "name": "Florida Art Appraisals, LLC",
+      "slug": "florida-art-appraisals-llc",
+      "imageUrl": "",
+      "address": {
+        "street": "Serving Jacksonville",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32202",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "(772) 519-9019",
+        "email": "Kathleen@Floridaartappraisals.com",
+        "website": "https://floridaartappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Florida Art",
+          "A.E. Backus",
+          "Florida Highwaymen",
+          "18th and 19th century American painters",
+          "Latin American art",
+          "Post-war and Contemporary Art"
+        ],
+        "certifications": [
+          "Associate Candidate, Appraisers Association of America",
+          "USPAP-compliant"
+        ],
+        "services": [
+          "In-person appraisals",
+          "Online appraisals",
+          "Authentication",
+          "Insurance appraisals",
+          "Estate settlement appraisals",
+          "Charitable donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Florida Art Appraisals, LLC provides accurate and unbiased appraisals of A.E. Backus, Florida Highwaymen and Indian River School artwork. While specializing in Florida Art, they appraise all manner of fine art including 18th and 19th century American painters, Latin American, Post-war and Contemporary Art. As an independent, accredited appraiser, not affiliated with any gallery or dealer, they guarantee the most accurate and unbiased appraisal possible.",
+        "notes": "Schedules appraisal events throughout Florida including Jacksonville. Offers both in-person and online appraisals."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg?updatedAt=1741088506014",
+      "address": {
+        "street": "456 Lincoln Rd",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "33130",
+        "formatted": "456 Lincoln Rd, Jacksonville, FL 33130"
+      },
+      "contact": {
+        "phone": "495-521-3039",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 5,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "High-value Appraisals",
+          "Expert Witness Services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "High-value art appraisals",
+          "Expert witness testimony"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth W.",
+          "rating": 5,
+          "date": "2025-02-27",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Elizabeth T.",
+          "rating": 5,
+          "date": "2025-02-07",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Elizabeth J.",
+          "rating": 5,
+          "date": "2024-09-24",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "jacksonville-hollingsworth-fine-a",
+      "name": "Hollingsworth Fine Arts",
+      "slug": "hollingsworth-fine-a",
+      "imageUrl": "https://static.parastorage.com/client/pfavico.ico",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "+1 407.422.4242",
+        "email": "laurenstump@live.com",
+        "website": "https://www.hollingsworthfinearts.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hollingsworth Fine Arts offers fine art appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.hollingsworthfinearts.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.hollingsworthfinearts.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJGxpz9u9654gRcFqdO7-o3mo",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-jacksonville-fine-art-appraisers",
+      "name": "Hudson River Gallery and Conservators",
+      "slug": "jacksonville-fine-art-appraisers",
+      "imageUrl": "https://www.hudsonrivergallery-conservators.com/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "904-374-2616",
+        "email": "carey@swflwebmaster.com",
+        "website": "https://www.hudsonrivergallery-conservators.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hudson River Gallery and Conservators offers fine art appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.hudsonrivergallery-conservators.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.hudsonrivergallery-conservators.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJv4LLonDywokRxyjd9BPcpL0",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-lost-art-gallery",
+      "name": "Lost Art Gallery",
+      "slug": "lost-art-gallery",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Jacksonville, FL"
+      },
+      "contact": {
+        "phone": "+19048279800",
+        "email": "LostArtGallery@gmail.com",
+        "website": "https://lostartgallery.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lost Art Gallery offers fine art appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://lostartgallery.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://lostartgallery.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ15V_wbKk6IgRFT5x4ik_ahU",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "jacksonville-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
+      "address": {
+        "street": "789 Museum Way",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "33130",
+        "formatted": "789 Museum Way, Jacksonville, FL 33130"
+      },
+      "contact": {
+        "phone": "747-553-3325",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Consignment fees: 20% up to $500K, 10% beyond that",
+        "rating": 4.7,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Free Valuations",
+          "Consignment-based Sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment-based sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment-based Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, Los Angeles."
+      },
+      "reviews": [
+        {
+          "author": "John T.",
+          "rating": 4.5,
+          "date": "2025-02-22",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "James T.",
+          "rating": 4.5,
+          "date": "2025-01-08",
+          "content": "Mimesis Gallery's expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Karen T.",
+          "rating": 5,
+          "date": "2024-12-01",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         }
       ],
       "metadata": {
@@ -475,6 +1190,88 @@
       }
     },
     {
+      "id": "jacksonville-prestige-estate-services-brenda-blackmon",
+      "name": "Prestige Estate Services (Brenda Blackmon)",
+      "slug": "prestige-estate-services-brenda-blackmon",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg?updatedAt=1741089088174",
+      "address": {
+        "street": "999 Museum Way",
+        "city": "Jacksonville",
+        "state": "NY",
+        "zip": "10881",
+        "formatted": "999 Museum Way, Jacksonville, NY 10881"
+      },
+      "contact": {
+        "phone": "423-801-6552",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$175-$225 per hour",
+        "rating": 4.5,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "Art",
+          "Antiques",
+          "Jewelry Appraisals"
+        ],
+        "certifications": [
+          "USPAP compliant",
+          "IRS-qualified"
+        ],
+        "services": [
+          "On-site evaluations",
+          "IRS regulated appraisals",
+          "Estate planning appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services (Brenda Blackmon) provides professional art appraisal services specializing in Art, Antiques, Jewelry Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Nationwide coverage including Jacksonville; on-site evaluations available."
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth D.",
+          "rating": 5,
+          "date": "2025-01-02",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 4.5,
+          "date": "2024-12-31",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Michael J.",
+          "rating": 5,
+          "date": "2024-11-26",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "jacksonville-saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -546,472 +1343,6 @@
       }
     },
     {
-      "id": "jacksonville-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-escher-associates_1741088504592_OPv1KCjEOZ.jpg?updatedAt=1741088506014",
-      "address": {
-        "street": "456 Lincoln Rd",
-        "city": "Jacksonville",
-        "state": "FL",
-        "zip": "33130",
-        "formatted": "456 Lincoln Rd, Jacksonville, FL 33130"
-      },
-      "contact": {
-        "phone": "495-521-3039",
-        "email": "info@www.gurrjohns.com",
-        "website": "www.gurrjohns.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 5,
-        "reviewCount": 24
-      },
-      "expertise": {
-        "specialties": [
-          "High-value Appraisals",
-          "Expert Witness Services"
-        ],
-        "certifications": [
-          "USPAP compliant"
-        ],
-        "services": [
-          "High-value art appraisals",
-          "Expert witness testimony"
-        ]
-      },
-      "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm managing over $10 billion annually."
-      },
-      "reviews": [
-        {
-          "author": "Elizabeth W.",
-          "rating": 5,
-          "date": "2025-02-27",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Elizabeth T.",
-          "rating": 5,
-          "date": "2025-02-07",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Elizabeth J.",
-          "rating": 5,
-          "date": "2024-09-24",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "jacksonville-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg?updatedAt=1741087695302",
-      "address": {
-        "street": "789 Museum Way",
-        "city": "Jacksonville",
-        "state": "FL",
-        "zip": "33130",
-        "formatted": "789 Museum Way, Jacksonville, FL 33130"
-      },
-      "contact": {
-        "phone": "747-553-3325",
-        "email": "info@www.mimesisgallery.com",
-        "website": "www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Consignment fees: 20% up to $500K, 10% beyond that",
-        "rating": 4.7,
-        "reviewCount": 5
-      },
-      "expertise": {
-        "specialties": [
-          "Free Valuations",
-          "Consignment-based Sales"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Free valuations",
-          "Same-day offers",
-          "Consignment-based sales"
-        ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment-based Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd, Los Angeles."
-      },
-      "reviews": [
-        {
-          "author": "John T.",
-          "rating": 4.5,
-          "date": "2025-02-22",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "James T.",
-          "rating": 4.5,
-          "date": "2025-01-08",
-          "content": "Mimesis Gallery's expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Karen T.",
-          "rating": 5,
-          "date": "2024-12-01",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "jacksonville-florida-art-appraisals-llc",
-      "name": "Florida Art Appraisals, LLC",
-      "slug": "florida-art-appraisals-llc",
-      "imageUrl": "",
-      "address": {
-        "street": "Serving Jacksonville",
-        "city": "Jacksonville",
-        "state": "FL",
-        "zip": "32202",
-        "formatted": "Jacksonville, FL"
-      },
-      "contact": {
-        "phone": "(772) 519-9019",
-        "email": "Kathleen@Floridaartappraisals.com",
-        "website": "https://floridaartappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Florida Art",
-          "A.E. Backus",
-          "Florida Highwaymen",
-          "18th and 19th century American painters",
-          "Latin American art",
-          "Post-war and Contemporary Art"
-        ],
-        "certifications": [
-          "Associate Candidate, Appraisers Association of America",
-          "USPAP-compliant"
-        ],
-        "services": [
-          "In-person appraisals",
-          "Online appraisals",
-          "Authentication",
-          "Insurance appraisals",
-          "Estate settlement appraisals",
-          "Charitable donation appraisals"
-        ]
-      },
-      "content": {
-        "about": "Florida Art Appraisals, LLC provides accurate and unbiased appraisals of A.E. Backus, Florida Highwaymen and Indian River School artwork. While specializing in Florida Art, they appraise all manner of fine art including 18th and 19th century American painters, Latin American, Post-war and Contemporary Art. As an independent, accredited appraiser, not affiliated with any gallery or dealer, they guarantee the most accurate and unbiased appraisal possible.",
-        "notes": "Schedules appraisal events throughout Florida including Jacksonville. Offers both in-person and online appraisals."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "jacksonville-bluett-art-appraisers",
-      "name": "Bluett Art Appraisers",
-      "slug": "bluett-art-appraisers",
-      "imageUrl": "",
-      "address": {
-        "street": "Jacksonville Beach",
-        "city": "Jacksonville",
-        "state": "FL",
-        "zip": "32204",
-        "formatted": "Jacksonville Beach, FL 32204"
-      },
-      "contact": {
-        "phone": "",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Since 2013",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine arts",
-          "Paintings",
-          "Decorative arts"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Fine art appraisals",
-          "Decorative arts appraisals"
-        ]
-      },
-      "content": {
-        "about": "Bluett Art Appraisers is a boutique art appraisal firm based in Jacksonville Beach, Florida, run by Julia R Bluett. The company specializes in evaluating fine arts including paintings, decorative arts, and more.",
-        "notes": "Boutique firm based in Jacksonville Beach, FL."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "b-langston-jacksonville",
-      "name": "B. Langston Estate Liquidation & Appraisals",
-      "slug": "b-langston-estate-liquidation",
-      "imageUrl": "",
-      "address": {
-        "street": "",
-        "city": "Jacksonville",
-        "state": "FL",
-        "zip": "",
-        "formatted": "Jacksonville, FL"
-      },
-      "contact": {
-        "phone": "(904) 642-1003",
-        "email": "",
-        "website": "https://blangston.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established estate services firm",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Antiques",
-          "Fine Art",
-          "Estate Liquidation",
-          "Personal Property"
-        ],
-        "certifications": [],
-        "services": [
-          "Estate Liquidation",
-          "Antique Appraisals",
-          "Art Appraisals"
-        ]
-      },
-      "content": {
-        "about": "B. Langston provides estate liquidation and accurate expert appraisals for antiques and other valued items in Northeast Florida, serving Jacksonville and the surrounding area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "fisher-powell-jacksonville",
-      "name": "Fisher & Powell Personal Property Appraisers",
-      "slug": "fisher-powell-personal-property-appraisers",
-      "imageUrl": "",
-      "address": {
-        "street": "2111 River Blvd",
-        "city": "Jacksonville",
-        "state": "FL",
-        "zip": "32204",
-        "formatted": "2111 River Blvd, Jacksonville, FL 32204"
-      },
-      "contact": {
-        "phone": "(904) 387-4800",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established appraisal firm",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Antiques",
-          "Personal Property"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Personal Property Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Fisher & Powell Personal Property Appraisers provides professional fine art and personal property appraisals in the Riverside area of Jacksonville, FL.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "first-coast-art-appraisals-jacksonville",
-      "name": "First Coast Art Appraisals",
-      "slug": "first-coast-art-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "1428 Beach Blvd",
-        "city": "Jacksonville Beach",
-        "state": "FL",
-        "zip": "32250",
-        "formatted": "1428 Beach Blvd, Jacksonville Beach, FL 32250"
-      },
-      "contact": {
-        "phone": "(904) 555-0144",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "12 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Florida Art",
-          "Contemporary Art"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "First Coast Art Appraisals serves the Jacksonville Beach and greater Jacksonville area with expert fine art and Florida regional art appraisals.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
       "id": "st-johns-art-appraisals-jacksonville",
       "name": "St. Johns Art & Antique Appraisals",
       "slug": "st-johns-art-antique-appraisals",
@@ -1074,63 +1405,77 @@
       }
     },
     {
-      "id": "duval-art-advisors-jacksonville",
-      "name": "Duval Art Advisors",
-      "slug": "duval-art-advisors",
-      "imageUrl": "",
+      "id": "art-jacksonville-stellers-gallery",
+      "name": "Stellers Gallery",
+      "slug": "jacksonville-stellers-gallery",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
-        "street": "1900 Riverplace Blvd",
+        "street": "",
         "city": "Jacksonville",
         "state": "FL",
-        "zip": "32207",
-        "formatted": "1900 Riverplace Blvd, Jacksonville, FL 32207"
+        "zip": "",
+        "formatted": "Jacksonville, FL"
       },
       "contact": {
-        "phone": "(904) 555-0167",
+        "phone": "",
         "email": "",
-        "website": ""
+        "website": "https://stellersgallery.com/"
       },
       "business": {
-        "yearsInBusiness": "8 years in business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
             "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.5,
+        "rating": null,
         "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Fine Art",
-          "Contemporary Art",
-          "Art Advisory"
+          "art_consulting_gallery_collection_support"
         ],
         "certifications": [],
         "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Collection Management"
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
         ]
       },
       "content": {
-        "about": "Duval Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Jacksonville metropolitan area.",
-        "notes": ""
+        "about": "Stellers Gallery is included from a deferred lead review for art, gallery, advisory, or collection-related services in Jacksonville, FL. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://stellersgallery.com/. Original status: art_related_consulting_no_formal_appraisal_service. Evidence note: Owned-source review found a contemporary art gallery with consulting, corporate/country-club collection support, site visits, framing recommendations, and installation work, but no formal art appraisal service proof."
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "art",
+          "serviceTypes": [
+            "art_consulting_gallery_collection_support"
+          ],
+          "appraisalServiceStatus": "art_related_consulting_no_formal_appraisal_service",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://stellersgallery.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJLZW_Cam35YgRC3nhZeFxQz8",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: art",
+          "appraisal service status: art_related_consulting_no_formal_appraisal_service",
+          "service types: art_consulting_gallery_collection_support"
+        ]
       }
     }
   ]

@@ -1,0 +1,114 @@
+{
+  "title": "Art appraisers in Providence, Rhode Island",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "providence",
+    "url": "https://art-appraisers-directory.appraisily.com/location/providence/",
+    "name": "Art appraisers in Providence, Rhode Island",
+    "description": "Compare art appraisers in Providence, Rhode Island.",
+    "city": "Providence",
+    "region": "Rhode Island",
+    "country": "US",
+    "numberOfListedAppraisers": 14,
+    "listedAppraisers": [
+      {
+        "name": "Michael Rose Fine Art",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/michael-rose-fine-art/",
+        "slug": "michael-rose-fine-art",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_providence-michael-rose-fine-art_1741088533937_GYzQzdVhm.jpg",
+        "description": "Michael Rose Fine Art provides professional art appraisal services specializing in Northeast art, Collection advisory, Curatorial projects. With Since 2014 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Vallot Auctioneers",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/vallot-auctioneers/",
+        "slug": "vallot-auctioneers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_providence-vallot-auctioneers_1741088539460_5Rdn8Z4Vn.jpg",
+        "description": "Vallot Auctioneers provides professional art appraisal services specializing in Fine art authentication, Estate sales, Emerging artists. With 2021 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Associated Estate & Appraisal Co.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/associated-estate-appraisal-co/",
+        "slug": "associated-estate-appraisal-co",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_providence-associated-estate-appraisal-co_1741088556273_FfCHFlTgs.jpg",
+        "description": "Associated Estate & Appraisal Co. provides professional art appraisal services specializing in Antiques, Mid-century modern decor, Fine art. With 40+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "New York Fine Art Appraisers (Boston Office)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-fine-art-appraisers-boston-office/",
+        "slug": "new-york-fine-art-appraisers-boston-office",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_providence-new-york-fine-art-appraisers-boston-office_1741088562219_0m-MduiEdN.jpg",
+        "description": "New York Fine Art Appraisers (Boston Office) provides professional art appraisal services specializing in Americana, Impressionist art, Contemporary art. With Since 1980 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Providence Art Club",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/providence-art-club.svg",
+        "description": "Founded in 1880, the Providence Art Club is one of the oldest art clubs in the United States, providing exhibitions and art services to the community.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "RISD Museum",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/risd-museum.svg",
+        "description": "The RISD Museum is one of the finest mid-sized art museums in the country, with a collection spanning ancient to contemporary art. Provides consultation and appraisal referral services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Bannister Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/bannister-gallery.svg",
+        "description": "Bannister Gallery at Rhode Island College provides exhibitions and art consultation services to the Providence community.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Gallery Z",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/gallery-z.svg",
+        "description": "Gallery Z is a contemporary art gallery located on Federal Hill in Providence, offering art appraisal services and representing local and regional artists.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "The Warren Project Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/warren-project-gallery.svg",
+        "description": "The Warren Project Gallery provides contemporary art exhibitions and appraisal services in the College Hill neighborhood of Providence.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jessica Strongin - ISA CAPP",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/jessica-strongin-isa-capp.svg",
+        "description": "Jessica Strongin, ISA CAPP, operates a full service personal property appraisal company covering antiques, fine art, jewelry, furniture, and furnishings based in Providence, Rhode Island.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Artem Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/artem-appraisals.svg",
+        "description": "Artem Appraisals in Providence, RI is a full service personal property appraisal company covering antiques, fine art, jewelry, furniture, and collectibles.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Narragansett Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/narragansett-art-appraisals.svg",
+        "description": "Narragansett Art Appraisals provides expert fine art and New England regional art appraisals for collectors, galleries, and institutions throughout the Providence area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Ocean State Art Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ocean-state-art-appraisals.svg",
+        "description": "Ocean State Art Appraisals has served the Providence area for over 15 years, providing comprehensive appraisals for fine art, antiques, and maritime art collections.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "College Hill Art Advisors",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/college-hill-art-advisors.svg",
+        "description": "College Hill Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Providence area.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/providence/"
+    }
+  }
+}

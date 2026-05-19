@@ -1,238 +1,6 @@
 {
   "appraisers": [
     {
-      "id": "san-diego-jsk-fine-art-appraisals",
-      "name": "JSK Fine Art Appraisals",
-      "slug": "jsk-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg",
-      "address": {
-        "street": "2020 Main St",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "90870",
-        "formatted": "2020 Main St, San Diego, CA 90870"
-      },
-      "contact": {
-        "phone": "823-612-1947",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
-      },
-      "business": {
-        "yearsInBusiness": "10+ years",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Hourly or flat rate; 50% deposit required",
-        "rating": 4.6,
-        "reviewCount": 24
-      },
-      "expertise": {
-        "specialties": [
-          "Contemporary art",
-          "Fine art"
-        ],
-        "certifications": [
-          "USPAP compliant"
-        ],
-        "services": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donation appraisals",
-          "Restoration services"
-        ]
-      },
-      "content": {
-        "about": "JSK Fine Art Appraisals provides professional art appraisal services specializing in Contemporary art, Fine art. With 10+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Based in San Diego and serves Southern California."
-      },
-      "reviews": [
-        {
-          "author": "Linda W.",
-          "rating": 5,
-          "date": "2025-02-28",
-          "content": "Excellent service from start to finish. I highly recommend JSK Fine Art Appraisals for any art appraisal needs."
-        },
-        {
-          "author": "Sarah J.",
-          "rating": 4.5,
-          "date": "2025-02-21",
-          "content": "Provided an incredibly thorough appraisal of my art collection. JSK Fine Art Appraisals's knowledge of the market is impressive."
-        },
-        {
-          "author": "Susan J.",
-          "rating": 5,
-          "date": "2025-02-03",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-diego-reilly-clark-fine-art-appraisals",
-      "name": "Reilly Clark Fine Art & Appraisals",
-      "slug": "reilly-clark-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-reilly-clark-fine-art-appraisals_1741089042212_sBdDMMh4N.jpg",
-      "address": {
-        "street": "456 Art District",
-        "city": "Santa Barbara",
-        "state": "CA",
-        "zip": "90442",
-        "formatted": "456 Art District, Santa Barbara, CA 90442"
-      },
-      "contact": {
-        "phone": "(214) 799-7889",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for quote",
-        "rating": 5,
-        "reviewCount": 23
-      },
-      "expertise": {
-        "specialties": [
-          "Insurance appraisals",
-          "Tax appraisals",
-          "Estate liquidations"
-        ],
-        "certifications": [
-          "ISA",
-          "ASA",
-          "USPAP-trained"
-        ],
-        "services": [
-          "Appraisal services for insurance, tax, and estate liquidations"
-        ]
-      },
-      "content": {
-        "about": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Insurance appraisals, Tax appraisals, Estate liquidations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Based in Santa Barbara; serves Southern California including San Diego. The proprietor is a PhD candidate at UCSB."
-      },
-      "reviews": [
-        {
-          "author": "Emily R.",
-          "rating": 5,
-          "date": "2025-03-14",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Linda M.",
-          "rating": 5,
-          "date": "2025-03-06",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Reilly Clark Fine Art & Appraisals's knowledge of the market is impressive."
-        },
-        {
-          "author": "Sarah B.",
-          "rating": 5,
-          "date": "2025-01-02",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-diego-erika-holycross-prestige-estate-services",
-      "name": "Erika Holycross (Prestige Estate Services)",
-      "slug": "erika-holycross-prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-erika-holycross-prestige-estate-services_1741089047584_KrrrJG3j-.jpg",
-      "address": {
-        "street": "999 Maple Dr",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "90274",
-        "formatted": "999 Maple Dr, San Diego, CA 90274"
-      },
-      "contact": {
-        "phone": "1-844-ITEM-VAL",
-        "email": "info@PrestigeEstateServices.com",
-        "website": "PrestigeEstateServices.com"
-      },
-      "business": {
-        "yearsInBusiness": "5+ years",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for quote",
-        "rating": 5,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art",
-          "Antiques",
-          "Collectibles"
-        ],
-        "certifications": [
-          "ISA",
-          "USPAP compliant"
-        ],
-        "services": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donation valuations"
-        ]
-      },
-      "content": {
-        "about": "Erika Holycross (Prestige Estate Services) provides professional art appraisal services specializing in Fine art, Antiques, Collectibles. With 5+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Brings master's level education and auction house experience."
-      },
-      "reviews": [
-        {
-          "author": "John T.",
-          "rating": 5,
-          "date": "2025-03-07",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Robert C.",
-          "rating": 5,
-          "date": "2025-01-31",
-          "content": "Excellent service from start to finish. I highly recommend Erika Holycross (Prestige Estate Services) for any art appraisal needs."
-        },
-        {
-          "author": "Patricia M.",
-          "rating": 5,
-          "date": "2025-01-29",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "san-diego-anderson-fine-art-appraisals",
       "name": "Anderson Fine Art Appraisals",
       "slug": "anderson-fine-art-appraisals",
@@ -309,400 +77,6 @@
       }
     },
     {
-      "id": "san-diego-escher-associates",
-      "name": "Escher Associates",
-      "slug": "escher-associates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg",
-      "address": {
-        "street": "2020 Main St",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "92101",
-        "formatted": "2020 Main St, San Diego, CA 92101"
-      },
-      "contact": {
-        "phone": "898-472-1733",
-        "email": "info@www.escher-associates.com",
-        "website": "www.escher-associates.com"
-      },
-      "business": {
-        "yearsInBusiness": "Founded in 1984",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "$350/hour or $2,500/day plus expenses",
-        "rating": 4.8,
-        "reviewCount": 5
-      },
-      "expertise": {
-        "specialties": [
-          "Paintings",
-          "Sculpture",
-          "Photography",
-          "Rare Books"
-        ],
-        "certifications": [
-          "ASA-certified",
-          "USPAP compliant"
-        ],
-        "services": [
-          "Art appraisal",
-          "Art fraud case handling"
-        ]
-      },
-      "content": {
-        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Founded by Nancy Escher; adheres to USPAP and ASA standards."
-      },
-      "reviews": [
-        {
-          "author": "Jennifer D.",
-          "rating": 4.5,
-          "date": "2025-03-12",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Robert D.",
-          "rating": 5,
-          "date": "2025-02-19",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Elizabeth A.",
-          "rating": 5,
-          "date": "2025-01-04",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-diego-page-art-inc",
-      "name": "Page Art, Inc.",
-      "slug": "page-art-inc",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg",
-      "address": {
-        "street": "1010 Gallery Row",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "94102",
-        "formatted": "1010 Gallery Row, San Diego, CA 94102"
-      },
-      "contact": {
-        "phone": "798-725-6341",
-        "email": "info@www.page-art.com",
-        "website": "www.page-art.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
-        "rating": 4.8,
-        "reviewCount": 24
-      },
-      "expertise": {
-        "specialties": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donation appraisals",
-          "Litigation appraisals"
-        ],
-        "certifications": [
-          "ASA",
-          "ISA",
-          "AAA"
-        ],
-        "services": [
-          "Appraisal services for insurance, estates, donations, and litigation"
-        ]
-      },
-      "content": {
-        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Services extend to Los Angeles, Bay Area, Orange County, and out-of-state."
-      },
-      "reviews": [
-        {
-          "author": "Robert T.",
-          "rating": 4.5,
-          "date": "2025-02-10",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Susan R.",
-          "rating": 4.5,
-          "date": "2025-01-18",
-          "content": "I needed an appraisal for a charitable donation, and Page Art, Inc. delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Nancy M.",
-          "rating": 4.5,
-          "date": "2024-12-29",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-diego-saylor-rice-appraisals",
-      "name": "Saylor Rice Appraisals",
-      "slug": "saylor-rice-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-saylor-rice-appraisals_1741089069657_TyC17zIed.jpg",
-      "address": {
-        "street": "1010 Museum Way",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "95814",
-        "formatted": "1010 Museum Way, San Diego, CA 95814"
-      },
-      "contact": {
-        "phone": "461-627-1104",
-        "email": "info@www.saylorriceappraisals.com",
-        "website": "www.saylorriceappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Not specified",
-        "rating": 4.7,
-        "reviewCount": 17
-      },
-      "expertise": {
-        "specialties": [
-          "Insurance appraisals",
-          "Damage/loss appraisals"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Insurance appraisals",
-          "Damage/loss appraisals"
-        ]
-      },
-      "content": {
-        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals."
-      },
-      "reviews": [
-        {
-          "author": "Robert W.",
-          "rating": 4.5,
-          "date": "2025-03-14",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "David W.",
-          "rating": 4.5,
-          "date": "2025-03-05",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert J.",
-          "rating": 5,
-          "date": "2024-12-13",
-          "content": "I needed an appraisal for a charitable donation, and Saylor Rice Appraisals delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-diego-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-gurr-johns_1741089075363_6i416FCSf.jpg",
-      "address": {
-        "street": "123 Park Ave",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "92101",
-        "formatted": "123 Park Ave, San Diego, CA 92101"
-      },
-      "contact": {
-        "phone": "450-592-5893",
-        "email": "info@www.gurrjohns.com",
-        "website": "www.gurrjohns.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Not specified",
-        "rating": 4.9,
-        "reviewCount": 18
-      },
-      "expertise": {
-        "specialties": [
-          "High-value appraisals",
-          "Global art appraisal"
-        ],
-        "certifications": [
-          "USPAP compliant"
-        ],
-        "services": [
-          "High-value appraisals",
-          "Expert witness services"
-        ]
-      },
-      "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Global art appraisal. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm managing over $10 billion annually."
-      },
-      "reviews": [
-        {
-          "author": "Linda A.",
-          "rating": 5,
-          "date": "2025-02-24",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Patricia A.",
-          "rating": 5,
-          "date": "2025-02-05",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Karen S.",
-          "rating": 4.5,
-          "date": "2025-01-01",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-diego-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-mimesis-gallery_1741089081260_KjdHZcmg1.jpg",
-      "address": {
-        "street": "2020 Gallery Row",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "94103",
-        "formatted": "2020 Gallery Row, San Diego, CA 94103"
-      },
-      "contact": {
-        "phone": "662-139-9136",
-        "email": "info@www.mimesisgallery.com",
-        "website": "www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "20% fee up to $500K; 10% fee beyond that",
-        "rating": 4.5,
-        "reviewCount": 18
-      },
-      "expertise": {
-        "specialties": [
-          "Valuations",
-          "Consignment-based sales"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Free valuations",
-          "Same-day offers",
-          "Consignment sales"
-        ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Offers free valuations and same-day offers on Westwood Blvd, Los Angeles."
-      },
-      "reviews": [
-        {
-          "author": "Michael W.",
-          "rating": 4.5,
-          "date": "2025-03-15",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Susan D.",
-          "rating": 4.5,
-          "date": "2024-09-26",
-          "content": "Mimesis Gallery's expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Emily J.",
-          "rating": 5,
-          "date": "2024-08-09",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "art-directives-san-diego",
       "name": "ART DIRECTIVES",
       "slug": "art-directives",
@@ -756,68 +130,6 @@
       },
       "content": {
         "about": "ART DIRECTIVES in San Diego, CA provides thorough art appraisals by unbiased, certified appraisers for art and antiques.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "pacific-coast-appraisals-san-diego",
-      "name": "Pacific Coast Art Appraisals",
-      "slug": "pacific-coast-art-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "1901 1st Ave",
-        "city": "San Diego",
-        "state": "CA",
-        "zip": "92101",
-        "formatted": "1901 1st Ave, San Diego, CA 92101"
-      },
-      "contact": {
-        "phone": "(619) 555-0144",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "14 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "California Art",
-          "Contemporary Art"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Pacific Coast Art Appraisals provides expert fine art and California regional art appraisals for collectors, galleries, and institutions throughout the San Diego area.",
         "notes": ""
       },
       "reviews": [],
@@ -946,6 +258,1168 @@
       "metadata": {
         "lastUpdated": "2026-04-08",
         "inService": true
+      }
+    },
+    {
+      "id": "san-diego-ena-art-group",
+      "name": "ENA Art Group",
+      "slug": "ena-art-group",
+      "imageUrl": "https://static.wixstatic.com/media/c39673_956682c529844b9fa224e09130967e67%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/c39673_956682c529844b9fa224e09130967e67%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "(858) 454-1231",
+        "email": "info@example.com",
+        "website": "https://www.enaartgroup.com/appraisals"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "ENA Art Group offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.enaartgroup.com/appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.enaartgroup.com/appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJR98UL-JV2YARSeUgs_X1d3s",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "san-diego-erika-holycross-prestige-estate-services",
+      "name": "Erika Holycross (Prestige Estate Services)",
+      "slug": "erika-holycross-prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-erika-holycross-prestige-estate-services_1741089047584_KrrrJG3j-.jpg",
+      "address": {
+        "street": "999 Maple Dr",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "90274",
+        "formatted": "999 Maple Dr, San Diego, CA 90274"
+      },
+      "contact": {
+        "phone": "1-844-ITEM-VAL",
+        "email": "info@PrestigeEstateServices.com",
+        "website": "PrestigeEstateServices.com"
+      },
+      "business": {
+        "yearsInBusiness": "5+ years",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for quote",
+        "rating": 5,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Antiques",
+          "Collectibles"
+        ],
+        "certifications": [
+          "ISA",
+          "USPAP compliant"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation valuations"
+        ]
+      },
+      "content": {
+        "about": "Erika Holycross (Prestige Estate Services) provides professional art appraisal services specializing in Fine art, Antiques, Collectibles. With 5+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Brings master's level education and auction house experience."
+      },
+      "reviews": [
+        {
+          "author": "John T.",
+          "rating": 5,
+          "date": "2025-03-07",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Robert C.",
+          "rating": 5,
+          "date": "2025-01-31",
+          "content": "Excellent service from start to finish. I highly recommend Erika Holycross (Prestige Estate Services) for any art appraisal needs."
+        },
+        {
+          "author": "Patricia M.",
+          "rating": 5,
+          "date": "2025-01-29",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg",
+      "address": {
+        "street": "2020 Main St",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "formatted": "2020 Main St, San Diego, CA 92101"
+      },
+      "contact": {
+        "phone": "898-472-1733",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 1984",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.8,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
+        ],
+        "certifications": [
+          "ASA-certified",
+          "USPAP compliant"
+        ],
+        "services": [
+          "Art appraisal",
+          "Art fraud case handling"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Founded by Nancy Escher; adheres to USPAP and ASA standards."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer D.",
+          "rating": 4.5,
+          "date": "2025-03-12",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Robert D.",
+          "rating": 5,
+          "date": "2025-02-19",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Elizabeth A.",
+          "rating": 5,
+          "date": "2025-01-04",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-gurr-johns_1741089075363_6i416FCSf.jpg",
+      "address": {
+        "street": "123 Park Ave",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "formatted": "123 Park Ave, San Diego, CA 92101"
+      },
+      "contact": {
+        "phone": "450-592-5893",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Not specified",
+        "rating": 4.9,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "High-value appraisals",
+          "Global art appraisal"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "High-value appraisals",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Global art appraisal. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "Linda A.",
+          "rating": 5,
+          "date": "2025-02-24",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Patricia A.",
+          "rating": 5,
+          "date": "2025-02-05",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Karen S.",
+          "rating": 4.5,
+          "date": "2025-01-01",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-jsk-fine-art-appraisals",
+      "name": "JSK Fine Art Appraisals",
+      "slug": "jsk-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg",
+      "address": {
+        "street": "2020 Main St",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "90870",
+        "formatted": "2020 Main St, San Diego, CA 90870"
+      },
+      "contact": {
+        "phone": "823-612-1947",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "10+ years",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Hourly or flat rate; 50% deposit required",
+        "rating": 4.6,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary art",
+          "Fine art"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Restoration services"
+        ]
+      },
+      "content": {
+        "about": "JSK Fine Art Appraisals provides professional art appraisal services specializing in Contemporary art, Fine art. With 10+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in San Diego and serves Southern California."
+      },
+      "reviews": [
+        {
+          "author": "Linda W.",
+          "rating": 5,
+          "date": "2025-02-28",
+          "content": "Excellent service from start to finish. I highly recommend JSK Fine Art Appraisals for any art appraisal needs."
+        },
+        {
+          "author": "Sarah J.",
+          "rating": 4.5,
+          "date": "2025-02-21",
+          "content": "Provided an incredibly thorough appraisal of my art collection. JSK Fine Art Appraisals's knowledge of the market is impressive."
+        },
+        {
+          "author": "Susan J.",
+          "rating": 5,
+          "date": "2025-02-03",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-konda-fine-art-appraisals",
+      "name": "Konda Fine Art Appraisals",
+      "slug": "konda-fine-art-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "+1 563-723-1920",
+        "email": "",
+        "website": "https://www.mapquest.com/us/california/konda-fine-art-appraisals-llc-428463516"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Konda Fine Art Appraisals offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.mapquest.com/us/california/konda-fine-art-appraisals-llc-428463516. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.mapquest.com/us/california/konda-fine-art-appraisals-llc-428463516",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJi5RTXI0Ruw0RD17kSTopl3Y",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "san-diego-lamplighter-appraisal-service-personal-property-appraisal-san-diego",
+      "name": "Lamplighter Fine Art Appraisal San Diego",
+      "slug": "lamplighter-appraisal-service-personal-property-appraisal-san-diego",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "(858) 354-5357",
+        "email": "loureese@san.rr.com",
+        "website": "http://www.lamplighterappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lamplighter Fine Art Appraisal San Diego offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.lamplighterappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.lamplighterappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJv4-N6bEB3IARrPDSoltZ1nk",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "san-diego-lena-s-appraisal-services",
+      "name": "Lena's Appraisal Services",
+      "slug": "lena-s-appraisal-services",
+      "imageUrl": "https://static.wixstatic.com/media/bf3f7e_6147646b890840e08fa10650d38dcc86%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/bf3f7e_6147646b890840e08fa10650d38dcc86%7Emv2.jpg",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "(619) 630-9527",
+        "email": "lenakincade@gmail.com",
+        "website": "https://www.assetsappraisalservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lena's Appraisal Services offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.assetsappraisalservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.assetsappraisalservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ9QdFBEZN2YARcEoyMkQZ2rk",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "san-diego-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-mimesis-gallery_1741089081260_KjdHZcmg1.jpg",
+      "address": {
+        "street": "2020 Gallery Row",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "94103",
+        "formatted": "2020 Gallery Row, San Diego, CA 94103"
+      },
+      "contact": {
+        "phone": "662-139-9136",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "20% fee up to $500K; 10% fee beyond that",
+        "rating": 4.5,
+        "reviewCount": 18
+      },
+      "expertise": {
+        "specialties": [
+          "Valuations",
+          "Consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers free valuations and same-day offers on Westwood Blvd, Los Angeles."
+      },
+      "reviews": [
+        {
+          "author": "Michael W.",
+          "rating": 4.5,
+          "date": "2025-03-15",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Susan D.",
+          "rating": 4.5,
+          "date": "2024-09-26",
+          "content": "Mimesis Gallery's expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Emily J.",
+          "rating": 5,
+          "date": "2024-08-09",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "pacific-coast-appraisals-san-diego",
+      "name": "Pacific Coast Art Appraisals",
+      "slug": "pacific-coast-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1901 1st Ave",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "formatted": "1901 1st Ave, San Diego, CA 92101"
+      },
+      "contact": {
+        "phone": "(619) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "14 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "California Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Pacific Coast Art Appraisals provides expert fine art and California regional art appraisals for collectors, galleries, and institutions throughout the San Diego area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg",
+      "address": {
+        "street": "1010 Gallery Row",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "94102",
+        "formatted": "1010 Gallery Row, San Diego, CA 94102"
+      },
+      "contact": {
+        "phone": "798-725-6341",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+        "rating": 4.8,
+        "reviewCount": 24
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Appraisal services for insurance, estates, donations, and litigation"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Services extend to Los Angeles, Bay Area, Orange County, and out-of-state."
+      },
+      "reviews": [
+        {
+          "author": "Robert T.",
+          "rating": 4.5,
+          "date": "2025-02-10",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "Susan R.",
+          "rating": 4.5,
+          "date": "2025-01-18",
+          "content": "I needed an appraisal for a charitable donation, and Page Art, Inc. delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2024-12-29",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-reilly-clark-fine-art-appraisals",
+      "name": "Reilly Clark Fine Art & Appraisals",
+      "slug": "reilly-clark-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-reilly-clark-fine-art-appraisals_1741089042212_sBdDMMh4N.jpg",
+      "address": {
+        "street": "456 Art District",
+        "city": "Santa Barbara",
+        "state": "CA",
+        "zip": "90442",
+        "formatted": "456 Art District, Santa Barbara, CA 90442"
+      },
+      "contact": {
+        "phone": "(214) 799-7889",
+        "email": "info@www.artappraisers.org",
+        "website": "https://www.artappraisers.org/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for quote",
+        "rating": 5,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Tax appraisals",
+          "Estate liquidations"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "USPAP-trained"
+        ],
+        "services": [
+          "Appraisal services for insurance, tax, and estate liquidations"
+        ]
+      },
+      "content": {
+        "about": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Insurance appraisals, Tax appraisals, Estate liquidations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Based in Santa Barbara; serves Southern California including San Diego. The proprietor is a PhD candidate at UCSB."
+      },
+      "reviews": [
+        {
+          "author": "Emily R.",
+          "rating": 5,
+          "date": "2025-03-14",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Linda M.",
+          "rating": 5,
+          "date": "2025-03-06",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Reilly Clark Fine Art & Appraisals's knowledge of the market is impressive."
+        },
+        {
+          "author": "Sarah B.",
+          "rating": 5,
+          "date": "2025-01-02",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-rue-michelle-antiques",
+      "name": "Rue michelle antiques",
+      "slug": "rue-michelle-antiques",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "(619)347-7180",
+        "email": "ruemichelleantiques@yahoo.com",
+        "website": "https://ruemichelleantiques.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Rue michelle antiques offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://ruemichelleantiques.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://ruemichelleantiques.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJPRQ8k1mr3oARgHz8euOXNeY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "san-diego-s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and",
+      "name": "S Cohen Fine Art",
+      "slug": "s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and",
+      "imageUrl": "https://scohenfineart.com/wp-content/uploads/2020/12/cropped-crest-1-32x32.png",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "+16194820452",
+        "email": "",
+        "website": "https://scohenfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "S Cohen Fine Art offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://scohenfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://scohenfineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJcalsXUNF2YARD3NvccSSlRc",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "san-diego-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-saylor-rice-appraisals_1741089069657_TyC17zIed.jpg",
+      "address": {
+        "street": "1010 Museum Way",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "95814",
+        "formatted": "1010 Museum Way, San Diego, CA 95814"
+      },
+      "contact": {
+        "phone": "461-627-1104",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Not specified",
+        "rating": 4.7,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely caters to high-end appraisals."
+      },
+      "reviews": [
+        {
+          "author": "Robert W.",
+          "rating": 4.5,
+          "date": "2025-03-14",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "David W.",
+          "rating": 4.5,
+          "date": "2025-03-05",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Robert J.",
+          "rating": 5,
+          "date": "2024-12-13",
+          "content": "I needed an appraisal for a charitable donation, and Saylor Rice Appraisals delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-diego-thompson-and-martinez-fine-art-appraisals-inc",
+      "name": "Thompson & Martinez Fine Art Appraisals, Inc.",
+      "slug": "thompson-and-martinez-fine-art-appraisals-inc",
+      "imageUrl": "https://thompsonfineartservices.com/wp-content/uploads/2022/02/cropped-favicon-32x32.png",
+      "address": {
+        "street": "",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "",
+        "formatted": "San Diego, CA"
+      },
+      "contact": {
+        "phone": "800-738-5334",
+        "email": "thompsonfineartservices@gmail.com",
+        "website": "https://thompsonfineartservices.com/thompson-martinez-fine-art-appraisals-inc-is-now-thompson-fine-art-services-llc/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Thompson & Martinez Fine Art Appraisals, Inc. offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://thompsonfineartservices.com/thompson-martinez-fine-art-appraisals-inc-is-now-thompson-fine-art-services-llc/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://thompsonfineartservices.com/thompson-martinez-fine-art-appraisals-inc-is-now-thompson-fine-art-services-llc/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ31iRXuED3IAREyUwbgoQyYk",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     }
   ]

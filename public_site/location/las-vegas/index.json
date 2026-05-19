@@ -1,0 +1,136 @@
+{
+  "title": "Art appraisers in Las Vegas, Nevada",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "las-vegas",
+    "url": "https://art-appraisers-directory.appraisily.com/location/las-vegas/",
+    "name": "Art appraisers in Las Vegas, Nevada",
+    "description": "Compare art appraisers in Las Vegas, Nevada.",
+    "city": "Las Vegas",
+    "region": "Nevada",
+    "country": "US",
+    "numberOfListedAppraisers": 15,
+    "listedAppraisers": [
+      {
+        "name": "Edward Kitson",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-kitson/",
+        "slug": "edward-kitson",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg?updatedAt=1741088912557",
+        "description": "Edward Kitson provides professional art appraisal services specializing in IRS-compliant estate tax appraisals, Fine art collections, Antiques and decorative arts, Divorce/inheritance fair division appraisals, Insurance documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Elizabeth Lovett",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lovett/",
+        "slug": "elizabeth-lovett",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
+        "description": "Elizabeth Lovett provides professional art appraisal services specializing in IRS-compliant estate tax appraisals, Fine art collections, Antiques and decorative arts, Divorce/inheritance fair division appraisals, Insurance documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Stephanie Calman",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephanie-calman/",
+        "slug": "stephanie-calman",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
+        "description": "Stephanie Calman provides professional art appraisal services specializing in IRS-compliant estate tax appraisals, Fine art collections, Antiques and decorative arts, Divorce/inheritance fair division appraisals, Insurance documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Alicia Weaver",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
+        "slug": "alicia-weaver",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-escher-associates_1741086913213_kTqP95EkI.jpg?updatedAt=1741086914372",
+        "description": "Alicia Weaver provides professional art appraisal services specializing in Antique furniture, Fine art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Ralph DeLuca",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/",
+        "slug": "ralph-deluca",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg?updatedAt=1741089169374",
+        "description": "Ralph DeLuca provides professional art appraisal services specializing in Entertainment memorabilia, Contemporary art, Modern art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Reilly Clark Fine Art & Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/reilly-clark-fine-art-appraisals/",
+        "slug": "reilly-clark-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-jose-appraiseitnow_1741089121883_l1x-_QMun.jpg?updatedAt=1741089123193",
+        "description": "Reilly Clark Fine Art & Appraisals provides professional art appraisal services specializing in Insurance valuations, Estate liquidations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_selkirk-auctions-appraisers_1741089299473_OgzTEJjknS.jpg?updatedAt=1741089300610",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European art, American art, Contemporary art, Modern art, Impressionist art, 19th-century works, Expert witness services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg?updatedAt=1741088511749",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-reilly-clark-fine-art-appraisals_1741089092675_Mn8rsfd0E.jpg?updatedAt=1741089094013",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg?updatedAt=1741088672826",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-page-art-inc_1741088510179_HyiAZllaXm.jpg?updatedAt=1741088511749",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-redtail-appraisals-rebekah-assid_1741089218358_oNRO_x8JT.jpg?updatedAt=1741089219355",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Randall's Fine Art & Custom Framing",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/randalls-fine-art-custom-framing.svg",
+        "description": "Randall's Fine Art & Custom Framing was established in 1994 in Las Vegas, Nevada. They design and build custom frames and displays for a variety of projects ranging from fine art to memorabilia. Services include conservation picture framing, art appraisals, canvas stretching, dry mounting, photo and canvas printing, and laser cutting and etching.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Art At Your Door Gallery II",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/art-at-your-door-gallery-ii.svg",
+        "description": "Art At Your Door Gallery II is a well-established Las Vegas art gallery and consultation service located on West Sahara Avenue. They offer custom framing, art appraisal services, and art consultation with over a decade of experience serving the Las Vegas community.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Absolute Art LLC",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/absolute-art-llc.svg",
+        "description": "Absolute Art LLC provides professional art installation and appraisal services in Las Vegas. They specialize in hanging and installing mirrors, tapestries, sconces, flat panel TVs, and fine art. Their A+ BBB rating reflects their commitment to quality service and professional standards.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/las-vegas/"
+    }
+  }
+}

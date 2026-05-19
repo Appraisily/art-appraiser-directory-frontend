@@ -1,0 +1,155 @@
+{
+  "title": "Art appraisers in Seattle, Washington",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "seattle",
+    "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
+    "name": "Art appraisers in Seattle, Washington",
+    "description": "Compare art appraisers in Seattle, Washington.",
+    "numberOfListedAppraisers": 20,
+    "listedAppraisers": [
+      {
+        "name": "Abmeyer + Wood Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/abmeyer-wood-fine-art.svg",
+        "description": "ABMEYER + wood is a fine art gallery located in downtown Seattle specializing in the sale of original works of art to private collectors, corporations and designers.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Andrea Moody Fine Art Appraisals, LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/andrea-moody-fine-art-appraisals-llc/",
+        "slug": "andrea-moody-fine-art-appraisals-llc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/andrea-moody-fine-art-appraisals-llc.svg",
+        "description": "Andrea Moody Fine Art Appraisals, LLC offers fine art appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "APPRAISALINK for Art & Antiques",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisalink-for-art-and-antiques/",
+        "slug": "appraisalink-for-art-and-antiques",
+        "image": "https://static.wixstatic.com/media/7b5533_3ec50fe8a435480489aeafd90718aa1f%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/7b5533_3ec50fe8a435480489aeafd90718aa1f%7Emv2.jpg",
+        "description": "APPRAISALINK for Art & Antiques offers fine art appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Baggenstoss Appraisal Antique & Estate Appraiser",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/baggenstoss-appraisal/",
+        "slug": "baggenstoss-appraisal",
+        "image": "https://baggenstossappraisal.com/wp-content/uploads/2024/01/site-logo.png?w=22",
+        "description": "Baggenstoss Appraisal Antique & Estate Appraiser offers fine art appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Davidson Galleries",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/davidson-galleries.svg",
+        "description": "Davidson Galleries opened its doors in 1971 and has established itself as the premier gallery for original multiples and graphic arts in the Pacific Northwest.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Dena Rigby Fine Arts",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/dena-rigby-fine-arts.svg",
+        "description": "DRFA provides independent, third-party art appraisals compliant with federal standards. Led by Dena Rigby, a certified AAA specialist, the firm serves private clients, institutions, corporations, and civic entities nationwide. Each appraisal is customized to the client's specific purpose and adheres to USPAP guidelines.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Duwamps Fine Art & Antique Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/duwamps-fine-art-antique-appraisals.svg",
+        "description": "Based in Seattle, WA, Duwamps Appraisals provides expert, objective, and professionally crafted fine art appraisal reports tailored to individuals, nonprofits, and businesses. Led by Christy Christodoulides, M.A., an ISA Accredited Member and IRS Qualified Appraiser with over 15 years of museum and appraisal experience.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Ernie (Kitsap Antique Show)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/ernie-kitsap-antique-show/",
+        "slug": "ernie-kitsap-antique-show",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_ernie-kitsap-antique-show_1741089288275_mW7ieVwpA.jpg",
+        "description": "Ernie (Kitsap Antique Show) provides professional art appraisal services specializing in On-site oral appraisals, Antiques, Heirlooms. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Foster White Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/foster-white-gallery.svg",
+        "description": "Foster White Gallery is a prominent Seattle gallery providing fine art appraisal and sales services in Pioneer Square.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Fruitcocktail Collectables",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/fruitcocktail-collectables/",
+        "slug": "fruitcocktail-collectables",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fruitcocktail-collectables_1741089282735_0KOZcGqUn.jpg",
+        "description": "Fruitcocktail Collectables provides professional art appraisal services specializing in Estate sales, Consignments, General appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gallery Voblikov",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/gallery-voblikov.svg",
+        "description": "Gallery Voblikov specializes in 17th Century Dutch and Flemish Old Master Paintings. Located in the historic Pioneer Square district of Seattle.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Jaynes Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/jaynes-appraisals.svg",
+        "description": "Jaynes Appraisals provides clear, thorough, and professional appraisals for fine art, decorative arts, and books in the Pacific Northwest. With over two decades of experience across appraisals, museums, and galleries, the firm is dedicated to delivering the highest level of service and communication.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "JRL Fine Art Appraisal",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/jrl-fine-art-appraisal/",
+        "slug": "jrl-fine-art-appraisal",
+        "image": "https://images.squarespace-cdn.com/content/v1/56f6211a2eeb813966099f4f/08926fd7-361e-4c80-a9b4-da25895265af/favicon.ico?format=100w",
+        "description": "JRL Fine Art Appraisal offers fine art appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "McAllister/Fossum Appraisal Services",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/mcallister-fossum-appraisal.svg",
+        "description": "Founded in 1980 by Lynn McAllister, PhD, the firm is a leading personal property appraisal company in the Pacific Northwest. They provide prompt, strictly confidential, and personalized appraisal services and reports that conform to industry best practices and high professional standards.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Northwest Estate Appraisals",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/northwest-estate-appraisals.svg",
+        "description": "Northwest Estate Appraisals has served the Seattle area for over two decades, providing comprehensive appraisals for estates, insurance, charitable donations, and equitable distribution.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Prestige Estate Services (National Network)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-national-network/",
+        "slug": "prestige-estate-services-national-network",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services-national_1741089294073_q6JZwyfik.jpg",
+        "description": "Prestige Estate Services (National Network) provides professional art appraisal services specializing in Fine art appraisals, Insurance appraisals, Estate appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Seattle Art Appraisals & Advisory",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/seattle-art-appraisals.svg",
+        "description": "Seattle Art Appraisals & Advisory provides expert fine art appraisals for collectors, galleries, and institutions throughout the Puget Sound area.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Silvia Waltner Fine Art Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/silvia-waltner-fine-art-services-art-appraisals-and-advisory/",
+        "slug": "silvia-waltner-fine-art-services-art-appraisals-and-advisory",
+        "image": "https://img1.wsimg.com/isteam/ip/92995224-eb82-4005-a377-f9e0c305d91a/blob-0233154.png/:/rs=w:57,h:57,m",
+        "description": "Silvia Waltner Fine Art Services offers fine art appraisal services serving Seattle, WA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Winston Wachter Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/winston-wachter-fine-art.svg",
+        "description": "Winston Wachter Fine Art is a premier Seattle gallery providing art advisory and appraisal services to collectors and institutions.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Woodside Braseth Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/woodside-braseth-gallery.svg",
+        "description": "Established in 1961, the Gordon Woodside / John Braseth Gallery is the oldest and one of the most respected galleries in the Pacific Northwest.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/seattle/"
+    }
+  }
+}

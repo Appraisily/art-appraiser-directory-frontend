@@ -1,162 +1,143 @@
 {
   "appraisers": [
     {
-      "id": "atlanta-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
+      "id": "atlanta-aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser",
+      "name": "Aaron Art and Antiques Appraisal Services",
+      "slug": "aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
-        "street": "456 Main St",
+        "street": "",
         "city": "Atlanta",
-        "state": "NY",
-        "zip": "10234",
-        "formatted": "456 Main St, Atlanta, NY 10234"
+        "state": "GA",
+        "zip": "",
+        "formatted": "Atlanta, GA"
       },
       "contact": {
-        "phone": "802-948-1275",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com/locations/atlanta-georgia/"
+        "phone": "",
+        "email": "",
+        "website": "http://www.aaronappraisalservices.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Transparent fees; onsite evaluations start at $300+",
-        "rating": 4.9,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "fine art (19th–20th century paintings)",
-          "antiques",
-          "jewelry",
-          "collectibles"
-        ],
-        "certifications": [
-          "ASA",
-          "ISA CAPP"
-        ],
-        "services": [
-          "estate tax appraisals",
-          "insurance appraisals",
-          "charitable donation appraisals",
-          "personal property appraisals"
-        ]
-      },
-      "content": {
-        "about": "Prestige Estate Services provides professional art appraisal services specializing in fine art (19th–20th century paintings), antiques, jewelry, collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Team includes Elizabeth Lovett (ASA-accredited) and Alicia E Weaver (ISA CAPP-certified). Service areas include Buckhead, Midtown, and Sandy Springs."
-      },
-      "reviews": [
-        {
-          "author": "Emily S.",
-          "rating": 5,
-          "date": "2025-02-18",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Susan J.",
-          "rating": 4.5,
-          "date": "2025-01-14",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Karen W.",
-          "rating": 4.5,
-          "date": "2025-01-13",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "atlanta-the-perfect-piece-atlanta",
-      "name": "The Perfect Piece Atlanta",
-      "slug": "the-perfect-piece-atlanta",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-appraiseitnow_1741089173757_UkgoMBIbR.jpg?updatedAt=1741089174887",
-      "address": {
-        "street": "555 Elm St",
-        "city": "Atlanta",
-        "state": "NY",
-        "zip": "10414",
-        "formatted": "555 Elm St, Atlanta, NY 10414"
-      },
-      "contact": {
-        "phone": "369-224-2865",
-        "email": "info@www.theperfectpieceatlanta.com",
-        "website": "https://www.theperfectpieceatlanta.com/estate-valuation"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
             "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
           }
         ],
-        "pricing": "Custom quotes based on collection size",
-        "rating": 4.9,
-        "reviewCount": 8
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "estate valuations for probate",
-          "equitable distribution appraisals"
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
         ],
-        "certifications": [
-          "USPAP-compliant"
-        ],
+        "certifications": [],
         "services": [
-          "estate valuation",
-          "probate appraisal"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "The Perfect Piece Atlanta provides professional art appraisal services specializing in estate valuations for probate, equitable distribution appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Provides specialized estate valuation services in the Metro Atlanta area."
+        "about": "Aaron Art and Antiques Appraisal Services offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.aaronappraisalservices.com/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "Jennifer T.",
-          "rating": 5,
-          "date": "2024-11-11",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Patricia C.",
-          "rating": 5,
-          "date": "2024-11-11",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "John C.",
-          "rating": 4.5,
-          "date": "2024-11-01",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.aaronappraisalservices.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJX54G6YEI9YgRi59dBSkP90Y",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser"
+        ]
+      }
+    },
+    {
+      "id": "atlanta-ahlstrom-appraisals-llc",
+      "name": "Ahlstrom Appraisals LLC",
+      "slug": "ahlstrom-appraisals-llc",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/53a0a85be4b0b7f569f5f015/1425333170633-ARLT22MCOWRU71VWELUE/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Atlanta, GA"
+      },
+      "contact": {
+        "phone": "...",
+        "email": "courtney@ahlstromappraisals.com",
+        "website": "https://ahlstromappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Ahlstrom Appraisals LLC offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://ahlstromappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://ahlstromappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJsaKaC5IN9YgRPOWnwSsoShY",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -233,6 +214,142 @@
       "metadata": {
         "lastUpdated": "2025-03-15",
         "inService": true
+      }
+    },
+    {
+      "id": "atlanta-betsy-dorminy-appraisals",
+      "name": "Betsy Dorminy Antiques & Art",
+      "slug": "betsy-dorminy-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Atlanta, GA"
+      },
+      "contact": {
+        "phone": "404-226-7967",
+        "email": "betsydorminy@bellsouth.net",
+        "website": "http://www.betsydorminyappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Betsy Dorminy Antiques & Art offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://www.betsydorminyappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.betsydorminyappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJTyt9aXEF9YgRwIr9UvCpHl4",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "atlanta-charles-pharr-certified-appraiser",
+      "name": "Charles Pharr Certified Art & Antique Appraiser",
+      "slug": "charles-pharr-certified-appraiser",
+      "imageUrl": "https://certified-appraiser.com/wp-content/uploads/2020/08/insurance-coverage-150x150.png",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Atlanta, GA"
+      },
+      "contact": {
+        "phone": "7705401939",
+        "email": "charles@aardvark-antiques.com",
+        "website": "https://certified-appraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Charles Pharr Certified Art & Antique Appraiser offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://certified-appraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://certified-appraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ0bG3KbXz9YgRb6YVGsXECps",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -317,158 +434,6 @@
       }
     },
     {
-      "id": "atlanta-page-art-inc",
-      "name": "Page Art, Inc.",
-      "slug": "page-art-inc",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-escher-associates_1741089185385_beB0vX-y6.jpg?updatedAt=1741089186638",
-      "address": {
-        "street": "123 Maple Dr",
-        "city": "Atlanta",
-        "state": "GA",
-        "zip": "30309",
-        "formatted": "123 Maple Dr, Atlanta, GA 30309"
-      },
-      "contact": {
-        "phone": "129-200-1247",
-        "email": "info@www.page-art.com",
-        "website": "www.page-art.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
-        "rating": 4.5,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "insurance appraisals",
-          "estate appraisals",
-          "donation appraisals",
-          "litigation appraisals"
-        ],
-        "certifications": [
-          "ASA",
-          "ISA",
-          "AAA"
-        ],
-        "services": [
-          "insurance appraisal",
-          "estate appraisal",
-          "donation appraisal",
-          "litigation support"
-        ]
-      },
-      "content": {
-        "about": "Page Art, Inc. provides professional art appraisal services specializing in insurance appraisals, estate appraisals, donation appraisals, litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Offers appraisal services across Los Angeles, Bay Area, Orange County, and out-of-state."
-      },
-      "reviews": [
-        {
-          "author": "John D.",
-          "rating": 4,
-          "date": "2025-01-26",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Patricia R.",
-          "rating": 4.5,
-          "date": "2024-11-12",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Jessica B.",
-          "rating": 4.5,
-          "date": "2024-09-22",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "atlanta-saylor-rice-appraisals",
-      "name": "Saylor Rice Appraisals",
-      "slug": "saylor-rice-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg?updatedAt=1741086889532",
-      "address": {
-        "street": "888 Museum Way",
-        "city": "Atlanta",
-        "state": "GA",
-        "zip": "30318",
-        "formatted": "888 Museum Way, Atlanta, GA 30318"
-      },
-      "contact": {
-        "phone": "926-876-1501",
-        "email": "info@www.saylorriceappraisals.com",
-        "website": "www.saylorriceappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 13
-      },
-      "expertise": {
-        "specialties": [
-          "insurance appraisals",
-          "damage/loss appraisals"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "damage/loss appraisal",
-          "insurance appraisal"
-        ]
-      },
-      "content": {
-        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in insurance appraisals, damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Clients include LACMA and MoMA; likely handles high-end appraisals."
-      },
-      "reviews": [
-        {
-          "author": "Sarah M.",
-          "rating": 3,
-          "date": "2025-02-06",
-          "content": "Knowledgeable team, though communication could have been better during the process."
-        },
-        {
-          "author": "Karen M.",
-          "rating": 4.5,
-          "date": "2025-01-23",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Susan R.",
-          "rating": 4.5,
-          "date": "2024-12-06",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "atlanta-gurr-johns",
       "name": "Gurr Johns",
       "slug": "gurr-johns",
@@ -539,86 +504,6 @@
       }
     },
     {
-      "id": "atlanta-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
-      "address": {
-        "street": "999 Oak Ave",
-        "city": "Atlanta",
-        "state": "GA",
-        "zip": "30318",
-        "formatted": "999 Oak Ave, Atlanta, GA 30318"
-      },
-      "contact": {
-        "phone": "552-571-1600",
-        "email": "info@www.mimesisgallery.com",
-        "website": "www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "20% commission up to $500K, 10% commission beyond that",
-        "rating": 4.9,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "free valuations",
-          "consignment-based sales"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "free valuation",
-          "same-day offers",
-          "consignment sales"
-        ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in free valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd; offers free valuations and same-day offers."
-      },
-      "reviews": [
-        {
-          "author": "Jessica S.",
-          "rating": 5,
-          "date": "2025-03-15",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Nancy R.",
-          "rating": 4.5,
-          "date": "2025-02-08",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Jessica B.",
-          "rating": 5,
-          "date": "2025-01-12",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
       "id": "high-museum-of-art-atlanta-ga",
       "name": "High Museum of Art",
       "slug": "high-museum-of-art",
@@ -670,66 +555,6 @@
       },
       "content": {
         "about": "The High Museum of Art is the leading art museum in the southeastern United States, providing art consultation and appraisal referral services.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "whitespace-gallery-atlanta-ga",
-      "name": "Whitespace Gallery",
-      "slug": "whitespace-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "814 Edgewood Ave NE",
-        "city": "Atlanta",
-        "state": "GA",
-        "zip": "30307",
-        "formatted": "814 Edgewood Ave NE, Atlanta, GA 30307"
-      },
-      "contact": {
-        "phone": "(404) 688-1892",
-        "email": "",
-        "website": "https://www.whitespace814.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established contemporary gallery",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Contemporary Art",
-          "Emerging Artists",
-          "Mixed Media"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Gallery Exhibitions",
-          "Art Consultation"
-        ]
-      },
-      "content": {
-        "about": "Whitespace Gallery is a contemporary art gallery in the Old Fourth Ward providing exhibitions and art consultation services.",
         "notes": ""
       },
       "reviews": [],
@@ -850,6 +675,524 @@
       },
       "content": {
         "about": "Mason Fine Art provides contemporary art exhibitions and appraisal services in Atlanta's Westside.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
+      "address": {
+        "street": "999 Oak Ave",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30318",
+        "formatted": "999 Oak Ave, Atlanta, GA 30318"
+      },
+      "contact": {
+        "phone": "552-571-1600",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "20% commission up to $500K, 10% commission beyond that",
+        "rating": 4.9,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "free valuations",
+          "consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "free valuation",
+          "same-day offers",
+          "consignment sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in free valuations, consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd; offers free valuations and same-day offers."
+      },
+      "reviews": [
+        {
+          "author": "Jessica S.",
+          "rating": 5,
+          "date": "2025-03-15",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Nancy R.",
+          "rating": 4.5,
+          "date": "2025-02-08",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Jessica B.",
+          "rating": 5,
+          "date": "2025-01-12",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-escher-associates_1741089185385_beB0vX-y6.jpg?updatedAt=1741089186638",
+      "address": {
+        "street": "123 Maple Dr",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30309",
+        "formatted": "123 Maple Dr, Atlanta, GA 30309"
+      },
+      "contact": {
+        "phone": "129-200-1247",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+        "rating": 4.5,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "insurance appraisals",
+          "estate appraisals",
+          "donation appraisals",
+          "litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "insurance appraisal",
+          "estate appraisal",
+          "donation appraisal",
+          "litigation support"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in insurance appraisals, estate appraisals, donation appraisals, litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers appraisal services across Los Angeles, Bay Area, Orange County, and out-of-state."
+      },
+      "reviews": [
+        {
+          "author": "John D.",
+          "rating": 4,
+          "date": "2025-01-26",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Patricia R.",
+          "rating": 4.5,
+          "date": "2024-11-12",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Jessica B.",
+          "rating": 4.5,
+          "date": "2024-09-22",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
+      "address": {
+        "street": "456 Main St",
+        "city": "Atlanta",
+        "state": "NY",
+        "zip": "10234",
+        "formatted": "456 Main St, Atlanta, NY 10234"
+      },
+      "contact": {
+        "phone": "802-948-1275",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/locations/atlanta-georgia/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Transparent fees; onsite evaluations start at $300+",
+        "rating": 4.9,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "fine art (19th–20th century paintings)",
+          "antiques",
+          "jewelry",
+          "collectibles"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA CAPP"
+        ],
+        "services": [
+          "estate tax appraisals",
+          "insurance appraisals",
+          "charitable donation appraisals",
+          "personal property appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in fine art (19th–20th century paintings), antiques, jewelry, collectibles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Team includes Elizabeth Lovett (ASA-accredited) and Alicia E Weaver (ISA CAPP-certified). Service areas include Buckhead, Midtown, and Sandy Springs."
+      },
+      "reviews": [
+        {
+          "author": "Emily S.",
+          "rating": 5,
+          "date": "2025-02-18",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Susan J.",
+          "rating": 4.5,
+          "date": "2025-01-14",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Karen W.",
+          "rating": 4.5,
+          "date": "2025-01-13",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg?updatedAt=1741086889532",
+      "address": {
+        "street": "888 Museum Way",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30318",
+        "formatted": "888 Museum Way, Atlanta, GA 30318"
+      },
+      "contact": {
+        "phone": "926-876-1501",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 13
+      },
+      "expertise": {
+        "specialties": [
+          "insurance appraisals",
+          "damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "damage/loss appraisal",
+          "insurance appraisal"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in insurance appraisals, damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely handles high-end appraisals."
+      },
+      "reviews": [
+        {
+          "author": "Sarah M.",
+          "rating": 3,
+          "date": "2025-02-06",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        },
+        {
+          "author": "Karen M.",
+          "rating": 4.5,
+          "date": "2025-01-23",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Susan R.",
+          "rating": 4.5,
+          "date": "2024-12-06",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "atlanta-spalding-nix-fine-art",
+      "name": "Spalding Nix Fine Art",
+      "slug": "spalding-nix-fine-art",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "",
+        "formatted": "Atlanta, GA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "INFO@SPALDINGNIXFINEART.COM",
+        "website": "http://www.spaldingnixfineart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Spalding Nix Fine Art offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.spaldingnixfineart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.spaldingnixfineart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJKQKFzcAF9YgRYY3teWc4tBQ",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found"
+        ]
+      }
+    },
+    {
+      "id": "atlanta-the-perfect-piece-atlanta",
+      "name": "The Perfect Piece Atlanta",
+      "slug": "the-perfect-piece-atlanta",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-appraiseitnow_1741089173757_UkgoMBIbR.jpg?updatedAt=1741089174887",
+      "address": {
+        "street": "555 Elm St",
+        "city": "Atlanta",
+        "state": "NY",
+        "zip": "10414",
+        "formatted": "555 Elm St, Atlanta, NY 10414"
+      },
+      "contact": {
+        "phone": "369-224-2865",
+        "email": "info@www.theperfectpieceatlanta.com",
+        "website": "https://www.theperfectpieceatlanta.com/estate-valuation"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Custom quotes based on collection size",
+        "rating": 4.9,
+        "reviewCount": 8
+      },
+      "expertise": {
+        "specialties": [
+          "estate valuations for probate",
+          "equitable distribution appraisals"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "estate valuation",
+          "probate appraisal"
+        ]
+      },
+      "content": {
+        "about": "The Perfect Piece Atlanta provides professional art appraisal services specializing in estate valuations for probate, equitable distribution appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Provides specialized estate valuation services in the Metro Atlanta area."
+      },
+      "reviews": [
+        {
+          "author": "Jennifer T.",
+          "rating": 5,
+          "date": "2024-11-11",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Patricia C.",
+          "rating": 5,
+          "date": "2024-11-11",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "John C.",
+          "rating": 4.5,
+          "date": "2024-11-01",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "whitespace-gallery-atlanta-ga",
+      "name": "Whitespace Gallery",
+      "slug": "whitespace-gallery",
+      "imageUrl": "",
+      "address": {
+        "street": "814 Edgewood Ave NE",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip": "30307",
+        "formatted": "814 Edgewood Ave NE, Atlanta, GA 30307"
+      },
+      "contact": {
+        "phone": "(404) 688-1892",
+        "email": "",
+        "website": "https://www.whitespace814.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established contemporary gallery",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Emerging Artists",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Whitespace Gallery is a contemporary art gallery in the Old Fourth Ward providing exhibitions and art consultation services.",
         "notes": ""
       },
       "reviews": [],

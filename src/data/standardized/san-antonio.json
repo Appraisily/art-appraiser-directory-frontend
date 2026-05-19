@@ -1,24 +1,293 @@
 {
   "appraisers": [
     {
-      "id": "san-antonio-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg",
+      "id": "san-antonio-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg",
       "address": {
-        "street": "777 Lincoln Rd",
+        "street": "777 Park Ave",
         "city": "San Antonio",
         "state": "TX",
-        "zip": "75805",
-        "formatted": "777 Lincoln Rd, San Antonio, TX 75805"
+        "zip": "75201",
+        "formatted": "777 Park Ave, San Antonio, TX 75201"
       },
       "contact": {
-        "phone": "(210) 123-4567",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com"
+        "phone": "307-557-3745",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
       },
       "business": {
         "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Project-based",
+        "rating": 4.6,
+        "reviewCount": 7
+      },
+      "expertise": {
+        "specialties": [
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Litigation support",
+          "Expert witness services",
+          "Authentication research"
+        ]
+      },
+      "content": {
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Linda W.",
+          "rating": 4.5,
+          "date": "2025-01-10",
+          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Michael C.",
+          "rating": 4.5,
+          "date": "2024-12-12",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Susan S.",
+          "rating": 5,
+          "date": "2024-11-27",
+          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-avalon-antiques-appraisals-and-estate-services",
+      "name": "Avalon Antiques, Appraisals & Estate Services",
+      "slug": "avalon-antiques-appraisals-and-estate-services",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "",
+        "formatted": "San Antonio, TX"
+      },
+      "contact": {
+        "phone": "+1 210-222-0265",
+        "email": "",
+        "website": "https://www.dexknows.com/san-antonio-tx/bp/avalon-antiques-appraisals-estate-services-537654428"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Avalon Antiques, Appraisals & Estate Services offers fine art appraisal services serving San Antonio, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.dexknows.com/san-antonio-tx/bp/avalon-antiques-appraisals-estate-services-537654428. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.dexknows.com/san-antonio-tx/bp/avalon-antiques-appraisals-estate-services-537654428",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJxwojz5D1XIYRmtY77NFCCYI",
+        "confidenceScore": 120,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "blue-star-arts-san-antonio-tx",
+      "name": "Blue Star Arts Complex",
+      "slug": "blue-star-arts",
+      "imageUrl": "",
+      "address": {
+        "street": "116 Blue Star",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78204",
+        "formatted": "116 Blue Star, San Antonio, TX 78204"
+      },
+      "contact": {
+        "phone": "(210) 227-6960",
+        "email": "",
+        "website": "https://www.bluestararts.org"
+      },
+      "business": {
+        "yearsInBusiness": "Established arts complex",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Mixed Media",
+          "Local Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Blue Star Arts Complex is San Antonio's premier contemporary art center, providing gallery exhibitions and art consultation services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "doris-hinman-fine-art-san-antonio-tx",
+      "name": "Doris Hinman Fine Art",
+      "slug": "doris-hinman-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "7959 Broadway St",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78209",
+        "formatted": "7959 Broadway St, San Antonio, TX 78209"
+      },
+      "contact": {
+        "phone": "(210) 826-5654",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Estate Appraisals",
+          "Insurance Appraisals"
+        ],
+        "certifications": [
+          "Certified Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Estate Appraisals",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Doris Hinman Fine Art provides professional art appraisal services in the Alamo Heights area of San Antonio.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg",
+      "address": {
+        "street": "888 Museum Way",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "75201",
+        "formatted": "888 Museum Way, San Antonio, TX 75201"
+      },
+      "contact": {
+        "phone": "366-632-8622",
+        "email": "info@www.escher-associates.com",
+        "website": "www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Since 1984",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -29,49 +298,49 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Varies by project scope",
-        "rating": 4.8,
-        "reviewCount": 12
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.7,
+        "reviewCount": 6
       },
       "expertise": {
         "specialties": [
-          "Fine art collections",
-          "Antiques",
-          "IRS estate tax compliance",
-          "Insurance documentation",
-          "General personal property"
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare Books"
         ],
         "certifications": [
-          "ISA Certified",
+          "ASA Certified",
           "USPAP Compliant"
         ],
         "services": [
-          "Comprehensive Estate Tax Appraisals",
-          "Personal Property Appraisals"
+          "Art appraisals",
+          "Expert witness services",
+          "Art fraud case handling"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art collections, Antiques, IRS estate tax compliance, Insurance documentation, General personal property. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Team members include Alicia Weaver, Elizabeth Lovett, and Stephanie Calman. Serves San Antonio and surrounding areas."
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD."
       },
       "reviews": [
         {
-          "author": "Nancy W.",
+          "author": "David D.",
           "rating": 5,
-          "date": "2025-02-07",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Patricia R.",
-          "rating": 5,
-          "date": "2024-12-30",
+          "date": "2025-01-18",
           "content": "Their expertise in fine art made the appraisal process smooth and thorough."
         },
         {
-          "author": "David D.",
+          "author": "Patricia T.",
           "rating": 4.5,
-          "date": "2024-12-06",
-          "content": "I needed an appraisal for a charitable donation, and Prestige Estate Services delivered excellent service. All tax requirements were met perfectly."
+          "date": "2025-01-13",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "John T.",
+          "rating": 4.5,
+          "date": "2024-12-19",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
         }
       ],
       "metadata": {
@@ -159,310 +428,71 @@
       }
     },
     {
-      "id": "san-antonio-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg",
+      "id": "san-antonio-josefa-gonzalez-mariscal-fine-art",
+      "name": "Josefa Gonzalez Mariscal Fine Art",
+      "slug": "josefa-gonzalez-mariscal-fine-art",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
       "address": {
-        "street": "777 Park Ave",
+        "street": "",
         "city": "San Antonio",
         "state": "TX",
-        "zip": "75201",
-        "formatted": "777 Park Ave, San Antonio, TX 75201"
+        "zip": "",
+        "formatted": "San Antonio, TX"
       },
       "contact": {
-        "phone": "307-557-3745",
-        "email": "info@www.art-appraisals.net",
-        "website": "www.art-appraisals.net"
+        "phone": "2816107067",
+        "email": "maria_josefa_v@hotmail.com",
+        "website": "https://josefagm.com/"
       },
       "business": {
-        "yearsInBusiness": "Decades",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Project-based",
-        "rating": 4.6,
-        "reviewCount": 7
-      },
-      "expertise": {
-        "specialties": [
-          "European Art",
-          "American Art",
-          "Contemporary",
-          "Modern",
-          "Impressionist",
-          "19th-century works"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Litigation support",
-          "Expert witness services",
-          "Authentication research"
-        ]
-      },
-      "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": ""
-      },
-      "reviews": [
-        {
-          "author": "Linda W.",
-          "rating": 4.5,
-          "date": "2025-01-10",
-          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Michael C.",
-          "rating": 4.5,
-          "date": "2024-12-12",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Susan S.",
-          "rating": 5,
-          "date": "2024-11-27",
-          "content": "I needed an appraisal for a charitable donation, and Anderson Fine Art Appraisals delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-antonio-escher-associates",
-      "name": "Escher Associates",
-      "slug": "escher-associates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg",
-      "address": {
-        "street": "888 Museum Way",
-        "city": "San Antonio",
-        "state": "TX",
-        "zip": "75201",
-        "formatted": "888 Museum Way, San Antonio, TX 75201"
-      },
-      "contact": {
-        "phone": "366-632-8622",
-        "email": "info@www.escher-associates.com",
-        "website": "www.escher-associates.com"
-      },
-      "business": {
-        "yearsInBusiness": "Since 1984",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "$350/hour or $2,500/day plus expenses",
-        "rating": 4.7,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "Paintings",
-          "Sculpture",
-          "Photography",
-          "Rare Books"
-        ],
-        "certifications": [
-          "ASA Certified",
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art appraisals",
-          "Expert witness services",
-          "Art fraud case handling"
-        ]
-      },
-      "content": {
-        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Founded by Nancy Escher and has handled art fraud cases with the LAPD."
-      },
-      "reviews": [
-        {
-          "author": "David D.",
-          "rating": 5,
-          "date": "2025-01-18",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "Patricia T.",
-          "rating": 4.5,
-          "date": "2025-01-13",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        },
-        {
-          "author": "John T.",
-          "rating": 4.5,
-          "date": "2024-12-19",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-antonio-page-art-inc",
-      "name": "Page Art, Inc.",
-      "slug": "page-art-inc",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg",
-      "address": {
-        "street": "1010 Maple Dr",
-        "city": "San Antonio",
-        "state": "TX",
-        "zip": "77019",
-        "formatted": "1010 Maple Dr, San Antonio, TX 77019"
-      },
-      "contact": {
-        "phone": "885-459-6753",
-        "email": "info@www.page-art.com",
-        "website": "www.page-art.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
-        "rating": 4.5,
-        "reviewCount": 23
-      },
-      "expertise": {
-        "specialties": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donation appraisals",
-          "Litigation appraisals"
-        ],
-        "certifications": [
-          "ASA",
-          "ISA",
-          "AAA"
-        ],
-        "services": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donation appraisals",
-          "Litigation appraisals"
-        ]
-      },
-      "content": {
-        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Services extend to Los Angeles, Bay Area, Orange County, and out-of-state."
-      },
-      "reviews": [
-        {
-          "author": "Susan W.",
-          "rating": 4,
-          "date": "2025-01-02",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "David B.",
-          "rating": 4.5,
-          "date": "2024-11-13",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "James B.",
-          "rating": 5,
-          "date": "2024-11-05",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "san-antonio-saylor-rice-appraisals",
-      "name": "Saylor Rice Appraisals",
-      "slug": "saylor-rice-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-saylor-rice-appraisals_1741089025221_Lbp9BTsZY.jpg",
-      "address": {
-        "street": "888 Oak Ave",
-        "city": "San Antonio",
-        "state": "TX",
-        "zip": "75202",
-        "formatted": "888 Oak Ave, San Antonio, TX 75202"
-      },
-      "contact": {
-        "phone": "850-886-3240",
-        "email": "info@www.saylorriceappraisals.com",
-        "website": "www.saylorriceappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "hours": "By appointment"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.9,
-        "reviewCount": 5
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Insurance appraisals",
-          "Damage/loss appraisals"
+          "Fine art appraisals"
         ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
+        "certifications": [],
         "services": [
+          "Art appraisal services",
           "Insurance appraisals",
-          "Damage/loss appraisals"
+          "Estate and donation appraisals"
         ]
       },
       "content": {
-        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Clients include LACMA and MoMA; likely high-end services."
+        "about": "Josefa Gonzalez Mariscal Fine Art offers fine art appraisal services serving San Antonio, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://josefagm.com/. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "Nancy M.",
-          "rating": 4.5,
-          "date": "2025-03-15",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "James W.",
-          "rating": 5,
-          "date": "2025-03-11",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Sarah C.",
-          "rating": 5,
-          "date": "2024-12-17",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://josefagm.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJvSeYPoB91GkRAnFzLzPGocM",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -546,62 +576,234 @@
       }
     },
     {
-      "id": "blue-star-arts-san-antonio-tx",
-      "name": "Blue Star Arts Complex",
-      "slug": "blue-star-arts",
-      "imageUrl": "",
+      "id": "art-san-antonio-national-appraisal-partners-llp",
+      "name": "National Appraisal Partners, LLP",
+      "slug": "san-antonio-national-appraisal-partners-llp",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
-        "street": "116 Blue Star",
+        "street": "",
         "city": "San Antonio",
         "state": "TX",
-        "zip": "78204",
-        "formatted": "116 Blue Star, San Antonio, TX 78204"
+        "zip": "",
+        "formatted": "San Antonio, TX"
       },
       "contact": {
-        "phone": "(210) 227-6960",
+        "phone": "",
         "email": "",
-        "website": "https://www.bluestararts.org"
+        "website": "https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbsanantonio"
       },
       "business": {
-        "yearsInBusiness": "Established arts complex",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
             "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
             "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.5,
+        "rating": null,
         "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Contemporary Art",
-          "Mixed Media",
-          "Local Art"
+          "fine_art_or_gallery_related",
+          "real_estate_property_appraisal"
         ],
         "certifications": [],
         "services": [
-          "Art Appraisals",
-          "Gallery Exhibitions",
-          "Art Consultation"
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
         ]
       },
       "content": {
-        "about": "Blue Star Arts Complex is San Antonio's premier contemporary art center, providing gallery exhibitions and art consultation services.",
-        "notes": ""
+        "about": "National Appraisal Partners, LLP is included from a deferred lead review for art, gallery, advisory, or collection-related services in San Antonio, TX. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbsanantonio. Original status: mixed_real_estate_plus_possible_personal_property_terms. Evidence note: s, arbitrations, and hearings. Q: How is your testimony used in litigation? A: We provide objective valuations backed by robust data, which attorneys and clients use to argue value disputes effectively. Q: Can you help us understand complex real estate valuation topics? A: Yes. Our experts simplify appraisal concepts f"
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "art",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "real_estate_property_appraisal"
+          ],
+          "appraisalServiceStatus": "mixed_real_estate_plus_possible_personal_property_terms",
+          "confidence": "medium"
+        },
+        "verification": {
+          "sourceUrl": "https://www.napllp.com/?utm_source=google&utm_medium=organic&utm_campaign=gmbsanantonio",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJGZVx-VJfXIYRpQ4pbjM8oGo",
+        "confidenceScore": 55,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: art",
+          "appraisal service status: mixed_real_estate_plus_possible_personal_property_terms",
+          "service types: fine_art_or_gallery_related, real_estate_property_appraisal"
+        ]
+      }
+    },
+    {
+      "id": "san-antonio-page-art-inc",
+      "name": "Page Art, Inc.",
+      "slug": "page-art-inc",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg",
+      "address": {
+        "street": "1010 Maple Dr",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "77019",
+        "formatted": "1010 Maple Dr, San Antonio, TX 77019"
+      },
+      "contact": {
+        "phone": "885-459-6753",
+        "email": "info@www.page-art.com",
+        "website": "www.page-art.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Hourly rate: $350; Minimum for in-office consults: $500",
+        "rating": 4.5,
+        "reviewCount": 23
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ],
+        "certifications": [
+          "ASA",
+          "ISA",
+          "AAA"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "Litigation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Services extend to Los Angeles, Bay Area, Orange County, and out-of-state."
+      },
+      "reviews": [
+        {
+          "author": "Susan W.",
+          "rating": 4,
+          "date": "2025-01-02",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "David B.",
+          "rating": 4.5,
+          "date": "2024-11-13",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "James B.",
+          "rating": 5,
+          "date": "2024-11-05",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg",
+      "address": {
+        "street": "777 Lincoln Rd",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "75805",
+        "formatted": "777 Lincoln Rd, San Antonio, TX 75805"
+      },
+      "contact": {
+        "phone": "(210) 123-4567",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Varies by project scope",
+        "rating": 4.8,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art collections",
+          "Antiques",
+          "IRS estate tax compliance",
+          "Insurance documentation",
+          "General personal property"
+        ],
+        "certifications": [
+          "ISA Certified",
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Comprehensive Estate Tax Appraisals",
+          "Personal Property Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art collections, Antiques, IRS estate tax compliance, Insurance documentation, General personal property. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Team members include Alicia Weaver, Elizabeth Lovett, and Stephanie Calman. Serves San Antonio and surrounding areas."
+      },
+      "reviews": [
+        {
+          "author": "Nancy W.",
+          "rating": 5,
+          "date": "2025-02-07",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Patricia R.",
+          "rating": 5,
+          "date": "2024-12-30",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
+        },
+        {
+          "author": "David D.",
+          "rating": 4.5,
+          "date": "2024-12-06",
+          "content": "I needed an appraisal for a charitable donation, and Prestige Estate Services delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
         "inService": true
       }
     },
@@ -726,65 +928,149 @@
       }
     },
     {
-      "id": "doris-hinman-fine-art-san-antonio-tx",
-      "name": "Doris Hinman Fine Art",
-      "slug": "doris-hinman-fine-art",
-      "imageUrl": "",
+      "id": "san-antonio-saylor-rice-appraisals",
+      "name": "Saylor Rice Appraisals",
+      "slug": "saylor-rice-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-saylor-rice-appraisals_1741089025221_Lbp9BTsZY.jpg",
       "address": {
-        "street": "7959 Broadway St",
+        "street": "888 Oak Ave",
         "city": "San Antonio",
         "state": "TX",
-        "zip": "78209",
-        "formatted": "7959 Broadway St, San Antonio, TX 78209"
+        "zip": "75202",
+        "formatted": "888 Oak Ave, San Antonio, TX 75202"
       },
       "contact": {
-        "phone": "(210) 826-5654",
-        "email": "",
-        "website": ""
+        "phone": "850-886-3240",
+        "email": "info@www.saylorriceappraisals.com",
+        "website": "www.saylorriceappraisals.com"
       },
       "business": {
-        "yearsInBusiness": "Established fine art appraiser",
+        "yearsInBusiness": "Established business",
         "hours": [
           {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
           },
           {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
+            "day": "Sunday-Monday",
             "hours": "Closed"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.5,
+        "rating": 4.9,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Damage/loss appraisals"
+        ]
+      },
+      "content": {
+        "about": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Clients include LACMA and MoMA; likely high-end services."
+      },
+      "reviews": [
+        {
+          "author": "Nancy M.",
+          "rating": 4.5,
+          "date": "2025-03-15",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "James W.",
+          "rating": 5,
+          "date": "2025-03-11",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Sarah C.",
+          "rating": 5,
+          "date": "2024-12-17",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "san-antonio-vogt-auction-galleries-robert-vogt-isa",
+      "name": "Vogt Auction Galleries | Robert Vogt, ISA",
+      "slug": "vogt-auction-galleries-robert-vogt-isa",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "",
+        "formatted": "San Antonio, TX"
+      },
+      "contact": {
+        "phone": "(210) 822-6155",
+        "email": "",
+        "website": "https://www.vogtauction.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
         "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Fine Art",
-          "Estate Appraisals",
-          "Insurance Appraisals"
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
         ],
-        "certifications": [
-          "Certified Appraiser"
-        ],
+        "certifications": [],
         "services": [
-          "Art Appraisals",
-          "Estate Appraisals",
-          "Insurance Valuations"
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
         ]
       },
       "content": {
-        "about": "Doris Hinman Fine Art provides professional art appraisal services in the Alamo Heights area of San Antonio.",
-        "notes": ""
+        "about": "Vogt Auction Galleries | Robert Vogt, ISA offers fine art appraisal services serving San Antonio, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://www.isa-appraisers.org/find-an-appraiser/profile/3028/robert-vogt. Human approval required before public import."
       },
       "reviews": [],
       "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/3028/robert-vogt",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "professional_appraiser_association_profile_with_owned_site_support",
+          "notes": "ISA profile supports Robert Vogt as an antiques and art appraiser offering expert appraisals, estate tag and auction sales, and brokerage services. Source-backed categories include antiques, fine art, coins and jewelry, rugs and textiles, lighting, objets d art, rare books, general residential contents, and related estate property. Vogt Auction Galleries owned site is retained as business website."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJMfVoztqKXIYRrWu-wEsfIFQ",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct phone found"
+        ]
       }
     }
   ]

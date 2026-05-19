@@ -1,0 +1,102 @@
+{
+  "title": "Art appraisers in San Antonio, Texas",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "san-antonio",
+    "url": "https://art-appraisers-directory.appraisily.com/location/san-antonio/",
+    "name": "Art appraisers in San Antonio, Texas",
+    "description": "Compare art appraisers in San Antonio, Texas.",
+    "city": "San Antonio",
+    "region": "Texas",
+    "country": "US",
+    "numberOfListedAppraisers": 11,
+    "listedAppraisers": [
+      {
+        "name": "Prestige Estate Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+        "slug": "prestige-estate-services",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg",
+        "description": "Prestige Estate Services provides professional art appraisal services specializing in Fine art collections, Antiques, IRS estate tax compliance, Insurance documentation, General personal property. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-gurr-johns_1741089001961_jayPA2n3d.jpg",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value collections, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-saylor-rice-appraisals_1741089025221_Lbp9BTsZY.jpg",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based art sales, Free valuations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Blue Star Arts Complex",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/blue-star-arts.svg",
+        "description": "Blue Star Arts Complex is San Antonio's premier contemporary art center, providing gallery exhibitions and art consultation services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Ruth's Room Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ruths-room-gallery.svg",
+        "description": "Ruth's Room Gallery provides fine art exhibitions and appraisal services in San Antonio's King William district.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "San Antonio Museum of Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/san-antonio-museum-of-art.svg",
+        "description": "The San Antonio Museum of Art houses one of the region's finest art collections spanning 5,000 years. Provides art consultation and appraisal referral services.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Doris Hinman Fine Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/doris-hinman-fine-art.svg",
+        "description": "Doris Hinman Fine Art provides professional art appraisal services in the Alamo Heights area of San Antonio.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/san-antonio/"
+    }
+  }
+}

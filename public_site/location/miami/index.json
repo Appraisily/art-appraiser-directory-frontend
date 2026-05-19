@@ -1,0 +1,189 @@
+{
+  "title": "Art appraisers in Miami, Florida",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "miami",
+    "url": "https://art-appraisers-directory.appraisily.com/location/miami/",
+    "name": "Art appraisers in Miami, Florida",
+    "description": "Compare art appraisers in Miami, Florida.",
+    "numberOfListedAppraisers": 22,
+    "listedAppraisers": [
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Antique Art Buyers",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-art-buyers/",
+        "slug": "antique-art-buyers",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
+        "description": "Antique Art Buyers provides professional art appraisal services specializing in Antique paintings. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anubis Appraisal & Estate Services",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/anubis-appraisal-estate-services.svg",
+        "description": "Anubis Appraisal & Estate Services, Inc. was founded in 2003 by Tara Ana Finley, ISA, AM as a premier nationwide fine art and residential contents appraisal company. With more than 30 years of auction house experience in the antiques, fine arts, and antiquities fields, the firm has built a reputation on integrity and personalized service supported by extensive market expertise. They specialize in American and European art, Cuban and Latin American fine art, antiquities, and a broad range of decorative arts.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Art of Estates - Art Appraisal & Consulting",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-of-estates-personal-property-appraisal-firm/",
+        "slug": "art-of-estates-personal-property-appraisal-firm",
+        "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+        "description": "Art of Estates - Art Appraisal & Consulting offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Art Services 2000 Ltd. Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-services-2000-ltd-fine-art-appraisals/",
+        "slug": "art-services-2000-ltd-fine-art-appraisals",
+        "image": "https://static.wixstatic.com/media/548cf6_676192a2b4ef4019921a580ea1f1767f.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/548cf6_676192a2b4ef4019921a580ea1f1767f.jpg",
+        "description": "Art Services 2000 Ltd. Fine Art Appraisals offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Chris Ingalls",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/chris-ingalls/",
+        "slug": "chris-ingalls",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/chris-ingalls.svg",
+        "description": "Chris Ingalls offers art appraisal services serving Miami, FL. FAIR directory data indicates specialties in Art - American, Art - Impressionist & Modern, Art - Latin American, Photography & Photographs, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Constantine Fine Art Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/constantine-fine-art-services/",
+        "slug": "constantine-fine-art-services",
+        "image": "https://static.wixstatic.com/media/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png",
+        "description": "Constantine Fine Art Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg?updatedAt=1741088846644",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Estate & Appraisal Services",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/",
+        "slug": "appraisals-miami-fl-estate-and-appraisal-services-inc",
+        "image": "https://irp.cdn-website.com/e2d2caba/site_favicon_16_1619610468061.ico",
+        "description": "Estate & Appraisal Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Estate & Appraisal Services Inc",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/estate-appraisal-services-inc.svg",
+        "description": "Estate & Appraisal Services Inc provides professional estate and appraisal services from their location on South Dixie Highway in Miami. They specialize in estate appraisals, jewelry appraisals, and fine art valuations with a reputation for quality service.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Juan P. Lluria (Lluria Fine Arts)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/juan-p-lluria-lluria-fine-arts/",
+        "slug": "juan-p-lluria-lluria-fine-arts",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg?updatedAt=1741089014093",
+        "description": "Juan P. Lluria (Lluria Fine Arts) provides professional art appraisal services specializing in Antiques, Fine art, Decorative household items. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Lisa Austin (LA&A)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/lisa-austin-laa/",
+        "slug": "lisa-austin-laa",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg?updatedAt=1741088906975",
+        "description": "Lisa Austin (LA&A) provides professional art appraisal services specializing in Contemporary art acquisitions, Art documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Midori Gallery Antique Oriental Art",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/midori-gallery-antique-oriental-art.svg",
+        "description": "Midori Gallery is a two-story emporium with a remarkable selection of Far Eastern artifacts assembled in South Florida. The gallery specializes in Oriental art, Japanese and Chinese antiques, and provides professional appraisal services for collectors and institutions.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg?updatedAt=1741088888767",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free art valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "MoMAA (Museum of Modern American Art)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/momaa-museum-of-modern-american-art/",
+        "slug": "momaa-museum-of-modern-american-art",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862",
+        "description": "MoMAA (Museum of Modern American Art) provides professional art appraisal services specializing in General fine art, Online appraisals (paintings, sculptures). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/myriam-nader-salomon-myriam-nader-haitian-art-gallery/",
+        "slug": "myriam-nader-salomon-myriam-nader-haitian-art-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
+        "description": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery) provides professional art appraisal services specializing in Haitian art, Caribbean art. With 35+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donations appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Poras Fine Arts Appraiser",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
+        "slug": "poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+        "image": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
+        "description": "Poras Fine Arts Appraiser offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Richard Beau Lieu & Associates Fine Art Appraisers",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/richard-beau-lieu-and-associates-fine-art-appraisers/",
+        "slug": "richard-beau-lieu-and-associates-fine-art-appraisers",
+        "image": "https://fineartappraisersboyntonbeach.com/wp-content/uploads/favicon.png",
+        "description": "Richard Beau Lieu & Associates Fine Art Appraisers offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-appraiseitnow_1741089224004_8fcZTBtlUU.jpg?updatedAt=1741089225084",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "The Fine Art Group",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-fine-art-group/",
+        "slug": "the-fine-art-group",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
+        "description": "The Fine Art Group provides professional art appraisal services specializing in High-value art investment advisory, Art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/miami/"
+    }
+  }
+}

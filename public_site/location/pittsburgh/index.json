@@ -1,0 +1,112 @@
+{
+  "title": "Art appraisers in Pittsburgh, Pennsylvania",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "pittsburgh",
+    "url": "https://art-appraisers-directory.appraisily.com/location/pittsburgh/",
+    "name": "Art appraisers in Pittsburgh, Pennsylvania",
+    "description": "Compare art appraisers in Pittsburgh, Pennsylvania.",
+    "city": "Pittsburgh",
+    "region": "Pennsylvania",
+    "country": "US",
+    "numberOfListedAppraisers": 12,
+    "listedAppraisers": [
+      {
+        "name": "Concept Art Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/concept-art-gallery/",
+        "slug": "concept-art-gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/concept-art-gallery.svg",
+        "description": "Concept Art Gallery provides professional art appraisal services specializing in Modern/Contemporary Art, Regional Pittsburgh/Western PA Art, Antiques, Jewelry. With Since 1972 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Kurt Shaw & Company",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/kurt-shaw-company/",
+        "slug": "kurt-shaw-company",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-mimesis-gallery_1741088528320_Ek5eAv7UH-.jpg?updatedAt=1741088529638",
+        "description": "Kurt Shaw & Company provides professional art appraisal services specializing in Insurance Appraisals, Art, Antiques, Furniture, Institutional Collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "AppraiseItNow",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
+        "slug": "appraiseitnow",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-escher-associates_1741086903765_KuJQHi6aC.jpg?updatedAt=1741086904882",
+        "description": "AppraiseItNow provides professional art appraisal services specializing in Fine Art, Antiques, Collectibles, USPAP-compliant Reports. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Anderson Fine Art Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+        "slug": "anderson-fine-art-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg?updatedAt=1741089472476",
+        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary Art, Modern Art, Impressionist Art, 19th-century Works. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Escher Associates",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
+        "slug": "escher-associates",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_ernie-kitsap-antique-show_1741089288275_mW7ieVwpA.jpg?updatedAt=1741089289496",
+        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Page Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+        "slug": "page-art-inc",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg?updatedAt=1741089169374",
+        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate Appraisals, Donation Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Saylor Rice Appraisals",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+        "slug": "saylor-rice-appraisals",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_washington-dc-fine-art-appraiser_1741089482744_aLCAXrh39.jpg?updatedAt=1741089484077",
+        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance Appraisals, Damage/Loss Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Gurr Johns",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+        "slug": "gurr-johns",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
+        "description": "Gurr Johns provides professional art appraisal services specializing in High-value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Mimesis Gallery",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+        "slug": "mimesis-gallery",
+        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
+        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment-based Art Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "publicRouteAvailable": true
+      },
+      {
+        "name": "Maser Galleries",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/maser-galleries.svg",
+        "description": "Maser Galleries is an art gallery and dealer in Pittsburgh's Shadyside neighborhood offering a curated selection of unique artwork alongside custom framing and art appraisal services. Known for helpful, professional service and an excellent selection of artwork. Verified via Yellow Pages listing with a positive customer review.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Horn Jerry W Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/horn-jerry-w-gallery.svg",
+        "description": "Horn Jerry W Gallery is one of Pittsburgh's longest-running art galleries with over 54 years in business. Located on Castle Shannon Blvd in the South Hills area, they provide art gallery services, dealer consultations, and appraisal expertise. Verified via Yellow Pages listing.",
+        "publicRouteAvailable": false
+      },
+      {
+        "name": "Ralph Proctor Gallery",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ralph-proctor-gallery.svg",
+        "description": "Ralph Proctor Gallery is a well-established Pittsburgh art gallery with over 50 years in business. Located on Progress St in the North Side area, they provide art gallery services, dealer consultations, and appraisal services. Verified via Yellow Pages listing.",
+        "publicRouteAvailable": false
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/pittsburgh/"
+    }
+  }
+}

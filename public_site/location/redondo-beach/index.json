@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Redondo Beach, California",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "redondo-beach",
+    "url": "https://art-appraisers-directory.appraisily.com/location/redondo-beach/",
+    "name": "Art appraisers in Redondo Beach, California",
+    "description": "Compare art appraisers in Redondo Beach, California.",
+    "city": "Redondo Beach",
+    "region": "California",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Elizabeth Blackmar",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-blackmar/",
+        "slug": "elizabeth-blackmar",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/elizabeth-blackmar.svg",
+        "description": "Elizabeth Blackmar offers art appraisal services serving Redondo Beach, CA. FAIR directory data indicates specialties in Art, Paintings - 20th Century, Prints - 20th Century, Prints - Modern & Contemporary, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/redondo-beach/"
+    }
+  }
+}

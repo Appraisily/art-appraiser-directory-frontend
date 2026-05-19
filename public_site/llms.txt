@@ -1,0 +1,16 @@
+# Art Appraisers Directory
+
+Public directory of art appraiser profile and location pages.
+
+## Public Machine-Readable Feeds
+- Directory summary: https://art-appraisers-directory.appraisily.com/directory.json
+- Appraiser profiles: https://art-appraisers-directory.appraisily.com/appraisers.json
+- Location pages: https://art-appraisers-directory.appraisily.com/locations.json
+- Sitemap: https://art-appraisers-directory.appraisily.com/sitemap.xml
+
+## Per-Location Feeds
+Each location page also has a compact JSON feed at /location/<slug>/index.json.
+
+## Data Boundary
+These feeds are generated from canonical public_site HTML and embedded Schema.org JSON-LD only.
+They do not expose private discovery data, enrichment artifacts, or internal review artifacts.

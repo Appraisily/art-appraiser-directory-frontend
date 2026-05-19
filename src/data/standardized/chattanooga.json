@@ -1,0 +1,73 @@
+{
+  "appraisers": [
+    {
+      "id": "chattanooga-fine-art-appraisal-services",
+      "name": "Fine Art Appraisal and Services",
+      "slug": "fine-art-appraisal-services",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6840a0ac1a3f685705846632/1753f564-1f4f-4d19-9437-88c4bda30ae3/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Chattanooga",
+        "state": "TN",
+        "zip": "",
+        "formatted": "Chattanooga, TN"
+      },
+      "contact": {
+        "phone": "1.416.929.7193",
+        "email": "info@fineartappraisalandservices.com",
+        "website": "https://www.fineartappraisalandservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Fine Art Appraisal and Services offers fine art appraisal services serving Chattanooga, TN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.fineartappraisalandservices.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartappraisalandservices.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJScfYtbw0K4gRG7kkA_GMo_g",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

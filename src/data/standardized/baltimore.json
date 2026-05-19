@@ -1,0 +1,143 @@
+{
+  "appraisers": [
+    {
+      "id": "baltimore-appraisals-of-value",
+      "name": "Appraisals of Value, LLC",
+      "slug": "appraisals-of-value",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "",
+        "formatted": "Baltimore, MD"
+      },
+      "contact": {
+        "phone": "443-761-4018",
+        "email": "info@appraisalsofvalue.com",
+        "website": "https://www.appraisalsofvalue.com/index.html"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "Professional appraisal affiliation referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
+        ]
+      },
+      "content": {
+        "about": "Appraisals of Value, LLC offers fine art appraisal and advisory services serving Baltimore, MD. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.appraisalsofvalue.com/art_valuation.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.appraisalsofvalue.com/art_valuation.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJVVXFmzEFyIkR8Mr10Y2SktM",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned art valuation page for traditional and contemporary African art",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "baltimore-harrison-appraisals-llc-appraisal-firm-westminster-md",
+      "name": "Harrison Appraisals LLC",
+      "slug": "harrison-appraisals-llc-appraisal-firm-westminster-md",
+      "imageUrl": "https://harrisonappraisals.com/#logo",
+      "address": {
+        "street": "",
+        "city": "Baltimore",
+        "state": "MD",
+        "zip": "",
+        "formatted": "Baltimore, MD"
+      },
+      "contact": {
+        "phone": "+14108712017",
+        "email": "",
+        "website": "https://harrisonappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Harrison Appraisals LLC offers fine art appraisal services serving Baltimore, MD. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://harrisonappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://harrisonappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJPdouYww4yIkRiC9ipFF_ir8",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

@@ -1,74 +1,993 @@
 {
   "appraisers": [
     {
-      "id": "momaa-museum-modern-american-art",
-      "name": "MoMAA (Museum of Modern American Art)",
-      "slug": "momaa-museum-of-modern-american-art",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862",
+      "id": "miami-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
       "address": {
-        "street": "1234 Museum Way",
+        "street": "1010 Museum Way",
         "city": "Miami",
         "state": "FL",
-        "zip": "32887",
-        "formatted": "1234 Museum Way, Miami, FL 32887"
+        "zip": "33139",
+        "formatted": "1010 Museum Way, Miami, FL 33139"
       },
       "contact": {
-        "phone": "774-873-4981",
-        "email": "info@momaa.org",
-        "website": "https://momaa.org/art-appraisal-miami/"
+        "phone": "628-643-6724",
+        "email": "info@www.art-appraisals.net",
+        "website": "http://www.art-appraisals.net"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Decades of experience",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
           }
         ],
-        "pricing": "Fees undisclosed; PDF report provided within 3 business days",
-        "rating": 4.8,
-        "reviewCount": 11
+        "pricing": "Project-based",
+        "rating": 4.6,
+        "reviewCount": 9
       },
       "expertise": {
         "specialties": [
-          "General fine art",
-          "Online appraisals (paintings, sculptures)"
+          "European Art",
+          "American Art",
+          "Contemporary",
+          "Modern",
+          "Impressionist",
+          "19th-century works"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
           "Art appraisals",
-          "Detailed PDF reports",
-          "Online service"
+          "Expert witness services",
+          "Litigation support",
+          "Authentication research"
         ]
       },
       "content": {
-        "about": "MoMAA (Museum of Modern American Art) provides professional art appraisal services specializing in General fine art, Online appraisals (paintings, sculptures). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Offers high-resolution image based appraisals with a 3-day turnaround for South Florida."
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Specializes in a broad range of European and American art styles."
       },
       "reviews": [
         {
-          "author": "Susan W.",
-          "rating": 5,
-          "date": "2025-03-10",
+          "author": "Jessica S.",
+          "rating": 4,
+          "date": "2025-01-26",
           "content": "They took the time to explain the valuation process and answered all my questions."
         },
         {
-          "author": "Patricia T.",
+          "author": "Linda T.",
+          "rating": 4,
+          "date": "2025-01-17",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Michael T.",
+          "rating": 4.5,
+          "date": "2024-12-29",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-antique-and-fine-art-appraisals",
+      "name": "Antique & Fine Art Appraisals",
+      "slug": "antique-and-fine-art-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "+1 305-975-5423",
+        "email": "richardschlom@aol.com",
+        "website": "http://www.richardschlom-antiqueappraiser.com"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique & Fine Art Appraisals offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJy-McO8-t2YgRiiaPJlwL53c",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-antique-art-buyers",
+      "name": "Antique Art Buyers",
+      "slug": "antique-art-buyers",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
+      "address": {
+        "street": "888 Washington Ave",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "32311",
+        "formatted": "888 Washington Ave, Miami, FL 32311"
+      },
+      "contact": {
+        "phone": "597-193-5270",
+        "email": "info@antiqueartbuyers.com",
+        "website": "https://antiqueartbuyers.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Free verbal valuations",
+        "rating": 4.7,
+        "reviewCount": 12
+      },
+      "expertise": {
+        "specialties": [
+          "Antique paintings"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free verbal appraisals"
+        ]
+      },
+      "content": {
+        "about": "Antique Art Buyers provides professional art appraisal services specializing in Antique paintings. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Focuses on free verbal valuations for sellers in Miami-Dade County."
+      },
+      "reviews": [
+        {
+          "author": "James D.",
           "rating": 5,
-          "date": "2025-02-14",
+          "date": "2025-03-13",
           "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         },
         {
-          "author": "David C.",
+          "author": "Patricia R.",
+          "rating": 1,
+          "date": "2025-02-20",
+          "content": "Knowledgeable team, though communication could have been better during the process."
+        },
+        {
+          "author": "Emily S.",
+          "rating": 4,
+          "date": "2025-01-27",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "anubis-appraisal-estate-services-miami-fl",
+      "name": "Anubis Appraisal & Estate Services",
+      "slug": "anubis-appraisal-estate-services",
+      "imageUrl": "",
+      "address": {
+        "street": "4706 SW 67th Ave Suite M5",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33156",
+        "formatted": "4706 SW 67th Ave Suite M5, Miami, FL 33156"
+      },
+      "contact": {
+        "phone": "(305) 446-1820",
+        "email": "",
+        "website": "https://www.anubisappraisal.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 2003; 30+ years auction house experience",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "American and European Furniture and Decorations",
+          "American and European Paintings, Prints and Drawings",
+          "Cuban and Latin American Fine Art",
+          "Contemporary Art",
+          "African, Oceanic and Pre-Columbian Art",
+          "Antiquities",
+          "Jewelry and Watches",
+          "American and European Silver"
+        ],
+        "certifications": [
+          "ISA AM (International Society of Appraisers, Accredited Member)"
+        ],
+        "services": [
+          "Estate and Probate Appraisals",
+          "Insurance Coverage Appraisals",
+          "Insurance Loss/Damage Appraisals",
+          "Charitable Contribution Appraisals",
+          "Equitable Distribution",
+          "Bankruptcy Appraisals",
+          "Dissolution of Marriage Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Anubis Appraisal & Estate Services, Inc. was founded in 2003 by Tara Ana Finley, ISA, AM as a premier nationwide fine art and residential contents appraisal company. With more than 30 years of auction house experience in the antiques, fine arts, and antiquities fields, the firm has built a reputation on integrity and personalized service supported by extensive market expertise. They specialize in American and European art, Cuban and Latin American fine art, antiquities, and a broad range of decorative arts.",
+        "notes": "Nationwide service available; ISA AM accredited appraiser."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-frances-redell-white-appraisal-consultant-services",
+      "name": "Appraisal and Consulting Services",
+      "slug": "frances-redell-white-appraisal-consultant-services",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "813-643-6216",
+        "email": "fwhitefineart@gmail.com",
+        "website": "https://appraisalconsultant.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "Professional appraisal affiliation referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
+        ]
+      },
+      "content": {
+        "about": "Appraisal and Consulting Services offers fine art appraisal and advisory services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://appraisalconsultant.com/appraisal-services/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://appraisalconsultant.com/appraisal-services/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJfUlfnw3DwogR5zGGm3dIWFI",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned appraisal-services page for AAA fine art appraisal consultant",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "miami-art-of-estates-personal-property-appraisal-firm",
+      "name": "Art of Estates - Art Appraisal & Consulting",
+      "slug": "art-of-estates-personal-property-appraisal-firm",
+      "imageUrl": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "+1 720.495.3753",
+        "email": "MyFineArt@email.com",
+        "website": "https://artofestates.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art of Estates - Art Appraisal & Consulting offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://artofestates.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://artofestates.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ0UkpRMuHa4cROrQxpLcnqOI",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-art-services-2000-ltd-fine-art-appraisals",
+      "name": "Art Services 2000 Ltd. Fine Art Appraisals",
+      "slug": "art-services-2000-ltd-fine-art-appraisals",
+      "imageUrl": "https://static.wixstatic.com/media/548cf6_676192a2b4ef4019921a580ea1f1767f.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/548cf6_676192a2b4ef4019921a580ea1f1767f.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "+ 386-742-6786",
+        "email": "artserv2000@yahoo.com",
+        "website": "https://www.artserv2000.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Art Services 2000 Ltd. Fine Art Appraisals offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.artserv2000.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.artserv2000.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ8WhJHbCV5ogRIhxY-vIZ72I",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-chris-ingalls",
+      "name": "Chris Ingalls",
+      "slug": "chris-ingalls",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.appraisalssofla.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art - American",
+          "Art - Impressionist & Modern",
+          "Art - Latin American",
+          "Photography & Photographs",
+          "Sculpture",
+          "ISA AM"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Chris Ingalls offers art appraisal services serving Miami, FL. FAIR directory data indicates specialties in Art - American, Art - Impressionist & Modern, Art - Latin American, Photography & Photographs, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: appraisalssofla.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-1019"
+      }
+    },
+    {
+      "id": "miami-constantine-fine-art-services",
+      "name": "Constantine Fine Art Services",
+      "slug": "constantine-fine-art-services",
+      "imageUrl": "https://static.wixstatic.com/media/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "646-881-2266",
+        "email": "info@constantineusa.com",
+        "website": "https://www.constantineusa.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Constantine Fine Art Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.constantineusa.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.constantineusa.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJXaX_7CNAbmgRIJb2N7U9nsE",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-emmett-appraisal-consulting-group",
+      "name": "Emmett Appraisal & Consulting Group",
+      "slug": "emmett-appraisal-consulting-group",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://estateservicesappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Emmett Appraisal & Consulting Group offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://coralgables.legistar.com/View.ashx?GUID=2B12F9D6-5254-4F00-9085-24EC15FE49C0&ID=10566056&M=F. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://coralgables.legistar.com/View.ashx?GUID=2B12F9D6-5254-4F00-9085-24EC15FE49C0&ID=10566056&M=F",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "official_public_appraisal_report_and_affiliated_owned_site",
+          "notes": "Official Coral Gables appraisal report identifies Emmett Appraisal & Consulting Group as personal property appraisers and consultants from 2017-present, with USPAP, IRS qualified appraiser, and AQB personal property qualification evidence. Modernism FAQ says appraisals are handled through Estate Services Appraisals at estateservicesappraisals.com and names Jennifer Bird, ISA-AM and Ric Emmett, ISA-AM. Candidate domain itself returned HTTP 403 to fetches, so phone/email/logo were left blank."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ60pDMXS32YgRCXtyPQyoeiw",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal"
+        ]
+      }
+    },
+    {
+      "id": "miami-escher-associates",
+      "name": "Escher Associates",
+      "slug": "escher-associates",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg?updatedAt=1741088846644",
+      "address": {
+        "street": "999 Gallery Row",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33139",
+        "formatted": "999 Gallery Row, Miami, FL 33139"
+      },
+      "contact": {
+        "phone": "332-757-2499",
+        "email": "info@www.escher-associates.com",
+        "website": "http://www.escher-associates.com"
+      },
+      "business": {
+        "yearsInBusiness": "Founded in 1984",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$350/hour or $2,500/day plus expenses",
+        "rating": 4.9,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "Paintings",
+          "Sculpture",
+          "Photography",
+          "Rare books"
+        ],
+        "certifications": [
+          "ASA-certified"
+        ],
+        "services": [
+          "Art appraisals",
+          "Expert witness services",
+          "Fraud case handling"
+        ]
+      },
+      "content": {
+        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Handled art fraud cases with LAPD and adheres to USPAP and ASA standards."
+      },
+      "reviews": [
+        {
+          "author": "Patricia J.",
           "rating": 5,
-          "date": "2024-12-20",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+          "date": "2025-03-12",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Nancy D.",
+          "rating": 5,
+          "date": "2024-10-19",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Jessica J.",
+          "rating": 4.5,
+          "date": "2024-10-09",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-appraisals-miami-fl-estate-and-appraisal-services-inc",
+      "name": "Estate & Appraisal Services",
+      "slug": "appraisals-miami-fl-estate-and-appraisal-services-inc",
+      "imageUrl": "https://irp.cdn-website.com/e2d2caba/site_favicon_16_1619610468061.ico",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "305-665-5995",
+        "email": "gg9300@aol.com",
+        "website": "https://www.jewelryandcoinbuyers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Estate & Appraisal Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.jewelryandcoinbuyers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.jewelryandcoinbuyers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJR7ThlqXH2YgRRnZMtkl_xvs",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "estate-appraisal-services-inc-miami-fl",
+      "name": "Estate & Appraisal Services Inc",
+      "slug": "estate-appraisal-services-inc",
+      "imageUrl": "",
+      "address": {
+        "street": "9300 S Dixie Hwy",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33156",
+        "formatted": "9300 S Dixie Hwy, Miami, FL 33156"
+      },
+      "contact": {
+        "phone": "(305) 547-9400",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "10:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 4
+      },
+      "expertise": {
+        "specialties": [
+          "Estate appraisals",
+          "Jewelry appraisals",
+          "Fine art valuations",
+          "Antique appraisals"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Estate appraisals",
+          "Jewelry appraisals",
+          "Fine art valuations"
+        ]
+      },
+      "content": {
+        "about": "Estate & Appraisal Services Inc provides professional estate and appraisal services from their location on South Dixie Highway in Miami. They specialize in estate appraisals, jewelry appraisals, and fine art valuations with a reputation for quality service.",
+        "notes": "Also offers jewelry buying services."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861",
+      "address": {
+        "street": "789 Lincoln Rd",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33139",
+        "formatted": "789 Lincoln Rd, Miami, FL 33139"
+      },
+      "contact": {
+        "phone": "797-396-2500",
+        "email": "info@www.gurrjohns.com",
+        "website": "http://www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 9
+      },
+      "expertise": {
+        "specialties": [
+          "High-value art appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "Art appraisals",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "David W.",
+          "rating": 4.5,
+          "date": "2025-02-20",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Linda A.",
+          "rating": 2,
+          "date": "2025-02-15",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        },
+        {
+          "author": "Patricia D.",
+          "rating": 4.5,
+          "date": "2024-11-29",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         }
       ],
       "metadata": {
@@ -149,83 +1068,6 @@
           "rating": 5,
           "date": "2024-12-18",
           "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "miami-antique-art-buyers",
-      "name": "Antique Art Buyers",
-      "slug": "antique-art-buyers",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_portland-anderson-fine-art-appraisals_1741087728248_5g-Gn3TTq.jpg?updatedAt=1741087729386",
-      "address": {
-        "street": "888 Washington Ave",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "32311",
-        "formatted": "888 Washington Ave, Miami, FL 32311"
-      },
-      "contact": {
-        "phone": "597-193-5270",
-        "email": "info@antiqueartbuyers.com",
-        "website": "https://antiqueartbuyers.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Free verbal valuations",
-        "rating": 4.7,
-        "reviewCount": 12
-      },
-      "expertise": {
-        "specialties": [
-          "Antique paintings"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Free verbal appraisals"
-        ]
-      },
-      "content": {
-        "about": "Antique Art Buyers provides professional art appraisal services specializing in Antique paintings. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Focuses on free verbal valuations for sellers in Miami-Dade County."
-      },
-      "reviews": [
-        {
-          "author": "James D.",
-          "rating": 5,
-          "date": "2025-03-13",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Patricia R.",
-          "rating": 1,
-          "date": "2025-02-20",
-          "content": "Knowledgeable team, though communication could have been better during the process."
-        },
-        {
-          "author": "Emily S.",
-          "rating": 4,
-          "date": "2025-01-27",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
         }
       ],
       "metadata": {
@@ -315,6 +1157,222 @@
       }
     },
     {
+      "id": "midori-gallery-antique-oriental-art-miami-fl",
+      "name": "Midori Gallery Antique Oriental Art",
+      "slug": "midori-gallery-antique-oriental-art",
+      "imageUrl": "",
+      "address": {
+        "street": "3168 Commodore Plz",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33133",
+        "formatted": "3168 Commodore Plz, Miami, FL 33133"
+      },
+      "contact": {
+        "phone": "(305) 443-3399",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Far Eastern Artifacts",
+          "Asian Antiques",
+          "Oriental Art",
+          "Japanese Art",
+          "Chinese Art"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisals",
+          "Antique valuations",
+          "Asian art authentication"
+        ]
+      },
+      "content": {
+        "about": "Midori Gallery is a two-story emporium with a remarkable selection of Far Eastern artifacts assembled in South Florida. The gallery specializes in Oriental art, Japanese and Chinese antiques, and provides professional appraisal services for collectors and institutions.",
+        "notes": "Located in Coconut Grove, Miami."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "miami-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg?updatedAt=1741088888767",
+      "address": {
+        "street": "456 Main St",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33139",
+        "formatted": "456 Main St, Miami, FL 33139"
+      },
+      "contact": {
+        "phone": "174-884-2913",
+        "email": "info@www.mimesisgallery.com",
+        "website": "http://www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "20% fee up to $500K; 10% fee for amounts above $500K",
+        "rating": 4.5,
+        "reviewCount": 14
+      },
+      "expertise": {
+        "specialties": [
+          "Free art valuations",
+          "Consignment-based sales"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment services"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free art valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers same-day offers and operates on a consignment-based sales model."
+      },
+      "reviews": [
+        {
+          "author": "Nancy M.",
+          "rating": 4,
+          "date": "2025-01-30",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Sarah B.",
+          "rating": 5,
+          "date": "2025-01-28",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
+        },
+        {
+          "author": "Jennifer A.",
+          "rating": 4.5,
+          "date": "2025-01-17",
+          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "momaa-museum-modern-american-art",
+      "name": "MoMAA (Museum of Modern American Art)",
+      "slug": "momaa-museum-of-modern-american-art",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862",
+      "address": {
+        "street": "1234 Museum Way",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "32887",
+        "formatted": "1234 Museum Way, Miami, FL 32887"
+      },
+      "contact": {
+        "phone": "774-873-4981",
+        "email": "info@momaa.org",
+        "website": "https://momaa.org/art-appraisal-miami/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Fees undisclosed; PDF report provided within 3 business days",
+        "rating": 4.8,
+        "reviewCount": 11
+      },
+      "expertise": {
+        "specialties": [
+          "General fine art",
+          "Online appraisals (paintings, sculptures)"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art appraisals",
+          "Detailed PDF reports",
+          "Online service"
+        ]
+      },
+      "content": {
+        "about": "MoMAA (Museum of Modern American Art) provides professional art appraisal services specializing in General fine art, Online appraisals (paintings, sculptures). With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Offers high-resolution image based appraisals with a 3-day turnaround for South Florida."
+      },
+      "reviews": [
+        {
+          "author": "Susan W.",
+          "rating": 5,
+          "date": "2025-03-10",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Patricia T.",
+          "rating": 5,
+          "date": "2025-02-14",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "David C.",
+          "rating": 5,
+          "date": "2024-12-20",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "miami-myriam-nader-salomon-myriam-nader-haitian-art-gallery",
       "name": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
       "slug": "myriam-nader-salomon-myriam-nader-haitian-art-gallery",
@@ -386,245 +1444,6 @@
           "rating": 5,
           "date": "2025-01-03",
           "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "miami-the-fine-art-group",
-      "name": "The Fine Art Group",
-      "slug": "the-fine-art-group",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
-      "address": {
-        "street": "2020 Elm St",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "32749",
-        "formatted": "2020 Elm St, Miami, FL 32749"
-      },
-      "contact": {
-        "phone": "325-223-8989",
-        "email": "info@www.fineartgroup.com",
-        "website": "https://www.fineartgroup.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 15
-      },
-      "expertise": {
-        "specialties": [
-          "High-value art investment advisory",
-          "Art appraisals"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art advisory",
-          "Art appraisals",
-          "Investment advisory"
-        ]
-      },
-      "content": {
-        "about": "The Fine Art Group provides professional art appraisal services specializing in High-value art investment advisory, Art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Operates globally with a local presence in Miami."
-      },
-      "reviews": [
-        {
-          "author": "Sarah R.",
-          "rating": 4.5,
-          "date": "2025-01-19",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Michael S.",
-          "rating": 4,
-          "date": "2024-12-25",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Sarah M.",
-          "rating": 4.5,
-          "date": "2024-11-15",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "miami-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
-      "address": {
-        "street": "1010 Museum Way",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "33139",
-        "formatted": "1010 Museum Way, Miami, FL 33139"
-      },
-      "contact": {
-        "phone": "628-643-6724",
-        "email": "info@www.art-appraisals.net",
-        "website": "http://www.art-appraisals.net"
-      },
-      "business": {
-        "yearsInBusiness": "Decades of experience",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Project-based",
-        "rating": 4.6,
-        "reviewCount": 9
-      },
-      "expertise": {
-        "specialties": [
-          "European Art",
-          "American Art",
-          "Contemporary",
-          "Modern",
-          "Impressionist",
-          "19th-century works"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art appraisals",
-          "Expert witness services",
-          "Litigation support",
-          "Authentication research"
-        ]
-      },
-      "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works. With Decades of experience experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Specializes in a broad range of European and American art styles."
-      },
-      "reviews": [
-        {
-          "author": "Jessica S.",
-          "rating": 4,
-          "date": "2025-01-26",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Linda T.",
-          "rating": 4,
-          "date": "2025-01-17",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Michael T.",
-          "rating": 4.5,
-          "date": "2024-12-29",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "miami-escher-associates",
-      "name": "Escher Associates",
-      "slug": "escher-associates",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-escher-associates-ea_1741088845215_PMNzPZJlN.jpg?updatedAt=1741088846644",
-      "address": {
-        "street": "999 Gallery Row",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "33139",
-        "formatted": "999 Gallery Row, Miami, FL 33139"
-      },
-      "contact": {
-        "phone": "332-757-2499",
-        "email": "info@www.escher-associates.com",
-        "website": "http://www.escher-associates.com"
-      },
-      "business": {
-        "yearsInBusiness": "Founded in 1984",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "$350/hour or $2,500/day plus expenses",
-        "rating": 4.9,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "Paintings",
-          "Sculpture",
-          "Photography",
-          "Rare books"
-        ],
-        "certifications": [
-          "ASA-certified"
-        ],
-        "services": [
-          "Art appraisals",
-          "Expert witness services",
-          "Fraud case handling"
-        ]
-      },
-      "content": {
-        "about": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Founded in 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Handled art fraud cases with LAPD and adheres to USPAP and ASA standards."
-      },
-      "reviews": [
-        {
-          "author": "Patricia J.",
-          "rating": 5,
-          "date": "2025-03-12",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Nancy D.",
-          "rating": 5,
-          "date": "2024-10-19",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Jessica J.",
-          "rating": 4.5,
-          "date": "2024-10-09",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
         }
       ],
       "metadata": {
@@ -715,6 +1534,277 @@
       }
     },
     {
+      "id": "miami-palm-beach-appraisal-group",
+      "name": "Palm Beach Appraisal Group",
+      "slug": "palm-beach-appraisal-group",
+      "imageUrl": "https://www.palmbeachappraisalgroup.com/wp-content/uploads/2020/10/ICON-LOGO.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "561.403.1123",
+        "email": "palmbeachappraisalgroup@gmail.com",
+        "website": "https://www.palmbeachappraisalgroup.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Palm Beach Appraisal Group offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.palmbeachappraisalgroup.com/fine-art-appraisal/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.palmbeachappraisalgroup.com/fine-art-appraisal/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJm6QtGWIf2YgRolF5BaqxtWA",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Arts Appraiser",
+      "slug": "poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "imageUrl": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "508.577.7377",
+        "email": "linda@fineartsappraiser.com",
+        "website": "https://www.fineartsappraiser.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Poras Fine Arts Appraiser offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.fineartsappraiser.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fineartsappraiser.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJx-APJ2Kz2YgRlc7LX25-do8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-richard-beau-lieu-and-associates-fine-art-appraisers",
+      "name": "Richard Beau Lieu & Associates Fine Art Appraisers",
+      "slug": "richard-beau-lieu-and-associates-fine-art-appraisers",
+      "imageUrl": "https://fineartappraisersboyntonbeach.com/wp-content/uploads/favicon.png",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "+15617368181",
+        "email": "",
+        "website": "https://fineartappraisersboyntonbeach.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Richard Beau Lieu & Associates Fine Art Appraisers offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://fineartappraisersboyntonbeach.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://fineartappraisersboyntonbeach.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJFQuujkff2IgRk-YXrLS6Pks",
+        "confidenceScore": 105,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "miami-rlc-appraisals",
+      "name": "RLC Appraisals",
+      "slug": "rlc-appraisals",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Miami, FL"
+      },
+      "contact": {
+        "phone": "561.703.5866",
+        "email": "",
+        "website": "http://www.rlcappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "RLC Appraisals offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://www.rlcappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://www.rlcappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJSwU6dzcf2YgRP3JINIsF8kg",
+        "confidenceScore": 88,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states fine and decorative arts appraisal and consulting services",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
       "id": "miami-saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -793,100 +1883,92 @@
       }
     },
     {
-      "id": "miami-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861",
+      "id": "miami-tenhagen-appraisals",
+      "name": "Tenhagen Appraisals",
+      "slug": "tenhagen-appraisals",
+      "imageUrl": "http://tenhagen-appraisals.com/assets/images/favicon.png",
       "address": {
-        "street": "789 Lincoln Rd",
+        "street": "",
         "city": "Miami",
         "state": "FL",
-        "zip": "33139",
-        "formatted": "789 Lincoln Rd, Miami, FL 33139"
+        "zip": "",
+        "formatted": "Miami, FL"
       },
       "contact": {
-        "phone": "797-396-2500",
-        "email": "info@www.gurrjohns.com",
-        "website": "http://www.gurrjohns.com"
+        "phone": "305.374.2411",
+        "email": "Jane@tenhagen-appraisals.com",
+        "website": "http://tenhagen-appraisals.com/"
       },
       "business": {
-        "yearsInBusiness": "Established business",
+        "yearsInBusiness": "Contact for background details",
         "hours": [
           {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
+            "day": "Monday-Friday",
+            "hours": "By appointment"
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 9
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "High-value art appraisals",
-          "Expert witness services"
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
         ],
         "certifications": [
-          "USPAP compliant"
+          "Professional appraisal affiliation referenced by source"
         ],
         "services": [
-          "Art appraisals",
-          "Expert witness services"
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
         ]
       },
       "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm managing over $10 billion annually."
+        "about": "Tenhagen Appraisals offers fine art appraisal and advisory services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: http://tenhagen-appraisals.com/about.html. Human approval required before public import."
       },
-      "reviews": [
-        {
-          "author": "David W.",
-          "rating": 4.5,
-          "date": "2025-02-20",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Linda A.",
-          "rating": 2,
-          "date": "2025-02-15",
-          "content": "Good service overall, though the turnaround time was longer than expected."
-        },
-        {
-          "author": "Patricia D.",
-          "rating": 4.5,
-          "date": "2024-11-29",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://tenhagen-appraisals.com/about.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJaTC9HZy22YgReZs-Xrp3ahY",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site identifies art appraisal practice with contact page evidence",
+          "explicitly reviewed non-real-estate fit"
+        ]
       }
     },
     {
-      "id": "miami-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-clars-auctions_1741088887508_5Vy_Wg0P9.jpg?updatedAt=1741088888767",
+      "id": "miami-the-fine-art-group",
+      "name": "The Fine Art Group",
+      "slug": "the-fine-art-group",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
       "address": {
-        "street": "456 Main St",
+        "street": "2020 Elm St",
         "city": "Miami",
         "state": "FL",
-        "zip": "33139",
-        "formatted": "456 Main St, Miami, FL 33139"
+        "zip": "32749",
+        "formatted": "2020 Elm St, Miami, FL 32749"
       },
       "contact": {
-        "phone": "174-884-2913",
-        "email": "info@www.mimesisgallery.com",
-        "website": "http://www.mimesisgallery.com"
+        "phone": "325-223-8989",
+        "email": "info@www.fineartgroup.com",
+        "website": "https://www.fineartgroup.com"
       },
       "business": {
         "yearsInBusiness": "Established business",
@@ -904,244 +1986,50 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "20% fee up to $500K; 10% fee for amounts above $500K",
+        "pricing": "Contact for pricing information",
         "rating": 4.5,
-        "reviewCount": 14
+        "reviewCount": 15
       },
       "expertise": {
         "specialties": [
-          "Free art valuations",
-          "Consignment-based sales"
+          "High-value art investment advisory",
+          "Art appraisals"
         ],
         "certifications": [
           "Professional Appraiser"
         ],
         "services": [
-          "Free valuations",
-          "Same-day offers",
-          "Consignment services"
+          "Art advisory",
+          "Art appraisals",
+          "Investment advisory"
         ]
       },
       "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Free art valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Offers same-day offers and operates on a consignment-based sales model."
+        "about": "The Fine Art Group provides professional art appraisal services specializing in High-value art investment advisory, Art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Operates globally with a local presence in Miami."
       },
       "reviews": [
         {
-          "author": "Nancy M.",
-          "rating": 4,
-          "date": "2025-01-30",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Sarah B.",
-          "rating": 5,
-          "date": "2025-01-28",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Their knowledge of the market is impressive."
-        },
-        {
-          "author": "Jennifer A.",
+          "author": "Sarah R.",
           "rating": 4.5,
-          "date": "2025-01-17",
+          "date": "2025-01-19",
           "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
+        },
+        {
+          "author": "Michael S.",
+          "rating": 4,
+          "date": "2024-12-25",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Sarah M.",
+          "rating": 4.5,
+          "date": "2024-11-15",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
         }
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "anubis-appraisal-estate-services-miami-fl",
-      "name": "Anubis Appraisal & Estate Services",
-      "slug": "anubis-appraisal-estate-services",
-      "imageUrl": "",
-      "address": {
-        "street": "4706 SW 67th Ave Suite M5",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "33156",
-        "formatted": "4706 SW 67th Ave Suite M5, Miami, FL 33156"
-      },
-      "contact": {
-        "phone": "(305) 446-1820",
-        "email": "",
-        "website": "https://www.anubisappraisal.com"
-      },
-      "business": {
-        "yearsInBusiness": "Founded in 2003; 30+ years auction house experience",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "American and European Furniture and Decorations",
-          "American and European Paintings, Prints and Drawings",
-          "Cuban and Latin American Fine Art",
-          "Contemporary Art",
-          "African, Oceanic and Pre-Columbian Art",
-          "Antiquities",
-          "Jewelry and Watches",
-          "American and European Silver"
-        ],
-        "certifications": [
-          "ISA AM (International Society of Appraisers, Accredited Member)"
-        ],
-        "services": [
-          "Estate and Probate Appraisals",
-          "Insurance Coverage Appraisals",
-          "Insurance Loss/Damage Appraisals",
-          "Charitable Contribution Appraisals",
-          "Equitable Distribution",
-          "Bankruptcy Appraisals",
-          "Dissolution of Marriage Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Anubis Appraisal & Estate Services, Inc. was founded in 2003 by Tara Ana Finley, ISA, AM as a premier nationwide fine art and residential contents appraisal company. With more than 30 years of auction house experience in the antiques, fine arts, and antiquities fields, the firm has built a reputation on integrity and personalized service supported by extensive market expertise. They specialize in American and European art, Cuban and Latin American fine art, antiquities, and a broad range of decorative arts.",
-        "notes": "Nationwide service available; ISA AM accredited appraiser."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "midori-gallery-antique-oriental-art-miami-fl",
-      "name": "Midori Gallery Antique Oriental Art",
-      "slug": "midori-gallery-antique-oriental-art",
-      "imageUrl": "",
-      "address": {
-        "street": "3168 Commodore Plz",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "33133",
-        "formatted": "3168 Commodore Plz, Miami, FL 33133"
-      },
-      "contact": {
-        "phone": "(305) 443-3399",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Far Eastern Artifacts",
-          "Asian Antiques",
-          "Oriental Art",
-          "Japanese Art",
-          "Chinese Art"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art appraisals",
-          "Antique valuations",
-          "Asian art authentication"
-        ]
-      },
-      "content": {
-        "about": "Midori Gallery is a two-story emporium with a remarkable selection of Far Eastern artifacts assembled in South Florida. The gallery specializes in Oriental art, Japanese and Chinese antiques, and provides professional appraisal services for collectors and institutions.",
-        "notes": "Located in Coconut Grove, Miami."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "estate-appraisal-services-inc-miami-fl",
-      "name": "Estate & Appraisal Services Inc",
-      "slug": "estate-appraisal-services-inc",
-      "imageUrl": "",
-      "address": {
-        "street": "9300 S Dixie Hwy",
-        "city": "Miami",
-        "state": "FL",
-        "zip": "33156",
-        "formatted": "9300 S Dixie Hwy, Miami, FL 33156"
-      },
-      "contact": {
-        "phone": "(305) 547-9400",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "10:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 4
-      },
-      "expertise": {
-        "specialties": [
-          "Estate appraisals",
-          "Jewelry appraisals",
-          "Fine art valuations",
-          "Antique appraisals"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Estate appraisals",
-          "Jewelry appraisals",
-          "Fine art valuations"
-        ]
-      },
-      "content": {
-        "about": "Estate & Appraisal Services Inc provides professional estate and appraisal services from their location on South Dixie Highway in Miami. They specialize in estate appraisals, jewelry appraisals, and fine art valuations with a reputation for quality service.",
-        "notes": "Also offers jewelry buying services."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
         "inService": true
       }
     }

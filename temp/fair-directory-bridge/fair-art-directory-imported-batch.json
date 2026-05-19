@@ -1,0 +1,181 @@
+{
+  "generatedAt": "2026-04-17T11:46:13.277Z",
+  "importedCount": 25,
+  "imported": [
+    {
+      "citySlug": "woodside",
+      "slug": "perri-guthrie",
+      "id": "woodside-perri-guthrie",
+      "name": "Perri Guthrie",
+      "website": "http://www.perriguthrie.com/"
+    },
+    {
+      "citySlug": "lancaster",
+      "slug": "amy-i-schlegel",
+      "id": "lancaster-amy-i-schlegel",
+      "name": "Amy I Schlegel",
+      "website": "http://www.schlegelfineart.com/"
+    },
+    {
+      "citySlug": "dallas",
+      "slug": "brenda-simonson-mohle",
+      "id": "dallas-brenda-simonson-mohle",
+      "name": "Brenda Simonson-Mohle",
+      "website": "http://www.signetart.com/"
+    },
+    {
+      "citySlug": "rockville",
+      "slug": "charles-barry-goldstein",
+      "id": "rockville-charles-barry-goldstein",
+      "name": "Charles Barry Goldstein",
+      "website": "http://www.forensicartappraiser.com/"
+    },
+    {
+      "citySlug": "beverly-hills",
+      "slug": "dina-brown",
+      "id": "beverly-hills-dina-brown",
+      "name": "Dina Brown",
+      "website": "http://www.dinabrownartappraisals.com/"
+    },
+    {
+      "citySlug": "redondo-beach",
+      "slug": "elizabeth-blackmar",
+      "id": "redondo-beach-elizabeth-blackmar",
+      "name": "Elizabeth Blackmar",
+      "website": "http://www.southbayartappraisals.com/"
+    },
+    {
+      "citySlug": "austin",
+      "slug": "erin-e-keever",
+      "id": "austin-erin-e-keever",
+      "name": "Erin E Keever",
+      "website": "https://erinkeever.com/"
+    },
+    {
+      "citySlug": "solana-beach",
+      "slug": "jennifer-e-salvetti-kulla-ma",
+      "id": "solana-beach-jennifer-e-salvetti-kulla-ma",
+      "name": "Jennifer E Salvetti-Kulla, MA",
+      "website": "https://jskfineartappraisals.com/"
+    },
+    {
+      "citySlug": "schaumburg",
+      "slug": "jessica-berger",
+      "id": "schaumburg-jessica-berger",
+      "name": "Jessica Berger",
+      "website": "http://www.abhfineartadvisory.com/"
+    },
+    {
+      "citySlug": "jacksonville-beach",
+      "slug": "julia-r-bluett",
+      "id": "jacksonville-beach-julia-r-bluett",
+      "name": "Julia R. Bluett",
+      "website": "http://bluettartappraisers.com/"
+    },
+    {
+      "citySlug": "kansas-city",
+      "slug": "justin-rogers",
+      "id": "kansas-city-justin-rogers",
+      "name": "Justin Rogers",
+      "website": "http://rogersfineart.com/"
+    },
+    {
+      "citySlug": "chicago",
+      "slug": "lindsey-m-owen",
+      "id": "chicago-lindsey-m-owen",
+      "name": "Lindsey M Owen",
+      "website": "http://www.loappraisals.com/"
+    },
+    {
+      "citySlug": "new-york",
+      "slug": "maria-tarrence",
+      "id": "new-york-maria-tarrence",
+      "name": "Maria Tarrence",
+      "website": "http://www.capitalartgroup.com/"
+    },
+    {
+      "citySlug": "san-francisco",
+      "slug": "rosalie-wardell",
+      "id": "san-francisco-rosalie-wardell",
+      "name": "Rosalie Wardell",
+      "website": "http://www.wardellappraisals.com/"
+    },
+    {
+      "citySlug": "langley",
+      "slug": "william-s-stamats",
+      "id": "langley-william-s-stamats",
+      "name": "William S Stamats",
+      "website": "http://www.stamatsartappraisals.com/"
+    },
+    {
+      "citySlug": "detroit",
+      "slug": "isabelle-m-weiss",
+      "id": "detroit-isabelle-m-weiss",
+      "name": "Isabelle M Weiss",
+      "website": "http://collectoranonymous.com/"
+    },
+    {
+      "citySlug": "fort-worth",
+      "slug": "anne-kelly-lewis",
+      "id": "fort-worth-anne-kelly-lewis",
+      "name": "Anne Kelly Lewis",
+      "website": "http://www.fineartappraisalllc.com/"
+    },
+    {
+      "citySlug": "addison",
+      "slug": "carrie-young",
+      "id": "addison-carrie-young",
+      "name": "Carrie Young",
+      "website": "https://leonardappraisal.com/"
+    },
+    {
+      "citySlug": "miami",
+      "slug": "chris-ingalls",
+      "id": "miami-chris-ingalls",
+      "name": "Chris Ingalls",
+      "website": "http://www.appraisalssofla.com/"
+    },
+    {
+      "citySlug": "colleyville",
+      "slug": "christine-guernsey",
+      "id": "colleyville-christine-guernsey",
+      "name": "Christine Guernsey",
+      "website": "http://www.fineartofappraising.com/"
+    },
+    {
+      "citySlug": "milwaukee",
+      "slug": "christine-h-anderson-isa-am",
+      "id": "milwaukee-christine-h-anderson-isa-am",
+      "name": "Christine H Anderson, ISA AM",
+      "website": "https://www.guardianfineart.com/"
+    },
+    {
+      "citySlug": "ranchos-de-taos",
+      "slug": "elise-waters-olonia",
+      "id": "ranchos-de-taos-elise-waters-olonia",
+      "name": "Elise Waters Olonia",
+      "website": "http://www.fineartservices.info/"
+    },
+    {
+      "citySlug": "houston",
+      "slug": "heidi-vaughan-ma-isa-am",
+      "id": "houston-heidi-vaughan-ma-isa-am",
+      "name": "Heidi Vaughan, MA, ISA AM",
+      "website": "http://heidivaughanfineart.com/"
+    },
+    {
+      "citySlug": "dallas",
+      "slug": "kim-a-kasten",
+      "id": "dallas-kim-a-kasten",
+      "name": "Kim A. Kasten",
+      "website": "http://www.kastenartappraisal.com/"
+    },
+    {
+      "citySlug": "orlando",
+      "slug": "lauren-k-stump",
+      "id": "orlando-lauren-k-stump",
+      "name": "Lauren K. Stump",
+      "website": "http://www.hollingsworthfinearts.com/"
+    }
+  ]
+}

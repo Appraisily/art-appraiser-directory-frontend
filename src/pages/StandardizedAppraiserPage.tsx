@@ -4,15 +4,23 @@ import { MapPin, Star, Mail, Phone, Globe, Clock, ChevronRight, Shield } from 'l
 import { getStandardizedAppraiser, StandardizedAppraiser } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
 import { SITE_URL, buildSiteUrl, getPrimaryCtaUrl } from '../config/site';
-import { DEFAULT_PLACEHOLDER_IMAGE } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 import { normalizeAssetUrl } from '../utils/assetUrls';
+
+function getFallbackInitials(name: string): string {
+  return (name.match(/[A-Za-z0-9]+/g) || [])
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join('')
+    .toUpperCase() || 'AP';
+}
 
 export function StandardizedAppraiserPage() {
   const { appraiserId } = useParams<{ appraiserId: string }>();
   const [appraiser, setAppraiser] = useState<StandardizedAppraiser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [imageUnavailable, setImageUnavailable] = useState(false);
   const primaryCtaUrl = getPrimaryCtaUrl();
 
   const handleContactClick = (channel: 'phone' | 'email' | 'website' | 'address', placement: string) => {
@@ -43,6 +51,7 @@ export function StandardizedAppraiserPage() {
       
       try {
         setIsLoading(true);
+        setImageUnavailable(false);
         const data = await getStandardizedAppraiser(appraiserId);
         if (data) {
           setAppraiser(data);
@@ -241,6 +250,12 @@ export function StandardizedAppraiserPage() {
   const canonicalAppraiserId = appraiser.id || appraiser.slug || appraiserId || '';
   const gtmAppraiserId = canonicalAppraiserId;
   const gtmAppraiserName = appraiser.name;
+  const appraiserWebsite = appraiser.contact.website
+    ? appraiser.contact.website.startsWith('http')
+      ? appraiser.contact.website
+      : `https://${appraiser.contact.website}`
+    : '';
+  const appraiserEmail = appraiser.contact.email.trim();
 
   const schemaBlocks = [
     generateAppraiserSchema(),
@@ -281,15 +296,59 @@ export function StandardizedAppraiserPage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="md:col-span-1">
           <div className="rounded-lg overflow-hidden shadow-md mb-6">
-            <img 
-              src={normalizeAssetUrl(appraiser.imageUrl)} 
-              alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
-              className="w-full h-auto"
-              onError={(e) => {
-                const target = e.target as HTMLImageElement;
-                target.src = DEFAULT_PLACEHOLDER_IMAGE;
-              }}
-            />
+            {appraiserWebsite ? (
+              <a
+                href={appraiserWebsite}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Visit ${appraiser.name} website`}
+                data-gtm-event="directory_cta"
+                data-gtm-cta="website"
+                data-gtm-surface="profile_image"
+                data-gtm-appraiser-id={gtmAppraiserId}
+                data-gtm-appraiser-name={gtmAppraiserName}
+                onClick={() => handleContactClick('website', 'profile_image')}
+              >
+                {imageUnavailable ? (
+                  <div className="flex aspect-square w-full items-center justify-center bg-[#F6F4EF] text-5xl font-semibold text-[#0F172A]">
+                    {getFallbackInitials(appraiser.name)}
+                  </div>
+                ) : (
+                  <img
+                    src={normalizeAssetUrl(appraiser.imageUrl)}
+                    alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
+                    className="w-full h-auto"
+                    onError={() => setImageUnavailable(true)}
+                    onLoad={(event) => {
+                      const target = event.currentTarget;
+                      if (target.naturalWidth <= 1 && target.naturalHeight <= 1) {
+                        setImageUnavailable(true);
+                      }
+                    }}
+                  />
+                )}
+              </a>
+            ) : imageUnavailable ? (
+              <div
+                className="flex aspect-square w-full items-center justify-center bg-[#F6F4EF] text-5xl font-semibold text-[#0F172A]"
+                aria-label={`${appraiser.name} profile image`}
+              >
+                {getFallbackInitials(appraiser.name)}
+              </div>
+            ) : (
+              <img
+                src={normalizeAssetUrl(appraiser.imageUrl)}
+                alt={`${appraiser.name} - Art Appraiser in ${appraiser.address.city}`}
+                className="w-full h-auto"
+                onError={() => setImageUnavailable(true)}
+                onLoad={(event) => {
+                  const target = event.currentTarget;
+                  if (target.naturalWidth <= 1 && target.naturalHeight <= 1) {
+                    setImageUnavailable(true);
+                  }
+                }}
+              />
+            )}
           </div>
           
           <div className="bg-white rounded-lg shadow-md p-5 mb-6">
@@ -330,21 +389,23 @@ export function StandardizedAppraiserPage() {
                 </a>
               </div>
               
-              <div className="flex items-center">
-                <a
-                  href={`mailto:${appraiser.contact.email}`}
-                  className="flex items-center text-gray-700 hover:text-blue-600"
-                  data-gtm-event="directory_cta"
-                  data-gtm-cta="email"
-                  data-gtm-surface="profile_contact_info"
-                  data-gtm-appraiser-id={gtmAppraiserId}
-                  data-gtm-appraiser-name={gtmAppraiserName}
-                  onClick={() => handleContactClick('email', 'profile_contact_info')}
-                >
-                  <Mail className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>{appraiser.contact.email}</span>
-                </a>
-              </div>
+              {appraiserEmail && (
+                <div className="flex items-center">
+                  <a
+                    href={`mailto:${appraiserEmail}`}
+                    className="flex items-center text-gray-700 hover:text-blue-600"
+                    data-gtm-event="directory_cta"
+                    data-gtm-cta="email"
+                    data-gtm-surface="profile_contact_info"
+                    data-gtm-appraiser-id={gtmAppraiserId}
+                    data-gtm-appraiser-name={gtmAppraiserName}
+                    onClick={() => handleContactClick('email', 'profile_contact_info')}
+                  >
+                    <Mail className="h-5 w-5 text-blue-600 mr-3" />
+                    <span>{appraiserEmail}</span>
+                  </a>
+                </div>
+              )}
               
               {appraiser.contact.website && (
                 <div className="flex items-center">
@@ -414,13 +475,17 @@ export function StandardizedAppraiserPage() {
               <h1 className="text-3xl font-bold text-gray-900">{appraiser.name}</h1>
               
               <div className="flex items-center">
-                <div className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1">
+                <a
+                  href="#reviews"
+                  className="flex items-center bg-blue-50 text-blue-700 rounded-full px-3 py-1 transition-colors hover:bg-blue-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-200"
+                  aria-label="Jump to reviews"
+                >
                   <Star className="h-4 w-4 text-yellow-500 mr-1" />
                   <span className="font-semibold">{appraiser.business.rating.toFixed(1)}</span>
                   <span className="text-sm text-gray-500 ml-1">
                     ({appraiser.business.reviewCount})
                   </span>
-                </div>
+                </a>
               </div>
             </div>
             
@@ -466,7 +531,7 @@ export function StandardizedAppraiserPage() {
               {appraiser.expertise.services.map((service, index) => (
                 <span 
                   key={index}
-                  className="border border-blue-200 text-blue-700 bg-blue-50 rounded-md px-3 py-1 text-sm"
+                  className="select-none cursor-default border border-gray-200 text-gray-700 bg-white rounded-full px-3 py-1 text-sm"
                 >
                   {service}
                 </span>
@@ -479,7 +544,7 @@ export function StandardizedAppraiserPage() {
             </p>
           </div>
           
-          <div className="bg-white rounded-lg shadow-md p-6">
+          <div className="bg-white rounded-lg shadow-md p-6" id="reviews">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">Reviews</h2>
             
             {appraiser.reviews.length > 0 ? (
@@ -528,19 +593,21 @@ export function StandardizedAppraiserPage() {
                   <Phone className="h-4 w-4 mr-2" />
                   Call Now
                 </a>
-                <a 
-                  href={`mailto:${appraiser.contact.email}`}
-                  className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
-                  data-gtm-event="directory_cta"
-                  data-gtm-cta="email"
-                  data-gtm-surface="profile_cta_section"
-                  data-gtm-appraiser-id={gtmAppraiserId}
-                  data-gtm-appraiser-name={gtmAppraiserName}
-                  onClick={() => handleContactClick('email', 'profile_cta_section')}
-                >
-                  <Mail className="h-4 w-4 mr-2" />
-                  Send Email
-                </a>
+                {appraiserEmail && (
+                  <a
+                    href={`mailto:${appraiserEmail}`}
+                    className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 transition-colors"
+                    data-gtm-event="directory_cta"
+                    data-gtm-cta="email"
+                    data-gtm-surface="profile_cta_section"
+                    data-gtm-appraiser-id={gtmAppraiserId}
+                    data-gtm-appraiser-name={gtmAppraiserName}
+                    onClick={() => handleContactClick('email', 'profile_cta_section')}
+                  >
+                    <Mail className="h-4 w-4 mr-2" />
+                    Send Email
+                  </a>
+                )}
                 <a 
                   href={primaryCtaUrl}
                   className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"

@@ -1,0 +1,65 @@
+{
+  "appraisers": [
+    {
+      "id": "solana-beach-jennifer-e-salvetti-kulla-ma",
+      "name": "Jennifer E Salvetti-Kulla, MA",
+      "slug": "jennifer-e-salvetti-kulla-ma",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Solana Beach",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Solana Beach, CA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://jskfineartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art - 20th Century",
+          "Paintings - 20th Century",
+          "Prints - Modern & Contemporary",
+          "Sculpture - 20th Century",
+          "Watercolors - Contemporary",
+          "ISA CAPP",
+          "ISA Certified"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA CAPP"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Jennifer E Salvetti-Kulla, MA offers art appraisal services serving Solana Beach, CA. FAIR directory data indicates specialties in Art - 20th Century, Paintings - 20th Century, Prints - Modern & Contemporary, Sculpture - 20th Century, Watercolors - Contemporary, ISA CAPP, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: jskfineartappraisals.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-15874"
+      }
+    }
+  ]
+}

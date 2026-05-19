@@ -1,24 +1,316 @@
 {
   "appraisers": [
     {
-      "id": "prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg",
+      "id": "phoenix-abd-antique-appraisers",
+      "name": "ABD Antique Appraisers",
+      "slug": "abd-antique-appraisers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
-        "street": "1010 Lincoln Rd",
+        "street": "",
         "city": "Phoenix",
         "state": "AZ",
-        "zip": "85413",
-        "formatted": "1010 Lincoln Rd, Phoenix, AZ 85413"
+        "zip": "",
+        "formatted": "Phoenix, AZ"
       },
       "contact": {
-        "phone": "(602) 555-1234",
-        "email": "contact@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com/locations/phoenix-arizona/"
+        "phone": "(623) 931-0235",
+        "email": "medore@mindspring.com",
+        "website": "http://abdappraise.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "ABD Antique Appraisers offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: http://abdappraise.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://abdappraise.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJM6zjZBtrK4cR50DEVQBBzLE",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "phoenix-allison-gee-fine-art-appraisals",
+      "name": "Allison Gee Fine Art Appraisals",
+      "slug": "allison-gee-fine-art-appraisals",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6235350631",
+        "email": "allisongee@msn.com",
+        "website": "https://fineart.services/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Allison Gee Fine Art Appraisals offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://fineart.services/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://fineart.services/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJT2zqZKpHK4cR-B67HkA7EzI",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "art-phoenix-antique-gatherings",
+      "name": "Antique Gatherings",
+      "slug": "phoenix-antique-gatherings",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.antiquegatherings.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "fine_art_or_gallery_related",
+          "antique_decorative_arts_personal_property_or_estate_contents",
+          "jewelry_gem_watch"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal directory listing",
+          "art, gallery, advisory, or collection-related services"
+        ]
+      },
+      "content": {
+        "about": "Antique Gatherings is included from a deferred lead review for art, gallery, advisory, or collection-related services in Phoenix, AZ. The source evidence was mixed or incomplete, so customers should contact the business directly to confirm whether formal appraisal reports, qualifications, fees, service area, and scheduling are currently available.",
+        "notes": "Evidence-threshold override import prepared on 2026-05-16. Source: http://www.antiquegatherings.com/. Original status: category_related_but_no_formal_appraisal_terms_found. Evidence note: offered for sale to suit every taste and budget. Items include Antique Furniture, Clocks, Fine Art, Estate and Fine Jewelry, Decorative Items, Sculpture & Bronzes, Oriental Rugs, Glass & Porcelain, Silver, Mid-Century Modern, Taxidermy, Industrial, Vintage Clothing and Accessories, Linens, as well as many other Antique"
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "evidenceThresholdOverride": true,
+        "deferredClassification": {
+          "inferredDirectoryFit": "both_art_and_antique",
+          "serviceTypes": [
+            "fine_art_or_gallery_related",
+            "antique_decorative_arts_personal_property_or_estate_contents",
+            "jewelry_gem_watch"
+          ],
+          "appraisalServiceStatus": "category_related_but_no_formal_appraisal_terms_found",
+          "confidence": "medium_low"
+        },
+        "verification": {
+          "sourceUrl": "http://www.antiquegatherings.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website_or_live_web_source",
+          "notes": "Evidence-threshold override: this row did not meet the normal Appraisily publication gate."
+        },
+        "source": "deferred_override_import",
+        "placeId": "ChIJoXd9f6sNK4cRIbzrOXG5yTU",
+        "confidenceScore": 45,
+        "confidenceReasons": [
+          "EXPLICIT EVIDENCE-THRESHOLD OVERRIDE",
+          "deferred classifier fit: both_art_and_antique",
+          "appraisal service status: category_related_but_no_formal_appraisal_terms_found",
+          "service types: fine_art_or_gallery_related, antique_decorative_arts_personal_property_or_estate_contents, jewelry_gem_watch"
+        ]
+      }
+    },
+    {
+      "id": "appraise-it-now",
+      "name": "AppraiseItNow",
+      "slug": "appraiseitnow",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_appraise-it-now_1741087705303_Lr2pfLFiv.jpg",
+      "address": {
+        "street": "999 Washington Ave",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85684",
+        "formatted": "999 Washington Ave, Phoenix, AZ 85684"
+      },
+      "contact": {
+        "phone": "(888) 555-9012",
+        "email": "support@appraiseitnow.com",
+        "website": "https://www.appraiseitnow.com/location/arizona"
       },
       "business": {
         "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 184
+      },
+      "expertise": {
+        "specialties": [
+          "Online art appraisal",
+          "Personal property appraisal"
+        ],
+        "certifications": [
+          "Certified Specialists per Asset Type"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Valuations",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Modern online-first appraisal service with certified specialists for each asset type. Offering convenient digital submissions with expedited processing available.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Nancy T.",
+          "rating": 5,
+          "date": "2025-03-09",
+          "content": "They took the time to explain the valuation process and answered all my questions."
+        },
+        {
+          "author": "Michael C.",
+          "rating": 3,
+          "date": "2024-11-06",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        },
+        {
+          "author": "Robert T.",
+          "rating": 4.5,
+          "date": "2024-09-15",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "arizona-art-appraisals-phoenix",
+      "name": "Arizona Art Appraisals & Advisory",
+      "slug": "arizona-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "2394 E Camelback Rd",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85016",
+        "formatted": "2394 E Camelback Rd, Phoenix, AZ 85016"
+      },
+      "contact": {
+        "phone": "(602) 555-0158",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "12 years in business",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -34,21 +326,149 @@
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 95
+        "rating": 4.6,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "Estate tax appraisals",
-          "Fine art appraisal",
-          "Furniture appraisal",
-          "Insurance documentation",
-          "Divorce settlements"
+          "Fine Art",
+          "Contemporary Art",
+          "Southwestern Art"
         ],
         "certifications": [
-          "ISA Certified",
-          "USPAP Compliant",
-          "IRS Qualified"
+          "ISA Accredited"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Art Advisory",
+          "Insurance Valuations"
+        ]
+      },
+      "content": {
+        "about": "Arizona Art Appraisals & Advisory provides comprehensive fine art appraisals and advisory services to collectors and estates throughout the Phoenix and Scottsdale area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "phoenix-az-appraisal-services-estates-insurance-property-appraisers",
+      "name": "Arizona Certified Appraisal Group",
+      "slug": "az-appraisal-services-estates-insurance-property-appraisers",
+      "imageUrl": "https://azcertifiedappraisalgroup.com/wp-content/themes/decor/images/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6027514393",
+        "email": "appraiseitaz@gmail.com",
+        "website": "https://azcertifiedappraisalgroup.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Arizona Certified Appraisal Group offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://azcertifiedappraisalgroup.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://azcertifiedappraisalgroup.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ9797a3VvK4cRinnAxNGeBfY",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "art-fortune-phoenix-az",
+      "name": "Art Fortune LLC",
+      "slug": "art-fortune-llc",
+      "imageUrl": "",
+      "address": {
+        "street": "8608 E Rose Ln",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip": "85250",
+        "formatted": "8608 E Rose Ln, Scottsdale, AZ 85250"
+      },
+      "contact": {
+        "phone": "(480) 203-2311",
+        "email": "",
+        "website": "https://www.artfortune.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established art appraisal firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Southwestern Art",
+          "Contemporary Art",
+          "Decorative Arts"
+        ],
+        "certifications": [
+          "Certified Appraiser"
         ],
         "services": [
           "Art Appraisals",
@@ -57,32 +477,85 @@
         ]
       },
       "content": {
-        "about": "Established practice with multi-generational expertise in estate services and art appraisals. Our team includes renowned experts Elizabeth Lovett and Stephanie Calman.",
+        "about": "Art Fortune LLC provides certified art and antique appraisals in Scottsdale and the greater Phoenix area. Their certified appraisers ensure precise evaluations based on the most relevant information, providing clarity on the true market value.",
         "notes": ""
       },
-      "reviews": [
-        {
-          "author": "Elizabeth C.",
-          "rating": 5,
-          "date": "2025-02-01",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Michael M.",
-          "rating": 5,
-          "date": "2025-01-23",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "Emily J.",
-          "rating": 5,
-          "date": "2025-01-10",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
+        "lastUpdated": "2026-04-08",
         "inService": true
+      }
+    },
+    {
+      "id": "phoenix-a-z-appraisal-and-estate-consultants",
+      "name": "az appraisal",
+      "slug": "a-z-appraisal-and-estate-consultants",
+      "imageUrl": "https://a-zappraisal.com/wp-content/uploads/2023/01/A-Z-Appraisal-New-Logo-Just-Letters.png",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6023194207",
+        "email": "email@email.com",
+        "website": "https://a-zappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "az appraisal offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://a-zappraisal.com/appraisal-services/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://a-zappraisal.com/appraisal-services/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJq6pWZqQSK4cR7g18R0Ap7r0",
+        "confidenceScore": 95,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct email found",
+          "direct phone found"
+        ]
       }
     },
     {
@@ -167,204 +640,6 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "appraise-it-now",
-      "name": "AppraiseItNow",
-      "slug": "appraiseitnow",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_appraise-it-now_1741087705303_Lr2pfLFiv.jpg",
-      "address": {
-        "street": "999 Washington Ave",
-        "city": "Phoenix",
-        "state": "AZ",
-        "zip": "85684",
-        "formatted": "999 Washington Ave, Phoenix, AZ 85684"
-      },
-      "contact": {
-        "phone": "(888) 555-9012",
-        "email": "support@appraiseitnow.com",
-        "website": "https://www.appraiseitnow.com/location/arizona"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 184
-      },
-      "expertise": {
-        "specialties": [
-          "Online art appraisal",
-          "Personal property appraisal"
-        ],
-        "certifications": [
-          "Certified Specialists per Asset Type"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Valuations",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Modern online-first appraisal service with certified specialists for each asset type. Offering convenient digital submissions with expedited processing available.",
-        "notes": ""
-      },
-      "reviews": [
-        {
-          "author": "Nancy T.",
-          "rating": 5,
-          "date": "2025-03-09",
-          "content": "They took the time to explain the valuation process and answered all my questions."
-        },
-        {
-          "author": "Michael C.",
-          "rating": 3,
-          "date": "2024-11-06",
-          "content": "Good service overall, though the turnaround time was longer than expected."
-        },
-        {
-          "author": "Robert T.",
-          "rating": 4.5,
-          "date": "2024-09-15",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "savvy-collector-phoenix-az",
-      "name": "Savvy Collector",
-      "slug": "savvy-collector",
-      "imageUrl": "",
-      "address": {
-        "street": "326 W Harmont Dr",
-        "city": "Phoenix",
-        "state": "AZ",
-        "zip": "85021",
-        "formatted": "326 W Harmont Dr, Phoenix, AZ 85021"
-      },
-      "contact": {
-        "phone": "(602) 906-1633",
-        "email": "",
-        "website": "https://www.savvycollector.com"
-      },
-      "business": {
-        "yearsInBusiness": "24 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Art Appraisals",
-          "Fine Art",
-          "Collectibles"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Collection Valuation",
-          "Art Consultation"
-        ]
-      },
-      "content": {
-        "about": "Savvy Collector specializes in art appraisal services and is listed as both an art gallery and professional appraiser in Phoenix.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "ed-mell-gallery-phoenix-az",
-      "name": "Ed Mell Gallery",
-      "slug": "ed-mell-gallery",
-      "imageUrl": "",
-      "address": {
-        "street": "2337 N 10th St",
-        "city": "Phoenix",
-        "state": "AZ",
-        "zip": "85006",
-        "formatted": "2337 N 10th St, Phoenix, AZ 85006"
-      },
-      "contact": {
-        "phone": "(602) 359-7333",
-        "email": "",
-        "website": "https://www.edmell.com"
-      },
-      "business": {
-        "yearsInBusiness": "31 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Southwestern Art",
-          "Contemporary Western Art",
-          "Landscape Painting"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Gallery Exhibitions",
-          "Art Sales"
-        ]
-      },
-      "content": {
-        "about": "The Ed Mell Gallery showcases current artworks and at times earlier pieces from Ed Mell's personal collection. Located in Phoenix's historical Coronado neighborhood.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -489,189 +764,6 @@
       }
     },
     {
-      "id": "phoenix-art-group-phoenix-az",
-      "name": "Phoenix Art Group Inc",
-      "slug": "phoenix-art-group",
-      "imageUrl": "",
-      "address": {
-        "street": "4125 N 14th St",
-        "city": "Phoenix",
-        "state": "AZ",
-        "zip": "85014",
-        "formatted": "4125 N 14th St, Phoenix, AZ 85014"
-      },
-      "contact": {
-        "phone": "(602) 241-9048",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "58 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Art Consulting",
-          "Corporate Art"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Consulting",
-          "Corporate Art Services"
-        ]
-      },
-      "content": {
-        "about": "Phoenix Art Group has been a fixture in the Phoenix art scene for nearly six decades, providing art consultation and appraisal services.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "modified-arts-phoenix-az",
-      "name": "Modified Arts",
-      "slug": "modified-arts",
-      "imageUrl": "",
-      "address": {
-        "street": "407 E Roosevelt St",
-        "city": "Phoenix",
-        "state": "AZ",
-        "zip": "85004",
-        "formatted": "407 E Roosevelt St, Phoenix, AZ 85004"
-      },
-      "contact": {
-        "phone": "(602) 462-5516",
-        "email": "",
-        "website": "https://www.modifiedarts.org"
-      },
-      "business": {
-        "yearsInBusiness": "27 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Contemporary Art",
-          "Emerging Artists",
-          "Mixed Media"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Gallery Exhibitions",
-          "Community Art Programs"
-        ]
-      },
-      "content": {
-        "about": "Modified Arts is a contemporary art gallery on Roosevelt Row providing exhibitions and art services to the Phoenix community.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "art-fortune-phoenix-az",
-      "name": "Art Fortune LLC",
-      "slug": "art-fortune-llc",
-      "imageUrl": "",
-      "address": {
-        "street": "8608 E Rose Ln",
-        "city": "Scottsdale",
-        "state": "AZ",
-        "zip": "85250",
-        "formatted": "8608 E Rose Ln, Scottsdale, AZ 85250"
-      },
-      "contact": {
-        "phone": "(480) 203-2311",
-        "email": "",
-        "website": "https://www.artfortune.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established art appraisal firm",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Southwestern Art",
-          "Contemporary Art",
-          "Decorative Arts"
-        ],
-        "certifications": [
-          "Certified Appraiser"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Valuations",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Art Fortune LLC provides certified art and antique appraisals in Scottsdale and the greater Phoenix area. Their certified appraisers ensure precise evaluations based on the most relevant information, providing clarity on the true market value.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
       "id": "desert-fine-art-appraisals-phoenix",
       "name": "Desert Fine Art Appraisals",
       "slug": "desert-fine-art-appraisals",
@@ -735,24 +827,24 @@
       }
     },
     {
-      "id": "arizona-art-appraisals-phoenix",
-      "name": "Arizona Art Appraisals & Advisory",
-      "slug": "arizona-art-appraisals",
+      "id": "ed-mell-gallery-phoenix-az",
+      "name": "Ed Mell Gallery",
+      "slug": "ed-mell-gallery",
       "imageUrl": "",
       "address": {
-        "street": "2394 E Camelback Rd",
+        "street": "2337 N 10th St",
         "city": "Phoenix",
         "state": "AZ",
-        "zip": "85016",
-        "formatted": "2394 E Camelback Rd, Phoenix, AZ 85016"
+        "zip": "85006",
+        "formatted": "2337 N 10th St, Phoenix, AZ 85006"
       },
       "contact": {
-        "phone": "(602) 555-0158",
+        "phone": "(602) 359-7333",
         "email": "",
-        "website": ""
+        "website": "https://www.edmell.com"
       },
       "business": {
-        "yearsInBusiness": "12 years in business",
+        "yearsInBusiness": "31 years in business",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -768,26 +860,702 @@
           }
         ],
         "pricing": "Contact for pricing information",
-        "rating": 4.6,
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Southwestern Art",
+          "Contemporary Western Art",
+          "Landscape Painting"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Art Sales"
+        ]
+      },
+      "content": {
+        "about": "The Ed Mell Gallery showcases current artworks and at times earlier pieces from Ed Mell's personal collection. Located in Phoenix's historical Coronado neighborhood.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "phoenix-fidelity-estate-services",
+      "name": "Fidelity Estate Services",
+      "slug": "fidelity-estate-services",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "602-427-2397",
+        "email": "contact@fidelityestateservices.com",
+        "website": "https://www.fidelityestateservices.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Jewelry appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals",
+          "Jewelry appraisal support"
+        ]
+      },
+      "content": {
+        "about": "Fidelity Estate Services offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-15. Source: https://www.fidelityestateservices.com/estate-liquidators-phoenix-arizona. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.fidelityestateservices.com/estate-liquidators-phoenix-arizona",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "owned_business_services_page",
+          "notes": "Owned services page supports Certified Personal Property Appraisals in Phoenix and Arizona, including antiques, collectibles, fine art, estate jewelry, coins, rare books, Native American baskets/pottery/rugs, residential contents, furniture, and decorative items. Source also supports insurance claims, charitable donations, divorce, bankruptcy, liquidation, ISA, CAGA, USPAP, and Qualified IRS Appraiser claims."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJiWTI7EwNK4cRm8EI1R_AlCU",
+        "confidenceScore": 85,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found on supporting page",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "phoenix-hill-art",
+      "name": "Hill Art Valuation, LLC",
+      "slug": "hill-art",
+      "imageUrl": "https://hillartvaluation.com/wp-content/uploads/2023/03/logo.svg",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "602.578.9780",
+        "email": "",
+        "website": "https://hillartvaluation.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Hill Art Valuation, LLC offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://hillartvaluation.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://hillartvaluation.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJlQJy4NF0K4cR-kv_KPBZBWM",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "modified-arts-phoenix-az",
+      "name": "Modified Arts",
+      "slug": "modified-arts",
+      "imageUrl": "",
+      "address": {
+        "street": "407 E Roosevelt St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85004",
+        "formatted": "407 E Roosevelt St, Phoenix, AZ 85004"
+      },
+      "contact": {
+        "phone": "(602) 462-5516",
+        "email": "",
+        "website": "https://www.modifiedarts.org"
+      },
+      "business": {
+        "yearsInBusiness": "27 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Contemporary Art",
+          "Emerging Artists",
+          "Mixed Media"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Gallery Exhibitions",
+          "Community Art Programs"
+        ]
+      },
+      "content": {
+        "about": "Modified Arts is a contemporary art gallery on Roosevelt Row providing exhibitions and art services to the Phoenix community.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "phoenix-peter-held-art-appraisals-associates",
+      "name": "Peter Held Art Appraisals & Associates",
+      "slug": "peter-held-art-appraisals-associates",
+      "imageUrl": "https://static.wixstatic.com/media/39e59f_c50a8da0c747411b85e64429ecdeeaf0%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/39e59f_c50a8da0c747411b85e64429ecdeeaf0%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "480-242-5302",
+        "email": "peterheldappraisals@gmail.com",
+        "website": "https://www.peterheldappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Art advisory",
+          "Estate valuations",
+          "Insurance appraisals"
+        ],
+        "certifications": [
+          "Professional appraisal affiliation referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Estate and insurance appraisals",
+          "Donation appraisals",
+          "Collection advisory"
+        ]
+      },
+      "content": {
+        "about": "Peter Held Art Appraisals & Associates offers fine art appraisal and advisory services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.peterheldappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.peterheldappraisals.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJyW9aRL4GK4cRQOvAJjICKDw",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned site states art appraisals and valuations",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "phoenix-art-group-phoenix-az",
+      "name": "Phoenix Art Group Inc",
+      "slug": "phoenix-art-group",
+      "imageUrl": "",
+      "address": {
+        "street": "4125 N 14th St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85014",
+        "formatted": "4125 N 14th St, Phoenix, AZ 85014"
+      },
+      "contact": {
+        "phone": "(602) 241-9048",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "58 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
         "reviewCount": 0
       },
       "expertise": {
         "specialties": [
           "Fine Art",
-          "Contemporary Art",
-          "Southwestern Art"
+          "Art Consulting",
+          "Corporate Art"
+        ],
+        "certifications": [],
+        "services": [
+          "Art Appraisals",
+          "Art Consulting",
+          "Corporate Art Services"
+        ]
+      },
+      "content": {
+        "about": "Phoenix Art Group has been a fixture in the Phoenix art scene for nearly six decades, providing art consultation and appraisal services.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg",
+      "address": {
+        "street": "1010 Lincoln Rd",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85413",
+        "formatted": "1010 Lincoln Rd, Phoenix, AZ 85413"
+      },
+      "contact": {
+        "phone": "(602) 555-1234",
+        "email": "contact@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/locations/phoenix-arizona/"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 95
+      },
+      "expertise": {
+        "specialties": [
+          "Estate tax appraisals",
+          "Fine art appraisal",
+          "Furniture appraisal",
+          "Insurance documentation",
+          "Divorce settlements"
         ],
         "certifications": [
-          "ISA Accredited"
+          "ISA Certified",
+          "USPAP Compliant",
+          "IRS Qualified"
         ],
         "services": [
           "Art Appraisals",
-          "Art Advisory",
+          "Insurance Valuations",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Established practice with multi-generational expertise in estate services and art appraisals. Our team includes renowned experts Elizabeth Lovett and Stephanie Calman.",
+        "notes": ""
+      },
+      "reviews": [
+        {
+          "author": "Elizabeth C.",
+          "rating": 5,
+          "date": "2025-02-01",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Michael M.",
+          "rating": 5,
+          "date": "2025-01-23",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Emily J.",
+          "rating": 5,
+          "date": "2025-01-10",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "savvy-collector-phoenix-az",
+      "name": "Savvy Collector",
+      "slug": "savvy-collector",
+      "imageUrl": "",
+      "address": {
+        "street": "326 W Harmont Dr",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85021",
+        "formatted": "326 W Harmont Dr, Phoenix, AZ 85021"
+      },
+      "contact": {
+        "phone": "(602) 906-1633",
+        "email": "",
+        "website": "https://www.savvycollector.com"
+      },
+      "business": {
+        "yearsInBusiness": "24 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Art Appraisals",
+          "Fine Art",
+          "Collectibles"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Collection Valuation",
+          "Art Consultation"
+        ]
+      },
+      "content": {
+        "about": "Savvy Collector specializes in art appraisal services and is listed as both an art gallery and professional appraiser in Phoenix.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "phoenix-scottsdale-appraisal-specialists",
+      "name": "Scottsdale Appraisal Specialists, LLC",
+      "slug": "scottsdale-appraisal-specialists",
+      "imageUrl": "https://www.scottsdaleappraisalspecialists.com/images/a-master-favicon.ico?crc=3905318453",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "602.996.1299",
+        "email": "",
+        "website": "https://www.scottsdaleappraisalspecialists.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Scottsdale Appraisal Specialists, LLC offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from explicit website review on 2026-05-15. Source: https://www.scottsdaleappraisalspecialists.com/appraisal-process.html. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.scottsdaleappraisalspecialists.com/appraisal-process.html",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Explicitly reviewed owned-site art/antique appraisal evidence."
+        },
+        "source": "explicit_reviewed_website_enrichment",
+        "placeId": "ChIJncSlJasSK4cRMaic2CwsDzg",
+        "confidenceScore": 90,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "owned-site appraisal process page",
+          "antiques, collectibles, fine art, coins, furniture, and household contents appraisal fit",
+          "explicitly reviewed non-real-estate fit"
+        ]
+      }
+    },
+    {
+      "id": "phoenix-sims-appraisal",
+      "name": "Sims Appraisal",
+      "slug": "sims-appraisal",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "",
+        "formatted": "Phoenix, AZ"
+      },
+      "contact": {
+        "phone": "6026142812",
+        "email": "astigma@astigmatic.com",
+        "website": "https://simsappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [
+          "USPAP referenced by source"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Sims Appraisal offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://simsappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://simsappraisal.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJw8O0JZN5jK0RuVzmfURPU9g",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "sonoran-appraisals-phoenix",
+      "name": "Sonoran Appraisal Services",
+      "slug": "sonoran-appraisal-services",
+      "imageUrl": "",
+      "address": {
+        "street": "7014 E Camelback Rd",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip": "85251",
+        "formatted": "7014 E Camelback Rd, Scottsdale, AZ 85251"
+      },
+      "contact": {
+        "phone": "(480) 555-0173",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "10 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Personal Property",
+          "Estate Appraisals"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Personal Property Appraisals",
           "Insurance Valuations"
         ]
       },
       "content": {
-        "about": "Arizona Art Appraisals & Advisory provides comprehensive fine art appraisals and advisory services to collectors and estates throughout the Phoenix and Scottsdale area.",
+        "about": "Sonoran Appraisal Services provides professional fine art and personal property appraisals throughout the Phoenix metro area, serving collectors, estates, and insurance clients.",
         "notes": ""
       },
       "reviews": [],
@@ -851,68 +1619,6 @@
       },
       "content": {
         "about": "Valley Art Appraisers has served the Phoenix and Scottsdale area for over 20 years, providing comprehensive appraisals for fine art, antiques, jewelry, and decorative arts.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "sonoran-appraisals-phoenix",
-      "name": "Sonoran Appraisal Services",
-      "slug": "sonoran-appraisal-services",
-      "imageUrl": "",
-      "address": {
-        "street": "7014 E Camelback Rd",
-        "city": "Scottsdale",
-        "state": "AZ",
-        "zip": "85251",
-        "formatted": "7014 E Camelback Rd, Scottsdale, AZ 85251"
-      },
-      "contact": {
-        "phone": "(480) 555-0173",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "10 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Personal Property",
-          "Estate Appraisals"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Personal Property Appraisals",
-          "Insurance Valuations"
-        ]
-      },
-      "content": {
-        "about": "Sonoran Appraisal Services provides professional fine art and personal property appraisals throughout the Phoenix metro area, serving collectors, estates, and insurance clients.",
         "notes": ""
       },
       "reviews": [],

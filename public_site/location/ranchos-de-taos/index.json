@@ -1,0 +1,30 @@
+{
+  "title": "Art appraisers in Ranchos De Taos, New Mexico",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "ranchos-de-taos",
+    "url": "https://art-appraisers-directory.appraisily.com/location/ranchos-de-taos/",
+    "name": "Art appraisers in Ranchos De Taos, New Mexico",
+    "description": "Compare art appraisers in Ranchos De Taos, New Mexico.",
+    "city": "Ranchos De Taos",
+    "region": "New Mexico",
+    "country": "US",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Elise Waters Olonia",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/elise-waters-olonia/",
+        "slug": "elise-waters-olonia",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/elise-waters-olonia.svg",
+        "description": "Elise Waters Olonia offers art appraisal services serving Ranchos De Taos, NM. FAIR directory data indicates specialties in Art - 19th Century, Art - 20th Century, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/ranchos-de-taos/"
+    }
+  }
+}

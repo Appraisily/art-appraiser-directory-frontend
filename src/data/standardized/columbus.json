@@ -1,6 +1,73 @@
 {
   "appraisers": [
     {
+      "id": "columbus-allrich-fine-art-services",
+      "name": "Allrich Fine Art Services",
+      "slug": "allrich-fine-art-services",
+      "imageUrl": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "4155842093",
+        "email": "micah@micahrich.com",
+        "website": "https://allrichart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Allrich Fine Art Services offers fine art appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://allrichart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://allrichart.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJbwuTuup9j4ARW2JPthMr864",
+        "confidenceScore": 65,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
       "id": "columbus-amelia-jeffers-auctioneers-appraisers",
       "name": "Amelia Jeffers Auctioneers & Appraisers",
       "slug": "amelia-jeffers-auctioneers-appraisers",
@@ -77,24 +144,93 @@
       }
     },
     {
-      "id": "columbus-prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "slug": "prestige-estate-services",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-gurr-johns_1741089075363_6i416FCSf.jpg?updatedAt=1741089076631",
+      "id": "columbus-amelia-jeffers",
+      "name": "Amelia Jeffers, Auctioneers & Appraisers",
+      "slug": "amelia-jeffers",
+      "imageUrl": "https://static.wixstatic.com/media/697ef0_c4924d1b53764f9db9e55995c5a1b231%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/697ef0_c4924d1b53764f9db9e55995c5a1b231%7Emv2.jpg",
       "address": {
-        "street": "789 Oak Ave",
+        "street": "",
         "city": "Columbus",
         "state": "OH",
-        "zip": "44388",
-        "formatted": "789 Oak Ave, Columbus, OH 44388"
+        "zip": "",
+        "formatted": "Columbus, OH"
       },
       "contact": {
-        "phone": "1-844-483-6825",
-        "email": "info@prestigeestateservices.com",
-        "website": "https://prestigeestateservices.com/locations/columbus-ohio/"
+        "phone": "+ 740.362.4771",
+        "email": "sell@ameliajeffers.com",
+        "website": "https://www.ameliajeffers.com/"
       },
       "business": {
-        "yearsInBusiness": "100+ collective years",
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Auction and market guidance"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Amelia Jeffers, Auctioneers & Appraisers offers fine art appraisal services serving Columbus, OH. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from website enrichment on 2026-05-15. Source: https://www.ameliajeffers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-15",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.ameliajeffers.com/",
+          "verifiedAt": "2026-05-15",
+          "sourceType": "business_website",
+          "notes": "Automated website-backed import candidate. Human approval required before publication."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJrxECQUSIOIgRGhSvzfjFquk",
+        "confidenceScore": 100,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "auction/appraisal adjacent",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "columbus-anderson-fine-art-appraisals",
+      "name": "Anderson Fine Art Appraisals",
+      "slug": "anderson-fine-art-appraisals",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
+      "address": {
+        "street": "1234 Oak Ave",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "44101",
+        "formatted": "1234 Oak Ave, Columbus, OH 44101"
+      },
+      "contact": {
+        "phone": "975-512-9160",
+        "email": "info@www.art-appraisals.net",
+        "website": "www.art-appraisals.net"
+      },
+      "business": {
+        "yearsInBusiness": "Decades",
         "hours": [
           {
             "day": "Tuesday-Saturday",
@@ -105,53 +241,49 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "$175–$225/hour (non-regulated vs IRS-regulated)",
-        "rating": 4.6,
-        "reviewCount": 17
+        "pricing": "Project-based",
+        "rating": 4.7,
+        "reviewCount": 23
       },
       "expertise": {
         "specialties": [
-          "Fine art (19th–21st century)",
-          "Antiques",
-          "Furniture",
-          "Insurance appraisals",
-          "Estate and donation appraisals"
+          "European Art",
+          "American Art",
+          "Expert Witness",
+          "Litigation Support",
+          "Authentication"
         ],
         "certifications": [
-          "ISA",
-          "ASA",
-          "AAA",
-          "IRS compliant"
+          "Professional Appraiser"
         ],
         "services": [
-          "Insurance appraisals",
-          "Estate appraisals",
-          "Donation appraisals",
-          "On-site and online evaluations"
+          "Expert witness services",
+          "Litigation support",
+          "Authentication research"
         ]
       },
       "content": {
-        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art (19th–21st century), Antiques, Furniture, Insurance appraisals, Estate and donation appraisals. With 100+ collective years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Team includes Erika Holycross (ISA affiliated)."
+        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Expert Witness, Litigation Support, Authentication. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th-century works."
       },
       "reviews": [
         {
-          "author": "Jessica W.",
-          "rating": 4.5,
-          "date": "2024-11-27",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Jessica B.",
-          "rating": 4.5,
-          "date": "2024-10-23",
+          "author": "Michael C.",
+          "rating": 4,
+          "date": "2025-03-15",
           "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
         },
         {
-          "author": "Robert A.",
-          "rating": 4.5,
-          "date": "2024-10-06",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+          "author": "David T.",
+          "rating": 5,
+          "date": "2025-01-26",
+          "content": "Provided an incredibly thorough appraisal of my art collection. Anderson Fine Art Appraisals's knowledge of the market is impressive."
+        },
+        {
+          "author": "John S.",
+          "rating": 5,
+          "date": "2025-01-24",
+          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
         }
       ],
       "metadata": {
@@ -239,81 +371,116 @@
       }
     },
     {
-      "id": "columbus-anderson-fine-art-appraisals",
-      "name": "Anderson Fine Art Appraisals",
-      "slug": "anderson-fine-art-appraisals",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
+      "id": "buckeye-art-advisors-columbus",
+      "name": "Buckeye Art Advisors",
+      "slug": "buckeye-art-advisors",
+      "imageUrl": "",
       "address": {
-        "street": "1234 Oak Ave",
+        "street": "555 E Broad St",
         "city": "Columbus",
         "state": "OH",
-        "zip": "44101",
-        "formatted": "1234 Oak Ave, Columbus, OH 44101"
+        "zip": "43215",
+        "formatted": "555 E Broad St, Columbus, OH 43215"
       },
       "contact": {
-        "phone": "975-512-9160",
-        "email": "info@www.art-appraisals.net",
-        "website": "www.art-appraisals.net"
+        "phone": "(614) 555-0156",
+        "email": "",
+        "website": ""
       },
       "business": {
-        "yearsInBusiness": "Decades",
+        "yearsInBusiness": "12 years in business",
         "hours": [
           {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
           },
           {
-            "day": "Sunday-Monday",
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
             "hours": "Closed"
           }
         ],
-        "pricing": "Project-based",
-        "rating": 4.7,
-        "reviewCount": 23
+        "pricing": "Contact for pricing information",
+        "rating": 4.6,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
-          "European Art",
-          "American Art",
-          "Expert Witness",
-          "Litigation Support",
-          "Authentication"
+          "Fine Art",
+          "Contemporary Art",
+          "Art Advisory"
         ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
+        "certifications": [],
         "services": [
-          "Expert witness services",
-          "Litigation support",
-          "Authentication research"
+          "Art Appraisals",
+          "Art Advisory",
+          "Collection Management"
         ]
       },
       "content": {
-        "about": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Expert Witness, Litigation Support, Authentication. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Specializes in Contemporary, Modern, Impressionist, and 19th-century works."
+        "about": "Buckeye Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Columbus metropolitan area.",
+        "notes": ""
       },
-      "reviews": [
-        {
-          "author": "Michael C.",
-          "rating": 4,
-          "date": "2025-03-15",
-          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
-        },
-        {
-          "author": "David T.",
-          "rating": 5,
-          "date": "2025-01-26",
-          "content": "Provided an incredibly thorough appraisal of my art collection. Anderson Fine Art Appraisals's knowledge of the market is impressive."
-        },
-        {
-          "author": "John S.",
-          "rating": 5,
-          "date": "2025-01-24",
-          "content": "Their expertise in fine art made the appraisal process smooth and thorough."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "elizabeth-j-taylor-columbus",
+      "name": "Elizabeth J Taylor Fine Art",
+      "slug": "elizabeth-j-taylor-fine-art",
+      "imageUrl": "",
+      "address": {
+        "street": "2175 W 5th Ave",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43212",
+        "formatted": "2175 W 5th Ave, Columbus, OH 43212"
+      },
+      "contact": {
+        "phone": "(614) 706-4258",
+        "email": "",
+        "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/9805/elizabeth-j-taylor"
+      },
+      "business": {
+        "yearsInBusiness": "Established fine art appraiser",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Decorative Arts",
+          "Antiques"
+        ],
+        "certifications": [
+          "ISA Member - International Society of Appraisers"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Elizabeth J Taylor is an ISA member and fine art appraiser based in Columbus, OH, providing professional appraisals for fine art, decorative arts, and antiques.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -388,6 +555,285 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-gurr-johns",
+      "name": "Gurr Johns",
+      "slug": "gurr-johns",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
+      "address": {
+        "street": "888 Cedar Blvd",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "45201",
+        "formatted": "888 Cedar Blvd, Columbus, OH 45201"
+      },
+      "contact": {
+        "phone": "920-482-9783",
+        "email": "info@www.gurrjohns.com",
+        "website": "www.gurrjohns.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Thursday",
+            "hours": "9:00 AM - 4:00 PM"
+          },
+          {
+            "day": "Friday",
+            "hours": "9:00 AM - 3:00 PM"
+          },
+          {
+            "day": "Saturday-Sunday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.7,
+        "reviewCount": 6
+      },
+      "expertise": {
+        "specialties": [
+          "High-value appraisals",
+          "Expert witness services"
+        ],
+        "certifications": [
+          "USPAP compliant"
+        ],
+        "services": [
+          "High-value appraisals",
+          "Expert witness services"
+        ]
+      },
+      "content": {
+        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Global firm managing over $10 billion annually."
+      },
+      "reviews": [
+        {
+          "author": "Karen R.",
+          "rating": 5,
+          "date": "2025-03-12",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Susan W.",
+          "rating": 4.5,
+          "date": "2024-11-11",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Jennifer T.",
+          "rating": 4.5,
+          "date": "2024-10-07",
+          "content": "Gurr Johns's expertise in fine art made the appraisal process smooth and thorough."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "ja-baker-appraisal-columbus",
+      "name": "JA Baker Appraisal & Estate Sales",
+      "slug": "ja-baker-appraisal-estate-sales",
+      "imageUrl": "",
+      "address": {
+        "street": "",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43206",
+        "formatted": "Columbus, OH 43206"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "Established estate services firm",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Antiques",
+          "Estate Liquidation",
+          "Personal Property"
+        ],
+        "certifications": [
+          "BBB A+ Rating"
+        ],
+        "services": [
+          "Estate Sales",
+          "Antique Appraisals",
+          "Art Appraisals"
+        ]
+      },
+      "content": {
+        "about": "JA Baker Appraisal & Estate Sales, LLC provides estate liquidation and antique appraisal services with an A+ BBB rating, serving Columbus and surrounding areas.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "slug": "mimesis-gallery",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862",
+      "address": {
+        "street": "1010 Maple Dr",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43201",
+        "formatted": "1010 Maple Dr, Columbus, OH 43201"
+      },
+      "contact": {
+        "phone": "562-444-3288",
+        "email": "info@www.mimesisgallery.com",
+        "website": "www.mimesisgallery.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "20% fee up to $500K, 10% fee beyond $500K",
+        "rating": 4.6,
+        "reviewCount": 5
+      },
+      "expertise": {
+        "specialties": [
+          "Consignment-based art sales",
+          "Valuations"
+        ],
+        "certifications": [
+          "Professional Appraiser"
+        ],
+        "services": [
+          "Free valuations",
+          "Same-day offers",
+          "Consignment-based sales"
+        ]
+      },
+      "content": {
+        "about": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based art sales, Valuations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Located on Westwood Blvd, Los Angeles."
+      },
+      "reviews": [
+        {
+          "author": "Susan W.",
+          "rating": 4.5,
+          "date": "2024-12-16",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        },
+        {
+          "author": "Sarah W.",
+          "rating": 2,
+          "date": "2024-11-27",
+          "content": "Good service overall, though the turnaround time was longer than expected."
+        },
+        {
+          "author": "Emily A.",
+          "rating": 5,
+          "date": "2024-09-07",
+          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
+      "id": "ohio-valley-art-appraisals-columbus",
+      "name": "Ohio Valley Art Appraisals",
+      "slug": "ohio-valley-art-appraisals",
+      "imageUrl": "",
+      "address": {
+        "street": "1234 N High St",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43201",
+        "formatted": "1234 N High St, Columbus, OH 43201"
+      },
+      "contact": {
+        "phone": "(614) 555-0144",
+        "email": "",
+        "website": ""
+      },
+      "business": {
+        "yearsInBusiness": "16 years in business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "9:00 AM - 5:00 PM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "By appointment"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.5,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine Art",
+          "Ohio Regional Art",
+          "Contemporary Art"
+        ],
+        "certifications": [
+          "USPAP Compliant"
+        ],
+        "services": [
+          "Art Appraisals",
+          "Insurance Appraisals",
+          "Estate Appraisals"
+        ]
+      },
+      "content": {
+        "about": "Ohio Valley Art Appraisals provides expert fine art and Ohio regional art appraisals for collectors, galleries, and institutions throughout the Columbus area.",
+        "notes": ""
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },
@@ -477,6 +923,143 @@
       }
     },
     {
+      "id": "columbus-pennypacker-appraisals-art-advisory",
+      "name": "Pennypacker Appraisals and Art Advisory, Ltd.",
+      "slug": "pennypacker-appraisals-art-advisory",
+      "imageUrl": "",
+      "address": {
+        "street": "Columbus",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43201",
+        "formatted": "Columbus, OH"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "https://www.pennypackerappraisals.com"
+      },
+      "business": {
+        "yearsInBusiness": "Established business",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment only"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": 4.8,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art",
+          "Furniture",
+          "Decorative arts",
+          "Collectibles"
+        ],
+        "certifications": [
+          "USPAP-compliant"
+        ],
+        "services": [
+          "Appraisal services",
+          "Advisory on selling, keeping, or donating property"
+        ]
+      },
+      "content": {
+        "about": "Pennypacker Appraisals and Art Advisory, Ltd. is an independent personal property appraisal firm based in Columbus, Ohio. They provide appraisal services for personal property including fine art, furniture, decorative arts, and collectibles, as well as advice on what to do with personal property. All services comply with USPAP.",
+        "notes": "Independent firm based in Columbus, Ohio."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-08",
+        "inService": true
+      }
+    },
+    {
+      "id": "columbus-prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "slug": "prestige-estate-services",
+      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-gurr-johns_1741089075363_6i416FCSf.jpg?updatedAt=1741089076631",
+      "address": {
+        "street": "789 Oak Ave",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "44388",
+        "formatted": "789 Oak Ave, Columbus, OH 44388"
+      },
+      "contact": {
+        "phone": "1-844-483-6825",
+        "email": "info@prestigeestateservices.com",
+        "website": "https://prestigeestateservices.com/locations/columbus-ohio/"
+      },
+      "business": {
+        "yearsInBusiness": "100+ collective years",
+        "hours": [
+          {
+            "day": "Tuesday-Saturday",
+            "hours": "10:00 AM - 6:00 PM"
+          },
+          {
+            "day": "Sunday-Monday",
+            "hours": "Closed"
+          }
+        ],
+        "pricing": "$175–$225/hour (non-regulated vs IRS-regulated)",
+        "rating": 4.6,
+        "reviewCount": 17
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art (19th–21st century)",
+          "Antiques",
+          "Furniture",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ],
+        "certifications": [
+          "ISA",
+          "ASA",
+          "AAA",
+          "IRS compliant"
+        ],
+        "services": [
+          "Insurance appraisals",
+          "Estate appraisals",
+          "Donation appraisals",
+          "On-site and online evaluations"
+        ]
+      },
+      "content": {
+        "about": "Prestige Estate Services provides professional art appraisal services specializing in Fine art (19th–21st century), Antiques, Furniture, Insurance appraisals, Estate and donation appraisals. With 100+ collective years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
+        "notes": "Team includes Erika Holycross (ISA affiliated)."
+      },
+      "reviews": [
+        {
+          "author": "Jessica W.",
+          "rating": 4.5,
+          "date": "2024-11-27",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        },
+        {
+          "author": "Jessica B.",
+          "rating": 4.5,
+          "date": "2024-10-23",
+          "content": "Excellent service from start to finish. I highly recommend them for any art appraisal needs."
+        },
+        {
+          "author": "Robert A.",
+          "rating": 4.5,
+          "date": "2024-10-06",
+          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
+        }
+      ],
+      "metadata": {
+        "lastUpdated": "2025-03-15",
+        "inService": true
+      }
+    },
+    {
       "id": "columbus-saylor-rice-appraisals",
       "name": "Saylor Rice Appraisals",
       "slug": "saylor-rice-appraisals",
@@ -544,453 +1127,6 @@
       ],
       "metadata": {
         "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "columbus-gurr-johns",
-      "name": "Gurr Johns",
-      "slug": "gurr-johns",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
-      "address": {
-        "street": "888 Cedar Blvd",
-        "city": "Columbus",
-        "state": "OH",
-        "zip": "45201",
-        "formatted": "888 Cedar Blvd, Columbus, OH 45201"
-      },
-      "contact": {
-        "phone": "920-482-9783",
-        "email": "info@www.gurrjohns.com",
-        "website": "www.gurrjohns.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Thursday",
-            "hours": "9:00 AM - 4:00 PM"
-          },
-          {
-            "day": "Friday",
-            "hours": "9:00 AM - 3:00 PM"
-          },
-          {
-            "day": "Saturday-Sunday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 6
-      },
-      "expertise": {
-        "specialties": [
-          "High-value appraisals",
-          "Expert witness services"
-        ],
-        "certifications": [
-          "USPAP compliant"
-        ],
-        "services": [
-          "High-value appraisals",
-          "Expert witness services"
-        ]
-      },
-      "content": {
-        "about": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Global firm managing over $10 billion annually."
-      },
-      "reviews": [
-        {
-          "author": "Karen R.",
-          "rating": 5,
-          "date": "2025-03-12",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        },
-        {
-          "author": "Susan W.",
-          "rating": 4.5,
-          "date": "2024-11-11",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Jennifer T.",
-          "rating": 4.5,
-          "date": "2024-10-07",
-          "content": "Gurr Johns's expertise in fine art made the appraisal process smooth and thorough."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "columbus-mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "slug": "mimesis-gallery",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_st-louis-saylor-rice-appraisals_1741089465759_vDLhnb2Sk.jpg?updatedAt=1741089466862",
-      "address": {
-        "street": "1010 Maple Dr",
-        "city": "Columbus",
-        "state": "OH",
-        "zip": "43201",
-        "formatted": "1010 Maple Dr, Columbus, OH 43201"
-      },
-      "contact": {
-        "phone": "562-444-3288",
-        "email": "info@www.mimesisgallery.com",
-        "website": "www.mimesisgallery.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Tuesday-Saturday",
-            "hours": "10:00 AM - 6:00 PM"
-          },
-          {
-            "day": "Sunday-Monday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "20% fee up to $500K, 10% fee beyond $500K",
-        "rating": 4.6,
-        "reviewCount": 5
-      },
-      "expertise": {
-        "specialties": [
-          "Consignment-based art sales",
-          "Valuations"
-        ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
-        "services": [
-          "Free valuations",
-          "Same-day offers",
-          "Consignment-based sales"
-        ]
-      },
-      "content": {
-        "about": "Mimesis Gallery provides professional art appraisal services specializing in Consignment-based art sales, Valuations. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Located on Westwood Blvd, Los Angeles."
-      },
-      "reviews": [
-        {
-          "author": "Susan W.",
-          "rating": 4.5,
-          "date": "2024-12-16",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        },
-        {
-          "author": "Sarah W.",
-          "rating": 2,
-          "date": "2024-11-27",
-          "content": "Good service overall, though the turnaround time was longer than expected."
-        },
-        {
-          "author": "Emily A.",
-          "rating": 5,
-          "date": "2024-09-07",
-          "content": "Very responsive and easy to work with. The appraisal report was comprehensive and well-documented."
-        }
-      ],
-      "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
-      }
-    },
-    {
-      "id": "columbus-pennypacker-appraisals-art-advisory",
-      "name": "Pennypacker Appraisals and Art Advisory, Ltd.",
-      "slug": "pennypacker-appraisals-art-advisory",
-      "imageUrl": "",
-      "address": {
-        "street": "Columbus",
-        "city": "Columbus",
-        "state": "OH",
-        "zip": "43201",
-        "formatted": "Columbus, OH"
-      },
-      "contact": {
-        "phone": "",
-        "email": "",
-        "website": "https://www.pennypackerappraisals.com"
-      },
-      "business": {
-        "yearsInBusiness": "Established business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.8,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine art",
-          "Furniture",
-          "Decorative arts",
-          "Collectibles"
-        ],
-        "certifications": [
-          "USPAP-compliant"
-        ],
-        "services": [
-          "Appraisal services",
-          "Advisory on selling, keeping, or donating property"
-        ]
-      },
-      "content": {
-        "about": "Pennypacker Appraisals and Art Advisory, Ltd. is an independent personal property appraisal firm based in Columbus, Ohio. They provide appraisal services for personal property including fine art, furniture, decorative arts, and collectibles, as well as advice on what to do with personal property. All services comply with USPAP.",
-        "notes": "Independent firm based in Columbus, Ohio."
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "elizabeth-j-taylor-columbus",
-      "name": "Elizabeth J Taylor Fine Art",
-      "slug": "elizabeth-j-taylor-fine-art",
-      "imageUrl": "",
-      "address": {
-        "street": "2175 W 5th Ave",
-        "city": "Columbus",
-        "state": "OH",
-        "zip": "43212",
-        "formatted": "2175 W 5th Ave, Columbus, OH 43212"
-      },
-      "contact": {
-        "phone": "(614) 706-4258",
-        "email": "",
-        "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/9805/elizabeth-j-taylor"
-      },
-      "business": {
-        "yearsInBusiness": "Established fine art appraiser",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "By appointment only"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.7,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Decorative Arts",
-          "Antiques"
-        ],
-        "certifications": [
-          "ISA Member - International Society of Appraisers"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Elizabeth J Taylor is an ISA member and fine art appraiser based in Columbus, OH, providing professional appraisals for fine art, decorative arts, and antiques.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "ja-baker-appraisal-columbus",
-      "name": "JA Baker Appraisal & Estate Sales",
-      "slug": "ja-baker-appraisal-estate-sales",
-      "imageUrl": "",
-      "address": {
-        "street": "",
-        "city": "Columbus",
-        "state": "OH",
-        "zip": "43206",
-        "formatted": "Columbus, OH 43206"
-      },
-      "contact": {
-        "phone": "",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "Established estate services firm",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Antiques",
-          "Estate Liquidation",
-          "Personal Property"
-        ],
-        "certifications": [
-          "BBB A+ Rating"
-        ],
-        "services": [
-          "Estate Sales",
-          "Antique Appraisals",
-          "Art Appraisals"
-        ]
-      },
-      "content": {
-        "about": "JA Baker Appraisal & Estate Sales, LLC provides estate liquidation and antique appraisal services with an A+ BBB rating, serving Columbus and surrounding areas.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "ohio-valley-art-appraisals-columbus",
-      "name": "Ohio Valley Art Appraisals",
-      "slug": "ohio-valley-art-appraisals",
-      "imageUrl": "",
-      "address": {
-        "street": "1234 N High St",
-        "city": "Columbus",
-        "state": "OH",
-        "zip": "43201",
-        "formatted": "1234 N High St, Columbus, OH 43201"
-      },
-      "contact": {
-        "phone": "(614) 555-0144",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "16 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.5,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Ohio Regional Art",
-          "Contemporary Art"
-        ],
-        "certifications": [
-          "USPAP Compliant"
-        ],
-        "services": [
-          "Art Appraisals",
-          "Insurance Appraisals",
-          "Estate Appraisals"
-        ]
-      },
-      "content": {
-        "about": "Ohio Valley Art Appraisals provides expert fine art and Ohio regional art appraisals for collectors, galleries, and institutions throughout the Columbus area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
-        "inService": true
-      }
-    },
-    {
-      "id": "buckeye-art-advisors-columbus",
-      "name": "Buckeye Art Advisors",
-      "slug": "buckeye-art-advisors",
-      "imageUrl": "",
-      "address": {
-        "street": "555 E Broad St",
-        "city": "Columbus",
-        "state": "OH",
-        "zip": "43215",
-        "formatted": "555 E Broad St, Columbus, OH 43215"
-      },
-      "contact": {
-        "phone": "(614) 555-0156",
-        "email": "",
-        "website": ""
-      },
-      "business": {
-        "yearsInBusiness": "12 years in business",
-        "hours": [
-          {
-            "day": "Monday-Friday",
-            "hours": "9:00 AM - 5:00 PM"
-          },
-          {
-            "day": "Saturday",
-            "hours": "By appointment"
-          },
-          {
-            "day": "Sunday",
-            "hours": "Closed"
-          }
-        ],
-        "pricing": "Contact for pricing information",
-        "rating": 4.6,
-        "reviewCount": 0
-      },
-      "expertise": {
-        "specialties": [
-          "Fine Art",
-          "Contemporary Art",
-          "Art Advisory"
-        ],
-        "certifications": [],
-        "services": [
-          "Art Appraisals",
-          "Art Advisory",
-          "Collection Management"
-        ]
-      },
-      "content": {
-        "about": "Buckeye Art Advisors provides fine art appraisals and advisory services to collectors and institutions throughout the Columbus metropolitan area.",
-        "notes": ""
-      },
-      "reviews": [],
-      "metadata": {
-        "lastUpdated": "2026-04-08",
         "inService": true
       }
     },

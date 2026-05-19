@@ -1,0 +1,64 @@
+{
+  "appraisers": [
+    {
+      "id": "orlando-lauren-k-stump",
+      "name": "Lauren K. Stump",
+      "slug": "lauren-k-stump",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Orlando",
+        "state": "FL",
+        "zip": "",
+        "formatted": "Orlando, FL"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": "http://www.hollingsworthfinearts.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Drawings",
+          "Paintings",
+          "Prints",
+          "Sculpture",
+          "Watercolors",
+          "ISA AM"
+        ],
+        "certifications": [
+          "International Society of Appraisers (ISA)",
+          "ISA AM"
+        ],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Lauren K. Stump offers art appraisal services serving Orlando, FL. FAIR directory data indicates specialties in Drawings, Paintings, Prints, Sculpture, Watercolors, ISA AM, with direct website contact available for project-specific valuation requests.",
+        "notes": "Imported from the FAIR public directory bridge on 2026-04-17. Website: hollingsworthfinearts.com. Review the FAIR source listing and public website before any future profile enrichment."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-04-17",
+        "inService": true,
+        "fairImported": true,
+        "fairSourceId": "isa-2626"
+      }
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "appraisers": [
+    {
+      "id": "glendale-abd-antique-appraisers",
+      "name": "ABD Antique Appraisers",
+      "slug": "abd-antique-appraisers",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
+      "address": {
+        "street": "",
+        "city": "Glendale",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Glendale, CA"
+      },
+      "contact": {
+        "phone": "(623) 931-0235",
+        "email": "medore@mindspring.com",
+        "website": "http://abdappraise.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "ABD Antique Appraisers offers fine art appraisal services serving Glendale, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: http://abdappraise.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "http://abdappraise.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJM6zjZBtrK4cR50DEVQBBzLE",
+        "confidenceScore": 125,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "antique/personal-property signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "glendale-kathy-poppers-expert-art-appraisals",
+      "name": "Kathy Poppers Fine Art Appraisal & Services",
+      "slug": "kathy-poppers-expert-art-appraisals",
+      "imageUrl": "https://www.kathypoppers.com/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Glendale",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Glendale, CA"
+      },
+      "contact": {
+        "phone": "+1-800-900-1177",
+        "email": "artexpert@mac.com",
+        "website": "https://www.kathypoppers.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals",
+          "Estate valuations",
+          "Insurance appraisals",
+          "Donation appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Kathy Poppers Fine Art Appraisal & Services offers fine art appraisal services serving Glendale, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.kathypoppers.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.kathypoppers.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJFTOHmTW7woARYkdCw9m3CqM",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    },
+    {
+      "id": "glendale-van-weyenbergh-fine-art",
+      "name": "Van Weyenbergh Fine Art, Art Expert, Art Appraisal & Art Authentication",
+      "slug": "van-weyenbergh-fine-art",
+      "imageUrl": "https://static.wixstatic.com/media/36657e_3ed7ae584bfb49f8948e61522b00312b%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/36657e_3ed7ae584bfb49f8948e61522b00312b%7Emv2.png",
+      "address": {
+        "street": "",
+        "city": "Glendale",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Glendale, CA"
+      },
+      "contact": {
+        "phone": "760-2967175",
+        "email": "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+        "website": "https://www.vwart.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Van Weyenbergh Fine Art, Art Expert, Art Appraisal & Art Authentication offers fine art appraisal services serving Glendale, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.vwart.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.vwart.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJYUPYDAi8woARwnUuSiyMSD8",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

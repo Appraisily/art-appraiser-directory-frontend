@@ -1,0 +1,20 @@
+{
+  "title": "Art appraisers in Colorado Springs, Colorado",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "location": {
+    "slug": "colorado-springs",
+    "url": "https://art-appraisers-directory.appraisily.com/location/colorado-springs/",
+    "name": "Art appraisers in Colorado Springs, Colorado",
+    "description": "Compare art appraisers in Colorado Springs, Colorado.",
+    "city": "Colorado Springs",
+    "region": "Colorado",
+    "country": "US",
+    "numberOfListedAppraisers": 0,
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/colorado-springs/"
+    }
+  }
+}

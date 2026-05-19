@@ -1,0 +1,72 @@
+{
+  "appraisers": [
+    {
+      "id": "pasadena-newton-fine-art-appraisal",
+      "name": "Newton Fine Art Appraisal, Sally Newton",
+      "slug": "newton-fine-art-appraisal",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/64b301903e69300b538793a8/13d38edf-31ed-4465-abcb-0cb1940a080e/favicon.ico?format=100w",
+      "address": {
+        "street": "",
+        "city": "Pasadena",
+        "state": "CA",
+        "zip": "",
+        "formatted": "Pasadena, CA"
+      },
+      "contact": {
+        "phone": "(415) 361-1890",
+        "email": "user@domain.com",
+        "website": "https://www.newtonfineartappraisal.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Newton Fine Art Appraisal, Sally Newton offers fine art appraisal services serving Pasadena, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.newtonfineartappraisal.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.newtonfineartappraisal.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJt8gY7-aFhYARz2-Hs58SFLA",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}

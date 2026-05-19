@@ -1,0 +1,72 @@
+{
+  "appraisers": [
+    {
+      "id": "boise-selz-fine-arts-appraisals",
+      "name": "Selz Fine Art Appraisals",
+      "slug": "selz-fine-arts-appraisals",
+      "imageUrl": "https://www.selzfineartappraisals.com/imgs/favicon.ico",
+      "address": {
+        "street": "",
+        "city": "Boise",
+        "state": "ID",
+        "zip": "",
+        "formatted": "Boise, ID"
+      },
+      "contact": {
+        "phone": "+15166398144",
+        "email": "gabrielle@selzfineartappraisals.com",
+        "website": "https://www.selzfineartappraisals.com/"
+      },
+      "business": {
+        "yearsInBusiness": "Contact for background details",
+        "hours": [
+          {
+            "day": "Monday-Friday",
+            "hours": "By appointment"
+          }
+        ],
+        "pricing": "Contact for pricing information",
+        "rating": null,
+        "reviewCount": 0
+      },
+      "expertise": {
+        "specialties": [
+          "Fine art appraisals"
+        ],
+        "certifications": [],
+        "services": [
+          "Art appraisal services",
+          "Insurance appraisals",
+          "Estate and donation appraisals"
+        ]
+      },
+      "content": {
+        "about": "Selz Fine Art Appraisals offers fine art appraisal services serving Boise, ID. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://www.selzfineartappraisals.com/. Human approval required before public import."
+      },
+      "reviews": [],
+      "metadata": {
+        "lastUpdated": "2026-05-16",
+        "inService": true,
+        "placesLeadPrepared": true,
+        "verification": {
+          "sourceUrl": "https://www.selzfineartappraisals.com/",
+          "verifiedAt": "2026-05-16",
+          "sourceType": "business_website",
+          "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."
+        },
+        "source": "places_website_enrichment",
+        "placeId": "ChIJ_TlhkQQUOAYRVFB12S_Cpok",
+        "confidenceScore": 110,
+        "confidenceReasons": [
+          "website-backed extraction",
+          "appraisal or valuation term found in business identity",
+          "art-specific signal",
+          "Places discovery class likely art/antique appraiser",
+          "direct email found",
+          "direct phone found"
+        ]
+      }
+    }
+  ]
+}
