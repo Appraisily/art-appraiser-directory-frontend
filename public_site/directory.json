@@ -9372,24 +9372,6 @@
       }
     },
     {
-      "slug": "philadelphia-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-page-art-inc/"
-      }
-    },
-    {
-      "slug": "philadelphia-philadelphia-art-of-estates-personal-property-appraisal-firm",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-philadelphia-art-of-estates-personal-property-appraisal-firm/",
-      "name": "Art of Estates - Art Appraisal & Consulting | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-philadelphia-art-of-estates-personal-property-appraisal-firm/"
-      }
-    },
-    {
       "slug": "philadelphia-philadelphia-jewelry-appraisers",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-philadelphia-jewelry-appraisers/",
       "name": "Philadelphia Jewelry Appraisers | Art Appraiser Directory",
