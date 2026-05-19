@@ -9372,78 +9372,6 @@
       }
     },
     {
-      "slug": "philadelphia-philadelphia-jewelry-appraisers",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-philadelphia-jewelry-appraisers/",
-      "name": "Philadelphia Jewelry Appraisers | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-philadelphia-jewelry-appraisers/"
-      }
-    },
-    {
-      "slug": "philadelphia-prestige-estate-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-prestige-estate-services/",
-      "name": "Prestige Estate Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-prestige-estate-services/"
-      }
-    },
-    {
-      "slug": "philadelphia-robyn-roderick-fine-art-appraisal-services-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-robyn-roderick-fine-art-appraisal-services-llc/",
-      "name": "Robyn Roderick Fine Art Appraisal Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-robyn-roderick-fine-art-appraisal-services-llc/"
-      }
-    },
-    {
-      "slug": "philadelphia-sarah-ann-wilson-art-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-sarah-ann-wilson-art-services/",
-      "name": "Wilson Art Services, LLC | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-sarah-ann-wilson-art-services/"
-      }
-    },
-    {
-      "slug": "philadelphia-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "philadelphia-susan-golashovsky-personal-property-appraiser",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-susan-golashovsky-personal-property-appraiser/",
-      "name": "Susan Golashovsky, FASA, FSA-Scot | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/philadelphia-susan-golashovsky-personal-property-appraiser/"
-      }
-    },
-    {
-      "slug": "phoenix-abd-antique-appraisers",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/phoenix-abd-antique-appraisers/",
-      "name": "ABD Antique Appraisers | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/phoenix-abd-antique-appraisers/"
-      }
-    },
-    {
-      "slug": "phoenix-allison-gee-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/phoenix-allison-gee-fine-art-appraisals/",
-      "name": "Allison Gee Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/phoenix-allison-gee-fine-art-appraisals/"
-      }
-    },
-    {
       "slug": "phoenix-antique-gatherings",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/phoenix-antique-gatherings/",
       "name": "Antique Gatherings",
@@ -9458,7 +9386,9 @@
       "priceRange": "Contact for pricing information",
       "openingHours": "Monday-Friday By appointment",
       "specialties": [
-        "fine_art_or_gallery_related, antique_decorative_arts_personal_property_or_estate_contents, jewelry_gem_watch"
+        "Fine art or gallery-related services",
+        "Antiques, decorative arts, personal property, or estate contents",
+        "Jewelry, gems, or watches"
       ],
       "services": [
         "Art appraisal directory listing, art, gallery, advisory, or collection-related services"
@@ -9466,15 +9396,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/phoenix-antique-gatherings/"
-      }
-    },
-    {
-      "slug": "phoenix-az-appraisal-services-estates-insurance-property-appraisers",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/phoenix-az-appraisal-services-estates-insurance-property-appraisers/",
-      "name": "Arizona Certified Appraisal Group | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/phoenix-az-appraisal-services-estates-insurance-property-appraisers/"
       }
     },
     {
@@ -11113,7 +11034,6 @@
       "description": "Wilson Art Services, LLC offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sarah-ann-wilson-art-services.svg",
       "telephone": "717.348.4493",
-      "email": "user@domain.com",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
