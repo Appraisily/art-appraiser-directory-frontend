@@ -41,7 +41,7 @@ package scripts and operator runbooks call them directly.
 - `serve-static.js`: local static server for `public_site/`.
 - `test-html.js`: read-only HTML diagnostics; use `--strict` only when missing local assets should fail the command.
 - `count-appraisers.js`: read-only data count/report helper.
-- `list-imagekit-images.js`, `check-imagekit-connection.js`, `check-images.js`: image diagnostics.
+- `check-images.js`: legacy image diagnostics.
 
 ## Removed Build Path
 
