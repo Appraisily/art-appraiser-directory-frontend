@@ -1783,7 +1783,6 @@
       "description": "Artifactual History® Appraisal offers fine art appraisal services serving Washington, DC. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/artifactual-history.svg",
       "telephone": "703-543-2567",
-      "email": "user@domain.com",
       "address": {
         "city": "Washington",
         "region": "DC",
@@ -2973,15 +2972,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/boston-skinner-boston-bonhams/"
-      }
-    },
-    {
-      "slug": "boston-vivanco-art-and-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-vivanco-art-and-appraisals/",
-      "name": "Vivanco Art & Appraisals LLC | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/boston-vivanco-art-and-appraisals/"
       }
     },
     {
@@ -6246,15 +6236,6 @@
       }
     },
     {
-      "slug": "hartford-winter-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hartford-winter-associates/",
-      "name": "Winter Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/hartford-winter-associates/"
-      }
-    },
-    {
       "slug": "heidi-vaughan-ma-isa-am",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
       "name": "Heidi Vaughan, MA, ISA AM",
@@ -6854,15 +6835,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/indianapolis-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "indianapolis-veritas-fine-art-and-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/indianapolis-veritas-fine-art-and-appraisals/",
-      "name": "Veritas Fine Art Appraisals & Consulting Group | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/indianapolis-veritas-fine-art-and-appraisals/"
       }
     },
     {
@@ -7913,15 +7885,6 @@
       }
     },
     {
-      "slug": "langley-william-s-stamats",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/langley-william-s-stamats/",
-      "name": "William S Stamats | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/langley-william-s-stamats/"
-      }
-    },
-    {
       "slug": "las-vegas-alicia-weaver",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/las-vegas-alicia-weaver/",
       "name": "Alicia Weaver | Art Appraiser Directory",
@@ -7982,15 +7945,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/las-vegas-page-art-inc/"
-      }
-    },
-    {
-      "slug": "las-vegas-ralph-deluca",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/las-vegas-ralph-deluca/",
-      "name": "Ralph DeLuca | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/las-vegas-ralph-deluca/"
       }
     },
     {
@@ -9399,96 +9353,6 @@
       }
     },
     {
-      "slug": "phoenix-sims-appraisal",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/phoenix-sims-appraisal/",
-      "name": "Sims Appraisal | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/phoenix-sims-appraisal/"
-      }
-    },
-    {
-      "slug": "pittsburgh-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "pittsburgh-appraiseitnow",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-appraiseitnow/",
-      "name": "AppraiseItNow | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-appraiseitnow/"
-      }
-    },
-    {
-      "slug": "pittsburgh-concept-art-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-concept-art-gallery/",
-      "name": "Concept Art Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-concept-art-gallery/"
-      }
-    },
-    {
-      "slug": "pittsburgh-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-escher-associates/"
-      }
-    },
-    {
-      "slug": "pittsburgh-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-gurr-johns/"
-      }
-    },
-    {
-      "slug": "pittsburgh-kurt-shaw-company",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-kurt-shaw-company/",
-      "name": "Kurt Shaw & Company | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-kurt-shaw-company/"
-      }
-    },
-    {
-      "slug": "pittsburgh-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "pittsburgh-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-page-art-inc/"
-      }
-    },
-    {
-      "slug": "pittsburgh-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/pittsburgh-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/pittsburgh-saylor-rice-appraisals/"
-      }
-    },
-    {
       "slug": "plcombs-asian-art",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/plcombs-asian-art/",
       "name": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers",
@@ -9540,114 +9404,6 @@
       }
     },
     {
-      "slug": "portland-alicia-e-weaver",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-alicia-e-weaver/",
-      "name": "Alicia E Weaver | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-alicia-e-weaver/"
-      }
-    },
-    {
-      "slug": "portland-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "portland-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-escher-associates/"
-      }
-    },
-    {
-      "slug": "portland-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-gurr-johns/"
-      }
-    },
-    {
-      "slug": "portland-jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
-      "name": "Jennifer L. Stoots, AAA | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/"
-      }
-    },
-    {
-      "slug": "portland-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "portland-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-page-art-inc/"
-      }
-    },
-    {
-      "slug": "portland-prestige-estate-services-elizabeth-lovett-stephanie-calman",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-prestige-estate-services-elizabeth-lovett-stephanie-calman/",
-      "name": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-prestige-estate-services-elizabeth-lovett-stephanie-calman/"
-      }
-    },
-    {
-      "slug": "portland-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "portland-shelley-hall-bend-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-shelley-hall-bend-art-appraisals/",
-      "name": "Shelley Hall (Bend Art Appraisals) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-shelley-hall-bend-art-appraisals/"
-      }
-    },
-    {
-      "slug": "portland-stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc/",
-      "name": "Stephen G. Frazier Fine Art Appraiser, LLC | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc/"
-      }
-    },
-    {
-      "slug": "portland-stephen-g-frazier-fine-art-appraiser-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/portland-stephen-g-frazier-fine-art-appraiser-llc/",
-      "name": "Stephen G. Frazier Fine Art Appraiser, LLC | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/portland-stephen-g-frazier-fine-art-appraiser-llc/"
-      }
-    },
-    {
       "slug": "precious-restorations",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/precious-restorations/",
       "name": "Precious Restorations- Art & Antique Restoration",
@@ -9672,15 +9428,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/precious-restorations/"
-      }
-    },
-    {
-      "slug": "prestige-estate-services-boston",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-boston/",
-      "name": "Prestige Estate Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/prestige-estate-services-boston/"
       }
     },
     {
@@ -9765,15 +9512,6 @@
       }
     },
     {
-      "slug": "prestige-estate-services-national",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-national/",
-      "name": "Prestige Estate Services (National Network) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/prestige-estate-services-national/"
-      }
-    },
-    {
       "slug": "prestige-estate-services-team",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/",
       "name": "Prestige Estate Services Team",
@@ -9826,122 +9564,14 @@
       }
     },
     {
-      "slug": "providence-associated-estate-appraisal-co",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/providence-associated-estate-appraisal-co/",
-      "name": "Associated Estate & Appraisal Co. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/providence-associated-estate-appraisal-co/"
-      }
-    },
-    {
-      "slug": "providence-michael-rose-fine-art",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/providence-michael-rose-fine-art/",
-      "name": "Michael Rose Fine Art | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/providence-michael-rose-fine-art/"
-      }
-    },
-    {
-      "slug": "providence-new-york-fine-art-appraisers-boston-office",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/providence-new-york-fine-art-appraisers-boston-office/",
-      "name": "New York Fine Art Appraisers (Boston Office) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/providence-new-york-fine-art-appraisers-boston-office/"
-      }
-    },
-    {
-      "slug": "providence-vallot-auctioneers",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/providence-vallot-auctioneers/",
-      "name": "Vallot Auctioneers | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/providence-vallot-auctioneers/"
-      }
-    },
-    {
-      "slug": "raleigh-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "raleigh-appraising-plus",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-appraising-plus/",
-      "name": "Appraising Plus | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-appraising-plus/"
-      }
-    },
-    {
-      "slug": "raleigh-dana-summitt-look-appraisal-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-dana-summitt-look-appraisal-llc/",
-      "name": "Dana Summitt (Look Appraisal LLC) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-dana-summitt-look-appraisal-llc/"
-      }
-    },
-    {
-      "slug": "raleigh-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-escher-associates/"
-      }
-    },
-    {
-      "slug": "raleigh-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-gurr-johns/"
-      }
-    },
-    {
-      "slug": "raleigh-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "raleigh-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-page-art-inc/"
-      }
-    },
-    {
-      "slug": "raleigh-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/raleigh-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/raleigh-saylor-rice-appraisals/"
-      }
-    },
-    {
       "slug": "ralph-deluca",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/",
       "name": "Ralph DeLuca",
-      "description": "Ralph DeLuca offers art appraisal services serving Las Vegas, NY. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
+      "description": "Ralph DeLuca offers art appraisal services serving Las Vegas, NV. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ralph-deluca.svg",
       "address": {
         "city": "Las Vegas",
-        "region": "NY",
+        "region": "NV",
         "country": "US"
       },
       "priceRange": "Contact for pricing information",
@@ -9955,24 +9585,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/ralph-deluca/"
-      }
-    },
-    {
-      "slug": "ranchos-de-taos-elise-waters-olonia",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ranchos-de-taos-elise-waters-olonia/",
-      "name": "Elise Waters Olonia | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/ranchos-de-taos-elise-waters-olonia/"
-      }
-    },
-    {
-      "slug": "redondo-beach-elizabeth-blackmar",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/redondo-beach-elizabeth-blackmar/",
-      "name": "Elizabeth Blackmar | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/redondo-beach-elizabeth-blackmar/"
       }
     },
     {
@@ -10078,15 +9690,6 @@
       }
     },
     {
-      "slug": "reilly-clark-fine-art-santa-fe",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/reilly-clark-fine-art-santa-fe/",
-      "name": "Reilly Clark Fine Art & Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/reilly-clark-fine-art-santa-fe/"
-      }
-    },
-    {
       "slug": "revere-auctions",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/revere-auctions/",
       "name": "Revere Auctions",
@@ -10114,12 +9717,12 @@
       "slug": "richard-beau-lieu-and-associates-fine-art-appraisers",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/richard-beau-lieu-and-associates-fine-art-appraisers/",
       "name": "Richard Beau Lieu & Associates Fine Art Appraisers",
-      "description": "Richard Beau Lieu & Associates Fine Art Appraisers offers fine art appraisal services serving South Bend, IN. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+      "description": "Richard Beau Lieu & Associates Fine Art Appraisers offers fine art appraisal services serving Boynton Beach, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/richard-beau-lieu-and-associates-fine-art-appraisers.svg",
       "telephone": "+15617368181",
       "address": {
-        "city": "South Bend",
-        "region": "IN",
+        "city": "Boynton Beach",
+        "region": "FL",
         "country": "US"
       },
       "serviceType": "Art Appraisal",
@@ -10137,91 +9740,10 @@
       }
     },
     {
-      "slug": "richmond-alicia-e-weaver-isa-capp",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-alicia-e-weaver-isa-capp/",
-      "name": "Alicia E Weaver (ISA CAPP) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-alicia-e-weaver-isa-capp/"
-      }
-    },
-    {
-      "slug": "richmond-anderson-fine-art-appraisals-afaa",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-anderson-fine-art-appraisals-afaa/",
-      "name": "Anderson Fine Art Appraisals (AFAA) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-anderson-fine-art-appraisals-afaa/"
-      }
-    },
-    {
-      "slug": "richmond-escher-associates-ea",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-escher-associates-ea/",
-      "name": "Escher Associates (EA) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-escher-associates-ea/"
-      }
-    },
-    {
-      "slug": "richmond-green-donation-consultants",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-green-donation-consultants/",
-      "name": "Green Donation Consultants | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-green-donation-consultants/"
-      }
-    },
-    {
-      "slug": "richmond-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-gurr-johns/"
-      }
-    },
-    {
-      "slug": "richmond-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "richmond-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-page-art-inc/"
-      }
-    },
-    {
-      "slug": "richmond-prestige-estate-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-prestige-estate-services/",
-      "name": "Prestige Estate Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-prestige-estate-services/"
-      }
-    },
-    {
-      "slug": "richmond-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richmond-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/richmond-saylor-rice-appraisals/"
-      }
-    },
-    {
       "slug": "ripley-auctions",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/ripley-auctions/",
       "name": "Ripley Auctions",
-      "description": "Ripley Auctions offers art appraisal services serving Indianapolis, NY. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
+      "description": "Ripley Auctions offers art appraisal services serving Indianapolis, IN. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ripley-auctions.svg",
       "address": {
         "city": "Indianapolis",
@@ -10294,15 +9816,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/robyn-roderick-fine-art-appraisal-services-llc/"
-      }
-    },
-    {
-      "slug": "rockville-charles-barry-goldstein",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/rockville-charles-barry-goldstein/",
-      "name": "Charles Barry Goldstein | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/rockville-charles-barry-goldstein/"
       }
     },
     {
@@ -10463,222 +9976,6 @@
       }
     },
     {
-      "slug": "sacramento-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "sacramento-appraisal-resources-arai",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-appraisal-resources-arai/",
-      "name": "Appraisal Resources (ARAI) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-appraisal-resources-arai/"
-      }
-    },
-    {
-      "slug": "sacramento-appraiseitnow",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-appraiseitnow/",
-      "name": "AppraiseItNow | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-appraiseitnow/"
-      }
-    },
-    {
-      "slug": "sacramento-clars-auctions",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-clars-auctions/",
-      "name": "Clars Auctions | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-clars-auctions/"
-      }
-    },
-    {
-      "slug": "sacramento-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-escher-associates/"
-      }
-    },
-    {
-      "slug": "sacramento-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-gurr-johns/"
-      }
-    },
-    {
-      "slug": "sacramento-janet-l-ross",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-janet-l-ross/",
-      "name": "Janet L. Ross | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-janet-l-ross/"
-      }
-    },
-    {
-      "slug": "sacramento-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "sacramento-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-page-art-inc/"
-      }
-    },
-    {
-      "slug": "sacramento-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sacramento-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/sacramento-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-alicia-e-weaver-prestige-estate-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-alicia-e-weaver-prestige-estate-services/",
-      "name": "Alicia E Weaver (Prestige Estate Services) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-alicia-e-weaver-prestige-estate-services/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-appraiseitnow",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-appraiseitnow/",
-      "name": "AppraiseItNow | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-appraiseitnow/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-escher-associates/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-gurr-johns/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-intermountain-appraisal",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-intermountain-appraisal/",
-      "name": "Intermountain Appraisal | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-intermountain-appraisal/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-page-art-inc/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "salt-lake-city-williams-fine-art-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/salt-lake-city-williams-fine-art-gallery/",
-      "name": "Williams Fine Art Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/salt-lake-city-williams-fine-art-gallery/"
-      }
-    },
-    {
-      "slug": "san-antonio-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-antonio-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "san-antonio-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-antonio-escher-associates/"
-      }
-    },
-    {
-      "slug": "san-antonio-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-antonio-gurr-johns/"
-      }
-    },
-    {
-      "slug": "san-antonio-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-antonio-mimesis-gallery/"
-      }
-    },
-    {
       "slug": "san-antonio-national-appraisal-partners-llp",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-national-appraisal-partners-llp/",
       "name": "National Appraisal Partners, LLP",
@@ -10693,7 +9990,8 @@
       "priceRange": "Contact for pricing information",
       "openingHours": "Monday-Friday By appointment",
       "specialties": [
-        "fine_art_or_gallery_related, real_estate_property_appraisal"
+        "Fine art, gallery, or collection-related services",
+        "Real estate property appraisal"
       ],
       "services": [
         "Art appraisal directory listing, art, gallery, advisory, or collection-related services"
@@ -10701,330 +9999,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/san-antonio-national-appraisal-partners-llp/"
-      }
-    },
-    {
-      "slug": "san-antonio-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-antonio-page-art-inc/"
-      }
-    },
-    {
-      "slug": "san-antonio-prestige-estate-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-prestige-estate-services/",
-      "name": "Prestige Estate Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-antonio-prestige-estate-services/"
-      }
-    },
-    {
-      "slug": "san-antonio-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-antonio-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "san-diego-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "san-diego-ena-art-group",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-ena-art-group/",
-      "name": "ENA Appraisals - Fine Art | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-ena-art-group/"
-      }
-    },
-    {
-      "slug": "san-diego-erika-holycross-prestige-estate-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-erika-holycross-prestige-estate-services/",
-      "name": "Erika Holycross (Prestige Estate Services) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-erika-holycross-prestige-estate-services/"
-      }
-    },
-    {
-      "slug": "san-diego-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-escher-associates/"
-      }
-    },
-    {
-      "slug": "san-diego-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-gurr-johns/"
-      }
-    },
-    {
-      "slug": "san-diego-jsk-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-jsk-fine-art-appraisals/",
-      "name": "JSK Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-jsk-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "san-diego-lamplighter-appraisal-service-personal-property-appraisal-san-diego",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-lamplighter-appraisal-service-personal-property-appraisal-san-diego/",
-      "name": "Lamplighter Fine Art Appraisal San Diego | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-lamplighter-appraisal-service-personal-property-appraisal-san-diego/"
-      }
-    },
-    {
-      "slug": "san-diego-lena-s-appraisal-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-lena-s-appraisal-services/",
-      "name": "Lena's Appraisal Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-lena-s-appraisal-services/"
-      }
-    },
-    {
-      "slug": "san-diego-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "san-diego-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-page-art-inc/"
-      }
-    },
-    {
-      "slug": "san-diego-reilly-clark-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-reilly-clark-fine-art-appraisals/",
-      "name": "Reilly Clark Fine Art & Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-reilly-clark-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "san-diego-s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and/",
-      "name": "S Cohen Fine Art | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and/"
-      }
-    },
-    {
-      "slug": "san-diego-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "san-diego-thompson-and-martinez-fine-art-appraisals-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-diego-thompson-and-martinez-fine-art-appraisals-inc/",
-      "name": "Thompson & Martinez Fine Art Appraisals, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-diego-thompson-and-martinez-fine-art-appraisals-inc/"
-      }
-    },
-    {
-      "slug": "san-francisco-mary-peck-art-advisory",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-francisco-mary-peck-art-advisory/",
-      "name": "Mary Peck Art Advisory | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-francisco-mary-peck-art-advisory/"
-      }
-    },
-    {
-      "slug": "san-francisco-newton-fine-art-appraisal",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-francisco-newton-fine-art-appraisal/",
-      "name": "Newton Fine Art Appraisal | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-francisco-newton-fine-art-appraisal/"
-      }
-    },
-    {
-      "slug": "san-francisco-reilly-clark-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-francisco-reilly-clark-fine-art-appraisals/",
-      "name": "Reilly Clark Fine Art & Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-francisco-reilly-clark-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "san-francisco-rosalie-wardell",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-francisco-rosalie-wardell/",
-      "name": "Rosalie Wardell | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-francisco-rosalie-wardell/"
-      }
-    },
-    {
-      "slug": "san-jose-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "san-jose-appraiseitnow",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-appraiseitnow/",
-      "name": "AppraiseItNow | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-appraiseitnow/"
-      }
-    },
-    {
-      "slug": "san-jose-clars-auctions",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-clars-auctions/",
-      "name": "Clars Auctions | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-clars-auctions/"
-      }
-    },
-    {
-      "slug": "san-jose-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-escher-associates/"
-      }
-    },
-    {
-      "slug": "san-jose-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-gurr-johns/"
-      }
-    },
-    {
-      "slug": "san-jose-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "san-jose-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-page-art-inc/"
-      }
-    },
-    {
-      "slug": "san-jose-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-jose-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/san-jose-saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "santa-fe-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/santa-fe-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/santa-fe-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "santa-fe-appraiseitnow",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/santa-fe-appraiseitnow/",
-      "name": "AppraiseItNow | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/santa-fe-appraiseitnow/"
-      }
-    },
-    {
-      "slug": "santa-fe-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/santa-fe-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/santa-fe-escher-associates/"
-      }
-    },
-    {
-      "slug": "santa-fe-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/santa-fe-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/santa-fe-gurr-johns/"
-      }
-    },
-    {
-      "slug": "santa-fe-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/santa-fe-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/santa-fe-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "santa-fe-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/santa-fe-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/santa-fe-page-art-inc/"
-      }
-    },
-    {
-      "slug": "santa-fe-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/santa-fe-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/santa-fe-saylor-rice-appraisals/"
       }
     },
     {
@@ -11083,96 +10057,6 @@
       }
     },
     {
-      "slug": "savannah-anderson-fine-art-appraisals-afaa",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-anderson-fine-art-appraisals-afaa/",
-      "name": "Anderson Fine Art Appraisals (AFAA) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-anderson-fine-art-appraisals-afaa/"
-      }
-    },
-    {
-      "slug": "savannah-appraiseitnow",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-appraiseitnow/",
-      "name": "AppraiseItNow | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-appraiseitnow/"
-      }
-    },
-    {
-      "slug": "savannah-escher-associates-ea",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-escher-associates-ea/",
-      "name": "Escher Associates (EA) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-escher-associates-ea/"
-      }
-    },
-    {
-      "slug": "savannah-everard-auctions-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-everard-auctions-appraisals/",
-      "name": "Everard Auctions & Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-everard-auctions-appraisals/"
-      }
-    },
-    {
-      "slug": "savannah-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-gurr-johns/"
-      }
-    },
-    {
-      "slug": "savannah-hkpowerstudio",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-hkpowerstudio/",
-      "name": "HKpowerStudio | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-hkpowerstudio/"
-      }
-    },
-    {
-      "slug": "savannah-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "savannah-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-page-art-inc/"
-      }
-    },
-    {
-      "slug": "savannah-redtail-appraisals-rebekah-assid",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-redtail-appraisals-rebekah-assid/",
-      "name": "Redtail Appraisals (Rebekah Assid) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-redtail-appraisals-rebekah-assid/"
-      }
-    },
-    {
-      "slug": "savannah-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savannah-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/savannah-saylor-rice-appraisals/"
-      }
-    },
-    {
       "slug": "savvy-collector",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/savvy-collector/",
       "name": "Savvy Collector",
@@ -11222,15 +10106,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/saylor-rice-appraisals/"
-      }
-    },
-    {
-      "slug": "schaumburg-jessica-berger",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/schaumburg-jessica-berger/",
-      "name": "Jessica Berger | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/schaumburg-jessica-berger/"
       }
     },
     {
@@ -11361,51 +10236,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/scottsdale-appraisal-specialists/"
-      }
-    },
-    {
-      "slug": "seattle-andrea-moody-fine-art-appraisals-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/seattle-andrea-moody-fine-art-appraisals-llc/",
-      "name": "Andrea Moody Fine Art Appraisals, LLC | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/seattle-andrea-moody-fine-art-appraisals-llc/"
-      }
-    },
-    {
-      "slug": "seattle-appraisalink-for-art-and-antiques",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/seattle-appraisalink-for-art-and-antiques/",
-      "name": "APPRAISALINK for Art & Antiques | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/seattle-appraisalink-for-art-and-antiques/"
-      }
-    },
-    {
-      "slug": "seattle-baggenstoss-appraisal",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/seattle-baggenstoss-appraisal/",
-      "name": "Baggenstoss Appraisal | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/seattle-baggenstoss-appraisal/"
-      }
-    },
-    {
-      "slug": "seattle-jrl-fine-art-appraisal",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/seattle-jrl-fine-art-appraisal/",
-      "name": "JRL Fine Art Appraisal | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/seattle-jrl-fine-art-appraisal/"
-      }
-    },
-    {
-      "slug": "seattle-silvia-waltner-fine-art-services-art-appraisals-and-advisory",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/seattle-silvia-waltner-fine-art-services-art-appraisals-and-advisory/",
-      "name": "Silvia Waltner Fine Art Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/seattle-silvia-waltner-fine-art-services-art-appraisals-and-advisory/"
       }
     },
     {
@@ -11563,15 +10393,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/skinner-boston-bonhams/"
-      }
-    },
-    {
-      "slug": "solana-beach-jennifer-e-salvetti-kulla-ma",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/solana-beach-jennifer-e-salvetti-kulla-ma/",
-      "name": "Jennifer E Salvetti-Kulla, MA | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/solana-beach-jennifer-e-salvetti-kulla-ma/"
       }
     },
     {
@@ -11833,78 +10654,6 @@
       }
     },
     {
-      "slug": "st-louis-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "st-louis-artrium-appraisal-elizabeth-krambeer",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-artrium-appraisal-elizabeth-krambeer/",
-      "name": "Artrium Appraisal (Elizabeth Krambeer) | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-artrium-appraisal-elizabeth-krambeer/"
-      }
-    },
-    {
-      "slug": "st-louis-coast2coast-auctions",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-coast2coast-auctions/",
-      "name": "Coast2Coast Auctions | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-coast2coast-auctions/"
-      }
-    },
-    {
-      "slug": "st-louis-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-escher-associates/"
-      }
-    },
-    {
-      "slug": "st-louis-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-gurr-johns/"
-      }
-    },
-    {
-      "slug": "st-louis-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "st-louis-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-page-art-inc/"
-      }
-    },
-    {
-      "slug": "st-louis-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-louis-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-louis-saylor-rice-appraisals/"
-      }
-    },
-    {
       "slug": "stanford-fine-art",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/stanford-fine-art/",
       "name": "Stanford Fine Art",
@@ -11956,39 +10705,15 @@
       }
     },
     {
-      "slug": "stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc/",
-      "name": "Stephen G. Frazier Fine Art Appraiser, LLC",
-      "description": "Stephen G. Frazier Fine Art Appraiser, LLC offers art appraisal services serving Portland, OR. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc.svg",
-      "address": {
-        "city": "Portland",
-        "region": "OR",
-        "country": "US"
-      },
-      "priceRange": "Contact for pricing information",
-      "openingHours": "Monday-Friday By appointment",
-      "specialties": [
-        "Fine art appraisals"
-      ],
-      "services": [
-        "Art appraisal services, Insurance appraisals, Estate and donation appraisals"
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc/"
-      }
-    },
-    {
       "slug": "stephen-g-frazier-fine-art-appraiser-llc",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephen-g-frazier-fine-art-appraiser-llc/",
       "name": "Stephen G. Frazier Fine Art Appraiser, LLC",
-      "description": "Stephen G. Frazier Fine Art Appraiser, LLC offers fine art appraisal services serving Salem, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+      "description": "Stephen G. Frazier Fine Art Appraiser, LLC offers fine art appraisal services serving Ashland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/stephen-g-frazier-fine-art-appraiser-llc.svg",
       "telephone": "(541) 531-7575",
-      "email": "info@artappraiser.com",
+      "email": "info@frazierartappraiser.com",
       "address": {
-        "city": "Salem",
+        "city": "Ashland",
         "region": "OR",
         "country": "US"
       },
@@ -12039,6 +10764,7 @@
       "name": "Susan Golashovsky, FASA, FSA-Scot",
       "description": "Susan Golashovsky, FASA, FSA-Scot offers art appraisal services serving Philadelphia, PA. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/susan-golashovsky-personal-property-appraiser.svg",
+      "telephone": "(215) 489-7515",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
@@ -12061,13 +10787,13 @@
       "slug": "sylvia-fraley-fine-art-appraisals",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/sylvia-fraley-fine-art-appraisals/",
       "name": "Sylvia Fraley Fine Art Appraisals",
-      "description": "Sylvia Fraley Fine Art Appraisals offers fine art appraisal services serving Honolulu, HI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+      "description": "Sylvia Fraley Fine Art Appraisals offers fine art appraisal services serving St. Louis, MO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sylvia-fraley-fine-art-appraisals.svg",
-      "telephone": "3149627750",
+      "telephone": "(314) 962-7750",
       "email": "SylviaFraley@SBCglobal.net",
       "address": {
-        "city": "Honolulu",
-        "region": "HI",
+        "city": "St. Louis",
+        "region": "MO",
         "country": "US"
       },
       "serviceType": "Art Appraisal",
@@ -12082,24 +10808,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/sylvia-fraley-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "tampa-antique-art-buyers",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/tampa-antique-art-buyers/",
-      "name": "Antique Art Buyers | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/tampa-antique-art-buyers/"
-      }
-    },
-    {
-      "slug": "tampa-drake-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/tampa-drake-appraisals/",
-      "name": "Drake Appraisals, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/tampa-drake-appraisals/"
       }
     },
     {
@@ -12211,11 +10919,11 @@
       "slug": "the-perfect-piece-atlanta",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/",
       "name": "The Perfect Piece Atlanta",
-      "description": "The Perfect Piece Atlanta offers art appraisal services serving Atlanta, NY. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
+      "description": "The Perfect Piece Atlanta offers art appraisal services serving Atlanta, GA. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/the-perfect-piece-atlanta.svg",
       "address": {
         "city": "Atlanta",
-        "region": "NY",
+        "region": "GA",
         "country": "US"
       },
       "priceRange": "Custom quotes based on collection size",
@@ -12278,9 +10986,7 @@
         "Fine art appraisals, Art advisory, Estate valuations"
       ],
       "services": [
-        "Art appraisal services, Estate and insurance appraisals, Donation appraisals",
-        "Fine art appraisals, Art advisory, Estate valuations",
-        "You can contact Valia Garzon Art Services through the listed website."
+        "Art appraisal services, Estate and insurance appraisals, Donation appraisals"
       ],
       "source": {
         "type": "public_site_html_json_ld",
@@ -12444,42 +11150,6 @@
       }
     },
     {
-      "slug": "washington-alpha137-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-alpha137-gallery/",
-      "name": "Alpha137 Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-alpha137-gallery/"
-      }
-    },
-    {
-      "slug": "washington-anderson-fine-art-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-anderson-fine-art-appraisals/",
-      "name": "Anderson Fine Art Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-anderson-fine-art-appraisals/"
-      }
-    },
-    {
-      "slug": "washington-appraiseitnow-washington-dc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-appraiseitnow-washington-dc/",
-      "name": "AppraiseItNow – Washington DC | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-appraiseitnow-washington-dc/"
-      }
-    },
-    {
-      "slug": "washington-artifactual-history-appraisal",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-artifactual-history-appraisal/",
-      "name": "Artifactual History® Appraisal | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-artifactual-history-appraisal/"
-      }
-    },
-    {
       "slug": "washington-capital-antiques-and-fine-art-home",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-capital-antiques-and-fine-art-home/",
       "name": "Capital Antiques & Fine Art - Home",
@@ -12502,33 +11172,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/washington-capital-antiques-and-fine-art-home/"
-      }
-    },
-    {
-      "slug": "washington-czudej-mcdonough",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-czudej-mcdonough/",
-      "name": "Czudej McDonough | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-czudej-mcdonough/"
-      }
-    },
-    {
-      "slug": "washington-dc-artifactual-history",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-dc-artifactual-history/",
-      "name": "Artifactual History® Appraisal | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-dc-artifactual-history/"
-      }
-    },
-    {
-      "slug": "washington-dc-fine-art-appraiser",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-dc-fine-art-appraiser/",
-      "name": "Washington Fine Art Appraisers | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-dc-fine-art-appraiser/"
       }
     },
     {
@@ -12559,41 +11202,14 @@
       }
     },
     {
-      "slug": "washington-dc-peenstra-antiques",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-dc-peenstra-antiques/",
-      "name": "Peenstra Antique Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-dc-peenstra-antiques/"
-      }
-    },
-    {
-      "slug": "washington-dc-washington-dc-new-york-fine-art-appraisers",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-dc-washington-dc-new-york-fine-art-appraisers/",
-      "name": "New York Fine Art Appraisers | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-dc-washington-dc-new-york-fine-art-appraisers/"
-      }
-    },
-    {
-      "slug": "washington-escher-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-escher-associates/",
-      "name": "Escher Associates | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-escher-associates/"
-      }
-    },
-    {
       "slug": "washington-fine-art-appraisers",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-fine-art-appraisers/",
       "name": "Washington Fine Art Appraisers",
-      "description": "Washington Fine Art Appraisers offers art appraisal services serving 123 Main St, NY. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
+      "description": "Washington Fine Art Appraisers offers art appraisal services serving Washington, DC. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/washington-fine-art-appraisers.svg",
       "address": {
-        "city": "123 Main St",
-        "region": "NY",
+        "city": "Washington",
+        "region": "DC",
         "country": "US"
       },
       "priceRange": "Contact for pricing information",
@@ -12607,69 +11223,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/washington-fine-art-appraisers/"
-      }
-    },
-    {
-      "slug": "washington-gurr-johns",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-gurr-johns/",
-      "name": "Gurr Johns | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-gurr-johns/"
-      }
-    },
-    {
-      "slug": "washington-irs-art-appraisal-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-irs-art-appraisal-services/",
-      "name": "IRS Art Appraisal Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-irs-art-appraisal-services/"
-      }
-    },
-    {
-      "slug": "washington-mimesis-gallery",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-mimesis-gallery/",
-      "name": "Mimesis Gallery | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-mimesis-gallery/"
-      }
-    },
-    {
-      "slug": "washington-museum-exchange",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-museum-exchange/",
-      "name": "Museum Exchange | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-museum-exchange/"
-      }
-    },
-    {
-      "slug": "washington-page-art-inc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-page-art-inc/",
-      "name": "Page Art, Inc. | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-page-art-inc/"
-      }
-    },
-    {
-      "slug": "washington-prestige-estate-services",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-prestige-estate-services/",
-      "name": "Prestige Estate Services | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-prestige-estate-services/"
-      }
-    },
-    {
-      "slug": "washington-saylor-rice-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-saylor-rice-appraisals/",
-      "name": "Saylor Rice Appraisals | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/washington-saylor-rice-appraisals/"
       }
     },
     {
@@ -12779,11 +11332,11 @@
       "slug": "williams-fine-art-gallery",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/williams-fine-art-gallery/",
       "name": "Williams Fine Art Gallery",
-      "description": "Williams Fine Art Gallery offers art appraisal services serving Salt Lake City, NY. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
+      "description": "Williams Fine Art Gallery offers art appraisal services serving Salt Lake City, UT. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/williams-fine-art-gallery.svg",
       "address": {
         "city": "Salt Lake City",
-        "region": "NY",
+        "region": "UT",
         "country": "US"
       },
       "priceRange": "Contact for pricing information",
@@ -12873,15 +11426,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/woodard-lipe-fine-art-auction/"
-      }
-    },
-    {
-      "slug": "woodside-perri-guthrie",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/woodside-perri-guthrie/",
-      "name": "Perri Guthrie | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/woodside-perri-guthrie/"
       }
     },
     {

@@ -785,7 +785,7 @@ export function StandardizedLocationPage() {
           </div>
         </div>
 
-        <div id="local-appraisers" className="mb-6">
+        <div id="local-appraisers" className="mb-6 scroll-mt-20">
           <h2 className="text-2xl font-semibold">Local art appraisers in {cityName}</h2>
           <p className="text-gray-600 mt-2">
             Use this list to contact in-person providers or compare them with Appraisily&rsquo;s online option.

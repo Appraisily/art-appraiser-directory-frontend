@@ -131,13 +131,11 @@ export function ContentFeedback() {
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
-                  disabled={!canSubmit}
-                  aria-disabled={!canSubmit}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
                     canSubmit
                       ? 'hover:bg-gray-800 cursor-pointer'
-                      : 'opacity-50 cursor-not-allowed',
+                      : 'opacity-75 cursor-pointer',
                   ].join(' ')}
                 >
                   Send feedback
