@@ -8,7 +8,7 @@
     "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
     "name": "Art appraisers in Houston, Texas",
     "description": "Compare art appraisers in Houston, Texas.",
-    "numberOfListedAppraisers": 15,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "Alexander Appraisal & Estate Services",
@@ -24,14 +24,6 @@
         "slug": "alicia-e-weaver-prestige-estate-services",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-escher-associates_1741089012893_XXdsoILpn.jpg?updatedAt=1741089014093",
         "description": "Alicia E Weaver (Prestige Estate Services) provides professional art appraisal services specializing in Antiques, Americana, Furniture, Paintings (19th–20th century), Silver, Ceramics. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Anderson Fine Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
-        "slug": "anderson-fine-art-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-jose-saylor-rice-appraisals_1741089143939_P8_GvI3wY.jpg?updatedAt=1741089145255",
-        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {
@@ -59,22 +51,6 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Escher Associates (EA)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-ea/",
-        "slug": "escher-associates-ea",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
-        "description": "Escher Associates (EA) provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Gurr Johns",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
-        "slug": "gurr-johns",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-escher-associates_1741086913213_kTqP95EkI.jpg?updatedAt=1741086914372",
-        "description": "Gurr Johns provides professional art appraisal services specializing in High-value appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Heidi Vaughan, MA, ISA AM",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
         "slug": "heidi-vaughan-ma-isa-am",
@@ -99,35 +75,11 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Mimesis Gallery",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
-        "slug": "mimesis-gallery",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg?updatedAt=1741086897385",
-        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "MKG Art Management",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/m-k-g-art-management-art-advisors-and-appraisers-houston-texas/",
         "slug": "m-k-g-art-management-art-advisors-and-appraisers-houston-texas",
         "image": "https://mkgart.com/wp-content/uploads/2022/08/mkg-logo-dark.png",
         "description": "MKG Art Management offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Page Art, Inc.",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
-        "slug": "page-art-inc",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg?updatedAt=1741089169374",
-        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation valuations, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Saylor Rice Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
-        "slug": "saylor-rice-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg?updatedAt=1741088953974",
-        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage and loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

@@ -14,8 +14,7 @@ This repo is static-first.
 - Validate the static artifact without mutating profile/location HTML: `npm run build`
 - Validate the static artifact: `npm run check:static`
 - Serve the static artifact locally: `npm run serve:static`
-- Publish envelope/homepage/assets only: `npm run publish:patch`
-- Patch homepage/nav/footer/static assets without replacing content routes: `npm run publish:patch`
+- Promote reviewed HTML only through the standard VPS deploy helper for `art-appraisers-directory`.
 
 ## Guardrails
 
@@ -25,5 +24,6 @@ This repo is static-first.
 - Prefer direct edits to `public_site/` for content and SEO changes.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.
-- Use `publish:patch` for visual/envelope/static-only deploys; full generated publish is disabled.
+- Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
+- `npm run publish`, `npm run publish:patch`, and `npm run deploy` must remain hard blockers.
 - If bulk refresh is needed, update only the affected HTML pages rather than rebuilding an app shell.

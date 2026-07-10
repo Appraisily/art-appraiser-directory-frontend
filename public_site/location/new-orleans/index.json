@@ -11,7 +11,7 @@
     "city": "New Orleans",
     "region": "Louisiana",
     "country": "US",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 4,
     "listedAppraisers": [
       {
         "name": "Barnett Fine Art",
@@ -43,54 +43,6 @@
         "slug": "american-society-of-appraisers-asa",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg?updatedAt=1741088517396",
         "description": "American Society of Appraisers (ASA) provides professional art appraisal services specializing in Accredited appraiser directory, Personal property, Fine art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Anderson Fine Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
-        "slug": "anderson-fine-art-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg?updatedAt=1741088672826",
-        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European art, American art, Contemporary, Modern, Impressionist, 19th-century works, Expert witness services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Escher Associates",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
-        "slug": "escher-associates",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-saylor-rice-appraisals_1741087677129_6hZ4MbZt4.jpg?updatedAt=1741087678345",
-        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Page Art, Inc.",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
-        "slug": "page-art-inc",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861",
-        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance appraisals, Estate appraisals, Donation appraisals, Litigation appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Saylor Rice Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
-        "slug": "saylor-rice-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-hkpowerstudio_1741089229370_IAgUH75-0.jpg?updatedAt=1741089231448",
-        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance appraisals, Damage/loss appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Gurr Johns",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
-        "slug": "gurr-johns",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg?updatedAt=1741089169374",
-        "description": "Gurr Johns provides professional art appraisal services specializing in High-value art appraisals, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Mimesis Gallery",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
-        "slug": "mimesis-gallery",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_houston-anderson-fine-art-appraisals_1741086832703_RqYoGS4BTl.jpg?updatedAt=1741086834057",
-        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free valuations, Consignment-based sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

@@ -8,7 +8,7 @@
     "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
     "name": "Art appraisers in Boston, Massachusetts",
     "description": "Compare art appraisers in Boston, Massachusetts.",
-    "numberOfListedAppraisers": 19,
+    "numberOfListedAppraisers": 9,
     "listedAppraisers": [
       {
         "name": "AFP Art Consulting, LLC",
@@ -16,14 +16,6 @@
         "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
         "image": "https://afpartconsulting.com/wp-content/themes/afp/images/favicon.ico",
         "description": "AFP Art Consulting, LLC offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Anderson Fine Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
-        "slug": "anderson-fine-art-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-gurr-johns_1741088863939_Juz44fXpY.jpg?updatedAt=1741088865033",
-        "description": "Anderson Fine Art Appraisals provides professional art appraisal services specializing in European Art, American Art, Expert Witness Services. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {
@@ -43,30 +35,6 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Escher Associates",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates/",
-        "slug": "escher-associates",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-anderson-fine-art-appraisals_1741089007772_o7DabO63Y.jpg?updatedAt=1741089008903",
-        "description": "Escher Associates provides professional art appraisal services specializing in Paintings, Sculpture, Photography, Rare Books. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Gurr Johns",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
-        "slug": "gurr-johns",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-mimesis-gallery_1741088988479_fkdmCGchi.jpg?updatedAt=1741088989775",
-        "description": "Gurr Johns provides professional art appraisal services specializing in High-value Appraisals, Expert Witness Services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "James B. Hand Fine Art",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals/",
-        "slug": "james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals.svg",
-        "description": "James B. Hand Fine Art offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Manzi Appraisers & Restoration",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/manzi-appraisers-restoration/",
         "slug": "manzi-appraisers-restoration",
@@ -75,35 +43,11 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Manzi Personal Property Appraisers & Restorers",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/manzi-personal-property-appraisers/",
-        "slug": "manzi-personal-property-appraisers",
-        "image": "https://manziappraisers.com/wp-content/uploads/2021/05/manzi-appraisers.png",
-        "description": "Manzi Personal Property Appraisers & Restorers offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Mimesis Gallery",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
-        "slug": "mimesis-gallery",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-jose-escher-associates_1741089133154_xx2memQpA.jpg?updatedAt=1741089134247",
-        "description": "Mimesis Gallery provides professional art appraisal services specializing in Free Valuations, Consignment Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "New York Fine Art Appraisers (Boston Office)",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-fine-art-appraisers-boston-office/",
         "slug": "new-york-fine-art-appraisers-boston-office",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg?updatedAt=1741089032481",
         "description": "New York Fine Art Appraisers (Boston Office) provides professional art appraisal services specializing in Americana, Contemporary Art, Decorative Arts. With Established 1980; Boston office opened in 2018 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Page Art, Inc.",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
-        "slug": "page-art-inc",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-gurr-johns_1741089075363_6i416FCSf.jpg?updatedAt=1741089076631",
-        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Appraisals, Estate and Donations Appraisals, Litigation Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {
@@ -120,30 +64,6 @@
         "slug": "boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
         "image": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
         "description": "Poras Fine Arts Appraisal - Serving N.E. offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Prestige Estate Services",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
-        "slug": "prestige-estate-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-artrium-appraisal-elizabeth-krambeer_1741089317012_JgTPQa9URQ.jpg?updatedAt=1741089318269",
-        "description": "Prestige Estate Services provides professional art appraisal services specializing in Fine Art, Antiques, Estate Tax Valuations, Insurance Appraisals. With Decades experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Saylor Rice Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
-        "slug": "saylor-rice-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg?updatedAt=1741089163923",
-        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Damage/Loss Appraisals, Insurance Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Schlegel Fine Art Consulting LLC",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/schlegel-fine-art-consulting-llc/",
-        "slug": "schlegel-fine-art-consulting-llc",
-        "image": "https://static.parastorage.com/client/pfavico.ico",
-        "description": "Schlegel Fine Art Consulting LLC offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
         "publicRouteAvailable": true
       },
       {

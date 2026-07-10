@@ -13,7 +13,7 @@ Operational guardrails: [docs/operational-guardrails.md](docs/operational-guardr
 - Integration with ImageKit for appraiser profile images
 - SEO optimization with structured schema.org data
 - Automatic sitemap generation
-- Release-directory publish flow for VPS deployment
+- Atomic static-release promotion through the standard VPS deploy helper
 
 ## Standardized Data Model
 
@@ -33,24 +33,21 @@ The normal workflow is now `public_site`-first.
 ```bash
 npm run build
 npm run serve:static
-npm run publish:patch
 ```
 
 `npm run build` no longer means “compile the app” or “refresh generated HTML.”
 It is validation-only. Profile and city HTML should not be mass-edited by npm
 scripts.
 
-Use `npm run publish:patch` for homepage, nav/footer, CSS, managed CTA block, or
-asset-only releases. It starts from the active live release, overlays only
-allow-listed static paths from `public_site/`, and updates shared envelope blocks
-on existing appraiser/location pages while checking that protected profile/city
-content stays unchanged.
+Production publishing is intentionally unavailable through npm. After review,
+promote the complete validated `public_site/` artifact with the standard VPS
+deploy helper.
 
 ### Canonical surfaces
 
 - `data/`: structured source facts for appraisers and locations
 - `public_site/`: canonical published HTML artifact
-- `scripts/publish-patch.mjs`: patch publisher to `/mnt/srv-storage/art-appraisers-directory/releases`
+- Standard deployment: `/home/deploy/.codex/skills/public/appraisily-vps-deploy/scripts/deploy.mjs`
 
 ## Development Commands
 
@@ -70,15 +67,12 @@ npm run fetch:imagekit
 # Serve the canonical static site locally
 npm run serve:static
 
-# Patch homepage/assets/envelope over the active release without replacing directory content
-npm run publish:patch
-
 # Run lint checks
 npm run lint
 
 ```
 
-## VPS Static Publish (recommended)
+## VPS Static Publish
 
 The VPS deployment serves plain HTML from an nginx container, with content bind-mounted from a release directory (articles-style).
 
@@ -87,13 +81,16 @@ The VPS deployment serves plain HTML from an nginx container, with content bind-
   - `npm run build`
 - Validate the static artifact:
   - `npm run check:static`
-- Patch publish for footer/nav/static-only changes:
-  - `npm run publish:patch`
+All HTML, SEO, envelope, and asset changes use one production path:
 
-Full generated publish is disabled from npm. Use direct reviewed HTML edits for
-individual profile or city content. For visual cleanup, homepage changes,
-nav/footer changes, managed CTA-block changes, or static asset updates, use
-`npm run publish:patch`.
+```bash
+node /home/deploy/.codex/skills/public/appraisily-vps-deploy/scripts/deploy.mjs \
+  --service art-appraisers-directory
+```
+
+The helper validates and content-hashes `public_site/`, promotes changed content
+atomically, verifies the public route and assets, and rolls back on failure.
+`npm run publish`, `npm run publish:patch`, and `npm run deploy` are blockers.
 
 ## Project Structure
 

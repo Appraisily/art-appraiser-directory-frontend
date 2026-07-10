@@ -3,32 +3,8 @@
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
   "generatedAt": "2026-05-18T13:57:56.721Z",
-  "count": 781,
+  "count": 583,
   "appraisers": [
-    {
-      "slug": "812-maplewood",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/812-maplewood/",
-      "name": "812 Maplewood",
-      "description": "812 Maplewood offers art appraisal services serving Aspen, CO. Review the listed website or contact the business directly to confirm current services, service area, qualifications, fees, and report requirements before engagement.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/812-maplewood.svg",
-      "address": {
-        "city": "Aspen",
-        "region": "CO",
-        "country": "US"
-      },
-      "priceRange": "Contact for pricing information",
-      "openingHours": "Tuesday-Saturday 10:00 AM - 6:00 PM, Sunday-Monday Closed",
-      "specialties": [
-        "Fine Art Valuations, Insurance Solutions"
-      ],
-      "services": [
-        "Art Appraisals, Framing, Collection Management"
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/812-maplewood/"
-      }
-    },
     {
       "slug": "a-and-a-art-appraisals-naples-fl",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/a-and-a-art-appraisals-naples-fl/",
@@ -301,33 +277,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/"
-      }
-    },
-    {
-      "slug": "ahlstrom-appraisals-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ahlstrom-appraisals-llc/",
-      "name": "Ahlstrom Appraisals LLC",
-      "description": "Ahlstrom Appraisals LLC offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/ahlstrom-appraisals-llc.svg",
-      "telephone": "...",
-      "email": "courtney@ahlstromappraisals.com",
-      "address": {
-        "city": "Atlanta",
-        "region": "GA",
-        "country": "US"
-      },
-      "serviceType": "Art Appraisal",
-      "priceRange": "Contact for pricing information",
-      "openingHours": "Monday-Friday By appointment",
-      "specialties": [
-        "Fine art appraisals, Estate valuations, Insurance appraisals, Donation appraisals"
-      ],
-      "services": [
-        "Art appraisal services, Insurance appraisals, Estate and donation appraisals"
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/ahlstrom-appraisals-llc/"
       }
     },
     {
@@ -1882,15 +1831,6 @@
       }
     },
     {
-      "slug": "aspen-812-maplewood",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/aspen-812-maplewood/",
-      "name": "812 Maplewood | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/aspen-812-maplewood/"
-      }
-    },
-    {
       "slug": "aspen-alicia-e-weaver",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/aspen-alicia-e-weaver/",
       "name": "Alicia E Weaver | Art Appraiser Directory",
@@ -1993,15 +1933,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/atlanta-aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/"
-      }
-    },
-    {
-      "slug": "atlanta-ahlstrom-appraisals-llc",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/atlanta-ahlstrom-appraisals-llc/",
-      "name": "Ahlstrom Appraisals LLC | Art Appraiser Directory",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/atlanta-ahlstrom-appraisals-llc/"
       }
     },
     {

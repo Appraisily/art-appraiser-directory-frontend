@@ -8,16 +8,8 @@
     "url": "https://art-appraisers-directory.appraisily.com/location/tampa/",
     "name": "Art appraisers in Tampa, Florida",
     "description": "Compare art appraisers in Tampa, Florida.",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Antique Art Buyers",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-art-buyers/",
-        "slug": "antique-art-buyers",
-        "image": "https://antiqueartbuyers.com/wp-content/uploads/2023/01/logo1.png",
-        "description": "Antique Art Buyers offers fine art appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Drake Appraisals, Inc.",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/drake-appraisals/",

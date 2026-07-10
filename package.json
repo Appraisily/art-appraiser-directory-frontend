@@ -6,7 +6,13 @@
     "scripts": {
         "dev": "vite",
         "build": "npm run check:static",
-        "check:static": "node ./scripts/check-static-site.mjs --public-dir public_site",
+        "check:static": "node ./scripts/check-static-site.mjs --public-dir public_site && node ./scripts/check-directory-consistency.mjs --public-dir public_site && node ./scripts/build-indexing-manifest.mjs --public-dir public_site --check && node ./scripts/check-indexing-contract.mjs --public-dir public_site && node ./scripts/repair-faq-schema.mjs --public-dir public_site --check && node ./scripts/repair-internal-location-links.mjs --public-dir public_site --check",
+        "seo:indexing-manifest": "node ./scripts/build-indexing-manifest.mjs --public-dir public_site --write",
+        "check:indexing-contract": "node ./scripts/build-indexing-manifest.mjs --public-dir public_site --check",
+        "repair:directory-locality": "node ./scripts/repair-directory-locality.mjs --public-dir public_site",
+        "repair:directory-html-parity": "node ./scripts/repair-directory-html-parity.mjs --public-dir public_site",
+        "repair:faq-schema": "node ./scripts/repair-faq-schema.mjs --public-dir public_site",
+        "repair:internal-location-links": "node ./scripts/repair-internal-location-links.mjs --public-dir public_site",
         "preview": "node ./scripts/serve-static.js --public-dir public_site",
         "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
         "test:html": "node ./scripts/test-html.js --public-dir public_site",
@@ -14,8 +20,9 @@
         "count:appraisers": "node ./scripts/count-appraisers.js",
         "build:llm-feeds": "node ./scripts/build-directory-llm-feeds.mjs --public-dir public_site --kind art",
         "env:check": "node ../../env-governance/run-check.mjs --schema frontends/art-appraiser-directory-frontend",
-        "publish": "node -e \"console.error('Full generated publish is disabled from npm. Edit profile/location HTML directly and use npm run publish:patch for homepage/nav/footer/assets.'); process.exit(1)\"",
-        "publish:patch": "node ./scripts/publish-patch.mjs --public-dir public_site"
+        "publish": "node -e \"console.error('Publishing is disabled here. Use the standard VPS deploy helper for art-appraisers-directory.'); process.exit(1)\"",
+        "publish:patch": "node -e \"console.error('Deprecated: use the standard VPS deploy helper for art-appraisers-directory.'); process.exit(1)\"",
+        "deploy": "node -e \"console.error('Deployment is disabled here. Use the standard VPS deploy helper for art-appraisers-directory.'); process.exit(1)\""
     },
     "dependencies": {
         "@radix-ui/react-navigation-menu": "^1.2.5",

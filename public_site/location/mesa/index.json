@@ -15,6 +15,7 @@
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/mesa/"
-    }
+    },
+    "listedAppraisers": []
   }
 }
