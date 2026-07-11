@@ -2,7 +2,7 @@
   "title": "Art appraisers in Pittsburgh, Pennsylvania",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "pittsburgh",
     "url": "https://art-appraisers-directory.appraisily.com/location/pittsburgh/",
@@ -11,7 +11,7 @@
     "city": "Pittsburgh",
     "region": "Pennsylvania",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Concept Art Gallery",
@@ -19,14 +19,6 @@
         "slug": "concept-art-gallery",
         "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/concept-art-gallery.svg",
         "description": "Concept Art Gallery provides professional art appraisal services specializing in Modern/Contemporary Art, Regional Pittsburgh/Western PA Art, Antiques, Jewelry. With Since 1972 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Kurt Shaw & Company",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/kurt-shaw-company/",
-        "slug": "kurt-shaw-company",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-mimesis-gallery_1741088528320_Ek5eAv7UH-.jpg?updatedAt=1741088529638",
-        "description": "Kurt Shaw & Company provides professional art appraisal services specializing in Insurance Appraisals, Art, Antiques, Furniture, Institutional Collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

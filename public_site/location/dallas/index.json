@@ -2,30 +2,14 @@
   "title": "Art appraisers in Dallas, Texas",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "dallas",
     "url": "https://art-appraisers-directory.appraisily.com/location/dallas/",
     "name": "Art appraisers in Dallas, Texas",
     "description": "Compare art appraisers in Dallas, Texas.",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
-      {
-        "name": "Alicia E Weaver (ISA CAPP)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
-        "slug": "alicia-e-weaver-isa-capp",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_washington-dc-fine-art-appraiser_1741089482744_aLCAXrh39.jpg?updatedAt=1741089484077",
-        "description": "Alicia E Weaver (ISA CAPP) provides professional art appraisal services specializing in Americana, Decorative arts, Paintings. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Brenda Simonson-Mohle",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
-        "slug": "brenda-simonson-mohle",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/brenda-simonson-mohle.svg",
-        "description": "Brenda Simonson-Mohle offers art appraisal services serving Dallas, TX. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Geolat",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/geolat/",

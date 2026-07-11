@@ -2,13 +2,13 @@
   "title": "Art appraisers in Portland, Oregon",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "portland",
     "url": "https://art-appraisers-directory.appraisily.com/location/portland/",
     "name": "Art appraisers in Portland, Oregon",
     "description": "Compare art appraisers in Portland, Oregon.",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
       {
         "name": "Baggenstoss Appraisal",
@@ -24,22 +24,6 @@
         "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
         "image": "https://photostoots.com/wp-content/uploads/2022/11/cropped-favicon.jpg",
         "description": "Jennifer L. Stoots, AAA offers fine art appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-elizabeth-lovett-stephanie-calman/",
-        "slug": "prestige-estate-services-elizabeth-lovett-stephanie-calman",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg",
-        "description": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman) provides professional art appraisal services specializing in Fine art collections, Antiques, IRS estate tax appraisals, Insurance claims. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Shelley Hall (Bend Art Appraisals)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/shelley-hall-bend-art-appraisals/",
-        "slug": "shelley-hall-bend-art-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg",
-        "description": "Shelley Hall (Bend Art Appraisals) provides professional art appraisal services specializing in Contemporary/fine art, Resale valuations, Estate tax appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

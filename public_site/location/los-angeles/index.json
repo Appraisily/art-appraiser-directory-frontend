@@ -2,13 +2,13 @@
   "title": "Art appraisers in Los Angeles, California",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "los-angeles",
     "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
     "name": "Art appraisers in Los Angeles, California",
     "description": "Compare art appraisers in Los Angeles, California.",
-    "numberOfListedAppraisers": 15,
+    "numberOfListedAppraisers": 11,
     "listedAppraisers": [
       {
         "name": "Alice Karle Appraisal",
@@ -16,14 +16,6 @@
         "slug": "alice-karle-fine-art-appraiser",
         "image": "https://www.alicekarleappraiserfineart.com/wp-content/uploads/images/public/paintings/cropped-GranvilleRedmondx512cf.jpg",
         "description": "Alice Karle Appraisal offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Amanda McConaha - J.S. Held",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/amanda-mcconaha---js-held/",
-        "slug": "amanda-mcconaha---js-held",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-gurr-johns_1741089001961_jayPA2n3d.jpg?updatedAt=1741089003118",
-        "description": "Amanda McConaha - J.S. Held provides professional art appraisal services specializing in Post-War Art, Contemporary Art, Emerging Art. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {
@@ -51,27 +43,11 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Escher Associates (Nancy Escher)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-nancy-escher/",
-        "slug": "escher-associates-nancy-escher",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg?updatedAt=1741086897385",
-        "description": "Escher Associates (Nancy Escher) provides professional art appraisal services specializing in Modern Art, Contemporary Art, Litigation and Umpire Services. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Gurr Johns",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
         "slug": "gurr-johns",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg?updatedAt=1741089163923",
         "description": "Gurr Johns provides professional art appraisal services specializing in High-Value Appraisals, Expert Witness. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Heritage Fine Art Appraisers",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-fine-art-appraisers/",
-        "slug": "heritage-fine-art-appraisers",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-page-art-inc_1741088850478_rucweOoqy.jpg?updatedAt=1741088852279",
-        "description": "Heritage Fine Art Appraisers provides professional art appraisal services specializing in European classical art, Antiques, Collectibles. With 25+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {
@@ -120,14 +96,6 @@
         "slug": "southbayartappraisal",
         "image": "https://static.parastorage.com/client/pfavico.ico",
         "description": "South Bay Art Appraisals offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Stuart H Salsbury Appraisal",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-antique-furniture-and-jewelry-appraiser-in-los-angeles-ca-stuart-h-salsbury-appra/",
-        "slug": "fine-art-antique-furniture-and-jewelry-appraiser-in-los-angeles-ca-stuart-h-salsbury-appra",
-        "image": "https://lh3.googleusercontent.com/dd_e0xA19up9208Tv6odcjHEw6z4cKAA6fTgjZ9ynkKoSnr5R4vFxI7gZp6pnZH1Vi5T5f-fphjFsrLG=s30",
-        "description": "Stuart H Salsbury Appraisal offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
         "publicRouteAvailable": true
       }
     ],

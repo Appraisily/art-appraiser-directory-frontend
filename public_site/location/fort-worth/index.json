@@ -2,36 +2,20 @@
   "title": "Art appraisers in Fort Worth, Texas",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "fort-worth",
     "url": "https://art-appraisers-directory.appraisily.com/location/fort-worth/",
     "name": "Art appraisers in Fort Worth, Texas",
     "description": "Compare art appraisers in Fort Worth, Texas.",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
-      {
-        "name": "Anne Kelly Lewis",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anne-kelly-lewis/",
-        "slug": "anne-kelly-lewis",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/anne-kelly-lewis.svg",
-        "description": "Anne Kelly Lewis offers art appraisal services serving Fort Worth, TX. FAIR directory data indicates specialties in Art, Art - Impressionist & Modern, Drawings, Engraving & Etching, Paintings, ISA AM, with direct website contact available for project-specific valuation requests.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Capital Art Group",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/",
         "slug": "capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit",
         "image": "https://images.squarespace-cdn.com/content/v1/61ccc9320616767b7517ed98/86bcc41f-7883-4f10-9e7c-efb58d846db2/favicon.ico",
         "description": "Capital Art Group offers fine art appraisal services serving Fort Worth, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Elizabeth Lovett",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lovett/",
-        "slug": "elizabeth-lovett",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/elizabeth-lovett.svg",
-        "description": "Elizabeth Lovett provides professional art appraisal services specializing in Fine Art, Antiques, Decorative Arts, Antique Furniture, Sculptures. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {

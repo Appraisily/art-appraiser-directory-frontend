@@ -22,7 +22,7 @@ const choices = [
   {
     kind: 'signed_report',
     title: 'Signed report',
-    copy: 'For insurance, estate, donation, resale, or documented value decisions.',
+    copy: 'Start a signed report, then upload photos, labels, signatures, and notes after secure checkout.',
     cta: 'Signed report',
     iconSrc: '/directory/assets/decision-router-report.png',
   },

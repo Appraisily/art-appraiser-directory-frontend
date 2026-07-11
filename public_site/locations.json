@@ -2,115 +2,9 @@
   "title": "Art Appraisers Directory location pages",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
-  "count": 78,
+  "generatedAt": "2026-07-11T15:47:31.181Z",
+  "count": 23,
   "locations": [
-    {
-      "slug": "addison",
-      "url": "https://art-appraisers-directory.appraisily.com/location/addison/",
-      "name": "Art appraisers in Addison, Illinois",
-      "description": "Compare art appraisers in Addison, Illinois.",
-      "city": "Addison",
-      "region": "Illinois",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Carrie Young",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/carrie-young/",
-          "slug": "carrie-young",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/carrie-young.svg",
-          "description": "Carrie Young offers art appraisal services serving Addison, IL. FAIR directory data indicates specialties in Art, Bronzes, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/addison/"
-      }
-    },
-    {
-      "slug": "albuquerque",
-      "url": "https://art-appraisers-directory.appraisily.com/location/albuquerque/",
-      "name": "Art appraisers in Albuquerque, New Mexico",
-      "description": "Compare art appraisers in Albuquerque, New Mexico.",
-      "city": "Albuquerque",
-      "region": "New Mexico",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/albuquerque/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "arlington",
-      "url": "https://art-appraisers-directory.appraisily.com/location/arlington/",
-      "name": "Art appraisers in Arlington, Texas",
-      "description": "Compare art appraisers in Arlington, Texas.",
-      "city": "Arlington",
-      "region": "Texas",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/arlington/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "aspen",
-      "url": "https://art-appraisers-directory.appraisily.com/location/aspen/",
-      "name": "Art appraisers in Aspen, Colorado",
-      "description": "Compare art appraisers in Aspen, Colorado.",
-      "city": "Aspen",
-      "region": "Colorado",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "listedAppraisers": [],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/aspen/"
-      }
-    },
-    {
-      "slug": "atlanta",
-      "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
-      "name": "Art appraisers in Atlanta, Georgia",
-      "description": "Compare art appraisers in Atlanta, Georgia.",
-      "numberOfListedAppraisers": 3,
-      "listedAppraisers": [
-        {
-          "name": "Betsy Dorminy Antiques & Art",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/betsy-dorminy-appraisals/",
-          "slug": "betsy-dorminy-appraisals",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/betsy-dorminy-appraisals.svg",
-          "description": "Betsy Dorminy Antiques & Art offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Charles Pharr Certified Art & Antique Appraiser",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
-          "slug": "charles-pharr-certified-appraiser",
-          "image": "https://certified-appraiser.com/wp-content/uploads/2020/08/insurance-coverage-150x150.png",
-          "description": "Charles Pharr Certified Art & Antique Appraiser offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "The Perfect Piece Atlanta",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/",
-          "slug": "the-perfect-piece-atlanta",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-appraiseitnow_1741089173757_UkgoMBIbR.jpg?updatedAt=1741089174887",
-          "description": "The Perfect Piece Atlanta provides professional art appraisal services specializing in estate valuations for probate, equitable distribution appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/atlanta/"
-      }
-    },
     {
       "slug": "austin",
       "url": "https://art-appraisers-directory.appraisily.com/location/austin/",
@@ -119,7 +13,7 @@
       "city": "Austin",
       "region": "Texas",
       "country": "US",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 3,
       "listedAppraisers": [
         {
           "name": "Austin Galleries",
@@ -138,18 +32,11 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Linda Maxwell Harris",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/linda-maxwell-harris/",
-          "slug": "linda-maxwell-harris",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
-          "description": "Linda Maxwell Harris provides professional art appraisal services specializing in Real estate related art appraisals, Property valuation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Prestige Estate Services Team",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/",
           "slug": "prestige-estate-services-team",
           "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
+          "description": "",
           "publicRouteAvailable": true
         }
       ],
@@ -159,50 +46,11 @@
       }
     },
     {
-      "slug": "baltimore",
-      "url": "https://art-appraisers-directory.appraisily.com/location/baltimore/",
-      "name": "Art appraisers in Baltimore, Maryland",
-      "description": "Compare art appraisers in Baltimore, Maryland.",
-      "city": "Baltimore",
-      "region": "Maryland",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/baltimore/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "beverly-hills",
-      "url": "https://art-appraisers-directory.appraisily.com/location/beverly-hills/",
-      "name": "Art appraisers in Beverly Hills, California",
-      "description": "Compare art appraisers in Beverly Hills, California.",
-      "city": "Beverly Hills",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Dina Brown",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown/",
-          "slug": "dina-brown",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/dina-brown.svg",
-          "description": "Dina Brown offers art appraisal services serving Beverly Hills, CA. FAIR directory data indicates specialties in Art - 20th Century, Drawings - 20th Century, Paintings - 20th Century, Prints - 20th Century Limited Edition, Sculpture - 20th Century, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/beverly-hills/"
-      }
-    },
-    {
       "slug": "boston",
       "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
       "name": "Art appraisers in Boston, Massachusetts",
       "description": "Compare art appraisers in Boston, Massachusetts.",
-      "numberOfListedAppraisers": 9,
+      "numberOfListedAppraisers": 6,
       "listedAppraisers": [
         {
           "name": "AFP Art Consulting, LLC",
@@ -229,35 +77,11 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Manzi Appraisers & Restoration",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/manzi-appraisers-restoration/",
-          "slug": "manzi-appraisers-restoration",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-reilly-clark-fine-art-appraisals_1741089042212_sBdDMMh4N.jpg?updatedAt=1741089043295",
-          "description": "Manzi Appraisers & Restoration provides professional art appraisal services specializing in Art Restoration, Furniture Restoration, High-value Collections. With Founded in 2021 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "New York Fine Art Appraisers (Boston Office)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-fine-art-appraisers-boston-office/",
-          "slug": "new-york-fine-art-appraisers-boston-office",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg?updatedAt=1741089032481",
-          "description": "New York Fine Art Appraisers (Boston Office) provides professional art appraisal services specializing in Americana, Contemporary Art, Decorative Arts. With Established 1980; Boston office opened in 2018 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/plcombs-asian-art/",
           "slug": "plcombs-asian-art",
           "image": "https://www.plcombs.com/plcombs-blogs-about-antiques/wp-content/uploads/2017/10/Robes_edited-1.jpg",
           "description": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Poras Fine Arts Appraisal - Serving N.E.",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
-          "slug": "boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
-          "image": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
-          "description": "Poras Fine Arts Appraisal - Serving N.E. offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
           "publicRouteAvailable": true
         },
         {
@@ -280,30 +104,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/boston/"
-      }
-    },
-    {
-      "slug": "buffalo",
-      "url": "https://art-appraisers-directory.appraisily.com/location/buffalo/",
-      "name": "Art appraisers in Buffalo, New York",
-      "description": "Compare art appraisers in Buffalo, New York.",
-      "city": "Buffalo",
-      "region": "New York",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Schultz Auctioneers",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/schultz-auctioneers/",
-          "slug": "schultz-auctioneers",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_baker-asian-antique-appraisers_1741087699816_0gt459k0L.jpg?updatedAt=1741087701033",
-          "description": "Schultz Auctioneers provides professional art appraisal services specializing in Antique art (19th/20th century), Asian artifacts. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/buffalo/"
       }
     },
     {
@@ -360,38 +160,6 @@
       }
     },
     {
-      "slug": "chicago",
-      "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
-      "name": "Art appraisers in Chicago, Illinois",
-      "description": "Compare art appraisers in Chicago, Illinois.",
-      "city": "Chicago",
-      "region": "Illinois",
-      "country": "US",
-      "numberOfListedAppraisers": 2,
-      "listedAppraisers": [
-        {
-          "name": "Lindsey M Owen",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/lindsey-m-owen/",
-          "slug": "lindsey-m-owen",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lindsey-m-owen.svg",
-          "description": "Lindsey M Owen offers art appraisal services serving Chicago, IL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Metropolitan Art Appraisers",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/metropolitan-art-appraisers/",
-          "slug": "metropolitan-art-appraisers",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg?updatedAt=1741088953974",
-          "description": "With over 25 years of experience in the Chicago art scene, Metropolitan Art Appraisers provides expert valuation services for collectors, institutions, and insurance purposes.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/chicago/"
-      }
-    },
-    {
       "slug": "cincinnati",
       "url": "https://art-appraisers-directory.appraisily.com/location/cincinnati/",
       "name": "Art appraisers in Cincinnati, Ohio",
@@ -424,99 +192,12 @@
       }
     },
     {
-      "slug": "cleveland",
-      "url": "https://art-appraisers-directory.appraisily.com/location/cleveland/",
-      "name": "Art appraisers in Cleveland, Ohio",
-      "description": "Compare art appraisers in Cleveland, Ohio.",
-      "city": "Cleveland",
-      "region": "Ohio",
-      "country": "US",
-      "numberOfListedAppraisers": 3,
-      "listedAppraisers": [
-        {
-          "name": "Alicia Weaver (Prestige Estate Services)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver-prestige-estate-services/",
-          "slug": "alicia-weaver-prestige-estate-services",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg?updatedAt=1741089060053",
-          "description": "Alicia Weaver (Prestige Estate Services) provides professional art appraisal services specializing in Americana, Decorative Arts. With Over a century combined team experience (firm) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Erin Hollenbank (J.S. Held)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/erin-hollenbank-js-held/",
-          "slug": "erin-hollenbank-js-held",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-page-art-inc_1741088969774_UJKBo2br7.jpg?updatedAt=1741088971080",
-          "description": "Erin Hollenbank (J.S. Held) provides professional art appraisal services specializing in 19th–20th century American art, 19th–20th century European art, Works on paper. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Legacy Appraisal Group",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/legacy-appraisal-group/",
-          "slug": "legacy-appraisal-group",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
-          "description": "Legacy Appraisal Group provides professional art appraisal services specializing in Contemporary art, Asian arts. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/cleveland/"
-      }
-    },
-    {
-      "slug": "colleyville",
-      "url": "https://art-appraisers-directory.appraisily.com/location/colleyville/",
-      "name": "Art appraisers in Colleyville, Texas",
-      "description": "Compare art appraisers in Colleyville, Texas.",
-      "city": "Colleyville",
-      "region": "Texas",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Christine Guernsey",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-guernsey/",
-          "slug": "christine-guernsey",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/christine-guernsey.svg",
-          "description": "Christine Guernsey offers art appraisal services serving Colleyville, TX. FAIR directory data indicates specialties in Art - 19th Century, Art - 20th Century, Art - American, Paintings - Contemporary American, Sculpture - 20th Century, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/colleyville/"
-      }
-    },
-    {
-      "slug": "colorado-springs",
-      "url": "https://art-appraisers-directory.appraisily.com/location/colorado-springs/",
-      "name": "Art appraisers in Colorado Springs, Colorado",
-      "description": "Compare art appraisers in Colorado Springs, Colorado.",
-      "city": "Colorado Springs",
-      "region": "Colorado",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/colorado-springs/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "columbus",
       "url": "https://art-appraisers-directory.appraisily.com/location/columbus/",
       "name": "Art appraisers in Columbus, Ohio",
       "description": "Compare art appraisers in Columbus, Ohio.",
-      "numberOfListedAppraisers": 2,
+      "numberOfListedAppraisers": 1,
       "listedAppraisers": [
-        {
-          "name": "Amelia Jeffers Auctioneers & Appraisers",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/amelia-jeffers-auctioneers-appraisers/",
-          "slug": "amelia-jeffers-auctioneers-appraisers",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-saylor-rice-appraisals_1741088647442_2mlwX89Pk.jpg?updatedAt=1741088648644",
-          "description": "Amelia Jeffers Auctioneers & Appraisers provides professional art appraisal services specializing in Art (all periods), Antiques, Hard-to-value assets, Estate settlements, Expert witness testimony. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Amelia Jeffers, Auctioneers & Appraisers",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/amelia-jeffers/",
@@ -536,24 +217,8 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/dallas/",
       "name": "Art appraisers in Dallas, Texas",
       "description": "Compare art appraisers in Dallas, Texas.",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
-        {
-          "name": "Alicia E Weaver (ISA CAPP)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
-          "slug": "alicia-e-weaver-isa-capp",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_washington-dc-fine-art-appraiser_1741089482744_aLCAXrh39.jpg?updatedAt=1741089484077",
-          "description": "Alicia E Weaver (ISA CAPP) provides professional art appraisal services specializing in Americana, Decorative arts, Paintings. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Brenda Simonson-Mohle",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
-          "slug": "brenda-simonson-mohle",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/brenda-simonson-mohle.svg",
-          "description": "Brenda Simonson-Mohle offers art appraisal services serving Dallas, TX. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Geolat",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/geolat/",
@@ -581,7 +246,7 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/denver/",
       "name": "Art appraisers in Denver, Colorado",
       "description": "Compare art appraisers in Denver, Colorado.",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
         {
           "name": "Bernard Ewell Art Appraisers, LLC.",
@@ -589,22 +254,6 @@
           "slug": "bernard-ewell-fine-at-appraisals-llc",
           "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/bernard-ewell-fine-at-appraisals-llc.svg",
           "description": "Bernard Ewell Art Appraisers, LLC. offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Brady L. Dreasher",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/brady-l-dreasher/",
-          "slug": "brady-l-dreasher",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg?updatedAt=1741089099697",
-          "description": "Brady L. Dreasher provides professional art appraisal services specializing in Fine Art Brokerage, Estate Liquidation, Expert Witness Testimony. With Since 2000 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Dr. Mark Lee Levine",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/dr-mark-lee-levine/",
-          "slug": "dr-mark-lee-levine",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
-          "description": "Dr. Mark Lee Levine provides professional art appraisal services specializing in Real Estate-Linked Personal Property Appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
           "publicRouteAvailable": true
         },
         {
@@ -626,7 +275,7 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/detroit/",
       "name": "Art appraisers in Detroit, Michigan",
       "description": "Compare art appraisers in Detroit, Michigan.",
-      "numberOfListedAppraisers": 3,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
         {
           "name": "Cambridge Appraisals, LLC",
@@ -643,14 +292,6 @@
           "image": "https://heritageappraisalsmi.com/wp-content/uploads/2021/07/HeritageAppraisals.jpg",
           "description": "Heritage Appraisals, LLC offers fine art appraisal services serving Detroit, MI. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
           "publicRouteAvailable": true
-        },
-        {
-          "name": "Isabelle M Weiss",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/isabelle-m-weiss/",
-          "slug": "isabelle-m-weiss",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/isabelle-m-weiss.svg",
-          "description": "Isabelle M Weiss offers art appraisal services serving Detroit, MI. FAIR directory data indicates specialties in Art - 20th Century, Paintings - Contemporary American, Prints - Modern & Contemporary, Sculpture - Contemporary, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
         }
       ],
       "source": {
@@ -659,49 +300,18 @@
       }
     },
     {
-      "slug": "el-paso",
-      "url": "https://art-appraisers-directory.appraisily.com/location/el-paso/",
-      "name": "Art appraisers in El Paso, Texas",
-      "description": "Compare art appraisers in El Paso, Texas.",
-      "city": "El Paso",
-      "region": "Texas",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/el-paso/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "fort-worth",
       "url": "https://art-appraisers-directory.appraisily.com/location/fort-worth/",
       "name": "Art appraisers in Fort Worth, Texas",
       "description": "Compare art appraisers in Fort Worth, Texas.",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
-        {
-          "name": "Anne Kelly Lewis",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/anne-kelly-lewis/",
-          "slug": "anne-kelly-lewis",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/anne-kelly-lewis.svg",
-          "description": "Anne Kelly Lewis offers art appraisal services serving Fort Worth, TX. FAIR directory data indicates specialties in Art, Art - Impressionist & Modern, Drawings, Engraving & Etching, Paintings, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Capital Art Group",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/",
           "slug": "capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit",
           "image": "https://images.squarespace-cdn.com/content/v1/61ccc9320616767b7517ed98/86bcc41f-7883-4f10-9e7c-efb58d846db2/favicon.ico",
           "description": "Capital Art Group offers fine art appraisal services serving Fort Worth, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Elizabeth Lovett",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lovett/",
-          "slug": "elizabeth-lovett",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/elizabeth-lovett.svg",
-          "description": "Elizabeth Lovett provides professional art appraisal services specializing in Fine Art, Antiques, Decorative Arts, Antique Furniture, Sculptures. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
           "publicRouteAvailable": true
         },
         {
@@ -719,58 +329,11 @@
       }
     },
     {
-      "slug": "fresno",
-      "url": "https://art-appraisers-directory.appraisily.com/location/fresno/",
-      "name": "Art appraisers in Fresno, California",
-      "description": "Compare art appraisers in Fresno, California.",
-      "city": "Fresno",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/fresno/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "hartford",
-      "url": "https://art-appraisers-directory.appraisily.com/location/hartford/",
-      "name": "Art appraisers in Hartford, Connecticut",
-      "description": "Compare art appraisers in Hartford, Connecticut.",
-      "city": "Hartford",
-      "region": "Connecticut",
-      "country": "US",
-      "numberOfListedAppraisers": 2,
-      "listedAppraisers": [
-        {
-          "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
-          "slug": "connecticut-art-appraisals-llc-alizzandra-danker",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
-          "description": "Connecticut Art Appraisals, LLC (Alizzandra Danker) provides professional art appraisal services specializing in Fine art valuations, Estate appraisals, Collections, Sales. With Founded in 2015 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Winter Associates",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/",
-          "slug": "winter-associates",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg?updatedAt=1741088672826",
-          "description": "Winter Associates provides professional art appraisal services specializing in Estate settlement appraisals, Auctions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/hartford/"
-      }
-    },
-    {
       "slug": "houston",
       "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
       "name": "Art appraisers in Houston, Texas",
       "description": "Compare art appraisers in Houston, Texas.",
-      "numberOfListedAppraisers": 9,
+      "numberOfListedAppraisers": 7,
       "listedAppraisers": [
         {
           "name": "Alexander Appraisal & Estate Services",
@@ -821,27 +384,11 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Lorraine Anne Davis",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/lorraine-anne-davis/",
-          "slug": "lorraine-anne-davis",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
-          "description": "Lorraine Anne Davis provides professional art appraisal services specializing in General fine art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Melanie Modica (Modica Fine Art)",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/melanie-modica-modica-fine-art/",
           "slug": "melanie-modica-modica-fine-art",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-page-art-inc_1741088969774_UJKBo2br7.jpg?updatedAt=1741088971080",
           "description": "Melanie Modica (Modica Fine Art) provides professional art appraisal services specializing in Appraisal reviews for personal property, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "MKG Art Management",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/m-k-g-art-management-art-advisors-and-appraisers-houston-texas/",
-          "slug": "m-k-g-art-management-art-advisors-and-appraisers-houston-texas",
-          "image": "https://mkgart.com/wp-content/uploads/2022/08/mkg-logo-dark.png",
-          "description": "MKG Art Management offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
           "publicRouteAvailable": true
         }
       ],
@@ -851,56 +398,11 @@
       }
     },
     {
-      "slug": "indianapolis",
-      "url": "https://art-appraisers-directory.appraisily.com/location/indianapolis/",
-      "name": "Art appraisers in Indianapolis, Indiana",
-      "description": "Compare art appraisers in Indianapolis, Indiana.",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Ripley Auctions",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/ripley-auctions/",
-          "slug": "ripley-auctions",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg?updatedAt=1741089278455",
-          "description": "Ripley Auctions provides professional art appraisal services specializing in art, jewelry, sports memorabilia. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/indianapolis/"
-      }
-    },
-    {
-      "slug": "jacksonville-beach",
-      "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville-beach/",
-      "name": "Art appraisers in Jacksonville Beach, Florida",
-      "description": "Compare art appraisers in Jacksonville Beach, Florida.",
-      "city": "Jacksonville Beach",
-      "region": "Florida",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Julia R. Bluett",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/julia-r-bluett/",
-          "slug": "julia-r-bluett",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/julia-r-bluett.svg",
-          "description": "Julia R. Bluett offers art appraisal services serving Jacksonville Beach, FL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/jacksonville-beach/"
-      }
-    },
-    {
       "slug": "jacksonville",
       "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville/",
       "name": "Art appraisers in Jacksonville, Florida",
       "description": "Compare art appraisers in Jacksonville, Florida.",
-      "numberOfListedAppraisers": 3,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
         {
           "name": "B. Langston Estate Liquidation & Appraisals",
@@ -917,14 +419,6 @@
           "image": "https://www.hudsonrivergallery-conservators.com/favicon.ico",
           "description": "Hudson River Gallery and Conservators offers fine art appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
           "publicRouteAvailable": true
-        },
-        {
-          "name": "Prestige Estate Services (Brenda Blackmon)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-brenda-blackmon/",
-          "slug": "prestige-estate-services-brenda-blackmon",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg?updatedAt=1741089088174",
-          "description": "Prestige Estate Services (Brenda Blackmon) provides professional art appraisal services specializing in Art, Antiques, Jewelry Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
         }
       ],
       "source": {
@@ -933,154 +427,11 @@
       }
     },
     {
-      "slug": "kansas-city",
-      "url": "https://art-appraisers-directory.appraisily.com/location/kansas-city/",
-      "name": "Art appraisers in Kansas City, Missouri",
-      "description": "Compare art appraisers in Kansas City, Missouri.",
-      "city": "Kansas City",
-      "region": "Missouri",
-      "country": "US",
-      "numberOfListedAppraisers": 2,
-      "listedAppraisers": [
-        {
-          "name": "Haney Appraisals in Fine Art",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/haney-appraisals-in-fine-art/",
-          "slug": "haney-appraisals-in-fine-art",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg?updatedAt=1741088906975",
-          "description": "Haney Appraisals in Fine Art provides professional art appraisal services specializing in traditional mediums, painting, printmaking, photography, sculpture, ceramics. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Justin Rogers",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/justin-rogers/",
-          "slug": "justin-rogers",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/justin-rogers.svg",
-          "description": "Justin Rogers offers art appraisal services serving Kansas City, MO. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/kansas-city/"
-      }
-    },
-    {
-      "slug": "lancaster",
-      "url": "https://art-appraisers-directory.appraisily.com/location/lancaster/",
-      "name": "Art appraisers in Lancaster, Massachusetts",
-      "description": "Compare art appraisers in Lancaster, Massachusetts.",
-      "city": "Lancaster",
-      "region": "Massachusetts",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Amy I Schlegel",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/amy-i-schlegel/",
-          "slug": "amy-i-schlegel",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/amy-i-schlegel.svg",
-          "description": "Amy I Schlegel offers art appraisal services serving Lancaster, MA. FAIR directory data indicates specialties in Art - 20th Century, Photography & Photographs, Pottery, Prints - Modern & Contemporary, Sculpture, ISA, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/lancaster/"
-      }
-    },
-    {
-      "slug": "langley",
-      "url": "https://art-appraisers-directory.appraisily.com/location/langley/",
-      "name": "Art appraisers in Langley, Washington",
-      "description": "Compare art appraisers in Langley, Washington.",
-      "city": "Langley",
-      "region": "Washington",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "William S Stamats",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/william-s-stamats/",
-          "slug": "william-s-stamats",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/william-s-stamats.svg",
-          "description": "William S Stamats offers art appraisal services serving Langley, WA. FAIR directory data indicates specialties in Art, Art - 20th Century, Drawings, Paintings - Contemporary American, Prints - Modern & Contemporary, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/langley/"
-      }
-    },
-    {
-      "slug": "las-vegas",
-      "url": "https://art-appraisers-directory.appraisily.com/location/las-vegas/",
-      "name": "Art appraisers in Las Vegas, Nevada",
-      "description": "Compare art appraisers in Las Vegas, Nevada.",
-      "city": "Las Vegas",
-      "region": "Nevada",
-      "country": "US",
-      "numberOfListedAppraisers": 4,
-      "listedAppraisers": [
-        {
-          "name": "Edward Kitson",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-kitson/",
-          "slug": "edward-kitson",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg?updatedAt=1741088912557",
-          "description": "Edward Kitson provides professional art appraisal services specializing in IRS-compliant estate tax appraisals, Fine art collections, Antiques and decorative arts, Divorce/inheritance fair division appraisals, Insurance documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Stephanie Calman",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephanie-calman/",
-          "slug": "stephanie-calman",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
-          "description": "Stephanie Calman provides professional art appraisal services specializing in IRS-compliant estate tax appraisals, Fine art collections, Antiques and decorative arts, Divorce/inheritance fair division appraisals, Insurance documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Alicia Weaver",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
-          "slug": "alicia-weaver",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-escher-associates_1741086913213_kTqP95EkI.jpg?updatedAt=1741086914372",
-          "description": "Alicia Weaver provides professional art appraisal services specializing in Antique furniture, Fine art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Ralph DeLuca",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/",
-          "slug": "ralph-deluca",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_reilly-clark-fine-art-santa-fe_1741089168221_kuLAMWfXS5.jpg?updatedAt=1741089169374",
-          "description": "Ralph DeLuca provides professional art appraisal services specializing in Entertainment memorabilia, Contemporary art, Modern art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/las-vegas/"
-      }
-    },
-    {
-      "slug": "long-beach",
-      "url": "https://art-appraisers-directory.appraisily.com/location/long-beach/",
-      "name": "Art appraisers in Long Beach, California",
-      "description": "Compare art appraisers in Long Beach, California.",
-      "city": "Long Beach",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/long-beach/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "los-angeles",
       "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
       "name": "Art appraisers in Los Angeles, California",
       "description": "Compare art appraisers in Los Angeles, California.",
-      "numberOfListedAppraisers": 15,
+      "numberOfListedAppraisers": 11,
       "listedAppraisers": [
         {
           "name": "Alice Karle Appraisal",
@@ -1088,14 +439,6 @@
           "slug": "alice-karle-fine-art-appraiser",
           "image": "https://www.alicekarleappraiserfineart.com/wp-content/uploads/images/public/paintings/cropped-GranvilleRedmondx512cf.jpg",
           "description": "Alice Karle Appraisal offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Amanda McConaha - J.S. Held",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/amanda-mcconaha---js-held/",
-          "slug": "amanda-mcconaha---js-held",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-gurr-johns_1741089001961_jayPA2n3d.jpg?updatedAt=1741089003118",
-          "description": "Amanda McConaha - J.S. Held provides professional art appraisal services specializing in Post-War Art, Contemporary Art, Emerging Art. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
           "publicRouteAvailable": true
         },
         {
@@ -1123,27 +466,11 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Escher Associates (Nancy Escher)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-nancy-escher/",
-          "slug": "escher-associates-nancy-escher",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-anderson-fine-art-appraisals_1741086896340_XkP7fyNjY.jpg?updatedAt=1741086897385",
-          "description": "Escher Associates (Nancy Escher) provides professional art appraisal services specializing in Modern Art, Contemporary Art, Litigation and Umpire Services. With Since 1984 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Gurr Johns",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
           "slug": "gurr-johns",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg?updatedAt=1741089163923",
           "description": "Gurr Johns provides professional art appraisal services specializing in High-Value Appraisals, Expert Witness. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Heritage Fine Art Appraisers",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-fine-art-appraisers/",
-          "slug": "heritage-fine-art-appraisers",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-page-art-inc_1741088850478_rucweOoqy.jpg?updatedAt=1741088852279",
-          "description": "Heritage Fine Art Appraisers provides professional art appraisal services specializing in European classical art, Antiques, Collectibles. With 25+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
           "publicRouteAvailable": true
         },
         {
@@ -1193,14 +520,6 @@
           "image": "https://static.parastorage.com/client/pfavico.ico",
           "description": "South Bay Art Appraisals offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
           "publicRouteAvailable": true
-        },
-        {
-          "name": "Stuart H Salsbury Appraisal",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-antique-furniture-and-jewelry-appraiser-in-los-angeles-ca-stuart-h-salsbury-appra/",
-          "slug": "fine-art-antique-furniture-and-jewelry-appraiser-in-los-angeles-ca-stuart-h-salsbury-appra",
-          "image": "https://lh3.googleusercontent.com/dd_e0xA19up9208Tv6odcjHEw6z4cKAA6fTgjZ9ynkKoSnr5R4vFxI7gZp6pnZH1Vi5T5f-fphjFsrLG=s30",
-          "description": "Stuart H Salsbury Appraisal offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
         }
       ],
       "source": {
@@ -1209,56 +528,11 @@
       }
     },
     {
-      "slug": "louisville",
-      "url": "https://art-appraisers-directory.appraisily.com/location/louisville/",
-      "name": "Art appraisers in Louisville, Kentucky",
-      "description": "Compare art appraisers in Louisville, Kentucky.",
-      "city": "Louisville",
-      "region": "Kentucky",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/louisville/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "memphis",
-      "url": "https://art-appraisers-directory.appraisily.com/location/memphis/",
-      "name": "Art appraisers in Memphis, Tennessee",
-      "description": "Compare art appraisers in Memphis, Tennessee.",
-      "city": "Memphis",
-      "region": "Tennessee",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/memphis/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "mesa",
-      "url": "https://art-appraisers-directory.appraisily.com/location/mesa/",
-      "name": "Art appraisers in Mesa, Arizona",
-      "description": "Compare art appraisers in Mesa, Arizona.",
-      "city": "Mesa",
-      "region": "Arizona",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/mesa/"
-      },
-      "listedAppraisers": []
-    },
-    {
       "slug": "miami",
       "url": "https://art-appraisers-directory.appraisily.com/location/miami/",
       "name": "Art appraisers in Miami, Florida",
       "description": "Compare art appraisers in Miami, Florida.",
-      "numberOfListedAppraisers": 8,
+      "numberOfListedAppraisers": 5,
       "listedAppraisers": [
         {
           "name": "Art of Estates - Art Appraisal & Consulting",
@@ -1269,27 +543,11 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Chris Ingalls",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/chris-ingalls/",
-          "slug": "chris-ingalls",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/chris-ingalls.svg",
-          "description": "Chris Ingalls offers art appraisal services serving Miami, FL. FAIR directory data indicates specialties in Art - American, Art - Impressionist & Modern, Art - Latin American, Photography & Photographs, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Constantine Fine Art Services",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/constantine-fine-art-services/",
           "slug": "constantine-fine-art-services",
           "image": "https://static.wixstatic.com/media/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png",
           "description": "Constantine Fine Art Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Estate & Appraisal Services",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/",
-          "slug": "appraisals-miami-fl-estate-and-appraisal-services-inc",
-          "image": "https://irp.cdn-website.com/e2d2caba/site_favicon_16_1619610468061.ico",
-          "description": "Estate & Appraisal Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
           "publicRouteAvailable": true
         },
         {
@@ -1315,14 +573,6 @@
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
           "description": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery) provides professional art appraisal services specializing in Haitian art, Caribbean art. With 35+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
           "publicRouteAvailable": true
-        },
-        {
-          "name": "The Fine Art Group",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-fine-art-group/",
-          "slug": "the-fine-art-group",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
-          "description": "The Fine Art Group provides professional art appraisal services specializing in High-value art investment advisory, Art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
         }
       ],
       "source": {
@@ -1331,76 +581,12 @@
       }
     },
     {
-      "slug": "milwaukee",
-      "url": "https://art-appraisers-directory.appraisily.com/location/milwaukee/",
-      "name": "Art appraisers in Milwaukee, Wisconsin",
-      "description": "Compare art appraisers in Milwaukee, Wisconsin.",
-      "city": "Milwaukee",
-      "region": "Wisconsin",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Christine H Anderson, ISA AM",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-h-anderson-isa-am/",
-          "slug": "christine-h-anderson-isa-am",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/christine-h-anderson-isa-am.svg",
-          "description": "Christine H Anderson, ISA AM offers art appraisal services serving Milwaukee, WI. FAIR directory data indicates specialties in Art, Art - 20th Century, Paintings - 20th Century, Prints - 20th Century Limited Edition, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/milwaukee/"
-      }
-    },
-    {
-      "slug": "minneapolis",
-      "url": "https://art-appraisers-directory.appraisily.com/location/minneapolis/",
-      "name": "Art appraisers in Minneapolis, Minnesota",
-      "description": "Compare art appraisers in Minneapolis, Minnesota.",
-      "city": "Minneapolis",
-      "region": "Minnesota",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Greg C. Brown",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/greg-c-brown/",
-          "slug": "greg-c-brown",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-page-art-inc_1741088641905_-kmjSAfrY.jpg?updatedAt=1741088643034",
-          "description": "Greg C. Brown provides professional art appraisal services specializing in Modern/contemporary art, Native American artifacts. With 15+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/minneapolis/"
-      }
-    },
-    {
       "slug": "nashville",
       "url": "https://art-appraisers-directory.appraisily.com/location/nashville/",
       "name": "Art appraisers in Nashville, Tennessee",
       "description": "Compare art appraisers in Nashville, Tennessee.",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
-        {
-          "name": "Case Antiques, Inc. Auctions & Appraisals",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
-          "slug": "case-antiques-inc-auctions-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg?updatedAt=1741089472476",
-          "description": "Case Antiques, Inc. Auctions & Appraisals provides professional art appraisal services specializing in Early Southern decorative arts, American antiques, Investment-quality art. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Jason Preston Art Advisory & Appraisals",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/",
-          "slug": "jason-preston-art-advisory-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-page-art-inc_1741089190928_2WC8Nt_Lf.jpg?updatedAt=1741089192238",
-          "description": "Jason Preston Art Advisory & Appraisals provides professional art appraisal services specializing in Sculpture, Contemporary art, Confidential advisory services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Redtail Appraisals",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/redtail-appraisals/",
@@ -1424,76 +610,12 @@
       }
     },
     {
-      "slug": "new-orleans",
-      "url": "https://art-appraisers-directory.appraisily.com/location/new-orleans/",
-      "name": "Art appraisers in New Orleans, Louisiana",
-      "description": "Compare art appraisers in New Orleans, Louisiana.",
-      "city": "New Orleans",
-      "region": "Louisiana",
-      "country": "US",
-      "numberOfListedAppraisers": 4,
-      "listedAppraisers": [
-        {
-          "name": "Barnett Fine Art",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/barnett-fine-art/",
-          "slug": "barnett-fine-art",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg?updatedAt=1741089472476",
-          "description": "Barnett Fine Art provides professional art appraisal services specializing in Fine art valuations, Jazz Fest posters. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "New Orleans Auction Galleries",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-orleans-auction-galleries/",
-          "slug": "new-orleans-auction-galleries",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861",
-          "description": "New Orleans Auction Galleries provides professional art appraisal services specializing in Antique furniture, Fine art, Jewelry. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "AppraiseItNow (Louisiana)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow-louisiana/",
-          "slug": "appraiseitnow-louisiana",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg?updatedAt=1741088997582",
-          "description": "AppraiseItNow (Louisiana) provides professional art appraisal services specializing in Fine art, Collectibles, Estate appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "American Society of Appraisers (ASA)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
-          "slug": "american-society-of-appraisers-asa",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg?updatedAt=1741088517396",
-          "description": "American Society of Appraisers (ASA) provides professional art appraisal services specializing in Accredited appraiser directory, Personal property, Fine art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/new-orleans/"
-      }
-    },
-    {
       "slug": "new-york",
       "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
       "name": "Art appraisers in New York, New York",
       "description": "Compare art appraisers in New York, New York.",
-      "numberOfListedAppraisers": 8,
+      "numberOfListedAppraisers": 3,
       "listedAppraisers": [
-        {
-          "name": "Anderson Campbell Art Appraisals",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-campbell-art-appraisals/",
-          "slug": "anderson-campbell-art-appraisals",
-          "image": "https://ssl.gstatic.com/atari/images/public/favicon.ico",
-          "description": "Anderson Campbell Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Avant-Garde Appraisals & Art Advisory",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/avant-garde/",
-          "slug": "avant-garde",
-          "image": "https://agartappraisals.com/wp-content/uploads/2020/12/ag-logo-gray-thumbnail.png?w=32",
-          "description": "Avant-Garde Appraisals & Art Advisory offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Cheney Appraisal Services",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/cheney-appraisal-services/",
@@ -1511,30 +633,6 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Kagan Fine Art Appraisals",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-appraisals-new-york/",
-          "slug": "fine-art-appraisals-new-york",
-          "image": "https://www.kaganappraisals.com/wp-content/uploads/2026/03/cropped-cropped-bonnie21.jpg",
-          "description": "Kagan Fine Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Maria Tarrence",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/maria-tarrence/",
-          "slug": "maria-tarrence",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/maria-tarrence.svg",
-          "description": "Maria Tarrence offers art appraisal services serving New York, NY. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Poras Fine Art Appraisal Service",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
-          "slug": "new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
-          "image": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
-          "description": "Poras Fine Art Appraisal Service offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "St Lifer Fine Art Inc",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
           "slug": "st-lifer-art-inc-international-art-appraiser",
@@ -1549,145 +647,12 @@
       }
     },
     {
-      "slug": "oakland",
-      "url": "https://art-appraisers-directory.appraisily.com/location/oakland/",
-      "name": "Art appraisers in Oakland, California",
-      "description": "Compare art appraisers in Oakland, California.",
-      "city": "Oakland",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/oakland/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "oklahoma-city",
-      "url": "https://art-appraisers-directory.appraisily.com/location/oklahoma-city/",
-      "name": "Art appraisers in Oklahoma City, Oklahoma",
-      "description": "Compare art appraisers in Oklahoma City, Oklahoma.",
-      "city": "Oklahoma City",
-      "region": "Oklahoma",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/oklahoma-city/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "omaha",
-      "url": "https://art-appraisers-directory.appraisily.com/location/omaha/",
-      "name": "Art appraisers in Omaha, Nebraska",
-      "description": "Compare art appraisers in Omaha, Nebraska.",
-      "city": "Omaha",
-      "region": "Nebraska",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/omaha/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "orlando",
-      "url": "https://art-appraisers-directory.appraisily.com/location/orlando/",
-      "name": "Art appraisers in Orlando, Florida",
-      "description": "Compare art appraisers in Orlando, Florida.",
-      "city": "Orlando",
-      "region": "Florida",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Lauren K. Stump",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-k-stump/",
-          "slug": "lauren-k-stump",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lauren-k-stump.svg",
-          "description": "Lauren K. Stump offers art appraisal services serving Orlando, FL. FAIR directory data indicates specialties in Drawings, Paintings, Prints, Sculpture, Watercolors, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/orlando/"
-      }
-    },
-    {
-      "slug": "palm-beach",
-      "url": "https://art-appraisers-directory.appraisily.com/location/palm-beach/",
-      "name": "Art appraisers in Palm Beach, Florida",
-      "description": "Compare art appraisers in Palm Beach, Florida.",
-      "city": "Palm Beach",
-      "region": "Florida",
-      "country": "US",
-      "numberOfListedAppraisers": 4,
-      "listedAppraisers": [
-        {
-          "name": "Alicia E Weaver",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver/",
-          "slug": "alicia-e-weaver",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg?updatedAt=1741088882489",
-          "description": "Alicia E Weaver provides professional art appraisal services specializing in Antiques, Americana, Decorative Arts, Furniture, Ceramics, Silver, 19th–20th century paintings. With 15+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Elizabeth Lake Lovett",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lake-lovett/",
-          "slug": "elizabeth-lake-lovett",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
-          "description": "Elizabeth Lake Lovett provides professional art appraisal services specializing in 19th–20th Century American and European paintings. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Kaminski Auctions",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/kaminski-auctions/",
-          "slug": "kaminski-auctions",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
-          "description": "Kaminski Auctions provides professional art appraisal services specializing in Fine Art, Asian/Modern Art, Militaria, Jewelry, Auction Appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Sotheby's Palm Beach",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/sothebys-palm-beach/",
-          "slug": "sothebys-palm-beach",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg",
-          "description": "Sotheby's Palm Beach provides professional art appraisal services specializing in Art valuation, Consignment consultations, Acquisitions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/palm-beach/"
-      }
-    },
-    {
       "slug": "philadelphia",
       "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
       "name": "Art appraisers in Philadelphia, Pennsylvania",
       "description": "Compare art appraisers in Philadelphia, Pennsylvania.",
-      "numberOfListedAppraisers": 10,
+      "numberOfListedAppraisers": 7,
       "listedAppraisers": [
-        {
-          "name": "Art of Estates - Art Appraisal & Consulting",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-art-of-estates-personal-property-appraisal-firm/",
-          "slug": "philadelphia-art-of-estates-personal-property-appraisal-firm",
-          "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
-          "description": "Art of Estates - Art Appraisal & Consulting offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Barry S. Slosberg Auctioneers & Appraisers",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/barry-s-slosberg-auctioneers-and-appraisers/",
-          "slug": "barry-s-slosberg-auctioneers-and-appraisers",
-          "image": "https://www.bssauction.com/wp-content/themes/theme-modern/dist/img/favicon/apple-touch-icon.png",
-          "description": "Barry S. Slosberg Auctioneers & Appraisers offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "Bertolino Arts",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/bertolino-arts/",
@@ -1702,14 +667,6 @@
           "slug": "doyle-pennsylvania-regional-office",
           "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
           "description": "Doyle (Pennsylvania Regional Office) provides professional art appraisal services specializing in Fine art, Jewelry, Asian works. With Since 1962 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Freeman's | Hindman",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/freemans-hindman/",
-          "slug": "freemans-hindman",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg?updatedAt=1741089278455",
-          "description": "Freeman's | Hindman provides professional art appraisal services specializing in Fine and decorative arts valuation, Historical collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
           "publicRouteAvailable": true
         },
         {
@@ -1763,16 +720,8 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/phoenix/",
       "name": "Art appraisers in Phoenix, Arizona",
       "description": "Compare art appraisers in Phoenix, Arizona.",
-      "numberOfListedAppraisers": 7,
+      "numberOfListedAppraisers": 5,
       "listedAppraisers": [
-        {
-          "name": "Allison Gee Fine Art Appraisals",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/allison-gee-fine-art-appraisals/",
-          "slug": "allison-gee-fine-art-appraisals",
-          "image": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
-          "description": "Allison Gee Fine Art Appraisals offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
         {
           "name": "AppraiseItNow",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
@@ -1806,14 +755,6 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Savvy Collector",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/savvy-collector/",
-          "slug": "savvy-collector",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/savvy-collector.svg",
-          "description": "Savvy Collector specializes in art appraisal services and is listed as both an art gallery and professional appraiser in Phoenix.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Sims Appraisal",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/sims-appraisal/",
           "slug": "sims-appraisal",
@@ -1828,43 +769,11 @@
       }
     },
     {
-      "slug": "pittsburgh",
-      "url": "https://art-appraisers-directory.appraisily.com/location/pittsburgh/",
-      "name": "Art appraisers in Pittsburgh, Pennsylvania",
-      "description": "Compare art appraisers in Pittsburgh, Pennsylvania.",
-      "city": "Pittsburgh",
-      "region": "Pennsylvania",
-      "country": "US",
-      "numberOfListedAppraisers": 2,
-      "listedAppraisers": [
-        {
-          "name": "Concept Art Gallery",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/concept-art-gallery/",
-          "slug": "concept-art-gallery",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/concept-art-gallery.svg",
-          "description": "Concept Art Gallery provides professional art appraisal services specializing in Modern/Contemporary Art, Regional Pittsburgh/Western PA Art, Antiques, Jewelry. With Since 1972 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Kurt Shaw & Company",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/kurt-shaw-company/",
-          "slug": "kurt-shaw-company",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-mimesis-gallery_1741088528320_Ek5eAv7UH-.jpg?updatedAt=1741088529638",
-          "description": "Kurt Shaw & Company provides professional art appraisal services specializing in Insurance Appraisals, Art, Antiques, Furniture, Institutional Collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/pittsburgh/"
-      }
-    },
-    {
       "slug": "portland",
       "url": "https://art-appraisers-directory.appraisily.com/location/portland/",
       "name": "Art appraisers in Portland, Oregon",
       "description": "Compare art appraisers in Portland, Oregon.",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 2,
       "listedAppraisers": [
         {
           "name": "Baggenstoss Appraisal",
@@ -1880,22 +789,6 @@
           "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
           "image": "https://photostoots.com/wp-content/uploads/2022/11/cropped-favicon.jpg",
           "description": "Jennifer L. Stoots, AAA offers fine art appraisal services serving Portland, OR. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-elizabeth-lovett-stephanie-calman/",
-          "slug": "prestige-estate-services-elizabeth-lovett-stephanie-calman",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-prestige-estate-services-elizabeth-lovett-stephanie-calman_1741087717155_v3DRxp8q4.jpg",
-          "description": "Prestige Estate Services (Elizabeth Lovett & Stephanie Calman) provides professional art appraisal services specializing in Fine art collections, Antiques, IRS estate tax appraisals, Insurance claims. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Shelley Hall (Bend Art Appraisals)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/shelley-hall-bend-art-appraisals/",
-          "slug": "shelley-hall-bend-art-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-shelley-hall-bend-art-appraisals_1741087722518_NRbeQT9Rz.jpg",
-          "description": "Shelley Hall (Bend Art Appraisals) provides professional art appraisal services specializing in Contemporary/fine art, Resale valuations, Estate tax appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
           "publicRouteAvailable": true
         }
       ],
@@ -1937,201 +830,11 @@
       }
     },
     {
-      "slug": "raleigh",
-      "url": "https://art-appraisers-directory.appraisily.com/location/raleigh/",
-      "name": "Art appraisers in Raleigh, North Carolina",
-      "description": "Compare art appraisers in Raleigh, North Carolina.",
-      "city": "Raleigh",
-      "region": "North Carolina",
-      "country": "US",
-      "numberOfListedAppraisers": 2,
-      "listedAppraisers": [
-        {
-          "name": "Dana Summitt (Look Appraisal LLC)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/dana-summitt-look-appraisal-llc/",
-          "slug": "dana-summitt-look-appraisal-llc",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/appraising-plus.svg",
-          "description": "Dana Summitt (Look Appraisal LLC) provides professional art appraisal services specializing in 20th Century Art, Contemporary American Paintings, Modern/Contemporary Prints, Photography, Rare Books, Vintage Clothing. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Appraising Plus",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraising-plus/",
-          "slug": "appraising-plus",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg",
-          "description": "Appraising Plus provides professional art appraisal services specializing in Antiques, Personal Property. With 15+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/raleigh/"
-      }
-    },
-    {
-      "slug": "ranchos-de-taos",
-      "url": "https://art-appraisers-directory.appraisily.com/location/ranchos-de-taos/",
-      "name": "Art appraisers in Ranchos De Taos, New Mexico",
-      "description": "Compare art appraisers in Ranchos De Taos, New Mexico.",
-      "city": "Ranchos De Taos",
-      "region": "New Mexico",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Elise Waters Olonia",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/elise-waters-olonia/",
-          "slug": "elise-waters-olonia",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/elise-waters-olonia.svg",
-          "description": "Elise Waters Olonia offers art appraisal services serving Ranchos De Taos, NM. FAIR directory data indicates specialties in Art - 19th Century, Art - 20th Century, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/ranchos-de-taos/"
-      }
-    },
-    {
-      "slug": "redondo-beach",
-      "url": "https://art-appraisers-directory.appraisily.com/location/redondo-beach/",
-      "name": "Art appraisers in Redondo Beach, California",
-      "description": "Compare art appraisers in Redondo Beach, California.",
-      "city": "Redondo Beach",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Elizabeth Blackmar",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-blackmar/",
-          "slug": "elizabeth-blackmar",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/elizabeth-blackmar.svg",
-          "description": "Elizabeth Blackmar offers art appraisal services serving Redondo Beach, CA. FAIR directory data indicates specialties in Art, Paintings - 20th Century, Prints - 20th Century, Prints - Modern & Contemporary, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/redondo-beach/"
-      }
-    },
-    {
-      "slug": "richmond",
-      "url": "https://art-appraisers-directory.appraisily.com/location/richmond/",
-      "name": "Art appraisers in Richmond, Virginia",
-      "description": "Compare art appraisers in Richmond, Virginia.",
-      "city": "Richmond",
-      "region": "Virginia",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "listedAppraisers": [],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/richmond/"
-      }
-    },
-    {
-      "slug": "rockville",
-      "url": "https://art-appraisers-directory.appraisily.com/location/rockville/",
-      "name": "Art appraisers in Rockville, Maryland",
-      "description": "Compare art appraisers in Rockville, Maryland.",
-      "city": "Rockville",
-      "region": "Maryland",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Charles Barry Goldstein",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-barry-goldstein/",
-          "slug": "charles-barry-goldstein",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/charles-barry-goldstein.svg",
-          "description": "Charles Barry Goldstein offers art appraisal services serving Rockville, MD. FAIR directory data indicates specialties in Art, Paintings, Photography & Photographs, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/rockville/"
-      }
-    },
-    {
-      "slug": "sacramento",
-      "url": "https://art-appraisers-directory.appraisily.com/location/sacramento/",
-      "name": "Art appraisers in Sacramento, California",
-      "description": "Compare art appraisers in Sacramento, California.",
-      "city": "Sacramento",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Appraisal Resources (ARAI)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisal-resources-arai/",
-          "slug": "appraisal-resources-arai",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg",
-          "description": "Appraisal Resources (ARAI) provides professional art appraisal services specializing in Fine art, Decorative arts, Antiques, Textiles. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/sacramento/"
-      }
-    },
-    {
-      "slug": "salt-lake-city",
-      "url": "https://art-appraisers-directory.appraisily.com/location/salt-lake-city/",
-      "name": "Art appraisers in Salt Lake City, Utah",
-      "description": "Compare art appraisers in Salt Lake City, Utah.",
-      "city": "Salt Lake City",
-      "region": "Utah",
-      "country": "US",
-      "numberOfListedAppraisers": 2,
-      "listedAppraisers": [
-        {
-          "name": "Intermountain Appraisal",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/intermountain-appraisal/",
-          "slug": "intermountain-appraisal",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-intermountain-appraisal_1741088947289_8KnId0agy.jpg",
-          "description": "Intermountain Appraisal provides professional art appraisal services specializing in Fine art (oil paintings), Rare books, Historical documents. With 40+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Williams Fine Art Gallery",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/williams-fine-art-gallery/",
-          "slug": "williams-fine-art-gallery",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg",
-          "description": "Williams Fine Art Gallery provides professional art appraisal services specializing in Early Utah/Western art, Contemporary art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/salt-lake-city/"
-      }
-    },
-    {
-      "slug": "san-antonio",
-      "url": "https://art-appraisers-directory.appraisily.com/location/san-antonio/",
-      "name": "Art appraisers in San Antonio, Texas",
-      "description": "Compare art appraisers in San Antonio, Texas.",
-      "city": "San Antonio",
-      "region": "Texas",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "listedAppraisers": [],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/san-antonio/"
-      }
-    },
-    {
       "slug": "san-diego",
       "url": "https://art-appraisers-directory.appraisily.com/location/san-diego/",
       "name": "Art appraisers in San Diego, California",
       "description": "Compare art appraisers in San Diego, California.",
-      "numberOfListedAppraisers": 5,
+      "numberOfListedAppraisers": 4,
       "listedAppraisers": [
         {
           "name": "ART DIRECTIVES",
@@ -2147,14 +850,6 @@
           "slug": "lamplighter-appraisal-service-personal-property-appraisal-san-diego",
           "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lamplighter-appraisal-service-personal-property-appraisal-san-diego.svg",
           "description": "Lamplighter Fine Art Appraisal San Diego offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Lena's Appraisal Services",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/lena-s-appraisal-services/",
-          "slug": "lena-s-appraisal-services",
-          "image": "https://static.wixstatic.com/media/bf3f7e_6147646b890840e08fa10650d38dcc86%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/bf3f7e_6147646b890840e08fa10650d38dcc86%7Emv2.jpg",
-          "description": "Lena's Appraisal Services offers fine art appraisal services serving San Diego, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
           "publicRouteAvailable": true
         },
         {
@@ -2212,114 +907,11 @@
       }
     },
     {
-      "slug": "san-jose",
-      "url": "https://art-appraisers-directory.appraisily.com/location/san-jose/",
-      "name": "Art appraisers in San Jose, California",
-      "description": "Compare art appraisers in San Jose, California.",
-      "city": "San Jose",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "listedAppraisers": [],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/san-jose/"
-      }
-    },
-    {
-      "slug": "santa-fe",
-      "url": "https://art-appraisers-directory.appraisily.com/location/santa-fe/",
-      "name": "Art appraisers in Santa Fe, New Mexico",
-      "description": "Compare art appraisers in Santa Fe, New Mexico.",
-      "city": "Santa Fe",
-      "region": "New Mexico",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Jennifer Lynch | Pinpoint Fine Art Appraisal",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-lynch-pinpoint-fine-art-appraisal/",
-          "slug": "jennifer-lynch-pinpoint-fine-art-appraisal",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg",
-          "description": "Jennifer Lynch | Pinpoint Fine Art Appraisal provides professional art appraisal services specializing in Printmaking, Photography. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/santa-fe/"
-      }
-    },
-    {
-      "slug": "savannah",
-      "url": "https://art-appraisers-directory.appraisily.com/location/savannah/",
-      "name": "Art appraisers in Savannah, Georgia",
-      "description": "Compare art appraisers in Savannah, Georgia.",
-      "city": "Savannah",
-      "region": "Georgia",
-      "country": "US",
-      "numberOfListedAppraisers": 3,
-      "listedAppraisers": [
-        {
-          "name": "Everard Auctions & Appraisals",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
-          "slug": "everard-auctions-appraisals",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-everard-auctions-appraisals_1741089212751_vqr2kwp-i3.jpg",
-          "description": "Everard Auctions & Appraisals provides professional art appraisal services specializing in Southern estate collections, fine/decorative arts (18th–20th century), silverware. With 22 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "Redtail Appraisals (Rebekah Assid)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/redtail-appraisals-rebekah-assid/",
-          "slug": "redtail-appraisals-rebekah-assid",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-redtail-appraisals-rebekah-assid_1741089218358_oNRO_x8JT.jpg",
-          "description": "Redtail Appraisals (Rebekah Assid) provides professional art appraisal services specializing in fine art, decorative arts, antiques, luxury goods. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
-          "name": "HKpowerStudio",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/hkpowerstudio/",
-          "slug": "hkpowerstudio",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-hkpowerstudio_1741089229370_IAgUH75-0.jpg",
-          "description": "HKpowerStudio provides professional art appraisal services specializing in art collection organization, appraisal services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/savannah/"
-      }
-    },
-    {
-      "slug": "schaumburg",
-      "url": "https://art-appraisers-directory.appraisily.com/location/schaumburg/",
-      "name": "Art appraisers in Schaumburg, Illinois",
-      "description": "Compare art appraisers in Schaumburg, Illinois.",
-      "city": "Schaumburg",
-      "region": "Illinois",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Jessica Berger",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/jessica-berger/",
-          "slug": "jessica-berger",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/jessica-berger.svg",
-          "description": "Jessica Berger offers art appraisal services serving Schaumburg, IL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/schaumburg/"
-      }
-    },
-    {
       "slug": "seattle",
       "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
       "name": "Art appraisers in Seattle, Washington",
       "description": "Compare art appraisers in Seattle, Washington.",
-      "numberOfListedAppraisers": 4,
+      "numberOfListedAppraisers": 3,
       "listedAppraisers": [
         {
           "name": "APPRAISALINK for Art & Antiques",
@@ -2338,14 +930,6 @@
           "publicRouteAvailable": true
         },
         {
-          "name": "Prestige Estate Services (National Network)",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-national-network/",
-          "slug": "prestige-estate-services-national-network",
-          "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services-national_1741089294073_q6JZwyfik.jpg",
-          "description": "Prestige Estate Services (National Network) provides professional art appraisal services specializing in Fine art appraisals, Insurance appraisals, Estate appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-          "publicRouteAvailable": true
-        },
-        {
           "name": "Silvia Waltner Fine Art Services",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/silvia-waltner-fine-art-services-art-appraisals-and-advisory/",
           "slug": "silvia-waltner-fine-art-services-art-appraisals-and-advisory",
@@ -2357,162 +941,6 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/seattle/"
-      }
-    },
-    {
-      "slug": "solana-beach",
-      "url": "https://art-appraisers-directory.appraisily.com/location/solana-beach/",
-      "name": "Art appraisers in Solana Beach, California",
-      "description": "Compare art appraisers in Solana Beach, California.",
-      "city": "Solana Beach",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Jennifer E Salvetti-Kulla, MA",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-e-salvetti-kulla-ma/",
-          "slug": "jennifer-e-salvetti-kulla-ma",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/jennifer-e-salvetti-kulla-ma.svg",
-          "description": "Jennifer E Salvetti-Kulla, MA offers art appraisal services serving Solana Beach, CA. FAIR directory data indicates specialties in Art - 20th Century, Paintings - 20th Century, Prints - Modern & Contemporary, Sculpture - 20th Century, Watercolors - Contemporary, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/solana-beach/"
-      }
-    },
-    {
-      "slug": "st-louis",
-      "url": "https://art-appraisers-directory.appraisily.com/location/st-louis/",
-      "name": "Art appraisers in St. Louis, Missouri",
-      "description": "Compare art appraisers in St. Louis, Missouri.",
-      "city": "St. Louis",
-      "region": "Missouri",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "listedAppraisers": [],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/st-louis/"
-      }
-    },
-    {
-      "slug": "tampa",
-      "url": "https://art-appraisers-directory.appraisily.com/location/tampa/",
-      "name": "Art appraisers in Tampa, Florida",
-      "description": "Compare art appraisers in Tampa, Florida.",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Drake Appraisals, Inc.",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/drake-appraisals/",
-          "slug": "drake-appraisals",
-          "image": "https://images.squarespace-cdn.com/content/v1/530e3bfae4b0caf782e52e95/1399918028930-2EWICOVFD0W7KC2HJBNG/favicon.ico",
-          "description": "Drake Appraisals, Inc. offers fine art appraisal services serving Tampa, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/tampa/"
-      }
-    },
-    {
-      "slug": "tucson",
-      "url": "https://art-appraisers-directory.appraisily.com/location/tucson/",
-      "name": "Art appraisers in Tucson, Arizona",
-      "description": "Compare art appraisers in Tucson, Arizona.",
-      "city": "Tucson",
-      "region": "Arizona",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/tucson/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "tulsa",
-      "url": "https://art-appraisers-directory.appraisily.com/location/tulsa/",
-      "name": "Art appraisers in Tulsa, Oklahoma",
-      "description": "Compare art appraisers in Tulsa, Oklahoma.",
-      "city": "Tulsa",
-      "region": "Oklahoma",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/tulsa/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "virginia-beach",
-      "url": "https://art-appraisers-directory.appraisily.com/location/virginia-beach/",
-      "name": "Art appraisers in Virginia Beach, Virginia",
-      "description": "Compare art appraisers in Virginia Beach, Virginia.",
-      "city": "Virginia Beach",
-      "region": "Virginia",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/virginia-beach/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "washington-dc",
-      "url": "https://art-appraisers-directory.appraisily.com/location/washington-dc/",
-      "name": "Art appraisers in Washington, District of Columbia",
-      "description": "Compare art appraisers in Washington, District of Columbia.",
-      "numberOfListedAppraisers": 0,
-      "listedAppraisers": [],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/washington-dc/"
-      }
-    },
-    {
-      "slug": "wichita",
-      "url": "https://art-appraisers-directory.appraisily.com/location/wichita/",
-      "name": "Art appraisers in Wichita, Kansas",
-      "description": "Compare art appraisers in Wichita, Kansas.",
-      "city": "Wichita",
-      "region": "Kansas",
-      "country": "US",
-      "numberOfListedAppraisers": 0,
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/wichita/"
-      },
-      "listedAppraisers": []
-    },
-    {
-      "slug": "woodside",
-      "url": "https://art-appraisers-directory.appraisily.com/location/woodside/",
-      "name": "Art appraisers in Woodside, California",
-      "description": "Compare art appraisers in Woodside, California.",
-      "city": "Woodside",
-      "region": "California",
-      "country": "US",
-      "numberOfListedAppraisers": 1,
-      "listedAppraisers": [
-        {
-          "name": "Perri Guthrie",
-          "url": "https://art-appraisers-directory.appraisily.com/appraiser/perri-guthrie/",
-          "slug": "perri-guthrie",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/perri-guthrie.svg",
-          "description": "Perri Guthrie offers art appraisal services serving Woodside, CA. FAIR directory data indicates specialties in Art, Paintings - 20th Century, Photography - 20th Century, Prints - Modern & Contemporary, Sculpture - Contemporary, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-          "publicRouteAvailable": true
-        }
-      ],
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/location/woodside/"
       }
     }
   ]

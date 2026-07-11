@@ -8,7 +8,7 @@ function parseArgs(argv) {
   const options = {
     publicDir: path.resolve(process.cwd(), 'public_site'),
     cities: null,
-    requiredNonemptyCities: ['atlanta', 'new-york', 'los-angeles'],
+    requiredNonemptyCities: [],
   };
 
   const args = [...argv];

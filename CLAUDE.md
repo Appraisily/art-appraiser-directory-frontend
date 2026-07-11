@@ -9,7 +9,7 @@
 - `npm run dev` - Start development server
 - `npm run build` - Prepare the canonical static site in `public_site/`
 - `npm run check:static` - Validate `public_site/`
-- `npm run publish:patch` - Patch homepage/assets/shared envelope blocks over the active release
+- Production promotion - Use the standard VPS deploy helper with `--service art-appraisers-directory`
 - `npm run serve:static` - Serve `public_site/` locally
 - `npm run lint` - Run ESLint checks
 - `npm run test:html` - Test HTML output
@@ -42,3 +42,4 @@
 ## Workflow Rule
 - Edit `public_site/` directly for normal page changes.
 - Do not reintroduce frontend rebuild steps into the normal publishing flow.
+- Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.

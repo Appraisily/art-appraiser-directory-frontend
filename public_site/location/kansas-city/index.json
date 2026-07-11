@@ -2,7 +2,7 @@
   "title": "Art appraisers in Kansas City, Missouri",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "kansas-city",
     "url": "https://art-appraisers-directory.appraisily.com/location/kansas-city/",
@@ -11,16 +11,8 @@
     "city": "Kansas City",
     "region": "Missouri",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Haney Appraisals in Fine Art",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/haney-appraisals-in-fine-art/",
-        "slug": "haney-appraisals-in-fine-art",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-escher-associates_1741088905725_JRw-hdzgg.jpg?updatedAt=1741088906975",
-        "description": "Haney Appraisals in Fine Art provides professional art appraisal services specializing in traditional mediums, painting, printmaking, photography, sculpture, ceramics. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Justin Rogers",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/justin-rogers/",

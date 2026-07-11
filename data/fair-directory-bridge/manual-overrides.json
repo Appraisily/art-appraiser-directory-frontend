@@ -1,6 +1,10 @@
 {
   "forceIncludeIds": [],
-  "forceExcludeIds": [],
+  "forceExcludeIds": [
+    "isa-2818",
+    "src-antique-57da4d7f3415d5e78dcd",
+    "src-antique-7ed9002fc4f7effb9612"
+  ],
   "slugOverrides": {},
   "websiteOverrides": {}
 }

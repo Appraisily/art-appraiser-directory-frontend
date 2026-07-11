@@ -2,13 +2,13 @@
   "title": "Art appraisers in Seattle, Washington",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "seattle",
     "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
     "name": "Art appraisers in Seattle, Washington",
     "description": "Compare art appraisers in Seattle, Washington.",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 3,
     "listedAppraisers": [
       {
         "name": "APPRAISALINK for Art & Antiques",
@@ -24,14 +24,6 @@
         "slug": "fruitcocktail-collectables",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_fruitcocktail-collectables_1741089282735_0KOZcGqUn.jpg",
         "description": "Fruitcocktail Collectables provides professional art appraisal services specializing in Estate sales, Consignments, General appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Prestige Estate Services (National Network)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-national-network/",
-        "slug": "prestige-estate-services-national-network",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services-national_1741089294073_q6JZwyfik.jpg",
-        "description": "Prestige Estate Services (National Network) provides professional art appraisal services specializing in Fine art appraisals, Insurance appraisals, Estate appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {

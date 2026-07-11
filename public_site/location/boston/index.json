@@ -2,13 +2,13 @@
   "title": "Art appraisers in Boston, Massachusetts",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "boston",
     "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
     "name": "Art appraisers in Boston, Massachusetts",
     "description": "Compare art appraisers in Boston, Massachusetts.",
-    "numberOfListedAppraisers": 9,
+    "numberOfListedAppraisers": 6,
     "listedAppraisers": [
       {
         "name": "AFP Art Consulting, LLC",
@@ -35,35 +35,11 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Manzi Appraisers & Restoration",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/manzi-appraisers-restoration/",
-        "slug": "manzi-appraisers-restoration",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-reilly-clark-fine-art-appraisals_1741089042212_sBdDMMh4N.jpg?updatedAt=1741089043295",
-        "description": "Manzi Appraisers & Restoration provides professional art appraisal services specializing in Art Restoration, Furniture Restoration, High-value Collections. With Founded in 2021 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "New York Fine Art Appraisers (Boston Office)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-fine-art-appraisers-boston-office/",
-        "slug": "new-york-fine-art-appraisers-boston-office",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-mimesis-gallery_1741089031203_Ynd-IBqAw.jpg?updatedAt=1741089032481",
-        "description": "New York Fine Art Appraisers (Boston Office) provides professional art appraisal services specializing in Americana, Contemporary Art, Decorative Arts. With Established 1980; Boston office opened in 2018 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/plcombs-asian-art/",
         "slug": "plcombs-asian-art",
         "image": "https://www.plcombs.com/plcombs-blogs-about-antiques/wp-content/uploads/2017/10/Robes_edited-1.jpg",
         "description": "Peter Combs, plcombs Asian Antiques Buyers, Appraisers, Asian Art Brokers offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Poras Fine Arts Appraisal - Serving N.E.",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
-        "slug": "boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
-        "image": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
-        "description": "Poras Fine Arts Appraisal - Serving N.E. offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
         "publicRouteAvailable": true
       },
       {

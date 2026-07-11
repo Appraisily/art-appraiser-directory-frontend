@@ -2,13 +2,13 @@
   "title": "Art appraisers in Jacksonville, Florida",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "jacksonville",
     "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville/",
     "name": "Art appraisers in Jacksonville, Florida",
     "description": "Compare art appraisers in Jacksonville, Florida.",
-    "numberOfListedAppraisers": 3,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
       {
         "name": "B. Langston Estate Liquidation & Appraisals",
@@ -24,14 +24,6 @@
         "slug": "jacksonville-fine-art-appraisers",
         "image": "https://www.hudsonrivergallery-conservators.com/favicon.ico",
         "description": "Hudson River Gallery and Conservators offers fine art appraisal services serving Jacksonville, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Prestige Estate Services (Brenda Blackmon)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-brenda-blackmon/",
-        "slug": "prestige-estate-services-brenda-blackmon",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_czudej-mcdonough_1741089086876_652mKcFty.jpg?updatedAt=1741089088174",
-        "description": "Prestige Estate Services (Brenda Blackmon) provides professional art appraisal services specializing in Art, Antiques, Jewelry Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

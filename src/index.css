@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   button[data-appraisily-chat-trigger],
   button[data-appraisily-chat-close],
   [data-appraisily-chat-wrap] {

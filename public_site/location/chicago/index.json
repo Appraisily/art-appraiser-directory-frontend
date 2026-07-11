@@ -2,7 +2,7 @@
   "title": "Art appraisers in Chicago, Illinois",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "chicago",
     "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
@@ -11,28 +11,11 @@
     "city": "Chicago",
     "region": "Illinois",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Lindsey M Owen",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/lindsey-m-owen/",
-        "slug": "lindsey-m-owen",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/lindsey-m-owen.svg",
-        "description": "Lindsey M Owen offers art appraisal services serving Chicago, IL. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA CAPP, with direct website contact available for project-specific valuation requests.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Metropolitan Art Appraisers",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/metropolitan-art-appraisers/",
-        "slug": "metropolitan-art-appraisers",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg?updatedAt=1741088953974",
-        "description": "With over 25 years of experience in the Chicago art scene, Metropolitan Art Appraisers provides expert valuation services for collectors, institutions, and insurance purposes.",
-        "publicRouteAvailable": true
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/chicago/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

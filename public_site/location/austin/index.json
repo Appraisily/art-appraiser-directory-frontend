@@ -2,7 +2,7 @@
   "title": "Art appraisers in Austin, Texas",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "austin",
     "url": "https://art-appraisers-directory.appraisily.com/location/austin/",
@@ -11,7 +11,7 @@
     "city": "Austin",
     "region": "Texas",
     "country": "US",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 3,
     "listedAppraisers": [
       {
         "name": "Austin Galleries",
@@ -30,18 +30,11 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Linda Maxwell Harris",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/linda-maxwell-harris/",
-        "slug": "linda-maxwell-harris",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-anderson-fine-art-appraisals-afaa_1741088839013_ExKtt-_-q.jpg?updatedAt=1741088840677",
-        "description": "Linda Maxwell Harris provides professional art appraisal services specializing in Real estate related art appraisals, Property valuation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Prestige Estate Services Team",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/",
         "slug": "prestige-estate-services-team",
         "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
+        "description": "",
         "publicRouteAvailable": true
       }
     ],

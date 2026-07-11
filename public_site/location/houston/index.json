@@ -2,13 +2,13 @@
   "title": "Art appraisers in Houston, Texas",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "houston",
     "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
     "name": "Art appraisers in Houston, Texas",
     "description": "Compare art appraisers in Houston, Texas.",
-    "numberOfListedAppraisers": 9,
+    "numberOfListedAppraisers": 7,
     "listedAppraisers": [
       {
         "name": "Alexander Appraisal & Estate Services",
@@ -59,27 +59,11 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Lorraine Anne Davis",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/lorraine-anne-davis/",
-        "slug": "lorraine-anne-davis",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-jsk-fine-art-appraisals_1741089036810_aosttNkC6.jpg?updatedAt=1741089037916",
-        "description": "Lorraine Anne Davis provides professional art appraisal services specializing in General fine art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Melanie Modica (Modica Fine Art)",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/melanie-modica-modica-fine-art/",
         "slug": "melanie-modica-modica-fine-art",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-page-art-inc_1741088969774_UJKBo2br7.jpg?updatedAt=1741088971080",
         "description": "Melanie Modica (Modica Fine Art) provides professional art appraisal services specializing in Appraisal reviews for personal property, Expert witness services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "MKG Art Management",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/m-k-g-art-management-art-advisors-and-appraisers-houston-texas/",
-        "slug": "m-k-g-art-management-art-advisors-and-appraisers-houston-texas",
-        "image": "https://mkgart.com/wp-content/uploads/2022/08/mkg-logo-dark.png",
-        "description": "MKG Art Management offers fine art appraisal services serving Houston, TX. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
         "publicRouteAvailable": true
       }
     ],

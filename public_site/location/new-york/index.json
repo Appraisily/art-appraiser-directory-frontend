@@ -2,30 +2,14 @@
   "title": "Art appraisers in New York, New York",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "new-york",
     "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
     "name": "Art appraisers in New York, New York",
     "description": "Compare art appraisers in New York, New York.",
-    "numberOfListedAppraisers": 8,
+    "numberOfListedAppraisers": 3,
     "listedAppraisers": [
-      {
-        "name": "Anderson Campbell Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-campbell-art-appraisals/",
-        "slug": "anderson-campbell-art-appraisals",
-        "image": "https://ssl.gstatic.com/atari/images/public/favicon.ico",
-        "description": "Anderson Campbell Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Avant-Garde Appraisals & Art Advisory",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/avant-garde/",
-        "slug": "avant-garde",
-        "image": "https://agartappraisals.com/wp-content/uploads/2020/12/ag-logo-gray-thumbnail.png?w=32",
-        "description": "Avant-Garde Appraisals & Art Advisory offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Cheney Appraisal Services",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/cheney-appraisal-services/",
@@ -40,30 +24,6 @@
         "slug": "esquire-appraisals-inc",
         "image": "https://esquireappraisals.com/wp-content/uploads/2014/12/cropped-logo_website_385x105.jpg",
         "description": "Esquire Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Kagan Fine Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-appraisals-new-york/",
-        "slug": "fine-art-appraisals-new-york",
-        "image": "https://www.kaganappraisals.com/wp-content/uploads/2026/03/cropped-cropped-bonnie21.jpg",
-        "description": "Kagan Fine Art Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Maria Tarrence",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/maria-tarrence/",
-        "slug": "maria-tarrence",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/maria-tarrence.svg",
-        "description": "Maria Tarrence offers art appraisal services serving New York, NY. FAIR directory data indicates specialties in Art, Drawings, Paintings, Prints, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Poras Fine Art Appraisal Service",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
-        "slug": "new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
-        "image": "https://www.fineartsappraiser.com/wp-content/themes/required-starter/favicon.png",
-        "description": "Poras Fine Art Appraisal Service offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
         "publicRouteAvailable": true
       },
       {

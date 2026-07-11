@@ -2,7 +2,7 @@
   "title": "Art appraisers in Palm Beach, Florida",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "palm-beach",
     "url": "https://art-appraisers-directory.appraisily.com/location/palm-beach/",
@@ -11,38 +11,14 @@
     "city": "Palm Beach",
     "region": "Florida",
     "country": "US",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Alicia E Weaver",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver/",
-        "slug": "alicia-e-weaver",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-appraisal-resources-arai_1741088881410_7xch-IEKK.jpg?updatedAt=1741088882489",
-        "description": "Alicia E Weaver provides professional art appraisal services specializing in Antiques, Americana, Decorative Arts, Furniture, Ceramics, Silver, 19th–20th century paintings. With 15+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Elizabeth Lake Lovett",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lake-lovett/",
-        "slug": "elizabeth-lake-lovett",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-page-art-inc_1741089064154_IUixDrTqA.jpg?updatedAt=1741089065323",
-        "description": "Elizabeth Lake Lovett provides professional art appraisal services specializing in 19th–20th Century American and European paintings. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Kaminski Auctions",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/kaminski-auctions/",
         "slug": "kaminski-auctions",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-mimesis-gallery_1741089207205_lEqxQL6X9.jpg?updatedAt=1741089208433",
         "description": "Kaminski Auctions provides professional art appraisal services specializing in Fine Art, Asian/Modern Art, Militaria, Jewelry, Auction Appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Sotheby's Palm Beach",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/sothebys-palm-beach/",
-        "slug": "sothebys-palm-beach",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-sotheby-s-palm-beach_1741086888399_J6EkeM4-h.jpg",
-        "description": "Sotheby's Palm Beach provides professional art appraisal services specializing in Art valuation, Consignment consultations, Acquisitions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

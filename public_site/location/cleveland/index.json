@@ -2,7 +2,7 @@
   "title": "Art appraisers in Cleveland, Ohio",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "cleveland",
     "url": "https://art-appraisers-directory.appraisily.com/location/cleveland/",
@@ -11,36 +11,11 @@
     "city": "Cleveland",
     "region": "Ohio",
     "country": "US",
-    "numberOfListedAppraisers": 3,
-    "listedAppraisers": [
-      {
-        "name": "Alicia Weaver (Prestige Estate Services)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver-prestige-estate-services/",
-        "slug": "alicia-weaver-prestige-estate-services",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-escher-associates_1741089058490_6oeiWz4NcL.jpg?updatedAt=1741089060053",
-        "description": "Alicia Weaver (Prestige Estate Services) provides professional art appraisal services specializing in Americana, Decorative Arts. With Over a century combined team experience (firm) experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Erin Hollenbank (J.S. Held)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/erin-hollenbank-js-held/",
-        "slug": "erin-hollenbank-js-held",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-page-art-inc_1741088969774_UJKBo2br7.jpg?updatedAt=1741088971080",
-        "description": "Erin Hollenbank (J.S. Held) provides professional art appraisal services specializing in 19th–20th century American art, 19th–20th century European art, Works on paper. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Legacy Appraisal Group",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/legacy-appraisal-group/",
-        "slug": "legacy-appraisal-group",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
-        "description": "Legacy Appraisal Group provides professional art appraisal services specializing in Contemporary art, Asian arts. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/cleveland/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

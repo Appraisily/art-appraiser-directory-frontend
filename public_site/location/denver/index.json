@@ -2,13 +2,13 @@
   "title": "Art appraisers in Denver, Colorado",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "denver",
     "url": "https://art-appraisers-directory.appraisily.com/location/denver/",
     "name": "Art appraisers in Denver, Colorado",
     "description": "Compare art appraisers in Denver, Colorado.",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
       {
         "name": "Bernard Ewell Art Appraisers, LLC.",
@@ -16,22 +16,6 @@
         "slug": "bernard-ewell-fine-at-appraisals-llc",
         "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/bernard-ewell-fine-at-appraisals-llc.svg",
         "description": "Bernard Ewell Art Appraisers, LLC. offers fine art appraisal services serving Denver, CO. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Brady L. Dreasher",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/brady-l-dreasher/",
-        "slug": "brady-l-dreasher",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-francisco-newton-fine-art-appraisal_1741089098425_Lq5kjR2-1Q.jpg?updatedAt=1741089099697",
-        "description": "Brady L. Dreasher provides professional art appraisal services specializing in Fine Art Brokerage, Estate Liquidation, Expert Witness Testimony. With Since 2000 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Dr. Mark Lee Levine",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/dr-mark-lee-levine/",
-        "slug": "dr-mark-lee-levine",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-gurr-johns_1741090664976_R6P8d5YDo.jpg?updatedAt=1741090666085",
-        "description": "Dr. Mark Lee Levine provides professional art appraisal services specializing in Real Estate-Linked Personal Property Appraisals. With 30+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {

@@ -2,22 +2,14 @@
   "title": "Art appraisers in Phoenix, Arizona",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "phoenix",
     "url": "https://art-appraisers-directory.appraisily.com/location/phoenix/",
     "name": "Art appraisers in Phoenix, Arizona",
     "description": "Compare art appraisers in Phoenix, Arizona.",
-    "numberOfListedAppraisers": 7,
+    "numberOfListedAppraisers": 5,
     "listedAppraisers": [
-      {
-        "name": "Allison Gee Fine Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/allison-gee-fine-art-appraisals/",
-        "slug": "allison-gee-fine-art-appraisals",
-        "image": "https://img1.wsimg.com/isteam/ip/static/pwa-app/logo-default.png/:/rs=w:57,h:57,m",
-        "description": "Allison Gee Fine Art Appraisals offers fine art appraisal services serving Phoenix, AZ. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "AppraiseItNow",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
@@ -48,14 +40,6 @@
         "slug": "prestige-estate-services",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_prestige-estate-services_1741087694003_bmDx0s3mE.jpg",
         "description": "Established practice with multi-generational expertise in estate services and art appraisals. Our team includes renowned experts Elizabeth Lovett and Stephanie Calman.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Savvy Collector",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/savvy-collector/",
-        "slug": "savvy-collector",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/savvy-collector.svg",
-        "description": "Savvy Collector specializes in art appraisal services and is listed as both an art gallery and professional appraiser in Phoenix.",
         "publicRouteAvailable": true
       },
       {

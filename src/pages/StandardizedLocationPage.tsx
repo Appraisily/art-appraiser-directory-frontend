@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { MapPin, Star } from 'lucide-react';
-import { getStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
+import { getPublishedStandardizedLocation, StandardizedAppraiser, StandardizedLocation } from '../utils/standardizedData';
 import { SEO } from '../components/SEO';
 import {
   DECISION_ROUTER_ICON_SET,
@@ -81,7 +81,7 @@ export function StandardizedLocationPage() {
 
       try {
         setIsLoading(true);
-        const data = await getStandardizedLocation(validCitySlug);
+        const data = await getPublishedStandardizedLocation(validCitySlug);
         if (data) {
           setLocationData(data);
         } else {
@@ -496,7 +496,13 @@ export function StandardizedLocationPage() {
           <h1 className="text-3xl font-bold mb-4">Art Appraisers in {cityName}</h1>
           <div className="bg-blue-50 border border-blue-200 text-blue-700 px-6 py-4 rounded-lg mb-6">
             <p className="font-medium">We're currently updating our database of art appraisers in {cityName}.</p>
-            <p className="mt-2">Please check back soon or explore other cities in our directory.</p>
+            <p className="mt-2">
+              Please check back soon or{' '}
+              <a href={SITE_URL} className="font-medium underline underline-offset-2 hover:text-blue-800">
+                explore other cities in our directory
+              </a>
+              .
+            </p>
           </div>
           <a href={SITE_URL} className="text-blue-600 hover:underline font-medium">
             Browse all locations
@@ -574,10 +580,13 @@ export function StandardizedLocationPage() {
             </div>
           </div>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-gray-700">
-            <div className="rounded-lg bg-white p-4 shadow-sm">
+            <a
+              href={signedReportUrl}
+              className="block rounded-lg bg-white p-4 shadow-sm transition-colors hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+            >
               <p className="font-semibold text-gray-900 mb-1">Fast turnaround</p>
               <p>Get expert insight online without waiting for an appointment.</p>
-            </div>
+            </a>
             <a
               href="#local-appraisers"
               className="block rounded-lg bg-white p-4 shadow-sm transition-colors hover:bg-blue-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"

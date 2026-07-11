@@ -47,6 +47,7 @@ if (!rootElement) {
   console.error('Root element not found! DOM structure may be incorrect.');
 } else {
   try {
+    rootElement.replaceChildren();
     createRoot(rootElement).render(
       <StrictMode>
         <HelmetProvider>

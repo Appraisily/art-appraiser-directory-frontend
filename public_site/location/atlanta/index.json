@@ -1,43 +1,18 @@
 {
-  "title": "Art appraisers in Atlanta, Georgia",
+  "title": "Atlanta Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "atlanta",
     "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
-    "name": "Art appraisers in Atlanta, Georgia",
-    "description": "Compare art appraisers in Atlanta, Georgia.",
-    "numberOfListedAppraisers": 3,
-    "listedAppraisers": [
-      {
-        "name": "Betsy Dorminy Antiques & Art",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/betsy-dorminy-appraisals/",
-        "slug": "betsy-dorminy-appraisals",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/betsy-dorminy-appraisals.svg",
-        "description": "Betsy Dorminy Antiques & Art offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Charles Pharr Certified Art & Antique Appraiser",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
-        "slug": "charles-pharr-certified-appraiser",
-        "image": "https://certified-appraiser.com/wp-content/uploads/2020/08/insurance-coverage-150x150.png",
-        "description": "Charles Pharr Certified Art & Antique Appraiser offers fine art appraisal services serving Atlanta, GA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "The Perfect Piece Atlanta",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/",
-        "slug": "the-perfect-piece-atlanta",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-appraiseitnow_1741089173757_UkgoMBIbR.jpg?updatedAt=1741089174887",
-        "description": "The Perfect Piece Atlanta provides professional art appraisal services specializing in estate valuations for probate, equitable distribution appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      }
-    ],
+    "name": "Atlanta Art Appraisers & Art Appraisal Services | Estate, Insurance, Donation",
+    "description": "Compare Atlanta art appraisers and art appraisal services for estate, insurance, donation, and personal-property valuations. Review local Georgia experts and online options.",
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/atlanta/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

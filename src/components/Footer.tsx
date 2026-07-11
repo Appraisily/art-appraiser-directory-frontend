@@ -1,6 +1,7 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight } from 'lucide-react';
 import { PARENT_SITE_URL, SITE_NAME, getPrimaryCtaUrl } from '../config/site';
+import { BRAND_LOGO_URL } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 
 const links = {
@@ -56,9 +57,12 @@ export function Footer() {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2 space-y-5">
             <div className="flex items-center gap-3">
-              <span className="flex h-9 w-9 items-center justify-center rounded-md border border-gray-300 bg-white text-sm font-bold text-gray-900">
-                A
-              </span>
+              <img
+                src={BRAND_LOGO_URL}
+                alt="Appraisily Logo"
+                className="h-9 w-9 rounded-md object-contain"
+                loading="lazy"
+              />
               <span className="text-2xl font-bold text-gray-900">{SITE_NAME}</span>
             </div>
             <p className="text-gray-600 max-w-md">

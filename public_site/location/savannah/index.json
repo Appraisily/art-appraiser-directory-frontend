@@ -2,7 +2,7 @@
   "title": "Art appraisers in Savannah, Georgia",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "savannah",
     "url": "https://art-appraisers-directory.appraisily.com/location/savannah/",
@@ -11,24 +11,8 @@
     "city": "Savannah",
     "region": "Georgia",
     "country": "US",
-    "numberOfListedAppraisers": 3,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Everard Auctions & Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
-        "slug": "everard-auctions-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-everard-auctions-appraisals_1741089212751_vqr2kwp-i3.jpg",
-        "description": "Everard Auctions & Appraisals provides professional art appraisal services specializing in Southern estate collections, fine/decorative arts (18th–20th century), silverware. With 22 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Redtail Appraisals (Rebekah Assid)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/redtail-appraisals-rebekah-assid/",
-        "slug": "redtail-appraisals-rebekah-assid",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-redtail-appraisals-rebekah-assid_1741089218358_oNRO_x8JT.jpg",
-        "description": "Redtail Appraisals (Rebekah Assid) provides professional art appraisal services specializing in fine art, decorative arts, antiques, luxury goods. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "HKpowerStudio",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/hkpowerstudio/",

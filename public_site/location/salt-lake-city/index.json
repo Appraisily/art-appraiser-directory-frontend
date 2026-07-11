@@ -2,7 +2,7 @@
   "title": "Art appraisers in Salt Lake City, Utah",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "salt-lake-city",
     "url": "https://art-appraisers-directory.appraisily.com/location/salt-lake-city/",
@@ -11,7 +11,7 @@
     "city": "Salt Lake City",
     "region": "Utah",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Intermountain Appraisal",
@@ -19,14 +19,6 @@
         "slug": "intermountain-appraisal",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-intermountain-appraisal_1741088947289_8KnId0agy.jpg",
         "description": "Intermountain Appraisal provides professional art appraisal services specializing in Fine art (oil paintings), Rare books, Historical documents. With 40+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Williams Fine Art Gallery",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/williams-fine-art-gallery/",
-        "slug": "williams-fine-art-gallery",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-williams-fine-art-gallery_1741088952852_QNB-8v_lx.jpg",
-        "description": "Williams Fine Art Gallery provides professional art appraisal services specializing in Early Utah/Western art, Contemporary art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

@@ -72,7 +72,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           {/* Logo and Directory Title */}
           <div className="flex items-center">
-            <Link to="/" className="flex items-center gap-2">
+            <Link to="/" className="flex h-full items-center gap-2">
               <img
                 src={BRAND_LOGO_URL}
                 alt="Appraisily Logo"
@@ -200,7 +200,19 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg max-h-[80vh] overflow-y-auto">
             {/* Mobile menu header */}
             <div className="flex items-center justify-between px-3 py-3 font-medium border-b border-gray-200 mb-2">
-              <span className="text-blue-600 text-base">Locations</span>
+              <Link
+                to="/location/"
+                className="text-blue-600 text-base"
+                data-gtm-event="nav_link_click"
+                data-gtm-label="Locations"
+                data-gtm-placement="nav_mobile"
+                onClick={() => {
+                  handleNavLinkClick('Locations', 'mobile');
+                  setIsOpen(false);
+                }}
+              >
+                Locations
+              </Link>
               <button
                 onClick={() => setIsOpen(false)}
                 className="p-2 min-w-[44px] min-h-[44px] rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100"

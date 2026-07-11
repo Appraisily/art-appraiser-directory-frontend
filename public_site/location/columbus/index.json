@@ -2,22 +2,14 @@
   "title": "Art appraisers in Columbus, Ohio",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "columbus",
     "url": "https://art-appraisers-directory.appraisily.com/location/columbus/",
     "name": "Art appraisers in Columbus, Ohio",
     "description": "Compare art appraisers in Columbus, Ohio.",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Amelia Jeffers Auctioneers & Appraisers",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/amelia-jeffers-auctioneers-appraisers/",
-        "slug": "amelia-jeffers-auctioneers-appraisers",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-saylor-rice-appraisals_1741088647442_2mlwX89Pk.jpg?updatedAt=1741088648644",
-        "description": "Amelia Jeffers Auctioneers & Appraisers provides professional art appraisal services specializing in Art (all periods), Antiques, Hard-to-value assets, Estate settlements, Expert witness testimony. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Amelia Jeffers, Auctioneers & Appraisers",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/amelia-jeffers/",

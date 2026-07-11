@@ -2,30 +2,14 @@
   "title": "Art appraisers in Philadelphia, Pennsylvania",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "philadelphia",
     "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
     "name": "Art appraisers in Philadelphia, Pennsylvania",
     "description": "Compare art appraisers in Philadelphia, Pennsylvania.",
-    "numberOfListedAppraisers": 10,
+    "numberOfListedAppraisers": 7,
     "listedAppraisers": [
-      {
-        "name": "Art of Estates - Art Appraisal & Consulting",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-art-of-estates-personal-property-appraisal-firm/",
-        "slug": "philadelphia-art-of-estates-personal-property-appraisal-firm",
-        "image": "https://artofestates.com/wp-content/uploads/2017/09/Art_Estates_Personal_Property_Appraiser-11.png",
-        "description": "Art of Estates - Art Appraisal & Consulting offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Barry S. Slosberg Auctioneers & Appraisers",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/barry-s-slosberg-auctioneers-and-appraisers/",
-        "slug": "barry-s-slosberg-auctioneers-and-appraisers",
-        "image": "https://www.bssauction.com/wp-content/themes/theme-modern/dist/img/favicon/apple-touch-icon.png",
-        "description": "Barry S. Slosberg Auctioneers & Appraisers offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Bertolino Arts",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/bertolino-arts/",
@@ -40,14 +24,6 @@
         "slug": "doyle-pennsylvania-regional-office",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
         "description": "Doyle (Pennsylvania Regional Office) provides professional art appraisal services specializing in Fine art, Jewelry, Asian works. With Since 1962 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Freeman's | Hindman",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/freemans-hindman/",
-        "slug": "freemans-hindman",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-mimesis-gallery_1741089277363_J436MZajS.jpg?updatedAt=1741089278455",
-        "description": "Freeman's | Hindman provides professional art appraisal services specializing in Fine and decorative arts valuation, Historical collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       },
       {

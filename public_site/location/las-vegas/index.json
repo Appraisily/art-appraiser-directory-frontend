@@ -2,7 +2,7 @@
   "title": "Art appraisers in Las Vegas, Nevada",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "las-vegas",
     "url": "https://art-appraisers-directory.appraisily.com/location/las-vegas/",
@@ -11,32 +11,8 @@
     "city": "Las Vegas",
     "region": "Nevada",
     "country": "US",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Edward Kitson",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-kitson/",
-        "slug": "edward-kitson",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-page-art-inc_1741088911458_WCpPL_oa6.jpg?updatedAt=1741088912557",
-        "description": "Edward Kitson provides professional art appraisal services specializing in IRS-compliant estate tax appraisals, Fine art collections, Antiques and decorative arts, Divorce/inheritance fair division appraisals, Insurance documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Stephanie Calman",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephanie-calman/",
-        "slug": "stephanie-calman",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-janet-l-ross_1741088874642_4FN1yTep5.jpg?updatedAt=1741088875833",
-        "description": "Stephanie Calman provides professional art appraisal services specializing in IRS-compliant estate tax appraisals, Fine art collections, Antiques and decorative arts, Divorce/inheritance fair division appraisals, Insurance documentation. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Alicia Weaver",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
-        "slug": "alicia-weaver",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_palm-beach-escher-associates_1741086913213_kTqP95EkI.jpg?updatedAt=1741086914372",
-        "description": "Alicia Weaver provides professional art appraisal services specializing in Antique furniture, Fine art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Ralph DeLuca",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/",

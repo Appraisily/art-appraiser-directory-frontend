@@ -2,7 +2,7 @@
   "title": "Art appraisers in Raleigh, North Carolina",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "raleigh",
     "url": "https://art-appraisers-directory.appraisily.com/location/raleigh/",
@@ -11,7 +11,7 @@
     "city": "Raleigh",
     "region": "North Carolina",
     "country": "US",
-    "numberOfListedAppraisers": 2,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
         "name": "Dana Summitt (Look Appraisal LLC)",
@@ -19,14 +19,6 @@
         "slug": "dana-summitt-look-appraisal-llc",
         "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/appraising-plus.svg",
         "description": "Dana Summitt (Look Appraisal LLC) provides professional art appraisal services specializing in 20th Century Art, Contemporary American Paintings, Modern/Contemporary Prints, Photography, Rare Books, Vintage Clothing. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Appraising Plus",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraising-plus/",
-        "slug": "appraising-plus",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg",
-        "description": "Appraising Plus provides professional art appraisal services specializing in Antiques, Personal Property. With 15+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

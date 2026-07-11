@@ -2,13 +2,13 @@
   "title": "Art appraisers in Miami, Florida",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "miami",
     "url": "https://art-appraisers-directory.appraisily.com/location/miami/",
     "name": "Art appraisers in Miami, Florida",
     "description": "Compare art appraisers in Miami, Florida.",
-    "numberOfListedAppraisers": 8,
+    "numberOfListedAppraisers": 5,
     "listedAppraisers": [
       {
         "name": "Art of Estates - Art Appraisal & Consulting",
@@ -19,27 +19,11 @@
         "publicRouteAvailable": true
       },
       {
-        "name": "Chris Ingalls",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/chris-ingalls/",
-        "slug": "chris-ingalls",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/chris-ingalls.svg",
-        "description": "Chris Ingalls offers art appraisal services serving Miami, FL. FAIR directory data indicates specialties in Art - American, Art - Impressionist & Modern, Art - Latin American, Photography & Photographs, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
-        "publicRouteAvailable": true
-      },
-      {
         "name": "Constantine Fine Art Services",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/constantine-fine-art-services/",
         "slug": "constantine-fine-art-services",
         "image": "https://static.wixstatic.com/media/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/3d7008_2899d4edda764ace89534e72f2f4c112%7Emv2.png",
         "description": "Constantine Fine Art Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Estate & Appraisal Services",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/",
-        "slug": "appraisals-miami-fl-estate-and-appraisal-services-inc",
-        "image": "https://irp.cdn-website.com/e2d2caba/site_favicon_16_1619610468061.ico",
-        "description": "Estate & Appraisal Services offers fine art appraisal services serving Miami, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
         "publicRouteAvailable": true
       },
       {
@@ -64,14 +48,6 @@
         "slug": "myriam-nader-salomon-myriam-nader-haitian-art-gallery",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-anderson-fine-art-appraisals_1741088899540_zxsOmPOGT.jpg?updatedAt=1741088901377",
         "description": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery) provides professional art appraisal services specializing in Haitian art, Caribbean art. With 35+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "The Fine Art Group",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-fine-art-group/",
-        "slug": "the-fine-art-group",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-alicia-e-weaver-isa-capp_1741088677946_p3M9el4I9.jpg?updatedAt=1741088706111",
-        "description": "The Fine Art Group provides professional art appraisal services specializing in High-value art investment advisory, Art appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

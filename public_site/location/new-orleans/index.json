@@ -2,7 +2,7 @@
   "title": "Art appraisers in New Orleans, Louisiana",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "new-orleans",
     "url": "https://art-appraisers-directory.appraisily.com/location/new-orleans/",
@@ -11,38 +11,14 @@
     "city": "New Orleans",
     "region": "Louisiana",
     "country": "US",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Barnett Fine Art",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/barnett-fine-art/",
-        "slug": "barnett-fine-art",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg?updatedAt=1741089472476",
-        "description": "Barnett Fine Art provides professional art appraisal services specializing in Fine art valuations, Jazz Fest posters. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "New Orleans Auction Galleries",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-orleans-auction-galleries/",
         "slug": "new-orleans-auction-galleries",
         "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_salt-lake-city-gurr-johns_1741088980873_EU_Bt-wtN.jpg?updatedAt=1741088981861",
         "description": "New Orleans Auction Galleries provides professional art appraisal services specializing in Antique furniture, Fine art, Jewelry. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "AppraiseItNow (Louisiana)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow-louisiana/",
-        "slug": "appraiseitnow-louisiana",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-antonio-prestige-estate-services_1741088996215_emp9UkRhG.jpg?updatedAt=1741088997582",
-        "description": "AppraiseItNow (Louisiana) provides professional art appraisal services specializing in Fine art, Collectibles, Estate appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "American Society of Appraisers (ASA)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
-        "slug": "american-society-of-appraisers-asa",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_portland-saylor-rice-appraisals_1741088516310_hPFaHgces.jpg?updatedAt=1741088517396",
-        "description": "American Society of Appraisers (ASA) provides professional art appraisal services specializing in Accredited appraiser directory, Personal property, Fine art. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
         "publicRouteAvailable": true
       }
     ],

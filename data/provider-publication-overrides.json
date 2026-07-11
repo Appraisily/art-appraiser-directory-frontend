@@ -1,0 +1,9 @@
+{
+  "providers": {
+    "skinner-boston-bonhams": {
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.bonhams.com/locations/BOS2/",
+      "reason": "Official Bonhams Skinner Boston location page verified on 2026-07-11"
+    }
+  }
+}

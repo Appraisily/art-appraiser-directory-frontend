@@ -1529,19 +1529,19 @@
       "slug": "skinner-boston-bonhams",
       "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_houston-anderson-fine-art-appraisals_1741086832703_RqYoGS4BTl.jpg?updatedAt=1741086834057",
       "address": {
-        "street": "789 Maple Dr",
+        "street": "236 Clarendon Street",
         "city": "Boston",
         "state": "MA",
-        "zip": "02900",
-        "formatted": "789 Maple Dr, Boston, MA 02900"
+        "zip": "02116",
+        "formatted": "236 Clarendon Street, Boston, MA 02116"
       },
       "contact": {
-        "phone": "139-762-8348",
-        "email": "info@www.artappraisers.org",
-        "website": "https://www.artappraisers.org/"
+        "phone": "+1 617 350 5400",
+        "email": "bids@bonhamsskinner.com",
+        "website": "https://www.bonhams.com/locations/BOS2/"
       },
       "business": {
-        "yearsInBusiness": "Since 2024",
+        "yearsInBusiness": "Skinner founded in 1962; acquired by Bonhams in 2022",
         "hours": [
           {
             "day": "Monday-Friday",
@@ -1556,9 +1556,9 @@
             "hours": "Closed"
           }
         ],
-        "pricing": "Free valuation services for auction estimates",
-        "rating": 4.8,
-        "reviewCount": 21
+        "pricing": "",
+        "rating": null,
+        "reviewCount": 0
       },
       "expertise": {
         "specialties": [
@@ -1566,42 +1566,26 @@
           "Liquidation Valuations",
           "Estate Sales"
         ],
-        "certifications": [
-          "Professional Appraiser"
-        ],
+        "certifications": [],
         "services": [
-          "Auction Estimates",
-          "Appraisals",
-          "Liquidation Services"
+          "Auction Estimates"
         ]
       },
       "content": {
-        "about": "Skinner Boston (Bonhams) provides professional art appraisal services specializing in Auction Estimates, Liquidation Valuations, Estate Sales. With Since 2024 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "notes": "Part of Bonhams; accepts online submissions for appraisal."
+        "about": "Bonhams Skinner Boston is an auction house offering auction estimates. Bonhams acquired Skinner in 2022.",
+        "notes": "Identity, Boston contact details, auction-estimate service, and acquisition history verified against Bonhams."
       },
-      "reviews": [
-        {
-          "author": "Karen W.",
-          "rating": 5,
-          "date": "2024-12-21",
-          "content": "I needed an appraisal for a charitable donation, and Skinner Boston (Bonhams) delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "James C.",
-          "rating": 5,
-          "date": "2024-11-18",
-          "content": "I needed an appraisal for a charitable donation, and they delivered excellent service. All tax requirements were met perfectly."
-        },
-        {
-          "author": "Robert A.",
-          "rating": 5,
-          "date": "2024-11-06",
-          "content": "Extremely professional and knowledgeable. The appraisal was detailed and delivered on time."
-        }
-      ],
+      "reviews": [],
       "metadata": {
-        "lastUpdated": "2025-03-15",
-        "inService": true
+        "lastUpdated": "2026-07-11",
+        "inService": true,
+        "publicationStatus": "limited",
+        "verification": {
+          "sourceUrl": "https://www.bonhams.com/locations/BOS2/",
+          "verifiedAt": "2026-07-11",
+          "sourceType": "official_business_website",
+          "claimScope": ["identity", "address", "phone", "email", "website", "auction_estimates", "acquisition_history"]
+        }
       }
     },
     {

@@ -2,7 +2,7 @@
   "title": "Art appraisers in Hartford, Connecticut",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:42:00.960Z",
   "location": {
     "slug": "hartford",
     "url": "https://art-appraisers-directory.appraisily.com/location/hartford/",
@@ -11,28 +11,11 @@
     "city": "Hartford",
     "region": "Connecticut",
     "country": "US",
-    "numberOfListedAppraisers": 2,
-    "listedAppraisers": [
-      {
-        "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
-        "slug": "connecticut-art-appraisals-llc-alizzandra-danker",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_raleigh-appraising-plus_1741088615427_N7bqeZ2IJu.jpg?updatedAt=1741088626221",
-        "description": "Connecticut Art Appraisals, LLC (Alizzandra Danker) provides professional art appraisal services specializing in Fine art valuations, Estate appraisals, Collections, Sales. With Founded in 2015 experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Winter Associates",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/",
-        "slug": "winter-associates",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_richmond-prestige-estate-services_1741088664467_KaZ5Oqd2an.jpg?updatedAt=1741088672826",
-        "description": "Winter Associates provides professional art appraisal services specializing in Estate settlement appraisals, Auctions. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      }
-    ],
+    "numberOfListedAppraisers": 0,
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/hartford/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

@@ -2,30 +2,14 @@
   "title": "Art appraisers in Nashville, Tennessee",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-05-18T13:57:56.721Z",
+  "generatedAt": "2026-07-11T15:47:31.181Z",
   "location": {
     "slug": "nashville",
     "url": "https://art-appraisers-directory.appraisily.com/location/nashville/",
     "name": "Art appraisers in Nashville, Tennessee",
     "description": "Compare art appraisers in Nashville, Tennessee.",
-    "numberOfListedAppraisers": 4,
+    "numberOfListedAppraisers": 2,
     "listedAppraisers": [
-      {
-        "name": "Case Antiques, Inc. Auctions & Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
-        "slug": "case-antiques-inc-auctions-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_st-louis-gurr-johns_1741089471336_cn5-ca-w5.jpg?updatedAt=1741089472476",
-        "description": "Case Antiques, Inc. Auctions & Appraisals provides professional art appraisal services specializing in Early Southern decorative arts, American antiques, Investment-quality art. With 20+ years experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Jason Preston Art Advisory & Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/",
-        "slug": "jason-preston-art-advisory-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_santa-fe-page-art-inc_1741089190928_2WC8Nt_Lf.jpg?updatedAt=1741089192238",
-        "description": "Jason Preston Art Advisory & Appraisals provides professional art appraisal services specializing in Sculpture, Contemporary art, Confidential advisory services. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Redtail Appraisals",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/redtail-appraisals/",
