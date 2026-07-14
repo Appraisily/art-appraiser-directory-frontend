@@ -4,7 +4,7 @@
       "id": "aspen-mary-peck-art-advisory",
       "name": "Mary Peck Art Advisory",
       "slug": "mary-peck-art-advisory",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
         "street": "1234 Art District Ave",
         "city": "Denver",
@@ -82,13 +82,13 @@
         "lastUpdated": "2025-03-15",
         "inService": true
       },
-      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530"
+      "image": "https://assets.appraisily.com/assets/directory/placeholder.jpg"
     },
     {
       "id": "aspen-alicia-e-weaver",
       "name": "Alicia E Weaver",
       "slug": "alicia-e-weaver",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-saylor-rice-appraisals_1741088975587_m4gb2w_4o.jpg?updatedAt=1741088976609",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
         "street": "2145 Pearl Street",
         "city": "Boulder",
@@ -161,13 +161,13 @@
         "lastUpdated": "2025-03-10",
         "inService": true
       },
-      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_salt-lake-city-saylor-rice-appraisals_1741088975587_m4gb2w_4o.jpg?updatedAt=1741088976609"
+      "image": "https://assets.appraisily.com/assets/directory/placeholder.jpg"
     },
     {
       "id": "aspen-812-maplewood",
       "name": "812 Maplewood",
       "slug": "812-maplewood",
-      "imageUrl": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530",
+      "imageUrl": "https://assets.appraisily.com/assets/directory/placeholder.jpg",
       "address": {
         "street": "812 Maplewood Ave",
         "city": "Aspen",
@@ -238,7 +238,7 @@
         "lastUpdated": "2025-02-28",
         "inService": true
       },
-      "image": "https://ik.imagekit.io/appraisily/appraiser-images/appraiser_san-antonio-page-art-inc_1741089018808_xDVKloKIu.jpg?updatedAt=1741089020530"
+      "image": "https://assets.appraisily.com/assets/directory/placeholder.jpg"
     }
   ]
 }
