@@ -215,6 +215,55 @@ async function testCitySearchGeolocationSuccess() {
   act(() => root.unmount());
 }
 
+async function testCitySearchGeolocationNoCoverage() {
+  const events: CapturedEvent[] = [];
+  Object.defineProperty(window.navigator, 'geolocation', {
+    configurable: true,
+    value: {
+      getCurrentPosition: (success: PositionCallback) =>
+        success({
+          coords: {
+            latitude: 21.3069,
+            longitude: -157.8583,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: Date.now(),
+        } as GeolocationPosition),
+    },
+  });
+
+  const { container, root } = mount(
+    <MemoryRouter>
+      <CitySearch
+        trackEventHandler={(event, properties) => events.push({ event, properties })}
+      />
+    </MemoryRouter>
+  );
+  const locateButton = container.querySelector('button[aria-label="Use my location"]');
+  assert(locateButton instanceof window.HTMLButtonElement);
+  const input = container.querySelector('input');
+  assert(input instanceof window.HTMLInputElement);
+  act(() => setInputValue(input, 'Boston'));
+  await flush();
+  act(() => locateButton.click());
+  await flush();
+
+  assert.equal(input.value, '');
+  assert.match(container.textContent || '', /do not currently list a reviewed location near you/i);
+  assert.deepEqual(
+    events.map(({ event }) => event),
+    ['search_geolocate_request', 'search_geolocate_no_match']
+  );
+  assert.equal(events.at(-1)?.properties?.coverage_radius_miles, 100);
+  assert.equal('lat' in (events.at(-1)?.properties || {}), false);
+  assert.equal('lon' in (events.at(-1)?.properties || {}), false);
+  act(() => root.unmount());
+}
+
 async function testMobileMenuEscapeAndFocusReturn() {
   const { container, root } = mount(
     <MemoryRouter>
@@ -316,10 +365,11 @@ export async function runInteractionTests() {
   await testCitySearchKeyboardAndTelemetry();
   await testCitySearchGeolocationFailureAndMobileControls();
   await testCitySearchGeolocationSuccess();
+  await testCitySearchGeolocationNoCoverage();
   await testMobileMenuEscapeAndFocusReturn();
   testFooterInternalLinksAndLegalUniqueness();
   testSuppressedProfileContextIsGeneric();
   console.log(
-    '[interaction-contract] PASS feedback success/failure, keyboard search, geolocation success/failure, mobile menu Escape/focus, controls, telemetry, and suppressed-profile context'
+    '[interaction-contract] PASS feedback success/failure, keyboard search, geolocation success/no-coverage/failure, mobile menu Escape/focus, controls, telemetry, and suppressed-profile context'
   );
 }

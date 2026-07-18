@@ -30,6 +30,35 @@ const SEARCH_REDIRECTS: Record<string, string> = {
 const normalizeSearchQuery = (value: string) =>
   value.trim().toLowerCase().replace(/\s+/g, ' ').replace(/\s*,\s*/g, ', ');
 
+const DIRECTORY_COVERAGE_RADIUS_MILES = 100;
+const EARTH_RADIUS_MILES = 3958.8;
+const coveredCityNames = cities.map((city) => city.name);
+const coveredCityLabel =
+  coveredCityNames.length <= 1
+    ? coveredCityNames[0] || 'a reviewed city'
+    : coveredCityNames.length === 2
+      ? coveredCityNames.join(' or ')
+      : `${coveredCityNames.slice(0, -1).join(', ')}, or ${coveredCityNames.at(-1)}`;
+
+function distanceInMiles(
+  latitude: number,
+  longitude: number,
+  city: DirectoryCity
+) {
+  const toRadians = (degrees: number) => (degrees * Math.PI) / 180;
+  const latitudeDelta = toRadians(city.latitude - latitude);
+  const longitudeDelta = toRadians(city.longitude - longitude);
+  const originLatitude = toRadians(latitude);
+  const cityLatitude = toRadians(city.latitude);
+  const haversine =
+    Math.sin(latitudeDelta / 2) ** 2 +
+    Math.cos(originLatitude) *
+      Math.cos(cityLatitude) *
+      Math.sin(longitudeDelta / 2) ** 2;
+
+  return 2 * EARTH_RADIUS_MILES * Math.asin(Math.sqrt(haversine));
+}
+
 export const CitySearch = forwardRef<CitySearchHandle, CitySearchProps>(function CitySearch(
   { trackEventHandler = trackEvent },
   ref
@@ -100,17 +129,17 @@ export const CitySearch = forwardRef<CitySearchHandle, CitySearchProps>(function
         let nearestDistance = Infinity;
 
         for (const city of cities) {
-          if (city.latitude == null || city.longitude == null) continue;
-          const dLat = city.latitude - latitude;
-          const dLon = city.longitude - longitude;
-          const distance = dLat * dLat + dLon * dLon;
+          const distance = distanceInMiles(latitude, longitude, city);
           if (distance < nearestDistance) {
             nearestDistance = distance;
             nearestCity = city;
           }
         }
 
-        if (nearestCity) {
+        if (
+          nearestCity &&
+          nearestDistance <= DIRECTORY_COVERAGE_RADIUS_MILES
+        ) {
           setQuery(`${nearestCity.name}, ${nearestCity.state}`);
           setFeedback({ tone: 'info', message: 'Location detected. Press Enter or click Find Appraisers.' });
           trackEventHandler('search_geolocate_complete', {
@@ -118,11 +147,14 @@ export const CitySearch = forwardRef<CitySearchHandle, CitySearchProps>(function
             resolved_city: nearestCity.slug
           });
         } else {
-          setFeedback({ tone: 'error', message: 'No nearby city found in our directory.' });
+          setQuery('');
+          setFeedback({
+            tone: 'error',
+            message: `We do not currently list a reviewed location near you. Search ${coveredCityLabel}.`,
+          });
           trackEventHandler('search_geolocate_no_match', {
             source: 'hero_directory',
-            lat: latitude,
-            lon: longitude,
+            coverage_radius_miles: DIRECTORY_COVERAGE_RADIUS_MILES,
           });
         }
 
