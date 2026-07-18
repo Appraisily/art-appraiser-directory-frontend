@@ -148,6 +148,9 @@ Internal canary evidence, 2026-07-18:
 - CDP page scale 2 at a 1280px viewport reported a 632.5px visual viewport and
   no document-level horizontal overflow. The 390px mobile viewport also had no
   horizontal overflow.
+- Computed-color checks found no WCAG text-contrast failures on the homepage,
+  Boston city, or reviewed profile at desktop/mobile viewports, including the
+  no-coverage message and open mobile-navigation states.
 - The browser observed `search_no_results` in `dataLayer`, and the analytics
   control-plane request returned 202. Unit contracts cover feedback, search,
   and geolocation event payloads without sending synthetic feedback.
@@ -553,6 +556,8 @@ the prior immutable release pending the July 22 GSC read.
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/route-enforcement-fuzz-2026-07-18.md`
 - Candidate geolocation coverage contract:
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/geolocation-coverage-contract-2026-07-18.md`
+- Candidate computed-contrast contract:
+  `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/contrast-contract-2026-07-18.md`
 - Post-deploy external customer QA coverage brief:
   `/srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md`
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
