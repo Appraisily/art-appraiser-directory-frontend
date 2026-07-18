@@ -20,6 +20,9 @@ const verifiedProviders = manifest.providers.filter(
 );
 const verifiedSlugs = new Set(verifiedProviders.map((provider) => provider.slug));
 const feedSlugs = new Set(appraisersFeed.map((provider) => provider.slug));
+const appraiserFeedBySlug = new Map(
+  appraisersFeed.map((provider) => [provider.slug, provider])
+);
 const locationSlugs = new Set(locationsFeed.map((location) => location.slug));
 const locationSlugFromHref = (href) =>
   String(href || '').match(/\/location\/([^/?#"' ]+)/)?.[1] || '';
@@ -74,6 +77,17 @@ for (const location of locationsFeed) {
   for (const provider of location.listedAppraisers || []) {
     if (!feedSlugs.has(provider.slug)) {
       fail(`location ${location.slug} lists provider outside appraisers feed: ${provider.slug}`);
+    }
+    const canonicalProvider = appraiserFeedBySlug.get(provider.slug);
+    if (provider.image !== canonicalProvider?.image) {
+      fail(
+        `location ${location.slug} image for ${provider.slug} does not match the canonical appraiser feed`
+      );
+    }
+    if (provider.description !== canonicalProvider?.description) {
+      fail(
+        `location ${location.slug} description for ${provider.slug} does not match the canonical appraiser feed`
+      );
     }
   }
 }

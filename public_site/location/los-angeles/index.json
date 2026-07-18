@@ -2,12 +2,12 @@
   "title": "Art appraisers in Los Angeles, California",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-07-15T09:19:33.020Z",
+  "generatedAt": "2026-07-18T13:47:11.935Z",
   "location": {
     "slug": "los-angeles",
     "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
     "name": "Art appraisers in Los Angeles, California",
-    "description": "Compare art appraisers in Los Angeles, California.",
+    "description": "Browse one reviewed public art appraiser listing in Los Angeles, California. Ratings and review counts are not currently published.",
     "numberOfListedAppraisers": 1,
     "listedAppraisers": [
       {
@@ -15,7 +15,7 @@
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
         "slug": "open-to-the-public",
         "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
-        "description": "Open to the Public is a Los Angeles-based firm led by Kaycee Baron, providing independent, USPAP-compliant fine art appraisal and consulting services for private collectors, corporate clients, institutions, and art advisors. Specializing in postwar and contemporary art and photography, the firm delivers trusted,…",
+        "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
         "publicRouteAvailable": true
       }
     ],

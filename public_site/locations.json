@@ -2,22 +2,22 @@
   "title": "Art Appraisers Directory location pages",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-07-15T09:19:33.020Z",
+  "generatedAt": "2026-07-18T13:47:11.935Z",
   "count": 5,
   "locations": [
     {
       "slug": "boston",
       "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
       "name": "Art appraisers in Boston, Massachusetts",
-      "description": "Compare art appraisers in Boston, Massachusetts.",
+      "description": "Browse one reviewed public art appraiser listing in Boston, Massachusetts. Ratings and review counts are not currently published.",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
           "name": "AFP Art Consulting, LLC",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
           "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-          "image": "https://afpartconsulting.com/wp-content/themes/afp/images/favicon.ico",
-          "description": "AFP Art Consulting, LLC offers fine art appraisal services serving Boston, MA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man.svg",
+          "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
           "publicRouteAvailable": true
         }
       ],
@@ -30,7 +30,7 @@
       "slug": "houston",
       "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
       "name": "Art appraisers in Houston, Texas",
-      "description": "Compare art appraisers in Houston, Texas.",
+      "description": "Browse one reviewed public art appraiser listing in Houston, Texas. Ratings and review counts are not currently published.",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
@@ -38,7 +38,7 @@
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
           "slug": "heidi-vaughan-ma-isa-am",
           "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/heidi-vaughan-ma-isa-am.svg",
-          "description": "Heidi Vaughan, MA, ISA AM offers art appraisal services serving Houston, TX. FAIR directory data indicates specialties in Art - 19th Century, Art - 20th Century, Auction Company/Gallery, Paintings - Contemporary American, Sculpture, ISA AM, with direct website contact available for project-specific valuation requests.",
+          "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
           "publicRouteAvailable": true
         }
       ],
@@ -51,7 +51,7 @@
       "slug": "los-angeles",
       "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
       "name": "Art appraisers in Los Angeles, California",
-      "description": "Compare art appraisers in Los Angeles, California.",
+      "description": "Browse one reviewed public art appraiser listing in Los Angeles, California. Ratings and review counts are not currently published.",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
@@ -59,7 +59,7 @@
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
           "slug": "open-to-the-public",
           "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
-          "description": "Open to the Public is a Los Angeles-based firm led by Kaycee Baron, providing independent, USPAP-compliant fine art appraisal and consulting services for private collectors, corporate clients, institutions, and art advisors. Specializing in postwar and contemporary art and photography, the firm delivers trusted,…",
+          "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
           "publicRouteAvailable": true
         }
       ],
@@ -72,15 +72,15 @@
       "slug": "new-york",
       "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
       "name": "Art appraisers in New York, New York",
-      "description": "Compare art appraisers in New York, New York.",
+      "description": "Browse one reviewed public art appraiser listing in New York, New York. Ratings and review counts are not currently published.",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
           "name": "St Lifer Fine Art Inc",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
           "slug": "st-lifer-art-inc-international-art-appraiser",
-          "image": "https://stliferart.com/wp-content/uploads/2020/08/JSLA-Logo.png",
-          "description": "St Lifer Fine Art Inc offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/st-lifer-art-inc-international-art-appraiser.svg",
+          "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
           "publicRouteAvailable": true
         }
       ],
@@ -93,15 +93,15 @@
       "slug": "philadelphia",
       "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
       "name": "Art appraisers in Philadelphia, Pennsylvania",
-      "description": "Compare art appraisers in Philadelphia, Pennsylvania.",
+      "description": "Browse one reviewed public art appraiser listing in Philadelphia, Pennsylvania. Ratings and review counts are not currently published.",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
           "name": "Wilson Art Services, LLC",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
           "slug": "sarah-ann-wilson-art-services",
-          "image": "https://assets.squarespace.com/universal/default-favicon.ico",
-          "description": "Wilson Art Services, LLC offers fine art appraisal services serving Philadelphia, PA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
+          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sarah-ann-wilson-art-services.svg",
+          "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
           "publicRouteAvailable": true
         }
       ],
