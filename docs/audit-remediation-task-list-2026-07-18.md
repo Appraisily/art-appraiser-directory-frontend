@@ -20,7 +20,7 @@
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
 `codex/art-directory-audit-remediation-20260718`; the latest reviewed public
-artifact snapshot is `7effee917c6a`. Production remains unchanged. Deployment
+artifact snapshot is `fe04256f0446`. Production remains unchanged. Deployment
 approval is recorded; release is held only for the fixed **2026-07-22** GSC
 read.
 
@@ -110,6 +110,11 @@ Internal canary evidence, 2026-07-18:
   five reviewed profiles, methodology, correction flow, `locations.json`,
   `appraisers.json`, `llms.txt`, the sitemap, and active assets; Atlanta and
   direct suppressed `index.html` paths returned 404.
+- The route-link contract validates 17 active HTML documents plus sitemap and
+  feed destinations, covering 136 internal links and rejecting unpublished
+  city/provider targets. The appraiser hub now hydrates into the shared shell;
+  the strict 404 page retains its HTTP status while providing the same
+  essential navigation, appraisal CTA, correction path, and footer.
 - The generic Alicia E Weaver-shaped route returned a provider-neutral
   unavailable page. Current-bundle verification proved that initial HTML and
   hydrated DOM contain no Alicia identity, route slug, provider-specific
@@ -483,7 +488,7 @@ date-gated and read-only.
 
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
-dry-run proved the candidate is not live (`f2be11817992…` source hash versus
+dry-run proved the candidate is not live (`4e116474ec9a…` source hash versus
 `e9c512451749…` active hash); production remains on
 `20260715094034-e9c512451749`. Because the service is stable and the candidate
 is a material treatment change rather than an emergency availability repair,
@@ -510,13 +515,13 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `7effee917c6a` passed `npm ci`,
+Pre-release state: clean detached checkout `fe04256f0446` passed `npm ci`,
 lint, typecheck, interaction tests, the full static gate, and validation of all
 944 HTML files. Its five location-feed listings match canonical provider
 descriptions and first-party generated images. Its client bundle contains no
 suppressed provider slug, and browser hydration keeps unavailable profile
 metadata, CTAs, and telemetry context provider-neutral. The pinned
-standard-helper dry-run resolved static source hash `f2be11817992…` against active hash
+standard-helper dry-run resolved static source hash `4e116474ec9a…` against active hash
 `e9c512451749…`. Production remains on the prior immutable release pending the
 July 22 GSC read.
 
@@ -535,8 +540,8 @@ July 22 GSC read.
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
   enforcement `9278b5335e61`, feed/artifact parity `6c8840ed0c85`, runtime
   nginx `eb2cb93`, suppressed-profile anonymization `7effee917c6a`, shared
-  static-preview regression `7980ffc`, and shared feed normalization
-  `d4ac1529ef08`.
+  route-shell/link contract `fe04256f0446`, shared static-preview regression
+  `7980ffc`, and shared feed normalization `d4ac1529ef08`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
