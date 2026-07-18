@@ -2,7 +2,7 @@
 
 ## Subdomain vs. Main Domain URLs
 - When building for the subdomain (art-appraisers-directory.appraisily.com), URLs for appraiser pages should use the full subdomain URL
-- The source code in LocationPage.tsx and StandardizedLocationPage.tsx has been updated to point to the subdomain
+- The routed location and provider views are `StandardizedLocationPage.tsx` and `StandardizedAppraiserPage.tsx`; the legacy page layer has been removed.
 - Do not use rewrite scripts for generated JS or profile/location HTML. Fix the affected static file directly.
 
 ## Build Commands
@@ -28,7 +28,7 @@
 - **Styling**: Tailwind CSS with utility-first approach
 - **Naming**: PascalCase for components/types, camelCase for variables/functions
 - **Imports**: Group React imports first, then external libs, then local modules
-- **Error Handling**: Use FallbackImage component for images, fallback UI for errors
+- **Error Handling**: Use the shared image-normalization and initials-avatar fallback contract, plus visible fallback UI for errors
 - **Images**: Always include alt tags and handle loading failures
 - **Format**: No trailing whitespace, consistent indentation (2 spaces)
 - **ESLint**: Recommended rules for JS/TS with React hooks plugins

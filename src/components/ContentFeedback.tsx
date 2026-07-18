@@ -4,6 +4,10 @@ import { useLocation } from 'react-router-dom';
 import { capturePosthogEvent } from '../lib/posthog';
 import { derivePageContext } from '../utils/analytics';
 
+type ContentFeedbackProps = {
+  captureEvent?: typeof capturePosthogEvent;
+};
+
 function redactFeedbackText(text: string): string {
   const trimmed = text.trim();
   if (!trimmed) return '';
@@ -19,7 +23,9 @@ function redactFeedbackText(text: string): string {
   return redactedPhone;
 }
 
-export function ContentFeedback() {
+export function ContentFeedback({
+  captureEvent = capturePosthogEvent,
+}: ContentFeedbackProps = {}) {
   const location = useLocation();
   const [helpful, setHelpful] = useState<boolean | null>(null);
   const [comment, setComment] = useState('');
@@ -48,7 +54,7 @@ export function ContentFeedback() {
     setNeedsVote(false);
     setStatus('comment-open');
 
-    capturePosthogEvent('seo_content_feedback_vote', {
+    captureEvent('seo_content_feedback_vote', {
       ...commonProps,
       helpful: value,
     });
@@ -66,7 +72,7 @@ export function ContentFeedback() {
 
     setStatus('submitting');
     try {
-      capturePosthogEvent('seo_content_feedback_submitted', {
+      captureEvent('seo_content_feedback_submitted', {
         ...commonProps,
         helpful,
         comment: redacted,

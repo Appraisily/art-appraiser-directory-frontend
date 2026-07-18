@@ -11,6 +11,17 @@ node_modules
 dist
 dist-ssr
 temp/vite-bundle-fix/
+temp/
+.bolt/
+proof-of-concept/
+temp.html
+location.html
+temp_output.txt
+*-report.json
+image-inventory.json
+invalid-images.json
+valid-images.json
+appraisers.json.backup-*
 *.local
 .env
 .env.local

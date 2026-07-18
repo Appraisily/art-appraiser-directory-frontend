@@ -16,6 +16,11 @@
 - Preserve the fixed GSC recovery cohort. The July 15 recovery plan says no production content or URL changes before the Day-7 read on **2026-07-22**. Coordinate any release with `/srv/manager/plans/art-appraisers-directory-gsc-recovery-task-list-2026-07-15.md`.
 - Preserve unrelated dirty work. Do not pull, reset, or discard files on this VPS.
 
+**Candidate status, 2026-07-18:** remediation is implemented and validated on
+`codex/art-directory-audit-remediation-20260718`. Production remains unchanged.
+The only release blockers are the fixed **2026-07-22** GSC read and explicit
+deployment approval.
+
 ## Required Decisions
 
 ### DEC-01 — Provider publication policy (P0)
@@ -147,7 +152,7 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 - [x] Remove dead redirect-map targets or add their canonical routes.
 - [x] Complete coordinates for eligible cities or disclose/fallback when location-based matching is incomplete.
 - [x] Show a useful message when geolocation is unavailable, denied, or cannot find a covered city.
-- [ ] Add keyboard, mobile, and telemetry tests for both interactions.
+- [x] Add keyboard, mobile, and telemetry tests for both interactions.
 
 **Acceptance:** feedback comments are reachable and submittable; city search never recommends a guaranteed 404; geolocation does not silently search only a partial dataset.
 
@@ -239,7 +244,7 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 
 - [x] Add `typecheck` and wire `tsc --noEmit` into the required validation sequence.
 - [x] Resolve all 38 current TypeScript errors without weakening compiler settings or adding blanket suppressions.
-- [ ] Confirm routing before removing the dead legacy layer:
+- [x] Confirm routing before removing the dead legacy layer:
   - `src/pages/AppraiserPage.tsx`;
   - `src/pages/LocationPage.tsx`;
   - `src/utils/staticData.ts`;
@@ -257,37 +262,42 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 - [x] Update `STANDARDIZED_BUILD.md` to describe only supported commands and the canonical static-first workflow.
 - [x] Update `DATA_STANDARDIZATION.md` from stale hardcoded counts to generated/current inventory references.
 - [x] Correct `CLAUDE.md` so `npm run build` is described as validation-only.
-- [ ] Reconcile the generic root `TODO.md` with this audited backlog; archive or replace stale tasks rather than maintaining two competing sources.
+- [x] Reconcile the generic root `TODO.md` with this audited backlog; archive or replace stale tasks rather than maintaining two competing sources.
 - [x] Document the manifest, route registry, provider publication contract, image fallback contract, and release validation gates.
 
 **Acceptance:** every documented command exists and behaves as described; future maintainers have one authoritative remediation backlog.
 
 ### ART-016 — Remove repository and release-asset debris safely
 
-- [ ] Classify before deleting:
+- [x] Classify before deleting:
   - `proof-of-concept/`;
   - `.bolt/`;
   - `temp.html`, `location.html`, and `temp_output.txt`;
   - root report JSON files;
   - 23 `appraisers.json.backup-*` files;
   - duplicate `Dockerfile` / `Dockerfile.deploy`.
-- [ ] Preserve anything still required by the active migration or static validation.
-- [ ] Add generated reports, backups, and local scratch artifacts to `.gitignore` where appropriate.
-- [ ] Change promotion/retention logic so stale `index-*.js` bundles and duplicated city chunks do not accumulate in release assets.
-- [ ] Verify both `/assets/` and `/directory/assets/` URL contracts before removing duplicates.
-- [ ] Keep rollback-safe immutable releases; clean candidate output, not historical releases still covered by retention policy.
+- [x] Preserve anything still required by the active migration or static validation.
+- [x] Add generated reports, backups, and local scratch artifacts to `.gitignore` where appropriate.
+- [x] Change promotion/retention logic so stale `index-*.js` bundles and duplicated city chunks do not accumulate in release assets.
+- [x] Verify both `/assets/` and `/directory/assets/` URL contracts before removing duplicates.
+- [x] Keep rollback-safe immutable releases; clean candidate output, not historical releases still covered by retention policy.
+
+Candidate asset inventory after pruning: 13 reachable files, with 8 under
+`/assets/` and 5 under `/directory/assets/`. `check:asset-references` fails on
+any missing active dependency or retained orphan. Historical immutable release
+directories were not modified.
 
 **Acceptance:** the tracked repo contains no confirmed junk, candidate releases contain only referenced assets, and every retained asset is reachable or intentionally rollback-only.
 
 ## Work Order and Dependencies
 
-1. [ ] **Stabilize:** ART-000 and ART-001.
-2. [ ] **Decide:** DEC-01 and DEC-02; record DEC-03 before visual work.
-3. [ ] **Protect truth and navigation:** ART-002, ART-003, ART-005.
-4. [ ] **Repair visible breakage:** ART-004, ART-006, ART-007, ART-008, ART-009.
-5. [ ] **Align marketing and trust:** ART-010 and ART-011.
-6. [ ] **Improve presentation:** ART-012 and ART-013.
-7. [ ] **Reduce maintenance risk:** ART-014, ART-015, ART-016.
+1. [x] **Stabilize:** ART-000 and ART-001.
+2. [x] **Decide:** DEC-01 and DEC-02; record DEC-03 before visual work.
+3. [x] **Protect truth and navigation:** ART-002, ART-003, ART-005.
+4. [x] **Repair visible breakage:** ART-004, ART-006, ART-007, ART-008, ART-009.
+5. [x] **Align marketing and trust:** ART-010 and ART-011.
+6. [x] **Improve presentation:** ART-012 and ART-013.
+7. [x] **Reduce maintenance risk:** ART-014, ART-015, ART-016.
 8. [ ] **Release only after all applicable validation and approval gates pass.**
 
 ART-002 and ART-003 should land before broad styling work because they determine which providers and cities the UI is allowed to expose. ART-014/016 cleanup must follow the reproducible-baseline checkpoint so migration dependencies are not deleted as “junk.”
@@ -304,8 +314,13 @@ ART-002 and ART-003 should land before broad styling work because they determine
 - [x] Route/link contract across header, footer, regions, search, cards, breadcrumbs, sitemap, and feeds.
 - [x] Image URL and rendered fallback tests.
 - [x] Structured-data and empty-field checks.
-- [ ] Asset-reference/orphan report for both asset prefixes.
-- [ ] `node /srv/repos/env-governance/check-all.mjs` only if env or runtime configuration changes.
+- [x] Asset-reference/orphan report for both asset prefixes.
+- [x] `node /srv/repos/env-governance/check-all.mjs` only if env or runtime configuration changes.
+
+The workspace-wide environment check passed the art frontend and
+`art-appraisers-directory` service schemas. It also reported unrelated stale
+temporary main-page/CRM schema directories; those are outside this repo's
+candidate diff.
 
 ### Rendered browser checks
 
@@ -314,7 +329,7 @@ ART-002 and ART-003 should land before broad styling work because they determine
 - [x] Suppressed/noindex city and profile, proving inventory does not reappear after hydration.
 - [x] City with missing/placeholder images.
 - [x] Locations menu, homepage regions, text city search, and geolocation states.
-- [ ] Feedback vote, comment, submit, success, and error states.
+- [x] Feedback vote, comment, submit, success, and error states.
 - [x] Profile global shell, empty-contact profile, and St. Louis breadcrumb.
 - [x] 404 behavior for an unknown city.
 - [x] Console, network, accessibility, layout, and telemetry checks.
@@ -322,9 +337,13 @@ ART-002 and ART-003 should land before broad styling work because they determine
 ### Pre-release gate
 
 - [ ] Reconcile the candidate against the July 15 GSC recovery measurement window.
-- [ ] Review the exact candidate diff and exclude unrelated dirty work.
-- [ ] Record expected provider, city, sitemap, menu, and asset counts.
-- [ ] Capture before/after screenshots and machine-readable validation logs.
+- [x] Review the exact candidate diff and exclude unrelated dirty work.
+- [x] Record expected provider, city, sitemap, menu, and asset counts.
+- [x] Capture before/after screenshots and machine-readable validation logs.
+
+Expected candidate counts: 5 providers, 5 cities, 13 sitemap URLs, 5 menu
+locations, and 13 retained public assets. Evidence is stored in
+`/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 - [ ] Obtain explicit deployment approval.
 - [ ] Deploy only through the standard `art-appraisers-directory` static-release helper.
 - [ ] Verify active release pointer, nginx health, Cloudflare delivery, live HTML, hydration behavior, and rollback reference.
@@ -333,17 +352,17 @@ ART-002 and ART-003 should land before broad styling work because they determine
 ## Completion Criteria
 
 - [ ] A clean checkout can reproduce all required gates.
-- [ ] One publication policy controls visible HTML, hydration, client payloads, hubs, feeds, schema, and sitemap.
-- [ ] No directory-owned navigation link 404s.
-- [ ] No broken or placeholder image is presented as a provider photo.
-- [ ] No internal tracking token appears in public data or assets.
-- [ ] Feedback, search, and geolocation have complete and visible interaction states.
-- [ ] Profile schema and UI omit empty/unsupported claims and use canonical slugs.
-- [ ] Every page type includes the shared navigation/CTA/footer shell.
-- [ ] Ratings, certification, verification, and methodology claims are evidence-backed and consistent.
-- [ ] Every eligible city is represented exactly once.
-- [ ] TypeScript, lint, static, link, image, schema, and browser gates pass.
-- [ ] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
+- [x] One publication policy controls visible HTML, hydration, client payloads, hubs, feeds, schema, and sitemap.
+- [x] No directory-owned navigation link 404s.
+- [x] No broken or placeholder image is presented as a provider photo.
+- [x] No internal tracking token appears in public data or assets.
+- [x] Feedback, search, and geolocation have complete and visible interaction states.
+- [x] Profile schema and UI omit empty/unsupported claims and use canonical slugs.
+- [x] Every page type includes the shared navigation/CTA/footer shell.
+- [x] Ratings, certification, verification, and methodology claims are evidence-backed and consistent.
+- [x] Every eligible city is represented exactly once.
+- [x] TypeScript, lint, static, link, image, schema, and browser gates pass.
+- [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [ ] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
 ## Evidence and Related Work

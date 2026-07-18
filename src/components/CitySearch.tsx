@@ -10,6 +10,10 @@ export type CitySearchHandle = {
   focusInput: () => void;
 };
 
+type CitySearchProps = {
+  trackEventHandler?: typeof trackEvent;
+};
+
 const SEARCH_REDIRECTS: Record<string, string> = {
   '07832': 'new-york',
   '19087': 'philadelphia',
@@ -26,7 +30,10 @@ const SEARCH_REDIRECTS: Record<string, string> = {
 const normalizeSearchQuery = (value: string) =>
   value.trim().toLowerCase().replace(/\s+/g, ' ').replace(/\s*,\s*/g, ', ');
 
-export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_props, ref) {
+export const CitySearch = forwardRef<CitySearchHandle, CitySearchProps>(function CitySearch(
+  { trackEventHandler = trackEvent },
+  ref
+) {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [isLocating, setIsLocating] = useState(false);
@@ -80,7 +87,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
 
     setIsLocating(true);
     setFeedback({ tone: 'info', message: 'Detecting your location...' });
-    trackEvent('search_geolocate_request', {
+    trackEventHandler('search_geolocate_request', {
       source: 'hero_directory'
     });
 
@@ -106,13 +113,13 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
         if (nearestCity) {
           setQuery(`${nearestCity.name}, ${nearestCity.state}`);
           setFeedback({ tone: 'info', message: 'Location detected. Press Enter or click Find Appraisers.' });
-          trackEvent('search_geolocate_complete', {
+          trackEventHandler('search_geolocate_complete', {
             source: 'hero_directory',
             resolved_city: nearestCity.slug
           });
         } else {
           setFeedback({ tone: 'error', message: 'No nearby city found in our directory.' });
-          trackEvent('search_geolocate_no_match', {
+          trackEventHandler('search_geolocate_no_match', {
             source: 'hero_directory',
             lat: latitude,
             lon: longitude,
@@ -129,7 +136,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
           3: 'Location request timed out. Please enter a city manually.',
         };
         setFeedback({ tone: 'error', message: messages[err.code] || 'Failed to detect location.' });
-        trackEvent('search_geolocate_error', {
+        trackEventHandler('search_geolocate_error', {
           source: 'hero_directory',
           error_code: err.code,
         });
@@ -142,7 +149,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
     setQuery(`${city.name}, ${city.state}`);
     setIsOpen(false);
     setFeedback(null);
-    trackEvent('location_search_select', {
+    trackEventHandler('location_search_select', {
       source: 'hero_directory',
       city_slug: city.slug,
       city_name: city.name,
@@ -180,7 +187,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
 
     const redirectMatch = resolveRedirect(rawQuery);
     if (redirectMatch) {
-      trackEvent('location_search_alias_redirect', {
+      trackEventHandler('location_search_alias_redirect', {
         source: 'hero_directory',
         query: rawQuery,
         city_slug: redirectMatch.slug,
@@ -191,7 +198,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
       return;
     }
 
-    trackEvent('search_no_results', {
+    trackEventHandler('search_no_results', {
       source: 'hero_directory',
       query: rawQuery
     });
@@ -225,7 +232,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
 
     const redirectMatch = resolveRedirect(rawQuery);
     if (redirectMatch) {
-      trackEvent('location_search_alias_redirect', {
+      trackEventHandler('location_search_alias_redirect', {
         source: 'hero_directory',
         query: rawQuery.trim(),
         city_slug: redirectMatch.slug,
@@ -236,7 +243,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
       return;
     }
 
-    trackEvent('search_no_results', {
+    trackEventHandler('search_no_results', {
       source: 'hero_directory',
       query: rawQuery.trim()
     });
@@ -291,6 +298,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
         />
         <button
           type="button"
+          aria-label="Use my location"
           onClick={handleLocationClick}
           disabled={isLocating}
           className="absolute inset-y-0 right-0 flex items-center pr-3 text-muted-foreground hover:text-primary transition-colors"

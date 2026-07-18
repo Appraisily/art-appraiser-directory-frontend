@@ -18,6 +18,8 @@ This repo is static-first.
 - Validate the static artifact without mutating profile/location HTML: `npm run build`
 - Validate TypeScript: `npm run typecheck`
 - Validate provider/city/tracking parity: `npm run check:remediation-contract`
+- Validate interaction states and telemetry: `npm run test:interactions`
+- Validate both public asset prefixes and reject retained orphans: `npm run check:asset-references`
 - Validate the static artifact: `npm run check:static`
 - Serve the static artifact locally: `npm run serve:static`
 - Promote reviewed HTML only through the standard VPS deploy helper for `art-appraisers-directory`.
@@ -32,6 +34,13 @@ This repo is static-first.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.
 - When the reviewed cohort changes, update the manifest, public feeds, nginx allowlist, sitemap,
   and parity fixtures together; the static gate must fail if these surfaces disagree.
+- Both `/assets/` and `/directory/assets/` are active URL contracts. Candidate releases may retain
+  only assets reached from the reviewed routes, public feeds, or their dependency graph.
+- Client-bundle maintenance must replace the candidate's old hashed entries and then pass
+  `npm run check:asset-references`; recursive copy-on-top promotion is not complete until the
+  orphan report is clean.
+- Never clean retained immutable release directories in place. The standard deploy helper freezes
+  and promotes a new candidate so the previous active release remains the rollback reference.
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - `npm run publish`, `npm run publish:patch`, and `npm run deploy` must remain hard blockers.
 - If bulk refresh is needed, update only the affected HTML pages rather than rebuilding an app shell.
