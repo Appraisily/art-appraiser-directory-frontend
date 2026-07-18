@@ -1,0 +1,58 @@
+.directory-shell-header,
+.directory-shell-footer {
+  box-sizing: border-box;
+  width: 100%;
+  color: #231f1b;
+  background: #fff;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.directory-shell-header {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  min-height: 64px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px max(20px, calc((100% - 1280px) / 2));
+  border-bottom: 1px solid #d8d0c6;
+}
+
+.directory-shell-header a,
+.directory-shell-footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.directory-shell-brand {
+  font-family: Georgia, serif;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.directory-shell-nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 14px;
+}
+
+.directory-shell-cta {
+  padding: 11px 15px;
+  color: #fff !important;
+  background: #5b1f2a;
+  font-weight: 600;
+}
+
+.directory-shell-footer {
+  margin-top: 48px;
+  padding: 30px max(20px, calc((100% - 1280px) / 2));
+  border-top: 1px solid #d8d0c6;
+  font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  .directory-shell-brand { max-width: 150px; line-height: 1.1; }
+  .directory-shell-nav > a:not(.directory-shell-cta) { display: none; }
+}

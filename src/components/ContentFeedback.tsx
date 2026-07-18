@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
+import type { FormEvent } from 'react';
 import { useLocation } from 'react-router-dom';
 import { capturePosthogEvent } from '../lib/posthog';
 import { derivePageContext } from '../utils/analytics';
@@ -22,7 +23,7 @@ export function ContentFeedback() {
   const location = useLocation();
   const [helpful, setHelpful] = useState<boolean | null>(null);
   const [comment, setComment] = useState('');
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'comment-open' | 'submitting' | 'success' | 'failure'>('idle');
   const [needsVote, setNeedsVote] = useState(false);
 
   const context = useMemo(() => derivePageContext(location.pathname), [location.pathname]);
@@ -38,13 +39,14 @@ export function ContentFeedback() {
     }),
     [context, location.pathname]
   );
-  const canSubmit = helpful !== null && !submitted;
+  const isFinished = status === 'success';
+  const canSubmit = helpful !== null && status !== 'submitting' && !isFinished;
 
   const onVote = (value: boolean) => {
-    if (submitted) return;
+    if (isFinished) return;
     setHelpful(value);
     setNeedsVote(false);
-    setSubmitted(true);
+    setStatus('comment-open');
 
     capturePosthogEvent('seo_content_feedback_vote', {
       ...commonProps,
@@ -52,9 +54,9 @@ export function ContentFeedback() {
     });
   };
 
-  const onSubmit = (event: React.FormEvent) => {
+  const onSubmit = (event: FormEvent) => {
     event.preventDefault();
-    if (submitted) return;
+    if (isFinished || status === 'submitting') return;
     if (helpful === null) {
       setNeedsVote(true);
       return;
@@ -62,14 +64,18 @@ export function ContentFeedback() {
 
     const redacted = redactFeedbackText(comment).slice(0, 800);
 
-    capturePosthogEvent('seo_content_feedback_submitted', {
-      ...commonProps,
-      helpful,
-      comment: redacted,
-      comment_length: redacted.length,
-    });
-
-    setSubmitted(true);
+    setStatus('submitting');
+    try {
+      capturePosthogEvent('seo_content_feedback_submitted', {
+        ...commonProps,
+        helpful,
+        comment: redacted,
+        comment_length: redacted.length,
+      });
+      setStatus('success');
+    } catch {
+      setStatus('failure');
+    }
   };
 
   return (
@@ -85,13 +91,13 @@ export function ContentFeedback() {
             <button
               type="button"
               onClick={() => onVote(true)}
-              disabled={submitted}
+              disabled={isFinished || status === 'submitting'}
               className={[
                 'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
                 helpful === true
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
-                submitted ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
+                isFinished || status === 'submitting' ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
               ].join(' ')}
             >
               Yes
@@ -99,13 +105,13 @@ export function ContentFeedback() {
             <button
               type="button"
               onClick={() => onVote(false)}
-              disabled={submitted}
+              disabled={isFinished || status === 'submitting'}
               className={[
                 'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
                 helpful === false
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
-                submitted ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
+                isFinished || status === 'submitting' ? 'opacity-60 cursor-not-allowed' : 'cursor-pointer',
               ].join(' ')}
             >
               No
@@ -117,7 +123,7 @@ export function ContentFeedback() {
             </p>
           ) : null}
 
-          {submitted ? (
+          {status === 'success' ? (
             <p className="mt-4 text-sm font-medium text-foreground">
               Thanks — this helps us improve the directory.
             </p>
@@ -128,24 +134,31 @@ export function ContentFeedback() {
                 placeholder="What could we improve on this page?"
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
+                disabled={status === 'idle' || status === 'submitting'}
               />
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
                   aria-disabled={!canSubmit}
+                  disabled={!canSubmit}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
                     canSubmit
                       ? 'hover:bg-gray-800 cursor-pointer'
-                      : 'opacity-75 cursor-pointer',
+                      : 'opacity-60 cursor-not-allowed',
                   ].join(' ')}
                 >
-                  Send feedback
+                  {status === 'submitting' ? 'Sending…' : 'Send feedback'}
                 </button>
                 <span className="text-xs text-muted-foreground">We redact emails/phone numbers client-side.</span>
               </div>
             </form>
           )}
+          {status === 'failure' ? (
+            <p role="alert" className="mt-3 text-sm text-red-700">
+              We couldn’t send that feedback. Please try again.
+            </p>
+          ) : null}
         </div>
       </div>
     </section>

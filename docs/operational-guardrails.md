@@ -8,10 +8,16 @@ This repo is static-first.
 - Production serves the HTML in `public_site/` through the release directory.
 - Edit HTML in `public_site/` directly for normal page changes.
 - Keep source facts in `data/` when they are still useful, but do not require a frontend rebuild to publish content.
+- `data/provider-publication-manifest.json` controls provider eligibility. `public_site/appraisers.json`
+  and `public_site/locations.json` are the only browser-facing provider/city registries.
+- Nginx serves provider-specific HTML only for the reviewed cohort. Other provider-shaped URLs
+  receive the generic `public_site/appraiser-unavailable.html` response.
 
 ## Commands
 
 - Validate the static artifact without mutating profile/location HTML: `npm run build`
+- Validate TypeScript: `npm run typecheck`
+- Validate provider/city/tracking parity: `npm run check:remediation-contract`
 - Validate the static artifact: `npm run check:static`
 - Serve the static artifact locally: `npm run serve:static`
 - Promote reviewed HTML only through the standard VPS deploy helper for `art-appraisers-directory`.
@@ -24,6 +30,8 @@ This repo is static-first.
 - Prefer direct edits to `public_site/` for content and SEO changes.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.
+- When the reviewed cohort changes, update the manifest, public feeds, nginx allowlist, sitemap,
+  and parity fixtures together; the static gate must fail if these surfaces disagree.
 - Do not publish through npm, GitHub Actions, Netlify, or repo-local scripts.
 - `npm run publish`, `npm run publish:patch`, and `npm run deploy` must remain hard blockers.
 - If bulk refresh is needed, update only the affected HTML pages rather than rebuilding an app shell.

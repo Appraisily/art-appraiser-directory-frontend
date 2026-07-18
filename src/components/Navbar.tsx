@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight, ChevronDown, ExternalLink } from 'lucide-react';
 import {
@@ -7,12 +7,12 @@ import {
   NavigationMenuList,
 } from "./ui/navigation-menu";
 import { cn } from '../lib/utils';
-import { cities } from '../data/cities.json';
+import { publishedCities, type DirectoryCity } from '../data/publishedCities';
 import { PARENT_SITE_URL, SITE_NAME, getPrimaryCtaUrl } from '../config/site';
 import { BRAND_LOGO_URL } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 
-type NavCity = (typeof cities)[number];
+type NavCity = DirectoryCity;
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,10 +79,9 @@ export default function Navbar() {
                 className="h-8 w-auto"
                 loading="eager"
               />
-              <div className="flex flex-col leading-tight">
-                <span className="text-xl font-semibold text-gray-900">{SITE_NAME}</span>
-                <span className="text-xs text-gray-600 -mt-1">Art Appraiser Directory</span>
-              </div>
+              <span className="max-w-[11rem] font-serif text-base font-semibold leading-tight text-gray-900 sm:max-w-none sm:text-lg">
+                {SITE_NAME}
+              </span>
             </Link>
           </div>
 
@@ -105,7 +104,7 @@ export default function Navbar() {
                       onMouseDown={(e) => e.preventDefault()}
                     >
                       <div className="grid grid-cols-2 gap-1">
-                        {cities.map((city) => (
+                        {publishedCities.map((city) => (
                           <Link
                             key={city.slug}
                             to={`/location/${city.slug}`}
@@ -224,7 +223,7 @@ export default function Navbar() {
 
             {/* City grid with better touch targets */}
             <div className="grid grid-cols-2 gap-1 px-3 pb-3 border-b border-gray-200 mb-2">
-              {cities.map((city) => (
+              {publishedCities.map((city) => (
                 <Link
                   key={city.slug}
                   to={`/location/${city.slug}`}

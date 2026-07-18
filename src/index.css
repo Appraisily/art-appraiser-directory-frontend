@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  background: #fbfaf7;
+}
+
+body {
+  color: #231f1b;
+  background: #fbfaf7;
+}
 
 /* Prevent chat widget overlap on mobile */
 @media (max-width: 768px) {

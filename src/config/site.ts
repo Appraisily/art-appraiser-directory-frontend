@@ -5,7 +5,7 @@ import { BRAND_LOGO_URL } from './assets';
 export const SITE_NAME = 'Art Appraisers Directory';
 export const SITE_URL = 'https://art-appraisers-directory.appraisily.com';
 export const SITE_DESCRIPTION =
-  'Discover certified art appraisers near you. Compare expertise, pricing models, and verified reviews for valuations, authentication, and estate services.';
+  'Browse reviewed public art appraiser listings by location, specialty, and service. Learn how listings are sourced and request corrections directly.';
 export const SITE_TWITTER_HANDLE = '@appraisily';
 export const DEFAULT_OG_IMAGE = BRAND_LOGO_URL;
 export const PARENT_SITE_URL = 'https://appraisily.com';

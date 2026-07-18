@@ -1,4 +1,3 @@
-import React from 'react';
 import { Facebook, Twitter, Instagram, Mail, ArrowRight } from 'lucide-react';
 import { PARENT_SITE_URL, SITE_NAME, getPrimaryCtaUrl } from '../config/site';
 import { BRAND_LOGO_URL } from '../config/assets';
@@ -12,7 +11,8 @@ const links = {
     { name: 'Priority Appraisal Guides', href: 'https://articles.appraisily.com/priority-guides/' },
     { name: 'IRS Qualified Appraiser Guide', href: 'https://articles.appraisily.com/irs-qualified-appraiser-near-me/' },
     { name: 'Antique Furniture Value Guide', href: 'https://articles.appraisily.com/how-to-determine-value-of-antique-furniture/' },
-    { name: 'Terms of Service', href: `${PARENT_SITE_URL}/terms` }
+    { name: 'Directory Methodology', href: '/methodology/' },
+    { name: 'Correct or Suggest a Listing', href: '/get-listed/' }
   ],
   legal: [
     { name: 'Privacy Policy', href: `${PARENT_SITE_URL}/privacy` },

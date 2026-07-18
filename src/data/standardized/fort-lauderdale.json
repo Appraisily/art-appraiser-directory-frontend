@@ -83,7 +83,7 @@
       "contact": {
         "phone": "561-715-8333",
         "email": "",
-        "website": "https://aa-fineart.com/?y_source=1_MTYwNjgzOTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
+        "website": "https://aa-fineart.com/"
       },
       "business": {
         "yearsInBusiness": "Contact for background details",
@@ -111,7 +111,7 @@
       },
       "content": {
         "about": "AA Fine Art, LLC offers fine art appraisal services serving Fort Lauderdale, FL. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://aa-fineart.com/?y_source=1_MTYwNjgzOTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D. Human approval required before public import."
+        "notes": "Prepared from reviewed web evidence on 2026-05-16. Source: https://aa-fineart.com/. Human approval required before public import."
       },
       "reviews": [],
       "metadata": {
@@ -119,7 +119,7 @@
         "inService": true,
         "placesLeadPrepared": true,
         "verification": {
-          "sourceUrl": "https://aa-fineart.com/?y_source=1_MTYwNjgzOTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+          "sourceUrl": "https://aa-fineart.com/",
           "verifiedAt": "2026-05-16",
           "sourceType": "business_website",
           "notes": "Automated extraction from candidate business website. Human review required before public directory insertion."

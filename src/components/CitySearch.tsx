@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect, useImperativeHandle, forwardRef } from 'react';
+import { useState, useRef, useEffect, useImperativeHandle, forwardRef } from 'react';
+import type { KeyboardEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Locate } from 'lucide-react';
-import { cities } from '../utils/staticData';
+import { publishedCities as cities, type DirectoryCity } from '../data/publishedCities';
 import { trackEvent } from '../utils/analytics';
 
 export type CitySearchHandle = {
@@ -11,36 +12,15 @@ export type CitySearchHandle = {
 
 const SEARCH_REDIRECTS: Record<string, string> = {
   '07832': 'new-york',
-  '16510': 'pittsburgh',
   '19087': 'philadelphia',
-  '28461': 'raleigh',
-  '30189': 'atlanta',
-  '32934': 'orlando',
-  '35201': 'birmingham',
-  '35226': 'birmingham',
-  '44839': 'cleveland',
-  '45814': 'toledo',
-  '46060': 'indianapolis',
-  '46311': 'chicago',
-  '46375': 'chicago',
-  '54601': 'minneapolis',
-  '60048': 'chicago',
-  '60050': 'chicago',
-  '72118': 'little-rock',
-  '83301': 'boise',
-  '85710': 'tucson',
   '93446': 'los-angeles',
   'lakehurst nj': 'new-york',
   'lakehurst, nj': 'new-york',
-  'marietta ga': 'atlanta',
-  'marietta, ga': 'atlanta',
   'new jersey': 'new-york',
-  'northwest indiana': 'chicago',
   'toms river nj': 'new-york',
   'toms river, nj': 'new-york',
   'toms river nj 08751': 'new-york',
   'toms river, nj 08751': 'new-york',
-  'twin falls': 'boise',
 };
 
 const normalizeSearchQuery = (value: string) =>
@@ -51,7 +31,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
   const [isOpen, setIsOpen] = useState(false);
   const [isLocating, setIsLocating] = useState(false);
   const [feedback, setFeedback] = useState<{ tone: 'error' | 'info'; message: string } | null>(null);
-  const [suggestions, setSuggestions] = useState<typeof cities>([]);
+  const [suggestions, setSuggestions] = useState<DirectoryCity[]>([]);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
   const navigate = useNavigate();
@@ -109,7 +89,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
         const { latitude, longitude } = position.coords;
 
         // Find the nearest city from the directory
-        let nearestCity: typeof cities[0] | null = null;
+        let nearestCity: DirectoryCity | null = null;
         let nearestDistance = Infinity;
 
         for (const city of cities) {
@@ -158,7 +138,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
     );
   };
 
-  const handleSelect = (city: typeof cities[0]) => {
+  const handleSelect = (city: DirectoryCity) => {
     setQuery(`${city.name}, ${city.state}`);
     setIsOpen(false);
     setFeedback(null);
@@ -179,7 +159,7 @@ export const CitySearch = forwardRef<CitySearchHandle>(function CitySearch(_prop
     return cities.find((city) => city.slug === redirectSlug) || null;
   };
 
-  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+  const handleKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key !== 'Enter') {
       return;
     }

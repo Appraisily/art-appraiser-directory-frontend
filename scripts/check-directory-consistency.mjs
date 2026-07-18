@@ -203,12 +203,7 @@ function assertStaticHtmlMatchesCityFeed({ citySlug, html, routeListed, failures
     if (!slug) continue;
     if (!allowedSlugs.has(slug)) {
       staleLinks.push(slug);
-    }
-  }
-
-  for (const link of document.querySelectorAll('a[data-gtm-event="appraiser_card_click"][data-gtm-appraiser]')) {
-    const slug = link.getAttribute('data-gtm-appraiser') || profileSlugFromHref(link.getAttribute('href') || '');
-    if (slug) {
+    } else {
       cardSlugs.push(slug);
     }
   }

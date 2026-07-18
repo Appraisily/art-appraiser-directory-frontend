@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { normalizeAssetUrl } from '../utils/assetUrls';
+import { useState } from 'react';
+import { normalizeProviderImageUrl } from '../utils/assetUrls';
 
 interface InitialsAvatarProps {
   imageUrl?: string;
@@ -11,28 +11,6 @@ interface InitialsAvatarProps {
 /**
  * Generates consistent color based on name string
  */
-function getNameColor(name: string): string {
-  const colors = [
-    'bg-blue-500',
-    'bg-purple-500',
-    'bg-green-500',
-    'bg-yellow-500',
-    'bg-red-500',
-    'bg-indigo-500',
-    'bg-pink-500',
-    'bg-teal-500',
-    'bg-orange-500',
-    'bg-cyan-500',
-  ];
-
-  let hash = 0;
-  for (let i = 0; i < name.length; i++) {
-    hash = name.charCodeAt(i) + ((hash << 5) - hash);
-  }
-
-  return colors[Math.abs(hash) % colors.length];
-}
-
 /**
  * Extracts initials from a name
  */
@@ -51,7 +29,7 @@ function getInitials(name: string): string {
 export function InitialsAvatar({ imageUrl, name, className = '', size = 'md' }: InitialsAvatarProps) {
   const [imgError, setImgError] = useState(false);
   const initials = getInitials(name);
-  const colorClass = getNameColor(name);
+  const normalizedImageUrl = normalizeProviderImageUrl(imageUrl);
 
   const sizeClasses = {
     sm: 'w-12 h-12 text-sm',
@@ -65,11 +43,12 @@ export function InitialsAvatar({ imageUrl, name, className = '', size = 'md' }: 
     lg: 'text-2xl',
   };
 
-  if (imgError || !imageUrl) {
+  if (imgError || !normalizedImageUrl) {
     return (
       <div
-        className={`${sizeClasses[size]} ${colorClass} rounded-full flex items-center justify-center text-white font-semibold ${className}`}
-        aria-hidden="true"
+        className={`${sizeClasses[size]} border border-[#cbbdac] bg-[#eee6db] rounded-full flex items-center justify-center text-[#5b1f2a] font-serif font-semibold ${className}`}
+        role="img"
+        aria-label={`${name} initials`}
       >
         <span className={fontSizeClasses[size]}>{initials}</span>
       </div>
@@ -79,7 +58,7 @@ export function InitialsAvatar({ imageUrl, name, className = '', size = 'md' }: 
   return (
     <div className={`relative ${className}`}>
       <img
-        src={normalizeAssetUrl(imageUrl)}
+        src={normalizedImageUrl}
         alt={`${name} - Art Appraiser`}
         className={`w-full h-full object-cover rounded-lg`}
         loading="lazy"

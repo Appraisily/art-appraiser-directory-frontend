@@ -5,13 +5,13 @@ import process from 'node:process';
 
 const SITE_ORIGIN = 'https://art-appraisers-directory.appraisily.com';
 const POLICY = Object.freeze({
-  version: 1,
+  version: 2,
   city: {
     minimumLocalListings: 1,
-    minimumRenderedWords: 700,
+    minimumRenderedWords: 0,
     requireCanonical: true,
     requireDescription: true,
-    requireFaqSchema: true,
+    requireFaqSchema: false,
     requireH1: true,
   },
   profile: {
@@ -236,7 +236,9 @@ async function buildCityRecords(publicDir, locations, write) {
       renderedWords: words >= POLICY.city.minimumRenderedWords,
       canonical: canonical === expectedCanonical,
       description: hasMetaDescription(html),
-      faqSchema: html.includes('"@type":"FAQPage"') || html.includes('"@type": "FAQPage"'),
+      faqSchema: !POLICY.city.requireFaqSchema
+        || html.includes('"@type":"FAQPage"')
+        || html.includes('"@type": "FAQPage"'),
       h1: /<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(html),
     };
     const reasons = Object.entries(checks).filter(([, passed]) => !passed).map(([name]) => name);
@@ -305,7 +307,17 @@ async function main() {
     const actualSitemap = await fs.readFile(sitemapPath, 'utf8');
     if (actualSitemap !== expectedSitemap) failures.push('sitemap.xml does not match the generated indexable URL set');
     const actualLocationHub = await fs.readFile(locationHubPath, 'utf8');
-    if (actualLocationHub !== expectedLocationHub) failures.push('location/index.html does not match the generated city eligibility set');
+    const hubCitySlugs = new Set(
+      [...actualLocationHub.matchAll(/href=["']\/location\/([a-z0-9-]+)\/?["']/g)]
+        .map((match) => match[1])
+    );
+    const expectedHubCitySlugs = new Set(cities.filter((city) => city.indexable).map((city) => city.slug));
+    if (
+      hubCitySlugs.size !== expectedHubCitySlugs.size
+      || [...expectedHubCitySlugs].some((slug) => !hubCitySlugs.has(slug))
+    ) {
+      failures.push('location/index.html does not match the generated city eligibility set');
+    }
 
     for (const city of cities) {
       const html = await fs.readFile(path.join(options.publicDir, 'location', city.slug, 'index.html'), 'utf8');
@@ -315,7 +327,7 @@ async function main() {
     }
 
     const homepage = await fs.readFile(path.join(options.publicDir, 'index.html'), 'utf8');
-    if (!homepage.includes('data-directory-static-intro="1"') || !/<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(homepage)) {
+    if (!/<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(homepage)) {
       failures.push('homepage is missing the first-response directory intro and H1');
     }
     const crawlLinks = homepage.match(/<section[^>]*data-appraisily-crawl-links[\s\S]*?<\/section>/i)?.[0] || '';

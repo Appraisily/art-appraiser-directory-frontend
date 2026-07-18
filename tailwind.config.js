@@ -4,39 +4,26 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#f8fafc',
-        foreground: '#1e293b',
-        'muted-foreground': '#64748b',
-        primary: '#0284c7',
+        background: '#fbfaf7',
+        foreground: '#231f1b',
+        'muted-foreground': '#675f58',
+        primary: '#5b1f2a',
         'primary-foreground': '#ffffff',
-        secondary: '#7c3aed',
+        secondary: '#283d4a',
         'secondary-foreground': '#ffffff',
-        accent: '#38bdf8',
-        'accent-foreground': '#0c4a6e',
-        border: '#e2e8f0',
-        input: '#e2e8f0',
-        ring: '#0284c7'
+        accent: '#b9894f',
+        'accent-foreground': '#231f1b',
+        border: '#d8d0c6',
+        input: '#cbbdac',
+        ring: '#5b1f2a'
       },
       borderRadius: {
         lg: '0.625rem',
         xl: '1rem',
       },
-      typography: {
-        DEFAULT: {
-          css: {
-            maxWidth: '65ch',
-            color: '#334155',
-            p: {
-              lineHeight: '1.75',
-            },
-            h1: {
-              fontWeight: '700',
-            },
-            h2: {
-              fontWeight: '600',
-            },
-          },
-        },
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['"Source Serif 4"', 'Georgia', 'serif'],
       },
       boxShadow: {
         'sm': '0 1px 2px 0 rgba(0, 0, 0, 0.05)',

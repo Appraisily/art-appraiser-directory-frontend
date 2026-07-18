@@ -7,7 +7,7 @@
 
 ## Build Commands
 - `npm run dev` - Start development server
-- `npm run build` - Prepare the canonical static site in `public_site/`
+- `npm run build` - Validate the canonical static site in `public_site/` without regenerating it
 - `npm run check:static` - Validate `public_site/`
 - Production promotion - Use the standard VPS deploy helper with `--service art-appraisers-directory`
 - `npm run serve:static` - Serve `public_site/` locally

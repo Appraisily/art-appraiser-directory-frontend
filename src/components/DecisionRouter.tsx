@@ -23,14 +23,14 @@ const choices = [
     kind: 'signed_report',
     title: 'Signed report',
     copy: 'Start a signed report, then upload photos, labels, signatures, and notes after secure checkout.',
-    cta: 'Signed report',
+    cta: 'Start a signed report',
     iconSrc: '/directory/assets/decision-router-report.png',
   },
   {
     kind: 'screener',
     title: 'Free screener',
     copy: 'Use Screener for a first-pass category, evidence, and next-step read.',
-    cta: 'Free screener',
+    cta: 'Try the free screener',
     iconSrc: '/directory/assets/decision-router-screener.png',
   },
   {
@@ -75,8 +75,8 @@ export function DecisionRouter({
     };
 
     if (!('IntersectionObserver' in window)) {
-      const timeoutId = window.setTimeout(() => trackView(1), 0);
-      return () => window.clearTimeout(timeoutId);
+      const timeoutId = globalThis.setTimeout(() => trackView(1), 0);
+      return () => globalThis.clearTimeout(timeoutId);
     }
 
     const observer = new IntersectionObserver(

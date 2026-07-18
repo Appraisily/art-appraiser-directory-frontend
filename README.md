@@ -71,7 +71,7 @@ npm run lint
 
 ## VPS Static Publish
 
-The VPS deployment serves plain HTML from an nginx container, with content bind-mounted from a release directory (articles-style).
+The VPS deployment serves plain HTML from an nginx container, with content bind-mounted from a release directory (articles-style). The reviewed provider manifest controls which provider-specific HTML nginx may return; all other provider-shaped URLs receive a generic noindex response.
 
 - Canonical editable surface: `public_site/`
 - Validate the static artifact:

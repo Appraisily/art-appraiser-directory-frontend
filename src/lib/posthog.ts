@@ -149,7 +149,7 @@ function optIn(reason: string) {
   registerBaseProperties();
   if (replayEnabled && shouldStartReplay()) {
     try {
-      posthog.startSessionRecording(true);
+      posthog.startSessionRecording();
     } catch {
       // ignore
     }
@@ -161,7 +161,7 @@ function optIn(reason: string) {
 
 function optOut(reason: string) {
   if (!initialized) return;
-  posthog.opt_out_capturing({ captureEventName: false });
+  posthog.opt_out_capturing();
   try {
     posthog.stopSessionRecording?.();
   } catch {
@@ -206,7 +206,6 @@ export function initPosthog() {
     capture_pageview: false, // manual SPA tracking
     capture_pageleave: false,
     cross_subdomain_cookie: true,
-    cookie_domain: '.appraisily.com',
     secure_cookie: true,
     disable_session_recording: !replayEnabled,
     session_recording: replayEnabled

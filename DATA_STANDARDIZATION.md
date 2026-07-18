@@ -1,51 +1,24 @@
-# Art Appraiser Directory Data Standardization
+# Directory Data Contract
 
-## Overview
+The repository retains a wider standardized source corpus for audit and review, but that
+corpus is not public inventory.
 
-This document outlines the standardization of the art appraiser data for the Art Appraiser Directory frontend.
+Public eligibility is controlled by:
 
-## Project Structure
+- `data/provider-publication-manifest.json` — provider status and generated summary;
+- `public_site/appraisers.json` — reviewed browser/feed provider records;
+- `public_site/locations.json` — reviewed browser/feed city records;
+- `public_site/indexing-manifest.json` and `public_site/sitemap.xml` — indexable routes;
+- the provider allowlist in `nginx.conf` — provider-specific HTML delivery.
 
-The new standardized data is stored in:
-- `/src/data/standardized/` - Contains standardized JSON files for each location
-
-## Standardized Schema
-
-We've implemented a robust, structured data format for art appraisers that includes:
-
-- Core information (ID, name, image)
-- Structured address details
-- Contact information
-- Business details (hours, pricing, ratings)
-- Expertise and certifications
-- Content sections for marketing
-- Reviews from customers
-- Metadata for tracking
-
-See the complete schema in `/src/data/standardized/README.md`.
-
-## Scripts and Utilities
-
-Only read-only reporting remains in the active script surface:
-
-- `scripts/count-appraisers.js` - Counts and analyzes appraiser distribution
-
-## Current Status
-
-- **Total Locations**: 49
-- **Total Appraisers**: 420
-- **Average Per Location**: 8.57
-
-## NPM Commands
+Do not copy hardcoded provider or city totals into documentation. Read current counts from
+the manifest summary and verify parity with:
 
 ```bash
-# Count appraisers across all locations
-npm run count:appraisers
+npm run check:remediation-contract
+npm run build
 ```
 
-## Next Steps
-
-1. Update the frontend components to use the standardized data format
-2. Enhance search functionality using the new structured data
-3. Improve SEO with structured schema.org data based on this format
-4. Create admin tools for updating the standardized data
+Ratings and review counts are not part of the public contract. Public URLs are sanitized
+at the data boundary, and missing or placeholder provider images use the shared initials
+fallback.
