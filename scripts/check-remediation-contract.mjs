@@ -133,6 +133,36 @@ if (/src\/data\/standardized|appraiser-index/.test(standardizedDataSource)) {
   fail('client data boundary imports the suppressed provider corpus');
 }
 
+const nginxSource = fs.readFileSync(path.join(repoRoot, 'nginx.conf'), 'utf8');
+for (const slug of locationSlugs) {
+  if (
+    !nginxSource.includes(`location = /location/${slug} { return 301 /location/${slug}/; }`) ||
+    !nginxSource.includes(
+      `location = /location/${slug}/ { try_files $uri/index.html =404; }`
+    )
+  ) {
+    fail(`nginx reviewed-location allowlist is missing ${slug}`);
+  }
+}
+if (!nginxSource.includes('location ~ ^/location/[^/]+/?$')) {
+  fail('nginx does not fail closed for non-published city routes');
+}
+if (!nginxSource.includes('location ~ ^/location/[^/]+/index\\.html$')) {
+  fail('nginx allows direct index.html access to non-published city files');
+}
+if (!nginxSource.includes('location ~ ^/appraiser/[^/]+/index\\.html$')) {
+  fail('nginx allows direct index.html access to non-published provider files');
+}
+if (
+  !nginxSource.includes('location ^~ /directory/assets/') ||
+  !nginxSource.includes('try_files $uri =404;')
+) {
+  fail('nginx does not serve canonical /directory/assets files directly');
+}
+if (nginxSource.includes('rewrite ^/directory/assets/')) {
+  fail('nginx rewrites canonical /directory/assets files to a different prefix');
+}
+
 const slugSource = fs.readFileSync(path.join(repoRoot, 'src/utils/slugs.ts'), 'utf8');
 if (
   !slugSource.includes("replace(/[^a-z0-9]+/g, '-')") ||

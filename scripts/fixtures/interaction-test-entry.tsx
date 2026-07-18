@@ -4,6 +4,7 @@ import { createRoot, type Root } from 'react-dom/client';
 import { MemoryRouter, useLocation } from 'react-router-dom';
 import { CitySearch } from '../../src/components/CitySearch';
 import { ContentFeedback } from '../../src/components/ContentFeedback';
+import Navbar from '../../src/components/Navbar';
 
 type CapturedEvent = {
   event: string;
@@ -167,13 +168,89 @@ async function testCitySearchGeolocationFailureAndMobileControls() {
   act(() => root.unmount());
 }
 
+async function testCitySearchGeolocationSuccess() {
+  const events: CapturedEvent[] = [];
+  Object.defineProperty(window.navigator, 'geolocation', {
+    configurable: true,
+    value: {
+      getCurrentPosition: (success: PositionCallback) =>
+        success({
+          coords: {
+            latitude: 42.3601,
+            longitude: -71.0589,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: Date.now(),
+        } as GeolocationPosition),
+    },
+  });
+
+  const { container, root } = mount(
+    <MemoryRouter>
+      <CitySearch
+        trackEventHandler={(event, properties) => events.push({ event, properties })}
+      />
+    </MemoryRouter>
+  );
+  const locateButton = container.querySelector('button[aria-label="Use my location"]');
+  assert(locateButton instanceof window.HTMLButtonElement);
+  act(() => locateButton.click());
+  await flush();
+
+  assert.equal(container.querySelector('input')?.value, 'Boston, Massachusetts');
+  assert.match(container.textContent || '', /Location detected/);
+  assert.deepEqual(
+    events.map(({ event }) => event),
+    ['search_geolocate_request', 'search_geolocate_complete']
+  );
+  assert.equal(events.at(-1)?.properties?.resolved_city, 'boston');
+  act(() => root.unmount());
+}
+
+async function testMobileMenuEscapeAndFocusReturn() {
+  const { container, root } = mount(
+    <MemoryRouter>
+      <Navbar />
+    </MemoryRouter>
+  );
+  const menuButton = container.querySelector(
+    'button[aria-label="Open main menu"]'
+  );
+  assert(menuButton instanceof window.HTMLButtonElement);
+
+  act(() => menuButton.click());
+  assert.equal(menuButton.getAttribute('aria-expanded'), 'true');
+  assert(container.querySelector('button[aria-label="Close menu"]'));
+
+  act(() => {
+    window.dispatchEvent(
+      new window.KeyboardEvent('keydown', {
+        key: 'Escape',
+        bubbles: true,
+        cancelable: true,
+      })
+    );
+  });
+
+  assert.equal(menuButton.getAttribute('aria-expanded'), 'false');
+  assert.equal(container.querySelector('button[aria-label="Close menu"]'), null);
+  assert.equal(document.activeElement, menuButton);
+  act(() => root.unmount());
+}
+
 export async function runInteractionTests() {
   globalThis.IS_REACT_ACT_ENVIRONMENT = true;
   await testFeedbackSuccess();
   await testFeedbackFailure();
   await testCitySearchKeyboardAndTelemetry();
   await testCitySearchGeolocationFailureAndMobileControls();
+  await testCitySearchGeolocationSuccess();
+  await testMobileMenuEscapeAndFocusReturn();
   console.log(
-    '[interaction-contract] PASS feedback success/failure, keyboard search, mobile controls, and telemetry'
+    '[interaction-contract] PASS feedback success/failure, keyboard search, geolocation success/failure, mobile menu Escape/focus, controls, and telemetry'
   );
 }

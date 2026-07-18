@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ArrowRight, ChevronDown, ExternalLink } from 'lucide-react';
 import {
@@ -18,6 +18,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [citiesDropdownOpen, setCitiesDropdownOpen] = useState(false);
+  const mobileMenuButtonRef = useRef<HTMLButtonElement>(null);
   const location = useLocation();
   const primaryCtaUrl = getPrimaryCtaUrl();
 
@@ -35,6 +36,20 @@ export default function Navbar() {
     setIsOpen(false);
     setCitiesDropdownOpen(false);
   }, [location.pathname]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return;
+      event.preventDefault();
+      setIsOpen(false);
+      mobileMenuButtonRef.current?.focus();
+    };
+
+    window.addEventListener('keydown', handleEscape);
+    return () => window.removeEventListener('keydown', handleEscape);
+  }, [isOpen]);
 
   const navItems = [
     { name: 'Appraisily', href: PARENT_SITE_URL, external: true },
@@ -160,6 +175,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center space-x-3">
             <button
+              ref={mobileMenuButtonRef}
               onClick={(e) => {
                 e.stopPropagation();
                 e.preventDefault();
@@ -177,7 +193,7 @@ export default function Navbar() {
             <a
               href={primaryCtaUrl}
               id="start-appraisal-nav-mobile"
-              className="inline-flex items-center justify-center px-4 py-2 min-h-[44px] border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors shadow-sm"
+              className="inline-flex items-center justify-center px-4 py-2 min-h-[44px] border border-transparent text-sm font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition-colors shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
               data-gtm-event="cta_click"
               data-gtm-placement="nav_mobile"
               target="_blank"
@@ -201,7 +217,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between px-3 py-3 font-medium border-b border-gray-200 mb-2">
               <Link
                 to="/location/"
-                className="text-blue-600 text-base"
+                className="rounded text-blue-600 text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 data-gtm-event="nav_link_click"
                 data-gtm-label="Locations"
                 data-gtm-placement="nav_mobile"
@@ -214,7 +230,7 @@ export default function Navbar() {
               </Link>
               <button
                 onClick={() => setIsOpen(false)}
-                className="p-2 min-w-[44px] min-h-[44px] rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100"
+                className="p-2 min-w-[44px] min-h-[44px] rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 aria-label="Close menu"
               >
                 <X className="h-5 w-5" />
@@ -227,7 +243,7 @@ export default function Navbar() {
                 <Link
                   key={city.slug}
                   to={`/location/${city.slug}`}
-                  className="text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-2 px-2 min-h-[44px] flex items-center rounded transition-colors"
+                  className="text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-2 px-2 min-h-[44px] flex items-center rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                   data-gtm-event="nav_location_click"
                   data-gtm-city={city.slug}
                   data-gtm-state={city.state}
@@ -247,7 +263,7 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="flex items-center gap-2 px-3 py-3 min-h-[44px] rounded-md text-base font-medium transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                className="flex items-center gap-2 px-3 py-3 min-h-[44px] rounded-md text-base font-medium transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                 {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                 data-gtm-event="nav_link_click"
                 data-gtm-label={item.name}
