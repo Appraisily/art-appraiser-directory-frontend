@@ -19,10 +19,10 @@
 - Preserve unrelated dirty work. Do not pull, reset, or discard files on this VPS.
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
-`codex/art-directory-audit-remediation-20260718`; the latest reviewed public
-artifact snapshot is `2a4af9b18a56`. Production remains unchanged. Deployment
-approval is recorded; release is held only for the fixed **2026-07-22** GSC
-read.
+`codex/art-directory-audit-remediation-20260718`; the latest reviewed
+candidate source revision is `79821651e9ca` and its public artifact hash is
+`d33904c0b615…`. Production remains unchanged. Deployment approval is
+recorded; release is held only for the fixed **2026-07-22** GSC read.
 
 ## External Customer QA Baseline — 2026-07-18
 
@@ -136,6 +136,9 @@ Internal canary evidence, 2026-07-18:
   that the candidate fails closed while the pre-marker active release retains
   its current route behavior if an unrelated restart loads the staged config
   before promotion.
+- The frontend repository and runtime-mounted nginx contracts are byte-for-byte
+  aligned at the candidate revision, including strict static routing and
+  relative redirect handling that does not leak an internal scheme or port.
 - Geolocation denial was rendered in the browser; deterministic interaction
   coverage proves the Boston success path and both
   `search_geolocate_complete` / `search_geolocate_error` telemetry states.
@@ -521,7 +524,7 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `2a4af9b18a56` passed `npm ci`,
+Pre-release state: clean detached checkout `79821651e9ca` passed `npm ci`,
 lint, typecheck, interaction tests, the full static gate, and validation of all
 944 HTML files. Its active-document contract additionally verifies required
 initial metadata and rejects unsupported certification/review claims across
@@ -549,8 +552,8 @@ the prior immutable release pending the July 22 GSC read.
   enforcement `9278b5335e61`, feed/artifact parity `6c8840ed0c85`, runtime
   nginx `eb2cb93`, suppressed-profile anonymization `7effee917c6a`, shared
   route-shell/link contract `fe04256f0446`, shared static-preview regression
-  `7980ffc`, active trust/metadata contract `2a4af9b18a56`, and shared feed
-  normalization `d4ac1529ef08`.
+  `7980ffc`, active trust/metadata contract `2a4af9b18a56`, repository/runtime
+  nginx parity `79821651e9ca`, and shared feed normalization `d4ac1529ef08`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
