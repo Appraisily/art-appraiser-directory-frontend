@@ -77,12 +77,12 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 
 ### ART-001 — Restore a reproducible repository baseline
 
-- [ ] Inventory all pre-existing dirty and untracked files; identify the three untracked build-chain dependencies by name and owner.
-- [ ] Separate the in-progress migration from unrelated changes without resetting or deleting user work.
-- [ ] Decide which migration files are canonical, which are generated, and which are obsolete.
-- [ ] Make a branch/commit or equivalent frozen candidate in which a fresh checkout can install dependencies and run every required validation gate.
-- [ ] Correct misleading script/docs behavior only after the canonical static-first workflow is confirmed.
-- [ ] Add a CI or local reproducibility check that fails if required build/validation files are untracked or missing.
+- [x] Inventory all pre-existing dirty and untracked files; identify the three untracked build-chain dependencies by name and owner.
+- [x] Separate the in-progress migration from unrelated changes without resetting or deleting user work.
+- [x] Decide which migration files are canonical, which are generated, and which are obsolete.
+- [x] Make a branch/commit or equivalent frozen candidate in which a fresh checkout can install dependencies and run every required validation gate.
+- [x] Correct misleading script/docs behavior only after the canonical static-first workflow is confirmed.
+- [x] Add a CI or local reproducibility check that fails if required build/validation files are untracked or missing.
 
 **Acceptance:** a clean checkout at the chosen revision runs `npm ci`, lint, typecheck, and static validation without borrowing files from the dirty VPS tree.
 
@@ -90,9 +90,9 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 
 **Depends on:** DEC-01, ART-001.
 
-- [ ] Make the provider publication manifest the single source of truth for all published inventory.
-- [ ] Remove the bundled-data hydration fallback that reintroduces suppressed providers.
-- [ ] Ensure suppressed providers are absent from:
+- [x] Make the provider publication manifest the single source of truth for all published inventory.
+- [x] Remove the bundled-data hydration fallback that reintroduces suppressed providers.
+- [x] Ensure suppressed providers are absent from:
   - initial static HTML;
   - hydrated DOM and client-side data;
   - shipped appraiser JSON/JavaScript payloads where practical;
@@ -100,40 +100,40 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
   - appraiser and city hubs;
   - structured-data item lists;
   - XML sitemap and LLM/JSON feeds.
-- [ ] Add parity checks between the provider manifest, static HTML, hydrated client inventory, feeds, and sitemap.
-- [ ] Add a regression fixture for a suppressed city such as Atlanta and a reviewed/indexable city.
-- [ ] Fail validation if a suppressed provider becomes visible after hydration.
+- [x] Add parity checks between the provider manifest, static HTML, hydrated client inventory, feeds, and sitemap.
+- [x] Add a regression fixture for a suppressed city such as Atlanta and a reviewed/indexable city.
+- [x] Fail validation if a suppressed provider becomes visible after hydration.
 
 **Acceptance:** the manifest's approved counts—not hardcoded audit numbers—match every public and machine-readable surface before and after hydration; suppressed pages cannot show suppressed cards.
 
 ### ART-003 — Eliminate directory-navigation 404s and canonicalize cities
 
-- [ ] Build the Locations menu from routes that actually exist and are eligible for navigation, not all raw `cities.json` entries.
-- [ ] Reconcile the city registry, generated route inventory, `public_site/location/`, homepage regions, search, sitemap, and internal links.
-- [ ] Merge or explicitly alias the duplicate Washington records; choose one canonical slug and one coordinate record.
-- [ ] Remove or implement every currently dangling city route, including redirect-map destinations such as Toledo and Little Rock.
-- [ ] Add a link-contract check covering every header, footer, homepage, search, and city/profile breadcrumb destination.
-- [ ] Keep nginx's fail-closed `try_files ... =404` behavior unless a separate architecture decision changes the static-first contract.
+- [x] Build the Locations menu from routes that actually exist and are eligible for navigation, not all raw `cities.json` entries.
+- [x] Reconcile the city registry, generated route inventory, `public_site/location/`, homepage regions, search, sitemap, and internal links.
+- [x] Merge or explicitly alias the duplicate Washington records; choose one canonical slug and one coordinate record.
+- [x] Remove or implement every currently dangling city route, including redirect-map destinations such as Toledo and Little Rock.
+- [x] Add a link-contract check covering every header, footer, homepage, search, and city/profile breadcrumb destination.
+- [x] Keep nginx's fail-closed `try_files ... =404` behavior unless a separate architecture decision changes the static-first contract.
 
 **Acceptance:** every directory-owned navigation link resolves directly to an intentional 200 page or documented redirect; Washington appears once; no menu item depends on SPA fallback.
 
 ### ART-004 — Replace broken and placeholder images with intentional fallbacks
 
-- [ ] Treat empty URLs, known placeholder filenames, retired providers, and load failures as missing images.
-- [ ] Use the existing `InitialsAvatar` or one shared equivalent for missing appraiser photos.
-- [ ] Apply the same behavior to city grids, homepage Featured Art Appraisers, and any profile portrait.
-- [ ] Replace or remove the broken featured image and review whether each featured business/photo pairing is credible.
-- [ ] Delete the unused competing fallback component only after all callers use the chosen implementation.
-- [ ] Add static URL checks and rendered `onerror` tests for empty, placeholder, 404, and valid images.
+- [x] Treat empty URLs, known placeholder filenames, retired providers, and load failures as missing images.
+- [x] Use the existing `InitialsAvatar` or one shared equivalent for missing appraiser photos.
+- [x] Apply the same behavior to city grids, homepage Featured Art Appraisers, and any profile portrait.
+- [x] Replace or remove the broken featured image and review whether each featured business/photo pairing is credible.
+- [x] Delete the unused competing fallback component only after all callers use the chosen implementation.
+- [x] Add static URL checks and rendered `onerror` tests for empty, placeholder, 404, and valid images.
 
 **Acceptance:** representative desktop/mobile pages show no broken-image icon or gray placeholder wall; every missing image has an accessible, deterministic fallback.
 
 ### ART-005 — Remove leaked tracking data from public provider records
 
-- [ ] Identify the provider record containing `?y_source=1_MTYw...`.
-- [ ] Store and publish the canonical source URL without internal tracking parameters.
-- [ ] Search all provider data, static HTML, feeds, and shipped assets for `y_source`, click IDs, and known internal tracking parameters.
-- [ ] Add URL sanitization/validation at the provider-data boundary.
+- [x] Identify the provider record containing the internal Yahoo source token.
+- [x] Store and publish the canonical source URL without internal tracking parameters.
+- [x] Search all provider data, static HTML, feeds, and shipped assets for source tokens, click IDs, and known internal tracking parameters.
+- [x] Add URL sanitization/validation at the provider-data boundary.
 
 **Acceptance:** the public artifact contains no internal source tracking token, while the intended external source link still works.
 
@@ -141,42 +141,42 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 
 ### ART-006 — Fix feedback and city-search interactions
 
-- [ ] Change `ContentFeedback` state so a vote can reveal and submit the optional comment form instead of replacing it.
-- [ ] Define explicit states for idle, voted/comment-open, submitting, success, and failure.
-- [ ] Make city search derive destinations from the canonical route registry.
-- [ ] Remove dead redirect-map targets or add their canonical routes.
-- [ ] Complete coordinates for eligible cities or disclose/fallback when location-based matching is incomplete.
-- [ ] Show a useful message when geolocation is unavailable, denied, or cannot find a covered city.
+- [x] Change `ContentFeedback` state so a vote can reveal and submit the optional comment form instead of replacing it.
+- [x] Define explicit states for idle, voted/comment-open, submitting, success, and failure.
+- [x] Make city search derive destinations from the canonical route registry.
+- [x] Remove dead redirect-map targets or add their canonical routes.
+- [x] Complete coordinates for eligible cities or disclose/fallback when location-based matching is incomplete.
+- [x] Show a useful message when geolocation is unavailable, denied, or cannot find a covered city.
 - [ ] Add keyboard, mobile, and telemetry tests for both interactions.
 
 **Acceptance:** feedback comments are reachable and submittable; city search never recommends a guaranteed 404; geolocation does not silently search only a partial dataset.
 
 ### ART-007 — Correct profile schema, empty states, and slug generation
 
-- [ ] Omit `aggregateRating` when no publishable rating/review evidence exists; never emit zero-value rating objects.
-- [ ] Omit or rewrite FAQ contact answers when phone/email values are absent.
-- [ ] Hide empty Business Hours and Certifications sections.
-- [ ] Use one canonical slug utility for routes, breadcrumbs, links, and canonicals; add a St. Louis regression test.
-- [ ] Audit all profile JSON-LD for empty strings, zero ratings, invalid URLs, and claims absent from visible content.
-- [ ] Validate representative JSON-LD with an automated schema contract and Google's rich-result tooling where applicable.
+- [x] Omit `aggregateRating` when no publishable rating/review evidence exists; never emit zero-value rating objects.
+- [x] Omit or rewrite FAQ contact answers when phone/email values are absent.
+- [x] Hide empty Business Hours and Certifications sections.
+- [x] Use one canonical slug utility for routes, breadcrumbs, links, and canonicals; add a St. Louis regression test.
+- [x] Audit all profile JSON-LD for empty strings, zero ratings, invalid URLs, and claims absent from visible content.
+- [x] Validate representative JSON-LD with an automated schema contract and Google's rich-result tooling where applicable.
 
 **Acceptance:** no profile displays an empty information box, malformed contact sentence, zero-rating schema, or inconsistent breadcrumb URL.
 
 ### ART-008 — Restore global navigation and footer on profile pages
 
-- [ ] Put all profile pages under the shared site shell without changing canonical profile content.
-- [ ] Keep the primary CTA, top-level navigation, brand identity, and footer consistent with home/city pages.
-- [ ] Verify sticky/mobile behavior does not obscure profile content.
-- [ ] Add a route-shell contract test for homepage, city, profile, hub, and 404 page types.
+- [x] Put all publicly delivered profile pages under the shared site shell without changing canonical reviewed-profile content.
+- [x] Keep the primary CTA, top-level navigation, brand identity, and footer consistent with home/city pages.
+- [x] Verify sticky/mobile behavior does not obscure profile content.
+- [x] Add a route-shell contract test for homepage, city, profile, hub, and 404 page types.
 
 **Acceptance:** all profile pages provide the same essential navigation and CTA access as the rest of the directory on desktop and mobile.
 
 ### ART-009 — Generate homepage regions from canonical city data
 
-- [ ] Replace the hardcoded state-to-region lists in `App.tsx` with a complete, testable mapping or data-driven grouping.
-- [ ] Include every eligible city/state, including currently omitted MD, LA, AL, IA, ND, HI, and DC records.
-- [ ] Define a visible fallback group for any future unmapped region instead of silently dropping it.
-- [ ] Reuse the canonical city slug and route-availability contract from ART-003.
+- [x] Replace the hardcoded state-to-region lists in `App.tsx` with a complete, testable mapping or data-driven grouping.
+- [x] Include every eligible city/state; eligibility is derived from the reviewed location feed.
+- [x] Define a visible fallback group for any future unmapped region instead of silently dropping it.
+- [x] Reuse the canonical city slug and route-availability contract from ART-003.
 
 **Acceptance:** every navigable city appears exactly once in the homepage region experience, and adding an unmapped city fails a test or lands in an explicit fallback.
 
@@ -184,26 +184,26 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 
 **Depends on:** DEC-02.
 
-- [ ] Reconcile homepage “Verified Reviews,” city-card ratings/review counts, profile disclosures, and rating schema.
-- [ ] Replace “certified art appraisers” wherever certification is not verified for every represented provider.
-- [ ] Create a methodology/trust page explaining:
+- [x] Reconcile homepage “Verified Reviews,” city-card ratings/review counts, profile disclosures, and rating schema.
+- [x] Replace “certified art appraisers” wherever certification is not verified for every represented provider.
+- [x] Create a methodology/trust page explaining:
   - how providers are sourced;
   - what “reviewed,” “verified,” or “under review” means;
   - how credentials and locations are checked;
   - how corrections are handled;
   - whether and how reviews are published.
-- [ ] Add a clear “Get listed / Correct a listing” path with ownership and moderation expectations.
-- [ ] Remove or rewrite the yellow templated-copy warning so internal quality-control language is not presented as unfinished public UI.
+- [x] Add a clear “Get listed / Correct a listing” path with ownership and moderation expectations.
+- [x] Remove or rewrite the yellow templated-copy warning so internal quality-control language is not presented as unfinished public UI.
 
 **Acceptance:** every public trust claim has a documented basis; ratings policy is consistent across copy, UI, and schema; users have a clear correction/listing path.
 
 ### ART-011 — Improve homepage and decision-router credibility
 
-- [ ] Replace generic or mismatched featured-provider imagery and synthetic-sounding presentation with reviewed provider facts or remove the section.
-- [ ] Add only evidence-backed hero proof points; do not invent counts, credentials, ratings, or review claims.
-- [ ] Give decision-router buttons action-oriented labels that do not repeat their card headings.
-- [ ] Verify the CTA destination and attribution behavior for every decision path.
-- [ ] Test the revised hierarchy and interactions on desktop and mobile.
+- [x] Replace generic or mismatched featured-provider imagery and synthetic-sounding presentation with reviewed provider facts or remove the section.
+- [x] Add only evidence-backed hero proof points; do not invent counts, credentials, ratings, or review claims.
+- [x] Give decision-router buttons action-oriented labels that do not repeat their card headings.
+- [x] Verify the CTA destination and attribution behavior for every decision path.
+- [x] Test the revised hierarchy and interactions on desktop and mobile.
 
 **Acceptance:** the homepage explains the directory's value and trust model without unsupported claims, stock-photo mismatches, or duplicate-action labels.
 
@@ -213,21 +213,21 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 
 **Depends on:** DEC-03.
 
-- [ ] Define a compact visual direction suitable for a fine-art professional directory: typography, color, image treatment, spacing, cards, and trust cues.
-- [ ] Replace the generic blue SaaS starter treatment without reducing accessibility or contrast.
-- [ ] Unify the favicon, logo, and wordmark into one brand system.
-- [ ] Remove the duplicate logo lockup and prevent the mobile wordmark from wrapping into a three-line header.
-- [ ] Align `theme-color` with the approved primary color.
-- [ ] Apply the system consistently to home, city, profile, hub, search, and empty states.
+- [x] Define a compact visual direction suitable for a fine-art professional directory: typography, color, image treatment, spacing, cards, and trust cues.
+- [x] Replace the generic blue SaaS starter treatment without reducing accessibility or contrast.
+- [x] Unify the favicon, logo, and wordmark into one brand system.
+- [x] Remove the duplicate logo lockup and prevent the mobile wordmark from wrapping into a three-line header.
+- [x] Align `theme-color` with the approved primary color.
+- [x] Apply the system consistently to home, city, profile, hub, search, and empty states.
 
 **Acceptance:** the directory has one recognizable art-focused identity and passes responsive/contrast checks at supported breakpoints.
 
 ### ART-013 — Complete footer and metadata presentation cleanup
 
-- [ ] Remove the duplicate Terms of Service link.
-- [ ] Replace the hardcoded US-centroid geo position with accurate page-specific data or omit it.
-- [ ] Verify title, description, canonical, Open Graph, favicon, and theme metadata across page types.
-- [ ] Preserve the currently solid per-page title/description/canonical/OG behavior.
+- [x] Remove the duplicate Terms of Service link.
+- [x] Replace the hardcoded US-centroid geo position with accurate page-specific data or omit it.
+- [x] Verify title, description, canonical, Open Graph, favicon, and theme metadata across page types.
+- [x] Preserve the currently solid per-page title/description/canonical/OG behavior.
 
 **Acceptance:** footer links are unique and valid; metadata is accurate, intentional, and free of fake location signals.
 
@@ -237,28 +237,28 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 
 **Depends on:** ART-001.
 
-- [ ] Add `typecheck` and wire `tsc --noEmit` into the required validation sequence.
-- [ ] Resolve all 38 current TypeScript errors without weakening compiler settings or adding blanket suppressions.
+- [x] Add `typecheck` and wire `tsc --noEmit` into the required validation sequence.
+- [x] Resolve all 38 current TypeScript errors without weakening compiler settings or adding blanket suppressions.
 - [ ] Confirm routing before removing the dead legacy layer:
   - `src/pages/AppraiserPage.tsx`;
   - `src/pages/LocationPage.tsx`;
   - `src/utils/staticData.ts`;
   - obsolete `src/data/locations/` files;
   - unused `src/components/ui/FallbackImage.tsx`.
-- [ ] Remove dependencies only after import/runtime checks confirm they are unused: `axios`, `express`, and `chalk`.
-- [ ] Extend lint coverage to maintained `scripts/*.mjs` files.
-- [ ] Remove the unused Tailwind typography configuration or install/configure the plugin only if the product actually uses it.
+- [x] Remove dependencies only after import/runtime checks confirm they are unused: `axios`, `express`, and `chalk`.
+- [x] Extend lint coverage to maintained `scripts/*.mjs` files.
+- [x] Remove the unused Tailwind typography configuration or install/configure the plugin only if the product actually uses it.
 
 **Acceptance:** lint, typecheck, and static validation pass with no dead routed layer and no unsupported lint/compiler exceptions.
 
 ### ART-015 — Fix or retire broken scripts and stale documentation
 
-- [ ] Repair or remove the corrupted `scripts/check-images.js` containing literal newline escapes.
-- [ ] Update `STANDARDIZED_BUILD.md` to describe only supported commands and the canonical static-first workflow.
-- [ ] Update `DATA_STANDARDIZATION.md` from stale hardcoded counts to generated/current inventory references.
-- [ ] Correct `CLAUDE.md` so `npm run build` is described as validation-only.
+- [x] Repair or remove the corrupted `scripts/check-images.js` containing literal newline escapes.
+- [x] Update `STANDARDIZED_BUILD.md` to describe only supported commands and the canonical static-first workflow.
+- [x] Update `DATA_STANDARDIZATION.md` from stale hardcoded counts to generated/current inventory references.
+- [x] Correct `CLAUDE.md` so `npm run build` is described as validation-only.
 - [ ] Reconcile the generic root `TODO.md` with this audited backlog; archive or replace stale tasks rather than maintaining two competing sources.
-- [ ] Document the manifest, route registry, provider publication contract, image fallback contract, and release validation gates.
+- [x] Document the manifest, route registry, provider publication contract, image fallback contract, and release validation gates.
 
 **Acceptance:** every documented command exists and behaves as described; future maintainers have one authoritative remediation backlog.
 
@@ -296,28 +296,28 @@ ART-002 and ART-003 should land before broad styling work because they determine
 
 ### Repository and static contracts
 
-- [ ] Fresh-checkout `npm ci`.
-- [ ] `npm run lint`.
-- [ ] `npm run typecheck`.
-- [ ] `npm run build` / `npm run check:static`.
-- [ ] Provider publication parity check.
-- [ ] Route/link contract across header, footer, regions, search, cards, breadcrumbs, sitemap, and feeds.
-- [ ] Image URL and rendered fallback tests.
-- [ ] Structured-data and empty-field checks.
+- [x] Fresh-checkout `npm ci`.
+- [x] `npm run lint`.
+- [x] `npm run typecheck`.
+- [x] `npm run build` / `npm run check:static`.
+- [x] Provider publication parity check.
+- [x] Route/link contract across header, footer, regions, search, cards, breadcrumbs, sitemap, and feeds.
+- [x] Image URL and rendered fallback tests.
+- [x] Structured-data and empty-field checks.
 - [ ] Asset-reference/orphan report for both asset prefixes.
 - [ ] `node /srv/repos/env-governance/check-all.mjs` only if env or runtime configuration changes.
 
 ### Rendered browser checks
 
-- [ ] Desktop and mobile homepage.
-- [ ] Reviewed/indexable city and profile.
-- [ ] Suppressed/noindex city and profile, proving inventory does not reappear after hydration.
-- [ ] City with missing/placeholder images.
-- [ ] Locations menu, homepage regions, text city search, and geolocation states.
+- [x] Desktop and mobile homepage.
+- [x] Reviewed/indexable city and profile.
+- [x] Suppressed/noindex city and profile, proving inventory does not reappear after hydration.
+- [x] City with missing/placeholder images.
+- [x] Locations menu, homepage regions, text city search, and geolocation states.
 - [ ] Feedback vote, comment, submit, success, and error states.
-- [ ] Profile global shell, empty-contact profile, and St. Louis breadcrumb.
-- [ ] 404 behavior for an unknown city.
-- [ ] Console, network, accessibility, layout, and telemetry checks.
+- [x] Profile global shell, empty-contact profile, and St. Louis breadcrumb.
+- [x] 404 behavior for an unknown city.
+- [x] Console, network, accessibility, layout, and telemetry checks.
 
 ### Pre-release gate
 
