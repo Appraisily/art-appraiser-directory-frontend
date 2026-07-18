@@ -60,6 +60,7 @@ async function testFeedbackSuccess() {
   );
   assert(textarea instanceof window.HTMLTextAreaElement);
   assert(yesButton instanceof window.HTMLButtonElement);
+  assert.match(yesButton.className, /focus-visible:ring-2/);
   assert.equal(textarea.disabled, true);
 
   act(() => yesButton.click());
@@ -70,6 +71,9 @@ async function testFeedbackSuccess() {
   act(() => setInputValue(textarea, 'Email me at person@example.com or 212-555-1212.'));
   const form = container.querySelector('form');
   assert(form instanceof window.HTMLFormElement);
+  const submitButton = form.querySelector('button[type="submit"]');
+  assert(submitButton instanceof window.HTMLButtonElement);
+  assert.match(submitButton.className, /focus-visible:ring-2/);
   act(() => form.dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true })));
   await flush();
 
@@ -99,6 +103,7 @@ async function testFeedbackFailure() {
     (button) => button.textContent === 'No'
   );
   assert(noButton instanceof window.HTMLButtonElement);
+  assert.match(noButton.className, /focus-visible:ring-2/);
   act(() => noButton.click());
   const form = container.querySelector('form');
   assert(form instanceof window.HTMLFormElement);

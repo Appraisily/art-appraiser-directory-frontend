@@ -99,7 +99,7 @@ export function ContentFeedback({
               onClick={() => onVote(true)}
               disabled={isFinished || status === 'submitting'}
               className={[
-                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
+                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2',
                 helpful === true
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
@@ -113,7 +113,7 @@ export function ContentFeedback({
               onClick={() => onVote(false)}
               disabled={isFinished || status === 'submitting'}
               className={[
-                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition',
+                'rounded-full border px-6 py-3 min-h-[44px] text-base font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2',
                 helpful === false
                   ? 'border-blue-500/60 bg-blue-500/10 text-foreground'
                   : 'border-border bg-background hover:bg-muted/40 text-foreground',
@@ -148,7 +148,7 @@ export function ContentFeedback({
                   aria-disabled={!canSubmit}
                   disabled={!canSubmit}
                   className={[
-                    'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition',
+                    'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2',
                     canSubmit
                       ? 'hover:bg-gray-800 cursor-pointer'
                       : 'opacity-60 cursor-not-allowed',
