@@ -18,7 +18,7 @@
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
 `codex/art-directory-audit-remediation-20260718`; the post-external-QA code and
-artifact snapshot is `c19814549c00`. Production remains unchanged. Deployment
+artifact snapshot is `9278b5335e61`. Production remains unchanged. Deployment
 approval is recorded; release is held only for the fixed **2026-07-22** GSC
 read.
 
@@ -114,6 +114,11 @@ Internal canary evidence, 2026-07-18:
 - Browser network inspection found no failed candidate first-party request
   after the `/directory/assets/` nginx contract was corrected. All three
   decision-router illustrations returned 200.
+- Reviewed-route enforcement is gated by the internal
+  `.reviewed-route-enforcement-v1` artifact marker. Isolated containers proved
+  that the candidate fails closed while the pre-marker active release retains
+  its current route behavior if an unrelated restart loads the staged config
+  before promotion.
 - Geolocation denial was rendered in the browser; deterministic interaction
   coverage proves the Boston success path and both
   `search_geolocate_complete` / `search_geolocate_error` telemetry states.
@@ -459,7 +464,7 @@ mutation was performed.
 
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
-dry-run proved the candidate is not live (`a8f8c12a3cab…` source hash versus
+dry-run proved the candidate is not live (`21b545af7b0a…` source hash versus
 `e9c512451749…` active hash); production remains on
 `20260715094034-e9c512451749`. Because the service is stable and the candidate
 is a material treatment change rather than an emergency availability repair,
@@ -486,7 +491,7 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `c19814549c00` passed `npm ci`,
+Pre-release state: clean detached checkout `9278b5335e61` passed `npm ci`,
 lint, typecheck, interaction tests, the full static gate, and validation of all
 944 HTML files. Production remains on the prior immutable release pending the
 July 22 GSC read.
@@ -500,8 +505,9 @@ July 22 GSC read.
 - GSC release evidence: `/srv/manager/seo/art-directory-recovery/2026-07-15-execution/`
 - Post-external-QA candidate screenshots:
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/`
-- Candidate commits: frontend `c19814549c00`, runtime nginx `fbf04aa`, and
-  shared static-preview regression `7980ffc`.
+- Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
+  enforcement `9278b5335e61`, runtime nginx `eb2cb93`, and shared
+  static-preview regression `7980ffc`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
