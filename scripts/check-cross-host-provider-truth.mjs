@@ -1,4 +1,3 @@
 #!/usr/bin/env node
 
-await import('../../../tools/directory-site-utils/audit-cross-host-provider-truth.mjs');
-
+await import('./audit-cross-host-provider-truth.mjs');

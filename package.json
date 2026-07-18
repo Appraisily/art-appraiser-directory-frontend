@@ -11,7 +11,7 @@
     "test:assets": "node ./scripts/test-asset-url-contract.mjs",
         "seo:indexing-manifest": "node ./scripts/build-indexing-manifest.mjs --public-dir public_site --write",
     "check:indexing-contract": "node ./scripts/build-indexing-manifest.mjs --public-dir public_site --check",
-    "check:cross-host-provider-truth": "node ./scripts/check-cross-host-provider-truth.mjs --fail-on-conflicts",
+    "check:cross-host-provider-truth": "node ./scripts/check-cross-host-provider-truth.mjs --art-root public_site --art-manifest data/provider-publication-manifest.json --fail-on-conflicts",
         "repair:directory-locality": "node ./scripts/repair-directory-locality.mjs --public-dir public_site",
         "repair:directory-html-parity": "node ./scripts/repair-directory-html-parity.mjs --public-dir public_site",
         "repair:faq-schema": "node ./scripts/repair-faq-schema.mjs --public-dir public_site",
