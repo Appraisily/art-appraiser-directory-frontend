@@ -134,6 +134,14 @@ if (/src\/data\/standardized|appraiser-index/.test(standardizedDataSource)) {
 }
 
 const nginxSource = fs.readFileSync(path.join(repoRoot, 'nginx.conf'), 'utf8');
+const routeEnforcementMarker = path.join(
+  repoRoot,
+  'public_site',
+  '.reviewed-route-enforcement-v1'
+);
+if (!fs.existsSync(routeEnforcementMarker)) {
+  fail('reviewed-route enforcement marker is missing from the public artifact');
+}
 for (const slug of locationSlugs) {
   if (
     !nginxSource.includes(`location = /location/${slug} { return 301 /location/${slug}/; }`) ||
@@ -146,6 +154,13 @@ for (const slug of locationSlugs) {
 }
 if (!nginxSource.includes('location ~ ^/location/[^/]+/?$')) {
   fail('nginx does not fail closed for non-published city routes');
+}
+if (
+  !nginxSource.includes(
+    'if (-f $document_root/.reviewed-route-enforcement-v1) { return 404; }'
+  )
+) {
+  fail('nginx route enforcement is not gated by the reviewed artifact marker');
 }
 if (!nginxSource.includes('location ~ ^/location/[^/]+/index\\.html$')) {
   fail('nginx allows direct index.html access to non-published city files');
@@ -161,6 +176,14 @@ if (
 }
 if (nginxSource.includes('rewrite ^/directory/assets/')) {
   fail('nginx rewrites canonical /directory/assets files to a different prefix');
+}
+if (
+  !nginxSource.includes(
+    'if (-f $document_root/.reviewed-route-enforcement-v1) { return 418; }'
+  ) ||
+  !nginxSource.includes('location @reviewed_provider_unavailable')
+) {
+  fail('nginx provider suppression is not gated by the reviewed artifact marker');
 }
 
 const slugSource = fs.readFileSync(path.join(repoRoot, 'src/utils/slugs.ts'), 'utf8');
