@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useLocation } from 'react-router-dom';
 import { capturePosthogEvent } from '../lib/posthog';
-import { derivePageContext } from '../utils/analytics';
+import { derivePageContext, toPublicPagePath } from '../utils/analytics';
 
 type ContentFeedbackProps = {
   captureEvent?: typeof capturePosthogEvent;
@@ -40,7 +40,7 @@ export function ContentFeedback({
       page_category: context.pageCategory,
       city_slug: context.citySlug,
       appraiser_slug: context.appraiserSlug,
-      page_path: location.pathname,
+      page_path: toPublicPagePath(location.pathname),
       location: 'content_feedback',
     }),
     [context, location.pathname]

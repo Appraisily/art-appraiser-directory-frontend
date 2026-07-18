@@ -5,6 +5,8 @@ import { MemoryRouter, useLocation } from 'react-router-dom';
 import { CitySearch } from '../../src/components/CitySearch';
 import { ContentFeedback } from '../../src/components/ContentFeedback';
 import Navbar from '../../src/components/Navbar';
+import { getPrimaryCtaUrl } from '../../src/config/site';
+import { derivePageContext, toPublicPagePath } from '../../src/utils/analytics';
 
 type CapturedEvent = {
   event: string;
@@ -242,6 +244,38 @@ async function testMobileMenuEscapeAndFocusReturn() {
   act(() => root.unmount());
 }
 
+function testSuppressedProfileContextIsGeneric() {
+  window.history.replaceState({}, '', '/appraiser/alicia-e-weaver/');
+
+  const suppressedContext = derivePageContext(window.location.pathname);
+  assert.equal(suppressedContext.pageType, 'appraiser_unavailable');
+  assert.equal(suppressedContext.appraiserSlug, undefined);
+  assert.equal(toPublicPagePath(window.location.pathname), '/appraiser/');
+
+  const suppressedCta = new URL(getPrimaryCtaUrl());
+  assert.equal(suppressedCta.searchParams.get('ref_path'), '/appraiser/');
+  assert.equal(
+    suppressedCta.searchParams.get('seo_page_type'),
+    'directory_profile_unavailable'
+  );
+  assert.equal(suppressedCta.searchParams.has('appraiser_slug'), false);
+  assert.equal(suppressedCta.toString().includes('alicia-e-weaver'), false);
+
+  window.history.replaceState({}, '', '/appraiser/open-to-the-public/');
+  const reviewedContext = derivePageContext(window.location.pathname);
+  assert.equal(reviewedContext.pageType, 'appraiser');
+  assert.equal(reviewedContext.appraiserSlug, 'open-to-the-public');
+
+  const reviewedCta = new URL(getPrimaryCtaUrl());
+  assert.equal(reviewedCta.searchParams.get('appraiser_slug'), 'open-to-the-public');
+  assert.equal(
+    reviewedCta.searchParams.get('ref_path'),
+    '/appraiser/open-to-the-public/'
+  );
+
+  window.history.replaceState({}, '', '/');
+}
+
 export async function runInteractionTests() {
   globalThis.IS_REACT_ACT_ENVIRONMENT = true;
   await testFeedbackSuccess();
@@ -250,7 +284,8 @@ export async function runInteractionTests() {
   await testCitySearchGeolocationFailureAndMobileControls();
   await testCitySearchGeolocationSuccess();
   await testMobileMenuEscapeAndFocusReturn();
+  testSuppressedProfileContextIsGeneric();
   console.log(
-    '[interaction-contract] PASS feedback success/failure, keyboard search, geolocation success/failure, mobile menu Escape/focus, controls, and telemetry'
+    '[interaction-contract] PASS feedback success/failure, keyboard search, geolocation success/failure, mobile menu Escape/focus, controls, telemetry, and suppressed-profile context'
   );
 }

@@ -1,5 +1,6 @@
 import { withAiAssistantParams } from '../utils/aiAttribution';
 import { appendStartAttributionParams } from '../utils/startAttribution';
+import { isPublishedAppraiserSlug } from '../data/publishedAppraisers';
 import { BRAND_LOGO_URL } from './assets';
 
 export const SITE_NAME = 'Art Appraisers Directory';
@@ -64,14 +65,19 @@ export function getPrimaryCtaUrl(extraParams: Record<string, string> = {}): stri
       const [first, second] = segments;
       url.searchParams.set('entrypoint', 'art_directory');
       url.searchParams.set('seo_site', 'art_directory');
-      url.searchParams.set('ref_path', pathname);
       if (first === 'location' && second) {
+        url.searchParams.set('ref_path', pathname);
         url.searchParams.set('seo_page_type', 'directory_location');
         url.searchParams.set('city_slug', second);
-      } else if (first === 'appraiser' && second) {
+      } else if (first === 'appraiser' && isPublishedAppraiserSlug(second)) {
+        url.searchParams.set('ref_path', pathname);
         url.searchParams.set('seo_page_type', 'directory_profile');
         url.searchParams.set('appraiser_slug', second);
+      } else if (first === 'appraiser') {
+        url.searchParams.set('ref_path', '/appraiser/');
+        url.searchParams.set('seo_page_type', 'directory_profile_unavailable');
       } else {
+        url.searchParams.set('ref_path', pathname);
         url.searchParams.set('seo_page_type', 'directory_home');
       }
     }

@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { initPosthog, capturePosthogEvent, capturePosthogPageview } from '../lib/posthog';
-import { derivePageContext } from '../utils/analytics';
+import { derivePageContext, toPublicPagePath } from '../utils/analytics';
 
 const SEO_SCROLL_THRESHOLDS = [25, 50, 75, 90] as const;
 
@@ -24,11 +24,12 @@ export function PosthogTracker() {
 
   useEffect(() => {
     const context = derivePageContext(location.pathname);
+    const publicPagePath = toPublicPagePath(location.pathname, location.search);
     viewStartAtRef.current = Date.now();
     engagedRef.current = false;
     firedBucketsRef.current = new Set();
 
-    capturePosthogPageview(`${location.pathname}${location.search}`, {
+    capturePosthogPageview(publicPagePath, {
       page_type: context.pageType,
       page_category: context.pageCategory,
       city_slug: context.citySlug,
@@ -40,7 +41,7 @@ export function PosthogTracker() {
       page_category: context.pageCategory,
       city_slug: context.citySlug,
       appraiser_slug: context.appraiserSlug,
-      page_path: location.pathname,
+      page_path: publicPagePath,
     });
 
     const fireEngaged = (reason: string) => {
@@ -51,7 +52,7 @@ export function PosthogTracker() {
         page_category: context.pageCategory,
         city_slug: context.citySlug,
         appraiser_slug: context.appraiserSlug,
-        page_path: location.pathname,
+        page_path: publicPagePath,
         reason,
         ms_on_page: Date.now() - viewStartAtRef.current,
       });
@@ -67,7 +68,7 @@ export function PosthogTracker() {
             page_category: context.pageCategory,
             city_slug: context.citySlug,
             appraiser_slug: context.appraiserSlug,
-            page_path: location.pathname,
+            page_path: publicPagePath,
             depth_percent: threshold,
             ms_on_page: Date.now() - viewStartAtRef.current,
           });
@@ -111,6 +112,7 @@ export function PosthogTracker() {
       if (!isStart) return;
 
       const context = derivePageContext(window.location.pathname);
+      const publicPagePath = toPublicPagePath(window.location.pathname);
       const placement = anchor.closest('header')
         ? 'header'
         : anchor.closest('footer')
@@ -124,7 +126,7 @@ export function PosthogTracker() {
         page_category: context.pageCategory,
         city_slug: context.citySlug,
         appraiser_slug: context.appraiserSlug,
-        page_path: window.location.pathname,
+        page_path: publicPagePath,
       });
     };
 

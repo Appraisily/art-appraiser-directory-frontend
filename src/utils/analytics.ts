@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { capturePosthogEvent, getPosthogDistinctId } from '../lib/posthog';
+import { isPublishedAppraiserSlug } from '../data/publishedAppraisers';
 import { getClickIdsFromRuntime } from './startAttribution';
 
 const isBrowser = typeof window !== 'undefined';
@@ -107,7 +108,11 @@ function getControlPlaneEndpoint(): string {
 
 function getPagePath(): string {
   if (!isBrowser) return '/';
-  return `${window.location.pathname || '/'}${window.location.search || ''}${window.location.hash || ''}`;
+  return toPublicPagePath(
+    window.location.pathname || '/',
+    window.location.search || '',
+    window.location.hash || ''
+  );
 }
 
 function getTrafficContext(): Record<string, string> {
@@ -131,7 +136,10 @@ function getTrafficContext(): Record<string, string> {
     }
   }
 
-  const landingPage = sanitizeString(window.location.href, 4096);
+  const landingPage = sanitizeString(
+    new URL(getPagePath(), window.location.origin).toString(),
+    4096
+  );
   if (landingPage) {
     traffic.landing_page = landingPage;
   }
@@ -168,7 +176,7 @@ function sendControlPlaneEvent(event: string, params: Record<string, any> = {}) 
     },
     traffic: getTrafficContext(),
     payload: {
-      page_location: window.location.href,
+      page_location: new URL(getPagePath(), window.location.origin).toString(),
       page_title: document.title,
       page_path: getPagePath(),
       ...params,
@@ -254,11 +262,12 @@ export function derivePageContext(pathname: string) {
   }
 
   if (firstSegment === 'appraiser') {
+    const isPublished = isPublishedAppraiserSlug(secondSegment);
     return {
-      pageType: 'appraiser',
+      pageType: isPublished ? 'appraiser' : 'appraiser_unavailable',
       pageCategory: 'directory_profile' as const,
       citySlug: undefined,
-      appraiserSlug: secondSegment
+      appraiserSlug: isPublished ? secondSegment : undefined
     };
   }
 
@@ -268,4 +277,16 @@ export function derivePageContext(pathname: string) {
     citySlug: undefined,
     appraiserSlug: undefined
   };
+}
+
+export function toPublicPagePath(
+  pathname: string,
+  search = '',
+  hash = ''
+): string {
+  const context = derivePageContext(pathname);
+  if (context.pageType === 'appraiser_unavailable') {
+    return '/appraiser/';
+  }
+  return `${pathname || '/'}${search}${hash}`;
 }

@@ -147,6 +147,20 @@ if (/src\/data\/standardized|appraiser-index/.test(standardizedDataSource)) {
   fail('client data boundary imports the suppressed provider corpus');
 }
 
+const clientBundleFiles = walk(path.join(publicDir, 'assets')).filter(
+  (filename) => /^index-.*\.js$/.test(path.basename(filename))
+);
+const clientBundleSource = clientBundleFiles
+  .map((filename) => fs.readFileSync(filename, 'utf8'))
+  .join('\n');
+for (const provider of manifest.providers.filter(
+  (entry) => entry.publicationStatus !== 'verified'
+)) {
+  if (provider.slug && clientBundleSource.includes(provider.slug)) {
+    fail(`client bundle embeds suppressed provider slug: ${provider.slug}`);
+  }
+}
+
 const nginxSource = fs.readFileSync(path.join(repoRoot, 'nginx.conf'), 'utf8');
 const routeEnforcementMarker = path.join(
   repoRoot,

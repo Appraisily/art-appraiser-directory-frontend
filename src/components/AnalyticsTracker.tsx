@@ -2,7 +2,7 @@ import { useEffect, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { GOOGLE_TAG_MANAGER_ID } from '../config/site';
-import { derivePageContext, pushToDataLayer } from '../utils/analytics';
+import { derivePageContext, pushToDataLayer, toPublicPagePath } from '../utils/analytics';
 import { isLikelyBot } from '../utils/botDetection';
 
 const isBrowser = typeof window !== 'undefined';
@@ -31,11 +31,16 @@ export function AnalyticsTracker() {
     }
 
     const context = derivePageContext(location.pathname);
+    const publicPagePath = toPublicPagePath(
+      location.pathname,
+      location.search,
+      location.hash
+    );
 
     const payload: Record<string, unknown> = {
       event: 'page_view',
-      page_location: window.location.href,
-      page_path: `${location.pathname}${location.search}${location.hash}`,
+      page_location: new URL(publicPagePath, window.location.origin).toString(),
+      page_path: publicPagePath,
       page_title: document.title,
       page_type: context.pageType,
       page_category: context.pageCategory

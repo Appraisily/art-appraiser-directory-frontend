@@ -149,7 +149,7 @@ export function StandardizedAppraiserPage() {
         <SEO
           title={`Listing unavailable | ${SITE_NAME}`}
           description="This provider is not part of the directory's current reviewed public cohort."
-          path={`/appraiser/${appraiserId}`}
+          canonicalUrl={buildSiteUrl('/appraiser/')}
           noIndex
           noFollow
         />
