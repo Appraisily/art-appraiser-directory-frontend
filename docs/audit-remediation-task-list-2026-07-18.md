@@ -8,8 +8,10 @@
 ## Baseline and Constraints
 
 - The live nginx release predates the repo's current migration.
-- The current repo has approximately 326 uncommitted files (`+4,824/-23,738`) and three untracked files required by the build chain.
-- `npm run lint` and `npm run build` pass only in that dirty tree. A clean checkout cannot currently run the gates.
+- At audit intake, the repo had approximately 326 uncommitted files
+  (`+4,824/-23,738`) and three untracked files required by the build chain.
+- At audit intake, `npm run lint` and `npm run build` passed only in that dirty
+  tree; ART-001 records the now-completed reproducibility work.
 - `public_site/` is the canonical published artifact. Do not restore a Vite/SPA regeneration step as the normal production workflow.
 - Do not mass-edit profile or city HTML through repo scripts. Individual `public_site/appraiser/**` and `public_site/location/**` content changes require direct, reviewed edits.
 - This task list does not authorize a build, deployment, GSC mutation, or destructive cleanup.
@@ -17,8 +19,8 @@
 - Preserve unrelated dirty work. Do not pull, reset, or discard files on this VPS.
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
-`codex/art-directory-audit-remediation-20260718`; the post-external-QA code and
-artifact snapshot is `9278b5335e61`. Production remains unchanged. Deployment
+`codex/art-directory-audit-remediation-20260718`; the latest reviewed public
+artifact snapshot is `6c8840ed0c85`. Production remains unchanged. Deployment
 approval is recorded; release is held only for the fixed **2026-07-22** GSC
 read.
 
@@ -239,6 +241,9 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 - [x] Use the existing `InitialsAvatar` or one shared equivalent for missing appraiser photos.
 - [x] Apply the same behavior to city grids, homepage Featured Art Appraisers, and any profile portrait.
 - [x] Replace or remove the broken featured image and review whether each featured business/photo pairing is credible.
+- [x] Normalize location JSON/LLM listings to the canonical appraiser feed so
+  downstream consumers receive the same reviewed description and first-party
+  generated image as the profile.
 - [x] Delete the unused competing fallback component only after all callers use the chosen implementation.
 - [x] Add static URL checks and rendered `onerror` tests for empty, placeholder, 404, and valid images.
 
@@ -471,7 +476,7 @@ date-gated and read-only.
 
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
-dry-run proved the candidate is not live (`21b545af7b0a…` source hash versus
+dry-run proved the candidate is not live (`f557f2b834a2…` source hash versus
 `e9c512451749…` active hash); production remains on
 `20260715094034-e9c512451749`. Because the service is stable and the candidate
 is a material treatment change rather than an emergency availability repair,
@@ -498,9 +503,12 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `9278b5335e61` passed `npm ci`,
+Pre-release state: clean detached checkout `6c8840ed0c85` passed `npm ci`,
 lint, typecheck, interaction tests, the full static gate, and validation of all
-944 HTML files. Production remains on the prior immutable release pending the
+944 HTML files. Its five location-feed listings match canonical provider
+descriptions and first-party generated images. The pinned standard-helper
+dry-run resolved static source hash `f557f2b834a2…` against active hash
+`e9c512451749…`. Production remains on the prior immutable release pending the
 July 22 GSC read.
 
 ## Evidence and Related Work
@@ -516,8 +524,9 @@ July 22 GSC read.
 - Post-deploy external customer QA coverage brief:
   `/srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md`
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
-  enforcement `9278b5335e61`, runtime nginx `eb2cb93`, and shared
-  static-preview regression `7980ffc`.
+  enforcement `9278b5335e61`, feed/artifact parity `6c8840ed0c85`, runtime
+  nginx `eb2cb93`, shared static-preview regression `7980ffc`, and shared feed
+  normalization `d4ac1529ef08`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
