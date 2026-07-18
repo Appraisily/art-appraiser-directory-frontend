@@ -17,9 +17,115 @@
 - Preserve unrelated dirty work. Do not pull, reset, or discard files on this VPS.
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
-`codex/art-directory-audit-remediation-20260718`. Production remains unchanged.
-Deployment approval is recorded; release is held only for the fixed
-**2026-07-22** GSC read.
+`codex/art-directory-audit-remediation-20260718`; the post-external-QA code and
+artifact snapshot is `c19814549c00`. Production remains unchanged. Deployment
+approval is recorded; release is held only for the fixed **2026-07-22** GSC
+read.
+
+## External Customer QA Baseline — 2026-07-18
+
+The external anonymous customer test ran against the unchanged production
+release, not the remediation candidate.
+
+- Result: `FAIL`
+- Release recommendation: `go_with_known_risk`
+- Receipt: `qa_2b735425-23ea-4424-9149-df2a5b477445`
+- Run: `f7a0c00d-204e-427e-a32b-5a3d2cfe56a3`
+- Finalized: `2026-07-18T11:50:43.736Z`
+- Durable report and evidence:
+  `/mnt/srv-storage/storage/private/ops/customer-tests/submissions/2026-07-18/f7a0c00d-204e-427e-a32b-5a3d2cfe56a3/`
+
+The result independently confirmed the audit baseline. It did not invalidate
+the candidate validation because production still serves
+`20260715094034-e9c512451749`. It does establish the exact live failures that
+the post-deploy canary must close:
+
+| External finding | Candidate remediation | Required live proof |
+| --- | --- | --- |
+| 133 location links; 55 visible failures; duplicate Washington | ART-003, ART-009 | Menu has 5 canonical locations, Washington appears once, and every offered route resolves intentionally |
+| Atlanta hydrates 16 under-review providers | ART-002 | Atlanta exposes no provider identity, cards, counts, ratings, reviews, contacts, or provider schema before or after hydration |
+| Alicia E Weaver route publishes identity and `ProfessionalService` schema | ART-002, ART-007 | Suppressed provider-shaped routes disclose no provider-specific content or schema |
+| Unsupported certification/review claims; missing methodology | DEC-02, ART-010, ART-011 | Homepage, city, profile, methodology, correction flow, and JSON-LD use one evidence-backed trust policy |
+| Mobile menu and feedback keyboard failures | ART-006, ART-012 | Escape closes the menu; Tab/Shift+Tab expose visible focus; Enter selects feedback and reveals the comment workflow |
+| Toledo and Atlantis have no zero-result state | ART-003, ART-006 | Unsupported searches show useful coverage feedback and recover when edited to Boston |
+| Broken Boston favicon; profile lacks global shell/footer | ART-004, ART-008 | Boston uses an accessible fallback and its profile retains navigation, CTA, breadcrumb, and footer |
+| Online handoff works but logs React hydration errors | ART-011 plus downstream follow-up | The $59 single-item handoff remains clear; first-party React errors are separately investigated in the owning app |
+
+### External QA Release Tasks
+
+#### P0 — Required before release
+
+- [x] Preserve the submitted report, receipt, route results, observations, and
+  screenshots in durable storage.
+- [x] Map every external finding to its candidate remediation and live
+  acceptance check.
+- [ ] On or after **2026-07-22**, record the fixed Day-7 GSC read required by
+  the recovery plan.
+- [ ] Immediately before release, rerun the clean-checkout candidate gates and
+  the focused browser checks for menu routes, suppressed inventory, trust
+  claims, keyboard feedback, zero-result search, Boston imagery, and profile
+  shell.
+- [ ] Confirm the release snapshot contains only the reviewed 5-provider,
+  5-city inventory and the expected 13 sitemap URLs.
+
+#### P0 — Release and live verification
+
+- [ ] Deploy only through the standard `art-appraisers-directory`
+  static-release helper.
+- [ ] Record the deployed source commit, immutable release ID, active pointer,
+  asset/source hashes, health result, and rollback target.
+- [ ] Verify initial HTML and hydrated DOM separately for Atlanta and a
+  suppressed provider-shaped route.
+- [ ] Verify all five location-menu routes, Boston search, unsupported search,
+  mobile keyboard behavior, feedback state, image fallbacks, methodology,
+  correction flow, shared profile shell, sitemap, feeds, and structured data.
+- [ ] Run a fresh external customer QA ticket against the deployed release
+  using the same journey and acceptance appendix.
+- [ ] Compare the new result with receipt
+  `qa_2b735425-23ea-4424-9149-df2a5b477445`; attach the new receipt and close
+  each row above only with live evidence.
+
+**Release blocker:** do not promote, or roll back, if any candidate page still
+publishes suppressed provider identity after hydration, exposes a
+directory-owned broken route, or retains the externally confirmed serious
+trust/keyboard contradictions.
+
+#### P1 — Residual and adjacent verification
+
+- [x] Cover the external tester's `not_proven` states with an internal canary:
+  exact HTTP statuses, failed first-party requests, safe geolocation
+  success/denial, 200% zoom, and observable telemetry.
+- [x] Route the `/start` React errors 418, 423, and 425 to the owning main-page
+  workflow with the submitted handoff evidence; preserve the working $59
+  single-item promise while investigating.
+- [x] Preserve the externally validated strengths: clear hero, local/online/
+  screener decision router, Boston sources and review date, accessible
+  provider illustration, and the handoff's visible price and scope.
+
+Internal canary evidence, 2026-07-18:
+
+- Exact candidate nginx returned 200 for the homepage, five reviewed cities,
+  five reviewed profiles, methodology, correction flow, `locations.json`,
+  `appraisers.json`, `llms.txt`, the sitemap, and active assets; Atlanta and
+  direct suppressed `index.html` paths returned 404.
+- The generic Alicia E Weaver-shaped route returned a provider-neutral
+  unavailable page. Initial HTML and hydrated DOM contained no Alicia identity,
+  address, rating, review, contact data, or `ProfessionalService` schema.
+- Browser network inspection found no failed candidate first-party request
+  after the `/directory/assets/` nginx contract was corrected. All three
+  decision-router illustrations returned 200.
+- Geolocation denial was rendered in the browser; deterministic interaction
+  coverage proves the Boston success path and both
+  `search_geolocate_complete` / `search_geolocate_error` telemetry states.
+- CDP page scale 2 at a 1280px viewport reported a 632.5px visual viewport and
+  no document-level horizontal overflow. The 390px mobile viewport also had no
+  horizontal overflow.
+- The browser observed `search_no_results` in `dataLayer`, and the analytics
+  control-plane request returned 202. Unit contracts cover feedback, search,
+  and geolocation event payloads without sending synthetic feedback.
+- Main-page follow-up:
+  `main-page-2026-07-18-start-react-errors` in
+  `/srv/repos/agent-memory/todos.md`.
 
 ## Required Decisions
 
@@ -380,15 +486,22 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `00bcb5ab` passed `npm ci`, lint,
-typecheck, interaction tests, and the full static gate. Production remains on
-the prior immutable release pending the July 22 GSC read.
+Pre-release state: clean detached checkout `c19814549c00` passed `npm ci`,
+lint, typecheck, interaction tests, the full static gate, and validation of all
+944 HTML files. Production remains on the prior immutable release pending the
+July 22 GSC read.
 
 ## Evidence and Related Work
 
 - Audit screenshots (volatile until ART-000): `/tmp/art-shots/`
+- External customer QA submission:
+  `/mnt/srv-storage/storage/private/ops/customer-tests/submissions/2026-07-18/f7a0c00d-204e-427e-a32b-5a3d2cfe56a3/`
 - Existing GSC recovery plan: `/srv/manager/plans/art-appraisers-directory-gsc-recovery-task-list-2026-07-15.md`
 - GSC release evidence: `/srv/manager/seo/art-directory-recovery/2026-07-15-execution/`
+- Post-external-QA candidate screenshots:
+  `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/`
+- Candidate commits: frontend `c19814549c00`, runtime nginx `fbf04aa`, and
+  shared static-preview regression `7980ffc`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
