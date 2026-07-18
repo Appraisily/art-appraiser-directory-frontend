@@ -7,6 +7,7 @@ import { RootLayout } from './layouts/RootLayout';
 import { LocationHubPage } from './pages/LocationHubPage';
 import { MethodologyPage } from './pages/MethodologyPage';
 import { GetListedPage } from './pages/GetListedPage';
+import { AppraiserHubPage } from './pages/AppraiserHubPage';
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
       {
         path: 'location/:citySlug',
         element: <StandardizedLocationPage />
+      },
+      {
+        path: 'appraiser',
+        element: <AppraiserHubPage />
       },
       {
         path: 'appraiser/:appraiserId',

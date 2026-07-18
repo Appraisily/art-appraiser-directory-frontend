@@ -4,8 +4,10 @@ import { createRoot, type Root } from 'react-dom/client';
 import { MemoryRouter, useLocation } from 'react-router-dom';
 import { CitySearch } from '../../src/components/CitySearch';
 import { ContentFeedback } from '../../src/components/ContentFeedback';
+import { Footer } from '../../src/components/Footer';
 import Navbar from '../../src/components/Navbar';
 import { getPrimaryCtaUrl } from '../../src/config/site';
+import { publishedCities } from '../../src/data/publishedCities';
 import { derivePageContext, toPublicPagePath } from '../../src/utils/analytics';
 
 type CapturedEvent = {
@@ -227,6 +229,17 @@ async function testMobileMenuEscapeAndFocusReturn() {
   act(() => menuButton.click());
   assert.equal(menuButton.getAttribute('aria-expanded'), 'true');
   assert(container.querySelector('button[aria-label="Close menu"]'));
+  const mobileCityHrefs = [...container.querySelectorAll<HTMLAnchorElement>('a')]
+    .map((anchor) => anchor.getAttribute('href'))
+    .filter(
+      (href): href is string =>
+        Boolean(href?.startsWith('/location/') && href !== '/location/')
+    )
+    .sort();
+  assert.deepEqual(
+    mobileCityHrefs,
+    publishedCities.map((city) => `/location/${city.slug}`).sort()
+  );
 
   act(() => {
     window.dispatchEvent(
@@ -241,6 +254,26 @@ async function testMobileMenuEscapeAndFocusReturn() {
   assert.equal(menuButton.getAttribute('aria-expanded'), 'false');
   assert.equal(container.querySelector('button[aria-label="Close menu"]'), null);
   assert.equal(document.activeElement, menuButton);
+  act(() => root.unmount());
+}
+
+function testFooterInternalLinksAndLegalUniqueness() {
+  const { container, root } = mount(
+    <MemoryRouter>
+      <Footer />
+    </MemoryRouter>
+  );
+  const hrefs = [...container.querySelectorAll<HTMLAnchorElement>('a')].map(
+    (anchor) => anchor.getAttribute('href')
+  );
+  assert(hrefs.includes('/methodology/'));
+  assert(hrefs.includes('/get-listed/'));
+  assert.equal(
+    [...container.querySelectorAll('a')].filter(
+      (anchor) => anchor.textContent === 'Terms of Service'
+    ).length,
+    1
+  );
   act(() => root.unmount());
 }
 
@@ -284,6 +317,7 @@ export async function runInteractionTests() {
   await testCitySearchGeolocationFailureAndMobileControls();
   await testCitySearchGeolocationSuccess();
   await testMobileMenuEscapeAndFocusReturn();
+  testFooterInternalLinksAndLegalUniqueness();
   testSuppressedProfileContextIsGeneric();
   console.log(
     '[interaction-contract] PASS feedback success/failure, keyboard search, geolocation success/failure, mobile menu Escape/focus, controls, telemetry, and suppressed-profile context'

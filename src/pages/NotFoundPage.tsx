@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom';
 import { MapPin, Search } from 'lucide-react';
 import { SEO } from '../components/SEO';
-import { cities } from '../data/cities.json';
+import { publishedCities } from '../data/publishedCities';
 
 export function NotFoundPage() {
-  const popularCities = cities.slice(0, 12);
+  const popularCities = publishedCities;
 
   return (
     <>
       <SEO
         title="Page Not Found | Art Appraisers Directory"
-        description="The page you're looking for doesn't exist. Browse our directory of certified art appraisers by city."
+        description="The page you're looking for doesn't exist. Browse the directory's reviewed art appraiser locations."
         noIndex
       />
       <div className="flex-1 flex items-center justify-center py-12 md:py-16 mt-16">
@@ -19,7 +19,7 @@ export function NotFoundPage() {
           <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-2 sm:mb-3">Page not found</h2>
           <p className="text-gray-600 mb-6 sm:mb-8 px-2">
             The page you're looking for doesn't exist or has been moved.
-            Try browsing our directory of certified art appraisers below.
+            Try browsing the directory's reviewed locations below.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8 sm:mb-12">
