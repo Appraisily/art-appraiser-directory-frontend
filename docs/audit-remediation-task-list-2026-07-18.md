@@ -20,8 +20,8 @@
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
 `codex/art-directory-audit-remediation-20260718`; the latest reviewed
-candidate source revision is `79821651e9ca` and its public artifact hash is
-`d33904c0b615…`. Production remains unchanged. Deployment approval is
+candidate source revision is `342f17d10f51` and its public artifact hash is
+`3632dadeaa19…`. Production remains unchanged. Deployment approval is
 recorded; release is held only for the fixed **2026-07-22** GSC read.
 
 ## External Customer QA Baseline — 2026-07-18
@@ -140,8 +140,11 @@ Internal canary evidence, 2026-07-18:
   aligned at the candidate revision, including strict static routing and
   relative redirect handling that does not leak an internal scheme or port.
 - Geolocation denial was rendered in the browser; deterministic interaction
-  coverage proves the Boston success path and both
-  `search_geolocate_complete` / `search_geolocate_error` telemetry states.
+  coverage proves the Boston success path, a 100-mile no-coverage path, and
+  `search_geolocate_complete` / `search_geolocate_no_match` /
+  `search_geolocate_error` telemetry states. The no-coverage state clears
+  stale search text, derives its available-city guidance from the reviewed
+  registry, and does not emit precise user coordinates.
 - CDP page scale 2 at a 1280px viewport reported a 632.5px visual viewport and
   no document-level horizontal overflow. The 390px mobile viewport also had no
   horizontal overflow.
@@ -497,7 +500,7 @@ date-gated and read-only.
 
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
-dry-run proved the candidate is not live (`d33904c0b615…` source hash versus
+dry-run proved the candidate is not live (`3632dadeaa19…` source hash versus
 `e9c512451749…` active hash); production remains on
 `20260715094034-e9c512451749`. Because the service is stable and the candidate
 is a material treatment change rather than an emergency availability repair,
@@ -524,7 +527,7 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `79821651e9ca` passed `npm ci`,
+Pre-release state: clean detached checkout `342f17d10f51` passed `npm ci`,
 lint, typecheck, interaction tests, the full static gate, and validation of all
 944 HTML files. Its active-document contract additionally verifies required
 initial metadata and rejects unsupported certification/review claims across
@@ -533,7 +536,7 @@ listings match canonical provider descriptions and first-party generated
 images. Its client bundle contains no suppressed provider slug, and browser
 hydration keeps unavailable profile metadata, CTAs, and telemetry context
 provider-neutral. The pinned standard-helper dry-run resolved static source
-hash `d33904c0b615…` against active hash `e9c512451749…`. Production remains on
+hash `3632dadeaa19…` against active hash `e9c512451749…`. Production remains on
 the prior immutable release pending the July 22 GSC read.
 
 ## Evidence and Related Work
@@ -548,6 +551,8 @@ the prior immutable release pending the July 22 GSC read.
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/`
 - Candidate alternate-route privacy canary:
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/route-enforcement-fuzz-2026-07-18.md`
+- Candidate geolocation coverage contract:
+  `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/geolocation-coverage-contract-2026-07-18.md`
 - Post-deploy external customer QA coverage brief:
   `/srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md`
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
@@ -555,7 +560,9 @@ the prior immutable release pending the July 22 GSC read.
   nginx `eb2cb93`, suppressed-profile anonymization `7effee917c6a`, shared
   route-shell/link contract `fe04256f0446`, shared static-preview regression
   `7980ffc`, active trust/metadata contract `2a4af9b18a56`, repository/runtime
-  nginx parity `79821651e9ca`, and shared feed normalization `d4ac1529ef08`.
+  nginx parity `79821651e9ca`, bounded geolocation and reviewed client bundle
+  `342f17d10f51`, bundle-entry replacement helper `2d051520d338`, and shared
+  feed normalization `d4ac1529ef08`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
