@@ -151,6 +151,9 @@ Internal canary evidence, 2026-07-18:
 - Computed-color checks found no WCAG text-contrast failures on the homepage,
   Boston city, or reviewed profile at desktop/mobile viewports, including the
   no-coverage message and open mobile-navigation states.
+- Native mobile keyboard traversal opened the menu with Enter, moved forward
+  and backward through every menu control with a visible focus ring, and
+  returned focus to the toggle after Escape.
 - The browser observed `search_no_results` in `dataLayer`, and the analytics
   control-plane request returned 202. Unit contracts cover feedback, search,
   and geolocation event payloads without sending synthetic feedback.
@@ -558,6 +561,8 @@ the prior immutable release pending the July 22 GSC read.
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/geolocation-coverage-contract-2026-07-18.md`
 - Candidate computed-contrast contract:
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/contrast-contract-2026-07-18.md`
+- Candidate native mobile-keyboard contract:
+  `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/mobile-keyboard-contract-2026-07-18.md`
 - Post-deploy external customer QA coverage brief:
   `/srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md`
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
