@@ -98,7 +98,11 @@ atomically, verifies the public route and assets, and rolls back on failure.
 
 ## Image Handling
 
-Appraiser profile images must use verified provider-neutral URLs on `assets.appraisily.com`. Records without a reviewed image use the canonical directory placeholder. Validation and deployment never generate or rewrite images automatically; see [IMAGE_GENERATION.md](IMAGE_GENERATION.md).
+Reviewed provider images must be owned, verified assets or explicitly labeled
+checked-in non-likeness artwork. Empty, placeholder, invalid, and failed image
+URLs render the deterministic initials fallback; the directory never borrows
+another provider's image. Validation and deployment do not generate or rewrite
+images automatically; see [IMAGE_GENERATION.md](IMAGE_GENERATION.md).
 
 ## Editing Rule
 
