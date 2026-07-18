@@ -498,7 +498,8 @@ July 22 GSC read.
 
 ## Evidence and Related Work
 
-- Audit screenshots (volatile until ART-000): `/tmp/art-shots/`
+- Archived audit evidence:
+  `/srv/manager/reports/art-appraisers-directory-audit-20260718/`
 - External customer QA submission:
   `/mnt/srv-storage/storage/private/ops/customer-tests/submissions/2026-07-18/f7a0c00d-204e-427e-a32b-5a3d2cfe56a3/`
 - Existing GSC recovery plan: `/srv/manager/plans/art-appraisers-directory-gsc-recovery-task-list-2026-07-15.md`
