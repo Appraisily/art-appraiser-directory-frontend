@@ -336,7 +336,7 @@ candidate diff.
 
 ### Pre-release gate
 
-- [ ] Reconcile the candidate against the July 15 GSC recovery measurement window.
+- [x] Reconcile the candidate against the July 15 GSC recovery measurement window.
 - [x] Review the exact candidate diff and exclude unrelated dirty work.
 - [x] Record expected provider, city, sitemap, menu, and asset counts.
 - [x] Capture before/after screenshots and machine-readable validation logs.
@@ -344,6 +344,12 @@ candidate diff.
 Expected candidate counts: 5 providers, 5 cities, 13 sitemap URLs, 5 menu
 locations, and 13 retained public assets. Evidence is stored in
 `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
+
+GSC reconciliation: the recovery plan freezes the same 13-URL cohort until its
+date-gated Day-7 read on **2026-07-22**. This candidate preserves those counts
+but materially changes delivered HTML, hydration, and assets, so it remains
+pre-release until that read is recorded. No early substitute read or GSC
+mutation was performed.
 - [ ] Obtain explicit deployment approval.
 - [ ] Deploy only through the standard `art-appraisers-directory` static-release helper.
 - [ ] Verify active release pointer, nginx health, Cloudflare delivery, live HTML, hydration behavior, and rollback reference.
@@ -351,7 +357,7 @@ locations, and 13 retained public assets. Evidence is stored in
 
 ## Completion Criteria
 
-- [ ] A clean checkout can reproduce all required gates.
+- [x] A clean checkout can reproduce all required gates.
 - [x] One publication policy controls visible HTML, hydration, client payloads, hubs, feeds, schema, and sitemap.
 - [x] No directory-owned navigation link 404s.
 - [x] No broken or placeholder image is presented as a provider photo.
@@ -363,7 +369,11 @@ locations, and 13 retained public assets. Evidence is stored in
 - [x] Every eligible city is represented exactly once.
 - [x] TypeScript, lint, static, link, image, schema, and browser gates pass.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
-- [ ] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
+- [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
+
+Pre-release state: clean detached checkout `00bcb5ab` passed `npm ci`, lint,
+typecheck, interaction tests, and the full static gate. Production remains on
+the prior immutable release pending the July 22 GSC read and explicit approval.
 
 ## Evidence and Related Work
 
