@@ -462,6 +462,13 @@ but materially changes delivered HTML, hydration, and assets, so it remains
 pre-release until that read is recorded. No early substitute read or GSC
 mutation was performed.
 
+The fixed checkpoint runner was rehearsed without API calls or writes using
+`--label day7 --today 2026-07-22 --dry-run`. It validated the URL-prefix and
+domain properties, 2026-07-15 release boundary, frozen request cohort, sitemap,
+token location, and the planned evidence directory
+`/srv/manager/seo/art-directory-recovery/2026-07-22-day7`. The real run remains
+date-gated and read-only.
+
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
 dry-run proved the candidate is not live (`21b545af7b0a…` source hash versus
