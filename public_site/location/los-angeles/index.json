@@ -2,100 +2,20 @@
   "title": "Art appraisers in Los Angeles, California",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-07-11T15:47:31.181Z",
+  "generatedAt": "2026-07-15T09:19:33.020Z",
   "location": {
     "slug": "los-angeles",
     "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
     "name": "Art appraisers in Los Angeles, California",
     "description": "Compare art appraisers in Los Angeles, California.",
-    "numberOfListedAppraisers": 11,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Alice Karle Appraisal",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/alice-karle-fine-art-appraiser/",
-        "slug": "alice-karle-fine-art-appraiser",
-        "image": "https://www.alicekarleappraiserfineart.com/wp-content/uploads/images/public/paintings/cropped-GranvilleRedmondx512cf.jpg",
-        "description": "Alice Karle Appraisal offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Anya Foo - Nova Art LA",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/anya-foo---nova-art-la/",
-        "slug": "anya-foo---nova-art-la",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-jose-page-art-inc_1741089138532_elJ33YYrn.jpg?updatedAt=1741089139664",
-        "description": "Anya Foo - Nova Art LA provides professional art appraisal services specializing in Eastern European Art, Market Analysis, International Collections. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Art World Appraisals- Fine Art Appraiser Los Angeles",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-world-appraisals-phd/",
-        "slug": "art-world-appraisals-phd",
-        "image": "https://images.squarespace-cdn.com/content/v1/627478787b7f84059ebc4157/d1d421e9-246d-486b-8df4-30458593cc10/favicon.ico?format=100w",
-        "description": "Art World Appraisals- Fine Art Appraiser Los Angeles offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Dina Brown Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown-art-appraisals/",
-        "slug": "dina-brown-art-appraisals",
-        "image": "https://static.wixstatic.com/media/5d1bf9_b0a83217da7b46a1aaa67c8662493f36%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/5d1bf9_b0a83217da7b46a1aaa67c8662493f36%7Emv2.jpg",
-        "description": "Dina Brown Art Appraisals offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Gurr Johns",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
-        "slug": "gurr-johns",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_jennifer-lynch-pinpoint_1741089162657_EupCXqAB5.jpg?updatedAt=1741089163923",
-        "description": "Gurr Johns provides professional art appraisal services specializing in High-Value Appraisals, Expert Witness. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Mimesis Gallery",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
-        "slug": "mimesis-gallery",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_sacramento-appraiseitnow_1741088893053_5ocAo47Wn.jpg?updatedAt=1741088894283",
-        "description": "Mimesis Gallery provides professional art appraisal services specializing in Art Valuations, Consignment-based Sales. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "Open to the Public",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
         "slug": "open-to-the-public",
         "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
         "description": "Open to the Public is a Los Angeles-based firm led by Kaycee Baron, providing independent, USPAP-compliant fine art appraisal and consulting services for private collectors, corporate clients, institutions, and art advisors. Specializing in postwar and contemporary art and photography, the firm delivers trusted,…",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Page Art, Inc.",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
-        "slug": "page-art-inc",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_savannah-anderson-fine-art-appraisals-afaa_1741089235918_we-MttbFK.jpg?updatedAt=1741089237007",
-        "description": "Page Art, Inc. provides professional art appraisal services specializing in Insurance Claims, Estate Liquidation, Expert Witness Testimony. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Roth Escher Art Group",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/roth-escher-art-group/",
-        "slug": "roth-escher-art-group",
-        "image": "https://rothescherart.com/wp-content/uploads/2018/10/cropped-favicon-32x32.png",
-        "description": "Roth Escher Art Group offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Saylor Rice Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
-        "slug": "saylor-rice-appraisals",
-        "image": "https://assets.appraisily.com/assets/directory/appraiser-images/appraiser_san-diego-mimesis-gallery_1741089081260_KjdHZcmg1.jpg?updatedAt=1741089082370",
-        "description": "Saylor Rice Appraisals provides professional art appraisal services specializing in Insurance Appraisals, Damage/Loss Appraisals. With Established business experience, we offer expert valuations for insurance, estate planning, charitable donations, and more.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "South Bay Art Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/southbayartappraisal/",
-        "slug": "southbayartappraisal",
-        "image": "https://static.parastorage.com/client/pfavico.ico",
-        "description": "South Bay Art Appraisals offers fine art appraisal services serving Los Angeles, CA. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
         "publicRouteAvailable": true
       }
     ],

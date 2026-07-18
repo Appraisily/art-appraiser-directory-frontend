@@ -1,0 +1,185 @@
+{
+  "reviewedAt": "2026-07-15",
+  "reviewedBy": "manual_official_website_review",
+  "policy": "Index only providers whose official website confirms identity, primary location, fine-art appraisal relevance, and useful provider-specific facts. All other profiles remain under review and are excluded from discovery surfaces.",
+  "providers": {
+    "open-to-the-public": {
+      "name": "Open to the Public",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "sourceUrl": "https://opentothepublic.art/",
+      "sourceUrls": [
+        "https://opentothepublic.art/",
+        "https://opentothepublic.art/about/",
+        "https://opentothepublic.art/art-appraisals/"
+      ],
+      "title": "Open to the Public — Los Angeles Fine-Art Appraiser",
+      "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
+      "about": "Open to the Public is a Los Angeles-based fine-art appraisal and consulting firm led by Kaycee Olsen. Its official website states that the practice prepares USPAP-compliant appraisals and specializes in postwar and contemporary art and photography.",
+      "specialties": [
+        "Postwar and contemporary art",
+        "Photography",
+        "Paintings, prints, sculpture, and works on paper"
+      ],
+      "services": [
+        "Insurance appraisals",
+        "Estate and charitable-donation appraisals",
+        "Damage or loss appraisals",
+        "Collection management and art consulting"
+      ],
+      "qualifications": "The official website identifies Kaycee Olsen as an Accredited Member of the Appraisers Association of America and describes the firm's appraisal work as USPAP-compliant.",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ]
+    },
+    "heidi-vaughan-ma-isa-am": {
+      "name": "Heidi Vaughan Fine Art",
+      "city": "Houston",
+      "region": "TX",
+      "country": "US",
+      "sourceUrl": "https://heidivaughanfineart.com/about",
+      "sourceUrls": [
+        "https://heidivaughanfineart.com/about",
+        "https://heidivaughanfineart.com/gallery-team"
+      ],
+      "title": "Heidi Vaughan Fine Art — Houston Art Appraisals",
+      "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
+      "about": "Heidi Vaughan Fine Art is a Houston gallery, art advisory, and consulting firm located in the Upper Kirby district. Its official website confirms fine-art appraisal work for insurance, estate planning, equitable distribution, and charitable donations.",
+      "specialties": [
+        "Fine art",
+        "Texas art and artists",
+        "Collection valuation and advisory"
+      ],
+      "services": [
+        "Insurance appraisals",
+        "Estate-planning appraisals",
+        "Equitable-distribution appraisals",
+        "Charitable-donation appraisals"
+      ],
+      "qualifications": "The official website identifies Heidi Vaughan as an Accredited Member of the International Society of Appraisers in Fine Arts and states that the practice is USPAP compliant.",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ]
+    },
+    "sarah-ann-wilson-art-services": {
+      "name": "Wilson Art Services, LLC",
+      "city": "Philadelphia",
+      "region": "PA",
+      "country": "US",
+      "sourceUrl": "https://www.wilsonartservices.com/",
+      "sourceUrls": [
+        "https://www.wilsonartservices.com/"
+      ],
+      "title": "Wilson Art Services — Philadelphia Fine-Art Appraiser",
+      "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
+      "about": "Wilson Art Services, LLC is a Philadelphia-based independent fine-art appraisal and consulting practice founded by Sarah Ann Wilson. The official website confirms appraisal, collection-planning, advisory, curating, and donation services.",
+      "specialties": [
+        "Impressionist and modern art",
+        "Fine-art collection research",
+        "Collection planning and organization"
+      ],
+      "services": [
+        "Confidential appraisals",
+        "Buying and selling advisory",
+        "Downsizing and donation support",
+        "Collection management and planning"
+      ],
+      "qualifications": "The official website identifies Sarah Ann Wilson as an Accredited Member of the Appraisers Association of America in Impressionist and Modern Art.",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ]
+    },
+    "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man": {
+      "name": "AFP Art Consulting, LLC",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "sourceUrl": "https://afpartconsulting.com/",
+      "sourceUrls": [
+        "https://afpartconsulting.com/",
+        "https://afpartconsulting.com/bio",
+        "https://afpartconsulting.com/art-consulting-services"
+      ],
+      "title": "AFP Art Consulting — Boston Fine-Art Appraisals",
+      "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
+      "about": "AFP Art Consulting, LLC is a Boston-based fine-art appraisal and consulting firm founded by Andrea Foggle Plotkin. Its official website confirms appraisal, advisory, research, writing, collection-management, and exhibition-curation work.",
+      "specialties": [
+        "Paintings and works on paper",
+        "Sculpture and public art",
+        "Seventeenth-century through contemporary art"
+      ],
+      "services": [
+        "Insurance, damage, and loss appraisals",
+        "Estate, donation, and equitable-distribution appraisals",
+        "Art acquisition and divestment advisory",
+        "Collection research and management"
+      ],
+      "qualifications": "The official website states that AFP Art Consulting prepares appraisals under USPAP and American Society of Appraisers professional standards and identifies Andrea Foggle Plotkin's appraisal-studies certificate.",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ]
+    },
+    "st-lifer-art-inc-international-art-appraiser": {
+      "name": "St. Lifer Art, Inc.",
+      "city": "New York",
+      "region": "NY",
+      "country": "US",
+      "sourceUrl": "https://stliferart.com/",
+      "sourceUrls": [
+        "https://stliferart.com/",
+        "https://stliferart.com/about-the-appraiser/",
+        "https://stliferart.com/appraisals/appraisal-services/"
+      ],
+      "title": "St. Lifer Art — New York Fine-Art Appraiser",
+      "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
+      "about": "St. Lifer Art, Inc. is a New York-based fine-art appraisal firm led by Jane St. Lifer. Its official website confirms work with private collectors, artists' estates, and corporate collections, with a focus on nineteenth-, twentieth-, and twenty-first-century art.",
+      "specialties": [
+        "Nineteenth-, twentieth-, and twenty-first-century art",
+        "Paintings, prints, and photography",
+        "Posters and sculpture",
+        "American, European, Asian, Israeli, Latin American, and Russian art"
+      ],
+      "services": [
+        "Charitable-contribution appraisals",
+        "Estate-tax and insurance appraisals",
+        "Division-of-property appraisals",
+        "Collection management and sales advisory"
+      ],
+      "qualifications": "The official website identifies Jane St. Lifer as an Accredited Senior Appraiser with the American Society of Appraisers and states that reports follow ASA and USPAP requirements.",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "qualification"
+      ]
+    }
+  }
+}

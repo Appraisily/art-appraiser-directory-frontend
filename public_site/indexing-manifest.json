@@ -15,171 +15,18 @@
   },
   "counts": {
     "profiles": 859,
-    "indexableProfiles": 215,
-    "cities": 23,
-    "indexableCities": 23
+    "indexableProfiles": 5,
+    "cities": 5,
+    "indexableCities": 5
   },
   "cities": [
-    {
-      "slug": "austin",
-      "name": "Art appraisers in Austin, Texas",
-      "url": "https://art-appraisers-directory.appraisily.com/location/austin/",
-      "indexable": true,
-      "localListings": 3,
-      "renderedWords": 842,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
     {
       "slug": "boston",
       "name": "Art appraisers in Boston, Massachusetts",
       "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
       "indexable": true,
-      "localListings": 6,
-      "renderedWords": 1208,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "charleston",
-      "name": "Art appraisers in Charleston, South Carolina",
-      "url": "https://art-appraisers-directory.appraisily.com/location/charleston/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 742,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "charlotte",
-      "name": "Art appraisers in Charlotte, North Carolina",
-      "url": "https://art-appraisers-directory.appraisily.com/location/charlotte/",
-      "indexable": true,
       "localListings": 1,
-      "renderedWords": 745,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "cincinnati",
-      "name": "Art appraisers in Cincinnati, Ohio",
-      "url": "https://art-appraisers-directory.appraisily.com/location/cincinnati/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 734,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "columbus",
-      "name": "Art appraisers in Columbus, Ohio",
-      "url": "https://art-appraisers-directory.appraisily.com/location/columbus/",
-      "indexable": true,
-      "localListings": 1,
-      "renderedWords": 746,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "dallas",
-      "name": "Art appraisers in Dallas, Texas",
-      "url": "https://art-appraisers-directory.appraisily.com/location/dallas/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 827,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "denver",
-      "name": "Art appraisers in Denver, Colorado",
-      "url": "https://art-appraisers-directory.appraisily.com/location/denver/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 836,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "detroit",
-      "name": "Art appraisers in Detroit, Michigan",
-      "url": "https://art-appraisers-directory.appraisily.com/location/detroit/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 803,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "fort-worth",
-      "name": "Art appraisers in Fort Worth, Texas",
-      "url": "https://art-appraisers-directory.appraisily.com/location/fort-worth/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 868,
+      "renderedWords": 743,
       "checks": {
         "localListings": true,
         "renderedWords": true,
@@ -195,25 +42,8 @@
       "name": "Art appraisers in Houston, Texas",
       "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
       "indexable": true,
-      "localListings": 7,
-      "renderedWords": 1310,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "jacksonville",
-      "name": "Art appraisers in Jacksonville, Florida",
-      "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 817,
+      "localListings": 1,
+      "renderedWords": 738,
       "checks": {
         "localListings": true,
         "renderedWords": true,
@@ -229,42 +59,8 @@
       "name": "Art appraisers in Los Angeles, California",
       "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
       "indexable": true,
-      "localListings": 11,
-      "renderedWords": 1580,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "miami",
-      "name": "Art appraisers in Miami, Florida",
-      "url": "https://art-appraisers-directory.appraisily.com/location/miami/",
-      "indexable": true,
-      "localListings": 5,
-      "renderedWords": 1207,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "nashville",
-      "name": "Art appraisers in Nashville, Tennessee",
-      "url": "https://art-appraisers-directory.appraisily.com/location/nashville/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 815,
+      "localListings": 1,
+      "renderedWords": 748,
       "checks": {
         "localListings": true,
         "renderedWords": true,
@@ -280,8 +76,8 @@
       "name": "Art appraisers in New York, New York",
       "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
       "indexable": true,
-      "localListings": 3,
-      "renderedWords": 956,
+      "localListings": 1,
+      "renderedWords": 770,
       "checks": {
         "localListings": true,
         "renderedWords": true,
@@ -297,110 +93,8 @@
       "name": "Art appraisers in Philadelphia, Pennsylvania",
       "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
       "indexable": true,
-      "localListings": 7,
-      "renderedWords": 1258,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "phoenix",
-      "name": "Art appraisers in Phoenix, Arizona",
-      "url": "https://art-appraisers-directory.appraisily.com/location/phoenix/",
-      "indexable": true,
-      "localListings": 5,
-      "renderedWords": 1078,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "portland",
-      "name": "Art appraisers in Portland, Oregon",
-      "url": "https://art-appraisers-directory.appraisily.com/location/portland/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 821,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "providence",
-      "name": "Art appraisers in Providence, Rhode Island",
-      "url": "https://art-appraisers-directory.appraisily.com/location/providence/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 720,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "san-diego",
-      "name": "Art appraisers in San Diego, California",
-      "url": "https://art-appraisers-directory.appraisily.com/location/san-diego/",
-      "indexable": true,
-      "localListings": 4,
-      "renderedWords": 1017,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "san-francisco",
-      "name": "Art appraisers in San Francisco, California",
-      "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
-      "indexable": true,
-      "localListings": 2,
-      "renderedWords": 785,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
-    },
-    {
-      "slug": "seattle",
-      "name": "Art appraisers in Seattle, Washington",
-      "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
-      "indexable": true,
-      "localListings": 3,
-      "renderedWords": 944,
+      "localListings": 1,
+      "renderedWords": 714,
       "checks": {
         "localListings": true,
         "renderedWords": true,

@@ -2,30 +2,14 @@
   "title": "Art appraisers in New York, New York",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-07-11T15:47:31.181Z",
+  "generatedAt": "2026-07-15T09:19:33.020Z",
   "location": {
     "slug": "new-york",
     "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
     "name": "Art appraisers in New York, New York",
     "description": "Compare art appraisers in New York, New York.",
-    "numberOfListedAppraisers": 3,
+    "numberOfListedAppraisers": 1,
     "listedAppraisers": [
-      {
-        "name": "Cheney Appraisal Services",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/cheney-appraisal-services/",
-        "slug": "cheney-appraisal-services",
-        "image": "https://static.wixstatic.com/media/369ed2_96ae5bd00fb54217979c78f4967790e8%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/369ed2_96ae5bd00fb54217979c78f4967790e8%7Emv2.jpg",
-        "description": "Cheney Appraisal Services offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
-      {
-        "name": "Esquire Appraisals",
-        "url": "https://art-appraisers-directory.appraisily.com/appraiser/esquire-appraisals-inc/",
-        "slug": "esquire-appraisals-inc",
-        "image": "https://esquireappraisals.com/wp-content/uploads/2014/12/cropped-logo_website_385x105.jpg",
-        "description": "Esquire Appraisals offers fine art appraisal services serving New York, NY. Contact the business directly to confirm current service area, qualifications, fees, report type, and scheduling before engagement.",
-        "publicRouteAvailable": true
-      },
       {
         "name": "St Lifer Fine Art Inc",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
