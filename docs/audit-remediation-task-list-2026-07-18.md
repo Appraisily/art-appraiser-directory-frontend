@@ -20,8 +20,8 @@
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
 `codex/art-directory-audit-remediation-20260718`; the latest reviewed
-candidate source revision is `342f17d10f51` and its public artifact hash is
-`3632dadeaa19…`. Production remains unchanged. Deployment approval is
+candidate source revision is `9d26bf3a0bde` and its public artifact hash is
+`1839b0b264d1…`. Production remains unchanged. Deployment approval is
 recorded; release is held only for the fixed **2026-07-22** GSC read.
 
 ## External Customer QA Baseline — 2026-07-18
@@ -154,6 +154,9 @@ Internal canary evidence, 2026-07-18:
 - Native mobile keyboard traversal opened the menu with Enter, moved forward
   and backward through every menu control with a visible focus ring, and
   returned focus to the toggle after Escape.
+- Native feedback traversal reached No with Tab, displayed the explicit focus
+  ring, selected the vote with Enter, enabled the comment and submit controls,
+  and moved focus visibly into the textarea.
 - The browser observed `search_no_results` in `dataLayer`, and the analytics
   control-plane request returned 202. Unit contracts cover feedback, search,
   and geolocation event payloads without sending synthetic feedback.
@@ -506,7 +509,7 @@ date-gated and read-only.
 
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
-dry-run proved the candidate is not live (`3632dadeaa19…` source hash versus
+dry-run proved the candidate is not live (`1839b0b264d1…` source hash versus
 `e9c512451749…` active hash); production remains on
 `20260715094034-e9c512451749`. Because the service is stable and the candidate
 is a material treatment change rather than an emergency availability repair,
@@ -533,7 +536,7 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `342f17d10f51` passed `npm ci`,
+Pre-release state: clean detached checkout `9d26bf3a0bde` passed `npm ci`,
 lint, typecheck, interaction tests, the full static gate, and validation of all
 944 HTML files. Its active-document contract additionally verifies required
 initial metadata and rejects unsupported certification/review claims across
@@ -542,7 +545,7 @@ listings match canonical provider descriptions and first-party generated
 images. Its client bundle contains no suppressed provider slug, and browser
 hydration keeps unavailable profile metadata, CTAs, and telemetry context
 provider-neutral. The pinned standard-helper dry-run resolved static source
-hash `3632dadeaa19…` against active hash `e9c512451749…`. Production remains on
+hash `1839b0b264d1…` against active hash `e9c512451749…`. Production remains on
 the prior immutable release pending the July 22 GSC read.
 
 ## Evidence and Related Work
@@ -563,6 +566,8 @@ the prior immutable release pending the July 22 GSC read.
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/contrast-contract-2026-07-18.md`
 - Candidate native mobile-keyboard contract:
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/mobile-keyboard-contract-2026-07-18.md`
+- Candidate native feedback-keyboard contract:
+  `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/feedback-keyboard-contract-2026-07-18.md`
 - Post-deploy external customer QA coverage brief:
   `/srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md`
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
@@ -571,8 +576,9 @@ the prior immutable release pending the July 22 GSC read.
   route-shell/link contract `fe04256f0446`, shared static-preview regression
   `7980ffc`, active trust/metadata contract `2a4af9b18a56`, repository/runtime
   nginx parity `79821651e9ca`, bounded geolocation and reviewed client bundle
-  `342f17d10f51`, bundle-entry replacement helper `2d051520d338`, and shared
-  feed normalization `d4ac1529ef08`.
+  `342f17d10f51`, explicit feedback keyboard focus `9d26bf3a0bde`,
+  bundle-entry replacement helper `2d051520d338`, and shared feed normalization
+  `d4ac1529ef08`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
