@@ -546,6 +546,8 @@ the prior immutable release pending the July 22 GSC read.
 - GSC release evidence: `/srv/manager/seo/art-directory-recovery/2026-07-15-execution/`
 - Post-external-QA candidate screenshots:
   `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/`
+- Candidate alternate-route privacy canary:
+  `/srv/manager/reports/art-appraisers-directory-audit-20260718/post-external-predeploy/route-enforcement-fuzz-2026-07-18.md`
 - Post-deploy external customer QA coverage brief:
   `/srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md`
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
