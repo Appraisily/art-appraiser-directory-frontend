@@ -18,8 +18,8 @@
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
 `codex/art-directory-audit-remediation-20260718`. Production remains unchanged.
-The only release blockers are the fixed **2026-07-22** GSC read and explicit
-deployment approval.
+Deployment approval is recorded; release is held only for the fixed
+**2026-07-22** GSC read.
 
 ## Required Decisions
 
@@ -350,7 +350,16 @@ date-gated Day-7 read on **2026-07-22**. This candidate preserves those counts
 but materially changes delivered HTML, hydration, and assets, so it remains
 pre-release until that read is recorded. No early substitute read or GSC
 mutation was performed.
-- [ ] Obtain explicit deployment approval.
+
+Approval and release decision, 2026-07-18: the user explicitly authorized
+deployment if needed and delegated the timing decision. A standard-helper
+dry-run proved the candidate is not live (`76b988…` source hash versus
+`e9c512…` active hash); production remains on
+`20260715094034-e9c512451749`. Because the service is stable and the candidate
+is a material treatment change rather than an emergency availability repair,
+deployment is intentionally deferred until the July 22 read.
+
+- [x] Obtain explicit deployment approval.
 - [ ] Deploy only through the standard `art-appraisers-directory` static-release helper.
 - [ ] Verify active release pointer, nginx health, Cloudflare delivery, live HTML, hydration behavior, and rollback reference.
 - [ ] Rerun the live HTTP and browser matrix after release.
@@ -373,7 +382,7 @@ mutation was performed.
 
 Pre-release state: clean detached checkout `00bcb5ab` passed `npm ci`, lint,
 typecheck, interaction tests, and the full static gate. Production remains on
-the prior immutable release pending the July 22 GSC read and explicit approval.
+the prior immutable release pending the July 22 GSC read.
 
 ## Evidence and Related Work
 
