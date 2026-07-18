@@ -21,6 +21,8 @@ const verifiedProviders = manifest.providers.filter(
 const verifiedSlugs = new Set(verifiedProviders.map((provider) => provider.slug));
 const feedSlugs = new Set(appraisersFeed.map((provider) => provider.slug));
 const locationSlugs = new Set(locationsFeed.map((location) => location.slug));
+const locationSlugFromHref = (href) =>
+  String(href || '').match(/\/location\/([^/?#"' ]+)/)?.[1] || '';
 
 if (verifiedSlugs.size !== manifest.summary.verified) {
   fail('manifest summary.verified does not match verified provider rows');
@@ -36,6 +38,25 @@ for (const slug of verifiedSlugs) {
 }
 for (const slug of feedSlugs) {
   if (!verifiedSlugs.has(slug)) fail(`unverified provider appears in appraisers feed: ${slug}`);
+}
+
+for (const provider of verifiedProviders) {
+  const profilePath = path.join(publicDir, 'appraiser', provider.slug, 'index.html');
+  const profileHtml = fs.readFileSync(profilePath, 'utf8');
+  const suppressedLocationLinks = new Set();
+  const anchorHrefPattern = /<a\b[^>]*\bhref\s*=\s*(["'])(.*?)\1/gi;
+  for (const match of profileHtml.matchAll(anchorHrefPattern)) {
+    const locationSlug = locationSlugFromHref(match[2]);
+    if (locationSlug && !locationSlugs.has(locationSlug)) {
+      suppressedLocationLinks.add(locationSlug);
+    }
+  }
+  if (suppressedLocationLinks.size) {
+    fail(
+      `published profile ${provider.slug} links to non-published locations: ` +
+        [...suppressedLocationLinks].sort().join(', ')
+    );
+  }
 }
 
 if (locationSlugs.size !== manifest.summary.indexableLocations) {
