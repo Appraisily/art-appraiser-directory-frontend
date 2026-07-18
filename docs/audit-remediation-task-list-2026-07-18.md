@@ -20,7 +20,7 @@
 
 **Candidate status, 2026-07-18:** remediation is implemented and validated on
 `codex/art-directory-audit-remediation-20260718`; the latest reviewed public
-artifact snapshot is `6c8840ed0c85`. Production remains unchanged. Deployment
+artifact snapshot is `7effee917c6a`. Production remains unchanged. Deployment
 approval is recorded; release is held only for the fixed **2026-07-22** GSC
 read.
 
@@ -111,8 +111,12 @@ Internal canary evidence, 2026-07-18:
   `appraisers.json`, `llms.txt`, the sitemap, and active assets; Atlanta and
   direct suppressed `index.html` paths returned 404.
 - The generic Alicia E Weaver-shaped route returned a provider-neutral
-  unavailable page. Initial HTML and hydrated DOM contained no Alicia identity,
-  address, rating, review, contact data, or `ProfessionalService` schema.
+  unavailable page. Current-bundle verification proved that initial HTML and
+  hydrated DOM contain no Alicia identity, route slug, provider-specific
+  canonical or CTA attribution, address, rating, review, contact data, or
+  `ProfessionalService` schema. The generic page retains `noindex, nofollow`;
+  a reviewed profile retains its canonical slug, attribution, and supported
+  schema.
 - Browser network inspection found no failed candidate first-party request
   after the `/directory/assets/` nginx contract was corrected. All three
   decision-router illustrations returned 200.
@@ -221,6 +225,9 @@ Evidence: `/srv/manager/reports/art-appraisers-directory-audit-20260718/`.
 - [x] Add parity checks between the provider manifest, static HTML, hydrated client inventory, feeds, and sitemap.
 - [x] Add a regression fixture for a suppressed city such as Atlanta and a reviewed/indexable city.
 - [x] Fail validation if a suppressed provider becomes visible after hydration.
+- [x] Treat suppressed profile-shaped routes as a generic unavailable context
+  in canonical metadata, CTAs, feedback, and telemetry; fail if a shipped
+  client bundle embeds any suppressed provider slug.
 
 **Acceptance:** the manifest's approved counts—not hardcoded audit numbers—match every public and machine-readable surface before and after hydration; suppressed pages cannot show suppressed cards.
 
@@ -476,7 +483,7 @@ date-gated and read-only.
 
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
-dry-run proved the candidate is not live (`f557f2b834a2…` source hash versus
+dry-run proved the candidate is not live (`f2be11817992…` source hash versus
 `e9c512451749…` active hash); production remains on
 `20260715094034-e9c512451749`. Because the service is stable and the candidate
 is a material treatment change rather than an emergency availability repair,
@@ -503,11 +510,13 @@ deployment is intentionally deferred until the July 22 read.
 - [x] Repository/docs/assets are cleaned only after the migration baseline is reproducible.
 - [x] A reviewed immutable release is deployed through the standard helper and verified live, or the backlog remains explicitly pre-release.
 
-Pre-release state: clean detached checkout `6c8840ed0c85` passed `npm ci`,
+Pre-release state: clean detached checkout `7effee917c6a` passed `npm ci`,
 lint, typecheck, interaction tests, the full static gate, and validation of all
 944 HTML files. Its five location-feed listings match canonical provider
-descriptions and first-party generated images. The pinned standard-helper
-dry-run resolved static source hash `f557f2b834a2…` against active hash
+descriptions and first-party generated images. Its client bundle contains no
+suppressed provider slug, and browser hydration keeps unavailable profile
+metadata, CTAs, and telemetry context provider-neutral. The pinned
+standard-helper dry-run resolved static source hash `f2be11817992…` against active hash
 `e9c512451749…`. Production remains on the prior immutable release pending the
 July 22 GSC read.
 
@@ -525,8 +534,9 @@ July 22 GSC read.
   `/srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md`
 - Candidate commits: frontend QA/bundle `c19814549c00`, artifact-gated route
   enforcement `9278b5335e61`, feed/artifact parity `6c8840ed0c85`, runtime
-  nginx `eb2cb93`, shared static-preview regression `7980ffc`, and shared feed
-  normalization `d4ac1529ef08`.
+  nginx `eb2cb93`, suppressed-profile anonymization `7effee917c6a`, shared
+  static-preview regression `7980ffc`, and shared feed normalization
+  `d4ac1529ef08`.
 - Repo workflow guardrails: `/srv/repos/frontends/art-appraiser-directory-frontend/docs/operational-guardrails.md`
 - Canonical static artifact: `/srv/repos/frontends/art-appraiser-directory-frontend/public_site/`
 - Provider publication manifest: `/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json`
