@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { JSDOM } from 'jsdom';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const publicDir = path.join(repoRoot, 'public_site');
@@ -159,6 +160,57 @@ for (const provider of manifest.providers.filter(
   if (provider.slug && clientBundleSource.includes(provider.slug)) {
     fail(`client bundle embeds suppressed provider slug: ${provider.slug}`);
   }
+}
+
+const activePublicDocuments = [
+  path.join(publicDir, 'index.html'),
+  path.join(publicDir, '404.html'),
+  path.join(publicDir, 'appraiser', 'index.html'),
+  path.join(publicDir, 'appraiser-unavailable.html'),
+  path.join(publicDir, 'location', 'index.html'),
+  path.join(publicDir, 'methodology', 'index.html'),
+  path.join(publicDir, 'get-listed', 'index.html'),
+  ...appraisersFeed.map((provider) =>
+    path.join(publicDir, 'appraiser', provider.slug, 'index.html')
+  ),
+  ...locationsFeed.map((location) =>
+    path.join(publicDir, 'location', location.slug, 'index.html')
+  ),
+];
+const unsupportedTrustClaimPattern =
+  /\bcertified art appraisers?\b|\bverified reviews\b/i;
+for (const filename of activePublicDocuments) {
+  const contents = fs.readFileSync(filename, 'utf8');
+  if (unsupportedTrustClaimPattern.test(contents)) {
+    fail(`unsupported trust claim found in ${path.relative(repoRoot, filename)}`);
+  }
+  const document = new JSDOM(contents).window.document;
+  const relativePath = path.relative(publicDir, filename);
+  const requiredSelectors = [
+    'title',
+    'meta[name="description"]',
+    'meta[name="theme-color"][content="#5b1f2a"]',
+    'link[rel~="icon"]',
+    'meta[property="og:title"]',
+    'meta[property="og:description"]',
+    'meta[property="og:type"]',
+    'meta[property="og:image"]',
+  ];
+  for (const selector of requiredSelectors) {
+    if (!document.querySelector(selector)) {
+      fail(`active page ${relativePath} is missing metadata selector ${selector}`);
+    }
+  }
+  if (
+    relativePath !== '404.html' &&
+    (!document.querySelector('link[rel="canonical"]') ||
+      !document.querySelector('meta[property="og:url"]'))
+  ) {
+    fail(`active page ${relativePath} is missing canonical or Open Graph URL metadata`);
+  }
+}
+if (unsupportedTrustClaimPattern.test(clientBundleSource)) {
+  fail('client bundle embeds an unsupported certified-appraiser or verified-reviews claim');
 }
 
 const nginxSource = fs.readFileSync(path.join(repoRoot, 'nginx.conf'), 'utf8');
