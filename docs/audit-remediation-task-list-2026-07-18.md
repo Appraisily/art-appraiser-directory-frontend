@@ -459,8 +459,8 @@ mutation was performed.
 
 Approval and release decision, 2026-07-18: the user explicitly authorized
 deployment if needed and delegated the timing decision. A standard-helper
-dry-run proved the candidate is not live (`76b988…` source hash versus
-`e9c512…` active hash); production remains on
+dry-run proved the candidate is not live (`a8f8c12a3cab…` source hash versus
+`e9c512451749…` active hash); production remains on
 `20260715094034-e9c512451749`. Because the service is stable and the candidate
 is a material treatment change rather than an emergency availability repair,
 deployment is intentionally deferred until the July 22 read.
