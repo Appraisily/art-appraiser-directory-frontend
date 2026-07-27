@@ -10,6 +10,7 @@ const DEFAULTS = {
   antiqueRoot: '/srv/repos/frontends/antique-appraiser-directory-frontend/public_site',
   artManifest: '/srv/repos/frontends/art-appraiser-directory-frontend/data/provider-publication-manifest.json',
   antiqueManifest: '/srv/repos/frontends/antique-appraiser-directory-frontend/data/provider-publication-manifest.json',
+  propertyConsolidation: '/srv/repos/frontends/art-appraiser-directory-frontend/data/property-consolidation-manifest.json',
 };
 
 function parseArgs(argv) {
@@ -23,6 +24,7 @@ function parseArgs(argv) {
     else if (flag === '--antique-root') options.antiqueRoot = path.resolve(String(value() || ''));
     else if (flag === '--art-manifest') options.artManifest = path.resolve(String(value() || ''));
     else if (flag === '--antique-manifest') options.antiqueManifest = path.resolve(String(value() || ''));
+    else if (flag === '--property-consolidation') options.propertyConsolidation = path.resolve(String(value() || ''));
     else if (flag === '--output') options.output = path.resolve(String(value() || ''));
     else if (flag === '--markdown') options.markdown = path.resolve(String(value() || ''));
     else if (flag === '--fail-on-conflicts') options.failOnConflicts = true;
@@ -67,6 +69,16 @@ function isPublished(record) {
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+}
+
+function normalizedUrl(value) {
+  try {
+    const url = new URL(String(value || ''));
+    url.hash = '';
+    return url.href;
+  } catch {
+    return '';
+  }
 }
 
 function sitemapSlugs(root) {
@@ -184,6 +196,7 @@ function markdownReport(report) {
     `- Shared indexable profiles: ${report.summary.sharedIndexableProfiles}`,
     `- Profiles with conflicts: ${report.summary.profilesWithConflicts}`,
     `- Unauthorized self-canonical duplicates: ${report.summary.unauthorizedSelfCanonicalDuplicates}`,
+    `- Authorized canonical migrations: ${report.summary.authorizedCanonicalMigrations}`,
     `- Primary-location conflicts: ${report.summary.primaryLocationConflicts}`,
     `- Thin art profiles under 180 visible words: ${report.summary.thinArtProfilesUnder180Words}`,
     '',
@@ -215,6 +228,7 @@ function main() {
   const options = parseArgs(process.argv.slice(2));
   const artManifest = readJson(options.artManifest);
   const antiqueManifest = readJson(options.antiqueManifest);
+  const propertyConsolidation = readJson(options.propertyConsolidation);
   const artPublished = new Map(artManifest.providers.filter(isPublished).map((record) => [record.slug, record]));
   const antiquePublished = new Map(antiqueManifest.providers.filter(isPublished).map((record) => [record.slug, record]));
   const artSitemap = sitemapSlugs(options.artRoot);
@@ -230,8 +244,30 @@ function main() {
       .filter((record) => record.canonicalProviderId)
       .map((record) => [record.canonicalProviderId, record]),
   );
-  const unauthorizedCanonicalDuplicates = [...artByCanonicalId.entries()]
-    .filter(([canonicalProviderId]) => antiqueByCanonicalId.has(canonicalProviderId))
+  const migrationsByCanonicalId = new Map(
+    propertyConsolidation.providerMigrations.map((record) => [record.canonicalProviderId, record]),
+  );
+  const duplicateCandidates = [...artByCanonicalId.entries()]
+    .filter(([canonicalProviderId]) => antiqueByCanonicalId.has(canonicalProviderId));
+  const isAuthorizedMigration = ([canonicalProviderId, artRecord]) => {
+    const antiqueRecord = antiqueByCanonicalId.get(canonicalProviderId);
+    const migration = migrationsByCanonicalId.get(canonicalProviderId);
+    if (!migration || !antiqueRecord) return false;
+    const artEvidence = profileEvidence(options.artRoot, artRecord, artSitemap);
+    const antiqueEvidence = profileEvidence(options.antiqueRoot, antiqueRecord, antiqueSitemap);
+    return normalizedUrl(migration.sourceUrl) === normalizedUrl(artEvidence.canonical)
+      && normalizedUrl(migration.destinationUrl) === normalizedUrl(antiqueEvidence.canonical);
+  };
+  const authorizedCanonicalMigrations = duplicateCandidates
+    .filter(isAuthorizedMigration)
+    .map(([canonicalProviderId, artRecord]) => ({
+      canonicalProviderId,
+      artSlug: artRecord.slug,
+      antiqueSlug: antiqueByCanonicalId.get(canonicalProviderId).slug,
+      canonicalUrl: migrationsByCanonicalId.get(canonicalProviderId).destinationUrl,
+    }));
+  const unauthorizedCanonicalDuplicates = duplicateCandidates
+    .filter((candidate) => !isAuthorizedMigration(candidate))
     .map(([canonicalProviderId, artRecord]) => ({
       canonicalProviderId,
       artSlug: artRecord.slug,
@@ -268,6 +304,7 @@ function main() {
       antiqueRoot: options.antiqueRoot,
       artManifest: options.artManifest,
       antiqueManifest: options.antiqueManifest,
+      propertyConsolidation: options.propertyConsolidation,
     },
     summary: {
       sharedIndexableProfiles: pairs.length,
@@ -275,10 +312,12 @@ function main() {
       primaryLocationConflicts: conflictsByCode['primary-location-mismatch'] || 0,
       thinArtProfilesUnder180Words: pairs.filter((pair) => pair.art.visibleWords < 180).length,
       unauthorizedSelfCanonicalDuplicates: unauthorizedCanonicalDuplicates.length,
+      authorizedCanonicalMigrations: authorizedCanonicalMigrations.length,
       conflictsByCode,
     },
     pairs,
     unauthorizedCanonicalDuplicates,
+    authorizedCanonicalMigrations,
   };
 
   const json = `${JSON.stringify(report, null, 2)}\n`;

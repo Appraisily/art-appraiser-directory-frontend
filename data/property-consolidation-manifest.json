@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "decidedAt": "2026-07-27",
+  "sourceOrigin": "https://art-appraisers-directory.appraisily.com",
+  "destinationOrigin": "https://antique-appraiser-directory.appraisily.com",
+  "providerMigrations": [
+    {
+      "canonicalProviderId": "provider:afp-art-consulting",
+      "sourceUrl": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "destinationUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/"
+    },
+    {
+      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
+      "sourceUrl": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "destinationUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/"
+    },
+    {
+      "canonicalProviderId": "provider:open-to-the-public",
+      "sourceUrl": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "destinationUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/open-to-the-public/"
+    },
+    {
+      "canonicalProviderId": "provider:wilson-art-services",
+      "sourceUrl": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "destinationUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/"
+    },
+    {
+      "canonicalProviderId": "provider:st-lifer-fine-art",
+      "sourceUrl": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "destinationUrl": "https://antique-appraiser-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/"
+    }
+  ]
+}
