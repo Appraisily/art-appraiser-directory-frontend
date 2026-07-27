@@ -33,6 +33,13 @@ The old July 15 Day-7 gate is closed as superseded, not represented as a
 completed read. The only current external gate is ARTQA-010's authenticated
 Search Console UI work.
 
+**Consolidated 2026-07-27:** this historical backlog is superseded by the
+verified Art Directory consolidation release. The Art hostname now redirects
+the reviewed public cohort to the Antique & Art directory in one permanent
+hop; unknown and suppressed profiles remain terminal. The canonical release
+contract and follow-up measurement gates live in
+`/srv/manager/projects/art-directory-consolidation-20260727/implementation-task-list.md`.
+
 ## External Customer QA Baseline — 2026-07-18
 
 The external anonymous customer test ran against the unchanged production
