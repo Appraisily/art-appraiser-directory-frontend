@@ -183,6 +183,7 @@ function markdownReport(report) {
     '',
     `- Shared indexable profiles: ${report.summary.sharedIndexableProfiles}`,
     `- Profiles with conflicts: ${report.summary.profilesWithConflicts}`,
+    `- Unauthorized self-canonical duplicates: ${report.summary.unauthorizedSelfCanonicalDuplicates}`,
     `- Primary-location conflicts: ${report.summary.primaryLocationConflicts}`,
     `- Thin art profiles under 180 visible words: ${report.summary.thinArtProfilesUnder180Words}`,
     '',
@@ -219,6 +220,25 @@ function main() {
   const artSitemap = sitemapSlugs(options.artRoot);
   const antiqueSitemap = sitemapSlugs(options.antiqueRoot);
   const sharedSlugs = [...artPublished.keys()].filter((slug) => antiquePublished.has(slug)).sort();
+  const artByCanonicalId = new Map(
+    [...artPublished.values()]
+      .filter((record) => record.canonicalProviderId)
+      .map((record) => [record.canonicalProviderId, record]),
+  );
+  const antiqueByCanonicalId = new Map(
+    [...antiquePublished.values()]
+      .filter((record) => record.canonicalProviderId)
+      .map((record) => [record.canonicalProviderId, record]),
+  );
+  const unauthorizedCanonicalDuplicates = [...artByCanonicalId.entries()]
+    .filter(([canonicalProviderId]) => antiqueByCanonicalId.has(canonicalProviderId))
+    .map(([canonicalProviderId, artRecord]) => ({
+      canonicalProviderId,
+      artSlug: artRecord.slug,
+      antiqueSlug: antiqueByCanonicalId.get(canonicalProviderId).slug,
+      code: 'unauthorized-self-canonical-duplicate',
+      severity: 'critical',
+    }));
 
   const pairs = sharedSlugs.map((slug) => {
     const artRecord = artPublished.get(slug);
@@ -254,9 +274,11 @@ function main() {
       profilesWithConflicts: pairs.filter((pair) => pair.conflicts.length).length,
       primaryLocationConflicts: conflictsByCode['primary-location-mismatch'] || 0,
       thinArtProfilesUnder180Words: pairs.filter((pair) => pair.art.visibleWords < 180).length,
+      unauthorizedSelfCanonicalDuplicates: unauthorizedCanonicalDuplicates.length,
       conflictsByCode,
     },
     pairs,
+    unauthorizedCanonicalDuplicates,
   };
 
   const json = `${JSON.stringify(report, null, 2)}\n`;
@@ -265,7 +287,13 @@ function main() {
   if (!options.output && !options.markdown) process.stdout.write(json);
   else process.stdout.write(`${JSON.stringify(report.summary)}\n`);
 
-  if (options.failOnConflicts && report.summary.profilesWithConflicts > 0) process.exit(1);
+  if (
+    options.failOnConflicts
+    && (
+      report.summary.profilesWithConflicts > 0
+      || report.summary.unauthorizedSelfCanonicalDuplicates > 0
+    )
+  ) process.exit(1);
 }
 
 try {

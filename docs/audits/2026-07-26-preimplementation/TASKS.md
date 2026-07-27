@@ -1,0 +1,39 @@
+# Accepted audit tasks
+
+6 accepted tasks from 6 Claude candidates.
+
+- [ ] **HIGH — Arbitrary /appraiser/<slug>/ URLs return HTTP 200 soft-404 with contradictory noindex + cross-canonical signals** (`nginx.conf:93`)
+  - Change: Change the enforcement branch to return 404 (e.g. 'error_page 404 /appraiser-unavailable.html;' scoped so the branded body is served with a 404 status, mirroring the existing error_page 404 /404.html pattern), reserve 301 for verified replacements, and drop the cross-page canonical from the unavailable page since a 404/410 response makes it moot.
+  - Regression test: Add a config-contract test that starts nginx with the marker present and asserts: each of the 5 allowlisted /appraiser/<slug>/ routes returns 200 with its own canonical; any non-allowlisted slug (e.g. /appraiser/alicia-e-weaver/) returns 404 (or 410) while still rendering the branded unavailable body; and no 200 response carries both noindex and a canonical to a different URL.
+  - Evidence: Confirmed in production: an arbitrary never-published provider slug returns HTTP 200 with noindex,nofollow and a canonical to /appraiser/. The active release marker is present. This creates a real unbounded soft-unavailable surface and conflicts with the desired retired-route cleanup.
+  - Verify: `curl -sS -D /tmp/cc001-headers https://art-appraisers-directory.appraisily.com/appraiser/claude-audit-never-published-20260726/ -o /tmp/cc001-body`, `test -f /mnt/srv-storage/art-appraisers-directory/releases/current/.reviewed-route-enforcement-v1`, `rg -n 'reviewed_provider_unavailable|error_page 418|appraiser/\[\^/\]' /srv/repos/frontends/art-appraiser-directory-frontend/nginx.conf`
+
+- [ ] **MEDIUM — Reviewed city and provider pages are served without any Cache-Control headers, bypassing the config's stale-HTML protection** (`nginx.conf:64`)
+  - Change: Add the same no-cache add_header set (with 'always') to the ten exact-match cohort locations, or hoist the HTML no-cache headers to the server level and override only in the asset locations.
+  - Regression test: Add an HTTP-contract test that requests every sitemap URL against the candidate container and asserts identical Cache-Control/Cloudflare-CDN-Cache-Control headers on all HTML responses (the reviewed cohort must match the homepage's no-store set).
+  - Evidence: Confirmed live: the homepage and hubs return the intended no-store header set, while reviewed Boston and Heidi Vaughan exact-match routes return only Last-Modified and no Cache-Control headers. This is a release-integrity defect, though no stale response was observed during the check.
+  - Verify: `for url in / /location/ /location/boston/ /appraiser/heidi-vaughan-ma-isa-am/; do curl -sSI "https://art-appraisers-directory.appraisily.com$url" | rg -i '^(HTTP/|cache-control:|cloudflare-cdn-cache-control:|cf-edge-cache:|pragma:|expires:|last-modified:)'; done`, `sed -n '64,96p' /srv/repos/frontends/art-appraiser-directory-frontend/nginx.conf`
+
+- [ ] **MEDIUM — All 12 canonical provider-alias 301s redirect to slugs outside the reviewed allowlist, terminating at the 200 noindex soft-404** (`nginx.conf:105`)
+  - Change: Delete or repoint each alias: 301 only where the target slug is actually published, and return 404/410 for retired providers with no verified replacement, per the consult's remediation item 2.
+  - Regression test: Extend the route-link contract (check:route-links) to parse every 'return 301' target in nginx.conf and fail unless the target is a member of the published allowlist/sitemap or an approved external URL; add a fixture asserting the current 12 alias targets resolve to real 200 content or the aliases are removed.
+  - Evidence: Confirmed all twelve live alias chains: each starts with 301 and ends on an unpublished target returning HTTP 200 noindex. None of the targets belongs to the five-provider published cohort. Each alias must be re-proven and either redirected to a published replacement or retired with a non-200 status.
+  - Verify: `curl -sSL -o /tmp/cc003-body -w '%{http_code} %{url_effective}' https://art-appraisers-directory.appraisily.com/appraiser/amelia-jeffers-auctioneers-appraisers/`, `sed -n '79,116p' /srv/repos/frontends/art-appraiser-directory-frontend/nginx.conf`, `rg -n '<loc>' /srv/repos/frontends/art-appraiser-directory-frontend/public_site/sitemap.xml`
+
+- [ ] **LOW — Current QA acceptance brief codifies the 200 soft-404 behavior that the newer SEO remediation classifies as a defect** (`docs/postdeploy-external-customer-qa-brief-2026-07-18.md:73`)
+  - Change: When finalizing the consult's task list, amend the QA brief's routing acceptance items (suppressed provider status, and the /location/atlanta/ expectations if 410 is adopted) in the same change, and mark the 2026-07-18 brief as superseded for those items.
+  - Regression test: Add a docs-consistency check to the remediation workflow: when the provider-route status contract changes, require a same-change update to the QA brief's acceptance appendix (a grep-able 'expected status for suppressed provider routes' line kept identical in both documents).
+  - Evidence: The process-document conflict is exact and current: the 2026-07-18 QA brief permits HTTP 200 for a suppressed provider, while the SEO remediation context requires a real 404. The QA contract must change in the same patch as routing to avoid a false regression result.
+  - Verify: `rg -n 'may return 200|real branded.*404|arbitrary provider' /srv/repos/frontends/art-appraiser-directory-frontend/docs/postdeploy-external-customer-qa-brief-2026-07-18.md /srv/repos/frontends/art-appraiser-directory-frontend/docs/claude-seo-consult-context-2026-07-26.md`
+
+- [ ] **LOW — Static homepage shell hides primary navigation on mobile with no non-JavaScript fallback** (`public_site/index.html:51`)
+  - Change: Keep the links visible on mobile in the static shell (e.g. wrap them or reduce font size) instead of display:none, or add a CSS-only disclosure; let hydration replace it with the full menu.
+  - Regression test: Add a static-shell check (extend test-interactions or the route-shell contract) that renders each active document at 390px with scripts disabled and asserts every primary nav destination remains reachable via at least one visible link or a functional non-JS disclosure control.
+  - Evidence: The static homepage source directly hides Locations and Methodology below 680px and provides no static toggle. Hydration normally replaces the shell, so this is not a primary indexation cause, but it is a real non-JavaScript and failed-bundle navigation regression worth covering in the release contract.
+  - Verify: `rg -n 'static-nav-links|@media \(max-width: 680px\)|<nav' /srv/repos/frontends/art-appraiser-directory-frontend/public_site/index.html`
+
+- [ ] **LOW — Build gate writes audit output to a fixed, predictable /tmp path on a shared VPS** (`package.json:9`)
+  - Change: Write the report to a repo-local ignored directory (e.g. ./reports/ or a mkdtemp-created directory) instead of a fixed /tmp filename.
+  - Regression test: Add a unit test for the audit script asserting it refuses to write through an existing symlink (lstat check or O_NOFOLLOW/O_EXCL open) and defaults to a repo-local ignored path.
+  - Evidence: The package gate uses a fixed /tmp filename and the audit script creates the parent then calls ordinary fs.writeFile without symlink or exclusivity checks. Cross-user attack likelihood is low on this VPS, but concurrent agent/build clobbering is credible. Move the generated report to an isolated run directory.
+  - Verify: `rg -n '/tmp/art-provider-source-quality|writeFile|mkdtemp|lstat' /srv/repos/frontends/art-appraiser-directory-frontend/package.json /srv/repos/frontends/art-appraiser-directory-frontend/scripts/audit-provider-source-quality.mjs`

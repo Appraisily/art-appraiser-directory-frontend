@@ -8,6 +8,7 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const PUBLIC_DIR = path.join(ROOT, 'public_site');
 const MANIFEST_PATH = path.join(ROOT, 'data/provider-publication-manifest.json');
 const REVIEW_PATH = path.join(ROOT, 'data/recovery-reviewed-provider-cohort.json');
+const CITY_DECISIONS_PATH = path.join(ROOT, 'data/city-publication-decisions.json');
 const BASE_URL = 'https://art-appraisers-directory.appraisily.com';
 const write = process.argv.includes('--write');
 
@@ -116,6 +117,33 @@ function correctionLink(document, slug) {
   (document.querySelector('main') || document.body).appendChild(paragraph);
 }
 
+function pointLocationBreadcrumbsAtHub(document) {
+  for (const link of document.querySelectorAll('a[href^="/location/"], a[href^="https://art-appraisers-directory.appraisily.com/location/"]')) {
+    link.setAttribute('href', '/location/');
+    if (/^art appraisers in /i.test(compact(link.textContent))) link.textContent = 'Browse locations';
+  }
+  for (const script of document.querySelectorAll('script[type="application/ld+json"]')) {
+    let parsed;
+    try {
+      parsed = JSON.parse(script.textContent || 'null');
+    } catch {
+      continue;
+    }
+    const nodes = Array.isArray(parsed) ? parsed : [parsed];
+    for (const node of nodes) {
+      if (node?.['@type'] !== 'BreadcrumbList' || !Array.isArray(node.itemListElement)) continue;
+      for (const item of node.itemListElement) {
+        const url = String(item?.item || item?.url || '');
+        if (!url.includes('/location/')) continue;
+        if ('item' in item) item.item = `${BASE_URL}/location/`;
+        if ('url' in item) item.url = `${BASE_URL}/location/`;
+        item.name = 'Locations';
+      }
+    }
+    script.textContent = JSON.stringify(Array.isArray(parsed) ? nodes : nodes[0]);
+  }
+}
+
 function replaceListSection(document, label, values, anchor) {
   let heading = [...document.querySelectorAll('h2')].find(node => compact(node.textContent).toLowerCase() === label.toLowerCase());
   let section = heading?.closest('section');
@@ -212,6 +240,7 @@ function makeVerified(html, slug, provider, reviewedAt) {
   const evidence = `${provider.sourceUrls.map(url => url).join(' · ')}`;
   replaceTextSection(document, 'Verification', `Reviewed ${reviewedAt} from official provider sources: ${evidence}`, anchor);
   sanitizeSchema(document, { status: 'verified', provider, slug });
+  pointLocationBreadcrumbsAtHub(document);
   correctionLink(document, slug);
   return dom.serialize();
 }
@@ -256,7 +285,7 @@ function slugFromUrl(value, kind) {
   return String(value || '').match(new RegExp(`/${kind}/([^/?#]+)/?`))?.[1] || '';
 }
 
-function updateLocationPage(html, slug, allowedProfiles) {
+function updateLocationPage(html, slug, allowedProfiles, publishable) {
   const dom = new JSDOM(html);
   const { document } = dom.window;
   const allowed = new Map(allowedProfiles.map(provider => [provider.slug, provider]));
@@ -284,7 +313,10 @@ function updateLocationPage(html, slug, allowedProfiles) {
     script.textContent = JSON.stringify(Array.isArray(parsed) ? nodes : nodes[0]);
   }
   const count = allowedProfiles.length;
-  ensureMeta(document, 'meta[name="robots"]', { name: 'robots', content: count ? 'index, follow' : 'noindex, follow' });
+  ensureMeta(document, 'meta[name="robots"]', {
+    name: 'robots',
+    content: count && publishable ? 'index, follow' : 'noindex, follow',
+  });
   for (const heading of document.querySelectorAll('h2')) {
     if (/^Directory profiles \(\d+\)$/.test(compact(heading.textContent))) heading.textContent = `Directory profiles (${count})`;
   }
@@ -299,7 +331,38 @@ function updateLocationPage(html, slug, allowedProfiles) {
     empty.textContent = 'No fully reviewed local appraiser profiles are currently published for this city.';
     grid.appendChild(empty);
   }
-  return { html: dom.serialize(), indexable: count > 0 };
+  return { html: dom.serialize(), indexable: count > 0 && publishable };
+}
+
+function updateAppraiserHub(document) {
+  const main = document.querySelector('main');
+  const list = main?.querySelector('ul');
+  if (!main || !list) throw new Error('Appraiser hub is missing its main provider list');
+  document.querySelector('[data-appraiser-hub-review-guide]')?.remove();
+  const guide = document.createElement('div');
+  guide.setAttribute('data-appraiser-hub-review-guide', 'true');
+  guide.className = 'appraiser-hub-review-guide';
+  guide.innerHTML = `
+    <section>
+      <h2>What the review covers</h2>
+      <p>Publication requires an official source supporting provider identity, a primary location, and relevance to fine-art appraisal. Each profile identifies its source and review date and offers a correction path.</p>
+      <p>The directory does not independently confirm current availability, fees, service area, engagement terms, ratings, or review counts.</p>
+    </section>
+    <section>
+      <h2>How to compare profiles</h2>
+      <p>Start with the provider's verified primary location, then compare supported specialties, appraisal purposes, qualifications, and the linked official source. A primary location is not a promise of coverage in every nearby city.</p>
+      <p>Confirm whether the assignment can be completed remotely or needs an in-person inspection before engaging a provider.</p>
+    </section>`;
+  list.insertAdjacentElement('beforebegin', guide);
+  const style = document.querySelector('style');
+  if (style && !style.textContent.includes('.appraiser-hub-review-guide')) {
+    style.textContent += `
+      .appraiser-hub-review-guide { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 32px 0; }
+      .appraiser-hub-review-guide section { padding: 20px; border: 1px solid #d8d0c6; background: #fff; }
+      .appraiser-hub-review-guide h2 { margin: 0 0 8px; font-family: Georgia, serif; font-size: 24px; }
+      .appraiser-hub-review-guide p { margin: 8px 0 0; }
+      @media (max-width: 680px) { .appraiser-hub-review-guide { grid-template-columns: 1fr; } }`;
+  }
 }
 
 async function writeIfChanged(filePath, next, changes) {
@@ -312,6 +375,12 @@ async function writeIfChanged(filePath, next, changes) {
 async function main() {
   const review = JSON.parse(await fs.readFile(REVIEW_PATH, 'utf8'));
   const manifest = JSON.parse(await fs.readFile(MANIFEST_PATH, 'utf8'));
+  const cityDecisions = JSON.parse(await fs.readFile(CITY_DECISIONS_PATH, 'utf8'));
+  const retainedCities = new Set(
+    cityDecisions.cities
+      .filter(city => city.status === 'retained')
+      .map(city => city.slug),
+  );
   const reviewed = new Map(Object.entries(review.providers));
   const changes = [];
   const verifiedRecords = [];
@@ -371,7 +440,12 @@ async function main() {
     if (!entry.isDirectory()) continue;
     const filePath = path.join(locationRoot, entry.name, 'index.html');
     const before = await fs.readFile(filePath, 'utf8');
-    const result = updateLocationPage(before, entry.name, verifiedByCity.get(entry.name) || []);
+    const result = updateLocationPage(
+      before,
+      entry.name,
+      verifiedByCity.get(entry.name) || [],
+      retainedCities.has(entry.name),
+    );
     await writeIfChanged(filePath, result.html, changes);
     if (result.indexable) indexableLocations.add(entry.name);
   }
@@ -389,6 +463,7 @@ async function main() {
 
   const appraiserIndexPath = path.join(PUBLIC_DIR, 'appraiser', 'index.html');
   const appraiserDom = new JSDOM(await fs.readFile(appraiserIndexPath, 'utf8'));
+  updateAppraiserHub(appraiserDom.window.document);
   const appraiserList = appraiserDom.window.document.querySelector('main ul');
   if (appraiserList) {
     appraiserList.textContent = '';
@@ -403,11 +478,9 @@ async function main() {
   }
   await writeIfChanged(appraiserIndexPath, appraiserDom.serialize(), changes);
 
-  manifest.generatedAt = new Date().toISOString();
   manifest.policyVersion = 2;
   manifest.policy = review.policy;
   manifest.summary = {
-    changedProfiles: changes.filter(file => file.startsWith('public_site/appraiser/') && file.endsWith('/index.html')).length,
     indexable: verifiedRecords.length,
     verified: verifiedRecords.length,
     limited: 0,
@@ -415,8 +488,25 @@ async function main() {
     appraiserIndexEntries: verifiedRecords.length,
     indexableLocations: indexableLocations.size,
   };
-  const manifestNext = `${JSON.stringify(manifest, null, 2)}\n`;
   const manifestBefore = await fs.readFile(MANIFEST_PATH, 'utf8');
+  const previousGeneratedAt = manifest.generatedAt;
+  delete manifest.generatedAt;
+  const manifestWithoutTimestamp = JSON.stringify(manifest, null, 2);
+  const previousWithoutTimestamp = JSON.stringify(
+    (() => {
+      const previous = JSON.parse(manifestBefore);
+      delete previous.generatedAt;
+      return previous;
+    })(),
+    null,
+    2,
+  );
+  if (manifestWithoutTimestamp !== previousWithoutTimestamp) {
+    manifest.generatedAt = new Date().toISOString();
+  } else if (previousGeneratedAt) {
+    manifest.generatedAt = previousGeneratedAt;
+  }
+  const manifestNext = `${JSON.stringify(manifest, null, 2)}\n`;
   if (manifestBefore !== manifestNext) {
     changes.push(path.relative(ROOT, MANIFEST_PATH));
     if (write) await fs.writeFile(MANIFEST_PATH, manifestNext);

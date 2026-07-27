@@ -30,17 +30,15 @@
         }
       }
     </script>
-    <link rel="preload" href="/directory/assets/index-DRDFdRto.css" as="style" crossorigin>
-    <link rel="preload" href="/directory/assets/index-DjS39PZh.js" as="script" crossorigin>
-    <link rel="stylesheet" crossorigin href="/directory/assets/index-DRDFdRto.css">
+    <link rel="preload" href="/directory/assets/index-B719p93V.css" as="style" crossorigin>
+    <link rel="stylesheet" crossorigin href="/directory/assets/index-B719p93V.css">
     <script src="https://appraisily.com/__ENV__.js" defer></script>
-    <script type="module" crossorigin src="/directory/assets/index-DjS39PZh.js" defer></script>
     <style>
       body { margin: 0; background: #fbfaf7; color: #231f1b; font-family: Inter, system-ui, sans-serif; }
       .static-shell { min-height: 100vh; }
-      .static-nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 64px; padding: 0 24px; border-bottom: 1px solid #d8d0c6; background: #fff; }
+      .static-nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; min-height: 64px; padding: 12px 24px; border-bottom: 1px solid #d8d0c6; background: #fff; }
       .static-nav a { color: #231f1b; text-decoration: none; font-weight: 600; }
-      .static-nav-links { display: flex; align-items: center; gap: 20px; font-size: 14px; }
+      .static-nav-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; font-size: 14px; }
       .static-hero { padding: 72px 24px; border-bottom: 1px solid #d8d0c6; background: #f4efe6; text-align: center; }
       .static-hero h1 { max-width: 820px; margin: 0 auto; font-family: Georgia, serif; font-size: clamp(38px, 7vw, 66px); line-height: 1.08; }
       .static-hero p { max-width: 680px; margin: 24px auto 0; color: #675f58; line-height: 1.7; }
@@ -49,7 +47,9 @@
       .static-locations ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding: 0; list-style: none; }
       .static-locations a { display: flex; align-items: center; min-height: 44px; padding: 0 14px; border: 1px solid #d8d0c6; background: #fff; color: #5b1f2a; text-decoration: none; font-weight: 600; }
       @media (max-width: 680px) {
-        .static-nav-links a:not(:last-child) { display: none; }
+        .static-nav { align-items: flex-start; }
+        .static-nav-links { width: 100%; justify-content: space-between; }
+        .static-nav-links a { min-height: 44px; display: inline-flex; align-items: center; }
         .static-locations ul { grid-template-columns: 1fr; }
       }
     </style>
@@ -60,6 +60,7 @@
         <header class="static-nav">
           <a href="/">Art Appraisers Directory</a>
           <nav class="static-nav-links" aria-label="Primary">
+            <a href="/appraiser/">Appraisers</a>
             <a href="/location/">Locations</a>
             <a href="/methodology/">Methodology</a>
             <a href="/get-listed/">Correct a listing</a>
@@ -68,17 +69,17 @@
         <main>
           <section class="static-hero">
             <h1>Find an art appraiser with clearer information.</h1>
-            <p>Browse a small, reviewed set of public listings by location, specialty, and service. Ratings are not currently published.</p>
+            <p>Browse five source-reviewed public profiles by primary location, specialty, and service. Ratings are not currently published.</p>
           </section>
-          <section class="static-locations">
-            <h2>Reviewed locations</h2>
-            <p>Every city shown here has at least one listing in the current reviewed publication cohort.</p>
+          <section class="static-locations" data-appraisily-crawl-links>
+            <h2>Source-reviewed appraisers</h2>
+            <p>Each provider profile links to its official source and explains the facts included in the directory.</p>
             <ul>
-              <li><a href="/location/boston/">Boston, Massachusetts</a></li>
-              <li><a href="/location/houston/">Houston, Texas</a></li>
-              <li><a href="/location/los-angeles/">Los Angeles, California</a></li>
-              <li><a href="/location/new-york/">New York, New York</a></li>
-              <li><a href="/location/philadelphia/">Philadelphia, Pennsylvania</a></li>
+              <li><a href="/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/">AFP Art Consulting — Boston</a></li>
+              <li><a href="/appraiser/heidi-vaughan-ma-isa-am/">Heidi Vaughan Fine Art — Houston</a></li>
+              <li><a href="/appraiser/open-to-the-public/">Open to the Public — Los Angeles</a></li>
+              <li><a href="/appraiser/st-lifer-art-inc-international-art-appraiser/">St. Lifer Art — New York</a></li>
+              <li><a href="/appraiser/sarah-ann-wilson-art-services/">Wilson Art Services — Philadelphia</a></li>
             </ul>
           </section>
         </main>

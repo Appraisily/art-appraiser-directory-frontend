@@ -1,109 +1,172 @@
 {
   "policy": {
-    "version": 2,
+    "version": 3,
     "city": {
-      "minimumLocalListings": 1,
-      "minimumRenderedWords": 0,
-      "requireCanonical": true,
-      "requireDescription": true,
-      "requireFaqSchema": false,
-      "requireH1": true
+      "policy": "reviewed-decision-manifest-only"
     },
     "profile": {
-      "policy": "preserve-reviewed-state"
-    }
+      "policy": "verified-provider-manifest-only"
+    },
+    "lastmod": "omit-without-reviewed-change-ledger"
   },
   "counts": {
-    "profiles": 859,
+    "profiles": 5,
     "indexableProfiles": 5,
     "cities": 5,
-    "indexableCities": 5
+    "indexableCities": 0
   },
+  "profiles": [
+    {
+      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "name": "AFP Art Consulting, LLC",
+      "canonicalProviderId": "provider:afp-art-consulting",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-07-15",
+      "sourceUrl": "https://afpartconsulting.com/",
+      "city": "Boston",
+      "region": "MA",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/"
+    },
+    {
+      "slug": "heidi-vaughan-ma-isa-am",
+      "name": "Heidi Vaughan Fine Art",
+      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-07-15",
+      "sourceUrl": "https://heidivaughanfineart.com/about",
+      "city": "Houston",
+      "region": "TX",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/"
+    },
+    {
+      "slug": "open-to-the-public",
+      "name": "Open to the Public",
+      "canonicalProviderId": "provider:open-to-the-public",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-07-15",
+      "sourceUrl": "https://opentothepublic.art/",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/"
+    },
+    {
+      "slug": "sarah-ann-wilson-art-services",
+      "name": "Wilson Art Services, LLC",
+      "canonicalProviderId": "provider:wilson-art-services",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-07-15",
+      "sourceUrl": "https://www.wilsonartservices.com/",
+      "city": "Philadelphia",
+      "region": "PA",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/"
+    },
+    {
+      "slug": "st-lifer-art-inc-international-art-appraiser",
+      "name": "St. Lifer Art, Inc.",
+      "canonicalProviderId": "provider:st-lifer-fine-art",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-07-15",
+      "sourceUrl": "https://stliferart.com/",
+      "city": "New York",
+      "region": "NY",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/"
+    }
+  ],
   "cities": [
     {
       "slug": "boston",
-      "name": "Art appraisers in Boston, Massachusetts",
+      "name": "boston",
       "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
-      "indexable": true,
-      "localListings": 1,
+      "indexable": false,
       "renderedWords": 64,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
+      "decisionStatus": "collapsed",
+      "terminalStatus": 410,
+      "providerSlug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "canonical": "https://art-appraisers-directory.appraisily.com/location/boston/",
+      "reasons": [
+        "No verified city-level decision value independent of the provider profile."
+      ]
     },
     {
       "slug": "houston",
-      "name": "Art appraisers in Houston, Texas",
+      "name": "houston",
       "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
-      "indexable": true,
-      "localListings": 1,
+      "indexable": false,
       "renderedWords": 65,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
+      "decisionStatus": "collapsed",
+      "terminalStatus": 410,
+      "providerSlug": "heidi-vaughan-ma-isa-am",
+      "canonical": "https://art-appraisers-directory.appraisily.com/location/houston/",
+      "reasons": [
+        "No verified city-level decision value independent of the provider profile."
+      ]
     },
     {
       "slug": "los-angeles",
-      "name": "Art appraisers in Los Angeles, California",
+      "name": "los-angeles",
       "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
-      "indexable": true,
-      "localListings": 1,
+      "indexable": false,
       "renderedWords": 66,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
+      "decisionStatus": "collapsed",
+      "terminalStatus": 410,
+      "providerSlug": "open-to-the-public",
+      "canonical": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
+      "reasons": [
+        "No verified city-level decision value independent of the provider profile."
+      ]
     },
     {
       "slug": "new-york",
-      "name": "Art appraisers in New York, New York",
+      "name": "new-york",
       "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
-      "indexable": true,
-      "localListings": 1,
+      "indexable": false,
       "renderedWords": 69,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
+      "decisionStatus": "collapsed",
+      "terminalStatus": 410,
+      "providerSlug": "st-lifer-art-inc-international-art-appraiser",
+      "canonical": "https://art-appraisers-directory.appraisily.com/location/new-york/",
+      "reasons": [
+        "No verified city-level decision value independent of the provider profile."
+      ]
     },
     {
       "slug": "philadelphia",
-      "name": "Art appraisers in Philadelphia, Pennsylvania",
+      "name": "philadelphia",
       "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
-      "indexable": true,
-      "localListings": 1,
+      "indexable": false,
       "renderedWords": 64,
-      "checks": {
-        "localListings": true,
-        "renderedWords": true,
-        "canonical": true,
-        "description": true,
-        "faqSchema": true,
-        "h1": true
-      },
-      "reasons": []
+      "decisionStatus": "collapsed",
+      "terminalStatus": 410,
+      "providerSlug": "sarah-ann-wilson-art-services",
+      "canonical": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
+      "reasons": [
+        "No verified city-level decision value independent of the provider profile."
+      ]
     }
   ]
 }

@@ -1,0 +1,3839 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-26",
+  "completeness": {
+    "status": "complete_for_397_241_and_current_sitemaps",
+    "authoritative397Commit": "c61e612ea2f40ae1ec5b4949f8a0d7c4d5a18a5f",
+    "authoritative241Commit": "8891a7a53d74a2253745c02d9e5adc070bb8917c",
+    "recoveredUniqueUrls": 397
+  },
+  "counts": {
+    "200": 8,
+    "404": 372,
+    "410": 17
+  },
+  "urls": [
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/a-and-a-art-appraisals-naples-fl/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/a-z-appraisal-and-estate-consultants/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/aa-fine-art-art-appraiser-in-boca-raton-and-palm-beach/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/abd-antique-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/abh-fine-art-advisory/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/aces-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/adelaide-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/afa-fine-art/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alexander-appraisal-and-estate-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alexandria-new-york-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alice-karle-appraisals-california-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alice-karle-fine-art-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-prestige-estate-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver-prestige-estate-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/allison-gee-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/allrich-fine-art-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alpha137-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/alta-fine-art-advisory-and-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/amanda-mcconaha---js-held/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/amelia-jeffers-auctioneers-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/amelia-jeffers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/amy-i-schlegel/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/anaheim-new-york-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-campbell-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals-afaa/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/andrea-moody-fine-art-appraisals-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/anne-kelly-lewis/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-estate-buyers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisal/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-art-buyers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/anya-foo---nova-art-la/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisal-resources-arai/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisal-services-philadelphia-pa-art-antiques-furniture-estate/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisalink-for-art-and-antiques/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-of-value/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow-louisiana/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow-washington-dc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraiseitnow/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraising-plus/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/arnoult-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-and-antiques-appraisal-services-llc/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisal-services-llc/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisals-of-new-england/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-asset-management-group/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-directives/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-fortune-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-leaders-gallery-fine-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-of-estates-personal-property-appraisal-firm/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-peritus/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-preservation-services-michigan/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-services-2000-ltd-fine-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-world-appraisals-phd/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/artemappraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/artifactual-history-appraisal/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/artifactual-history/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/artrium-appraisal-elizabeth-krambeer/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/artrium-fine-art-and-estate-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/asha-fine-art-and-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ashleigh-caroline-associates-inc/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/associated-estate-appraisal-co/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/auctions-in-rochester-ny-fine-art-and-antiques-cottone-auctions/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/austin-christian-fine-art/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/austin-galleries/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/austin-national-appraisal-partners-llp/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/avalon-antiques-appraisals-and-estate-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/avant-garde/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/az-appraisal-services-estates-insurance-property-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/b-langston-estate-liquidation/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/baggenstoss-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/baker-appraisers-asian-antique-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/banks/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/barnett-fine-art/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/barry-s-slosberg-auctioneers-and-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/bernard-ewell-fine-at-appraisals-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/bertolino-arts/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/beth-weingast-fine-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/betsy-dorminy-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/blades-appraisals-fine-art-and-antique-appraisal-firm-and-broker/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/bonhams-pacific-northwest/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/borodin-fine-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-adelaide-fine-art/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-boston-appraisal-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/brady-l-dreasher/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/bravado-fine-arts/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/butenhoff-fine-art-and-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/cain-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/cambridge-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/carla-young-fine-arts-appraisals-appraisals-and-consultations/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/carrie-young/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-auctions/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/castner-values/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-barry-goldstein/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/charlotte-art-of-estates-personal-property-appraisal-firm/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/cheney-appraisal-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/chris-ingalls/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-guernsey/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-h-anderson-isa-am/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/clars-auctions/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/coast2coast-auctions/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/collector-s-fine-art-appraisal-et-associates/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/concept-art-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/constantine-fine-art-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/cottone-art-advisory-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/czudej-mcdonough/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dallas-auction-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dana-summitt-look-appraisal-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/david-dike-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/detroit-fine-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/detroit-marketrend-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/djr-authentication-lc/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/djr-authentication/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dow-art-galleries/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/doyle-pennsylvania-regional-office/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dr-mark-lee-levine/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/drake-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dudley-certified-appraisers-art-antiques-and-estates/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dumouchelles/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/duwamps-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/e-w-nash-and-son-estate-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-kitson/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-m-stanley-appraisal-services-fine-art-antiques/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/eisele-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/elise-waters-olonia/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-abston-llc/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-blackmar/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lake-lovett/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lovett/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-wells-appraisals-and-fine-art-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/emmett-appraisal-consulting-group/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ena-art-group/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/erika-holycross-prestige-estate-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/erin-e-keever/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/erin-hollenbank-js-held/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ernie-kitsap-antique-show/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-ea/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-nancy-escher/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/esquire-appraisals-inc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fidelity-estate-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-antique-furniture-and-jewelry-appraiser-in-los-angeles-ca-stuart-h-salsbury-appra/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-appraisal-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-appraisals-new-york/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-concierge/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-arts-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fox-white-art-and-antique-appraisals-nyc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/frances-redell-white-appraisal-consultant-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/freemans-hindman/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fruitcocktail-collectables/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/full-service-estate-sales-and-appraisals-houston-accredited-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/gabrielle-segal-gs-art-concierge/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/gb-fine-art-professional-art-appraisals-chicago-illinois/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/geolat/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/giardina-fine-art-appraisal-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/gilded-pear-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/green-donation-consultants/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/greg-c-brown/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/grogan-and-company/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hackwith-art-and-personal-property-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hackwith-art-personal-property-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hale-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/haney-appraisals-in-fine-art/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/harrison-appraisals-llc-appraisal-firm-westminster-md/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/heirloom-estates-llc-919-323-7524/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hill-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/historic-art-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hkpowerstudio/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hollingsworth-fine-a/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/home-foltz-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/houston-estate-sales-and-auction-company/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/houston-houston-estate-sales-and-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/houston-national-appraisal-partners-llp/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hyannis-new-york-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hyannis-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/intermountain-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/irs-art-appraisal-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/isabelle-m-weiss/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/j-carman-fine-art-advisory-and-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jacksonville-fine-art-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jacksonville-stellers-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/janet-l-ross/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-e-salvetti-kulla-ma/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-strasbaugh-fine-arts-appraising/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-lynch-pinpoint-fine-art-appraisal/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jessica-berger/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jlfineartappraisal/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/josefa-gonzalez-mariscal-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jrl-fine-art-appraisal/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jsk-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/juan-p-lluria-lluria-fine-arts/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/julia-r-bluett/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/juliette-yuan-and-associates/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/justin-rogers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kagan-fine-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kaminski-auctions/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kathy-poppers-expert-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kelly-cahn-art-advisory-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kim-a-kasten/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kinzelman-art-consulting/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/konda-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kurt-shaw-company/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lamplighter-appraisal-service-personal-property-appraisal-san-diego/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lancaster-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-k-stump/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-travis-art-appraiser/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/legacy-appraisal-group/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lena-s-appraisal-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/leprince-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lg-appraisal/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/linda-maxwell-harris/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lindsey-m-owen/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lisa-austin-laa/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/liz-anders-associates/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/look-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/loro-fine-art-restoration-and-appraisal/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lorraine-anne-davis/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lost-art-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/m-k-g-art-management-art-advisors-and-appraisers-houston-texas/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/madison-group-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/maloney-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/manhattan-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/manzi-appraisers-restoration/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/manzi-personal-property-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/maria-tarrence/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mary-peck-art-advisory/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/matthew-clayton-brown-fine-art-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mccarty-art-antiques/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mcdade-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/melanie-modica-modica-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/metropolitan-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/michael-rose-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mjp-art-services/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/momaa-museum-of-modern-american-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/museum-exchange/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/myriam-nader-salomon-myriam-nader-haitian-art-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/native-american-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-orleans-auction-galleries/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-fine-art-appraisers-boston-office/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/newton-fine-art-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/nh-auctions-and-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/orchestrated-artwork/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/palm-beach-appraisal-group/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/peenstra-antiques/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/perri-guthrie/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/peter-held-art-appraisals-associates/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-art-of-estates-personal-property-appraisal-firm/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/philadelphia-jewelry-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/phoenix-antique-gatherings/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/plcombs-asian-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/precious-restorations/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-brenda-blackmon/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-elizabeth-lovett-stephanie-calman/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-national-network/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/redtail-appraisals-rebekah-assid/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_provider_alias"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/redtail-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/reilly-clark-fine-art-and-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/reilly-clark-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/revere-auctions/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/richard-beau-lieu-and-associates-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ripley-auctions/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/rlc-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/robyn-roderick-fine-art-appraisal-services-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/rocky-mountain-art-appraisal-group/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/rosalie-wardell/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/roth-escher-art-group/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/rue-michelle-antiques/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ruffner-art-advisory/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/san-antonio-national-appraisal-partners-llp/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarasota-appraisal-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/savvy-collector/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/schlegel-fine-art-consulting-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/scholz-appraisals-and-advisory-fine-art-and-estate-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/schultz-auctioneers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/schwarz-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/scottsdale-appraisal-specialists/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/selkirk-auctions-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/selz-fine-arts-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/shelley-hall-bend-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/silvia-waltner-fine-art-services-art-appraisals-and-advisory/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sims-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/skinner-boston-bonhams/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/soltesz-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sothebys-palm-beach/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/southbayartappraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/southwest-art-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/spalding-nix-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/specialty-appraisals-antique-art-jewelry/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/spellman-collective-art-antique-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/spellman-gallery/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/spokane-fine-art-and-appraisal/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/stanford-fine-art/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephanie-calman/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephen-g-frazier-fine-art-appraiser-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/strata-fine-art-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/susan-golashovsky-personal-property-appraiser/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/sylvia-fraley-fine-art-appraisals/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/tenhagen-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-antiquarium-sale-appraisal-inquiries/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-antique-guy/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-fine-art-group/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/thompson-and-martinez-fine-art-appraisals-inc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/valia-garzon-art-services/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/vallot-auctioneers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/van-weyenbergh-fine-art/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/veritas-fine-art-and-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/victoria-shaw-art-appraisals-advisory/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/vivanco-art-and-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/vogt-auction-galleries-robert-vogt-isa/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-capital-antiques-and-fine-art-home/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-dc-new-york-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/weathers-appraisal-associates-llc/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/west-palm-beach-new-york-fine-art-appraisers/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/westchester-fine-art-auctioneers-and-appraisers/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/william-s-stamats/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/williams-fine-art-gallery/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/winston-art-group-palm-beach/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/woodard-lipe-fine-art-auction/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/wyeth-appraisals/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/austin/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_city"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/charleston/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/charlotte/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/cincinnati/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/cleveland/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/columbus/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/dallas/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/denver/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/detroit/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/fort-worth/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/hartford/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_city"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/kansas-city/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/las-vegas/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_city"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/miami/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/nashville/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/new-orleans/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_city"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/palm-beach/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 410,
+      "outcome": "known_retired_city"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/phoenix/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/pittsburgh/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/portland/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/providence/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/raleigh/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/salt-lake-city/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/san-diego/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/savannah/",
+      "provenance": [
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
+      "provenance": [
+        "241_url_sitemap",
+        "397_url_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 404,
+      "outcome": "unknown_or_unmatched"
+    }
+  ]
+}

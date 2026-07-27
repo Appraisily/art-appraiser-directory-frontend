@@ -1,23 +1,19 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, ArrowRight, ChevronDown, ExternalLink } from 'lucide-react';
+import { Menu, X, ArrowRight, ExternalLink } from 'lucide-react';
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuList,
 } from "./ui/navigation-menu";
 import { cn } from '../lib/utils';
-import { publishedCities, type DirectoryCity } from '../data/publishedCities';
 import { PARENT_SITE_URL, SITE_NAME, getPrimaryCtaUrl } from '../config/site';
 import { BRAND_LOGO_URL } from '../config/assets';
 import { trackEvent } from '../utils/analytics';
 
-type NavCity = DirectoryCity;
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const [citiesDropdownOpen, setCitiesDropdownOpen] = useState(false);
   const mobileMenuButtonRef = useRef<HTMLButtonElement>(null);
   const location = useLocation();
   const primaryCtaUrl = getPrimaryCtaUrl();
@@ -34,7 +30,6 @@ export default function Navbar() {
   // Close the mobile menu when changing routes
   useEffect(() => {
     setIsOpen(false);
-    setCitiesDropdownOpen(false);
   }, [location.pathname]);
 
   useEffect(() => {
@@ -52,6 +47,10 @@ export default function Navbar() {
   }, [isOpen]);
 
   const navItems = [
+    { name: 'Appraisers', href: '/appraiser/', external: false },
+    { name: 'Locations', href: '/location/', external: false },
+    { name: 'Methodology', href: '/methodology/', external: false },
+    { name: 'Correct a listing', href: '/get-listed/', external: false },
     { name: 'Appraisily', href: PARENT_SITE_URL, external: true },
   ];
 
@@ -66,15 +65,6 @@ export default function Navbar() {
     trackEvent('nav_link_click', {
       placement: `nav_${placement}`,
       link_text: name
-    });
-  };
-
-  const handleNavLocationClick = (city: NavCity, placement: 'desktop' | 'mobile') => {
-    trackEvent('nav_location_click', {
-      placement: `nav_${placement}`,
-      city_slug: city.slug,
-      city_name: city.name,
-      state: city.state
     });
   };
 
@@ -104,57 +94,33 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-4">
             <NavigationMenu>
               <NavigationMenuList>
-                <NavigationMenuItem className="relative">
-                  <button
-                    onClick={() => setCitiesDropdownOpen(!citiesDropdownOpen)}
-                    onBlur={() => setTimeout(() => setCitiesDropdownOpen(false), 150)}
-                    className="flex items-center px-3 py-2 text-sm font-medium rounded-md transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
-                  >
-                    Locations <ChevronDown className={`ml-1 h-4 w-4 transition-transform ${citiesDropdownOpen ? 'rotate-180' : ''}`} />
-                  </button>
-
-                  {citiesDropdownOpen && (
-                    <div
-                      className="absolute top-full left-0 mt-2 bg-white border border-gray-200 rounded-md shadow-lg p-4 z-[100] w-72 max-h-96 overflow-y-auto"
-                      onMouseDown={(e) => e.preventDefault()}
-                    >
-                      <div className="grid grid-cols-2 gap-1">
-                        {publishedCities.map((city) => (
-                          <Link
-                            key={city.slug}
-                            to={`/location/${city.slug}`}
-                            className="text-sm text-gray-700 hover:text-blue-600 py-1 px-1 rounded hover:bg-blue-50 transition-colors"
-                            data-gtm-event="nav_location_click"
-                            data-gtm-city={city.slug}
-                            data-gtm-state={city.state}
-                            data-gtm-placement="nav_desktop"
-                            onClick={() => {
-                              handleNavLocationClick(city, 'desktop');
-                              setCitiesDropdownOpen(false);
-                            }}
-                          >
-                            {city.name}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </NavigationMenuItem>
-
                 {navItems.map((item) => (
                   <NavigationMenuItem key={item.name}>
-                    <a
-                      href={item.href}
-                      className="flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
-                      {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                      data-gtm-event="nav_link_click"
-                      data-gtm-label={item.name}
-                      data-gtm-placement="nav_desktop"
-                      onClick={() => handleNavLinkClick(item.name, 'desktop')}
-                    >
-                      {item.name}
-                      {item.external && <ExternalLink className="h-3 w-3" />}
-                    </a>
+                    {item.external ? (
+                      <a
+                        href={item.href}
+                        className="flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-gtm-event="nav_link_click"
+                        data-gtm-label={item.name}
+                        data-gtm-placement="nav_desktop"
+                        onClick={() => handleNavLinkClick(item.name, 'desktop')}
+                      >
+                        {item.name} <ExternalLink className="h-3 w-3" />
+                      </a>
+                    ) : (
+                      <Link
+                        to={item.href}
+                        className="flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+                        data-gtm-event="nav_link_click"
+                        data-gtm-label={item.name}
+                        data-gtm-placement="nav_desktop"
+                        onClick={() => handleNavLinkClick(item.name, 'desktop')}
+                      >
+                        {item.name}
+                      </Link>
+                    )}
                   </NavigationMenuItem>
                 ))}
               </NavigationMenuList>
@@ -215,19 +181,7 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg max-h-[80vh] overflow-y-auto">
             {/* Mobile menu header */}
             <div className="flex items-center justify-between px-3 py-3 font-medium border-b border-gray-200 mb-2">
-              <Link
-                to="/location/"
-                className="rounded text-blue-600 text-base focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                data-gtm-event="nav_link_click"
-                data-gtm-label="Locations"
-                data-gtm-placement="nav_mobile"
-                onClick={() => {
-                  handleNavLinkClick('Locations', 'mobile');
-                  setIsOpen(false);
-                }}
-              >
-                Locations
-              </Link>
+              <span className="text-base text-gray-900">Directory menu</span>
               <button
                 onClick={() => setIsOpen(false)}
                 className="p-2 min-w-[44px] min-h-[44px] rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
@@ -237,45 +191,40 @@ export default function Navbar() {
               </button>
             </div>
 
-            {/* City grid with better touch targets */}
-            <div className="grid grid-cols-2 gap-1 px-3 pb-3 border-b border-gray-200 mb-2">
-              {publishedCities.map((city) => (
-                <Link
-                  key={city.slug}
-                  to={`/location/${city.slug}`}
-                  className="text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 py-2 px-2 min-h-[44px] flex items-center rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                  data-gtm-event="nav_location_click"
-                  data-gtm-city={city.slug}
-                  data-gtm-state={city.state}
+            {navItems.map((item) => (
+              item.external ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="flex items-center gap-2 px-3 py-3 min-h-[44px] rounded-md text-base font-medium transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  data-gtm-event="nav_link_click"
+                  data-gtm-label={item.name}
                   data-gtm-placement="nav_mobile"
                   onClick={() => {
-                    handleNavLocationClick(city, 'mobile');
+                    handleNavLinkClick(item.name, 'mobile');
                     setIsOpen(false);
                   }}
                 >
-                  {city.name}
+                  {item.name} <ExternalLink className="h-4 w-4" />
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="flex items-center gap-2 px-3 py-3 min-h-[44px] rounded-md text-base font-medium transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                  data-gtm-event="nav_link_click"
+                  data-gtm-label={item.name}
+                  data-gtm-placement="nav_mobile"
+                  onClick={() => {
+                    handleNavLinkClick(item.name, 'mobile');
+                    setIsOpen(false);
+                  }}
+                >
+                  {item.name}
                 </Link>
-              ))}
-            </div>
-
-            {/* External nav links */}
-            {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="flex items-center gap-2 px-3 py-3 min-h-[44px] rounded-md text-base font-medium transition-colors text-gray-700 hover:text-blue-600 hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                {...(item.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                data-gtm-event="nav_link_click"
-                data-gtm-label={item.name}
-                data-gtm-placement="nav_mobile"
-                onClick={() => {
-                  handleNavLinkClick(item.name, 'mobile');
-                  setIsOpen(false);
-                }}
-              >
-                {item.name}
-                {item.external && <ExternalLink className="h-4 w-4" />}
-              </a>
+              )
             ))}
           </div>
         </div>

@@ -1,5 +1,5 @@
 import allCitiesData from './cities.json';
-import publishedLocations from '../../public_site/locations.json';
+import cityPublicationDecisions from '../../data/city-publication-decisions.json';
 
 export type DirectoryCity = {
   name: string;
@@ -10,7 +10,9 @@ export type DirectoryCity = {
 };
 
 const publishedSlugs = new Set(
-  publishedLocations.locations.map((location) => location.slug)
+  cityPublicationDecisions.cities
+    .filter((city) => city.status === 'retained')
+    .map((city) => city.slug)
 );
 
 export const publishedCities = allCitiesData.cities

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "decidedAt": "2026-07-26",
+  "policy": "A legacy alias redirects only to a currently published equivalent provider. These historical aliases have no published destination in the reviewed cohort and therefore return 410.",
+  "aliases": [
+    {"slug":"amelia-jeffers-auctioneers-appraisers","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"appraiseitnow-louisiana","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"artifactual-history-appraisal","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"boston-adelaide-fine-art","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"djr-authentication-lc","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"escher-associates-nancy-escher","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"fine-art-appraisals-new-york","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"philadelphia-art-of-estates-personal-property-appraisal-firm","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"prestige-estate-services-brenda-blackmon","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"prestige-estate-services-elizabeth-lovett-stephanie-calman","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"prestige-estate-services-national-network","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."},
+    {"slug":"redtail-appraisals-rebekah-assid","terminalStatus":410,"reason":"Destination is not in the reviewed publication cohort."}
+  ]
+}

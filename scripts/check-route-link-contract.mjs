@@ -76,7 +76,21 @@ for (const relativePath of activeHtmlFiles) {
     continue;
   }
   const document = new JSDOM(fs.readFileSync(absolutePath, 'utf8')).window.document;
+  const currentLocationMatch = relativePath.match(/^location\/([^/]+)\/index\.html$/);
   for (const anchor of document.querySelectorAll('a[href]')) {
+    if (currentLocationMatch) {
+      const url = new URL(anchor.getAttribute('href'), origin);
+      const normalizedPath = url.pathname.replace(/\/+$/, '');
+      if (
+        url.origin === origin &&
+        normalizedPath === `/location/${currentLocationMatch[1]}` &&
+        !url.hash
+      ) {
+        failures.push(
+          `${relativePath}: current-page location must be static, not a self-link (${anchor.textContent.trim()})`
+        );
+      }
+    }
     checkUrl(anchor.getAttribute('href'), relativePath);
   }
 }

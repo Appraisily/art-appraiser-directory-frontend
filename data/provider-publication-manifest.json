@@ -1,14 +1,12 @@
 {
-  "generatedAt": "2026-07-15T09:10:46.545Z",
   "policyVersion": 2,
   "summary": {
-    "changedProfiles": 6,
     "indexable": 5,
     "verified": 5,
     "limited": 0,
     "suppressed": 854,
     "appraiserIndexEntries": 5,
-    "indexableLocations": 5
+    "indexableLocations": 0
   },
   "providers": [
     {
@@ -11253,5 +11251,6 @@
       "canonicalProviderId": "provider:wyeth-appraisals"
     }
   ],
-  "policy": "Index only providers whose official website confirms identity, primary location, fine-art appraisal relevance, and useful provider-specific facts. All other profiles remain under review and are excluded from discovery surfaces."
+  "policy": "Index only providers whose official website confirms identity, primary location, fine-art appraisal relevance, and useful provider-specific facts. All other profiles remain under review and are excluded from discovery surfaces.",
+  "generatedAt": "2026-07-26T19:27:52.278Z"
 }

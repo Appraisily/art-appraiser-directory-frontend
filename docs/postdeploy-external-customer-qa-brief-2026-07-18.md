@@ -64,14 +64,15 @@ after this narrative is recorded.
   and Philadelphia; each route resolves intentionally and no city is
   duplicated.
 - Homepage location groups contain those same five cities exactly once.
-- Searching Boston reaches the reviewed Boston city page.
-- Searching Toledo and Atlantis produces visible coverage feedback without
-  navigating to a broken route; editing the same input to Boston recovers.
+- The location hub exposes the five reviewed provider profiles by verified
+  primary location without linking to separate one-provider city pages.
+- Direct requests for the retired Boston, Houston, Los Angeles, New York, and
+  Philadelphia city shells return HTTP `410`.
 - `/location/atlanta/` returns HTTP 404 and exposes no provider identities,
   cards, counts, ratings, reviews, contacts, or provider schema.
 - `/location/atlanta/index.html` returns 404.
-- `/appraiser/alicia-e-weaver/` may return 200 only as the generic noindex
-  unavailable page. Initial HTML and hydrated DOM must contain no Alicia
+- `/appraiser/alicia-e-weaver/` must return a branded HTTP `404` unavailable
+  page with no canonical. Initial HTML and hydrated DOM must contain no Alicia
   identity, address, rating, review, contact data, or `ProfessionalService`
   schema.
 - `/appraiser/alicia-e-weaver/index.html` returns 404.

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "decidedAt": "2026-07-26",
+  "policy": "Each provider identity has one indexable self-canonical Appraisily home. Exact cross-host duplicates redirect to the more complete, topically specific reviewed page.",
+  "providers": [
+    {
+      "canonicalProviderId": "provider:afp-art-consulting",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "reason": "Only reviewed Appraisily publication home found."
+    },
+    {
+      "canonicalProviderId": "provider:heidi-vaughan-ma-am",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+      "reason": "Only reviewed Appraisily publication home found."
+    },
+    {
+      "canonicalProviderId": "provider:open-to-the-public",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+      "reason": "Only reviewed Appraisily publication home found."
+    },
+    {
+      "canonicalProviderId": "provider:st-lifer-fine-art",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "reason": "Only reviewed Appraisily publication home found."
+    },
+    {
+      "canonicalProviderId": "provider:wilson-art-services",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+      "retireUrls": [
+        "https://antique-appraiser-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/"
+      ],
+      "reason": "The Art profile is topically specific, source-reviewed, and more complete than the exact Antique-host duplicate."
+    }
+  ]
+}

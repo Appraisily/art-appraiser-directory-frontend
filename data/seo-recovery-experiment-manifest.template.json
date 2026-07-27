@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "status": "template_requires_post_deploy_instantiation",
+  "referenceExperiment": "/srv/manager/seo/art-directory-recovery/2026-07-15-execution",
+  "releaseBoundary": "REPLACE_WITH_DEPLOYMENT_UTC",
+  "releaseIds": {
+    "art": "REPLACE_WITH_ART_RELEASE_ID",
+    "articles": "REPLACE_WITH_ARTICLES_RELEASE_ID",
+    "antique": "REPLACE_WITH_ANTIQUE_RELEASE_ID",
+    "mainPage": "REPLACE_WITH_MAIN_PAGE_RELEASE_ID"
+  },
+  "artifactHashes": {
+    "artPublicSite": "REPLACE_WITH_ART_PUBLIC_SITE_SHA256",
+    "articles": "REPLACE_WITH_ARTICLES_CANDIDATE_SHA256",
+    "antiquePublicSite": "REPLACE_WITH_ANTIQUE_PUBLIC_SITE_SHA256",
+    "mainPage": "REPLACE_WITH_MAIN_PAGE_ARTIFACT_SHA256"
+  },
+  "sitemapUrl": "https://art-appraisers-directory.appraisily.com/sitemap.xml",
+  "sitemapSha256": "78b0117a927dbbd03355991b6c83b6182b23e31712a82f80f68c775edaf0c789",
+  "cohortUrls": [
+    "https://art-appraisers-directory.appraisily.com/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+    "https://art-appraisers-directory.appraisily.com/location/"
+  ],
+  "plannedIndexingRequestUrls": [
+    "https://art-appraisers-directory.appraisily.com/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
+    "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+    "https://art-appraisers-directory.appraisily.com/location/"
+  ],
+  "checkpointDates": {
+    "day7": "REPLACE_WITH_RELEASE_PLUS_7_UTC_DATE",
+    "day14": "REPLACE_WITH_RELEASE_PLUS_14_UTC_DATE",
+    "day28": "REPLACE_WITH_RELEASE_PLUS_28_UTC_DATE",
+    "consolidation": "REPLACE_WITH_APPROVED_CONSOLIDATION_GATE_DATE"
+  },
+  "requestReceiptLedger": "REPLACE_WITH_APPEND_ONLY_REQUEST_RECEIPT_LEDGER_PATH"
+}

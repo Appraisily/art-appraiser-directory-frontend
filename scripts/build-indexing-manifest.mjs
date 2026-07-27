@@ -4,19 +4,20 @@ import path from 'node:path';
 import process from 'node:process';
 
 const SITE_ORIGIN = 'https://art-appraisers-directory.appraisily.com';
+const REPO_ROOT = path.resolve(import.meta.dirname, '..');
+const PROVIDER_MANIFEST_PATH = path.join(REPO_ROOT, 'data/provider-publication-manifest.json');
+const CITY_DECISIONS_PATH = path.join(REPO_ROOT, 'data/city-publication-decisions.json');
+const CANONICAL_HOME_DECISIONS_PATH = path.join(REPO_ROOT, 'data/canonical-home-decisions.json');
+const REVIEWED_PROVIDER_PATH = path.join(REPO_ROOT, 'data/recovery-reviewed-provider-cohort.json');
 const POLICY = Object.freeze({
-  version: 2,
+  version: 3,
   city: {
-    minimumLocalListings: 1,
-    minimumRenderedWords: 0,
-    requireCanonical: true,
-    requireDescription: true,
-    requireFaqSchema: false,
-    requireH1: true,
+    policy: 'reviewed-decision-manifest-only',
   },
   profile: {
-    policy: 'preserve-reviewed-state',
+    policy: 'verified-provider-manifest-only',
   },
+  lastmod: 'omit-without-reviewed-change-ledger',
 });
 
 function parseArgs(argv) {
@@ -69,11 +70,6 @@ function hasNoIndex(html) {
     || /<meta\s+[^>]*content=["'][^"']*noindex[^"']*["'][^>]*name=["']robots["']/i.test(html);
 }
 
-function hasMetaDescription(html) {
-  return /<meta\s+[^>]*name=["']description["'][^>]*content=["'][^"']{40,}["']/i.test(html)
-    || /<meta\s+[^>]*content=["'][^"']{40,}["'][^>]*name=["']description["']/i.test(html);
-}
-
 function canonicalFromHtml(html) {
   return html.match(/<link\s+[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["']/i)?.[1]
     || html.match(/<link\s+[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["']/i)?.[1]
@@ -103,32 +99,24 @@ function renderSitemap(urls) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>\n`;
 }
 
-function cityLabel(city) {
-  return String(city.name || city.slug)
-    .replace(/^art appraisers in\s+/i, '')
-    .trim();
-}
-
-function renderLocationHub(cities) {
-  const primary = cities.filter((city) => city.indexable);
-  const additional = cities.filter((city) => !city.indexable);
+function renderLocationHub(profiles) {
   const renderLinks = (records) => records
-    .map((city) => `          <li><a href="/location/${escapeXml(city.slug)}/">${escapeXml(cityLabel(city))}</a></li>`)
+    .map((profile) => `          <li><a href="/appraiser/${escapeXml(profile.slug)}/">${escapeXml(profile.name)} — ${escapeXml(profile.city)}, ${escapeXml(profile.region)}</a></li>`)
     .join('\n');
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Art Appraiser Locations | Appraisily Directory',
-    description: 'Browse city directories with verified local art appraiser profiles and additional art appraisal coverage areas.',
+    description: 'Browse the five source-reviewed art appraiser profiles by their verified primary location.',
     url: `${SITE_ORIGIN}/location/`,
     mainEntity: {
       '@type': 'ItemList',
-      numberOfItems: primary.length,
-      itemListElement: primary.map((city, index) => ({
+      numberOfItems: profiles.length,
+      itemListElement: profiles.map((profile, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        name: cityLabel(city),
-        url: city.url,
+        name: `${profile.name} — ${profile.city}, ${profile.region}`,
+        url: profile.url,
       })),
     },
   };
@@ -139,9 +127,16 @@ function renderLocationHub(cities) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Art Appraiser Locations | Appraisily Directory</title>
-    <meta name="description" content="Browse city directories with verified local art appraiser profiles and additional art appraisal coverage areas.">
+    <meta name="description" content="Browse the five source-reviewed art appraiser profiles by their verified primary location.">
     <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#5b1f2a">
     <link rel="canonical" href="${SITE_ORIGIN}/location/">
+    <link rel="icon" type="image/png" href="https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Art Appraiser Locations | Appraisily Directory">
+    <meta property="og:description" content="Browse the five source-reviewed art appraiser profiles by their verified primary location.">
+    <meta property="og:url" content="${SITE_ORIGIN}/location/">
+    <meta property="og:image" content="https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png">
     <script type="application/ld+json">${JSON.stringify(schema)}</script>
     <style>
       body { margin: 0; color: #111827; background: #fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
@@ -166,21 +161,19 @@ function renderLocationHub(cities) {
       <nav class="meta"><a href="/appraiser/">Appraisers</a> · <a href="/sitemap.xml">Sitemap</a></nav>
     </header>
     <main>
-      <h1>Browse art appraisers by city</h1>
-      <p>Start with cities that have verified exact-city profiles and substantial local appraisal guidance. Each page covers common appraisal purposes, provider details, and online alternatives.</p>
+      <h1>Browse reviewed art appraisers by location</h1>
+      <p>This directory publishes provider profiles only after an official source confirms identity, primary location, and fine-art appraisal relevance. A location below describes the provider's verified primary base; it is not a claim that every nearby city has separate local coverage.</p>
       <section aria-labelledby="verified-cities">
-        <h2 id="verified-cities">Cities with verified local profiles</h2>
-        <p class="meta">${primary.length} city directories currently meet the publication standard.</p>
+        <h2 id="verified-cities">Five source-reviewed profiles</h2>
+        <p class="meta">Use the provider profile to review specialties, appraisal purposes, qualifications, source links, and correction information.</p>
         <ul>
-${renderLinks(primary)}
+${renderLinks(profiles)}
         </ul>
       </section>
       <section class="secondary" aria-labelledby="additional-areas">
-        <h2 id="additional-areas">Additional coverage areas</h2>
-        <p>These pages remain available while local profile coverage and supporting guidance are expanded.</p>
-        <ul>
-${renderLinks(additional)}
-        </ul>
+        <h2 id="additional-areas">Local versus online appraisal</h2>
+        <p>A nearby provider may be useful when an in-person inspection is required. Appraisily's online service is an alternative when photographs and documentation are sufficient for the appraisal purpose. Confirm format, scope, timing, and credentials directly with the provider before engaging them.</p>
+        <p><a href="https://appraisily.com/start?utm_source=art_directory&amp;utm_medium=location_hub&amp;utm_campaign=online_appraisal">Start an online appraisal with Appraisily</a></p>
       </section>
     </main>
   </body>
@@ -188,9 +181,17 @@ ${renderLinks(additional)}
 `;
 }
 
-async function listProfileRecords(publicDir) {
+async function listProfileRecords(publicDir, providerManifest, reviewedProviders, canonicalDecisions, write) {
   const profilesDir = path.join(publicDir, 'appraiser');
   const entries = await fs.readdir(profilesDir, { withFileTypes: true });
+  const approved = new Map(
+    providerManifest.providers
+      .filter((provider) => provider.publicationStatus === 'verified')
+      .map((provider) => [provider.slug, provider])
+  );
+  const canonicalById = new Map(
+    canonicalDecisions.providers.map((provider) => [provider.canonicalProviderId, provider.canonicalUrl])
+  );
   const records = [];
 
   for (const entry of entries) {
@@ -202,21 +203,42 @@ async function listProfileRecords(publicDir) {
     } catch {
       continue;
     }
+    const provider = approved.get(entry.name);
+    const indexable = Boolean(provider);
+    if (write && hasNoIndex(html) === indexable) {
+      await fs.writeFile(htmlPath, setRobotsState(html, indexable), 'utf8');
+      html = setRobotsState(html, indexable);
+    }
+    if (!provider) continue;
+    const expectedUrl = `${SITE_ORIGIN}/appraiser/${entry.name}/`;
+    const reviewed = reviewedProviders.providers?.[entry.name] || {};
     records.push({
       slug: entry.name,
-      indexable: !hasNoIndex(html),
-      url: `${SITE_ORIGIN}/appraiser/${entry.name}/`,
+      name: provider.name,
+      canonicalProviderId: provider.canonicalProviderId,
+      canonicalHome: canonicalById.get(provider.canonicalProviderId) || '',
+      publicationStatus: provider.publicationStatus,
+      verifiedAt: provider.verifiedAt,
+      sourceUrl: provider.sourceUrl,
+      city: reviewed.city || '',
+      region: reviewed.region || '',
+      country: reviewed.country || '',
+      indexable,
+      robotsIndexable: !hasNoIndex(html),
+      canonical: canonicalFromHtml(html),
+      url: expectedUrl,
     });
   }
 
   return records.sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-async function buildCityRecords(publicDir, locations, write) {
+async function buildCityRecords(publicDir, cityDecisions, write) {
+  const decisions = new Map(cityDecisions.cities.map((city) => [city.slug, city]));
   const records = [];
 
-  for (const location of locations) {
-    const slug = String(location.slug || '').trim();
+  for (const decisionRecord of cityDecisions.cities) {
+    const slug = String(decisionRecord.slug || '').trim();
     if (!slug) continue;
     const htmlPath = path.join(publicDir, 'location', slug, 'index.html');
     let html;
@@ -227,22 +249,13 @@ async function buildCityRecords(publicDir, locations, write) {
       continue;
     }
 
-    const localListings = Number(location.numberOfListedAppraisers ?? location.listedAppraisers?.length ?? 0);
+    const decision = decisions.get(slug);
+    if (!decision) throw new Error(`City decision manifest is missing ${slug}`);
     const words = renderedWordCount(html);
     const canonical = canonicalFromHtml(html);
     const expectedCanonical = `${SITE_ORIGIN}/location/${slug}/`;
-    const checks = {
-      localListings: localListings >= POLICY.city.minimumLocalListings,
-      renderedWords: words >= POLICY.city.minimumRenderedWords,
-      canonical: canonical === expectedCanonical,
-      description: hasMetaDescription(html),
-      faqSchema: !POLICY.city.requireFaqSchema
-        || html.includes('"@type":"FAQPage"')
-        || html.includes('"@type": "FAQPage"'),
-      h1: /<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(html),
-    };
-    const reasons = Object.entries(checks).filter(([, passed]) => !passed).map(([name]) => name);
-    const indexable = reasons.length === 0;
+    const indexable = decision.status === 'retained';
+    const reasons = indexable ? [] : [decision.reason];
 
     if (write && hasNoIndex(html) === indexable) {
       await fs.writeFile(htmlPath, setRobotsState(html, indexable), 'utf8');
@@ -250,12 +263,14 @@ async function buildCityRecords(publicDir, locations, write) {
 
     records.push({
       slug,
-      name: location.name || slug,
+      name: slug,
       url: expectedCanonical,
       indexable,
-      localListings,
       renderedWords: words,
-      checks,
+      decisionStatus: decision.status,
+      terminalStatus: decision.terminalStatus,
+      providerSlug: decision.providerSlug,
+      canonical,
       reasons,
     });
   }
@@ -274,16 +289,27 @@ function buildManifest({ profiles, cities }) {
       cities: cities.length,
       indexableCities: indexableCities.length,
     },
+    profiles,
     cities,
   };
 }
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  const locationsFeed = JSON.parse(await fs.readFile(path.join(options.publicDir, 'locations.json'), 'utf8'));
-  const locations = Array.isArray(locationsFeed.locations) ? locationsFeed.locations : [];
-  const profiles = await listProfileRecords(options.publicDir);
-  const cities = await buildCityRecords(options.publicDir, locations, options.write);
+  const [providerManifest, cityDecisions, canonicalDecisions, reviewedProviders] = await Promise.all([
+    fs.readFile(PROVIDER_MANIFEST_PATH, 'utf8').then(JSON.parse),
+    fs.readFile(CITY_DECISIONS_PATH, 'utf8').then(JSON.parse),
+    fs.readFile(CANONICAL_HOME_DECISIONS_PATH, 'utf8').then(JSON.parse),
+    fs.readFile(REVIEWED_PROVIDER_PATH, 'utf8').then(JSON.parse),
+  ]);
+  const profiles = await listProfileRecords(
+    options.publicDir,
+    providerManifest,
+    reviewedProviders,
+    canonicalDecisions,
+    options.write
+  );
+  const cities = await buildCityRecords(options.publicDir, cityDecisions, options.write);
   const manifest = buildManifest({ profiles, cities });
   const sitemapUrls = [
     `${SITE_ORIGIN}/`,
@@ -293,7 +319,7 @@ async function main() {
     ...cities.filter((record) => record.indexable).map((record) => record.url),
   ];
   const expectedSitemap = renderSitemap(sitemapUrls);
-  const expectedLocationHub = renderLocationHub(cities);
+  const expectedLocationHub = renderLocationHub(profiles);
   const sitemapPath = path.join(options.publicDir, 'sitemap.xml');
   const manifestPath = path.join(options.publicDir, 'indexing-manifest.json');
   const locationHubPath = path.join(options.publicDir, 'location', 'index.html');
@@ -306,19 +332,29 @@ async function main() {
     const failures = [];
     const actualSitemap = await fs.readFile(sitemapPath, 'utf8');
     if (actualSitemap !== expectedSitemap) failures.push('sitemap.xml does not match the generated indexable URL set');
+    if (/<lastmod>/i.test(actualSitemap)) failures.push('sitemap.xml contains lastmod without a reviewed change ledger');
+    const actualManifest = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+    if (JSON.stringify(actualManifest) !== JSON.stringify(manifest)) {
+      failures.push('indexing-manifest.json does not match the reviewed provider/city decision manifests');
+    }
     const actualLocationHub = await fs.readFile(locationHubPath, 'utf8');
-    const hubCitySlugs = new Set(
-      [...actualLocationHub.matchAll(/href=["']\/location\/([a-z0-9-]+)\/?["']/g)]
+    const hubProfileSlugs = new Set(
+      [...actualLocationHub.matchAll(/href=["']\/appraiser\/([a-z0-9-]+)\/?["']/g)]
         .map((match) => match[1])
     );
-    const expectedHubCitySlugs = new Set(cities.filter((city) => city.indexable).map((city) => city.slug));
+    const expectedHubProfileSlugs = new Set(profiles.map((profile) => profile.slug));
     if (
-      hubCitySlugs.size !== expectedHubCitySlugs.size
-      || [...expectedHubCitySlugs].some((slug) => !hubCitySlugs.has(slug))
+      hubProfileSlugs.size !== expectedHubProfileSlugs.size
+      || [...expectedHubProfileSlugs].some((slug) => !hubProfileSlugs.has(slug))
     ) {
-      failures.push('location/index.html does not match the generated city eligibility set');
+      failures.push('location/index.html does not match the verified provider manifest');
     }
 
+    for (const profile of profiles) {
+      if (!profile.robotsIndexable) failures.push(`${profile.slug}: verified provider is noindex`);
+      if (profile.canonical !== profile.url) failures.push(`${profile.slug}: verified provider is not self-canonical`);
+      if (profile.canonicalHome !== profile.url) failures.push(`${profile.slug}: canonical-home decision disagrees with Art publication`);
+    }
     for (const city of cities) {
       const html = await fs.readFile(path.join(options.publicDir, 'location', city.slug, 'index.html'), 'utf8');
       if (hasNoIndex(html) === city.indexable) {

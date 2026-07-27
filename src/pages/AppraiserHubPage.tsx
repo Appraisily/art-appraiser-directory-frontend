@@ -44,6 +44,33 @@ export function AppraiserHubPage() {
           </p>
         </header>
 
+        <div className="mx-auto mt-10 grid max-w-5xl gap-5 md:grid-cols-2">
+          <section className="rounded-lg border border-border bg-white p-6">
+            <h2 className="font-serif text-2xl font-semibold">What the review covers</h2>
+            <p className="mt-3 leading-7 text-muted-foreground">
+              Publication requires an official source supporting provider identity, a primary
+              location, and relevance to fine-art appraisal. Each profile identifies its source
+              and review date and offers a correction path.
+            </p>
+            <p className="mt-3 text-sm leading-6 text-muted-foreground">
+              The directory does not independently confirm current availability, fees, service
+              area, engagement terms, ratings, or review counts.
+            </p>
+          </section>
+          <section className="rounded-lg border border-border bg-white p-6">
+            <h2 className="font-serif text-2xl font-semibold">How to compare profiles</h2>
+            <p className="mt-3 leading-7 text-muted-foreground">
+              Start with the provider&apos;s verified primary location, then compare supported
+              specialties, appraisal purposes, qualifications, and the linked official source.
+              A primary location is not a promise of coverage in every nearby city.
+            </p>
+            <p className="mt-3 text-sm leading-6 text-muted-foreground">
+              Confirm whether the assignment can be completed remotely or needs an in-person
+              inspection before engaging a provider.
+            </p>
+          </section>
+        </div>
+
         <ul className="mx-auto mt-10 grid max-w-5xl gap-px border border-border bg-border md:grid-cols-2">
           {publishedAppraisers.map((appraiser) => (
             <li key={appraiser.slug} className="bg-white">

@@ -1,13 +1,11 @@
 import assert from 'node:assert/strict';
 import React, { act } from 'react';
 import { createRoot, type Root } from 'react-dom/client';
-import { MemoryRouter, useLocation } from 'react-router-dom';
-import { CitySearch } from '../../src/components/CitySearch';
+import { MemoryRouter } from 'react-router-dom';
 import { ContentFeedback } from '../../src/components/ContentFeedback';
 import { Footer } from '../../src/components/Footer';
 import Navbar from '../../src/components/Navbar';
 import { getPrimaryCtaUrl } from '../../src/config/site';
-import { publishedCities } from '../../src/data/publishedCities';
 import { derivePageContext, toPublicPagePath } from '../../src/utils/analytics';
 
 type CapturedEvent = {
@@ -30,11 +28,6 @@ const setInputValue = (input: HTMLInputElement | HTMLTextAreaElement, value: str
   setter?.call(input, value);
   input.dispatchEvent(new window.Event('input', { bubbles: true }));
 };
-
-function RouteObserver() {
-  const location = useLocation();
-  return <output data-testid="route">{location.pathname}</output>;
-}
 
 function mount(element: React.ReactNode): { container: HTMLElement; root: Root } {
   const container = document.createElement('div');
@@ -115,163 +108,9 @@ async function testFeedbackFailure() {
   act(() => root.unmount());
 }
 
-async function testCitySearchKeyboardAndTelemetry() {
-  const events: CapturedEvent[] = [];
-  const { container, root } = mount(
-    <MemoryRouter>
-      <CitySearch
-        trackEventHandler={(event, properties) => events.push({ event, properties })}
-      />
-      <RouteObserver />
-    </MemoryRouter>
-  );
-
-  const input = container.querySelector('input');
-  assert(input instanceof window.HTMLInputElement);
-  act(() => setInputValue(input, 'Boston'));
-  await flush();
-  act(() =>
-    input.dispatchEvent(
-      new window.KeyboardEvent('keydown', { key: 'Enter', bubbles: true, cancelable: true })
-    )
-  );
-  await flush();
-
-  assert.equal(container.querySelector('[data-testid="route"]')?.textContent, '/location/boston');
-  assert.equal(events.at(-1)?.event, 'location_search_select');
-  assert.equal(events.at(-1)?.properties?.city_slug, 'boston');
-  act(() => root.unmount());
-}
-
-async function testCitySearchGeolocationFailureAndMobileControls() {
-  const events: CapturedEvent[] = [];
-  Object.defineProperty(window.navigator, 'geolocation', {
-    configurable: true,
-    value: {
-      getCurrentPosition: (
-        _success: PositionCallback,
-        failure: PositionErrorCallback
-      ) => failure({ code: 1, message: 'denied', PERMISSION_DENIED: 1 } as GeolocationPositionError),
-    },
-  });
-  Object.defineProperty(window, 'innerWidth', { configurable: true, value: 375 });
-
-  const { container, root } = mount(
-    <MemoryRouter>
-      <CitySearch
-        trackEventHandler={(event, properties) => events.push({ event, properties })}
-      />
-    </MemoryRouter>
-  );
-  const locateButton = container.querySelector('button[aria-label="Use my location"]');
-  assert(locateButton instanceof window.HTMLButtonElement);
-  act(() => locateButton.click());
-  await flush();
-
-  assert.match(container.textContent || '', /Location permission denied/);
-  assert.deepEqual(
-    events.map(({ event }) => event),
-    ['search_geolocate_request', 'search_geolocate_error']
-  );
-  assert.equal(container.querySelector('input')?.className.includes('h-12'), true);
-  act(() => root.unmount());
-}
-
-async function testCitySearchGeolocationSuccess() {
-  const events: CapturedEvent[] = [];
-  Object.defineProperty(window.navigator, 'geolocation', {
-    configurable: true,
-    value: {
-      getCurrentPosition: (success: PositionCallback) =>
-        success({
-          coords: {
-            latitude: 42.3601,
-            longitude: -71.0589,
-            accuracy: 10,
-            altitude: null,
-            altitudeAccuracy: null,
-            heading: null,
-            speed: null,
-          },
-          timestamp: Date.now(),
-        } as GeolocationPosition),
-    },
-  });
-
-  const { container, root } = mount(
-    <MemoryRouter>
-      <CitySearch
-        trackEventHandler={(event, properties) => events.push({ event, properties })}
-      />
-    </MemoryRouter>
-  );
-  const locateButton = container.querySelector('button[aria-label="Use my location"]');
-  assert(locateButton instanceof window.HTMLButtonElement);
-  act(() => locateButton.click());
-  await flush();
-
-  assert.equal(container.querySelector('input')?.value, 'Boston, Massachusetts');
-  assert.match(container.textContent || '', /Location detected/);
-  assert.deepEqual(
-    events.map(({ event }) => event),
-    ['search_geolocate_request', 'search_geolocate_complete']
-  );
-  assert.equal(events.at(-1)?.properties?.resolved_city, 'boston');
-  act(() => root.unmount());
-}
-
-async function testCitySearchGeolocationNoCoverage() {
-  const events: CapturedEvent[] = [];
-  Object.defineProperty(window.navigator, 'geolocation', {
-    configurable: true,
-    value: {
-      getCurrentPosition: (success: PositionCallback) =>
-        success({
-          coords: {
-            latitude: 21.3069,
-            longitude: -157.8583,
-            accuracy: 10,
-            altitude: null,
-            altitudeAccuracy: null,
-            heading: null,
-            speed: null,
-          },
-          timestamp: Date.now(),
-        } as GeolocationPosition),
-    },
-  });
-
-  const { container, root } = mount(
-    <MemoryRouter>
-      <CitySearch
-        trackEventHandler={(event, properties) => events.push({ event, properties })}
-      />
-    </MemoryRouter>
-  );
-  const locateButton = container.querySelector('button[aria-label="Use my location"]');
-  assert(locateButton instanceof window.HTMLButtonElement);
-  const input = container.querySelector('input');
-  assert(input instanceof window.HTMLInputElement);
-  act(() => setInputValue(input, 'Boston'));
-  await flush();
-  act(() => locateButton.click());
-  await flush();
-
-  assert.equal(input.value, '');
-  assert.match(container.textContent || '', /do not currently list a reviewed location near you/i);
-  assert.deepEqual(
-    events.map(({ event }) => event),
-    ['search_geolocate_request', 'search_geolocate_no_match']
-  );
-  assert.equal(events.at(-1)?.properties?.coverage_radius_miles, 100);
-  assert.equal('lat' in (events.at(-1)?.properties || {}), false);
-  assert.equal('lon' in (events.at(-1)?.properties || {}), false);
-  act(() => root.unmount());
-}
-
 async function testMobileMenuEscapeAndFocusReturn() {
   const { container, root } = mount(
-    <MemoryRouter>
+    <MemoryRouter initialEntries={['/location/']}>
       <Navbar />
     </MemoryRouter>
   );
@@ -283,16 +122,15 @@ async function testMobileMenuEscapeAndFocusReturn() {
   act(() => menuButton.click());
   assert.equal(menuButton.getAttribute('aria-expanded'), 'true');
   assert(container.querySelector('button[aria-label="Close menu"]'));
-  const mobileCityHrefs = [...container.querySelectorAll<HTMLAnchorElement>('a')]
+  const mobileHrefs = [...container.querySelectorAll<HTMLAnchorElement>('a')]
     .map((anchor) => anchor.getAttribute('href'))
-    .filter(
-      (href): href is string =>
-        Boolean(href?.startsWith('/location/') && href !== '/location/')
-    )
-    .sort();
-  assert.deepEqual(
-    mobileCityHrefs,
-    publishedCities.map((city) => `/location/${city.slug}`).sort()
+    .filter((href): href is string => Boolean(href));
+  for (const href of ['/appraiser/', '/location/', '/methodology/', '/get-listed/']) {
+    assert(mobileHrefs.includes(href));
+  }
+  assert.equal(
+    mobileHrefs.some((href) => /^\/location\/[^/]+\/?$/.test(href)),
+    false
   );
 
   act(() => {
@@ -367,14 +205,10 @@ export async function runInteractionTests() {
   globalThis.IS_REACT_ACT_ENVIRONMENT = true;
   await testFeedbackSuccess();
   await testFeedbackFailure();
-  await testCitySearchKeyboardAndTelemetry();
-  await testCitySearchGeolocationFailureAndMobileControls();
-  await testCitySearchGeolocationSuccess();
-  await testCitySearchGeolocationNoCoverage();
   await testMobileMenuEscapeAndFocusReturn();
   testFooterInternalLinksAndLegalUniqueness();
   testSuppressedProfileContextIsGeneric();
   console.log(
-    '[interaction-contract] PASS feedback success/failure, keyboard search, geolocation success/no-coverage/failure, mobile menu Escape/focus, controls, telemetry, and suppressed-profile context'
+    '[interaction-contract] PASS feedback success/failure, mobile menu Escape/focus, reviewed-route navigation, controls, telemetry, and suppressed-profile context'
   );
 }

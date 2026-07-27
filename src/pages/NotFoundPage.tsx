@@ -1,11 +1,8 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { SEO } from '../components/SEO';
-import { publishedCities } from '../data/publishedCities';
 
 export function NotFoundPage() {
-  const popularCities = publishedCities;
-
   return (
     <>
       <SEO
@@ -19,34 +16,35 @@ export function NotFoundPage() {
           <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-2 sm:mb-3">Page not found</h2>
           <p className="text-gray-600 mb-6 sm:mb-8 px-2">
             The page you're looking for doesn't exist or has been moved.
-            Try browsing the directory's reviewed locations below.
+            Try browsing the directory's source-reviewed provider profiles.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8 sm:mb-12">
             <Link
-              to="/"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 px-5 py-3 min-h-[48px] text-white font-semibold hover:bg-blue-700 transition-colors text-base"
+              to="/location/"
+              className="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-lg border border-blue-200 px-5 py-3 text-base font-semibold text-blue-700 transition-colors hover:bg-blue-50"
+              data-clarity-action="not_found_browse"
+              data-gtm-surface="not_found"
+              data-gtm-cta="browse_reviewed_locations"
             >
               <Search className="h-5 w-5" />
-              Search Appraisers
+              Browse reviewed locations
             </Link>
+            <a
+              href="https://appraisily.com/start?utm_source=art_directory&utm_medium=not_found&utm_campaign=directory_recovery"
+              className="inline-flex min-h-[48px] items-center justify-center rounded-lg bg-blue-600 px-5 py-3 text-base font-semibold text-white transition-colors hover:bg-blue-700"
+              data-clarity-action="not_found_appraisily"
+              data-gtm-surface="not_found"
+              data-gtm-cta="online_appraisal"
+            >
+              Get an online appraisal from Appraisily
+            </a>
           </div>
 
-          <div className="border-t border-gray-200 pt-6 sm:pt-8">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular cities</h3>
-            <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:justify-center gap-2">
-              {popularCities.map((city) => (
-                <Link
-                  key={city.slug}
-                  to={`/location/${city.slug}`}
-                  className="inline-flex items-center justify-center gap-2 rounded-full border border-blue-200 px-4 py-2 min-h-[44px] text-sm text-blue-700 hover:bg-blue-50 transition-colors"
-                >
-                  <MapPin className="h-4 w-4 flex-shrink-0" />
-                  <span className="truncate">{city.name}, {city.state}</span>
-                </Link>
-              ))}
-            </div>
-          </div>
+          <p className="border-t border-gray-200 pt-6 text-sm text-gray-600 sm:pt-8">
+            The directory does not publish generic city pages without independent, sourced local
+            guidance.
+          </p>
         </div>
       </div>
     </>

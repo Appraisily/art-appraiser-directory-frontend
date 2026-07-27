@@ -85,11 +85,35 @@ export function StandardizedLocationPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Location unavailable</p>
           <h1 className="mt-3 font-serif text-3xl font-semibold">No reviewed city page is published here.</h1>
           <p className="mt-4 leading-7 text-muted-foreground">
-            Suppressed listings are not restored after the page loads. Browse one of the currently reviewed locations instead.
+            Suppressed listings are not restored after the page loads. Browse a reviewed location or start an online appraisal with Appraisily.
           </p>
-          <a className="mt-7 inline-flex bg-primary px-5 py-3 text-sm font-semibold text-white" href="/location/">
-            Browse reviewed locations
-          </a>
+          <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
+            <a
+              className="inline-flex min-h-[48px] items-center justify-center border border-border px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
+              href="/location/"
+              data-clarity-action="location_unavailable_browse"
+              data-gtm-surface="location_unavailable"
+              data-gtm-cta="browse_reviewed_locations"
+            >
+              Browse reviewed locations
+            </a>
+            <a
+              className="inline-flex min-h-[48px] items-center justify-center bg-primary px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary/90"
+              href={primaryCtaUrl}
+              data-clarity-action="location_unavailable_appraisily"
+              data-gtm-surface="location_unavailable"
+              data-gtm-cta="online_appraisal"
+              onClick={() =>
+                trackEvent('cta_click', {
+                  placement: 'location_unavailable',
+                  destination: primaryCtaUrl,
+                  city_slug: citySlug,
+                })
+              }
+            >
+              Get an online appraisal from Appraisily
+            </a>
+          </div>
         </section>
       </main>
     );
@@ -148,6 +172,9 @@ export function StandardizedLocationPage() {
                   href={`/appraiser/${appraiser.slug}`}
                   onClick={() => handleCardClick(appraiser)}
                   className="group border border-border bg-white p-6 transition-colors hover:border-primary"
+                  data-clarity-action="location_appraiser_card"
+                  data-gtm-surface="location_directory"
+                  data-gtm-cta="view_listing"
                 >
                   <div className="flex gap-5">
                     <InitialsAvatar imageUrl={appraiser.imageUrl} name={appraiser.name} size="md" className="shrink-0" />
@@ -179,6 +206,33 @@ export function StandardizedLocationPage() {
             <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-muted-foreground">
               We do not display providers while their records are outside the reviewed publication cohort.
             </p>
+            <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
+              <a
+                href="/location/"
+                className="inline-flex min-h-[48px] items-center justify-center border border-border px-5 py-3 text-sm font-semibold text-foreground transition-colors hover:border-primary hover:text-primary"
+                data-clarity-action="location_empty_state_browse"
+                data-gtm-surface="location_empty_state"
+                data-gtm-cta="browse_reviewed_locations"
+              >
+                Browse reviewed locations
+              </a>
+              <a
+                href={primaryCtaUrl}
+                className="inline-flex min-h-[48px] items-center justify-center bg-primary px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary/90"
+                data-clarity-action="location_empty_state_appraisily"
+                data-gtm-surface="location_empty_state"
+                data-gtm-cta="online_appraisal"
+                onClick={() =>
+                  trackEvent('cta_click', {
+                    placement: 'location_empty_state',
+                    destination: primaryCtaUrl,
+                    city_slug: city.slug,
+                  })
+                }
+              >
+                Get an online appraisal from Appraisily
+              </a>
+            </div>
           </section>
         )}
 
@@ -190,6 +244,9 @@ export function StandardizedLocationPage() {
           <a
             className="mt-5 inline-flex min-h-[48px] items-center justify-center gap-2 bg-white px-5 py-3 text-sm font-semibold text-foreground md:mt-0"
             href={primaryCtaUrl}
+            data-clarity-action="location_bottom_appraisily"
+            data-gtm-surface="location_bottom"
+            data-gtm-cta="online_appraisal"
             onClick={() =>
               trackEvent('cta_click', {
                 placement: 'location_bottom',
@@ -198,7 +255,7 @@ export function StandardizedLocationPage() {
               })
             }
           >
-            Start an appraisal <ArrowRight className="h-4 w-4" />
+            Get an online appraisal from Appraisily <ArrowRight className="h-4 w-4" />
           </a>
         </section>
       </div>

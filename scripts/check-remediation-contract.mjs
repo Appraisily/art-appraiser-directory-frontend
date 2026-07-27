@@ -15,6 +15,8 @@ const manifest = readJson('data/provider-publication-manifest.json');
 const locationsFeed = readJson('public_site/locations.json').locations || [];
 const appraisersFeed = readJson('public_site/appraisers.json').appraisers || [];
 const cities = readJson('src/data/cities.json').cities || [];
+const cityDecisions = readJson('data/city-publication-decisions.json');
+const aliasDecisions = readJson('data/provider-alias-decisions.json');
 
 const verifiedProviders = manifest.providers.filter(
   (provider) => provider.publicationStatus === 'verified'
@@ -148,6 +150,91 @@ if (/src\/data\/standardized|appraiser-index/.test(standardizedDataSource)) {
   fail('client data boundary imports the suppressed provider corpus');
 }
 
+const appSource = fs.readFileSync(path.join(repoRoot, 'src/App.tsx'), 'utf8');
+for (const marker of [
+  'href="/appraiser/"',
+  'Browse reviewed appraisers',
+  'href="/location/"',
+  'Compare verified locations',
+]) {
+  if (!appSource.includes(marker)) {
+    fail(`homepage recovery path is missing ${marker}`);
+  }
+}
+for (const retiredSearchMarker of [
+  "from './components/CitySearch'",
+  '<CitySearch',
+  'Search locations',
+  'search_no_results',
+]) {
+  if (appSource.includes(retiredSearchMarker)) {
+    fail(`homepage reintroduces the retired no-result search path: ${retiredSearchMarker}`);
+  }
+}
+
+const homepageArtifactSource = fs.readFileSync(
+  path.join(publicDir, 'index.html'),
+  'utf8'
+);
+for (const marker of [
+  '<a href="/appraiser/">Appraisers</a>',
+  '<a href="/location/">Locations</a>',
+  'Source-reviewed appraisers',
+]) {
+  if (!homepageArtifactSource.includes(marker)) {
+    fail(`static homepage recovery path is missing ${marker}`);
+  }
+}
+for (const retiredHomepageArtifactMarker of [
+  'Search locations',
+  'Enter city or state',
+  'type="module"',
+  'as="script"',
+]) {
+  if (homepageArtifactSource.includes(retiredHomepageArtifactMarker)) {
+    fail(
+      `static homepage can reintroduce the retired hydrated search path: ${retiredHomepageArtifactMarker}`
+    );
+  }
+}
+
+const locationPageSource = fs.readFileSync(
+  path.join(repoRoot, 'src/pages/StandardizedLocationPage.tsx'),
+  'utf8'
+);
+for (const marker of [
+  'data-clarity-action="location_unavailable_browse"',
+  'data-clarity-action="location_unavailable_appraisily"',
+  'Get an online appraisal from Appraisily',
+]) {
+  if (!locationPageSource.includes(marker)) {
+    fail(`location unavailable hydration path is missing ${marker}`);
+  }
+}
+
+const notFoundPageSource = fs.readFileSync(
+  path.join(repoRoot, 'src/pages/NotFoundPage.tsx'),
+  'utf8'
+);
+const notFoundArtifactSource = fs.readFileSync(
+  path.join(publicDir, '404.html'),
+  'utf8'
+);
+for (const [surface, source] of [
+  ['hydrated not-found page', notFoundPageSource],
+  ['static 404 artifact', notFoundArtifactSource],
+]) {
+  for (const marker of [
+    'data-clarity-action="not_found_browse"',
+    'data-clarity-action="not_found_appraisily"',
+    'Get an online appraisal from Appraisily',
+  ]) {
+    if (!source.includes(marker)) {
+      fail(`${surface} is missing ${marker}`);
+    }
+  }
+}
+
 const clientBundleFiles = walk(path.join(publicDir, 'assets')).filter(
   (filename) => /^index-.*\.js$/.test(path.basename(filename))
 );
@@ -202,7 +289,7 @@ for (const filename of activePublicDocuments) {
     }
   }
   if (
-    relativePath !== '404.html' &&
+    !['404.html', 'appraiser-unavailable.html'].includes(relativePath) &&
     (!document.querySelector('link[rel="canonical"]') ||
       !document.querySelector('meta[property="og:url"]'))
   ) {
@@ -217,19 +304,14 @@ const nginxSource = fs.readFileSync(path.join(repoRoot, 'nginx.conf'), 'utf8');
 const routeEnforcementMarker = path.join(
   repoRoot,
   'public_site',
-  '.reviewed-route-enforcement-v1'
+  '.reviewed-route-enforcement-v2'
 );
 if (!fs.existsSync(routeEnforcementMarker)) {
   fail('reviewed-route enforcement marker is missing from the public artifact');
 }
-for (const slug of locationSlugs) {
-  if (
-    !nginxSource.includes(`location = /location/${slug} { return 301 /location/${slug}/; }`) ||
-    !nginxSource.includes(
-      `location = /location/${slug}/ { try_files $uri/index.html =404; }`
-    )
-  ) {
-    fail(`nginx reviewed-location allowlist is missing ${slug}`);
+for (const city of cityDecisions.cities) {
+  if (city.status === 'collapsed' && !nginxSource.includes(city.slug)) {
+    fail(`nginx retired-city outcome is missing ${city.slug}`);
   }
 }
 if (!nginxSource.includes('location ~ ^/location/[^/]+/?$')) {
@@ -237,7 +319,7 @@ if (!nginxSource.includes('location ~ ^/location/[^/]+/?$')) {
 }
 if (
   !nginxSource.includes(
-    'if (-f $document_root/.reviewed-route-enforcement-v1) { return 404; }'
+    'if (-f $document_root/.reviewed-route-enforcement-v2) { return 404; }'
   )
 ) {
   fail('nginx route enforcement is not gated by the reviewed artifact marker');
@@ -259,11 +341,29 @@ if (nginxSource.includes('rewrite ^/directory/assets/')) {
 }
 if (
   !nginxSource.includes(
-    'if (-f $document_root/.reviewed-route-enforcement-v1) { return 418; }'
+    'if (-f $document_root/.reviewed-route-enforcement-v2) { return 404; }'
   ) ||
-  !nginxSource.includes('location @reviewed_provider_unavailable')
+  nginxSource.includes('return 418') ||
+  !nginxSource.includes('error_page 418 =200 /appraiser-unavailable.html;')
 ) {
-  fail('nginx provider suppression is not gated by the reviewed artifact marker');
+  fail('nginx provider suppression is not safely gated for v1/v2 artifacts');
+}
+for (const alias of aliasDecisions.aliases) {
+  if (!nginxSource.includes(alias.slug) || alias.terminalStatus !== 410) {
+    fail(`nginx alias decision is missing or unsupported: ${alias.slug}`);
+  }
+}
+const unavailableHtml = fs.readFileSync(path.join(publicDir, 'appraiser-unavailable.html'), 'utf8');
+if (/rel=["']canonical["']/i.test(unavailableHtml)) {
+  fail('provider unavailable response must not carry a cross-page canonical');
+}
+const runtimeNginxPath =
+  '/srv/infrastructure/vps-infra/compose/appraisily/runtime/docker-compose/art-appraisers-directory/nginx.conf';
+if (!fs.existsSync(runtimeNginxPath)) {
+  fail('runtime nginx configuration is missing');
+}
+if (fs.readFileSync(runtimeNginxPath, 'utf8') !== nginxSource) {
+  fail('repo and runtime nginx configurations are not byte-identical');
 }
 
 const slugSource = fs.readFileSync(path.join(repoRoot, 'src/utils/slugs.ts'), 'utf8');

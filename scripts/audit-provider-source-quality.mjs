@@ -168,6 +168,14 @@ async function main() {
     quarantine,
   };
   await fs.mkdir(path.dirname(options.output), { recursive: true });
+  try {
+    const outputStat = await fs.lstat(options.output);
+    if (outputStat.isSymbolicLink()) {
+      throw new Error(`Refusing symlink output: ${options.output}`);
+    }
+  } catch (error) {
+    if (error?.code !== 'ENOENT') throw error;
+  }
   await fs.writeFile(options.output, `${JSON.stringify(report, null, 2)}\n`);
   console.log(JSON.stringify({ ok: unsafePublished.length === 0, output: options.output, ...Object.fromEntries(Object.entries(report).filter(([key]) => !['quarantine', 'generatedAt'].includes(key))) }, null, 2));
   if (unsafePublished.length) process.exitCode = 1;
