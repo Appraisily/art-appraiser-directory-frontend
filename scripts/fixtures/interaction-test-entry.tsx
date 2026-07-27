@@ -7,6 +7,8 @@ import { Footer } from '../../src/components/Footer';
 import Navbar from '../../src/components/Navbar';
 import { getPrimaryCtaUrl } from '../../src/config/site';
 import { derivePageContext, toPublicPagePath } from '../../src/utils/analytics';
+import { sanitizePublicSourceUrl } from '../../src/utils/publicUrls';
+import { getPublishedStandardizedAppraiser } from '../../src/utils/standardizedData';
 
 type CapturedEvent = {
   event: string;
@@ -201,6 +203,65 @@ function testSuppressedProfileContextIsGeneric() {
   window.history.replaceState({}, '', '/');
 }
 
+async function testPublicProviderSourceMapping() {
+  assert.equal(sanitizePublicSourceUrl('javascript:alert(1)'), '');
+  assert.equal(sanitizePublicSourceUrl('data:text/html,unsafe'), '');
+  assert.equal(
+    sanitizePublicSourceUrl('https://user:secret@provider.example/'),
+    ''
+  );
+  assert.equal(
+    sanitizePublicSourceUrl(
+      'https://art-appraisers-directory.appraisily.com/appraiser/example/'
+    ),
+    ''
+  );
+  assert.equal(
+    sanitizePublicSourceUrl(
+      'https://provider.example/about?utm_source=test&keep=yes#team'
+    ),
+    'https://provider.example/about?keep=yes'
+  );
+
+  const originalFetch = globalThis.fetch;
+  const makeFetch = (website: string) =>
+    async (input: string | URL | globalThis.Request) => {
+      const url = String(input);
+      if (url.endsWith('/locations.json')) {
+        return new Response(JSON.stringify({ locations: [] }), { status: 200 });
+      }
+      return new Response(
+        JSON.stringify({
+          appraisers: [
+            {
+              slug: 'reviewed-provider',
+              url: 'https://art-appraisers-directory.appraisily.com/appraiser/reviewed-provider/',
+              name: 'Reviewed Provider',
+              description: 'A reviewed public provider.',
+              website,
+              address: { city: 'Boston', region: 'MA' },
+              source: { verifiedAt: '2026-07-15' },
+            },
+          ],
+        }),
+        { status: 200 }
+      );
+    };
+
+  try {
+    globalThis.fetch = makeFetch('https://provider.example/');
+    const reviewed = await getPublishedStandardizedAppraiser('reviewed-provider');
+    assert.equal(reviewed?.contact.website, 'https://provider.example/');
+    assert.equal(reviewed?.metadata.lastUpdated, '2026-07-15');
+
+    globalThis.fetch = makeFetch('javascript:alert(1)');
+    const tampered = await getPublishedStandardizedAppraiser('reviewed-provider');
+    assert.equal(tampered?.contact.website, '');
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+}
+
 export async function runInteractionTests() {
   globalThis.IS_REACT_ACT_ENVIRONMENT = true;
   await testFeedbackSuccess();
@@ -208,7 +269,8 @@ export async function runInteractionTests() {
   await testMobileMenuEscapeAndFocusReturn();
   testFooterInternalLinksAndLegalUniqueness();
   testSuppressedProfileContextIsGeneric();
+  await testPublicProviderSourceMapping();
   console.log(
-    '[interaction-contract] PASS feedback success/failure, mobile menu Escape/focus, reviewed-route navigation, controls, telemetry, and suppressed-profile context'
+    '[interaction-contract] PASS feedback success/failure, mobile menu Escape/focus, reviewed-route navigation, controls, telemetry, suppressed-profile context, and provider-source mapping'
   );
 }

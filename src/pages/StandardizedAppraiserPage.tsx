@@ -70,6 +70,9 @@ export function StandardizedAppraiserPage() {
       ...(appraiser.contact.phone ? { telephone: appraiser.contact.phone } : {}),
       ...(appraiser.contact.email ? { email: appraiser.contact.email } : {}),
       ...(appraiser.contact.website ? { sameAs: [appraiser.contact.website] } : {}),
+      ...(appraiser.metadata.lastUpdated
+        ? { dateModified: appraiser.metadata.lastUpdated }
+        : {}),
       ...(appraiser.business.pricing ? { priceRange: appraiser.business.pricing } : {}),
       ...(appraiser.business.hours.length
         ? { openingHours: appraiser.business.hours.map((entry) => `${entry.day} ${entry.hours}`) }
@@ -118,7 +121,7 @@ export function StandardizedAppraiserPage() {
     const contactMethods = [
       appraiser.contact.phone ? `phone at ${appraiser.contact.phone}` : '',
       appraiser.contact.email ? `email at ${appraiser.contact.email}` : '',
-      appraiser.contact.website ? 'the listed website' : '',
+      appraiser.contact.website ? 'the official website' : '',
     ].filter(Boolean);
     if (contactMethods.length) {
       faqEntities.push({
@@ -191,11 +194,8 @@ export function StandardizedAppraiserPage() {
     appraiser.contact.email
       ? { key: 'email', icon: Mail, label: appraiser.contact.email, href: `mailto:${appraiser.contact.email}` }
       : null,
-    appraiser.contact.website
-      ? { key: 'website', icon: Globe, label: 'Visit listed website', href: appraiser.contact.website }
-      : null,
   ].filter(Boolean) as Array<{
-    key: 'address' | 'phone' | 'email' | 'website';
+    key: 'address' | 'phone' | 'email';
     icon: typeof MapPin;
     label: string;
     href: string;
@@ -228,7 +228,29 @@ export function StandardizedAppraiserPage() {
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
           <article className="border border-border bg-white p-7 md:p-10">
             <div className="flex flex-col gap-6 sm:flex-row sm:items-start">
-              <InitialsAvatar imageUrl={appraiser.imageUrl} name={appraiser.name} size="lg" className="shrink-0" />
+              {appraiser.contact.website ? (
+                <a
+                  aria-label={`Open the official website for ${appraiser.name}`}
+                  className="shrink-0 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
+                  data-provider-image-source={appraiser.contact.website}
+                  href={appraiser.contact.website}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <InitialsAvatar
+                    imageUrl={appraiser.imageUrl}
+                    name={appraiser.name}
+                    size="lg"
+                  />
+                </a>
+              ) : (
+                <InitialsAvatar
+                  imageUrl={appraiser.imageUrl}
+                  name={appraiser.name}
+                  size="lg"
+                  className="shrink-0"
+                />
+              )}
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Reviewed public listing</p>
                 <h1 className="mt-2 font-serif text-3xl font-semibold leading-tight text-foreground md:text-4xl">
@@ -299,6 +321,48 @@ export function StandardizedAppraiserPage() {
           </article>
 
           <aside className="space-y-6">
+            {appraiser.contact.website ? (
+              <section
+                className="border border-border bg-white p-6"
+                data-provider-source={appraiser.contact.website}
+              >
+                <h2 className="font-serif text-xl font-semibold">
+                  Official website
+                </h2>
+                <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                  Provider facts were reviewed against this public source
+                  {appraiser.metadata.lastUpdated ? (
+                    <>
+                      {' '}on{' '}
+                      <time dateTime={appraiser.metadata.lastUpdated}>
+                        {appraiser.metadata.lastUpdated}
+                      </time>
+                    </>
+                  ) : null}
+                  . Confirm current availability and engagement terms directly
+                  with the business.
+                </p>
+                <a
+                  className="mt-4 inline-flex min-h-[44px] items-center gap-3 font-semibold text-primary underline underline-offset-4 hover:text-primary/80"
+                  data-official-provider-action="true"
+                  href={appraiser.contact.website}
+                  onClick={() =>
+                    trackEvent('appraiser_contact_click', {
+                      channel: 'website',
+                      placement: 'profile_official_source',
+                      appraiser_slug: appraiser.slug,
+                      appraiser_name: appraiser.name,
+                    })
+                  }
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Globe className="h-4 w-4 shrink-0" />
+                  Visit official website
+                </a>
+              </section>
+            ) : null}
+
             {contactItems.length ? (
               <section className="border border-border bg-white p-6">
                 <h2 className="font-serif text-xl font-semibold">Contact information</h2>
@@ -308,8 +372,8 @@ export function StandardizedAppraiserPage() {
                       <a
                         className="flex min-h-[44px] items-center gap-3 text-sm text-foreground hover:text-primary"
                         href={href}
-                        target={key === 'address' || key === 'website' ? '_blank' : undefined}
-                        rel={key === 'address' || key === 'website' ? 'noopener noreferrer' : undefined}
+                        target={key === 'address' ? '_blank' : undefined}
+                        rel={key === 'address' ? 'noopener noreferrer' : undefined}
                         onClick={() =>
                           trackEvent('appraiser_contact_click', {
                             channel: key,
@@ -333,6 +397,7 @@ export function StandardizedAppraiserPage() {
               <p className="mt-3 text-sm leading-6 text-white/75">Submit photos and item details to Appraisily.</p>
               <a
                 className="mt-5 inline-flex min-h-[44px] w-full items-center justify-center bg-white px-4 py-3 text-sm font-semibold text-foreground hover:bg-[#f4efe6]"
+                data-appraisily-handoff="profile_sidebar_cta"
                 href={primaryCtaUrl}
                 onClick={() =>
                   trackEvent('cta_click', {

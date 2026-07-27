@@ -24,6 +24,15 @@ candidate source revision is `9d26bf3a0bde` and its public artifact hash is
 `1839b0b264d1…`. Production remains unchanged. Deployment approval is
 recorded; release is held only for the fixed **2026-07-22** GSC read.
 
+**Reconciled 2026-07-27:** the historical pre-release sequence below was
+superseded by the reviewed corrective release
+`20260727114811-6adb6b2f630e`. Its production verification and passing external
+QA receipt are recorded in
+`docs/art-directory-customer-qa-remediation-implementation-receipt-2026-07-27.md`.
+The old July 15 Day-7 gate is closed as superseded, not represented as a
+completed read. The only current external gate is ARTQA-010's authenticated
+Search Console UI work.
+
 ## External Customer QA Baseline — 2026-07-18
 
 The external anonymous customer test ran against the unchanged production
@@ -61,29 +70,29 @@ the post-deploy canary must close:
   screenshots in durable storage.
 - [x] Map every external finding to its candidate remediation and live
   acceptance check.
-- [ ] On or after **2026-07-22**, record the fixed Day-7 GSC read required by
-  the recovery plan.
-- [ ] Immediately before release, rerun the clean-checkout candidate gates and
+- [x] Close the old **2026-07-22** Day-7 gate as superseded by the immutable
+  corrective-release GSC boundary; do not present it as a completed read.
+- [x] Immediately before release, rerun the clean-checkout candidate gates and
   the focused browser checks for menu routes, suppressed inventory, trust
   claims, keyboard feedback, zero-result search, Boston imagery, and profile
   shell.
-- [ ] Confirm the release snapshot contains only the reviewed 5-provider,
-  5-city inventory and the expected 13 sitemap URLs.
+- [x] Confirm the corrective release snapshot contains only the reviewed
+  5-provider cohort and its exact eight-URL sitemap.
 
 #### P0 — Release and live verification
 
-- [ ] Deploy only through the standard `art-appraisers-directory`
+- [x] Deploy only through the standard `art-appraisers-directory`
   static-release helper.
-- [ ] Record the deployed source commit, immutable release ID, active pointer,
+- [x] Record the deployed source commit, immutable release ID, active pointer,
   asset/source hashes, health result, and rollback target.
-- [ ] Verify initial HTML and hydrated DOM separately for Atlanta and a
+- [x] Verify initial HTML and hydrated DOM separately for Atlanta and a
   suppressed provider-shaped route.
-- [ ] Verify all five location-menu routes, Boston search, unsupported search,
+- [x] Verify all reviewed navigation routes, unsupported search,
   mobile keyboard behavior, feedback state, image fallbacks, methodology,
   correction flow, shared profile shell, sitemap, feeds, and structured data.
-- [ ] Run a fresh external customer QA ticket against the deployed release
+- [x] Run a fresh external customer QA ticket against the deployed release
   using the same journey and acceptance appendix.
-- [ ] Compare the new result with receipt
+- [x] Compare the new result with receipt
   `qa_2b735425-23ea-4424-9149-df2a5b477445`; attach the new receipt and close
   each row above only with live evidence.
 
@@ -516,9 +525,9 @@ is a material treatment change rather than an emergency availability repair,
 deployment is intentionally deferred until the July 22 read.
 
 - [x] Obtain explicit deployment approval.
-- [ ] Deploy only through the standard `art-appraisers-directory` static-release helper.
-- [ ] Verify active release pointer, nginx health, Cloudflare delivery, live HTML, hydration behavior, and rollback reference.
-- [ ] Rerun the live HTTP and browser matrix after release.
+- [x] Deploy only through the standard `art-appraisers-directory` static-release helper.
+- [x] Verify active release pointer, nginx health, Cloudflare delivery, live HTML, hydration behavior, and rollback reference.
+- [x] Rerun the live HTTP and browser matrix after release.
 
 ## Completion Criteria
 

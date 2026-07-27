@@ -1,0 +1,125 @@
+{
+  "viewports": [
+    {
+      "name": "mobile-390x844",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "mobile-375x812",
+      "width": 375,
+      "height": 812
+    },
+    {
+      "name": "desktop-1440x900",
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "transitionViewport": "mobile-390x844",
+  "transitionStart": "/appraiser/open-to-the-public/",
+  "noJavaScriptViewports": [
+    "mobile-390x844",
+    "desktop-1440x900"
+  ],
+  "expectedProviderLinks": [
+    "/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+    "/appraiser/heidi-vaughan-ma-isa-am/",
+    "/appraiser/open-to-the-public/",
+    "/appraiser/sarah-ann-wilson-art-services/",
+    "/appraiser/st-lifer-art-inc-international-art-appraiser/"
+  ],
+  "routes": [
+    {
+      "path": "/appraiser/",
+      "kind": "appraiser-hub"
+    },
+    {
+      "path": "/location/",
+      "kind": "location-hub",
+      "staticOnly": true
+    },
+    {
+      "path": "/methodology/",
+      "kind": "support"
+    },
+    {
+      "path": "/get-listed/",
+      "kind": "support"
+    },
+    {
+      "path": "/appraiser/open-to-the-public/",
+      "kind": "provider",
+      "officialWebsite": "https://opentothepublic.art/",
+      "reviewedAt": "2026-07-15"
+    },
+    {
+      "path": "/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+      "kind": "provider",
+      "officialWebsite": "https://afpartconsulting.com/",
+      "reviewedAt": "2026-07-15",
+      "viewports": [
+        "mobile-390x844"
+      ]
+    },
+    {
+      "path": "/appraiser/heidi-vaughan-ma-isa-am/",
+      "kind": "provider",
+      "officialWebsite": "https://heidivaughanfineart.com/about",
+      "reviewedAt": "2026-07-15",
+      "viewports": [
+        "mobile-390x844"
+      ]
+    },
+    {
+      "path": "/appraiser/sarah-ann-wilson-art-services/",
+      "kind": "provider",
+      "officialWebsite": "https://www.wilsonartservices.com/",
+      "reviewedAt": "2026-07-15",
+      "viewports": [
+        "mobile-390x844"
+      ]
+    },
+    {
+      "path": "/appraiser/st-lifer-art-inc-international-art-appraiser/",
+      "kind": "provider",
+      "officialWebsite": "https://stliferart.com/",
+      "reviewedAt": "2026-07-15",
+      "viewports": [
+        "mobile-390x844"
+      ]
+    }
+  ],
+  "transitionRoutes": [
+    {
+      "path": "/appraiser/",
+      "kind": "appraiser-hub"
+    },
+    {
+      "path": "/location/",
+      "kind": "location-hub"
+    },
+    {
+      "path": "/methodology/",
+      "kind": "support"
+    },
+    {
+      "path": "/get-listed/",
+      "kind": "support"
+    }
+  ],
+  "noJavaScriptRoutes": [
+    {
+      "path": "/appraiser/",
+      "kind": "appraiser-hub"
+    },
+    {
+      "path": "/methodology/",
+      "kind": "support"
+    },
+    {
+      "path": "/get-listed/",
+      "kind": "support"
+    }
+  ]
+}

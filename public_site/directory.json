@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-07-26T19:18:44.521Z",
+  "generatedAt": "2026-07-27T11:12:34.018Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -23,6 +23,7 @@
       "name": "AFP Art Consulting, LLC",
       "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man.svg",
+      "website": "https://afpartconsulting.com/",
       "address": {
         "city": "Boston",
         "region": "MA",
@@ -31,7 +32,8 @@
       "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
-        "route": "/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/"
+        "route": "/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+        "verifiedAt": "2026-07-15"
       }
     },
     {
@@ -40,6 +42,7 @@
       "name": "Heidi Vaughan Fine Art",
       "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/heidi-vaughan-ma-isa-am.svg",
+      "website": "https://heidivaughanfineart.com/about",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -48,7 +51,8 @@
       "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
-        "route": "/appraiser/heidi-vaughan-ma-isa-am/"
+        "route": "/appraiser/heidi-vaughan-ma-isa-am/",
+        "verifiedAt": "2026-07-15"
       }
     },
     {
@@ -57,6 +61,7 @@
       "name": "Open to the Public",
       "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
+      "website": "https://opentothepublic.art/",
       "address": {
         "city": "Los Angeles",
         "region": "CA",
@@ -65,7 +70,8 @@
       "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
-        "route": "/appraiser/open-to-the-public/"
+        "route": "/appraiser/open-to-the-public/",
+        "verifiedAt": "2026-07-15"
       }
     },
     {
@@ -74,6 +80,7 @@
       "name": "Wilson Art Services, LLC",
       "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sarah-ann-wilson-art-services.svg",
+      "website": "https://www.wilsonartservices.com/",
       "address": {
         "city": "Philadelphia",
         "region": "PA",
@@ -82,7 +89,8 @@
       "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
-        "route": "/appraiser/sarah-ann-wilson-art-services/"
+        "route": "/appraiser/sarah-ann-wilson-art-services/",
+        "verifiedAt": "2026-07-15"
       }
     },
     {
@@ -91,6 +99,7 @@
       "name": "St. Lifer Art, Inc.",
       "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
       "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/st-lifer-art-inc-international-art-appraiser.svg",
+      "website": "https://stliferart.com/",
       "address": {
         "city": "New York",
         "region": "NY",
@@ -99,7 +108,8 @@
       "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
-        "route": "/appraiser/st-lifer-art-inc-international-art-appraiser/"
+        "route": "/appraiser/st-lifer-art-inc-international-art-appraiser/",
+        "verifiedAt": "2026-07-15"
       }
     }
   ],

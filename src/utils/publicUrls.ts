@@ -15,6 +15,15 @@ export function sanitizePublicSourceUrl(input?: string | null): string {
 
   try {
     const url = new URL(value);
+    if (!['http:', 'https:'].includes(url.protocol)) return '';
+    if (url.username || url.password) return '';
+    if (
+      /^(?:art-appraisers-directory|antique-appraiser-directory)\.appraisily\.com$/i.test(
+        url.hostname
+      )
+    ) {
+      return '';
+    }
     for (const key of [...url.searchParams.keys()]) {
       if (TRACKING_PARAM_PATTERNS.some((pattern) => pattern.test(key))) {
         url.searchParams.delete(key);

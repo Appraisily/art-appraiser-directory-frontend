@@ -85,6 +85,7 @@ function sanitizeSchema(document, { status, provider, slug }) {
         : `${provider?.name || node.name || slug} is retained as a non-indexable record while provider facts are reviewed.`;
       node.serviceType = status === 'verified' ? 'Fine-art appraisal services' : 'Directory record under review';
       if (status === 'verified') {
+        node.dateModified = provider.reviewedAt;
         node.address = {
           '@type': 'PostalAddress',
           addressLocality: provider.city,
@@ -94,6 +95,7 @@ function sanitizeSchema(document, { status, provider, slug }) {
         node.sameAs = provider.sourceUrl;
       } else {
         delete node.sameAs;
+        delete node.dateModified;
         if (node.address && typeof node.address === 'object') {
           delete node.address.streetAddress;
           delete node.address.postalCode;
@@ -239,7 +241,11 @@ function makeVerified(html, slug, provider, reviewedAt) {
   anchor = replaceTextSection(document, 'Verified qualifications', provider.qualifications, anchor);
   const evidence = `${provider.sourceUrls.map(url => url).join(' · ')}`;
   replaceTextSection(document, 'Verification', `Reviewed ${reviewedAt} from official provider sources: ${evidence}`, anchor);
-  sanitizeSchema(document, { status: 'verified', provider, slug });
+  sanitizeSchema(document, {
+    status: 'verified',
+    provider: { ...provider, reviewedAt },
+    slug,
+  });
   pointLocationBreadcrumbsAtHub(document);
   correctionLink(document, slug);
   return dom.serialize();
