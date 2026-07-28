@@ -57,6 +57,10 @@ package scripts and operator runbooks call them directly.
   graphs; it fails on missing references or retained orphan files.
 - `test-interactions.mjs`: renders feedback and city search in JSDOM and checks success/failure,
   keyboard, mobile-control, geolocation-error, and telemetry behavior.
+- `test-retired-index-robots-contract.mjs`: mounts the reviewed Nginx config
+  against the retained static release and verifies direct `/index.html`,
+  `/robots.txt`, sitemap, mapped-profile, query-preservation, and unknown-route
+  behavior.
 - `build-indexing-manifest.mjs`: generates and validates city eligibility, robots state, and the sitemap URL set.
 - `check-indexing-contract.mjs`: audits every sitemap URL for static HTML, robots, canonical, H1, description, JSON-LD, and visible FAQ parity.
 - `repair-faq-schema.mjs`: regenerates FAQ JSON-LD from visible FAQ sections and removes unsupported FAQ claims.
