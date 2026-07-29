@@ -110,9 +110,12 @@ async function runArtifact(label, artifactDir) {
     const redirects = [];
     for (const slug of [
       'boston',
+      'chicago',
       'los-angeles',
+      'milwaukee',
       'new-york',
       'philadelphia',
+      'washington-dc',
     ]) {
       const expected =
         `https://antique-appraiser-directory.appraisily.com/location/${slug}/`;
@@ -126,7 +129,12 @@ async function runArtifact(label, artifactDir) {
         redirects.push(result);
       }
     }
-    for (const route of ['/location/houston/', '/location/houston']) {
+    for (const route of [
+      '/location/houston/',
+      '/location/houston',
+      '/location/miami/',
+      '/location/miami',
+    ]) {
       const expected =
         'https://antique-appraiser-directory.appraisily.com/location/';
       const result = await probe(base, route, 301);
