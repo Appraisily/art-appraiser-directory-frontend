@@ -46,7 +46,7 @@ export function ContentFeedback({
     [context, location.pathname]
   );
   const isFinished = status === 'success';
-  const canSubmit = helpful !== null && status !== 'submitting' && !isFinished;
+  const submitUnavailable = status === 'submitting' || isFinished;
 
   const onVote = (value: boolean) => {
     if (isFinished) return;
@@ -145,13 +145,13 @@ export function ContentFeedback({
               <div className="mt-3 flex items-center gap-3">
                 <button
                   type="submit"
-                  aria-disabled={!canSubmit}
-                  disabled={!canSubmit}
+                  aria-disabled={submitUnavailable}
+                  disabled={submitUnavailable}
                   className={[
                     'rounded-xl bg-gray-900 text-white px-4 py-2 text-sm font-semibold shadow-sm transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2',
-                    canSubmit
-                      ? 'hover:bg-gray-800 cursor-pointer'
-                      : 'opacity-60 cursor-not-allowed',
+                    submitUnavailable
+                      ? 'opacity-60 cursor-not-allowed'
+                      : 'hover:bg-gray-800 cursor-pointer',
                   ].join(' ')}
                 >
                   {status === 'submitting' ? 'Sending…' : 'Send feedback'}
