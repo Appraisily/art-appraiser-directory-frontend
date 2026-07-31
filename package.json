@@ -11,6 +11,7 @@
     "test:assets": "node ./scripts/test-asset-url-contract.mjs",
     "test:interactions": "node ./scripts/test-interactions.mjs",
     "test:nginx-recovery": "node ./scripts/test-nginx-recovery-contract.mjs",
+    "test:isolated-nginx-candidate": "node ./scripts/check-isolated-nginx-candidate.mjs --self-test",
     "test:retired-routing": "node ./scripts/test-retired-index-robots-contract.mjs",
     "test:settled-browser": "node ./scripts/test-settled-browser-contract.mjs",
     "test:gsc-boundary": "node ./scripts/test-corrective-gsc-boundary.mjs",

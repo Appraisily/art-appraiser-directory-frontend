@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import process from 'node:process';
@@ -12,6 +13,7 @@ const options = {
     '/srv/repos/tools/directory-site-utils/references/art-route-registry.json',
   policyRoot: path.resolve(import.meta.dirname, '..'),
   legacyArtifact: '',
+  selfTest: false,
 };
 for (let index = 2; index < process.argv.length; index += 1) {
   const token = process.argv[index];
@@ -20,8 +22,86 @@ for (let index = 2; index < process.argv.length; index += 1) {
   else if (token === '--registry') options.registry = path.resolve(process.argv[++index]);
   else if (token === '--policy-root') options.policyRoot = path.resolve(process.argv[++index]);
   else if (token === '--legacy-artifact') options.legacyArtifact = path.resolve(process.argv[++index]);
+  else if (token === '--self-test') options.selfTest = true;
   else throw new Error(`Unknown argument: ${token}`);
 }
+
+const consolidationTarget = 'https://antique-appraiser-directory.appraisily.com';
+
+function usesConsolidatedHost(nginxSource) {
+  return /location\s*=\s*\/sitemap\.xml\s*\{\s*return\s+301\s+https:\/\/antique-appraiser-directory\.appraisily\.com\/sitemap\.xml/.test(
+    nginxSource,
+  );
+}
+
+function candidateSmokeArgs({ base, nginxSource, registry, policyRoot }) {
+  if (usesConsolidatedHost(nginxSource)) {
+    return [
+      '/srv/repos/tools/smoke/art-directory-retirement-contract.mjs',
+      '--base', base,
+      '--target-base', consolidationTarget,
+    ];
+  }
+  return [
+    '/srv/repos/tools/smoke/directory-static-contract.mjs',
+    '--base', base,
+    '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
+    '--route-registry', registry,
+    '--policy-root', policyRoot,
+    '--browser-route', '/location/',
+  ];
+}
+
+function legacyCompatibilityMatches({
+  expectedBehavior,
+  consolidated,
+  providerStatus,
+  cityStatus,
+  aliasStatus,
+}) {
+  if (expectedBehavior === 'v1') {
+    return providerStatus === 200 && cityStatus === 200 && aliasStatus !== 410;
+  }
+  return (
+    providerStatus === 404 &&
+    cityStatus === (consolidated ? 200 : 410) &&
+    aliasStatus === 410
+  );
+}
+
+if (options.selfTest) {
+  const base = 'http://127.0.0.1:12345';
+  const consolidatedConfig =
+    'location = /sitemap.xml { return 301 https://antique-appraiser-directory.appraisily.com/sitemap.xml$is_args$args; }';
+  assert.equal(usesConsolidatedHost(consolidatedConfig), true);
+  assert.equal(usesConsolidatedHost('location = /sitemap.xml { try_files $uri =404; }'), false);
+  assert.deepEqual(
+    candidateSmokeArgs({
+      base,
+      nginxSource: consolidatedConfig,
+      registry: '/tmp/registry.json',
+      policyRoot: '/tmp/policy',
+    }),
+    [
+      '/srv/repos/tools/smoke/art-directory-retirement-contract.mjs',
+      '--base', base,
+      '--target-base', consolidationTarget,
+    ],
+  );
+  assert.equal(
+    legacyCompatibilityMatches({
+      expectedBehavior: 'v2',
+      consolidated: true,
+      providerStatus: 404,
+      cityStatus: 200,
+      aliasStatus: 410,
+    }),
+    true,
+  );
+  console.log('[isolated-nginx-candidate] consolidation and independent-site routing passed');
+  process.exit(0);
+}
+
 if (!options.publicDir) throw new Error('--public-dir is required');
 for (const filename of [options.publicDir, options.nginx, options.registry, options.policyRoot]) {
   if (!fs.existsSync(filename)) throw new Error(`Required candidate input is missing: ${filename}`);
@@ -29,6 +109,8 @@ for (const filename of [options.publicDir, options.nginx, options.registry, opti
 
 const hashFile = (filename) =>
   crypto.createHash('sha256').update(fs.readFileSync(filename)).digest('hex');
+const nginxSource = fs.readFileSync(options.nginx, 'utf8');
+const consolidated = usesConsolidatedHost(nginxSource);
 const container = `art-directory-candidate-${process.pid}-${Date.now()}`;
 try {
   execFileSync('docker', [
@@ -56,15 +138,25 @@ try {
     }
   }
   if (!ready) throw new Error('Isolated nginx candidate did not become ready');
-  const smokeOutput = execFileSync(process.execPath, [
-    '/srv/repos/tools/smoke/directory-static-contract.mjs',
-    '--base', `http://127.0.0.1:${port}`,
-    '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-    '--route-registry', options.registry,
-    '--policy-root', options.policyRoot,
-    '--browser-route', '/location/',
-  ], { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 });
+  const smokeOutput = execFileSync(
+    process.execPath,
+    candidateSmokeArgs({
+      base: `http://127.0.0.1:${port}`,
+      nginxSource,
+      registry: options.registry,
+      policyRoot: options.policyRoot,
+    }),
+    { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 },
+  );
   const smoke = JSON.parse(smokeOutput);
+  const sitemap = fs.readFileSync(path.join(options.publicDir, 'sitemap.xml'));
+  const sitemapUrlCount = [
+    ...sitemap.toString('utf8').matchAll(/<loc>\s*([\s\S]*?)\s*<\/loc>/gi),
+  ].length;
+  const routeCount = consolidated ? smoke.redirects.length : smoke.http.routes.length;
+  const policyRouteCount = consolidated
+    ? smoke.terminal.length
+    : smoke.http.policyResults.length;
   let legacyCompatibility = null;
   if (options.legacyArtifact) {
     if (!fs.existsSync(options.legacyArtifact)) {
@@ -108,20 +200,16 @@ try {
         '.reviewed-route-enforcement-v2',
       );
       const expectedBehavior = fs.existsSync(legacyV2Marker) ? 'v2' : 'v1';
-      if (
-        expectedBehavior === 'v1' &&
-        (provider.status !== 200 || city.status !== 200 || alias.status === 410)
-      ) {
+      if (!legacyCompatibilityMatches({
+        expectedBehavior,
+        consolidated,
+        providerStatus: provider.status,
+        cityStatus: city.status,
+        aliasStatus: alias.status,
+      })) {
         throw new Error(
-          `v1 artifact accidentally activated v2 behavior: provider=${provider.status} city=${city.status} alias=${alias.status}`
-        );
-      }
-      if (
-        expectedBehavior === 'v2' &&
-        (provider.status !== 404 || city.status !== 410 || alias.status !== 410)
-      ) {
-        throw new Error(
-          `v2 artifact did not retain v2 behavior: provider=${provider.status} city=${city.status} alias=${alias.status}`
+          `${expectedBehavior} artifact did not retain expected compatibility behavior: ` +
+          `provider=${provider.status} city=${city.status} alias=${alias.status} consolidated=${consolidated}`,
         );
       }
       legacyCompatibility = {
@@ -147,11 +235,12 @@ try {
     nginxSha256: hashFile(options.nginx),
     registry: options.registry,
     registrySha256: hashFile(options.registry),
-    sitemapSha256: smoke.http.sitemapSha256,
-    sitemapUrlCount: smoke.http.sitemapUrlCount,
-    routes: smoke.http.routes.length,
-    policyRoutes: smoke.http.policyResults.length,
-    noJavaScriptNavigation: Boolean(smoke.noJavaScriptBrowser),
+    sitemapSha256: crypto.createHash('sha256').update(sitemap).digest('hex'),
+    sitemapUrlCount,
+    routes: routeCount,
+    policyRoutes: policyRouteCount,
+    noJavaScriptNavigation: consolidated || Boolean(smoke.noJavaScriptBrowser),
+    consolidated,
     legacyCompatibility,
   }, null, 2));
 } finally {
