@@ -6,7 +6,7 @@ import { ContentFeedback } from '../../src/components/ContentFeedback';
 import { Footer } from '../../src/components/Footer';
 import Navbar from '../../src/components/Navbar';
 import { getPrimaryCtaUrl } from '../../src/config/site';
-import { derivePageContext, toPublicPagePath } from '../../src/utils/analytics';
+import { derivePageContext, pushToDataLayer, toPublicPagePath } from '../../src/utils/analytics';
 import { sanitizePublicSourceUrl } from '../../src/utils/publicUrls';
 import { getPublishedStandardizedAppraiser } from '../../src/utils/standardizedData';
 
@@ -283,6 +283,55 @@ async function testPublicProviderSourceMapping() {
   }
 }
 
+async function testGooglePageViewHasDistinctFirstPartyArrival() {
+  const originalFetch = globalThis.fetch;
+  const calls: Array<{ input: string; body: string }> = [];
+  globalThis.fetch = async (input, init) => {
+    calls.push({ input: String(input), body: String(init?.body || '') });
+    return new Response('{}', { status: 202 });
+  };
+  window.dataLayer = [];
+  window.localStorage.setItem('appraisily_analytics_anonymous_id', 'stale-local-id');
+  document.cookie = 'appraisily_analytics_anonymous_id=shared-cookie-id; Path=/; Domain=.appraisily.com; SameSite=Lax; Secure';
+  window.history.replaceState({}, '', '/location/boston/?appraisily_synthetic=smoke&utm_source=qa');
+
+  try {
+    pushToDataLayer({
+      event: 'page_view',
+      page_path: '/location/boston/',
+      page_location: 'https://art-appraisers-directory.appraisily.com/location/boston/',
+      page_title: 'Boston Art Appraisers',
+      page_type: 'location',
+      page_category: 'art_appraisers',
+    });
+    await flush();
+
+    assert.equal(window.dataLayer.length, 1);
+    assert.equal(window.dataLayer[0]?.event, 'page_view');
+    assert.equal(calls.length, 1);
+    const envelope = JSON.parse(calls[0].body);
+    assert.equal(envelope.event, 'surface_arrived');
+    assert.equal(envelope.payload.page_path, '/location/boston/');
+    assert.equal(envelope.payload.arrival_owner, 'directory_route_analytics');
+    assert.equal(envelope.identity.anonymous_id, 'shared-cookie-id');
+    assert.equal(envelope.traffic.synthetic, 'smoke');
+    assert.equal(envelope.traffic.synthetic_family, 'monitoring');
+    assert.equal(envelope.payload.qa_marker, 'smoke');
+    assert.equal(envelope.payload.is_synthetic, true);
+    assert.equal(
+      envelope.payload.page_location,
+      'https://art-appraisers-directory.appraisily.com/location/boston/'
+    );
+  } finally {
+    globalThis.fetch = originalFetch;
+    window.dataLayer = [];
+    window.localStorage.clear();
+    window.sessionStorage.clear();
+    document.cookie = 'appraisily_analytics_anonymous_id=; Max-Age=0; Path=/; Domain=.appraisily.com';
+    window.history.replaceState({}, '', '/');
+  }
+}
+
 export async function runInteractionTests() {
   globalThis.IS_REACT_ACT_ENVIRONMENT = true;
   await testFeedbackVoteGuidance();
@@ -291,6 +340,7 @@ export async function runInteractionTests() {
   await testMobileMenuEscapeAndFocusReturn();
   testFooterInternalLinksAndLegalUniqueness();
   testSuppressedProfileContextIsGeneric();
+  await testGooglePageViewHasDistinctFirstPartyArrival();
   await testPublicProviderSourceMapping();
   console.log(
     '[interaction-contract] PASS feedback guidance/success/failure, mobile menu Escape/focus, reviewed-route navigation, controls, telemetry, suppressed-profile context, and provider-source mapping'

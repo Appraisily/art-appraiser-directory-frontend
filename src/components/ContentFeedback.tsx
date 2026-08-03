@@ -1,11 +1,10 @@
 import { useMemo, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useLocation } from 'react-router-dom';
-import { capturePosthogEvent } from '../lib/posthog';
-import { derivePageContext, toPublicPagePath } from '../utils/analytics';
+import { derivePageContext, toPublicPagePath, trackFirstPartyEvent } from '../utils/analytics';
 
 type ContentFeedbackProps = {
-  captureEvent?: typeof capturePosthogEvent;
+  captureEvent?: (event: string, properties?: Record<string, unknown>) => void;
 };
 
 function redactFeedbackText(text: string): string {
@@ -24,7 +23,7 @@ function redactFeedbackText(text: string): string {
 }
 
 export function ContentFeedback({
-  captureEvent = capturePosthogEvent,
+  captureEvent = trackFirstPartyEvent,
 }: ContentFeedbackProps = {}) {
   const location = useLocation();
   const [helpful, setHelpful] = useState<boolean | null>(null);

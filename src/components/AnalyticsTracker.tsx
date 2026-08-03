@@ -1,14 +1,15 @@
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { GOOGLE_TAG_MANAGER_ID } from '../config/site';
-import { derivePageContext, pushToDataLayer, toPublicPagePath } from '../utils/analytics';
+import { derivePageContext, pushToDataLayer, recordSurfaceArrival, toPublicPagePath } from '../utils/analytics';
 import { isLikelyBot } from '../utils/botDetection';
 
 const isBrowser = typeof window !== 'undefined';
 
 export function AnalyticsTracker() {
   const location = useLocation();
+  const emittedPageViewRef = useRef<string | null>(null);
 
   const { scriptContent, noscriptContent } = useMemo(() => {
     const id = GOOGLE_TAG_MANAGER_ID;
@@ -26,16 +27,16 @@ export function AnalyticsTracker() {
       return;
     }
 
-    if (isLikelyBot()) {
-      return;
-    }
-
     const context = derivePageContext(location.pathname);
     const publicPagePath = toPublicPagePath(
       location.pathname,
       location.search,
       location.hash
     );
+    if (emittedPageViewRef.current === publicPagePath) {
+      return;
+    }
+    emittedPageViewRef.current = publicPagePath;
 
     const payload: Record<string, unknown> = {
       event: 'page_view',
@@ -52,6 +53,11 @@ export function AnalyticsTracker() {
 
     if (context.appraiserSlug) {
       payload.appraiser_slug = context.appraiserSlug;
+    }
+
+    if (isLikelyBot()) {
+      recordSurfaceArrival(payload);
+      return;
     }
 
     pushToDataLayer(payload);
