@@ -108,7 +108,7 @@ async function runArtifact(label, artifactDir) {
     await waitForBase(base);
 
     const redirects = [];
-    for (const slug of [
+    const directCityOwners = [
       'boston',
       'chicago',
       'los-angeles',
@@ -116,7 +116,8 @@ async function runArtifact(label, artifactDir) {
       'new-york',
       'philadelphia',
       'washington-dc',
-    ]) {
+    ];
+    for (const slug of directCityOwners) {
       const expected =
         `https://antique-appraiser-directory.appraisily.com/location/${slug}/`;
       for (const route of [`/location/${slug}/`, `/location/${slug}`]) {
@@ -129,22 +130,37 @@ async function runArtifact(label, artifactDir) {
         redirects.push(result);
       }
     }
-    for (const route of [
-      '/location/houston/',
-      '/location/houston',
-      '/location/miami/',
-      '/location/miami',
+    const heldCities = [];
+    for (const slug of ['houston', 'miami']) {
+      for (const route of [`/location/${slug}/`, `/location/${slug}`]) {
+        const result = await probe(base, route, 301);
+        const expected =
+          'https://antique-appraiser-directory.appraisily.com/location/';
+        if (result.location !== expected) {
+          throw new Error(
+            `${route} redirects to ${result.location}; expected ${expected}`,
+          );
+        }
+        heldCities.push(result);
+      }
+    }
+    const rootAndHubRedirects = [];
+    for (const [route, expected] of [
+      ['/', 'https://antique-appraiser-directory.appraisily.com/'],
+      [
+        '/appraiser/',
+        'https://antique-appraiser-directory.appraisily.com/appraiser/',
+      ],
     ]) {
-      const expected =
-        'https://antique-appraiser-directory.appraisily.com/location/';
       const result = await probe(base, route, 301);
       if (result.location !== expected) {
         throw new Error(
           `${route} redirects to ${result.location}; expected ${expected}`,
         );
       }
-      redirects.push(result);
+      rootAndHubRedirects.push(result);
     }
+    const providerRedirects = [];
     for (const slug of [
       'afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man',
       'heidi-vaughan-ma-isa-am',
@@ -161,11 +177,11 @@ async function runArtifact(label, artifactDir) {
           `${route} redirects to ${result.location}; expected ${expected}`,
         );
       }
-      redirects.push(result);
+      providerRedirects.push(result);
     }
     const query = await probe(
       base,
-      '/location/houston?utm_source=gsc-contract&test=1',
+      '/location/miami?utm_source=gsc-contract&test=1',
       301,
     );
     const expectedQuery =
@@ -176,13 +192,40 @@ async function runArtifact(label, artifactDir) {
         `Query string was not preserved: ${query.location}; expected ${expectedQuery}`,
       );
     }
+    const cohortRootQuery = await probe(
+      base,
+      '/?utm_source=articles&utm_medium=cta&utm_campaign=directory_cards',
+      301,
+    );
+    const expectedRootQuery =
+      'https://antique-appraiser-directory.appraisily.com/' +
+      '?utm_source=articles&utm_medium=cta&utm_campaign=directory_cards';
+    if (cohortRootQuery.location !== expectedRootQuery) {
+      throw new Error(
+        `Cohort root query was not preserved: ${cohortRootQuery.location}; expected ${expectedRootQuery}`,
+      );
+    }
     const directIndex = await probe(base, '/location/houston/index.html', 404);
     const unknownCity = await probe(base, '/location/not-a-reviewed-city/', 404);
+    const gscTerminalCities = [];
+    for (const route of ['/location/alexandria', '/location/alexandria/']) {
+      gscTerminalCities.push(await probe(base, route, 404));
+    }
     const unknownProvider = await probe(
       base,
       '/appraiser/not-a-reviewed-provider/',
       404
     );
+    const gscTerminalProviders = [];
+    for (const slug of [
+      'abh-fine-art-advisory',
+      'adelaide-fine-art',
+      'alexandria-new-york-fine-art-appraisers',
+    ]) {
+      gscTerminalProviders.push(
+        await probe(base, `/appraiser/${slug}/`, 404)
+      );
+    }
     const reviewedAlias = await probe(
       base,
       '/appraiser/amelia-jeffers-auctioneers-appraisers/',
@@ -226,11 +269,21 @@ async function runArtifact(label, artifactDir) {
     return {
       label,
       artifactDir,
-      redirectResponses: redirects.length,
+      redirectResponses:
+        redirects.length +
+        heldCities.length +
+        rootAndHubRedirects.length +
+        providerRedirects.length,
       queryStringPreserved: true,
       unknownCityStatus: unknownCity.status,
+      gscTerminalCityStatuses: Object.fromEntries(
+        gscTerminalCities.map(({ route, status }) => [route, status])
+      ),
       directIndexStatus: directIndex.status,
       unknownProviderStatus: unknownProvider.status,
+      gscTerminalProviderStatuses: Object.fromEntries(
+        gscTerminalProviders.map(({ route, status }) => [route, status])
+      ),
       reviewedAliasStatus: reviewedAlias.status,
       serverHeader: redirects[0]?.server,
       terminalProviderDocument: 'appraiser-unavailable.html',

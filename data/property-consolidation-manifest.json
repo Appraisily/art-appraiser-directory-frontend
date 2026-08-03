@@ -3,6 +3,65 @@
   "decidedAt": "2026-07-27",
   "sourceOrigin": "https://art-appraisers-directory.appraisily.com",
   "destinationOrigin": "https://antique-appraiser-directory.appraisily.com",
+  "cityRedirects": [
+    {
+      "sourcePath": "/location/boston/",
+      "destinationPath": "/location/boston/",
+      "status": 301,
+      "destinationIndexability": "index"
+    },
+    {
+      "sourcePath": "/location/chicago/",
+      "destinationPath": "/location/chicago/",
+      "status": 301,
+      "destinationIndexability": "index"
+    },
+    {
+      "sourcePath": "/location/houston/",
+      "destinationPath": "/location/",
+      "status": 301,
+      "destinationIndexability": "index",
+      "reason": "The Houston destination remains noindex pending its content and provider trust gate."
+    },
+    {
+      "sourcePath": "/location/los-angeles/",
+      "destinationPath": "/location/los-angeles/",
+      "status": 301,
+      "destinationIndexability": "index"
+    },
+    {
+      "sourcePath": "/location/miami/",
+      "destinationPath": "/location/",
+      "status": 301,
+      "destinationIndexability": "index",
+      "holdReason": "Miami city owner has no human-approved crawlable provider profile yet"
+    },
+    {
+      "sourcePath": "/location/milwaukee/",
+      "destinationPath": "/location/milwaukee/",
+      "status": 301,
+      "destinationIndexability": "index",
+      "reason": "The consolidated page has a live, canonical, indexable limited listing with an official source."
+    },
+    {
+      "sourcePath": "/location/new-york/",
+      "destinationPath": "/location/new-york/",
+      "status": 301,
+      "destinationIndexability": "index"
+    },
+    {
+      "sourcePath": "/location/philadelphia/",
+      "destinationPath": "/location/philadelphia/",
+      "status": 301,
+      "destinationIndexability": "index"
+    },
+    {
+      "sourcePath": "/location/washington-dc/",
+      "destinationPath": "/location/washington-dc/",
+      "status": 301,
+      "destinationIndexability": "index"
+    }
+  ],
   "providerMigrations": [
     {
       "canonicalProviderId": "provider:afp-art-consulting",
