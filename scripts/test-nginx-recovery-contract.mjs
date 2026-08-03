@@ -79,11 +79,12 @@ async function probe(base, route, expectedStatus) {
     status: response.status,
     body,
     cacheControl: response.headers.get('cache-control') || '',
+    location: response.headers.get('location') || '',
     server: response.headers.get('server') || '',
   };
 }
 
-async function runArtifact(label, artifactDir, expectDedicatedRecovery) {
+async function runArtifact(label, artifactDir) {
   const name = `art-directory-nginx-contract-${process.pid}-${label}`;
   try {
     docker([
@@ -106,74 +107,184 @@ async function runArtifact(label, artifactDir, expectDedicatedRecovery) {
     const base = `http://127.0.0.1:${port}`;
     await waitForBase(base);
 
-    const retired = [];
-    for (const slug of [
+    const redirects = [];
+    const directCityOwners = [
       'boston',
-      'houston',
+      'chicago',
       'los-angeles',
+      'milwaukee',
       'new-york',
       'philadelphia',
+      'washington-dc',
+    ];
+    for (const slug of directCityOwners) {
+      const expected =
+        `https://antique-appraiser-directory.appraisily.com/location/${slug}/`;
+      for (const route of [`/location/${slug}/`, `/location/${slug}`]) {
+        const result = await probe(base, route, 301);
+        if (result.location !== expected) {
+          throw new Error(
+            `${route} redirects to ${result.location}; expected ${expected}`
+          );
+        }
+        redirects.push(result);
+      }
+    }
+    const heldCities = [];
+    for (const slug of ['houston', 'miami']) {
+      for (const route of [`/location/${slug}/`, `/location/${slug}`]) {
+        const result = await probe(base, route, 301);
+        const expected =
+          'https://antique-appraiser-directory.appraisily.com/location/';
+        if (result.location !== expected) {
+          throw new Error(
+            `${route} redirects to ${result.location}; expected ${expected}`
+          );
+        }
+        heldCities.push(result);
+      }
+    }
+    const rootAndHubRedirects = [];
+    for (const [route, expected] of [
+      ['/', 'https://antique-appraiser-directory.appraisily.com/'],
+      [
+        '/appraiser/',
+        'https://antique-appraiser-directory.appraisily.com/appraiser/',
+      ],
     ]) {
-      retired.push(await probe(base, `/location/${slug}/`, 410));
-      retired.push(await probe(base, `/location/${slug}`, 410));
+      const result = await probe(base, route, 301);
+      if (result.location !== expected) {
+        throw new Error(
+          `${route} redirects to ${result.location}; expected ${expected}`
+        );
+      }
+      rootAndHubRedirects.push(result);
+    }
+    const providerRedirects = [];
+    for (const slug of [
+      'afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man',
+      'heidi-vaughan-ma-isa-am',
+      'open-to-the-public',
+      'sarah-ann-wilson-art-services',
+      'st-lifer-art-inc-international-art-appraiser',
+    ]) {
+      const route = `/appraiser/${slug}/`;
+      const expected =
+        `https://antique-appraiser-directory.appraisily.com${route}`;
+      const result = await probe(base, route, 301);
+      if (result.location !== expected) {
+        throw new Error(
+          `${route} redirects to ${result.location}; expected ${expected}`
+        );
+      }
+      providerRedirects.push(result);
+    }
+    const query = await probe(
+      base,
+      '/location/miami?utm_source=gsc-contract&test=1',
+      301
+    );
+    const expectedQuery =
+      'https://antique-appraiser-directory.appraisily.com/location/' +
+      '?utm_source=gsc-contract&test=1';
+    if (query.location !== expectedQuery) {
+      throw new Error(
+        `Query string was not preserved: ${query.location}; expected ${expectedQuery}`
+      );
+    }
+    const cohortRootQuery = await probe(
+      base,
+      '/?utm_source=articles&utm_medium=cta&utm_campaign=directory_cards',
+      301
+    );
+    const expectedRootQuery =
+      'https://antique-appraiser-directory.appraisily.com/' +
+      '?utm_source=articles&utm_medium=cta&utm_campaign=directory_cards';
+    if (cohortRootQuery.location !== expectedRootQuery) {
+      throw new Error(
+        `Cohort root query was not preserved: ${cohortRootQuery.location}; expected ${expectedRootQuery}`
+      );
     }
     const directIndex = await probe(base, '/location/houston/index.html', 404);
     const unknownCity = await probe(base, '/location/not-a-reviewed-city/', 404);
+    const gscTerminalCities = [];
+    for (const route of ['/location/alexandria', '/location/alexandria/']) {
+      gscTerminalCities.push(await probe(base, route, 404));
+    }
     const unknownProvider = await probe(
       base,
       '/appraiser/not-a-reviewed-provider/',
       404
     );
+    const gscTerminalProviders = [];
+    for (const slug of [
+      'abh-fine-art-advisory',
+      'adelaide-fine-art',
+      'alexandria-new-york-fine-art-appraisers',
+    ]) {
+      gscTerminalProviders.push(
+        await probe(base, `/appraiser/${slug}/`, 404)
+      );
+    }
     const reviewedAlias = await probe(
       base,
       '/appraiser/amelia-jeffers-auctioneers-appraisers/',
       410
     );
 
-    for (const result of [...retired, reviewedAlias]) {
-      if (!result.body.trim()) throw new Error(`${result.route} has an empty body`);
-      if (/nginx\/\d/i.test(result.body) || /nginx\/\d/i.test(result.server)) {
-        throw new Error(`${result.route} exposes an Nginx version`);
-      }
-      if (/<link\b[^>]*rel=["'][^"']*canonical/i.test(result.body)) {
-        throw new Error(`${result.route} includes a canonical`);
-      }
-      if (!/no-cache/i.test(result.cacheControl) || !/no-store/i.test(result.cacheControl)) {
-        throw new Error(`${result.route} is missing the HTML no-store policy`);
-      }
+    if (!reviewedAlias.body.trim()) {
+      throw new Error(`${reviewedAlias.route} has an empty body`);
+    }
+    if (
+      /nginx\/\d/i.test(reviewedAlias.body) ||
+      /nginx\/\d/i.test(reviewedAlias.server)
+    ) {
+      throw new Error(`${reviewedAlias.route} exposes an Nginx version`);
+    }
+    if (/<link\b[^>]*rel=["'][^"']*canonical/i.test(reviewedAlias.body)) {
+      throw new Error(`${reviewedAlias.route} includes a canonical`);
+    }
+    if (
+      !/no-cache/i.test(reviewedAlias.cacheControl) ||
+      !/no-store/i.test(reviewedAlias.cacheControl)
+    ) {
+      throw new Error(`${reviewedAlias.route} is missing the HTML no-store policy`);
     }
     for (const result of [directIndex, unknownCity, unknownProvider]) {
       if (!result.body.trim()) throw new Error(`${result.route} has an empty body`);
     }
 
-    if (expectDedicatedRecovery) {
-      for (const result of retired) {
-        for (const marker of [
-          'This city page is no longer published.',
-          'href="/location/"',
-          'href="/appraiser/"',
-          'utm_medium=retired_location',
-          'content="noindex, follow"',
-        ]) {
-          if (!result.body.includes(marker)) {
-            throw new Error(`${result.route} is missing ${marker}`);
-          }
-        }
+    for (const marker of [
+      'This profile is not currently published.',
+      'href="/appraiser/"',
+      'content="noindex, nofollow"',
+    ]) {
+      if (!reviewedAlias.body.includes(marker)) {
+        throw new Error(`${reviewedAlias.route} is missing ${marker}`);
       }
-    } else if (!retired.every((result) => /Page not found/i.test(result.body))) {
-      throw new Error('Legacy artifact fallback did not retain a branded recovery body');
     }
 
     return {
       label,
       artifactDir,
-      retiredResponses: retired.length,
+      redirectResponses:
+        redirects.length +
+        heldCities.length +
+        rootAndHubRedirects.length +
+        providerRedirects.length,
+      queryStringPreserved: true,
       unknownCityStatus: unknownCity.status,
+      gscTerminalCityStatuses: Object.fromEntries(
+        gscTerminalCities.map(({ route, status }) => [route, status])
+      ),
       directIndexStatus: directIndex.status,
       unknownProviderStatus: unknownProvider.status,
+      gscTerminalProviderStatuses: Object.fromEntries(
+        gscTerminalProviders.map(({ route, status }) => [route, status])
+      ),
       reviewedAliasStatus: reviewedAlias.status,
-      serverHeader: retired[0]?.server,
-      recoveryDocument: expectDedicatedRecovery ? '410.html' : '404.html fallback',
+      serverHeader: redirects[0]?.server,
+      terminalProviderDocument: 'appraiser-unavailable.html',
     };
   } finally {
     try {
@@ -184,8 +295,8 @@ async function runArtifact(label, artifactDir, expectDedicatedRecovery) {
   }
 }
 
-const legacy = await runArtifact('legacy', options.legacyDir, false);
-const candidate = await runArtifact('candidate', options.candidateDir, true);
+const legacy = await runArtifact('legacy', options.legacyDir);
+const candidate = await runArtifact('candidate', options.candidateDir);
 console.log(JSON.stringify({
   action: 'art-directory-nginx-recovery-contract',
   ok: true,

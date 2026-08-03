@@ -81,6 +81,27 @@ async function testFeedbackSuccess() {
   act(() => root.unmount());
 }
 
+async function testFeedbackVoteGuidance() {
+  const events: CapturedEvent[] = [];
+  const { container, root } = mount(
+    <MemoryRouter>
+      <ContentFeedback
+        captureEvent={(event, properties) => events.push({ event, properties })}
+      />
+    </MemoryRouter>
+  );
+
+  const submitButton = container.querySelector<HTMLButtonElement>('button[type="submit"]');
+  assert(submitButton instanceof window.HTMLButtonElement);
+  assert.equal(submitButton.disabled, false);
+
+  act(() => submitButton.click());
+
+  assert.match(container.textContent || '', /Select Yes or No before sending feedback/);
+  assert.equal(events.length, 0);
+  act(() => root.unmount());
+}
+
 async function testFeedbackFailure() {
   const { container, root } = mount(
     <MemoryRouter>
@@ -264,6 +285,7 @@ async function testPublicProviderSourceMapping() {
 
 export async function runInteractionTests() {
   globalThis.IS_REACT_ACT_ENVIRONMENT = true;
+  await testFeedbackVoteGuidance();
   await testFeedbackSuccess();
   await testFeedbackFailure();
   await testMobileMenuEscapeAndFocusReturn();
@@ -271,6 +293,6 @@ export async function runInteractionTests() {
   testSuppressedProfileContextIsGeneric();
   await testPublicProviderSourceMapping();
   console.log(
-    '[interaction-contract] PASS feedback success/failure, mobile menu Escape/focus, reviewed-route navigation, controls, telemetry, suppressed-profile context, and provider-source mapping'
+    '[interaction-contract] PASS feedback guidance/success/failure, mobile menu Escape/focus, reviewed-route navigation, controls, telemetry, suppressed-profile context, and provider-source mapping'
   );
 }
