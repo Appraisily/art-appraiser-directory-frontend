@@ -8,6 +8,8 @@ const analyticsSource = read('src/utils/analytics.ts');
 const trackerSource = read('src/components/AnalyticsTracker.tsx');
 const posthogSource = read('src/lib/posthog.ts');
 const syntheticSource = read('src/utils/syntheticTraffic.ts');
+const staticBootstrap = read('public_site/assets/appraisily-directory-telemetry-20260804-v1.js');
+const nginxSource = read('nginx.conf');
 const failures = [];
 
 for (const snippet of [
@@ -37,6 +39,23 @@ if (!trackerSource.includes('toPublicPagePath(location.pathname)')) {
 }
 if (!posthogSource.includes('isLikelyBot() || isSyntheticTelemetrySession()')) {
   failures.push('Direct PostHog initialization must exclude bots and marked synthetic sessions.');
+}
+for (const snippet of [
+  "sendFirstParty('surface_arrived'",
+  "if (event === 'page_view')",
+  "if (event === 'page_view') return noOpResponse()",
+  "return kind === 'posthog' || (vendorExcluded && Boolean(kind))",
+  "data-appraisily-telemetry-owner",
+  "cleanParams.journey_id = journeyId",
+]) {
+  if (!staticBootstrap.includes(snippet)) {
+    failures.push(`Canonical static telemetry bootstrap must include ${JSON.stringify(snippet)}.`);
+  }
+}
+if (!nginxSource.includes(
+  "sub_filter '<head>' '<head><script src=\"/assets/appraisily-directory-telemetry-20260804-v1.js\"",
+)) {
+  failures.push('Nginx must inject the governed telemetry bootstrap before legacy page scripts.');
 }
 
 if (failures.length) {

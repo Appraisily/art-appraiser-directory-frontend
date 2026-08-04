@@ -14,7 +14,7 @@ const valueAfter = (flag, fallback) => {
 const publicDir = path.resolve(repoRoot, valueAfter('--public-dir', 'public_site'));
 const outputPath = valueAfter('--output', '');
 const assetUrlPattern = /\/(?:directory\/)?assets\/[A-Za-z0-9._/-]+/g;
-const textExtensions = new Set(['.css', '.html', '.js', '.json', '.svg', '.txt', '.xml']);
+const textExtensions = new Set(['.conf', '.css', '.html', '.js', '.json', '.svg', '.txt', '.xml']);
 
 function walk(directory) {
   if (!fs.existsSync(directory)) return [];
@@ -67,7 +67,11 @@ const generalEntryFiles = walk(publicDir).filter((filename) => {
   );
 });
 
-const entryFiles = [...new Set([...generalEntryFiles, ...activeRouteFiles])];
+// Runtime HTML injection is part of the published asset graph even though the
+// canonical HTML files remain untouched.
+const entryFiles = [
+  ...new Set([...generalEntryFiles, ...activeRouteFiles, path.join(repoRoot, 'nginx.conf')]),
+];
 const referencedUrls = new Set();
 const pendingUrls = [];
 
