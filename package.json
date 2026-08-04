@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "vite",
         "build": "npm run check:static",
-    "check:static": "npm run typecheck && npm run check:remediation-contract && npm run check:route-links && npm run test:interactions && npm run test:gsc-boundary && npm run assets:check && npm run test:assets && npm run check:asset-references && node ./scripts/check-static-site.mjs --public-dir public_site && node ./scripts/check-directory-consistency.mjs --public-dir public_site && node ./scripts/run-provider-source-quality-audit.mjs && node ./scripts/test-provider-audit-output.mjs && node ./scripts/check-provider-trust-contract.mjs --public-dir public_site --manifest data/provider-publication-manifest.json && npm run check:cross-host-provider-truth && node ./scripts/build-indexing-manifest.mjs --public-dir public_site --check && node ./scripts/build-art-route-registry.mjs --check && node ./scripts/build-historical-url-ledger.mjs --check && node ./scripts/check-indexing-contract.mjs --public-dir public_site && node ./scripts/repair-faq-schema.mjs --public-dir public_site --check && node ./scripts/repair-internal-location-links.mjs --public-dir public_site --check",
+    "check:static": "npm run typecheck && npm run check:telemetry-policy && npm run check:remediation-contract && npm run check:route-links && npm run test:interactions && npm run test:gsc-boundary && npm run assets:check && npm run test:assets && npm run check:asset-references && node ./scripts/check-static-site.mjs --public-dir public_site && node ./scripts/check-directory-consistency.mjs --public-dir public_site && node ./scripts/run-provider-source-quality-audit.mjs && node ./scripts/test-provider-audit-output.mjs && node ./scripts/check-provider-trust-contract.mjs --public-dir public_site --manifest data/provider-publication-manifest.json && npm run check:cross-host-provider-truth && node ./scripts/build-indexing-manifest.mjs --public-dir public_site --check && node ./scripts/build-art-route-registry.mjs --check && node ./scripts/build-historical-url-ledger.mjs --check && node ./scripts/check-indexing-contract.mjs --public-dir public_site && node ./scripts/repair-faq-schema.mjs --public-dir public_site --check && node ./scripts/repair-internal-location-links.mjs --public-dir public_site --check",
     "assets:check": "node ./scripts/check-retired-image-provider.mjs && node ./scripts/test-retired-image-provider.mjs",
     "test:assets": "node ./scripts/test-asset-url-contract.mjs",
     "test:interactions": "node ./scripts/test-interactions.mjs",
@@ -27,6 +27,7 @@
         "preview": "node ./scripts/serve-static.js --public-dir public_site",
         "lint": "eslint src scripts/*.mjs --report-unused-disable-directives --max-warnings 0",
         "typecheck": "tsc -p tsconfig.app.json --noEmit --pretty false",
+        "check:telemetry-policy": "node ./scripts/check-telemetry-policy-contract.mjs",
         "check:remediation-contract": "node ./scripts/check-remediation-contract.mjs",
         "test:html": "node ./scripts/test-html.js --public-dir public_site",
         "serve:static": "node ./scripts/serve-static.js --public-dir public_site",

@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import { GOOGLE_TAG_MANAGER_ID } from '../config/site';
 import { derivePageContext, pushToDataLayer, recordSurfaceArrival, toPublicPagePath } from '../utils/analytics';
 import { isLikelyBot } from '../utils/botDetection';
+import { isSyntheticTelemetrySession } from '../utils/syntheticTraffic';
 
 const isBrowser = typeof window !== 'undefined';
 
@@ -28,11 +29,7 @@ export function AnalyticsTracker() {
     }
 
     const context = derivePageContext(location.pathname);
-    const publicPagePath = toPublicPagePath(
-      location.pathname,
-      location.search,
-      location.hash
-    );
+    const publicPagePath = toPublicPagePath(location.pathname);
     if (emittedPageViewRef.current === publicPagePath) {
       return;
     }
@@ -55,7 +52,7 @@ export function AnalyticsTracker() {
       payload.appraiser_slug = context.appraiserSlug;
     }
 
-    if (isLikelyBot()) {
+    if (isLikelyBot() || isSyntheticTelemetrySession()) {
       recordSurfaceArrival(payload);
       return;
     }
@@ -75,7 +72,7 @@ export function AnalyticsTracker() {
     return null;
   }
 
-  if (isLikelyBot()) {
+  if (isLikelyBot() || isSyntheticTelemetrySession()) {
     return null;
   }
 

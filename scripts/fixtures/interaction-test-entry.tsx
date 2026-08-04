@@ -306,8 +306,7 @@ async function testGooglePageViewHasDistinctFirstPartyArrival() {
     });
     await flush();
 
-    assert.equal(window.dataLayer.length, 1);
-    assert.equal(window.dataLayer[0]?.event, 'page_view');
+    assert.equal(window.dataLayer.length, 0, 'synthetic proof must not enter the Google data layer');
     assert.equal(calls.length, 1);
     const envelope = JSON.parse(calls[0].body);
     assert.equal(envelope.event, 'surface_arrived');
