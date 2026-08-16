@@ -1,0 +1,27 @@
+{
+  "title": "Art appraisers in Boston, Massachusetts",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-08-16T22:50:38.541Z",
+  "location": {
+    "slug": "boston",
+    "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
+    "name": "Art appraisers in Boston, Massachusetts",
+    "description": "Find reviewed fine-art appraisers in Boston for paintings, sculpture, prints, and photography. Compare a source-checked local specialist with a signed online report.",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "AFP Art Consulting, LLC",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
+        "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man.svg",
+        "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/boston/"
+    }
+  }
+}

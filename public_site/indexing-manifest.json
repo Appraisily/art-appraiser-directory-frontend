@@ -13,7 +13,7 @@
     "profiles": 5,
     "indexableProfiles": 5,
     "cities": 5,
-    "indexableCities": 0
+    "indexableCities": 5
   },
   "profiles": [
     {
@@ -102,71 +102,61 @@
       "slug": "boston",
       "name": "boston",
       "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
-      "indexable": false,
-      "renderedWords": 64,
-      "decisionStatus": "collapsed",
-      "terminalStatus": 410,
+      "indexable": true,
+      "renderedWords": 721,
+      "decisionStatus": "retained",
+      "terminalStatus": 200,
       "providerSlug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/boston/",
-      "reasons": [
-        "No verified city-level decision value independent of the provider profile."
-      ]
+      "reasons": []
     },
     {
       "slug": "houston",
       "name": "houston",
       "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
-      "indexable": false,
-      "renderedWords": 65,
-      "decisionStatus": "collapsed",
-      "terminalStatus": 410,
+      "indexable": true,
+      "renderedWords": 710,
+      "decisionStatus": "retained",
+      "terminalStatus": 200,
       "providerSlug": "heidi-vaughan-ma-isa-am",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/houston/",
-      "reasons": [
-        "No verified city-level decision value independent of the provider profile."
-      ]
+      "reasons": []
     },
     {
       "slug": "los-angeles",
       "name": "los-angeles",
       "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
-      "indexable": false,
-      "renderedWords": 66,
-      "decisionStatus": "collapsed",
-      "terminalStatus": 410,
+      "indexable": true,
+      "renderedWords": 725,
+      "decisionStatus": "retained",
+      "terminalStatus": 200,
       "providerSlug": "open-to-the-public",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
-      "reasons": [
-        "No verified city-level decision value independent of the provider profile."
-      ]
+      "reasons": []
     },
     {
       "slug": "new-york",
       "name": "new-york",
       "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
-      "indexable": false,
-      "renderedWords": 69,
-      "decisionStatus": "collapsed",
-      "terminalStatus": 410,
+      "indexable": true,
+      "renderedWords": 733,
+      "decisionStatus": "retained",
+      "terminalStatus": 200,
       "providerSlug": "st-lifer-art-inc-international-art-appraiser",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/new-york/",
-      "reasons": [
-        "No verified city-level decision value independent of the provider profile."
-      ]
+      "reasons": []
     },
     {
       "slug": "philadelphia",
       "name": "philadelphia",
       "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
-      "indexable": false,
-      "renderedWords": 64,
-      "decisionStatus": "collapsed",
-      "terminalStatus": 410,
+      "indexable": true,
+      "renderedWords": 696,
+      "decisionStatus": "retained",
+      "terminalStatus": 200,
       "providerSlug": "sarah-ann-wilson-art-services",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
-      "reasons": [
-        "No verified city-level decision value independent of the provider profile."
-      ]
+      "reasons": []
     }
   ]
 }

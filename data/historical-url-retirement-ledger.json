@@ -8,9 +8,9 @@
     "recoveredUniqueUrls": 397
   },
   "counts": {
-    "200": 8,
+    "200": 13,
     "404": 372,
-    "410": 17
+    "410": 12
   },
   "urls": [
     {
@@ -3520,11 +3520,12 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
       "provenance": [
         "241_url_sitemap",
-        "397_url_sitemap"
+        "397_url_sitemap",
+        "current_candidate_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
-      "terminalStatus": 410,
-      "outcome": "known_retired_city"
+      "terminalStatus": 200,
+      "outcome": "retained"
     },
     {
       "url": "https://art-appraisers-directory.appraisily.com/location/charleston/",
@@ -3637,11 +3638,12 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/houston/",
       "provenance": [
         "241_url_sitemap",
-        "397_url_sitemap"
+        "397_url_sitemap",
+        "current_candidate_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
-      "terminalStatus": 410,
-      "outcome": "known_retired_city"
+      "terminalStatus": 200,
+      "outcome": "retained"
     },
     {
       "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville/",
@@ -3675,11 +3677,12 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
       "provenance": [
         "241_url_sitemap",
-        "397_url_sitemap"
+        "397_url_sitemap",
+        "current_candidate_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
-      "terminalStatus": 410,
-      "outcome": "known_retired_city"
+      "terminalStatus": 200,
+      "outcome": "retained"
     },
     {
       "url": "https://art-appraisers-directory.appraisily.com/location/miami/",
@@ -3714,11 +3717,12 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
       "provenance": [
         "241_url_sitemap",
-        "397_url_sitemap"
+        "397_url_sitemap",
+        "current_candidate_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
-      "terminalStatus": 410,
-      "outcome": "known_retired_city"
+      "terminalStatus": 200,
+      "outcome": "retained"
     },
     {
       "url": "https://art-appraisers-directory.appraisily.com/location/palm-beach/",
@@ -3733,11 +3737,12 @@
       "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
       "provenance": [
         "241_url_sitemap",
-        "397_url_sitemap"
+        "397_url_sitemap",
+        "current_candidate_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
-      "terminalStatus": 410,
-      "outcome": "known_retired_city"
+      "terminalStatus": 200,
+      "outcome": "retained"
     },
     {
       "url": "https://art-appraisers-directory.appraisily.com/location/phoenix/",

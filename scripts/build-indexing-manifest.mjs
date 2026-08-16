@@ -99,15 +99,19 @@ function renderSitemap(urls) {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries}\n</urlset>\n`;
 }
 
-function renderLocationHub(profiles) {
+function renderLocationHub(profiles, cities = []) {
+  const publishedCities = cities.filter((city) => city.indexable);
   const renderLinks = (records) => records
     .map((profile) => `          <li><a href="/appraiser/${escapeXml(profile.slug)}/">${escapeXml(profile.name)} — ${escapeXml(profile.city)}, ${escapeXml(profile.region)}</a></li>`)
+    .join('\n');
+  const renderCityLinks = (records) => records
+    .map((city) => `          <li><a href="/location/${escapeXml(city.slug)}/">${escapeXml(city.slug.replace(/-/g, ' '))} art appraisers</a></li>`)
     .join('\n');
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Art Appraiser Locations | Appraisily Directory',
-    description: 'Browse the five source-reviewed art appraiser profiles by their verified primary location.',
+    description: 'Browse reviewed art-only city pages and the five source-reviewed art appraiser profiles.',
     url: `${SITE_ORIGIN}/location/`,
     mainEntity: {
       '@type': 'ItemList',
@@ -127,21 +131,22 @@ function renderLocationHub(profiles) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Art Appraiser Locations | Appraisily Directory</title>
-    <meta name="description" content="Browse the five source-reviewed art appraiser profiles by their verified primary location.">
+    <meta name="description" content="Browse reviewed art-only city pages and the five source-reviewed art appraiser profiles.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#5b1f2a">
     <link rel="canonical" href="${SITE_ORIGIN}/location/">
     <link rel="icon" type="image/png" href="https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Art Appraiser Locations | Appraisily Directory">
-    <meta property="og:description" content="Browse the five source-reviewed art appraiser profiles by their verified primary location.">
+    <meta property="og:description" content="Browse reviewed art-only city pages and the five source-reviewed art appraiser profiles.">
     <meta property="og:url" content="${SITE_ORIGIN}/location/">
     <meta property="og:image" content="https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png">
     <script type="application/ld+json">${JSON.stringify(schema)}</script>
     <style>
       body { margin: 0; color: #111827; background: #fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
       header, main { width: min(1040px, calc(100% - 32px)); margin: 0 auto; }
-      header { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 20px 0; border-bottom: 1px solid #e5e7eb; }
+      header { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 64px; padding: 12px 0; border-bottom: 1px solid #e5e7eb; }
+      nav a { display: inline-flex; align-items: center; min-height: 44px; }
       main { padding: 48px 0 64px; }
       h1 { max-width: 720px; margin: 0 0 12px; font-size: 36px; line-height: 1.15; }
       h2 { margin: 36px 0 8px; font-size: 22px; }
@@ -162,9 +167,14 @@ function renderLocationHub(profiles) {
     </header>
     <main>
       <h1>Browse reviewed art appraisers by location</h1>
-      <p>This directory publishes provider profiles only after an official source confirms identity, primary location, and fine-art appraisal relevance. A location below describes the provider's verified primary base; it is not a claim that every nearby city has separate local coverage.</p>
+      <p>This directory publishes provider profiles only after an official source confirms identity, primary location, and fine-art appraisal relevance. City pages are art-only. Antique, furniture, and estate contents stay on the antique directory.</p>
       <section aria-labelledby="verified-cities">
-        <h2 id="verified-cities">Five source-reviewed profiles</h2>
+        <h2 id="verified-cities">Art-only city pages</h2>
+        <p class="meta">Each city page explains when a local fine-art inspection is useful and links the reviewed specialist for that city.</p>
+        <ul>
+${renderCityLinks(publishedCities)}
+        </ul>
+        <h2>Five source-reviewed profiles</h2>
         <p class="meta">Use the provider profile to review specialties, appraisal purposes, qualifications, source links, and correction information.</p>
         <ul>
 ${renderLinks(profiles)}
@@ -319,7 +329,7 @@ async function main() {
     ...cities.filter((record) => record.indexable).map((record) => record.url),
   ];
   const expectedSitemap = renderSitemap(sitemapUrls);
-  const expectedLocationHub = renderLocationHub(profiles);
+    const expectedLocationHub = renderLocationHub(profiles, cities);
   const sitemapPath = path.join(options.publicDir, 'sitemap.xml');
   const manifestPath = path.join(options.publicDir, 'indexing-manifest.json');
   const locationHubPath = path.join(options.publicDir, 'location', 'index.html');

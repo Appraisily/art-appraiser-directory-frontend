@@ -15,7 +15,6 @@ const dom = new JSDOM('<!doctype html><html><body></body></html>', {
 Object.assign(globalThis, {
   window: dom.window,
   document: dom.window.document,
-  navigator: dom.window.navigator,
   location: dom.window.location,
   history: dom.window.history,
   localStorage: dom.window.localStorage,
@@ -25,6 +24,10 @@ Object.assign(globalThis, {
   Event: dom.window.Event,
   KeyboardEvent: dom.window.KeyboardEvent,
   Node: dom.window.Node,
+});
+Object.defineProperty(globalThis, 'navigator', {
+  configurable: true,
+  get: () => dom.window.navigator,
 });
 
 const output = await build({

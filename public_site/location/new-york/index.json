@@ -1,0 +1,27 @@
+{
+  "title": "Art appraisers in New York, New York",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-08-16T22:50:38.541Z",
+  "location": {
+    "slug": "new-york",
+    "url": "https://art-appraisers-directory.appraisily.com/location/new-york/",
+    "name": "Art appraisers in New York, New York",
+    "description": "Find reviewed fine-art appraisers in New York for paintings, sculpture, prints, and photography. Compare a source-checked local specialist with a signed online report.",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "St. Lifer Art, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
+        "slug": "st-lifer-art-inc-international-art-appraiser",
+        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/st-lifer-art-inc-international-art-appraiser.svg",
+        "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
+        "publicRouteAvailable": true
+      }
+    ],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/new-york/"
+    }
+  }
+}

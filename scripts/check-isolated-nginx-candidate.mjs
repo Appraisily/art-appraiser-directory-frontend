@@ -46,9 +46,11 @@ function candidateSmokeArgs({ base, nginxSource, registry, policyRoot }) {
     '/srv/repos/tools/smoke/directory-static-contract.mjs',
     '--base', base,
     '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-    '--route-registry', registry,
-    '--policy-root', policyRoot,
-    '--browser-route', '/location/',
+    '--expected-sitemap-count', '13',
+    '--route', '/',
+    '--route', '/location/',
+    '--route', '/location/boston/',
+    '--browser-route', '/',
   ];
 }
 
@@ -86,6 +88,24 @@ if (options.selfTest) {
       '/srv/repos/tools/smoke/art-directory-retirement-contract.mjs',
       '--base', base,
       '--target-base', consolidationTarget,
+    ],
+  );
+  assert.deepEqual(
+    candidateSmokeArgs({
+      base,
+      nginxSource: 'location = /sitemap.xml { try_files $uri =404; }',
+      registry: '/tmp/registry.json',
+      policyRoot: '/tmp/policy',
+    }),
+    [
+      '/srv/repos/tools/smoke/directory-static-contract.mjs',
+      '--base', base,
+      '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
+      '--expected-sitemap-count', '13',
+      '--route', '/',
+      '--route', '/location/',
+      '--route', '/location/boston/',
+      '--browser-route', '/',
     ],
   );
   assert.equal(

@@ -1,55 +1,50 @@
 {
-  "version": 1,
-  "decidedAt": "2026-07-26",
-  "decision": "collapse_one_provider_city_pages",
-  "policy": "A one-provider city page is publishable only when it has sourced city-level decision value independent of the provider profile. Repeated provider facts and generic city prose do not qualify.",
+  "version": 2,
+  "decidedAt": "2026-08-16",
+  "decision": "restore_art_only_city_pages",
+  "policy": "A one-provider city page is publishable when it has sourced city-level fine-art decision value independent of the provider profile, stays art-only, and links antiques to the antique directory. Repeated provider facts and generic city prose do not qualify.",
   "sourceEvidence": [
     {
-      "type": "seo_diagnosis",
-      "path": "/srv/manager/seo/2026-07-26/art-directory-diagnosis/DIAGNOSIS.md",
-      "finding": "The five city pages contain 54-57 visible words, one provider each, and near-identical copy."
-    },
-    {
-      "type": "gsc_url_inspection",
-      "path": "/srv/manager/seo/2026-07-26/art-directory-diagnosis/url-inspection-all-13.json",
-      "finding": "Google discovered all five city URLs and declined to index the evaluated pages."
+      "type": "operator_decision",
+      "path": "/srv/manager/projects/art-directory-restore-20260816/decision.md",
+      "finding": "The operator restored the standalone Art host. City pages must be art-only and useful enough to index."
     }
   ],
   "cities": [
     {
       "slug": "boston",
-      "status": "collapsed",
-      "terminalStatus": 410,
+      "status": "retained",
+      "terminalStatus": 200,
       "providerSlug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-      "reason": "No verified city-level decision value independent of the provider profile."
+      "reason": "Art-only Boston decision page with a reviewed fine-art provider and independent local appraisal guidance."
     },
     {
       "slug": "houston",
-      "status": "collapsed",
-      "terminalStatus": 410,
+      "status": "retained",
+      "terminalStatus": 200,
       "providerSlug": "heidi-vaughan-ma-isa-am",
-      "reason": "No verified city-level decision value independent of the provider profile."
+      "reason": "Art-only Houston decision page with a reviewed fine-art provider and independent local appraisal guidance."
     },
     {
       "slug": "los-angeles",
-      "status": "collapsed",
-      "terminalStatus": 410,
+      "status": "retained",
+      "terminalStatus": 200,
       "providerSlug": "open-to-the-public",
-      "reason": "No verified city-level decision value independent of the provider profile."
+      "reason": "Art-only Los Angeles decision page with a reviewed fine-art provider and independent local appraisal guidance."
     },
     {
       "slug": "new-york",
-      "status": "collapsed",
-      "terminalStatus": 410,
+      "status": "retained",
+      "terminalStatus": 200,
       "providerSlug": "st-lifer-art-inc-international-art-appraiser",
-      "reason": "No verified city-level decision value independent of the provider profile."
+      "reason": "Art-only New York decision page with a reviewed fine-art provider and independent local appraisal guidance."
     },
     {
       "slug": "philadelphia",
-      "status": "collapsed",
-      "terminalStatus": 410,
+      "status": "retained",
+      "terminalStatus": 200,
       "providerSlug": "sarah-ann-wilson-art-services",
-      "reason": "No verified city-level decision value independent of the provider profile."
+      "reason": "Art-only Philadelphia decision page with a reviewed fine-art provider and independent local appraisal guidance."
     }
   ]
 }
