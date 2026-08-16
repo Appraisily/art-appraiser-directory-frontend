@@ -66,7 +66,7 @@ function legacyCompatibilityMatches({
   }
   return (
     providerStatus === 404 &&
-    cityStatus === (consolidated ? 200 : 410) &&
+    cityStatus === 200 &&
     aliasStatus === 410
   );
 }
@@ -112,6 +112,16 @@ if (options.selfTest) {
     legacyCompatibilityMatches({
       expectedBehavior: 'v2',
       consolidated: true,
+      providerStatus: 404,
+      cityStatus: 200,
+      aliasStatus: 410,
+    }),
+    true,
+  );
+  assert.equal(
+    legacyCompatibilityMatches({
+      expectedBehavior: 'v2',
+      consolidated: false,
       providerStatus: 404,
       cityStatus: 200,
       aliasStatus: 410,
@@ -176,7 +186,7 @@ try {
   const routeCount = consolidated ? smoke.redirects.length : smoke.http.routes.length;
   const policyRouteCount = consolidated
     ? smoke.terminal.length
-    : smoke.http.policyResults.length;
+    : smoke.http.routes.length;
   let legacyCompatibility = null;
   if (options.legacyArtifact) {
     if (!fs.existsSync(options.legacyArtifact)) {
@@ -259,7 +269,7 @@ try {
     sitemapUrlCount,
     routes: routeCount,
     policyRoutes: policyRouteCount,
-    noJavaScriptNavigation: consolidated || Boolean(smoke.noJavaScriptBrowser),
+    noJavaScriptNavigation: consolidated || Boolean(smoke.browser),
     consolidated,
     legacyCompatibility,
   }, null, 2));
