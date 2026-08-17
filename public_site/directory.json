@@ -2,12 +2,12 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-08-16T22:50:38.541Z",
+  "generatedAt": "2026-08-17T06:40:33.916Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
     "appraisers": 5,
-    "locations": 5
+    "locations": 78
   },
   "feeds": {
     "llms": "https://art-appraisers-directory.appraisily.com/llms.txt",
@@ -105,6 +105,102 @@
   ],
   "locations": [
     {
+      "slug": "addison",
+      "url": "https://art-appraisers-directory.appraisily.com/location/addison/",
+      "name": "Art appraisers in Addison, Illinois",
+      "description": "Fine-art appraisal guidance for Addison: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/addison/"
+      }
+    },
+    {
+      "slug": "albuquerque",
+      "url": "https://art-appraisers-directory.appraisily.com/location/albuquerque/",
+      "name": "Art appraisers in Albuquerque, New Mexico",
+      "description": "Fine-art appraisal guidance for Albuquerque: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/albuquerque/"
+      }
+    },
+    {
+      "slug": "arlington",
+      "url": "https://art-appraisers-directory.appraisily.com/location/arlington/",
+      "name": "Art appraisers in Arlington, Texas",
+      "description": "Fine-art appraisal guidance for Arlington: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/arlington/"
+      }
+    },
+    {
+      "slug": "aspen",
+      "url": "https://art-appraisers-directory.appraisily.com/location/aspen/",
+      "name": "Art appraisers in Aspen, Colorado",
+      "description": "Fine-art appraisal guidance for Aspen: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/aspen/"
+      }
+    },
+    {
+      "slug": "atlanta",
+      "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
+      "name": "Art appraisers in Atlanta, Georgia",
+      "description": "Fine-art appraisal guidance for Atlanta: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/atlanta/"
+      }
+    },
+    {
+      "slug": "austin",
+      "url": "https://art-appraisers-directory.appraisily.com/location/austin/",
+      "name": "Art appraisers in Austin, Texas",
+      "description": "Fine-art appraisal guidance for Austin: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/austin/"
+      }
+    },
+    {
+      "slug": "baltimore",
+      "url": "https://art-appraisers-directory.appraisily.com/location/baltimore/",
+      "name": "Art appraisers in Baltimore, Maryland",
+      "description": "Fine-art appraisal guidance for Baltimore: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/baltimore/"
+      }
+    },
+    {
+      "slug": "beverly-hills",
+      "url": "https://art-appraisers-directory.appraisily.com/location/beverly-hills/",
+      "name": "Art appraisers in Beverly Hills, California",
+      "description": "Fine-art appraisal guidance for Beverly Hills: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/beverly-hills/"
+      }
+    },
+    {
       "slug": "boston",
       "url": "https://art-appraisers-directory.appraisily.com/location/boston/",
       "name": "Art appraisers in Boston, Massachusetts",
@@ -123,6 +219,198 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/boston/"
+      }
+    },
+    {
+      "slug": "buffalo",
+      "url": "https://art-appraisers-directory.appraisily.com/location/buffalo/",
+      "name": "Art appraisers in Buffalo, New York",
+      "description": "Fine-art appraisal guidance for Buffalo: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/buffalo/"
+      }
+    },
+    {
+      "slug": "charleston",
+      "url": "https://art-appraisers-directory.appraisily.com/location/charleston/",
+      "name": "Art appraisers in Charleston, South Carolina",
+      "description": "Fine-art appraisal guidance for Charleston: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/charleston/"
+      }
+    },
+    {
+      "slug": "charlotte",
+      "url": "https://art-appraisers-directory.appraisily.com/location/charlotte/",
+      "name": "Art appraisers in Charlotte, North Carolina",
+      "description": "Fine-art appraisal guidance for Charlotte: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/charlotte/"
+      }
+    },
+    {
+      "slug": "chicago",
+      "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
+      "name": "Art appraisers in Chicago, Illinois",
+      "description": "Fine-art appraisal guidance for Chicago: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/chicago/"
+      }
+    },
+    {
+      "slug": "cincinnati",
+      "url": "https://art-appraisers-directory.appraisily.com/location/cincinnati/",
+      "name": "Art appraisers in Cincinnati, Ohio",
+      "description": "Fine-art appraisal guidance for Cincinnati: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/cincinnati/"
+      }
+    },
+    {
+      "slug": "cleveland",
+      "url": "https://art-appraisers-directory.appraisily.com/location/cleveland/",
+      "name": "Art appraisers in Cleveland, Ohio",
+      "description": "Fine-art appraisal guidance for Cleveland: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/cleveland/"
+      }
+    },
+    {
+      "slug": "colleyville",
+      "url": "https://art-appraisers-directory.appraisily.com/location/colleyville/",
+      "name": "Art appraisers in Colleyville, Texas",
+      "description": "Fine-art appraisal guidance for Colleyville: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/colleyville/"
+      }
+    },
+    {
+      "slug": "colorado-springs",
+      "url": "https://art-appraisers-directory.appraisily.com/location/colorado-springs/",
+      "name": "Art appraisers in Colorado Springs, Colorado",
+      "description": "Fine-art appraisal guidance for Colorado Springs: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/colorado-springs/"
+      }
+    },
+    {
+      "slug": "columbus",
+      "url": "https://art-appraisers-directory.appraisily.com/location/columbus/",
+      "name": "Art appraisers in Columbus, Ohio",
+      "description": "Fine-art appraisal guidance for Columbus: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/columbus/"
+      }
+    },
+    {
+      "slug": "dallas",
+      "url": "https://art-appraisers-directory.appraisily.com/location/dallas/",
+      "name": "Art appraisers in Dallas, Texas",
+      "description": "Fine-art appraisal guidance for Dallas: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/dallas/"
+      }
+    },
+    {
+      "slug": "denver",
+      "url": "https://art-appraisers-directory.appraisily.com/location/denver/",
+      "name": "Art appraisers in Denver, Colorado",
+      "description": "Fine-art appraisal guidance for Denver: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/denver/"
+      }
+    },
+    {
+      "slug": "detroit",
+      "url": "https://art-appraisers-directory.appraisily.com/location/detroit/",
+      "name": "Art appraisers in Detroit, Michigan",
+      "description": "Fine-art appraisal guidance for Detroit: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/detroit/"
+      }
+    },
+    {
+      "slug": "el-paso",
+      "url": "https://art-appraisers-directory.appraisily.com/location/el-paso/",
+      "name": "Art appraisers in El Paso, Texas",
+      "description": "Fine-art appraisal guidance for El Paso: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/el-paso/"
+      }
+    },
+    {
+      "slug": "fort-worth",
+      "url": "https://art-appraisers-directory.appraisily.com/location/fort-worth/",
+      "name": "Art appraisers in Fort Worth, Texas",
+      "description": "Fine-art appraisal guidance for Fort Worth: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/fort-worth/"
+      }
+    },
+    {
+      "slug": "fresno",
+      "url": "https://art-appraisers-directory.appraisily.com/location/fresno/",
+      "name": "Art appraisers in Fresno, California",
+      "description": "Fine-art appraisal guidance for Fresno: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/fresno/"
+      }
+    },
+    {
+      "slug": "hartford",
+      "url": "https://art-appraisers-directory.appraisily.com/location/hartford/",
+      "name": "Art appraisers in Hartford, Connecticut",
+      "description": "Fine-art appraisal guidance for Hartford: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/hartford/"
       }
     },
     {
@@ -147,6 +435,102 @@
       }
     },
     {
+      "slug": "indianapolis",
+      "url": "https://art-appraisers-directory.appraisily.com/location/indianapolis/",
+      "name": "Art appraisers in Indianapolis, Indiana",
+      "description": "Fine-art appraisal guidance for Indianapolis: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/indianapolis/"
+      }
+    },
+    {
+      "slug": "jacksonville",
+      "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville/",
+      "name": "Art appraisers in Jacksonville, Florida",
+      "description": "Fine-art appraisal guidance for Jacksonville: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/jacksonville/"
+      }
+    },
+    {
+      "slug": "jacksonville-beach",
+      "url": "https://art-appraisers-directory.appraisily.com/location/jacksonville-beach/",
+      "name": "Art appraisers in Jacksonville Beach, Florida",
+      "description": "Fine-art appraisal guidance for Jacksonville Beach: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/jacksonville-beach/"
+      }
+    },
+    {
+      "slug": "kansas-city",
+      "url": "https://art-appraisers-directory.appraisily.com/location/kansas-city/",
+      "name": "Art appraisers in Kansas City, Missouri",
+      "description": "Fine-art appraisal guidance for Kansas City: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/kansas-city/"
+      }
+    },
+    {
+      "slug": "lancaster",
+      "url": "https://art-appraisers-directory.appraisily.com/location/lancaster/",
+      "name": "Art appraisers in Lancaster, Massachusetts",
+      "description": "Fine-art appraisal guidance for Lancaster: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/lancaster/"
+      }
+    },
+    {
+      "slug": "langley",
+      "url": "https://art-appraisers-directory.appraisily.com/location/langley/",
+      "name": "Art appraisers in Langley, Washington",
+      "description": "Fine-art appraisal guidance for Langley: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/langley/"
+      }
+    },
+    {
+      "slug": "las-vegas",
+      "url": "https://art-appraisers-directory.appraisily.com/location/las-vegas/",
+      "name": "Art appraisers in Las Vegas, Nevada",
+      "description": "Fine-art appraisal guidance for Las Vegas: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/las-vegas/"
+      }
+    },
+    {
+      "slug": "long-beach",
+      "url": "https://art-appraisers-directory.appraisily.com/location/long-beach/",
+      "name": "Art appraisers in Long Beach, California",
+      "description": "Fine-art appraisal guidance for Long Beach: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/long-beach/"
+      }
+    },
+    {
       "slug": "los-angeles",
       "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
       "name": "Art appraisers in Los Angeles, California",
@@ -165,6 +549,102 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/los-angeles/"
+      }
+    },
+    {
+      "slug": "louisville",
+      "url": "https://art-appraisers-directory.appraisily.com/location/louisville/",
+      "name": "Art appraisers in Louisville, Kentucky",
+      "description": "Fine-art appraisal guidance for Louisville: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/louisville/"
+      }
+    },
+    {
+      "slug": "memphis",
+      "url": "https://art-appraisers-directory.appraisily.com/location/memphis/",
+      "name": "Art appraisers in Memphis, Tennessee",
+      "description": "Fine-art appraisal guidance for Memphis: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/memphis/"
+      }
+    },
+    {
+      "slug": "mesa",
+      "url": "https://art-appraisers-directory.appraisily.com/location/mesa/",
+      "name": "Art appraisers in Mesa, Arizona",
+      "description": "Fine-art appraisal guidance for Mesa: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/mesa/"
+      }
+    },
+    {
+      "slug": "miami",
+      "url": "https://art-appraisers-directory.appraisily.com/location/miami/",
+      "name": "Art appraisers in Miami, Florida",
+      "description": "Fine-art appraisal guidance for Miami: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/miami/"
+      }
+    },
+    {
+      "slug": "milwaukee",
+      "url": "https://art-appraisers-directory.appraisily.com/location/milwaukee/",
+      "name": "Art appraisers in Milwaukee, Wisconsin",
+      "description": "Fine-art appraisal guidance for Milwaukee: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/milwaukee/"
+      }
+    },
+    {
+      "slug": "minneapolis",
+      "url": "https://art-appraisers-directory.appraisily.com/location/minneapolis/",
+      "name": "Art appraisers in Minneapolis, Minnesota",
+      "description": "Fine-art appraisal guidance for Minneapolis: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/minneapolis/"
+      }
+    },
+    {
+      "slug": "nashville",
+      "url": "https://art-appraisers-directory.appraisily.com/location/nashville/",
+      "name": "Art appraisers in Nashville, Tennessee",
+      "description": "Fine-art appraisal guidance for Nashville: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/nashville/"
+      }
+    },
+    {
+      "slug": "new-orleans",
+      "url": "https://art-appraisers-directory.appraisily.com/location/new-orleans/",
+      "name": "Art appraisers in New Orleans, Louisiana",
+      "description": "Fine-art appraisal guidance for New Orleans: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/new-orleans/"
       }
     },
     {
@@ -189,6 +669,66 @@
       }
     },
     {
+      "slug": "oakland",
+      "url": "https://art-appraisers-directory.appraisily.com/location/oakland/",
+      "name": "Art appraisers in Oakland, California",
+      "description": "Fine-art appraisal guidance for Oakland: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/oakland/"
+      }
+    },
+    {
+      "slug": "oklahoma-city",
+      "url": "https://art-appraisers-directory.appraisily.com/location/oklahoma-city/",
+      "name": "Art appraisers in Oklahoma City, Oklahoma",
+      "description": "Fine-art appraisal guidance for Oklahoma City: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/oklahoma-city/"
+      }
+    },
+    {
+      "slug": "omaha",
+      "url": "https://art-appraisers-directory.appraisily.com/location/omaha/",
+      "name": "Art appraisers in Omaha, Nebraska",
+      "description": "Fine-art appraisal guidance for Omaha: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/omaha/"
+      }
+    },
+    {
+      "slug": "orlando",
+      "url": "https://art-appraisers-directory.appraisily.com/location/orlando/",
+      "name": "Art appraisers in Orlando, Florida",
+      "description": "Fine-art appraisal guidance for Orlando: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/orlando/"
+      }
+    },
+    {
+      "slug": "palm-beach",
+      "url": "https://art-appraisers-directory.appraisily.com/location/palm-beach/",
+      "name": "Art appraisers in Palm Beach, Florida",
+      "description": "Fine-art appraisal guidance for Palm Beach: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/palm-beach/"
+      }
+    },
+    {
       "slug": "philadelphia",
       "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
       "name": "Art appraisers in Philadelphia, Pennsylvania",
@@ -207,6 +747,342 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/philadelphia/"
+      }
+    },
+    {
+      "slug": "phoenix",
+      "url": "https://art-appraisers-directory.appraisily.com/location/phoenix/",
+      "name": "Art appraisers in Phoenix, Arizona",
+      "description": "Fine-art appraisal guidance for Phoenix: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/phoenix/"
+      }
+    },
+    {
+      "slug": "pittsburgh",
+      "url": "https://art-appraisers-directory.appraisily.com/location/pittsburgh/",
+      "name": "Art appraisers in Pittsburgh, Pennsylvania",
+      "description": "Fine-art appraisal guidance for Pittsburgh: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/pittsburgh/"
+      }
+    },
+    {
+      "slug": "portland",
+      "url": "https://art-appraisers-directory.appraisily.com/location/portland/",
+      "name": "Art appraisers in Portland, Oregon",
+      "description": "Fine-art appraisal guidance for Portland: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/portland/"
+      }
+    },
+    {
+      "slug": "providence",
+      "url": "https://art-appraisers-directory.appraisily.com/location/providence/",
+      "name": "Art appraisers in Providence, Rhode Island",
+      "description": "Fine-art appraisal guidance for Providence: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/providence/"
+      }
+    },
+    {
+      "slug": "raleigh",
+      "url": "https://art-appraisers-directory.appraisily.com/location/raleigh/",
+      "name": "Art appraisers in Raleigh, North Carolina",
+      "description": "Fine-art appraisal guidance for Raleigh: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/raleigh/"
+      }
+    },
+    {
+      "slug": "ranchos-de-taos",
+      "url": "https://art-appraisers-directory.appraisily.com/location/ranchos-de-taos/",
+      "name": "Art appraisers in Ranchos De Taos, New Mexico",
+      "description": "Fine-art appraisal guidance for Ranchos De Taos: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/ranchos-de-taos/"
+      }
+    },
+    {
+      "slug": "redondo-beach",
+      "url": "https://art-appraisers-directory.appraisily.com/location/redondo-beach/",
+      "name": "Art appraisers in Redondo Beach, California",
+      "description": "Fine-art appraisal guidance for Redondo Beach: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/redondo-beach/"
+      }
+    },
+    {
+      "slug": "richmond",
+      "url": "https://art-appraisers-directory.appraisily.com/location/richmond/",
+      "name": "Art appraisers in Richmond, Virginia",
+      "description": "Fine-art appraisal guidance for Richmond: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/richmond/"
+      }
+    },
+    {
+      "slug": "rockville",
+      "url": "https://art-appraisers-directory.appraisily.com/location/rockville/",
+      "name": "Art appraisers in Rockville, Maryland",
+      "description": "Fine-art appraisal guidance for Rockville: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/rockville/"
+      }
+    },
+    {
+      "slug": "sacramento",
+      "url": "https://art-appraisers-directory.appraisily.com/location/sacramento/",
+      "name": "Art appraisers in Sacramento, California",
+      "description": "Fine-art appraisal guidance for Sacramento: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/sacramento/"
+      }
+    },
+    {
+      "slug": "salt-lake-city",
+      "url": "https://art-appraisers-directory.appraisily.com/location/salt-lake-city/",
+      "name": "Art appraisers in Salt Lake City, Utah",
+      "description": "Fine-art appraisal guidance for Salt Lake City: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/salt-lake-city/"
+      }
+    },
+    {
+      "slug": "san-antonio",
+      "url": "https://art-appraisers-directory.appraisily.com/location/san-antonio/",
+      "name": "Art appraisers in San Antonio, Texas",
+      "description": "Fine-art appraisal guidance for San Antonio: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/san-antonio/"
+      }
+    },
+    {
+      "slug": "san-diego",
+      "url": "https://art-appraisers-directory.appraisily.com/location/san-diego/",
+      "name": "Art appraisers in San Diego, California",
+      "description": "Fine-art appraisal guidance for San Diego: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/san-diego/"
+      }
+    },
+    {
+      "slug": "san-francisco",
+      "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
+      "name": "Art appraisers in San Francisco, California",
+      "description": "Fine-art appraisal guidance for San Francisco: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/san-francisco/"
+      }
+    },
+    {
+      "slug": "san-jose",
+      "url": "https://art-appraisers-directory.appraisily.com/location/san-jose/",
+      "name": "Art appraisers in San Jose, California",
+      "description": "Fine-art appraisal guidance for San Jose: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/san-jose/"
+      }
+    },
+    {
+      "slug": "santa-fe",
+      "url": "https://art-appraisers-directory.appraisily.com/location/santa-fe/",
+      "name": "Art appraisers in Santa Fe, New Mexico",
+      "description": "Fine-art appraisal guidance for Santa Fe: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/santa-fe/"
+      }
+    },
+    {
+      "slug": "savannah",
+      "url": "https://art-appraisers-directory.appraisily.com/location/savannah/",
+      "name": "Art appraisers in Savannah, Georgia",
+      "description": "Fine-art appraisal guidance for Savannah: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/savannah/"
+      }
+    },
+    {
+      "slug": "schaumburg",
+      "url": "https://art-appraisers-directory.appraisily.com/location/schaumburg/",
+      "name": "Art appraisers in Schaumburg, Illinois",
+      "description": "Fine-art appraisal guidance for Schaumburg: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/schaumburg/"
+      }
+    },
+    {
+      "slug": "seattle",
+      "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
+      "name": "Art appraisers in Seattle, Washington",
+      "description": "Fine-art appraisal guidance for Seattle: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/seattle/"
+      }
+    },
+    {
+      "slug": "solana-beach",
+      "url": "https://art-appraisers-directory.appraisily.com/location/solana-beach/",
+      "name": "Art appraisers in Solana Beach, California",
+      "description": "Fine-art appraisal guidance for Solana Beach: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/solana-beach/"
+      }
+    },
+    {
+      "slug": "st-louis",
+      "url": "https://art-appraisers-directory.appraisily.com/location/st-louis/",
+      "name": "Art appraisers in St. Louis, Missouri",
+      "description": "Fine-art appraisal guidance for St. Louis: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/st-louis/"
+      }
+    },
+    {
+      "slug": "tampa",
+      "url": "https://art-appraisers-directory.appraisily.com/location/tampa/",
+      "name": "Art appraisers in Tampa, Florida",
+      "description": "Fine-art appraisal guidance for Tampa: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/tampa/"
+      }
+    },
+    {
+      "slug": "tucson",
+      "url": "https://art-appraisers-directory.appraisily.com/location/tucson/",
+      "name": "Art appraisers in Tucson, Arizona",
+      "description": "Fine-art appraisal guidance for Tucson: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/tucson/"
+      }
+    },
+    {
+      "slug": "tulsa",
+      "url": "https://art-appraisers-directory.appraisily.com/location/tulsa/",
+      "name": "Art appraisers in Tulsa, Oklahoma",
+      "description": "Fine-art appraisal guidance for Tulsa: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/tulsa/"
+      }
+    },
+    {
+      "slug": "virginia-beach",
+      "url": "https://art-appraisers-directory.appraisily.com/location/virginia-beach/",
+      "name": "Art appraisers in Virginia Beach, Virginia",
+      "description": "Fine-art appraisal guidance for Virginia Beach: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/virginia-beach/"
+      }
+    },
+    {
+      "slug": "washington-dc",
+      "url": "https://art-appraisers-directory.appraisily.com/location/washington-dc/",
+      "name": "Art appraisers in Washington, District of Columbia",
+      "description": "Fine-art appraisal guidance for Washington: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/washington-dc/"
+      }
+    },
+    {
+      "slug": "wichita",
+      "url": "https://art-appraisers-directory.appraisily.com/location/wichita/",
+      "name": "Art appraisers in Wichita, Kansas",
+      "description": "Fine-art appraisal guidance for Wichita: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/wichita/"
+      }
+    },
+    {
+      "slug": "woodside",
+      "url": "https://art-appraisers-directory.appraisily.com/location/woodside/",
+      "name": "Art appraisers in Woodside, California",
+      "description": "Fine-art appraisal guidance for Woodside: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+      "numberOfListedAppraisers": 0,
+      "listedAppraisers": [],
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/location/woodside/"
       }
     }
   ]

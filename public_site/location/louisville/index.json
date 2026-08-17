@@ -1,0 +1,18 @@
+{
+  "title": "Art appraisers in Louisville, Kentucky",
+  "kind": "art",
+  "baseUrl": "https://art-appraisers-directory.appraisily.com",
+  "generatedAt": "2026-08-17T06:40:33.916Z",
+  "location": {
+    "slug": "louisville",
+    "url": "https://art-appraisers-directory.appraisily.com/location/louisville/",
+    "name": "Art appraisers in Louisville, Kentucky",
+    "description": "Fine-art appraisal guidance for Louisville: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
+    "numberOfListedAppraisers": 0,
+    "listedAppraisers": [],
+    "source": {
+      "type": "public_site_html_json_ld",
+      "route": "/location/louisville/"
+    }
+  }
+}

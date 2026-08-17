@@ -111,7 +111,7 @@ function renderLocationHub(profiles, cities = []) {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Art Appraiser Locations | Appraisily Directory',
-    description: 'Browse reviewed art-only city pages and the five source-reviewed art appraiser profiles.',
+    description: 'Browse reviewed art-only city pages and the source-reviewed art appraiser profiles.',
     url: `${SITE_ORIGIN}/location/`,
     mainEntity: {
       '@type': 'ItemList',
@@ -131,14 +131,14 @@ function renderLocationHub(profiles, cities = []) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Art Appraiser Locations | Appraisily Directory</title>
-    <meta name="description" content="Browse reviewed art-only city pages and the five source-reviewed art appraiser profiles.">
+    <meta name="description" content="Browse reviewed art-only city pages and the source-reviewed art appraiser profiles.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#5b1f2a">
     <link rel="canonical" href="${SITE_ORIGIN}/location/">
     <link rel="icon" type="image/png" href="https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Art Appraiser Locations | Appraisily Directory">
-    <meta property="og:description" content="Browse reviewed art-only city pages and the five source-reviewed art appraiser profiles.">
+    <meta property="og:description" content="Browse reviewed art-only city pages and the source-reviewed art appraiser profiles.">
     <meta property="og:url" content="${SITE_ORIGIN}/location/">
     <meta property="og:image" content="https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png">
     <script type="application/ld+json">${JSON.stringify(schema)}</script>
@@ -170,7 +170,7 @@ function renderLocationHub(profiles, cities = []) {
       <p>This directory publishes provider profiles only after an official source confirms identity, primary location, and fine-art appraisal relevance. City pages are art-only. Antique, furniture, and estate contents stay on the antique directory.</p>
       <section aria-labelledby="verified-cities">
         <h2 id="verified-cities">Art-only city pages</h2>
-        <p class="meta">Each city page explains when a local fine-art inspection is useful and links the reviewed specialist for that city.</p>
+        <p class="meta">Each city page explains when a local fine-art inspection is useful. A reviewed specialist is listed only after official-source review.</p>
         <ul>
 ${renderCityLinks(publishedCities)}
         </ul>

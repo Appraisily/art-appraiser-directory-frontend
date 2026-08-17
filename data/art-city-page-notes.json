@@ -1,0 +1,396 @@
+{
+  "version": 1,
+  "policy": "Each city page must name a local fine-art collecting pattern, a local inspection reason, and a local intended use. Do not invent reviewed providers or ratings.",
+  "cities": {
+    "addison": {
+      "collecting": "Addison collections are usually Chicago-area paintings, prints, and works on paper that moved to a DuPage County house after a downsizing or inheritance. The useful local question is whether the object is being valued as a private collection piece or as part of a suburban estate file, because those uses change the comparables.",
+      "inspection": "In-person review is most useful in Addison when a painting sat in a garage, basement, or climate-inconsistent closet after a suburban move, or when old framing hides labels on the reverse. Clear photos of the front, reverse, signature, and damage are enough for many first written opinions.",
+      "purpose": "Typical Addison assignments are insurance after a house purchase, estate division among siblings, and donation support when a work is leaving a family collection. Ask whether the report will state replacement value or fair market value before anyone visits."
+    },
+    "albuquerque": {
+      "collecting": "Albuquerque fine-art work often includes Southwestern painting, works on paper, photography, and contemporary pieces tied to New Mexico galleries rather than a single coastal auction season. A useful appraisal has to say whether the object is being read as regional art, a tourist-market picture, or a documented gallery work.",
+      "inspection": "Local inspection matters in Albuquerque when pastel, photography, or works on paper have faded in high desert light, or when a large painting cannot be lit evenly indoors. Photographs still support a written report when color, edges, and any foxing or abrasion are visible.",
+      "purpose": "Albuquerque owners usually need insurance scheduling, estate planning, or a donation file. Confirm whether the specialist actually works in Southwestern or contemporary painting before sending a Navajo pictorial, a mid-century print, or a recent gallery piece as if they were the same market."
+    },
+    "arlington": {
+      "collecting": "Arlington, Texas collections often mix North Texas painters, inherited American pictures, and contemporary work bought in Dallas–Fort Worth galleries. The page is useful only if it treats those as fine-art objects with authorship and comparables, not as household contents.",
+      "inspection": "In-person review helps in Arlington when a large painting was stored in a garage or attic after a move between Fort Worth and Dallas suburbs, or when glass and glare hide condition. A complete photo set is usually enough for insurance when the reverse and labels are included.",
+      "purpose": "Arlington assignments commonly cover homeowner insurance, estate division, and donation. Ask whether Texas-artist comparables are being used and whether the intended use is replacement cost or fair market value."
+    },
+    "aspen": {
+      "collecting": "Aspen collections are often high-value contemporary painting, photography, and sculpture kept in seasonal houses, with transit and storage as part of the object history. A local art appraisal should record whether the work lives in Aspen year-round or moves between homes, because condition and insurance use change with that pattern.",
+      "inspection": "Local inspection is worth arranging in Aspen for large contemporary works, outdoor or terrace sculpture, and pieces that traveled in winter. Photographs can still support a written opinion when crate labels, edition marks, and any transit damage are documented.",
+      "purpose": "Aspen reports are commonly written for collection insurance, damage after shipping, and estate or divorce division. Confirm the intended use and whether the fee covers a seasonal-house visit or a photo-based file."
+    },
+    "atlanta": {
+      "collecting": "Atlanta collecting is shaped by the High Museum, a strong regional contemporary scene, and inherited Southern paintings and works on paper. A useful appraisal names the medium and the intended use instead of treating every Atlanta picture as the same local market.",
+      "inspection": "In-person review is most useful in Atlanta when humidity, older frames, or a later restoration is hard to read from photographs. Daylight photos of the front, reverse, and damage remain enough for many insurance and donation files.",
+      "purpose": "Atlanta owners typically need insurance scheduling, estate planning, or charitable donation support. Ask whether the specialist works in the actual medium—painting, photography, or works on paper—before booking a visit."
+    },
+    "austin": {
+      "collecting": "Austin fine-art work often includes contemporary Texas painting, prints, photography, and pieces bought through local galleries rather than a single inherited house collection. The appraisal should say whether the object is studio work, gallery inventory, or a private collection piece.",
+      "inspection": "Local inspection matters in Austin for large contemporary paintings and works stored in hot, dry closets or garages. Photographs are usually enough when color, edges, signature, and any warping or abrasion are visible.",
+      "purpose": "Austin assignments commonly cover insurance for a growing contemporary collection, estate division, and donation. Confirm whether Texas contemporary comparables are being used and what type of value the report will state."
+    },
+    "baltimore": {
+      "collecting": "Baltimore collections often include American painting, works on paper, and inherited pictures with long local ownership stories. The Walters and the Baltimore Museum of Art set a documentation standard that a useful appraisal has to treat as evidence, not atmosphere.",
+      "inspection": "In-person review helps in Baltimore when old varnish, lining, or a later restoration is unclear from photos, or when a work sat in a damp rowhouse. A complete photo set can still support a first written opinion.",
+      "purpose": "Baltimore reports are commonly needed for insurance, estate division, and donation to a museum or university. Ask for the intended-use standard before the visit so replacement cost is not mixed with fair market value."
+    },
+    "beverly-hills": {
+      "collecting": "Beverly Hills fine-art work is often postwar and contemporary painting, photography, and sculpture with gallery, advisor, or storage histories rather than a single family attic. Edition size, condition after hanging in strong light, and a clean invoice trail matter as much as a signature.",
+      "inspection": "Local inspection is most useful for large contemporary works, photographs with fading questions, and pieces whose labels sit on the reverse or mount. Photographs remain enough for many insurance files when those marks and any damage are recorded.",
+      "purpose": "Typical assignments are collection insurance, divorce or estate division, and donation. Confirm the specialist works in postwar art or photography before sending a recent edition or a mid-century print."
+    },
+    "boston": {
+      "collecting": "Boston collections often mix colonial portraits, nineteenth-century American painting, modern New England work, and contemporary pieces that moved through local galleries or family estates. The Museum of Fine Arts and the Isabella Stewart Gardner Museum set a high local standard for documentation, condition, and provenance, so a useful appraisal has to treat those same facts as evidence rather than atmosphere.",
+      "inspection": "In-person review is most useful in Boston when varnish, lining, craquelure, or a later restoration is hard to read from photographs, or when a work may have been reframed after a New England house move. Photographs are usually enough for a first written opinion when the front, reverse, signature, labels, and damage are all visible.",
+      "purpose": "Typical Boston fine-art assignments are insurance scheduling after a Back Bay or Cambridge collection review, estate division when one sibling keeps the painting, and donation support when a work is leaving a private collection for a museum or university."
+    },
+    "buffalo": {
+      "collecting": "Buffalo collections often include American painting, works on paper, and inherited pictures that stayed in Western New York houses for decades. The Albright-Knox / Buffalo AKG standard for modern work makes medium, date, and condition more important than a city-name keyword.",
+      "inspection": "In-person review helps when old frames, winter storage, or a later cleaning is hard to judge from photos. A complete photo set is still enough for many insurance and estate files.",
+      "purpose": "Buffalo owners usually need estate division, insurance, or donation support. Ask whether the report will follow USPAP for the intended use and whether travel to the house is included."
+    },
+    "charleston": {
+      "collecting": "Charleston fine-art work often includes Lowcountry painting, works on paper, and inherited pictures with long Southern ownership stories. Humidity and older houses make condition and framing history part of the appraisal, not an afterthought.",
+      "inspection": "Local inspection is most useful when mold, foxing, warped panels, or old varnish are hard to read from photographs. Clear daylight photos still support a written opinion when the reverse and any tide lines are visible.",
+      "purpose": "Charleston assignments commonly cover insurance after a house restoration, estate division, and donation. Confirm whether the specialist works in paintings and works on paper, not furniture or silver."
+    },
+    "charlotte": {
+      "collecting": "Charlotte collections often mix contemporary Southern painting, inherited American pictures, and works bought through regional galleries. A useful appraisal names the medium and the intended use instead of treating every Charlotte picture as the same market.",
+      "inspection": "In-person review helps when a large painting cannot be lit evenly or when a work sat in storage after a move between Charlotte and the surrounding counties. Photographs are usually enough for insurance when damage and labels are recorded.",
+      "purpose": "Typical uses are homeowner or collection insurance, estate planning, and donation. Ask what type of value the report will state before anyone visits."
+    },
+    "chicago": {
+      "collecting": "Chicago fine-art work ranges from Impressionist and modern paintings to contemporary work, photography, and prints with gallery or Art Institute–adjacent collection histories. A useful local page has to say which of those markets the assignment actually belongs to.",
+      "inspection": "In-person review is most useful for large paintings, works with old linings, and pieces stored through Midwestern winters. Photographs remain enough for many first opinions when the reverse, labels, and damage are visible.",
+      "purpose": "Chicago assignments commonly cover insurance, estate or divorce division, and donation. Confirm the intended use and whether the specialist works in the actual medium before booking."
+    },
+    "cincinnati": {
+      "collecting": "Cincinnati collections often include American painting, works on paper, and inherited pictures with long Ohio River ownership stories. The Cincinnati Art Museum standard for documentation makes authorship and condition more important than a generic local listing.",
+      "inspection": "Local inspection helps when old varnish, a later restoration, or basement storage is hard to judge from photos. A complete photo set can still support a written insurance or estate report.",
+      "purpose": "Typical Cincinnati uses are estate division, insurance scheduling, and donation. Ask whether the report can be used for the intended purpose before the visit."
+    },
+    "cleveland": {
+      "collecting": "Cleveland collections often include American and European paintings, works on paper, and inherited pictures shaped by the Cleveland Museum of Art’s local standard for documentation. A useful appraisal treats those facts as evidence.",
+      "inspection": "In-person review is most useful when lining, craquelure, or a later cleaning is unclear from photographs, or when a work sat in a damp older house. Photographs are enough for many first written opinions.",
+      "purpose": "Cleveland owners typically need estate, insurance, or donation reports. Confirm the type of value and whether travel is included."
+    },
+    "colleyville": {
+      "collecting": "Colleyville collections are usually private-house paintings, prints, and photography bought in the Dallas–Fort Worth market or inherited from a Texas family. The useful question is the object and the intended use, not a suburban city keyword.",
+      "inspection": "Local inspection helps when a large painting hangs in strong Texas light or was stored in a garage after a move. Photographs support a written report when color shift, edges, and labels are visible.",
+      "purpose": "Typical assignments are insurance after a house purchase, estate planning, and donation. Ask for replacement value versus fair market value before anyone visits."
+    },
+    "colorado-springs": {
+      "collecting": "Colorado Springs fine-art work often includes Western and American painting, works on paper, and contemporary pieces kept in dry, high-altitude houses. Light, dryness, and framing under glass change how condition should be described.",
+      "inspection": "In-person review is most useful for works with fading, brittle paper, or large paintings that cannot be photographed evenly. A complete photo set is still enough for many insurance files.",
+      "purpose": "Owners usually need insurance, estate division, or donation support. Confirm whether the specialist works in painting or works on paper, not decorative Western objects that belong on the antique directory."
+    },
+    "columbus": {
+      "collecting": "Columbus collections often mix Midwestern American painting, university-adjacent contemporary work, and inherited pictures. A useful appraisal names the medium and intended use instead of repeating “art appraiser near me.”",
+      "inspection": "Local inspection helps when a work sat in campus or suburban storage, or when old frames hide labels. Photographs are usually enough for a first written opinion.",
+      "purpose": "Typical Columbus uses are insurance, estate planning, and donation to a university or museum. Ask what type of value the report will state."
+    },
+    "dallas": {
+      "collecting": "Dallas fine-art work includes Texas painting, contemporary gallery work, photography, and inherited American pictures. The Dallas Museum of Art and the local gallery circuit make provenance and intended use more important than a city-name listing.",
+      "inspection": "In-person review is most useful for large contemporary paintings and works stored in heat. Photographs remain enough when the reverse, edition marks, and damage are recorded.",
+      "purpose": "Dallas assignments commonly cover collection insurance, estate or divorce division, and donation. Confirm the specialist’s medium before sending a recent contemporary work or an inherited nineteenth-century picture as if they were the same file."
+    },
+    "denver": {
+      "collecting": "Denver collections often include Western and American painting, photography, and contemporary work shaped by the Denver Art Museum and a dry, high-altitude climate. Condition notes have to account for light and paper brittleness, not just a signature.",
+      "inspection": "Local inspection helps for large paintings, photographs with fading, and works that moved between mountain and city houses. A complete photo set can still support a written report.",
+      "purpose": "Typical uses are insurance, estate planning, and donation. Ask whether Western-painting comparables are being used only when the object actually belongs in that market."
+    },
+    "detroit": {
+      "collecting": "Detroit collections often include American painting, works on paper, and inherited pictures with long Michigan ownership stories. The Detroit Institute of Arts standard for documentation should shape what a useful local report records.",
+      "inspection": "In-person review is most useful when old varnish, industrial-era frames, or winter storage is hard to read from photos. Photographs are enough for many first opinions.",
+      "purpose": "Detroit owners typically need estate division, insurance, or donation. Confirm the intended use before the visit."
+    },
+    "el-paso": {
+      "collecting": "El Paso fine-art work often includes borderlands and Southwestern painting, works on paper, and contemporary pieces with regional gallery histories. A useful appraisal has to separate documented fine art from decorative or tourist-market pictures.",
+      "inspection": "Local inspection matters when heat, dust, or fading is hard to judge from photographs. A complete photo set still supports a written insurance file when color and abrasion are visible.",
+      "purpose": "Typical assignments are insurance, estate planning, and donation. Confirm the specialist works in painting or works on paper, not furniture or silver."
+    },
+    "fort-worth": {
+      "collecting": "Fort Worth collecting is shaped by the Kimbell, the Modern, and Amon Carter, so local fine-art files often involve American painting, works on paper, and contemporary work with museum-adjacent documentation expectations.",
+      "inspection": "In-person review helps for large paintings and works whose labels or collector marks sit on the reverse. Photographs are usually enough for insurance when those marks and any damage are recorded.",
+      "purpose": "Fort Worth assignments commonly cover insurance, estate division, and donation. Ask whether the report will meet the intended-use standard you need."
+    },
+    "fresno": {
+      "collecting": "Fresno collections are usually private-house paintings, prints, and photography, including inherited California pictures and work bought through regional galleries. The useful local question is the object and the intended use, not a Central Valley keyword.",
+      "inspection": "Local inspection helps when heat, dust, or garage storage has affected paint or paper. Photographs support a written report when fading, edges, and labels are visible.",
+      "purpose": "Typical uses are insurance, estate division, and donation. Confirm the type of value before anyone visits."
+    },
+    "hartford": {
+      "collecting": "Hartford collections often include New England painting, works on paper, and inherited pictures with long Connecticut ownership stories. The Wadsworth Atheneum standard for documentation makes condition and provenance part of a useful report.",
+      "inspection": "In-person review is most useful when old varnish, lining, or a later restoration is unclear from photos. A complete photo set can still support a first written opinion.",
+      "purpose": "Hartford owners typically need insurance, estate planning, or donation support. Ask whether the report can be used for the intended purpose."
+    },
+    "houston": {
+      "collecting": "Houston collecting is shaped by the Museum of Fine Arts, Houston, the Menil Collection, and a strong market for Texas artists alongside broader American and contemporary work. A local art appraisal should say whether the object is being valued as gallery inventory, a private collection piece, or an estate asset, because those uses change the relevant comparables.",
+      "inspection": "Local inspection matters in Houston when large paintings, outdoor sculpture, or works stored in climate-controlled closets cannot be photographed evenly. Heat, humidity, and framing under glass can hide condition issues that a written report still has to describe. Clear daylight photos remain enough for many insurance and donation files.",
+      "purpose": "Houston owners usually need a signed report for homeowner or collection insurance, estate planning, equitable distribution, or a charitable donation. Ask whether the report will state replacement value, fair market value, or both, and whether Texas-artist comparables are being used."
+    },
+    "indianapolis": {
+      "collecting": "Indianapolis collections often include Midwestern American painting, works on paper, and inherited pictures. The Indianapolis Museum of Art / Newfields standard for documentation should shape what a useful local report records.",
+      "inspection": "In-person review helps when old frames, basement storage, or a later cleaning is hard to judge from photos. Photographs are enough for many insurance and estate files.",
+      "purpose": "Typical uses are estate division, insurance, and donation. Confirm the intended use and fee basis before a visit."
+    },
+    "jacksonville": {
+      "collecting": "Jacksonville fine-art work often includes Florida and American painting, works on paper, and inherited pictures that sat in humid coastal houses. Condition and framing history are part of the appraisal, not decoration.",
+      "inspection": "Local inspection is most useful when humidity, foxing, or warped paper is hard to read from photographs. Daylight photos still support a written opinion when tide lines and the reverse are visible.",
+      "purpose": "Jacksonville assignments commonly cover insurance, estate planning, and donation. Confirm the specialist works in paintings or works on paper."
+    },
+    "jacksonville-beach": {
+      "collecting": "Jacksonville Beach collections are usually private-house paintings, prints, and photography kept in coastal light and humidity. Salt air and strong sun change how condition should be described.",
+      "inspection": "In-person review helps when fading, foxing, or frame corrosion is unclear from photos. A complete photo set is still enough for many first written opinions.",
+      "purpose": "Typical uses are insurance after a coastal-house purchase, estate division, and donation. Ask what type of value the report will state."
+    },
+    "kansas-city": {
+      "collecting": "Kansas City collections often include American painting, works on paper, and inherited pictures shaped by the Nelson-Atkins standard for documentation. A useful appraisal treats authorship and condition as evidence.",
+      "inspection": "Local inspection helps when old varnish, lining, or Midwest storage is hard to judge from photos. Photographs remain enough for many insurance files.",
+      "purpose": "Kansas City owners typically need estate, insurance, or donation reports. Confirm the intended use before booking."
+    },
+    "lancaster": {
+      "collecting": "Lancaster collections are usually private-house paintings, prints, and works on paper, including inherited Pennsylvania pictures. The page is useful only if it stays on fine art and sends furniture or decorative arts to the antique directory.",
+      "inspection": "In-person review helps when old frames, farmhouse storage, or a later cleaning is unclear from photographs. A complete photo set can still support a written report.",
+      "purpose": "Typical assignments are estate division, insurance, and donation. Ask whether the report will state fair market value or replacement cost."
+    },
+    "langley": {
+      "collecting": "Langley collections are usually private-house paintings, prints, and photography in a smaller market where the useful facts are the object, condition, and intended use, not a city-name directory of invented specialists.",
+      "inspection": "Local inspection helps when a work cannot be photographed evenly or when framing hides labels. Photographs are enough for many first opinions.",
+      "purpose": "Owners typically need insurance, estate planning, or a written online opinion. Confirm the intended use before anyone travels."
+    },
+    "las-vegas": {
+      "collecting": "Las Vegas fine-art work often includes contemporary painting, photography, prints, and pieces that moved through galleries, hotels, or storage rather than a single family house. Edition marks and condition after strong indoor light matter.",
+      "inspection": "In-person review is most useful for large contemporary works and photographs with fading or mounting questions. A complete photo set still supports a written insurance file.",
+      "purpose": "Typical assignments are collection insurance, estate or divorce division, and damage after transit. Confirm the specialist works in the actual medium."
+    },
+    "long-beach": {
+      "collecting": "Long Beach collections often include Southern California painting, photography, prints, and inherited pictures with coastal light exposure. A useful appraisal names the medium and intended use.",
+      "inspection": "Local inspection helps when fading, salt air, or large contemporary works are hard to document from photographs. Photos remain enough when edition marks and damage are visible.",
+      "purpose": "Long Beach owners usually need insurance, estate planning, or donation. Ask what type of value the report will state."
+    },
+    "los-angeles": {
+      "collecting": "Los Angeles fine-art work is often postwar and contemporary painting, photography, prints, and sculpture, with collection histories that pass through galleries, studios, and storage rather than a single family house. LACMA, the Getty, and the local gallery circuit make edition size, printer, and exhibition history as important as a signature.",
+      "inspection": "In-person review is most useful in Los Angeles for large contemporary works, photographs with condition or fading questions, and pieces whose labels or edition marks are on the reverse or mount. A complete photo set can still support a written appraisal when those marks, the frame, and any damage are recorded.",
+      "purpose": "Los Angeles assignments commonly cover insurance for a growing contemporary collection, estate or divorce division, damage after transit or storage, and donation files. Confirm whether the specialist actually works in postwar art or photography before sending a mid-century print or a recent edition."
+    },
+    "louisville": {
+      "collecting": "Louisville collections often include American painting, works on paper, and inherited pictures with long Kentucky ownership stories. A useful appraisal treats condition and provenance as evidence, not atmosphere.",
+      "inspection": "In-person review helps when humidity, old frames, or a later restoration is hard to read from photos. Photographs are enough for many first written opinions.",
+      "purpose": "Typical uses are estate division, insurance, and donation. Confirm the intended-use standard before a visit."
+    },
+    "memphis": {
+      "collecting": "Memphis fine-art work often includes American painting, works on paper, and inherited Southern pictures. Humidity and older houses make condition part of the file.",
+      "inspection": "Local inspection is most useful when foxing, warped paper, or old varnish is unclear from photographs. A complete photo set can still support a written report.",
+      "purpose": "Memphis assignments commonly cover estate planning, insurance, and donation. Ask whether the specialist works in paintings or works on paper."
+    },
+    "mesa": {
+      "collecting": "Mesa collections are usually private-house paintings, prints, and photography in the Phoenix metro market, including inherited pictures and work bought through regional galleries. Heat and dry air change how paper and photographs should be described.",
+      "inspection": "In-person review helps when fading or brittle paper is hard to judge from photos. Photographs remain enough for many insurance files.",
+      "purpose": "Typical uses are insurance, estate division, and donation. Confirm the type of value before anyone visits."
+    },
+    "miami": {
+      "collecting": "Miami fine-art work is often contemporary Latin American and international painting, photography, and sculpture, with Art Basel–adjacent gallery histories and humidity as a constant condition factor. A useful appraisal has to name the market the object actually belongs to.",
+      "inspection": "Local inspection is most useful when mold, foxing, warped canvases, or fading from strong light are hard to read from photographs. A complete photo set still supports a written opinion when those issues are visible.",
+      "purpose": "Miami assignments commonly cover collection insurance, estate or divorce division, and donation. Confirm the specialist works in contemporary painting or photography before booking."
+    },
+    "milwaukee": {
+      "collecting": "Milwaukee collections often include American painting, works on paper, and inherited Midwestern pictures. The Milwaukee Art Museum standard for documentation should shape a useful local report.",
+      "inspection": "In-person review helps when winter storage, old frames, or a later cleaning is unclear from photos. Photographs are enough for many first opinions.",
+      "purpose": "Typical uses are estate, insurance, and donation. Ask what type of value the report will state."
+    },
+    "minneapolis": {
+      "collecting": "Minneapolis collections often include American painting, works on paper, photography, and contemporary work shaped by the Walker and the Minneapolis Institute of Art. A useful appraisal names the medium and intended use.",
+      "inspection": "Local inspection helps when winter dryness, old linings, or large contemporary works are hard to document from photographs. A complete photo set can still support a written report.",
+      "purpose": "Minneapolis owners typically need insurance, estate planning, or donation. Confirm the specialist’s medium before a visit."
+    },
+    "nashville": {
+      "collecting": "Nashville fine-art work often includes contemporary Southern painting, photography, and inherited American pictures. A useful page separates fine art from memorabilia or decorative objects that belong on the antique directory.",
+      "inspection": "In-person review helps when humidity, old frames, or a later restoration is hard to read from photos. Photographs are usually enough for insurance when damage and labels are recorded.",
+      "purpose": "Typical assignments are insurance, estate division, and donation. Ask for the intended-use standard before booking."
+    },
+    "new-orleans": {
+      "collecting": "New Orleans collections often include Southern painting, works on paper, and inherited pictures with long local ownership stories. Humidity, older houses, and restoration history are part of the appraisal evidence.",
+      "inspection": "Local inspection is most useful when mold, foxing, warped panels, or old varnish cannot be judged from photographs. Daylight photos still support a first written opinion when the reverse is included.",
+      "purpose": "New Orleans assignments commonly cover insurance after a house restoration, estate division, and donation. Confirm the specialist works in paintings or works on paper."
+    },
+    "new-york": {
+      "collecting": "New York remains the densest U.S. market for auction comparables in paintings, prints, photography, posters, and sculpture. That density helps a careful appraiser, but it also makes a generic “New York art appraiser” page useless unless it says which centuries, media, and intended uses the listing actually covers.",
+      "inspection": "Local inspection is worth arranging in New York when a work may go to auction, when condition could change a mid-five-figure estimate, or when multiple objects in one collection need a consistent date and authorship standard. Photographs are often enough for insurance scheduling when the owner can capture the reverse, labels, and close damage.",
+      "purpose": "New York reports are commonly written for charitable contribution, estate tax, insurance, and division of property. Ask whether the appraiser will follow USPAP and the intended-use standard you need, and whether the fee is based on a flat project or an hourly research budget."
+    },
+    "oakland": {
+      "collecting": "Oakland collections often include Bay Area contemporary painting, photography, prints, and inherited pictures. A useful appraisal names the medium and whether the work is studio, gallery, or private-collection material.",
+      "inspection": "In-person review helps for large contemporary works and pieces stored through damp winters. Photographs remain enough when edition marks and damage are visible.",
+      "purpose": "Typical uses are insurance, estate planning, and donation. Confirm the specialist’s medium before sending a recent print or an inherited painting as the same file."
+    },
+    "oklahoma-city": {
+      "collecting": "Oklahoma City fine-art work often includes American and Western painting, works on paper, and inherited pictures. A useful appraisal has to stay on fine art and send decorative Western objects to the antique directory.",
+      "inspection": "Local inspection helps when dryness, fading, or old frames are hard to judge from photos. A complete photo set can still support a written report.",
+      "purpose": "Owners typically need insurance, estate division, or donation. Ask what type of value the report will state."
+    },
+    "omaha": {
+      "collecting": "Omaha collections often include American painting, works on paper, and inherited Midwestern pictures. The useful local facts are authorship, condition, and intended use.",
+      "inspection": "In-person review helps when basement storage or old frames hide condition. Photographs are enough for many first written opinions.",
+      "purpose": "Typical assignments are estate planning, insurance, and donation. Confirm the intended use before a visit."
+    },
+    "orlando": {
+      "collecting": "Orlando fine-art work often includes Florida painting, prints, photography, and inherited pictures kept in humid houses. Condition after air-conditioning and older frames is part of the file.",
+      "inspection": "Local inspection is most useful when foxing, warped paper, or fading is unclear from photographs. Daylight photos still support a written insurance opinion.",
+      "purpose": "Orlando assignments commonly cover insurance, estate division, and donation. Confirm the specialist works in paintings or works on paper."
+    },
+    "palm-beach": {
+      "collecting": "Palm Beach collections often include Impressionist, modern, and contemporary painting, works on paper, and photography with seasonal-house and storage histories. Humidity and strong light change how condition should be described.",
+      "inspection": "In-person review helps for high-value paintings, works that travel between houses, and photographs with fading questions. A complete photo set can still support a written report.",
+      "purpose": "Typical uses are collection insurance, estate or divorce division, and donation. Ask whether the fee covers a seasonal-house visit."
+    },
+    "philadelphia": {
+      "collecting": "Philadelphia collections often include Impressionist and modern paintings, works on paper, and inherited pictures that sat in the same house for decades. The Philadelphia Museum of Art and the Barnes Foundation make condition, framing history, and a clean ownership story more important than a city-name keyword.",
+      "inspection": "In-person review is most useful in Philadelphia when a painting has old varnish, an undated restoration, or family lore that needs to be separated from what the object itself shows. A written online appraisal can still be the right first step when photos show the front, reverse, signature, and any tears or overpaint.",
+      "purpose": "Philadelphia owners typically need confidential appraisals for insurance, collection planning, downsizing, or donation. Confirm the intended use before the visit so the report does not mix replacement cost with fair market value."
+    },
+    "phoenix": {
+      "collecting": "Phoenix collections often include Southwestern and American painting, photography, and contemporary work kept in dry heat and strong light. Paper, photographs, and varnish all need condition notes that match that climate.",
+      "inspection": "Local inspection helps when fading or brittle paper is hard to judge from photos, or when a large painting cannot be lit evenly. Photographs remain enough for many insurance files.",
+      "purpose": "Phoenix assignments commonly cover insurance, estate planning, and donation. Confirm the specialist’s medium before booking."
+    },
+    "pittsburgh": {
+      "collecting": "Pittsburgh collections often include American painting, works on paper, and inherited pictures with long local ownership stories. The Carnegie Museums standard for documentation should shape a useful report.",
+      "inspection": "In-person review helps when old industrial-era frames, lining, or winter storage is unclear from photographs. A complete photo set can still support a written opinion.",
+      "purpose": "Typical uses are estate division, insurance, and donation. Ask for the intended-use standard before a visit."
+    },
+    "portland": {
+      "collecting": "Portland collections often include contemporary Northwest painting, photography, prints, and inherited pictures. Damp winters make paper and frame condition part of the appraisal evidence.",
+      "inspection": "Local inspection is most useful when mold, warped paper, or large contemporary works are hard to document from photographs. Photos still support a written report when those issues are visible.",
+      "purpose": "Portland owners typically need insurance, estate planning, or donation. Confirm the specialist works in the actual medium."
+    },
+    "providence": {
+      "collecting": "Providence collections often include New England painting, works on paper, and inherited pictures, with RISD and local collecting shaping documentation expectations. A useful appraisal treats those facts as evidence.",
+      "inspection": "In-person review helps when old varnish, lining, or a later restoration is hard to read from photos. Photographs are enough for many first opinions.",
+      "purpose": "Typical assignments are insurance, estate division, and donation. Ask what type of value the report will state."
+    },
+    "raleigh": {
+      "collecting": "Raleigh collections often mix contemporary Southern painting, university-adjacent work, and inherited American pictures. A useful page names the medium and intended use.",
+      "inspection": "Local inspection helps when humidity or old frames hide condition. A complete photo set can still support a written insurance file.",
+      "purpose": "Raleigh assignments commonly cover insurance, estate planning, and donation. Confirm the specialist’s medium before booking."
+    },
+    "ranchos-de-taos": {
+      "collecting": "Ranchos de Taos fine-art work is often New Mexico painting, works on paper, and pictures tied to the Taos market. A useful appraisal has to separate documented fine art from decorative Southwestern objects that belong on the antique directory.",
+      "inspection": "In-person review helps when dry light, old adobe-house storage, or later overpaint is hard to judge from photographs. Photos remain enough when color and the reverse are visible.",
+      "purpose": "Typical uses are insurance, estate planning, and donation. Ask whether Taos-market comparables actually apply to the object."
+    },
+    "redondo-beach": {
+      "collecting": "Redondo Beach collections are usually private-house paintings, prints, and photography with coastal light and salt air as part of the condition history.",
+      "inspection": "Local inspection helps when fading or frame corrosion is unclear from photos. A complete photo set still supports a first written opinion.",
+      "purpose": "Owners typically need insurance, estate division, or a photo-based report. Confirm the intended use before anyone visits."
+    },
+    "richmond": {
+      "collecting": "Richmond collections often include American painting, works on paper, and inherited Virginia pictures. The Virginia Museum of Fine Arts standard for documentation should shape a useful local report.",
+      "inspection": "In-person review helps when humidity, old frames, or a later restoration is hard to read from photographs. Photos are enough for many insurance files.",
+      "purpose": "Typical assignments are estate planning, insurance, and donation. Ask what type of value the report will state."
+    },
+    "rockville": {
+      "collecting": "Rockville collections are usually private-house paintings, prints, and photography in the Washington metro market, including inherited pictures and work bought through regional galleries.",
+      "inspection": "Local inspection helps when a work cannot be photographed evenly or when framing hides labels. Photographs support a written report when the reverse and damage are visible.",
+      "purpose": "Typical uses are insurance, estate division, and donation. Confirm the intended use before a visit."
+    },
+    "sacramento": {
+      "collecting": "Sacramento collections often include California painting, works on paper, and inherited pictures. Heat and dry summers change how paper and varnish should be described.",
+      "inspection": "In-person review helps when fading or brittle paper is hard to judge from photos. A complete photo set can still support a written opinion.",
+      "purpose": "Sacramento assignments commonly cover insurance, estate planning, and donation. Confirm the specialist’s medium."
+    },
+    "salt-lake-city": {
+      "collecting": "Salt Lake City fine-art work often includes American painting, works on paper, and contemporary pieces kept in dry, high-altitude houses. Light and paper condition are part of the file.",
+      "inspection": "Local inspection helps when fading or large paintings cannot be documented evenly. Photographs remain enough for many insurance files.",
+      "purpose": "Typical uses are insurance, estate division, and donation. Ask what type of value the report will state."
+    },
+    "san-antonio": {
+      "collecting": "San Antonio collections often include Texas and American painting, works on paper, and inherited pictures. Heat and older houses make condition part of the appraisal evidence.",
+      "inspection": "In-person review helps when fading, old frames, or garage storage is hard to judge from photos. A complete photo set can still support a written report.",
+      "purpose": "San Antonio owners typically need insurance, estate planning, or donation. Confirm whether Texas-artist comparables apply."
+    },
+    "san-diego": {
+      "collecting": "San Diego fine-art work often includes California painting, photography, prints, and inherited pictures with strong coastal light. A useful appraisal names the medium and intended use.",
+      "inspection": "Local inspection helps when fading, salt air, or large contemporary works are hard to document from photographs. Photos still support a written insurance file.",
+      "purpose": "Typical assignments are insurance, estate division, and donation. Confirm the specialist works in painting or photography."
+    },
+    "san-francisco": {
+      "collecting": "San Francisco collections often include modern and contemporary painting, photography, prints, and inherited pictures, with SFMOMA and the local gallery circuit shaping documentation expectations. Edition history and condition after damp winters matter.",
+      "inspection": "In-person review is most useful for large contemporary works, photographs, and pieces stored through fog-season humidity. A complete photo set can still support a written report.",
+      "purpose": "San Francisco assignments commonly cover collection insurance, estate or divorce division, and donation. Confirm the specialist’s medium before booking."
+    },
+    "san-jose": {
+      "collecting": "San Jose collections often include contemporary painting, photography, prints, and inherited pictures in a South Bay private-house market. A useful page stays on fine art and intended use.",
+      "inspection": "Local inspection helps when large works or framing under glass hide condition. Photographs are enough for many first opinions.",
+      "purpose": "Typical uses are insurance, estate planning, and donation. Ask what type of value the report will state."
+    },
+    "santa-fe": {
+      "collecting": "Santa Fe fine-art work is often New Mexico painting, works on paper, and contemporary gallery work. A useful appraisal has to separate documented fine art from decorative Southwestern objects that belong on the antique directory.",
+      "inspection": "In-person review helps when dry light, later overpaint, or gallery labels on the reverse are hard to judge from photographs. Photos remain enough when color and marks are visible.",
+      "purpose": "Santa Fe assignments commonly cover insurance, estate planning, and donation. Ask whether Santa Fe–market comparables actually apply to the object."
+    },
+    "savannah": {
+      "collecting": "Savannah collections often include Southern painting, works on paper, and inherited pictures in humid historic houses. Condition and framing history are part of the evidence.",
+      "inspection": "Local inspection is most useful when mold, foxing, or warped paper cannot be judged from photos. Daylight photos still support a first written opinion.",
+      "purpose": "Typical uses are insurance after a house restoration, estate division, and donation. Confirm the specialist works in paintings or works on paper."
+    },
+    "schaumburg": {
+      "collecting": "Schaumburg collections are usually Chicago-suburb paintings, prints, and photography that moved from the city or were inherited into a northwest-suburban house. The useful facts are the object and the intended use.",
+      "inspection": "In-person review helps when garage or basement storage hides condition. Photographs are enough for many insurance files.",
+      "purpose": "Owners typically need insurance, estate division, or donation. Ask what type of value the report will state."
+    },
+    "seattle": {
+      "collecting": "Seattle collections often include Northwest contemporary painting, photography, prints, and inherited pictures. Damp winters make paper, frames, and photography mounts part of the appraisal evidence.",
+      "inspection": "Local inspection is most useful when mold, warped paper, or large contemporary works are hard to document from photographs. A complete photo set can still support a written report.",
+      "purpose": "Seattle assignments commonly cover insurance, estate planning, and donation. Confirm the specialist’s medium before booking."
+    },
+    "solana-beach": {
+      "collecting": "Solana Beach collections are usually private-house paintings, prints, and photography with coastal San Diego light and salt air as part of the condition history.",
+      "inspection": "In-person review helps when fading or frame corrosion is unclear from photos. Photographs still support a first written opinion.",
+      "purpose": "Typical uses are insurance, estate division, and a photo-based report. Confirm the intended use before anyone visits."
+    },
+    "st-louis": {
+      "collecting": "St. Louis collections often include American painting, works on paper, and inherited pictures shaped by the Saint Louis Art Museum standard for documentation. A useful appraisal treats those facts as evidence.",
+      "inspection": "Local inspection helps when old varnish, lining, or Midwest storage is hard to judge from photos. A complete photo set can still support a written report.",
+      "purpose": "St. Louis owners typically need estate, insurance, or donation reports. Ask for the intended-use standard before a visit."
+    },
+    "tampa": {
+      "collecting": "Tampa fine-art work often includes Florida painting, prints, photography, and inherited pictures kept in humidity. Condition after air-conditioning and older frames belongs in the report.",
+      "inspection": "In-person review is most useful when foxing, warped paper, or fading is unclear from photographs. Daylight photos still support a written insurance opinion.",
+      "purpose": "Typical assignments are insurance, estate planning, and donation. Confirm the specialist works in paintings or works on paper."
+    },
+    "tucson": {
+      "collecting": "Tucson collections often include Southwestern and American painting, works on paper, and contemporary pieces kept in dry heat and strong light. Paper and photographs need condition notes that match that climate.",
+      "inspection": "Local inspection helps when fading or brittle paper is hard to judge from photos. Photographs remain enough for many insurance files.",
+      "purpose": "Tucson assignments commonly cover insurance, estate division, and donation. Confirm the specialist’s medium and send decorative Southwestern objects to the antique directory."
+    },
+    "tulsa": {
+      "collecting": "Tulsa fine-art work often includes American painting, works on paper, and inherited pictures. A useful page stays on fine art and intended use.",
+      "inspection": "In-person review helps when dryness, old frames, or a later cleaning is unclear from photographs. A complete photo set can still support a written report.",
+      "purpose": "Typical uses are insurance, estate planning, and donation. Ask what type of value the report will state."
+    },
+    "virginia-beach": {
+      "collecting": "Virginia Beach collections are usually private-house paintings, prints, and photography with coastal humidity and strong light as part of the condition history.",
+      "inspection": "Local inspection helps when fading, foxing, or frame corrosion is hard to read from photos. Photographs still support a first written opinion.",
+      "purpose": "Owners typically need insurance, estate division, or donation. Confirm the intended use before a visit."
+    },
+    "washington-dc": {
+      "collecting": "Washington collections often include American painting, works on paper, photography, and inherited pictures, with Smithsonian and National Gallery documentation standards nearby. A useful appraisal treats authorship, condition, and intended use as evidence.",
+      "inspection": "In-person review is most useful when old varnish, lining, or a later restoration is unclear from photographs. A complete photo set can still support a written report.",
+      "purpose": "Washington assignments commonly cover insurance, estate or donation files, and division of property. Ask whether the report will follow USPAP for the intended use."
+    },
+    "wichita": {
+      "collecting": "Wichita collections often include American painting, works on paper, and inherited Midwestern pictures. The useful local facts are the object, condition, and intended use.",
+      "inspection": "In-person review helps when basement storage or old frames hide condition. Photographs are enough for many first opinions.",
+      "purpose": "Typical assignments are insurance, estate planning, and donation. Confirm the type of value before anyone visits."
+    },
+    "woodside": {
+      "collecting": "Woodside collections are usually private-house paintings, prints, and photography on the Peninsula, including inherited pictures and work bought through Bay Area galleries. The useful facts are the object and the intended use, not a small-town keyword.",
+      "inspection": "Local inspection helps when a large work cannot be photographed evenly or when framing hides labels. A complete photo set still supports a written report.",
+      "purpose": "Owners typically need insurance, estate planning, or donation. Ask what type of value the report will state."
+    }
+  }
+}

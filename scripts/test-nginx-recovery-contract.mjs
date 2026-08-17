@@ -116,6 +116,8 @@ async function runArtifact(label, artifactDir) {
       '/location/los-angeles/',
       '/location/new-york/',
       '/location/philadelphia/',
+      '/location/chicago/',
+      '/location/seattle/',
       '/appraiser/heidi-vaughan-ma-isa-am/',
     ]) {
       published.push(await probe(base, route, 200));

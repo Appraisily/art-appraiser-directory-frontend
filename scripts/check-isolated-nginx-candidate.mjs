@@ -46,10 +46,11 @@ function candidateSmokeArgs({ base, nginxSource, registry, policyRoot }) {
     '/srv/repos/tools/smoke/directory-static-contract.mjs',
     '--base', base,
     '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-    '--expected-sitemap-count', '13',
+    '--expected-sitemap-count', '86',
     '--route', '/',
     '--route', '/location/',
     '--route', '/location/boston/',
+    '--route', '/location/chicago/',
     '--browser-route', '/',
   ];
 }
@@ -101,10 +102,11 @@ if (options.selfTest) {
       '/srv/repos/tools/smoke/directory-static-contract.mjs',
       '--base', base,
       '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-      '--expected-sitemap-count', '13',
+      '--expected-sitemap-count', '86',
       '--route', '/',
       '--route', '/location/',
       '--route', '/location/boston/',
+      '--route', '/location/chicago/',
       '--browser-route', '/',
     ],
   );

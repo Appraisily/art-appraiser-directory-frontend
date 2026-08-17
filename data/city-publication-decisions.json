@@ -1,50 +1,561 @@
 {
-  "version": 2,
-  "decidedAt": "2026-08-16",
+  "version": 3,
+  "decidedAt": "2026-08-17",
   "decision": "restore_art_only_city_pages",
-  "policy": "A one-provider city page is publishable when it has sourced city-level fine-art decision value independent of the provider profile, stays art-only, and links antiques to the antique directory. Repeated provider facts and generic city prose do not qualify.",
+  "policy": "A city page is publishable when it has sourced city-level fine-art decision value independent of any provider profile, stays art-only, and links antiques to the antique directory. A reviewed provider is listed only after official-source review. Repeated provider facts and generic city prose do not qualify.",
   "sourceEvidence": [
     {
       "type": "operator_decision",
       "path": "/srv/manager/projects/art-directory-restore-20260816/decision.md",
-      "finding": "The operator restored the standalone Art host. City pages must be art-only and useful enough to index."
+      "finding": "The operator restored the standalone Art host and the existing Art city inventory as art-only decision pages."
     }
   ],
   "cities": [
+    {
+      "slug": "addison",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only addison decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "albuquerque",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only albuquerque decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "arlington",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only arlington decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "aspen",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only aspen decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "atlanta",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only atlanta decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "austin",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only austin decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "baltimore",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only baltimore decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "beverly-hills",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only beverly-hills decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
     {
       "slug": "boston",
       "status": "retained",
       "terminalStatus": 200,
       "providerSlug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-      "reason": "Art-only Boston decision page with a reviewed fine-art provider and independent local appraisal guidance."
+      "reason": "Art-only boston decision page with a reviewed fine-art provider and independent local appraisal guidance."
+    },
+    {
+      "slug": "buffalo",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only buffalo decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "charleston",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only charleston decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "charlotte",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only charlotte decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "chicago",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only chicago decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "cincinnati",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only cincinnati decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "cleveland",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only cleveland decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "colleyville",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only colleyville decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "colorado-springs",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only colorado-springs decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "columbus",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only columbus decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "dallas",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only dallas decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "denver",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only denver decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "detroit",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only detroit decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "el-paso",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only el-paso decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "fort-worth",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only fort-worth decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "fresno",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only fresno decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "hartford",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only hartford decision page with independent local appraisal guidance and no reviewed local listing yet."
     },
     {
       "slug": "houston",
       "status": "retained",
       "terminalStatus": 200,
       "providerSlug": "heidi-vaughan-ma-isa-am",
-      "reason": "Art-only Houston decision page with a reviewed fine-art provider and independent local appraisal guidance."
+      "reason": "Art-only houston decision page with a reviewed fine-art provider and independent local appraisal guidance."
+    },
+    {
+      "slug": "indianapolis",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only indianapolis decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "jacksonville",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only jacksonville decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "jacksonville-beach",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only jacksonville-beach decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "kansas-city",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only kansas-city decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "lancaster",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only lancaster decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "langley",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only langley decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "las-vegas",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only las-vegas decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "long-beach",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only long-beach decision page with independent local appraisal guidance and no reviewed local listing yet."
     },
     {
       "slug": "los-angeles",
       "status": "retained",
       "terminalStatus": 200,
       "providerSlug": "open-to-the-public",
-      "reason": "Art-only Los Angeles decision page with a reviewed fine-art provider and independent local appraisal guidance."
+      "reason": "Art-only los-angeles decision page with a reviewed fine-art provider and independent local appraisal guidance."
+    },
+    {
+      "slug": "louisville",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only louisville decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "memphis",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only memphis decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "mesa",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only mesa decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "miami",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only miami decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "milwaukee",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only milwaukee decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "minneapolis",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only minneapolis decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "nashville",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only nashville decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "new-orleans",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only new-orleans decision page with independent local appraisal guidance and no reviewed local listing yet."
     },
     {
       "slug": "new-york",
       "status": "retained",
       "terminalStatus": 200,
       "providerSlug": "st-lifer-art-inc-international-art-appraiser",
-      "reason": "Art-only New York decision page with a reviewed fine-art provider and independent local appraisal guidance."
+      "reason": "Art-only new-york decision page with a reviewed fine-art provider and independent local appraisal guidance."
+    },
+    {
+      "slug": "oakland",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only oakland decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "oklahoma-city",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only oklahoma-city decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "omaha",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only omaha decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "orlando",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only orlando decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "palm-beach",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only palm-beach decision page with independent local appraisal guidance and no reviewed local listing yet."
     },
     {
       "slug": "philadelphia",
       "status": "retained",
       "terminalStatus": 200,
       "providerSlug": "sarah-ann-wilson-art-services",
-      "reason": "Art-only Philadelphia decision page with a reviewed fine-art provider and independent local appraisal guidance."
+      "reason": "Art-only philadelphia decision page with a reviewed fine-art provider and independent local appraisal guidance."
+    },
+    {
+      "slug": "phoenix",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only phoenix decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "pittsburgh",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only pittsburgh decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "portland",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only portland decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "providence",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only providence decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "raleigh",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only raleigh decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "ranchos-de-taos",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only ranchos-de-taos decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "redondo-beach",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only redondo-beach decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "richmond",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only richmond decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "rockville",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only rockville decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "sacramento",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only sacramento decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "salt-lake-city",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only salt-lake-city decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "san-antonio",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only san-antonio decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "san-diego",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only san-diego decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "san-francisco",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only san-francisco decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "san-jose",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only san-jose decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "santa-fe",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only santa-fe decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "savannah",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only savannah decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "schaumburg",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only schaumburg decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "seattle",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only seattle decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "solana-beach",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only solana-beach decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "st-louis",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only st-louis decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "tampa",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only tampa decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "tucson",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only tucson decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "tulsa",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only tulsa decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "virginia-beach",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only virginia-beach decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "washington-dc",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only washington-dc decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "wichita",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only wichita decision page with independent local appraisal guidance and no reviewed local listing yet."
+    },
+    {
+      "slug": "woodside",
+      "status": "retained",
+      "terminalStatus": 200,
+      "providerSlug": "",
+      "reason": "Art-only woodside decision page with independent local appraisal guidance and no reviewed local listing yet."
     }
   ]
 }
