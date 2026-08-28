@@ -185,9 +185,25 @@
     return event + '|' + path;
   }
 
+  function rememberRecent(event, path) {
+    if (!event) return false;
+    var key = eventKey(event, path);
+    var recentAt = recentFirstPartyEvents[key];
+    if (recentAt && Date.now() - recentAt < 1500) return false;
+    recentFirstPartyEvents[key] = Date.now();
+    return true;
+  }
+
   function sendFirstParty(event, params, markRecent) {
     if (!originalFetch || !event) return;
     var path = canonicalPath(params && params.page_path || window.location.pathname);
+    if (markRecent) {
+      var specific = bounded(params && params.cta_kind, 128)
+        || bounded(params && params.destination, 200)
+        || bounded(params && params.placement, 128);
+      if (!rememberRecent(event, specific ? path + '|' + specific : path)) return;
+      recentFirstPartyEvents[eventKey(event, path)] = Date.now();
+    }
     var contract = surfaceContract();
     var context = pageContext(path);
     var cleanParams = Object.assign({}, params || {});
@@ -201,7 +217,6 @@
       cleanParams.is_synthetic = true;
       cleanParams.synthetic_family = synthetic.family;
     }
-    if (markRecent) recentFirstPartyEvents[eventKey(event, path)] = Date.now();
     var envelope = {
       event: event,
       occurred_at: new Date().toISOString(),
@@ -245,6 +260,54 @@
       page_path: path,
       arrival_owner: 'directory_static_bootstrap'
     }, false);
+  }
+
+  function readDomAttr(node, name) {
+    if (!node || typeof node.getAttribute !== 'function') return undefined;
+    try {
+      return bounded(node.getAttribute(name), 1024);
+    } catch (_error) {
+      return undefined;
+    }
+  }
+
+  function closestDirectoryCta(node) {
+    var current = node;
+    while (current && current !== document) {
+      if (readDomAttr(current, 'data-gtm-event') === 'directory_cta') return current;
+      current = current.parentNode || current.parentElement;
+    }
+    return null;
+  }
+
+  function directoryCtaClickParams(link) {
+    var params = { click_owner: 'directory_static_bootstrap' };
+    var kind = bounded(readDomAttr(link, 'data-cta-kind'), 128);
+    var placement = bounded(readDomAttr(link, 'data-gtm-placement'), 128);
+    var campaign = bounded(readDomAttr(link, 'data-gtm-campaign'), 200);
+    var gtmCta = bounded(readDomAttr(link, 'data-gtm-cta'), 128);
+    var href = readDomAttr(link, 'href');
+    if (kind) params.cta_kind = kind;
+    if (placement) params.placement = placement;
+    if (campaign) params.campaign = campaign;
+    if (gtmCta) params.gtm_cta = gtmCta;
+    if (href) params.destination = href;
+    return params;
+  }
+
+  function onDirectoryCtaClick(event) {
+    try {
+      if (!event || (typeof event.button === 'number' && event.button !== 0)) return;
+      var link = closestDirectoryCta(event.target);
+      if (!link) return;
+      sendFirstParty('directory_cta', directoryCtaClickParams(link), true);
+    } catch (_error) {
+      // Click telemetry must never interrupt navigation.
+    }
+  }
+
+  if (typeof document.addEventListener === 'function') {
+    document.addEventListener('click', onDirectoryCtaClick, true);
   }
 
   function vendorKind(value) {
