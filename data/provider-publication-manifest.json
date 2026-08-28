@@ -4,9 +4,10 @@
     "indexable": 5,
     "verified": 5,
     "limited": 0,
-    "suppressed": 854,
+    "suppressed": 855,
     "appraiserIndexEntries": 5,
-      "indexableLocations": 78
+    "indexableLocations": 78,
+    "changedProfiles": 860
   },
   "providers": [
     {
@@ -177,6 +178,19 @@
         "https://afpartconsulting.com/bio",
         "https://afpartconsulting.com/art-consulting-services"
       ]
+    },
+    {
+      "slug": "aitchison-fine-art-advisory",
+      "name": "Aitchison Fine Art Advisory, LLC",
+      "publicationStatus": "under_review",
+      "reason": "places_website_recycle_20260828",
+      "sourceUrl": "",
+      "sourceType": "",
+      "verifiedAt": "",
+      "verifiedBy": "",
+      "claimScope": [],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/aitchison-fine-art-advisory/",
+      "canonicalProviderId": "provider:aitchison-fine-art-advisory"
     },
     {
       "slug": "alexander-appraisal-and-estate-services",
@@ -715,7 +729,7 @@
     },
     {
       "slug": "appraiseitnow-washington-dc",
-      "name": "AppraiseItNow – Washington DC",
+      "name": "AppraiseItNow \u2013 Washington DC",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -923,7 +937,7 @@
     },
     {
       "slug": "artifactual-history",
-      "name": "Artifactual History® Appraisal",
+      "name": "Artifactual History\u00ae Appraisal",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -936,7 +950,7 @@
     },
     {
       "slug": "artifactual-history-appraisal",
-      "name": "Artifactual History® Appraisal",
+      "name": "Artifactual History\u00ae Appraisal",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -2888,7 +2902,7 @@
     },
     {
       "slug": "collector-s-fine-art-appraisal-et-associates",
-      "name": "Collector’s Fine Art Appraisal et Associates",
+      "name": "Collector\u2019s Fine Art Appraisal et Associates",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
