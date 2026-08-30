@@ -10,7 +10,7 @@ This repo is static-first.
 - Keep source facts in `data/` when they are still useful, but do not require a frontend rebuild to publish content.
 - `data/provider-publication-manifest.json` controls provider eligibility. `public_site/appraisers.json`
   and `public_site/locations.json` are the only browser-facing provider/city registries.
-- Nginx serves provider-specific HTML only for the reviewed cohort. Other provider-shaped URLs
+- Nginx serves provider-specific HTML for verified and limited listings. Other provider-shaped URLs
   receive the generic `public_site/appraiser-unavailable.html` response.
 
 ## Commands
@@ -32,7 +32,7 @@ This repo is static-first.
 - Prefer direct edits to `public_site/` for content and SEO changes.
 - Do not use npm commands or scripts to mass-edit `public_site/appraiser/**` or `public_site/location/**`.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.
-- When the reviewed cohort changes, update the manifest, public feeds, nginx allowlist, sitemap,
+- When the published cohort changes, update the manifest, public feeds, nginx allowlist, sitemap,
   and parity fixtures together; the static gate must fail if these surfaces disagree.
 - Both `/assets/` and `/directory/assets/` are active URL contracts. Candidate releases may retain
   only assets reached from the reviewed routes, public feeds, or their dependency graph.

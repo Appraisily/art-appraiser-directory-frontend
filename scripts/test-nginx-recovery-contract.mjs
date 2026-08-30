@@ -9,7 +9,7 @@ const options = {
   config: path.join(repoRoot, 'nginx.conf'),
   candidateDir: path.join(repoRoot, 'public_site'),
   legacyDir:
-    '/mnt/srv-storage/art-appraisers-directory/releases/20260810171926-9c20e8d06226',
+    '/mnt/srv-storage/art-appraisers-directory/releases/20260816225902-3c3fb2735b34',
 };
 
 for (let index = 2; index < process.argv.length; index += 1) {
@@ -119,6 +119,8 @@ async function runArtifact(label, artifactDir) {
       '/location/chicago/',
       '/location/seattle/',
       '/appraiser/heidi-vaughan-ma-isa-am/',
+      '/appraiser/abh-fine-art-advisory/',
+      '/appraiser/adelaide-fine-art/',
     ]) {
       published.push(await probe(base, route, 200));
     }
@@ -146,9 +148,9 @@ async function runArtifact(label, artifactDir) {
     );
     const gscTerminalProviders = [];
     for (const slug of [
-      'abh-fine-art-advisory',
-      'adelaide-fine-art',
-      'alexandria-new-york-fine-art-appraisers',
+      'aces-gallery',
+      'addison-carrie-young',
+      'alicia-weaver-prestige-estate-services',
     ]) {
       gscTerminalProviders.push(
         await probe(base, `/appraiser/${slug}/`, 404)

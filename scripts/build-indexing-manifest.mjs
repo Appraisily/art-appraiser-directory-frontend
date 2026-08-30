@@ -15,7 +15,7 @@ const POLICY = Object.freeze({
     policy: 'reviewed-decision-manifest-only',
   },
   profile: {
-    policy: 'verified-provider-manifest-only',
+    policy: 'published-verified-or-limited-manifest',
   },
   lastmod: 'omit-without-reviewed-change-ledger',
 });
@@ -174,8 +174,8 @@ function renderLocationHub(profiles, cities = []) {
         <ul>
 ${renderCityLinks(publishedCities)}
         </ul>
-        <h2>Five source-reviewed profiles</h2>
-        <p class="meta">Use the provider profile to review specialties, appraisal purposes, qualifications, source links, and correction information.</p>
+        <h2>Published profiles</h2>
+        <p class="meta">Use the provider profile to review the official website, specialties when listed, and correction information.</p>
         <ul>
 ${renderLinks(profiles)}
         </ul>
@@ -196,7 +196,7 @@ async function listProfileRecords(publicDir, providerManifest, reviewedProviders
   const entries = await fs.readdir(profilesDir, { withFileTypes: true });
   const approved = new Map(
     providerManifest.providers
-      .filter((provider) => provider.publicationStatus === 'verified')
+      .filter((provider) => ['verified', 'limited'].includes(provider.publicationStatus))
       .map((provider) => [provider.slug, provider])
   );
   const canonicalById = new Map(
@@ -222,6 +222,9 @@ async function listProfileRecords(publicDir, providerManifest, reviewedProviders
     if (!provider) continue;
     const expectedUrl = `${SITE_ORIGIN}/appraiser/${entry.name}/`;
     const reviewed = reviewedProviders.providers?.[entry.name] || {};
+    const locality = html.match(/"addressLocality"\s*:\s*"([^"]+)"/)?.[1] || '';
+    const region = html.match(/"addressRegion"\s*:\s*"([^"]+)"/)?.[1] || '';
+    const country = html.match(/"addressCountry"\s*:\s*"([^"]+)"/)?.[1] || '';
     records.push({
       slug: entry.name,
       name: provider.name,
@@ -230,9 +233,9 @@ async function listProfileRecords(publicDir, providerManifest, reviewedProviders
       publicationStatus: provider.publicationStatus,
       verifiedAt: provider.verifiedAt,
       sourceUrl: provider.sourceUrl,
-      city: reviewed.city || '',
-      region: reviewed.region || '',
-      country: reviewed.country || '',
+      city: reviewed.city || locality,
+      region: reviewed.region || region,
+      country: reviewed.country || country,
       indexable,
       robotsIndexable: !hasNoIndex(html),
       canonical: canonicalFromHtml(html),
@@ -357,12 +360,12 @@ async function main() {
       hubProfileSlugs.size !== expectedHubProfileSlugs.size
       || [...expectedHubProfileSlugs].some((slug) => !hubProfileSlugs.has(slug))
     ) {
-      failures.push('location/index.html does not match the verified provider manifest');
+      failures.push('location/index.html does not match the published provider manifest');
     }
 
     for (const profile of profiles) {
-      if (!profile.robotsIndexable) failures.push(`${profile.slug}: verified provider is noindex`);
-      if (profile.canonical !== profile.url) failures.push(`${profile.slug}: verified provider is not self-canonical`);
+      if (!profile.robotsIndexable) failures.push(`${profile.slug}: published provider is noindex`);
+      if (profile.canonical !== profile.url) failures.push(`${profile.slug}: published provider is not self-canonical`);
       if (profile.canonicalHome !== profile.url) failures.push(`${profile.slug}: canonical-home decision disagrees with Art publication`);
     }
     for (const city of cities) {

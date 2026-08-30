@@ -2,17 +2,17 @@
   "title": "Art appraisers in Atlanta, Georgia",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-08-17T06:40:33.916Z",
+  "generatedAt": "2026-08-30T09:18:09.505Z",
   "location": {
     "slug": "atlanta",
     "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
     "name": "Art appraisers in Atlanta, Georgia",
     "description": "Fine-art appraisal guidance for Atlanta: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
     "numberOfListedAppraisers": 0,
-    "listedAppraisers": [],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/atlanta/"
-    }
+    },
+    "listedAppraisers": []
   }
 }

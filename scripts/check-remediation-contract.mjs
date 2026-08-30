@@ -21,7 +21,11 @@ const aliasDecisions = readJson('data/provider-alias-decisions.json');
 const verifiedProviders = manifest.providers.filter(
   (provider) => provider.publicationStatus === 'verified'
 );
+const publishedProviders = manifest.providers.filter((provider) =>
+  ['verified', 'limited'].includes(provider.publicationStatus)
+);
 const verifiedSlugs = new Set(verifiedProviders.map((provider) => provider.slug));
+const publishedSlugs = new Set(publishedProviders.map((provider) => provider.slug));
 const feedSlugs = new Set(appraisersFeed.map((provider) => provider.slug));
 const appraiserFeedBySlug = new Map(
   appraisersFeed.map((provider) => [provider.slug, provider])
@@ -33,17 +37,20 @@ const locationSlugFromHref = (href) =>
 if (verifiedSlugs.size !== manifest.summary.verified) {
   fail('manifest summary.verified does not match verified provider rows');
 }
-if (feedSlugs.size !== verifiedSlugs.size) {
-  fail(`appraisers feed has ${feedSlugs.size} providers; manifest has ${verifiedSlugs.size}`);
+if (publishedSlugs.size !== (manifest.summary.verified + manifest.summary.limited)) {
+  fail('manifest summary indexable counts do not match verified+limited rows');
 }
-for (const slug of verifiedSlugs) {
-  if (!feedSlugs.has(slug)) fail(`verified provider missing from appraisers feed: ${slug}`);
+if (feedSlugs.size !== publishedSlugs.size) {
+  fail(`appraisers feed has ${feedSlugs.size} providers; manifest has ${publishedSlugs.size}`);
+}
+for (const slug of publishedSlugs) {
+  if (!feedSlugs.has(slug)) fail(`published provider missing from appraisers feed: ${slug}`);
   if (!fs.existsSync(path.join(publicDir, 'appraiser', slug, 'index.html'))) {
-    fail(`verified provider route is missing: ${slug}`);
+    fail(`published provider route is missing: ${slug}`);
   }
 }
 for (const slug of feedSlugs) {
-  if (!verifiedSlugs.has(slug)) fail(`unverified provider appears in appraisers feed: ${slug}`);
+  if (!publishedSlugs.has(slug)) fail(`unpublished provider appears in appraisers feed: ${slug}`);
 }
 
 for (const provider of verifiedProviders) {
