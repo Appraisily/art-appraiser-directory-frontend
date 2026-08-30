@@ -1,0 +1,2199 @@
+{
+  "generatedAt": "2026-08-30T12:00:35.846Z",
+  "policy": {
+    "fairIsRegistryOwner": true,
+    "artKeepsPublicationStatus": true,
+    "sameAsOfficialWebsiteFirst": true,
+    "noFairVerificationClaimOnArt": true,
+    "noImportOfFairOnlyProfiles": true
+  },
+  "overlays": [
+    {
+      "slug": "a-and-a-art-appraisals-naples-fl",
+      "name": "A&A Appraisals - Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://aaartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/a-and-a-appraisals-fine-art-new-york-ny/",
+      "fairName": "A&A Appraisals - Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "a-z-appraisal-and-estate-consultants",
+      "name": "az appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://a-zappraisal.com/appraisal-services",
+      "fairUrl": "https://fairappraisers.org/appraisers/az-appraisal/",
+      "fairName": "az appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "aa-fine-art-art-appraiser-in-boca-raton-and-palm-beach",
+      "name": "AA Fine Art, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://aa-fineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/aa-fine-art-llc-boca-raton-fl/",
+      "fairName": "AA Fine Art, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser",
+      "name": "Aaron Art and Antiques Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.aaronappraisalservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/aaron-art-and-antiques-appraisal-services-atlanta-ga/",
+      "fairName": "Aaron Art and Antiques Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "abd-antique-appraisers",
+      "name": "ABD Antique Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://abdappraise.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/abd-antique-appraisers-phoenix-az/",
+      "fairName": "ABD Antique Appraisers",
+      "match": "website_host"
+    },
+    {
+      "slug": "abh-fine-art-advisory",
+      "name": "ABH Fine Art Advisory",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.abhfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/abh-fine-art-advisory-naperville-il/",
+      "fairName": "ABH Fine Art Advisory",
+      "match": "exact_name_fine_art"
+    },
+    {
+      "slug": "adelaide-fine-art",
+      "name": "Adelaide Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.adelaidefineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/adelaide-fine-art-darien-ct/",
+      "fairName": "Adelaide Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "afa-fine-art",
+      "name": "AFA Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.afaappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/afa-fine-art-new-york-ny/",
+      "fairName": "AFA Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
+      "name": "AFP Art Consulting, LLC",
+      "publicationStatus": "verified",
+      "sourceUrl": "https://afpartconsulting.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/afp-art-consulting-llc-washington-dc/",
+      "fairName": "AFP Art Consulting, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "aitchison-fine-art-advisory",
+      "name": "Aitchison Fine Art Advisory, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://aafine.art/",
+      "fairUrl": "https://fairappraisers.org/appraisers/aitchison-fine-art-advisory-pasadena-ca/",
+      "fairName": "Aitchison Fine Art Advisory",
+      "match": "website_host"
+    },
+    {
+      "slug": "alexander-appraisal-and-estate-services",
+      "name": "Alexander Appraisal & Estate Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.alexanderappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/alexander-appraisal-and-estate-services-houston-tx/",
+      "fairName": "Alexander Appraisal & Estate Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "alicia-e-weaver-isa-capp",
+      "name": "Alicia E Weaver (ISA CAPP)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.isa-appraisers.org/",
+      "fairUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/",
+      "fairName": "Alicia E Weaver",
+      "match": "website_host"
+    },
+    {
+      "slug": "alicia-weaver",
+      "name": "Alicia Weaver",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "allison-gee-fine-art-appraisals",
+      "name": "Allison Gee Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://fineart.services/",
+      "fairUrl": "https://fairappraisers.org/appraisers/allison-d-gee-phoenix-az/",
+      "fairName": "Allison D. Gee",
+      "match": "website_host"
+    },
+    {
+      "slug": "alta-fine-art-advisory-and-appraisal",
+      "name": "Alta Fine Art Advisory & Appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://altafaaa.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/alta-fine-art-advisory-and-appraisal-oakland-ca/",
+      "fairName": "Alta Fine Art Advisory & Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "amy-i-schlegel",
+      "name": "Amy I Schlegel",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.schlegelfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/schlegel-fine-art-consulting-llc-boston-ma/",
+      "fairName": "Schlegel Fine Art Consulting LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "anderson-campbell-art-appraisals",
+      "name": "Anderson Campbell Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artandappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/anderson-campbell-art-appraisals-new-york-ny/",
+      "fairName": "Anderson Campbell Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "andrea-moody-fine-art-appraisals-llc",
+      "name": "Andrea Moody Fine Art Appraisals, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.andreamoody.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/andrea-e-moody-seattle-wa/",
+      "fairName": "Andrea E Moody",
+      "match": "website_host"
+    },
+    {
+      "slug": "anne-kelly-lewis",
+      "name": "Anne Kelly Lewis",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartappraisalllc.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/anne-kelly-lewis-fort-worth-tx/",
+      "fairName": "Anne Kelly Lewis",
+      "match": "website_host"
+    },
+    {
+      "slug": "antique-and-estate-buyers",
+      "name": "Antique & Estate Buyers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.antiqueandestatebuyers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/antique-and-estate-buyers-new-york-ny/",
+      "fairName": "Antique & Estate Buyers",
+      "match": "website_host"
+    },
+    {
+      "slug": "antique-and-fine-art-appraisal",
+      "name": "Antique & Fine Art Appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614",
+      "fairUrl": "https://fairappraisers.org/appraisers/antique-and-fine-art-appraisal-seattle-wa/",
+      "fairName": "Antique & Fine Art Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "antique-and-fine-art-appraisals",
+      "name": "Antique & Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals",
+      "fairUrl": "https://fairappraisers.org/appraisers/antique-and-fine-art-appraisals-miami-fl/",
+      "fairName": "Antique & Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa",
+      "name": "Antique Appraisal and Estate Sale Service - K & P Bailey ISA CAPP, AAA",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.kbaileyantiques.net/",
+      "fairUrl": "https://fairappraisers.org/appraisers/antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa-seattle-wa/",
+      "fairName": "Antique Appraisel and Estate Sale Service - K & P Bailey ISA CAPP, AAA",
+      "match": "website_host"
+    },
+    {
+      "slug": "antique-art-buyers",
+      "name": "Antique Art Buyers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://antiqueartbuyers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/antique-art-buyers-largo-fl/",
+      "fairName": "Antique Art Buyers",
+      "match": "website_host"
+    },
+    {
+      "slug": "anya-foo---nova-art-la",
+      "name": "Anya Foo - Nova Art LA",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.novaartla.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/anya-foo-nova-art-la-los-angeles-ca/",
+      "fairName": "Anya Foo - Nova Art LA",
+      "match": "website_host"
+    },
+    {
+      "slug": "appraisal-services-philadelphia-pa-art-antiques-furniture-estate",
+      "name": "Linzey Appraisal Associates LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.linzeyappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/linzey-appraisal-associates-llc-philadelphia-pa/",
+      "fairName": "Linzey Appraisal Associates LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "appraisalink-for-art-and-antiques",
+      "name": "APPRAISALINK for Art & Antiques",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.appraisalink.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/appraisalink-for-art-and-antiques-anacortes-wa/",
+      "fairName": "APPRAISALINK for Art & Antiques",
+      "match": "website_host"
+    },
+    {
+      "slug": "appraisals-miami-fl-estate-and-appraisal-services-inc",
+      "name": "Estate & Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.jewelryandcoinbuyers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/estate-and-appraisal-services-miami-fl/",
+      "fairName": "Estate & Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "appraisals-of-value",
+      "name": "Appraisals of Value, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.appraisalsofvalue.com/index.html",
+      "fairUrl": "https://fairappraisers.org/appraisers/appraisals-of-value-llc-baltimore-md/",
+      "fairName": "Appraisals of Value, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "arnoult-fine-art",
+      "name": "Arnoult Fine Art Consulting",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.arnoultfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/arnoult-fine-art-consulting-houston-tx/",
+      "fairName": "Arnoult Fine Art Consulting",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-and-antiques-appraisal-services-llc",
+      "name": "Art & Antiques Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://astateoftheart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-and-antiques-appraisal-services-santa-fe-nm/",
+      "fairName": "Art & Antiques Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-appraisal-services-llc",
+      "name": "Art Appraisal Services Of The Carolinas",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artappraisalservices.net/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-appraisal-services-of-the-carolinas-charlotte-nc/",
+      "fairName": "Art Appraisal Services Of The Carolinas",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-appraisals-of-new-england",
+      "name": "Art Appraisals of New England",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artappraisalsne.com/01",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-appraisals-of-new-england-boston-ma/",
+      "fairName": "Art Appraisals of New England",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-asset-management-group",
+      "name": "Art Asset Management Group",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artassetmanagementgroup.com/about",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-asset-management-group-cincinnati-oh/",
+      "fairName": "Art Asset Management Group",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-directives",
+      "name": "ART DIRECTIVES",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artdirectives.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-directives-san-diego-ca/",
+      "fairName": "ART DIRECTIVES",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-fortune-llc",
+      "name": "Art Fortune LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artfortune.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-fortune-llc-scottsdale-az/",
+      "fairName": "Art Fortune LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-leaders-gallery-fine-art-appraisals",
+      "name": "Art Leaders Gallery & Custom Framing",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artleaders.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-leaders-gallery-and-custom-framing-detroit-mi/",
+      "fairName": "Art Leaders Gallery & Custom Framing",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-peritus",
+      "name": "Art Peritus, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://artperitus.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-peritus-llc-new-york-ny/",
+      "fairName": "Art Peritus, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-preservation-services-michigan",
+      "name": "Art Preservation Services - Michigan",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artpreservationservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-preservation-services-michigan-grosse-pointe-park-mi/",
+      "fairName": "Art Preservation Services - Michigan",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-services-2000-ltd-fine-art-appraisals",
+      "name": "Art Services 2000 Ltd. Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artserv2000.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-services-2000-ltd-fine-art-appraisals-palm-coast-fl/",
+      "fairName": "Art Services 2000 Ltd. Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "art-world-appraisals-phd",
+      "name": "Art World Appraisals- Fine Art Appraiser Los Angeles",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artworldappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/art-world-appraisals-fine-art-appraiser-los-angeles/",
+      "fairName": "Art World Appraisals- Fine Art Appraiser Los Angeles",
+      "match": "website_host"
+    },
+    {
+      "slug": "artemappraisals",
+      "name": "Artem Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artemappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/jessica-strongin-providence-ri/",
+      "fairName": "Jessica Strongin",
+      "match": "website_host"
+    },
+    {
+      "slug": "artrium-appraisal-elizabeth-krambeer",
+      "name": "Artrium Appraisal (Elizabeth Krambeer)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://artriumappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/artrium-fine-art-and-estate-appraisal-cedar-falls-ia/",
+      "fairName": "Artrium Fine Art & Estate Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "artrium-fine-art-and-estate-appraisal",
+      "name": "Artrium Fine Art & Estate Appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://artriumappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/artrium-fine-art-and-estate-appraisal-cedar-falls-ia/",
+      "fairName": "Artrium Fine Art & Estate Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "ashleigh-caroline-associates-inc",
+      "name": "Ashleigh Caroline Associates Inc",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.auctionyourart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ashleigh-caroline-associates-inc-detroit-mi/",
+      "fairName": "Ashleigh Caroline Associates Inc",
+      "match": "website_host"
+    },
+    {
+      "slug": "austin-christian-fine-art",
+      "name": "Austin Christian Fine Art (Appraisal, Consignment, Restoration of Historic and Vintage Fine Art)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://acfagallery.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/austin-christian-fine-art-appraisal-consignment-restoration-of-historic-and-vintage-fine-art/",
+      "fairName": "Austin Christian Fine Art (Appraisal, Consignment, Restoration of Historic and Vintage Fine Art)",
+      "match": "website_host"
+    },
+    {
+      "slug": "austin-galleries",
+      "name": "Austin Galleries",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.austingalleries.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/austin-galleries/",
+      "fairName": "Austin Galleries",
+      "match": "website_host"
+    },
+    {
+      "slug": "austin-national-appraisal-partners-llp",
+      "name": "National Appraisal Partners, LLP",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.napllp.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/national-appraisal-partners-llp-austin-tx/",
+      "fairName": "National Appraisal Partners, LLP",
+      "match": "website_host"
+    },
+    {
+      "slug": "avalon-antiques-appraisals-and-estate-services",
+      "name": "Avalon Antiques, Appraisals & Estate Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.dexknows.com/san-antonio-tx/bp/avalon-antiques-appraisals-estate-services-537654428",
+      "fairUrl": "https://fairappraisers.org/appraisers/avalon-antiques-appraisals-and-estate-services-san-antonio-tx/",
+      "fairName": "Avalon Antiques, Appraisals & Estate Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "avant-garde",
+      "name": "Avant-Garde Appraisals & Art Advisory",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://agartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/avant-garde-appraisals-and-art-advisory-new-york-ny/",
+      "fairName": "Avant-Garde Appraisals & Art Advisory",
+      "match": "website_host"
+    },
+    {
+      "slug": "b-langston-estate-liquidation",
+      "name": "B. Langston Estate Liquidation & Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://blangston.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/b-langston-estate-liquidation-and-appraisals-jacksonville-fl/",
+      "fairName": "B. Langston Estate Liquidation & Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "baker-appraisers-asian-antique-appraisers",
+      "name": "Baker Appraisers (Asian Antique Appraisers)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://asianantiqueappraisers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/baker-appraisers-asian-antique-appraisers-new-paltz-ny/",
+      "fairName": "Baker Appraisers (Asian Antique Appraisers)",
+      "match": "website_host"
+    },
+    {
+      "slug": "barry-s-slosberg-auctioneers-and-appraisers",
+      "name": "Barry S. Slosberg Auctioneers & Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.bssauction.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/barry-s-slosberg-auctioneers-and-appraisers-philadelphia-pa/",
+      "fairName": "Barry S. Slosberg Auctioneers & Appraisers",
+      "match": "website_host"
+    },
+    {
+      "slug": "bernard-ewell-fine-at-appraisals-llc",
+      "name": "Bernard Ewell Art Appraisers, LLC.",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.bernardewell.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/bernard-ewell-art-appraisers-llc-denver-co/",
+      "fairName": "Bernard Ewell Art Appraisers, LLC.",
+      "match": "website_host"
+    },
+    {
+      "slug": "bertolino-arts",
+      "name": "Bertolino Arts",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.bertolinoarts.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/bertolino-arts-cherry-hill-nj/",
+      "fairName": "Bertolino Arts",
+      "match": "website_host"
+    },
+    {
+      "slug": "beth-weingast-fine-art-appraisals",
+      "name": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://bweingastartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/beth-weingast-fine-art-appraisals-paintings-judaica-coins-jewelry-new-york-ny/",
+      "fairName": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry",
+      "match": "website_host"
+    },
+    {
+      "slug": "betsy-dorminy-appraisals",
+      "name": "Betsy Dorminy Antiques & Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.betsydorminyappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/betsy-dorminy-antiques-and-art-atlanta-ga/",
+      "fairName": "Betsy Dorminy Antiques & Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "bonhams-pacific-northwest",
+      "name": "Bonhams",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.bonhams.com/location/PNW/pacific-northwest",
+      "fairUrl": "https://fairappraisers.org/appraisers/skinner-boston-bonhams/",
+      "fairName": "Skinner Boston (Bonhams)",
+      "match": "website_host"
+    },
+    {
+      "slug": "borodin-fine-art-appraisals",
+      "name": "Borodin Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.borodinappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/mr-daniel-d-borodin-san-francisco-ca/",
+      "fairName": "Mr. Daniel D. Borodin",
+      "match": "website_host"
+    },
+    {
+      "slug": "boston-boston-appraisal-services",
+      "name": "Boston Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://bostonappraisal.com/contact-with-us",
+      "fairUrl": "https://fairappraisers.org/appraisers/boston-appraisal-services/",
+      "fairName": "Boston Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Arts Appraisal - Serving N.E.",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartsappraiser.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/poras-fine-arts-appraisal-serving-n-e-brooklyn-ny/",
+      "fairName": "Poras Fine Arts Appraisal - Serving N.E.",
+      "match": "website_host"
+    },
+    {
+      "slug": "brenda-simonson-mohle",
+      "name": "Brenda Simonson-Mohle",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.signetart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/brenda-simonson-mohle-dallas-tx/",
+      "fairName": "Brenda Simonson-Mohle",
+      "match": "website_host"
+    },
+    {
+      "slug": "butenhoff-fine-art-and-appraisal",
+      "name": "Butenhoff Fine Art & Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.butenhoffappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/butenhoff-fine-art-and-appraisal-services-west-palm-beach-fl/",
+      "fairName": "Butenhoff Fine Art & Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "cain-fine-art",
+      "name": "Cain Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://cainfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/cain-fine-art-houston-tx/",
+      "fairName": "Cain Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "cambridge-appraisals",
+      "name": "Cambridge Appraisals, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.cambridgeappraisalsllc.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/cambridge-appraisals-llc-troy-mi/",
+      "fairName": "Cambridge Appraisals, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit",
+      "name": "Capital Art Group",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.capitalartgroup.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/",
+      "fairName": "Ms. Maria Tarrence, ASA, ARM",
+      "match": "website_host"
+    },
+    {
+      "slug": "carla-young-fine-arts-appraisals-appraisals-and-consultations",
+      "name": "Carla Young Fine Arts Appraisals, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.carlayoungartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/carla-young-fine-arts-appraisals-llc-hilton-head-island-sc/",
+      "fairName": "Carla Young Fine Arts Appraisals, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "carrie-young",
+      "name": "Carrie Young",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://leonardappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/carrie-young-addison-il/",
+      "fairName": "Carrie Young",
+      "match": "website_host"
+    },
+    {
+      "slug": "castner-values",
+      "name": "Castner Values",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://castnervalues.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/leon-e-castner-schwenksville-pa/",
+      "fairName": "Leon E. Castner",
+      "match": "website_host"
+    },
+    {
+      "slug": "charles-barry-goldstein",
+      "name": "Charles Barry Goldstein",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.forensicartappraiser.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/charles-barry-goldstein-rockville-md/",
+      "fairName": "Charles Barry Goldstein",
+      "match": "website_host"
+    },
+    {
+      "slug": "charles-pharr-certified-appraiser",
+      "name": "Charles Pharr Certified Art & Antique Appraiser",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://certified-appraiser.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/charles-pharr-certified-art-and-antique-appraiser-atlanta-ga/",
+      "fairName": "Charles Pharr Certified Art & Antique Appraiser",
+      "match": "website_host"
+    },
+    {
+      "slug": "cheney-appraisal-services",
+      "name": "Cheney Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.cheneyappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/cheney-appraisal-services-new-york-ny/",
+      "fairName": "Cheney Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "chris-ingalls",
+      "name": "Chris Ingalls",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.appraisalssofla.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/chris-ingalls-miami-fl/",
+      "fairName": "Chris Ingalls",
+      "match": "website_host"
+    },
+    {
+      "slug": "christine-guernsey",
+      "name": "Christine Guernsey",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartofappraising.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/christine-guernsey-colleyville-tx/",
+      "fairName": "Christine Guernsey",
+      "match": "website_host"
+    },
+    {
+      "slug": "christine-h-anderson-isa-am",
+      "name": "Christine H Anderson, ISA AM",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.guardianfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/christine-h-anderson-isa-am-milwaukee-wi/",
+      "fairName": "Christine H Anderson, ISA AM",
+      "match": "website_host"
+    },
+    {
+      "slug": "coast2coast-auctions",
+      "name": "Coast2Coast Auctions",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://coast2coastauctions.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/coast2coast-auctions-saint-louis-mo/",
+      "fairName": "Coast2Coast Auctions",
+      "match": "website_host"
+    },
+    {
+      "slug": "connecticut-art-appraisals-llc-alizzandra-danker",
+      "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.appraisersassociation.org/",
+      "fairUrl": "https://fairappraisers.org/appraisers/connecticut-art-appraisals-llc-alizzandra-danker-hartford-ct/",
+      "fairName": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
+      "match": "website_host"
+    },
+    {
+      "slug": "czudej-mcdonough",
+      "name": "Czudej McDonough",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://czudejmcdonough.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/tobias-czudej-new-york-ny/",
+      "fairName": "Tobias Czudej",
+      "match": "website_host"
+    },
+    {
+      "slug": "dana-summitt-look-appraisal-llc",
+      "name": "Dana Summitt (Look Appraisal LLC)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.lookappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/dana-summitt-look-appraisal-llc-raleigh-nc/",
+      "fairName": "Dana Summitt (Look Appraisal LLC)",
+      "match": "website_host"
+    },
+    {
+      "slug": "david-dike-fine-art",
+      "name": "David Dike Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.daviddike.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/david-dike-fine-art-dallas-tx/",
+      "fairName": "David Dike Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "detroit-fine-art-appraisals",
+      "name": "Detroit Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://detroitfaa.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/detroit-fine-art-appraisals-keego-harbor-mi/",
+      "fairName": "Detroit Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "detroit-marketrend-appraisals",
+      "name": "Marketrend Appraisals+",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.marketrendappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/marketrend-appraisals-detroit-mi/",
+      "fairName": "Marketrend Appraisals+",
+      "match": "website_host"
+    },
+    {
+      "slug": "dina-brown",
+      "name": "Dina Brown",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.dinabrownartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/dina-brown-art-appraisals-los-angeles-ca/",
+      "fairName": "Dina Brown Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "dina-brown-art-appraisals",
+      "name": "Dina Brown Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.dinabrownartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/dina-brown-art-appraisals-los-angeles-ca/",
+      "fairName": "Dina Brown Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "dow-art-galleries",
+      "name": "Dow Art Galleries, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.dowartgalleries.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/dow-art-galleries-llc-fort-worth-tx/",
+      "fairName": "Dow Art Galleries, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "doyle-pennsylvania-regional-office",
+      "name": "Doyle (Pennsylvania Regional Office)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.doyle.com/locations/pennsylvania",
+      "fairUrl": "https://fairappraisers.org/appraisers/doyle-pennsylvania-regional-office-philadelphia-pa/",
+      "fairName": "Doyle (Pennsylvania Regional Office)",
+      "match": "website_host"
+    },
+    {
+      "slug": "drake-appraisals",
+      "name": "Drake Appraisals, Inc.",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.drakeappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/drake-appraisals-inc-tampa-fl/",
+      "fairName": "Drake Appraisals, Inc.",
+      "match": "website_host"
+    },
+    {
+      "slug": "dudley-certified-appraisers-art-antiques-and-estates",
+      "name": "Dudley and Dudley Certified Personal Property Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.dudleyanddudley.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/dudley-and-dudley-certified-personal-property-appraisers-albany-ny/",
+      "fairName": "Dudley and Dudley Certified Personal Property Appraisers",
+      "match": "website_host"
+    },
+    {
+      "slug": "dumouchelles",
+      "name": "DuMouchelles",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.dumoart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/dumouchelles-detroit-mi/",
+      "fairName": "DuMouchelles",
+      "match": "website_host"
+    },
+    {
+      "slug": "duwamps-appraisals",
+      "name": "Duwamps Fine Art & Antique Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.duwampsartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/duwamps-fine-art-and-antique-appraisals-seattle-wa/",
+      "fairName": "Duwamps Fine Art & Antique Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "edward-kitson",
+      "name": "Edward Kitson",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "edward-m-stanley-appraisal-services-fine-art-antiques",
+      "name": "Edward Stanley Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.edwardmstanley.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/edward-stanley-appraisal-services-jamaica-plain-ma/",
+      "fairName": "Edward Stanley Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "eisele-gallery",
+      "name": "Eisele Gallery",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.eiselefineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/eisele-gallery-cincinnati-oh/",
+      "fairName": "Eisele Gallery",
+      "match": "website_host"
+    },
+    {
+      "slug": "elise-waters-olonia",
+      "name": "Elise Waters Olonia",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartservices.info/",
+      "fairUrl": "https://fairappraisers.org/appraisers/elise-waters-olonia-ranchos-de-taos-nm/",
+      "fairName": "Elise Waters Olonia",
+      "match": "website_host"
+    },
+    {
+      "slug": "elizabeth-abston-llc",
+      "name": "Elizabeth Abston LLC Fine Art Appraisal & Advisory",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.eafineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/elizabeth-abston-llc-fine-art-appraisal-and-advisory-jackson-ms/",
+      "fairName": "Elizabeth Abston LLC Fine Art Appraisal & Advisory",
+      "match": "website_host"
+    },
+    {
+      "slug": "elizabeth-lake-lovett",
+      "name": "Elizabeth Lake Lovett",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "elizabeth-lovett",
+      "name": "Elizabeth Lovett",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "elizabeth-wells-appraisals-and-fine-art-services",
+      "name": "Elizabeth Wells Appraisals & Fine Art Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.ewellsappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/elizabeth-wells-appraisals-and-fine-art-services-los-angeles-ca/",
+      "fairName": "Elizabeth Wells Appraisals & Fine Art Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "emmett-appraisal-consulting-group",
+      "name": "Emmett Appraisal & Consulting Group",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://coralgables.legistar.com/View.ashx",
+      "fairUrl": "https://fairappraisers.org/appraisers/emmett-appraisal-and-consulting-group-miami-fl/",
+      "fairName": "Emmett Appraisal & Consulting Group",
+      "match": "website_host"
+    },
+    {
+      "slug": "ena-art-group",
+      "name": "ENA Appraisals - Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.enaartgroup.com/appraisals",
+      "fairUrl": "https://fairappraisers.org/appraisers/elsie-n-arredondo-san-diego-ca/",
+      "fairName": "Elsie N Arredondo",
+      "match": "website_host"
+    },
+    {
+      "slug": "erika-holycross-prestige-estate-services",
+      "name": "Erika Holycross (Prestige Estate Services)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "erin-e-keever",
+      "name": "Erin E Keever",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://erinkeever.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/erin-e-keever-austin-tx/",
+      "fairName": "Erin E Keever",
+      "match": "website_host"
+    },
+    {
+      "slug": "escher-associates-ea",
+      "name": "Escher Associates (EA)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.escher-associates.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/escher-associates-lafayette-ca/",
+      "fairName": "Escher Associates",
+      "match": "website_host"
+    },
+    {
+      "slug": "fine-art-appraisal-services",
+      "name": "Fine Art Appraisal and Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartappraisalandservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/kelly-juhasz/",
+      "fairName": "Kelly Juhasz",
+      "match": "website_host"
+    },
+    {
+      "slug": "fine-art-concierge",
+      "name": "Fine Art Concierge",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartconcierge.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/fine-art-concierge-philadelphia-pa/",
+      "fairName": "Fine Art Concierge",
+      "match": "website_host"
+    },
+    {
+      "slug": "fine-arts-services",
+      "name": "Fine Arts Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.alignable.com/charlotte-nc/fine-arts-services",
+      "fairUrl": "https://fairappraisers.org/appraisers/fine-arts-services-charlotte-nc/",
+      "fairName": "Fine Arts Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "fox-white-art-and-antique-appraisals-nyc",
+      "name": "Fox-White Art & Antique Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://fox-white.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/fox-white-art-and-antique-appraisals-new-york-ny/",
+      "fairName": "Fox-White Art & Antique Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "frances-redell-white-appraisal-consultant-services",
+      "name": "Appraisal and Consulting Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://appraisalconsultant.com/appraisal-services",
+      "fairUrl": "https://fairappraisers.org/appraisers/appraisal-and-consulting-services-valrico-fl/",
+      "fairName": "Appraisal and Consulting Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "fruitcocktail-collectables",
+      "name": "Fruitcocktail Collectables",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://fruitcocktailcollectables.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/fruitcocktail-collectables-seattle-wa/",
+      "fairName": "Fruitcocktail Collectables",
+      "match": "website_host"
+    },
+    {
+      "slug": "full-service-estate-sales-and-appraisals-houston-accredited-appraiser",
+      "name": "English and Associates Estate Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.englishestateservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/english-and-associates-estate-services-houston-tx/",
+      "fairName": "English and Associates Estate Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "gabrielle-segal-gs-art-concierge",
+      "name": "Gabrielle Segal | GS Art Concierge",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.gabriellesegal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/gabrielle-segal-gs-art-concierge-new-york-ny/",
+      "fairName": "Gabrielle Segal | GS Art Concierge",
+      "match": "website_host"
+    },
+    {
+      "slug": "gb-fine-art-professional-art-appraisals-chicago-illinois",
+      "name": "GB Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://gbfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/gb-fine-art-chicago-il/",
+      "fairName": "GB Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "geolat",
+      "name": "Geolat",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://geolat.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/geolat-dallas-tx/",
+      "fairName": "Geolat",
+      "match": "website_host"
+    },
+    {
+      "slug": "giardina-fine-art-appraisal-services",
+      "name": "GIARDINA Fine Art Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://giardinafineart.com/appraisals",
+      "fairUrl": "https://fairappraisers.org/appraisers/giardina-fine-art-appraisal-services-albany-ny/",
+      "fairName": "GIARDINA Fine Art Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "gilded-pear-gallery",
+      "name": "Gilded Pear Gallery",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.gildedpeargallery.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/gilded-pear-gallery-cedar-rapids-ia/",
+      "fairName": "Gilded Pear Gallery",
+      "match": "website_host"
+    },
+    {
+      "slug": "green-donation-consultants",
+      "name": "Green Donation Consultants",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://greendonation.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/green-donation-consultants-fredericksburg-va/",
+      "fairName": "Green Donation Consultants",
+      "match": "website_host"
+    },
+    {
+      "slug": "greg-c-brown",
+      "name": "Greg C. Brown",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigestateservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/greg-c-brown-minneapolis-mn/",
+      "fairName": "Greg C. Brown",
+      "match": "website_host"
+    },
+    {
+      "slug": "gurr-johns",
+      "name": "Gurr Johns",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.gurrjohns.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/gurr-johns-new-york-ny/",
+      "fairName": "Gurr Johns",
+      "match": "website_host"
+    },
+    {
+      "slug": "hale-appraisals",
+      "name": "Steven A. Hale Appraisals & Estates",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.hale-appraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/steven-a-hale-appraisals-and-estates-denver-co/",
+      "fairName": "Steven A. Hale Appraisals & Estates",
+      "match": "website_host"
+    },
+    {
+      "slug": "haney-appraisals-in-fine-art",
+      "name": "Haney Appraisals in Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.haneyappraisalsfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/haney-appraisals-in-fine-art-kansas-city-mo/",
+      "fairName": "Haney Appraisals in Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "harrison-appraisals-llc-appraisal-firm-westminster-md",
+      "name": "Harrison Appraisals LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://harrisonappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/harrison-appraisals-llc-westminster-md/",
+      "fairName": "Harrison Appraisals LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "heidi-vaughan-ma-isa-am",
+      "name": "Heidi Vaughan Fine Art",
+      "publicationStatus": "verified",
+      "sourceUrl": "https://heidivaughanfineart.com/about",
+      "fairUrl": "https://fairappraisers.org/appraisers/heidi-vaughan-ma-isa-am-houston-tx/",
+      "fairName": "Heidi Vaughan, MA, ISA AM",
+      "match": "website_host"
+    },
+    {
+      "slug": "heritage-appraisals",
+      "name": "Heritage Appraisals, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://heritageappraisalsmi.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/heritage-appraisals-llc-detroit-mi/",
+      "fairName": "Heritage Appraisals, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "heritage-fine-art-appraisers",
+      "name": "Heritage Fine Art Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://heritagefineartappraisers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/heritage-fine-art-appraisers-los-angeles-ca/",
+      "fairName": "Heritage Fine Art Appraisers",
+      "match": "website_host"
+    },
+    {
+      "slug": "hill-art",
+      "name": "Hill Art Valuation, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://hillartvaluation.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/hill-art-valuation-llc-phoenix-az/",
+      "fairName": "Hill Art Valuation, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "historic-art-services",
+      "name": "Historic Art & Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://historic-art-services.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/historic-art-and-services-aurora-or/",
+      "fairName": "Historic Art & Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "hkpowerstudio",
+      "name": "HKpowerStudio",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://hkpowerstudio.com/creative-organizer",
+      "fairUrl": "https://fairappraisers.org/appraisers/hkpowerstudio-savannah-ga/",
+      "fairName": "HKpowerStudio",
+      "match": "website_host"
+    },
+    {
+      "slug": "hollingsworth-fine-a",
+      "name": "Hollingsworth Fine Arts",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.hollingsworthfinearts.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lauren-k-stump-orlando-fl/",
+      "fairName": "Lauren K. Stump",
+      "match": "website_host"
+    },
+    {
+      "slug": "home-foltz-fine-art",
+      "name": "Foltz Fine Art LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://foltzgallery.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/foltz-fine-art-llc-houston-tx/",
+      "fairName": "Foltz Fine Art LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "houston-estate-sales-and-auction-company",
+      "name": "Houston Estate Sales and Auction Company",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://houstonestatesalesauctions.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/houston-estate-sales-and-auction-company/",
+      "fairName": "Houston Estate Sales and Auction Company",
+      "match": "website_host"
+    },
+    {
+      "slug": "hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers",
+      "name": "Hudson Valley Antique Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.hudsonvalleyantiqueappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/hudson-valley-antique-appraisals-white-plains-ny/",
+      "fairName": "Hudson Valley Antique Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "intermountain-appraisal",
+      "name": "Intermountain Appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://intermountainappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/intermountain-appraisal-salt-lake-city-ny/",
+      "fairName": "Intermountain Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "isabelle-m-weiss",
+      "name": "Isabelle M Weiss",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://collectoranonymous.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/isabelle-m-weiss-detroit-mi/",
+      "fairName": "Isabelle M Weiss",
+      "match": "website_host"
+    },
+    {
+      "slug": "jacksonville-fine-art-appraisers",
+      "name": "Hudson River Gallery and Conservators",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.hudsonrivergallery-conservators.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/hudson-river-gallery-and-conservators-jacksonville-fl/",
+      "fairName": "Hudson River Gallery and Conservators",
+      "match": "website_host"
+    },
+    {
+      "slug": "jacksonville-stellers-gallery",
+      "name": "Stellers Gallery",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://stellersgallery.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/stellers-gallery-jacksonville-fl/",
+      "fairName": "Stellers Gallery",
+      "match": "website_host"
+    },
+    {
+      "slug": "james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals",
+      "name": "James B. Hand Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.jamesbhandfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/james-b-hand-fine-art-gloucester-ma/",
+      "fairName": "James B. Hand Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "janet-l-ross",
+      "name": "Janet L. Ross",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
+      "fairUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/",
+      "fairName": "Alicia E Weaver",
+      "match": "website_host"
+    },
+    {
+      "slug": "jason-preston-art-advisory-appraisals",
+      "name": "Jason Preston Art Advisory & Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
+      "fairUrl": "https://fairappraisers.org/appraisers/connecticut-art-appraisals-llc-alizzandra-danker-hartford-ct/",
+      "fairName": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
+      "match": "website_host"
+    },
+    {
+      "slug": "jennifer-e-salvetti-kulla-ma",
+      "name": "Jennifer E Salvetti-Kulla, MA",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://jskfineartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/",
+      "fairName": "JSK Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
+      "name": "Jennifer L. Stoots, AAA",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://photostoots.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/jennifer-l-stoots-aaa-portland-or/",
+      "fairName": "Jennifer L. Stoots, AAA",
+      "match": "exact_name_fine_art"
+    },
+    {
+      "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
+      "name": "Jennifer L. Strasbaugh, Fine Arts Appraising",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.jenniferstrasbaugh.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/jennifer-l-strasbaugh-fine-arts-appraising-baltimore-md/",
+      "fairName": "Jennifer L. Strasbaugh, Fine Arts Appraising",
+      "match": "website_host"
+    },
+    {
+      "slug": "jessica-berger",
+      "name": "Jessica Berger",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.abhfineartadvisory.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/jessica-berger-schaumburg-il/",
+      "fairName": "Jessica Berger",
+      "match": "website_host"
+    },
+    {
+      "slug": "jlfineartappraisal",
+      "name": "JL Fine Art Appraisal LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.jlfineartappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-julia-liberman-asa-rockville-centre-ny/",
+      "fairName": "Ms. Julia Liberman, ASA",
+      "match": "website_host"
+    },
+    {
+      "slug": "josefa-gonzalez-mariscal-fine-art",
+      "name": "Josefa Gonzalez Mariscal Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://josefagm.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/josefa-gonzalez-mariscal-fine-art-san-antonio-tx/",
+      "fairName": "Josefa Gonzalez Mariscal Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "jrl-fine-art-appraisal",
+      "name": "JRL Fine Art Appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.jenaroselee.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-jena-rose-lee-portland-or/",
+      "fairName": "Ms. Jena Rose Lee",
+      "match": "website_host"
+    },
+    {
+      "slug": "jsk-fine-art-appraisals",
+      "name": "JSK Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://jskfineartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/",
+      "fairName": "JSK Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "julia-r-bluett",
+      "name": "Julia R. Bluett",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://bluettartappraisers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/julia-r-bluett-jacksonville-beach-fl/",
+      "fairName": "Julia R. Bluett",
+      "match": "website_host"
+    },
+    {
+      "slug": "justin-rogers",
+      "name": "Justin Rogers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://rogersfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/justin-rogers-kansas-city-mo/",
+      "fairName": "Justin Rogers",
+      "match": "website_host"
+    },
+    {
+      "slug": "kagan-fine-art-appraisals",
+      "name": "Kagan Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.kaganappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/kagan-fine-art-appraisals-new-york-ny/",
+      "fairName": "Kagan Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "kaminski-auctions",
+      "name": "Kaminski Auctions",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.kaminskiauctions.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/kaminski-auctions-palm-beach-fl/",
+      "fairName": "Kaminski Auctions",
+      "match": "website_host"
+    },
+    {
+      "slug": "kathy-poppers-expert-art-appraisals",
+      "name": "Kathy Poppers Fine Art Appraisal & Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.kathypoppers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-kathy-poppers-asa/",
+      "fairName": "Ms. Kathy Poppers, ASA",
+      "match": "website_host"
+    },
+    {
+      "slug": "kelly-cahn-art-advisory-appraisals",
+      "name": "Kelly Cahn LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.kellycahn.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/kelly-cahn-llc-new-york-ny/",
+      "fairName": "Kelly Cahn LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "kim-a-kasten",
+      "name": "Kim A. Kasten",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.kastenartappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/kim-a-kasten-dallas-tx/",
+      "fairName": "Kim A. Kasten",
+      "match": "website_host"
+    },
+    {
+      "slug": "kinzelman-art-consulting",
+      "name": "Kinzelman Art Consulting",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.kinzelmanart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/kinzelman-art-consulting-houston-tx/",
+      "fairName": "Kinzelman Art Consulting",
+      "match": "website_host"
+    },
+    {
+      "slug": "konda-fine-art-appraisals",
+      "name": "Konda Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.mapquest.com/us/california/konda-fine-art-appraisals-llc-428463516",
+      "fairUrl": "https://fairappraisers.org/appraisers/konda-fine-art-appraisals-los-angeles-ca/",
+      "fairName": "Konda Fine Art Appraisals",
+      "match": "exact_name_fine_art"
+    },
+    {
+      "slug": "lamplighter-appraisal-service-personal-property-appraisal-san-diego",
+      "name": "Lamplighter Fine Art Appraisal San Diego",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.lamplighterappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lamplighter-fine-art-appraisal-san-diego/",
+      "fairName": "Lamplighter Fine Art Appraisal San Diego",
+      "match": "website_host"
+    },
+    {
+      "slug": "lancaster-appraisals",
+      "name": "Lancaster Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.lancasterappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lancaster-appraisals-charlotte-nc/",
+      "fairName": "Lancaster Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "lauren-k-stump",
+      "name": "Lauren K. Stump",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.hollingsworthfinearts.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lauren-k-stump-orlando-fl/",
+      "fairName": "Lauren K. Stump",
+      "match": "website_host"
+    },
+    {
+      "slug": "lauren-travis-art-appraiser",
+      "name": "Lauren Travis, Art Appraiser",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://artappraisal-services.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lauren-travis-art-appraiser-doylestown-pa/",
+      "fairName": "Lauren Travis, Art Appraiser",
+      "match": "website_host"
+    },
+    {
+      "slug": "lena-s-appraisal-services",
+      "name": "Lena's Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.assetsappraisalservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lena-s-appraisal-services-san-diego-ca/",
+      "fairName": "Lena's Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "leprince-fine-art",
+      "name": "LePrince Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://leprince.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/leprince-fine-art-charleston-sc/",
+      "fairName": "LePrince Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "lg-appraisal",
+      "name": "LG Appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.iappraiseantiques.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lg-appraisal-los-angeles-ca/",
+      "fairName": "LG Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "lindsey-m-owen",
+      "name": "Lindsey M Owen",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.loappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lindsey-m-owen-chicago-il/",
+      "fairName": "Lindsey M Owen",
+      "match": "website_host"
+    },
+    {
+      "slug": "lisa-austin-laa",
+      "name": "Lisa Austin (LA&A)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.laanda.net/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lisa-austin-la-and-a-miami-beach-fl/",
+      "fairName": "Lisa Austin (LA&A)",
+      "match": "website_host"
+    },
+    {
+      "slug": "liz-anders-associates",
+      "name": "Liz Anders & Associates LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://lizandersart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/liz-anders-and-associates-llc-houston-tx/",
+      "fairName": "Liz Anders & Associates LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "look-appraisal",
+      "name": "Look Appraisal, LLC Fine Art & Estate Appraiser",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.lookappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/dana-summitt-look-appraisal-llc-raleigh-nc/",
+      "fairName": "Dana Summitt (Look Appraisal LLC)",
+      "match": "website_host"
+    },
+    {
+      "slug": "loro-fine-art-restoration-and-appraisal",
+      "name": "Loro Fine Art Restoration and Appraisal",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.chamberofcommerce.com/business-directory/texas/spring/appraiser/47097793-loro-fine-art-restoration-and-appraisal",
+      "fairUrl": "https://fairappraisers.org/appraisers/loro-fine-art-restoration-and-appraisal-jacksonville-fl/",
+      "fairName": "Loro Fine Art Restoration and Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "lost-art-gallery",
+      "name": "Lost Art Gallery",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://lostartgallery.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/lost-art-gallery-jacksonville-fl/",
+      "fairName": "Lost Art Gallery",
+      "match": "website_host"
+    },
+    {
+      "slug": "m-k-g-art-management-art-advisors-and-appraisers-houston-texas",
+      "name": "MKG Art Management",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://mkgart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/mkg-art-management-houston-tx/",
+      "fairName": "MKG Art Management",
+      "match": "website_host"
+    },
+    {
+      "slug": "madison-group-fine-art-appraisals",
+      "name": "Madison Group Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.mgfaa.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/madison-group-fine-art-appraisals-kansas-city-mo/",
+      "fairName": "Madison Group Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "maloney-fine-art",
+      "name": "Maloney Fine Art Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.maloneyartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/maloney-fine-art-appraisal-services-los-angeles-ca/",
+      "fairName": "Maloney Fine Art Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "manhattan-fine-art-appraisers",
+      "name": "Manhattan Fine Art Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://manhattanfineartappraisers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/manhattan-fine-art-appraisers-350-5th-ave-ny/",
+      "fairName": "Manhattan Fine Art Appraisers",
+      "match": "website_host"
+    },
+    {
+      "slug": "manzi-personal-property-appraisers",
+      "name": "Manzi Personal Property Appraisers & Restorers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://manziappraisers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/manzi-personal-property-appraisers-and-restorers-boston-ma/",
+      "fairName": "Manzi Personal Property Appraisers & Restorers",
+      "match": "website_host"
+    },
+    {
+      "slug": "maria-tarrence",
+      "name": "Maria Tarrence",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.capitalartgroup.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/",
+      "fairName": "Ms. Maria Tarrence, ASA, ARM",
+      "match": "website_host"
+    },
+    {
+      "slug": "matthew-clayton-brown-fine-art-appraisers",
+      "name": "Matthew Clayton Brown | Fine Art Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.mclaytonbrown.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/mr-stephen-w-clayton/",
+      "fairName": "Mr. Stephen W. Clayton",
+      "match": "website_host"
+    },
+    {
+      "slug": "mcdade-fine-art-appraisals",
+      "name": "McDade Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://mfaappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/mcdade-fine-art-appraisals-naperville-il/",
+      "fairName": "McDade Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "melanie-modica-modica-fine-art",
+      "name": "Melanie Modica (Modica Fine Art)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://modicafineart.com/appraisal-management",
+      "fairUrl": "https://fairappraisers.org/appraisers/mrs-melanie-modica-asa-arm/",
+      "fairName": "Mrs. Melanie Modica, ASA, ARM",
+      "match": "website_host"
+    },
+    {
+      "slug": "metropolitan-art-appraisers",
+      "name": "Metropolitan Art Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://metropolitanartappraisers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/metropolitan-art-appraisers-219-s-dearborn-st-ny/",
+      "fairName": "Metropolitan Art Appraisers",
+      "match": "website_host"
+    },
+    {
+      "slug": "michael-rose-fine-art",
+      "name": "Michael Rose Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.michaelrosefineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/michael-rose-fine-art-providence-ri/",
+      "fairName": "Michael Rose Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "mimesis-gallery",
+      "name": "Mimesis Gallery",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.mimesisgallery.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/mimesis-gallery-los-angeles-ca/",
+      "fairName": "Mimesis Gallery",
+      "match": "website_host"
+    },
+    {
+      "slug": "mjp-art-services",
+      "name": "MJP Art Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.mjpappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/mjp-art-services-houston-tx/",
+      "fairName": "MJP Art Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "momaa-museum-of-modern-american-art",
+      "name": "MoMAA (Museum of Modern American Art)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://momaa.org/art-appraisal-miami",
+      "fairUrl": "https://fairappraisers.org/appraisers/momaa-museum-of-modern-american-art-miami-fl/",
+      "fairName": "MoMAA (Museum of Modern American Art)",
+      "match": "website_host"
+    },
+    {
+      "slug": "museum-exchange",
+      "name": "Museum Exchange",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.museumexchange.com/appraisals",
+      "fairUrl": "https://fairappraisers.org/appraisers/museum-exchange-new-york-ny/",
+      "fairName": "Museum Exchange",
+      "match": "website_host"
+    },
+    {
+      "slug": "myriam-nader-salomon-myriam-nader-haitian-art-gallery",
+      "name": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.naderhaitianart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/myriam-nader-salomon-myriam-nader-haitian-art-gallery-west-haverstraw-ny/",
+      "fairName": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
+      "match": "website_host"
+    },
+    {
+      "slug": "native-american-art-appraisals",
+      "name": "Native American Art Appraisals, Inc",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://naaainc.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/native-american-art-appraisals-inc-fort-worth-tx/",
+      "fairName": "Native American Art Appraisals, Inc",
+      "match": "website_host"
+    },
+    {
+      "slug": "new-orleans-auction-galleries",
+      "name": "New Orleans Auction Galleries",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.neworleansauction.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/new-orleans-auction-galleries/",
+      "fairName": "New Orleans Auction Galleries",
+      "match": "website_host"
+    },
+    {
+      "slug": "new-york-fine-art-appraisers",
+      "name": "New York Fine Art Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://nyfaa.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/new-york-fine-art-appraisers-la-office-beverly-hills-ca/",
+      "fairName": "New York Fine Art Appraisers - LA Office",
+      "match": "website_host"
+    },
+    {
+      "slug": "new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Art Appraisal Service",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartsappraiser.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/poras-fine-arts-appraisal-serving-n-e-brooklyn-ny/",
+      "fairName": "Poras Fine Arts Appraisal - Serving N.E.",
+      "match": "website_host"
+    },
+    {
+      "slug": "newton-fine-art-appraisal",
+      "name": "Newton Fine Art Appraisal, Sally Newton",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.newtonfineartappraisal.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/newton-fine-art-appraisal-san-francisco-ca/",
+      "fairName": "Newton Fine Art Appraisal",
+      "match": "website_host"
+    },
+    {
+      "slug": "nh-auctions-and-appraisals",
+      "name": "New Hampshire Auctions and Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://nhauctionsandappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/new-hampshire-auctions-and-appraisals-goffstown-nh/",
+      "fairName": "New Hampshire Auctions and Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "open-to-the-public",
+      "name": "Open to the Public",
+      "publicationStatus": "verified",
+      "sourceUrl": "https://opentothepublic.art/",
+      "fairUrl": "https://fairappraisers.org/appraisers/open-to-the-public-los-angeles-ca/",
+      "fairName": "Open to the Public",
+      "match": "website_host"
+    },
+    {
+      "slug": "orchestrated-artwork",
+      "name": "Orchestrated Artwork - Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.orchestratedartwork.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/orchestrated-artwork-fine-art-appraisals-los-angeles-ca/",
+      "fairName": "Orchestrated Artwork - Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "page-art-inc",
+      "name": "Page Art, Inc.",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.page-art.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/page-art-inc-new-york-ny/",
+      "fairName": "Page Art, Inc.",
+      "match": "website_host"
+    },
+    {
+      "slug": "perri-guthrie",
+      "name": "Perri Guthrie",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.perriguthrie.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/perri-guthrie-woodside-ca/",
+      "fairName": "Perri Guthrie",
+      "match": "website_host"
+    },
+    {
+      "slug": "peter-held-art-appraisals-associates",
+      "name": "Peter Held Art Appraisals & Associates",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.peterheldappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/mr-peter-held-asa-chandler-az/",
+      "fairName": "Mr. Peter Held, ASA",
+      "match": "website_host"
+    },
+    {
+      "slug": "poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
+      "name": "Poras Fine Arts Appraiser",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartsappraiser.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/poras-fine-arts-appraisal-serving-n-e-brooklyn-ny/",
+      "fairName": "Poras Fine Arts Appraisal - Serving N.E.",
+      "match": "website_host"
+    },
+    {
+      "slug": "prestige-estate-services",
+      "name": "Prestige Estate Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/locations/washington-dc",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "prestige-estate-services-team",
+      "name": "Prestige Estate Services Team",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "ralph-deluca",
+      "name": "Ralph DeLuca",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://ralphdeluca.com/appraisal",
+      "fairUrl": "https://fairappraisers.org/appraisers/ralph-deluca-las-vegas-ny/",
+      "fairName": "Ralph DeLuca",
+      "match": "website_host"
+    },
+    {
+      "slug": "revere-auctions",
+      "name": "Revere Auctions",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://revereauctions.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/revere-auctions-st-paul-mn/",
+      "fairName": "Revere Auctions",
+      "match": "website_host"
+    },
+    {
+      "slug": "richard-beau-lieu-and-associates-fine-art-appraisers",
+      "name": "Richard Beau Lieu & Associates Fine Art Appraisers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://fineartappraisersboyntonbeach.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/richard-beau-lieu-and-associates-fine-art-appraisers-boynton-beach-fl/",
+      "fairName": "Richard Beau Lieu & Associates Fine Art Appraisers",
+      "match": "website_host"
+    },
+    {
+      "slug": "robyn-roderick-fine-art-appraisal-services-llc",
+      "name": "Robyn Roderick Fine Art Appraisal Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.rroderickfineartappraisals.com/hire-us",
+      "fairUrl": "https://fairappraisers.org/appraisers/robyn-roderick-fine-art-appraisal-services-swarthmore-pa/",
+      "fairName": "Robyn Roderick Fine Art Appraisal Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "rocky-mountain-art-appraisal-group",
+      "name": "Rocky Mountain Art Appraisal Group",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.larissawild.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/larissa-m-wild-eagle-co/",
+      "fairName": "Larissa M Wild",
+      "match": "website_host"
+    },
+    {
+      "slug": "rosalie-wardell",
+      "name": "Rosalie Wardell",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.wardellappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/marcus-wardell-san-francisco-ca/",
+      "fairName": "Marcus Wardell",
+      "match": "website_host"
+    },
+    {
+      "slug": "ruffner-art-advisory",
+      "name": "Ruffner Art Advisory, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.ruffnerartadvisory.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ruffner-art-advisory-llc-chattanooga-tn/",
+      "fairName": "Ruffner Art Advisory, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and",
+      "name": "S Cohen Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://scohenfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/s-cohen-fine-art-san-diego-ca/",
+      "fairName": "S Cohen Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "sarah-ann-wilson-art-services",
+      "name": "Wilson Art Services, LLC",
+      "publicationStatus": "verified",
+      "sourceUrl": "https://www.wilsonartservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/wilson-art-services-llc-philadelphia-pa/",
+      "fairName": "Wilson Art Services, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "savvy-collector",
+      "name": "Savvy Collector",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.savvycollector.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/savvy-collector-phoenix-az/",
+      "fairName": "Savvy Collector",
+      "match": "website_host"
+    },
+    {
+      "slug": "schlegel-fine-art-consulting-llc",
+      "name": "Schlegel Fine Art Consulting LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.schlegelfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/schlegel-fine-art-consulting-llc-boston-ma/",
+      "fairName": "Schlegel Fine Art Consulting LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "scholz-appraisals-and-advisory-fine-art-and-estate-appraisals",
+      "name": "Scholz Appraisals & Advisory",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://scholzappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/scott-scholz-washington-dc/",
+      "fairName": "Scott Scholz",
+      "match": "website_host"
+    },
+    {
+      "slug": "schultz-auctioneers",
+      "name": "Schultz Auctioneers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://schultzauctioneers.net/",
+      "fairUrl": "https://fairappraisers.org/appraisers/schultz-auctioneers-clarence-ny/",
+      "fairName": "Schultz Auctioneers",
+      "match": "website_host"
+    },
+    {
+      "slug": "schwarz-gallery",
+      "name": "Schwarz Gallery",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.schwarzgallery.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/schwarz-gallery-philadelphia-pa/",
+      "fairName": "Schwarz Gallery",
+      "match": "website_host"
+    },
+    {
+      "slug": "selz-fine-arts-appraisals",
+      "name": "Selz Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.selzfineartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-gabrielle-selz-asa-oakland-ca/",
+      "fairName": "Ms. Gabrielle Selz, ASA",
+      "match": "website_host"
+    },
+    {
+      "slug": "shelley-hall-bend-art-appraisals",
+      "name": "Shelley Hall (Bend Art Appraisals)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.aar21.com/bend-art-appraisals",
+      "fairUrl": "https://fairappraisers.org/appraisers/shelley-hall-lake-oswego-or/",
+      "fairName": "Shelley Hall",
+      "match": "website_host"
+    },
+    {
+      "slug": "silvia-waltner-fine-art-services-art-appraisals-and-advisory",
+      "name": "Silvia Waltner Fine Art Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://silviawaltner.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/silvia-coxe-waltner-seattle-wa/",
+      "fairName": "Silvia Coxe Waltner",
+      "match": "website_host"
+    },
+    {
+      "slug": "skinner-boston-bonhams",
+      "name": "Skinner Boston (Bonhams)",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.bonhams.com/locations/BOS2",
+      "fairUrl": "https://fairappraisers.org/appraisers/skinner-boston-bonhams/",
+      "fairName": "Skinner Boston (Bonhams)",
+      "match": "website_host"
+    },
+    {
+      "slug": "soltesz-fine-art",
+      "name": "Soltesz Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.solteszfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/soltesz-fine-art-portland-or/",
+      "fairName": "Soltesz Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "southwest-art-appraisals",
+      "name": "SouthWest Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://southwestartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/southwest-art-appraisals-fort-worth-tx/",
+      "fairName": "SouthWest Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "spalding-nix-fine-art",
+      "name": "Spalding Nix Fine Art",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.spaldingnixfineart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/spalding-nix-fine-art-atlanta-ga/",
+      "fairName": "Spalding Nix Fine Art",
+      "match": "website_host"
+    },
+    {
+      "slug": "st-lifer-art-inc-international-art-appraiser",
+      "name": "St. Lifer Art, Inc.",
+      "publicationStatus": "verified",
+      "sourceUrl": "https://stliferart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/st-lifer-fine-art-inc-new-york-ny/",
+      "fairName": "St Lifer Fine Art Inc",
+      "match": "website_host"
+    },
+    {
+      "slug": "stephanie-calman",
+      "name": "Stephanie Calman",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
+      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
+      "fairName": "Prestige Estate Services (National Network)",
+      "match": "website_host"
+    },
+    {
+      "slug": "stephen-g-frazier-fine-art-appraiser-llc",
+      "name": "Stephen G. Frazier Fine Art Appraiser, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://frazierartappraiser.com/index.html",
+      "fairUrl": "https://fairappraisers.org/appraisers/stephen-g-frazier-fine-art-appraiser-llc-portland-or/",
+      "fairName": "Stephen G. Frazier Fine Art Appraiser, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "strata-fine-art-services",
+      "name": "Strata Fine Art Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.stratafineartservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/strata-fine-art-services-columbia-md/",
+      "fairName": "Strata Fine Art Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "susan-golashovsky-personal-property-appraiser",
+      "name": "Susan Golashovsky, FASA, FSA-Scot",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://susanasa.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/susan-golashovsky-fasa-fsa-scot-philadelphia-pa/",
+      "fairName": "Susan Golashovsky, FASA, FSA-Scot",
+      "match": "website_host"
+    },
+    {
+      "slug": "sylvia-fraley-fine-art-appraisals",
+      "name": "Sylvia Fraley Fine Art Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://fineartofappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/sylvia-fraley-fine-art-appraisals-honolulu-hi/",
+      "fairName": "Sylvia Fraley Fine Art Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "tenhagen-appraisals",
+      "name": "Tenhagen Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://tenhagen-appraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/tenhagen-appraisals-miami-fl/",
+      "fairName": "Tenhagen Appraisals",
+      "match": "website_host"
+    },
+    {
+      "slug": "the-antique-guy",
+      "name": "The Antique Guy",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.theantiqueguy.com/appraisals",
+      "fairUrl": "https://fairappraisers.org/appraisers/the-antique-guy-east-rockaway-ny/",
+      "fairName": "The Antique Guy",
+      "match": "website_host"
+    },
+    {
+      "slug": "the-fine-art-group",
+      "name": "The Fine Art Group",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.fineartgroup.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/the-fine-art-group-new-york-ny/",
+      "fairName": "The Fine Art Group",
+      "match": "website_host"
+    },
+    {
+      "slug": "the-perfect-piece-atlanta",
+      "name": "The Perfect Piece Atlanta",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.theperfectpieceatlanta.com/estate-valuation",
+      "fairUrl": "https://fairappraisers.org/appraisers/the-perfect-piece-atlanta-duluth-ga/",
+      "fairName": "The Perfect Piece Atlanta",
+      "match": "website_host"
+    },
+    {
+      "slug": "thompson-and-martinez-fine-art-appraisals-inc",
+      "name": "Thompson & Martinez Fine Art Appraisals, Inc.",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://thompsonfineartservices.com/thompson-martinez-fine-art-appraisals-inc-is-now-thompson-fine-art-services-llc",
+      "fairUrl": "https://fairappraisers.org/appraisers/thompson-and-martinez-fine-art-appraisals-inc-la-jolla-ca/",
+      "fairName": "Thompson & Martinez Fine Art Appraisals, Inc.",
+      "match": "website_host"
+    },
+    {
+      "slug": "valia-garzon-art-services",
+      "name": "Valia Garzon Art Services",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.valiagarzonartservices.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/valia-garzon-art-services-washington-dc/",
+      "fairName": "Valia Garzon Art Services",
+      "match": "website_host"
+    },
+    {
+      "slug": "vallot-auctioneers",
+      "name": "Vallot Auctioneers",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.vallots.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/vallot-auctioneers-providence-ri/",
+      "fairName": "Vallot Auctioneers",
+      "match": "website_host"
+    },
+    {
+      "slug": "van-weyenbergh-fine-art",
+      "name": "Van Weyenbergh Fine Art, Art Expert, Art Appraisal & Art Authentication",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.vwart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/van-weyenbergh-fine-art-art-expert-art-appraisal-and-art-authentication-beverly-hills-ca/",
+      "fairName": "Van Weyenbergh Fine Art, Art Expert, Art Appraisal & Art Authentication",
+      "match": "website_host"
+    },
+    {
+      "slug": "veritas-fine-art-and-appraisals",
+      "name": "Veritas Fine Art Appraisals & Consulting Group",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://veritasartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/veritas-fine-art-appraisals-and-consulting-group-st-petersburg-fl/",
+      "fairName": "Veritas Fine Art Appraisals & Consulting Group",
+      "match": "website_host"
+    },
+    {
+      "slug": "victoria-shaw-art-appraisals-advisory",
+      "name": "Victoria Shaw Art Appraisals and Advisory, LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.artappraiser.co/about",
+      "fairUrl": "https://fairappraisers.org/appraisers/victoria-shaw-art-appraisals-and-advisory-llc-new-york-ny/",
+      "fairName": "Victoria Shaw Art Appraisals and Advisory, LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "vivanco-art-and-appraisals",
+      "name": "Vivanco Art & Appraisals LLC",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.vivancoart.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/vivanco-art-and-appraisals-llc-boston-ma/",
+      "fairName": "Vivanco Art & Appraisals LLC",
+      "match": "website_host"
+    },
+    {
+      "slug": "william-s-stamats",
+      "name": "William S Stamats",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.stamatsartappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/william-s-stamats-langley-wa/",
+      "fairName": "William S Stamats",
+      "match": "website_host"
+    },
+    {
+      "slug": "williams-fine-art-gallery",
+      "name": "Williams Fine Art Gallery",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://nowplayingutah.com/venue/williams-fine-art-gallery",
+      "fairUrl": "https://fairappraisers.org/appraisers/williams-fine-art-gallery-salt-lake-city-ny/",
+      "fairName": "Williams Fine Art Gallery",
+      "match": "website_host"
+    },
+    {
+      "slug": "winston-art-group-palm-beach",
+      "name": "Winston Art Group",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.winstonartgroup.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/winston-art-group-houston-tx/",
+      "fairName": "Winston Art Group",
+      "match": "website_host"
+    },
+    {
+      "slug": "winter-associates",
+      "name": "Winter Associates",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://www.auctionsappraisers.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-linda-stamm/",
+      "fairName": "Ms. Linda Stamm",
+      "match": "website_host"
+    },
+    {
+      "slug": "woodard-lipe-fine-art-auction",
+      "name": "Woodard Lipe Fine Art & Auction",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://woodardlipe.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/woodard-lipe-fine-art-and-auction-saint-louis-mo/",
+      "fairName": "Woodard Lipe Fine Art & Auction",
+      "match": "website_host"
+    },
+    {
+      "slug": "wyeth-appraisals",
+      "name": "Wyeth Appraisals",
+      "publicationStatus": "limited",
+      "sourceUrl": "https://wyethappraisals.com/",
+      "fairUrl": "https://fairappraisers.org/appraisers/wyeth-appraisals-nashville-tn/",
+      "fairName": "Wyeth Appraisals",
+      "match": "website_host"
+    }
+  ],
+  "promotes": [],
+  "skipCounts": {
+    "antique_overlap": 44,
+    "no_fair_fine_art_name_match": 534,
+    "name_already_published": 6,
+    "fair_website_junk_or_missing": 2,
+    "retired_alias": 12,
+    "duplicate_website_identity": 5
+  }
+}

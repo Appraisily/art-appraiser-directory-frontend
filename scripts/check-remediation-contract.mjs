@@ -92,10 +92,19 @@ for (const provider of verifiedProviders) {
   const sameAs = Array.isArray(providerSchema?.sameAs)
     ? providerSchema.sameAs
     : [providerSchema?.sameAs].filter(Boolean);
+  const extraSameAsAreFairProfiles = sameAs.slice(1).every((url) => {
+    try {
+      const parsed = new URL(url);
+      return parsed.hostname === 'fairappraisers.org'
+        && parsed.pathname.startsWith('/appraisers/');
+    } catch {
+      return false;
+    }
+  });
   if (
-    sameAs.length !== 1 ||
-    sameAs[0] !== provider.sourceUrl ||
-    providerSchema?.dateModified !== provider.verifiedAt
+    sameAs[0] !== provider.sourceUrl
+    || !extraSameAsAreFairProfiles
+    || providerSchema?.dateModified !== provider.verifiedAt
   ) {
     fail(`static provider schema source/review parity failed for ${provider.slug}`);
   }

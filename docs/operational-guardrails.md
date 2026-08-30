@@ -12,6 +12,8 @@ This repo is static-first.
   and `public_site/locations.json` are the only browser-facing provider/city registries.
 - Nginx serves provider-specific HTML for verified and limited listings. Other provider-shaped URLs
   receive the generic `public_site/appraiser-unavailable.html` response.
+- Matching FAIR Fine-art profiles may be cited as extra `sameAs` plus a "FAIR public registry" link.
+  The official website remains the source CTA. FAIR verification status is not copied onto Art.
 
 ## Commands
 
