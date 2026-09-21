@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { buildNearMeHubBridge } from './inject-near-me-hub-bridge.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const ORIGIN = 'https://art-appraisers-directory.appraisily.com';
@@ -201,6 +202,7 @@ function renderCity(city) {
 
       ${listingSection}
 
+      ${buildNearMeHubBridge(city.slug)}
       <section>
         <h2>Frequently asked questions</h2>
         ${faqs.map((faq) => `<h3>${escapeHtml(faq.q)}</h3><p>${escapeHtml(faq.a)}</p>`).join('\n        ')}
