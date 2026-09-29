@@ -49,6 +49,8 @@ function collectAssetUrls(filename) {
 const appraisers = readJson('appraisers.json').appraisers || [];
 const locations = readJson('locations.json').locations || [];
 const activeRouteFiles = [
+  path.join(publicDir, 'appraiser', 'index.html'),
+  path.join(publicDir, 'location', 'index.html'),
   ...appraisers.map((provider) =>
     path.join(publicDir, 'appraiser', provider.slug, 'index.html')
   ),
