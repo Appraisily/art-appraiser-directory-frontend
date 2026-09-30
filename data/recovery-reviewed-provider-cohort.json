@@ -180,6 +180,117 @@
         "appraisal_use_cases",
         "qualification"
       ]
+    },
+    "mir-appraisal-services": {
+      "name": "MIR Appraisal Services, Inc.",
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US",
+      "reviewedAt": "2026-09-30",
+      "sourceUrl": "https://www.mirappraisal.com/",
+      "sourceUrls": [
+        "https://www.mirappraisal.com/",
+        "https://www.mirappraisal.com/what-we-appraise",
+        "https://www.mirappraisal.com/appraisal-reports"
+      ],
+      "title": "MIR Appraisal Services, Inc. — Fine-Art Appraisals",
+      "description": "Chicago fine-art appraisal, inspection and advisory services for collectors and professional clients.",
+      "about": "MIR is a Chicago appraisal and advisory firm whose published fine-art scope extends from Old Masters to contemporary work. Its website describes on-site, office and digital inspection options for collectors and professional clients.",
+      "specialties": [
+        "Fine art from Old Masters through contemporary work",
+        "Paintings, prints, drawings and sculpture",
+        "Collection research and appraisal advisory"
+      ],
+      "services": [
+        "Insurance coverage and damage-claim appraisals",
+        "Estate and charitable-contribution appraisals",
+        "Divorce and equitable-distribution appraisals",
+        "Inspection and conservation guidance"
+      ],
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ]
+    },
+    "jaynes-appraisals": {
+      "name": "Jaynes Appraisals",
+      "city": "Seattle",
+      "region": "WA",
+      "country": "US",
+      "reviewedAt": "2026-09-30",
+      "sourceUrl": "https://www.jaynesappraisals.com/",
+      "sourceUrls": [
+        "https://www.jaynesappraisals.com/",
+        "https://www.jaynesappraisals.com/appraisals",
+        "https://www.jaynesappraisals.com/about-us"
+      ],
+      "title": "Jaynes Appraisals — Fine-Art Appraisals",
+      "description": "Seattle appraisal practice covering fine art, collection inventories and collection management.",
+      "about": "Jaynes Appraisals is a Seattle practice whose published fine-art scope includes paintings, prints, drawings, photographs and sculpture. It also offers collection inventories and management, with a documented discussion, inspection, research and reporting process.",
+      "specialties": [
+        "Paintings, prints, drawings and photographs",
+        "Sculpture and mixed-media art",
+        "Art glass and ceramics"
+      ],
+      "services": [
+        "Insurance and damage-claim appraisals",
+        "Estate, donation and equitable-distribution appraisals",
+        "Resale-purpose appraisals and appraisal updates",
+        "Collection inventories and management"
+      ],
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ]
+    },
+    "jeanie-craig-art-appraisals": {
+      "name": "Jeanie Craig — Art Collection Management and Appraisals",
+      "city": "Mill Valley",
+      "region": "CA",
+      "country": "US",
+      "reviewedAt": "2026-09-30",
+      "sourceUrl": "https://appraiserart.com/",
+      "sourceUrls": [
+        "https://appraiserart.com/",
+        "https://appraiserart.com/appraisals/",
+        "https://appraiserart.com/contact/"
+      ],
+      "title": "Jeanie Craig — Art Collection Management and Appraisals — Fine-Art Appraisals",
+      "description": "Mill Valley appraisal and collection-management practice serving the San Francisco Bay Area.",
+      "about": "Jeanie Craig provides art appraisals and collection management for private, corporate and institutional clients across the San Francisco Bay Area. The official website lists a Mill Valley mailing address and describes documentation, inspection and collection-care services.",
+      "specialties": [
+        "Fine-art collections",
+        "Private, corporate and institutional collections",
+        "Collection documentation and management"
+      ],
+      "services": [
+        "Insurance and damage or loss appraisals",
+        "Estate and charitable-donation appraisals",
+        "Equitable-distribution appraisals",
+        "Collection documentation and management"
+      ],
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "service_area"
+      ],
+      "serviceArea": "San Francisco Bay Area",
+      "serviceAreaCitySlugs": [
+        "san-francisco"
+      ],
+      "locationType": "published_mailing_locality"
     }
   }
 }

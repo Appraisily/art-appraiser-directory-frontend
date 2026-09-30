@@ -1290,6 +1290,21 @@
       "canonicalProviderId": "provider:wyeth-appraisals",
       "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/wyeth-appraisals/",
       "reason": "Website-backed limited Art publication home."
+    },
+    {
+      "canonicalProviderId": "provider:mir-appraisal-services",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
+      "reason": "Official-source-reviewed fine-art provider added September 30, 2026; sole published directory home."
+    },
+    {
+      "canonicalProviderId": "provider:jaynes-appraisals",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
+      "reason": "Official-source-reviewed fine-art provider added September 30, 2026; sole published directory home."
+    },
+    {
+      "canonicalProviderId": "provider:jeanie-craig-art-appraisals",
+      "canonicalUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
+      "reason": "Official-source-reviewed fine-art provider added September 30, 2026; sole published directory home."
     }
   ]
 }

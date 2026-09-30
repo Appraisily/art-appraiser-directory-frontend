@@ -30,7 +30,7 @@ for (const page of ['appraiser', 'location']) {
   }
   if (page === 'appraiser') {
     assert.deepEqual(new Set(urls), new Set(feed.map(p => '/appraiser/' + p.slug + '/')));
-    assert.equal(rows.filter(r => r.textContent.includes('Source-reviewed')).length, art ? 5 : 0);
+    assert.equal(rows.filter(r => r.textContent.includes('Source-reviewed')).length, manifest.summary.verified);
     for (const p of feed) {
       const row = rows.find(r => r.querySelector('a').getAttribute('href') === '/appraiser/' + p.slug + '/');
       assert.ok(row.textContent.includes(p.address?.city || p.address?.region || 'Location not listed'));

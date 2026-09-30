@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { hasReviewedCityCoverage } from './reviewed-service-area.mjs';
+const reviewed = JSON.parse(fs.readFileSync(new URL('../data/recovery-reviewed-provider-cohort.json', import.meta.url))).providers['jeanie-craig-art-appraisals'];
+const profile = JSON.parse(fs.readFileSync(new URL('../public_site/appraisers.json', import.meta.url))).appraisers.find(p => p.slug === 'jeanie-craig-art-appraisals');
+assert.equal(profile.address.city, 'Mill Valley');
+assert.equal(hasReviewedCityCoverage(profile, reviewed, 'san-francisco'), true);
+assert.equal(hasReviewedCityCoverage(profile, reviewed, 'seattle'), false);
+assert.equal(hasReviewedCityCoverage(profile, { ...reviewed, claimScope: [] }, 'san-francisco'), false);
+assert.equal(hasReviewedCityCoverage(profile, { ...reviewed, reviewedAt: '2025-01-01' }, 'san-francisco'), false);
+assert.equal(hasReviewedCityCoverage(profile, { ...reviewed, sourceUrl: 'https://unreviewed.example/' }, 'san-francisco'), false);
+assert.equal(hasReviewedCityCoverage({ ...profile, address: { city: 'San Francisco' } }, reviewed, 'san-francisco'), false);
+console.log('Regional coverage requires source, review date, locality and explicit city approval; mailing locality stays truthful.');

@@ -36,6 +36,17 @@ test('city pages receive art, antique, and online near-me hub links and stay ide
   assert.equal((second.html.match(/data-appraisily-near-me-hub-bridge="1"/g) || []).length, 1);
 });
 
+test('an existing bridge does not require a FAQ section and still repairs city attribution', () => {
+  const existing = injectNearMeHubBridge(CITY_FIXTURE, 'los-angeles').html;
+  const withoutFaq = existing.replace(/<section>\s*<h2>Frequently asked questions[\s\S]*?<\/section>/, '');
+  const repaired = injectNearMeHubBridge(withoutFaq, 'chicago');
+  assert.equal(repaired.missingAnchor, false);
+  assert.match(repaired.html, /utm_campaign=chicago/);
+  assert.doesNotMatch(repaired.html, /utm_campaign=los-angeles/);
+  assert.equal(injectNearMeHubBridge(repaired.html, 'chicago').html, repaired.html);
+  assert.equal(injectNearMeHubBridge('<main><h1>No bridge or FAQ</h1></main>', 'chicago').missingAnchor, true);
+});
+
 test('write then check is a no-op on a temp public_site', () => {
   const publicDir = fs.mkdtempSync(path.join(os.tmpdir(), 'art-near-me-hub-bridge-'));
   try {

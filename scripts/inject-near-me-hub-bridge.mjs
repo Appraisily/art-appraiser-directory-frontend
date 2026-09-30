@@ -59,7 +59,12 @@ export function buildNearMeHubBridge(citySlug) {
 export function injectNearMeHubBridge(html, citySlug) {
   const stripped = html.replace(BLOCK_RE, '');
   const match = stripped.match(FAQ_ANCHOR_RE);
-  if (!match) return { html, missingAnchor: true };
+  if (!match) {
+    if (BLOCK_RE.test(html)) {
+      return { html: html.replace(BLOCK_RE, buildNearMeHubBridge(citySlug)), missingAnchor: false };
+    }
+    return { html, missingAnchor: true };
+  }
   return {
     html: stripped.replace(FAQ_ANCHOR_RE, `${buildNearMeHubBridge(citySlug)}${match[0]}`),
     missingAnchor: false,

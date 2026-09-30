@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory location pages",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-08-30T09:18:09.505Z",
+  "generatedAt": "2026-09-30T21:47:15.067Z",
   "count": 78,
   "locations": [
     {
@@ -162,13 +162,22 @@
       "slug": "chicago",
       "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
       "name": "Art appraisers in Chicago, Illinois",
-      "description": "Fine-art appraisal guidance for Chicago: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-      "numberOfListedAppraisers": 0,
+      "description": "Find MIR Appraisal Services, Inc. for fine-art appraisal work in Chicago. Review published services, inspection options and booking questions.",
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "MIR Appraisal Services, Inc.",
+          "url": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
+          "slug": "mir-appraisal-services",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Chicago fine-art appraisal, inspection and advisory services for collectors and professional clients.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/chicago/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "cincinnati",
@@ -810,13 +819,22 @@
       "slug": "san-francisco",
       "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
       "name": "Art appraisers in San Francisco, California",
-      "description": "Fine-art appraisal guidance for San Francisco: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-      "numberOfListedAppraisers": 0,
+      "description": "Find Jeanie Craig — Art Collection Management and Appraisals for fine-art appraisal work in San Francisco. Review published services, inspection options and booking questions.",
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Jeanie Craig — Art Collection Management and Appraisals",
+          "url": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
+          "slug": "jeanie-craig-art-appraisals",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Art appraisal and collection-management practice serving the San Francisco Bay Area; published mailing locality is Mill Valley.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/san-francisco/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "san-jose",
@@ -870,13 +888,22 @@
       "slug": "seattle",
       "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
       "name": "Art appraisers in Seattle, Washington",
-      "description": "Fine-art appraisal guidance for Seattle: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-      "numberOfListedAppraisers": 0,
+      "description": "Find Jaynes Appraisals for fine-art appraisal work in Seattle. Review published services, inspection options and booking questions.",
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Jaynes Appraisals",
+          "url": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
+          "slug": "jaynes-appraisals",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Seattle appraisal practice offering fine-art valuation, inventory and collection-management services.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/seattle/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "solana-beach",

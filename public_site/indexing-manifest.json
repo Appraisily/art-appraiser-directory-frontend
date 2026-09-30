@@ -10,8 +10,8 @@
     "lastmod": "omit-without-reviewed-change-ledger"
   },
   "counts": {
-    "profiles": 257,
-    "indexableProfiles": 257,
+    "profiles": 260,
+    "indexableProfiles": 260,
     "cities": 78,
     "indexableCities": 78
   },
@@ -2385,6 +2385,38 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/"
     },
     {
+      "slug": "jaynes-appraisals",
+      "name": "Jaynes Appraisals",
+      "canonicalProviderId": "provider:jaynes-appraisals",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-09-30",
+      "sourceUrl": "https://www.jaynesappraisals.com/",
+      "city": "Seattle",
+      "region": "WA",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/"
+    },
+    {
+      "slug": "jeanie-craig-art-appraisals",
+      "name": "Jeanie Craig — Art Collection Management and Appraisals",
+      "canonicalProviderId": "provider:jeanie-craig-art-appraisals",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-09-30",
+      "sourceUrl": "https://appraiserart.com/",
+      "city": "Mill Valley",
+      "region": "CA",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/"
+    },
+    {
       "slug": "jennifer-e-salvetti-kulla-ma",
       "name": "Jennifer E Salvetti-Kulla, MA",
       "canonicalProviderId": "provider:jennifer-e-salvetti-kulla-ma",
@@ -3071,6 +3103,22 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/"
+    },
+    {
+      "slug": "mir-appraisal-services",
+      "name": "MIR Appraisal Services, Inc.",
+      "canonicalProviderId": "provider:mir-appraisal-services",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-09-30",
+      "sourceUrl": "https://www.mirappraisal.com/",
+      "city": "Chicago",
+      "region": "IL",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/"
     },
     {
       "slug": "mjp-art-services",
@@ -4279,10 +4327,10 @@
       "name": "chicago",
       "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
       "indexable": true,
-      "renderedWords": 700,
+      "renderedWords": 415,
       "decisionStatus": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
+      "providerSlug": "mir-appraisal-services",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/chicago/",
       "reasons": []
     },
@@ -4891,10 +4939,10 @@
       "name": "san-francisco",
       "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
       "indexable": true,
-      "renderedWords": 689,
+      "renderedWords": 421,
       "decisionStatus": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
+      "providerSlug": "jeanie-craig-art-appraisals",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
       "reasons": []
     },
@@ -4951,10 +4999,10 @@
       "name": "seattle",
       "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
       "indexable": true,
-      "renderedWords": 668,
+      "renderedWords": 403,
       "decisionStatus": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
+      "providerSlug": "jaynes-appraisals",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/seattle/",
       "reasons": []
     },

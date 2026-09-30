@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import { JSDOM } from 'jsdom';
+import { hasReviewedCityCoverage } from './reviewed-service-area.mjs';
 
 function parseArgs(argv) {
   const options = {
@@ -92,7 +93,7 @@ function extractRelativeJsChunkPaths(js) {
 }
 
 function countProfileLinks(html) {
-  const profileLinkPattern = /href=["']https:\/\/art-appraisers-directory\.appraisily\.com\/appraiser\/[^"']+["']/g;
+  const profileLinkPattern = /href=["'](?:https:\/\/art-appraisers-directory\.appraisily\.com)?\/appraiser\/[^"']+["']/g;
   return [...html.matchAll(profileLinkPattern)].length;
 }
 
@@ -170,7 +171,7 @@ function buildProfileMap(appraisersFeed) {
   return new Map((appraisersFeed.appraisers || []).map(profile => [profile.slug, profile]));
 }
 
-function assertLocalListedAppraisers({ citySlug, listedAppraisers, profileMap, failures }) {
+function assertLocalListedAppraisers({ citySlug, listedAppraisers, profileMap, reviewedProviders, failures }) {
   for (const entry of listedAppraisers) {
     if (!entry?.slug) {
       failures.push(`${citySlug}: listed appraiser "${entry?.name || 'unknown'}" is missing a profile slug`);
@@ -184,7 +185,7 @@ function assertLocalListedAppraisers({ citySlug, listedAppraisers, profileMap, f
     }
 
     const profileCitySlug = slugify(profile.address?.city);
-    if (profileCitySlug !== citySlug) {
+    if (profileCitySlug !== citySlug && !hasReviewedCityCoverage(profile, reviewedProviders[entry.slug], citySlug)) {
       failures.push(`${citySlug}: listed appraiser "${entry.name || entry.slug}" profile city "${profile.address?.city || 'unknown'}" does not match page city`);
     }
   }
@@ -262,6 +263,7 @@ function assertStaticHtmlMatchesCityFeed({ citySlug, html, routeListed, failures
 }
 
 async function assertCityFeeds(publicDir, citySlugs, requiredNonemptyCities) {
+  const reviewedProviders = (await readJson(new URL('../data/recovery-reviewed-provider-cohort.json', import.meta.url))).providers;
   const locationsFeed = await readJson(path.join(publicDir, 'locations.json'));
   const directoryFeed = await readJson(path.join(publicDir, 'directory.json'));
   const appraisersFeed = await readJson(path.join(publicDir, 'appraisers.json'));
@@ -316,6 +318,7 @@ async function assertCityFeeds(publicDir, citySlugs, requiredNonemptyCities) {
       citySlug,
       listedAppraisers: locationRecord.listedAppraisers || [],
       profileMap,
+      reviewedProviders,
       failures,
     });
 
@@ -323,6 +326,7 @@ async function assertCityFeeds(publicDir, citySlugs, requiredNonemptyCities) {
       citySlug,
       listedAppraisers: routeListed,
       profileMap,
+      reviewedProviders,
       failures,
     });
 

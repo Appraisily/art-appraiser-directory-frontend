@@ -99,8 +99,8 @@
       "slug": "chicago",
       "status": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
-      "reason": "Art-only chicago decision page with independent local appraisal guidance and no reviewed local listing yet."
+      "providerSlug": "mir-appraisal-services",
+      "reason": "Art-only decision page with a provider reviewed against official sources September 30, 2026."
     },
     {
       "slug": "cincinnati",
@@ -456,8 +456,8 @@
       "slug": "san-francisco",
       "status": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
-      "reason": "Art-only san-francisco decision page with independent local appraisal guidance and no reviewed local listing yet."
+      "providerSlug": "jeanie-craig-art-appraisals",
+      "reason": "Art-only decision page with a provider reviewed against official sources September 30, 2026. Provider mailing locality is Mill Valley; Bay Area service coverage, not a San Francisco office."
     },
     {
       "slug": "san-jose",
@@ -491,8 +491,8 @@
       "slug": "seattle",
       "status": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
-      "reason": "Art-only seattle decision page with independent local appraisal guidance and no reviewed local listing yet."
+      "providerSlug": "jaynes-appraisals",
+      "reason": "Art-only decision page with a provider reviewed against official sources September 30, 2026."
     },
     {
       "slug": "solana-beach",

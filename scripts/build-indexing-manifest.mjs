@@ -24,6 +24,7 @@ function parseArgs(argv) {
   const options = {
     publicDir: path.resolve(process.cwd(), 'public_site'),
     write: false,
+    metadataOnly: false,
   };
 
   const args = [...argv];
@@ -39,6 +40,10 @@ function parseArgs(argv) {
         break;
       case '--write':
         options.write = true;
+        break;
+      case '--write-metadata':
+        options.write = true;
+        options.metadataOnly = true;
         break;
       case '--check':
         options.write = false;
@@ -320,9 +325,9 @@ async function main() {
     providerManifest,
     reviewedProviders,
     canonicalDecisions,
-    options.write
+    options.write && !options.metadataOnly
   );
-  const cities = await buildCityRecords(options.publicDir, cityDecisions, options.write);
+  const cities = await buildCityRecords(options.publicDir, cityDecisions, options.write && !options.metadataOnly);
   const manifest = buildManifest({ profiles, cities });
   const sitemapUrls = [
     `${SITE_ORIGIN}/`,
@@ -340,7 +345,7 @@ async function main() {
   if (options.write) {
     await fs.writeFile(sitemapPath, expectedSitemap, 'utf8');
     await fs.writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
-    await fs.writeFile(locationHubPath, expectedLocationHub, 'utf8');
+    if (!options.metadataOnly) await fs.writeFile(locationHubPath, expectedLocationHub, 'utf8');
   } else {
     const failures = [];
     const actualSitemap = await fs.readFile(sitemapPath, 'utf8');

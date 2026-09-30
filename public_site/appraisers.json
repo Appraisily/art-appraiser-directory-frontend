@@ -2,8 +2,8 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-08-30T09:18:09.505Z",
-  "count": 257,
+  "generatedAt": "2026-09-30T21:47:15.067Z",
+  "count": 260,
   "appraisers": [
     {
       "slug": "812-maplewood",
@@ -2818,6 +2818,44 @@
       }
     },
     {
+      "slug": "jaynes-appraisals",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
+      "name": "Jaynes Appraisals, LLC",
+      "description": "Seattle appraisal practice offering fine-art valuation, inventory and collection-management services.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://www.jaynesappraisals.com/",
+      "address": {
+        "city": "Seattle",
+        "region": "WA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/jaynes-appraisals/",
+        "verifiedAt": "2026-09-30"
+      }
+    },
+    {
+      "slug": "jeanie-craig-art-appraisals",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
+      "name": "Jeanie Craig | Art Collection Management and Appraisals",
+      "description": "Art appraisal and collection-management practice serving the San Francisco Bay Area; published mailing locality is Mill Valley.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://appraiserart.com/",
+      "address": {
+        "city": "Mill Valley",
+        "region": "CA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/jeanie-craig-art-appraisals/",
+        "verifiedAt": "2026-09-30"
+      }
+    },
+    {
       "slug": "jennifer-e-salvetti-kulla-ma",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-e-salvetti-kulla-ma/",
       "name": "Jennifer E Salvetti-Kulla, MA",
@@ -3632,6 +3670,25 @@
         "type": "public_site_html_json_ld",
         "route": "/appraiser/mimesis-gallery/",
         "verifiedAt": "2026-08-30"
+      }
+    },
+    {
+      "slug": "mir-appraisal-services",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
+      "name": "MIR Appraisal Services, Inc.",
+      "description": "Chicago fine-art appraisal, inspection and advisory services for collectors and professional clients.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://www.mirappraisal.com/",
+      "address": {
+        "city": "Chicago",
+        "region": "IL",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/mir-appraisal-services/",
+        "verifiedAt": "2026-09-30"
       }
     },
     {

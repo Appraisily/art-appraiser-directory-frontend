@@ -2,17 +2,26 @@
   "title": "Art appraisers in Chicago, Illinois",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-08-30T09:18:09.505Z",
+  "generatedAt": "2026-09-30T21:47:15.067Z",
   "location": {
     "slug": "chicago",
     "url": "https://art-appraisers-directory.appraisily.com/location/chicago/",
     "name": "Art appraisers in Chicago, Illinois",
-    "description": "Fine-art appraisal guidance for Chicago: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-    "numberOfListedAppraisers": 0,
+    "description": "Find MIR Appraisal Services, Inc. for fine-art appraisal work in Chicago. Review published services, inspection options and booking questions.",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "MIR Appraisal Services, Inc.",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
+        "slug": "mir-appraisal-services",
+        "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+        "description": "Chicago fine-art appraisal, inspection and advisory services for collectors and professional clients.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/chicago/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

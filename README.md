@@ -39,6 +39,21 @@ npm run serve:static
 It is validation-only. Profile and city HTML should not be mass-edited by npm
 scripts.
 
+After individually reviewing HTML and publication decisions, refresh only the
+sitemap and indexing metadata without regenerating browse hubs or changing robots:
+
+```bash
+node scripts/build-indexing-manifest.mjs --write-metadata
+npm run build:llm-feeds
+node scripts/build-art-route-registry.mjs
+node scripts/build-historical-url-ledger.mjs
+```
+
+Keep the central route registry and runtime nginx provider allowlist synchronized
+with the candidate before validation and release. The September 30 expansion adds
+MIR (Chicago), Jaynes (Seattle), and Jeanie Craig (Mill Valley, serving the Bay Area)
+as separate reviewed additions; the original five-city recovery cohort is unchanged.
+
 Production publishing is intentionally unavailable through npm. After review,
 promote the complete validated `public_site/` artifact with the standard VPS
 deploy helper.

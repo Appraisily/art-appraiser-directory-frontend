@@ -1,13 +1,13 @@
 {
   "policyVersion": 2,
   "summary": {
-    "indexable": 257,
-    "verified": 5,
+    "indexable": 260,
+    "verified": 8,
     "limited": 252,
     "suppressed": 603,
-    "appraiserIndexEntries": 257,
+    "appraiserIndexEntries": 260,
     "indexableLocations": 78,
-    "changedProfiles": 860
+    "changedProfiles": 863
   },
   "providers": [
     {
@@ -825,7 +825,7 @@
     },
     {
       "slug": "appraiseitnow-washington-dc",
-      "name": "AppraiseItNow \u2013 Washington DC",
+      "name": "AppraiseItNow – Washington DC",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -1072,7 +1072,7 @@
     },
     {
       "slug": "artifactual-history",
-      "name": "Artifactual History\u00ae Appraisal",
+      "name": "Artifactual History® Appraisal",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -1085,7 +1085,7 @@
     },
     {
       "slug": "artifactual-history-appraisal",
-      "name": "Artifactual History\u00ae Appraisal",
+      "name": "Artifactual History® Appraisal",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -3145,7 +3145,7 @@
     },
     {
       "slug": "collector-s-fine-art-appraisal-et-associates",
-      "name": "Collector\u2019s Fine Art Appraisal et Associates",
+      "name": "Collector’s Fine Art Appraisal et Associates",
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://aspenappraisalbarbpreston.com/",
@@ -12019,6 +12019,67 @@
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/wyeth-appraisals/",
       "canonicalProviderId": "provider:wyeth-appraisals"
+    },
+    {
+      "slug": "mir-appraisal-services",
+      "name": "MIR Appraisal Services, Inc.",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-09-30",
+      "sourceUrl": "https://www.mirappraisal.com/",
+      "sourceType": "official_website",
+      "verifiedAt": "2026-09-30",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
+      "canonicalProviderId": "provider:mir-appraisal-services"
+    },
+    {
+      "slug": "jaynes-appraisals",
+      "name": "Jaynes Appraisals",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-09-30",
+      "sourceUrl": "https://www.jaynesappraisals.com/",
+      "sourceType": "official_website",
+      "verifiedAt": "2026-09-30",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
+      "canonicalProviderId": "provider:jaynes-appraisals"
+    },
+    {
+      "slug": "jeanie-craig-art-appraisals",
+      "name": "Jeanie Craig — Art Collection Management and Appraisals",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-09-30",
+      "sourceUrl": "https://appraiserart.com/",
+      "sourceType": "official_website",
+      "verifiedAt": "2026-09-30",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases",
+        "service_area"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
+      "canonicalProviderId": "provider:jeanie-craig-art-appraisals"
     }
   ],
   "policy": "Index only providers whose official website confirms identity, primary location, fine-art appraisal relevance, and useful provider-specific facts. All other profiles remain under review and are excluded from discovery surfaces.",
