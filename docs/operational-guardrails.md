@@ -32,6 +32,8 @@ This repo is static-first.
   with `seo_site`, `ref_path`, and the shared `journey_id`. Generic directory
   UTMs become `art_directory`; explicit acquisition tags remain intact. Synthetic
   markers follow the handoff. External provider links and local anchors stay intact.
+  Deferred page scripts that replace links are observed and the same tags are
+  restored idempotently before navigation.
 
 - Do not reintroduce Vite/SPA build steps into the normal production workflow.
 - Do not treat `dist/` as the source of truth.
