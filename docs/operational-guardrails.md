@@ -28,6 +28,11 @@ This repo is static-first.
 
 ## Guardrails
 
+- The shared static telemetry bootstrap stamps owned Appraisily handoff links
+  with `seo_site`, `ref_path`, and the shared `journey_id`. Generic directory
+  UTMs become `art_directory`; explicit acquisition tags remain intact. Synthetic
+  markers follow the handoff. External provider links and local anchors stay intact.
+
 - Do not reintroduce Vite/SPA build steps into the normal production workflow.
 - Do not treat `dist/` as the source of truth.
 - Do not add instructions that tell future agents to regenerate the site before every edit.
