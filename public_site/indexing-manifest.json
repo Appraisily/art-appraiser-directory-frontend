@@ -10,8 +10,8 @@
     "lastmod": "omit-without-reviewed-change-ledger"
   },
   "counts": {
-    "profiles": 260,
-    "indexableProfiles": 260,
+    "profiles": 263,
+    "indexableProfiles": 263,
     "cities": 78,
     "indexableCities": 78
   },
@@ -88,7 +88,7 @@
       "publicationStatus": "limited",
       "verifiedAt": "2026-08-30",
       "sourceUrl": "https://www.aaronappraisalservices.com/",
-      "city": "Macon",
+      "city": "Atlanta",
       "region": "GA",
       "country": "US",
       "indexable": true,
@@ -1409,6 +1409,22 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/david-dike-fine-art/"
     },
     {
+      "slug": "decarrera-fine-art",
+      "name": "DeCarrera Fine Art",
+      "canonicalProviderId": "provider:decarrera-fine-art",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-10-01",
+      "sourceUrl": "https://dcfineart.com/",
+      "city": "Los Angeles",
+      "region": "CA",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/"
+    },
+    {
       "slug": "detroit-fine-art-appraisals",
       "name": "Detroit Fine Art Appraisals",
       "canonicalProviderId": "provider:detroit-fine-art-appraisals",
@@ -1560,8 +1576,8 @@
       "publicationStatus": "limited",
       "verifiedAt": "2026-08-30",
       "sourceUrl": "https://www.duwampsartappraisals.com/",
-      "city": "Portland",
-      "region": "ME",
+      "city": "Seattle",
+      "region": "WA",
       "country": "US",
       "indexable": true,
       "robotsIndexable": true,
@@ -2495,6 +2511,22 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/jlfineartappraisal/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jlfineartappraisal/"
+    },
+    {
+      "slug": "joette-pierce-and-associates",
+      "name": "Joette Pierce & Associates",
+      "canonicalProviderId": "provider:joette-pierce-and-associates",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-10-01",
+      "sourceUrl": "https://www.joettepierceappraisals.com/",
+      "city": "Newport Beach",
+      "region": "CA",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/"
     },
     {
       "slug": "josefa-gonzalez-mariscal-fine-art",
@@ -4159,6 +4191,22 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/woodard-lipe-fine-art-auction/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/woodard-lipe-fine-art-auction/"
+    },
+    {
+      "slug": "worthwise-art-and-antiques-appraisers",
+      "name": "WorthWise Art and Antiques Appraisers",
+      "canonicalProviderId": "provider:worthwise-art-and-antiques-appraisers",
+      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
+      "publicationStatus": "verified",
+      "verifiedAt": "2026-10-01",
+      "sourceUrl": "https://worthwiseappraisers.com/",
+      "city": "Denver",
+      "region": "CO",
+      "country": "US",
+      "indexable": true,
+      "robotsIndexable": true,
+      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/"
     },
     {
       "slug": "wyeth-appraisals",

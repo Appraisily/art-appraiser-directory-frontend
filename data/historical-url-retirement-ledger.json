@@ -5,10 +5,10 @@
     "status": "complete_for_397_241_and_current_sitemaps",
     "authoritative397Commit": "c61e612ea2f40ae1ec5b4949f8a0d7c4d5a18a5f",
     "authoritative241Commit": "8891a7a53d74a2253745c02d9e5adc070bb8917c",
-    "recoveredUniqueUrls": 445
+    "recoveredUniqueUrls": 448
   },
   "counts": {
-    "200": 341,
+    "200": 344,
     "404": 92,
     "410": 12
   },
@@ -1315,6 +1315,15 @@
       "outcome": "retained"
     },
     {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
+      "provenance": [
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/detroit-fine-art-appraisals/",
       "provenance": [
         "241_url_sitemap",
@@ -2235,6 +2244,15 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jlfineartappraisal/",
       "provenance": [
         "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
+      "provenance": [
         "current_candidate_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
@@ -3764,6 +3782,15 @@
       "provenance": [
         "241_url_sitemap",
         "397_url_sitemap",
+        "current_candidate_sitemap"
+      ],
+      "confidence": "exact_historical_sitemap",
+      "terminalStatus": 200,
+      "outcome": "retained"
+    },
+    {
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
+      "provenance": [
         "current_candidate_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
