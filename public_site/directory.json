@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-09-30T21:47:15.067Z",
+  "generatedAt": "2026-10-01T00:00:00.000Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -97,11 +97,11 @@
       "slug": "aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/",
       "name": "Aaron Art and Antiques Appraisal Services",
-      "description": "Aaron Art and Antiques Appraisal Services has a limited directory listing for Macon, GA. Confirm current services and qualifications directly with the business.",
+      "description": "Aaron Art and Antiques Appraisal Services has a limited directory listing for Atlanta, GA. Confirm current services and qualifications directly with the business.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.aaronappraisalservices.com/",
       "address": {
-        "city": "Macon",
+        "city": "Atlanta",
         "region": "GA",
         "country": "US"
       },
@@ -1578,8 +1578,8 @@
     {
       "slug": "collector-s-fine-art-appraisal-et-associates",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/collector-s-fine-art-appraisal-et-associates/",
-      "name": "Collector’s Fine Art Appraisal et Associates",
-      "description": "Collector’s Fine Art Appraisal et Associates has a limited directory listing for Fort Collins, CO. Confirm current services and qualifications directly with the business.",
+      "name": "Collector\u2019s Fine Art Appraisal et Associates",
+      "description": "Collector\u2019s Fine Art Appraisal et Associates has a limited directory listing for Fort Collins, CO. Confirm current services and qualifications directly with the business.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://aspenappraisalbarbpreston.com/",
       "address": {
@@ -1845,12 +1845,12 @@
       "slug": "duwamps-appraisals",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/duwamps-appraisals/",
       "name": "Duwamps Fine Art & Antique Appraisals",
-      "description": "Duwamps Fine Art & Antique Appraisals has a limited directory listing for Portland, ME. Confirm current services and qualifications directly with the business.",
+      "description": "Duwamps Fine Art & Antique Appraisals has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.duwampsartappraisals.com/",
       "address": {
-        "city": "Portland",
-        "region": "ME",
+        "city": "Seattle",
+        "region": "WA",
         "country": "US"
       },
       "serviceType": "Directory record under review",
@@ -4956,6 +4956,63 @@
         "route": "/appraiser/wyeth-appraisals/",
         "verifiedAt": "2026-08-30"
       }
+    },
+    {
+      "slug": "joette-pierce-and-associates",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
+      "name": "Joette Pierce & Associates",
+      "description": "Newport Beach appraisal firm accredited by the American Society of Appraisers, providing certified fine-art valuations.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://www.joettepierceappraisals.com/",
+      "address": {
+        "city": "Newport Beach",
+        "region": "CA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/joette-pierce-and-associates/",
+        "verifiedAt": "2026-10-01"
+      }
+    },
+    {
+      "slug": "worthwise-art-and-antiques-appraisers",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
+      "name": "WorthWise Art and Antiques Appraisers",
+      "description": "Denver practice appraising fine art and antiques for donation, estate-tax, insurance, and damage-claim reports.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://worthwiseappraisers.com/",
+      "address": {
+        "city": "Denver",
+        "region": "CO",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/worthwise-art-and-antiques-appraisers/",
+        "verifiedAt": "2026-10-01"
+      }
+    },
+    {
+      "slug": "decarrera-fine-art",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
+      "name": "DeCarrera Fine Art",
+      "description": "Los Angeles and Orange County art advisory that appraises twentieth-century, postwar, and contemporary art.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://dcfineart.com/",
+      "address": {
+        "city": "Los Angeles",
+        "region": "CA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/decarrera-fine-art/",
+        "verifiedAt": "2026-10-01"
+      }
     }
   ],
   "locations": [
@@ -5773,11 +5830,11 @@
       "slug": "san-francisco",
       "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
       "name": "Art appraisers in San Francisco, California",
-      "description": "Find Jeanie Craig — Art Collection Management and Appraisals for fine-art appraisal work in San Francisco. Review published services, inspection options and booking questions.",
+      "description": "Find Jeanie Craig \u2014 Art Collection Management and Appraisals for fine-art appraisal work in San Francisco. Review published services, inspection options and booking questions.",
       "numberOfListedAppraisers": 1,
       "listedAppraisers": [
         {
-          "name": "Jeanie Craig — Art Collection Management and Appraisals",
+          "name": "Jeanie Craig \u2014 Art Collection Management and Appraisals",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
           "slug": "jeanie-craig-art-appraisals",
           "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",

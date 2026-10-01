@@ -1,13 +1,13 @@
 {
   "policyVersion": 2,
   "summary": {
-    "indexable": 260,
-    "verified": 8,
+    "indexable": 263,
+    "verified": 11,
     "limited": 252,
     "suppressed": 603,
-    "appraiserIndexEntries": 260,
+    "appraiserIndexEntries": 263,
     "indexableLocations": 78,
-    "changedProfiles": 863
+    "changedProfiles": 866
   },
   "providers": [
     {
@@ -825,7 +825,7 @@
     },
     {
       "slug": "appraiseitnow-washington-dc",
-      "name": "AppraiseItNow – Washington DC",
+      "name": "AppraiseItNow \u2013 Washington DC",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -1072,7 +1072,7 @@
     },
     {
       "slug": "artifactual-history",
-      "name": "Artifactual History® Appraisal",
+      "name": "Artifactual History\u00ae Appraisal",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -1085,7 +1085,7 @@
     },
     {
       "slug": "artifactual-history-appraisal",
-      "name": "Artifactual History® Appraisal",
+      "name": "Artifactual History\u00ae Appraisal",
       "publicationStatus": "under_review",
       "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
       "sourceUrl": "",
@@ -3145,7 +3145,7 @@
     },
     {
       "slug": "collector-s-fine-art-appraisal-et-associates",
-      "name": "Collector’s Fine Art Appraisal et Associates",
+      "name": "Collector\u2019s Fine Art Appraisal et Associates",
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://aspenappraisalbarbpreston.com/",
@@ -12062,7 +12062,7 @@
     },
     {
       "slug": "jeanie-craig-art-appraisals",
-      "name": "Jeanie Craig — Art Collection Management and Appraisals",
+      "name": "Jeanie Craig \u2014 Art Collection Management and Appraisals",
       "publicationStatus": "verified",
       "reason": "official_source_review_2026-09-30",
       "sourceUrl": "https://appraiserart.com/",
@@ -12080,6 +12080,64 @@
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
       "canonicalProviderId": "provider:jeanie-craig-art-appraisals"
+    },
+    {
+      "slug": "joette-pierce-and-associates",
+      "name": "Joette Pierce & Associates",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-10-01",
+      "sourceUrl": "https://www.joettepierceappraisals.com/",
+      "sourceType": "official_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "appraisal_use_cases"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
+      "canonicalProviderId": "provider:joette-pierce-and-associates"
+    },
+    {
+      "slug": "worthwise-art-and-antiques-appraisers",
+      "name": "WorthWise Art and Antiques Appraisers",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-10-01",
+      "sourceUrl": "https://worthwiseappraisers.com/",
+      "sourceType": "official_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
+      "canonicalProviderId": "provider:worthwise-art-and-antiques-appraisers"
+    },
+    {
+      "slug": "decarrera-fine-art",
+      "name": "DeCarrera Fine Art",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-10-01",
+      "sourceUrl": "https://dcfineart.com/",
+      "sourceType": "official_website",
+      "verifiedAt": "2026-10-01",
+      "verifiedBy": "manual_official_website_review",
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties"
+      ],
+      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
+      "canonicalProviderId": "provider:decarrera-fine-art"
     }
   ],
   "policy": "Index only providers whose official website confirms identity, primary location, fine-art appraisal relevance, and useful provider-specific facts. All other profiles remain under review and are excluded from discovery surfaces.",
