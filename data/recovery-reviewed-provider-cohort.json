@@ -291,6 +291,108 @@
         "san-francisco"
       ],
       "locationType": "published_mailing_locality"
+    },
+    "brenda-simonson-mohle": {
+      "name": "Brenda Simonson-Mohle",
+      "city": "Dallas",
+      "region": "TX",
+      "country": "US",
+      "reviewedAt": "2026-10-02",
+      "sourceUrl": "https://signetart.com/art-appraisal/",
+      "sourceUrls": [
+        "https://signetart.com/art-appraisal/",
+        "https://signetart.com/private-client-services/",
+        "https://signetart.com/overview/"
+      ],
+      "title": "Brenda Simonson-Mohle — Signet Art Appraisals in Dallas",
+      "description": "Brenda Simonson-Mohle at Signet Art in Dallas appraises paintings, drawings, sculpture, tapestries and prints. Review services and inquiry options.",
+      "about": "Brenda Simonson-Mohle provides fine-art appraisals through Signet Art in Dallas. The practice’s website identifies paintings, drawings, sculpture, tapestries and prints as its own areas of expertise, alongside art advisory work for individuals and collections.",
+      "specialties": [
+        "Paintings, drawings and prints",
+        "Sculpture and tapestries"
+      ],
+      "services": [
+        "Insurance and damage-claim appraisals",
+        "Estate and charitable-donation appraisals",
+        "Pre-purchase advice and equitable-distribution work"
+      ],
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ]
+    },
+    "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser": {
+      "name": "Jennifer L. Stoots, AAA",
+      "city": "Portland",
+      "region": "OR",
+      "country": "US",
+      "reviewedAt": "2026-10-02",
+      "sourceUrl": "https://photostoots.com/",
+      "sourceUrls": [
+        "https://photostoots.com/",
+        "https://photostoots.com/contact/",
+        "https://photostoots.com/wp-content/uploads/2025/02/Stoots_Jennifer-L-Appraisers-CV-Feb-2025.pdf",
+        "https://photostoots.com/appraisals/"
+      ],
+      "title": "Jennifer L. Stoots — Portland Photography and Art Appraisals",
+      "description": "Jennifer L. Stoots in Portland appraises photographs, photographic archives, Northwest and contemporary art. Review scope and appointment-only inquiries.",
+      "about": "Jennifer L. Stoots operates Stoots, LLC, a photography and fine-art appraisal practice identified in her published CV as Portland-based. Her website describes work with documentary and fine-art photographs, photographic archives, contemporary art, Northwest art and artist estates.",
+      "specialties": [
+        "Documentary and fine-art photographs",
+        "Photographic archives",
+        "Northwest and contemporary art, including artist estates"
+      ],
+      "services": [
+        "Insurance and damage-or-loss appraisals",
+        "Donation and estate appraisals",
+        "Property-division valuations",
+        "Photography-market advice and legacy-planning guidance"
+      ],
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ]
+    },
+    "spalding-nix-fine-art": {
+      "name": "Spalding Nix Fine Art",
+      "city": "Atlanta",
+      "region": "GA",
+      "country": "US",
+      "reviewedAt": "2026-10-02",
+      "sourceUrl": "https://www.spaldingnixfineart.com/appraisals",
+      "sourceUrls": [
+        "https://www.spaldingnixfineart.com/appraisals",
+        "https://spaldingnixfineart.com/about",
+        "https://www.spaldingnixfineart.com/art-advisory"
+      ],
+      "title": "Spalding Nix Fine Art — Atlanta Art Appraisals",
+      "description": "Spalding Nix Fine Art in Atlanta offers art and personal-property appraisals. Compare formal reports, resale walk-throughs and art advisory services.",
+      "about": "Spalding Nix Fine Art is an Atlanta gallery and art advisory with a personal-property appraisal service. Its official site describes fine-art, antique and collectible assignments in Atlanta and the Southeast, alongside acquisition and sale advice for collectors.",
+      "specialties": [
+        "Fine-art valuation",
+        "Art within mixed personal-property collections"
+      ],
+      "services": [
+        "Insurance and damage-or-loss appraisals",
+        "Donation, estate and property-division appraisals",
+        "Art acquisition and sale advisory"
+      ],
+      "claimScope": [
+        "identity",
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
+      ]
     }
   }
 }

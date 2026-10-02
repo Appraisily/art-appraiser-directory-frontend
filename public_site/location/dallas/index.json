@@ -2,17 +2,26 @@
   "title": "Art appraisers in Dallas, Texas",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-08-30T09:18:09.505Z",
+  "generatedAt": "2026-10-02T23:19:35.925Z",
   "location": {
     "slug": "dallas",
     "url": "https://art-appraisers-directory.appraisily.com/location/dallas/",
     "name": "Art appraisers in Dallas, Texas",
-    "description": "Fine-art appraisal guidance for Dallas: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-    "numberOfListedAppraisers": 0,
+    "description": "Find Brenda Simonson-Mohle for art appraisal work in Dallas. Review published scope, appointment questions and the official provider website.",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Brenda Simonson-Mohle",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
+        "slug": "brenda-simonson-mohle",
+        "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+        "description": "Brenda Simonson-Mohle at Signet Art in Dallas appraises paintings, drawings, sculpture, tapestries and prints. Review services and inquiry options.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/dallas/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

@@ -43,8 +43,8 @@
       "slug": "atlanta",
       "status": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
-      "reason": "Art-only atlanta decision page with independent local appraisal guidance and no reviewed local listing yet."
+      "providerSlug": "spalding-nix-fine-art",
+      "reason": "Existing Art decision page with a local provider reviewed against official sources October 2, 2026."
     },
     {
       "slug": "austin",
@@ -141,8 +141,8 @@
       "slug": "dallas",
       "status": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
-      "reason": "Art-only dallas decision page with independent local appraisal guidance and no reviewed local listing yet."
+      "providerSlug": "brenda-simonson-mohle",
+      "reason": "Existing Art decision page with a local provider reviewed against official sources October 2, 2026."
     },
     {
       "slug": "denver",
@@ -379,8 +379,8 @@
       "slug": "portland",
       "status": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
-      "reason": "Art-only portland decision page with independent local appraisal guidance and no reviewed local listing yet."
+      "providerSlug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
+      "reason": "Existing Art decision page with a local provider reviewed against official sources October 2, 2026."
     },
     {
       "slug": "providence",

@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-01T00:00:00.000Z",
+  "generatedAt": "2026-10-02T23:19:35.925Z",
   "count": 263,
   "appraisers": [
     {
@@ -1263,19 +1263,19 @@
       "slug": "brenda-simonson-mohle",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
       "name": "Brenda Simonson-Mohle",
-      "description": "Brenda Simonson-Mohle has a limited directory listing for Dallas, TX. Confirm current services and qualifications directly with the business.",
+      "description": "Brenda Simonson-Mohle at Signet Art in Dallas appraises paintings, drawings, sculpture, tapestries and prints. Review services and inquiry options.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "website": "https://www.signetart.com/",
+      "website": "https://signetart.com/art-appraisal/",
       "address": {
         "city": "Dallas",
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory listing",
+      "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/brenda-simonson-mohle/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-10-02"
       }
     },
     {
@@ -1566,8 +1566,8 @@
     {
       "slug": "collector-s-fine-art-appraisal-et-associates",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/collector-s-fine-art-appraisal-et-associates/",
-      "name": "Collector\u2019s Fine Art Appraisal et Associates",
-      "description": "Collector\u2019s Fine Art Appraisal et Associates has a limited directory listing for Fort Collins, CO. Confirm current services and qualifications directly with the business.",
+      "name": "Collector’s Fine Art Appraisal et Associates",
+      "description": "Collector’s Fine Art Appraisal et Associates has a limited directory listing for Fort Collins, CO. Confirm current services and qualifications directly with the business.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://aspenappraisalbarbpreston.com/",
       "address": {
@@ -1656,6 +1656,25 @@
         "type": "public_site_html_json_ld",
         "route": "/appraiser/david-dike-fine-art/",
         "verifiedAt": "2026-08-30"
+      }
+    },
+    {
+      "slug": "decarrera-fine-art",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
+      "name": "DeCarrera Fine Art",
+      "description": "Los Angeles and Orange County art advisory that appraises twentieth-century, postwar, and contemporary art.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://dcfineart.com/",
+      "address": {
+        "city": "Los Angeles",
+        "region": "CA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/decarrera-fine-art/",
+        "verifiedAt": "2026-10-01"
       }
     },
     {
@@ -2878,7 +2897,7 @@
       "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
       "name": "Jennifer L. Stoots, AAA",
-      "description": "Jennifer L. Stoots, AAA has a limited directory listing for Portland, OR. Confirm current services and qualifications directly with the business.",
+      "description": "Jennifer L. Stoots in Portland appraises photographs, photographic archives, Northwest and contemporary art. Review scope and appointment-only inquiries.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://photostoots.com/",
       "address": {
@@ -2886,11 +2905,11 @@
         "region": "OR",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-10-02"
       }
     },
     {
@@ -2948,6 +2967,25 @@
         "type": "public_site_html_json_ld",
         "route": "/appraiser/jlfineartappraisal/",
         "verifiedAt": "2026-08-30"
+      }
+    },
+    {
+      "slug": "joette-pierce-and-associates",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
+      "name": "Joette Pierce & Associates",
+      "description": "Newport Beach appraisal firm accredited by the American Society of Appraisers, providing certified fine-art valuations.",
+      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "website": "https://www.joettepierceappraisals.com/",
+      "address": {
+        "city": "Newport Beach",
+        "region": "CA",
+        "country": "US"
+      },
+      "serviceType": "Fine-art appraisal services",
+      "source": {
+        "type": "public_site_html_json_ld",
+        "route": "/appraiser/joette-pierce-and-associates/",
+        "verifiedAt": "2026-10-01"
       }
     },
     {
@@ -4455,19 +4493,19 @@
       "slug": "spalding-nix-fine-art",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/spalding-nix-fine-art/",
       "name": "Spalding Nix Fine Art",
-      "description": "Spalding Nix Fine Art has a limited directory listing for Atlanta, GA. Confirm current services and qualifications directly with the business.",
+      "description": "Spalding Nix Fine Art in Atlanta offers art and personal-property appraisals. Compare formal reports, resale walk-throughs and art advisory services.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "website": "https://www.spaldingnixfineart.com/",
+      "website": "https://www.spaldingnixfineart.com/appraisals",
       "address": {
         "city": "Atlanta",
         "region": "GA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/spalding-nix-fine-art/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-10-02"
       }
     },
     {
@@ -4927,44 +4965,6 @@
       }
     },
     {
-      "slug": "wyeth-appraisals",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/wyeth-appraisals/",
-      "name": "Wyeth Appraisals",
-      "description": "Wyeth Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "website": "https://wyethappraisals.com/",
-      "address": {
-        "city": "Nashville",
-        "region": "TN",
-        "country": "US"
-      },
-      "serviceType": "Directory record under review",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/wyeth-appraisals/",
-        "verifiedAt": "2026-08-30"
-      }
-    },
-    {
-      "slug": "joette-pierce-and-associates",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
-      "name": "Joette Pierce & Associates",
-      "description": "Newport Beach appraisal firm accredited by the American Society of Appraisers, providing certified fine-art valuations.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "website": "https://www.joettepierceappraisals.com/",
-      "address": {
-        "city": "Newport Beach",
-        "region": "CA",
-        "country": "US"
-      },
-      "serviceType": "Fine-art appraisal services",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/joette-pierce-and-associates/",
-        "verifiedAt": "2026-10-01"
-      }
-    },
-    {
       "slug": "worthwise-art-and-antiques-appraisers",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
       "name": "WorthWise Art and Antiques Appraisers",
@@ -4984,22 +4984,22 @@
       }
     },
     {
-      "slug": "decarrera-fine-art",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
-      "name": "DeCarrera Fine Art",
-      "description": "Los Angeles and Orange County art advisory that appraises twentieth-century, postwar, and contemporary art.",
+      "slug": "wyeth-appraisals",
+      "url": "https://art-appraisers-directory.appraisily.com/appraiser/wyeth-appraisals/",
+      "name": "Wyeth Appraisals",
+      "description": "Wyeth Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "website": "https://dcfineart.com/",
+      "website": "https://wyethappraisals.com/",
       "address": {
-        "city": "Los Angeles",
-        "region": "CA",
+        "city": "Nashville",
+        "region": "TN",
         "country": "US"
       },
-      "serviceType": "Fine-art appraisal services",
+      "serviceType": "Directory record under review",
       "source": {
         "type": "public_site_html_json_ld",
-        "route": "/appraiser/decarrera-fine-art/",
-        "verifiedAt": "2026-10-01"
+        "route": "/appraiser/wyeth-appraisals/",
+        "verifiedAt": "2026-08-30"
       }
     }
   ]

@@ -2,8 +2,8 @@
   "policyVersion": 2,
   "summary": {
     "indexable": 263,
-    "verified": 11,
-    "limited": 252,
+    "verified": 14,
+    "limited": 249,
     "suppressed": 603,
     "appraiserIndexEntries": 263,
     "indexableLocations": 78,
@@ -2214,15 +2214,19 @@
     {
       "slug": "brenda-simonson-mohle",
       "name": "Brenda Simonson-Mohle",
-      "publicationStatus": "limited",
-      "reason": "website_backed_limited_publication_2026-08-30",
-      "sourceUrl": "https://www.signetart.com/",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-10-02",
+      "sourceUrl": "https://signetart.com/art-appraisal/",
       "sourceType": "official_website",
-      "verifiedAt": "2026-08-30",
-      "verifiedBy": "website_backed_limited_publication",
+      "verifiedAt": "2026-10-02",
+      "verifiedBy": "manual_official_website_review",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
       "canonicalProviderId": "provider:brenda-simonson-mohle"
@@ -5842,15 +5846,19 @@
     {
       "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
       "name": "Jennifer L. Stoots, AAA",
-      "publicationStatus": "limited",
-      "reason": "website_backed_limited_publication_2026-08-30",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-10-02",
       "sourceUrl": "https://photostoots.com/",
       "sourceType": "official_website",
-      "verifiedAt": "2026-08-30",
-      "verifiedBy": "website_backed_limited_publication",
+      "verifiedAt": "2026-10-02",
+      "verifiedBy": "manual_official_website_review",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
       "canonicalProviderId": "provider:jennifer-l-stoots"
@@ -11077,15 +11085,19 @@
     {
       "slug": "spalding-nix-fine-art",
       "name": "Spalding Nix Fine Art",
-      "publicationStatus": "limited",
-      "reason": "website_backed_limited_publication_2026-08-30",
-      "sourceUrl": "https://www.spaldingnixfineart.com/",
+      "publicationStatus": "verified",
+      "reason": "official_source_review_2026-10-02",
+      "sourceUrl": "https://www.spaldingnixfineart.com/appraisals",
       "sourceType": "official_website",
-      "verifiedAt": "2026-08-30",
-      "verifiedBy": "website_backed_limited_publication",
+      "verifiedAt": "2026-10-02",
+      "verifiedBy": "manual_official_website_review",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/spalding-nix-fine-art/",
       "canonicalProviderId": "provider:spalding-nix-fine-art"

@@ -2,17 +2,26 @@
   "title": "Art appraisers in Portland, Oregon",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-08-30T09:18:09.505Z",
+  "generatedAt": "2026-10-02T23:19:35.925Z",
   "location": {
     "slug": "portland",
     "url": "https://art-appraisers-directory.appraisily.com/location/portland/",
     "name": "Art appraisers in Portland, Oregon",
-    "description": "Fine-art appraisal guidance for Portland: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-    "numberOfListedAppraisers": 0,
+    "description": "Find Jennifer L. Stoots, AAA for art appraisal work in Portland. Review published scope, appointment questions and the official provider website.",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "Jennifer L. Stoots, AAA",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
+        "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
+        "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+        "description": "Jennifer L. Stoots in Portland appraises photographs, photographic archives, Northwest and contemporary art. Review scope and appointment-only inquiries.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/portland/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

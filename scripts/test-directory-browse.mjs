@@ -31,6 +31,11 @@ for (const page of ['appraiser', 'location']) {
   if (page === 'appraiser') {
     assert.deepEqual(new Set(urls), new Set(feed.map(p => '/appraiser/' + p.slug + '/')));
     assert.equal(rows.filter(r => r.textContent.includes('Source-reviewed')).length, manifest.summary.verified);
+    if (art) {
+      const labels = [...d.querySelectorAll('[data-browse-group] h2')].map(h => h.textContent.trim());
+      assert.ok(labels.includes(`Source-reviewed profiles (${manifest.summary.verified})`), 'Reviewed group count matches the manifest');
+      assert.ok(labels.includes(`Limited listings (${manifest.summary.limited})`), 'Limited group count matches the manifest');
+    }
     for (const p of feed) {
       const row = rows.find(r => r.querySelector('a').getAttribute('href') === '/appraiser/' + p.slug + '/');
       assert.ok(row.textContent.includes(p.address?.city || p.address?.region || 'Location not listed'));

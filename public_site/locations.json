@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory location pages",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-09-30T21:47:15.067Z",
+  "generatedAt": "2026-10-02T23:19:35.925Z",
   "count": 78,
   "locations": [
     {
@@ -57,13 +57,22 @@
       "slug": "atlanta",
       "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
       "name": "Art appraisers in Atlanta, Georgia",
-      "description": "Fine-art appraisal guidance for Atlanta: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-      "numberOfListedAppraisers": 0,
+      "description": "Find Spalding Nix Fine Art for art appraisal work in Atlanta. Review published scope, appointment questions and the official provider website.",
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Spalding Nix Fine Art",
+          "url": "https://art-appraisers-directory.appraisily.com/appraiser/spalding-nix-fine-art/",
+          "slug": "spalding-nix-fine-art",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Spalding Nix Fine Art in Atlanta offers art and personal-property appraisals. Compare formal reports, resale walk-throughs and art advisory services.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/atlanta/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "austin",
@@ -243,13 +252,22 @@
       "slug": "dallas",
       "url": "https://art-appraisers-directory.appraisily.com/location/dallas/",
       "name": "Art appraisers in Dallas, Texas",
-      "description": "Fine-art appraisal guidance for Dallas: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-      "numberOfListedAppraisers": 0,
+      "description": "Find Brenda Simonson-Mohle for art appraisal work in Dallas. Review published scope, appointment questions and the official provider website.",
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Brenda Simonson-Mohle",
+          "url": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
+          "slug": "brenda-simonson-mohle",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Brenda Simonson-Mohle at Signet Art in Dallas appraises paintings, drawings, sculpture, tapestries and prints. Review services and inquiry options.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/dallas/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "denver",
@@ -687,13 +705,22 @@
       "slug": "portland",
       "url": "https://art-appraisers-directory.appraisily.com/location/portland/",
       "name": "Art appraisers in Portland, Oregon",
-      "description": "Fine-art appraisal guidance for Portland: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-      "numberOfListedAppraisers": 0,
+      "description": "Find Jennifer L. Stoots, AAA for art appraisal work in Portland. Review published scope, appointment questions and the official provider website.",
+      "numberOfListedAppraisers": 1,
+      "listedAppraisers": [
+        {
+          "name": "Jennifer L. Stoots, AAA",
+          "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
+          "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
+          "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+          "description": "Jennifer L. Stoots in Portland appraises photographs, photographic archives, Northwest and contemporary art. Review scope and appointment-only inquiries.",
+          "publicRouteAvailable": true
+        }
+      ],
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/location/portland/"
-      },
-      "listedAppraisers": []
+      }
     },
     {
       "slug": "providence",
