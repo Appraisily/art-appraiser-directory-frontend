@@ -10,8 +10,8 @@
     "lastmod": "omit-without-reviewed-change-ledger"
   },
   "counts": {
-    "profiles": 263,
-    "indexableProfiles": 263,
+    "profiles": 210,
+    "indexableProfiles": 210,
     "cities": 78,
     "indexableCities": 78
   },
@@ -305,22 +305,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/"
     },
     {
-      "slug": "amy-i-schlegel",
-      "name": "Amy I Schlegel",
-      "canonicalProviderId": "provider:amy-i-schlegel",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/amy-i-schlegel/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.schlegelfineart.com/",
-      "city": "Lancaster",
-      "region": "MA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/amy-i-schlegel/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/amy-i-schlegel/"
-    },
-    {
       "slug": "anderson-campbell-art-appraisals",
       "name": "Anderson Campbell Art Appraisals",
       "canonicalProviderId": "provider:anderson-campbell-art-appraisals",
@@ -465,22 +449,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-art-buyers/"
     },
     {
-      "slug": "anya-foo---nova-art-la",
-      "name": "Anya Foo - Nova Art LA",
-      "canonicalProviderId": "provider:anya-foo-nova-art-la",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/anya-foo---nova-art-la/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.novaartla.com/",
-      "city": "Los Angeles",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/anya-foo---nova-art-la/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/anya-foo---nova-art-la/"
-    },
-    {
       "slug": "appraisal-services-philadelphia-pa-art-antiques-furniture-estate",
       "name": "Linzey Appraisal Associates LLC",
       "canonicalProviderId": "provider:linzey-appraisal-associates",
@@ -609,22 +577,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisals-of-new-england/"
     },
     {
-      "slug": "art-asset-management-group",
-      "name": "Art Asset Management Group",
-      "canonicalProviderId": "provider:art-asset-management-group",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/art-asset-management-group/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.artassetmanagementgroup.com/about",
-      "city": "Cincinnati",
-      "region": "OH",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/art-asset-management-group/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-asset-management-group/"
-    },
-    {
       "slug": "art-directives",
       "name": "ART DIRECTIVES",
       "canonicalProviderId": "provider:art-directives",
@@ -721,22 +673,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-services-2000-ltd-fine-art-appraisals/"
     },
     {
-      "slug": "art-world-appraisals-phd",
-      "name": "Art World Appraisals- Fine Art Appraiser Los Angeles",
-      "canonicalProviderId": "provider:art-world-appraisals-fine-art-appraiser-los-angeles",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/art-world-appraisals-phd/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.artworldappraisals.com/",
-      "city": "Los Angeles",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/art-world-appraisals-phd/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-world-appraisals-phd/"
-    },
-    {
       "slug": "artemappraisals",
       "name": "Artem Appraisals",
       "canonicalProviderId": "provider:artem-appraisals",
@@ -751,22 +687,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/artemappraisals/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/artemappraisals/"
-    },
-    {
-      "slug": "artrium-appraisal-elizabeth-krambeer",
-      "name": "Artrium Appraisal (Elizabeth Krambeer)",
-      "canonicalProviderId": "provider:artrium-appraisal",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/artrium-appraisal-elizabeth-krambeer/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://artriumappraisal.com/",
-      "city": "Remote",
-      "region": "NY",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/artrium-appraisal-elizabeth-krambeer/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/artrium-appraisal-elizabeth-krambeer/"
     },
     {
       "slug": "artrium-fine-art-and-estate-appraisal",
@@ -897,22 +817,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/b-langston-estate-liquidation/"
     },
     {
-      "slug": "baker-appraisers-asian-antique-appraisers",
-      "name": "Baker Appraisers (Asian Antique Appraisers)",
-      "canonicalProviderId": "provider:baker-appraisers",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/baker-appraisers-asian-antique-appraisers/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://asianantiqueappraisers.com/",
-      "city": "Phoenix",
-      "region": "AZ",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/baker-appraisers-asian-antique-appraisers/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/baker-appraisers-asian-antique-appraisers/"
-    },
-    {
       "slug": "barry-s-slosberg-auctioneers-and-appraisers",
       "name": "Barry S. Slosberg Auctioneers & Appraisers",
       "canonicalProviderId": "provider:barry-s-slosberg-auctioneers-appraisers",
@@ -975,22 +879,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/beth-weingast-fine-art-appraisals/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/beth-weingast-fine-art-appraisals/"
-    },
-    {
-      "slug": "betsy-dorminy-appraisals",
-      "name": "Betsy Dorminy Antiques & Art",
-      "canonicalProviderId": "provider:betsy-dorminy-antiques-art",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/betsy-dorminy-appraisals/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.betsydorminyappraisals.com/",
-      "city": "Atlanta",
-      "region": "GA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/betsy-dorminy-appraisals/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/betsy-dorminy-appraisals/"
     },
     {
       "slug": "bonhams-pacific-northwest",
@@ -1233,22 +1121,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-barry-goldstein/"
     },
     {
-      "slug": "charles-pharr-certified-appraiser",
-      "name": "Charles Pharr Certified Art & Antique Appraiser",
-      "canonicalProviderId": "provider:charles-pharr-certified-art-antique-appraiser",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://certified-appraiser.com/",
-      "city": "Atlanta",
-      "region": "GA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-pharr-certified-appraiser/"
-    },
-    {
       "slug": "cheney-appraisal-services",
       "name": "Cheney Appraisal Services",
       "canonicalProviderId": "provider:cheney-appraisal-services",
@@ -1313,22 +1185,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-h-anderson-isa-am/"
     },
     {
-      "slug": "coast2coast-auctions",
-      "name": "Coast2Coast Auctions",
-      "canonicalProviderId": "provider:coast2coast-auctions",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/coast2coast-auctions/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://coast2coastauctions.com/",
-      "city": "Saint Louis",
-      "region": "MO",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/coast2coast-auctions/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/coast2coast-auctions/"
-    },
-    {
       "slug": "collector-s-fine-art-appraisal-et-associates",
       "name": "Collector’s Fine Art Appraisal et Associates",
       "canonicalProviderId": "provider:collector-s-fine-art-appraisal-et-associates",
@@ -1359,38 +1215,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/"
-    },
-    {
-      "slug": "czudej-mcdonough",
-      "name": "Czudej McDonough",
-      "canonicalProviderId": "provider:czudej-mcdonough",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/czudej-mcdonough/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://czudejmcdonough.com/",
-      "city": "San Francisco",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/czudej-mcdonough/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/czudej-mcdonough/"
-    },
-    {
-      "slug": "dana-summitt-look-appraisal-llc",
-      "name": "Dana Summitt (Look Appraisal LLC)",
-      "canonicalProviderId": "provider:dana-summitt",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/dana-summitt-look-appraisal-llc/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.lookappraisal.com/",
-      "city": "Raleigh",
-      "region": "NC",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/dana-summitt-look-appraisal-llc/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dana-summitt-look-appraisal-llc/"
     },
     {
       "slug": "david-dike-fine-art",
@@ -1457,22 +1281,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/detroit-marketrend-appraisals/"
     },
     {
-      "slug": "dina-brown",
-      "name": "Dina Brown",
-      "canonicalProviderId": "provider:dina-brown",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.dinabrownartappraisals.com/",
-      "city": "Beverly Hills",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown/"
-    },
-    {
       "slug": "dina-brown-art-appraisals",
       "name": "Dina Brown Art Appraisals",
       "canonicalProviderId": "provider:dina-brown-art-appraisals",
@@ -1503,38 +1311,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/dow-art-galleries/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/dow-art-galleries/"
-    },
-    {
-      "slug": "doyle-pennsylvania-regional-office",
-      "name": "Doyle (Pennsylvania Regional Office)",
-      "canonicalProviderId": "provider:doyle",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/doyle-pennsylvania-regional-office/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.doyle.com/locations/pennsylvania",
-      "city": "Philadelphia",
-      "region": "PA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/doyle-pennsylvania-regional-office/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/doyle-pennsylvania-regional-office/"
-    },
-    {
-      "slug": "drake-appraisals",
-      "name": "Drake Appraisals, Inc.",
-      "canonicalProviderId": "provider:drake-appraisals",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/drake-appraisals/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.drakeappraisals.com/",
-      "city": "Tampa",
-      "region": "FL",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/drake-appraisals/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/drake-appraisals/"
     },
     {
       "slug": "dudley-certified-appraisers-art-antiques-and-estates",
@@ -1615,22 +1391,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/edward-m-stanley-appraisal-services-fine-art-antiques/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-m-stanley-appraisal-services-fine-art-antiques/"
-    },
-    {
-      "slug": "eisele-gallery",
-      "name": "Eisele Gallery",
-      "canonicalProviderId": "provider:eisele-gallery",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/eisele-gallery/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.eiselefineart.com/",
-      "city": "Cincinnati",
-      "region": "OH",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/eisele-gallery/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/eisele-gallery/"
     },
     {
       "slug": "elise-waters-olonia",
@@ -1745,54 +1505,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/ena-art-group/"
     },
     {
-      "slug": "erika-holycross-prestige-estate-services",
-      "name": "Erika Holycross (Prestige Estate Services)",
-      "canonicalProviderId": "provider:erika-holycross",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/erika-holycross-prestige-estate-services/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://prestigeestateservices.com/",
-      "city": "Houston",
-      "region": "TX",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/erika-holycross-prestige-estate-services/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/erika-holycross-prestige-estate-services/"
-    },
-    {
-      "slug": "erin-e-keever",
-      "name": "Erin E Keever",
-      "canonicalProviderId": "provider:erin-e-keever",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/erin-e-keever/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://erinkeever.com/",
-      "city": "Austin",
-      "region": "TX",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/erin-e-keever/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/erin-e-keever/"
-    },
-    {
-      "slug": "escher-associates-ea",
-      "name": "Escher Associates (EA)",
-      "canonicalProviderId": "provider:escher-associates",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-ea/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.escher-associates.com/",
-      "city": "Los Angeles",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-ea/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/escher-associates-ea/"
-    },
-    {
       "slug": "everard-auctions-appraisals",
       "name": "Everard Auctions & Appraisals",
       "canonicalProviderId": "provider:everard-auctions-appraisals",
@@ -1905,22 +1617,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/frances-redell-white-appraisal-consultant-services/"
     },
     {
-      "slug": "fruitcocktail-collectables",
-      "name": "Fruitcocktail Collectables",
-      "canonicalProviderId": "provider:fruitcocktail-collectables",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/fruitcocktail-collectables/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://fruitcocktailcollectables.com/",
-      "city": "Seattle",
-      "region": "WA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/fruitcocktail-collectables/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/fruitcocktail-collectables/"
-    },
-    {
       "slug": "full-service-estate-sales-and-appraisals-houston-accredited-appraiser",
       "name": "English and Associates Estate Services",
       "canonicalProviderId": "provider:english-and-associates-estate-services",
@@ -2017,22 +1713,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/gilded-pear-gallery/"
     },
     {
-      "slug": "green-donation-consultants",
-      "name": "Green Donation Consultants",
-      "canonicalProviderId": "provider:green-donation-consultants",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/green-donation-consultants/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://greendonation.com/",
-      "city": "Fredericksburg",
-      "region": "VA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/green-donation-consultants/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/green-donation-consultants/"
-    },
-    {
       "slug": "greg-c-brown",
       "name": "Greg C. Brown",
       "canonicalProviderId": "provider:greg-c-brown",
@@ -2047,22 +1727,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/greg-c-brown/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/greg-c-brown/"
-    },
-    {
-      "slug": "gurr-johns",
-      "name": "Gurr Johns",
-      "canonicalProviderId": "provider:gurr-johns",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.gurrjohns.com/",
-      "city": "Los Angeles",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/gurr-johns/"
     },
     {
       "slug": "hale-appraisals",
@@ -2129,22 +1793,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/"
     },
     {
-      "slug": "heritage-appraisals",
-      "name": "Heritage Appraisals, LLC",
-      "canonicalProviderId": "provider:heritage-appraisals",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-appraisals/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://heritageappraisalsmi.com/",
-      "city": "Detroit",
-      "region": "MI",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-appraisals/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-appraisals/"
-    },
-    {
       "slug": "heritage-fine-art-appraisers",
       "name": "Heritage Fine Art Appraisers",
       "canonicalProviderId": "provider:heritage-fine-art-appraisers",
@@ -2191,22 +1839,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/historic-art-services/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/historic-art-services/"
-    },
-    {
-      "slug": "hkpowerstudio",
-      "name": "HKpowerStudio",
-      "canonicalProviderId": "provider:hkpowerstudio",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/hkpowerstudio/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://hkpowerstudio.com/creative-organizer",
-      "city": "Savannah",
-      "region": "GA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/hkpowerstudio/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/hkpowerstudio/"
     },
     {
       "slug": "hollingsworth-fine-a",
@@ -2287,22 +1919,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers/"
-    },
-    {
-      "slug": "intermountain-appraisal",
-      "name": "Intermountain Appraisal",
-      "canonicalProviderId": "provider:intermountain-appraisal",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/intermountain-appraisal/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://intermountainappraisal.com/",
-      "city": "Salt Lake City",
-      "region": "UT",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/intermountain-appraisal/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/intermountain-appraisal/"
     },
     {
       "slug": "isabelle-m-weiss",
@@ -2465,22 +2081,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/"
     },
     {
-      "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
-      "name": "Jennifer L. Strasbaugh, Fine Arts Appraising",
-      "canonicalProviderId": "provider:jennifer-l-strasbaugh-fine-arts-appraising",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-strasbaugh-fine-arts-appraising/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.jenniferstrasbaugh.com/",
-      "city": "Philadelphia",
-      "region": "PA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-strasbaugh-fine-arts-appraising/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-strasbaugh-fine-arts-appraising/"
-    },
-    {
       "slug": "jessica-berger",
       "name": "Jessica Berger",
       "canonicalProviderId": "provider:jessica-berger",
@@ -2577,38 +2177,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jsk-fine-art-appraisals/"
     },
     {
-      "slug": "julia-r-bluett",
-      "name": "Julia R. Bluett",
-      "canonicalProviderId": "provider:julia-r-bluett",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/julia-r-bluett/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://bluettartappraisers.com/",
-      "city": "Jacksonville Beach",
-      "region": "FL",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/julia-r-bluett/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/julia-r-bluett/"
-    },
-    {
-      "slug": "justin-rogers",
-      "name": "Justin Rogers",
-      "canonicalProviderId": "provider:justin-rogers",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/justin-rogers/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://rogersfineart.com/",
-      "city": "Kansas City",
-      "region": "MO",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/justin-rogers/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/justin-rogers/"
-    },
-    {
       "slug": "kagan-fine-art-appraisals",
       "name": "Kagan Fine Art Appraisals",
       "canonicalProviderId": "provider:kagan-fine-art-appraisals",
@@ -2623,22 +2191,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/kagan-fine-art-appraisals/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kagan-fine-art-appraisals/"
-    },
-    {
-      "slug": "kaminski-auctions",
-      "name": "Kaminski Auctions",
-      "canonicalProviderId": "provider:kaminski-auctions",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/kaminski-auctions/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.kaminskiauctions.com/",
-      "city": "Palm Beach",
-      "region": "FL",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/kaminski-auctions/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kaminski-auctions/"
     },
     {
       "slug": "kathy-poppers-expert-art-appraisals",
@@ -2671,22 +2223,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/kelly-cahn-art-advisory-appraisals/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kelly-cahn-art-advisory-appraisals/"
-    },
-    {
-      "slug": "kim-a-kasten",
-      "name": "Kim A. Kasten",
-      "canonicalProviderId": "provider:kim-a-kasten",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/kim-a-kasten/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.kastenartappraisal.com/",
-      "city": "Dallas",
-      "region": "TX",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/kim-a-kasten/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/kim-a-kasten/"
     },
     {
       "slug": "kinzelman-art-consulting",
@@ -2735,22 +2271,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/kurt-shaw-company/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kurt-shaw-company/"
-    },
-    {
-      "slug": "lamplighter-appraisal-service-personal-property-appraisal-san-diego",
-      "name": "Lamplighter Fine Art Appraisal San Diego",
-      "canonicalProviderId": "provider:lamplighter-fine-art-appraisal-san-diego",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/lamplighter-appraisal-service-personal-property-appraisal-san-diego/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.lamplighterappraisals.com/",
-      "city": "San Diego",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/lamplighter-appraisal-service-personal-property-appraisal-san-diego/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/lamplighter-appraisal-service-personal-property-appraisal-san-diego/"
     },
     {
       "slug": "lancaster-appraisals",
@@ -2815,22 +2335,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/lena-s-appraisal-services/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lena-s-appraisal-services/"
-    },
-    {
-      "slug": "leprince-fine-art",
-      "name": "LePrince Fine Art",
-      "canonicalProviderId": "provider:leprince-fine-art",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/leprince-fine-art/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://leprince.com/",
-      "city": "Charleston",
-      "region": "SC",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/leprince-fine-art/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/leprince-fine-art/"
     },
     {
       "slug": "lg-appraisal",
@@ -3073,22 +2577,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/mcdade-fine-art-appraisals/"
     },
     {
-      "slug": "melanie-modica-modica-fine-art",
-      "name": "Melanie Modica (Modica Fine Art)",
-      "canonicalProviderId": "provider:melanie-modica",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/melanie-modica-modica-fine-art/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://modicafineart.com/appraisal-management",
-      "city": "Houston",
-      "region": "TX",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/melanie-modica-modica-fine-art/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/melanie-modica-modica-fine-art/"
-    },
-    {
       "slug": "metropolitan-art-appraisers",
       "name": "Metropolitan Art Appraisers",
       "canonicalProviderId": "provider:metropolitan-art-appraisers",
@@ -3103,38 +2591,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/metropolitan-art-appraisers/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/metropolitan-art-appraisers/"
-    },
-    {
-      "slug": "michael-rose-fine-art",
-      "name": "Michael Rose Fine Art",
-      "canonicalProviderId": "provider:michael-rose-fine-art",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/michael-rose-fine-art/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.michaelrosefineart.com/",
-      "city": "Providence",
-      "region": "RI",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/michael-rose-fine-art/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/michael-rose-fine-art/"
-    },
-    {
-      "slug": "mimesis-gallery",
-      "name": "Mimesis Gallery",
-      "canonicalProviderId": "provider:mimesis-gallery",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.mimesisgallery.com/",
-      "city": "Los Angeles",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/mimesis-gallery/"
     },
     {
       "slug": "mir-appraisal-services",
@@ -3169,54 +2625,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/mjp-art-services/"
     },
     {
-      "slug": "momaa-museum-of-modern-american-art",
-      "name": "MoMAA (Museum of Modern American Art)",
-      "canonicalProviderId": "provider:momaa",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/momaa-museum-of-modern-american-art/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://momaa.org/art-appraisal-miami",
-      "city": "Miami",
-      "region": "FL",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/momaa-museum-of-modern-american-art/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/momaa-museum-of-modern-american-art/"
-    },
-    {
-      "slug": "museum-exchange",
-      "name": "Museum Exchange",
-      "canonicalProviderId": "provider:museum-exchange",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/museum-exchange/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.museumexchange.com/appraisals",
-      "city": "Washington",
-      "region": "NY",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/museum-exchange/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/museum-exchange/"
-    },
-    {
-      "slug": "myriam-nader-salomon-myriam-nader-haitian-art-gallery",
-      "name": "Myriam Nader-Salomon (Myriam Nader Haitian Art Gallery)",
-      "canonicalProviderId": "provider:myriam-nader-salomon",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/myriam-nader-salomon-myriam-nader-haitian-art-gallery/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.naderhaitianart.com/",
-      "city": "Miami",
-      "region": "FL",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/myriam-nader-salomon-myriam-nader-haitian-art-gallery/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/myriam-nader-salomon-myriam-nader-haitian-art-gallery/"
-    },
-    {
       "slug": "native-american-art-appraisals",
       "name": "Native American Art Appraisals, Inc",
       "canonicalProviderId": "provider:native-american-art-appraisals",
@@ -3231,22 +2639,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/native-american-art-appraisals/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/native-american-art-appraisals/"
-    },
-    {
-      "slug": "new-orleans-auction-galleries",
-      "name": "New Orleans Auction Galleries",
-      "canonicalProviderId": "provider:new-orleans-auction-galleries",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/new-orleans-auction-galleries/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.neworleansauction.com/",
-      "city": "New Orleans",
-      "region": "LA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/new-orleans-auction-galleries/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-orleans-auction-galleries/"
     },
     {
       "slug": "new-york-fine-art-appraisers",
@@ -3345,38 +2737,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/orchestrated-artwork/"
     },
     {
-      "slug": "page-art-inc",
-      "name": "Page Art, Inc.",
-      "canonicalProviderId": "provider:page-art",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.page-art.com/",
-      "city": "Los Angeles",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/page-art-inc/"
-    },
-    {
-      "slug": "perri-guthrie",
-      "name": "Perri Guthrie",
-      "canonicalProviderId": "provider:perri-guthrie",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/perri-guthrie/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.perriguthrie.com/",
-      "city": "Woodside",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/perri-guthrie/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/perri-guthrie/"
-    },
-    {
       "slug": "peter-held-art-appraisals-associates",
       "name": "Peter Held Art Appraisals & Associates",
       "canonicalProviderId": "provider:peter-held-art-appraisals-associates",
@@ -3407,70 +2767,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/"
-    },
-    {
-      "slug": "prestige-estate-services",
-      "name": "Prestige Estate Services",
-      "canonicalProviderId": "provider:prestige-estate-services",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://prestigeestateservices.com/locations/washington-dc",
-      "city": "Phoenix",
-      "region": "AZ",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services/"
-    },
-    {
-      "slug": "prestige-estate-services-team",
-      "name": "Prestige Estate Services Team",
-      "canonicalProviderId": "provider:prestige-estate-services-team",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://prestigeestateservices.com/",
-      "city": "Austin",
-      "region": "TX",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/prestige-estate-services-team/"
-    },
-    {
-      "slug": "ralph-deluca",
-      "name": "Ralph DeLuca",
-      "canonicalProviderId": "provider:ralph-deluca",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://ralphdeluca.com/appraisal",
-      "city": "Las Vegas",
-      "region": "NV",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/ralph-deluca/"
-    },
-    {
-      "slug": "revere-auctions",
-      "name": "Revere Auctions",
-      "canonicalProviderId": "provider:revere-auctions",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/revere-auctions/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://revereauctions.com/",
-      "city": "St. Paul",
-      "region": "MN",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/revere-auctions/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/revere-auctions/"
     },
     {
       "slug": "richard-beau-lieu-and-associates-fine-art-appraisers",
@@ -3537,22 +2833,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/rocky-mountain-art-appraisal-group/"
     },
     {
-      "slug": "rosalie-wardell",
-      "name": "Rosalie Wardell",
-      "canonicalProviderId": "provider:rosalie-wardell",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/rosalie-wardell/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.wardellappraisals.com/",
-      "city": "San Francisco",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/rosalie-wardell/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/rosalie-wardell/"
-    },
-    {
       "slug": "ruffner-art-advisory",
       "name": "Ruffner Art Advisory, LLC",
       "canonicalProviderId": "provider:ruffner-art-advisory",
@@ -3617,22 +2897,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/savvy-collector/"
     },
     {
-      "slug": "saylor-rice-appraisals",
-      "name": "Saylor Rice Appraisals",
-      "canonicalProviderId": "provider:saylor-rice-appraisals",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.saylorriceappraisals.com/",
-      "city": "Los Angeles",
-      "region": "CA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/saylor-rice-appraisals/"
-    },
-    {
       "slug": "schlegel-fine-art-consulting-llc",
       "name": "Schlegel Fine Art Consulting LLC",
       "canonicalProviderId": "provider:schlegel-fine-art-consulting",
@@ -3663,22 +2927,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/scholz-appraisals-and-advisory-fine-art-and-estate-appraisals/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/scholz-appraisals-and-advisory-fine-art-and-estate-appraisals/"
-    },
-    {
-      "slug": "schultz-auctioneers",
-      "name": "Schultz Auctioneers",
-      "canonicalProviderId": "provider:schultz-auctioneers",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/schultz-auctioneers/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://schultzauctioneers.net/",
-      "city": "Buffalo",
-      "region": "NY",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/schultz-auctioneers/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/schultz-auctioneers/"
     },
     {
       "slug": "schwarz-gallery",
@@ -3743,22 +2991,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/silvia-waltner-fine-art-services-art-appraisals-and-advisory/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/silvia-waltner-fine-art-services-art-appraisals-and-advisory/"
-    },
-    {
-      "slug": "skinner-boston-bonhams",
-      "name": "Skinner Boston (Bonhams)",
-      "canonicalProviderId": "provider:skinner-boston",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/skinner-boston-bonhams/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.bonhams.com/locations/BOS2",
-      "city": "Boston",
-      "region": "MA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/skinner-boston-bonhams/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/skinner-boston-bonhams/"
     },
     {
       "slug": "soltesz-fine-art",
@@ -3889,22 +3121,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/strata-fine-art-services/"
     },
     {
-      "slug": "susan-golashovsky-personal-property-appraiser",
-      "name": "Susan Golashovsky, FASA, FSA-Scot",
-      "canonicalProviderId": "provider:susan-golashovsky-fasa-fsa-scot",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/susan-golashovsky-personal-property-appraiser/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://susanasa.com/",
-      "city": "Philadelphia",
-      "region": "PA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/susan-golashovsky-personal-property-appraiser/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/susan-golashovsky-personal-property-appraiser/"
-    },
-    {
       "slug": "sylvia-fraley-fine-art-appraisals",
       "name": "Sylvia Fraley Fine Art Appraisals",
       "canonicalProviderId": "provider:sylvia-fraley-fine-art-appraisals",
@@ -3969,22 +3185,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-fine-art-group/"
     },
     {
-      "slug": "the-perfect-piece-atlanta",
-      "name": "The Perfect Piece Atlanta",
-      "canonicalProviderId": "provider:the-perfect-piece-atlanta",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.theperfectpieceatlanta.com/estate-valuation",
-      "city": "Atlanta",
-      "region": "GA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-perfect-piece-atlanta/"
-    },
-    {
       "slug": "thompson-and-martinez-fine-art-appraisals-inc",
       "name": "Thompson & Martinez Fine Art Appraisals, Inc.",
       "canonicalProviderId": "provider:thompson-martinez-fine-art-appraisals",
@@ -4015,22 +3215,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/valia-garzon-art-services/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/valia-garzon-art-services/"
-    },
-    {
-      "slug": "vallot-auctioneers",
-      "name": "Vallot Auctioneers",
-      "canonicalProviderId": "provider:vallot-auctioneers",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/vallot-auctioneers/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.vallots.com/",
-      "city": "Providence",
-      "region": "RI",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/vallot-auctioneers/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/vallot-auctioneers/"
     },
     {
       "slug": "van-weyenbergh-fine-art",
@@ -4113,22 +3297,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-fine-art-appraisers/"
     },
     {
-      "slug": "william-s-stamats",
-      "name": "William S Stamats",
-      "canonicalProviderId": "provider:william-s-stamats",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/william-s-stamats/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.stamatsartappraisals.com/",
-      "city": "Langley",
-      "region": "WA",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/william-s-stamats/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/william-s-stamats/"
-    },
-    {
       "slug": "williams-fine-art-gallery",
       "name": "Williams Fine Art Gallery",
       "canonicalProviderId": "provider:williams-fine-art-gallery",
@@ -4175,22 +3343,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/"
-    },
-    {
-      "slug": "woodard-lipe-fine-art-auction",
-      "name": "Woodard Lipe Fine Art & Auction",
-      "canonicalProviderId": "provider:woodard-lipe-fine-art-auction",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/woodard-lipe-fine-art-auction/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://woodardlipe.com/",
-      "city": "Saint Louis",
-      "region": "MO",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/woodard-lipe-fine-art-auction/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/woodard-lipe-fine-art-auction/"
     },
     {
       "slug": "worthwise-art-and-antiques-appraisers",
