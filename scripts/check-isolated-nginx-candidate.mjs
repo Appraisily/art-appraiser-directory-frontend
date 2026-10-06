@@ -34,7 +34,7 @@ function usesConsolidatedHost(nginxSource) {
   );
 }
 
-function candidateSmokeArgs({ base, nginxSource, registry, policyRoot }) {
+function candidateSmokeArgs({ base, nginxSource }) {
   if (usesConsolidatedHost(nginxSource)) {
     return [
       '/srv/repos/tools/smoke/art-directory-retirement-contract.mjs',
@@ -46,8 +46,10 @@ function candidateSmokeArgs({ base, nginxSource, registry, policyRoot }) {
     '/srv/repos/tools/smoke/directory-static-contract.mjs',
     '--base', base,
     '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-    '--expected-sitemap-count', '291',
+    '--expected-sitemap-count', '293',
     '--route', '/',
+    '--route', '/compare-art-appraisers/',
+    '--route', '/art-appraisal-inquiry-worksheet/',
     '--route', '/location/',
     '--route', '/location/boston/',
     '--route', '/location/chicago/',
@@ -57,7 +59,6 @@ function candidateSmokeArgs({ base, nginxSource, registry, policyRoot }) {
 
 function legacyCompatibilityMatches({
   expectedBehavior,
-  consolidated,
   providerStatus,
   cityStatus,
   aliasStatus,
@@ -102,8 +103,10 @@ if (options.selfTest) {
       '/srv/repos/tools/smoke/directory-static-contract.mjs',
       '--base', base,
       '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-      '--expected-sitemap-count', '291',
+      '--expected-sitemap-count', '293',
       '--route', '/',
+      '--route', '/compare-art-appraisers/',
+      '--route', '/art-appraisal-inquiry-worksheet/',
       '--route', '/location/',
       '--route', '/location/boston/',
       '--route', '/location/chicago/',

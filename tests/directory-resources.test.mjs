@@ -73,7 +73,7 @@ test('worksheet opens native print once and collects no customer information', (
   try {
     const document = dom.window.document;
     assert.equal(document.querySelector('form, input, textarea, iframe'), null);
-    assert.match(document.body.textContent, /No information is collected or submitted here/);
+    assert.match(document.body.textContent, /artwork details and completed notes are not collected or submitted by this worksheet/);
     assert.ok(document.querySelectorAll('.writing-line').length >= 5);
     let printCalls = 0;
     dom.window.print = () => { printCalls += 1; };
