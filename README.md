@@ -54,6 +54,14 @@ with the candidate before validation and release. The September 30 expansion add
 MIR (Chicago), Jaynes (Seattle), and Jeanie Craig (Mill Valley, serving the Bay Area)
 as separate reviewed additions; the original five-city recovery cohort is unchanged.
 
+The October 6 supporting resources are authored initial-response HTML at
+`/compare-art-appraisers/` and `/art-appraisal-inquiry-worksheet/`. Their explicit
+inventory is `data/directory-resource-pages.json`; metadata-only generation adds
+them without changing provider eligibility or city/profile content. The comparison
+preserves original provider source-review dates. The worksheet uses native browser
+print and has no form or customer-data submission. `check:static` includes the
+focused resource regression suite. The current sitemap contains 293 URLs.
+
 Production publishing is intentionally unavailable through npm. After review,
 promote the complete validated `public_site/` artifact with the standard VPS
 deploy helper.

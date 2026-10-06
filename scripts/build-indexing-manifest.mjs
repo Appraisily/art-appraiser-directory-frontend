@@ -9,6 +9,7 @@ const PROVIDER_MANIFEST_PATH = path.join(REPO_ROOT, 'data/provider-publication-m
 const CITY_DECISIONS_PATH = path.join(REPO_ROOT, 'data/city-publication-decisions.json');
 const CANONICAL_HOME_DECISIONS_PATH = path.join(REPO_ROOT, 'data/canonical-home-decisions.json');
 const REVIEWED_PROVIDER_PATH = path.join(REPO_ROOT, 'data/recovery-reviewed-provider-cohort.json');
+const RESOURCE_PAGES_PATH = path.join(REPO_ROOT, 'data/directory-resource-pages.json');
 const POLICY = Object.freeze({
   version: 3,
   city: {
@@ -296,7 +297,28 @@ async function buildCityRecords(publicDir, cityDecisions, write) {
   return records.sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-function buildManifest({ profiles, cities }) {
+async function listResourceRecords(publicDir) {
+  const pages = JSON.parse(await fs.readFile(RESOURCE_PAGES_PATH, 'utf8'));
+  const records = [];
+  for (const page of pages) {
+    if (!/^\/[a-z0-9-]+\/$/.test(page.path)) throw new Error(`Invalid resource path: ${page.path}`);
+    let html;
+    try {
+      html = await fs.readFile(path.join(publicDir, page.path.slice(1), 'index.html'), 'utf8');
+    } catch (error) {
+      if (error.code === 'ENOENT') continue; // Small metadata-only fixtures omit resource documents.
+      throw error;
+    }
+    const url = `${SITE_ORIGIN}${page.path}`;
+    if (hasNoIndex(html) || canonicalFromHtml(html) !== url) {
+      throw new Error(`Resource must be indexable and self-canonical: ${page.path}`);
+    }
+    records.push({ path: page.path, title: page.title, url, indexable: true });
+  }
+  return records;
+}
+
+function buildManifest({ profiles, cities, resources }) {
   const indexableProfiles = profiles.filter((record) => record.indexable);
   const indexableCities = cities.filter((record) => record.indexable);
   return {
@@ -306,9 +328,11 @@ function buildManifest({ profiles, cities }) {
       indexableProfiles: indexableProfiles.length,
       cities: cities.length,
       indexableCities: indexableCities.length,
+      resources: resources.length,
     },
     profiles,
     cities,
+    resources,
   };
 }
 
@@ -328,13 +352,15 @@ async function main() {
     options.write && !options.metadataOnly
   );
   const cities = await buildCityRecords(options.publicDir, cityDecisions, options.write && !options.metadataOnly);
-  const manifest = buildManifest({ profiles, cities });
+  const resources = await listResourceRecords(options.publicDir);
+  const manifest = buildManifest({ profiles, cities, resources });
   const sitemapUrls = [
     `${SITE_ORIGIN}/`,
     `${SITE_ORIGIN}/appraiser/`,
     ...profiles.filter((record) => record.indexable).map((record) => record.url),
     `${SITE_ORIGIN}/location/`,
     ...cities.filter((record) => record.indexable).map((record) => record.url),
+    ...resources.map((record) => record.url),
   ];
   const expectedSitemap = renderSitemap(sitemapUrls);
     const expectedLocationHub = renderLocationHub(profiles, cities);

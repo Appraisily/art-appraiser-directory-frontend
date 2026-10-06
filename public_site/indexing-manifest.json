@@ -13,7 +13,8 @@
     "profiles": 210,
     "indexableProfiles": 210,
     "cities": 78,
-    "indexableCities": 78
+    "indexableCities": 78,
+    "resources": 2
   },
   "profiles": [
     {
@@ -4313,6 +4314,20 @@
       "providerSlug": "",
       "canonical": "https://art-appraisers-directory.appraisily.com/location/woodside/",
       "reasons": []
+    }
+  ],
+  "resources": [
+    {
+      "path": "/compare-art-appraisers/",
+      "title": "Compare Source-Reviewed Art Appraisers | Appraisily Directory",
+      "url": "https://art-appraisers-directory.appraisily.com/compare-art-appraisers/",
+      "indexable": true
+    },
+    {
+      "path": "/art-appraisal-inquiry-worksheet/",
+      "title": "Art Appraisal Inquiry Worksheet | Appraisily Directory",
+      "url": "https://art-appraisers-directory.appraisily.com/art-appraisal-inquiry-worksheet/",
+      "indexable": true
     }
   ]
 }

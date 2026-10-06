@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import crypto from 'node:crypto';
+import { readFileSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
@@ -9,6 +10,10 @@ const PUBLIC_DIR = path.join(REPO_ROOT, 'public_site');
 const DEFAULT_OUTPUT =
   '/srv/repos/tools/directory-site-utils/references/art-route-registry.json';
 const ORIGIN = 'https://art-appraisers-directory.appraisily.com';
+const RESOURCE_PATHS = new Set(
+  JSON.parse(readFileSync(path.join(REPO_ROOT, 'data/directory-resource-pages.json'), 'utf8'))
+    .map((resource) => resource.path)
+);
 
 function parseArgs(argv) {
   const options = { output: DEFAULT_OUTPUT, check: false };
@@ -53,6 +58,7 @@ function routeKind(url) {
   if (pathname === '/') return 'home';
   if (pathname === '/appraiser/') return 'appraiser_hub';
   if (pathname === '/location/') return 'location_hub';
+  if (RESOURCE_PATHS.has(pathname)) return 'resource';
   if (/^\/appraiser\/[^/]+\/$/.test(pathname)) return 'provider';
   if (/^\/location\/[^/]+\/$/.test(pathname)) return 'city';
   throw new Error(`Unsupported sitemap route: ${url}`);

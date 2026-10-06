@@ -21,6 +21,8 @@ const activeHtmlFiles = [
   'location/index.html',
   'methodology/index.html',
   'get-listed/index.html',
+  ...JSON.parse(fs.readFileSync(path.join(repoRoot, 'data/directory-resource-pages.json'), 'utf8'))
+    .map((resource) => `${resource.path.slice(1)}index.html`),
   ...appraisers.map((appraiser) => `appraiser/${appraiser.slug}/index.html`),
   ...locations.map((location) => `location/${location.slug}/index.html`),
 ];

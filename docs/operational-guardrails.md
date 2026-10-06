@@ -45,6 +45,11 @@ This repo is static-first.
   and parity fixtures together; the static gate must fail if these surfaces disagree.
 - Both `/assets/` and `/directory/assets/` are active URL contracts. Candidate releases may retain
   only assets reached from the reviewed routes, public feeds, or their dependency graph.
+- The two reviewed supporting resources are declared in `data/directory-resource-pages.json`.
+  Their authored HTML is included by metadata-only sitemap generation and classified as
+  `resource` in the central route registry. `npm run test:resources` verifies provider/source/date
+  parity, homepage coverage, contextual links and the privacy-safe native print action.
+  Resource publication does not alter provider eligibility or regenerate city/profile HTML.
 - Client-bundle maintenance must replace the candidate's old hashed entries and then pass
   `npm run check:asset-references`; recursive copy-on-top promotion is not complete until the
   orphan report is clean.
