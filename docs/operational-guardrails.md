@@ -50,6 +50,8 @@ This repo is static-first.
   `resource` in the central route registry. `npm run test:resources` verifies provider/source/date
   parity, homepage coverage, contextual links and the privacy-safe native print action.
   Resource publication does not alter provider eligibility or regenerate city/profile HTML.
+- Methodology serves its authored static HTML without mounting the older SPA shell;
+  the resource-link regression rejects a module entry that would replace those links.
 - Client-bundle maintenance must replace the candidate's old hashed entries and then pass
   `npm run check:asset-references`; recursive copy-on-top promotion is not complete until the
   orphan report is clean.

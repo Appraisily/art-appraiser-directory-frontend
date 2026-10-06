@@ -64,6 +64,7 @@ test('homepage coverage and contextual resource links stay aligned with the mani
     const dom = open(route);
     try {
       for (const page of pages) assert.ok(dom.window.document.querySelector(`main a[href="${page.path}"]`), `${route} links to ${page.path}`);
+      if (route === '/methodology/') assert.equal(dom.window.document.querySelector('script[type="module"]'), null, 'authored methodology links cannot be replaced by the older SPA shell');
     } finally { dom.window.close(); }
   }
 });
