@@ -234,7 +234,7 @@ for (const entry of remainingQualificationCases) {
 
 test('unresolved designation and marketing cases do not inherit another provider evidence', () => {
   for (const slug of ['antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa',
-    'christine-h-anderson-isa-am', 'art-directives', 'art-fortune-llc']) {
+    'art-directives', 'art-fortune-llc']) {
     const record = manifest.providers.find(provider => provider.slug === slug);
     assert.equal(record.fieldEvidence?.qualification, undefined);
     const dom = new JSDOM(read(`public_site/appraiser/${slug}/index.html`));
@@ -244,3 +244,42 @@ test('unresolved designation and marketing cases do not inherit another provider
     } finally { dom.window.close(); }
   }
 });
+
+for (const [slug, personName, designation, profileId] of [
+  ['alicia-e-weaver-isa-capp', 'Alicia E Weaver', 'ISA CAPP', '2647'],
+  ['christine-h-anderson-isa-am', 'Christine H Anderson', 'ISA AM', '17050'],
+]) {
+  test(`${slug}: credential-body designation evidence is exact and separate from provider identity`, () => {
+    const record = manifest.providers.find(provider => provider.slug === slug);
+    const evidence = record.fieldEvidence?.qualification;
+    assert.equal(evidence?.credentialBody, 'International Society of Appraisers');
+    assert.deepEqual({ ...evidence.credentialClaim, profileHeading: undefined },
+      { personName, designation, profileId, profileHeading: undefined });
+    assert.ok(evidence.credentialClaim.profileHeading.startsWith(`${personName}, ${designation}, `));
+    assert.equal(evidence.evidenceScope, 'credential_body_public_listing');
+    assert.equal(evidence.independentCredentialVerification, true);
+    assert.equal(evidence.value, record.name);
+    assert.equal(evidence.checkedAt, '2026-10-07');
+    assert.ok(record.claimScope.includes('qualification'));
+    assert.equal(record.verifiedAt, '2026-08-30');
+    assert.equal(record.publicationStatus, 'limited');
+    assert.equal(evidence.sourceSnapshots.length, 1);
+    assert.equal(evidence.sourceSnapshots[0].sourceUrl, evidence.sourceUrl);
+    assert.match(evidence.sourceSnapshots[0].bodySha256, /^[a-f0-9]{64}$/);
+    assert.match(evidence.sourceSnapshots[0].retrievedAt, /^2026-10-07T/);
+    if (slug === 'christine-h-anderson-isa-am') {
+      assert.equal(record.sourceUrl, 'https://www.guardianfineart.com/');
+      assert.equal(evidence.sourceUrl, 'https://www.isa-appraisers.org/find-an-appraiser/profile/17050/christine-h-anderson');
+    }
+    const dom = new JSDOM(read(`public_site/appraiser/${slug}/index.html`));
+    try {
+      const inspect = qualification => inspectProviderFields({ ...record, fieldEvidence: { qualification } }, dom.window.document);
+      const code = 'published-designation-missing-field-evidence';
+      assert.ok(!inspect(evidence).scopeFailures.some(row => row.code === code));
+      for (const bad of [undefined, { ...evidence, credentialClaim: { ...evidence.credentialClaim, personName: 'Another Person' } },
+        { ...evidence, sourceUrl: 'https://www.isa-appraisers.org/' }]) {
+        assert.ok(inspect(bad).scopeFailures.some(row => row.code === code));
+      }
+    } finally { dom.window.close(); }
+  });
+}

@@ -60,7 +60,7 @@ contains twelve attempts, ten usable HTML responses, one 404 and one certificate
 verification failure. Failed retrievals are not credential evidence. No TLS
 verification bypass or provider-media acquisition is used.
 
-Four cases remain open: Bailey's listed website returns 404; Christine Anderson's
+At that checkpoint four cases remained open: Bailey's listed website returns 404; Christine Anderson's
 ISA profile supports her designation but lies outside the current official-host
 evidence contract; Art Directives has unsupported legacy certified-appraiser
 wording and a fresh TLS failure; Art Fortune's source attributes certification to
@@ -73,3 +73,39 @@ Focused regressions protect all four new scopes and unchanged review/status,
 exact existing values and source inventories, and require removal of evidence to
 restore the finding. A further negative test keeps all four unresolved cases
 visible. Public content and existing release provenance remain unchanged.
+
+## ISA individual-profile evidence contract — final October 7 checkpoint
+
+Christine Anderson's [specific ISA profile](https://www.isa-appraisers.org/find-an-appraiser/profile/17050/christine-h-anderson)
+supports her exact existing ISA AM name designation. The source checker now has
+a separate credential-body path rather than replacing her Guardian website with
+ISA or treating every registry domain as an official provider source. Alicia
+Weaver's existing ISA evidence is refreshed and uses that same explicit contract.
+Both remain limited, with their August 30 identity reviews unchanged.
+
+`credential_body_public_listing` requires the named International Society of
+Appraisers, an HTTPS individual profile without query/fragment/credentials or a
+nonstandard port, matching profile ID, exact person/designation/record value,
+compatible provider-schema names, qualification claim scope, source heading and
+one dated/hash-identified snapshot. Only exact comma or parenthesized name forms
+are accepted. An individual name designation cannot exempt dedicated credential
+prose, `hasCredential`, extra designations or another principal. The same rule
+applies when ISA happens to be the listed provider-source host. Locality, imagery,
+services and every ordinary official-host source rule remain separate.
+
+Two fresh exact source responses and matching H1 headings are archived in
+[the dated ISA packet](/srv/manager/seo/2026-10-07-art-directory-indexability-audit/isa-designation-evidence.json).
+The checker validates that reviewed ledger relationship; it does not contact
+ISA during an audit or independently authenticate the archive's contents. The
+packet review/verifier checks the exact response hashes and source headings.
+Independent confirmation remains **public designation display only**, not
+expiry, USPAP compliance, tax qualification, report quality or legal acceptance.
+No external provider media is downloaded or republished.
+
+Focused shared negative fixtures cover the wrong person/designation/source,
+generic and lookalike URLs, malformed/missing evidence, broader credentials and
+field leakage. Art regressions require both exact packets, original reviews,
+unchanged limited status, Guardian's retained source URL and restoration of a
+finding when evidence is removed, mismatched or replaced by an ISA homepage.
+No public HTML/schema/feed/route/sitemap/eligibility change is made. Remaining
+evidence debt and the two separate wording leads are still open.

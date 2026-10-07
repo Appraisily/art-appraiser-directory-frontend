@@ -100,9 +100,13 @@ The same ledger now records four individually reviewed name/summary cases: ISA's
 public profile supports Alicia Weaver's exact designation; Stoots and Joette
 remain provider-attributed; Dudley's evidence supports its business-name wording
 only. Original limited/verified statuses and review dates are retained. This is
-source-only evidence, not a public-content release. Bailey, Christine Anderson
-(different source host), Art Directives and Art Fortune remain explicitly unresolved
-in the current checker; no unrelated evidence or website outage clears them.
+source-only evidence, not a public-content release. Christine Anderson and Alicia
+Weaver now use the separate, tested ISA public-profile evidence contract with
+exact person/designation, profile identifier, heading and dated snapshot. Guardian
+remains Christine's provider website. Neither listing is promoted; credentials
+are not generalized to locality, service, compliance or quality. Bailey, Art
+Directives and Art Fortune remain unresolved; unrelated evidence and website
+outages do not clear them.
 
 Published slashless provider/city/resource paths and only the root/two-resource
 `index.html` equivalents have exact, case-sensitive canonical aliases. The

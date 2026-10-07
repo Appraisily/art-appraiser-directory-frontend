@@ -369,14 +369,21 @@
           "evidenceScope": "credential_body_public_listing",
           "independentCredentialVerification": true,
           "verificationBoundary": "Designation displayed on the credential body public profile on the checked date only",
+          "credentialBody": "International Society of Appraisers",
+          "credentialClaim": {
+            "personName": "Alicia E Weaver",
+            "designation": "ISA CAPP",
+            "profileId": "2647",
+            "profileHeading": "Alicia E Weaver, ISA CAPP, Antiques, Furnishings + Decorative Arts, Fine Art"
+          },
           "sourceSnapshots": [
             {
               "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
-              "retrievedAt": "2026-10-07T21:37:19.630Z",
-              "bodySha256": "82c3a3a3dd0c1869e281d2154b462d84d4b075732c869807e4d8ce28d2cf6526"
+              "retrievedAt": "2026-10-07T21:49:31.950Z",
+              "bodySha256": "d5204f9ec624a05ed40a80d9775846fc04124efcd9d16ff460562dd8406c0f5b"
             }
           ],
-          "note": "The ISA public member profile itself displays Alicia E Weaver with ISA CAPP. Confirmation is limited to that exact designation on the checked public profile; no expiry, issued-report compliance, IRS qualification, office location or service-quality guarantee is inferred."
+          "note": "ISA public profile supports this exact existing person/name designation. Confirmation is limited to the designation displayed on the checked profile; no expiry, USPAP compliance, tax qualification, report acceptance, service quality, location or provider promotion is inferred. The provider website and original identity-review date remain separate."
         }
       }
     },
@@ -2953,10 +2960,39 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "qualification"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/christine-h-anderson-isa-am/",
-      "canonicalProviderId": "provider:christine-h-anderson-am"
+      "canonicalProviderId": "provider:christine-h-anderson-am",
+      "fieldEvidence": {
+        "qualification": {
+          "value": "Christine H Anderson, ISA AM",
+          "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/17050/christine-h-anderson",
+          "sourceUrls": [
+            "https://www.isa-appraisers.org/find-an-appraiser/profile/17050/christine-h-anderson"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "credential_body_public_listing",
+          "independentCredentialVerification": true,
+          "verificationBoundary": "Designation displayed on the credential body public profile on the checked date only",
+          "credentialBody": "International Society of Appraisers",
+          "credentialClaim": {
+            "personName": "Christine H Anderson",
+            "designation": "ISA AM",
+            "profileId": "17050",
+            "profileHeading": "Christine H Anderson, ISA AM, Fine Art"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/17050/christine-h-anderson",
+              "retrievedAt": "2026-10-07T21:49:32.870Z",
+              "bodySha256": "2168790187bf507761c54d872e1d5b0df7e82fd098ed47fdf8178d3034ec58d8"
+            }
+          ],
+          "note": "ISA public profile supports this exact existing person/name designation. Confirmation is limited to the designation displayed on the checked profile; no expiry, USPAP compliance, tax qualification, report acceptance, service quality, location or provider promotion is inferred. The provider website and original identity-review date remain separate."
+        }
+      }
     },
     {
       "slug": "cincinnati-anderson-fine-art-appraisals",
