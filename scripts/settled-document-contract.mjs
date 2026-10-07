@@ -13,6 +13,11 @@ export function captureDocument(document, canonicalOrigin) {
   };
   const content = (document.querySelector('main') || document.body).cloneNode(true);
   content.querySelectorAll('script, style, nav, header, footer').forEach((node) => node.remove());
+  // The shared chat embed appends controls to body on the public host. Those
+  // identified widget nodes are not authored provider facts; unrelated added or
+  // removed text must still fail parity, including on pages without <main>.
+  content.querySelectorAll('button[data-appraisily-chat-trigger="1"], button[data-appraisily-chat-close="1"], div[data-appraisily-chat-backdrop="1"], div[data-appraisily-chat-wrap="1"]')
+    .forEach((node) => node.remove());
   const schema = [...document.querySelectorAll('script[type="application/ld+json"]')]
     .flatMap((node) => flatten(JSON.parse(node.textContent)));
   const anchors = [...document.querySelectorAll('a[href]')].map((node) => {

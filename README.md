@@ -86,6 +86,9 @@ candidate/live evidence. No production container restart is needed for this test
 The standard isolated candidate gate runs this contract against the promoted
 candidate; an omitted declared URL, conflicting metadata, lost reviewed facts or
 mobile overflow fails release. It does not prove Google inclusion.
+Authored-text parity excludes only the shared embed's identified chat control
+nodes on body-fallback documents; unrelated added text and changed provider
+facts still fail the negative fixtures. The chat embed itself is not changed.
 
 All active documents now leave SEO metadata owned by their authored HTML. The
 remaining correction and unavailable-listing documents do not mount the legacy

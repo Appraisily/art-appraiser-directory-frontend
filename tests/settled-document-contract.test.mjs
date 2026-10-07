@@ -81,6 +81,36 @@ test('handoff allows only the governed generic-directory UTM normalization', () 
   assert.throws(() => assertHandoffAttribution({ handoffs: [explicit] }, { handoffs: [target.href] }, url));
 });
 
+test('authored-body parity ignores only the identified shared chat controls', () => {
+  const route = '/appraiser/manhattan-fine-art-appraisers/';
+  const dom = new JSDOM(fs.readFileSync(path.join(root, 'public_site', route, 'index.html'), 'utf8'), { url: origin + route });
+  try {
+    const document = dom.window.document;
+    assert.equal(document.querySelector('main'), null, 'Fixture must exercise the authored-body fallback');
+    const initial = captureDocument(document, origin);
+    const controls = [
+      ['button', 'data-appraisily-chat-trigger', '💬'],
+      ['button', 'data-appraisily-chat-close', '✕'],
+      ['div', 'data-appraisily-chat-backdrop', ''],
+      ['div', 'data-appraisily-chat-wrap', 'Loading chat…'],
+    ];
+    for (const [tag, attribute, text] of controls) {
+      const node = document.createElement(tag);
+      node.setAttribute(attribute, '1');
+      node.textContent = text;
+      document.body.append(node);
+    }
+    assertDocumentParity(initial, captureDocument(document, origin), origin + route);
+    const unrelated = document.createElement('button');
+    unrelated.textContent = 'Unrelated added content';
+    document.body.append(unrelated);
+    assert.throws(() => assertDocumentParity(initial, captureDocument(document, origin), origin + route), /authored mainText/);
+    unrelated.remove();
+    document.querySelector('h1').textContent = 'Lost provider identity';
+    assert.throws(() => assertDocumentParity(initial, captureDocument(document, origin), origin + route), /authored h1/);
+  } finally { dom.window.close(); }
+});
+
 const unpublished = [
   { file: 'get-listed/index.html', url: `${origin}/get-listed/`, canonical: `${origin}/get-listed/`, robots: 'noindex, follow' },
   { file: 'appraiser-unavailable.html', url: `${origin}/appraiser/__qa_unknown_provider__/`, canonical: null, robots: 'noindex, nofollow' },
