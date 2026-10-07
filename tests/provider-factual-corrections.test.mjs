@@ -179,3 +179,68 @@ for (const [slug, sourceUrls] of qualificationSources) {
     } finally { dom.window.close(); }
   });
 }
+
+const remainingQualificationCases = [
+  { slug: 'alicia-e-weaver-isa-capp', originalDate: '2026-08-30', status: 'limited',
+    scope: 'credential_body_public_listing', independent: true,
+    sources: ['https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver'], field: 'name' },
+  { slug: 'jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser', originalDate: '2026-10-02', status: 'verified',
+    scope: 'provider_attributed', independent: false,
+    sources: ['https://photostoots.com/', 'https://photostoots.com/appraisals/'], field: 'name' },
+  { slug: 'dudley-certified-appraisers-art-antiques-and-estates', originalDate: '2026-08-30', status: 'limited',
+    scope: 'provider_business_name', independent: false,
+    sources: ['https://www.dudleyanddudley.com/'], field: 'name' },
+  { slug: 'joette-pierce-and-associates', originalDate: '2026-10-01', status: 'verified',
+    scope: 'provider_attributed', independent: false,
+    sources: ['https://www.joettepierceappraisals.com/', 'https://www.joettepierceappraisals.com/about'], field: 'about' },
+];
+for (const entry of remainingQualificationCases) {
+  test(`${entry.slug}: reviewed qualification scope does not promote the provider or generalize credentials`, () => {
+    const record = manifest.providers.find(provider => provider.slug === entry.slug);
+    const evidence = record.fieldEvidence?.qualification;
+    assert.ok(evidence, 'Reviewed claim requires its individual evidence record');
+    assert.equal(record.verifiedAt, entry.originalDate);
+    assert.equal(record.publicationStatus, entry.status);
+    assert.ok(record.claimScope.includes('qualification'));
+    assert.equal(evidence.checkedAt, '2026-10-07');
+    assert.equal(evidence.evidenceScope, entry.scope);
+    assert.equal(evidence.independentCredentialVerification, entry.independent);
+    assert.equal(evidence.sourceUrl, entry.sources[0]);
+    assert.deepEqual(evidence.sourceUrls, entry.sources);
+    assert.deepEqual(evidence.sourceSnapshots.map(source => source.sourceUrl), entry.sources);
+    for (const source of evidence.sourceSnapshots) {
+      assert.match(source.bodySha256, /^[a-f0-9]{64}$/);
+      assert.match(source.retrievedAt, /^2026-10-07T/);
+    }
+    const dom = new JSDOM(read(`public_site/appraiser/${entry.slug}/index.html`));
+    try {
+      const expected = entry.field === 'name' ? record.name
+        : dom.window.document.querySelector('[data-provider-specific-about]').textContent.replace(/\s+/g, ' ').trim();
+      assert.equal(evidence.value, expected);
+      assert.ok(evidence.note.length > 100, 'The qualification support needs an explicit scope boundary');
+      const result = inspectProviderFields(record, dom.window.document);
+      assert.ok(!result.scopeFailures.some(finding => finding.code === 'published-designation-missing-field-evidence'));
+      assert.ok(!result.reviewFlags.some(finding => finding.code === 'qualification-wording-requires-primary-source-review'));
+      const without = { ...record, fieldEvidence: { ...record.fieldEvidence } };
+      delete without.fieldEvidence.qualification;
+      const missing = inspectProviderFields(without, dom.window.document);
+      assert.ok([...missing.scopeFailures, ...missing.reviewFlags].some(finding => /designation|qualification/.test(finding.code)));
+      if (entry.independent) {
+        assert.equal(evidence.verificationBoundary, 'Designation displayed on the credential body public profile on the checked date only');
+      }
+    } finally { dom.window.close(); }
+  });
+}
+
+test('unresolved designation and marketing cases do not inherit another provider evidence', () => {
+  for (const slug of ['antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa',
+    'christine-h-anderson-isa-am', 'art-directives', 'art-fortune-llc']) {
+    const record = manifest.providers.find(provider => provider.slug === slug);
+    assert.equal(record.fieldEvidence?.qualification, undefined);
+    const dom = new JSDOM(read(`public_site/appraiser/${slug}/index.html`));
+    try {
+      const result = inspectProviderFields(record, dom.window.document);
+      assert.ok([...result.scopeFailures, ...result.reviewFlags].some(finding => /designation|qualification/.test(finding.code)));
+    } finally { dom.window.close(); }
+  }
+});

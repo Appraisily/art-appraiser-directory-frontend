@@ -353,10 +353,32 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "qualification"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
-      "canonicalProviderId": "provider:alicia-e-weaver"
+      "canonicalProviderId": "provider:alicia-e-weaver",
+      "fieldEvidence": {
+        "qualification": {
+          "value": "Alicia E Weaver (ISA CAPP)",
+          "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+          "sourceUrls": [
+            "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "credential_body_public_listing",
+          "independentCredentialVerification": true,
+          "verificationBoundary": "Designation displayed on the credential body public profile on the checked date only",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+              "retrievedAt": "2026-10-07T21:37:19.630Z",
+              "bodySha256": "82c3a3a3dd0c1869e281d2154b462d84d4b075732c869807e4d8ce28d2cf6526"
+            }
+          ],
+          "note": "The ISA public member profile itself displays Alicia E Weaver with ISA CAPP. Confirmation is limited to that exact designation on the checked public profile; no expiry, issued-report compliance, IRS qualification, office location or service-quality guarantee is inferred."
+        }
+      }
     },
     {
       "slug": "alicia-e-weaver-prestige-estate-services",
@@ -4027,10 +4049,31 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "qualification"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/dudley-certified-appraisers-art-antiques-and-estates/",
-      "canonicalProviderId": "provider:dudley-and-dudley-certified-personal-property-appraisers"
+      "canonicalProviderId": "provider:dudley-and-dudley-certified-personal-property-appraisers",
+      "fieldEvidence": {
+        "qualification": {
+          "value": "Dudley and Dudley Certified Personal Property Appraisers",
+          "sourceUrl": "https://www.dudleyanddudley.com/",
+          "sourceUrls": [
+            "https://www.dudleyanddudley.com/"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_business_name",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.dudleyanddudley.com/",
+              "retrievedAt": "2026-10-07T21:37:20.359Z",
+              "bodySha256": "7f804e27d8e40b7f00b7e955608abb07dd5e01a3c42269b02c365b13b8a5e37d"
+            }
+          ],
+          "note": "The official website uses Certified Personal Property Appraisers as part of the Dudley and Dudley business presentation. Evidence supports the existing business name only, not an independently verified designation for every employee, current USPAP status, risk-free legal protection or guaranteed acceptance. No new personal credential is inferred from this brand wording."
+        }
+      }
     },
     {
       "slug": "dumouchelles",
@@ -5949,10 +5992,37 @@
         "primary_location",
         "fine_art_services",
         "specialties",
-        "appraisal_use_cases"
+        "appraisal_use_cases",
+        "qualification"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
-      "canonicalProviderId": "provider:jennifer-l-stoots"
+      "canonicalProviderId": "provider:jennifer-l-stoots",
+      "fieldEvidence": {
+        "qualification": {
+          "value": "Jennifer L. Stoots, AAA",
+          "sourceUrl": "https://photostoots.com/",
+          "sourceUrls": [
+            "https://photostoots.com/",
+            "https://photostoots.com/appraisals/"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://photostoots.com/",
+              "retrievedAt": "2026-10-07T21:37:19.754Z",
+              "bodySha256": "ac68be727aeedaa9402954e9671a3afe7576f6caf5aeda16fac69347997aed2d"
+            },
+            {
+              "sourceUrl": "https://photostoots.com/appraisals/",
+              "retrievedAt": "2026-10-07T21:37:19.986Z",
+              "bodySha256": "c34711704459abd6fa73769ccf04ef5b4c7ba5ea245cc74bce9540afe356581a"
+            }
+          ],
+          "note": "The current provider homepage and appraisal page display the existing AAA name designation and attribute accreditation to the Appraisers Association of America. This is provider-attributed, not independent current credential-body confirmation. The older February 2025 CV is not used as proof of current USPAP validity; no USPAP expiry or report/legal acceptance is added to the directory."
+        }
+      }
     },
     {
       "slug": "jennifer-l-strasbaugh-fine-arts-appraising",
@@ -12278,10 +12348,37 @@
         "website",
         "primary_location",
         "fine_art_services",
-        "appraisal_use_cases"
+        "appraisal_use_cases",
+        "qualification"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
-      "canonicalProviderId": "provider:joette-pierce-and-associates"
+      "canonicalProviderId": "provider:joette-pierce-and-associates",
+      "fieldEvidence": {
+        "qualification": {
+          "value": "Joette Pierce & Associates is a full-service appraisal firm in Newport Beach, California. Its website says the firm is accredited by the American Society of Appraisers and provides certified appraisal valuations, including fine art.",
+          "sourceUrl": "https://www.joettepierceappraisals.com/",
+          "sourceUrls": [
+            "https://www.joettepierceappraisals.com/",
+            "https://www.joettepierceappraisals.com/about"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.joettepierceappraisals.com/",
+              "retrievedAt": "2026-10-07T21:37:20.455Z",
+              "bodySha256": "2f889a819ab454dfb7a4d5a579e7a190971335a090eadada978c6e35d18b438e"
+            },
+            {
+              "sourceUrl": "https://www.joettepierceappraisals.com/about",
+              "retrievedAt": "2026-10-07T21:37:20.492Z",
+              "bodySha256": "ca2007dc01866500e1f37bee4af9f62ed01d24d889db14ed79c1e9c19cbc0f84"
+            }
+          ],
+          "note": "The official homepage and services page support the existing expressly attributed firm statement and certified-valuation wording. No personal ASA designation for Joette or another employee, independent firm accreditation, USPAP validity, or report/legal acceptance is verified. The source distinction between a firm assertion and a personal credential remains explicit."
+        }
+      }
     },
     {
       "slug": "worthwise-art-and-antiques-appraisers",

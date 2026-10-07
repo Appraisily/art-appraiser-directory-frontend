@@ -41,3 +41,35 @@ because the existing provider-attributed wording has reviewed source support,
 not because the provider has been independently certified. The larger T05/T09
 evidence backlog remains open. Source-only evidence maintenance does not justify
 a new static promotion or overwrite the existing content-release provenance.
+
+## Remaining name and summary review — later October 7 checkpoint
+
+Four additional, individually reviewed evidence entries support existing wording;
+their separately dated field checks do not rewrite original provider reviews.
+`qualification` is added only to their source claim scopes, not public status.
+
+| Existing profile | Evidence scope | Deliberate limit |
+| --- | --- | --- |
+| Alicia E Weaver (ISA CAPP) | [ISA public member profile](https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver) displays the exact person/designation. `credential_body_public_listing`, with independent verification limited to that public listing. | Not an expiry check, audit of issued reports, office confirmation, IRS qualification or guarantee. The generic ISA homepage alone would be insufficient. |
+| Jennifer L. Stoots, AAA | [Homepage](https://photostoots.com/), [appraisals](https://photostoots.com/appraisals/) display the existing AAA designation and attribute accreditation. `provider_attributed`, not independently verified. | No new USPAP or legal-acceptance claim. The February 2025 CV's old expiry is not current-status evidence; the live homepage reports a newer date, still provider-attributed. |
+| Dudley and Dudley Certified Personal Property Appraisers | [Official site](https://www.dudleyanddudley.com/) supports the existing business-name presentation. `provider_business_name`, not independently verified. | Not an individual designation for every employee, current USPAP check, risk-free legal protection or report-acceptance guarantee. |
+| Joette Pierce & Associates | [Homepage](https://www.joettepierceappraisals.com/), [services](https://www.joettepierceappraisals.com/about) support the existing expressly attributed firm statement. `provider_attributed`, not independently verified. | Firm wording is not an independently verified personal ASA designation. No individual credential, compliance or report acceptance is inferred. |
+
+The dated [source archive](/srv/manager/seo/2026-10-07-art-directory-indexability-audit/remaining-qualification-sources.json)
+contains twelve attempts, ten usable HTML responses, one 404 and one certificate
+verification failure. Failed retrievals are not credential evidence. No TLS
+verification bypass or provider-media acquisition is used.
+
+Four cases remain open: Bailey's listed website returns 404; Christine Anderson's
+ISA profile supports her designation but lies outside the current official-host
+evidence contract; Art Directives has unsupported legacy certified-appraiser
+wording and a fresh TLS failure; Art Fortune's source attributes certification to
+one named principal, not all appraisers or the summary's precision promise.
+These findings are not presumed false credentials. A source-host policy decision
+and separately reviewed factual public corrections are still required where
+applicable. The checker has not been weakened to make them disappear.
+
+Focused regressions protect all four new scopes and unchanged review/status,
+exact existing values and source inventories, and require removal of evidence to
+restore the finding. A further negative test keeps all four unresolved cases
+visible. Public content and existing release provenance remain unchanged.
