@@ -30,9 +30,10 @@ const unpublished = [
   { route: '/appraiser/american-society-of-appraisers-asa/', status: 404, canonical: null, robots: 'noindex, nofollow' },
 ];
 const routes = [
-  '/', '/appraiser/', '/location/', '/location/boston/', '/location/baltimore/',
+  '/', '/appraiser/', '/location/', '/location/boston/', '/location/baltimore/', '/location/denver/',
   ...focal, '/appraiser/spalding-nix-fine-art/', '/appraiser/a-and-a-art-appraisals-naples-fl/',
   '/appraiser/manhattan-fine-art-appraisers/',
+  '/appraiser/worthwise-art-and-antiques-appraisers/',
   ...resources.map((page) => page.path),
   ...unpublished.map((page) => page.route),
 ];
@@ -177,7 +178,7 @@ try {
           if (javascript && row.layout.qaMarker !== 'synthetic_browser') throw new Error(`${route}: synthetic QA marker missing`);
           row.errors = run('errors').errors;
           if (row.errors?.length) throw new Error(`${route}: browser errors ${JSON.stringify(row.errors)}`);
-          if (options.artifactDir && (focal.includes(route) || provider?.fieldEvidence || route === '/' || unpublished.some((page) => page.route === route))) {
+          if (options.artifactDir && (focal.includes(route) || provider?.fieldEvidence || route === '/location/denver/' || route === '/' || unpublished.some((page) => page.route === route))) {
             fs.mkdirSync(options.artifactDir, { recursive: true });
             const filename = `${javascript ? 'js' : 'nojs'}-${viewport.width}-${route.replace(/[^a-z0-9-]/g, '_')}.png`;
             run('screenshot', path.join(options.artifactDir, filename));
@@ -201,6 +202,20 @@ try {
             const printed = run('eval', '({calls:window.__qaPrintCalls,privateInputs:document.querySelectorAll("form,input,textarea").length})').result;
             if (printed.calls !== 1 || printed.privateInputs !== 0) throw new Error('Worksheet print/privacy interaction failed');
             row.printInteraction = printed;
+          }
+          if (viewport.width === 320 && route === '/location/denver/') {
+            const regional = run('eval', '({text:document.querySelector("[data-reviewed-regional-option]")?.textContent,official:document.querySelector("[data-reviewed-regional-option] [data-cta-kind=provider_contact]")?.getAttribute("href")})').result;
+            if (!regional.text?.includes('Colorado Front Range') || !regional.text.includes('Denver office is not confirmed') || regional.official !== 'https://worthwiseappraisers.com/art-appraisal-services-denver/') {
+              throw new Error('Denver regional option lost its scope, office limitation or official source');
+            }
+            run('eval', 'document.querySelector("[data-reviewed-regional-option] [data-cta-kind=provider_profile]").scrollIntoView({block:"center"})');
+            run('click', '[data-reviewed-regional-option] [data-cta-kind=provider_profile]');
+            run('wait', '--url', '**/appraiser/worthwise-art-and-antiques-appraisers/**');
+            const arrived = run('eval', '({url:location.href,h1:document.querySelector("h1")?.textContent,about:document.querySelector("[data-provider-specific-about]")?.textContent})').result;
+            if (new URL(arrived.url).pathname !== '/appraiser/worthwise-art-and-antiques-appraisers/' || arrived.h1 !== 'WorthWise Art and Antiques Appraisers' || !arrived.about?.includes('Colorado Front Range')) {
+              throw new Error('Denver native provider-profile link did not arrive at the expected regional profile');
+            }
+            row.regionalProfileNavigation = { ...arrived, officialSource: regional.official, officeLimitationVisible: true };
           }
           if (javascript && viewport.width === 320 && route === '/get-listed/') {
             const contact = run('eval', 'document.querySelector("a.cta")?.href').result;

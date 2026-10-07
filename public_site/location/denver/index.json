@@ -2,17 +2,25 @@
   "title": "Art appraisers in Denver, Colorado",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T12:42:49.900Z",
+  "generatedAt": "2026-10-07T14:41:51.012Z",
   "location": {
     "slug": "denver",
     "url": "https://art-appraisers-directory.appraisily.com/location/denver/",
     "name": "Art appraisers in Denver, Colorado",
-    "description": "Fine-art appraisal guidance for Denver: paintings, sculpture, prints, and photography. Compare a signed online report with a future reviewed local listing.",
-    "numberOfListedAppraisers": 0,
+    "description": "Review WorthWise as a Colorado Front Range fine-art appraisal option for Denver. Confirm inspection arrangements; a Denver office is not confirmed. Compare online report needs.",
+    "numberOfListedAppraisers": 1,
+    "listedAppraisers": [
+      {
+        "name": "WorthWise Art and Antiques Appraisers — regional service-area option",
+        "url": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
+        "slug": "worthwise-art-and-antiques-appraisers",
+        "description": "Fine-art and antiques appraisal services across the Colorado Front Range; an office location is not confirmed.",
+        "publicRouteAvailable": true
+      }
+    ],
     "source": {
       "type": "public_site_html_json_ld",
       "route": "/location/denver/"
-    },
-    "listedAppraisers": []
+    }
   }
 }

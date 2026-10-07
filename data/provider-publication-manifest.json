@@ -12173,10 +12173,28 @@
         "primary_location",
         "fine_art_services",
         "specialties",
-        "appraisal_use_cases"
+        "appraisal_use_cases",
+        "service_area"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
-      "canonicalProviderId": "provider:worthwise-art-and-antiques-appraisers"
+      "canonicalProviderId": "provider:worthwise-art-and-antiques-appraisers",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "sourceUrl": "https://worthwiseappraisers.com/contact-appraisal-services/",
+          "checkedAt": "2026-10-07",
+          "note": "Provider-owned pages describe a regional service area, not a confirmed office. ISA's individual record has an Arvada contact locality; that is not published as an office. Primary-location scope records this checked omission, not a verified Denver address."
+        },
+        "service_area": {
+          "value": {
+            "label": "Colorado Front Range",
+            "citySlugs": ["denver"]
+          },
+          "sourceUrl": "https://worthwiseappraisers.com/art-appraisal-services-denver/",
+          "checkedAt": "2026-10-07",
+          "note": "Official Denver-targeted fine-art page and its Colorado Front Range service statement support a regional option, not a Denver office or guaranteed inspection availability."
+        }
+      }
     },
     {
       "slug": "decarrera-fine-art",

@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T12:42:49.900Z",
+  "generatedAt": "2026-10-07T14:41:51.012Z",
   "count": 209,
   "appraisers": [
     {
@@ -3927,13 +3927,8 @@
       "slug": "worthwise-art-and-antiques-appraisers",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
       "name": "WorthWise Art and Antiques Appraisers",
-      "description": "Denver practice appraising fine art and antiques for donation, estate-tax, insurance, and damage-claim reports.",
+      "description": "Fine-art and antiques appraisal services across the Colorado Front Range; an office location is not confirmed.",
       "website": "https://worthwiseappraisers.com/",
-      "address": {
-        "city": "Denver",
-        "region": "CO",
-        "country": "US"
-      },
       "serviceType": "Fine-art appraisal services",
       "source": {
         "type": "public_site_html_json_ld",

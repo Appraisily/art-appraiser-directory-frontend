@@ -148,8 +148,10 @@
       "slug": "denver",
       "status": "retained",
       "terminalStatus": 200,
-      "providerSlug": "",
-      "reason": "Art-only denver decision page with independent local appraisal guidance and no reviewed local listing yet."
+      "providerSlug": "worthwise-art-and-antiques-appraisers",
+      "providerRelationship": "reviewed_regional_service_area",
+      "relationshipCheckedAt": "2026-10-07",
+      "reason": "Existing Art city route with WorthWise as a source-reviewed Colorado Front Range service-area option, explicitly not a confirmed Denver office. No new provider eligibility or route."
     },
     {
       "slug": "detroit",

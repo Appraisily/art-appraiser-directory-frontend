@@ -75,6 +75,13 @@ address is omitted, not guessed. Provider filter options are the exact current
 static-row facets. The focused factual regression suite protects these decisions,
 source dates and metadata/feed parity.
 
+WorthWise's October 7 [location correction](docs/worthwise-service-area-correction-20261007.md)
+omits an unconfirmed office and labels Colorado Front Range service separately.
+Denver publishes that explicit regional option, not an invented Denver office.
+The original October 1 provider-review date is retained; the new field check has
+its own date. The focused regression protects profile/city/schema/feed parity and
+the fail-closed, explicitly approved service-area exception in the Art validator.
+
 Published slashless provider/city/resource paths and only the root/two-resource
 `index.html` equivalents have exact, case-sensitive canonical aliases. The
 reviewed nginx map uses the original request URI, so internal index lookups cannot
@@ -97,7 +104,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-20 representative routes at desktop, 390px and 320px with JavaScript enabled and
+22 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions. Optional
 `--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
 candidate/live evidence. No production container restart is needed for this test.
