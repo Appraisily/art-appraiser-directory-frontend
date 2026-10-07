@@ -35,7 +35,7 @@ function usesConsolidatedHost(nginxSource) {
   );
 }
 
-function candidateSmokeArgs({ base, nginxSource, sitemapCount = 293 }) {
+function candidateSmokeArgs({ base, nginxSource, sitemapCount = 292 }) {
   if (usesConsolidatedHost(nginxSource)) {
     return [
       '/srv/repos/tools/smoke/art-directory-retirement-contract.mjs',
@@ -104,7 +104,7 @@ if (options.selfTest) {
       '/srv/repos/tools/smoke/directory-static-contract.mjs',
       '--base', base,
       '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-      '--expected-sitemap-count', '293',
+      '--expected-sitemap-count', '292',
       '--route', '/',
       '--route', '/compare-art-appraisers/',
       '--route', '/art-appraisal-inquiry-worksheet/',

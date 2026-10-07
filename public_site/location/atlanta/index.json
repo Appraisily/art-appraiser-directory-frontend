@@ -2,7 +2,7 @@
   "title": "Art appraisers in Atlanta, Georgia",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-02T23:19:35.925Z",
+  "generatedAt": "2026-10-07T12:42:49.900Z",
   "location": {
     "slug": "atlanta",
     "url": "https://art-appraisers-directory.appraisily.com/location/atlanta/",
@@ -14,7 +14,6 @@
         "name": "Spalding Nix Fine Art",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/spalding-nix-fine-art/",
         "slug": "spalding-nix-fine-art",
-        "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
         "description": "Spalding Nix Fine Art in Atlanta offers art and personal-property appraisals. Compare formal reports, resale walk-throughs and art advisory services.",
         "publicRouteAvailable": true
       }

@@ -2,7 +2,7 @@
   "title": "Art appraisers in Seattle, Washington",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-09-30T21:47:15.067Z",
+  "generatedAt": "2026-10-07T12:42:49.900Z",
   "location": {
     "slug": "seattle",
     "url": "https://art-appraisers-directory.appraisily.com/location/seattle/",
@@ -14,7 +14,6 @@
         "name": "Jaynes Appraisals",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
         "slug": "jaynes-appraisals",
-        "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
         "description": "Seattle appraisal practice offering fine-art valuation, inventory and collection-management services.",
         "publicRouteAvailable": true
       }

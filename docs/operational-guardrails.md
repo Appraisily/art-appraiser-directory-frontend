@@ -45,6 +45,12 @@ This repo is static-first.
 - Individual profile and city page content may only change through direct, reviewed HTML edits.
 - When the published cohort changes, update the manifest, public feeds, nginx allowlist, sitemap,
   and parity fixtures together; the static gate must fail if these surfaces disagree.
+- Known nonprovider exclusions carry a sourced `retirementDecision` in the manifest
+  and an explicit historical-ledger 404 outcome. They are not provider aliases or
+  replacement office listings. Field-level source evidence and unknown-field
+  omissions remain distinct from old identity-review dates. The shared strict
+  `--require-field-scope` audit currently reports remaining evidence debt; T05 is
+  not complete merely because the ordinary parity build passes.
 - Both `/assets/` and `/directory/assets/` are active URL contracts. Candidate releases may retain
   only assets reached from the reviewed routes, public feeds, or their dependency graph.
 - The two reviewed supporting resources are declared in `data/directory-resource-pages.json`.

@@ -61,6 +61,26 @@ test('negative fixture rejects duplicate settled metadata and lost reviewed fact
   } finally { dom.window.close(); }
 });
 
+test('handoff allows only the governed generic-directory UTM normalization', () => {
+  const url = `${origin}/appraiser/manhattan-fine-art-appraisers/`;
+  const original = 'https://appraisily.com/start?utm_source=directory&utm_medium=decision_router&utm_campaign=provider#details';
+  const target = new URL(original);
+  target.searchParams.set('utm_source', 'art_directory');
+  target.searchParams.set('seo_site', 'art_directory');
+  target.searchParams.set('ref_path', new URL(url).pathname);
+  target.searchParams.set('journey_id', 'qa-journey');
+  target.searchParams.set('appraisily_synthetic', 'synthetic_browser');
+  assertHandoffAttribution({ handoffs: [original] }, { handoffs: [target.href] }, url);
+  const campaignChanged = new URL(target);
+  campaignChanged.searchParams.set('utm_campaign', 'other');
+  assert.throws(() => assertHandoffAttribution({ handoffs: [original] }, { handoffs: [campaignChanged.href] }, url));
+  const destinationChanged = new URL(target);
+  destinationChanged.pathname = '/screener';
+  assert.throws(() => assertHandoffAttribution({ handoffs: [original] }, { handoffs: [destinationChanged.href] }, url));
+  const explicit = original.replace('utm_source=directory', 'utm_source=partner');
+  assert.throws(() => assertHandoffAttribution({ handoffs: [explicit] }, { handoffs: [target.href] }, url));
+});
+
 const unpublished = [
   { file: 'get-listed/index.html', url: `${origin}/get-listed/`, canonical: `${origin}/get-listed/`, robots: 'noindex, follow' },
   { file: 'appraiser-unavailable.html', url: `${origin}/appraiser/__qa_unknown_provider__/`, canonical: null, robots: 'noindex, nofollow' },

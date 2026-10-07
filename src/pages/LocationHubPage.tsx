@@ -32,7 +32,7 @@ export function LocationHubPage() {
             <article key={appraiser.slug} className="border border-border bg-white p-6">
               <div className="flex items-center gap-2 text-sm font-medium text-primary">
                 <MapPin className="h-4 w-4" />
-                {appraiser.address.city}, {appraiser.address.region}
+                {[appraiser.address?.city, appraiser.address?.region].filter(Boolean).join(', ') || 'Location not listed'}
               </div>
               <h2 className="mt-3 font-serif text-xl font-semibold">{appraiser.name}</h2>
               <p className="mt-3 text-sm leading-6 text-muted-foreground">{appraiser.description}</p>

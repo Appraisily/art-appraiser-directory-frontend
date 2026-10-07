@@ -10,8 +10,8 @@
     "lastmod": "omit-without-reviewed-change-ledger"
   },
   "counts": {
-    "profiles": 210,
-    "indexableProfiles": 210,
+    "profiles": 209,
+    "indexableProfiles": 209,
     "cities": 78,
     "indexableCities": 78,
     "resources": 2
@@ -41,7 +41,7 @@
       "publicationStatus": "limited",
       "verifiedAt": "2026-08-30",
       "sourceUrl": "https://aaartappraisals.com/",
-      "city": "Pensacola",
+      "city": "Naples",
       "region": "FL",
       "country": "US",
       "indexable": true,
@@ -288,22 +288,6 @@
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/alta-fine-art-advisory-and-appraisal/",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alta-fine-art-advisory-and-appraisal/"
-    },
-    {
-      "slug": "american-society-of-appraisers-asa",
-      "name": "American Society of Appraisers (ASA)",
-      "canonicalProviderId": "provider:american-society-of-appraisers",
-      "canonicalHome": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
-      "publicationStatus": "limited",
-      "verifiedAt": "2026-08-30",
-      "sourceUrl": "https://www.appraisers.org/",
-      "city": "New Orleans",
-      "region": "NY",
-      "country": "US",
-      "indexable": true,
-      "robotsIndexable": true,
-      "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/"
     },
     {
       "slug": "anderson-campbell-art-appraisals",
@@ -2505,9 +2489,9 @@
       "publicationStatus": "limited",
       "verifiedAt": "2026-08-30",
       "sourceUrl": "https://manhattanfineartappraisers.com/",
-      "city": "350 5th Ave",
-      "region": "NY",
-      "country": "US",
+      "city": "",
+      "region": "",
+      "country": "",
       "indexable": true,
       "robotsIndexable": true,
       "canonical": "https://art-appraisers-directory.appraisily.com/appraiser/manhattan-fine-art-appraisers/",

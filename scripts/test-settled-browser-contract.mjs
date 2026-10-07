@@ -27,10 +27,12 @@ const unpublished = [
   { route: '/methodology/', status: 200, canonical: `${origin}/methodology/`, robots: 'noindex, follow' },
   { route: '/appraiser/__qa_unknown_provider__/', status: 404, canonical: null, robots: 'noindex, nofollow' },
   { route: '/appraiser/amelia-jeffers-auctioneers-appraisers/', status: 410, canonical: null, robots: 'noindex, nofollow' },
+  { route: '/appraiser/american-society-of-appraisers-asa/', status: 404, canonical: null, robots: 'noindex, nofollow' },
 ];
 const routes = [
   '/', '/appraiser/', '/location/', '/location/boston/', '/location/baltimore/',
   ...focal, '/appraiser/spalding-nix-fine-art/', '/appraiser/a-and-a-art-appraisals-naples-fl/',
+  '/appraiser/manhattan-fine-art-appraisers/',
   ...resources.map((page) => page.path),
   ...unpublished.map((page) => page.route),
 ];
@@ -158,7 +160,7 @@ try {
           if (javascript && row.layout.qaMarker !== 'synthetic_browser') throw new Error(`${route}: synthetic QA marker missing`);
           row.errors = run('errors').errors;
           if (row.errors?.length) throw new Error(`${route}: browser errors ${JSON.stringify(row.errors)}`);
-          if (options.artifactDir && (focal.includes(route) || route === '/' || unpublished.some((page) => page.route === route))) {
+          if (options.artifactDir && (focal.includes(route) || provider?.fieldEvidence || route === '/' || unpublished.some((page) => page.route === route))) {
             fs.mkdirSync(options.artifactDir, { recursive: true });
             const filename = `${javascript ? 'js' : 'nojs'}-${viewport.width}-${route.replace(/[^a-z0-9-]/g, '_')}.png`;
             run('screenshot', path.join(options.artifactDir, filename));

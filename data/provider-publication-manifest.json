@@ -1,11 +1,11 @@
 {
   "policyVersion": 2,
   "summary": {
-    "indexable": 210,
+    "indexable": 209,
     "verified": 14,
-    "limited": 196,
-    "suppressed": 656,
-    "appraiserIndexEntries": 210,
+    "limited": 195,
+    "suppressed": 657,
+    "appraiserIndexEntries": 209,
     "indexableLocations": 78,
     "changedProfiles": 919
   },
@@ -37,8 +37,34 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location",
+        "fine_art_services",
+        "specialties",
+        "appraisal_use_cases"
       ],
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-07",
+          "sourceUrl": "https://aaartappraisals.com/contact",
+          "value": { "city": "Naples", "region": "FL", "country": "US" }
+        },
+        "fine_art_services": {
+          "checkedAt": "2026-10-07",
+          "sourceUrl": "https://aaartappraisals.com/",
+          "value": ["Fine art appraisals", "Decorative art appraisals"]
+        },
+        "specialties": {
+          "checkedAt": "2026-10-07",
+          "sourceUrl": "https://aaartappraisals.com/",
+          "value": ["Fine art appraisals"]
+        },
+        "appraisal_use_cases": {
+          "checkedAt": "2026-10-07",
+          "sourceUrl": "https://aaartappraisals.com/",
+          "value": ["Art appraisal services", "Insurance appraisals", "Estate and donation appraisals"]
+        }
+      },
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/a-and-a-art-appraisals-naples-fl/",
       "canonicalProviderId": "provider:a-a-appraisals-fine-art"
     },
@@ -478,8 +504,8 @@
     {
       "slug": "american-society-of-appraisers-asa",
       "name": "American Society of Appraisers (ASA)",
-      "publicationStatus": "limited",
-      "reason": "website_backed_limited_publication_2026-08-30",
+      "publicationStatus": "under_review",
+      "reason": "excluded_association_not_local_appraisal_practice_2026-10-07",
       "sourceUrl": "https://www.appraisers.org/",
       "sourceType": "official_website",
       "verifiedAt": "2026-08-30",
@@ -489,7 +515,20 @@
         "website"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
-      "canonicalProviderId": "provider:american-society-of-appraisers"
+      "canonicalProviderId": "provider:american-society-of-appraisers",
+      "fieldEvidence": {
+        "entity_kind": {
+          "checkedAt": "2026-10-07",
+          "sourceUrl": "https://www.appraisers.org/about",
+          "value": "association"
+        }
+      },
+      "retirementDecision": {
+        "decidedAt": "2026-10-07",
+        "terminalStatus": 404,
+        "reason": "Association was incorrectly published as a local provider; no equivalent provider destination.",
+        "sourceUrl": "https://www.appraisers.org/about"
+      }
     },
     {
       "slug": "amy-i-schlegel",
@@ -6961,7 +7000,14 @@
         "website"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/manhattan-fine-art-appraisers/",
-      "canonicalProviderId": "provider:manhattan-fine-art-appraisers"
+      "canonicalProviderId": "provider:manhattan-fine-art-appraisers",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-07",
+          "reason": "Street-shaped city value removed. Current official address could not be established; no replacement locality inferred."
+        }
+      }
     },
     {
       "slug": "manzi-appraisers-restoration",

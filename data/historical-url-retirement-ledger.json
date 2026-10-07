@@ -8,8 +8,8 @@
     "recoveredUniqueUrls": 450
   },
   "counts": {
-    "200": 293,
-    "404": 145,
+    "200": 292,
+    "404": 146,
     "410": 12
   },
   "urls": [
@@ -316,12 +316,11 @@
     {
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
       "provenance": [
-        "397_url_sitemap",
-        "current_candidate_sitemap"
+        "397_url_sitemap"
       ],
       "confidence": "exact_historical_sitemap",
-      "terminalStatus": 200,
-      "outcome": "retained"
+      "terminalStatus": 404,
+      "outcome": "known_excluded_nonprovider"
     },
     {
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/amy-i-schlegel/",

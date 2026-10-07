@@ -2,7 +2,7 @@
   "title": "Art appraisers in San Francisco, California",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-09-30T21:47:15.067Z",
+  "generatedAt": "2026-10-07T12:42:49.900Z",
   "location": {
     "slug": "san-francisco",
     "url": "https://art-appraisers-directory.appraisily.com/location/san-francisco/",
@@ -14,7 +14,6 @@
         "name": "Jeanie Craig — Art Collection Management and Appraisals",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
         "slug": "jeanie-craig-art-appraisals",
-        "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
         "description": "Art appraisal and collection-management practice serving the San Francisco Bay Area; published mailing locality is Mill Valley.",
         "publicRouteAvailable": true
       }

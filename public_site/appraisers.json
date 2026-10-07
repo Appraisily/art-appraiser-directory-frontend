@@ -2,8 +2,8 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-02T23:19:35.925Z",
-  "count": 210,
+  "generatedAt": "2026-10-07T12:42:49.900Z",
+  "count": 209,
   "appraisers": [
     {
       "slug": "812-maplewood",
@@ -28,11 +28,10 @@
       "slug": "a-and-a-art-appraisals-naples-fl",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/a-and-a-art-appraisals-naples-fl/",
       "name": "A&A Appraisals - Fine Art",
-      "description": "A&A Appraisals - Fine Art has a limited directory listing for Pensacola, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "description": "A&A Appraisals - Fine Art has a limited directory listing for Naples, FL. Confirm current services and qualifications directly with the business.",
       "website": "https://aaartappraisals.com/",
       "address": {
-        "city": "Pensacola",
+        "city": "Naples",
         "region": "FL",
         "country": "US"
       },
@@ -93,7 +92,7 @@
         "region": "GA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/",
@@ -150,7 +149,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/adelaide-fine-art/",
@@ -226,7 +225,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/alexander-appraisal-and-estate-services/",
@@ -302,7 +301,7 @@
         "region": "OH",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/allrich-fine-art-services/",
@@ -321,29 +320,10 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
-      "source": {
-        "type": "public_site_html_json_ld",
-        "route": "/appraiser/alta-fine-art-advisory-and-appraisal/",
-        "verifiedAt": "2026-08-30"
-      }
-    },
-    {
-      "slug": "american-society-of-appraisers-asa",
-      "url": "https://art-appraisers-directory.appraisily.com/appraiser/american-society-of-appraisers-asa/",
-      "name": "American Society of Appraisers (ASA)",
-      "description": "American Society of Appraisers (ASA) has a limited directory listing for New Orleans, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
-      "website": "https://www.appraisers.org/",
-      "address": {
-        "city": "New Orleans",
-        "region": "NY",
-        "country": "US"
-      },
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
-        "route": "/appraiser/american-society-of-appraisers-asa/",
+        "route": "/appraiser/alta-fine-art-advisory-and-appraisal/",
         "verifiedAt": "2026-08-30"
       }
     },
@@ -397,7 +377,7 @@
         "region": "ME",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/andrea-moody-fine-art-appraisals-llc/",
@@ -492,7 +472,7 @@
         "region": "WA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa/",
@@ -511,7 +491,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/antique-art-buyers/",
@@ -530,7 +510,7 @@
         "region": "PA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/appraisal-services-philadelphia-pa-art-antiques-furniture-estate/",
@@ -549,7 +529,7 @@
         "region": "WA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/appraisalink-for-art-and-antiques/",
@@ -587,7 +567,7 @@
         "region": "MD",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/appraisals-of-value/",
@@ -606,7 +586,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/arnoult-fine-art/",
@@ -682,7 +662,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/art-directives/",
@@ -701,7 +681,7 @@
         "region": "AZ",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/art-fortune-llc/",
@@ -720,7 +700,7 @@
         "region": "MI",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/art-leaders-gallery-fine-art-appraisals/",
@@ -739,7 +719,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/art-peritus/",
@@ -758,7 +738,7 @@
         "region": "MI",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/art-preservation-services-michigan/",
@@ -777,7 +757,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/art-services-2000-ltd-fine-art-appraisals/",
@@ -796,7 +776,7 @@
         "region": "MA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/artemappraisals/",
@@ -815,7 +795,7 @@
         "region": "IA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/artrium-fine-art-and-estate-appraisal/",
@@ -872,7 +852,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/austin-galleries/",
@@ -948,7 +928,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/b-langston-estate-liquidation/",
@@ -986,7 +966,7 @@
         "region": "CO",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/bernard-ewell-fine-at-appraisals-llc/",
@@ -1005,7 +985,7 @@
         "region": "PA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/bertolino-arts/",
@@ -1024,7 +1004,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/beth-weingast-fine-art-appraisals/",
@@ -1043,7 +1023,7 @@
         "region": "WA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/bonhams-pacific-northwest/",
@@ -1062,7 +1042,7 @@
         "region": "ND",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/borodin-fine-art-appraisals/",
@@ -1081,7 +1061,7 @@
         "region": "MA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/boston-boston-appraisal-services/",
@@ -1131,7 +1111,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
       "name": "Brenda Simonson-Mohle",
       "description": "Brenda Simonson-Mohle at Signet Art in Dallas appraises paintings, drawings, sculpture, tapestries and prints. Review services and inquiry options.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://signetart.com/art-appraisal/",
       "address": {
         "city": "Dallas",
@@ -1157,7 +1136,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/butenhoff-fine-art-and-appraisal/",
@@ -1176,7 +1155,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/cain-fine-art/",
@@ -1195,7 +1174,7 @@
         "region": "MI",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/cambridge-appraisals/",
@@ -1214,7 +1193,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/",
@@ -1233,7 +1212,7 @@
         "region": "SC",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/carla-young-fine-arts-appraisals-appraisals-and-consultations/",
@@ -1290,7 +1269,7 @@
         "region": "PA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/castner-values/",
@@ -1328,7 +1307,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/cheney-appraisal-services/",
@@ -1395,8 +1374,8 @@
     {
       "slug": "collector-s-fine-art-appraisal-et-associates",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/collector-s-fine-art-appraisal-et-associates/",
-      "name": "Collector\u2019s Fine Art Appraisal et Associates",
-      "description": "Collector\u2019s Fine Art Appraisal et Associates has a limited directory listing for Fort Collins, CO. Confirm current services and qualifications directly with the business.",
+      "name": "Collector’s Fine Art Appraisal et Associates",
+      "description": "Collector’s Fine Art Appraisal et Associates has a limited directory listing for Fort Collins, CO. Confirm current services and qualifications directly with the business.",
       "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://aspenappraisalbarbpreston.com/",
       "address": {
@@ -1442,7 +1421,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/david-dike-fine-art/",
@@ -1454,7 +1433,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
       "name": "DeCarrera Fine Art",
       "description": "Los Angeles and Orange County art advisory that appraises twentieth-century, postwar, and contemporary art.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://dcfineart.com/",
       "address": {
         "city": "Los Angeles",
@@ -1480,7 +1458,7 @@
         "region": "IN",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/detroit-fine-art-appraisals/",
@@ -1499,7 +1477,7 @@
         "region": "MI",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/detroit-marketrend-appraisals/",
@@ -1518,7 +1496,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/dina-brown-art-appraisals/",
@@ -1537,7 +1515,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/dow-art-galleries/",
@@ -1556,7 +1534,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/dudley-certified-appraisers-art-antiques-and-estates/",
@@ -1594,7 +1572,7 @@
         "region": "WA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/duwamps-appraisals/",
@@ -1632,7 +1610,7 @@
         "region": "MA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/edward-m-stanley-appraisal-services-fine-art-antiques/",
@@ -1727,7 +1705,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/elizabeth-wells-appraisals-and-fine-art-services/",
@@ -1841,7 +1819,7 @@
         "region": "PA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/fine-art-concierge/",
@@ -1879,7 +1857,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/fox-white-art-and-antique-appraisals-nyc/",
@@ -1917,7 +1895,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/full-service-estate-sales-and-appraisals-houston-accredited-appraiser/",
@@ -1936,7 +1914,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/gabrielle-segal-gs-art-concierge/",
@@ -1974,7 +1952,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/geolat/",
@@ -1993,7 +1971,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/giardina-fine-art-appraisal-services/",
@@ -2012,7 +1990,7 @@
         "region": "IA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/gilded-pear-gallery/",
@@ -2050,7 +2028,7 @@
         "region": "CO",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/hale-appraisals/",
@@ -2088,7 +2066,7 @@
         "region": "MD",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/harrison-appraisals-llc-appraisal-firm-westminster-md/",
@@ -2145,7 +2123,7 @@
         "region": "AZ",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/hill-art/",
@@ -2164,7 +2142,7 @@
         "region": "OR",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/historic-art-services/",
@@ -2183,7 +2161,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/hollingsworth-fine-a/",
@@ -2202,7 +2180,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/home-foltz-fine-art/",
@@ -2221,7 +2199,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/houston-estate-sales-and-auction-company/",
@@ -2240,7 +2218,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/houston-houston-estate-sales-and-appraisals/",
@@ -2259,7 +2237,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers/",
@@ -2297,7 +2275,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/jacksonville-fine-art-appraisers/",
@@ -2316,7 +2294,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/jacksonville-stellers-gallery/",
@@ -2335,7 +2313,7 @@
         "region": "MA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals/",
@@ -2385,7 +2363,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
       "name": "Jaynes Appraisals, LLC",
       "description": "Seattle appraisal practice offering fine-art valuation, inventory and collection-management services.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.jaynesappraisals.com/",
       "address": {
         "city": "Seattle",
@@ -2404,7 +2381,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
       "name": "Jeanie Craig | Art Collection Management and Appraisals",
       "description": "Art appraisal and collection-management practice serving the San Francisco Bay Area; published mailing locality is Mill Valley.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://appraiserart.com/",
       "address": {
         "city": "Mill Valley",
@@ -2442,7 +2418,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser/",
       "name": "Jennifer L. Stoots, AAA",
       "description": "Jennifer L. Stoots in Portland appraises photographs, photographic archives, Northwest and contemporary art. Review scope and appointment-only inquiries.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://photostoots.com/",
       "address": {
         "city": "Portland",
@@ -2499,7 +2474,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
       "name": "Joette Pierce & Associates",
       "description": "Newport Beach appraisal firm accredited by the American Society of Appraisers, providing certified fine-art valuations.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.joettepierceappraisals.com/",
       "address": {
         "city": "Newport Beach",
@@ -2525,7 +2499,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/josefa-gonzalez-mariscal-fine-art/",
@@ -2582,7 +2556,7 @@
         "region": "CT",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/kagan-fine-art-appraisals/",
@@ -2601,7 +2575,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/kathy-poppers-expert-art-appraisals/",
@@ -2620,7 +2594,7 @@
         "region": "NY",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/kelly-cahn-art-advisory-appraisals/",
@@ -2639,7 +2613,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/kinzelman-art-consulting/",
@@ -2696,7 +2670,7 @@
         "region": "NC",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/lancaster-appraisals/",
@@ -2829,7 +2803,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/liz-anders-associates/",
@@ -2848,7 +2822,7 @@
         "region": "NC",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/look-appraisal/",
@@ -2886,7 +2860,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/lost-art-gallery/",
@@ -2943,7 +2917,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/maloney-fine-art/",
@@ -2954,14 +2928,8 @@
       "slug": "manhattan-fine-art-appraisers",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/manhattan-fine-art-appraisers/",
       "name": "Manhattan Fine Art Appraisers",
-      "description": "Manhattan Fine Art Appraisers has a limited directory listing for 350 5th Ave, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
+      "description": "Manhattan Fine Art Appraisers is a limited directory record. A current office location and service details have not been confirmed.",
       "website": "https://manhattanfineartappraisers.com/",
-      "address": {
-        "city": "350 5th Ave",
-        "region": "NY",
-        "country": "US"
-      },
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -2981,7 +2949,7 @@
         "region": "MA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/manzi-personal-property-appraisers/",
@@ -3019,7 +2987,7 @@
         "region": "LA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/matthew-clayton-brown-fine-art-appraisers/",
@@ -3069,7 +3037,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
       "name": "MIR Appraisal Services, Inc.",
       "description": "Chicago fine-art appraisal, inspection and advisory services for collectors and professional clients.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.mirappraisal.com/",
       "address": {
         "city": "Chicago",
@@ -3171,7 +3138,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/newton-fine-art-appraisal/",
@@ -3190,7 +3157,7 @@
         "region": "NH",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/nh-auctions-and-appraisals/",
@@ -3228,7 +3195,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/orchestrated-artwork/",
@@ -3247,7 +3214,7 @@
         "region": "AZ",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/peter-held-art-appraisals-associates/",
@@ -3323,7 +3290,7 @@
         "region": "MD",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/robyn-roderick-fine-art-appraisal-services-llc/",
@@ -3361,7 +3328,7 @@
         "region": "TN",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/ruffner-art-advisory/",
@@ -3380,7 +3347,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and/",
@@ -3437,7 +3404,7 @@
         "region": "MA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/schlegel-fine-art-consulting-llc/",
@@ -3456,7 +3423,7 @@
         "region": "DC",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/scholz-appraisals-and-advisory-fine-art-and-estate-appraisals/",
@@ -3475,7 +3442,7 @@
         "region": "PA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/schwarz-gallery/",
@@ -3494,7 +3461,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/selz-fine-arts-appraisals/",
@@ -3532,7 +3499,7 @@
         "region": "WA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/silvia-waltner-fine-art-services-art-appraisals-and-advisory/",
@@ -3551,7 +3518,7 @@
         "region": "OR",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/soltesz-fine-art/",
@@ -3570,7 +3537,7 @@
         "region": "TX",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/southwest-art-appraisals/",
@@ -3582,7 +3549,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/spalding-nix-fine-art/",
       "name": "Spalding Nix Fine Art",
       "description": "Spalding Nix Fine Art in Atlanta offers art and personal-property appraisals. Compare formal reports, resale walk-throughs and art advisory services.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.spaldingnixfineart.com/appraisals",
       "address": {
         "city": "Atlanta",
@@ -3627,7 +3593,7 @@
         "region": "TN",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/stanford-fine-art/",
@@ -3665,7 +3631,7 @@
         "region": "OR",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/stephen-g-frazier-fine-art-appraiser-llc/",
@@ -3684,7 +3650,7 @@
         "region": "DC",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/strata-fine-art-services/",
@@ -3722,7 +3688,7 @@
         "region": "FL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/tenhagen-appraisals/",
@@ -3779,7 +3745,7 @@
         "region": "CA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/thompson-and-martinez-fine-art-appraisals-inc/",
@@ -3798,7 +3764,7 @@
         "region": "DC",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/valia-garzon-art-services/",
@@ -3836,7 +3802,7 @@
         "region": "IL",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/veritas-fine-art-and-appraisals/",
@@ -3874,7 +3840,7 @@
         "region": "MA",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/vivanco-art-and-appraisals/",
@@ -3962,7 +3928,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/worthwise-art-and-antiques-appraisers/",
       "name": "WorthWise Art and Antiques Appraisers",
       "description": "Denver practice appraising fine art and antiques for donation, estate-tax, insurance, and damage-claim reports.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://worthwiseappraisers.com/",
       "address": {
         "city": "Denver",
@@ -3988,7 +3953,7 @@
         "region": "TN",
         "country": "US"
       },
-      "serviceType": "Directory record under review",
+      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/wyeth-appraisals/",

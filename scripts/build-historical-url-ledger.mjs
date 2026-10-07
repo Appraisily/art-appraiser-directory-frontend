@@ -32,10 +32,11 @@ function normalize(value) {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  const [registry, cityDecisions, aliasDecisions, currentSitemap] = await Promise.all([
+  const [registry, cityDecisions, aliasDecisions, providerManifest, currentSitemap] = await Promise.all([
     fs.readFile(REGISTRY, 'utf8').then(JSON.parse),
     fs.readFile(path.join(REPO_ROOT, 'data/city-publication-decisions.json'), 'utf8').then(JSON.parse),
     fs.readFile(path.join(REPO_ROOT, 'data/provider-alias-decisions.json'), 'utf8').then(JSON.parse),
+    fs.readFile(path.join(REPO_ROOT, 'data/provider-publication-manifest.json'), 'utf8').then(JSON.parse),
     fs.readFile(path.join(REPO_ROOT, 'public_site/sitemap.xml'), 'utf8'),
   ]);
   const sources = new Map();
@@ -61,6 +62,9 @@ async function main() {
   const retiredAliases = new Map(
     aliasDecisions.aliases.map((alias) => [`${ORIGIN}/appraiser/${alias.slug}/`, alias.terminalStatus])
   );
+  const excludedProviders = new Map(providerManifest.providers
+    .filter(provider => provider.retirementDecision)
+    .map(provider => [`${ORIGIN}/appraiser/${provider.slug}/`, provider.retirementDecision]));
 
   const urls = [...sources.entries()]
     .sort(([left], [right]) => left.localeCompare(right))
@@ -76,6 +80,13 @@ async function main() {
       } else if (retiredAliases.has(url)) {
         terminalStatus = retiredAliases.get(url);
         outcome = 'known_retired_provider_alias';
+      } else if (excludedProviders.has(url)) {
+        const decision = excludedProviders.get(url);
+        if (decision.terminalStatus !== 404 || !decision.sourceUrl || !decision.decidedAt) {
+          throw new Error(`Unsupported or unsourced provider exclusion: ${url}`);
+        }
+        terminalStatus = decision.terminalStatus;
+        outcome = 'known_excluded_nonprovider';
       }
       return {
         url,

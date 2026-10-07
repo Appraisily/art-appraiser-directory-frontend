@@ -93,7 +93,9 @@ export function assertHandoffAttribution(initial, rendered, url) {
   for (const href of initial.handoffs) {
     const original = new URL(href);
     const retained = rendered.handoffs.map((value) => new URL(value)).find((target) =>
-      [...original.searchParams].every(([key, value]) => target.searchParams.get(key) === value));
+      target.origin === original.origin && target.pathname === original.pathname && target.hash === original.hash &&
+      [...original.searchParams].every(([key, value]) => target.searchParams.get(key) ===
+        (key === 'utm_source' && value === 'directory' ? 'art_directory' : value)));
     assert.ok(retained, `${url}: original handoff acquisition parameters changed`);
     assert.equal(retained.searchParams.get('seo_site'), 'art_directory');
     assert.equal(retained.searchParams.get('ref_path'), new URL(url).pathname);

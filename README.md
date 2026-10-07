@@ -66,13 +66,20 @@ inventory is `data/directory-resource-pages.json`; metadata-only generation adds
 them without changing provider eligibility or city/profile content. The comparison
 preserves original provider source-review dates. The worksheet uses native browser
 print and has no form or customer-data submission. `check:static` includes the
-focused resource regression suite. The current sitemap contains 293 URLs.
+focused resource regression suite. The current sitemap contains 292 URLs after
+ASA's source-reviewed exclusion as an association rather than a local appraisal
+practice. Its historical provider URL returns the generic noindex 404, not a
+substitute Herndon listing. A&A remains limited, with Naples locality and service
+evidence dated separately from its old identity check; Manhattan's unsupported
+address is omitted, not guessed. Provider filter options are the exact current
+static-row facets. The focused factual regression suite protects these decisions,
+source dates and metadata/feed parity.
 
 The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-18 representative routes at desktop, 390px and 320px with JavaScript enabled and
+20 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions. Optional
 `--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
 candidate/live evidence. No production container restart is needed for this test.
