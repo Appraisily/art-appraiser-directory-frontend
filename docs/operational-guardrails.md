@@ -22,6 +22,7 @@ This repo is static-first.
 - Validate provider/city/tracking parity: `npm run check:remediation-contract`
 - Validate interaction states and telemetry: `npm run test:interactions`
 - Validate initial/settled/no-JS parity against isolated nginx: `npm run test:settled-browser`
+- Validate explicit provider/Appraisily handoffs and provider-first source order: `npm run test:provider-handoff`
 - Validate exact artifact-gated canonical aliases: `npm run test:canonical-routing`
 - Validate GET/HEAD redirects and terminal routes against isolated nginx: `npm run test:canonical-routing-http`
 - Refresh sitemap/indexing metadata only: `npm run seo:indexing-manifest`
@@ -80,6 +81,11 @@ This repo is static-first.
   browser gate tests the correction/methodology noindex policies and provider
   404/410 responses separately from the strict indexable sitemap contract, including
   native contact navigation with QA/attribution intact and no form submission.
+- Provider actions name Appraisily when it owns the destination; official website
+  links remain distinct. Existing two-column provider facts precede contact/offers
+  in source and on mobile, while the declared CSS preserves the desktop sidebar.
+  The full published-provider unit gate and representative JS/no-JS browser gate
+  reject ambiguous labels, lost official links, status drift and column-order drift.
 - Routine `seo:indexing-manifest` is metadata-only. Broad writing requires explicit
   `--write --allow-reviewed-content-write`; it is not a maintenance shortcut.
   Missing declared resource HTML fails closed. Only explicit `--fixture` inputs

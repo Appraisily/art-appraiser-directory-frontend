@@ -104,7 +104,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-22 representative routes at desktop, 390px and 320px with JavaScript enabled and
+25 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions. Optional
 `--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
 candidate/live evidence. No production container restart is needed for this test.
@@ -114,6 +114,10 @@ mobile overflow fails release. It does not prove Google inclusion.
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider
 facts still fail the negative fixtures. The chat embed itself is not changed.
+The exact zero-size hidden GTM `noscript` fallback is also normalized across
+Chrome scripting-on and no-JS/JSDOM parser trees. Meaningful fallback text,
+unknown iframe owners and all authored provider content remain protected by
+negative fixtures; the public tracker markup is unchanged.
 The 320px JS/no-JS checks also enter five representative pages through their
 slashless/index aliases and verify the actual canonical arrival and raw query.
 
@@ -130,6 +134,28 @@ the contact form. A published-profile canonical remains slash-consistent and cle
 Production publishing is intentionally unavailable through npm. After review,
 promote the complete validated `public_site/` artifact with the standard VPS
 deploy helper.
+
+Published provider actions identify Appraisily explicitly when they lead to its
+online appraisal or screener, while official provider website links keep their
+own destination. Legacy two-column profiles put their existing provider summary
+first in source and on phones; the small `directory-provider-handoff-20261007.css`
+contract retains the desktop sidebar arrangement. No provider facts, source dates,
+link destinations, event attributes or telemetry owners change for this handoff
+correction. `npm run test:provider-handoff` checks every published provider and
+negative fixtures. The settled-browser gate additionally checks source/settled
+labels, DOM order, mobile columns, desktop arrangement and original attribution.
+At all three widths it follows the official 812 Maplewood services link and the
+native Appraisily appraisal actions without submitting forms. JavaScript-enabled
+checks verify the adopted journey identity after main-page's governed URL
+redaction, along with retained campaign/directory tags and the synthetic marker;
+no-JavaScript checks prove native navigation without claiming bootstrap execution.
+Official-site clicks use separately owned browser sessions so external scripts'
+late errors cannot contaminate the directory/apex error gate; their navigation
+and external errors are recorded separately. All owned sessions are closed.
+An official-check source-page open timeout is retained in the receipt and can
+proceed only after independently proving the exact target URL, parsed document,
+initial/settled facts/metadata/link parity and active QA marker. Other navigation
+errors fail immediately; an open timeout or URL alone is never a passing state.
 
 ### Canonical surfaces
 

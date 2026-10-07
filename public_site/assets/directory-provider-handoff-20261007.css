@@ -1,0 +1,4 @@
+/* Provider facts lead in source and on phones. Keep the existing desktop sidebar. */
+@media (min-width: 768px) {
+  [data-directory-provider-layout] > [data-directory-provider-contact] { order: -1; }
+}

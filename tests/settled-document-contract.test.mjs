@@ -111,6 +111,32 @@ test('authored-body parity ignores only the identified shared chat controls', ()
   } finally { dom.window.close(); }
 });
 
+test('scripting-mode parser differences normalize only the hidden owned GTM fallback', () => {
+  const url = `${origin}/compare-art-appraisers/`;
+  const markup = `<title>Comparison</title><meta name="description" content="Comparison"><link rel="canonical" href="${url}"><meta name="robots" content="index, follow"><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><h1>Compare providers</h1><p>Retained provider facts.</p><a href="/get-listed/">Correct a listing</a></body>`;
+  const initial = new JSDOM(markup, {url});
+  const scripting = new JSDOM(markup, {url, runScripts: 'outside-only'});
+  // JSDOM's outside-only parser uses the no-script tree. Reproduce Chrome's
+  // scripting-enabled raw-text noscript node without executing any scripts.
+  const fallbackNode = scripting.window.document.querySelector('noscript');
+  fallbackNode.textContent = fallbackNode.innerHTML;
+  try {
+    assertDocumentParity(captureDocument(initial.window.document, origin), captureDocument(scripting.window.document, origin), url);
+    for (const fragment of [
+      '<noscript>Important fallback guidance</noscript>',
+      '<noscript><iframe src="https://other.example/" height="0" width="0" style="display:none;visibility:hidden"></iframe>Retained fallback guidance</noscript>',
+      '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM" height="0" width="0" style="display:none;visibility:hidden"></iframe>Important fallback guidance</noscript>',
+    ]) {
+      const fallback = new JSDOM(markup.replace(/<noscript>[\s\S]*?<\/noscript>/, fragment), {url});
+      try {
+        assert.match(captureDocument(fallback.window.document, origin).mainText, /fallback guidance/);
+      } finally {fallback.window.close();}
+    }
+    scripting.window.document.querySelector('p').remove();
+    assert.throws(() => assertDocumentParity(captureDocument(initial.window.document, origin), captureDocument(scripting.window.document, origin), url), /authored mainText/);
+  } finally {initial.window.close(); scripting.window.close();}
+});
+
 const unpublished = [
   { file: 'get-listed/index.html', url: `${origin}/get-listed/`, canonical: `${origin}/get-listed/`, robots: 'noindex, follow' },
   { file: 'appraiser-unavailable.html', url: `${origin}/appraiser/__qa_unknown_provider__/`, canonical: null, robots: 'noindex, nofollow' },

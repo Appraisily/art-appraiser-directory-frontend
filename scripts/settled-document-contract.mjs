@@ -13,6 +13,19 @@ export function captureDocument(document, canonicalOrigin) {
   };
   const content = (document.querySelector('main') || document.body).cloneNode(true);
   content.querySelectorAll('script, style, nav, header, footer').forEach((node) => node.remove());
+  // Chrome parses noscript as raw text with scripting enabled; JSDOM/no-JS
+  // parses its elements. Normalize only our zero-size hidden GTM fallback,
+  // never meaningful fallback guidance or another iframe owner.
+  content.querySelectorAll('noscript').forEach((node) => {
+    const parsed = document.createElement('div');
+    parsed.innerHTML = node.children.length ? node.innerHTML : node.textContent;
+    const iframe = parsed.firstElementChild;
+    if (parsed.childElementCount === 1 && !parsed.textContent.trim() &&
+        iframe.tagName === 'IFRAME' &&
+        iframe.getAttribute('src') === 'https://www.googletagmanager.com/ns.html?id=GTM-PSLHDGM' &&
+        iframe.getAttribute('height') === '0' && iframe.getAttribute('width') === '0' &&
+        iframe.style.display === 'none' && iframe.style.visibility === 'hidden') node.remove();
+  });
   // The shared chat embed appends controls to body on the public host. Those
   // identified widget nodes are not authored provider facts; unrelated added or
   // removed text must still fail parity, including on pages without <main>.
