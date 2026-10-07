@@ -22,6 +22,8 @@ This repo is static-first.
 - Validate provider/city/tracking parity: `npm run check:remediation-contract`
 - Validate interaction states and telemetry: `npm run test:interactions`
 - Validate initial/settled/no-JS parity against isolated nginx: `npm run test:settled-browser`
+- Validate exact artifact-gated canonical aliases: `npm run test:canonical-routing`
+- Validate GET/HEAD redirects and terminal routes against isolated nginx: `npm run test:canonical-routing-http`
 - Refresh sitemap/indexing metadata only: `npm run seo:indexing-manifest`
 - Validate both public asset prefixes and reject retained orphans: `npm run check:asset-references`
 - Validate the static artifact: `npm run check:static`
@@ -53,6 +55,14 @@ This repo is static-first.
   not complete merely because the ordinary parity build passes.
 - Both `/assets/` and `/directory/assets/` are active URL contracts. Candidate releases may retain
   only assets reached from the reviewed routes, public feeds, or their dependency graph.
+- Canonical aliases are generated only from published provider/city policy and
+  declared resources; the sole direct-index aliases are root and resource pages.
+  Keep the exact case-sensitive original-request map synchronized in both nginx
+  sources. The private `.canonical-route-redirects-v1` marker binds activation to
+  the reviewed artifact and protects pre-marker rollback routing. Build and exact
+  candidate HTTP/browser gates reject alias drift, query loss, redirect chains,
+  canonical-target loops and changed terminal behavior. `--print` emits a block
+  for review; it never writes config or changes provider eligibility.
 - The two reviewed supporting resources are declared in `data/directory-resource-pages.json`.
   Their authored HTML is included by metadata-only sitemap generation and classified as
   `resource` in the central route registry. `npm run test:resources` verifies provider/source/date

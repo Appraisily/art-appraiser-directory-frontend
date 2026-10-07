@@ -75,6 +75,24 @@ address is omitted, not guessed. Provider filter options are the exact current
 static-row facets. The focused factual regression suite protects these decisions,
 source dates and metadata/feed parity.
 
+Published slashless provider/city/resource paths and only the root/two-resource
+`index.html` equivalents have exact, case-sensitive canonical aliases. The
+reviewed nginx map uses the original request URI, so internal index lookups cannot
+redirect clean canonical pages into a loop. Raw query parameters are preserved;
+unknown, suppressed, retired and provider/city `index.html` URLs retain terminal
+statuses. `.canonical-route-redirects-v1` is an internal artifact marker: older
+rollback trees retain their existing routing with the staged configuration.
+
+`npm run test:canonical-routing` is a blocking build gate for exact policy/map/
+marker parity. `npm run test:canonical-routing-http` starts only its own isolated
+nginx candidate and tests every declared alias with GET/HEAD, clean final targets
+and the historical/unknown/direct-index terminal matrix. `--base <URL>` verifies
+the same contract on an already running candidate or public host. To review a map
+after an approved publication-policy change, run
+`node scripts/check-canonical-route-redirects.mjs --print`; it writes no files.
+Apply the reviewed block to repo and matching runtime nginx, then check both.
+Do not hand-add unreviewed aliases or redirect unknown names to home.
+
 The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
@@ -89,6 +107,8 @@ mobile overflow fails release. It does not prove Google inclusion.
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider
 facts still fail the negative fixtures. The chat embed itself is not changed.
+The 320px JS/no-JS checks also enter five representative pages through their
+slashless/index aliases and verify the actual canonical arrival and raw query.
 
 All active documents now leave SEO metadata owned by their authored HTML. The
 remaining correction and unavailable-listing documents do not mount the legacy

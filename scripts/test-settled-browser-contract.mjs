@@ -146,8 +146,25 @@ try {
       for (const route of routes) {
         const row = { route, javascript, viewport };
         try {
-          run('open', `${browserBase}${route}?appraisily_qa=1`);
+          const aliasEntry = viewport.width === 320 ? {
+            '/': '/index.html',
+            '/location/boston/': '/location/boston',
+            '/appraiser/manhattan-fine-art-appraisers/': '/appraiser/manhattan-fine-art-appraisers',
+            '/compare-art-appraisers/': '/compare-art-appraisers/index.html',
+            '/art-appraisal-inquiry-worksheet/': '/art-appraisal-inquiry-worksheet/index.html',
+          }[route] : null;
+          const entryQuery = aliasEntry
+            ? '?appraisily_qa=1&journey_id=qa-canonical%2B20261007&redirect_probe=one%20two&repeat=one&repeat=two'
+            : '?appraisily_qa=1';
+          run('open', `${browserBase}${aliasEntry || route}${entryQuery}`);
           run('wait', '1500');
+          if (aliasEntry) {
+            const reached = new URL(run('eval', 'location.href').result);
+            if (reached.origin !== browserBase || reached.pathname !== route || reached.search !== entryQuery) {
+              throw new Error(`Native alias navigation lost canonical path or query: ${reached.href}`);
+            }
+            row.aliasNavigation = { from: aliasEntry, reached: reached.href, rawQueryPreserved: true };
+          }
           row.document = run('eval', `(${captureDocument.toString()})(document, ${JSON.stringify(origin)})`).result;
           const policy = unpublished.find((page) => page.route === route);
           if (policy) assertUnpublishedDocumentParity(initial.get(route), row.document, { ...policy, url: `${origin}${route}` });

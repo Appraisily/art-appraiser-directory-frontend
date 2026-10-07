@@ -6,6 +6,7 @@ import path from 'node:path';
 import process from 'node:process';
 import { execFileSync } from 'node:child_process';
 import { assertReviewedInventory } from './settled-document-contract.mjs';
+import { CANONICAL_REDIRECT_MARKER } from './canonical-route-redirects.mjs';
 
 const options = {
   publicDir: '',
@@ -196,6 +197,7 @@ try {
   );
   const smoke = JSON.parse(smokeOutput);
   let settledDocument = null;
+  let canonicalRouting = null;
   if (!consolidated) {
     let parity;
     try {
@@ -215,6 +217,18 @@ try {
       httpRoutes: parity.http.length,
       browserStates: parity.browser.length,
       noJavaScriptStates: parity.browser.filter((row) => row.javascript === false).length,
+    };
+    const routing = JSON.parse(execFileSync(process.execPath, [
+      path.join(options.policyRoot, 'scripts/test-canonical-route-http.mjs'),
+      '--base', `http://127.0.0.1:${port}`,
+      '--policy-root', options.policyRoot,
+    ], { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 }));
+    assert.equal(routing.ok, true, 'Canonical alias/terminal routing contract failed');
+    canonicalRouting = {
+      ok: routing.ok,
+      aliasRequests: routing.aliases.length,
+      canonicalTargets: routing.targets.length,
+      terminalRequests: routing.terminals.length,
     };
   }
   const routeCount = consolidated ? smoke.redirects.length : smoke.http.routes.length;
@@ -284,6 +298,19 @@ try {
         reviewedAliasStatus: alias.status,
         v2BehaviorInactive: expectedBehavior === 'v1',
       };
+      if (!consolidated && !fs.existsSync(path.join(options.legacyArtifact, CANONICAL_REDIRECT_MARKER))) {
+        const routing = JSON.parse(execFileSync(process.execPath, [
+          path.join(options.policyRoot, 'scripts/test-canonical-route-http.mjs'),
+          '--base', legacyBase,
+          '--policy-root', options.policyRoot,
+          '--legacy-artifact', options.legacyArtifact,
+        ], { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 }));
+        assert.equal(routing.ok, true, 'Pre-marker canonical compatibility failed');
+        legacyCompatibility.canonicalRouting = {
+          policy: routing.policy, aliasRequests: routing.aliases.length,
+          terminalRequests: routing.terminals.length, ok: routing.ok,
+        };
+      }
     } finally {
       try {
         execFileSync('docker', ['rm', '--force', legacyContainer], { stdio: 'ignore' });
@@ -305,6 +332,7 @@ try {
     policyRoutes: policyRouteCount,
     noJavaScriptNavigation: consolidated || Boolean(settledDocument?.noJavaScriptStates),
     settledDocument,
+    canonicalRouting,
     consolidated,
     legacyCompatibility,
   }, null, 2));
