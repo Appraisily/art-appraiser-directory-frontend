@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
 import { JSDOM } from 'jsdom';
-import { assertDocumentParity, assertHandoffAttribution, assertProviderEvidence, assertReviewedInventory, captureDocument } from '../scripts/settled-document-contract.mjs';
+import { assertDocumentParity, assertHandoffAttribution, assertProviderEvidence, assertReviewedInventory, assertUnpublishedDocumentParity, captureDocument } from '../scripts/settled-document-contract.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const origin = 'https://art-appraisers-directory.appraisily.com';
@@ -59,4 +59,52 @@ test('negative fixture rejects duplicate settled metadata and lost reviewed fact
     assert.throws(() => assertProviderEvidence({ ...initial, anchors: [] }, record, origin + route), /official provider source link missing/);
     assert.throws(() => assertHandoffAttribution(initial, initial, origin + route), undefined, 'unstamped handoff must fail');
   } finally { dom.window.close(); }
+});
+
+const unpublished = [
+  { file: 'get-listed/index.html', url: `${origin}/get-listed/`, canonical: `${origin}/get-listed/`, robots: 'noindex, follow' },
+  { file: 'appraiser-unavailable.html', url: `${origin}/appraiser/__qa_unknown_provider__/`, canonical: null, robots: 'noindex, nofollow' },
+];
+
+for (const policy of unpublished) test(`${policy.file} has one static metadata/content owner`, () => {
+  const dom = new JSDOM(fs.readFileSync(path.join(root, 'public_site', policy.file), 'utf8'), { url: policy.url });
+  try {
+    const document = dom.window.document;
+    assert.equal(document.querySelector('script[type="module"][src]'), null, 'Support/terminal HTML must not mount the legacy SPA');
+    const snapshot = captureDocument(document, origin);
+    assertUnpublishedDocumentParity(snapshot, snapshot, policy);
+    assert.ok(snapshot.anchors.some((anchor) => /\/(get-listed|contact)(\/|$)/.test(new URL(anchor.destination).pathname)), 'Native correction/contact path missing');
+    assert.ok(!input.sitemapUrls.includes(policy.url));
+  } finally { dom.window.close(); }
+});
+
+test('unpublished parity rejects duplicate metadata, a provider entity and lost native contact', () => {
+  const policy = unpublished[0];
+  const dom = new JSDOM(fs.readFileSync(path.join(root, 'public_site', policy.file), 'utf8'), { url: policy.url });
+  try {
+    const initial = captureDocument(dom.window.document, origin);
+    for (const field of ['canonicals', 'robots', 'descriptions']) {
+      const duplicated = structuredClone(initial);
+      duplicated[field].push(duplicated[field][0]);
+      assert.throws(() => assertUnpublishedDocumentParity(initial, duplicated, policy), undefined, field);
+    }
+    assert.throws(() => assertUnpublishedDocumentParity(initial, { ...initial, businesses: [{ '@type': 'ProfessionalService' }] }, policy), /must not claim a provider/);
+    assert.throws(() => assertUnpublishedDocumentParity(initial, { ...initial, anchors: [] }, policy), /native link disappeared/);
+    assert.throws(() => assertUnpublishedDocumentParity(initial, { ...initial, mainText: 'Legacy replacement' }, policy), /authored mainText/);
+    assert.throws(() => assertDocumentParity(initial, initial, policy.url), /must be indexable/, 'Support policy must not weaken the published gate');
+    assert.throws(() => assertUnpublishedDocumentParity(initial, initial, { ...policy, robots: 'index, follow' }), /must require noindex/);
+  } finally { dom.window.close(); }
+});
+
+test('no active document invokes the legacy React canonical helper', () => {
+  const files = [
+    ...input.sitemapUrls.map((url) => `${new URL(url).pathname.slice(1)}index.html`),
+    'methodology/index.html', 'get-listed/index.html', 'appraiser-unavailable.html', '404.html', '410.html',
+  ];
+  for (const file of files) {
+    const dom = new JSDOM(fs.readFileSync(path.join(root, 'public_site', file), 'utf8'));
+    try {
+      assert.equal(dom.window.document.querySelector('script[type="module"][src*="/assets/index-"]'), null, `${file}: legacy SPA entry must remain inactive`);
+    } finally { dom.window.close(); }
+  }
 });

@@ -72,13 +72,23 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-14 representative routes at desktop, 390px and 320px with JavaScript enabled and
+18 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions. Optional
 `--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
 candidate/live evidence. No production container restart is needed for this test.
 The standard isolated candidate gate runs this contract against the promoted
 candidate; an omitted declared URL, conflicting metadata, lost reviewed facts or
 mobile overflow fails release. It does not prove Google inclusion.
+
+All active documents now leave SEO metadata owned by their authored HTML. The
+remaining correction and unavailable-listing documents do not mount the legacy
+React entry; its unreferenced published bundle has been removed. Inactive React
+canonical helpers are not rewritten. The browser gate covers the noindex
+correction/methodology pages and representative 404/410 provider responses using
+explicit unpublished policies, without relaxing the indexable sitemap contract.
+At 320px it follows the correction page's native contact link and checks the
+preserved source, directory attribution and synthetic QA marker; it never submits
+the contact form. A published-profile canonical remains slash-consistent and clean.
 
 Production publishing is intentionally unavailable through npm. After review,
 promote the complete validated `public_site/` artifact with the standard VPS

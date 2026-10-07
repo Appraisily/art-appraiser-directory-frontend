@@ -67,6 +67,28 @@ export function assertProviderEvidence(snapshot, record, url) {
     `${url}: official provider source link missing`);
 }
 
+// Support and terminal documents are deliberately excluded from the sitemap.
+// Their explicit policies must never relax assertDocumentParity's published gate.
+export function assertUnpublishedDocumentParity(initial, rendered, { url, canonical, robots }) {
+  assert.ok(/\bnoindex\b/i.test(robots), `${url}: unpublished policy must require noindex`);
+  const canonicals = canonical ? [canonical] : [];
+  for (const [label, state] of [['initial', initial], ['rendered', rendered]]) {
+    assert.deepEqual(state.canonicals, canonicals, `${url}: ${label} canonical ownership differs`);
+    assert.deepEqual(state.robots, [robots], `${url}: ${label} robots ownership differs`);
+    assert.equal(state.descriptions.length, 1, `${url}: ${label} must have one description`);
+    assert.equal(state.h1.length, 1, `${url}: ${label} must have one H1`);
+    assert.equal(state.businesses.length, 0, `${url}: unpublished document must not claim a provider entity`);
+    assert.ok(state.mainText, `${url}: ${label} must contain authored content`);
+  }
+  for (const field of ['title', 'descriptions', 'robots', 'h1', 'mainText', 'about', 'businesses']) {
+    assert.deepEqual(rendered[field], initial[field], `${url}: authored ${field} changed after rendering`);
+  }
+  const anchors = new Set(rendered.anchors.map((anchor) => JSON.stringify(anchor)));
+  for (const anchor of initial.anchors) {
+    assert.ok(anchors.has(JSON.stringify(anchor)), `${url}: native link disappeared: ${anchor.destination}`);
+  }
+}
+
 export function assertHandoffAttribution(initial, rendered, url) {
   for (const href of initial.handoffs) {
     const original = new URL(href);

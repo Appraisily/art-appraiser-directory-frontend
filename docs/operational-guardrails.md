@@ -59,6 +59,11 @@ This repo is static-first.
   parity fixtures. The isolated release candidate gate additionally runs all sitemap
   HTTP checks and representative settled browser states at desktop/390px/320px,
   with verified JavaScript-enabled and disabled modes, source dates and native links.
+- Correction and unavailable-listing HTML also retain their static content without
+  a legacy mount. No active document invokes the React canonical helper. The
+  browser gate tests the correction/methodology noindex policies and provider
+  404/410 responses separately from the strict indexable sitemap contract, including
+  native contact navigation with QA/attribution intact and no form submission.
 - Routine `seo:indexing-manifest` is metadata-only. Broad writing requires explicit
   `--write --allow-reviewed-content-write`; it is not a maintenance shortcut.
   Missing declared resource HTML fails closed. Only explicit `--fixture` inputs

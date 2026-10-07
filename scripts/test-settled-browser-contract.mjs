@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import process from 'node:process';
 import { JSDOM } from 'jsdom';
-import { assertDocumentParity, assertHandoffAttribution, assertProviderEvidence, assertReviewedInventory, captureDocument } from './settled-document-contract.mjs';
+import { assertDocumentParity, assertHandoffAttribution, assertProviderEvidence, assertReviewedInventory, assertUnpublishedDocumentParity, captureDocument } from './settled-document-contract.mjs';
 
 const repoRoot = path.resolve(import.meta.dirname, '..');
 const origin = 'https://art-appraisers-directory.appraisily.com';
@@ -22,10 +22,17 @@ const providers = readJson('data/provider-publication-manifest.json').providers;
 const cities = readJson('data/city-publication-decisions.json').cities;
 const resources = readJson('data/directory-resource-pages.json');
 const focal = readJson('scripts/fixtures/customer-qa-browser-matrix.json').expectedProviderLinks;
+const unpublished = [
+  { route: '/get-listed/', status: 200, canonical: `${origin}/get-listed/`, robots: 'noindex, follow' },
+  { route: '/methodology/', status: 200, canonical: `${origin}/methodology/`, robots: 'noindex, follow' },
+  { route: '/appraiser/__qa_unknown_provider__/', status: 404, canonical: null, robots: 'noindex, nofollow' },
+  { route: '/appraiser/amelia-jeffers-auctioneers-appraisers/', status: 410, canonical: null, robots: 'noindex, nofollow' },
+];
 const routes = [
   '/', '/appraiser/', '/location/', '/location/boston/', '/location/baltimore/',
   ...focal, '/appraiser/spalding-nix-fine-art/', '/appraiser/a-and-a-art-appraisals-naples-fl/',
   ...resources.map((page) => page.path),
+  ...unpublished.map((page) => page.route),
 ];
 const viewports = [{ width: 1365, height: 900 }, { width: 390, height: 844 }, { width: 320, height: 844 }];
 const result = { action: 'art-settled-document-contract', ok: false, testedAt: new Date().toISOString(), http: [], browser: [] };
@@ -103,6 +110,18 @@ try {
       } finally { dom.window.close(); }
     }
   }));
+  for (const policy of unpublished) {
+    if (sitemapUrls.includes(`${origin}${policy.route}`)) throw new Error(`Unpublished route leaked into sitemap: ${policy.route}`);
+    const response = await readHttp(`${base}${policy.route}`);
+    if (response.status !== policy.status) throw new Error(`${policy.route}: HTTP ${response.status}, expected ${policy.status}`);
+    const dom = new JSDOM(response.body, { url: `${origin}${policy.route}` });
+    try {
+      const snapshot = captureDocument(dom.window.document, origin);
+      assertUnpublishedDocumentParity(snapshot, snapshot, { ...policy, url: `${origin}${policy.route}` });
+      initial.set(policy.route, snapshot);
+      result.http.push({ route: policy.route, status: response.status, unpublished: true, canonical: snapshot.canonicals[0] || null });
+    } finally { dom.window.close(); }
+  }
   for (const route of routes) if (!initial.has(route)) throw new Error(`Required browser route omitted: ${route}`);
   for (const javascript of [true, false]) {
     const session = `art-parity-${process.pid}-${javascript ? 'js' : 'nojs'}`;
@@ -128,7 +147,9 @@ try {
           run('open', `${browserBase}${route}?appraisily_qa=1`);
           run('wait', '1500');
           row.document = run('eval', `(${captureDocument.toString()})(document, ${JSON.stringify(origin)})`).result;
-          assertDocumentParity(initial.get(route), row.document, `${origin}${route}`);
+          const policy = unpublished.find((page) => page.route === route);
+          if (policy) assertUnpublishedDocumentParity(initial.get(route), row.document, { ...policy, url: `${origin}${route}` });
+          else assertDocumentParity(initial.get(route), row.document, `${origin}${route}`);
           if (javascript) assertHandoffAttribution(initial.get(route), row.document, `${origin}${route}`);
           const provider = providers.find((record) => route === `/appraiser/${record.slug}/`);
           if (provider) assertProviderEvidence(row.document, provider, `${origin}${route}`);
@@ -137,7 +158,7 @@ try {
           if (javascript && row.layout.qaMarker !== 'synthetic_browser') throw new Error(`${route}: synthetic QA marker missing`);
           row.errors = run('errors').errors;
           if (row.errors?.length) throw new Error(`${route}: browser errors ${JSON.stringify(row.errors)}`);
-          if (options.artifactDir && (focal.includes(route) || route === '/')) {
+          if (options.artifactDir && (focal.includes(route) || route === '/' || unpublished.some((page) => page.route === route))) {
             fs.mkdirSync(options.artifactDir, { recursive: true });
             const filename = `${javascript ? 'js' : 'nojs'}-${viewport.width}-${route.replace(/[^a-z0-9-]/g, '_')}.png`;
             run('screenshot', path.join(options.artifactDir, filename));
@@ -161,6 +182,32 @@ try {
             const printed = run('eval', '({calls:window.__qaPrintCalls,privateInputs:document.querySelectorAll("form,input,textarea").length})').result;
             if (printed.calls !== 1 || printed.privateInputs !== 0) throw new Error('Worksheet print/privacy interaction failed');
             row.printInteraction = printed;
+          }
+          if (javascript && viewport.width === 320 && route === '/get-listed/') {
+            const contact = run('eval', 'document.querySelector("a.cta")?.href').result;
+            const target = new URL(contact);
+            if (target.origin !== 'https://appraisily.com' || target.pathname !== '/contact' || target.searchParams.get('source') !== 'art_directory_listing') {
+              throw new Error('Native correction contact destination changed');
+            }
+            if (target.searchParams.get('seo_site') !== 'art_directory' || target.searchParams.get('ref_path') !== route || !target.searchParams.get('journey_id') || target.searchParams.get('appraisily_synthetic') !== 'synthetic_browser') {
+              throw new Error('Native correction contact attribution was not preserved');
+            }
+            // This CLI's coordinate click does not scroll a below-fold link into
+            // view. Scroll normally before the real click; do not replace it with
+            // programmatic navigation or assume a timed delay proves arrival.
+            run('eval', 'document.querySelector("a.cta").scrollIntoView({block:"center"})');
+            run('click', 'a.cta');
+            run('wait', '--url', '**appraisily.com/contact**');
+            run('wait', '--text', 'Contact Appraisily');
+            const reached = run('eval', '({url:location.href,h1:document.querySelector("h1")?.textContent,qa:sessionStorage.getItem("appraisily_qa_marker")})').result;
+            const destination = new URL(reached.url);
+            if (destination.origin !== target.origin || destination.pathname !== target.pathname || reached.h1 !== 'Contact Appraisily' || reached.qa !== 'synthetic_browser') {
+              throw new Error(`Native correction navigation failed: ${JSON.stringify(reached)}`);
+            }
+            for (const [key, value] of target.searchParams) {
+              if (destination.searchParams.get(key) !== value) throw new Error(`Native correction navigation lost ${key}`);
+            }
+            row.contactNavigation = { destination: `${destination.origin}${destination.pathname}`, h1: reached.h1, qa: reached.qa };
           }
           row.ok = true;
         } catch (error) { row.error = error.message; throw error; }
