@@ -249,6 +249,16 @@ atomically, verifies the public route and assets, and rolls back on failure.
 
 ## Image Handling
 
+Large publisher-logo provider cards are omitted; their primary official-website
+links remain. The five retained non-likeness SVG illustrations reserve their
+actual 1200×900 ratio, use decorative empty alt, retain visible captions and
+name their native official-website links. They are not provider identity images.
+The three offer-card PNGs already reserve 56×56px in CSS and use native lazy
+loading; the two small publisher logos retain their correct 48×48 dimensions.
+`npm run test:image-layout` checks every sitemap document and negative fixtures
+as a blocking static-build gate. Browser layout/decoding checks remain required;
+missing attributes alone do not establish measured CLS or Google inclusion.
+
 Provider entity/feed `image` fields describe the actual provider, not Appraisily
 branding or a generated illustration. Omit unknown provider imagery. Labeled
 checked-in non-likeness artwork may remain a page illustration; it is not a

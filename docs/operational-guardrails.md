@@ -24,6 +24,7 @@ This repo is static-first.
 - Validate initial/settled/no-JS parity against isolated nginx: `npm run test:settled-browser`
 - Validate explicit provider/Appraisily handoffs and provider-first source order: `npm run test:provider-handoff`
 - Reject known publisher/non-likeness images as provider identity in schema/feeds: `npm run test:provider-images`
+- Validate reserved image space, decorative alternatives and native link purposes: `npm run test:image-layout`
 - Validate exact artifact-gated canonical aliases: `npm run test:canonical-routing`
 - Validate GET/HEAD redirects and terminal routes against isolated nginx: `npm run test:canonical-routing-http`
 - Refresh sitemap/indexing metadata only: `npm run seo:indexing-manifest`
