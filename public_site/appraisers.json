@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T18:54:23.911Z",
+  "generatedAt": "2026-10-07T20:30:39.766Z",
   "count": 209,
   "appraisers": [
     {
@@ -1362,7 +1362,7 @@
       "description": "Los Angeles and Orange County art advisory that appraises twentieth-century, postwar, and contemporary art.",
       "website": "https://dcfineart.com/",
       "address": {
-        "city": "Los Angeles",
+        "city": "Newport Beach",
         "region": "CA",
         "country": "US"
       },

@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import test from 'node:test';
 import { JSDOM } from 'jsdom';
+import { inspectProviderFields } from '/srv/repos/tools/directory-site-utils/provider-field-evidence.mjs';
 
 const root = new URL('../', import.meta.url);
 const read = file => fs.readFileSync(new URL(file, root), 'utf8');
@@ -57,4 +58,82 @@ test('every provider filter option has a real static row and every row is select
   assert.deepEqual(new Set(options), facets);
   assert.equal(rows.length, feed.length);
   assert.ok(!options.includes('Washington, NY') && !options.includes('Remote, NY') && !options.includes('350 5th Ave, NY'));
+});
+
+test('Open names the current principal with a separate sourced field check', () => {
+  const record = manifest.providers.find(p => p.slug === 'open-to-the-public');
+  const document = profile(record.slug);
+  assert.match(document.querySelector('[data-provider-specific-about]').textContent, /led by Kaycee Baron/);
+  assert.match(document.querySelector('[data-provider-field-check="principal_name"]').textContent,
+    /2026-10-07.*Kaycee Baron.*previously practiced as Kaycee Olsen/);
+  assert.equal(record.fieldEvidence.principal_name.value, 'Kaycee Baron');
+  assert.equal(record.fieldEvidence.principal_name.sourceUrl, 'https://opentothepublic.art/about/');
+  assert.equal(record.fieldEvidence.principal_name.checkedAt, '2026-10-07');
+  assert.doesNotMatch(document.body.textContent, /led by Kaycee Olsen|identifies Kaycee Olsen as/);
+  assert.equal(record.verifiedAt, '2026-07-15');
+  assert.equal(schema(document).dateModified, record.verifiedAt);
+  assert.equal(record.publicationStatus, 'verified');
+});
+
+test('DeCarrera distinguishes its contact locality from service coverage', () => {
+  const record = manifest.providers.find(p => p.slug === 'decarrera-fine-art');
+  const document = profile(record.slug);
+  assert.equal(schema(document).address.addressLocality, 'Newport Beach');
+  assert.equal(schema(document).address.addressRegion, 'CA');
+  assert.equal(document.querySelector('[data-provider-locality]').textContent,
+    'Provider-published contact locality: Newport Beach, California. Service area: Los Angeles and Orange County.');
+  const check = document.querySelector('[data-provider-field-check="primary_location"]');
+  assert.match(check.textContent, /2026-10-07/);
+  assert.equal(check.querySelector('a').href, 'https://dcfineart.com/contact/');
+  assert.match(document.body.textContent, /Confirm appointment and inspection arrangements directly/);
+  assert.equal(record.fieldEvidence.primary_location.sourceUrl, 'https://dcfineart.com/contact/');
+  assert.equal(record.fieldEvidence.primary_location.checkedAt, '2026-10-07');
+  assert.deepEqual(record.fieldEvidence.primary_location.value, {city: 'Newport Beach', region: 'CA', country: 'US'});
+  assert.equal(record.verifiedAt, '2026-10-01');
+  assert.equal(schema(document).dateModified, record.verifiedAt);
+  assert.equal(record.publicationStatus, 'verified');
+});
+
+test('DeCarrera browse and comparison labels retain the contact/service boundary', () => {
+  const browse = new JSDOM(read('public_site/appraiser/index.html')).window.document;
+  const row = browse.querySelector('a[href="/appraiser/decarrera-fine-art/"]').closest('[data-browse-item]');
+  assert.equal(row.dataset.browseFacet, 'Newport Beach, CA');
+  assert.match(row.dataset.browseSearch, /Newport Beach.*Los Angeles.*Orange County/);
+  assert.match(row.textContent, /Contact locality: Newport Beach, CA.*Service area: Los Angeles and Orange County/);
+  const locations = new JSDOM(read('public_site/location/index.html')).window.document;
+  assert.equal(locations.querySelector('a[href="/appraiser/decarrera-fine-art/"]').textContent,
+    'DeCarrera Fine Art — Newport Beach contact locality; serves Los Angeles and Orange County');
+  const collection = [...locations.querySelectorAll('script[type="application/ld+json"]')]
+    .map(node => JSON.parse(node.textContent)).find(node => node['@type'] === 'CollectionPage');
+  assert.equal(collection.mainEntity.itemListElement.find(node => node.url.endsWith('/decarrera-fine-art/')).name,
+    locations.querySelector('a[href="/appraiser/decarrera-fine-art/"]').textContent);
+  const comparison = new JSDOM(read('public_site/compare-art-appraisers/index.html')).window.document;
+  const compared = comparison.querySelector('[data-provider-slug="decarrera-fine-art"]');
+  assert.match(compared.textContent, /Contact locality: Newport Beach.*Service area: Los Angeles and Orange County/);
+  assert.equal(compared.querySelector('time').getAttribute('datetime'), '2026-10-01');
+  assert.match(compared.querySelector('[data-provider-field-check]').textContent, /2026-10-07/);
+});
+
+test('corrected feeds preserve original review dates and provider eligibility', () => {
+  for (const file of ['public_site/appraisers.json', 'public_site/directory.json']) {
+    const providers = JSON.parse(read(file)).appraisers;
+    const decarrera = providers.find(p => p.slug === 'decarrera-fine-art');
+    assert.equal(decarrera.address.city, 'Newport Beach');
+    assert.equal(decarrera.source.verifiedAt, '2026-10-01');
+    assert.equal(providers.find(p => p.slug === 'open-to-the-public').source.verifiedAt, '2026-07-15');
+    assert.equal(providers.length, 209);
+  }
+  assert.equal([...read('public_site/sitemap.xml').matchAll(/<loc>/g)].length, 292);
+});
+
+test('field-evidence regression rejects restoring DeCarrera to a Los Angeles office', () => {
+  const record = manifest.providers.find(p => p.slug === 'decarrera-fine-art');
+  const document = profile(record.slug);
+  assert.equal(inspectProviderFields(record, document).failures.length, 0);
+  const node = document.querySelector('script[type="application/ld+json"]');
+  const provider = JSON.parse(node.textContent);
+  provider.address.addressLocality = 'Los Angeles';
+  node.textContent = JSON.stringify(provider);
+  assert.ok(inspectProviderFields(record, document).failures.some(failure =>
+    failure.code === 'primary-location-evidence-mismatch' && failure.field === 'addressLocality'));
 });

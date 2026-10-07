@@ -82,6 +82,12 @@ The original October 1 provider-review date is retained; the new field check has
 its own date. The focused regression protects profile/city/schema/feed parity and
 the fail-closed, explicitly approved service-area exception in the Art validator.
 
+The separate [reviewed-provider field corrections](docs/reviewed-provider-field-corrections-20261007.md)
+use Open to the Public's current principal name and distinguish DeCarrera's
+Newport Beach contact locality from Los Angeles/Orange County service coverage.
+Original provider reviews and eligibility remain; the October 7 field checks
+are recorded separately and protected by `test:resources`.
+
 Published slashless provider/city/resource paths and only the root/two-resource
 `index.html` equivalents have exact, case-sensitive canonical aliases. The
 reviewed nginx map uses the original request URI, so internal index lookups cannot

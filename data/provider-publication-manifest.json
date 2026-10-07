@@ -8257,7 +8257,16 @@
         "https://opentothepublic.art/",
         "https://opentothepublic.art/about/",
         "https://opentothepublic.art/art-appraisals/"
-      ]
+      ],
+      "fieldEvidence": {
+        "principal_name": {
+          "value": "Kaycee Baron",
+          "previousName": "Kaycee Olsen",
+          "sourceUrl": "https://opentothepublic.art/about/",
+          "checkedAt": "2026-10-07",
+          "note": "The official About page names Kaycee Baron and explicitly says she previously practiced as Kaycee Olsen. Principal-name correction only; original provider review and provider-attributed qualification wording are retained."
+        }
+      }
     },
     {
       "slug": "orchestrated-artwork",
@@ -12213,7 +12222,25 @@
         "specialties"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
-      "canonicalProviderId": "provider:decarrera-fine-art"
+      "canonicalProviderId": "provider:decarrera-fine-art",
+      "fieldEvidence": {
+        "primary_location": {
+          "value": {
+            "city": "Newport Beach",
+            "region": "CA",
+            "country": "US"
+          },
+          "sourceUrl": "https://dcfineart.com/contact/",
+          "checkedAt": "2026-10-07",
+          "note": "Provider-published contact locality, not a verified walk-in office or inspection arrangement. The official contact page publishes Newport Beach, California; Los Angeles/Orange County describes service coverage."
+        },
+        "service_area": {
+          "value": "Los Angeles and Orange County",
+          "sourceUrl": "https://dcfineart.com/contact/",
+          "checkedAt": "2026-10-07",
+          "note": "Provider-published coverage is distinct from contact locality. It does not establish a Los Angeles office or guarantee inspection availability."
+        }
+      }
     }
   ],
   "policy": "Index only providers whose official website confirms identity, primary location, fine-art appraisal relevance, and useful provider-specific facts. All other profiles remain under review and are excluded from discovery surfaces.",
