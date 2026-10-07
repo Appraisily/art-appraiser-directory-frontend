@@ -1,118 +1,182 @@
 #!/usr/bin/env node
-import { execFileSync } from 'node:child_process';
+import { execFile, execFileSync } from 'node:child_process';
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import process from 'node:process';
+import { JSDOM } from 'jsdom';
+import { assertDocumentParity, assertHandoffAttribution, assertProviderEvidence, assertReviewedInventory, captureDocument } from './settled-document-contract.mjs';
 
 const repoRoot = path.resolve(import.meta.dirname, '..');
-const options = {
-  artifactDir: '',
-  receipt: '',
-};
-for (let index = 2; index < process.argv.length; index += 1) {
+const origin = 'https://art-appraisers-directory.appraisily.com';
+const options = { artifactDir: '', receipt: '', base: '', policyRoot: repoRoot };
+for (let index = 2; index < process.argv.length; index += 2) {
   const flag = process.argv[index];
   const value = process.argv[index + 1];
-  if (flag === '--artifact-dir') options.artifactDir = path.resolve(value || '');
-  else if (flag === '--receipt') options.receipt = path.resolve(value || '');
-  else throw new Error(`Unknown or incomplete argument: ${flag}`);
-  index += 1;
+  if (!value || !['--artifact-dir', '--receipt', '--base', '--policy-root'].includes(flag)) throw new Error(`Unknown or incomplete argument: ${flag}`);
+  const key = { '--artifact-dir': 'artifactDir', '--policy-root': 'policyRoot' }[flag] || flag.slice(2);
+  options[key] = flag === '--base' ? value.replace(/\/$/, '') : path.resolve(value);
 }
-
-function docker(args) {
-  return execFileSync('docker', args, {
-    encoding: 'utf8',
-    maxBuffer: 8 * 1024 * 1024,
-  }).trim();
-}
-
-const image = docker([
-  'inspect',
-  'art-appraisers-directory',
-  '--format',
-  '{{.Image}}',
-]);
-const name = `art-directory-browser-contract-${process.pid}`;
-const agentBrowserSocketDir = `/tmp/art-directory-agent-browser-${process.pid}`;
-
-try {
-  fs.mkdirSync(agentBrowserSocketDir, { recursive: true });
-  docker([
-    'run',
-    '--rm',
-    '-d',
-    '--name',
-    name,
-    '-p',
-    '127.0.0.1::8080',
-    '-v',
-    `${path.join(repoRoot, 'nginx.conf')}:/etc/nginx/nginx.conf:ro`,
-    '-v',
-    `${path.join(repoRoot, 'public_site')}:/usr/share/nginx/html:ro`,
-    image,
-  ]);
-  const portOutput = docker(['port', name, '8080/tcp']);
-  const port = portOutput.match(/:(\d+)\s*$/)?.[1];
-  if (!port) throw new Error(`Could not resolve mapped port from ${portOutput}`);
-  const base = `http://127.0.0.1:${port}`;
-
-  const sitemap = fs.readFileSync(
-    path.join(repoRoot, 'public_site', 'sitemap.xml'),
-    'utf8'
-  );
-  const routes = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(
-    (match) => new URL(match[1]).pathname
-  );
-  if (routes.length !== 8) {
-    throw new Error(`Expected the fixed eight-URL cohort; found ${routes.length}`);
-  }
-
-  const args = [
-    '/srv/repos/tools/smoke/directory-static-contract.mjs',
-    '--base',
-    base,
-    '--canonical-base',
-    'https://art-appraisers-directory.appraisily.com',
-    '--expected-sitemap-count',
-    '8',
-    '--policy-root',
-    repoRoot,
-    '--browser-matrix',
-    path.join(repoRoot, 'scripts/fixtures/customer-qa-browser-matrix.json'),
-  ];
-  for (const route of routes) args.push('--route', route);
-  if (options.artifactDir) {
-    fs.mkdirSync(options.artifactDir, { recursive: true });
-    args.push('--artifact-dir', options.artifactDir);
-  }
-  const output = execFileSync(process.execPath, args, {
-    encoding: 'utf8',
-    env: {
-      ...process.env,
-      AGENT_BROWSER_SOCKET_DIR: agentBrowserSocketDir,
-    },
-    maxBuffer: 64 * 1024 * 1024,
+const readJson = (file) => JSON.parse(fs.readFileSync(path.join(options.policyRoot, file), 'utf8'));
+const providers = readJson('data/provider-publication-manifest.json').providers;
+const cities = readJson('data/city-publication-decisions.json').cities;
+const resources = readJson('data/directory-resource-pages.json');
+const focal = readJson('scripts/fixtures/customer-qa-browser-matrix.json').expectedProviderLinks;
+const routes = [
+  '/', '/appraiser/', '/location/', '/location/boston/', '/location/baltimore/',
+  ...focal, '/appraiser/spalding-nix-fine-art/', '/appraiser/a-and-a-art-appraisals-naples-fl/',
+  ...resources.map((page) => page.path),
+];
+const viewports = [{ width: 1365, height: 900 }, { width: 390, height: 844 }, { width: 320, height: 844 }];
+const result = { action: 'art-settled-document-contract', ok: false, testedAt: new Date().toISOString(), http: [], browser: [] };
+const docker = (args) => execFileSync('docker', args, { encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }).trim();
+const container = `art-directory-browser-contract-${process.pid}`;
+const socketDir = fs.mkdtempSync(path.join(os.tmpdir(), 'art-directory-browser-'));
+let startedContainer = false;
+const sessions = [];
+let base = options.base;
+async function readHttp(url) {
+  return new Promise((resolve, reject) => {
+    execFile('curl', ['--silent', '--show-error', '--max-time', '20', '--write-out', '\n%{http_code}', url],
+      { encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }, (error, output) => {
+        if (error) return reject(error);
+        const end = output.lastIndexOf('\n');
+        resolve({ status: Number(output.slice(end + 1)), body: output.slice(0, end) });
+      });
   });
-  const result = JSON.parse(output);
-  const receipt = {
-    ...result,
-    candidate: {
-      publicDir: path.join(repoRoot, 'public_site'),
-      nginxConfig: path.join(repoRoot, 'nginx.conf'),
-      image,
-      testedAt: new Date().toISOString(),
-    },
-  };
-  const serialized = `${JSON.stringify(receipt, null, 2)}\n`;
+}
+function persist() {
   if (options.receipt) {
     fs.mkdirSync(path.dirname(options.receipt), { recursive: true });
-    fs.writeFileSync(options.receipt, serialized);
+    fs.writeFileSync(options.receipt, `${JSON.stringify(result, null, 2)}\n`);
   }
-  process.stdout.write(serialized);
-} finally {
-  try {
-    docker(['rm', '-f', name]);
-  } catch {
-    // The --rm container may already have exited.
-  }
-  fs.rmSync(agentBrowserSocketDir, { recursive: true, force: true });
 }
+try {
+  if (!base) {
+    const image = docker(['inspect', 'art-appraisers-directory', '--format', '{{.Image}}']);
+    docker(['run', '--rm', '-d', '--name', container, '-p', '127.0.0.1::8080',
+      '-v', `${path.join(repoRoot, 'nginx.conf')}:/etc/nginx/nginx.conf:ro`,
+      '-v', `${path.join(repoRoot, 'public_site')}:/usr/share/nginx/html:ro`, image]);
+    startedContainer = true;
+    const port = docker(['port', container, '8080/tcp']).match(/:(\d+)\s*$/)?.[1];
+    if (!port) throw new Error('Unable to resolve isolated nginx port');
+    base = `http://127.0.0.1:${port}`;
+    result.candidate = { publicDir: path.join(repoRoot, 'public_site'), nginx: path.join(repoRoot, 'nginx.conf'), image };
+    let ready = false;
+    for (let attempt = 0; attempt < 30; attempt += 1) {
+      try {
+        if ((await readHttp(`${base}/health`)).status === 200) { ready = true; break; }
+      } catch { /* The isolated container can still be starting. */ }
+      await new Promise((resolve) => setTimeout(resolve, 200));
+    }
+    if (!ready) throw new Error('Isolated nginx candidate did not become ready');
+  }
+  result.base = base;
+  const browserOrigin = new URL(base);
+  if (['127.0.0.1', 'localhost'].includes(browserOrigin.hostname)) {
+    // Chrome resolves *.localhost to loopback. The existing tracker derives its
+    // directory owner from the Art hostname prefix, not the canonical tag.
+    browserOrigin.hostname = 'art-appraisers-directory.localhost';
+  }
+  const browserBase = browserOrigin.origin;
+  result.browserBase = browserBase;
+  const sitemapResponse = await readHttp(`${base}/sitemap.xml`);
+  if (sitemapResponse.status !== 200) throw new Error(`Sitemap returned ${sitemapResponse.status}`);
+  const sitemapUrls = [...sitemapResponse.body.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+  result.sitemapCount = assertReviewedInventory({ providers, cities, resources, sitemapUrls });
+  const initial = new Map();
+  let cursor = 0;
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (cursor < sitemapUrls.length) {
+      const url = sitemapUrls[cursor++];
+      const route = new URL(url).pathname;
+      const response = await readHttp(`${base}${route}`);
+      if (response.status !== 200) throw new Error(`${route}: HTTP ${response.status}`);
+      const dom = new JSDOM(response.body, { url });
+      try {
+        const snapshot = captureDocument(dom.window.document, origin);
+        assertDocumentParity(snapshot, snapshot, url);
+        const provider = providers.find((record) => route === `/appraiser/${record.slug}/`);
+        if (provider) assertProviderEvidence(snapshot, provider, url);
+        if (routes.includes(route)) initial.set(route, snapshot);
+        result.http.push({ route, status: response.status, canonical: snapshot.canonicals[0] });
+      } finally { dom.window.close(); }
+    }
+  }));
+  for (const route of routes) if (!initial.has(route)) throw new Error(`Required browser route omitted: ${route}`);
+  for (const javascript of [true, false]) {
+    const session = `art-parity-${process.pid}-${javascript ? 'js' : 'nojs'}`;
+    const args = javascript ? '--no-sandbox' : '--no-sandbox,--blink-settings=scriptEnabled=false';
+    const run = (...command) => {
+      const raw = execFileSync('agent-browser', ['--session', session, '--json', ...command], {
+        encoding: 'utf8', timeout: 45000, maxBuffer: 8 * 1024 * 1024,
+        env: { ...process.env, AGENT_BROWSER_SOCKET_DIR: socketDir, AGENT_BROWSER_ARGS: args },
+      });
+      const output = JSON.parse(raw);
+      if (!output.success) throw new Error(output.error || raw);
+      return output.data;
+    };
+    sessions.push(run);
+    run('open', 'data:text/html,<h1>Script execution probe</h1><script>window.__qaScriptsRan=true</script>');
+    const scriptsRan = run('eval', 'window.__qaScriptsRan===true').result;
+    if (scriptsRan !== javascript) throw new Error(`JavaScript mode probe failed: ${javascript}`);
+    for (const viewport of viewports) {
+      run('set', 'viewport', String(viewport.width), String(viewport.height));
+      for (const route of routes) {
+        const row = { route, javascript, viewport };
+        try {
+          run('open', `${browserBase}${route}?appraisily_qa=1`);
+          run('wait', '1500');
+          row.document = run('eval', `(${captureDocument.toString()})(document, ${JSON.stringify(origin)})`).result;
+          assertDocumentParity(initial.get(route), row.document, `${origin}${route}`);
+          if (javascript) assertHandoffAttribution(initial.get(route), row.document, `${origin}${route}`);
+          const provider = providers.find((record) => route === `/appraiser/${record.slug}/`);
+          if (provider) assertProviderEvidence(row.document, provider, `${origin}${route}`);
+          row.layout = run('eval', '({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,h1Visible:!!document.querySelector("h1")?.getClientRects().length,qaMarker:sessionStorage.getItem("appraisily_qa_marker")})').result;
+          if (row.layout.scrollWidth > viewport.width + 1 || !row.layout.h1Visible) throw new Error(`${route}: invalid layout ${JSON.stringify(row.layout)}`);
+          if (javascript && row.layout.qaMarker !== 'synthetic_browser') throw new Error(`${route}: synthetic QA marker missing`);
+          row.errors = run('errors').errors;
+          if (row.errors?.length) throw new Error(`${route}: browser errors ${JSON.stringify(row.errors)}`);
+          if (options.artifactDir && (focal.includes(route) || route === '/')) {
+            fs.mkdirSync(options.artifactDir, { recursive: true });
+            const filename = `${javascript ? 'js' : 'nojs'}-${viewport.width}-${route.replace(/[^a-z0-9-]/g, '_')}.png`;
+            run('screenshot', path.join(options.artifactDir, filename));
+            row.screenshot = filename;
+          }
+          if (javascript && viewport.width === 390 && route === '/appraiser/') {
+            run('fill', '[data-browse-query]', 'zzzz-no-such-directory-record');
+            const shown = () => run('eval', 'document.querySelectorAll("[data-browse-item]:not([hidden])").length').result;
+            if (shown() !== 0) throw new Error('Real-browser empty filter did not hide listings');
+            run('click', '[data-browse-reset]');
+            const total = providers.filter((record) => ['verified', 'limited'].includes(record.publicationStatus)).length;
+            if (shown() !== total) throw new Error('Real-browser reset did not restore the complete roster');
+            run('fill', '[data-browse-query]', 'Heidi Vaughan');
+            if (shown() !== 1) throw new Error('Real-browser provider-name filter failed');
+            row.filterInteraction = { empty: 0, reset: total, name: 1 };
+            run('click', '[data-browse-reset]');
+          }
+          if (javascript && viewport.width === 390 && route === '/art-appraisal-inquiry-worksheet/') {
+            run('eval', 'window.__qaPrintCalls=0;window.print=()=>{window.__qaPrintCalls+=1}');
+            run('click', '[data-print-worksheet]');
+            const printed = run('eval', '({calls:window.__qaPrintCalls,privateInputs:document.querySelectorAll("form,input,textarea").length})').result;
+            if (printed.calls !== 1 || printed.privateInputs !== 0) throw new Error('Worksheet print/privacy interaction failed');
+            row.printInteraction = printed;
+          }
+          row.ok = true;
+        } catch (error) { row.error = error.message; throw error; }
+        finally { result.browser.push(row); persist(); }
+      }
+    }
+    run('close');
+  }
+  result.ok = true;
+} catch (error) {
+  result.error = error.stack || error.message;
+  process.exitCode = 1;
+} finally {
+  for (const run of sessions) { try { run('close'); } catch { /* Only this run's sessions. */ } }
+  if (startedContainer) { try { docker(['rm', '-f', container]); } catch { /* --rm may already have exited. */ } }
+  fs.rmSync(socketDir, { recursive: true, force: true });
+  persist();
+}
+console.log(JSON.stringify(result, null, 2));

@@ -26,6 +26,8 @@ function parseArgs(argv) {
     publicDir: path.resolve(process.cwd(), 'public_site'),
     write: false,
     metadataOnly: false,
+    fixture: false,
+    reviewedContentWrite: false,
   };
 
   const args = [...argv];
@@ -46,6 +48,12 @@ function parseArgs(argv) {
         options.write = true;
         options.metadataOnly = true;
         break;
+      case '--fixture':
+        options.fixture = true;
+        break;
+      case '--allow-reviewed-content-write':
+        options.reviewedContentWrite = true;
+        break;
       case '--check':
         options.write = false;
         break;
@@ -54,6 +62,12 @@ function parseArgs(argv) {
     }
   }
 
+  if (options.write && !options.metadataOnly && !options.reviewedContentWrite) {
+    throw new Error('Content/robots writes require --allow-reviewed-content-write; normal maintenance uses --write-metadata');
+  }
+  if (options.fixture && options.publicDir === path.join(REPO_ROOT, 'public_site')) {
+    throw new Error('--fixture cannot relax the canonical production artifact');
+  }
   return options;
 }
 
@@ -297,7 +311,7 @@ async function buildCityRecords(publicDir, cityDecisions, write) {
   return records.sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-async function listResourceRecords(publicDir) {
+async function listResourceRecords(publicDir, fixture = false) {
   const pages = JSON.parse(await fs.readFile(RESOURCE_PAGES_PATH, 'utf8'));
   const records = [];
   for (const page of pages) {
@@ -306,7 +320,8 @@ async function listResourceRecords(publicDir) {
     try {
       html = await fs.readFile(path.join(publicDir, page.path.slice(1), 'index.html'), 'utf8');
     } catch (error) {
-      if (error.code === 'ENOENT') continue; // Small metadata-only fixtures omit resource documents.
+      if (error.code === 'ENOENT' && fixture) continue;
+      if (error.code === 'ENOENT') throw new Error(`Declared resource document missing: ${page.path}; only explicit --fixture inputs may omit resources`);
       throw error;
     }
     const url = `${SITE_ORIGIN}${page.path}`;
@@ -352,7 +367,7 @@ async function main() {
     options.write && !options.metadataOnly
   );
   const cities = await buildCityRecords(options.publicDir, cityDecisions, options.write && !options.metadataOnly);
-  const resources = await listResourceRecords(options.publicDir);
+  const resources = await listResourceRecords(options.publicDir, options.fixture);
   const manifest = buildManifest({ profiles, cities, resources });
   const sitemapUrls = [
     `${SITE_ORIGIN}/`,

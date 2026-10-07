@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import process from 'node:process';
 import { execFileSync } from 'node:child_process';
+import { assertReviewedInventory } from './settled-document-contract.mjs';
 
 const options = {
   publicDir: '',
@@ -34,7 +35,7 @@ function usesConsolidatedHost(nginxSource) {
   );
 }
 
-function candidateSmokeArgs({ base, nginxSource }) {
+function candidateSmokeArgs({ base, nginxSource, sitemapCount = 293 }) {
   if (usesConsolidatedHost(nginxSource)) {
     return [
       '/srv/repos/tools/smoke/art-directory-retirement-contract.mjs',
@@ -46,14 +47,14 @@ function candidateSmokeArgs({ base, nginxSource }) {
     '/srv/repos/tools/smoke/directory-static-contract.mjs',
     '--base', base,
     '--canonical-base', 'https://art-appraisers-directory.appraisily.com',
-    '--expected-sitemap-count', '293',
+    '--expected-sitemap-count', String(sitemapCount),
     '--route', '/',
     '--route', '/compare-art-appraisers/',
     '--route', '/art-appraisal-inquiry-worksheet/',
     '--route', '/location/',
     '--route', '/location/boston/',
     '--route', '/location/chicago/',
-    '--browser-route', '/',
+    '--browser-route', '/?appraisily_qa=1',
   ];
 }
 
@@ -110,7 +111,7 @@ if (options.selfTest) {
       '--route', '/location/',
       '--route', '/location/boston/',
       '--route', '/location/chicago/',
-      '--browser-route', '/',
+      '--browser-route', '/?appraisily_qa=1',
     ],
   );
   assert.equal(
@@ -146,6 +147,15 @@ const hashFile = (filename) =>
   crypto.createHash('sha256').update(fs.readFileSync(filename)).digest('hex');
 const nginxSource = fs.readFileSync(options.nginx, 'utf8');
 const consolidated = usesConsolidatedHost(nginxSource);
+const sitemap = fs.readFileSync(path.join(options.publicDir, 'sitemap.xml'));
+const sitemapUrls = [...sitemap.toString('utf8').matchAll(/<loc>\s*([\s\S]*?)\s*<\/loc>/gi)].map((match) => match[1]);
+const readPolicy = (file) => JSON.parse(fs.readFileSync(path.join(options.policyRoot, 'data', file), 'utf8'));
+const sitemapUrlCount = consolidated ? sitemapUrls.length : assertReviewedInventory({
+  providers: readPolicy('provider-publication-manifest.json').providers,
+  cities: readPolicy('city-publication-decisions.json').cities,
+  resources: readPolicy('directory-resource-pages.json'),
+  sitemapUrls,
+});
 const container = `art-directory-candidate-${process.pid}-${Date.now()}`;
 try {
   execFileSync('docker', [
@@ -180,14 +190,33 @@ try {
       nginxSource,
       registry: options.registry,
       policyRoot: options.policyRoot,
+      sitemapCount: sitemapUrlCount,
     }),
-    { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 },
+    { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024, env: { ...process.env, AGENT_BROWSER_ARGS: '--no-sandbox' } },
   );
   const smoke = JSON.parse(smokeOutput);
-  const sitemap = fs.readFileSync(path.join(options.publicDir, 'sitemap.xml'));
-  const sitemapUrlCount = [
-    ...sitemap.toString('utf8').matchAll(/<loc>\s*([\s\S]*?)\s*<\/loc>/gi),
-  ].length;
+  let settledDocument = null;
+  if (!consolidated) {
+    let parity;
+    try {
+      parity = JSON.parse(execFileSync(process.execPath, [
+        path.join(options.policyRoot, 'scripts/test-settled-browser-contract.mjs'),
+        '--base', `http://127.0.0.1:${port}`,
+        '--policy-root', options.policyRoot,
+      ], { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 }));
+    } catch (error) {
+      const failed = error.stdout ? JSON.parse(error.stdout) : null;
+      throw new Error(`Settled document contract failed: ${failed?.error || error.message}`);
+    }
+    assert.equal(parity.ok, true, 'Settled document contract failed');
+    settledDocument = {
+      ok: parity.ok,
+      sitemapCount: parity.sitemapCount,
+      httpRoutes: parity.http.length,
+      browserStates: parity.browser.length,
+      noJavaScriptStates: parity.browser.filter((row) => row.javascript === false).length,
+    };
+  }
   const routeCount = consolidated ? smoke.redirects.length : smoke.http.routes.length;
   const policyRouteCount = consolidated
     ? smoke.terminal.length
@@ -274,7 +303,8 @@ try {
     sitemapUrlCount,
     routes: routeCount,
     policyRoutes: policyRouteCount,
-    noJavaScriptNavigation: consolidated || Boolean(smoke.browser),
+    noJavaScriptNavigation: consolidated || Boolean(settledDocument?.noJavaScriptStates),
+    settledDocument,
     consolidated,
     legacyCompatibility,
   }, null, 2));

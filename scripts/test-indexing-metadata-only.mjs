@@ -18,7 +18,11 @@ try {
     fs.mkdirSync(path.dirname(file), { recursive: true });
     fs.writeFileSync(file, html);
   }
-  execFileSync(process.execPath, [new URL('./build-indexing-manifest.mjs', import.meta.url).pathname, '--public-dir', fixture, '--write-metadata'], { stdio: 'pipe' });
+  const script = new URL('./build-indexing-manifest.mjs', import.meta.url).pathname;
+  assert.throws(() => execFileSync(process.execPath, [script, '--public-dir', fixture, '--write-metadata'], { stdio: 'pipe' }), /Declared resource document missing/);
+  assert.throws(() => execFileSync(process.execPath, [script, '--public-dir', fixture, '--write'], { stdio: 'pipe' }), /allow-reviewed-content-write/);
+  assert.throws(() => execFileSync(process.execPath, [script, '--public-dir', 'public_site', '--fixture', '--check'], { stdio: 'pipe' }), /cannot relax/);
+  execFileSync(process.execPath, [script, '--public-dir', fixture, '--write-metadata', '--fixture'], { stdio: 'pipe' });
   for (const [name, html] of Object.entries(documents)) assert.equal(fs.readFileSync(path.join(fixture, name), 'utf8'), html, `${name} must not be regenerated or have robots changed`);
   assert.ok(fs.readFileSync(path.join(fixture, 'sitemap.xml'), 'utf8').includes('/appraiser/mir-appraisal-services/'));
   assert.equal(JSON.parse(fs.readFileSync(path.join(fixture, 'indexing-manifest.json'))).counts.profiles, 1);

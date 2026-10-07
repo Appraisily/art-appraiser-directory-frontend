@@ -43,11 +43,17 @@ After individually reviewing HTML and publication decisions, refresh only the
 sitemap and indexing metadata without regenerating browse hubs or changing robots:
 
 ```bash
-node scripts/build-indexing-manifest.mjs --write-metadata
+npm run seo:indexing-manifest
 npm run build:llm-feeds
 node scripts/build-art-route-registry.mjs
 node scripts/build-historical-url-ledger.mjs
 ```
+
+`seo:indexing-manifest` is metadata-only. Broad content/robots-writing mode requires
+the explicit `--write --allow-reviewed-content-write` arguments and is not routine
+maintenance. A declared resource missing from a production input is a hard failure;
+`--fixture` only relaxes resource presence for intentionally minimal nonproduction
+test inputs and is rejected for the canonical `public_site/` directory.
 
 Keep the central route registry and runtime nginx provider allowlist synchronized
 with the candidate before validation and release. The September 30 expansion adds
@@ -61,6 +67,18 @@ them without changing provider eligibility or city/profile content. The comparis
 preserves original provider source-review dates. The worksheet uses native browser
 print and has no form or customer-data submission. `check:static` includes the
 focused resource regression suite. The current sitemap contains 293 URLs.
+
+The five original reviewed profiles serve their authored HTML without mounting
+the legacy SPA, preserving source dates, specialties and services. `test:resources`
+includes metadata/content parity negative fixtures. `npm run test:settled-browser`
+checks every sitemap URL against the reviewed manifest/city/resource inventory and
+14 representative routes at desktop, 390px and 320px with JavaScript enabled and
+actually disabled. It uses isolated nginx and named browser sessions. Optional
+`--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
+candidate/live evidence. No production container restart is needed for this test.
+The standard isolated candidate gate runs this contract against the promoted
+candidate; an omitted declared URL, conflicting metadata, lost reviewed facts or
+mobile overflow fails release. It does not prove Google inclusion.
 
 Production publishing is intentionally unavailable through npm. After review,
 promote the complete validated `public_site/` artifact with the standard VPS

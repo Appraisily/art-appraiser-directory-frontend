@@ -21,6 +21,8 @@ This repo is static-first.
 - Validate TypeScript: `npm run typecheck`
 - Validate provider/city/tracking parity: `npm run check:remediation-contract`
 - Validate interaction states and telemetry: `npm run test:interactions`
+- Validate initial/settled/no-JS parity against isolated nginx: `npm run test:settled-browser`
+- Refresh sitemap/indexing metadata only: `npm run seo:indexing-manifest`
 - Validate both public asset prefixes and reject retained orphans: `npm run check:asset-references`
 - Validate the static artifact: `npm run check:static`
 - Serve the static artifact locally: `npm run serve:static`
@@ -52,6 +54,15 @@ This repo is static-first.
   Resource publication does not alter provider eligibility or regenerate city/profile HTML.
 - Methodology serves its authored static HTML without mounting the older SPA shell;
   the resource-link regression rejects a module entry that would replace those links.
+- The five original reviewed profiles also retain authored static HTML without a
+  legacy module mount. The resource unit gate includes negative metadata/content
+  parity fixtures. The isolated release candidate gate additionally runs all sitemap
+  HTTP checks and representative settled browser states at desktop/390px/320px,
+  with verified JavaScript-enabled and disabled modes, source dates and native links.
+- Routine `seo:indexing-manifest` is metadata-only. Broad writing requires explicit
+  `--write --allow-reviewed-content-write`; it is not a maintenance shortcut.
+  Missing declared resource HTML fails closed. Only explicit `--fixture` inputs
+  outside canonical `public_site/` may intentionally omit resources.
 - Client-bundle maintenance must replace the candidate's old hashed entries and then pass
   `npm run check:asset-references`; recursive copy-on-top promotion is not complete until the
   orphan report is clean.
