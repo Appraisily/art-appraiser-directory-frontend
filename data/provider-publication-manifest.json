@@ -230,7 +230,33 @@
         "https://afpartconsulting.com/",
         "https://afpartconsulting.com/bio",
         "https://afpartconsulting.com/art-consulting-services"
-      ]
+      ],
+      "fieldEvidence": {
+        "qualification": {
+          "value": "The official website states that AFP Art Consulting prepares appraisals under USPAP and American Society of Appraisers professional standards and identifies Andrea Foggle Plotkin's appraisal-studies certificate.",
+          "sourceUrl": "https://afpartconsulting.com/bio",
+          "sourceUrls": [
+            "https://afpartconsulting.com/bio",
+            "https://afpartconsulting.com/art-consulting-services"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://afpartconsulting.com/art-consulting-services",
+              "retrievedAt": "2026-10-07T21:17:21.783Z",
+              "bodySha256": "a01fdcdf80e3fc74667ece02def5b4f0877ed3e58682650002c62def3cfa6e1c"
+            },
+            {
+              "sourceUrl": "https://afpartconsulting.com/bio",
+              "retrievedAt": "2026-10-07T21:17:21.779Z",
+              "bodySha256": "2630828f0706c26be4058d853443f90e32f3cf1b9580bf1a1bfb8ff26a25ead9"
+            }
+          ],
+          "note": "Provider attributes an appraisal-studies certificate to Andrea Foggle Plotkin; no ASA membership/designation is inferred. Provider reports use of USPAP and ASA professional standards; no external compliance audit or tax qualification is asserted. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        }
+      }
     },
     {
       "slug": "aitchison-fine-art-advisory",
@@ -5033,7 +5059,33 @@
       "sourceUrls": [
         "https://heidivaughanfineart.com/about",
         "https://heidivaughanfineart.com/gallery-team"
-      ]
+      ],
+      "fieldEvidence": {
+        "qualification": {
+          "value": "The official website identifies Heidi Vaughan as an Accredited Member of the International Society of Appraisers in Fine Arts and states that the practice is USPAP compliant.",
+          "sourceUrl": "https://heidivaughanfineart.com/about",
+          "sourceUrls": [
+            "https://heidivaughanfineart.com/about",
+            "https://heidivaughanfineart.com/gallery-team"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://heidivaughanfineart.com/about",
+              "retrievedAt": "2026-10-07T21:17:21.785Z",
+              "bodySha256": "c31f4dc4faf29b6581a9a62a86db0088b98008ec0c0f7e5415dcd0b141ff2e31"
+            },
+            {
+              "sourceUrl": "https://heidivaughanfineart.com/gallery-team",
+              "retrievedAt": "2026-10-07T21:17:21.788Z",
+              "bodySha256": "fc7a22bd291c95949e1c33ebc95d4b5dcb828771a0654bb8eedfb7a82b6d3e97"
+            }
+          ],
+          "note": "Provider About page reports ISA membership and standards compliance; it is not an independent membership/compliance verification. Provider team page attributes the Fine Arts membership to Heidi Vaughan personally. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        }
+      }
     },
     {
       "slug": "heirloom-estates-llc-919-323-7524",
@@ -8265,6 +8317,24 @@
           "sourceUrl": "https://opentothepublic.art/about/",
           "checkedAt": "2026-10-07",
           "note": "The official About page names Kaycee Baron and explicitly says she previously practiced as Kaycee Olsen. Principal-name correction only; original provider review and provider-attributed qualification wording are retained."
+        },
+        "qualification": {
+          "value": "The official website identifies Kaycee Baron as an Accredited Member of the Appraisers Association of America and describes the firm's appraisal work as USPAP-compliant.",
+          "sourceUrl": "https://opentothepublic.art/about/",
+          "sourceUrls": [
+            "https://opentothepublic.art/about/"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://opentothepublic.art/about/",
+              "retrievedAt": "2026-10-07T21:17:22.112Z",
+              "bodySha256": "69cb8061c91eff1fe48894491edb8ee25390e78eedb8bf449a9e0542bae086db"
+            }
+          ],
+          "note": "Provider attributes membership and USPAP practice to Kaycee Baron. The credential body and compliance history are not independently verified here. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
         }
       }
     },
@@ -10644,7 +10714,27 @@
       "canonicalProviderId": "provider:wilson-art-services",
       "sourceUrls": [
         "https://www.wilsonartservices.com/"
-      ]
+      ],
+      "fieldEvidence": {
+        "qualification": {
+          "value": "The official website identifies Sarah Ann Wilson as an Accredited Member of the Appraisers Association of America in Impressionist and Modern Art.",
+          "sourceUrl": "https://www.wilsonartservices.com/",
+          "sourceUrls": [
+            "https://www.wilsonartservices.com/"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.wilsonartservices.com/",
+              "retrievedAt": "2026-10-07T21:17:22.196Z",
+              "bodySha256": "186f9f4273b5c5a2519fed0f518e6650dc5c58b115fd72b5f81b954b67d249a9"
+            }
+          ],
+          "note": "Provider attributes the stated appraisal membership and specialty designation to Sarah Ann Wilson; no independent credential-body confirmation is claimed. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        }
+      }
     },
     {
       "slug": "sarasota-appraisal-services",
@@ -11233,7 +11323,33 @@
         "https://stliferart.com/",
         "https://stliferart.com/about-the-appraiser/",
         "https://stliferart.com/appraisals/appraisal-services/"
-      ]
+      ],
+      "fieldEvidence": {
+        "qualification": {
+          "value": "The official website identifies Jane St. Lifer as an Accredited Senior Appraiser with the American Society of Appraisers and states that reports follow ASA and USPAP requirements.",
+          "sourceUrl": "https://stliferart.com/about-the-appraiser/",
+          "sourceUrls": [
+            "https://stliferart.com/about-the-appraiser/",
+            "https://stliferart.com/appraisals/appraisal-services/"
+          ],
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://stliferart.com/about-the-appraiser/",
+              "retrievedAt": "2026-10-07T21:17:22.357Z",
+              "bodySha256": "aad16d6afca10f3a13db4039e7ac5fb5a284aee6bbabb57a45774508a5506b7b"
+            },
+            {
+              "sourceUrl": "https://stliferart.com/appraisals/appraisal-services/",
+              "retrievedAt": "2026-10-07T21:17:22.396Z",
+              "bodySha256": "530f814496fc8b4f3bca21cca03f4ea3f8499d5491498da44cb5224983d3e675"
+            }
+          ],
+          "note": "Provider attributes ASA senior-appraiser status to Jane St. Lifer; no independent current designation or expiry determination is claimed. Provider describes report conformity with ASA and USPAP requirements; individual report/legal acceptance is not audited. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        }
+      }
     },
     {
       "slug": "st-louis-anderson-fine-art-appraisals",

@@ -88,6 +88,14 @@ Newport Beach contact locality from Los Angeles/Orange County service coverage.
 Original provider reviews and eligibility remain; the October 7 field checks
 are recorded separately and protected by `test:resources`.
 
+The [qualification provenance ledger](docs/qualification-field-provenance-20261007.md)
+records separately dated official-source evidence for five existing qualification
+sections. It preserves their exact provider-attributed wording, original July 15
+reviews and all public artifacts. Source snapshots and an explicit
+`independentCredentialVerification: false` boundary accompany the field evidence;
+this is not a new certification, provider promotion or static-content release.
+`test:resources` protects the exact qualification value and original review dates.
+
 Published slashless provider/city/resource paths and only the root/two-resource
 `index.html` equivalents have exact, case-sensitive canonical aliases. The
 reviewed nginx map uses the original request URI, so internal index lookups cannot

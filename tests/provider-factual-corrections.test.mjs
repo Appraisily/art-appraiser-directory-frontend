@@ -137,3 +137,45 @@ test('field-evidence regression rejects restoring DeCarrera to a Los Angeles off
   assert.ok(inspectProviderFields(record, document).failures.some(failure =>
     failure.code === 'primary-location-evidence-mismatch' && failure.field === 'addressLocality'));
 });
+
+const qualificationSources = new Map([
+  ['afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man', ['https://afpartconsulting.com/bio', 'https://afpartconsulting.com/art-consulting-services']],
+  ['heidi-vaughan-ma-isa-am', ['https://heidivaughanfineart.com/about', 'https://heidivaughanfineart.com/gallery-team']],
+  ['open-to-the-public', ['https://opentothepublic.art/about/']],
+  ['sarah-ann-wilson-art-services', ['https://www.wilsonartservices.com/']],
+  ['st-lifer-art-inc-international-art-appraiser', ['https://stliferart.com/about-the-appraiser/', 'https://stliferart.com/appraisals/appraisal-services/']],
+]);
+for (const [slug, sourceUrls] of qualificationSources) {
+  test(`${slug}: qualification provenance preserves attribution, exact wording and original review`, () => {
+    const record = manifest.providers.find(provider => provider.slug === slug);
+    const evidence = record.fieldEvidence?.qualification;
+    assert.ok(evidence, 'Visible qualifications need their own field-level provenance');
+    assert.equal(evidence.checkedAt, '2026-10-07');
+    assert.equal(evidence.evidenceScope, 'provider_attributed');
+    assert.equal(evidence.independentCredentialVerification, false);
+    assert.equal(evidence.sourceUrl, sourceUrls[0]);
+    assert.deepEqual(evidence.sourceUrls, sourceUrls);
+    assert.deepEqual(evidence.sourceSnapshots.map(source => source.sourceUrl).sort(), [...sourceUrls].sort());
+    for (const source of evidence.sourceSnapshots) {
+      assert.match(source.bodySha256, /^[a-f0-9]{64}$/);
+      assert.match(source.retrievedAt, /^2026-10-07T/);
+    }
+    assert.ok(record.claimScope.includes('qualification'));
+    assert.equal(record.verifiedAt, '2026-07-15');
+    assert.equal(record.publicationStatus, 'verified');
+    const dom = new JSDOM(read(`public_site/appraiser/${slug}/index.html`));
+    try {
+      const document = dom.window.document;
+      const heading = [...document.querySelectorAll('h2')].find(node => node.textContent.trim() === 'Verified qualifications');
+      const visible = heading.closest('section').querySelector('p').textContent.replace(/\s+/g, ' ').trim();
+      assert.equal(evidence.value, visible);
+      assert.match(visible, /^The official website (?:states|identifies)/);
+      assert.equal(schema(document).dateModified, '2026-07-15');
+      const code = 'published-designation-missing-field-evidence';
+      assert.ok(!inspectProviderFields(record, document).scopeFailures.some(finding => finding.code === code));
+      const withoutEvidence = { ...record, fieldEvidence: { ...record.fieldEvidence } };
+      delete withoutEvidence.fieldEvidence.qualification;
+      assert.ok(inspectProviderFields(withoutEvidence, document).scopeFailures.some(finding => finding.code === code));
+    } finally { dom.window.close(); }
+  });
+}
