@@ -104,9 +104,20 @@ source-only evidence, not a public-content release. Christine Anderson and Alici
 Weaver now use the separate, tested ISA public-profile evidence contract with
 exact person/designation, profile identifier, heading and dated snapshot. Guardian
 remains Christine's provider website. Neither listing is promoted; credentials
-are not generalized to locality, service, compliance or quality. Bailey, Art
-Directives and Art Fortune remain unresolved; unrelated evidence and website
-outages do not clear them.
+are not generalized to locality, service, compliance or quality. Bailey's name
+designation remains unresolved; unrelated evidence and website outages do not
+clear it.
+
+The [limited-summary correction](docs/limited-summary-corrections-20261007.md)
+removes ART DIRECTIVES' unsupported collective certification wording and Art
+Fortune's blanket certification/precise-value promise. Art Fortune's replacement
+attributes only sourced artwork categories and team leadership to its official
+service page, with a separately dated source link. ART DIRECTIVES' failed fresh
+HTTPS retrieval does not create affirmative evidence; its replacement asks for
+direct confirmation. Both keep limited status, original August 30 identity review,
+URLs and metadata/feed facts. The factual regression restores each old summary
+as a negative fixture. This is a bounded factual correction, not a new reviewed
+provider cohort or a whole-directory truth/indexing pass.
 
 Published slashless provider/city/resource paths and only the root/two-resource
 `index.html` equivalents have exact, case-sensitive canonical aliases. The

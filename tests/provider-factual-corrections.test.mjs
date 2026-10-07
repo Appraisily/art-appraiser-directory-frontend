@@ -232,9 +232,8 @@ for (const entry of remainingQualificationCases) {
   });
 }
 
-test('unresolved designation and marketing cases do not inherit another provider evidence', () => {
-  for (const slug of ['antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa',
-    'art-directives', 'art-fortune-llc']) {
+test('unresolved Bailey designation does not inherit another provider evidence', () => {
+  for (const slug of ['antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa']) {
     const record = manifest.providers.find(provider => provider.slug === slug);
     assert.equal(record.fieldEvidence?.qualification, undefined);
     const dom = new JSDOM(read(`public_site/appraiser/${slug}/index.html`));
@@ -244,6 +243,63 @@ test('unresolved designation and marketing cases do not inherit another provider
     } finally { dom.window.close(); }
   }
 });
+
+const correctedSummaries = [
+  {
+    slug: 'art-directives',
+    summary: "Before booking with ART DIRECTIVES, confirm the artwork categories covered, inspection arrangements and the assigned appraiser's current qualifications directly with the business.",
+    oldSummary: 'ART DIRECTIVES in San Diego, CA provides thorough art appraisals by unbiased, certified appraisers for art and antiques.',
+    sourceUrl: 'https://www.artdirectives.com/',
+  },
+  {
+    slug: 'art-fortune-llc',
+    summary: "Art Fortune's website lists appraisal services for paintings, antiques and collectibles, with Elena Von Kohn leading its appraisal team. Confirm the report's intended use, the assigned appraiser's qualifications and inspection arrangements directly before engagement.",
+    oldSummary: 'Art Fortune LLC provides certified art and antique appraisals in Scottsdale and the greater Phoenix area. Their certified appraisers ensure precise evaluations based on the most relevant information, providing clarity on the true market value.',
+    sourceUrl: 'https://www.artfortune.com/',
+  },
+];
+
+for (const entry of correctedSummaries) {
+  test(`${entry.slug}: summary does not imply independent certification or a guaranteed value`, () => {
+    const record = manifest.providers.find(provider => provider.slug === entry.slug);
+    const dom = new JSDOM(read(`public_site/appraiser/${entry.slug}/index.html`));
+    try {
+      const document = dom.window.document;
+      const summary = document.querySelector('[data-provider-specific-about="true"]');
+      assert.equal(summary?.textContent, entry.summary);
+      assert.doesNotMatch(summary.textContent, /certified|unbiased|precise evaluations|true market value/i);
+      assert.equal(record.publicationStatus, 'limited');
+      assert.equal(record.verifiedAt, '2026-08-30');
+      assert.equal(record.sourceUrl, entry.sourceUrl);
+      assert.equal(record.fieldEvidence?.qualification, undefined, 'Removal is not credential verification');
+      assert.equal(schema(document).dateModified, '2026-08-30');
+      assert.equal(schema(document).serviceType, 'Directory listing');
+      assert.equal(feed.find(provider => provider.slug === entry.slug).source.verifiedAt, '2026-08-30');
+      const inspect = () => inspectProviderFields(record, document);
+      assert.ok(!inspect().reviewFlags.some(finding => finding.code === 'qualification-wording-requires-primary-source-review'));
+      summary.textContent = entry.oldSummary;
+      assert.ok(inspect().reviewFlags.some(finding => finding.code === 'qualification-wording-requires-primary-source-review'),
+        'Restoring the original unsupported claim must restore its review lead');
+      if (entry.slug === 'art-fortune-llc') {
+        const evidence = record.fieldEvidence.provider_summary;
+        assert.equal(evidence.value, entry.summary);
+        assert.equal(evidence.sourceUrl, 'https://www.artfortune.com/services/appraisals/');
+        assert.equal(evidence.checkedAt, '2026-10-07');
+        assert.equal(evidence.evidenceScope, 'provider_attributed');
+        assert.equal(evidence.independentCredentialVerification, false);
+        assert.equal(evidence.sourceSnapshots.length, 1);
+        assert.match(evidence.sourceSnapshots[0].bodySha256, /^[a-f0-9]{64}$/);
+        const note = document.querySelector('[data-provider-field-check="provider_summary"]');
+        assert.match(note?.textContent, /Provider-published service information checked October 7, 2026/);
+        assert.equal(note.querySelector('a').href, evidence.sourceUrl);
+        assert.ok(record.claimScope.includes('fine_art_services'));
+      } else {
+        assert.equal(record.fieldEvidence, undefined, 'Failed retrieval cannot create affirmative source evidence');
+        assert.deepEqual(record.claimScope, ['identity', 'website']);
+      }
+    } finally { dom.window.close(); }
+  });
+}
 
 for (const [slug, personName, designation, profileId] of [
   ['alicia-e-weaver-isa-capp', 'Alicia E Weaver', 'ISA CAPP', '2647'],

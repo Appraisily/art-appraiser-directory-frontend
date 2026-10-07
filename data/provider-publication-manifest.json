@@ -1050,10 +1050,28 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "fine_art_services"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/art-fortune-llc/",
-      "canonicalProviderId": "provider:art-fortune"
+      "canonicalProviderId": "provider:art-fortune",
+      "fieldEvidence": {
+        "provider_summary": {
+          "value": "Art Fortune's website lists appraisal services for paintings, antiques and collectibles, with Elena Von Kohn leading its appraisal team. Confirm the report's intended use, the assigned appraiser's qualifications and inspection arrangements directly before engagement.",
+          "sourceUrl": "https://www.artfortune.com/services/appraisals/",
+          "checkedAt": "2026-10-07",
+          "evidenceScope": "provider_attributed",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.artfortune.com/services/appraisals/",
+              "retrievedAt": "2026-10-07T22:04:50.994Z",
+              "bodySha256": "ada69b6342fdf28417da84d87c5314c5f9aabedd0765e1de002dd02e1b3c17a9"
+            }
+          ],
+          "note": "The official service page supports the named artwork categories and Elena Von Kohn leading the appraisal team. Only provider-published service scope is asserted. Plural certification, precise true-value promises, IRS/USPAP/insurer acceptance and independent credential verification are not adopted. The original limited status, identity review and unreviewed locality remain separate."
+        }
+      }
     },
     {
       "slug": "art-leaders-gallery-fine-art-appraisals",
