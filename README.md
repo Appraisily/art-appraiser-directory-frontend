@@ -104,9 +104,11 @@ source-only evidence, not a public-content release. Christine Anderson and Alici
 Weaver now use the separate, tested ISA public-profile evidence contract with
 exact person/designation, profile identifier, heading and dated snapshot. Guardian
 remains Christine's provider website. Neither listing is promoted; credentials
-are not generalized to locality, service, compliance or quality. Bailey's name
-designation remains unresolved; unrelated evidence and website outages do not
-clear it.
+are not generalized to locality, service, compliance or quality. Bailey's current
+designations remain unresolved. The [display-name correction](docs/bailey-display-name-correction-20261007.md)
+omits the unsupported suffix consistently without asserting false or expired
+credentials. Historical URLs/identifiers, limited status and original review
+remain; no qualification evidence is invented from outages or blocked searches.
 
 The [limited-summary correction](docs/limited-summary-corrections-20261007.md)
 removes ART DIRECTIVES' unsupported collective certification wording and Art

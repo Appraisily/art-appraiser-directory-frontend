@@ -741,7 +741,13 @@
     },
     {
       "slug": "antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa",
-      "name": "Antique Appraisal and Estate Sale Service - K & P Bailey ISA CAPP, AAA",
+      "name": "Antique Appraisal and Estate Sale Service - K & P Bailey",
+      "nameCorrection": {
+        "checkedAt": "2026-10-07",
+        "decision": "omit_unverified_designations",
+        "previousName": "Antique Appraisal and Estate Sale Service - K & P Bailey ISA CAPP, AAA",
+        "note": "Current ISA CAPP and AAA support is unresolved. Omit the suffix from the Art display name without asserting that credentials are false, expired or absent. Retain the historical route, limited publication status and original identity review."
+      },
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.kbaileyantiques.net/",

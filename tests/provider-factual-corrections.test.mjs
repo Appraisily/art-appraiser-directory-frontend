@@ -232,15 +232,73 @@ for (const entry of remainingQualificationCases) {
   });
 }
 
-test('unresolved Bailey designation does not inherit another provider evidence', () => {
-  for (const slug of ['antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa']) {
-    const record = manifest.providers.find(provider => provider.slug === slug);
+test('Bailey omits unresolved name designations without changing identity, eligibility or review', () => {
+  const slug = 'antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa';
+  const name = 'Antique Appraisal and Estate Sale Service - K & P Bailey';
+  const record = manifest.providers.find(provider => provider.slug === slug);
+  const dom = new JSDOM(read(`public_site/appraiser/${slug}/index.html`));
+  try {
+    const document = dom.window.document;
+    assert.equal(record.name, name);
+    assert.equal(record.nameCorrection.decision, 'omit_unverified_designations');
+    assert.equal(record.nameCorrection.checkedAt, '2026-10-07');
+    assert.equal(record.nameCorrection.previousName, `${name} ISA CAPP, AAA`);
     assert.equal(record.fieldEvidence?.qualification, undefined);
-    const dom = new JSDOM(read(`public_site/appraiser/${slug}/index.html`));
+    assert.deepEqual(record.claimScope, ['identity', 'website']);
+    assert.equal(record.publicationStatus, 'limited');
+    assert.equal(record.verifiedAt, '2026-08-30');
+    assert.equal(document.querySelector('h1').textContent, name);
+    assert.doesNotMatch(document.body.textContent, /ISA CAPP|\bAAA\b|Appraisel/);
+    const provider = schema(document);
+    assert.equal(provider.name, name);
+    assert.equal(provider.dateModified, '2026-08-30');
+    assert.equal(provider.hasCredential, undefined);
+    assert.equal(provider.url, record.previousUrl);
+    assert.equal(document.querySelector('link[rel="canonical"]').href, record.previousUrl);
+    assert.deepEqual(provider.sameAs, ['https://www.kbaileyantiques.net/',
+      'https://fairappraisers.org/appraisers/antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa-seattle-wa/']);
+    for (const node of [document.querySelector('title'), ...document.querySelectorAll('meta[name="description"],meta[property="og:title"],meta[property="og:description"],meta[name="twitter:title"],meta[name="twitter:description"]')]) {
+      const value = node.getAttribute('content') || node.textContent;
+      assert.ok(value.includes(name));
+      assert.doesNotMatch(value, /ISA CAPP|\bAAA\b/);
+    }
+    for (const node of document.querySelectorAll('[data-gtm-appraiser-name]')) {
+      assert.equal(node.getAttribute('data-gtm-appraiser-name'), name);
+      assert.equal(node.getAttribute('data-gtm-appraiser-id'), slug);
+    }
+    const inspection = inspectProviderFields(record, document);
+    const code = 'published-designation-missing-field-evidence';
+    assert.ok(!inspection.scopeFailures.some(finding => finding.code === code));
+    assert.ok(inspection.scopeFailures.some(finding => finding.code === 'published-location-missing-field-evidence'),
+      'Name omission does not waive unrelated locality evidence');
+    assert.ok(inspectProviderFields({ ...record, name: record.nameCorrection.previousName }, document)
+      .scopeFailures.some(finding => finding.code === code), 'Restoring the old name remains detectable');
+    const schemaNode = [...document.querySelectorAll('script[type="application/ld+json"]')][0];
+    const values = JSON.parse(schemaNode.textContent);
+    values.find(value => value['@type'] === 'ProfessionalService').name = record.nameCorrection.previousName;
+    schemaNode.textContent = JSON.stringify(values);
+    assert.ok(inspectProviderFields(record, document).scopeFailures.some(finding => finding.code === code),
+      'Restoring only schema credentials remains detectable');
+  } finally { dom.window.close(); }
+  for (const file of ['public_site/appraisers.json', 'public_site/directory.json']) {
+    const provider = JSON.parse(read(file)).appraisers.find(value => value.slug === slug);
+    assert.equal(provider.name, name);
+    assert.doesNotMatch(provider.description, /ISA CAPP|\bAAA\b/);
+    assert.equal(provider.source.verifiedAt, '2026-08-30');
+    assert.equal(provider.website, record.sourceUrl);
+  }
+  for (const file of ['public_site/appraiser/index.html', 'public_site/location/index.html']) {
+    const browse = new JSDOM(read(file));
     try {
-      const result = inspectProviderFields(record, dom.window.document);
-      assert.ok([...result.scopeFailures, ...result.reviewFlags].some(finding => /designation|qualification/.test(finding.code)));
-    } finally { dom.window.close(); }
+      const document = browse.window.document;
+      const link = document.querySelector(`a[href="/appraiser/${slug}/"]`);
+      assert.ok(link.textContent.includes(name));
+      assert.doesNotMatch(link.closest('li').outerHTML, /ISA CAPP|\bAAA\b/);
+      const list = [...document.querySelectorAll('script[type="application/ld+json"]')]
+        .map(node => JSON.parse(node.textContent)).find(value => value['@type'] === 'CollectionPage');
+      const item = list.mainEntity.itemListElement.find(value => value.url === record.previousUrl);
+      assert.equal(item.name, link.textContent);
+    } finally { browse.window.close(); }
   }
 });
 

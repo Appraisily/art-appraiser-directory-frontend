@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T20:30:39.766Z",
+  "generatedAt": "2026-10-07T23:43:11.760Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -452,8 +452,8 @@
     {
       "slug": "antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa/",
-      "name": "Antique Appraisal and Estate Sale Service - K & P Bailey ISA CAPP, AAA",
-      "description": "Antique Appraisal and Estate Sale Service - K & P Bailey ISA CAPP, AAA has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
+      "name": "Antique Appraisal and Estate Sale Service - K & P Bailey",
+      "description": "Antique Appraisal and Estate Sale Service - K & P Bailey has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
       "website": "https://www.kbaileyantiques.net/",
       "address": {
         "city": "Seattle",
