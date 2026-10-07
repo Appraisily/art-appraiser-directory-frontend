@@ -212,8 +212,15 @@ atomically, verifies the public route and assets, and rolls back on failure.
 
 ## Image Handling
 
-Reviewed provider images must be owned, verified assets or explicitly labeled
-checked-in non-likeness artwork. Empty, placeholder, invalid, and failed image
+Provider entity/feed `image` fields describe the actual provider, not Appraisily
+branding or a generated illustration. Omit unknown provider imagery. Labeled
+checked-in non-likeness artwork may remain a page illustration; it is not a
+provider identity image. `npm run test:provider-images`, included in the static
+build gate, rejects the known publisher-logo and non-likeness asset families in
+provider schema and all provider/location feeds. This scoped check does not
+authenticate other images or clear the broader field-evidence audit.
+
+Empty, placeholder, invalid, and failed image
 URLs render the deterministic initials fallback; the directory never borrows
 another provider's image. Validation and deployment do not generate or rewrite
 images automatically; see [IMAGE_GENERATION.md](IMAGE_GENERATION.md).

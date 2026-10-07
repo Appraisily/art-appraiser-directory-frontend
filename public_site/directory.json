@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T14:41:51.012Z",
+  "generatedAt": "2026-10-07T18:54:23.911Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -22,7 +22,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/812-maplewood/",
       "name": "812 Maplewood",
       "description": "812 Maplewood has a limited directory listing for Aspen, CO. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.812maplewood.com/art-advisory-services",
       "address": {
         "city": "Aspen",
@@ -59,7 +58,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/a-z-appraisal-and-estate-consultants/",
       "name": "az appraisal",
       "description": "az appraisal has a limited directory listing for Phoenix, AZ. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://a-zappraisal.com/appraisal-services",
       "address": {
         "city": "Phoenix",
@@ -78,7 +76,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/aa-fine-art-art-appraiser-in-boca-raton-and-palm-beach/",
       "name": "AA Fine Art, LLC",
       "description": "AA Fine Art, LLC has a limited directory listing for Fort Lauderdale, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://aa-fineart.com/",
       "address": {
         "city": "Fort Lauderdale",
@@ -97,7 +94,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/aaron-appraisal-services-art-appraisal-antiques-appraisal-art-appraiser-antiques-appraiser/",
       "name": "Aaron Art and Antiques Appraisal Services",
       "description": "Aaron Art and Antiques Appraisal Services has a limited directory listing for Atlanta, GA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.aaronappraisalservices.com/",
       "address": {
         "city": "Atlanta",
@@ -116,7 +112,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/abd-antique-appraisers/",
       "name": "ABD Antique Appraisers",
       "description": "ABD Antique Appraisers has a limited directory listing for Glendale, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://abdappraise.com/",
       "address": {
         "city": "Glendale",
@@ -135,7 +130,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/abh-fine-art-advisory/",
       "name": "ABH Fine Art Advisory",
       "description": "ABH Fine Art Advisory has a limited directory listing for Naperville, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.abhfineart.com/",
       "address": {
         "city": "Naperville",
@@ -154,7 +148,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/adelaide-fine-art/",
       "name": "Adelaide Fine Art",
       "description": "Adelaide Fine Art has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.adelaidefineart.com/",
       "address": {
         "city": "New York",
@@ -173,7 +166,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/afa-fine-art/",
       "name": "AFA Fine Art",
       "description": "AFA Fine Art has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.afaappraisals.com/",
       "address": {
         "city": "New York",
@@ -192,7 +184,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
       "name": "AFP Art Consulting, LLC",
       "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man.svg",
       "website": "https://afpartconsulting.com/",
       "address": {
         "city": "Boston",
@@ -211,7 +202,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/aitchison-fine-art-advisory/",
       "name": "Aitchison Fine Art Advisory, LLC",
       "description": "Aitchison Fine Art Advisory, LLC has a limited directory listing for Pasadena, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://aafine.art/",
       "address": {
         "city": "Pasadena",
@@ -230,7 +220,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alexander-appraisal-and-estate-services/",
       "name": "Alexander Appraisal & Estate Services",
       "description": "Alexander Appraisal & Estate Services has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.alexanderappraisal.com/",
       "address": {
         "city": "Houston",
@@ -249,7 +238,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
       "name": "Alicia E Weaver (ISA CAPP)",
       "description": "Alicia E Weaver (ISA CAPP) has a limited directory listing for Dallas, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.isa-appraisers.org/",
       "address": {
         "city": "Dallas",
@@ -268,7 +256,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
       "name": "Alicia Weaver",
       "description": "Alicia Weaver has a limited directory listing for Las Vegas, NV. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
       "address": {
         "city": "Las Vegas",
@@ -287,7 +274,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/allison-gee-fine-art-appraisals/",
       "name": "Allison Gee Fine Art Appraisals",
       "description": "Allison Gee Fine Art Appraisals has a limited directory listing for Phoenix, AZ. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://fineart.services/",
       "address": {
         "city": "Phoenix",
@@ -306,7 +292,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/allrich-fine-art-services/",
       "name": "Allrich Fine Art Services",
       "description": "Allrich Fine Art Services has a limited directory listing for Columbus, OH. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.allrichfineart.com/",
       "address": {
         "city": "Columbus",
@@ -325,7 +310,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alta-fine-art-advisory-and-appraisal/",
       "name": "Alta Fine Art Advisory & Appraisal",
       "description": "Alta Fine Art Advisory & Appraisal has a limited directory listing for Oakland, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://altafaaa.com/",
       "address": {
         "city": "Oakland",
@@ -344,7 +328,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-campbell-art-appraisals/",
       "name": "Anderson Campbell Art Appraisals",
       "description": "Anderson Campbell Art Appraisals has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artandappraisals.com/",
       "address": {
         "city": "New York",
@@ -363,7 +346,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
       "name": "Anderson Fine Art Appraisals",
       "description": "Anderson Fine Art Appraisals has a limited directory listing for Anaheim, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.art-appraisals.net/",
       "address": {
         "city": "Anaheim",
@@ -382,7 +364,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/andrea-moody-fine-art-appraisals-llc/",
       "name": "Andrea Moody Fine Art Appraisals, LLC",
       "description": "Andrea Moody Fine Art Appraisals, LLC has a limited directory listing for Portland, ME. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.andreamoody.com/",
       "address": {
         "city": "Portland",
@@ -401,7 +382,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/anne-kelly-lewis/",
       "name": "Anne Kelly Lewis",
       "description": "Anne Kelly Lewis has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartappraisalllc.com/",
       "address": {
         "city": "Fort Worth",
@@ -420,7 +400,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-estate-buyers/",
       "name": "Antique & Estate Buyers",
       "description": "Antique & Estate Buyers has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.antiqueandestatebuyers.com/",
       "address": {
         "city": "New York",
@@ -439,7 +418,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisal/",
       "name": "Antique & Fine Art Appraisal",
       "description": "Antique & Fine Art Appraisal has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614",
       "address": {
         "city": "Seattle",
@@ -458,7 +436,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisals/",
       "name": "Antique & Fine Art Appraisals",
       "description": "Antique & Fine Art Appraisals has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals",
       "address": {
         "city": "Miami",
@@ -477,7 +454,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-appraisel-and-estate-sale-service-k-and-p-bailey-isa-capp-aaa/",
       "name": "Antique Appraisal and Estate Sale Service - K & P Bailey ISA CAPP, AAA",
       "description": "Antique Appraisal and Estate Sale Service - K & P Bailey ISA CAPP, AAA has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.kbaileyantiques.net/",
       "address": {
         "city": "Seattle",
@@ -496,7 +472,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-art-buyers/",
       "name": "Antique Art Buyers",
       "description": "Antique Art Buyers has a limited directory listing for Daytona Beach, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://antiqueartbuyers.com/",
       "address": {
         "city": "Daytona Beach",
@@ -515,7 +490,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisal-services-philadelphia-pa-art-antiques-furniture-estate/",
       "name": "Linzey Appraisal Associates LLC",
       "description": "Linzey Appraisal Associates LLC has a limited directory listing for Philadelphia, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.linzeyappraisals.com/",
       "address": {
         "city": "Philadelphia",
@@ -534,7 +508,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisalink-for-art-and-antiques/",
       "name": "APPRAISALINK for Art & Antiques",
       "description": "APPRAISALINK for Art & Antiques has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.appraisalink.com/",
       "address": {
         "city": "Seattle",
@@ -553,7 +526,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/",
       "name": "Estate & Appraisal Services",
       "description": "Estate & Appraisal Services has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.jewelryandcoinbuyers.com/",
       "address": {
         "city": "Miami",
@@ -572,7 +544,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-of-value/",
       "name": "Appraisals of Value, LLC",
       "description": "Appraisals of Value, LLC has a limited directory listing for Baltimore, MD. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.appraisalsofvalue.com/index.html",
       "address": {
         "city": "Baltimore",
@@ -591,7 +562,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/arnoult-fine-art/",
       "name": "Arnoult Fine Art Consulting",
       "description": "Arnoult Fine Art Consulting has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.arnoultfineart.com/",
       "address": {
         "city": "Houston",
@@ -610,7 +580,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-and-antiques-appraisal-services-llc/",
       "name": "Art & Antiques Appraisal Services",
       "description": "Art & Antiques Appraisal Services has a limited directory listing for Santa Fe, NM. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://astateoftheart.com/",
       "address": {
         "city": "Santa Fe",
@@ -629,7 +598,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisal-services-llc/",
       "name": "Art Appraisal Services Of The Carolinas",
       "description": "Art Appraisal Services Of The Carolinas has a limited directory listing for Charlotte, NC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artappraisalservices.net/",
       "address": {
         "city": "Charlotte",
@@ -648,7 +616,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisals-of-new-england/",
       "name": "Art Appraisals of New England",
       "description": "Art Appraisals of New England has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artappraisalsne.com/01",
       "address": {
         "city": "Boston",
@@ -667,7 +634,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-directives/",
       "name": "ART DIRECTIVES",
       "description": "ART DIRECTIVES has a limited directory listing for San Diego, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artdirectives.com/",
       "address": {
         "city": "San Diego",
@@ -686,7 +652,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-fortune-llc/",
       "name": "Art Fortune LLC",
       "description": "Art Fortune LLC has a limited directory listing for Scottsdale, AZ. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artfortune.com/",
       "address": {
         "city": "Scottsdale",
@@ -705,7 +670,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-leaders-gallery-fine-art-appraisals/",
       "name": "Art Leaders Gallery & Custom Framing",
       "description": "Art Leaders Gallery & Custom Framing has a limited directory listing for Detroit, MI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artleaders.com/",
       "address": {
         "city": "Detroit",
@@ -724,7 +688,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-peritus/",
       "name": "Art Peritus, LLC",
       "description": "Art Peritus, LLC has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://artperitus.com/",
       "address": {
         "city": "New York",
@@ -743,7 +706,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-preservation-services-michigan/",
       "name": "Art Preservation Services - Michigan",
       "description": "Art Preservation Services - Michigan has a limited directory listing for Detroit, MI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artpreservationservices.com/",
       "address": {
         "city": "Detroit",
@@ -762,7 +724,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-services-2000-ltd-fine-art-appraisals/",
       "name": "Art Services 2000 Ltd. Fine Art Appraisals",
       "description": "Art Services 2000 Ltd. Fine Art Appraisals has a limited directory listing for Pensacola, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artserv2000.com/",
       "address": {
         "city": "Pensacola",
@@ -781,7 +742,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/artemappraisals/",
       "name": "Artem Appraisals",
       "description": "Artem Appraisals has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artemappraisals.com/",
       "address": {
         "city": "Boston",
@@ -800,7 +760,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/artrium-fine-art-and-estate-appraisal/",
       "name": "Artrium Fine Art & Estate Appraisal",
       "description": "Artrium Fine Art & Estate Appraisal has a limited directory listing for Cedar Rapids, IA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://artriumappraisal.com/",
       "address": {
         "city": "Cedar Rapids",
@@ -819,7 +778,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/ashleigh-caroline-associates-inc/",
       "name": "Ashleigh Caroline Associates Inc",
       "description": "Ashleigh Caroline Associates Inc has a limited directory listing for Detroit, MI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.auctionyourart.com/",
       "address": {
         "city": "Detroit",
@@ -838,7 +796,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/austin-christian-fine-art/",
       "name": "Austin Christian Fine Art (Appraisal, Consignment, Restoration of Historic and Vintage Fine Art)",
       "description": "Austin Christian Fine Art (Appraisal, Consignment, Restoration of Historic and Vintage Fine Art) has a limited directory listing for Austin, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://acfagallery.com/",
       "address": {
         "city": "Austin",
@@ -857,7 +814,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/austin-galleries/",
       "name": "Austin Galleries",
       "description": "Austin Galleries has a limited directory listing for Austin, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.austingalleries.com/",
       "address": {
         "city": "Austin",
@@ -876,7 +832,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/austin-national-appraisal-partners-llp/",
       "name": "National Appraisal Partners, LLP",
       "description": "National Appraisal Partners, LLP has a limited directory listing for Austin, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.napllp.com/",
       "address": {
         "city": "Austin",
@@ -895,7 +850,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/avalon-antiques-appraisals-and-estate-services/",
       "name": "Avalon Antiques, Appraisals & Estate Services",
       "description": "Avalon Antiques, Appraisals & Estate Services has a limited directory listing for San Antonio, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.dexknows.com/san-antonio-tx/bp/avalon-antiques-appraisals-estate-services-537654428",
       "address": {
         "city": "San Antonio",
@@ -914,7 +868,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/avant-garde/",
       "name": "Avant-Garde Appraisals & Art Advisory",
       "description": "Avant-Garde Appraisals & Art Advisory has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://agartappraisals.com/",
       "address": {
         "city": "New York",
@@ -933,7 +886,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/b-langston-estate-liquidation/",
       "name": "B. Langston Estate Liquidation & Appraisals",
       "description": "B. Langston Estate Liquidation & Appraisals has a limited directory listing for Jacksonville, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://blangston.com/",
       "address": {
         "city": "Jacksonville",
@@ -952,7 +904,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/barry-s-slosberg-auctioneers-and-appraisers/",
       "name": "Barry S. Slosberg Auctioneers & Appraisers",
       "description": "Barry S. Slosberg Auctioneers & Appraisers has a limited directory listing for Philadelphia, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.bssauction.com/",
       "address": {
         "city": "Philadelphia",
@@ -971,7 +922,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/bernard-ewell-fine-at-appraisals-llc/",
       "name": "Bernard Ewell Art Appraisers, LLC.",
       "description": "Bernard Ewell Art Appraisers, LLC. has a limited directory listing for Denver, CO. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.bernardewell.com/",
       "address": {
         "city": "Denver",
@@ -990,7 +940,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/bertolino-arts/",
       "name": "Bertolino Arts",
       "description": "Bertolino Arts has a limited directory listing for Philadelphia, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.bertolinoarts.com/",
       "address": {
         "city": "Philadelphia",
@@ -1009,7 +958,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/beth-weingast-fine-art-appraisals/",
       "name": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry",
       "description": "Beth Weingast Fine Art Appraisals - Paintings, Judaica, Coins, Jewelry has a limited directory listing for White Plains, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://bweingastartappraisals.com/",
       "address": {
         "city": "White Plains",
@@ -1028,7 +976,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/bonhams-pacific-northwest/",
       "name": "Bonhams",
       "description": "Bonhams has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.bonhams.com/location/PNW/pacific-northwest",
       "address": {
         "city": "Seattle",
@@ -1047,7 +994,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/borodin-fine-art-appraisals/",
       "name": "Borodin Fine Art Appraisals",
       "description": "Borodin Fine Art Appraisals has a limited directory listing for Fargo, ND. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.borodinappraisals.com/",
       "address": {
         "city": "Fargo",
@@ -1066,7 +1012,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-boston-appraisal-services/",
       "name": "Boston Appraisal Services",
       "description": "Boston Appraisal Services has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://bostonappraisal.com/contact-with-us",
       "address": {
         "city": "Boston",
@@ -1085,7 +1030,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
       "name": "Poras Fine Arts Appraisal - Serving N.E.",
       "description": "Poras Fine Arts Appraisal - Serving N.E. has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartsappraiser.com/",
       "address": {
         "city": "Boston",
@@ -1104,7 +1048,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/bravado-fine-arts/",
       "name": "Art Appraisal Los Angeles",
       "description": "Art Appraisal Los Angeles has a limited directory listing for Los Angeles, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.cylex.us.com/company/bravado-fine-arts-27609772.html",
       "address": {
         "city": "Los Angeles",
@@ -1141,7 +1084,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/butenhoff-fine-art-and-appraisal/",
       "name": "Butenhoff Fine Art & Appraisal Services",
       "description": "Butenhoff Fine Art & Appraisal Services has a limited directory listing for Vero Beach, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.butenhoffappraisal.com/",
       "address": {
         "city": "Vero Beach",
@@ -1160,7 +1102,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/cain-fine-art/",
       "name": "Cain Fine Art",
       "description": "Cain Fine Art has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://cainfineart.com/",
       "address": {
         "city": "Houston",
@@ -1179,7 +1120,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/cambridge-appraisals/",
       "name": "Cambridge Appraisals, LLC",
       "description": "Cambridge Appraisals, LLC has a limited directory listing for Detroit, MI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.cambridgeappraisalsllc.com/",
       "address": {
         "city": "Detroit",
@@ -1198,7 +1138,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/",
       "name": "Capital Art Group",
       "description": "Capital Art Group has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.capitalartgroup.com/",
       "address": {
         "city": "Fort Worth",
@@ -1217,7 +1156,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/carla-young-fine-arts-appraisals-appraisals-and-consultations/",
       "name": "Carla Young Fine Arts Appraisals, LLC",
       "description": "Carla Young Fine Arts Appraisals, LLC has a limited directory listing for Hilton Head Island, SC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.carlayoungartappraisals.com/",
       "address": {
         "city": "Hilton Head Island",
@@ -1236,7 +1174,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/carrie-young/",
       "name": "Carrie Young",
       "description": "Carrie Young has a limited directory listing for Addison, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://leonardappraisal.com/",
       "address": {
         "city": "Addison",
@@ -1255,7 +1192,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
       "name": "Case Antiques, Inc. Auctions & Appraisals",
       "description": "Case Antiques, Inc. Auctions & Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals",
       "address": {
         "city": "Nashville",
@@ -1274,7 +1210,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/castner-values/",
       "name": "Castner Values",
       "description": "Castner Values has a limited directory listing for Philadelphia, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://castnervalues.com/",
       "address": {
         "city": "Philadelphia",
@@ -1293,7 +1228,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/charles-barry-goldstein/",
       "name": "Charles Barry Goldstein",
       "description": "Charles Barry Goldstein has a limited directory listing for Rockville, MD. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.forensicartappraiser.com/",
       "address": {
         "city": "Rockville",
@@ -1312,7 +1246,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/cheney-appraisal-services/",
       "name": "Cheney Appraisal Services",
       "description": "Cheney Appraisal Services has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.cheneyappraisal.com/",
       "address": {
         "city": "New York",
@@ -1331,7 +1264,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/chris-ingalls/",
       "name": "Chris Ingalls",
       "description": "Chris Ingalls has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.appraisalssofla.com/",
       "address": {
         "city": "Miami",
@@ -1350,7 +1282,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-guernsey/",
       "name": "Christine Guernsey",
       "description": "Christine Guernsey has a limited directory listing for Colleyville, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartofappraising.com/",
       "address": {
         "city": "Colleyville",
@@ -1369,7 +1300,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/christine-h-anderson-isa-am/",
       "name": "Christine H Anderson, ISA AM",
       "description": "Christine H Anderson, ISA AM has a limited directory listing for Milwaukee, WI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.guardianfineart.com/",
       "address": {
         "city": "Milwaukee",
@@ -1388,7 +1318,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/collector-s-fine-art-appraisal-et-associates/",
       "name": "Collector’s Fine Art Appraisal et Associates",
       "description": "Collector’s Fine Art Appraisal et Associates has a limited directory listing for Fort Collins, CO. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://aspenappraisalbarbpreston.com/",
       "address": {
         "city": "Fort Collins",
@@ -1407,7 +1336,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
       "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
       "description": "Connecticut Art Appraisals, LLC (Alizzandra Danker) has a limited directory listing for Hartford, CT. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.appraisersassociation.org/",
       "address": {
         "city": "Hartford",
@@ -1426,7 +1354,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/david-dike-fine-art/",
       "name": "David Dike Fine Art",
       "description": "David Dike Fine Art has a limited directory listing for Dallas, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.daviddike.com/",
       "address": {
         "city": "Dallas",
@@ -1463,7 +1390,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/detroit-fine-art-appraisals/",
       "name": "Detroit Fine Art Appraisals",
       "description": "Detroit Fine Art Appraisals has a limited directory listing for Fort Wayne, IN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://detroitfaa.com/",
       "address": {
         "city": "Fort Wayne",
@@ -1482,7 +1408,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/detroit-marketrend-appraisals/",
       "name": "Marketrend Appraisals+",
       "description": "Marketrend Appraisals+ has a limited directory listing for Detroit, MI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.marketrendappraisals.com/",
       "address": {
         "city": "Detroit",
@@ -1501,7 +1426,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/dina-brown-art-appraisals/",
       "name": "Dina Brown Art Appraisals",
       "description": "Dina Brown Art Appraisals has a limited directory listing for Los Angeles, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.dinabrownartappraisals.com/",
       "address": {
         "city": "Los Angeles",
@@ -1520,7 +1444,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/dow-art-galleries/",
       "name": "Dow Art Galleries, LLC",
       "description": "Dow Art Galleries, LLC has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.dowartgalleries.com/",
       "address": {
         "city": "Fort Worth",
@@ -1539,7 +1462,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/dudley-certified-appraisers-art-antiques-and-estates/",
       "name": "Dudley and Dudley Certified Personal Property Appraisers",
       "description": "Dudley and Dudley Certified Personal Property Appraisers has a limited directory listing for Albany, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.dudleyanddudley.com/",
       "address": {
         "city": "Albany",
@@ -1558,7 +1480,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/dumouchelles/",
       "name": "DuMouchelles",
       "description": "DuMouchelles has a limited directory listing for Detroit, MI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.dumoart.com/",
       "address": {
         "city": "Detroit",
@@ -1577,7 +1498,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/duwamps-appraisals/",
       "name": "Duwamps Fine Art & Antique Appraisals",
       "description": "Duwamps Fine Art & Antique Appraisals has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.duwampsartappraisals.com/",
       "address": {
         "city": "Seattle",
@@ -1596,7 +1516,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-kitson/",
       "name": "Edward Kitson",
       "description": "Edward Kitson has a limited directory listing for Las Vegas, NV. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
       "address": {
         "city": "Las Vegas",
@@ -1615,7 +1534,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-m-stanley-appraisal-services-fine-art-antiques/",
       "name": "Edward Stanley Appraisal Services",
       "description": "Edward Stanley Appraisal Services has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.edwardmstanley.com/",
       "address": {
         "city": "Boston",
@@ -1634,7 +1552,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elise-waters-olonia/",
       "name": "Elise Waters Olonia",
       "description": "Elise Waters Olonia has a limited directory listing for Ranchos De Taos, NM. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartservices.info/",
       "address": {
         "city": "Ranchos De Taos",
@@ -1653,7 +1570,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-abston-llc/",
       "name": "Elizabeth Abston LLC Fine Art Appraisal & Advisory",
       "description": "Elizabeth Abston LLC Fine Art Appraisal & Advisory has a limited directory listing for Jackson, MS. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.eafineart.com/",
       "address": {
         "city": "Jackson",
@@ -1672,7 +1588,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lake-lovett/",
       "name": "Elizabeth Lake Lovett",
       "description": "Elizabeth Lake Lovett has a limited directory listing for Palm Beach, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://prestigeestateservices.com/",
       "address": {
         "city": "Palm Beach",
@@ -1691,7 +1606,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lovett/",
       "name": "Elizabeth Lovett",
       "description": "Elizabeth Lovett has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
       "address": {
         "city": "Fort Worth",
@@ -1710,7 +1624,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-wells-appraisals-and-fine-art-services/",
       "name": "Elizabeth Wells Appraisals & Fine Art Services",
       "description": "Elizabeth Wells Appraisals & Fine Art Services has a limited directory listing for Anaheim, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.ewellsappraisals.com/",
       "address": {
         "city": "Anaheim",
@@ -1729,7 +1642,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/emmett-appraisal-consulting-group/",
       "name": "Emmett Appraisal & Consulting Group",
       "description": "Emmett Appraisal & Consulting Group has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://coralgables.legistar.com/View.ashx",
       "address": {
         "city": "Miami",
@@ -1748,7 +1660,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/ena-art-group/",
       "name": "ENA Appraisals - Fine Art",
       "description": "ENA Appraisals - Fine Art has a limited directory listing for Anaheim, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.enaartgroup.com/appraisals",
       "address": {
         "city": "Anaheim",
@@ -1767,7 +1678,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
       "name": "Everard Auctions & Appraisals",
       "description": "Everard Auctions & Appraisals has a limited directory listing for Savannah, GA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.liveauctioneers.com/auctioneer/4098/everard-auctions-and-appraisals",
       "address": {
         "city": "Savannah",
@@ -1786,7 +1696,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-antique-furniture-and-jewelry-appraiser-in-los-angeles-ca-stuart-h-salsbury-appra/",
       "name": "Stuart H Salsbury Appraisal",
       "description": "Stuart H Salsbury Appraisal has a limited directory listing for Los Angeles, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artappraisals.com/",
       "address": {
         "city": "Los Angeles",
@@ -1805,7 +1714,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-appraisal-services/",
       "name": "Fine Art Appraisal and Services",
       "description": "Fine Art Appraisal and Services has a limited directory listing for Chattanooga, TN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartappraisalandservices.com/",
       "address": {
         "city": "Chattanooga",
@@ -1824,7 +1732,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-art-concierge/",
       "name": "Fine Art Concierge",
       "description": "Fine Art Concierge has a limited directory listing for Harrisburg, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartconcierge.com/",
       "address": {
         "city": "Harrisburg",
@@ -1843,7 +1750,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/fine-arts-services/",
       "name": "Fine Arts Services",
       "description": "Fine Arts Services has a limited directory listing for Charlotte, NC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.alignable.com/charlotte-nc/fine-arts-services",
       "address": {
         "city": "Charlotte",
@@ -1862,7 +1768,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/fox-white-art-and-antique-appraisals-nyc/",
       "name": "Fox-White Art & Antique Appraisals",
       "description": "Fox-White Art & Antique Appraisals has a limited directory listing for White Plains, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://fox-white.com/",
       "address": {
         "city": "White Plains",
@@ -1881,7 +1786,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/frances-redell-white-appraisal-consultant-services/",
       "name": "Appraisal and Consulting Services",
       "description": "Appraisal and Consulting Services has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://appraisalconsultant.com/appraisal-services",
       "address": {
         "city": "Miami",
@@ -1900,7 +1804,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/full-service-estate-sales-and-appraisals-houston-accredited-appraiser/",
       "name": "English and Associates Estate Services",
       "description": "English and Associates Estate Services has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.englishestateservices.com/",
       "address": {
         "city": "Houston",
@@ -1919,7 +1822,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/gabrielle-segal-gs-art-concierge/",
       "name": "Gabrielle Segal | GS Art Concierge",
       "description": "Gabrielle Segal | GS Art Concierge has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.gabriellesegal.com/",
       "address": {
         "city": "New York",
@@ -1938,7 +1840,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/gb-fine-art-professional-art-appraisals-chicago-illinois/",
       "name": "GB Fine Art",
       "description": "GB Fine Art has a limited directory listing for Naperville, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://gbfineart.com/",
       "address": {
         "city": "Naperville",
@@ -1957,7 +1858,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/geolat/",
       "name": "Geolat",
       "description": "Geolat has a limited directory listing for Dallas, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://geolat.com/",
       "address": {
         "city": "Dallas",
@@ -1976,7 +1876,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/giardina-fine-art-appraisal-services/",
       "name": "GIARDINA Fine Art Appraisal Services",
       "description": "GIARDINA Fine Art Appraisal Services has a limited directory listing for White Plains, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://giardinafineart.com/appraisals",
       "address": {
         "city": "White Plains",
@@ -1995,7 +1894,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/gilded-pear-gallery/",
       "name": "Gilded Pear Gallery",
       "description": "Gilded Pear Gallery has a limited directory listing for Cedar Rapids, IA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.gildedpeargallery.com/",
       "address": {
         "city": "Cedar Rapids",
@@ -2014,7 +1912,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/greg-c-brown/",
       "name": "Greg C. Brown",
       "description": "Greg C. Brown has a limited directory listing for Minneapolis, MN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://prestigestateservices.com/",
       "address": {
         "city": "Minneapolis",
@@ -2033,7 +1930,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/hale-appraisals/",
       "name": "Steven A. Hale Appraisals & Estates",
       "description": "Steven A. Hale Appraisals & Estates has a limited directory listing for Denver, CO. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.hale-appraisals.com/",
       "address": {
         "city": "Denver",
@@ -2052,7 +1948,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/haney-appraisals-in-fine-art/",
       "name": "Haney Appraisals in Fine Art",
       "description": "Haney Appraisals in Fine Art has a limited directory listing for Kansas City, MO. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.haneyappraisalsfineart.com/",
       "address": {
         "city": "Kansas City",
@@ -2071,7 +1966,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/harrison-appraisals-llc-appraisal-firm-westminster-md/",
       "name": "Harrison Appraisals LLC",
       "description": "Harrison Appraisals LLC has a limited directory listing for Baltimore, MD. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://harrisonappraisals.com/",
       "address": {
         "city": "Baltimore",
@@ -2090,7 +1984,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
       "name": "Heidi Vaughan Fine Art",
       "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/heidi-vaughan-ma-isa-am.svg",
       "website": "https://heidivaughanfineart.com/about",
       "address": {
         "city": "Houston",
@@ -2109,7 +2002,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/heritage-fine-art-appraisers/",
       "name": "Heritage Fine Art Appraisers",
       "description": "Heritage Fine Art Appraisers has a limited directory listing for Los Angeles, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://heritagefineartappraisers.com/",
       "address": {
         "city": "Los Angeles",
@@ -2128,7 +2020,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/hill-art/",
       "name": "Hill Art Valuation, LLC",
       "description": "Hill Art Valuation, LLC has a limited directory listing for Phoenix, AZ. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://hillartvaluation.com/",
       "address": {
         "city": "Phoenix",
@@ -2147,7 +2038,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/historic-art-services/",
       "name": "Historic Art & Services",
       "description": "Historic Art & Services has a limited directory listing for Portland, OR. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://historic-art-services.com/",
       "address": {
         "city": "Portland",
@@ -2166,7 +2056,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/hollingsworth-fine-a/",
       "name": "Hollingsworth Fine Arts",
       "description": "Hollingsworth Fine Arts has a limited directory listing for Pensacola, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.hollingsworthfinearts.com/",
       "address": {
         "city": "Pensacola",
@@ -2185,7 +2074,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/home-foltz-fine-art/",
       "name": "Foltz Fine Art LLC",
       "description": "Foltz Fine Art LLC has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://foltzgallery.com/",
       "address": {
         "city": "Houston",
@@ -2204,7 +2092,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/houston-estate-sales-and-auction-company/",
       "name": "Houston Estate Sales and Auction Company",
       "description": "Houston Estate Sales and Auction Company has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://houstonestatesalesauctions.com/",
       "address": {
         "city": "Houston",
@@ -2223,7 +2110,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/houston-houston-estate-sales-and-appraisals/",
       "name": "Houston Estate Sales & Appraisals",
       "description": "Houston Estate Sales & Appraisals has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.estatesales.net/TX/Houston/77042/2433189",
       "address": {
         "city": "Houston",
@@ -2242,7 +2128,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/hudson-valley-new-york-pennsylvania-new-jersey-antique-and-art-appraisers/",
       "name": "Hudson Valley Antique Appraisals",
       "description": "Hudson Valley Antique Appraisals has a limited directory listing for White Plains, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.hudsonvalleyantiqueappraisals.com/",
       "address": {
         "city": "White Plains",
@@ -2261,7 +2146,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/isabelle-m-weiss/",
       "name": "Isabelle M Weiss",
       "description": "Isabelle M Weiss has a limited directory listing for Detroit, MI. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://collectoranonymous.com/",
       "address": {
         "city": "Detroit",
@@ -2280,7 +2164,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jacksonville-fine-art-appraisers/",
       "name": "Hudson River Gallery and Conservators",
       "description": "Hudson River Gallery and Conservators has a limited directory listing for Jacksonville, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.hudsonrivergallery-conservators.com/",
       "address": {
         "city": "Jacksonville",
@@ -2299,7 +2182,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jacksonville-stellers-gallery/",
       "name": "Stellers Gallery",
       "description": "Stellers Gallery has a limited directory listing for Jacksonville, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://stellersgallery.com/",
       "address": {
         "city": "Jacksonville",
@@ -2318,7 +2200,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals/",
       "name": "James B. Hand Fine Art",
       "description": "James B. Hand Fine Art has a limited directory listing for Worcester, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.jamesbhandfineart.com/",
       "address": {
         "city": "Worcester",
@@ -2337,7 +2218,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/janet-l-ross/",
       "name": "Janet L. Ross",
       "description": "Janet L. Ross has a limited directory listing for Surf City, NJ. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
       "address": {
         "city": "Surf City",
@@ -2356,7 +2236,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/",
       "name": "Jason Preston Art Advisory & Appraisals",
       "description": "Jason Preston Art Advisory & Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
       "address": {
         "city": "Nashville",
@@ -2411,7 +2290,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-e-salvetti-kulla-ma/",
       "name": "Jennifer E Salvetti-Kulla, MA",
       "description": "Jennifer E Salvetti-Kulla, MA has a limited directory listing for Solana Beach, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://jskfineartappraisals.com/",
       "address": {
         "city": "Solana Beach",
@@ -2448,7 +2326,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jessica-berger/",
       "name": "Jessica Berger",
       "description": "Jessica Berger has a limited directory listing for Schaumburg, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.abhfineartadvisory.com/",
       "address": {
         "city": "Schaumburg",
@@ -2467,7 +2344,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jlfineartappraisal/",
       "name": "JL Fine Art Appraisal LLC",
       "description": "JL Fine Art Appraisal LLC has a limited directory listing for Portland, ME. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.jlfineartappraisal.com/",
       "address": {
         "city": "Portland",
@@ -2504,7 +2380,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/josefa-gonzalez-mariscal-fine-art/",
       "name": "Josefa Gonzalez Mariscal Fine Art",
       "description": "Josefa Gonzalez Mariscal Fine Art has a limited directory listing for San Antonio, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://josefagm.com/",
       "address": {
         "city": "San Antonio",
@@ -2523,7 +2398,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jrl-fine-art-appraisal/",
       "name": "JRL Fine Art Appraisal",
       "description": "JRL Fine Art Appraisal has a limited directory listing for Portland, ME. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.jenaroselee.com/",
       "address": {
         "city": "Portland",
@@ -2542,7 +2416,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jsk-fine-art-appraisals/",
       "name": "JSK Fine Art Appraisals",
       "description": "JSK Fine Art Appraisals has a limited directory listing for Temecula, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://jskfineartappraisals.com/",
       "address": {
         "city": "Temecula",
@@ -2561,7 +2434,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kagan-fine-art-appraisals/",
       "name": "Kagan Fine Art Appraisals",
       "description": "Kagan Fine Art Appraisals has a limited directory listing for Stamford, CT. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.kaganappraisals.com/",
       "address": {
         "city": "Stamford",
@@ -2580,7 +2452,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kathy-poppers-expert-art-appraisals/",
       "name": "Kathy Poppers Fine Art Appraisal & Services",
       "description": "Kathy Poppers Fine Art Appraisal & Services has a limited directory listing for Glendale, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.kathypoppers.com/",
       "address": {
         "city": "Glendale",
@@ -2599,7 +2470,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kelly-cahn-art-advisory-appraisals/",
       "name": "Kelly Cahn LLC",
       "description": "Kelly Cahn LLC has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.kellycahn.com/",
       "address": {
         "city": "New York",
@@ -2618,7 +2488,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kinzelman-art-consulting/",
       "name": "Kinzelman Art Consulting",
       "description": "Kinzelman Art Consulting has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.kinzelmanart.com/",
       "address": {
         "city": "Houston",
@@ -2637,7 +2506,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/konda-fine-art-appraisals/",
       "name": "Konda Fine Art Appraisals",
       "description": "Konda Fine Art Appraisals has a limited directory listing for San Diego, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.mapquest.com/us/california/konda-fine-art-appraisals-llc-428463516",
       "address": {
         "city": "San Diego",
@@ -2656,7 +2524,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/kurt-shaw-company/",
       "name": "Kurt Shaw & Company",
       "description": "Kurt Shaw & Company has a limited directory listing for Pittsburgh, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://kshawappraiser.com/",
       "address": {
         "city": "Pittsburgh",
@@ -2675,7 +2542,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lancaster-appraisals/",
       "name": "Lancaster Appraisals",
       "description": "Lancaster Appraisals has a limited directory listing for Charlotte, NC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.lancasterappraisals.com/",
       "address": {
         "city": "Charlotte",
@@ -2694,7 +2560,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-k-stump/",
       "name": "Lauren K. Stump",
       "description": "Lauren K. Stump has a limited directory listing for Orlando, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.hollingsworthfinearts.com/",
       "address": {
         "city": "Orlando",
@@ -2713,7 +2578,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-travis-art-appraiser/",
       "name": "Lauren Travis, Art Appraiser",
       "description": "Lauren Travis, Art Appraiser has a limited directory listing for Philadelphia, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://artappraisal-services.com/",
       "address": {
         "city": "Philadelphia",
@@ -2732,7 +2596,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lena-s-appraisal-services/",
       "name": "Lena's Appraisal Services",
       "description": "Lena's Appraisal Services has a limited directory listing for San Diego, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.assetsappraisalservices.com/",
       "address": {
         "city": "San Diego",
@@ -2751,7 +2614,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lg-appraisal/",
       "name": "LG Appraisal",
       "description": "LG Appraisal has a limited directory listing for Los Angeles, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.iappraiseantiques.com/",
       "address": {
         "city": "Los Angeles",
@@ -2770,7 +2632,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lindsey-m-owen/",
       "name": "Lindsey M Owen",
       "description": "Lindsey M Owen has a limited directory listing for Chicago, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.loappraisals.com/",
       "address": {
         "city": "Chicago",
@@ -2789,7 +2650,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lisa-austin-laa/",
       "name": "Lisa Austin (LA&A)",
       "description": "Lisa Austin (LA&A) has a limited directory listing for Miami Beach, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.laanda.net/",
       "address": {
         "city": "Miami Beach",
@@ -2808,7 +2668,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/liz-anders-associates/",
       "name": "Liz Anders & Associates LLC",
       "description": "Liz Anders & Associates LLC has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://lizandersart.com/",
       "address": {
         "city": "Houston",
@@ -2827,7 +2686,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/look-appraisal/",
       "name": "Look Appraisal, LLC Fine Art & Estate Appraiser",
       "description": "Look Appraisal, LLC Fine Art & Estate Appraiser has a limited directory listing for Wilmington, NC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.lookappraisal.com/",
       "address": {
         "city": "Wilmington",
@@ -2846,7 +2704,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/loro-fine-art-restoration-and-appraisal/",
       "name": "Loro Fine Art Restoration and Appraisal",
       "description": "Loro Fine Art Restoration and Appraisal has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.chamberofcommerce.com/business-directory/texas/spring/appraiser/47097793-loro-fine-art-restoration-and-appraisal",
       "address": {
         "city": "Houston",
@@ -2865,7 +2722,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lost-art-gallery/",
       "name": "Lost Art Gallery",
       "description": "Lost Art Gallery has a limited directory listing for Jacksonville, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://lostartgallery.com/",
       "address": {
         "city": "Jacksonville",
@@ -2884,7 +2740,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/m-k-g-art-management-art-advisors-and-appraisers-houston-texas/",
       "name": "MKG Art Management",
       "description": "MKG Art Management has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://mkgart.com/",
       "address": {
         "city": "Houston",
@@ -2903,7 +2758,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/madison-group-fine-art-appraisals/",
       "name": "Madison Group Fine Art Appraisals",
       "description": "Madison Group Fine Art Appraisals has a limited directory listing for Wichita, KS. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.mgfaa.com/",
       "address": {
         "city": "Wichita",
@@ -2922,7 +2776,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/maloney-fine-art/",
       "name": "Maloney Fine Art Appraisal Services",
       "description": "Maloney Fine Art Appraisal Services has a limited directory listing for Anaheim, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.maloneyartappraisals.com/",
       "address": {
         "city": "Anaheim",
@@ -2954,7 +2807,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/manzi-personal-property-appraisers/",
       "name": "Manzi Personal Property Appraisers & Restorers",
       "description": "Manzi Personal Property Appraisers & Restorers has a limited directory listing for Hyannis, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://manziappraisers.com/",
       "address": {
         "city": "Hyannis",
@@ -2973,7 +2825,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/maria-tarrence/",
       "name": "Maria Tarrence",
       "description": "Maria Tarrence has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.capitalartgroup.com/",
       "address": {
         "city": "New York",
@@ -2992,7 +2843,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/matthew-clayton-brown-fine-art-appraisers/",
       "name": "Matthew Clayton Brown | Fine Art Appraisers",
       "description": "Matthew Clayton Brown | Fine Art Appraisers has a limited directory listing for Baton Rouge, LA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.mclaytonbrown.com/",
       "address": {
         "city": "Baton Rouge",
@@ -3011,7 +2861,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/mcdade-fine-art-appraisals/",
       "name": "McDade Fine Art Appraisals",
       "description": "McDade Fine Art Appraisals has a limited directory listing for Naperville, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://mfaappraisals.com/",
       "address": {
         "city": "Naperville",
@@ -3030,7 +2879,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/metropolitan-art-appraisers/",
       "name": "Metropolitan Art Appraisers",
       "description": "Metropolitan Art Appraisers has a limited directory listing for Chicago, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://metropolitanartappraisers.com/",
       "address": {
         "city": "Chicago",
@@ -3067,7 +2915,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/mjp-art-services/",
       "name": "MJP Art Services",
       "description": "MJP Art Services has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.mjpappraisals.com/",
       "address": {
         "city": "Houston",
@@ -3086,7 +2933,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/native-american-art-appraisals/",
       "name": "Native American Art Appraisals, Inc",
       "description": "Native American Art Appraisals, Inc has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://naaainc.com/",
       "address": {
         "city": "Fort Worth",
@@ -3105,7 +2951,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-fine-art-appraisers/",
       "name": "New York Fine Art Appraisers",
       "description": "New York Fine Art Appraisers has a limited directory listing for Fort Wayne, IN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://nyfaa.com/",
       "address": {
         "city": "Fort Wayne",
@@ -3124,7 +2969,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
       "name": "Poras Fine Art Appraisal Service",
       "description": "Poras Fine Art Appraisal Service has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartsappraiser.com/",
       "address": {
         "city": "New York",
@@ -3143,7 +2987,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/newton-fine-art-appraisal/",
       "name": "Newton Fine Art Appraisal, Sally Newton",
       "description": "Newton Fine Art Appraisal, Sally Newton has a limited directory listing for Pasadena, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.newtonfineartappraisal.com/",
       "address": {
         "city": "Pasadena",
@@ -3162,7 +3005,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/nh-auctions-and-appraisals/",
       "name": "New Hampshire Auctions and Appraisals",
       "description": "New Hampshire Auctions and Appraisals has a limited directory listing for Manchester, NH. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://nhauctionsandappraisals.com/",
       "address": {
         "city": "Manchester",
@@ -3181,7 +3023,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
       "name": "Open to the Public",
       "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
       "website": "https://opentothepublic.art/",
       "address": {
         "city": "Los Angeles",
@@ -3200,7 +3041,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/orchestrated-artwork/",
       "name": "Orchestrated Artwork - Fine Art Appraisals",
       "description": "Orchestrated Artwork - Fine Art Appraisals has a limited directory listing for Los Angeles, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.orchestratedartwork.com/",
       "address": {
         "city": "Los Angeles",
@@ -3219,7 +3059,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/peter-held-art-appraisals-associates/",
       "name": "Peter Held Art Appraisals & Associates",
       "description": "Peter Held Art Appraisals & Associates has a limited directory listing for Phoenix, AZ. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.peterheldappraisals.com/",
       "address": {
         "city": "Phoenix",
@@ -3238,7 +3077,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
       "name": "Poras Fine Arts Appraiser",
       "description": "Poras Fine Arts Appraiser has a limited directory listing for Fargo, ND. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartsappraiser.com/",
       "address": {
         "city": "Fargo",
@@ -3257,7 +3095,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/richard-beau-lieu-and-associates-fine-art-appraisers/",
       "name": "Richard Beau Lieu & Associates Fine Art Appraisers",
       "description": "Richard Beau Lieu & Associates Fine Art Appraisers has a limited directory listing for Boynton Beach, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://fineartappraisersboyntonbeach.com/",
       "address": {
         "city": "Boynton Beach",
@@ -3276,7 +3113,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/rlc-appraisals/",
       "name": "RLC Appraisals",
       "description": "RLC Appraisals has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.rlcappraisals.com/",
       "address": {
         "city": "Miami",
@@ -3295,7 +3131,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/robyn-roderick-fine-art-appraisal-services-llc/",
       "name": "Robyn Roderick Fine Art Appraisal Services",
       "description": "Robyn Roderick Fine Art Appraisal Services has a limited directory listing for Frederick, MD. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.rroderickfineartappraisals.com/hire-us",
       "address": {
         "city": "Frederick",
@@ -3314,7 +3149,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/rocky-mountain-art-appraisal-group/",
       "name": "Rocky Mountain Art Appraisal Group",
       "description": "Rocky Mountain Art Appraisal Group has a limited directory listing for Denver, CO. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.larissawild.com/",
       "address": {
         "city": "Denver",
@@ -3333,7 +3167,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/ruffner-art-advisory/",
       "name": "Ruffner Art Advisory, LLC",
       "description": "Ruffner Art Advisory, LLC has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.ruffnerartadvisory.com/",
       "address": {
         "city": "Nashville",
@@ -3352,7 +3185,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/s-cohen-fine-art-restorers-and-appraisers-of-19th-and-20th-century-french-continental-and/",
       "name": "S Cohen Fine Art",
       "description": "S Cohen Fine Art has a limited directory listing for San Diego, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://scohenfineart.com/",
       "address": {
         "city": "San Diego",
@@ -3371,7 +3203,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
       "name": "Wilson Art Services, LLC",
       "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sarah-ann-wilson-art-services.svg",
       "website": "https://www.wilsonartservices.com/",
       "address": {
         "city": "Philadelphia",
@@ -3390,7 +3221,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/savvy-collector/",
       "name": "Savvy Collector",
       "description": "Savvy Collector has a limited directory listing for Phoenix, AZ. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.savvycollector.com/",
       "address": {
         "city": "Phoenix",
@@ -3409,7 +3239,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/schlegel-fine-art-consulting-llc/",
       "name": "Schlegel Fine Art Consulting LLC",
       "description": "Schlegel Fine Art Consulting LLC has a limited directory listing for Hyannis, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.schlegelfineart.com/",
       "address": {
         "city": "Hyannis",
@@ -3428,7 +3257,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/scholz-appraisals-and-advisory-fine-art-and-estate-appraisals/",
       "name": "Scholz Appraisals & Advisory",
       "description": "Scholz Appraisals & Advisory has a limited directory listing for Washington, DC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://scholzappraisals.com/",
       "address": {
         "city": "Washington",
@@ -3447,7 +3275,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/schwarz-gallery/",
       "name": "Schwarz Gallery",
       "description": "Schwarz Gallery has a limited directory listing for Philadelphia, PA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.schwarzgallery.com/",
       "address": {
         "city": "Philadelphia",
@@ -3466,7 +3293,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/selz-fine-arts-appraisals/",
       "name": "Selz Fine Art Appraisals",
       "description": "Selz Fine Art Appraisals has a limited directory listing for Anaheim, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.selzfineartappraisals.com/",
       "address": {
         "city": "Anaheim",
@@ -3485,7 +3311,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/shelley-hall-bend-art-appraisals/",
       "name": "Shelley Hall (Bend Art Appraisals)",
       "description": "Shelley Hall (Bend Art Appraisals) has a limited directory listing for Portland, OR. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.aar21.com/bend-art-appraisals",
       "address": {
         "city": "Portland",
@@ -3504,7 +3329,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/silvia-waltner-fine-art-services-art-appraisals-and-advisory/",
       "name": "Silvia Waltner Fine Art Services",
       "description": "Silvia Waltner Fine Art Services has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://silviawaltner.com/",
       "address": {
         "city": "Seattle",
@@ -3523,7 +3347,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/soltesz-fine-art/",
       "name": "Soltesz Fine Art",
       "description": "Soltesz Fine Art has a limited directory listing for Portland, OR. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.solteszfineart.com/",
       "address": {
         "city": "Portland",
@@ -3542,7 +3365,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/southwest-art-appraisals/",
       "name": "SouthWest Art Appraisals",
       "description": "SouthWest Art Appraisals has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://southwestartappraisals.com/",
       "address": {
         "city": "Fort Worth",
@@ -3579,7 +3401,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
       "name": "St. Lifer Art, Inc.",
       "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
-      "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/st-lifer-art-inc-international-art-appraiser.svg",
       "website": "https://stliferart.com/",
       "address": {
         "city": "New York",
@@ -3598,7 +3419,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/stanford-fine-art/",
       "name": "Stanford Fine Art",
       "description": "Stanford Fine Art has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.stanfordfineart.net/",
       "address": {
         "city": "Nashville",
@@ -3617,7 +3437,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephanie-calman/",
       "name": "Stephanie Calman",
       "description": "Stephanie Calman has a limited directory listing for Las Vegas, NV. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
       "address": {
         "city": "Las Vegas",
@@ -3636,7 +3455,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephen-g-frazier-fine-art-appraiser-llc/",
       "name": "Stephen G. Frazier Fine Art Appraiser, LLC",
       "description": "Stephen G. Frazier Fine Art Appraiser, LLC has a limited directory listing for Ashland, OR. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://frazierartappraiser.com/index.html",
       "address": {
         "city": "Ashland",
@@ -3655,7 +3473,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/strata-fine-art-services/",
       "name": "Strata Fine Art Services",
       "description": "Strata Fine Art Services has a limited directory listing for Washington, DC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.stratafineartservices.com/",
       "address": {
         "city": "Washington",
@@ -3674,7 +3491,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/sylvia-fraley-fine-art-appraisals/",
       "name": "Sylvia Fraley Fine Art Appraisals",
       "description": "Sylvia Fraley Fine Art Appraisals has a limited directory listing for St. Louis, MO. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://fineartofappraisals.com/",
       "address": {
         "city": "St. Louis",
@@ -3693,7 +3509,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/tenhagen-appraisals/",
       "name": "Tenhagen Appraisals",
       "description": "Tenhagen Appraisals has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://tenhagen-appraisals.com/",
       "address": {
         "city": "Miami",
@@ -3712,7 +3527,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-antique-guy/",
       "name": "The Antique Guy",
       "description": "The Antique Guy has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.theantiqueguy.com/appraisals",
       "address": {
         "city": "New York",
@@ -3731,7 +3545,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/the-fine-art-group/",
       "name": "The Fine Art Group",
       "description": "The Fine Art Group has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.fineartgroup.com/",
       "address": {
         "city": "Miami",
@@ -3750,7 +3563,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/thompson-and-martinez-fine-art-appraisals-inc/",
       "name": "Thompson & Martinez Fine Art Appraisals, Inc.",
       "description": "Thompson & Martinez Fine Art Appraisals, Inc. has a limited directory listing for San Diego, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://thompsonfineartservices.com/thompson-martinez-fine-art-appraisals-inc-is-now-thompson-fine-art-services-llc",
       "address": {
         "city": "San Diego",
@@ -3769,7 +3581,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/valia-garzon-art-services/",
       "name": "Valia Garzon Art Services",
       "description": "Valia Garzon Art Services has a limited directory listing for Washington, DC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.valiagarzonartservices.com/",
       "address": {
         "city": "Washington",
@@ -3788,7 +3599,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/van-weyenbergh-fine-art/",
       "name": "Van Weyenbergh Fine Art, Art Expert, Art Appraisal & Art Authentication",
       "description": "Van Weyenbergh Fine Art, Art Expert, Art Appraisal & Art Authentication has a limited directory listing for Glendale, CA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.vwart.com/",
       "address": {
         "city": "Glendale",
@@ -3807,7 +3617,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/veritas-fine-art-and-appraisals/",
       "name": "Veritas Fine Art Appraisals & Consulting Group",
       "description": "Veritas Fine Art Appraisals & Consulting Group has a limited directory listing for Naperville, IL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://veritasartappraisals.com/",
       "address": {
         "city": "Naperville",
@@ -3826,7 +3635,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/victoria-shaw-art-appraisals-advisory/",
       "name": "Victoria Shaw Art Appraisals and Advisory, LLC",
       "description": "Victoria Shaw Art Appraisals and Advisory, LLC has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.artappraiser.co/about",
       "address": {
         "city": "New York",
@@ -3845,7 +3653,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/vivanco-art-and-appraisals/",
       "name": "Vivanco Art & Appraisals LLC",
       "description": "Vivanco Art & Appraisals LLC has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.vivancoart.com/",
       "address": {
         "city": "Boston",
@@ -3864,7 +3671,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/washington-fine-art-appraisers/",
       "name": "Washington Fine Art Appraisers",
       "description": "Washington Fine Art Appraisers has a limited directory listing for Washington, DC. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://washingtondcartappraisers.com/",
       "address": {
         "city": "Washington",
@@ -3883,7 +3689,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/williams-fine-art-gallery/",
       "name": "Williams Fine Art Gallery",
       "description": "Williams Fine Art Gallery has a limited directory listing for Salt Lake City, UT. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://nowplayingutah.com/venue/williams-fine-art-gallery",
       "address": {
         "city": "Salt Lake City",
@@ -3902,7 +3707,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/winston-art-group-palm-beach/",
       "name": "Winston Art Group",
       "description": "Winston Art Group has a limited directory listing for West Palm Beach, FL. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.winstonartgroup.com/",
       "address": {
         "city": "West Palm Beach",
@@ -3921,7 +3725,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/",
       "name": "Winter Associates",
       "description": "Winter Associates has a limited directory listing for Hartford, CT. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://www.auctionsappraisers.com/",
       "address": {
         "city": "Hartford",
@@ -3953,7 +3756,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/wyeth-appraisals/",
       "name": "Wyeth Appraisals",
       "description": "Wyeth Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "image": "https://assets.appraisily.com/logo-exploration/appraisily-logo-2026-07-09/concept-01-monogram-picture-frame.png",
       "website": "https://wyethappraisals.com/",
       "address": {
         "city": "Nashville",
@@ -4084,7 +3886,6 @@
           "name": "AFP Art Consulting, LLC",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
           "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man.svg",
           "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
           "publicRouteAvailable": true
         }
@@ -4321,7 +4122,6 @@
           "name": "Heidi Vaughan Fine Art",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
           "slug": "heidi-vaughan-ma-isa-am",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/heidi-vaughan-ma-isa-am.svg",
           "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
           "publicRouteAvailable": true
         }
@@ -4438,7 +4238,6 @@
           "name": "Open to the Public",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
           "slug": "open-to-the-public",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
           "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
           "publicRouteAvailable": true
         }
@@ -4555,7 +4354,6 @@
           "name": "St. Lifer Art, Inc.",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
           "slug": "st-lifer-art-inc-international-art-appraiser",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/st-lifer-art-inc-international-art-appraiser.svg",
           "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
           "publicRouteAvailable": true
         }
@@ -4636,7 +4434,6 @@
           "name": "Wilson Art Services, LLC",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
           "slug": "sarah-ann-wilson-art-services",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sarah-ann-wilson-art-services.svg",
           "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
           "publicRouteAvailable": true
         }

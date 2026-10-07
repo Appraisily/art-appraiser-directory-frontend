@@ -2,7 +2,7 @@
   "title": "Art appraisers in Los Angeles, California",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T12:42:49.900Z",
+  "generatedAt": "2026-10-07T18:54:23.911Z",
   "location": {
     "slug": "los-angeles",
     "url": "https://art-appraisers-directory.appraisily.com/location/los-angeles/",
@@ -14,7 +14,6 @@
         "name": "Open to the Public",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
         "slug": "open-to-the-public",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
         "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
         "publicRouteAvailable": true
       }

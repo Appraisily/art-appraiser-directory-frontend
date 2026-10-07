@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory location pages",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T14:41:51.012Z",
+  "generatedAt": "2026-10-07T18:54:23.911Z",
   "count": 78,
   "locations": [
     {
@@ -120,7 +120,6 @@
           "name": "AFP Art Consulting, LLC",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man/",
           "slug": "afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/afp-art-consulting-llc-fine-art-consulting-appraisals-research-writing-and-collections-man.svg",
           "description": "AFP Art Consulting is a Boston fine-art appraisal and consulting firm offering USPAP-aligned appraisals, research, advisory, and collection management.",
           "publicRouteAvailable": true
         }
@@ -357,7 +356,6 @@
           "name": "Heidi Vaughan Fine Art",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/heidi-vaughan-ma-isa-am/",
           "slug": "heidi-vaughan-ma-isa-am",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/heidi-vaughan-ma-isa-am.svg",
           "description": "Heidi Vaughan Fine Art is a Houston art gallery and advisory that provides fine-art appraisals for insurance, estates, donations, and equitable distribution.",
           "publicRouteAvailable": true
         }
@@ -474,7 +472,6 @@
           "name": "Open to the Public",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/open-to-the-public/",
           "slug": "open-to-the-public",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/open-to-the-public.svg",
           "description": "Open to the Public is a Los Angeles fine-art appraisal and consulting firm specializing in postwar and contemporary art and photography.",
           "publicRouteAvailable": true
         }
@@ -591,7 +588,6 @@
           "name": "St. Lifer Art, Inc.",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/st-lifer-art-inc-international-art-appraiser/",
           "slug": "st-lifer-art-inc-international-art-appraiser",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/st-lifer-art-inc-international-art-appraiser.svg",
           "description": "St. Lifer Art is a New York fine-art appraisal firm specializing in nineteenth-, twentieth-, and twenty-first-century paintings, prints, photography, posters, and sculpture.",
           "publicRouteAvailable": true
         }
@@ -672,7 +668,6 @@
           "name": "Wilson Art Services, LLC",
           "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
           "slug": "sarah-ann-wilson-art-services",
-          "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sarah-ann-wilson-art-services.svg",
           "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
           "publicRouteAvailable": true
         }

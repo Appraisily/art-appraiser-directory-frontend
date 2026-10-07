@@ -23,6 +23,7 @@ This repo is static-first.
 - Validate interaction states and telemetry: `npm run test:interactions`
 - Validate initial/settled/no-JS parity against isolated nginx: `npm run test:settled-browser`
 - Validate explicit provider/Appraisily handoffs and provider-first source order: `npm run test:provider-handoff`
+- Reject known publisher/non-likeness images as provider identity in schema/feeds: `npm run test:provider-images`
 - Validate exact artifact-gated canonical aliases: `npm run test:canonical-routing`
 - Validate GET/HEAD redirects and terminal routes against isolated nginx: `npm run test:canonical-routing-http`
 - Refresh sitemap/indexing metadata only: `npm run seo:indexing-manifest`
@@ -86,6 +87,11 @@ This repo is static-first.
   in source and on mobile, while the declared CSS preserves the desktop sidebar.
   The full published-provider unit gate and representative JS/no-JS browser gate
   reject ambiguous labels, lost official links, status drift and column-order drift.
+- Provider identity images must depict the provider. Appraisily logos and
+  generated non-likeness artwork may be publisher branding/page illustrations,
+  but must not populate provider schema or provider/location feed image fields.
+  The Art-local image gate preserves this boundary without changing Antique or
+  FAIR eligibility; broader field-evidence and media-permission checks still apply.
 - Routine `seo:indexing-manifest` is metadata-only. Broad writing requires explicit
   `--write --allow-reviewed-content-write`; it is not a maintenance shortcut.
   Missing declared resource HTML fails closed. Only explicit `--fixture` inputs

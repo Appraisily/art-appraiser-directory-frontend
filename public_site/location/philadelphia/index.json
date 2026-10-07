@@ -2,7 +2,7 @@
   "title": "Art appraisers in Philadelphia, Pennsylvania",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T12:42:49.900Z",
+  "generatedAt": "2026-10-07T18:54:23.911Z",
   "location": {
     "slug": "philadelphia",
     "url": "https://art-appraisers-directory.appraisily.com/location/philadelphia/",
@@ -14,7 +14,6 @@
         "name": "Wilson Art Services, LLC",
         "url": "https://art-appraisers-directory.appraisily.com/appraiser/sarah-ann-wilson-art-services/",
         "slug": "sarah-ann-wilson-art-services",
-        "image": "https://art-appraisers-directory.appraisily.com/assets/generated-appraiser-profiles/sarah-ann-wilson-art-services.svg",
         "description": "Wilson Art Services is a Philadelphia fine-art appraisal and consulting practice offering confidential appraisals, collection planning, and advisory services.",
         "publicRouteAvailable": true
       }
