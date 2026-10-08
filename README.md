@@ -189,6 +189,16 @@ service/certification wording remain unresolved. The regression is included in
 `test:resources`; this source-only ledger does not close the strict truth audit
 or prove a Google outcome.
 
+The [holding-profile locality ledger](docs/holding-profile-locality-provenance-20261008.md)
+records four separately dated existing base/contact localities after examining
+all 26 remaining locality findings in the original holding cohort. It does not
+change public artifacts, original reviews or limited status. Chicago is an
+appointment-only base without a public office, not an inspection premises.
+The other 22 findings remain open, including a newly retrieved Plainville contact
+for Winter and Anne Kelly Lewis's current named biography without office evidence.
+The focused negative regressions are included in `test:resources`; public
+corrections and useful-selection decisions still need their separate gates.
+
 The [recorded-source provenance review](docs/provider-source-provenance-review-20261008.md)
 distinguishes external registry/marketplace sources from provider-owned websites.
 The shared trust audit reports twenty bounded review findings across nine

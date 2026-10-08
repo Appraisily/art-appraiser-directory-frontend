@@ -1030,10 +1030,26 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/",
-      "canonicalProviderId": "provider:estate-appraisal-services"
+      "canonicalProviderId": "provider:estate-appraisal-services",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.jewelryandcoinbuyers.com/",
+          "value": { "city": "Miami", "region": "FL", "country": "US" },
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "The exact named business publishes Miami, Florida in its contact address. This supports the existing city/region only, not street, availability, credentials or report acceptance. Its dealer and estate-valuation activities do not establish fine-art appraisal scope, which remains unconfirmed; no Art promotion or Antique eligibility change follows.",
+          "sourceSnapshots": [{
+            "sourceUrl": "https://www.jewelryandcoinbuyers.com/",
+            "retrievedAt": "2026-10-08T10:40:32.612Z",
+            "bodySha256": "2b06b82008c6a544c9acca59cfb68f946cf670750631ee28b0db0b32832df765"
+          }]
+        }
+      }
     },
     {
       "slug": "appraisals-of-value",
@@ -6396,10 +6412,26 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/isabelle-m-weiss/",
-      "canonicalProviderId": "provider:isabelle-m-weiss"
+      "canonicalProviderId": "provider:isabelle-m-weiss",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://collectoranonymous.com/",
+          "value": { "city": "Detroit", "region": "MI", "country": "US" },
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "CollectorAnonymous explicitly names founder Isabelle Weiss as based in Detroit, Michigan, and its contact locality agrees. This supports the existing named person's base/contact locality, not a separate personal street office or walk-in premises. No source qualification marketing, inspection format, service labels or report-acceptance guarantee is attested here.",
+          "sourceSnapshots": [{
+            "sourceUrl": "https://collectoranonymous.com/",
+            "retrievedAt": "2026-10-08T10:40:34.127Z",
+            "bodySha256": "7e9d7938407a5b1ad4862056ffc6d78f753e8e1c72ac58dd47ee9e3d2a457417"
+          }]
+        }
+      }
     },
     {
       "slug": "j-carman-fine-art-advisory-and-appraisals",
@@ -7624,10 +7656,26 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/lena-s-appraisal-services/",
-      "canonicalProviderId": "provider:lena-s-appraisal-services"
+      "canonicalProviderId": "provider:lena-s-appraisal-services",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.assetsappraisalservices.com/",
+          "value": { "city": "San Diego", "region": "CA", "country": "US" },
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "The named firm explicitly describes a San Diego base and publishes a matching San Diego, California contact locality. Southern California clients are service coverage, not additional offices. This city-only support does not verify a street or walk-in inspection location, credentials, retail/appraisal independence, authentication or recipient acceptance.",
+          "sourceSnapshots": [{
+            "sourceUrl": "https://www.assetsappraisalservices.com/",
+            "retrievedAt": "2026-10-08T10:40:34.535Z",
+            "bodySha256": "3b4436bd9a49d976db644045f8f265033b46bda91796d13a7e6f4ed43dd428c2"
+          }]
+        }
+      }
     },
     {
       "slug": "leprince-fine-art",
@@ -7685,10 +7733,26 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/lindsey-m-owen/",
-      "canonicalProviderId": "provider:lindsey-m-owen"
+      "canonicalProviderId": "provider:lindsey-m-owen",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.loappraisals.com/chicago-art-appraiser-the-appraisal-process",
+          "value": { "city": "Chicago", "region": "IL", "country": "US" },
+          "evidenceScope": "provider_published_appointment_only_base",
+          "independentCredentialVerification": false,
+          "note": "Lindsey Owen's named practice states that its headquarters are Chicago, Illinois, with appointment-only operation and no publicly accessible office. The Chicago mailing address is not an inspection or personal street office; nationwide clients are not additional offices. This supports the existing base/contact locality only, not universal remote inspection, credentials, report acceptance or person/company equivalence.",
+          "sourceSnapshots": [{
+            "sourceUrl": "https://www.loappraisals.com/chicago-art-appraiser-the-appraisal-process",
+            "retrievedAt": "2026-10-08T10:40:34.725Z",
+            "bodySha256": "411bdb7a720c32ece6181f4395dd0662bb26fe25b0fe56829871c8200dcb0843"
+          }]
+        }
+      }
     },
     {
       "slug": "lisa-austin-laa",
