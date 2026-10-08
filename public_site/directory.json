@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T07:20:51.622Z",
+  "generatedAt": "2026-10-08T09:19:53.842Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -1183,9 +1183,10 @@
       "slug": "case-antiques-inc-auctions-appraisals",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
       "name": "Case Antiques, Inc. Auctions & Appraisals",
-      "description": "Case Antiques, Inc. Auctions & Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
+      "description": "Case Antiques, Inc. Auctions & Appraisals publishes its headquarters in Knoxville, TN and a Nashville office. Visits are by appointment; check the provider contact page before planning a visit.",
+      "website": "https://caseantiques.com/contact-new/",
       "address": {
-        "city": "Nashville",
+        "city": "Knoxville",
         "region": "TN",
         "country": "US"
       },
@@ -1657,7 +1658,8 @@
       "slug": "everard-auctions-appraisals",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
       "name": "Everard Auctions & Appraisals",
-      "description": "Everard Auctions & Appraisals has a limited directory listing for Savannah, GA. Confirm current services and qualifications directly with the business.",
+      "description": "Everard Auctions & Appraisals publishes its contact location in Savannah, GA. Use the provider contact page to discuss your item, current services and visit arrangements.",
+      "website": "https://www.everard.com/auction/contact-3/",
       "address": {
         "city": "Savannah",
         "region": "GA",

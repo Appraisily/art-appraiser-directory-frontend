@@ -93,6 +93,13 @@ This repo is static-first.
   reject ambiguous labels, lost native source links, status drift and column-order drift.
   Known external references carry explicit publisher-role metadata and honest
   labels; a registry root or sale event is not a provider website or entity equivalence.
+  Case and Everard use their owned contact pages as primary actions and retain
+  tagged LiveAuctioneers links as secondary references in HTML and existing feeds.
+  Case is one company: Knoxville headquarters, Nashville appointment-only branch;
+  no Knoxville city route is implied. The separately dated office/contact field
+  checks do not replace their August 30 listing reviews or promote limited status.
+  `tests/case-everard-contacts.test.mjs` guards the office roles, facet/breadcrumb,
+  source snapshots and both feed representations, including missing-ledger negatives.
 - Provider identity images must depict the provider. Appraisily logos and
   generated non-likeness artwork may be publisher branding/page illustrations,
   but must not populate provider schema or provider/location feed image fields.

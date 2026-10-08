@@ -205,7 +205,11 @@ unsupported Nashville office is omitted across profile, hubs and feeds. The
 generic Connecticut association reference remains explicitly unresolved. All
 nine routes are in the browser gate; this does not clear broader field debt or
 prove Google inclusion. Newly archived owned-site alternatives remain separate
-field/contact follow-ups rather than unreviewed replacements.
+field/contact follow-ups rather than unreviewed replacements. The subsequently
+reviewed [Case/Everard contact correction](docs/case-everard-contact-correction-20261008.md)
+uses their owned contact pages, preserves marketplace references, and distinguishes
+Case's Knoxville headquarters from its appointment-only Nashville branch. Its
+separately dated field checks preserve both limited statuses and August 30 reviews.
 
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider

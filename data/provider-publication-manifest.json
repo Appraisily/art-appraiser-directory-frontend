@@ -2902,16 +2902,67 @@
       "name": "Case Antiques, Inc. Auctions & Appraisals",
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
-      "sourceUrl": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals",
-      "sourceType": "auction_marketplace",
+      "sourceUrl": "https://caseantiques.com/contact-new/",
+      "sourceType": "official_website",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "source_reference"
+        "source_reference",
+        "website",
+        "primary_location",
+        "office_branches"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
-      "canonicalProviderId": "provider:case-antiques-auctions-appraisals"
+      "canonicalProviderId": "provider:case-antiques-auctions-appraisals",
+      "sourceReferences": [
+        {
+          "url": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals",
+          "type": "auction_marketplace"
+        }
+      ],
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://caseantiques.com/contact-new/",
+          "locationRole": "headquarters",
+          "independentCredentialVerification": false,
+          "value": {
+            "city": "Knoxville",
+            "region": "TN",
+            "country": "US"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://caseantiques.com/contact-new/",
+              "retrievedAt": "2026-10-08T09:07:02.089Z",
+              "bodySha256": "f901e4dda33e456b7cbd8503ad73eca876599849f0e0b8c58b42663f63688f46"
+            }
+          ],
+          "summary": "Provider contact page identifies Knoxville as headquarters and Nashville as an office; all gallery and office locations require appointments."
+        },
+        "office_branches": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://caseantiques.com/contact-new/",
+          "independentCredentialVerification": false,
+          "value": [
+            {
+              "city": "Nashville",
+              "region": "TN",
+              "country": "US",
+              "appointmentOnly": true
+            }
+          ],
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://caseantiques.com/contact-new/",
+              "retrievedAt": "2026-10-08T09:07:02.089Z",
+              "bodySha256": "f901e4dda33e456b7cbd8503ad73eca876599849f0e0b8c58b42663f63688f46"
+            }
+          ],
+          "summary": "Preserves the existing Nashville branch as an appointment-only company office, not a separate provider or personal residence. Other company offices are outside this bounded correction."
+        }
+      }
     },
     {
       "slug": "case-auctions",
@@ -4947,16 +4998,45 @@
       "name": "Everard Auctions & Appraisals",
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
-      "sourceUrl": "https://www.liveauctioneers.com/auctioneer/4098/everard-auctions-and-appraisals",
-      "sourceType": "auction_marketplace",
+      "sourceUrl": "https://www.everard.com/auction/contact-3/",
+      "sourceType": "official_website",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "source_reference"
+        "source_reference",
+        "website",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
-      "canonicalProviderId": "provider:everard-auctions-appraisals"
+      "canonicalProviderId": "provider:everard-auctions-appraisals",
+      "sourceReferences": [
+        {
+          "url": "https://www.liveauctioneers.com/auctioneer/4098/everard-auctions-and-appraisals",
+          "type": "auction_marketplace"
+        }
+      ],
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.everard.com/auction/contact-3/",
+          "locationRole": "practice_contact",
+          "independentCredentialVerification": false,
+          "value": {
+            "city": "Savannah",
+            "region": "GA",
+            "country": "US"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.everard.com/auction/contact-3/",
+              "retrievedAt": "2026-10-08T09:07:04.013Z",
+              "bodySha256": "5d34ff7190a2c4491af4d16b33f27689ee9240dd1c19151cebdadf6216c6ea44"
+            }
+          ],
+          "summary": "Provider contact page lists the Savannah, Georgia contact location; no headquarters or appointment claim inferred."
+        }
+      }
     },
     {
       "slug": "fidelity-estate-services",

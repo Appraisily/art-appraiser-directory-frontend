@@ -14,9 +14,7 @@ const references = {
   'janet-l-ross': ['credential_body_registry', 'ISA individual profile'],
   'antique-and-fine-art-appraisal': ['business_registry', 'BBB business profile'],
   'antique-and-fine-art-appraisals': ['commercial_directory', 'Antiques.com dealer listing'],
-  'case-antiques-inc-auctions-appraisals': ['auction_marketplace', 'LiveAuctioneers auctioneer profile'],
   'connecticut-art-appraisals-llc-alizzandra-danker': ['credential_body_registry', 'Association reference'],
-  'everard-auctions-appraisals': ['auction_marketplace', 'LiveAuctioneers auctioneer profile'],
   'houston-houston-estate-sales-and-appraisals': ['sale_event_marketplace', 'Historical sale reference'],
   'jason-preston-art-advisory-appraisals': ['credential_body_registry', 'Appraisers Association profile'],
 };
@@ -52,7 +50,7 @@ for (const [slug, [type, heading]] of Object.entries(references)) {
   });
 }
 
-test('all nine feeds keep references separate from provider websites and original reviews', () => {
+test('remaining external-primary feeds keep references separate from provider websites and original reviews', () => {
   for (const file of ['public_site/appraisers.json', 'public_site/directory.json']) {
     const rows = JSON.parse(read(file)).appraisers;
     assert.equal(rows.length, 209);
