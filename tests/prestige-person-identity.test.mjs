@@ -17,15 +17,7 @@ const read = file => fs.readFileSync(new URL(file, root), 'utf8');
 const records = JSON.parse(read('data/provider-publication-manifest.json')).providers;
 const record = slug => records.find(row => row.slug === slug);
 const sameAs = slug => slug === slugs[0] ? [alicia, isa, fairPerson] : slug === slugs[1] ? [alicia] : [slugs[3], slugs[4]].includes(slug) ? [elizabeth] : [];
-const sourceReviewFlags = slug => slug === slugs[0] ? [
-  { code:'source-provenance-third-party-recorded-as-provider-website', slug,
-    sourceUrl:'https://www.isa-appraisers.org/', sourceRole:'credential_body_registry', sourceType:'official_website' },
-  { code:'source-provenance-third-party-labelled-as-provider-website', slug,
-    sourceUrl:'https://www.isa-appraisers.org/', sourceRole:'credential_body_registry',
-    sources:['native:website', 'visible:publication-status'] },
-  { code:'source-provenance-generic-credential-body-root', slug,
-    sourceUrl:'https://www.isa-appraisers.org/', sourceRole:'credential_body_registry' },
-] : [];
+const sourceReviewFlags = () => [];
 function document(file, action) {
   const dom = new JSDOM(read(file), { url: origin });
   try { action(dom.window.document); } finally { dom.window.close(); }
@@ -116,7 +108,11 @@ test('hubs and machine feeds omit the same six unsupported personal locations', 
     for (const slug of slugs) {
       const row = rows.find(provider => provider.slug === slug);
       assert.equal(row.address, undefined); assert.equal(row.serviceType, undefined);
-      assert.equal(row.website, record(slug).sourceUrl); assert.equal(row.source.verifiedAt, '2026-08-30');
+      if (slug === slugs[0]) {
+        assert.equal(row.website, undefined);
+        assert.deepEqual(row.source.reference, { url: isa, type: 'credential_body_registry' });
+      } else assert.equal(row.website, record(slug).sourceUrl);
+      assert.equal(row.source.verifiedAt, '2026-08-30');
       assert.match(row.description, /Prestige/);
     }
   }

@@ -46,7 +46,7 @@ test('negative fixture rejects duplicate settled metadata and lost reviewed fact
     conflicting.descriptions.push('Old feed description');
     conflicting.businesses.push({ ...initial.businesses[0], url: conflicting.canonicals[1] });
     assert.throws(() => assertDocumentParity(initial, conflicting, origin + route), /one self-canonical/);
-    for (const field of ['mainText', 'about', 'businesses', 'title', 'descriptions', 'socialDescriptions', 'robots']) {
+    for (const field of ['mainText', 'about', 'businesses', 'title', 'descriptions', 'socialDescriptions', 'providerSource', 'robots']) {
       const lost = structuredClone(initial);
       lost[field] = typeof lost[field] === 'string' ? 'Old feed replacement' : [];
       assert.throws(() => assertDocumentParity(initial, lost, origin + route), undefined, field);

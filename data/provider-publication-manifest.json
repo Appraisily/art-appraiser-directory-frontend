@@ -405,13 +405,13 @@
       "name": "Alicia E Weaver (ISA CAPP)",
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
-      "sourceUrl": "https://www.isa-appraisers.org/",
-      "sourceType": "official_website",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+      "sourceType": "credential_body_registry",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website",
+        "source_reference",
         "qualification",
         "company_relationship",
         "person_identity"
@@ -881,12 +881,12 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614",
-      "sourceType": "official_website",
+      "sourceType": "business_registry",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisal/",
       "canonicalProviderId": "provider:antique-fine-art-appraisal"
@@ -897,12 +897,12 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals",
-      "sourceType": "official_website",
+      "sourceType": "commercial_directory",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisals/",
       "canonicalProviderId": "provider:antique-fine-art-appraisals"
@@ -2903,12 +2903,12 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals",
-      "sourceType": "official_website",
+      "sourceType": "auction_marketplace",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
       "canonicalProviderId": "provider:case-antiques-auctions-appraisals"
@@ -3794,12 +3794,12 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.appraisersassociation.org/",
-      "sourceType": "official_website",
+      "sourceType": "credential_body_registry",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
       "canonicalProviderId": "provider:connecticut-art-appraisals"
@@ -4948,12 +4948,12 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.liveauctioneers.com/auctioneer/4098/everard-auctions-and-appraisals",
-      "sourceType": "official_website",
+      "sourceType": "auction_marketplace",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
       "canonicalProviderId": "provider:everard-auctions-appraisals"
@@ -5990,12 +5990,12 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.estatesales.net/TX/Houston/77042/2433189",
-      "sourceType": "official_website",
+      "sourceType": "sale_event_marketplace",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/houston-houston-estate-sales-and-appraisals/",
       "canonicalProviderId": "provider:houston-estate-sales-appraisals"
@@ -6544,12 +6544,12 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
-      "sourceType": "official_website",
+      "sourceType": "credential_body_registry",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/janet-l-ross/",
       "canonicalProviderId": "provider:janet-l-ross"
@@ -6560,15 +6560,28 @@
       "publicationStatus": "limited",
       "reason": "website_backed_limited_publication_2026-08-30",
       "sourceUrl": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
-      "sourceType": "official_website",
+      "sourceType": "credential_body_registry",
       "verifiedAt": "2026-08-30",
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "source_reference"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/",
-      "canonicalProviderId": "provider:jason-preston-art-advisory-appraisals"
+      "canonicalProviderId": "provider:jason-preston-art-advisory-appraisals",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://jasonpreston.com/about/",
+          "sourceSnapshots": [{
+            "sourceUrl": "https://jasonpreston.com/about/",
+            "retrievedAt": "2026-10-08T06:49:46.181Z",
+            "bodySha256": "00c4164f108a081e29d03550fb3a4bdd008fe54b7608eba904402041668ff794"
+          }],
+          "note": "The provider-published biography names this practice and says its headquarters are in Los Angeles, not Nashville. Omit the unsupported Nashville office; no replacement office, personal address or new qualification is inferred. The association reference and original identity review remain separate."
+        }
+      }
     },
     {
       "slug": "jennifer-e-salvetti-kulla-ma",

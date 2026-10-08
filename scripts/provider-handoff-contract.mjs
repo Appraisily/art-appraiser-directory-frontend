@@ -19,6 +19,7 @@ export function captureProviderHandoff(document, origin) {
     links,
     h1: compact(h1?.textContent),
     status: document.querySelector('[data-provider-publication-status]')?.getAttribute('data-provider-publication-status'),
+    sourceType: document.querySelector('meta[name="appraisily:provider-source-type"]')?.content,
     correction: [...document.querySelectorAll('a[href]')].some((node) => node.hasAttribute('data-provider-correction-link') || /correct|report.*listing/i.test(node.textContent)),
     layout: layout ? {
       columns: layout.children.length,
@@ -33,6 +34,20 @@ export function assertProviderHandoff(snapshot, provider) {
   assert.ok(snapshot.h1, `${provider.slug}: provider heading missing`);
   assert.equal(snapshot.status, provider.publicationStatus, `${provider.slug}: listing status changed`);
   assert.ok(snapshot.links.some((link) => link.official && link.href === new URL(provider.sourceUrl).href), `${provider.slug}: official native website link missing`);
+  const referenceLabels = {
+    credential_body_registry: /ISA|Appraisers Association|Association reference/i,
+    business_registry: /BBB business profile/i,
+    commercial_directory: /Antiques\.com dealer listing/i,
+    auction_marketplace: /LiveAuctioneers auctioneer profile/i,
+    sale_event_marketplace: /historical sale reference/i,
+  };
+  if (referenceLabels[provider.sourceType]) {
+    assert.equal(snapshot.sourceType, provider.sourceType, `${provider.slug}: source role metadata differs`);
+    for (const link of snapshot.links.filter(item => item.official)) {
+      assert.doesNotMatch(link.text, /official website/i, `${provider.slug}: external reference is not a provider-owned website`);
+      assert.match(link.text, referenceLabels[provider.sourceType], `${provider.slug}: source destination must be named before click`);
+    }
+  }
   for (const link of snapshot.links.filter((item) => item.ownedAction)) {
     assert.match(link.text, /Appraisily/i, `${provider.slug}: ambiguous Appraisily action: ${link.text}`);
   }

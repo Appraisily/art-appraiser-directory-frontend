@@ -13,7 +13,8 @@ This repo is static-first.
 - Nginx serves provider-specific HTML for verified and limited listings. Other provider-shaped URLs
   receive the generic `public_site/appraiser-unavailable.html` response.
 - Matching FAIR Fine-art profiles may be cited as extra `sameAs` plus a "FAIR public registry" link.
-  The official website remains the source CTA. FAIR verification status is not copied onto Art.
+  Source actions must distinguish provider-owned websites from external references.
+  FAIR verification status is not copied onto Art.
   A shared website is not proof that a company and a person are the same entity;
   retain their sourced relationship without cross-entity `sameAs` or inferred offices.
 
@@ -89,7 +90,9 @@ This repo is static-first.
   links remain distinct. Existing two-column provider facts precede contact/offers
   in source and on mobile, while the declared CSS preserves the desktop sidebar.
   The full published-provider unit gate and representative JS/no-JS browser gate
-  reject ambiguous labels, lost official links, status drift and column-order drift.
+  reject ambiguous labels, lost native source links, status drift and column-order drift.
+  Known external references carry explicit publisher-role metadata and honest
+  labels; a registry root or sale event is not a provider website or entity equivalence.
 - Provider identity images must depict the provider. Appraisily logos and
   generated non-likeness artwork may be publisher branding/page illustrations,
   but must not populate provider schema or provider/location feed image fields.

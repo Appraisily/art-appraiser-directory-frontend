@@ -111,7 +111,7 @@
       "slug": "alicia-e-weaver-isa-capp",
       "name": "Alicia E Weaver (ISA CAPP)",
       "publicationStatus": "limited",
-      "sourceUrl": "https://www.isa-appraisers.org/",
+      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
       "fairUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/#person",
       "fairName": "Alicia E Weaver",
       "match": "website_host",
@@ -1197,24 +1197,6 @@
       "sourceUrl": "https://www.jamesbhandfineart.com/",
       "fairUrl": "https://fairappraisers.org/appraisers/james-b-hand-fine-art-gloucester-ma/",
       "fairName": "James B. Hand Fine Art",
-      "match": "website_host"
-    },
-    {
-      "slug": "janet-l-ross",
-      "name": "Janet L. Ross",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
-      "fairUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/",
-      "fairName": "Alicia E Weaver",
-      "match": "website_host"
-    },
-    {
-      "slug": "jason-preston-art-advisory-appraisals",
-      "name": "Jason Preston Art Advisory & Appraisals",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
-      "fairUrl": "https://fairappraisers.org/appraisers/connecticut-art-appraisals-llc-alizzandra-danker-hartford-ct/",
-      "fairName": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
       "match": "website_host"
     },
     {

@@ -44,6 +44,10 @@ const routes = [
   '/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/',
   '/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/',
   '/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/',
+  '/appraiser/janet-l-ross/', '/appraiser/antique-and-fine-art-appraisal/',
+  '/appraiser/antique-and-fine-art-appraisals/', '/appraiser/case-antiques-inc-auctions-appraisals/',
+  '/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/', '/appraiser/everard-auctions-appraisals/',
+  '/appraiser/houston-houston-estate-sales-and-appraisals/', '/appraiser/jason-preston-art-advisory-appraisals/',
   ...resources.map((page) => page.path),
   ...unpublished.map((page) => page.route),
 ];

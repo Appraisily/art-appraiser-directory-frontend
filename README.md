@@ -143,7 +143,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-40 representative routes at desktop, 390px and 320px with JavaScript enabled and
+48 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions.
 Person profiles keep their own primary entity; a sourced `worksFor` relationship
 does not turn the person into a company or confirm a separate personal office.
@@ -196,6 +196,16 @@ published profiles, including two generic association roots. These are separate
 from the 288 remaining field-scope findings. This source-only check does not
 change public labels, provider facts, credentials, dates, feeds or eligibility;
 the remaining synchronized public corrections require their own release proof.
+
+The subsequent [source/contact correction](docs/provider-source-contact-correction-20261008.md)
+labels nine external references honestly, preserves original reviews and native
+tracking, and synchronizes their typed feed references. Two wrong FAIR entity
+links and generic-association/sale-event equivalences are removed; Jason's
+unsupported Nashville office is omitted across profile, hubs and feeds. The
+generic Connecticut association reference remains explicitly unresolved. All
+nine routes are in the browser gate; this does not clear broader field debt or
+prove Google inclusion. Newly archived owned-site alternatives remain separate
+field/contact follow-ups rather than unreviewed replacements.
 
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider

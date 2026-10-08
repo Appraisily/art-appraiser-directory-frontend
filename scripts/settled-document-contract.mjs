@@ -46,6 +46,8 @@ export function captureDocument(document, canonicalOrigin) {
       .map((node) => ({ owner: node.getAttribute('property') || node.getAttribute('name'), content: node.content })),
     canonicals: [...document.querySelectorAll('link[rel="canonical"]')].map((node) => node.href),
     robots: [...document.querySelectorAll('meta[name="robots"]')].map((node) => node.content),
+    providerSource: [...document.querySelectorAll('meta[name="appraisily:provider-source"],meta[name="appraisily:provider-source-type"]')]
+      .map((node) => ({ owner: node.name, content: node.content })),
     h1: [...document.querySelectorAll('h1')].map((node) => compact(node.textContent)),
     mainText: compact(content.textContent),
     about: [...document.querySelectorAll('[data-provider-specific-about]')].map((node) => compact(node.textContent)),
@@ -72,7 +74,7 @@ export function assertDocumentParity(initial, rendered, url) {
       assert.equal(state.businesses[0].url, url, `${url}: provider schema URL must agree`);
     }
   }
-  for (const field of ['title', 'descriptions', 'socialDescriptions', 'robots', 'h1', 'mainText', 'about', 'businesses']) {
+  for (const field of ['title', 'descriptions', 'socialDescriptions', 'robots', 'providerSource', 'h1', 'mainText', 'about', 'businesses']) {
     assert.deepEqual(rendered[field], initial[field], `${url}: authored ${field} changed after rendering`);
   }
   const destinations = new Set(rendered.anchors.map((anchor) => JSON.stringify(anchor)));

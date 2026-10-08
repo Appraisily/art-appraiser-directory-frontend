@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T05:22:07.504Z",
+  "generatedAt": "2026-10-08T07:20:51.622Z",
   "count": 209,
   "appraisers": [
     {
@@ -226,11 +226,14 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
       "name": "Alicia E Weaver (ISA CAPP)",
       "description": "Alicia E Weaver (ISA CAPP) is retained as an individual appraiser record affiliated with Prestige Estate Services. Confirm assignment arrangements directly; a personal office is not listed.",
-      "website": "https://www.isa-appraisers.org/",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/alicia-e-weaver-isa-capp/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+          "type": "credential_body_registry"
+        }
       }
     },
     {
@@ -394,7 +397,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisal/",
       "name": "Antique & Fine Art Appraisal",
       "description": "Antique & Fine Art Appraisal has a limited directory listing for Seattle, WA. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614",
       "address": {
         "city": "Seattle",
         "region": "WA",
@@ -404,7 +406,11 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/antique-and-fine-art-appraisal/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.bbb.org/us/wa/seattle/profile/art-consultant/antique-fine-art-appraisal-service-1296-7048614",
+          "type": "business_registry"
+        }
       }
     },
     {
@@ -412,7 +418,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/antique-and-fine-art-appraisals/",
       "name": "Antique & Fine Art Appraisals",
       "description": "Antique & Fine Art Appraisals has a limited directory listing for Miami, FL. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals",
       "address": {
         "city": "Miami",
         "region": "FL",
@@ -422,7 +427,11 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/antique-and-fine-art-appraisals/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.antiques.com/dealers/35727/Antique-%26-Fine-Art-Appraisals",
+          "type": "commercial_directory"
+        }
       }
     },
     {
@@ -1163,7 +1172,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/case-antiques-inc-auctions-appraisals/",
       "name": "Case Antiques, Inc. Auctions & Appraisals",
       "description": "Case Antiques, Inc. Auctions & Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals",
       "address": {
         "city": "Nashville",
         "region": "TN",
@@ -1173,7 +1181,11 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/case-antiques-inc-auctions-appraisals/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.liveauctioneers.com/auctioneer/525/case-antiques-inc-auctions-and-appraisals",
+          "type": "auction_marketplace"
+        }
       }
     },
     {
@@ -1307,7 +1319,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
       "name": "Connecticut Art Appraisals, LLC (Alizzandra Danker)",
       "description": "Connecticut Art Appraisals, LLC (Alizzandra Danker) has a limited directory listing for Hartford, CT. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.appraisersassociation.org/",
       "address": {
         "city": "Hartford",
         "region": "CT",
@@ -1317,7 +1328,11 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/connecticut-art-appraisals-llc-alizzandra-danker/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.appraisersassociation.org/",
+          "type": "credential_body_registry"
+        }
       }
     },
     {
@@ -1631,7 +1646,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/everard-auctions-appraisals/",
       "name": "Everard Auctions & Appraisals",
       "description": "Everard Auctions & Appraisals has a limited directory listing for Savannah, GA. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.liveauctioneers.com/auctioneer/4098/everard-auctions-and-appraisals",
       "address": {
         "city": "Savannah",
         "region": "GA",
@@ -1641,7 +1655,11 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/everard-auctions-appraisals/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.liveauctioneers.com/auctioneer/4098/everard-auctions-and-appraisals",
+          "type": "auction_marketplace"
+        }
       }
     },
     {
@@ -2063,7 +2081,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/houston-houston-estate-sales-and-appraisals/",
       "name": "Houston Estate Sales & Appraisals",
       "description": "Houston Estate Sales & Appraisals has a limited directory listing for Houston, TX. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.estatesales.net/TX/Houston/77042/2433189",
       "address": {
         "city": "Houston",
         "region": "TX",
@@ -2073,7 +2090,11 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/houston-houston-estate-sales-and-appraisals/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.estatesales.net/TX/Houston/77042/2433189",
+          "type": "sale_event_marketplace"
+        }
       }
     },
     {
@@ -2171,7 +2192,6 @@
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/janet-l-ross/",
       "name": "Janet L. Ross",
       "description": "Janet L. Ross has a limited directory listing for Surf City, NJ. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
       "address": {
         "city": "Surf City",
         "region": "NJ",
@@ -2181,25 +2201,27 @@
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/janet-l-ross/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.isa-appraisers.org/find-an-appraiser/profile/1361/janet-l-ross",
+          "type": "credential_body_registry"
+        }
       }
     },
     {
       "slug": "jason-preston-art-advisory-appraisals",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jason-preston-art-advisory-appraisals/",
       "name": "Jason Preston Art Advisory & Appraisals",
-      "description": "Jason Preston Art Advisory & Appraisals has a limited directory listing for Nashville, TN. Confirm current services and qualifications directly with the business.",
-      "website": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
-      "address": {
-        "city": "Nashville",
-        "region": "TN",
-        "country": "US"
-      },
+      "description": "Jason Preston Art Advisory & Appraisals is a limited directory record. The listed source is an Appraisers Association profile; a current local office is not confirmed here.",
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/jason-preston-art-advisory-appraisals/",
-        "verifiedAt": "2026-08-30"
+        "verifiedAt": "2026-08-30",
+        "reference": {
+          "url": "https://www.appraisersassociation.org/find-an-appraiser/profile/21944/jason-preston",
+          "type": "credential_body_registry"
+        }
       }
     },
     {
