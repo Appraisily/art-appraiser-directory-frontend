@@ -189,6 +189,14 @@ service/certification wording remain unresolved. The regression is included in
 `test:resources`; this source-only ledger does not close the strict truth audit
 or prove a Google outcome.
 
+The [recorded-source provenance review](docs/provider-source-provenance-review-20261008.md)
+distinguishes external registry/marketplace sources from provider-owned websites.
+The shared trust audit reports twenty bounded review findings across nine
+published profiles, including two generic association roots. These are separate
+from the 288 remaining field-scope findings. This source-only check does not
+change public labels, provider facts, credentials, dates, feeds or eligibility;
+the remaining synchronized public corrections require their own release proof.
+
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider
 facts still fail the negative fixtures. The chat embed itself is not changed.

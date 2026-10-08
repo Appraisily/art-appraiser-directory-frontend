@@ -17,6 +17,15 @@ const read = file => fs.readFileSync(new URL(file, root), 'utf8');
 const records = JSON.parse(read('data/provider-publication-manifest.json')).providers;
 const record = slug => records.find(row => row.slug === slug);
 const sameAs = slug => slug === slugs[0] ? [alicia, isa, fairPerson] : slug === slugs[1] ? [alicia] : [slugs[3], slugs[4]].includes(slug) ? [elizabeth] : [];
+const sourceReviewFlags = slug => slug === slugs[0] ? [
+  { code:'source-provenance-third-party-recorded-as-provider-website', slug,
+    sourceUrl:'https://www.isa-appraisers.org/', sourceRole:'credential_body_registry', sourceType:'official_website' },
+  { code:'source-provenance-third-party-labelled-as-provider-website', slug,
+    sourceUrl:'https://www.isa-appraisers.org/', sourceRole:'credential_body_registry',
+    sources:['native:website', 'visible:publication-status'] },
+  { code:'source-provenance-generic-credential-body-root', slug,
+    sourceUrl:'https://www.isa-appraisers.org/', sourceRole:'credential_body_registry' },
+] : [];
 function document(file, action) {
   const dom = new JSDOM(read(file), { url: origin });
   try { action(dom.window.document); } finally { dom.window.close(); }
@@ -44,7 +53,7 @@ for (const slug of slugs) {
       assert.equal(doc.querySelector('[data-provider-person-source]').getAttribute('href'), slug.startsWith('alicia') ? alicia : slug.startsWith('elizabeth') ? elizabeth : team);
       assert.equal(doc.querySelector('[data-gtm-cta="website"]').getAttribute('href'), record(slug).sourceUrl);
       assert.equal(doc.querySelector('[data-provider-publication-status]').getAttribute('data-provider-publication-status'), 'limited');
-      assert.deepEqual(inspectProviderFields(record(slug), doc), { failures: [], reviewFlags: [], scopeFailures: [] });
+      assert.deepEqual(inspectProviderFields(record(slug), doc), { failures: [], reviewFlags: sourceReviewFlags(slug), scopeFailures: [] });
     });
   });
 }
