@@ -178,6 +178,13 @@ removes unconfirmed website-host FAIR equivalences. Historical names, limited
 status, original review dates and URLs remain unchanged. It does not infer a
 replacement office, merge historical names or import credentials.
 
+The [reviewed-profile field ledger](docs/reviewed-profile-field-provenance-20261008.md)
+assesses all fourteen reviewed profiles and supports 36 existing fields without
+changing public files or original reviews. Two locality claims and Joette's
+service/certification wording remain unresolved. The regression is included in
+`test:resources`; this source-only ledger does not close the strict truth audit
+or prove a Google outcome.
+
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider
 facts still fail the negative fixtures. The chat embed itself is not changed.

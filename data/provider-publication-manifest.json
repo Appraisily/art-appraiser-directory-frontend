@@ -255,6 +255,64 @@
             }
           ],
           "note": "Provider attributes an appraisal-studies certificate to Andrea Foggle Plotkin; no ASA membership/designation is inferred. Provider reports use of USPAP and ASA professional standards; no external compliance audit or tax qualification is asserted. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        },
+        "specialties": {
+          "value": [
+            "Paintings and works on paper",
+            "Sculpture and public art",
+            "Seventeenth-century through contemporary art"
+          ],
+          "sourceUrl": "https://afpartconsulting.com/bio",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine-art media, period and advisory/appraisal services. ASA curriculum and standards wording are not independent membership verification.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://afpartconsulting.com/bio",
+              "retrievedAt": "2026-10-07T19:49:27.764Z",
+              "bodySha256": "2630828f0706c26be4058d853443f90e32f3cf1b9580bf1a1bfb8ff26a25ead9"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance, damage, and loss appraisals",
+            "Estate, donation, and equitable-distribution appraisals",
+            "Art acquisition and divestment advisory",
+            "Collection research and management"
+          ],
+          "sourceUrl": "https://afpartconsulting.com/art-consulting-services",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine-art media, period and advisory/appraisal services. ASA curriculum and standards wording are not independent membership verification.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://afpartconsulting.com/art-consulting-services",
+              "retrievedAt": "2026-10-07T19:49:27.767Z",
+              "bodySha256": "a01fdcdf80e3fc74667ece02def5b4f0877ed3e58682650002c62def3cfa6e1c"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Boston",
+            "region": "MA",
+            "country": "US"
+          },
+          "sourceUrl": "https://afpartconsulting.com/bio",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://afpartconsulting.com/bio",
+              "retrievedAt": "2026-10-07T19:49:27.764Z",
+              "bodySha256": "2630828f0706c26be4058d853443f90e32f3cf1b9580bf1a1bfb8ff26a25ead9"
+            }
+          ]
         }
       }
     },
@@ -2536,7 +2594,65 @@
         "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/brenda-simonson-mohle/",
-      "canonicalProviderId": "provider:brenda-simonson-mohle"
+      "canonicalProviderId": "provider:brenda-simonson-mohle",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Paintings, drawings and prints",
+            "Sculpture and tapestries"
+          ],
+          "sourceUrl": "https://signetart.com/private-client-services/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published own fine-art expertise; other personal-property categories belong to a colleague network, not expanded personal expertise. No designation is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://signetart.com/private-client-services/",
+              "retrievedAt": "2026-10-07T19:49:28.987Z",
+              "bodySha256": "f05ea4211b6708dc47222ee738f38ebc796aab9d94ef0a4bffd36e95012cdd49"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance and damage-claim appraisals",
+            "Estate and charitable-donation appraisals",
+            "Pre-purchase advice and equitable-distribution work"
+          ],
+          "sourceUrl": "https://signetart.com/art-appraisal/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published own fine-art expertise; other personal-property categories belong to a colleague network, not expanded personal expertise. No designation is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://signetart.com/art-appraisal/",
+              "retrievedAt": "2026-10-07T19:49:27.770Z",
+              "bodySha256": "5fb7dd15aa046c957b80c6c4a76b07c1c1c0f7eb220df0a47cea7475f2ae2018"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Dallas",
+            "region": "TX",
+            "country": "US"
+          },
+          "sourceUrl": "https://signetart.com/art-appraisal/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://signetart.com/art-appraisal/",
+              "retrievedAt": "2026-10-07T19:49:27.770Z",
+              "bodySha256": "5fb7dd15aa046c957b80c6c4a76b07c1c1c0f7eb220df0a47cea7475f2ae2018"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "buffalo-anderson-fine-art-appraisals",
@@ -5546,6 +5662,64 @@
             }
           ],
           "note": "Provider About page reports ISA membership and standards compliance; it is not an independent membership/compliance verification. Provider team page attributes the Fine Arts membership to Heidi Vaughan personally. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        },
+        "specialties": {
+          "value": [
+            "Fine art",
+            "Texas art and artists",
+            "Collection valuation and advisory"
+          ],
+          "sourceUrl": "https://heidivaughanfineart.com/about",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published gallery/advisory and fine-art services, Houston/Texas artists and collection valuation. Provider ISA/USPAP marketing is not independent credential verification.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://heidivaughanfineart.com/about",
+              "retrievedAt": "2026-10-07T19:49:29.022Z",
+              "bodySha256": "c31f4dc4faf29b6581a9a62a86db0088b98008ec0c0f7e5415dcd0b141ff2e31"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance appraisals",
+            "Estate-planning appraisals",
+            "Equitable-distribution appraisals",
+            "Charitable-donation appraisals"
+          ],
+          "sourceUrl": "https://heidivaughanfineart.com/about",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published gallery/advisory and fine-art services, Houston/Texas artists and collection valuation. Provider ISA/USPAP marketing is not independent credential verification.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://heidivaughanfineart.com/about",
+              "retrievedAt": "2026-10-07T19:49:29.022Z",
+              "bodySha256": "c31f4dc4faf29b6581a9a62a86db0088b98008ec0c0f7e5415dcd0b141ff2e31"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Houston",
+            "region": "TX",
+            "country": "US"
+          },
+          "sourceUrl": "https://heidivaughanfineart.com/about",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://heidivaughanfineart.com/about",
+              "retrievedAt": "2026-10-07T19:49:29.022Z",
+              "bodySha256": "c31f4dc4faf29b6581a9a62a86db0088b98008ec0c0f7e5415dcd0b141ff2e31"
+            }
+          ]
         }
       }
     },
@@ -6500,6 +6674,45 @@
             }
           ],
           "note": "The current provider homepage and appraisal page display the existing AAA name designation and attribute accreditation to the Appraisers Association of America. This is provider-attributed, not independent current credential-body confirmation. The older February 2025 CV is not used as proof of current USPAP validity; no USPAP expiry or report/legal acceptance is added to the directory."
+        },
+        "specialties": {
+          "value": [
+            "Documentary and fine-art photographs",
+            "Photographic archives",
+            "Northwest and contemporary art, including artist estates"
+          ],
+          "sourceUrl": "https://photostoots.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published own photographic/archive, Northwest/contemporary and artist-estate scope. Colleague specialties are not imported; no new AAA, USPAP expiry or IRS qualification is certified.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://photostoots.com/",
+              "retrievedAt": "2026-10-07T19:49:29.184Z",
+              "bodySha256": "ac68be727aeedaa9402954e9671a3afe7576f6caf5aeda16fac69347997aed2d"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance and damage-or-loss appraisals",
+            "Donation and estate appraisals",
+            "Property-division valuations",
+            "Photography-market advice and legacy-planning guidance"
+          ],
+          "sourceUrl": "https://photostoots.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published own photographic/archive, Northwest/contemporary and artist-estate scope. Colleague specialties are not imported; no new AAA, USPAP expiry or IRS qualification is certified.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://photostoots.com/",
+              "retrievedAt": "2026-10-07T19:49:29.184Z",
+              "bodySha256": "ac68be727aeedaa9402954e9671a3afe7576f6caf5aeda16fac69347997aed2d"
+            }
+          ]
         }
       }
     },
@@ -9073,6 +9286,69 @@
             }
           ],
           "note": "Provider attributes membership and USPAP practice to Kaycee Baron. The credential body and compliance history are not independently verified here. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        },
+        "specialties": {
+          "value": [
+            "Postwar and contemporary art",
+            "Photography",
+            "Paintings, prints, sculpture, and works on paper"
+          ],
+          "sourceUrl": "https://opentothepublic.art/art-appraisals/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published media and appraisal/collection consulting services. Regional serving-city lists do not establish extra offices; no professional-status or report-acceptance guarantee is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://opentothepublic.art/art-appraisals/",
+              "retrievedAt": "2026-10-07T19:49:29.752Z",
+              "bodySha256": "7033d7dab711421dbe0a9299d688ca625896d46689da3068edb5a1d57d98742f"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance appraisals",
+            "Estate and charitable-donation appraisals",
+            "Damage or loss appraisals",
+            "Collection management and art consulting"
+          ],
+          "sourceUrl": "https://opentothepublic.art/art-appraisals/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published media and appraisal/collection consulting services. Regional serving-city lists do not establish extra offices; no professional-status or report-acceptance guarantee is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://opentothepublic.art/art-appraisals/",
+              "retrievedAt": "2026-10-07T19:49:29.752Z",
+              "bodySha256": "7033d7dab711421dbe0a9299d688ca625896d46689da3068edb5a1d57d98742f"
+            },
+            {
+              "sourceUrl": "https://opentothepublic.art/about/",
+              "retrievedAt": "2026-10-07T19:49:29.742Z",
+              "bodySha256": "ea82e87e1e390b1e10fe84e57bab058fe0d2b2a91f90250601335c72c2ea460d"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Los Angeles",
+            "region": "CA",
+            "country": "US"
+          },
+          "sourceUrl": "https://opentothepublic.art/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://opentothepublic.art/",
+              "retrievedAt": "2026-10-07T19:49:29.657Z",
+              "bodySha256": "2ca00639fa80afdfdaefb3554503d8688206f7024ee7c6adcc46cc3e38453427"
+            }
+          ]
         }
       }
     },
@@ -11550,6 +11826,64 @@
             }
           ],
           "note": "Provider attributes the stated appraisal membership and specialty designation to Sarah Ann Wilson; no independent credential-body confirmation is claimed. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        },
+        "specialties": {
+          "value": [
+            "Impressionist and modern art",
+            "Fine-art collection research",
+            "Collection planning and organization"
+          ],
+          "sourceUrl": "https://www.wilsonartservices.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published Impressionist/Modern scope, fine-art research background and collection-planning services. Professional-designation marketing is used only as attributed scope, not independent credential verification; past employment report uses are not added.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.wilsonartservices.com/",
+              "retrievedAt": "2026-10-07T19:49:29.833Z",
+              "bodySha256": "186f9f4273b5c5a2519fed0f518e6650dc5c58b115fd72b5f81b954b67d249a9"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Confidential appraisals",
+            "Buying and selling advisory",
+            "Downsizing and donation support",
+            "Collection management and planning"
+          ],
+          "sourceUrl": "https://www.wilsonartservices.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published Impressionist/Modern scope, fine-art research background and collection-planning services. Professional-designation marketing is used only as attributed scope, not independent credential verification; past employment report uses are not added.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.wilsonartservices.com/",
+              "retrievedAt": "2026-10-07T19:49:29.833Z",
+              "bodySha256": "186f9f4273b5c5a2519fed0f518e6650dc5c58b115fd72b5f81b954b67d249a9"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Philadelphia",
+            "region": "PA",
+            "country": "US"
+          },
+          "sourceUrl": "https://www.wilsonartservices.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.wilsonartservices.com/",
+              "retrievedAt": "2026-10-07T19:49:29.833Z",
+              "bodySha256": "186f9f4273b5c5a2519fed0f518e6650dc5c58b115fd72b5f81b954b67d249a9"
+            }
+          ]
         }
       }
     },
@@ -12062,7 +12396,51 @@
         "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/spalding-nix-fine-art/",
-      "canonicalProviderId": "provider:spalding-nix-fine-art"
+      "canonicalProviderId": "provider:spalding-nix-fine-art",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Fine-art valuation",
+            "Art within mixed personal-property collections"
+          ],
+          "sourceUrl": "https://www.spaldingnixfineart.com/appraisals",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine-art work within personal-property appraisal and acquisition/sale advisory. Walk-through evaluations are not appraisals; no fees, compliance or recipient-acceptance guarantees are imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.spaldingnixfineart.com/appraisals",
+              "retrievedAt": "2026-10-07T19:49:29.905Z",
+              "bodySha256": "a16c6c54ff67319076ff448336a81046db36daaf4d204144914075a8dbeb8736"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance and damage-or-loss appraisals",
+            "Donation, estate and property-division appraisals",
+            "Art acquisition and sale advisory"
+          ],
+          "sourceUrl": "https://www.spaldingnixfineart.com/appraisals",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine-art work within personal-property appraisal and acquisition/sale advisory. Walk-through evaluations are not appraisals; no fees, compliance or recipient-acceptance guarantees are imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.spaldingnixfineart.com/appraisals",
+              "retrievedAt": "2026-10-07T19:49:29.905Z",
+              "bodySha256": "a16c6c54ff67319076ff448336a81046db36daaf4d204144914075a8dbeb8736"
+            },
+            {
+              "sourceUrl": "https://www.spaldingnixfineart.com/art-advisory",
+              "retrievedAt": "2026-10-07T19:49:29.999Z",
+              "bodySha256": "2564d58177da4d79d925874508aac6a2031c960d51dedb765a6b474082b3c9a8"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "specialty-appraisals-antique-art-jewelry",
@@ -12165,6 +12543,65 @@
             }
           ],
           "note": "Provider attributes ASA senior-appraiser status to Jane St. Lifer; no independent current designation or expiry determination is claimed. Provider describes report conformity with ASA and USPAP requirements; individual report/legal acceptance is not audited. Existing visible wording only; original provider review date, publication status and all public artifacts are retained."
+        },
+        "specialties": {
+          "value": [
+            "Nineteenth-, twentieth-, and twenty-first-century art",
+            "Paintings, prints, and photography",
+            "Posters and sculpture",
+            "American, European, Asian, Israeli, Latin American, and Russian art"
+          ],
+          "sourceUrl": "https://stliferart.com/appraisals/appraisal-services/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published media, periods, regions and services. The existing Asian umbrella label is supported by the explicit Japanese/Chinese scope, not a claim about all Asian art. No affiliation, fee or universal acceptance claim is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://stliferart.com/appraisals/appraisal-services/",
+              "retrievedAt": "2026-10-07T19:49:30.366Z",
+              "bodySha256": "530f814496fc8b4f3bca21cca03f4ea3f8499d5491498da44cb5224983d3e675"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Charitable-contribution appraisals",
+            "Estate-tax and insurance appraisals",
+            "Division-of-property appraisals",
+            "Collection management and sales advisory"
+          ],
+          "sourceUrl": "https://stliferart.com/appraisals/appraisal-services/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published media, periods, regions and services. The existing Asian umbrella label is supported by the explicit Japanese/Chinese scope, not a claim about all Asian art. No affiliation, fee or universal acceptance claim is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://stliferart.com/appraisals/appraisal-services/",
+              "retrievedAt": "2026-10-07T19:49:30.366Z",
+              "bodySha256": "530f814496fc8b4f3bca21cca03f4ea3f8499d5491498da44cb5224983d3e675"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "New York",
+            "region": "NY",
+            "country": "US"
+          },
+          "sourceUrl": "https://stliferart.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://stliferart.com/",
+              "retrievedAt": "2026-10-07T19:49:30.199Z",
+              "bodySha256": "b80fb2b9aa7fd6123c5fae330a49b79d604865ca0c5a67276a9751f8ae56a10e"
+            }
+          ]
         }
       }
     },
@@ -13089,7 +13526,77 @@
         "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/mir-appraisal-services/",
-      "canonicalProviderId": "provider:mir-appraisal-services"
+      "canonicalProviderId": "provider:mir-appraisal-services",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Fine art from Old Masters through contemporary work",
+            "Paintings, prints, drawings and sculpture",
+            "Collection research and appraisal advisory"
+          ],
+          "sourceUrl": "https://www.mirappraisal.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published media, periods, research and appraisal/advisory services. Authentication-process assistance is not an authentication certificate; no blanket insurance/court acceptance or independent designation is claimed.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.mirappraisal.com/",
+              "retrievedAt": "2026-10-07T19:49:30.608Z",
+              "bodySha256": "5a656c726088064485ea0d4e7dfe6637eb9d27de2caa898fac09675fe5da844b"
+            },
+            {
+              "sourceUrl": "https://www.mirappraisal.com/what-we-appraise",
+              "retrievedAt": "2026-10-07T19:49:30.986Z",
+              "bodySha256": "76edfa8841c985d0e5b533c5db0f23dbf3738e05f37198219738107331bab7f8"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance coverage and damage-claim appraisals",
+            "Estate and charitable-contribution appraisals",
+            "Divorce and equitable-distribution appraisals",
+            "Inspection, conservation guidance and authentication-process assistance"
+          ],
+          "sourceUrl": "https://www.mirappraisal.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published media, periods, research and appraisal/advisory services. Authentication-process assistance is not an authentication certificate; no blanket insurance/court acceptance or independent designation is claimed.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.mirappraisal.com/",
+              "retrievedAt": "2026-10-07T19:49:30.608Z",
+              "bodySha256": "5a656c726088064485ea0d4e7dfe6637eb9d27de2caa898fac09675fe5da844b"
+            },
+            {
+              "sourceUrl": "https://www.mirappraisal.com/appraisal-reports",
+              "retrievedAt": "2026-10-07T19:49:31.324Z",
+              "bodySha256": "f4b5bb74f31f16a7b842388690ed7b776360bfa7b85f94b99014b45a277f2fac"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Chicago",
+            "region": "IL",
+            "country": "US"
+          },
+          "sourceUrl": "https://www.mirappraisal.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.mirappraisal.com/",
+              "retrievedAt": "2026-10-07T19:49:30.608Z",
+              "bodySha256": "5a656c726088064485ea0d4e7dfe6637eb9d27de2caa898fac09675fe5da844b"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "jaynes-appraisals",
@@ -13109,7 +13616,77 @@
         "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jaynes-appraisals/",
-      "canonicalProviderId": "provider:jaynes-appraisals"
+      "canonicalProviderId": "provider:jaynes-appraisals",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Paintings, prints, drawings and photographs",
+            "Sculpture and mixed-media artwork",
+            "Art glass and collection documentation"
+          ],
+          "sourceUrl": "https://www.jaynesappraisals.com/appraisals",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine-art media, inventory and collection services. No certified-membership inference, estimate promise, universal inspection method or delivery guarantee is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.jaynesappraisals.com/appraisals",
+              "retrievedAt": "2026-10-07T19:49:31.882Z",
+              "bodySha256": "86296b61387ce0e0b158308c6c64ef0b1deaac6789e4ec0a6cd41ca42a3e5618"
+            },
+            {
+              "sourceUrl": "https://www.jaynesappraisals.com/",
+              "retrievedAt": "2026-10-07T19:49:31.570Z",
+              "bodySha256": "74b31c0dc3d894e87641f56e6fa8ab749fa650255370b0a3b9b0d61795e14ccf"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance and damage-claim appraisals",
+            "Estate, donation and equitable-distribution appraisals",
+            "Appraisal updates and market information for resale",
+            "Inventories and collection management"
+          ],
+          "sourceUrl": "https://www.jaynesappraisals.com/appraisals",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine-art media, inventory and collection services. No certified-membership inference, estimate promise, universal inspection method or delivery guarantee is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.jaynesappraisals.com/appraisals",
+              "retrievedAt": "2026-10-07T19:49:31.882Z",
+              "bodySha256": "86296b61387ce0e0b158308c6c64ef0b1deaac6789e4ec0a6cd41ca42a3e5618"
+            },
+            {
+              "sourceUrl": "https://www.jaynesappraisals.com/",
+              "retrievedAt": "2026-10-07T19:49:31.570Z",
+              "bodySha256": "74b31c0dc3d894e87641f56e6fa8ab749fa650255370b0a3b9b0d61795e14ccf"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Seattle",
+            "region": "WA",
+            "country": "US"
+          },
+          "sourceUrl": "https://www.jaynesappraisals.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.jaynesappraisals.com/",
+              "retrievedAt": "2026-10-07T19:49:31.570Z",
+              "bodySha256": "74b31c0dc3d894e87641f56e6fa8ab749fa650255370b0a3b9b0d61795e14ccf"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "jeanie-craig-art-appraisals",
@@ -13130,7 +13707,72 @@
         "service_area"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jeanie-craig-art-appraisals/",
-      "canonicalProviderId": "provider:jeanie-craig-art-appraisals"
+      "canonicalProviderId": "provider:jeanie-craig-art-appraisals",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Fine-art collection valuation",
+            "Collection inventory, photography and documentation",
+            "Private, corporate and institutional collections"
+          ],
+          "sourceUrl": "https://appraiserart.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published collection types, documentation and appraisal/management services. No independent ASA/IRS qualification or report-acceptance guarantee is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://appraiserart.com/",
+              "retrievedAt": "2026-10-07T19:49:33.237Z",
+              "bodySha256": "18c33f405a58c45061e0d15be01f3ed5f3071cf5f32afd98c91276cd3701d3ef"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Insurance and damage/loss appraisals",
+            "Estate, donation and equitable-distribution appraisals",
+            "Artwork inventories and illustrated catalogs",
+            "Collection management, loans and installation coordination"
+          ],
+          "sourceUrl": "https://appraiserart.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published collection types, documentation and appraisal/management services. No independent ASA/IRS qualification or report-acceptance guarantee is imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://appraiserart.com/",
+              "retrievedAt": "2026-10-07T19:49:33.237Z",
+              "bodySha256": "18c33f405a58c45061e0d15be01f3ed5f3071cf5f32afd98c91276cd3701d3ef"
+            },
+            {
+              "sourceUrl": "https://appraiserart.com/appraisals/",
+              "retrievedAt": "2026-10-07T19:49:33.303Z",
+              "bodySha256": "4264a19eda109c3cb9d2386a4d2a5cd199fe1399d92182b4cf44055b71d09b0f"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Mill Valley",
+            "region": "CA",
+            "country": "US"
+          },
+          "sourceUrl": "https://appraiserart.com/contact/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Mill Valley is expressly a mailing/contact locality, not a verified walk-in office. San Francisco Bay Area describes coverage, not an additional office.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://appraiserart.com/contact/",
+              "retrievedAt": "2026-10-07T19:49:33.358Z",
+              "bodySha256": "096303eedd2f848e99a8ef747940236f7f0442b8e522aa88574be1e114210673"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "joette-pierce-and-associates",
@@ -13175,6 +13817,25 @@
             }
           ],
           "note": "The official homepage and services page support the existing expressly attributed firm statement and certified-valuation wording. No personal ASA designation for Joette or another employee, independent firm accreditation, USPAP validity, or report/legal acceptance is verified. The source distinction between a firm assertion and a personal credential remains explicit."
+        },
+        "primary_location": {
+          "value": {
+            "city": "Newport Beach",
+            "region": "CA",
+            "country": "US"
+          },
+          "sourceUrl": "https://www.joettepierceappraisals.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_published_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "Provider-published business/contact locality only. No street, walk-in availability, inspection arrangement or additional office is inferred.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.joettepierceappraisals.com/",
+              "retrievedAt": "2026-10-07T19:49:33.590Z",
+              "bodySha256": "2f889a819ab454dfb7a4d5a579e7a190971335a090eadada978c6e35d18b438e"
+            }
+          ]
         }
       }
     },
@@ -13213,6 +13874,44 @@
           "sourceUrl": "https://worthwiseappraisers.com/art-appraisal-services-denver/",
           "checkedAt": "2026-10-07",
           "note": "Official Denver-targeted fine-art page and its Colorado Front Range service statement support a regional option, not a Denver office or guaranteed inspection availability."
+        },
+        "specialties": {
+          "value": [
+            "Fine art",
+            "Antiques and decorative art"
+          ],
+          "sourceUrl": "https://worthwiseappraisers.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine art, separate antiques/decorative art and report purposes. IRS estate-tax wording is an assignment type, not independent IRS qualification or guaranteed acceptance. Preserve the existing primary-location omission and distinct regional coverage.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://worthwiseappraisers.com/",
+              "retrievedAt": "2026-10-07T19:49:33.666Z",
+              "bodySha256": "2ac51205eb0480cd5b7d6a3394aec6baec405a0b9e2ec1c36b27d88bf7de4dac"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Charitable-donation appraisals",
+            "IRS estate-tax appraisals",
+            "Insurance and damage-claim appraisals",
+            "Equitable-distribution appraisals"
+          ],
+          "sourceUrl": "https://worthwiseappraisers.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published fine art, separate antiques/decorative art and report purposes. IRS estate-tax wording is an assignment type, not independent IRS qualification or guaranteed acceptance. Preserve the existing primary-location omission and distinct regional coverage.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://worthwiseappraisers.com/",
+              "retrievedAt": "2026-10-07T19:49:33.666Z",
+              "bodySha256": "2ac51205eb0480cd5b7d6a3394aec6baec405a0b9e2ec1c36b27d88bf7de4dac"
+            }
+          ]
         }
       }
     },
@@ -13230,7 +13929,8 @@
         "website",
         "primary_location",
         "fine_art_services",
-        "specialties"
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/decarrera-fine-art/",
       "canonicalProviderId": "provider:decarrera-fine-art",
@@ -13250,6 +13950,48 @@
           "sourceUrl": "https://dcfineart.com/contact/",
           "checkedAt": "2026-10-07",
           "note": "Provider-published coverage is distinct from contact locality. It does not establish a Los Angeles office or guarantee inspection availability."
+        },
+        "specialties": {
+          "value": [
+            "Twentieth-century and postwar art",
+            "Contemporary art"
+          ],
+          "sourceUrl": "https://dcfineart.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published period/medium advisory and appraisal offering through a network. No personal appraisal credential or final assigned appraiser is established. Preserve the existing Newport Beach contact locality and distinct Los Angeles/Orange County service area.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://dcfineart.com/",
+              "retrievedAt": "2026-10-07T19:49:33.731Z",
+              "bodySha256": "abc322d5e20aa6a9686228fe37f4ddf6c92bfd53a67862e6465ae8f482fa5925"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Art appraisals",
+            "Art advisory for collectors"
+          ],
+          "sourceUrl": "https://dcfineart.com/",
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "Provider-published period/medium advisory and appraisal offering through a network. No personal appraisal credential or final assigned appraiser is established. Preserve the existing Newport Beach contact locality and distinct Los Angeles/Orange County service area.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://dcfineart.com/",
+              "retrievedAt": "2026-10-07T19:49:33.731Z",
+              "bodySha256": "abc322d5e20aa6a9686228fe37f4ddf6c92bfd53a67862e6465ae8f482fa5925"
+            },
+            {
+              "sourceUrl": "https://dcfineart.com/appraisals/",
+              "retrievedAt": "2026-10-07T19:57:36.671Z",
+              "retrievalTimestampScope": "collection_batch_started_at",
+              "bodySha256": "fdb0da54c67793e3a7d2613a92f138984380dd559ede6cea02cb70a555d004a0"
+            }
+          ]
         }
       }
     }
