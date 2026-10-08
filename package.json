@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "vite",
         "build": "npm run check:static",
-        "test:resources": "node --test tests/directory-resources.test.mjs tests/settled-document-contract.test.mjs tests/provider-factual-corrections.test.mjs tests/provider-person-company.test.mjs tests/capital-person-company.test.mjs tests/jsk-person-company.test.mjs tests/prestige-person-identity.test.mjs tests/denver-service-area.test.mjs",
+        "test:resources": "node --test tests/directory-resources.test.mjs tests/settled-document-contract.test.mjs tests/provider-factual-corrections.test.mjs tests/provider-person-company.test.mjs tests/capital-person-company.test.mjs tests/jsk-person-company.test.mjs tests/prestige-person-identity.test.mjs tests/poras-field-provenance.test.mjs tests/denver-service-area.test.mjs",
         "test:provider-handoff": "node --test tests/provider-handoff.test.mjs",
         "test:provider-images": "node --test tests/provider-image-identity.test.mjs && node scripts/check-provider-image-identity.mjs",
         "test:image-layout": "node --test tests/image-layout.test.mjs && node scripts/check-image-layout.mjs",

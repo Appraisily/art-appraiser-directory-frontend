@@ -168,6 +168,13 @@ candidate/live evidence. No production container restart is needed for this test
 The standard isolated candidate gate runs this contract against the promoted
 candidate; an omitted declared URL, conflicting metadata, lost reviewed facts or
 mobile overflow fails release. It does not prove Google inclusion.
+
+The [Poras field ledger](docs/poras-field-provenance-20261008.md) supplies
+separately dated provider-attributed evidence for the existing specialty/service
+labels on three limited records. It does not alter public copy, infer offices,
+merge historical names or import credentials. The three locality findings and
+the separate synchronized public correction remain open.
+
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider
 facts still fail the negative fixtures. The chat embed itself is not changed.

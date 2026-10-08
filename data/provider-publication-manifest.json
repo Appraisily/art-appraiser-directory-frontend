@@ -2340,10 +2340,71 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
-      "canonicalProviderId": "provider:poras-fine-arts-appraisal-serving-n-e"
+      "canonicalProviderId": "provider:poras-fine-arts-appraisal-serving-n-e",
+      "fieldEvidence": {
+        "specialties": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/",
+          "value": [
+            "Fine art appraisals",
+            "Estate valuations"
+          ],
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T03:44:08.778Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/estate",
+              "retrievedAt": "2026-10-08T03:44:08.803Z",
+              "bodySha256": "8c61d70b0a1394f7529ee1129aca73e5d4d0e822a85cb3df5b733e0d40a273c4"
+            }
+          ],
+          "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        },
+        "appraisal_use_cases": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/",
+          "value": [
+            "Art appraisal services",
+            "Insurance appraisals",
+            "Estate and donation appraisals"
+          ],
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T03:44:08.778Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/insurance",
+              "retrievedAt": "2026-10-08T03:44:08.561Z",
+              "bodySha256": "f14e02bcdaf4a29f70b156b2af121b5cd02af362459d01e156022aacb669431a"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/donation",
+              "retrievedAt": "2026-10-08T03:44:08.791Z",
+              "bodySha256": "79be380af46fe4335ac675d48fcfa5ce6f54265d518183e8727dc41819638625"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/estate",
+              "retrievedAt": "2026-10-08T03:44:08.803Z",
+              "bodySha256": "8c61d70b0a1394f7529ee1129aca73e5d4d0e822a85cb3df5b733e0d40a273c4"
+            }
+          ],
+          "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        }
+      }
     },
     {
       "slug": "boston-saylor-rice-appraisals",
@@ -8789,10 +8850,71 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
-      "canonicalProviderId": "provider:poras-fine-art-appraisal-service"
+      "canonicalProviderId": "provider:poras-fine-art-appraisal-service",
+      "fieldEvidence": {
+        "specialties": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/",
+          "value": [
+            "Fine art appraisals",
+            "Estate valuations"
+          ],
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T03:44:08.778Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/estate",
+              "retrievedAt": "2026-10-08T03:44:08.803Z",
+              "bodySha256": "8c61d70b0a1394f7529ee1129aca73e5d4d0e822a85cb3df5b733e0d40a273c4"
+            }
+          ],
+          "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        },
+        "appraisal_use_cases": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/",
+          "value": [
+            "Art appraisal services",
+            "Insurance appraisals",
+            "Estate and donation appraisals"
+          ],
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T03:44:08.778Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/insurance",
+              "retrievedAt": "2026-10-08T03:44:08.561Z",
+              "bodySha256": "f14e02bcdaf4a29f70b156b2af121b5cd02af362459d01e156022aacb669431a"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/donation",
+              "retrievedAt": "2026-10-08T03:44:08.791Z",
+              "bodySha256": "79be380af46fe4335ac675d48fcfa5ce6f54265d518183e8727dc41819638625"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/estate",
+              "retrievedAt": "2026-10-08T03:44:08.803Z",
+              "bodySha256": "8c61d70b0a1394f7529ee1129aca73e5d4d0e822a85cb3df5b733e0d40a273c4"
+            }
+          ],
+          "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        }
+      }
     },
     {
       "slug": "new-york-reilly-clark-fine-art-and-appraisals",
@@ -9644,10 +9766,71 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
-      "canonicalProviderId": "provider:poras-fine-arts-appraiser"
+      "canonicalProviderId": "provider:poras-fine-arts-appraiser",
+      "fieldEvidence": {
+        "specialties": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/",
+          "value": [
+            "Fine art appraisals",
+            "Estate valuations"
+          ],
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T03:44:08.778Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/estate",
+              "retrievedAt": "2026-10-08T03:44:08.803Z",
+              "bodySha256": "8c61d70b0a1394f7529ee1129aca73e5d4d0e822a85cb3df5b733e0d40a273c4"
+            }
+          ],
+          "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        },
+        "appraisal_use_cases": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/",
+          "value": [
+            "Art appraisal services",
+            "Insurance appraisals",
+            "Estate and donation appraisals"
+          ],
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T03:44:08.778Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/insurance",
+              "retrievedAt": "2026-10-08T03:44:08.561Z",
+              "bodySha256": "f14e02bcdaf4a29f70b156b2af121b5cd02af362459d01e156022aacb669431a"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/donation",
+              "retrievedAt": "2026-10-08T03:44:08.791Z",
+              "bodySha256": "79be380af46fe4335ac675d48fcfa5ce6f54265d518183e8727dc41819638625"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/estate",
+              "retrievedAt": "2026-10-08T03:44:08.803Z",
+              "bodySha256": "8c61d70b0a1394f7529ee1129aca73e5d4d0e822a85cb3df5b733e0d40a273c4"
+            }
+          ],
+          "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        }
+      }
     },
     {
       "slug": "portland-alicia-e-weaver",
