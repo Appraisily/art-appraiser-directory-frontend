@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T13:38:00.789Z",
+  "generatedAt": "2026-10-08T15:10:17.206Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -336,10 +336,10 @@
       "slug": "anderson-fine-art-appraisals",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
       "name": "Anderson Fine Art Appraisals",
-      "description": "Anderson Fine Art Appraisals has a limited directory listing for Anaheim, CA. Confirm current services and qualifications directly with the business.",
+      "description": "Anderson Fine Art Appraisals publishes an appointment-only contact in Beverly Hills, CA. Confirm inspection arrangements and report requirements directly.",
       "website": "https://www.art-appraisals.net/",
       "address": {
-        "city": "Anaheim",
+        "city": "Beverly Hills",
         "region": "CA",
         "country": "US"
       },
@@ -606,11 +606,11 @@
       "slug": "art-appraisals-of-new-england",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisals-of-new-england/",
       "name": "Art Appraisals of New England",
-      "description": "Art Appraisals of New England has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
+      "description": "Art Appraisals of New England lists Cape Neddick, ME on its website. Confirm current coverage, inspection arrangements and report requirements directly.",
       "website": "https://www.artappraisalsne.com/01",
       "address": {
-        "city": "Boston",
-        "region": "MA",
+        "city": "Cape Neddick",
+        "region": "ME",
         "country": "US"
       },
       "serviceType": "Directory listing",

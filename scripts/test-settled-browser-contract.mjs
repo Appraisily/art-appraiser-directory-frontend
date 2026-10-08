@@ -36,6 +36,7 @@ const routes = [
   ...focal, '/appraiser/spalding-nix-fine-art/', '/appraiser/a-and-a-art-appraisals-naples-fl/',
   '/appraiser/812-maplewood/', '/appraiser/anne-kelly-lewis/', '/appraiser/winter-associates/', '/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/',
   '/appraiser/carrie-young/', '/appraiser/elise-waters-olonia/',
+  '/appraiser/anderson-fine-art-appraisals/', '/appraiser/art-appraisals-of-new-england/',
   '/appraiser/manhattan-fine-art-appraisers/',
   '/appraiser/worthwise-art-and-antiques-appraisers/',
   '/appraiser/hollingsworth-fine-a/', '/appraiser/lauren-k-stump/',

@@ -50,9 +50,12 @@ for (const [slug, id, source, specialties, services] of selected) {
     });
   }
 }
-test('service support never attests an office, current credential or inspection format', () => {
+test('service support alone never attests an office, current credential or inspection format', () => {
   for (const [slug] of selected) {
-    const row = record(slug);
+    const row = structuredClone(record(slug));
+    // Isolate the service ledger from later, separately sourced locality checks.
+    delete row.fieldEvidence.primary_location;
+    row.claimScope = row.claimScope.filter(field => field !== 'primary_location');
     assert.equal(row.fieldEvidence?.primary_location, undefined);
     assert.equal(row.fieldEvidence?.qualification, undefined); assert.equal(row.fieldEvidence?.inspection, undefined);
     profile(slug, document => assert.ok(inspectProviderFields(row, document).scopeFailures.some(finding => finding.code === 'published-location-missing-field-evidence')));

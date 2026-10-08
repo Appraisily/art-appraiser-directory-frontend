@@ -111,6 +111,12 @@ This repo is static-first.
   history is not entity equivalence or a personal-office claim. The exact FAIR
   Person identifiers, old reviews, native hubs and feed omissions are protected
   by `tests/carrie-elise-person-corrections.test.mjs` and the settled browser gate.
+- Anderson's Beverly Hills contact is appointment-only; New England's Cape
+  Neddick footer locality is provider-attributed, not a Boston office. Preserve
+  old limited reviews, URLs and service ledgers, with separately dated locality
+  evidence. No street, walk-in office, branch, credential or current compliance
+  is inferred. The contact-locality regression and both browser routes protect
+  profile/hub/facet/metadata/feed parity; city guidance is not promoted.
 - Provider identity images must depict the provider. Appraisily logos and
   generated non-likeness artwork may be publisher branding/page illustrations,
   but must not populate provider schema or provider/location feed image fields.

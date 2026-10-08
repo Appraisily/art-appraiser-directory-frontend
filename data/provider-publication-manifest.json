@@ -869,7 +869,8 @@
         "identity",
         "website",
         "specialties",
-        "appraisal_use_cases"
+        "appraisal_use_cases",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
       "canonicalProviderId": "provider:anderson-fine-art-appraisals",
@@ -916,6 +917,29 @@
               "sourceUrl": "https://www.art-appraisals.net/",
               "retrievedAt": "2026-10-08T14:39:35.806Z",
               "bodySha256": "94a2dcece0be2c41c57a3fe060fda9036e99df2cb1b8d700036ccd529c924954"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Beverly Hills",
+            "region": "CA",
+            "country": "US"
+          },
+          "sourceUrl": "https://www.art-appraisals.net/contact",
+          "sourceUrls": [
+            "https://www.art-appraisals.net/contact"
+          ],
+          "checkedAt": "2026-10-08",
+          "locationRole": "appointment_only_contact",
+          "evidenceScope": "provider_attributed_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "The owned contact page publishes a Beverly Hills address marked By Appointment Only. Publish its contact locality only; no street, walk-in office, additional branch, inspection premises, credential approval or report acceptance is inferred. This separately dated correction supersedes the old Anaheim field, not the original listing review or earlier service ledger.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.art-appraisals.net/contact",
+              "retrievedAt": "2026-10-08T15:02:35.753Z",
+              "bodySha256": "0a2889a0ab24031f3d74e2de03652de105172010cb5948bdc3ced7d262bdb46d"
             }
           ]
         }
@@ -1341,7 +1365,8 @@
         "identity",
         "website",
         "specialties",
-        "appraisal_use_cases"
+        "appraisal_use_cases",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisals-of-new-england/",
       "canonicalProviderId": "provider:art-appraisals-of-new-england",
@@ -1388,6 +1413,29 @@
               "sourceUrl": "https://www.artappraisalsne.com/01",
               "retrievedAt": "2026-10-08T14:39:35.967Z",
               "bodySha256": "57c33c390f62fc7135a69a036c02b5eb71e97a282aab07001677cc2e79925661"
+            }
+          ]
+        },
+        "primary_location": {
+          "value": {
+            "city": "Cape Neddick",
+            "region": "ME",
+            "country": "US"
+          },
+          "sourceUrl": "https://www.artappraisalsne.com/01/contact/",
+          "sourceUrls": [
+            "https://www.artappraisalsne.com/01/contact/"
+          ],
+          "checkedAt": "2026-10-08",
+          "locationRole": "provider_published_locality",
+          "evidenceScope": "provider_attributed_contact_locality",
+          "independentCredentialVerification": false,
+          "note": "The named practice identifies Cape Neddick, Maine in its owned contact footer, corroborated by its homepage and southern Maine coverage. Publish this provider-attributed locality only, not a Boston office or offices in historical client cities. Do not infer a street, walk-in premises, current USPAP compliance, credentials or recipient acceptance; the contact page references the 2020–2022 standards edition. Original listing review and earlier service ledger remain.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.artappraisalsne.com/01/contact/",
+              "retrievedAt": "2026-10-08T15:02:36.030Z",
+              "bodySha256": "5cddb263baa8160716190eeea95e90055c7597c07ba3b02b7e74c27d84f2adca"
             }
           ]
         }

@@ -143,7 +143,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-51 representative routes at desktop, 390px and 320px with JavaScript enabled and
+53 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions.
 Person profiles keep their own primary entity; a sourced `worksFor` relationship
 does not turn the person into a company or confirm a separate personal office.
@@ -201,6 +201,15 @@ Original reviews, status, IDs and every public byte stay unchanged. Four localit
 findings remain, including owned-source conflicts for Anderson and Art Appraisals
 of New England requiring a separate synchronized public correction. This is
 source-only provenance, not a provider promotion or a new static release.
+
+The subsequent [contact-locality correction](docs/contact-locality-corrections-20261008.md)
+uses Anderson's provider-published appointment-only Beverly Hills contact and
+New England's provider-published Cape Neddick locality, not Anaheim/Boston.
+Native profiles, hub facets, metadata and feeds agree. Original URLs/IDs,
+limited statuses, August 30 reviews and earlier service evidence remain.
+No street, walk-in office, extra branch, inspection guarantee or current
+compliance is inferred. Existing city guidance is unchanged; no city URL is added.
+The focused negative regression and both browser routes protect this scope.
 
 The [holding-profile locality ledger](docs/holding-profile-locality-provenance-20261008.md)
 records four separately dated existing base/contact localities after examining
