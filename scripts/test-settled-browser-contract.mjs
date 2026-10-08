@@ -37,9 +37,16 @@ const routes = [
   '/appraiser/manhattan-fine-art-appraisers/',
   '/appraiser/worthwise-art-and-antiques-appraisers/',
   '/appraiser/hollingsworth-fine-a/', '/appraiser/lauren-k-stump/',
+  '/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/', '/appraiser/maria-tarrence/',
   ...resources.map((page) => page.path),
   ...unpublished.map((page) => page.route),
 ];
+const relationshipTargets = {
+  '/appraiser/hollingsworth-fine-a/': '/appraiser/lauren-k-stump/',
+  '/appraiser/lauren-k-stump/': '/appraiser/hollingsworth-fine-a/',
+  '/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/': '/appraiser/maria-tarrence/',
+  '/appraiser/maria-tarrence/': '/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/',
+};
 const viewports = [{ width: 1365, height: 900 }, { width: 390, height: 844 }, { width: 320, height: 844 }];
 const result = { action: 'art-settled-document-contract', ok: false, testedAt: new Date().toISOString(), http: [], browser: [] };
 const docker = (args) => execFileSync('docker', args, { encoding: 'utf8', maxBuffer: 8 * 1024 * 1024 }).trim();
@@ -284,8 +291,8 @@ try {
             row.filterInteraction = { empty: 0, reset: total, name: 1 };
             run('click', '[data-browse-reset]');
           }
-          if (viewport.width === 320 && ['/appraiser/hollingsworth-fine-a/', '/appraiser/lauren-k-stump/'].includes(route)) {
-            const target = route === '/appraiser/hollingsworth-fine-a/' ? '/appraiser/lauren-k-stump/' : '/appraiser/hollingsworth-fine-a/';
+          if (viewport.width === 320 && relationshipTargets[route]) {
+            const target = relationshipTargets[route];
             const linkedProvider = providers.find(record => target === `/appraiser/${record.slug}/`);
             const href = run('eval', 'document.querySelector("[data-provider-relationship-link]")?.getAttribute("href")').result;
             if (href !== target) throw new Error('Company/person native relationship target changed');

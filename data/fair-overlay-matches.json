@@ -598,9 +598,16 @@
       "name": "Capital Art Group",
       "publicationStatus": "limited",
       "sourceUrl": "https://www.capitalartgroup.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/",
-      "fairName": "Ms. Maria Tarrence, ASA, ARM",
-      "match": "website_host"
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/#professionalservice",
+      "fairName": "Capital Art Group",
+      "match": "website_host",
+      "entityReview": {
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/",
+        "entityId": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/#professionalservice",
+        "entityType": "ProfessionalService",
+        "note": "Exact named entity on the retrieved FAIR page; website-host discovery alone is not company/person equivalence. No credentials imported."
+      }
     },
     {
       "slug": "carla-young-fine-arts-appraisals-appraisals-and-consultations",
@@ -1561,9 +1568,16 @@
       "name": "Maria Tarrence",
       "publicationStatus": "limited",
       "sourceUrl": "https://www.capitalartgroup.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/",
+      "fairUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/#person",
       "fairName": "Ms. Maria Tarrence, ASA, ARM",
-      "match": "website_host"
+      "match": "website_host",
+      "entityReview": {
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/",
+        "entityId": "https://fairappraisers.org/appraisers/ms-maria-tarrence-asa-arm-new-york-ny/#person",
+        "entityType": "Person",
+        "note": "Exact named entity on the retrieved FAIR page; website-host discovery alone is not company/person equivalence. No credentials imported."
+      }
     },
     {
       "slug": "matthew-clayton-brown-fine-art-appraisers",

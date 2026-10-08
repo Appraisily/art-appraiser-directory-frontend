@@ -2538,8 +2538,25 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location",
+        "company_relationship"
       ],
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.capitalartgroup.com/about",
+          "value": { "city": "New York", "region": "NY", "country": "US" },
+          "note": "Provider-published New York City company base, not a street office, walk-in access or additional branch. Replaces unsupported Fort Worth."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.capitalartgroup.com/about",
+          "value": { "personNameOnSource": "Maria Tarrence", "personProviderId": "provider:maria-tarrence", "role": "Founder and principal appraiser" },
+          "sourceSnapshots": [{ "sourceUrl": "https://www.capitalartgroup.com/about", "retrievedAt": "2026-10-08T01:23:07.964Z", "bodySha256": "a0641bae9524b0fbe62daf240d5f1d623371ef1ebf2499c7d468c4d1325bb173" }],
+          "note": "Provider-published firm/person relationship only; no independent credentials, service recommendation or recipient acceptance inferred."
+        }
+      },
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/",
       "canonicalProviderId": "provider:capital-art-group"
     },
@@ -7262,8 +7279,24 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship"
       ],
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.capitalartgroup.com/about",
+          "note": "The firm base and Maria founder/principal role do not establish a separate personal office. Omit the individual address rather than borrowing the company locality."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.capitalartgroup.com/about",
+          "value": { "companyNameOnSource": "Capital Art Group", "companyProviderId": "provider:capital-art-group", "role": "Founder and principal appraiser" },
+          "sourceSnapshots": [{ "sourceUrl": "https://www.capitalartgroup.com/about", "retrievedAt": "2026-10-08T01:23:07.964Z", "bodySha256": "a0641bae9524b0fbe62daf240d5f1d623371ef1ebf2499c7d468c4d1325bb173" }],
+          "note": "Provider-published firm/person relationship only; no independent credentials, service recommendation or recipient acceptance inferred."
+        }
+      },
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/maria-tarrence/",
       "canonicalProviderId": "provider:maria-tarrence"
     },

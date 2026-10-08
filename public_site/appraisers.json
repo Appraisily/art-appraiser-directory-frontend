@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T00:41:44.676Z",
+  "generatedAt": "2026-10-08T01:30:31.389Z",
   "count": 209,
   "appraisers": [
     {
@@ -1125,11 +1125,11 @@
       "slug": "capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/",
       "name": "Capital Art Group",
-      "description": "Capital Art Group has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
+      "description": "Capital Art Group describes itself as a New York City-based practice and names Maria Tarrence as its founder and principal appraiser. Limited directory listing.",
       "website": "https://www.capitalartgroup.com/",
       "address": {
-        "city": "Fort Worth",
-        "region": "TX",
+        "city": "New York",
+        "region": "NY",
         "country": "US"
       },
       "serviceType": "Directory listing",
@@ -2806,14 +2806,8 @@
       "slug": "maria-tarrence",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/maria-tarrence/",
       "name": "Maria Tarrence",
-      "description": "Maria Tarrence has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
+      "description": "Capital Art Group names Maria Tarrence as its founder and principal appraiser. This individual directory record is separate from the firm.",
       "website": "https://www.capitalartgroup.com/",
-      "address": {
-        "city": "New York",
-        "region": "NY",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/maria-tarrence/",
