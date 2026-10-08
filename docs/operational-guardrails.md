@@ -106,6 +106,11 @@ This repo is static-first.
   FAIR company/person fragments without importing registry locality, credentials
   or status. `tests/winter-anne-factual-corrections.test.mjs` protects source dates,
   entity/address decisions, native actions, metadata, browse facets and both feeds.
+- Carrie Young and Elise Waters Olonia retain Person identity with no unconfirmed
+  personal office. A sourced company relationship, mailing address or project
+  history is not entity equivalence or a personal-office claim. The exact FAIR
+  Person identifiers, old reviews, native hubs and feed omissions are protected
+  by `tests/carrie-elise-person-corrections.test.mjs` and the settled browser gate.
 - Provider identity images must depict the provider. Appraisily logos and
   generated non-likeness artwork may be publisher branding/page illustrations,
   but must not populate provider schema or provider/location feed image fields.

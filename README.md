@@ -143,7 +143,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-49 representative routes at desktop, 390px and 320px with JavaScript enabled and
+51 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions.
 Person profiles keep their own primary entity; a sourced `worksFor` relationship
 does not turn the person into a company or confirm a separate personal office.
@@ -213,6 +213,16 @@ the registry does not supply office or qualification evidence. Native hubs,
 filters, metadata and feeds agree, without a new Plainville city page. Twenty
 other original-cohort locality findings retain strict negative coverage.
 Both changed profiles are covered by the initial/settled/real-no-JS browser gate.
+
+The subsequent [Carrie/Elise Person correction](docs/carrie-elise-person-corrections-20261008.md)
+uses named provider identities, separates Carrie's sourced Leonard Appraisal
+relationship from company equivalence, and omits both unconfirmed personal
+offices. A company mailing address and a historical Taos project do not establish
+these individual offices. Both existing URLs, limited statuses and August 30
+reviews remain. Native hubs, facets, metadata and feeds agree; exact FAIR Person
+fragments do not import locality or credentials. Eighteen other original-cohort
+locality findings retain strict negative coverage. Both corrected routes are
+included in the initial/settled/actual-no-JS browser gate.
 
 The [recorded-source provenance review](docs/provider-source-provenance-review-20261008.md)
 distinguishes external registry/marketplace sources from provider-owned websites.

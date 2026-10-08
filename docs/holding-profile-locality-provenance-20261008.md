@@ -13,6 +13,12 @@ the remaining original-cohort locality findings from 22 to 20. The dated
 source-only decisions and original four supported fields below are preserved;
 the two new public decisions have their own tests and release proof.
 
+The subsequent [Carrie/Elise Person correction](carrie-elise-person-corrections-20261008.md)
+omits two unconfirmed personal-office localities, reducing the remaining
+original-cohort locality findings from 20 to 18. Its dated Person/relationship
+evidence and omission/reintroduction negatives do not change the original
+forty-record usefulness requirement or the historical source-only audit below.
+
 ## Four supported existing fields
 
 | Exact provider record | Supported value | Primary source and boundary |

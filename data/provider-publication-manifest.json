@@ -2951,7 +2951,57 @@
         "website"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/carrie-young/",
-      "canonicalProviderId": "provider:carrie-young"
+      "canonicalProviderId": "provider:carrie-young",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://leonardappraisal.com/contact/",
+          "decision": "omit",
+          "evidenceScope": "provider_source_does_not_establish_current_personal_office",
+          "note": "The named team biography supports Carrie's relationship with Leonard Appraisal, LLC. The firm lists several locations and explicitly labels its Chicago address as mailing. Neither that mailing address nor the Addison location menu establishes Carrie's personal office. Omit the unsupported personal locality without substituting the firm's Chicago address or inferring travel/inspection availability.",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://leonardappraisal.com/",
+              "retrievedAt": "2026-10-08T13:02:25.945Z",
+              "bodySha256": "70615ab7b0a63017512b16d7d5b99a9babd9179ad8d16adc20a804f64763b995"
+            },
+            {
+              "sourceUrl": "https://leonardappraisal.com/about/",
+              "retrievedAt": "2026-10-08T13:02:25.997Z",
+              "bodySha256": "d91ddd01f2bad97f6cfa7d9536d4bbe67b01e23c9058968732238702e07e4777"
+            },
+            {
+              "sourceUrl": "https://leonardappraisal.com/contact/",
+              "retrievedAt": "2026-10-08T13:02:25.999Z",
+              "bodySha256": "8ac244ead8b3d45a76caac7d9bc862e86b4ec58aae6e616739398443c4338fce"
+            }
+          ]
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://leonardappraisal.com/about/",
+          "evidenceScope": "provider_published_person_practice_relationship",
+          "value": {
+            "name": "Leonard Appraisal, LLC",
+            "relationship": "named appraisal team member"
+          },
+          "note": "The provider-owned About page names Carrie Young on its appraisal team and identifies Leonard Appraisal, LLC. This supports a Person related to the practice, not equivalence with the company, its mailing office, all company specialties, independently verified ISA/USPAP credentials or report-recipient acceptance.",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://leonardappraisal.com/",
+              "retrievedAt": "2026-10-08T13:02:25.945Z",
+              "bodySha256": "70615ab7b0a63017512b16d7d5b99a9babd9179ad8d16adc20a804f64763b995"
+            },
+            {
+              "sourceUrl": "https://leonardappraisal.com/about/",
+              "retrievedAt": "2026-10-08T13:02:25.997Z",
+              "bodySha256": "d91ddd01f2bad97f6cfa7d9536d4bbe67b01e23c9058968732238702e07e4777"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "case-antiques-inc-auctions-appraisals",
@@ -4722,7 +4772,52 @@
         "website"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/elise-waters-olonia/",
-      "canonicalProviderId": "provider:elise-waters-olonia"
+      "canonicalProviderId": "provider:elise-waters-olonia",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.fineartservices.info/contact",
+          "decision": "omit",
+          "evidenceScope": "provider_source_does_not_establish_current_personal_office",
+          "note": "The current provider-owned home/contact publish no personal office locality; the embedded LocalBusiness address is empty. The Ted Egri page describes Taos project history, not a current Ranchos de Taos office. Omit the unsupported address rather than transferring a project city, registry locality or former engagement into a present office.",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.fineartservices.info/",
+              "retrievedAt": "2026-10-08T13:02:26.000Z",
+              "bodySha256": "494bf344d55e48185cad9d7f1fa2227c804c4a248dc48d692ffa78b2ddea39a9"
+            },
+            {
+              "sourceUrl": "https://www.fineartservices.info/contact",
+              "retrievedAt": "2026-10-08T13:02:26.001Z",
+              "bodySha256": "1999208022f84d9267ee6a0e16985c9d5f22f1ec282f6f1ce94b52a3338aaaf4"
+            },
+            {
+              "sourceUrl": "https://www.fineartservices.info/journal/blog-post-title-one-4yyjn",
+              "retrievedAt": "2026-10-08T13:02:26.002Z",
+              "bodySha256": "57f016228ea9b0d7dd37a6a8cf5d89cf27e67700066da50572d6dabe1dab8b3a"
+            }
+          ]
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.fineartservices.info/",
+          "evidenceScope": "provider_published_named_person",
+          "value": {
+            "name": "Elise Waters Olonia",
+            "entityType": "Person"
+          },
+          "note": "The provider-owned homepage explicitly names Elise Waters Olonia and attributes fine-art consultation, valuation and legacy-planning work to her. No separate legal company, office, medium specialization, ISA/USPAP credential, inspection availability or report-acceptance guarantee is inferred.",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.fineartservices.info/",
+              "retrievedAt": "2026-10-08T13:02:26.000Z",
+              "bodySha256": "494bf344d55e48185cad9d7f1fa2227c804c4a248dc48d692ffa78b2ddea39a9"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "elizabeth-abston-llc",

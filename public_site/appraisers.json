@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T11:11:37.048Z",
+  "generatedAt": "2026-10-08T13:38:00.789Z",
   "count": 209,
   "appraisers": [
     {
@@ -1147,14 +1147,8 @@
       "slug": "carrie-young",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/carrie-young/",
       "name": "Carrie Young",
-      "description": "Carrie Young has a limited directory listing for Addison, IL. Confirm current services and qualifications directly with the business.",
+      "description": "Leonard Appraisal names Carrie Young on its appraisal team. Confirm artwork scope, report purpose and inspection arrangements with the practice; personal office locality is not confirmed.",
       "website": "https://leonardappraisal.com/",
-      "address": {
-        "city": "Addison",
-        "region": "IL",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/carrie-young/",
@@ -1526,14 +1520,8 @@
       "slug": "elise-waters-olonia",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elise-waters-olonia/",
       "name": "Elise Waters Olonia",
-      "description": "Elise Waters Olonia has a limited directory listing for Ranchos De Taos, NM. Confirm current services and qualifications directly with the business.",
+      "description": "Elise Waters Olonia describes fine-art consultation, valuation and legacy-planning work. Confirm assignment scope and inspection arrangements directly; office locality is not confirmed.",
       "website": "https://www.fineartservices.info/",
-      "address": {
-        "city": "Ranchos De Taos",
-        "region": "NM",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/elise-waters-olonia/",
