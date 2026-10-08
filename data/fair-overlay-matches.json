@@ -554,15 +554,6 @@
       "match": "website_host"
     },
     {
-      "slug": "boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
-      "name": "Poras Fine Arts Appraisal - Serving N.E.",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://www.fineartsappraiser.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/poras-fine-arts-appraisal-serving-n-e-brooklyn-ny/",
-      "fairName": "Poras Fine Arts Appraisal - Serving N.E.",
-      "match": "website_host"
-    },
-    {
       "slug": "brenda-simonson-mohle",
       "name": "Brenda Simonson-Mohle",
       "publicationStatus": "limited",
@@ -1680,15 +1671,6 @@
       "match": "website_host"
     },
     {
-      "slug": "new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
-      "name": "Poras Fine Art Appraisal Service",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://www.fineartsappraiser.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/poras-fine-arts-appraisal-serving-n-e-brooklyn-ny/",
-      "fairName": "Poras Fine Arts Appraisal - Serving N.E.",
-      "match": "website_host"
-    },
-    {
       "slug": "newton-fine-art-appraisal",
       "name": "Newton Fine Art Appraisal, Sally Newton",
       "publicationStatus": "limited",
@@ -1749,15 +1731,6 @@
       "sourceUrl": "https://www.peterheldappraisals.com/",
       "fairUrl": "https://fairappraisers.org/appraisers/mr-peter-held-asa-chandler-az/",
       "fairName": "Mr. Peter Held, ASA",
-      "match": "website_host"
-    },
-    {
-      "slug": "poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
-      "name": "Poras Fine Arts Appraiser",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://www.fineartsappraiser.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/poras-fine-arts-appraisal-serving-n-e-brooklyn-ny/",
-      "fairName": "Poras Fine Arts Appraisal - Serving N.E.",
       "match": "website_host"
     },
     {

@@ -2403,6 +2403,24 @@
             }
           ],
           "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        },
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/about",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T04:01:34.688Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/about",
+              "retrievedAt": "2026-10-08T04:01:34.767Z",
+              "bodySha256": "215b7634d2cd93bac8a594f4320f7a84fb81f4c2908110d0fd187ab3f48edc46"
+            }
+          ],
+          "note": "The linked practice describes service coverage and other footer localities, not a confirmed primary office for this retained historical record. Omit the old Boston/New York/Fargo address without inferring a replacement, reconciling historical business names or promoting eligibility."
         }
       }
     },
@@ -8913,6 +8931,24 @@
             }
           ],
           "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        },
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/about",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T04:01:34.688Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/about",
+              "retrievedAt": "2026-10-08T04:01:34.767Z",
+              "bodySha256": "215b7634d2cd93bac8a594f4320f7a84fb81f4c2908110d0fd187ab3f48edc46"
+            }
+          ],
+          "note": "The linked practice describes service coverage and other footer localities, not a confirmed primary office for this retained historical record. Omit the old Boston/New York/Fargo address without inferring a replacement, reconciling historical business names or promoting eligibility."
         }
       }
     },
@@ -9829,6 +9865,24 @@
             }
           ],
           "note": "The linked official practice describes these existing service labels. This is provider-attributed scope, not independent accreditation, guaranteed report acceptance or inspection availability. It does not establish the historical name variants as identical entities, or a Boston, New York or Fargo office/location. Original limited eligibility and identity-review date remain unchanged."
+        },
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartsappraiser.com/about",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartsappraiser.com/",
+              "retrievedAt": "2026-10-08T04:01:34.688Z",
+              "bodySha256": "e04389c941e7823100a51e0c5778a2a98d3d743b3e499e843e0cb6a7779d6e96"
+            },
+            {
+              "sourceUrl": "https://fineartsappraiser.com/about",
+              "retrievedAt": "2026-10-08T04:01:34.767Z",
+              "bodySha256": "215b7634d2cd93bac8a594f4320f7a84fb81f4c2908110d0fd187ab3f48edc46"
+            }
+          ],
+          "note": "The linked practice describes service coverage and other footer localities, not a confirmed primary office for this retained historical record. Omit the old Boston/New York/Fargo address without inferring a replacement, reconciling historical business names or promoting eligibility."
         }
       }
     },

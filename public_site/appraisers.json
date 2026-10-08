@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T03:02:17.699Z",
+  "generatedAt": "2026-10-08T04:10:50.704Z",
   "count": 209,
   "appraisers": [
     {
@@ -1005,13 +1005,8 @@
       "slug": "boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
       "name": "Poras Fine Arts Appraisal - Serving N.E.",
-      "description": "Poras Fine Arts Appraisal - Serving N.E. has a limited directory listing for Boston, MA. Confirm current services and qualifications directly with the business.",
+      "description": "Poras Fine Arts Appraisal - Serving N.E. is a limited appraisal-practice record linked to fineartsappraiser.com. Confirm assignment coverage and inspection arrangements directly.",
       "website": "https://www.fineartsappraiser.com/",
-      "address": {
-        "city": "Boston",
-        "region": "MA",
-        "country": "US"
-      },
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -2908,13 +2903,8 @@
       "slug": "new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
       "name": "Poras Fine Art Appraisal Service",
-      "description": "Poras Fine Art Appraisal Service has a limited directory listing for New York, NY. Confirm current services and qualifications directly with the business.",
+      "description": "Poras Fine Art Appraisal Service is a limited appraisal-practice record linked to fineartsappraiser.com. Confirm assignment coverage and inspection arrangements directly.",
       "website": "https://www.fineartsappraiser.com/",
-      "address": {
-        "city": "New York",
-        "region": "NY",
-        "country": "US"
-      },
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
@@ -3016,13 +3006,8 @@
       "slug": "poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/",
       "name": "Poras Fine Arts Appraiser",
-      "description": "Poras Fine Arts Appraiser has a limited directory listing for Fargo, ND. Confirm current services and qualifications directly with the business.",
+      "description": "Poras Fine Arts Appraiser is a limited appraisal-practice record linked to fineartsappraiser.com. Confirm assignment coverage and inspection arrangements directly.",
       "website": "https://www.fineartsappraiser.com/",
-      "address": {
-        "city": "Fargo",
-        "region": "ND",
-        "country": "US"
-      },
       "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",

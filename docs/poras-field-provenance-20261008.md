@@ -44,3 +44,10 @@ feeds and the overlay decision, then pass the standard candidate/live release
 gates. Consolidation additionally requires historical equivalence, a useful
 retained target, URL-policy/feed/routing acceptance and the protected content
 decision. No protected measurement date is changed by this evidence ledger.
+
+Subsequent change on October 8: the
+[office-scope correction](poras-office-scope-correction-20261008.md) implements
+the synchronized omission and overlay decision. This ledger remains the record
+of the earlier source-only batch, not a claim that batch deployed public changes.
+The service regression now expects the omitted office and preserves all six
+original service evidence entries.

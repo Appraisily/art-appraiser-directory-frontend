@@ -31,7 +31,7 @@ for (const slug of slugs) {
     const row = manifest.providers.find(record => record.slug === slug);
     assert.equal(row.publicationStatus, 'limited'); assert.equal(row.verifiedAt, '2026-08-30');
     assert.equal(row.sourceUrl, 'https://www.fineartsappraiser.com/');
-    assert.equal(row.fieldEvidence?.primary_location, undefined);
+    assert.equal(row.fieldEvidence?.primary_location?.decision, 'omit');
     assert.equal(row.fieldEvidence?.qualification, undefined);
     for (const [field, value] of Object.entries(values)) {
       const evidence = row.fieldEvidence?.[field]; assert.ok(evidence, `Missing ${field} provenance`);
@@ -49,8 +49,7 @@ for (const slug of slugs) {
     withProfile(slug, doc => {
       const fields = inspectProviderFields(row, doc);
       assert.deepEqual(fields.failures, []); assert.deepEqual(fields.reviewFlags, []);
-      assert.equal(fields.scopeFailures.length, 1, 'The unsupported locality remains explicitly open');
-      assert.equal(fields.scopeFailures[0].code, 'published-location-missing-field-evidence');
+      assert.deepEqual(fields.scopeFailures, [], 'Unsupported offices are omitted by the subsequent public correction');
     });
   });
 }
@@ -58,7 +57,7 @@ test('source changes, stale scope and mismatched label values cannot clear the c
   for (const slug of slugs) withProfile(slug, doc => {
     const original = manifest.providers.find(row => row.slug === slug);
     const missing = structuredClone(original); delete missing.fieldEvidence;
-    assert.equal(inspectProviderFields(missing, doc).scopeFailures.length, 3);
+    assert.equal(inspectProviderFields(missing, doc).scopeFailures.length, 2);
     for (const field of Object.keys(values)) {
       const foreign = structuredClone(original);
       foreign.fieldEvidence[field].sourceUrl = 'https://fairappraisers.org/';

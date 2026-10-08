@@ -143,7 +143,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-37 representative routes at desktop, 390px and 320px with JavaScript enabled and
+40 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions.
 Person profiles keep their own primary entity; a sourced `worksFor` relationship
 does not turn the person into a company or confirm a separate personal office.
@@ -171,9 +171,12 @@ mobile overflow fails release. It does not prove Google inclusion.
 
 The [Poras field ledger](docs/poras-field-provenance-20261008.md) supplies
 separately dated provider-attributed evidence for the existing specialty/service
-labels on three limited records. It does not alter public copy, infer offices,
-merge historical names or import credentials. The three locality findings and
-the separate synchronized public correction remain open.
+labels on three limited records. The subsequent
+[Poras office-scope correction](docs/poras-office-scope-correction-20261008.md)
+omits unsupported offices from profiles, hubs, feeds and indexing metadata, and
+removes unconfirmed website-host FAIR equivalences. Historical names, limited
+status, original review dates and URLs remain unchanged. It does not infer a
+replacement office, merge historical names or import credentials.
 
 Authored-text parity excludes only the shared embed's identified chat control
 nodes on body-fallback documents; unrelated added text and changed provider

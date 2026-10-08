@@ -41,6 +41,9 @@ const routes = [
   '/appraiser/jsk-fine-art-appraisals/', '/appraiser/jennifer-e-salvetti-kulla-ma/',
   '/appraiser/alicia-e-weaver-isa-capp/', '/appraiser/alicia-weaver/', '/appraiser/edward-kitson/',
   '/appraiser/elizabeth-lake-lovett/', '/appraiser/elizabeth-lovett/', '/appraiser/stephanie-calman/',
+  '/appraiser/boston-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/',
+  '/appraiser/new-york-poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/',
+  '/appraiser/poras-fine-arts-appraiser-meeting-all-your-fine-art-appraisal-needs/',
   ...resources.map((page) => page.path),
   ...unpublished.map((page) => page.route),
 ];

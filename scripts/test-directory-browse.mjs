@@ -38,7 +38,10 @@ for (const page of ['appraiser', 'location']) {
     }
     for (const p of feed) {
       const row = rows.find(r => r.querySelector('a').getAttribute('href') === '/appraiser/' + p.slug + '/');
-      assert.ok(row.textContent.includes(p.address?.city || p.address?.region || 'Location not listed'));
+      const location = p.address?.city || p.address?.region;
+      const officeOmitted = manifest.providers.find(record => record.slug === p.slug)?.fieldEvidence?.primary_location?.decision === 'omit';
+      assert.ok(location ? row.textContent.includes(location) :
+        row.textContent.includes('Location not listed') || (officeOmitted && row.textContent.includes('Primary office not listed')));
       if (p.address?.city) assert.ok(fs.readFileSync(new URL('appraiser/' + p.slug + '/index.html', root), 'utf8').includes(p.address.city));
     }
   }
