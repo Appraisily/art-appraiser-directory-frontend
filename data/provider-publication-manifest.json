@@ -354,7 +354,9 @@
       "claimScope": [
         "identity",
         "website",
-        "qualification"
+        "qualification",
+        "company_relationship",
+        "person_identity"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
       "canonicalProviderId": "provider:alicia-e-weaver",
@@ -384,6 +386,58 @@
             }
           ],
           "note": "ISA public profile supports this exact existing person/name designation. Confirmation is limited to the designation displayed on the checked profile; no expiry, USPAP compliance, tax qualification, report acceptance, service quality, location or provider promotion is inferred. The provider website and original identity-review date remain separate."
+        },
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+              "retrievedAt": "2026-10-08T02:52:36.434Z",
+              "bodySha256": "cd84941a5f6897164b7139d15917dc023bcddf826c8b19499174ff4022ba8515"
+            }
+          ],
+          "note": "An individual’s affiliation, company offices and national project coverage do not establish a separate personal office. Omit the old individual address; no alternative city is inferred."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+          "value": {
+            "companyNameOnSource": "Prestige Estate Services",
+            "personNameOnSource": "Alicia Weaver",
+            "companyUrl": "https://prestigeestateservices.com/",
+            "role": "Founder and Head of Appraisals at Prestige Estate Services"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+              "retrievedAt": "2026-10-08T02:52:36.434Z",
+              "bodySha256": "cd84941a5f6897164b7139d15917dc023bcddf826c8b19499174ff4022ba8515"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Provider-attributed team relationship only. No imported designation, fine-art competency approval, report acceptance, individual-office claim or publication promotion."
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+          "value": "Alicia E Weaver (ISA CAPP)",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+              "retrievedAt": "2026-10-08T02:52:31.748Z",
+              "bodySha256": "baf85d07b65282b8213fff9f05b09e178a3d035278ab7d5d306ff24528975178"
+            },
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+              "retrievedAt": "2026-10-08T02:52:36.434Z",
+              "bodySha256": "cd84941a5f6897164b7139d15917dc023bcddf826c8b19499174ff4022ba8515"
+            }
+          ],
+          "evidenceScope": "individual_identity_and_team_relationship",
+          "independentCredentialVerification": false,
+          "note": "Exact named individual; the Alicia short/full names and Elizabeth short/full names resolve to their respective single individuals. Existing routes remain until useful-target, content and consolidation gates pass. No name or original review is changed."
         }
       }
     },
@@ -411,10 +465,66 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship",
+        "person_identity"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
-      "canonicalProviderId": "provider:alicia-weaver"
+      "canonicalProviderId": "provider:alicia-weaver",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+              "retrievedAt": "2026-10-08T02:52:36.434Z",
+              "bodySha256": "cd84941a5f6897164b7139d15917dc023bcddf826c8b19499174ff4022ba8515"
+            }
+          ],
+          "note": "An individual’s affiliation, company offices and national project coverage do not establish a separate personal office. Omit the old individual address; no alternative city is inferred."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+          "value": {
+            "companyNameOnSource": "Prestige Estate Services",
+            "personNameOnSource": "Alicia Weaver",
+            "companyUrl": "https://prestigeestateservices.com/",
+            "role": "Founder and Head of Appraisals at Prestige Estate Services"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+              "retrievedAt": "2026-10-08T02:52:36.434Z",
+              "bodySha256": "cd84941a5f6897164b7139d15917dc023bcddf826c8b19499174ff4022ba8515"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Provider-attributed team relationship only. No imported designation, fine-art competency approval, report acceptance, individual-office claim or publication promotion."
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+          "value": "Alicia Weaver",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/2647/alicia-weaver",
+              "retrievedAt": "2026-10-08T02:52:31.748Z",
+              "bodySha256": "baf85d07b65282b8213fff9f05b09e178a3d035278ab7d5d306ff24528975178"
+            },
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/alicia-weaver/",
+              "retrievedAt": "2026-10-08T02:52:36.434Z",
+              "bodySha256": "cd84941a5f6897164b7139d15917dc023bcddf826c8b19499174ff4022ba8515"
+            }
+          ],
+          "evidenceScope": "individual_identity_and_team_relationship",
+          "independentCredentialVerification": false,
+          "note": "Exact named individual; the Alicia short/full names and Elizabeth short/full names resolve to their respective single individuals. Existing routes remain until useful-target, content and consolidation gates pass. No name or original review is changed."
+        }
+      }
     },
     {
       "slug": "alicia-weaver-prestige-estate",
@@ -4208,10 +4318,61 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship",
+        "person_identity"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/edward-kitson/",
-      "canonicalProviderId": "provider:edward-kitson"
+      "canonicalProviderId": "provider:edward-kitson",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+              "retrievedAt": "2026-10-08T02:52:35.796Z",
+              "bodySha256": "7187bb71758dfa0b9e1176788a333651eb0505548569f09ca73c8f059bb79a1c"
+            }
+          ],
+          "note": "An individual’s affiliation, company offices and national project coverage do not establish a separate personal office. Omit the old individual address; no alternative city is inferred."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+          "value": {
+            "companyNameOnSource": "Prestige Estate Services",
+            "personNameOnSource": "Edward Kitson",
+            "companyUrl": "https://prestigeestateservices.com/",
+            "role": "Personal property appraiser at Prestige Estate Services"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+              "retrievedAt": "2026-10-08T02:52:35.796Z",
+              "bodySha256": "7187bb71758dfa0b9e1176788a333651eb0505548569f09ca73c8f059bb79a1c"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Provider-attributed team relationship only. No imported designation, fine-art competency approval, report acceptance, individual-office claim or publication promotion."
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+          "value": "Edward Kitson",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+              "retrievedAt": "2026-10-08T02:52:35.796Z",
+              "bodySha256": "7187bb71758dfa0b9e1176788a333651eb0505548569f09ca73c8f059bb79a1c"
+            }
+          ],
+          "evidenceScope": "individual_identity_and_team_relationship",
+          "independentCredentialVerification": false,
+          "note": "Exact named individual; the Alicia short/full names and Elizabeth short/full names resolve to their respective single individuals. Existing routes remain until useful-target, content and consolidation gates pass. No name or original review is changed."
+        }
+      }
     },
     {
       "slug": "edward-m-stanley-appraisal-services-fine-art-antiques",
@@ -4301,10 +4462,61 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship",
+        "person_identity"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lake-lovett/",
-      "canonicalProviderId": "provider:elizabeth-lake-lovett"
+      "canonicalProviderId": "provider:elizabeth-lake-lovett",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+              "retrievedAt": "2026-10-08T02:52:36.048Z",
+              "bodySha256": "eedcd491ad7d2e30a8a9f9a9778fb4b5ac6b24ae8bf2f205c09c278c8fdd7e23"
+            }
+          ],
+          "note": "An individual’s affiliation, company offices and national project coverage do not establish a separate personal office. Omit the old individual address; no alternative city is inferred."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+          "value": {
+            "companyNameOnSource": "Prestige Estate Services",
+            "personNameOnSource": "Elizabeth Lovett / Elizabeth Lake Lovett",
+            "companyUrl": "https://prestigeestateservices.com/",
+            "role": "Personal property appraiser at Prestige Estate Services"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+              "retrievedAt": "2026-10-08T02:52:36.048Z",
+              "bodySha256": "eedcd491ad7d2e30a8a9f9a9778fb4b5ac6b24ae8bf2f205c09c278c8fdd7e23"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Provider-attributed team relationship only. No imported designation, fine-art competency approval, report acceptance, individual-office claim or publication promotion."
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+          "value": "Elizabeth Lake Lovett",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+              "retrievedAt": "2026-10-08T02:52:36.048Z",
+              "bodySha256": "eedcd491ad7d2e30a8a9f9a9778fb4b5ac6b24ae8bf2f205c09c278c8fdd7e23"
+            }
+          ],
+          "evidenceScope": "individual_identity_and_team_relationship",
+          "independentCredentialVerification": false,
+          "note": "Exact named individual; the Alicia short/full names and Elizabeth short/full names resolve to their respective single individuals. Existing routes remain until useful-target, content and consolidation gates pass. No name or original review is changed."
+        }
+      }
     },
     {
       "slug": "elizabeth-lovett",
@@ -4317,10 +4529,61 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship",
+        "person_identity"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lovett/",
-      "canonicalProviderId": "provider:elizabeth-lovett"
+      "canonicalProviderId": "provider:elizabeth-lovett",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+              "retrievedAt": "2026-10-08T02:52:36.048Z",
+              "bodySha256": "eedcd491ad7d2e30a8a9f9a9778fb4b5ac6b24ae8bf2f205c09c278c8fdd7e23"
+            }
+          ],
+          "note": "An individual’s affiliation, company offices and national project coverage do not establish a separate personal office. Omit the old individual address; no alternative city is inferred."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+          "value": {
+            "companyNameOnSource": "Prestige Estate Services",
+            "personNameOnSource": "Elizabeth Lovett / Elizabeth Lake Lovett",
+            "companyUrl": "https://prestigeestateservices.com/",
+            "role": "Personal property appraiser at Prestige Estate Services"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+              "retrievedAt": "2026-10-08T02:52:36.048Z",
+              "bodySha256": "eedcd491ad7d2e30a8a9f9a9778fb4b5ac6b24ae8bf2f205c09c278c8fdd7e23"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Provider-attributed team relationship only. No imported designation, fine-art competency approval, report acceptance, individual-office claim or publication promotion."
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+          "value": "Elizabeth Lovett",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraiser/elizabeth-lovett/",
+              "retrievedAt": "2026-10-08T02:52:36.048Z",
+              "bodySha256": "eedcd491ad7d2e30a8a9f9a9778fb4b5ac6b24ae8bf2f205c09c278c8fdd7e23"
+            }
+          ],
+          "evidenceScope": "individual_identity_and_team_relationship",
+          "independentCredentialVerification": false,
+          "note": "Exact named individual; the Alicia short/full names and Elizabeth short/full names resolve to their respective single individuals. Existing routes remain until useful-target, content and consolidation gates pass. No name or original review is changed."
+        }
+      }
     },
     {
       "slug": "elizabeth-wells-appraisals-and-fine-art-services",
@@ -11799,10 +12062,61 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship",
+        "person_identity"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/stephanie-calman/",
-      "canonicalProviderId": "provider:stephanie-calman"
+      "canonicalProviderId": "provider:stephanie-calman",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+              "retrievedAt": "2026-10-08T02:52:35.796Z",
+              "bodySha256": "7187bb71758dfa0b9e1176788a333651eb0505548569f09ca73c8f059bb79a1c"
+            }
+          ],
+          "note": "An individual’s affiliation, company offices and national project coverage do not establish a separate personal office. Omit the old individual address; no alternative city is inferred."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+          "value": {
+            "companyNameOnSource": "Prestige Estate Services",
+            "personNameOnSource": "Stephanie Calman",
+            "companyUrl": "https://prestigeestateservices.com/",
+            "role": "Personal property appraiser at Prestige Estate Services"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+              "retrievedAt": "2026-10-08T02:52:35.796Z",
+              "bodySha256": "7187bb71758dfa0b9e1176788a333651eb0505548569f09ca73c8f059bb79a1c"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Provider-attributed team relationship only. No imported designation, fine-art competency approval, report acceptance, individual-office claim or publication promotion."
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+          "value": "Stephanie Calman",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://prestigeestateservices.com/appraisals/meet-our-appraisers/",
+              "retrievedAt": "2026-10-08T02:52:35.796Z",
+              "bodySha256": "7187bb71758dfa0b9e1176788a333651eb0505548569f09ca73c8f059bb79a1c"
+            }
+          ],
+          "evidenceScope": "individual_identity_and_team_relationship",
+          "independentCredentialVerification": false,
+          "note": "Exact named individual; the Alicia short/full names and Elizabeth short/full names resolve to their respective single individuals. Existing routes remain until useful-target, content and consolidation gates pass. No name or original review is changed."
+        }
+      }
     },
     {
       "slug": "stephen-g-frazier-and-nbsp-br-fine-art-appraiser-llc",

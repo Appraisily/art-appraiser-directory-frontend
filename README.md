@@ -143,7 +143,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-31 representative routes at desktop, 390px and 320px with JavaScript enabled and
+37 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions.
 Person profiles keep their own primary entity; a sourced `worksFor` relationship
 does not turn the person into a company or confirm a separate personal office.
@@ -157,6 +157,12 @@ uses Solana Beach as the provider-published company base and treats Jennifer as
 a separate Person. FAIR identifies the company only; Jennifer references her
 exact ISA individual profile, not the company. The existing service labels have
 separately dated provider-attributed evidence, not guaranteed recipient acceptance.
+The [Prestige individual correction](docs/prestige-person-identity-correction-20261008.md)
+keeps six named people as `Person` records, omits unsupported office assignments,
+and separates company affiliation from entity equivalence. Only Alicia's exact
+FAIR Person is retained; five company FAIR links are removed. Original routes,
+limited reviews and Alicia's existing ISA evidence remain unchanged. The short/full
+name pairs are not separate offices; URL consolidation remains gated.
 Optional `--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
 candidate/live evidence. No production container restart is needed for this test.
 The standard isolated candidate gate runs this contract against the promoted

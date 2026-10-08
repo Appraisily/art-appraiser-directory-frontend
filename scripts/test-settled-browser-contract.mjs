@@ -39,6 +39,8 @@ const routes = [
   '/appraiser/hollingsworth-fine-a/', '/appraiser/lauren-k-stump/',
   '/appraiser/capital-art-group-art-appraisals-personal-property-appraisals-appraisal-reviews-expert-wit/', '/appraiser/maria-tarrence/',
   '/appraiser/jsk-fine-art-appraisals/', '/appraiser/jennifer-e-salvetti-kulla-ma/',
+  '/appraiser/alicia-e-weaver-isa-capp/', '/appraiser/alicia-weaver/', '/appraiser/edward-kitson/',
+  '/appraiser/elizabeth-lake-lovett/', '/appraiser/elizabeth-lovett/', '/appraiser/stephanie-calman/',
   ...resources.map((page) => page.path),
   ...unpublished.map((page) => page.route),
 ];

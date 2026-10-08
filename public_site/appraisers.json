@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T02:16:29.522Z",
+  "generatedAt": "2026-10-08T03:02:17.699Z",
   "count": 209,
   "appraisers": [
     {
@@ -225,14 +225,8 @@
       "slug": "alicia-e-weaver-isa-capp",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-e-weaver-isa-capp/",
       "name": "Alicia E Weaver (ISA CAPP)",
-      "description": "Alicia E Weaver (ISA CAPP) has a limited directory listing for Dallas, TX. Confirm current services and qualifications directly with the business.",
+      "description": "Alicia E Weaver (ISA CAPP) is retained as an individual appraiser record affiliated with Prestige Estate Services. Confirm assignment arrangements directly; a personal office is not listed.",
       "website": "https://www.isa-appraisers.org/",
-      "address": {
-        "city": "Dallas",
-        "region": "TX",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/alicia-e-weaver-isa-capp/",
@@ -243,14 +237,8 @@
       "slug": "alicia-weaver",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/alicia-weaver/",
       "name": "Alicia Weaver",
-      "description": "Alicia Weaver has a limited directory listing for Las Vegas, NV. Confirm current services and qualifications directly with the business.",
+      "description": "Alicia Weaver is retained as an individual appraiser record affiliated with Prestige Estate Services. Confirm assignment arrangements directly; a personal office is not listed.",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "address": {
-        "city": "Las Vegas",
-        "region": "NV",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/alicia-weaver/",
@@ -1503,14 +1491,8 @@
       "slug": "edward-kitson",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/edward-kitson/",
       "name": "Edward Kitson",
-      "description": "Edward Kitson has a limited directory listing for Las Vegas, NV. Confirm current services and qualifications directly with the business.",
+      "description": "Edward Kitson is retained as an individual appraiser record affiliated with Prestige Estate Services. Confirm assignment arrangements directly; a personal office is not listed.",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "address": {
-        "city": "Las Vegas",
-        "region": "NV",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/edward-kitson/",
@@ -1575,14 +1557,8 @@
       "slug": "elizabeth-lake-lovett",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lake-lovett/",
       "name": "Elizabeth Lake Lovett",
-      "description": "Elizabeth Lake Lovett has a limited directory listing for Palm Beach, FL. Confirm current services and qualifications directly with the business.",
+      "description": "Elizabeth Lake Lovett is retained as an individual appraiser record affiliated with Prestige Estate Services. Confirm assignment arrangements directly; a personal office is not listed.",
       "website": "https://prestigeestateservices.com/",
-      "address": {
-        "city": "Palm Beach",
-        "region": "FL",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/elizabeth-lake-lovett/",
@@ -1593,14 +1569,8 @@
       "slug": "elizabeth-lovett",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/elizabeth-lovett/",
       "name": "Elizabeth Lovett",
-      "description": "Elizabeth Lovett has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
+      "description": "Elizabeth Lovett is retained as an individual appraiser record affiliated with Prestige Estate Services. Confirm assignment arrangements directly; a personal office is not listed.",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "address": {
-        "city": "Fort Worth",
-        "region": "TX",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/elizabeth-lovett/",
@@ -3406,14 +3376,8 @@
       "slug": "stephanie-calman",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/stephanie-calman/",
       "name": "Stephanie Calman",
-      "description": "Stephanie Calman has a limited directory listing for Las Vegas, NV. Confirm current services and qualifications directly with the business.",
+      "description": "Stephanie Calman is retained as an individual appraiser record affiliated with Prestige Estate Services. Confirm assignment arrangements directly; a personal office is not listed.",
       "website": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "address": {
-        "city": "Las Vegas",
-        "region": "NV",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/stephanie-calman/",

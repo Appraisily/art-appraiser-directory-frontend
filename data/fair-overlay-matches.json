@@ -112,18 +112,23 @@
       "name": "Alicia E Weaver (ISA CAPP)",
       "publicationStatus": "limited",
       "sourceUrl": "https://www.isa-appraisers.org/",
-      "fairUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/",
+      "fairUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/#person",
       "fairName": "Alicia E Weaver",
-      "match": "website_host"
-    },
-    {
-      "slug": "alicia-weaver",
-      "name": "Alicia Weaver",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
-      "fairName": "Prestige Estate Services (National Network)",
-      "match": "website_host"
+      "match": "website_host",
+      "entityReview": {
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/",
+        "entityId": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/#person",
+        "entityType": "Person",
+        "sourceSnapshots": [
+          {
+            "sourceUrl": "https://fairappraisers.org/appraisers/alicia-e-weaver-boulder-co/",
+            "retrievedAt": "2026-10-08T02:52:31.612Z",
+            "bodySha256": "987dbdb345002b4c39f5f98dd7ffd427e47079712a4e345a817a255adf6a1491"
+          }
+        ],
+        "note": "Exact named Person entity and individual ISA 2647 reference. Do not import the FAIR business entity, Boulder office, portrait, offerings or credentials."
+      }
     },
     {
       "slug": "allison-gee-fine-art-appraisals",
@@ -826,15 +831,6 @@
       "match": "website_host"
     },
     {
-      "slug": "edward-kitson",
-      "name": "Edward Kitson",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
-      "fairName": "Prestige Estate Services (National Network)",
-      "match": "website_host"
-    },
-    {
       "slug": "edward-m-stanley-appraisal-services-fine-art-antiques",
       "name": "Edward Stanley Appraisal Services",
       "publicationStatus": "limited",
@@ -868,24 +864,6 @@
       "sourceUrl": "https://www.eafineart.com/",
       "fairUrl": "https://fairappraisers.org/appraisers/elizabeth-abston-llc-fine-art-appraisal-and-advisory-jackson-ms/",
       "fairName": "Elizabeth Abston LLC Fine Art Appraisal & Advisory",
-      "match": "website_host"
-    },
-    {
-      "slug": "elizabeth-lake-lovett",
-      "name": "Elizabeth Lake Lovett",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://prestigeestateservices.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
-      "fairName": "Prestige Estate Services (National Network)",
-      "match": "website_host"
-    },
-    {
-      "slug": "elizabeth-lovett",
-      "name": "Elizabeth Lovett",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
-      "fairName": "Prestige Estate Services (National Network)",
       "match": "website_host"
     },
     {
@@ -1996,15 +1974,6 @@
       "sourceUrl": "https://stliferart.com/",
       "fairUrl": "https://fairappraisers.org/appraisers/st-lifer-fine-art-inc-new-york-ny/",
       "fairName": "St Lifer Fine Art Inc",
-      "match": "website_host"
-    },
-    {
-      "slug": "stephanie-calman",
-      "name": "Stephanie Calman",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://prestigeestateservices.com/locations/las-vegas-nevada",
-      "fairUrl": "https://fairappraisers.org/appraisers/prestige-estate-services-national-network-seattle-wa/",
-      "fairName": "Prestige Estate Services (National Network)",
       "match": "website_host"
     },
     {
