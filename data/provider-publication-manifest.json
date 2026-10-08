@@ -621,10 +621,68 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/allison-gee-fine-art-appraisals/",
-      "canonicalProviderId": "provider:allison-gee-fine-art-appraisals"
+      "canonicalProviderId": "provider:allison-gee-fine-art-appraisals",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Fine art appraisals"
+          ],
+          "sourceUrl": "https://fineart.services/services",
+          "sourceUrls": [
+            "https://fineart.services/services",
+            "https://fineart.services/"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The linked owned services page explicitly advertises fine-art appraisals for estate planning/taxes, insurance scheduling and non-cash charitable contributions. These support the existing labels; they do not verify qualifications, recipient acceptance, current Phoenix locality, inspection method, availability or any legal/tax guarantee. The homepage alone did not support all intended uses.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineart.services/services",
+              "retrievedAt": "2026-10-08T14:40:23.960Z",
+              "bodySha256": "ee1b6333d89473738b1b3964fd73fec7237002d146468f9c9d3f1c45f8b73953"
+            },
+            {
+              "sourceUrl": "https://fineart.services/",
+              "retrievedAt": "2026-10-08T14:39:35.762Z",
+              "bodySha256": "75b76f42b2836a699cbd5f070b8e4597eeaa48f6f35a6bddfe3ef30290572493"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Art appraisal services",
+            "Insurance appraisals",
+            "Estate and donation appraisals"
+          ],
+          "sourceUrl": "https://fineart.services/services",
+          "sourceUrls": [
+            "https://fineart.services/services",
+            "https://fineart.services/"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The linked owned services page explicitly advertises fine-art appraisals for estate planning/taxes, insurance scheduling and non-cash charitable contributions. These support the existing labels; they do not verify qualifications, recipient acceptance, current Phoenix locality, inspection method, availability or any legal/tax guarantee. The homepage alone did not support all intended uses.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineart.services/services",
+              "retrievedAt": "2026-10-08T14:40:23.960Z",
+              "bodySha256": "ee1b6333d89473738b1b3964fd73fec7237002d146468f9c9d3f1c45f8b73953"
+            },
+            {
+              "sourceUrl": "https://fineart.services/",
+              "retrievedAt": "2026-10-08T14:39:35.762Z",
+              "bodySha256": "75b76f42b2836a699cbd5f070b8e4597eeaa48f6f35a6bddfe3ef30290572493"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "allrich-fine-art-services",
@@ -809,10 +867,59 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/anderson-fine-art-appraisals/",
-      "canonicalProviderId": "provider:anderson-fine-art-appraisals"
+      "canonicalProviderId": "provider:anderson-fine-art-appraisals",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Fine art appraisals",
+            "Estate valuations",
+            "Insurance appraisals",
+            "Donation appraisals"
+          ],
+          "sourceUrl": "https://www.art-appraisals.net/",
+          "sourceUrls": [
+            "https://www.art-appraisals.net/"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The named firm advertises fine-art valuation plus insurance, estate and donation assignments. This supports existing service labels, not qualifications, compliance or report acceptance. The contact now lists appointment-only Beverly Hills, conflicting with the published Anaheim locality; that locality finding remains open for a separate synchronized public correction. No office or inspection guarantee is attested here.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.art-appraisals.net/",
+              "retrievedAt": "2026-10-08T14:39:35.806Z",
+              "bodySha256": "94a2dcece0be2c41c57a3fe060fda9036e99df2cb1b8d700036ccd529c924954"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Art appraisal services",
+            "Insurance appraisals",
+            "Estate and donation appraisals"
+          ],
+          "sourceUrl": "https://www.art-appraisals.net/",
+          "sourceUrls": [
+            "https://www.art-appraisals.net/"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The named firm advertises fine-art valuation plus insurance, estate and donation assignments. This supports existing service labels, not qualifications, compliance or report acceptance. The contact now lists appointment-only Beverly Hills, conflicting with the published Anaheim locality; that locality finding remains open for a separate synchronized public correction. No office or inspection guarantee is attested here.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.art-appraisals.net/",
+              "retrievedAt": "2026-10-08T14:39:35.806Z",
+              "bodySha256": "94a2dcece0be2c41c57a3fe060fda9036e99df2cb1b8d700036ccd529c924954"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "anderson-fine-art-appraisals-afaa",
@@ -1232,10 +1339,59 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/art-appraisals-of-new-england/",
-      "canonicalProviderId": "provider:art-appraisals-of-new-england"
+      "canonicalProviderId": "provider:art-appraisals-of-new-england",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Fine art appraisals",
+            "Estate valuations",
+            "Insurance appraisals",
+            "Donation appraisals"
+          ],
+          "sourceUrl": "https://www.artappraisalsne.com/01",
+          "sourceUrls": [
+            "https://www.artappraisalsne.com/01"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The named practice advertises fine-art/personal-property appraisals and insurance, estate and charitable-donation purposes. These support existing labels, not qualifications, standards currency or recipient acceptance. The owned footer identifies Cape Neddick, Maine and the body lists southern Maine coverage, not the published Boston primary locality; that finding remains open. Historical client coverage and onsite process text are not a current office or universal inspection promise.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.artappraisalsne.com/01",
+              "retrievedAt": "2026-10-08T14:39:35.967Z",
+              "bodySha256": "57c33c390f62fc7135a69a036c02b5eb71e97a282aab07001677cc2e79925661"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Art appraisal services",
+            "Insurance appraisals",
+            "Estate and donation appraisals"
+          ],
+          "sourceUrl": "https://www.artappraisalsne.com/01",
+          "sourceUrls": [
+            "https://www.artappraisalsne.com/01"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The named practice advertises fine-art/personal-property appraisals and insurance, estate and charitable-donation purposes. These support existing labels, not qualifications, standards currency or recipient acceptance. The owned footer identifies Cape Neddick, Maine and the body lists southern Maine coverage, not the published Boston primary locality; that finding remains open. Historical client coverage and onsite process text are not a current office or universal inspection promise.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.artappraisalsne.com/01",
+              "retrievedAt": "2026-10-08T14:39:35.967Z",
+              "bodySha256": "57c33c390f62fc7135a69a036c02b5eb71e97a282aab07001677cc2e79925661"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "art-asset-management-group",
@@ -13355,10 +13511,72 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/victoria-shaw-art-appraisals-advisory/",
-      "canonicalProviderId": "provider:victoria-shaw-art-appraisals-and-advisory"
+      "canonicalProviderId": "provider:victoria-shaw-art-appraisals-and-advisory",
+      "fieldEvidence": {
+        "specialties": {
+          "value": [
+            "Fine art appraisals",
+            "Art advisory",
+            "Estate valuations",
+            "Insurance appraisals"
+          ],
+          "sourceUrl": "https://www.artappraiser.co/services",
+          "sourceUrls": [
+            "https://www.artappraiser.co/services",
+            "https://www.artappraiser.co/about"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The named practice advertises art appraisal, collection advisory and insurance, estate and charitable-giving purposes. These support the exact existing service labels; they do not verify qualifications, independence, compliance, turnaround, fees, guaranteed legal/tax acceptance, current office locality or inspection arrangements. Current credential marketing is not imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.artappraiser.co/services",
+              "retrievedAt": "2026-10-08T14:39:36.765Z",
+              "bodySha256": "081776dc2738345dd6bc9dad6043e7ed79e4afcefd9cbbd4a1e8e41ec6f51ce5"
+            },
+            {
+              "sourceUrl": "https://www.artappraiser.co/about",
+              "retrievedAt": "2026-10-08T14:39:36.411Z",
+              "bodySha256": "fbc238e9e46462dc726962ab9ab3758068341b1e54177988e7ddba83cfb4006e"
+            }
+          ]
+        },
+        "appraisal_use_cases": {
+          "value": [
+            "Art appraisal services",
+            "Estate and insurance appraisals",
+            "Donation appraisals",
+            "Collection advisory"
+          ],
+          "sourceUrl": "https://www.artappraiser.co/services",
+          "sourceUrls": [
+            "https://www.artappraiser.co/services",
+            "https://www.artappraiser.co/about"
+          ],
+          "checkedAt": "2026-10-08",
+          "evidenceScope": "provider_attributed_existing_service_labels",
+          "independentCredentialVerification": false,
+          "note": "The named practice advertises art appraisal, collection advisory and insurance, estate and charitable-giving purposes. These support the exact existing service labels; they do not verify qualifications, independence, compliance, turnaround, fees, guaranteed legal/tax acceptance, current office locality or inspection arrangements. Current credential marketing is not imported.",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.artappraiser.co/services",
+              "retrievedAt": "2026-10-08T14:39:36.765Z",
+              "bodySha256": "081776dc2738345dd6bc9dad6043e7ed79e4afcefd9cbbd4a1e8e41ec6f51ce5"
+            },
+            {
+              "sourceUrl": "https://www.artappraiser.co/about",
+              "retrievedAt": "2026-10-08T14:39:36.411Z",
+              "bodySha256": "fbc238e9e46462dc726962ab9ab3758068341b1e54177988e7ddba83cfb4006e"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "vivanco-art-and-appraisals",

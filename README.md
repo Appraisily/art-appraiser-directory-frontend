@@ -194,6 +194,14 @@ service/certification wording remain unresolved. The regression is included in
 `test:resources`; this source-only ledger does not close the strict truth audit
 or prove a Google outcome.
 
+The [limited service-field ledger](docs/limited-service-field-provenance-20261008.md)
+supports eight existing service/specialty fields across four limited records,
+with separately dated primary-source captures and exact-value negative tests.
+Original reviews, status, IDs and every public byte stay unchanged. Four locality
+findings remain, including owned-source conflicts for Anderson and Art Appraisals
+of New England requiring a separate synchronized public correction. This is
+source-only provenance, not a provider promotion or a new static release.
+
 The [holding-profile locality ledger](docs/holding-profile-locality-provenance-20261008.md)
 records four separately dated existing base/contact localities after examining
 all 26 remaining locality findings in the original holding cohort. It does not
