@@ -5294,8 +5294,24 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location",
+        "company_relationship"
       ],
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.hollingsworthfinearts.com/",
+          "value": { "city": "Orlando", "region": "FL", "country": "US" },
+          "note": "Provider-published Orlando company base, not a street address, walk-in office or guaranteed service radius. Replaces unsupported Pensacola."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.hollingsworthfinearts.com/",
+          "value": { "personNameOnSource": "Lauren Stump", "personProviderId": "provider:lauren-k-stump", "role": "Owner and operator" },
+          "note": "Business and person remain distinct. The company's website is not a sameAs match to Lauren's FAIR person profile. No individual office or independently verified credential inferred."
+        }
+      },
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/hollingsworth-fine-a/",
       "canonicalProviderId": "provider:hollingsworth-fine-arts"
     },
@@ -6760,8 +6776,23 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship"
       ],
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.hollingsworthfinearts.com/",
+          "reason": "The source locates Hollingsworth Fine Arts in Orlando, not a separate Lauren Stump office or personal address. No personal locality inferred from the company or FAIR listing."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.hollingsworthfinearts.com/",
+          "value": { "nameOnSource": "Lauren Stump", "companyProviderId": "provider:hollingsworth-fine-arts", "role": "Owner and operator" },
+          "note": "Retain the historical Lauren K. Stump record name/slug and matching FAIR person link. The official source uses Lauren Stump; it does not independently confirm the middle initial, professional designation or personal office."
+        }
+      },
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-k-stump/",
       "canonicalProviderId": "provider:lauren-k-stump"
     },

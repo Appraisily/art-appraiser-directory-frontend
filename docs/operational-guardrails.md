@@ -14,6 +14,8 @@ This repo is static-first.
   receive the generic `public_site/appraiser-unavailable.html` response.
 - Matching FAIR Fine-art profiles may be cited as extra `sameAs` plus a "FAIR public registry" link.
   The official website remains the source CTA. FAIR verification status is not copied onto Art.
+  A shared website is not proof that a company and a person are the same entity;
+  retain their sourced relationship without cross-entity `sameAs` or inferred offices.
 
 ## Commands
 

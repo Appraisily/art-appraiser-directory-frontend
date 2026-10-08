@@ -1152,15 +1152,6 @@
       "match": "website_host"
     },
     {
-      "slug": "hollingsworth-fine-a",
-      "name": "Hollingsworth Fine Arts",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://www.hollingsworthfinearts.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/lauren-k-stump-orlando-fl/",
-      "fairName": "Lauren K. Stump",
-      "match": "website_host"
-    },
-    {
       "slug": "home-foltz-fine-art",
       "name": "Foltz Fine Art LLC",
       "publicationStatus": "limited",

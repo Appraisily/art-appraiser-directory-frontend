@@ -36,6 +36,7 @@ const routes = [
   '/appraiser/812-maplewood/', '/appraiser/anne-kelly-lewis/', '/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/',
   '/appraiser/manhattan-fine-art-appraisers/',
   '/appraiser/worthwise-art-and-antiques-appraisers/',
+  '/appraiser/hollingsworth-fine-a/', '/appraiser/lauren-k-stump/',
   ...resources.map((page) => page.path),
   ...unpublished.map((page) => page.route),
 ];
@@ -282,6 +283,20 @@ try {
             if (shown() !== 1) throw new Error('Real-browser provider-name filter failed');
             row.filterInteraction = { empty: 0, reset: total, name: 1 };
             run('click', '[data-browse-reset]');
+          }
+          if (viewport.width === 320 && ['/appraiser/hollingsworth-fine-a/', '/appraiser/lauren-k-stump/'].includes(route)) {
+            const target = route === '/appraiser/hollingsworth-fine-a/' ? '/appraiser/lauren-k-stump/' : '/appraiser/hollingsworth-fine-a/';
+            const linkedProvider = providers.find(record => target === `/appraiser/${record.slug}/`);
+            const href = run('eval', 'document.querySelector("[data-provider-relationship-link]")?.getAttribute("href")').result;
+            if (href !== target) throw new Error('Company/person native relationship target changed');
+            run('scrollintoview', '[data-provider-relationship-link]');
+            run('click', '[data-provider-relationship-link]');
+            run('wait', '--url', `**${target}**`);
+            run('wait', '1500');
+            const reached = run('eval', `(${captureDocument.toString()})(document, ${JSON.stringify(origin)})`).result;
+            assertDocumentParity(initial.get(target), reached, `${origin}${target}`);
+            if (reached.h1[0] !== linkedProvider.name) throw new Error('Native company/person link reached the wrong identity');
+            row.relationshipNavigation = { target, h1: reached.h1[0], entityType: reached.businesses[0]['@type'], exactDocumentParity: true };
           }
           if (javascript && viewport.width === 390 && route === '/art-appraisal-inquiry-worksheet/') {
             run('eval', 'window.__qaPrintCalls=0;window.print=()=>{window.__qaPrintCalls+=1}');

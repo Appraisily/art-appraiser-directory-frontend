@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-07T23:43:11.760Z",
+  "generatedAt": "2026-10-08T00:41:44.676Z",
   "count": 209,
   "appraisers": [
     {
@@ -2043,10 +2043,10 @@
       "slug": "hollingsworth-fine-a",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/hollingsworth-fine-a/",
       "name": "Hollingsworth Fine Arts",
-      "description": "Hollingsworth Fine Arts has a limited directory listing for Pensacola, FL. Confirm current services and qualifications directly with the business.",
+      "description": "Hollingsworth Fine Arts describes itself as an Orlando-based company owned and operated by Lauren Stump. Confirm services directly; limited directory listing.",
       "website": "https://www.hollingsworthfinearts.com/",
       "address": {
-        "city": "Pensacola",
+        "city": "Orlando",
         "region": "FL",
         "country": "US"
       },
@@ -2547,14 +2547,8 @@
       "slug": "lauren-k-stump",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/lauren-k-stump/",
       "name": "Lauren K. Stump",
-      "description": "Lauren K. Stump has a limited directory listing for Orlando, FL. Confirm current services and qualifications directly with the business.",
+      "description": "Lauren K. Stump is retained as an individual directory record. The official Hollingsworth Fine Arts website names Lauren Stump as its owner and operator.",
       "website": "https://www.hollingsworthfinearts.com/",
-      "address": {
-        "city": "Orlando",
-        "region": "FL",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/lauren-k-stump/",

@@ -47,7 +47,10 @@ export function captureDocument(document, canonicalOrigin) {
     h1: [...document.querySelectorAll('h1')].map((node) => compact(node.textContent)),
     mainText: compact(content.textContent),
     about: [...document.querySelectorAll('[data-provider-specific-about]')].map((node) => compact(node.textContent)),
-    businesses: schema.filter((node) => ['ProfessionalService', 'LocalBusiness'].includes(node['@type'])),
+    // Keep the historical snapshot key, but a provider may be a person rather
+    // than a business. A nested worksFor Organization is a relationship, not a
+    // second primary provider; duplicate provider entities still fail parity.
+    businesses: schema.filter((node) => ['ProfessionalService', 'LocalBusiness', 'Person'].includes(node['@type'])),
     handoffs: [...document.querySelectorAll('a[href]')].map((node) => new URL(node.getAttribute('href'), canonicalOrigin).href)
       .filter((href) => { const target = new URL(href); return target.origin === 'https://appraisily.com' && target.pathname === '/start'; }),
     anchors,

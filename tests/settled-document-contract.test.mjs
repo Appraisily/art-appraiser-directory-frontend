@@ -172,6 +172,23 @@ test('unpublished parity rejects duplicate metadata, a provider entity and lost 
   } finally { dom.window.close(); }
 });
 
+test('person profiles retain one provider identity without treating worksFor as another business', () => {
+  const url = `${origin}/appraiser/__qa_person__/`;
+  const person = { '@type': 'Person', name: 'Example person', url, worksFor: {
+    '@type': 'Organization', name: 'Example company', url: `${origin}/appraiser/__qa_company__/`,
+  } };
+  const dom = new JSDOM(`<title>Person profile</title><meta name="description" content="Person role"><link rel="canonical" href="${url}"><meta name="robots" content="index, follow"><h1>Example person</h1><p>Works for Example company.</p><script type="application/ld+json">${JSON.stringify(person)}</script>`, { url });
+  try {
+    const initial = captureDocument(dom.window.document, origin);
+    assert.deepEqual(initial.businesses, [person]);
+    assertDocumentParity(initial, initial, url);
+    assert.throws(() => assertDocumentParity(initial, { ...initial, businesses: [] }, url), /one provider entity/);
+    assert.throws(() => assertDocumentParity(initial, { ...initial, businesses: [person, person] }, url), /one provider entity/);
+    assert.throws(() => assertDocumentParity(initial, { ...initial, businesses: [{ ...person, url: person.worksFor.url }] }, url), /schema URL must agree/);
+    assert.throws(() => assertDocumentParity(initial, { ...initial, businesses: [{ ...person, '@type': 'ProfessionalService' }] }, url), /authored businesses/);
+  } finally { dom.window.close(); }
+});
+
 test('no active document invokes the legacy React canonical helper', () => {
   const files = [
     ...input.sitemapUrls.map((url) => `${new URL(url).pathname.slice(1)}index.html`),

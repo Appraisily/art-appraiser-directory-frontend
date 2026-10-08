@@ -143,9 +143,11 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-25 representative routes at desktop, 390px and 320px with JavaScript enabled and
-actually disabled. It uses isolated nginx and named browser sessions. Optional
-`--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
+27 representative routes at desktop, 390px and 320px with JavaScript enabled and
+actually disabled. It uses isolated nginx and named browser sessions.
+Person profiles keep their own primary entity; a sourced `worksFor` relationship
+does not turn the person into a company or confirm a separate personal office.
+Optional `--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
 candidate/live evidence. No production container restart is needed for this test.
 The standard isolated candidate gate runs this contract against the promoted
 candidate; an omitted declared URL, conflicting metadata, lost reviewed facts or
