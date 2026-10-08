@@ -143,7 +143,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-48 representative routes at desktop, 390px and 320px with JavaScript enabled and
+49 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions.
 Person profiles keep their own primary entity; a sourced `worksFor` relationship
 does not turn the person into a company or confirm a separate personal office.
@@ -198,6 +198,16 @@ The other 22 findings remain open, including a newly retrieved Plainville contac
 for Winter and Anne Kelly Lewis's current named biography without office evidence.
 The focused negative regressions are included in `test:resources`; public
 corrections and useful-selection decisions still need their separate gates.
+
+The subsequent [Winter/Anne factual correction](docs/winter-anne-factual-corrections-20261008.md)
+uses Winter's provider-published Plainville contact locality, not Hartford, and
+retains Anne as a Person with a sourced practice relationship and no unconfirmed
+Fort Worth office. Both existing URLs, limited statuses and August 30 reviews
+remain. Exact FAIR company/person fragments identify the respective entities;
+the registry does not supply office or qualification evidence. Native hubs,
+filters, metadata and feeds agree, without a new Plainville city page. Twenty
+other original-cohort locality findings retain strict negative coverage.
+Both changed profiles are covered by the initial/settled/real-no-JS browser gate.
 
 The [recorded-source provenance review](docs/provider-source-provenance-review-20261008.md)
 distinguishes external registry/marketplace sources from provider-owned websites.

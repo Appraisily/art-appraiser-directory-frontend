@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T09:19:53.842Z",
+  "generatedAt": "2026-10-08T11:11:37.048Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -372,14 +372,8 @@
       "slug": "anne-kelly-lewis",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/anne-kelly-lewis/",
       "name": "Anne Kelly Lewis",
-      "description": "Anne Kelly Lewis has a limited directory listing for Fort Worth, TX. Confirm current services and qualifications directly with the business.",
+      "description": "Anne Kelly Lewis is named as owner and president of Fine Art Appraisal, L.L.C. Confirm the assignment, inspection arrangements and current availability directly with the practice.",
       "website": "https://www.fineartappraisalllc.com/",
-      "address": {
-        "city": "Fort Worth",
-        "region": "TX",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/anne-kelly-lewis/",
@@ -3679,10 +3673,10 @@
       "slug": "winter-associates",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/",
       "name": "Winter Associates",
-      "description": "Winter Associates has a limited directory listing for Hartford, CT. Confirm current services and qualifications directly with the business.",
+      "description": "Winter Associates is an auction business with a provider-published Plainville, CT contact. Confirm the artwork scope and whether you need an auction estimate or appraisal report.",
       "website": "https://www.auctionsappraisers.com/",
       "address": {
-        "city": "Hartford",
+        "city": "Plainville",
         "region": "CT",
         "country": "US"
       },

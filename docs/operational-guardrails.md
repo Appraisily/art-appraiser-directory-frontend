@@ -100,6 +100,12 @@ This repo is static-first.
   checks do not replace their August 30 listing reviews or promote limited status.
   `tests/case-everard-contacts.test.mjs` guards the office roles, facet/breadcrumb,
   source snapshots and both feed representations, including missing-ledger negatives.
+- Winter's Plainville contact is not a Hartford office or a new city route.
+  Anne Kelly Lewis is a Person related to Fine Art Appraisal, L.L.C.; former
+  gallery employment is not current office evidence. Retain the exact matching
+  FAIR company/person fragments without importing registry locality, credentials
+  or status. `tests/winter-anne-factual-corrections.test.mjs` protects source dates,
+  entity/address decisions, native actions, metadata, browse facets and both feeds.
 - Provider identity images must depict the provider. Appraisily logos and
   generated non-likeness artwork may be publisher branding/page illustrations,
   but must not populate provider schema or provider/location feed image fields.

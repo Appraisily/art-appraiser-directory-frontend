@@ -13,14 +13,13 @@ const supported = [
   ['lindsey-m-owen', 'Chicago', 'IL', 'https://www.loappraisals.com/chicago-art-appraiser-the-appraisal-process', 'provider_published_appointment_only_base', '411bdb7a720c32ece6181f4395dd0662bb26fe25b0fe56829871c8200dcb0843'],
 ];
 const unresolved = [
-  '812-maplewood', 'anne-kelly-lewis', 'carrie-young', 'charles-barry-goldstein',
+  '812-maplewood', 'carrie-young', 'charles-barry-goldstein',
   'chris-ingalls', 'christine-guernsey', 'christine-h-anderson-isa-am',
   'connecticut-art-appraisals-llc-alizzandra-danker', 'elise-waters-olonia',
   'greg-c-brown', 'haney-appraisals-in-fine-art', 'heritage-fine-art-appraisers',
   'janet-l-ross', 'jessica-berger', 'kurt-shaw-company', 'lisa-austin-laa',
   'metropolitan-art-appraisers', 'shelley-hall-bend-art-appraisals',
   'the-fine-art-group', 'washington-fine-art-appraisers', 'williams-fine-art-gallery',
-  'winter-associates',
 ];
 const provider = slug => manifest.providers.find(row => row.slug === slug);
 function withProfile(slug, fn) {
@@ -82,8 +81,8 @@ test('Miami contact support does not attest fine-art scope or dealer independenc
   assert.equal(record.fieldEvidence.appraisal_use_cases, undefined);
   assert.equal(record.fieldEvidence.qualification, undefined);
 });
-test('all 22 unsupported original-cohort localities retain strict findings', () => {
-  assert.equal(unresolved.length, 22);
+test('all 20 still-unsupported original-cohort localities retain strict findings', () => {
+  assert.equal(unresolved.length, 20);
   for (const slug of unresolved) {
     const record = provider(slug);
     assert.equal(record.publicationStatus, 'limited'); assert.equal(record.verifiedAt, '2026-08-30');

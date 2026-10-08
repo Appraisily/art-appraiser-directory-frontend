@@ -33,7 +33,7 @@ const unpublished = [
 const routes = [
   '/', '/appraiser/', '/location/', '/location/boston/', '/location/baltimore/', '/location/denver/',
   ...focal, '/appraiser/spalding-nix-fine-art/', '/appraiser/a-and-a-art-appraisals-naples-fl/',
-  '/appraiser/812-maplewood/', '/appraiser/anne-kelly-lewis/', '/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/',
+  '/appraiser/812-maplewood/', '/appraiser/anne-kelly-lewis/', '/appraiser/winter-associates/', '/appraiser/appraisals-miami-fl-estate-and-appraisal-services-inc/',
   '/appraiser/manhattan-fine-art-appraisers/',
   '/appraiser/worthwise-art-and-antiques-appraisers/',
   '/appraiser/hollingsworth-fine-a/', '/appraiser/lauren-k-stump/',

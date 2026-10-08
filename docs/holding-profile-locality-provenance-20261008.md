@@ -7,6 +7,12 @@ requests where these could resolve a real ambiguity. No provider was contacted,
 form submitted, access protection bypassed, public file regenerated or Google
 state changed.
 
+Subsequent public correction: [Winter/Anne](winter-anne-factual-corrections-20261008.md)
+supports Winter's Plainville contact and omits Anne's unsupported office, reducing
+the remaining original-cohort locality findings from 22 to 20. The dated
+source-only decisions and original four supported fields below are preserved;
+the two new public decisions have their own tests and release proof.
+
 ## Four supported existing fields
 
 | Exact provider record | Supported value | Primary source and boundary |

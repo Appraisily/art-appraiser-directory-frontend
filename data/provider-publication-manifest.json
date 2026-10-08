@@ -857,7 +857,47 @@
         "website"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/anne-kelly-lewis/",
-      "canonicalProviderId": "provider:anne-kelly-lewis"
+      "canonicalProviderId": "provider:anne-kelly-lewis",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartappraisalllc.com/contact",
+          "decision": "omit",
+          "evidenceScope": "provider_source_does_not_establish_current_personal_office",
+          "note": "The current named biography identifies Anne as the practice owner and president. Fort Worth is explicitly past gallery employment in 2023–2024, not a current personal or company office. The linked contact page publishes a form but no office locality. Omit the unsupported Fort Worth address; do not replace it with Dallas, a former employer's address or a service-area inference.",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartappraisalllc.com/about",
+              "retrievedAt": "2026-10-08T11:02:41.848Z",
+              "bodySha256": "cfdf2fa5a198ec50196b192f8f39ac103da9f09f9c693c990c38195f713dd4a9"
+            },
+            {
+              "sourceUrl": "https://fineartappraisalllc.com/contact",
+              "retrievedAt": "2026-10-08T11:02:41.849Z",
+              "bodySha256": "75e06fe3d9ccdab67fe19d21f9dfc7ef1a9839982fc5bb3f0cdc5a99383adad0"
+            }
+          ]
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://fineartappraisalllc.com/about",
+          "evidenceScope": "provider_published_person_practice_relationship",
+          "value": {
+            "name": "Fine Art Appraisal, L.L.C.",
+            "relationship": "owner and president"
+          },
+          "note": "The provider's About page explicitly names Anne Kelly Lewis as the owner and president of Fine Art Appraisal, L.L.C. This supports a Person with a worksFor relationship, not person/company equivalence, a personal office or imported ISA, USPAP or IRS acceptance assertions.",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://fineartappraisalllc.com/about",
+              "retrievedAt": "2026-10-08T11:02:41.848Z",
+              "bodySha256": "cfdf2fa5a198ec50196b192f8f39ac103da9f09f9c693c990c38195f713dd4a9"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "antique-and-estate-buyers",
@@ -13615,10 +13655,33 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "primary_location"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/winter-associates/",
-      "canonicalProviderId": "provider:winter-associates"
+      "canonicalProviderId": "provider:winter-associates",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.auctionsappraisers.com/",
+          "value": {
+            "city": "Plainville",
+            "region": "CT",
+            "country": "US"
+          },
+          "locationRole": "practice_contact",
+          "evidenceScope": "provider_published_contact_locality",
+          "note": "The current named business homepage publishes Plainville, Connecticut in its contact footer, not Hartford. This establishes contact locality only, not a new city page, individual office, headquarters or walk-in inspection promise. Auction results and appraisal-purpose marketing are not independent qualification, fine-art-specialism, report-acceptance or conflict-of-interest verification.",
+          "independentCredentialVerification": false,
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.auctionsappraisers.com/",
+              "retrievedAt": "2026-10-08T11:03:35.925Z",
+              "bodySha256": "e7216e721b145c02cec78126831a18988aea6fe8d27acf411117ad00371c73b7"
+            }
+          ]
+        }
+      }
     },
     {
       "slug": "woodard-lipe-fine-art-auction",
