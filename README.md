@@ -168,6 +168,11 @@ candidate/live evidence. No production container restart is needed for this test
 The standard isolated candidate gate runs this contract against the promoted
 candidate; an omitted declared URL, conflicting metadata, lost reviewed facts or
 mobile overflow fails release. It does not prove Google inclusion.
+Failed CLI commands retain bounded, separate stdout/stderr, process code/status/
+signal and elapsed time in both the browser row and top-level receipt. The frozen
+candidate error preserves that context. The 45-second process timeout, command
+arguments, one-attempt policy, wait durations and all page assertions remain
+unchanged; diagnostics do not accept a failed state or retry it automatically.
 
 The [Poras field ledger](docs/poras-field-provenance-20261008.md) supplies
 separately dated provider-attributed evidence for the existing specialty/service

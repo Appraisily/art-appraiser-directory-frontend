@@ -7,6 +7,7 @@ import process from 'node:process';
 import { JSDOM } from 'jsdom';
 import { assertDocumentParity, assertHandoffAttribution, assertProviderEvidence, assertReviewedInventory, assertUnpublishedDocumentParity, captureDocument } from './settled-document-contract.mjs';
 import { assertOwnedHandoffArrival, assertProviderHandoff, captureProviderHandoff } from './provider-handoff-contract.mjs';
+import { runBrowserCommand } from './browser-command-diagnostics.mjs';
 
 const repoRoot = path.resolve(import.meta.dirname, '..');
 const origin = 'https://art-appraisers-directory.appraisily.com';
@@ -154,18 +155,9 @@ try {
   for (const javascript of [true, false]) {
     const session = `art-parity-${process.pid}-${javascript ? 'js' : 'nojs'}`;
     const args = javascript ? '--no-sandbox' : '--no-sandbox,--blink-settings=scriptEnabled=false';
-    const makeRun = (name) => (...command) => {
-      let raw;
-      try { raw = execFileSync('agent-browser', ['--session', name, '--json', ...command], {
-        encoding: 'utf8', timeout: 45000, maxBuffer: 8 * 1024 * 1024,
-        env: { ...process.env, AGENT_BROWSER_SOCKET_DIR: socketDir, AGENT_BROWSER_ARGS: args },
-      }); } catch (error) {
-        throw new Error(`agent-browser ${command[0]}: ${String(error.stdout || error.stderr || error.message).trim()}`);
-      }
-      const output = JSON.parse(raw);
-      if (!output.success) throw new Error(output.error || raw);
-      return output.data;
-    };
+    const makeRun = (name) => (...command) => runBrowserCommand(name, command, {
+      env: { ...process.env, AGENT_BROWSER_SOCKET_DIR: socketDir, AGENT_BROWSER_ARGS: args },
+    });
     const run = makeRun(session);
     // Third-party pages have their own scripts and global CLI error queue. A
     // separate owned session prevents their late errors contaminating Art/apex.
@@ -368,7 +360,7 @@ try {
             row.contactNavigation = { destination: `${destination.origin}${destination.pathname}`, h1: reached.h1, qa: reached.qa, adoptedJourneyIdentity: true };
           }
           row.ok = true;
-        } catch (error) { row.error = error.message; throw error; }
+        } catch (error) { row.error = error.message; row.commandFailure = error.browserCommand; throw error; }
         finally { result.browser.push(row); persist(); }
       }
     }
@@ -378,6 +370,7 @@ try {
   result.ok = true;
 } catch (error) {
   result.error = error.stack || error.message;
+  result.commandFailure = error.browserCommand;
   process.exitCode = 1;
 } finally {
   for (const run of sessions) { try { run('close'); } catch { /* Only this run's sessions. */ } }

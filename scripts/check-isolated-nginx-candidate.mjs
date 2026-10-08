@@ -208,7 +208,7 @@ try {
       ], { encoding: 'utf8', maxBuffer: 20 * 1024 * 1024 }));
     } catch (error) {
       const failed = error.stdout ? JSON.parse(error.stdout) : null;
-      throw new Error(`Settled document contract failed: ${failed?.error || error.message}`);
+      throw new Error(`Settled document contract failed: ${failed?.error || error.message}${failed?.commandFailure ? `\nCommand diagnostics: ${JSON.stringify(failed.commandFailure)}` : ''}`);
     }
     assert.equal(parity.ok, true, 'Settled document contract failed');
     settledDocument = {
