@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T04:10:50.704Z",
+  "generatedAt": "2026-10-08T05:22:07.504Z",
   "source": "canonical public_site HTML and embedded Schema.org JSON-LD only",
   "privacy": "Contains only fields already rendered on public directory pages. Private discovery and enrichment artifacts are excluded.",
   "counts": {
@@ -2320,7 +2320,7 @@
       "slug": "joette-pierce-and-associates",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/joette-pierce-and-associates/",
       "name": "Joette Pierce & Associates",
-      "description": "Newport Beach appraisal firm accredited by the American Society of Appraisers, providing certified fine-art valuations.",
+      "description": "Joette Pierce & Associates in Newport Beach offers certified fine-art appraisal valuations. The firm states it is accredited by the American Society of Appraisers.",
       "website": "https://www.joettepierceappraisals.com/",
       "address": {
         "city": "Newport Beach",

@@ -178,6 +178,10 @@ removes unconfirmed website-host FAIR equivalences. Historical names, limited
 status, original review dates and URLs remain unchanged. It does not infer a
 replacement office, merge historical names or import credentials.
 
+The [description-attribution contract](docs/provider-description-attribution-20261008.md)
+covers metadata, own provider-schema and feed accreditation assertions without
+promoting provider marketing to independent verification or changing review dates.
+
 The [reviewed-profile field ledger](docs/reviewed-profile-field-provenance-20261008.md)
 assesses all fourteen reviewed profiles and supports 36 existing fields without
 changing public files or original reviews. Two locality claims and Joette's

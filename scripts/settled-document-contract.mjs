@@ -42,6 +42,8 @@ export function captureDocument(document, canonicalOrigin) {
   return {
     title: document.title,
     descriptions: [...document.querySelectorAll('meta[name="description"]')].map((node) => node.content),
+    socialDescriptions: [...document.querySelectorAll('meta[property="og:description"],meta[name="og:description"],meta[name="twitter:description"],meta[property="twitter:description"]')]
+      .map((node) => ({ owner: node.getAttribute('property') || node.getAttribute('name'), content: node.content })),
     canonicals: [...document.querySelectorAll('link[rel="canonical"]')].map((node) => node.href),
     robots: [...document.querySelectorAll('meta[name="robots"]')].map((node) => node.content),
     h1: [...document.querySelectorAll('h1')].map((node) => compact(node.textContent)),
@@ -70,7 +72,7 @@ export function assertDocumentParity(initial, rendered, url) {
       assert.equal(state.businesses[0].url, url, `${url}: provider schema URL must agree`);
     }
   }
-  for (const field of ['title', 'descriptions', 'robots', 'h1', 'mainText', 'about', 'businesses']) {
+  for (const field of ['title', 'descriptions', 'socialDescriptions', 'robots', 'h1', 'mainText', 'about', 'businesses']) {
     assert.deepEqual(rendered[field], initial[field], `${url}: authored ${field} changed after rendering`);
   }
   const destinations = new Set(rendered.anchors.map((anchor) => JSON.stringify(anchor)));
@@ -101,7 +103,7 @@ export function assertUnpublishedDocumentParity(initial, rendered, { url, canoni
     assert.equal(state.businesses.length, 0, `${url}: unpublished document must not claim a provider entity`);
     assert.ok(state.mainText, `${url}: ${label} must contain authored content`);
   }
-  for (const field of ['title', 'descriptions', 'robots', 'h1', 'mainText', 'about', 'businesses']) {
+  for (const field of ['title', 'descriptions', 'socialDescriptions', 'robots', 'h1', 'mainText', 'about', 'businesses']) {
     assert.deepEqual(rendered[field], initial[field], `${url}: authored ${field} changed after rendering`);
   }
   const anchors = new Set(rendered.anchors.map((anchor) => JSON.stringify(anchor)));
