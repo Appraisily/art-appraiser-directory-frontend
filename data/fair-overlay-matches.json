@@ -1249,15 +1249,6 @@
       "match": "website_host"
     },
     {
-      "slug": "jennifer-e-salvetti-kulla-ma",
-      "name": "Jennifer E Salvetti-Kulla, MA",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://jskfineartappraisals.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/",
-      "fairName": "JSK Fine Art Appraisals",
-      "match": "website_host"
-    },
-    {
       "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
       "name": "Jennifer L. Stoots, AAA",
       "publicationStatus": "limited",
@@ -1316,9 +1307,23 @@
       "name": "JSK Fine Art Appraisals",
       "publicationStatus": "limited",
       "sourceUrl": "https://jskfineartappraisals.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/",
+      "fairUrl": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/#professionalservice",
       "fairName": "JSK Fine Art Appraisals",
-      "match": "website_host"
+      "match": "website_host",
+      "entityReview": {
+        "checkedAt": "2026-10-08",
+        "sourceUrl": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/",
+        "entityId": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/#professionalservice",
+        "entityType": "ProfessionalService",
+        "sourceSnapshots": [
+          {
+            "sourceUrl": "https://fairappraisers.org/appraisers/jsk-fine-art-appraisals-solana-beach-ca/",
+            "retrievedAt": "2026-10-08T02:08:54.828Z",
+            "bodySha256": "534b46c99c878211a371ad15d3b2fba589f3074739785ae2a32764f9ea5f5c30"
+          }
+        ],
+        "note": "Exact named company entity; no Person for Jennifer exists on this record. Website-host discovery is not person/company equivalence. No credentials imported."
+      }
     },
     {
       "slug": "julia-r-bluett",

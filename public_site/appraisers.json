@@ -2,7 +2,7 @@
   "title": "Art Appraisers Directory appraiser profiles",
   "kind": "art",
   "baseUrl": "https://art-appraisers-directory.appraisily.com",
-  "generatedAt": "2026-10-08T01:30:31.389Z",
+  "generatedAt": "2026-10-08T02:16:29.522Z",
   "count": 209,
   "appraisers": [
     {
@@ -2277,14 +2277,8 @@
       "slug": "jennifer-e-salvetti-kulla-ma",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-e-salvetti-kulla-ma/",
       "name": "Jennifer E Salvetti-Kulla, MA",
-      "description": "Jennifer E Salvetti-Kulla, MA has a limited directory listing for Solana Beach, CA. Confirm current services and qualifications directly with the business.",
+      "description": "Jennifer E Salvetti-Kulla, MA is retained as an individual record linked to JSK Fine Art Appraisals, separately from the company and its published base.",
       "website": "https://jskfineartappraisals.com/",
-      "address": {
-        "city": "Solana Beach",
-        "region": "CA",
-        "country": "US"
-      },
-      "serviceType": "Directory listing",
       "source": {
         "type": "public_site_html_json_ld",
         "route": "/appraiser/jennifer-e-salvetti-kulla-ma/",
@@ -2403,10 +2397,10 @@
       "slug": "jsk-fine-art-appraisals",
       "url": "https://art-appraisers-directory.appraisily.com/appraiser/jsk-fine-art-appraisals/",
       "name": "JSK Fine Art Appraisals",
-      "description": "JSK Fine Art Appraisals has a limited directory listing for Temecula, CA. Confirm current services and qualifications directly with the business.",
+      "description": "JSK Fine Art Appraisals describes itself as Solana Beach-based and identifies Jennifer Salvetti-Kulla as an appraiser with the practice. Contact by appointment.",
       "website": "https://jskfineartappraisals.com/",
       "address": {
-        "city": "Temecula",
+        "city": "Solana Beach",
         "region": "CA",
         "country": "US"
       },

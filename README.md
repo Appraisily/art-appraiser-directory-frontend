@@ -143,7 +143,7 @@ The five original reviewed profiles serve their authored HTML without mounting
 the legacy SPA, preserving source dates, specialties and services. `test:resources`
 includes metadata/content parity negative fixtures. `npm run test:settled-browser`
 checks every sitemap URL against the reviewed manifest/city/resource inventory and
-29 representative routes at desktop, 390px and 320px with JavaScript enabled and
+31 representative routes at desktop, 390px and 320px with JavaScript enabled and
 actually disabled. It uses isolated nginx and named browser sessions.
 Person profiles keep their own primary entity; a sourced `worksFor` relationship
 does not turn the person into a company or confirm a separate personal office.
@@ -152,6 +152,11 @@ separates the New York City-based firm from its founder/principal. Each retained
 profile uses the exact matching company/person identifier on the same FAIR record;
 a mixed record URL alone is not a single-entity equivalence. Original limited
 reviews and URLs remain. New field evidence does not import credentials.
+The [JSK/Jennifer correction](docs/jsk-person-company-correction-20261008.md)
+uses Solana Beach as the provider-published company base and treats Jennifer as
+a separate Person. FAIR identifies the company only; Jennifer references her
+exact ISA individual profile, not the company. The existing service labels have
+separately dated provider-attributed evidence, not guaranteed recipient acceptance.
 Optional `--base`, `--receipt`, `--artifact-dir` and `--policy-root` arguments support exact
 candidate/live evidence. No production container restart is needed for this test.
 The standard isolated candidate gate runs this contract against the promoted

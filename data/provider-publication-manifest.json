@@ -6065,10 +6065,54 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship",
+        "person_identity"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jennifer-e-salvetti-kulla-ma/",
-      "canonicalProviderId": "provider:jennifer-e-salvetti-kulla-ma"
+      "canonicalProviderId": "provider:jennifer-e-salvetti-kulla-ma",
+      "fieldEvidence": {
+        "primary_location": {
+          "decision": "omit",
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://jskfineartappraisals.com/about/",
+          "note": "Company/contact locations do not establish a separate personal office. Omit the individual address; retain the sourced practice relationship and exact personal registry reference."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://jskfineartappraisals.com/about/",
+          "value": {
+            "companyNameOnSource": "JSK Fine Art Appraisals",
+            "personNameOnSource": "Jennifer Salvetti-Kulla",
+            "relatedProviderId": "provider:jsk-fine-art-appraisals",
+            "role": "Appraiser at JSK Fine Art Appraisals"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://jskfineartappraisals.com/about/",
+              "retrievedAt": "2026-10-08T02:08:54.779Z",
+              "bodySha256": "6e714dcece4cd3b336dd2b12bc9f7281506acf1d17af756102129859cbe8154d"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Practice/person relationship only; no academic-degree authentication, imported designation, competency recommendation or recipient acceptance."
+        },
+        "person_identity": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/15874/jennifer-e-salvetti-kulla-ma",
+          "value": "Jennifer E Salvetti-Kulla, MA",
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://www.isa-appraisers.org/find-an-appraiser/profile/15874/jennifer-e-salvetti-kulla-ma",
+              "retrievedAt": "2026-10-08T02:08:54.895Z",
+              "bodySha256": "2d7774f95b4ea5586fd336d3c5a4a0a76178a50836b43684d76b4edbe8a6c953"
+            }
+          ],
+          "evidenceScope": "exact_individual_name_and_practice_link",
+          "independentCredentialVerification": false,
+          "note": "ISA individual 15874 links the retained full name to JSK. The historical MA label remains a listed-name identifier, not an independently authenticated degree. No CAPP/USPAP designation or address is imported."
+        }
+      }
     },
     {
       "slug": "jennifer-l-stoots-aaa-certified-phototgraphy-and-art-appraiser",
@@ -6234,10 +6278,89 @@
       "verifiedBy": "website_backed_limited_publication",
       "claimScope": [
         "identity",
-        "website"
+        "website",
+        "company_relationship",
+        "primary_location",
+        "specialties",
+        "appraisal_use_cases"
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/jsk-fine-art-appraisals/",
-      "canonicalProviderId": "provider:jsk-fine-art-appraisals"
+      "canonicalProviderId": "provider:jsk-fine-art-appraisals",
+      "fieldEvidence": {
+        "primary_location": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://jskfineartappraisals.com/about/",
+          "value": {
+            "city": "Solana Beach",
+            "region": "CA",
+            "country": "US"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://jskfineartappraisals.com/about/",
+              "retrievedAt": "2026-10-08T02:08:54.779Z",
+              "bodySha256": "6e714dcece4cd3b336dd2b12bc9f7281506acf1d17af756102129859cbe8154d"
+            }
+          ],
+          "note": "Provider-published company base and appointment-only contact. Not a Temecula branch, separate personal office or guaranteed coverage."
+        },
+        "company_relationship": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://jskfineartappraisals.com/about/",
+          "value": {
+            "companyNameOnSource": "JSK Fine Art Appraisals",
+            "personNameOnSource": "Jennifer Salvetti-Kulla",
+            "relatedProviderId": "provider:jennifer-e-salvetti-kulla-ma",
+            "role": "Appraiser at JSK Fine Art Appraisals"
+          },
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://jskfineartappraisals.com/about/",
+              "retrievedAt": "2026-10-08T02:08:54.779Z",
+              "bodySha256": "6e714dcece4cd3b336dd2b12bc9f7281506acf1d17af756102129859cbe8154d"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Practice/person relationship only; no academic-degree authentication, imported designation, competency recommendation or recipient acceptance."
+        },
+        "specialties": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://jskfineartappraisals.com/",
+          "value": [
+            "Fine art appraisals",
+            "Estate valuations",
+            "Insurance appraisals",
+            "Donation appraisals"
+          ],
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://jskfineartappraisals.com/",
+              "retrievedAt": "2026-10-08T02:08:54.714Z",
+              "bodySha256": "2af29ed067cc26fe734aa9c3b08a05f34553a3d1f9c8d9e4ce4eb378b7e222ad"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Exact existing public labels mapped to the provider’s fine-art, estate/trust, insurance and donation offerings. Provider-attributed scope only; no legal/tax compliance, recipient acceptance or qualification guarantee."
+        },
+        "appraisal_use_cases": {
+          "checkedAt": "2026-10-08",
+          "sourceUrl": "https://jskfineartappraisals.com/",
+          "value": [
+            "Art appraisal services",
+            "Insurance appraisals",
+            "Estate and donation appraisals"
+          ],
+          "sourceSnapshots": [
+            {
+              "sourceUrl": "https://jskfineartappraisals.com/",
+              "retrievedAt": "2026-10-08T02:08:54.714Z",
+              "bodySha256": "2af29ed067cc26fe734aa9c3b08a05f34553a3d1f9c8d9e4ce4eb378b7e222ad"
+            }
+          ],
+          "independentCredentialVerification": false,
+          "note": "Exact existing public labels mapped to the provider’s fine-art, estate/trust, insurance and donation offerings. Provider-attributed scope only; no legal/tax compliance, recipient acceptance or qualification guarantee."
+        }
+      }
     },
     {
       "slug": "juan-lluria-fine-arts",
