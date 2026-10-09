@@ -1,5 +1,13 @@
 # Art Appraiser Directory Frontend
 
+> **Retired 2026-10-09.** Every `art-appraisers-directory.appraisily.com` URL
+> now 301s to the Antique directory (Traefik `retired-art-directory-*` routers
+> in vps-infra). The 14 reviewed fine-art specialists are listed on Antique
+> `/art-appraisers-near-me/` and the matching city pages. Do not run
+> provider-fact batches or releases here: nothing in this repo is served. This
+> source remains only for history and rollback. Decision and data:
+> `/srv/manager/projects/art-directory-path-migration/DECISION.md`.
+
 This repository now operates as a static publishing system for the Art Appraiser Directory website.
 
 The production surface is plain HTML served directly from `public_site/` through the VPS release directory. Source data still lives in the repo, but the canonical published artifact is the final static HTML, not a rebuilt SPA bundle.
