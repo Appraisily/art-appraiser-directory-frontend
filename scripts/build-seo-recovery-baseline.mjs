@@ -7,7 +7,7 @@ import { hashStaticTree } from '/srv/repos/tools/appraisily-vps-deploy/scripts/s
 
 const output = path.resolve(
   process.argv[2]
-    || '/srv/manager/seo/2026-07-26/art-directory-diagnosis/implementation-baseline.json',
+    || '/srv/manager/automation/seo/2026-07-26/art-directory-diagnosis/implementation-baseline.json',
 );
 const surfaces = {
   art: '/mnt/srv-storage/art-appraisers-directory/releases/current',
@@ -73,7 +73,7 @@ const enriched = Object.fromEntries(
     records.map((record) => ({ ...record, live: outcomeByTarget.get(record.cleanTarget) })),
   ]),
 );
-const evidenceRoot = '/srv/manager/seo/2026-07-26/art-directory-diagnosis';
+const evidenceRoot = '/srv/manager/automation/seo/2026-07-26/art-directory-diagnosis';
 const evidence = [];
 for (const entry of await fs.readdir(evidenceRoot, { withFileTypes: true })) {
   if (!entry.isFile() || entry.name === path.basename(output)) continue;
