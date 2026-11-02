@@ -407,7 +407,7 @@ Also:
   one provider, and location hub;
 - run the Antique directory's applicable static/feed checks after the shared
   feed-generator change;
-- run `node /srv/repos/env-governance/check-all.mjs` only if environment or
+- run `node /srv/repos/tools/env-governance/check-all.mjs` only if environment or
   runtime configuration changes.
 
 Acceptance:

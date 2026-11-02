@@ -178,7 +178,7 @@ Internal canary evidence, 2026-07-18:
   and geolocation event payloads without sending synthetic feedback.
 - Main-page follow-up:
   `main-page-2026-07-18-start-react-errors` in
-  `/srv/repos/agent-memory/todos.md`.
+  `/srv/manager/task-index/todos.md`.
 
 ## Required Decisions
 
@@ -480,7 +480,7 @@ ART-002 and ART-003 should land before broad styling work because they determine
 - [x] Image URL and rendered fallback tests.
 - [x] Structured-data and empty-field checks.
 - [x] Asset-reference/orphan report for both asset prefixes.
-- [x] `node /srv/repos/env-governance/check-all.mjs` only if env or runtime configuration changes.
+- [x] `node /srv/repos/tools/env-governance/check-all.mjs` only if env or runtime configuration changes.
 
 The workspace-wide environment check passed the art frontend and
 `art-appraisers-directory` service schemas. It also reported unrelated stale

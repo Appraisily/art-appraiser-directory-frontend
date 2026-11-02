@@ -41,7 +41,7 @@
         "build:llm-feeds": "node ./scripts/build-directory-llm-feeds.mjs --public-dir public_site --kind art",
     "repair:static-fallback-scope": "node ./scripts/scope-static-fallback-pages.mjs",
     "recovery:apply-reviewed-cohort": "node ./scripts/apply-recovery-reviewed-cohort.mjs --write && node ./scripts/scope-static-fallback-pages.mjs --write && npm run seo:indexing-manifest && npm run build:llm-feeds && node ./scripts/repair-directory-html-parity.mjs --public-dir public_site --write && npm run build:llm-feeds && npm run seo:indexing-manifest",
-        "env:check": "node ../../env-governance/run-check.mjs --schema frontends/art-appraiser-directory-frontend",
+        "env:check": "node ../../tools/env-governance/run-check.mjs --schema frontends/art-appraiser-directory-frontend",
         "publish": "node -e \"console.error('Publishing is disabled here. Use the standard VPS deploy helper for art-appraisers-directory.'); process.exit(1)\"",
         "publish:patch": "node -e \"console.error('Deprecated: use the standard VPS deploy helper for art-appraisers-directory.'); process.exit(1)\"",
         "deploy": "node -e \"console.error('Deployment is disabled here. Use the standard VPS deploy helper for art-appraisers-directory.'); process.exit(1)\""
