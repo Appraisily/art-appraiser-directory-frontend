@@ -1698,15 +1698,6 @@
       "match": "website_host"
     },
     {
-      "slug": "perri-guthrie",
-      "name": "Perri Guthrie",
-      "publicationStatus": "limited",
-      "sourceUrl": "https://www.perriguthrie.com/",
-      "fairUrl": "https://fairappraisers.org/appraisers/perri-guthrie-woodside-ca/",
-      "fairName": "Perri Guthrie",
-      "match": "website_host"
-    },
-    {
       "slug": "peter-held-art-appraisals-associates",
       "name": "Peter Held Art Appraisals & Associates",
       "publicationStatus": "limited",

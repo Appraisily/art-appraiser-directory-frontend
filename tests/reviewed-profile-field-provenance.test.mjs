@@ -42,8 +42,8 @@ const preservedIds = {
   'st-lifer-art-inc-international-art-appraiser': 'provider:st-lifer-fine-art',
 };
 test('field provenance cannot duplicate or promote the provider inventory', () => {
-  assert.equal(manifest.providers.length, 866);
-  assert.equal(new Set(manifest.providers.map(row => row.slug)).size, 866);
+  assert.equal(manifest.providers.length, 864);
+  assert.equal(new Set(manifest.providers.map(row => row.slug)).size, 864);
   assert.equal(manifest.providers.filter(row => row.publicationStatus === 'verified').length, 14);
   assert.equal(manifest.providers.filter(row => row.publicationStatus === 'limited').length, 195);
 });

@@ -91,7 +91,7 @@ test('all 18 still-unsupported original-cohort localities retain strict findings
   }
 });
 test('locality evidence does not change provider eligibility', () => {
-  assert.equal(manifest.providers.length, 866);
+  assert.equal(manifest.providers.length, 864);
   assert.equal(manifest.providers.filter(row => row.publicationStatus === 'verified').length, 14);
   assert.equal(manifest.providers.filter(row => row.publicationStatus === 'limited').length, 195);
 });

@@ -62,8 +62,8 @@ test('service support alone never attests an office, current credential or inspe
   }
 });
 test('limited and reviewed inventory remains unchanged by service evidence', () => {
-  assert.equal(manifest.providers.length, 866); assert.equal(new Set(manifest.providers.map(row => row.slug)).size, 866);
+  assert.equal(manifest.providers.length, 864); assert.equal(new Set(manifest.providers.map(row => row.slug)).size, 864);
   assert.equal(manifest.providers.filter(row => row.publicationStatus === 'verified').length, 14);
   assert.equal(manifest.providers.filter(row => row.publicationStatus === 'limited').length, 195);
-  assert.equal(manifest.providers.filter(row => row.publicationStatus === 'under_review').length, 657);
+  assert.equal(manifest.providers.filter(row => row.publicationStatus === 'under_review').length, 655);
 });

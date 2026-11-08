@@ -29014,25 +29014,6 @@
       ]
     },
     {
-      "slug": "perri-guthrie",
-      "name": "Perri Guthrie",
-      "sourceFile": "woodside.json",
-      "publicationStatus": "under_review",
-      "identityPublicationStatus": "limited",
-      "findings": [
-        {
-          "code": "credential_missing_provenance",
-          "field": "expertise.certifications",
-          "value": "International Society of Appraisers (ISA)"
-        },
-        {
-          "code": "credential_missing_provenance",
-          "field": "expertise.certifications",
-          "value": "ISA CAPP"
-        }
-      ]
-    },
-    {
       "slug": "james-b-hand-fine-art-19th-and-20th-century-american-art-appraisals",
       "name": "James B. Hand Fine Art",
       "sourceFile": "worcester.json",

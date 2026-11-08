@@ -10063,22 +10063,6 @@
       "canonicalProviderId": "provider:peenstra-antique-appraisals"
     },
     {
-      "slug": "perri-guthrie",
-      "name": "Perri Guthrie",
-      "publicationStatus": "under_review",
-      "reason": "visible_profile_still_says_identity_under_review_2026-10-03",
-      "sourceUrl": "https://www.perriguthrie.com/",
-      "sourceType": "official_website",
-      "verifiedAt": "2026-08-30",
-      "verifiedBy": "website_backed_limited_publication",
-      "claimScope": [
-        "identity",
-        "website"
-      ],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/perri-guthrie/",
-      "canonicalProviderId": "provider:perri-guthrie"
-    },
-    {
       "slug": "peter-held-art-appraisals-associates",
       "name": "Peter Held Art Appraisals & Associates",
       "publicationStatus": "limited",
@@ -14059,19 +14043,6 @@
       ],
       "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/woodard-lipe-fine-art-auction/",
       "canonicalProviderId": "provider:woodard-lipe-fine-art-auction"
-    },
-    {
-      "slug": "woodside-perri-guthrie",
-      "name": "woodside-perri-guthrie",
-      "publicationStatus": "under_review",
-      "reason": "does_not_meet_reviewed_content_threshold_2026-07-15",
-      "sourceUrl": "",
-      "sourceType": "",
-      "verifiedAt": "",
-      "verifiedBy": "",
-      "claimScope": [],
-      "previousUrl": "https://art-appraisers-directory.appraisily.com/appraiser/woodside-perri-guthrie/",
-      "canonicalProviderId": "provider:woodside-perri-guthrie"
     },
     {
       "slug": "wyeth-appraisals",
