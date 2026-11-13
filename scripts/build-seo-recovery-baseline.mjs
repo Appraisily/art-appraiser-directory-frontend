@@ -10,8 +10,8 @@ const output = path.resolve(
     || '/srv/runtime/seo/2026-07-26/art-directory-diagnosis/implementation-baseline.json',
 );
 const surfaces = {
-  art: '/mnt/srv-storage/appraisily-runtime/apps/art-appraisers-directory/releases/current',
-  antique: '/mnt/srv-storage/appraisily-runtime/apps/antique-appraiser-directory/releases/current',
+  art: '/mnt/HC_Volume_107283188/appraisily-runtime/apps/art-appraisers-directory/releases/current',
+  antique: '/mnt/HC_Volume_107283188/appraisily-runtime/apps/antique-appraiser-directory/releases/current',
   articles: '/mnt/srv-storage/appraisily-articles/releases/current',
 };
 const sha256 = (value) => crypto.createHash('sha256').update(value).digest('hex');
